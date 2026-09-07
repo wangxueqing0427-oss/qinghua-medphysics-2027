@@ -78,10 +78,19 @@ nav button{flex:1;max-width:180px}.danger{background:#7f1d1d}
 </main>
 <nav>
   <button onclick="window.scrollTo({top:0,behavior:'smooth'})">今日</button>
+  <button class="secondary" onclick="openEpi()">📚 353资料库</button>
   <button class="secondary" onclick="copyPrompt()">AI抽背</button>
- <button class="secondary" onclick="openQuestionBank()">真题库</button>
+  <button class="secondary" onclick="alert('真题库暂保持原入口，等你拿到学长真题后再接入。')">真题库</button>
 </nav>
+<div id="epiModal" style="display:none;position:fixed;inset:0;background:#fff;z-index:20;overflow:auto">
+  <div style="position:sticky;top:0;background:#111827;color:#fff;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;z-index:2">
+    <b>📚 353 流行病学精华库</b><button onclick="closeEpi()" style="background:#fff;color:#111827;border:0;border-radius:10px;padding:7px 12px">返回主APP</button>
+  </div>
+  <iframe src="epi.html" style="width:100%;height:calc(100vh - 58px);border:0"></iframe>
+</div>
 <script>
+function openEpi(){document.getElementById('epiModal').style.display='block';document.body.style.overflow='hidden'}
+function closeEpi(){document.getElementById('epiModal').style.display='none';document.body.style.overflow=''}
 const KEY='qinghua2027_tasks_v1';
 const baseTasks=[
  {id:'e1',text:'英语一：完成1篇真题阅读并精读错题',tag:'英语',mins:40},
