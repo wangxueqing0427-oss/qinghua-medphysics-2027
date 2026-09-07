@@ -88,14 +88,14 @@ nav button{flex:1;max-width:180px}.danger{background:#7f1d1d}
   </div>
   <div style="padding:10px;display:flex;gap:8px;position:sticky;top:58px;background:#fff;z-index:2;border-bottom:1px solid #eee">
     <button onclick="showLibrary('epi')">流行病学</button>
-    <button class="secondary" onclick="showLibrary('stats')">卫生统计</button>
+    <button class="secondary" onclick="showLibrary('stats')">卫生统计</button><button class="secondary" onclick="showLibrary('public_health')">公共卫生</button>
   </div>
   <iframe id="libraryFrame" src="epi.html" style="width:100%;height:calc(100vh - 116px);border:0"></iframe>
 </div>
 <script>
 function openLibrary(){document.getElementById('libraryModal').style.display='block';document.body.style.overflow='hidden'}
 function closeLibrary(){document.getElementById('libraryModal').style.display='none';document.body.style.overflow=''}
-function showLibrary(kind){document.getElementById('libraryFrame').src=kind==='stats'?'stats.html':'epi.html'}
+function showLibrary(kind){document.getElementById('libraryFrame').src=kind==='stats'?'stats.html':kind==='public_health'?'public_health.html':'epi.html'}
 const KEY='qinghua2027_tasks_v1';
 const baseTasks=[
  {id:'e1',text:'英语一：完成1篇真题阅读并精读错题',tag:'英语',mins:40},
