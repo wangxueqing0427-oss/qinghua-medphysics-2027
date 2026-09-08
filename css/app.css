@@ -1,0 +1,218 @@
+:root {
+  --bg: #f3efe6;
+  --ink: #1b2430;
+  --muted: #5d6570;
+  --paper: #fffdf8;
+  --line: #e4ddd0;
+  --crimson: #8f2d2d;
+  --forest: #2f5d50;
+  --gold: #b45309;
+  --blue: #1e4d7b;
+  --ok: #2f5d50;
+  --warn: #b45309;
+  --bad: #8f2d2d;
+  --shadow: 0 8px 28px rgba(27, 36, 48, 0.07);
+  font-family: "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif SC", "PingFang SC", serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); min-height: 100%; }
+body { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+
+.app-header {
+  background: var(--ink);
+  color: #f3efe6;
+  padding: 20px 18px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 8;
+}
+.app-header h1 { margin: 0 0 4px; font-size: 22px; font-weight: 700; letter-spacing: 0.02em; }
+.app-header .sub { opacity: 0.72; font-size: 12px; font-family: "PingFang SC", sans-serif; }
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 14px 14px 24px; }
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: var(--shadow);
+}
+.card h2, .card h3 { margin: 0 0 8px; }
+.muted { color: var(--muted); font-size: 13px; font-family: "PingFang SC", sans-serif; }
+.small { font-size: 12px; color: var(--muted); font-family: "PingFang SC", sans-serif; }
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-end;
+}
+.days { font-size: 42px; line-height: 1; font-weight: 700; }
+.days span { font-size: 14px; margin-left: 4px; font-weight: 500; }
+
+.bar {
+  height: 9px;
+  background: #ebe4d6;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.bar > i { display: block; height: 100%; background: var(--ink); border-radius: 99px; }
+
+.row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+@media (max-width: 520px) { .grid3 { grid-template-columns: 1fr 1fr; } }
+
+.btn {
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 13px;
+  background: var(--ink);
+  color: #f3efe6;
+  font-family: "PingFang SC", sans-serif;
+  font-size: 14px;
+}
+.btn.ghost { background: #ebe4d6; color: var(--ink); }
+.btn.crimson { background: var(--crimson); }
+.btn.forest { background: var(--forest); }
+.btn.gold { background: var(--gold); }
+.btn.block { width: 100%; }
+.btn.tiny { padding: 7px 10px; font-size: 12px; border-radius: 10px; }
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #efe7d6;
+  font-family: "PingFang SC", sans-serif;
+  margin: 0 6px 6px 0;
+}
+.tag.s { background: #f3d6d6; color: var(--crimson); }
+.tag.a { background: #f3e3c8; color: var(--gold); }
+.tag.b { background: #dce6e2; color: var(--forest); }
+.tag.red { background: #f3d6d6; color: var(--crimson); }
+.tag.yellow { background: #f3e3c8; color: var(--gold); }
+.tag.green { background: #dce6e2; color: var(--forest); }
+
+.task {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.task:last-child { border-bottom: 0; }
+.task b { display: block; }
+.task.done b { text-decoration: line-through; color: #9aa1aa; }
+.task input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--ink); }
+
+.map-item { margin: 12px 0; }
+.map-item .row b { font-size: 14px; }
+
+.list-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  margin: 8px 0;
+}
+.list-item .ttl { font-size: 16px; font-weight: 700; }
+
+.points { padding-left: 18px; line-height: 1.75; }
+.points li { margin: 6px 0; }
+.box {
+  background: #f6f1e6;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px 0;
+  line-height: 1.7;
+}
+.box.warn { background: #f8ead8; }
+.box.ok { background: #e4eee9; }
+
+.quiz-q { font-size: 17px; line-height: 1.6; margin: 8px 0 14px; }
+.opt {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px 0;
+}
+.opt.on { border-color: var(--ink); background: #efe7d6; }
+.opt.right { border-color: var(--forest); background: #e4eee9; }
+.opt.wrong { border-color: var(--crimson); background: #f6e4e4; }
+
+.rate { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 12px; }
+.timer {
+  font-variant-numeric: tabular-nums;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tabbar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  background: rgba(255, 253, 248, 0.94);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 6px calc(8px + env(safe-area-inset-bottom));
+  z-index: 20;
+}
+.tabbar button {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 11px;
+  font-family: "PingFang SC", sans-serif;
+  padding: 6px 2px;
+}
+.tabbar button.on { color: var(--ink); font-weight: 700; }
+.tabbar button i { display: block; font-style: normal; font-size: 16px; margin-bottom: 2px; }
+
+.back {
+  border: 0;
+  background: transparent;
+  color: #f3efe6;
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-family: "PingFang SC", sans-serif;
+}
+
+.empty { text-align: center; padding: 28px 10px; color: var(--muted); }
+
+input[type=text], textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 12px;
+  padding: 11px;
+}
+
+.progress-ring { font-size: 28px; font-weight: 700; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.chip {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-family: "PingFang SC", sans-serif;
+}
+.chip.on { background: var(--ink); color: #f3efe6; border-color: var(--ink); }
