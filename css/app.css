@@ -216,3 +216,16 @@ input[type=text], textarea {
   font-family: "PingFang SC", sans-serif;
 }
 .chip.on { background: var(--ink); color: #f3efe6; border-color: var(--ink); }
+
+/* V9: 从小白到考场 */
+.quick-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px; }
+.quick-card { border:1px solid var(--line); background:#fff; border-radius:14px; padding:13px; text-align:left; }
+.quick-card b { display:block; margin-bottom:4px; }
+.phase { border-left:4px solid var(--ink); padding-left:12px; margin:14px 0; }
+.phase.current { border-left-width:7px; }
+.kpi { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:10px 0; }
+.kpi > div { background:#f6f1e6; border-radius:12px; padding:10px; text-align:center; }
+.kpi b { display:block; font-size:20px; }
+.callout { border:1px dashed var(--ink); border-radius:14px; padding:12px; margin:10px 0; background:#fff; }
+.link-card { display:block; text-decoration:none; background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:14px; margin:8px 0; }
+@media (max-width:520px){ .quick-grid{grid-template-columns:1fr 1fr}.kpi{grid-template-columns:1fr 1fr 1fr} }

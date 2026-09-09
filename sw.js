@@ -1,4 +1,4 @@
-const CACHE = "qh-os-v8-2";
+const CACHE = "qh-os-v53-content-audit";
 const ASSETS = [
   "./",
   "./index.html",

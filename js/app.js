@@ -49,6 +49,25 @@ function dueChapters() {
   return CHAPTERS.filter((c) => ids.includes(c.id));
 }
 
+
+function currentPhase() {
+  const today = Store.todayStr();
+  return ROADMAP.find((p) => today >= p.from && today <= p.to) || ROADMAP[ROADMAP.length - 1];
+}
+
+function coverageStats() {
+  const core = CHAPTERS.filter((c) => ["epi","stats","ph","mp"].includes(c.subject));
+  const learned = core.filter((c) => {
+    const k = Store.get().knowledge[c.id];
+    return k && k.status !== "new";
+  }).length;
+  const green = core.filter((c) => {
+    const k = Store.get().knowledge[c.id];
+    return k && k.status === "green";
+  }).length;
+  return { core: core.length, learned, green, questions: QUESTIONS.length };
+}
+
 function todayTasks() {
   const s = Store.get();
   const mode = s.mode;
@@ -141,6 +160,16 @@ function viewHome() {
         <button class="btn ${s.mode === "busy" ? "" : "ghost"}" onclick="Store.setMode('busy');render()">忙碌</button>
         <button class="btn ${s.mode === "trip" ? "" : "ghost"}" onclick="Store.setMode('trip');render()">出差</button>
         <button class="btn ${s.mode === "dinner" ? "" : "ghost"}" onclick="Store.setMode('dinner');render()">饭局后</button>
+      </div>
+    </section>
+    <section class="card">
+      <b>从小白到考场</b>
+      <p class="muted">不是资料堆。你每天只需要按“今日”做，系统负责把学习、背诵、练习、错题、复习和模拟串起来。</p>
+      <div class="quick-grid">
+        <button class="quick-card" onclick="go('/roadmap')"><b>备考路线</b><span class="small">现在在哪一阶段、下一步做什么</span></button>
+        <button class="quick-card" onclick="go('/library')"><b>完整资料库</b><span class="small">353四科精华库 + 章节学习</span></button>
+        <button class="quick-card" onclick="go('/method')"><b>怎么学</b><span class="small">学→背→练→错→复→考</span></button>
+        <button class="quick-card" onclick="go('/exam')"><b>进考场</b><span class="small">冲刺、用品、答题顺序</span></button>
       </div>
     </section>
     <section class="card">
@@ -592,6 +621,46 @@ function enWord(ok) {
   }
 }
 
+
+function viewRoadmap() {
+  const cur = currentPhase();
+  const c = coverageStats();
+  app.innerHTML = header("从小白到考场", "你只管执行，系统负责顺序", true) + `<main class="wrap">
+    <div class="card">
+      <b>当前阶段</b>
+      <div class="callout"><b>${escapeHtml(cur.name)}</b><div class="small">${cur.from} → ${cur.to}</div><p>${escapeHtml(cur.goal)}</p></div>
+      <div class="kpi"><div><b>${c.learned}/${c.core}</b><span class="small">353已学章节</span></div><div><b>${c.green}</b><span class="small">绿色章节</span></div><div><b>${c.questions}</b><span class="small">当前题库题目</span></div></div>
+      <button class="btn block" onclick="go('/')">回今日，直接开始做</button>
+    </div>
+    ${ROADMAP.map((p) => `<div class="card phase ${p.id===cur.id?'current':''}"><b>${escapeHtml(p.name)}${p.id===cur.id?' · 现在':''}</b><div class="small">${p.from} → ${p.to}</div><p>${escapeHtml(p.goal)}</p><b>每天</b><ul class="points">${p.daily.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><b>过关标准</b><ul class="points">${p.pass.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul></div>`).join('')}
+  </main>` + tabbar("/learn");
+}
+
+function viewLibrary() {
+  app.innerHTML = header("完整资料库", "学习页 + 详细精华库，两套内容已连通", true) + `<main class="wrap">
+    <div class="card"><b>先这样用</b><p>第一次学习用“章节学习”，快速抓主干；需要展开细节时打开对应“精华库”。学完立即做闭卷和练习，不把阅读当掌握。</p></div>
+    ${FULL_LIBRARIES.map((x)=>`<div class="card"><b>${escapeHtml(x.name)}</b><p class="muted">${escapeHtml(x.desc)}</p><div class="grid2"><button class="btn" onclick="go('/learn/${x.id}')">章节学习</button><button class="btn ghost" onclick="location.href='${x.file}'">打开精华库</button></div></div>`).join('')}
+    <div class="card"><b>英语一</b><p class="muted">当前系统含核心词、短阅读和专项题。后续真题材料继续并入同一入口。</p><button class="btn block" onclick="go('/english')">开始英语</button></div>
+    <div class="card"><b>思想政治</b><p class="muted">当前先做框架和选择题，冲刺阶段再加入当年时政与背诵材料。</p><button class="btn block" onclick="go('/learn/pol')">开始政治</button></div>
+  </main>` + tabbar("/learn");
+}
+
+function viewMethod() {
+  app.innerHTML = header("怎么学才算学会", "拒绝只看不输出", true) + `<main class="wrap">
+    <div class="card"><b>唯一闭环</b><p class="muted">每章都走完整闭环，才算真正进入你的长期记忆和考试输出。</p>${STUDY_METHOD.map((x,i)=>`<div class="task"><div><b>${i+1}</b></div><div><b>${escapeHtml(x[0])}</b><span class="small">${escapeHtml(x[1])}</span></div></div>`).join('')}</div>
+    <div class="card"><b>红黄绿标准</b><div class="box warn"><b>红：不会</b><br>题目一出来不知道从哪说，或核心概念说错。</div><div class="box"><b>黄：模糊</b><br>知道大意，但关键定义、公式、步骤不完整。</div><div class="box ok"><b>绿：会</b><br>不看答案能完整说出主干，并能用于做题。</div></div>
+    <button class="btn block" onclick="go('/review')">开始今天到期复习</button>
+  </main>` + tabbar("/learn");
+}
+
+function viewExam() {
+  app.innerHTML = header("进考场工具箱", "最后阶段只看最值钱的东西", true) + `<main class="wrap">
+    ${EXAM_TOOLBOX.map(x=>`<div class="card"><b>${escapeHtml(x.title)}</b><p>${escapeHtml(x.body)}</p></div>`).join('')}
+    <div class="card"><b>考前自检</b><label class="task"><input type="checkbox"><div><b>身份证/准考证</b><span class="small">按官方通知核对</span></div></label><label class="task"><input type="checkbox"><div><b>考试用品</b><span class="small">只带考点允许的用品</span></div></label><label class="task"><input type="checkbox"><div><b>路线与时间</b><span class="small">提前确认考点与出发时间</span></div></label><label class="task"><input type="checkbox"><div><b>最后背诵清单</b><span class="small">红黄点、公式、错题、答题框架</span></div></label></div>
+    <button class="btn block" onclick="go('/mock')">进入模拟考场</button>
+  </main>` + tabbar("/mock");
+}
+
 function parseQuery(q) {
   const o = {};
   (q || "").replace(/^\?/, "").split("&").forEach((p) => {
@@ -620,6 +689,10 @@ function render() {
   if (parts[0] === "mock") return viewMock(parts[1] === "run", parts[2]);
   if (parts[0] === "english") return viewEnglish();
   if (parts[0] === "politics") return viewLearn("pol");
+  if (parts[0] === "roadmap") return viewRoadmap();
+  if (parts[0] === "library") return viewLibrary();
+  if (parts[0] === "method") return viewMethod();
+  if (parts[0] === "exam") return viewExam();
   viewHome();
 }
 
