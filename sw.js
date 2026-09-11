@@ -1,14 +1,16 @@
-const CACHE = "qh-os-v531-date-hotfix";
+const CACHE = "qh-os-v540-core";
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon.svg",
-  "./css/app.css",
-  "./js/store.js",
-  "./js/chapters.js",
-  "./js/bank.js",
-  "./js/app.js",
+  "./css/app.css?v=540",
+  "./js/store.js?v=540",
+  "./js/chapters.js?v=540",
+  "./js/bank.js?v=540",
+  "./js/app.js?v=540",
+  "./js/core54.js?v=540",
+  "./epi.html", "./stats.html", "./public_health.html", "./medical_physics.html",
 ];
 
 self.addEventListener("install", (e) => {
@@ -18,7 +20,7 @@ self.addEventListener("install", (e) => {
 
 self.addEventListener("activate", (e) => {
   e.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+    caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith('qh-os-') && k !== CACHE).map((k) => caches.delete(k))))
   );
   self.clients.claim();
 });
