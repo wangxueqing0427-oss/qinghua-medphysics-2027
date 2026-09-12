@@ -236,3 +236,5 @@ input[type=text], textarea {
 /* V44 execution mode: reduce choice overload and keep one task visually dominant. */
 .focus-task h2{font-size:1.35rem;line-height:1.45;margin:10px 0}
 .execute-primary{font-size:1.08rem;padding:16px 18px;font-weight:700}
+
+.battle-modes,.battle-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.battle-links{grid-template-columns:repeat(2,minmax(0,1fr))}.battle54 .btn{white-space:normal;min-height:44px}.battle54 h3{line-height:1.5}.battle54 .card .block+.block{margin-top:8px}@media(max-width:380px){.battle-modes{grid-template-columns:1fr}}

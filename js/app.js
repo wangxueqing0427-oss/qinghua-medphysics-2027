@@ -347,7 +347,7 @@ function header(title, sub, back) {
 function tabbar(active) {
   const running=!!activeExecutionId();
   const items = [
-    ["/execute", running?"续":"做", running?"继续":"执行"],
+    ["/", "今", "今日作战"],
     ["/learn", "学", "学习"],
     ["/practice", "练", "练习"],
     ["/wrong", "错", "错题"],
@@ -614,7 +614,7 @@ function viewLearn(sub, id) {
     <div class="card">
       <span class="tag ${c.level.toLowerCase()}">${c.level}级</span>
       ${c.tags.map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join("")}
-      <div class="study-guide"><b>本章怎么学｜约45–60分钟</b><div class="guide-grid"><span>① 先学懂<br><small>10–15分钟</small></span><span>② 正式知识<br><small>15–20分钟</small></span><span>③ 闭卷输出<br><small>10分钟</small></span><span>④ 练习过关<br><small>10–15分钟</small></span></div><div class="small">达标：闭卷≥4/5 + 练习≥80%。不达标就选“模糊/不会”，系统安排复习。</div></div>
+      <div class="study-guide"><b>本章怎么学｜约45–60分钟</b><div class="guide-grid"><span>① 学懂<br><small>理解概念</small></span><span>② 必背<br><small>定义与公式</small></span><span>③ 记忆<br><small>联想与对比</small></span><span>④ 闭卷<br><small>遮住答案复述</small></span><span>⑤ 练习验证<br><small>按表现评级</small></span></div><div class="small">达标：闭卷≥4/5 + 练习≥80%。不达标就选“模糊/不会”，系统安排复习。</div></div>
       <div class="box"><b>为什么重要</b><br>${escapeHtml(c.why)}</div>
       ${c.beginner ? `<div class="box"><b>零基础先学懂</b><ol class="points">${c.beginner.map((p) => `<li>${escapeHtml(p)}</li>`).join("")}</ol></div>` : ""}
       <h3>正式考试知识</h3>
@@ -1072,7 +1072,7 @@ function drawEnglish() {
   app.innerHTML = header("英语一 · 今日最低任务", "10词 + 1段阅读", true) + `<main class="wrap">
     <div class="card">
       <div class="small">单词 ${st.i + 1}/10</div>
-      <div class="quiz-q">${escapeHtml(w[0])}</div>
+      <div class="quiz-q">${escapeHtml(w[0])}</div><button class="btn ghost" onclick="speakWord54()">听发音</button><p class="small">看词 → 听发音 → 回忆词义 → 对照例句 → 自测评级</p>
       ${st.shown ? `<div class="box">${escapeHtml(w[1])}<br><span class="small">${escapeHtml(w[2])}</span></div>` : `<button class="btn ghost block" onclick="window._en.shown=true;drawEnglish()">先自己想，再看释义</button>`}
       <div class="rate"><button class="btn crimson" onclick="enWord(false)">不熟</button><button class="btn forest" onclick="enWord(true)">记住了</button></div>
     </div>
