@@ -237,4 +237,17 @@ input[type=text], textarea {
 .focus-task h2{font-size:1.35rem;line-height:1.45;margin:10px 0}
 .execute-primary{font-size:1.08rem;padding:16px 18px;font-weight:700}
 
-.battle-modes,.battle-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.battle-links{grid-template-columns:repeat(2,minmax(0,1fr))}.battle54 .btn{white-space:normal;min-height:44px}.battle54 h3{line-height:1.5}.battle54 .card .block+.block{margin-top:8px}@media(max-width:380px){.battle-modes{grid-template-columns:1fr}}
+/* V54: iPhone safe area + beginner English */
+.top, .app-header, header { padding-top: max(16px, env(safe-area-inset-top)); }
+.word-card .word-head { font-size: 30px; font-weight: 800; margin-bottom: 8px; }
+.pron-row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:8px 0 12px; }
+.ipa { font-family: Arial, Helvetica, sans-serif; font-size:17px; letter-spacing:.2px; }
+.rate.three { grid-template-columns:1fr 1fr 1fr; }
+.btn.gold { background:#b45309; color:#fff; }
+.sentence-pair { padding:10px 0; border-bottom:1px dashed var(--line); line-height:1.65; }
+.sentence-pair:last-child { border-bottom:0; }
+.question-line { margin-top:16px; font-weight:700; }
+@media (max-width: 420px) {
+  .rate.three { grid-template-columns:1fr; }
+  .pron-row .btn { width:100%; }
+}

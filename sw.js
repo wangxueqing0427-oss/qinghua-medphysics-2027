@@ -1,15 +1,15 @@
-const CACHE = "qh-os-v540-core";
+const CACHE = "qh-os-v570-english-resume";
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon.svg",
-  "./css/app.css?v=540",
-  "./js/store.js?v=540",
-  "./js/chapters.js?v=540",
-  "./js/bank.js?v=540",
-  "./js/app.js?v=540",
-  "./js/core54.js?v=540",
+  "./css/app.css?v=570",
+  "./js/store.js?v=570",
+  "./js/chapters.js?v=570",
+  "./js/bank.js?v=570",
+  "./js/english_support.js?v=570",
+  "./js/app.js?v=570",
   "./epi.html", "./stats.html", "./public_health.html", "./medical_physics.html",
 ];
 

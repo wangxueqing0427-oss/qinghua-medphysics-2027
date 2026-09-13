@@ -21,9 +21,9 @@ const Store = (() => {
       knowledge: {},
       wrong: {},
       mocks: [],
-      today: { date: todayStr(), done: {}, extra: [], started: {}, completedAt: {}, quality: {} },
+      today: { date: todayStr(), done: {}, extra: [], started: {}, completedAt: {}, quality: {}, evidence: {} },
       dailyHistory: [],
-      english: { words: {}, lastDate: "", attempts: [], reasons: {}, drafts: {}, paperChecks: [] },
+      english: { words: {}, lastDate: "", attempts: [], reasons: {}, drafts: {}, paperChecks: [], dailySession: null, practiceSessions: {} },
       politics: { attempts: [], reasons: {}, analysis: [], currentAffairs: [], fullMocks: [] },
       lastWeekly: "",
       target: { total: 350, score353: 225, english: 65, politics: 60 },
@@ -34,7 +34,29 @@ const Store = (() => {
     try {
       const raw = localStorage.getItem(KEY);
       if (!raw) return defaultState();
-      const s = Object.assign(defaultState(), JSON.parse(raw));
+      const defaults = defaultState();
+      const parsed = JSON.parse(raw);
+      const s = Object.assign(defaults, parsed);
+      // V55: nested state must also be merged. Older releases only did a
+      // top-level merge, so a partial/legacy object could break today's chain.
+      s.today = Object.assign(defaults.today, parsed.today || {});
+      s.english = Object.assign(defaults.english, parsed.english || {});
+      s.politics = Object.assign(defaults.politics, parsed.politics || {});
+      s.target = Object.assign(defaults.target, parsed.target || {});
+      if (!s.knowledge || typeof s.knowledge !== "object" || Array.isArray(s.knowledge)) s.knowledge = {};
+      if (!s.wrong || typeof s.wrong !== "object" || Array.isArray(s.wrong)) s.wrong = {};
+      if (!Array.isArray(s.mocks)) s.mocks = [];
+      if (!Array.isArray(s.english.attempts)) s.english.attempts = [];
+      if (!s.english.words || typeof s.english.words !== "object" || Array.isArray(s.english.words)) s.english.words = {};
+      if (!s.english.reasons || typeof s.english.reasons !== "object" || Array.isArray(s.english.reasons)) s.english.reasons = {};
+      if (!s.english.drafts || typeof s.english.drafts !== "object" || Array.isArray(s.english.drafts)) s.english.drafts = {};
+      if (!Array.isArray(s.english.paperChecks)) s.english.paperChecks = [];
+      if (!s.english.practiceSessions || typeof s.english.practiceSessions !== "object" || Array.isArray(s.english.practiceSessions)) s.english.practiceSessions = {};
+      if (!Array.isArray(s.politics.attempts)) s.politics.attempts = [];
+      if (!s.politics.reasons || typeof s.politics.reasons !== "object" || Array.isArray(s.politics.reasons)) s.politics.reasons = {};
+      if (!Array.isArray(s.politics.analysis)) s.politics.analysis = [];
+      if (!Array.isArray(s.politics.currentAffairs)) s.politics.currentAffairs = [];
+      if (!Array.isArray(s.politics.fullMocks)) s.politics.fullMocks = [];
       // V53.1 hotfix: retire every legacy pre-2027 countdown placeholder.
       // 2027-12-18 is a planning anchor only, NOT the official 2027 exam date.
       let hotfixChanged = false;
@@ -47,12 +69,16 @@ const Store = (() => {
       if (!s.today.started) s.today.started = {};
       if (!s.today.completedAt) s.today.completedAt = {};
       if (!s.today.quality) s.today.quality = {};
+      if (!s.today.evidence || typeof s.today.evidence !== "object") s.today.evidence = {};
       if (s.today.date !== todayStr()) {
         const oldDone = s.today.done || {};
         s.dailyHistory = s.dailyHistory.filter(x => x.date !== s.today.date);
         s.dailyHistory.unshift({ date:s.today.date, mode:s.mode || "normal", done:oldDone, quality:s.today.quality||{}, savedAt:Date.now() });
         s.dailyHistory = s.dailyHistory.slice(0, 95);
-        s.today = { date: todayStr(), done: {}, extra: s.today.extra || [], started: {}, completedAt: {}, quality: {} };
+        // "临时任务" belongs to that day and must not silently roll forever.
+        s.today = { date: todayStr(), done: {}, extra: [], started: {}, completedAt: {}, quality: {}, evidence: {} };
+        s.english.dailySession = null;
+        s.english.practiceSessions = {};
       }
       if (hotfixChanged) localStorage.setItem(KEY, JSON.stringify(s));
       return s;
@@ -93,13 +119,25 @@ const Store = (() => {
     const checked = validateBackup(payload);
     if (!checked.ok) return checked;
     // Merge through the current defaults so older backups gain new fields safely.
-    const restored = Object.assign(defaultState(), checked.state);
-    if (!restored.today || typeof restored.today !== "object") restored.today = defaultState().today;
+    const defaults = defaultState();
+    const restored = Object.assign(defaults, checked.state);
+    restored.today = Object.assign(defaults.today, checked.state.today || {});
     if (!Array.isArray(restored.dailyHistory)) restored.dailyHistory = [];
     restored.dailyHistory = restored.dailyHistory.slice(0,95);
     restored.today.started = restored.today.started || {};
     restored.today.completedAt = restored.today.completedAt || {};
     restored.today.quality = restored.today.quality || {};
+    restored.today.evidence = restored.today.evidence || {};
+    restored.english = Object.assign(defaults.english, checked.state.english || {});
+    restored.politics = Object.assign(defaults.politics, checked.state.politics || {});
+    restored.target = Object.assign(defaults.target, checked.state.target || {});
+    if (!restored.today.done || typeof restored.today.done !== "object") restored.today.done = {};
+    if (!Array.isArray(restored.today.extra)) restored.today.extra = [];
+    if (!Array.isArray(restored.english.attempts)) restored.english.attempts = [];
+    if (!restored.english.words || typeof restored.english.words !== "object") restored.english.words = {};
+    if (!restored.english.practiceSessions || typeof restored.english.practiceSessions !== "object") restored.english.practiceSessions = {};
+    if (!Array.isArray(restored.politics.attempts)) restored.politics.attempts = [];
+    if (!Array.isArray(restored.politics.analysis)) restored.politics.analysis = [];
     save(restored);
     return { ok:true, state:restored };
   }
@@ -158,6 +196,19 @@ const Store = (() => {
     return update((s) => {
       s.today.started[id] = s.today.started[id] || Date.now();
     });
+  }
+
+  function save353Evidence(chapterId, patch) {
+    return update((s) => {
+      if (!s.today.evidence) s.today.evidence = {};
+      const key = "353:" + chapterId;
+      s.today.evidence[key] = Object.assign({}, s.today.evidence[key] || {}, patch || {}, { updatedAt:Date.now() });
+    });
+  }
+
+  function get353Evidence(chapterId) {
+    const s=load();
+    return (s.today.evidence && s.today.evidence["353:"+chapterId]) || {};
   }
 
   function addExtra(text) {
@@ -276,7 +327,7 @@ const Store = (() => {
     });
   }
 
-  function markWord(id, ok) {
+  function markWord(id, ok, level) {
     return update((s) => {
       const prev = s.english.words[id] || {};
       s.english.words[id] = {
@@ -286,6 +337,7 @@ const Store = (() => {
         weakCount: (prev.weakCount || 0) + (ok ? 0 : 1),
         rightStreak: ok ? (prev.rightStreak || 0) + 1 : 0,
         nextDue: Date.now() + (ok ? ([1,3,7,14,30][Math.min((prev.rightStreak||0),4)] * 86400000) : 86400000),
+        level: level || (ok ? "pass" : "weak"),
       };
       s.english.lastDate = todayStr();
     });
@@ -314,6 +366,34 @@ const Store = (() => {
       s.english.paperChecks.unshift(Object.assign({at:Date.now()}, rec));
       s.english.paperChecks = s.english.paperChecks.slice(0, 30);
     });
+  }
+
+  function getEnglishDailySession() {
+    const s = load();
+    const row = s.english && s.english.dailySession;
+    return row && row.date === todayStr() ? row : null;
+  }
+
+  function saveEnglishDailySession(session) {
+    return update((s) => {
+      s.english.dailySession = Object.assign({ date:todayStr(), updatedAt:Date.now() }, session || {});
+    });
+  }
+
+  function getEnglishPracticeSession(kind) {
+    const s=load(), row=s.english.practiceSessions && s.english.practiceSessions[kind];
+    return row && row.date===todayStr() ? row : null;
+  }
+
+  function saveEnglishPracticeSession(kind, session) {
+    return update((s)=>{
+      if(!s.english.practiceSessions) s.english.practiceSessions={};
+      s.english.practiceSessions[kind]=Object.assign({date:todayStr(),updatedAt:Date.now()},session||{});
+    });
+  }
+
+  function clearEnglishPracticeSession(kind) {
+    return update((s)=>{if(s.english.practiceSessions) delete s.english.practiceSessions[kind];});
   }
 
   function recordPoliticsAttempt(kind, ok, reason) {
@@ -723,6 +803,9 @@ const Store = (() => {
       s.today.started = {};
       s.today.completedAt = {};
       s.today.quality = {};
+      s.today.evidence = {};
+      s.english.dailySession = null;
+      s.english.practiceSessions = {};
     });
   }
 
@@ -737,6 +820,8 @@ const Store = (() => {
     markTaskQuality,
     latestCoreQuality,
     startTask,
+    save353Evidence,
+    get353Evidence,
     addExtra,
     rateKnowledge,
     dueIds,
@@ -750,6 +835,11 @@ const Store = (() => {
     recordEnglishAttempt,
     saveEnglishDraft,
     recordEnglishPaperCheck,
+    getEnglishDailySession,
+    saveEnglishDailySession,
+    getEnglishPracticeSession,
+    saveEnglishPracticeSession,
+    clearEnglishPracticeSession,
     recordPoliticsAttempt,
     savePoliticsAnalysis,
     savePoliticsCurrentAffairs,
