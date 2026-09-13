@@ -2,7 +2,7 @@ const $ = (sel, el) => (el || document).querySelector(sel);
 const app = $("#app");
 let mockTimer = null;
 let mockState = null;
-const APP_VERSION = "V57.0";
+const APP_VERSION = "V58.0";
 
 function speakEnglish(text, rate) {
   try {
@@ -10,7 +10,7 @@ function speakEnglish(text, rate) {
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(String(text));
     u.lang = "en-US";
-    u.rate = Number(rate) || 0.82;
+    u.rate = speechRate58();
     u.pitch = 1;
     window.speechSynthesis.speak(u);
   } catch (e) {
@@ -381,6 +381,7 @@ function header(title, sub, back) {
     ${backBtn}
     <h1>${escapeHtml(title)}</h1>
     <div class="sub">${escapeHtml(sub || "")}</div>
+    ${title.includes("英语") ? speechControls58() : ""}
   </header>`;
 }
 
@@ -493,7 +494,7 @@ function viewHome() {
   const plan = studyEngine();
   const labels = { normal: "正常 1–2小时", busy: "忙碌 40分钟", trip: "出差 30分钟", dinner: "饭局后 20分钟" };
   const coreDone = ["t-353","t-en","t-pol"].filter(id => s.today.done[id]).length;
-  app.innerHTML = header("今日上岸作战", APP_VERSION+"｜今年进考场 · 350+训练目标") + `
+  app.innerHTML = header("今日上岸作战", APP_VERSION+"｜慢读与主动回忆 · 350+训练目标") + `
   <main class="wrap">
     <section class="card focus-task">
       <div class="row"><span class="tag green">今日执行 ${pct}%</span><span class="small">${doneN}/${tasks.length} 项</span></div>
@@ -536,7 +537,7 @@ function viewCoach(){
   app.innerHTML=header("教练后台",APP_VERSION+"｜后台复杂，前台只执行",true)+`<main class="wrap">
     <section class="card"><span class="tag green">系统体检已完成</span><h2>前台做减法，后台保留全部能力</h2><p>V52延续极简执行入口，并把真实一天的关键跳转重新验收。周、月、趋势、风险、里程碑和备份都还在，但不再挤占每天的注意力。</p><button class="btn block" onclick="go('/execute')">回到今天，只做当前一项</button></section>
     <section class="card"><b>今天为什么这样排</b><p class="small">当前阶段：${escapeHtml(plan.phase.name)}｜自适应：${escapeHtml(plan.adaptive.level)}｜到期复习：${dueN}项。</p><button class="btn ghost block" onclick="go('/engine')">查看今日详细排程</button></section>
-    <section class="card"><b>教练分析</b><div class="grid2"><button class="btn ghost" onclick="go('/week')">7天连续性</button><button class="btn ghost" onclick="go('/trend')">14天趋势</button><button class="btn ghost" onclick="go('/monthly')">30天月度复盘</button><button class="btn ghost" onclick="go('/risk')">350+风险雷达</button><button class="btn ghost" onclick="go('/milestone')">阶段里程碑</button><button class="btn ghost" onclick="go('/phase')">备考阶段</button><button class="btn ghost" onclick="go('/adaptive')">任务量自适应</button><button class="btn ghost" onclick="go('/command')">350+总指挥</button><button class="btn ghost" onclick="go('/acceptance')">真实使用验收</button><button class="btn ghost" onclick="go('/content-audit')">内容审计</button><button class="btn ghost" onclick="go('/selfcheck')">V57系统自检</button></div></section>
+    <section class="card"><b>教练分析</b><div class="grid2"><button class="btn ghost" onclick="go('/week')">7天连续性</button><button class="btn ghost" onclick="go('/trend')">14天趋势</button><button class="btn ghost" onclick="go('/monthly')">30天月度复盘</button><button class="btn ghost" onclick="go('/risk')">350+风险雷达</button><button class="btn ghost" onclick="go('/milestone')">阶段里程碑</button><button class="btn ghost" onclick="go('/phase')">备考阶段</button><button class="btn ghost" onclick="go('/adaptive')">任务量自适应</button><button class="btn ghost" onclick="go('/command')">350+总指挥</button><button class="btn ghost" onclick="go('/acceptance')">真实使用验收</button><button class="btn ghost" onclick="go('/content-audit')">内容审计</button><button class="btn ghost" onclick="go('/selfcheck')">系统自检</button></div></section>
     <section class="card"><b>专项与资料</b><div class="grid2"><button class="btn ghost" onclick="go('/roadmap')">全程路线</button><button class="btn ghost" onclick="go('/score353')">353目标台</button><button class="btn ghost" onclick="go('/english/plan')">英语65路线</button><button class="btn ghost" onclick="go('/politics/check60')">政治60验收</button><button class="btn ghost" onclick="go('/review')">到期复习</button><button class="btn ghost" onclick="go('/backup')">数据保险箱</button></div></section>
     <section class="card"><b>反复错题</b>${top.length?top.map(w=>{const q=QUESTIONS.find(x=>x.id===w.id);return `<div class="task"><div>🔴</div><div><b>${escapeHtml(q?q.stem:w.id)}</b><div class="small">累计错 ${w.count} 次</div></div></div>`}).join(''):'<p class="muted">暂无反复错题。</p>'}<button class="btn ghost block" onclick="go('/wrong')">打开错题系统</button></section>
     <section class="card"><b>临时任务</b><p class="small">仅用于当天确实必须插入的事情。不要把它当第二份计划表。</p><input id="newTask" type="text" placeholder="例如：把OR四格表再算两遍"><button class="btn" style="margin-top:8px" onclick="addExtra()">加入今日</button></section>
@@ -1076,9 +1077,9 @@ function viewEnglishPlan() {
   ];
   const reason = ep.reasons.length ? ep.reasons[0][0]+"（"+ep.reasons[0][1]+"次）" : "暂无足够错误记录";
   app.innerHTML = header("英语一 · 65分路线图","系统告诉你现在练什么",true)+`<main class="wrap">
-    <section class="card"><span class="tag green">训练目标 65</span><h3>当前阶段：第 ${ep.stage} 阶段</h3><div class="box ok"><b>下一步：</b>${escapeHtml(ep.next)}</div><p class="small">训练准备度 ${ep.readiness}% 仅用于安排学习，不等于真实考试分数预测。</p><div class="bar"><i style="width:${ep.readiness}%"></i></div></section>
+    <section class="card"><span class="tag green">训练目标 65</span><h3>当前阶段：第 ${ep.stage} 阶段</h3><div class="box ok"><b>下一步：</b>${escapeHtml(ep.next)}</div><p class="small">训练准备度 ${ep.readiness}% 仅用于安排学习，不等于真实考试分数预测。基础词汇学习期间也可以少量练习句子和多题材阅读，不必等背完全部词。</p><div class="bar"><i style="width:${ep.readiness}%"></i></div></section>
     <section class="card"><h3>五阶段闸门</h3>${stages.map(x=>`<div class="map-item"><div class="row"><b>${x[0]}. ${x[1]}</b><span>${x[3]?'已达标':(ep.stage===x[0]?'当前':'待完成')}</span></div><div class="small">${x[2]}</div></div>`).join('')}</section>
-    <section class="card"><h3>当前数据</h3><div class="box">词汇见过：<b>${ep.seenCore}/1000</b>（${ep.wordCoverage}%）<br>词汇真正掌握：<b>${ep.masteredCore}/1000</b>（${ep.wordMastery}%）<br>到期弱词：<b>${ep.dueWeak}</b>，当前弱词率：<b>${ep.weakRate}%</b><br>课程掌握：<b>${Math.round(ep.enMastery*100)}%</b><br>长难句：<b>${ep.byKind.sentence.n}次 / ${ep.byKind.sentence.accuracy==null?'暂无':ep.byKind.sentence.accuracy+'%'}</b><br>中长阅读：<b>${ep.readingAttempts}题 / ${ep.readingAccuracy==null?'暂无':ep.readingAccuracy+'%'}</b><br>完形：<b>${ep.byKind.cloze.n}次 / ${ep.byKind.cloze.accuracy==null?'暂无':ep.byKind.cloze.accuracy+'%'}</b><br>新题型：<b>${ep.byKind.newtype.n}次 / ${ep.byKind.newtype.accuracy==null?'暂无':ep.byKind.newtype.accuracy+'%'}</b><br>翻译：<b>${ep.byKind.translation.n}次 / ${ep.byKind.translation.accuracy==null?'暂无':ep.byKind.translation.accuracy+'%'}</b><br>最高频错因：<b>${escapeHtml(reason)}</b></div></section>
+    <section class="card"><h3>当前数据</h3><div class="box">词汇见过：<b>${ep.seenCore}/1000</b>（${ep.wordCoverage}%）<br>词汇真正掌握：<b>${ep.masteredCore}/1000</b>（${ep.wordMastery}%）<br>到期弱词：<b>${ep.dueWeak}</b>，当前弱词率：<b>${ep.weakRate}%</b><br>课程掌握：<b>${ep.enMastery}%</b><br>长难句：<b>${ep.byKind.sentence.n}次 / ${ep.byKind.sentence.accuracy==null?'暂无':ep.byKind.sentence.accuracy+'%'}</b><br>中长阅读：<b>${ep.readingAttempts}题 / ${ep.readingAccuracy==null?'暂无':ep.readingAccuracy+'%'}</b><br>完形：<b>${ep.byKind.cloze.n}次 / ${ep.byKind.cloze.accuracy==null?'暂无':ep.byKind.cloze.accuracy+'%'}</b><br>新题型：<b>${ep.byKind.newtype.n}次 / ${ep.byKind.newtype.accuracy==null?'暂无':ep.byKind.newtype.accuracy+'%'}</b><br>翻译：<b>${ep.byKind.translation.n}次 / ${ep.byKind.translation.accuracy==null?'暂无':ep.byKind.translation.accuracy+'%'}</b><br>最高频错因：<b>${escapeHtml(reason)}</b></div></section>
     <button class="btn block" onclick="go('/english/daily')">按路线开始今天英语</button>
     <button class="btn ghost block" style="margin-top:8px" onclick="go('/english')">返回英语总台</button>
   </main>`+tabbar('/learn');
@@ -1110,12 +1111,10 @@ function viewEnglish(mode) {
     const otherWeakPool = shuffle(ENGLISH_WORDS.filter(w => weakSet.has(w[0]) && !dueWeakSet.has(w[0])));
     // V32 audit fix: due weak → unseen → due mastered → other weak. Never waste the 10-word minimum on random familiar words.
     const words = [];
-    [dueWeakPool, unseenPool, dueKnownPool, otherWeakPool].forEach(pool => {
+    [dueWeakPool, dueKnownPool, unseenPool, otherWeakPool].forEach(pool => {
       pool.forEach(w => { if (words.length < 10 && !words.some(x=>x[0]===w[0])) words.push(w); });
     });
-    const assistedPassages = ENGLISH_PASSAGES.filter(p => passageHelp(p));
-    const pool = assistedPassages.length ? assistedPassages : ENGLISH_PASSAGES;
-    const pass = pool[Math.floor(Math.random() * pool.length)];
+    const pass = pickDailyPass58();
     window._en = { words, i: 0, pass, shown: false, pv:false, ans:{}, helpOpen:false, wordsDone:false };
     persistEnglishDaily();
     return drawEnglish();
@@ -1128,13 +1127,14 @@ function viewEnglish(mode) {
   const ep = Store.englishProfile();
   const topReason = ep.reasons.length ? ep.reasons[0][0] + "（" + ep.reasons[0][1] + "次）" : "还没有足够做题记录";
   app.innerHTML = header("英语一 · 60–65+", "从基础薄弱到真题与限时", true) + `<main class="wrap">
-    <section class="card"><span class="tag green">目标</span><h3>不是背单词软件，是英语一得分系统</h3>
+    ${scoreReality58()}
+    <section class="card"><span class="tag green">目标</span><h3>英语基础与应用训练</h3>
       <div class="box ok"><b>训练目标：65 / 100</b><br>基础 → 句子 → 阅读 → 完形/新题型/翻译 → 写作 → 真题 → 限时。</div>
       <p class="small">当前课程 ${enCh.length} 章 · 核心词库 ${ENGLISH_WORDS.length} 词 · 原创短阅读 ${ENGLISH_PASSAGES.length} 篇 · 专项练习 ${qn} 题。已见词 ${seenWords}，当前标记不熟 ${weakWords}。真实历年真题后续只用合法可用/你提供的材料导入，不用原创题冒充真题。</p>
     </section>
     <section class="card"><span class="tag green">V27新增</span><h3>🧠 记忆法已嵌入每一章</h3><p>不是靠“多看几遍”。每章自动给你：<b>一句钩子 → 画面/联想 → 压缩口令 → 闭眼复述</b>；再交给原有SRS安排1→3→7→14→30天复习。</p><div class="box"><b>英语单词统一四步：</b>词根/熟词联想（能用则用） → 放进例句 → 遮住中文主动回忆 → 到期再测。牵强谐音只作临时钩子，不当词义依据。</div></section>
     <button class="list-item" onclick="go('/english/plan')"><div class="ttl">🎯 65分路线图｜现在该练什么</div><div class="small">按词汇、长难句、阅读、四大模块的真实训练数据自动判断阶段</div></button>
-    <button class="list-item" onclick="go('/english/daily')"><div class="ttl">① 今日任务｜到期弱词优先10词 + 1段</div><div class="small">先复现不熟词，不够再补新词；忙、出差、饭局也不断档</div></button>
+    <button class="list-item" onclick="go('/english/daily')"><div class="ttl">① 今日任务｜到期弱词优先10词 + 1段</div><div class="small">先复习到期词，再补新词；多题材阅读，进度自动保存</div></button>
     <button class="list-item" onclick="go('/english/sentence')"><div class="ttl">② 长难句拆解专项｜40句</div><div class="small">先找主干，再看中文与结构；训练不是背答案</div></button>
     <button class="list-item" onclick="go('/english/reading')"><div class="ttl">③ 中长阅读专项｜16篇 × 4题</div><div class="small">接近考研阅读动作：限时阅读 → 定位 → 选项 → 证据解析 → 错因</div></button>
     <button class="list-item" onclick="go('/english/modules')"><div class="ttl">④ 完形 / 新题型 / 翻译 / 作文｜V29实战入口</div><div class="small">四个计分模块开始形成手机训练闭环</div></button>
@@ -1170,22 +1170,27 @@ function drawEnglish() {
         <span class="ipa">${wordIpa(w[0]) ? '/'+escapeHtml(wordIpa(w[0]))+'/' : '音标暂缺 · 可直接听发音'}</span>
       </div>
       ${st.shown ? `<div class="box"><b>中文：</b>${escapeHtml(w[1])}<br><b>例句：</b>${escapeHtml(w[2])}<div style="margin-top:8px"><button class="btn ghost" onclick="speakEnglish('${String(w[2]).replace(/'/g,"\\'")}',0.78)">🔊 听例句</button></div></div>
-        <div class="box memory"><b>🧠 记忆钩子</b><br>${escapeHtml(wordMemory(w[0],w[1],w[2]))}</div>`
+        <div class="box memory"><b>🧠 记忆钩子</b><br>${escapeHtml(wordMemory(w[0],w[1],w[2]))}</div><button class="btn ghost block" onclick="window._en.shown=false;drawEnglish()">遮住答案，再回忆一次</button>`
         : `<button class="btn ghost block" onclick="window._en.shown=true;drawEnglish()">先听 + 看音标 → 自己想词义 → 再看答案</button>`}
       ${st.shown ? `<div class="rate three"><button class="btn crimson" onclick="enWordChoice('pron')">不会读</button><button class="btn gold" onclick="enWordChoice('meaning')">会读但词义不稳</button><button class="btn forest" onclick="enWordChoice('pass')">会读会认</button></div>` : ''}
     </div>`;
   app.innerHTML = header("英语一 · 今日抢分任务", APP_VERSION+"｜10词 + 1段小白辅助阅读", true) + `<main class="wrap">
+    <button class="btn ghost block" onclick="go('/english')">英语总台 · 换专项 / 看路线</button>
+    <p class="small">先听 → 遮住答案回忆 → 核对 → 诚实评级。进度自动保存，可随时离开。</p>
     ${wordPart}
     <div class="card"><div class="row"><b>${escapeHtml(st.pass.title)}</b><button class="btn ghost" onclick='speakEnglish(${JSON.stringify(st.pass.text)},0.78)'>🔊 听全文</button></div>
+      ${readingNote58(st.pass)}
       <p style="line-height:1.8">${escapeHtml(st.pass.text)}</p>
-      ${help ? `<button class="btn ghost block" onclick="window._en.helpOpen=!window._en.helpOpen;drawEnglish()">${st.helpOpen?'收起中文辅助':'看中文翻译 + 逐句理解'}</button>` : ''}
+      ${sentenceListen58(st.pass.text)}
+      ${help ? `<button class="btn ghost block" onclick="window._en.helpOpen=!window._en.helpOpen;drawEnglish()">${st.helpOpen?'遮住中文，复述文章主旨':'看中文翻译 + 逐句理解'}</button>` : ''}
       ${st.helpOpen && help ? `<div class="box ok"><b>全文中文：</b><br>${escapeHtml(help.cn)}</div>
         <div class="box"><b>逐句理解</b>${(help.sentences||[]).map(s=>`<div class="sentence-pair"><div>${escapeHtml(s[0])}</div><div class="small">→ ${escapeHtml(s[1])}</div></div>`).join('')}</div>
         <div class="box memory"><b>🧠 阅读记忆钩子：</b>${escapeHtml(help.main)}<br><span class="small"><b>考场提示：</b>${escapeHtml(help.tip)}</span></div>` : ''}
-      ${st.pass.qs.map((q, qi) => `<div class="small question-line">${escapeHtml(q.q)}</div>${q.opts.map((op, oi) => `<button class="opt ${st.ans[qi]===oi?(oi===q.a?'right':'wrong'):''}" onclick="enPassAnswer(${qi},${oi})">${escapeHtml(op)}</button>`).join("")}`).join("")}
+      ${st.pass.qs.map((q, qi) => `<div class="small question-line">${escapeHtml(q.q)}</div>${q.opts.map((op, oi) => `<button class="opt ${st.ans[qi]!==undefined?(oi===q.a?'right':(st.ans[qi]===oi?'wrong':'')):''}" onclick="enPassAnswer(${qi},${oi})">${escapeHtml(op)}</button>`).join("")}${st.ans[qi]!==undefined?`<div class="box"><b>${st.ans[qi]===q.a?'正确':'再看证据'}</b>：${escapeHtml(q.explain || '回到原文定位，绿色选项为正确答案。')}</div>`:''}`).join("")}
       <button class="btn ghost block" style="margin-top:10px" onclick="window._en.pv=!window._en.pv;drawEnglish()">${st.pv?'收起词汇':'看这段命中的核心词'}</button>
       ${st.pv ? `<div class="box">${englishPassageVocab(st.pass).map(v=>`<div><b>${escapeHtml(v[0])}</b>${wordIpa(v[0])?' /'+escapeHtml(wordIpa(v[0]))+'/':''}：${escapeHtml(v[1])}</div>`).join('') || '这段没有命中当前词库；遇到的新词可后续进入个人词库。'}</div>` : ''}
     </div>
+    <section class="card"><b>30秒主动回忆</b><p>遮住中文，用一句话说出主旨，再说出一条文中证据。记住作者的逻辑，不必背整段英文。</p><details><summary>回忆后核对</summary><p>${escapeHtml(help ? help.main : "回到原文核对主旨和证据。")}</p></details></section>
     <section class="card"><b>✅ 今日英语自检</b><p class="small">单词：${st.wordsDone?'已完成':'未完成'}｜阅读题：${answered}/${st.pass.qs.length}</p>
       <div class="box ${st.wordsDone && answered===st.pass.qs.length?'ok':'warn'}">${st.wordsDone && answered===st.pass.qs.length?'两部分都完成。现在再判断“会不会”，不要按花了多久来评分。':'先完成10词并把阅读题全部作答。不会的词会自动进入弱词复习。'}</div>
       ${st.wordsDone && answered===st.pass.qs.length?`<button class="btn block" onclick="go('/quality?id=t-en')">完成今日英语 → 判断掌握质量</button>`:''}
@@ -1244,9 +1249,9 @@ function drawEnglishReading() {
   const answered=Object.keys(st.ans).length;
   const elapsed=Math.max(1,Math.floor((Date.now()-st.started)/60000));
   app.innerHTML = header('英语一 · 中长阅读', p.title+'｜'+elapsed+'分钟', true) + `<main class="wrap">
-    <section class="card"><div class="row"><div class="small">建议：先独立读文并做4题。基础薄弱时先听一遍，再找每段主句。</div><button class="btn ghost" onclick='speakEnglish(${JSON.stringify(p.text)},0.76)'>🔊 听全文</button></div><p style="white-space:pre-line;line-height:1.75">${escapeHtml(p.text)}</p><div class="box memory"><b>小白拆读法：</b>每段先找“谁/什么 + 做什么 + 转折词”。每日短阅读已经提供完整中文逐句辅助，词句基础过线后再把这里当考试模式。</div></section>
+    <section class="card"><div class="row"><div class="small">建议：先独立读文并做4题。基础薄弱时先听一遍，再找每段主句。</div><button class="btn ghost" onclick='speakEnglish(${JSON.stringify(p.text)},0.76)'>🔊 听全文</button></div><p style="white-space:pre-line;line-height:1.75">${escapeHtml(p.text)}</p>${sentenceListen58(p.text)}<div class="box memory"><b>小白拆读法：</b>每段先找“谁/什么 + 做什么 + 转折词”。每日短阅读已经提供完整中文逐句辅助，词句基础过线后再把这里当考试模式。</div></section>
     ${p.qs.map((q,qi)=>`<section class="card"><b>${qi+1}. ${escapeHtml(q.q)}</b>${q.opts.map((op,oi)=>`<button class="opt ${st.ans[qi]!==undefined?(oi===q.a?'right':(st.ans[qi]===oi?'wrong':'')):''}" onclick="enReadingAnswer(${qi},${oi})">${escapeHtml(op)}</button>`).join('')}${st.ans[qi]!==undefined?`<div class="box ${st.ans[qi]===q.a?'ok':'warn'}"><b>${st.ans[qi]===q.a?'正确':'错因：'+escapeHtml(q.reason||'阅读')}</b><br>${escapeHtml(q.explain||'')}</div>`:''}</section>`).join('')}
-    <section class="card"><b>本篇进度</b><p>${answered}/4 题已作答。全部完成后系统会把错误按主旨/定位/推断/词义/例证/态度等记录。</p>${answered===p.qs.length?`<button class="btn block" onclick="finishEnglishReading()">完成本篇并返回英语首页</button>`:''}</section>
+    <section class="card"><b>本篇进度</b><p>${answered}/${p.qs.length} 题已作答。全部完成后系统会把错误按主旨/定位/推断/词义/例证/态度等记录。</p>${answered===p.qs.length?`<button class="btn block" onclick="finishEnglishReading()">完成本篇 → 评价掌握情况</button>`:''}</section>
   </main>` + tabbar('/learn');
 }
 function enReadingAnswer(qi,oi) {
@@ -1276,6 +1281,7 @@ function drawEnglishSentence() {
     <div class="card"><div class="quiz-q">${escapeHtml(x.text)}</div><button class="btn ghost block" onclick='speakEnglish(${JSON.stringify(x.text)},0.72)'>🔊 慢速听整句</button>
       ${st.shown ? `<div class="box"><b>主干：</b>${escapeHtml(x.main)}<br><b>译文：</b>${escapeHtml(x.cn)}<br><span class="small"><b>结构：</b>${escapeHtml(x.focus)}</span></div>` : `<button class="btn ghost block" onclick="window._ens.shown=true;drawEnglishSentence()">我找完主干了，显示解析</button>`}
       ${st.shown ? `<div class="rate"><button class="btn crimson" onclick="nextEnglishSentence(false)">没拆出来</button><button class="btn forest" onclick="nextEnglishSentence(true)">基本拆对</button></div>` : ''}
+      ${st.shown ? `<button class="btn ghost block" onclick="window._ens.shown=false;drawEnglishSentence()">遮住解析，再找一次主干</button>` : ""}
     </div><p class="muted">标准动作：圈连接词 → 找谓语 → 找主干 → 再挂修饰。不要一上来逐词翻译。</p>
   </main>` + tabbar('/learn');
 }

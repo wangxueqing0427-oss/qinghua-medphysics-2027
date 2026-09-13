@@ -251,3 +251,10 @@ input[type=text], textarea {
   .rate.three { grid-template-columns:1fr; }
   .pron-row .btn { width:100%; }
 }
+.speech-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px;font-size:14px}
+.speech-tools select{min-height:44px;border:1px solid #b6bec8;border-radius:8px;padding:8px;font:inherit;background:white;color:#1b2430}
+.speech-tools .btn{min-height:44px;margin:0}
+.speech-tools .small{width:100%}
+.sentence-list{margin:12px 0}
+.sentence-list summary,details summary{cursor:pointer;padding:12px 0;min-height:44px}
+.sentence-pair p{overflow-wrap:anywhere}

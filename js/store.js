@@ -36,7 +36,7 @@ const Store = (() => {
       if (!raw) return defaultState();
       const defaults = defaultState();
       const parsed = JSON.parse(raw);
-      const s = Object.assign(defaults, parsed);
+      const s = Object.assign({}, defaults, parsed);
       // V55: nested state must also be merged. Older releases only did a
       // top-level merge, so a partial/legacy object could break today's chain.
       s.today = Object.assign(defaults.today, parsed.today || {});
@@ -330,13 +330,18 @@ const Store = (() => {
   function markWord(id, ok, level) {
     return update((s) => {
       const prev = s.english.words[id] || {};
+      const now = Date.now();
+      // Same-day repeats help practice, but do not count as spaced recall.
+      const spaced = !prev.last || now - prev.last >= 20 * 3600000;
+      const streak = ok ? (prev.rightStreak || 0) + (spaced ? 1 : 0) : 0;
       s.english.words[id] = {
+        ...prev,
         ok: !!ok,
         last: Date.now(),
         count: (prev.count || 0) + 1,
         weakCount: (prev.weakCount || 0) + (ok ? 0 : 1),
-        rightStreak: ok ? (prev.rightStreak || 0) + 1 : 0,
-        nextDue: Date.now() + (ok ? ([1,3,7,14,30][Math.min((prev.rightStreak||0),4)] * 86400000) : 86400000),
+        rightStreak: streak,
+        nextDue: ok && !spaced && prev.nextDue ? prev.nextDue : now + (ok ? ([1,3,7,14,30][Math.min(Math.max(streak-1,0),4)] * 86400000) : 86400000),
         level: level || (ok ? "pass" : "weak"),
       };
       s.english.lastDate = todayStr();
@@ -527,8 +532,8 @@ const Store = (() => {
     if (wordReady && sentenceReady) { stage=3; next="主攻中长阅读：累计至少32题且近期正确率≥75%，重点复盘定位与干扰项。"; }
     if (wordReady && sentenceReady && readingReady) { stage=4; next="补齐完形、新题型、翻译：每项至少12次训练且正确率≥70%，同步开始作文输出。"; }
     if (wordReady && sentenceReady && readingReady && moduleReady && drafts >= 6) { stage=5; next="训练基础闸门已通过。进入真题阶段：只导入合法可用或你提供的真实历年题，按年份限时、复盘、二刷。"; }
-    const readinessParts = [Math.min(wordMastery,100), Math.round(enMastery*100)];
-    if (byKind.long-reading.accuracy!=null) readinessParts.push(byKind.long-reading.accuracy);
+    const readinessParts = [Math.min(wordMastery,100), enMastery];
+    if (byKind['long-reading'].accuracy!=null) readinessParts.push(byKind['long-reading'].accuracy);
     if (moduleAccs.length) readinessParts.push(Math.round(moduleAccs.reduce((a,b)=>a+b,0)/moduleAccs.length));
     const readiness = Math.round(readinessParts.reduce((a,b)=>a+b,0)/readinessParts.length);
     return { seen:entries.length, seenCore, mastered:mastered.length, masteredCore, weak:weak.length, weakIds:weak.map(x=>x[0]), weakRate, dueWeak, attempts:recent.length, accuracy:acc, reasons, readingAttempts:reading.length, readingAccuracy, readingReady, byKind, enMastery, wordCoverage, wordMastery, wordReady, sentenceReady, moduleReady, stage, next, readiness, drafts, validDraftIds, paperChecks };
