@@ -1,17 +1,19 @@
-const CACHE = "qh-os-v580-learning";
+const CACHE = "qh-os-v590-materials";
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon.svg",
-  "./css/app.css?v=580",
-  "./js/store.js?v=580",
-  "./js/chapters.js?v=580",
-  "./js/bank.js?v=580",
-  "./js/english_support.js?v=580",
-  "./js/reading58.js?v=580",
-  "./js/learning58.js?v=580",
-  "./js/app.js?v=580",
+  "./css/app.css?v=590",
+  "./js/store.js?v=590",
+  "./js/chapters.js?v=590",
+  "./js/bank.js?v=590",
+  "./js/english_support.js?v=590",
+  "./js/reading58.js?v=590",
+  "./js/learning58.js?v=590",
+  "./js/material-catalog59.js?v=590",
+  "./js/materials59.js?v=590",
+  "./js/app.js?v=590",
   "./epi.html", "./stats.html", "./public_health.html", "./medical_physics.html",
 ];
 

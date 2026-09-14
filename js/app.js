@@ -2,7 +2,7 @@ const $ = (sel, el) => (el || document).querySelector(sel);
 const app = $("#app");
 let mockTimer = null;
 let mockState = null;
-const APP_VERSION = "V58.0";
+const APP_VERSION = "V59.0";
 
 function speakEnglish(text, rate) {
   try {
@@ -538,7 +538,7 @@ function viewCoach(){
     <section class="card"><span class="tag green">系统体检已完成</span><h2>前台做减法，后台保留全部能力</h2><p>V52延续极简执行入口，并把真实一天的关键跳转重新验收。周、月、趋势、风险、里程碑和备份都还在，但不再挤占每天的注意力。</p><button class="btn block" onclick="go('/execute')">回到今天，只做当前一项</button></section>
     <section class="card"><b>今天为什么这样排</b><p class="small">当前阶段：${escapeHtml(plan.phase.name)}｜自适应：${escapeHtml(plan.adaptive.level)}｜到期复习：${dueN}项。</p><button class="btn ghost block" onclick="go('/engine')">查看今日详细排程</button></section>
     <section class="card"><b>教练分析</b><div class="grid2"><button class="btn ghost" onclick="go('/week')">7天连续性</button><button class="btn ghost" onclick="go('/trend')">14天趋势</button><button class="btn ghost" onclick="go('/monthly')">30天月度复盘</button><button class="btn ghost" onclick="go('/risk')">350+风险雷达</button><button class="btn ghost" onclick="go('/milestone')">阶段里程碑</button><button class="btn ghost" onclick="go('/phase')">备考阶段</button><button class="btn ghost" onclick="go('/adaptive')">任务量自适应</button><button class="btn ghost" onclick="go('/command')">350+总指挥</button><button class="btn ghost" onclick="go('/acceptance')">真实使用验收</button><button class="btn ghost" onclick="go('/content-audit')">内容审计</button><button class="btn ghost" onclick="go('/selfcheck')">系统自检</button></div></section>
-    <section class="card"><b>专项与资料</b><div class="grid2"><button class="btn ghost" onclick="go('/roadmap')">全程路线</button><button class="btn ghost" onclick="go('/score353')">353目标台</button><button class="btn ghost" onclick="go('/english/plan')">英语65路线</button><button class="btn ghost" onclick="go('/politics/check60')">政治60验收</button><button class="btn ghost" onclick="go('/review')">到期复习</button><button class="btn ghost" onclick="go('/backup')">数据保险箱</button></div></section>
+    <section class="card"><b>专项与资料</b><div class="grid2"><button class="btn" onclick="go('/materials')">个人资料库 · 108份资料</button><button class="btn ghost" onclick="go('/roadmap')">全程路线</button><button class="btn ghost" onclick="go('/score353')">353目标台</button><button class="btn ghost" onclick="go('/english/plan')">英语65路线</button><button class="btn ghost" onclick="go('/politics/check60')">政治60验收</button><button class="btn ghost" onclick="go('/review')">到期复习</button><button class="btn ghost" onclick="go('/backup')">数据保险箱</button></div></section>
     <section class="card"><b>反复错题</b>${top.length?top.map(w=>{const q=QUESTIONS.find(x=>x.id===w.id);return `<div class="task"><div>🔴</div><div><b>${escapeHtml(q?q.stem:w.id)}</b><div class="small">累计错 ${w.count} 次</div></div></div>`}).join(''):'<p class="muted">暂无反复错题。</p>'}<button class="btn ghost block" onclick="go('/wrong')">打开错题系统</button></section>
     <section class="card"><b>临时任务</b><p class="small">仅用于当天确实必须插入的事情。不要把它当第二份计划表。</p><input id="newTask" type="text" placeholder="例如：把OR四格表再算两遍"><button class="btn" style="margin-top:8px" onclick="addExtra()">加入今日</button></section>
     <section class="card"><b>维护工具</b><p class="small">“重置今日”只清今天的勾选/质量，不删除长期学习记录。</p><button class="btn crimson block" onclick="resetTodayConfirm()">重置今日状态</button></section>
@@ -1458,6 +1458,7 @@ function render() {
     clearInterval(mockTimer);
     mockTimer = null;
   }
+  if (parts[0] === "materials") return parts[1] ? Materials59.open(parts[1]) : Materials59.view();
   if (!parts.length) return viewHome();
   if (parts[0] === "coach") return viewCoach();
   if (parts[0] === "acceptance") return viewAcceptance();
