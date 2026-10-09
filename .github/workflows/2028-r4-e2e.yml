@@ -1,0 +1,30 @@
+name: Isolated 2028 R4 browser tests
+on:
+  push:
+    branches: [engineering/2028-r4]
+    paths: [product-2028-pilot-build/**, product-2028-ci/**, .github/workflows/2028-r4-e2e.yml]
+permissions:
+  contents: read
+concurrency:
+  group: isolated-2028-r4
+  cancel-in-progress: false
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: product-2028-ci
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium webkit
+      - run: npm test
+      - name: Record evidence without artifact storage
+        if: always()
+        run: node summarize.cjs

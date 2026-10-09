@@ -1,0 +1,6 @@
+const CACHE='qh2028-product-pilot-r4';
+const ASSETS=['./','./index.html','./app.css','./icon.svg','./manifest.json','./course-engine.js','./profile-repository.js','./learning-controller.js','./pilot-ui.js','./representative-courses.json'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
+self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+self.addEventListener('message',e=>{if(e.data?.type==='ACTIVATE_UPDATE')self.skipWaiting();});
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin||(self.registration?.scope&&!e.request.url.startsWith(self.registration.scope)))return;e.respondWith((async()=>{const c=await caches.open(CACHE);const pinned=ASSETS.some(a=>new URL(a,self.registration?.scope||e.request.url).href===e.request.url);if(pinned){const cached=await c.match(e.request);if(cached)return cached;}try{const r=await fetch(e.request);if(r.ok){try{await c.put(e.request,r.clone());}catch{}}return r.ok?r:await c.match(e.request)||r;}catch{const r=await c.match(e.request);if(r)return r;if(e.request.mode==='navigate'){const shell=await c.match('./index.html');if(shell)return shell;}return new Response('离线内容尚未缓存',{status:503,headers:{'Content-Type':'text/plain;charset=utf-8'}});}})());});

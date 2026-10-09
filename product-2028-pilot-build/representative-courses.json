@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1-draft",
+  "units": [
+    {
+      "version": "0.1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "en-foundation-svo",
+      "subject": "en",
+      "title": "先找句子骨架：谁做了什么",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/direct-objects"
+      ],
+      "explanation": "读长句之前，先从一个动作句开始。Children water the flowers. 可以先问谁在做：Children；做什么动作：water；动作指向什么：the flowers。water在这里是动词“浇水”，不要因为见过名词“水”就把句子读成一串名词。The children in the garden water the flowers every morning. 去掉补充地点和时间的信息，主干仍是children—water—flowers。不是每句话都有宾语，例如Birds fly.只有主语和动词；不要强行找宾语。",
+      "definition": "在本单元的简单陈述动作句中，主语是句子谈论的主体，谓语动词表达动作，直接宾语承受该动作。",
+      "conditions": "范围限定为简单主动动作句。系表结构、被动语态和祈使句后续单独学习；SVO不是所有英语句子的唯一结构。",
+      "example": "Children water the flowers. 孩子们给花浇水。搭配：water the flowers；in the garden修饰语不是主干动作。",
+      "misconceptions": [
+        "把所有water都译为名词水。",
+        "把时间地点当宾语。",
+        "认为所有句子都有宾语。"
+      ],
+      "recall": [
+        "隐藏讲解：按顺序说出动作句主干的三个部分。",
+        "回忆Birds fly.是否有直接宾语，说明原因。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-svo-1",
+          "type": "single",
+          "stem": "Children water the flowers. 的动作词是？",
+          "options": [
+            "Children",
+            "water",
+            "flowers"
+          ],
+          "answer": 1,
+          "explanation": "water在此表示浇水，承担动作谓语。"
+        },
+        {
+          "id": "en-svo-2",
+          "type": "single",
+          "stem": "Birds fly. 中的直接宾语是？",
+          "options": [
+            "Birds",
+            "fly",
+            "没有直接宾语"
+          ],
+          "answer": 2,
+          "explanation": "Birds是主体，fly是不带宾语的动作。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-svo-3",
+          "type": "subjective",
+          "stem": "The children in the garden water the flowers every morning. 写出主干并解释两个补充信息。",
+          "answer": "children—water—the flowers；in the garden补充地点/修饰孩子，every morning补充时间。",
+          "explanation": "先确认动作water，再定位主体和动作对象；地点时间不替代主干。",
+          "rubric": [
+            "主体children",
+            "动作water",
+            "对象the flowers",
+            "说明地点和时间是补充信息"
+          ]
+        }
+      ],
+      "rubric": [
+        "能在新例句中找对主干",
+        "不强行给不及物动词配宾语"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换成People read books in the library. 独立找主干，不背原句答案。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "en-svo-delay-1",
+          "type": "single",
+          "stem": "People read books in the library. 主干中的动作是？",
+          "options": [
+            "People",
+            "read",
+            "library"
+          ],
+          "answer": 1,
+          "explanation": "read表达动作；People是主体，books是宾语。"
+        },
+        {
+          "id": "en-svo-delay-2",
+          "type": "multi",
+          "stem": "Birds fly over the lake. 哪些判断正确？",
+          "options": [
+            "Birds是主语",
+            "fly是动作动词",
+            "lake是fly的直接宾语"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "over the lake补充地点，lake是介词over的宾语，不是fly的直接宾语。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-10",
+        "reviewer": "AI-assisted internal source and answer review",
+        "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+        "checks": [
+          "十项内容字段存在",
+          "来源与概念一致性",
+          "题目选项与答案逐题核对",
+          "数值风险30/300=10%、12/200=6%",
+          "试卷/政策适用年份不冒称最终",
+          "主观题参考评分，不给确定自动分数"
+        ],
+        "limitations": [
+          "英语政治官方考试要求映射尚待核实",
+          "专业课程需要进一步独立准确性复核",
+          "真实iPhone教学效果未验证"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+    },
+    {
+      "version": "0.1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "353-incidence-risk",
+      "subject": "353",
+      "title": "累计发病风险：分母先找有风险的人",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "explanation": "想知道一段时间内有多少原本未患病的人变成新病例，必须先确定起点和观察时间。一个封闭队列开始有300名未患该病且有风险的人，完整随访一年后有30名新病例，累计发病风险是30/300=0.10，即一年内10%。若把起点已患病的人加入分母，测到的就不是同一风险。人数分母得到的是期间风险；人时分母得到的是发生密度，单位不同，不能因为都谈发病就混用。",
+      "definition": "累计发病风险是规定期间内新发病例数相对于期初有患病风险人群数的比例。",
+      "conditions": "本例为封闭队列、完整随访、观察期一致；失访和观察时间不同时不能直接套该简式。发生密度以人时为分母，必须另外说明单位。",
+      "example": "300人一年完整随访，30人首次患病：30/300×100%=10%；背景为原创教学数字。",
+      "misconceptions": [
+        "用全部现患病例替代新发病例。",
+        "把期初已患该病的人也算进有风险分母。",
+        "把10%写成10人年或把期间风险当发生密度。"
+      ],
+      "recall": [
+        "闭卷写出分子、分母和需要说明的观察时间。",
+        "说明人数和人时分母的区别。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "risk-1",
+          "type": "single",
+          "stem": "累计发病风险的分子应使用？",
+          "options": [
+            "期初所有病例",
+            "观察期新发病例",
+            "全部死亡人数"
+          ],
+          "answer": 1,
+          "explanation": "风险关注期间内从有风险状态变为病例。"
+        },
+        {
+          "id": "risk-2",
+          "type": "number",
+          "stem": "300名期初有风险者完整随访一年，30名新病例，风险百分数是多少？",
+          "answer": 10,
+          "unit": "%",
+          "tolerance": 0.01,
+          "explanation": "30/300×100%=10%，必须注明一年观察期。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "risk-3",
+          "type": "subjective",
+          "stem": "甲队列一年10%，乙队列五年10%，能直接断言发病速度一样吗？解释还需要什么。",
+          "answer": "不能。观察期不同，期间风险不能直接当作同一速度比较；需核对人群、随访和人时等信息。",
+          "explanation": "同一百分数不保证同一时间尺度，不能省略观察期和分母含义。",
+          "rubric": [
+            "明确不能直接比较",
+            "指出一年/五年时间差异",
+            "核对风险人群和完整随访",
+            "必要时使用人时发生密度"
+          ]
+        }
+      ],
+      "rubric": [
+        "公式分子分母正确",
+        "结果及单位正确",
+        "期间和适用条件明确"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换成200人中12名一年新病例，计算并说明分母条件；不要记10%这个答案。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "risk-delay-1",
+          "type": "number",
+          "stem": "200名期初有风险者完整随访一年，12名新病例。累计风险百分数？",
+          "answer": 6,
+          "unit": "%",
+          "tolerance": 0.01,
+          "explanation": "12/200×100%=6%，限定一年完整随访。"
+        },
+        {
+          "id": "risk-delay-2",
+          "type": "single",
+          "stem": "5名新病例/100人年应解释为？",
+          "options": [
+            "一年5%的累计风险",
+            "每100人年5名新病例的发生密度",
+            "现患病例比例"
+          ],
+          "answer": 1,
+          "explanation": "人时分母表示发生密度，不能直接把数字改成期间风险。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-10",
+        "reviewer": "AI-assisted internal source and answer review",
+        "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+        "checks": [
+          "十项内容字段存在",
+          "来源与概念一致性",
+          "题目选项与答案逐题核对",
+          "数值风险30/300=10%、12/200=6%",
+          "试卷/政策适用年份不冒称最终",
+          "主观题参考评分，不给确定自动分数"
+        ],
+        "limitations": [
+          "英语政治官方考试要求映射尚待核实",
+          "专业课程需要进一步独立准确性复核",
+          "真实iPhone教学效果未验证"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-reference-2028-provisional"
+    },
+    {
+      "version": "0.1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "pol-practice-verification",
+      "subject": "pol",
+      "title": "判断是否正确：把认识放回实践检验",
+      "sources": [
+        "https://www.mva.gov.cn/sy/zt/zt1/xxgcddsjdjs/qwjd/201807/t20180727_14488.html"
+      ],
+      "explanation": "提出一个解释，不等于解释已经正确。例如社区认为更换提醒方式能提高疫苗预约完成率，这先是一种认识或假设。实施后观察实际结果、核对实施过程和其他影响，再判断原认识是否得到支持。多数人赞同、说法听起来流畅、提出者有权威，都不能替代实践检验。实践是具体的历史活动，一次失败也要分析实施条件与原因，不能不加分析就否定全部认识。答材料题时需要原理、材料中的行动与结果、以及继续修正认识的结论。",
+      "definition": "实践是检验真理的唯一标准；认识应在实践中接受检验并继续发展。",
+      "conditions": "此处学习认识论原理，不把单次观察等同于控制良好的因果证据。具体材料要区分客观结果、执行条件和其他影响。",
+      "example": "社区修改预约提醒并比较结果；这是原创公共生活情境，不要求职业经验。",
+      "misconceptions": [
+        "认为多数人赞同就是真理标准。",
+        "只背原理不对应材料。",
+        "用一次未经分析的失败否定所有方案。"
+      ],
+      "recall": [
+        "不看讲解说出真理的检验标准。",
+        "解释为什么权威或赞同不能代替实践。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-practice-1",
+          "type": "single",
+          "stem": "检验一种认识是否符合客观实际，根本标准是？",
+          "options": [
+            "赞同人数",
+            "表达是否流畅",
+            "实践"
+          ],
+          "answer": 2,
+          "explanation": "实践中的客观结果是检验依据，而不是赞同或表达。"
+        },
+        {
+          "id": "pol-practice-2",
+          "type": "multi",
+          "stem": "材料分析应包含哪些环节？",
+          "options": [
+            "对应原理",
+            "结合实际行动与结果",
+            "仅抄题干",
+            "说明后续检验修正"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "原理与材料相联系，并交代继续检验修正；抄题干不能代替分析。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-practice-3",
+          "type": "subjective",
+          "stem": "社区提醒方案未达到预期，如何体现实践与认识的关系？",
+          "answer": "以实际执行和效果检验原认识，分析实施条件和其他影响，修正方案并再次实践，避免只凭主观意愿。",
+          "explanation": "参考表达不是唯一标准答案，须对照原理、材料和修正过程。",
+          "rubric": [
+            "说明实践检验认识",
+            "结合实施结果",
+            "分析具体条件",
+            "修正并继续实践"
+          ]
+        }
+      ],
+      "rubric": [
+        "准确原理",
+        "联系材料",
+        "有修正过程"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换一个公共生活方案，写原理—材料—修正三个要点。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "pol-delay-1",
+          "type": "single",
+          "stem": "某方案获得广泛赞同，但尚未实施。能据此认定其正确吗？",
+          "options": [
+            "能，人数决定真理",
+            "不能，需要实践检验",
+            "能，只要语言严谨"
+          ],
+          "answer": 1,
+          "explanation": "赞同人数与表达质量不能代替客观实践检验。"
+        },
+        {
+          "id": "pol-delay-2",
+          "type": "multi",
+          "stem": "试点结果与预期不符后，哪些做法符合本单元原理？",
+          "options": [
+            "核对实施条件",
+            "根据结果修正并继续验证",
+            "因权威支持而不再检查"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "在具体实践中分析和发展认识；不能用权威替代检验。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-10",
+        "reviewer": "AI-assisted internal source and answer review",
+        "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+        "checks": [
+          "十项内容字段存在",
+          "来源与概念一致性",
+          "题目选项与答案逐题核对",
+          "数值风险30/300=10%、12/200=6%",
+          "试卷/政策适用年份不冒称最终",
+          "主观题参考评分，不给确定自动分数"
+        ],
+        "limitations": [
+          "英语政治官方考试要求映射尚待核实",
+          "专业课程需要进一步独立准确性复核",
+          "真实iPhone教学效果未验证"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+    }
+  ]
+}
