@@ -1,0 +1,19 @@
+{
+  "name": "清华2028备考测试",
+  "short_name": "2028测试",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3efe6",
+  "theme_color": "#1b2430",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "./",
+  "scope": "./"
+}
