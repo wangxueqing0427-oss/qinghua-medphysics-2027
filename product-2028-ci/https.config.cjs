@@ -1,0 +1,2 @@
+const {defineConfig,devices}=require('@playwright/test');
+module.exports=defineConfig({testDir:'./https-tests',testMatch:'**/*.spec.cjs',workers:1,retries:0,timeout:45000,reporter:[['list'],['json',{outputFile:'results.json'}]],use:{baseURL:'https://qinghua-2028-iphone-pilot.rosyjam8.chatgpt.site',trace:'off',screenshot:'off',video:'off'},projects:[{name:'chromium-https',use:{...devices['Desktop Chrome']}},{name:'webkit-https',use:{...devices['iPhone 13']}}]});

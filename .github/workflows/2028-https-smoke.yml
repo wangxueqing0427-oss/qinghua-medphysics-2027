@@ -1,0 +1,27 @@
+name: Independent HTTPS phone pilot smoke
+on:
+  push:
+    branches: [engineering/2028-r4]
+    paths: [product-2028-ci/https.config.cjs, product-2028-ci/https-tests/**, .github/workflows/2028-https-smoke.yml]
+permissions:
+  contents: read
+jobs:
+  https-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: product-2028-ci
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium webkit
+      - run: npx playwright test --config=https.config.cjs
+      - name: Save synthetic evidence in logs
+        if: always()
+        run: node summarize.cjs
