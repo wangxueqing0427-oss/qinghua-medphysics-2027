@@ -3,7 +3,7 @@ test('HTTPS exact tested assets and isolated origin',async({page,request})=>{
  await page.goto('/');expect(new URL(page.url()).origin).toBe('https://qinghua-2028-iphone-pilot.rosyjam8.chatgpt.site');
  await expect(page.locator('#create')).toBeVisible();
  const root=path.join(__dirname,'../../product-2028-pilot-build');
- for(const name of fs.readdirSync(root)){const r=await request.get('/'+name);expect(r.status()).toBe(200);expect(crypto.createHash('sha256').update(await r.body()).digest('hex')).toBe(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex'));}
+ for(const name of fs.readdirSync(root)){const r=await request.get('/'+name);expect(r.status()).toBe(200);let body=await r.body();if(name==='index.html'){const html=body.toString();const normalized=html.replace(/<script>\(function\(\)\{function c\(\)[\s\S]*?<\/script>(?=<\/body>)/,'');if(normalized!==html)expect(html).toContain('/cdn-cgi/challenge-platform/scripts/jsd/main.js');expect(normalized.trim()).toBe(fs.readFileSync(path.join(root,name),'utf8').trim());}else expect(crypto.createHash('sha256').update(body).digest('hex')).toBe(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex'));}
  const state=await page.evaluate(()=>({secure:isSecureContext,origin:location.origin,keys:Object.keys(localStorage)}));expect(state.secure).toBe(true);expect(state.keys.some(k=>k.startsWith('qh2027'))).toBe(false);
 });
 test('online actual answer survives reload and grades into review',async({page})=>{
