@@ -1,4 +1,4 @@
-const CACHE='qh2028-product-pilot-r4';
+const CACHE='qh2028-product-pilot-r5';
 const ASSETS=['./','./index.html','./app.css','./icon.svg','./manifest.json','./course-engine.js','./profile-repository.js','./learning-controller.js','./pilot-ui.js','./representative-courses.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
