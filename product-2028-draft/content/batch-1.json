@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-16-draft-batch-1",
+  "units": [
+    {
+      "id": "en-present-negative",
+      "subject": "en",
+      "title": "一般现在时否定：别把动作词再加一次s",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/present-simple"
+      ],
+      "explanation": "先比较两句原创例句：Mina checks the list. 米娜核对清单。Mina does not check the list. 米娜不核对清单。肯定句中checks带第三人称单数变化；否定句把这一语法任务交给does，后面的动作词回到check。把does not checks连在一起，是重复标记。再看The volunteers do not check the list. 志愿者们不核对清单：复数主语用do not。读阅读材料时，漏看not会把作者结论读反。不要只找熟悉单词，要连着主语、助动词和动作词判断。练习先独立选形式，再将整个句子译为中文，最后说明为什么另一个形式不合适。",
+      "definition": "本课限定一般现在时普通实义动词否定句：主语＋do/does not＋动词原形。第三人称单数用does，其余本课人称用do。",
+      "conditions": "不把此规则套用到be或情态动词。The result is not clear.不加does；can not/cannot后用动词原形。疑问句、过去时及have特殊用法另课处理。",
+      "example": "The device does not store names. 设备不存储姓名。The devices do not store names. 这些设备不存储姓名。词汇：store在这里是动词存储，name是姓名。",
+      "misconceptions": [
+        "误写does not stores，助动词之后应为原形。",
+        "把否定词漏译，导致结论反转。",
+        "将be否定句改成does not be。"
+      ],
+      "recall": [
+        "隐藏讲解，分别写出单数主语和复数主语的否定结构。",
+        "独立解释does not后为什么不用checks。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-neg-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "Mina ___ check the list. 选出否定形式。",
+          "options": [
+            "do not",
+            "does not",
+            "does not checks"
+          ],
+          "answer": 1,
+          "explanation": "Mina为第三人称单数，用does not，题目已有原形check。"
+        },
+        {
+          "id": "en-neg-2",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "The volunteers do not ___ names. 选正确形式。",
+          "options": [
+            "stores",
+            "stored",
+            "store"
+          ],
+          "answer": 2,
+          "explanation": "do not后使用动词原形store，复数主语也不要求stores。"
+        },
+        {
+          "id": "en-neg-3",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "哪些句子在本课范围内语法正确？",
+          "options": [
+            "The result is not clear.",
+            "Mina does not checks the list.",
+            "The devices do not store names."
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "be后直接加not；实义动词在do not后用原形。第二句重复第三人称标记。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-neg-4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "改正Mina does not stores names.，翻译，并指出改动理由。",
+          "answer": "Mina does not store names. 米娜不存储姓名。does已承担当下第三人称单数形式，store用原形。",
+          "explanation": "同时核对形式与句义；只改拼写却漏译否定，仍未完成任务。",
+          "rubric": [
+            "将stores改为store",
+            "保留does not并说明后接原形",
+            "译出不存储姓名的否定含义"
+          ]
+        },
+        {
+          "id": "en-neg-5",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "A report says: The device does not store names, but it stores dates. 哪个结论有句子证据？",
+          "options": [
+            "设备不存储姓名，但存储日期",
+            "设备存储姓名和日期",
+            "设备不存储任何数据"
+          ],
+          "answer": 0,
+          "explanation": "not否定store names；but后it stores dates为肯定。不要把前半句否定扩大到所有数据。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-neg-d1",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "隔日闭卷：The student does not ___ the rule.（理解）",
+          "options": [
+            "understands",
+            "understand",
+            "understood"
+          ],
+          "answer": 1,
+          "explanation": "does not后接原形understand。"
+        },
+        {
+          "id": "en-neg-d2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "不看前题，把The teams check dates.改为否定句并翻译。",
+          "answer": "The teams do not check dates. 这些团队不核对日期。",
+          "explanation": "复数主语teams用do not；check保持原形。",
+          "rubric": [
+            "复数主语后用do not",
+            "check为原形",
+            "中文保留否定与日期对象"
+          ]
+        }
+      ],
+      "rubric": [
+        "判断主语单复数",
+        "选择do/does",
+        "保持动作词原形",
+        "正确理解否定范围"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-16",
+      "applicableYear": 2028,
+      "sourceYear": null,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，独立回忆本课关键规则和适用条件"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      }
+    },
+    {
+      "id": "pol-common-particular",
+      "subject": "pol",
+      "title": "共性与个性：有共同原则也要分析具体条件",
+      "sources": [
+        "https://dangshi.people.com.cn/n1/2021/0507/c436975-32096575.html"
+      ],
+      "explanation": "先用一个原创日常案例区分两个层次。几所学校都希望减少图书排队，这是可以研究的共同问题；有的学校空间小，有的学校借阅高峰不同，这是各自条件。发现一校做法有效，不能直接推出所有学校必须照搬全部流程；但承认差异，也不表示完全没有可借鉴的规律。在哲学课程中，共性与个性用于理解矛盾普遍性与特殊性的关系。学习时要区分一般存在矛盾的命题、具体矛盾各有特点的命题，以及方法论上将一般原理同具体条件结合的要求。日常案例仅辅助理解，不是用一件事证明全部哲学原理。答材料题应先指出共同问题，再找材料中的条件差异，最后说明如何调整措施；只背具体问题具体分析而不联系材料，缺少论证。",
+      "definition": "矛盾普遍性与特殊性的关系可以从共性与个性的关系理解。共性通过具体个性体现，不能把二者割裂；个性也不是脱离同类共性而孤立存在。",
+      "conditions": "本课讨论普遍性与特殊性，不把它混同为主要矛盾与次要矛盾或矛盾主要方面。具体课程考试范围仍待对应适用年度官方要求；不声称本课为2028必考题。",
+      "example": "原创情境：两所学校都优化借书流程。一校增加预约，另一校延长高峰开放；共同目标并不要求措施完全相同。分析要说明具体条件，而不只评价哪所学校正确。",
+      "misconceptions": [
+        "共性是把所有细节都变成一样。",
+        "只要有差异，就不可能有一般规律。",
+        "具体问题具体分析等于抛弃一般原理。"
+      ],
+      "recall": [
+        "隐藏讲解，用自己的话说明共性与个性为何不能割裂。",
+        "指出普遍性特殊性与主要次要矛盾是不是同一组概念。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-cp-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "把一个学校全部措施不加分析搬到另一学校，主要忽视什么？",
+          "options": [
+            "具体条件和特殊性",
+            "所有共同问题都不存在",
+            "规律绝对不能研究"
+          ],
+          "answer": 0,
+          "explanation": "有共同目标仍需分析条件；答案不是否定一般规律。"
+        },
+        {
+          "id": "pol-cp-2",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "符合本课方法的表述有哪些？",
+          "options": [
+            "从具体经验中研究共同问题",
+            "有共性就不需要研究差异",
+            "结合条件运用一般认识"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "共性不消灭个性；运用一般认识需要分析具体对象。"
+        },
+        {
+          "id": "pol-cp-3",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "普遍性与特殊性可以直接替换为主要矛盾与次要矛盾吗？",
+          "options": [
+            "可以，完全同义",
+            "不可以，它们分析的关系不同",
+            "都没有研究意义"
+          ],
+          "answer": 1,
+          "explanation": "前者研究共性个性，后者涉及诸矛盾地位作用的区别，不能替换。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-cp-4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "A校预约借书减少排队，B校学生主要在晚间借书。有人要求B校照搬全部预约流程。请用本课原理分析。",
+          "answer": "两校有提升借阅效率的共同问题，但高峰时段等条件不同。可借鉴预约经验，同时调查B校需求，结合晚间服务条件调整，不能照搬或一概拒绝借鉴。",
+          "explanation": "原理、材料证据和措施理由均须出现；未提供调查数据，不能断言某措施一定有效。",
+          "rubric": [
+            "指出共同问题",
+            "引用晚间借阅这一具体差异",
+            "将借鉴与具体条件结合",
+            "不把未证实效果说成必然"
+          ]
+        },
+        {
+          "id": "pol-cp-5",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "下列哪一句对材料的分析最充分？",
+          "options": [
+            "只要学过哲学就一定成功",
+            "因为B校不同，所以A校经验毫无价值",
+            "借鉴A校经验并核对B校晚间需求和实施条件"
+          ],
+          "answer": 2,
+          "explanation": "第三项将共同经验和具体条件联系起来；其余两项分别绝对化成功或否认借鉴。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-cp-d1",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "隔日判断：哪些论断需纠正？",
+          "options": [
+            "一般认识通过具体事物体现",
+            "研究差异即可完全不管共同规律",
+            "同一目标要求所有措施细节相同"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "explanation": "问题问需要纠正的论断。后两项割裂或抹去共性个性，第一项不是应纠正项。"
+        },
+        {
+          "id": "pol-cp-d2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "原创迁移：两个社区都要改善垃圾分类，但住宅布局不同。提出一条符合共性个性关系的建议并说明理由。",
+          "answer": "可以借鉴清晰标识等一般经验，但投放点与时段应依据各社区住宅布局、居民需求调查决定。",
+          "explanation": "不要求固定唯一措施，核对原理、具体差异和理由，不自动给分。",
+          "rubric": [
+            "识别共同改善目标",
+            "结合住宅布局差异",
+            "给出有理由的因地制宜建议"
+          ]
+        }
+      ],
+      "rubric": [
+        "原理准确",
+        "材料证据明确",
+        "分析联系条件",
+        "建议不作效果保证"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-16",
+      "applicableYear": 2028,
+      "sourceYear": null,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，独立回忆本课关键规则和适用条件"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      }
+    },
+    {
+      "id": "353-person-time",
+      "subject": "353",
+      "title": "人时发病率：随访长短不同怎样比较",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "explanation": "先想清分母：同样是两人，一人观察一年，另一人只观察半年，不能把两人都当作随访一年。将每位处于发病风险且实际被观察的时间相加，得到人时。原创数据：甲从入组到首次发病为0.5年，乙未发病随访1年，丙未发病随访0.5年，总计2人年，1个新病例，发病密度为0.5每人年。此处只分析首次事件，甲发病后不继续为该结局累计风险人时。数值0.5每人年描述发生速率，不是说每人有50%风险。比较群体时必须核对事件定义、观察窗、计时单位和风险集是否一致。人时方法可处理不同长度观察，但不能自动消除失访偏倚或人群差异。",
+      "definition": "首次事件发病密度＝观察期间新发病例数÷处于该结局发病风险的总观察人时。若分母为人年，单位为每人年，常换算每1000人年。",
+      "conditions": "分母只计处于风险且被观察时间，首次发病、失访或随访终止时停止相应计时。发病密度不是累计风险；由速率推风险需要额外模型假设，本课不自动转换。重复事件、复杂风险集和因果比较另课处理，需专业复核。",
+      "example": "原创计算：40个新病例、2000人年，40/2000＝0.02每人年＝20/1000人年。把分母换成人月须同时正确换算数值，不能直接把20/1000人年写为20/1000人月。",
+      "misconceptions": [
+        "把每人年误写成百分比风险。",
+        "用期初人数乘最长随访替代实际人时。",
+        "认为用了人时就没有失访偏倚。"
+      ],
+      "recall": [
+        "隐藏讲解写出公式和分母含义。",
+        "解释0.02每人年为什么不能直接宣称为2%累计发病风险。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "epi-pt-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "首次事件的人时分母应包括？",
+          "options": [
+            "所有人从入组到研究末日的时间，即使已发病",
+            "处于该结局风险且实际被观察的时间",
+            "仅发病者人数"
+          ],
+          "answer": 1,
+          "explanation": "首次发病或观察停止后不再累计该结局风险人时。"
+        },
+        {
+          "id": "epi-pt-2",
+          "type": "number",
+          "difficulty": "foundation",
+          "stem": "40例新发病例、2000人年，求每1000人年的发病密度。",
+          "answer": 20,
+          "unit": "例/1000人年",
+          "tolerance": 0.0001,
+          "explanation": "40÷2000×1000＝20，单位例/1000人年，不能写成20%。"
+        },
+        {
+          "id": "epi-pt-3",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "关于发病密度哪些表述正确？",
+          "options": [
+            "有时间倒数的量纲",
+            "直接就是一个人的累计风险",
+            "不能自动消除失访偏倚"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "分母为人时，速率不同于风险；设计和缺失机制仍影响推断。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "epi-pt-4",
+          "type": "number",
+          "difficulty": "application",
+          "stem": "首次事件：甲0.5年发病，乙未发病随访1年，丙未发病随访0.5年。求每1000人年发病密度。",
+          "answer": 500,
+          "unit": "例/1000人年",
+          "tolerance": 0.0001,
+          "explanation": "总人时0.5＋1＋0.5＝2人年，1÷2×1000＝500。样本很小仅为计算练习，不能外推稳定人群风险。"
+        },
+        {
+          "id": "epi-pt-5",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "某研究报告20例/1000人年。有人解释为随访期间每个人都有2%发病风险。指出问题及缺少的信息。",
+          "answer": "20/1000人年是发病密度而非累计风险，不能直接这样解读；还需明确时间范围、危险人群及速率随时间等模型条件，才可能在相应假设下转换风险。",
+          "explanation": "必须区分率与风险，不能只改单位不改解释；本课不提供未经假设验证的换算。",
+          "rubric": [
+            "指出发病密度不同于累计风险",
+            "识别每人年的时间单位",
+            "指出缺时间窗及额外模型条件"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "epi-pt-d1",
+          "type": "number",
+          "difficulty": "standard",
+          "stem": "隔日：15个新病例、750人年，求每1000人年发病密度。",
+          "answer": 20,
+          "unit": "例/1000人年",
+          "tolerance": 0.0001,
+          "explanation": "15÷750×1000＝20。独立核对分子新病例、分母人时。"
+        },
+        {
+          "id": "epi-pt-d2",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "甲组10/1000人年，乙组10/1000人月，可直接说速率相同吗？",
+          "options": [
+            "可以，只看数值10",
+            "不可以，时间单位不同",
+            "两者都等于10%"
+          ],
+          "answer": 1,
+          "explanation": "必须统一时间单位及观察定义。数值相同不意味着速率相同。"
+        }
+      ],
+      "rubric": [
+        "新病例分子",
+        "风险人时分母",
+        "计算与换算",
+        "单位与解释边界"
+      ],
+      "mapping": [
+        "s27-8-2"
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-16",
+      "applicableYear": 2028,
+      "sourceYear": 2027,
+      "scopeStatus": "provisional-previous-year",
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，独立回忆本课关键规则和适用条件"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      }
+    }
+  ]
+}
