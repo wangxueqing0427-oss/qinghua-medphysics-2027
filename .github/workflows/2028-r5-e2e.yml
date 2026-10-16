@@ -28,6 +28,9 @@ jobs:
       - name: Audit unified catalog without granting expert approval
         working-directory: .
         run: node audit-2028/audit-course-catalog.cjs
+      - name: Verify JSON-only updates invalidate cached course assets
+        working-directory: .
+        run: node audit-2028/data-only-update-test.cjs
       - run: npx playwright install --with-deps chromium webkit
       - run: npm test
       - name: Record evidence without artifact storage
