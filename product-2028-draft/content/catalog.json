@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "internal-candidate-only",
-  "sources": ["representative-courses.json", "content/batch-1.json"],
+  "sources": ["representative-courses.json", "content/batch-1.json", "content/batch-2.json"],
   "overrides": {
     "en-present-negative": {"prerequisites": ["en-foundation-svo"], "mapping": ["en-plan-2"]},
     "353-person-time": {"prerequisites": ["353-incidence-risk"], "mapping": ["s27-8-2"]},
