@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "internal-candidate-only",
+  "sources": ["representative-courses.json", "content/batch-1.json"],
+  "overrides": {
+    "en-present-negative": {"prerequisites": ["en-foundation-svo"], "mapping": ["en-plan-2"]},
+    "353-person-time": {"prerequisites": ["353-incidence-risk"], "mapping": ["s27-8-2"]},
+    "pol-common-particular": {"prerequisites": [], "recommendedBefore": ["pol-practice-verification"], "mapping": ["pol-plan-1"]}
+  },
+  "readinessPolicy": "先修课有真实闭卷回答和至少一次客观答对才安排后续；仅表示可开始后续，不代表掌握。",
+  "formalReleaseApproved": false
+}

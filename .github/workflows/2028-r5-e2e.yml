@@ -2,7 +2,7 @@ name: Isolated 2028 R5 browser and content tests
 on:
   push:
     branches: [engineering/2028-r5]
-    paths: [product-2028-pilot-build/**, product-2028-ci/**, product-2028-draft/content/**, product-2028-draft/course-engine.cjs, audit-2028/course-batch1-test.cjs, .github/workflows/2028-r5-e2e.yml]
+    paths: [product-2028-pilot-build/**, product-2028-ci/**, product-2028-draft/content/**, product-2028-draft/course-engine.cjs, audit-2028/course-batch1-test.cjs, audit-2028/catalog-integration-test.cjs, .github/workflows/2028-r5-e2e.yml]
   workflow_dispatch:
 permissions:
   contents: read
@@ -25,6 +25,9 @@ jobs:
           node-version: '22'
       - run: npm install --ignore-scripts --no-audit --no-fund
       - run: node ../audit-2028/course-batch1-test.cjs
+      - name: Audit unified catalog without granting expert approval
+        working-directory: .
+        run: node audit-2028/audit-course-catalog.cjs
       - run: npx playwright install --with-deps chromium webkit
       - run: npm test
       - name: Record evidence without artifact storage
