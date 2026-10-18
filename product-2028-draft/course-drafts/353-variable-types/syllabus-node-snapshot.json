@@ -1,0 +1,38 @@
+{
+  "capturedAt": "2026-10-18",
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "scope": "Exact local planning node snapshot; official status checked separately in sources-and-review.json",
+  "node": {
+    "id": "s27-18-1",
+    "subject": "stats",
+    "section": "认识数据",
+    "name": "变量类型",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "applicableYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingStatus": "proposed_not_reviewed",
+    "candidateChapterIds": [
+      "st-01",
+      "st-02",
+      "st-04",
+      "st-10"
+    ],
+    "questionIds": [
+      "q-s01",
+      "q-s02",
+      "q-s03",
+      "q-s09",
+      "q-v16-s01-1",
+      "q-v16-s01-2",
+      "q-v16-s02-1",
+      "q-v16-s02-2",
+      "q-v16-s04-1",
+      "q-v16-s04-2",
+      "q-v16-s10-1",
+      "q-v16-s10-2"
+    ],
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}
