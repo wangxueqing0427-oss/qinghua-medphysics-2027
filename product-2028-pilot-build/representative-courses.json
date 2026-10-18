@@ -132,7 +132,45 @@
         ]
       },
       "licenseStatus": "project-original-with-source-links",
-      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+      "syllabusStatus": "teaching-supplement-exam-spec-pending",
+      "learningObjectives": [
+        {
+          "id": "en-foundation-svo-goal-1",
+          "description": "在简单动作句中区分主语、动作和宾语，并识别不及物句没有直接宾语",
+          "successCriteria": "找对water/read及主体对象；说明Birds fly没有直接宾语，不把介词宾语当直接宾语",
+          "questionIds": [
+            "en-svo-1",
+            "en-svo-2",
+            "en-svo-delay-1",
+            "en-svo-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-foundation-svo-goal-2",
+          "description": "从带地点和时间的句子提取主干并解释补充信息",
+          "successCriteria": "独立写出children—water—the flowers，指出in the garden修饰孩子、every morning表示时间",
+          "questionIds": [
+            "en-svo-3"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "ff0d40b3acdbde82252b981c056a309d5d4acb5f6be34469546951664c999a66",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
     },
     {
       "version": "0.1",
@@ -255,7 +293,45 @@
         ]
       },
       "licenseStatus": "project-original-with-source-links",
-      "syllabusStatus": "2027-reference-2028-provisional"
+      "syllabusStatus": "2027-reference-2028-provisional",
+      "learningObjectives": [
+        {
+          "id": "353-incidence-risk-goal-1",
+          "description": "在封闭、完整随访条件下计算规定期间的累计发病风险",
+          "successCriteria": "分子用新病例，分母用期初有风险者；30/300=10%、12/200=6%，注明一年观察期",
+          "questionIds": [
+            "risk-1",
+            "risk-2",
+            "risk-delay-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-incidence-risk-goal-2",
+          "description": "区分期间风险与人时发生密度，识别观察期不同不能直接比较速度",
+          "successCriteria": "说明一年10%和五年10%不能直接认定速度相同；5/100人年是发生密度而不是5%风险",
+          "questionIds": [
+            "risk-3",
+            "risk-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "5b622989263e6557466a6c835b1e489d5b4b335cbe404f047fe397e8de0aa558",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
     },
     {
       "version": "0.1",
@@ -392,7 +468,46 @@
         ]
       },
       "licenseStatus": "project-original-with-source-links",
-      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+      "syllabusStatus": "teaching-supplement-exam-spec-pending",
+      "learningObjectives": [
+        {
+          "id": "pol-practice-verification-goal-1",
+          "description": "判断认识的检验标准，排除赞同人数、表达和权威替代实践",
+          "successCriteria": "选择实践并能说明尚未实施的方案不能凭赞同人数认定正确",
+          "questionIds": [
+            "pol-practice-1",
+            "pol-delay-1"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-practice-verification-goal-2",
+          "description": "将原理、材料结果、具体条件和再次修正相结合进行分析",
+          "successCriteria": "参考要点核对实践检验、实施结果、条件分析和继续实践；未人工核对不汇总确定分数",
+          "questionIds": [
+            "pol-practice-2",
+            "pol-practice-3",
+            "pol-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "68671127590c5c1ce082522996d77a9a7ed2780851c511b99dd981579c987e97",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
     },
     {
       "id": "en-present-negative",
@@ -545,6 +660,47 @@
         "internalCheck": "source-linked-draft",
         "expertApproved": false,
         "publicRelease": false
+      },
+      "learningObjectives": [
+        {
+          "id": "en-present-negative-goal-1",
+          "description": "在一般现在时实义动词否定句选择do/does并保留动词原形",
+          "successCriteria": "第三人称单数用does not，复数用do not；不能写does not checks，不套用于be否定",
+          "questionIds": [
+            "en-neg-1",
+            "en-neg-2",
+            "en-neg-3",
+            "en-neg-d1"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-negative-goal-2",
+          "description": "独立改写否定句并准确理解否定范围",
+          "successCriteria": "改正stores为store，译出否定；识别不存姓名但存日期，不扩大成不存任何数据；迁移复数主语句",
+          "questionIds": [
+            "en-neg-4",
+            "en-neg-5",
+            "en-neg-d2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "46faa72c30ec6b2294f3a24f1132c8541122bb80d3f19aa763ed4fd94d7164ee",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
       },
       "prerequisites": [
         "en-foundation-svo"
@@ -706,6 +862,46 @@
         "expertApproved": false,
         "publicRelease": false
       },
+      "learningObjectives": [
+        {
+          "id": "pol-common-particular-goal-1",
+          "description": "区分共性个性与主次矛盾，识别照搬或割裂的错误",
+          "successCriteria": "指出条件特殊性，拒绝有共性就不用研究差异和措施必须全同；不将两组哲学概念等同",
+          "questionIds": [
+            "pol-cp-1",
+            "pol-cp-2",
+            "pol-cp-3",
+            "pol-cp-d1"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-common-particular-goal-2",
+          "description": "依据材料具体差异提出有理由的借鉴与调整建议",
+          "successCriteria": "写出共同问题、晚间需求或住宅布局差异、结合条件的建议，不保证未经验证的效果",
+          "questionIds": [
+            "pol-cp-4",
+            "pol-cp-5",
+            "pol-cp-d2"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "bb02d5ff6ccee21515e53bfc10326ba07360c5514433b2f5361cf6c0e595ac21",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      },
       "prerequisites": [],
       "recommendedBefore": [
         "pol-practice-verification"
@@ -853,6 +1049,46 @@
         "internalCheck": "source-linked-draft",
         "expertApproved": false,
         "publicRelease": false
+      },
+      "learningObjectives": [
+        {
+          "id": "353-person-time-goal-1",
+          "description": "计算首次事件风险人时及发病密度并正确换算单位",
+          "successCriteria": "按实际观察时间求和，在首次发病或停止观察时停止计时；40/2000×1000=20，1/2×1000=500，15/750×1000=20",
+          "questionIds": [
+            "epi-pt-1",
+            "epi-pt-2",
+            "epi-pt-4",
+            "epi-pt-d1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-person-time-goal-2",
+          "description": "解释发病密度的边界及跨时间单位比较条件",
+          "successCriteria": "不把20/1000人年直接当2%风险，不称人时自动消除偏倚；比较前核对时间单位与定义",
+          "questionIds": [
+            "epi-pt-3",
+            "epi-pt-5",
+            "epi-pt-d2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "a719fb740957844adde160383e7f605987aff2fc0e8ac956f7f27eedd924bca5",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
       },
       "prerequisites": [
         "353-incidence-risk"
@@ -1013,6 +1249,46 @@
         "internalCheck": "source-linked-draft",
         "expertApproved": false,
         "publicRelease": false
+      },
+      "learningObjectives": [
+        {
+          "id": "en-linking-and-verb-phrase-goal-1",
+          "description": "在简单状态句中识别表语，并区分作主语的-ing形式",
+          "successCriteria": "quiet说明room状态，Reading helps中Reading作主语；迁移时clear说明answer，不机械删-ing",
+          "questionIds": [
+            "en-link-1",
+            "en-link-3",
+            "en-link-5",
+            "en-link-d1"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-linking-and-verb-phrase-goal-2",
+          "description": "保留进行结构的完整谓语动词短语并解释删词的信息损失",
+          "successCriteria": "识别is checking和are reading；不能删去checking后宣称意义不变",
+          "questionIds": [
+            "en-link-2",
+            "en-link-4",
+            "en-link-d2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "58229a0f47443bad75580c13f4431398c2c5ca073da437abf9be7e9df2b6e9df",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
       }
     }
   ]

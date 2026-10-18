@@ -1,0 +1,1054 @@
+{
+  "baselineCommit": "0df2741c8b4f51db9b684d99c557522b1565090d",
+  "units": [
+    {
+      "version": "0.1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "en-foundation-svo",
+      "subject": "en",
+      "title": "先找句子骨架：谁做了什么",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/direct-objects"
+      ],
+      "explanation": "读长句之前，先从一个动作句开始。Children water the flowers. 可以先问谁在做：Children；做什么动作：water；动作指向什么：the flowers。water在这里是动词“浇水”，不要因为见过名词“水”就把句子读成一串名词。The children in the garden water the flowers every morning. 去掉补充地点和时间的信息，主干仍是children—water—flowers。不是每句话都有宾语，例如Birds fly.只有主语和动词；不要强行找宾语。",
+      "definition": "在本单元的简单陈述动作句中，主语是句子谈论的主体，谓语动词表达动作，直接宾语承受该动作。",
+      "conditions": "范围限定为简单主动动作句。系表结构、被动语态和祈使句后续单独学习；SVO不是所有英语句子的唯一结构。",
+      "example": "Children water the flowers. 孩子们给花浇水。搭配：water the flowers；in the garden修饰语不是主干动作。",
+      "misconceptions": [
+        "把所有water都译为名词水。",
+        "把时间地点当宾语。",
+        "认为所有句子都有宾语。"
+      ],
+      "recall": [
+        "隐藏讲解：按顺序说出动作句主干的三个部分。",
+        "回忆Birds fly.是否有直接宾语，说明原因。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-svo-1",
+          "type": "single",
+          "stem": "Children water the flowers. 的动作词是？",
+          "options": [
+            "Children",
+            "water",
+            "flowers"
+          ],
+          "answer": 1,
+          "explanation": "water在此表示浇水，承担动作谓语。"
+        },
+        {
+          "id": "en-svo-2",
+          "type": "single",
+          "stem": "Birds fly. 中的直接宾语是？",
+          "options": [
+            "Birds",
+            "fly",
+            "没有直接宾语"
+          ],
+          "answer": 2,
+          "explanation": "Birds是主体，fly是不带宾语的动作。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-svo-3",
+          "type": "subjective",
+          "stem": "The children in the garden water the flowers every morning. 写出主干并解释两个补充信息。",
+          "answer": "children—water—the flowers；in the garden补充地点/修饰孩子，every morning补充时间。",
+          "explanation": "先确认动作water，再定位主体和动作对象；地点时间不替代主干。",
+          "rubric": [
+            "主体children",
+            "动作water",
+            "对象the flowers",
+            "说明地点和时间是补充信息"
+          ]
+        }
+      ],
+      "rubric": [
+        "能在新例句中找对主干",
+        "不强行给不及物动词配宾语"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换成People read books in the library. 独立找主干，不背原句答案。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "en-svo-delay-1",
+          "type": "single",
+          "stem": "People read books in the library. 主干中的动作是？",
+          "options": [
+            "People",
+            "read",
+            "library"
+          ],
+          "answer": 1,
+          "explanation": "read表达动作；People是主体，books是宾语。"
+        },
+        {
+          "id": "en-svo-delay-2",
+          "type": "multi",
+          "stem": "Birds fly over the lake. 哪些判断正确？",
+          "options": [
+            "Birds是主语",
+            "fly是动作动词",
+            "lake是fly的直接宾语"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "over the lake补充地点，lake是介词over的宾语，不是fly的直接宾语。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-10",
+        "reviewer": "AI-assisted internal source and answer review",
+        "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+        "checks": [
+          "十项内容字段存在",
+          "来源与概念一致性",
+          "题目选项与答案逐题核对",
+          "数值风险30/300=10%、12/200=6%",
+          "试卷/政策适用年份不冒称最终",
+          "主观题参考评分，不给确定自动分数"
+        ],
+        "limitations": [
+          "英语政治官方考试要求映射尚待核实",
+          "专业课程需要进一步独立准确性复核",
+          "真实iPhone教学效果未验证"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+    },
+    {
+      "version": "0.1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "353-incidence-risk",
+      "subject": "353",
+      "title": "累计发病风险：分母先找有风险的人",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "explanation": "想知道一段时间内有多少原本未患病的人变成新病例，必须先确定起点和观察时间。一个封闭队列开始有300名未患该病且有风险的人，完整随访一年后有30名新病例，累计发病风险是30/300=0.10，即一年内10%。若把起点已患病的人加入分母，测到的就不是同一风险。人数分母得到的是期间风险；人时分母得到的是发生密度，单位不同，不能因为都谈发病就混用。",
+      "definition": "累计发病风险是规定期间内新发病例数相对于期初有患病风险人群数的比例。",
+      "conditions": "本例为封闭队列、完整随访、观察期一致；失访和观察时间不同时不能直接套该简式。发生密度以人时为分母，必须另外说明单位。",
+      "example": "300人一年完整随访，30人首次患病：30/300×100%=10%；背景为原创教学数字。",
+      "misconceptions": [
+        "用全部现患病例替代新发病例。",
+        "把期初已患该病的人也算进有风险分母。",
+        "把10%写成10人年或把期间风险当发生密度。"
+      ],
+      "recall": [
+        "闭卷写出分子、分母和需要说明的观察时间。",
+        "说明人数和人时分母的区别。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "risk-1",
+          "type": "single",
+          "stem": "累计发病风险的分子应使用？",
+          "options": [
+            "期初所有病例",
+            "观察期新发病例",
+            "全部死亡人数"
+          ],
+          "answer": 1,
+          "explanation": "风险关注期间内从有风险状态变为病例。"
+        },
+        {
+          "id": "risk-2",
+          "type": "number",
+          "stem": "300名期初有风险者完整随访一年，30名新病例，风险百分数是多少？",
+          "answer": 10,
+          "unit": "%",
+          "tolerance": 0.01,
+          "explanation": "30/300×100%=10%，必须注明一年观察期。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "risk-3",
+          "type": "subjective",
+          "stem": "甲队列一年10%，乙队列五年10%，能直接断言发病速度一样吗？解释还需要什么。",
+          "answer": "不能。观察期不同，期间风险不能直接当作同一速度比较；需核对人群、随访和人时等信息。",
+          "explanation": "同一百分数不保证同一时间尺度，不能省略观察期和分母含义。",
+          "rubric": [
+            "明确不能直接比较",
+            "指出一年/五年时间差异",
+            "核对风险人群和完整随访",
+            "必要时使用人时发生密度"
+          ]
+        }
+      ],
+      "rubric": [
+        "公式分子分母正确",
+        "结果及单位正确",
+        "期间和适用条件明确"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换成200人中12名一年新病例，计算并说明分母条件；不要记10%这个答案。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "risk-delay-1",
+          "type": "number",
+          "stem": "200名期初有风险者完整随访一年，12名新病例。累计风险百分数？",
+          "answer": 6,
+          "unit": "%",
+          "tolerance": 0.01,
+          "explanation": "12/200×100%=6%，限定一年完整随访。"
+        },
+        {
+          "id": "risk-delay-2",
+          "type": "single",
+          "stem": "5名新病例/100人年应解释为？",
+          "options": [
+            "一年5%的累计风险",
+            "每100人年5名新病例的发生密度",
+            "现患病例比例"
+          ],
+          "answer": 1,
+          "explanation": "人时分母表示发生密度，不能直接把数字改成期间风险。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-10",
+        "reviewer": "AI-assisted internal source and answer review",
+        "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+        "checks": [
+          "十项内容字段存在",
+          "来源与概念一致性",
+          "题目选项与答案逐题核对",
+          "数值风险30/300=10%、12/200=6%",
+          "试卷/政策适用年份不冒称最终",
+          "主观题参考评分，不给确定自动分数"
+        ],
+        "limitations": [
+          "英语政治官方考试要求映射尚待核实",
+          "专业课程需要进一步独立准确性复核",
+          "真实iPhone教学效果未验证"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-reference-2028-provisional"
+    },
+    {
+      "version": "0.1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "pol-practice-verification",
+      "subject": "pol",
+      "title": "判断是否正确：把认识放回实践检验",
+      "sources": [
+        "https://www.mva.gov.cn/sy/zt/zt1/xxgcddsjdjs/qwjd/201807/t20180727_14488.html"
+      ],
+      "explanation": "提出一个解释，不等于解释已经正确。例如社区认为更换提醒方式能提高疫苗预约完成率，这先是一种认识或假设。实施后观察实际结果、核对实施过程和其他影响，再判断原认识是否得到支持。多数人赞同、说法听起来流畅、提出者有权威，都不能替代实践检验。实践是具体的历史活动，一次失败也要分析实施条件与原因，不能不加分析就否定全部认识。答材料题时需要原理、材料中的行动与结果、以及继续修正认识的结论。",
+      "definition": "实践是检验真理的唯一标准；认识应在实践中接受检验并继续发展。",
+      "conditions": "此处学习认识论原理，不把单次观察等同于控制良好的因果证据。具体材料要区分客观结果、执行条件和其他影响。",
+      "example": "社区修改预约提醒并比较结果；这是原创公共生活情境，不要求职业经验。",
+      "misconceptions": [
+        "认为多数人赞同就是真理标准。",
+        "只背原理不对应材料。",
+        "用一次未经分析的失败否定所有方案。"
+      ],
+      "recall": [
+        "不看讲解说出真理的检验标准。",
+        "解释为什么权威或赞同不能代替实践。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-practice-1",
+          "type": "single",
+          "stem": "检验一种认识是否符合客观实际，根本标准是？",
+          "options": [
+            "赞同人数",
+            "表达是否流畅",
+            "实践"
+          ],
+          "answer": 2,
+          "explanation": "实践中的客观结果是检验依据，而不是赞同或表达。"
+        },
+        {
+          "id": "pol-practice-2",
+          "type": "multi",
+          "stem": "材料分析应包含哪些环节？",
+          "options": [
+            "对应原理",
+            "结合实际行动与结果",
+            "仅抄题干",
+            "说明后续检验修正"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "原理与材料相联系，并交代继续检验修正；抄题干不能代替分析。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-practice-3",
+          "type": "subjective",
+          "stem": "社区提醒方案未达到预期，如何体现实践与认识的关系？",
+          "answer": "以实际执行和效果检验原认识，分析实施条件和其他影响，修正方案并再次实践，避免只凭主观意愿。",
+          "explanation": "参考表达不是唯一标准答案，须对照原理、材料和修正过程。",
+          "rubric": [
+            "说明实践检验认识",
+            "结合实施结果",
+            "分析具体条件",
+            "修正并继续实践"
+          ]
+        }
+      ],
+      "rubric": [
+        "准确原理",
+        "联系材料",
+        "有修正过程"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换一个公共生活方案，写原理—材料—修正三个要点。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "pol-delay-1",
+          "type": "single",
+          "stem": "某方案获得广泛赞同，但尚未实施。能据此认定其正确吗？",
+          "options": [
+            "能，人数决定真理",
+            "不能，需要实践检验",
+            "能，只要语言严谨"
+          ],
+          "answer": 1,
+          "explanation": "赞同人数与表达质量不能代替客观实践检验。"
+        },
+        {
+          "id": "pol-delay-2",
+          "type": "multi",
+          "stem": "试点结果与预期不符后，哪些做法符合本单元原理？",
+          "options": [
+            "核对实施条件",
+            "根据结果修正并继续验证",
+            "因权威支持而不再检查"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "在具体实践中分析和发展认识；不能用权威替代检验。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-10",
+        "reviewer": "AI-assisted internal source and answer review",
+        "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+        "checks": [
+          "十项内容字段存在",
+          "来源与概念一致性",
+          "题目选项与答案逐题核对",
+          "数值风险30/300=10%、12/200=6%",
+          "试卷/政策适用年份不冒称最终",
+          "主观题参考评分，不给确定自动分数"
+        ],
+        "limitations": [
+          "英语政治官方考试要求映射尚待核实",
+          "专业课程需要进一步独立准确性复核",
+          "真实iPhone教学效果未验证"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+    },
+    {
+      "id": "en-present-negative",
+      "subject": "en",
+      "title": "一般现在时否定：别把动作词再加一次s",
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/present-simple"
+      ],
+      "explanation": "先比较两句原创例句：Mina checks the list. 米娜核对清单。Mina does not check the list. 米娜不核对清单。肯定句中checks带第三人称单数变化；否定句把这一语法任务交给does，后面的动作词回到check。把does not checks连在一起，是重复标记。再看The volunteers do not check the list. 志愿者们不核对清单：复数主语用do not。读阅读材料时，漏看not会把作者结论读反。不要只找熟悉单词，要连着主语、助动词和动作词判断。练习先独立选形式，再将整个句子译为中文，最后说明为什么另一个形式不合适。",
+      "definition": "本课限定一般现在时普通实义动词否定句：主语＋do/does not＋动词原形。第三人称单数用does，其余本课人称用do。",
+      "conditions": "不把此规则套用到be或情态动词。The result is not clear.不加does；can not/cannot后用动词原形。疑问句、过去时及have特殊用法另课处理。",
+      "example": "The device does not store names. 设备不存储姓名。The devices do not store names. 这些设备不存储姓名。词汇：store在这里是动词存储，name是姓名。",
+      "misconceptions": [
+        "误写does not stores，助动词之后应为原形。",
+        "把否定词漏译，导致结论反转。",
+        "将be否定句改成does not be。"
+      ],
+      "recall": [
+        "隐藏讲解，分别写出单数主语和复数主语的否定结构。",
+        "独立解释does not后为什么不用checks。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-neg-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "Mina ___ check the list. 选出否定形式。",
+          "options": [
+            "do not",
+            "does not",
+            "does not checks"
+          ],
+          "answer": 1,
+          "explanation": "Mina为第三人称单数，用does not，题目已有原形check。"
+        },
+        {
+          "id": "en-neg-2",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "The volunteers do not ___ names. 选正确形式。",
+          "options": [
+            "stores",
+            "stored",
+            "store"
+          ],
+          "answer": 2,
+          "explanation": "do not后使用动词原形store，复数主语也不要求stores。"
+        },
+        {
+          "id": "en-neg-3",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "哪些句子在本课范围内语法正确？",
+          "options": [
+            "The result is not clear.",
+            "Mina does not checks the list.",
+            "The devices do not store names."
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "be后直接加not；实义动词在do not后用原形。第二句重复第三人称标记。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-neg-4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "改正Mina does not stores names.，翻译，并指出改动理由。",
+          "answer": "Mina does not store names. 米娜不存储姓名。does已承担当下第三人称单数形式，store用原形。",
+          "explanation": "同时核对形式与句义；只改拼写却漏译否定，仍未完成任务。",
+          "rubric": [
+            "将stores改为store",
+            "保留does not并说明后接原形",
+            "译出不存储姓名的否定含义"
+          ]
+        },
+        {
+          "id": "en-neg-5",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "A report says: The device does not store names, but it stores dates. 哪个结论有句子证据？",
+          "options": [
+            "设备不存储姓名，但存储日期",
+            "设备存储姓名和日期",
+            "设备不存储任何数据"
+          ],
+          "answer": 0,
+          "explanation": "not否定store names；but后it stores dates为肯定。不要把前半句否定扩大到所有数据。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-neg-d1",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "隔日闭卷：The student does not ___ the rule.（理解）",
+          "options": [
+            "understands",
+            "understand",
+            "understood"
+          ],
+          "answer": 1,
+          "explanation": "does not后接原形understand。"
+        },
+        {
+          "id": "en-neg-d2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "不看前题，把The teams check dates.改为否定句并翻译。",
+          "answer": "The teams do not check dates. 这些团队不核对日期。",
+          "explanation": "复数主语teams用do not；check保持原形。",
+          "rubric": [
+            "复数主语后用do not",
+            "check为原形",
+            "中文保留否定与日期对象"
+          ]
+        }
+      ],
+      "rubric": [
+        "判断主语单复数",
+        "选择do/does",
+        "保持动作词原形",
+        "正确理解否定范围"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-16",
+      "applicableYear": 2028,
+      "sourceYear": null,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，独立回忆本课关键规则和适用条件"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "prerequisites": [
+        "en-foundation-svo"
+      ]
+    },
+    {
+      "id": "pol-common-particular",
+      "subject": "pol",
+      "title": "共性与个性：有共同原则也要分析具体条件",
+      "sources": [
+        "https://dangshi.people.com.cn/n1/2021/0507/c436975-32096575.html"
+      ],
+      "explanation": "先用一个原创日常案例区分两个层次。几所学校都希望减少图书排队，这是可以研究的共同问题；有的学校空间小，有的学校借阅高峰不同，这是各自条件。发现一校做法有效，不能直接推出所有学校必须照搬全部流程；但承认差异，也不表示完全没有可借鉴的规律。在哲学课程中，共性与个性用于理解矛盾普遍性与特殊性的关系。学习时要区分一般存在矛盾的命题、具体矛盾各有特点的命题，以及方法论上将一般原理同具体条件结合的要求。日常案例仅辅助理解，不是用一件事证明全部哲学原理。答材料题应先指出共同问题，再找材料中的条件差异，最后说明如何调整措施；只背具体问题具体分析而不联系材料，缺少论证。",
+      "definition": "矛盾普遍性与特殊性的关系可以从共性与个性的关系理解。共性通过具体个性体现，不能把二者割裂；个性也不是脱离同类共性而孤立存在。",
+      "conditions": "本课讨论普遍性与特殊性，不把它混同为主要矛盾与次要矛盾或矛盾主要方面。具体课程考试范围仍待对应适用年度官方要求；不声称本课为2028必考题。",
+      "example": "原创情境：两所学校都优化借书流程。一校增加预约，另一校延长高峰开放；共同目标并不要求措施完全相同。分析要说明具体条件，而不只评价哪所学校正确。",
+      "misconceptions": [
+        "共性是把所有细节都变成一样。",
+        "只要有差异，就不可能有一般规律。",
+        "具体问题具体分析等于抛弃一般原理。"
+      ],
+      "recall": [
+        "隐藏讲解，用自己的话说明共性与个性为何不能割裂。",
+        "指出普遍性特殊性与主要次要矛盾是不是同一组概念。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-cp-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "把一个学校全部措施不加分析搬到另一学校，主要忽视什么？",
+          "options": [
+            "具体条件和特殊性",
+            "所有共同问题都不存在",
+            "规律绝对不能研究"
+          ],
+          "answer": 0,
+          "explanation": "有共同目标仍需分析条件；答案不是否定一般规律。"
+        },
+        {
+          "id": "pol-cp-2",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "符合本课方法的表述有哪些？",
+          "options": [
+            "从具体经验中研究共同问题",
+            "有共性就不需要研究差异",
+            "结合条件运用一般认识"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "共性不消灭个性；运用一般认识需要分析具体对象。"
+        },
+        {
+          "id": "pol-cp-3",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "普遍性与特殊性可以直接替换为主要矛盾与次要矛盾吗？",
+          "options": [
+            "可以，完全同义",
+            "不可以，它们分析的关系不同",
+            "都没有研究意义"
+          ],
+          "answer": 1,
+          "explanation": "前者研究共性个性，后者涉及诸矛盾地位作用的区别，不能替换。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-cp-4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "A校预约借书减少排队，B校学生主要在晚间借书。有人要求B校照搬全部预约流程。请用本课原理分析。",
+          "answer": "两校有提升借阅效率的共同问题，但高峰时段等条件不同。可借鉴预约经验，同时调查B校需求，结合晚间服务条件调整，不能照搬或一概拒绝借鉴。",
+          "explanation": "原理、材料证据和措施理由均须出现；未提供调查数据，不能断言某措施一定有效。",
+          "rubric": [
+            "指出共同问题",
+            "引用晚间借阅这一具体差异",
+            "将借鉴与具体条件结合",
+            "不把未证实效果说成必然"
+          ]
+        },
+        {
+          "id": "pol-cp-5",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "下列哪一句对材料的分析最充分？",
+          "options": [
+            "只要学过哲学就一定成功",
+            "因为B校不同，所以A校经验毫无价值",
+            "借鉴A校经验并核对B校晚间需求和实施条件"
+          ],
+          "answer": 2,
+          "explanation": "第三项将共同经验和具体条件联系起来；其余两项分别绝对化成功或否认借鉴。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-cp-d1",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "隔日判断：哪些论断需纠正？",
+          "options": [
+            "一般认识通过具体事物体现",
+            "研究差异即可完全不管共同规律",
+            "同一目标要求所有措施细节相同"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "explanation": "问题问需要纠正的论断。后两项割裂或抹去共性个性，第一项不是应纠正项。"
+        },
+        {
+          "id": "pol-cp-d2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "原创迁移：两个社区都要改善垃圾分类，但住宅布局不同。提出一条符合共性个性关系的建议并说明理由。",
+          "answer": "可以借鉴清晰标识等一般经验，但投放点与时段应依据各社区住宅布局、居民需求调查决定。",
+          "explanation": "不要求固定唯一措施，核对原理、具体差异和理由，不自动给分。",
+          "rubric": [
+            "识别共同改善目标",
+            "结合住宅布局差异",
+            "给出有理由的因地制宜建议"
+          ]
+        }
+      ],
+      "rubric": [
+        "原理准确",
+        "材料证据明确",
+        "分析联系条件",
+        "建议不作效果保证"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-16",
+      "applicableYear": 2028,
+      "sourceYear": null,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，独立回忆本课关键规则和适用条件"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "prerequisites": [],
+      "recommendedBefore": [
+        "pol-practice-verification"
+      ]
+    },
+    {
+      "id": "353-person-time",
+      "subject": "353",
+      "title": "人时发病率：随访长短不同怎样比较",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "explanation": "先想清分母：同样是两人，一人观察一年，另一人只观察半年，不能把两人都当作随访一年。将每位处于发病风险且实际被观察的时间相加，得到人时。原创数据：甲从入组到首次发病为0.5年，乙未发病随访1年，丙未发病随访0.5年，总计2人年，1个新病例，发病密度为0.5每人年。此处只分析首次事件，甲发病后不继续为该结局累计风险人时。数值0.5每人年描述发生速率，不是说每人有50%风险。比较群体时必须核对事件定义、观察窗、计时单位和风险集是否一致。人时方法可处理不同长度观察，但不能自动消除失访偏倚或人群差异。",
+      "definition": "首次事件发病密度＝观察期间新发病例数÷处于该结局发病风险的总观察人时。若分母为人年，单位为每人年，常换算每1000人年。",
+      "conditions": "分母只计处于风险且被观察时间，首次发病、失访或随访终止时停止相应计时。发病密度不是累计风险；由速率推风险需要额外模型假设，本课不自动转换。重复事件、复杂风险集和因果比较另课处理，需专业复核。",
+      "example": "原创计算：40个新病例、2000人年，40/2000＝0.02每人年＝20/1000人年。把分母换成人月须同时正确换算数值，不能直接把20/1000人年写为20/1000人月。",
+      "misconceptions": [
+        "把每人年误写成百分比风险。",
+        "用期初人数乘最长随访替代实际人时。",
+        "认为用了人时就没有失访偏倚。"
+      ],
+      "recall": [
+        "隐藏讲解写出公式和分母含义。",
+        "解释0.02每人年为什么不能直接宣称为2%累计发病风险。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "epi-pt-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "首次事件的人时分母应包括？",
+          "options": [
+            "所有人从入组到研究末日的时间，即使已发病",
+            "处于该结局风险且实际被观察的时间",
+            "仅发病者人数"
+          ],
+          "answer": 1,
+          "explanation": "首次发病或观察停止后不再累计该结局风险人时。"
+        },
+        {
+          "id": "epi-pt-2",
+          "type": "number",
+          "difficulty": "foundation",
+          "stem": "40例新发病例、2000人年，求每1000人年的发病密度。",
+          "answer": 20,
+          "unit": "例/1000人年",
+          "tolerance": 0.0001,
+          "explanation": "40÷2000×1000＝20，单位例/1000人年，不能写成20%。"
+        },
+        {
+          "id": "epi-pt-3",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "关于发病密度哪些表述正确？",
+          "options": [
+            "有时间倒数的量纲",
+            "直接就是一个人的累计风险",
+            "不能自动消除失访偏倚"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "分母为人时，速率不同于风险；设计和缺失机制仍影响推断。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "epi-pt-4",
+          "type": "number",
+          "difficulty": "application",
+          "stem": "首次事件：甲0.5年发病，乙未发病随访1年，丙未发病随访0.5年。求每1000人年发病密度。",
+          "answer": 500,
+          "unit": "例/1000人年",
+          "tolerance": 0.0001,
+          "explanation": "总人时0.5＋1＋0.5＝2人年，1÷2×1000＝500。样本很小仅为计算练习，不能外推稳定人群风险。"
+        },
+        {
+          "id": "epi-pt-5",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "某研究报告20例/1000人年。有人解释为随访期间每个人都有2%发病风险。指出问题及缺少的信息。",
+          "answer": "20/1000人年是发病密度而非累计风险，不能直接这样解读；还需明确时间范围、危险人群及速率随时间等模型条件，才可能在相应假设下转换风险。",
+          "explanation": "必须区分率与风险，不能只改单位不改解释；本课不提供未经假设验证的换算。",
+          "rubric": [
+            "指出发病密度不同于累计风险",
+            "识别每人年的时间单位",
+            "指出缺时间窗及额外模型条件"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "epi-pt-d1",
+          "type": "number",
+          "difficulty": "standard",
+          "stem": "隔日：15个新病例、750人年，求每1000人年发病密度。",
+          "answer": 20,
+          "unit": "例/1000人年",
+          "tolerance": 0.0001,
+          "explanation": "15÷750×1000＝20。独立核对分子新病例、分母人时。"
+        },
+        {
+          "id": "epi-pt-d2",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "甲组10/1000人年，乙组10/1000人月，可直接说速率相同吗？",
+          "options": [
+            "可以，只看数值10",
+            "不可以，时间单位不同",
+            "两者都等于10%"
+          ],
+          "answer": 1,
+          "explanation": "必须统一时间单位及观察定义。数值相同不意味着速率相同。"
+        }
+      ],
+      "rubric": [
+        "新病例分子",
+        "风险人时分母",
+        "计算与换算",
+        "单位与解释边界"
+      ],
+      "mapping": [
+        "s27-8-2"
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-16",
+      "applicableYear": 2028,
+      "sourceYear": 2027,
+      "scopeStatus": "provisional-previous-year",
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，独立回忆本课关键规则和适用条件"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "prerequisites": [
+        "353-incidence-risk"
+      ]
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "version": "0.1",
+      "subject": "en",
+      "title": "句子骨架补课：状态、动作与不能删的成分",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例和练习；来源仅核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-17",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/subject-complements",
+        "https://dictionary.cambridge.org/grammar/british-grammar/finite-and-non-finite-"
+      ],
+      "explanation": "动作句不是唯一骨架。原创句The room is quiet.意思是房间很安静。room是主语，is把主语与quiet这一状态联系起来；quiet是表语，不是被动作作用的宾语。再看The assistant is checking the list. 助手正在核对清单。这里is checking合起来表示正在进行的动作，不能把checking当作可随手删除的修饰语。若只留下The assistant is，原句的动作和对象信息就丢失了。第三句Reading helps. 阅读有帮助。Reading在这里作主语，不能因为看见-ing就把它划掉。零基础读句时先分清这句话在说明状态还是动作，再确定词在整句中的作用；不要只按词尾机械删词。词汇quiet是安静的，assistant是助手，check在这些例句里表示核对。先能准确解释这三句，再进入更长的阅读句子。",
+      "definition": "本课的系表句由主语、连系动词和说明主语的表语构成。进行结构中的be与-ing形式共同构成谓语动词短语；一个词的外形不等于它在句中的全部功能。",
+      "conditions": "仅分析本课明确的简单句例子。不是所有be后成分都是形容词，不是所有-ing都表示进行；interesting等词也可能作形容词。复杂补足结构、被动和从句另课处理。",
+      "example": "The room is quiet. 房间很安静，quiet说明room的状态。The assistant is checking the list. 助手正在核对清单，is checking表示动作。Reading helps. 阅读有帮助，Reading作主语。以上例句均为本项目自编。",
+      "misconceptions": [
+        "所有英语句子都必须有宾语。",
+        "看见-ing就删，忽略主语或谓语的一部分。",
+        "所有be后成分都按同一规则分析。"
+      ],
+      "recall": [
+        "隐藏讲解，说明表语与宾语在本课例句中的区别。",
+        "写出is checking为什么不能只留下is，并解释Reading helps.的主语。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-link-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "The room is quiet. 中quiet的作用是？",
+          "options": [
+            "承受动作的宾语",
+            "说明room状态的表语",
+            "表示正在进行的动作"
+          ],
+          "answer": 1,
+          "explanation": "quiet说明主语room的状态，is在此连接主语与表语。"
+        },
+        {
+          "id": "en-link-2",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "The assistant is checking the list. 的谓语动词短语是？",
+          "options": [
+            "assistant",
+            "checking the list的全部都是可删修饰语",
+            "is checking"
+          ],
+          "answer": 2,
+          "explanation": "is checking共同表示进行动作。the list是该动作的对象，不属于谓语动词短语本身。"
+        },
+        {
+          "id": "en-link-3",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "哪些判断符合本课的三个例句？",
+          "options": [
+            "系表句不必强找动作宾语",
+            "任何-ing都可以删掉",
+            "Reading helps.中Reading作主语"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "词的句法作用要结合整句判断，不能只靠-ing词尾决定可否删除。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-link-4",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "有人将The assistant is checking the list.简化为The assistant is.并说意思没有变化。怎样评价？",
+          "options": [
+            "没有变化，因为所有-ing都是修饰",
+            "丢失了核对清单这一动作和对象信息",
+            "原句没有主语"
+          ],
+          "answer": 1,
+          "explanation": "原句is checking为进行结构；机械删去checking the list不能保留原句意思。"
+        },
+        {
+          "id": "en-link-5",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "分别翻译The room is quiet.和Reading helps.，指出前句表语、后句主语，并解释为何不能机械删除-ing。",
+          "answer": "房间很安静，quiet为说明room状态的表语；阅读有帮助，Reading为主语。-ing的功能依句子而定，不能仅凭词尾删去。",
+          "explanation": "核对翻译、成分和方法边界；只写术语而没有对应到例句仍待完善，不自动给分。",
+          "rubric": [
+            "准确译出房间很安静",
+            "指出quiet为表语",
+            "译出阅读有帮助并指出Reading为主语",
+            "说明不能仅凭-ing词尾判断删除"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-link-d1",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "隔日：The answer seems clear.中clear补充说明谁？",
+          "options": [
+            "answer",
+            "一个未出现的动作对象",
+            "句外的某个人"
+          ],
+          "answer": 0,
+          "explanation": "seems在此为连系动词，clear说明主语answer。补充词seem意为显得。"
+        },
+        {
+          "id": "en-link-d2",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日迁移：The students are reading.中are reading应该怎样处理？",
+          "options": [
+            "删掉reading，意思完全相同",
+            "把reading必定当作主语",
+            "合起来识别正在阅读的动作"
+          ],
+          "answer": 2,
+          "explanation": "这个具体例句为进行结构，are reading共同表示动作。不要把Reading helps.的分析机械移到所有句子。"
+        }
+      ],
+      "rubric": [
+        "译文与句义对应",
+        "区分表语和宾语",
+        "识别谓语动词短语",
+        "不绝对化词形规则"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，用状态句和动作句各说明一种骨架。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      }
+    }
+  ],
+  "fingerprints": [
+    {
+      "id": "en-foundation-svo",
+      "version": "0.1",
+      "sha256": "ff0d40b3acdbde82252b981c056a309d5d4acb5f6be34469546951664c999a66"
+    },
+    {
+      "id": "353-incidence-risk",
+      "version": "0.1",
+      "sha256": "5b622989263e6557466a6c835b1e489d5b4b335cbe404f047fe397e8de0aa558"
+    },
+    {
+      "id": "pol-practice-verification",
+      "version": "0.1",
+      "sha256": "68671127590c5c1ce082522996d77a9a7ed2780851c511b99dd981579c987e97"
+    },
+    {
+      "id": "en-present-negative",
+      "version": "0.1",
+      "sha256": "46faa72c30ec6b2294f3a24f1132c8541122bb80d3f19aa763ed4fd94d7164ee"
+    },
+    {
+      "id": "pol-common-particular",
+      "version": "0.1",
+      "sha256": "bb02d5ff6ccee21515e53bfc10326ba07360c5514433b2f5361cf6c0e595ac21"
+    },
+    {
+      "id": "353-person-time",
+      "version": "0.1",
+      "sha256": "a719fb740957844adde160383e7f605987aff2fc0e8ac956f7f27eedd924bca5"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "version": "0.1",
+      "sha256": "58229a0f47443bad75580c13f4431398c2c5ca073da437abf9be7e9df2b6e9df"
+    }
+  ]
+}

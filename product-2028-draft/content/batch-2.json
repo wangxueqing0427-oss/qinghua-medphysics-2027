@@ -1,36 +1,203 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026-10-17-draft",
-  "units": [{
-    "id": "en-linking-and-verb-phrase", "version": "0.1", "subject": "en",
-    "title": "句子骨架补课：状态、动作与不能删的成分",
-    "reviewStatus": "draft-internal-check", "distribution": "held-pending-review",
-    "authorship": "本项目原创讲解、例句、案例和练习；来源仅核验概念，不复制教材或真题",
-    "writtenAt": "2026-10-17", "applicableYear": 2028,
-    "scopeStatus": "teaching-supplement-exam-spec-pending",
-    "mapping": ["en-plan-2"], "prerequisites": ["en-foundation-svo"],
-    "sources": ["https://dictionary.cambridge.org/grammar/british-grammar/subject-complements", "https://dictionary.cambridge.org/grammar/british-grammar/finite-and-non-finite-"],
-    "explanation": "动作句不是唯一骨架。原创句The room is quiet.意思是房间很安静。room是主语，is把主语与quiet这一状态联系起来；quiet是表语，不是被动作作用的宾语。再看The assistant is checking the list. 助手正在核对清单。这里is checking合起来表示正在进行的动作，不能把checking当作可随手删除的修饰语。若只留下The assistant is，原句的动作和对象信息就丢失了。第三句Reading helps. 阅读有帮助。Reading在这里作主语，不能因为看见-ing就把它划掉。零基础读句时先分清这句话在说明状态还是动作，再确定词在整句中的作用；不要只按词尾机械删词。词汇quiet是安静的，assistant是助手，check在这些例句里表示核对。先能准确解释这三句，再进入更长的阅读句子。",
-    "definition": "本课的系表句由主语、连系动词和说明主语的表语构成。进行结构中的be与-ing形式共同构成谓语动词短语；一个词的外形不等于它在句中的全部功能。",
-    "conditions": "仅分析本课明确的简单句例子。不是所有be后成分都是形容词，不是所有-ing都表示进行；interesting等词也可能作形容词。复杂补足结构、被动和从句另课处理。",
-    "example": "The room is quiet. 房间很安静，quiet说明room的状态。The assistant is checking the list. 助手正在核对清单，is checking表示动作。Reading helps. 阅读有帮助，Reading作主语。以上例句均为本项目自编。",
-    "misconceptions": ["所有英语句子都必须有宾语。", "看见-ing就删，忽略主语或谓语的一部分。", "所有be后成分都按同一规则分析。"],
-    "recall": ["隐藏讲解，说明表语与宾语在本课例句中的区别。", "写出is checking为什么不能只留下is，并解释Reading helps.的主语。"],
-    "basicQuestions": [
-      {"id":"en-link-1","type":"single","difficulty":"foundation","stem":"The room is quiet. 中quiet的作用是？","options":["承受动作的宾语","说明room状态的表语","表示正在进行的动作"],"answer":1,"explanation":"quiet说明主语room的状态，is在此连接主语与表语。"},
-      {"id":"en-link-2","type":"single","difficulty":"foundation","stem":"The assistant is checking the list. 的谓语动词短语是？","options":["assistant","checking the list的全部都是可删修饰语","is checking"],"answer":2,"explanation":"is checking共同表示进行动作。the list是该动作的对象，不属于谓语动词短语本身。"},
-      {"id":"en-link-3","type":"multi","difficulty":"standard","stem":"哪些判断符合本课的三个例句？","options":["系表句不必强找动作宾语","任何-ing都可以删掉","Reading helps.中Reading作主语"],"answer":[0,2],"explanation":"词的句法作用要结合整句判断，不能只靠-ing词尾决定可否删除。"}
-    ],
-    "applicationQuestions": [
-      {"id":"en-link-4","type":"single","difficulty":"application","stem":"有人将The assistant is checking the list.简化为The assistant is.并说意思没有变化。怎样评价？","options":["没有变化，因为所有-ing都是修饰","丢失了核对清单这一动作和对象信息","原句没有主语"],"answer":1,"explanation":"原句is checking为进行结构；机械删去checking the list不能保留原句意思。"},
-      {"id":"en-link-5","type":"subjective","difficulty":"application","stem":"分别翻译The room is quiet.和Reading helps.，指出前句表语、后句主语，并解释为何不能机械删除-ing。","answer":"房间很安静，quiet为说明room状态的表语；阅读有帮助，Reading为主语。-ing的功能依句子而定，不能仅凭词尾删去。","explanation":"核对翻译、成分和方法边界；只写术语而没有对应到例句仍待完善，不自动给分。","rubric":["准确译出房间很安静","指出quiet为表语","译出阅读有帮助并指出Reading为主语","说明不能仅凭-ing词尾判断删除"]}
-    ],
-    "delayedQuestions": [
-      {"id":"en-link-d1","type":"single","difficulty":"standard","stem":"隔日：The answer seems clear.中clear补充说明谁？","options":["answer","一个未出现的动作对象","句外的某个人"],"answer":0,"explanation":"seems在此为连系动词，clear说明主语answer。补充词seem意为显得。"},
-      {"id":"en-link-d2","type":"single","difficulty":"application","stem":"隔日迁移：The students are reading.中are reading应该怎样处理？","options":["删掉reading，意思完全相同","把reading必定当作主语","合起来识别正在阅读的动作"],"answer":2,"explanation":"这个具体例句为进行结构，are reading共同表示动作。不要把Reading helps.的分析机械移到所有句子。"}
-    ],
-    "rubric": ["译文与句义对应", "区分表语和宾语", "识别谓语动词短语", "不绝对化词形规则"],
-    "review": {"intervalDays":[1,3,7,14,30],"delayedPrompt":"不看旧题，用状态句和动作句各说明一种骨架。"},
-    "reviewRecord": {"internalCheck":"source-linked-draft","expertApproved":false,"publicRelease":false}
-  }]
+  "units": [
+    {
+      "id": "en-linking-and-verb-phrase",
+      "version": "0.1",
+      "subject": "en",
+      "title": "句子骨架补课：状态、动作与不能删的成分",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例和练习；来源仅核验概念，不复制教材或真题",
+      "writtenAt": "2026-10-17",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/subject-complements",
+        "https://dictionary.cambridge.org/grammar/british-grammar/finite-and-non-finite-"
+      ],
+      "explanation": "动作句不是唯一骨架。原创句The room is quiet.意思是房间很安静。room是主语，is把主语与quiet这一状态联系起来；quiet是表语，不是被动作作用的宾语。再看The assistant is checking the list. 助手正在核对清单。这里is checking合起来表示正在进行的动作，不能把checking当作可随手删除的修饰语。若只留下The assistant is，原句的动作和对象信息就丢失了。第三句Reading helps. 阅读有帮助。Reading在这里作主语，不能因为看见-ing就把它划掉。零基础读句时先分清这句话在说明状态还是动作，再确定词在整句中的作用；不要只按词尾机械删词。词汇quiet是安静的，assistant是助手，check在这些例句里表示核对。先能准确解释这三句，再进入更长的阅读句子。",
+      "definition": "本课的系表句由主语、连系动词和说明主语的表语构成。进行结构中的be与-ing形式共同构成谓语动词短语；一个词的外形不等于它在句中的全部功能。",
+      "conditions": "仅分析本课明确的简单句例子。不是所有be后成分都是形容词，不是所有-ing都表示进行；interesting等词也可能作形容词。复杂补足结构、被动和从句另课处理。",
+      "example": "The room is quiet. 房间很安静，quiet说明room的状态。The assistant is checking the list. 助手正在核对清单，is checking表示动作。Reading helps. 阅读有帮助，Reading作主语。以上例句均为本项目自编。",
+      "misconceptions": [
+        "所有英语句子都必须有宾语。",
+        "看见-ing就删，忽略主语或谓语的一部分。",
+        "所有be后成分都按同一规则分析。"
+      ],
+      "recall": [
+        "隐藏讲解，说明表语与宾语在本课例句中的区别。",
+        "写出is checking为什么不能只留下is，并解释Reading helps.的主语。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-link-1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "The room is quiet. 中quiet的作用是？",
+          "options": [
+            "承受动作的宾语",
+            "说明room状态的表语",
+            "表示正在进行的动作"
+          ],
+          "answer": 1,
+          "explanation": "quiet说明主语room的状态，is在此连接主语与表语。"
+        },
+        {
+          "id": "en-link-2",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "The assistant is checking the list. 的谓语动词短语是？",
+          "options": [
+            "assistant",
+            "checking the list的全部都是可删修饰语",
+            "is checking"
+          ],
+          "answer": 2,
+          "explanation": "is checking共同表示进行动作。the list是该动作的对象，不属于谓语动词短语本身。"
+        },
+        {
+          "id": "en-link-3",
+          "type": "multi",
+          "difficulty": "standard",
+          "stem": "哪些判断符合本课的三个例句？",
+          "options": [
+            "系表句不必强找动作宾语",
+            "任何-ing都可以删掉",
+            "Reading helps.中Reading作主语"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "词的句法作用要结合整句判断，不能只靠-ing词尾决定可否删除。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-link-4",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "有人将The assistant is checking the list.简化为The assistant is.并说意思没有变化。怎样评价？",
+          "options": [
+            "没有变化，因为所有-ing都是修饰",
+            "丢失了核对清单这一动作和对象信息",
+            "原句没有主语"
+          ],
+          "answer": 1,
+          "explanation": "原句is checking为进行结构；机械删去checking the list不能保留原句意思。"
+        },
+        {
+          "id": "en-link-5",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "分别翻译The room is quiet.和Reading helps.，指出前句表语、后句主语，并解释为何不能机械删除-ing。",
+          "answer": "房间很安静，quiet为说明room状态的表语；阅读有帮助，Reading为主语。-ing的功能依句子而定，不能仅凭词尾删去。",
+          "explanation": "核对翻译、成分和方法边界；只写术语而没有对应到例句仍待完善，不自动给分。",
+          "rubric": [
+            "准确译出房间很安静",
+            "指出quiet为表语",
+            "译出阅读有帮助并指出Reading为主语",
+            "说明不能仅凭-ing词尾判断删除"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-link-d1",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "隔日：The answer seems clear.中clear补充说明谁？",
+          "options": [
+            "answer",
+            "一个未出现的动作对象",
+            "句外的某个人"
+          ],
+          "answer": 0,
+          "explanation": "seems在此为连系动词，clear说明主语answer。补充词seem意为显得。"
+        },
+        {
+          "id": "en-link-d2",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日迁移：The students are reading.中are reading应该怎样处理？",
+          "options": [
+            "删掉reading，意思完全相同",
+            "把reading必定当作主语",
+            "合起来识别正在阅读的动作"
+          ],
+          "answer": 2,
+          "explanation": "这个具体例句为进行结构，are reading共同表示动作。不要把Reading helps.的分析机械移到所有句子。"
+        }
+      ],
+      "rubric": [
+        "译文与句义对应",
+        "区分表语和宾语",
+        "识别谓语动词短语",
+        "不绝对化词形规则"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "不看旧题，用状态句和动作句各说明一种骨架。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "learningObjectives": [
+        {
+          "id": "en-linking-and-verb-phrase-goal-1",
+          "description": "在简单状态句中识别表语，并区分作主语的-ing形式",
+          "successCriteria": "quiet说明room状态，Reading helps中Reading作主语；迁移时clear说明answer，不机械删-ing",
+          "questionIds": [
+            "en-link-1",
+            "en-link-3",
+            "en-link-5",
+            "en-link-d1"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-linking-and-verb-phrase-goal-2",
+          "description": "保留进行结构的完整谓语动词短语并解释删词的信息损失",
+          "successCriteria": "识别is checking和are reading；不能删去checking后宣称意义不变",
+          "questionIds": [
+            "en-link-2",
+            "en-link-4",
+            "en-link-d2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "58229a0f47443bad75580c13f4431398c2c5ca073da437abf9be7e9df2b6e9df",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
+    }
+  ]
 }

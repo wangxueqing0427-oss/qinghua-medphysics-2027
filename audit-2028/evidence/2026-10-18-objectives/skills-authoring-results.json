@@ -1,0 +1,65 @@
+{
+  "mode": "authoring",
+  "createdAt": "2026-10-18T10:47:33.651Z",
+  "scope": "Workflow checks only; no expert approval, deployment or real iPhone acceptance",
+  "formalReleaseApproved": false,
+  "errors": [],
+  "units": [
+    {
+      "id": "en-foundation-svo",
+      "version": "0.1",
+      "prerequisites": [],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "internally-reviewed-for-pilot"
+    },
+    {
+      "id": "353-incidence-risk",
+      "version": "0.1",
+      "prerequisites": [],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "internally-reviewed-for-pilot"
+    },
+    {
+      "id": "pol-practice-verification",
+      "version": "0.1",
+      "prerequisites": [],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "internally-reviewed-for-pilot"
+    },
+    {
+      "id": "en-present-negative",
+      "version": "0.1",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-common-particular",
+      "version": "0.1",
+      "prerequisites": [],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-person-time",
+      "version": "0.1",
+      "prerequisites": [
+        "353-incidence-risk"
+      ],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "version": "0.1",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "missingExplicitObjectives": false,
+      "reviewStatus": "draft-internal-check"
+    }
+  ],
+  "passed": true
+}

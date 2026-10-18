@@ -30,6 +30,9 @@ jobs:
       - name: Validate reusable skills workflows without granting expert approval
         working-directory: .
         run: node audit-2028/skills-workflow-test.cjs
+      - name: Verify measurable objectives and preserve old answer evidence
+        working-directory: .
+        run: node audit-2028/objective-quality-test.cjs
       - name: Audit unified catalog without granting expert approval
         working-directory: .
         run: node audit-2028/audit-course-catalog.cjs

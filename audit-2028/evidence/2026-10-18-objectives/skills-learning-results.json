@@ -1,0 +1,21 @@
+{
+  "mode": "learning",
+  "createdAt": "2026-10-18T10:49:15.093Z",
+  "scope": "Workflow checks only; no expert approval, deployment or real iPhone acceptance",
+  "formalReleaseApproved": false,
+  "executions": [
+    {
+      "script": "learning-integration-test.cjs",
+      "exitCode": 0
+    },
+    {
+      "script": "round4-reliability-test.cjs",
+      "exitCode": 0
+    },
+    {
+      "script": "r4-r5-compatibility-test.cjs",
+      "exitCode": 0
+    }
+  ],
+  "passed": true
+}

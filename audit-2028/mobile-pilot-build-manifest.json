@@ -1,0 +1,46 @@
+{
+  "builtAt": "2026-10-18T10:47:33.334Z",
+  "scope": "Static preview artifact only, not remotely deployed or iPhone tested",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "c3a85fdeff68f6e4640d8fe2b1fe008a381d8abb449b1aadf95f0679ec6d796e"
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "b1875c3458d25b102c6244d54ab926697cc47581b6120ecdfc72536cc10b2c94"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "42ddfab4760cdff140505ad2f52cd699b2944ac68cbdb07a0db64208154e6c4e"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "4aafb1aaf4063f7680fac7fa530797cfa38bb6fb39299e2d0c8591eb3c9da332"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "b0950e44a6ddbb491bb981a55a0c766e168c842006714b7e14607daba2177a96"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "405d5eb4fcbc1527b5a7e6d93bede9f141ffd9e2dc1bc6ddd66e498c25f651bc"
+    }
+  ]
+}

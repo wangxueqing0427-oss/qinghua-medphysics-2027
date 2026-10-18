@@ -131,7 +131,45 @@
         ]
       },
       "licenseStatus": "project-original-with-source-links",
-      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+      "syllabusStatus": "teaching-supplement-exam-spec-pending",
+      "learningObjectives": [
+        {
+          "id": "en-foundation-svo-goal-1",
+          "description": "在简单动作句中区分主语、动作和宾语，并识别不及物句没有直接宾语",
+          "successCriteria": "找对water/read及主体对象；说明Birds fly没有直接宾语，不把介词宾语当直接宾语",
+          "questionIds": [
+            "en-svo-1",
+            "en-svo-2",
+            "en-svo-delay-1",
+            "en-svo-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-foundation-svo-goal-2",
+          "description": "从带地点和时间的句子提取主干并解释补充信息",
+          "successCriteria": "独立写出children—water—the flowers，指出in the garden修饰孩子、every morning表示时间",
+          "questionIds": [
+            "en-svo-3"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "ff0d40b3acdbde82252b981c056a309d5d4acb5f6be34469546951664c999a66",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
     },
     {
       "version": "0.1",
@@ -254,7 +292,45 @@
         ]
       },
       "licenseStatus": "project-original-with-source-links",
-      "syllabusStatus": "2027-reference-2028-provisional"
+      "syllabusStatus": "2027-reference-2028-provisional",
+      "learningObjectives": [
+        {
+          "id": "353-incidence-risk-goal-1",
+          "description": "在封闭、完整随访条件下计算规定期间的累计发病风险",
+          "successCriteria": "分子用新病例，分母用期初有风险者；30/300=10%、12/200=6%，注明一年观察期",
+          "questionIds": [
+            "risk-1",
+            "risk-2",
+            "risk-delay-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-incidence-risk-goal-2",
+          "description": "区分期间风险与人时发生密度，识别观察期不同不能直接比较速度",
+          "successCriteria": "说明一年10%和五年10%不能直接认定速度相同；5/100人年是发生密度而不是5%风险",
+          "questionIds": [
+            "risk-3",
+            "risk-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "5b622989263e6557466a6c835b1e489d5b4b335cbe404f047fe397e8de0aa558",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
     },
     {
       "version": "0.1",
@@ -391,7 +467,46 @@
         ]
       },
       "licenseStatus": "project-original-with-source-links",
-      "syllabusStatus": "teaching-supplement-exam-spec-pending"
+      "syllabusStatus": "teaching-supplement-exam-spec-pending",
+      "learningObjectives": [
+        {
+          "id": "pol-practice-verification-goal-1",
+          "description": "判断认识的检验标准，排除赞同人数、表达和权威替代实践",
+          "successCriteria": "选择实践并能说明尚未实施的方案不能凭赞同人数认定正确",
+          "questionIds": [
+            "pol-practice-1",
+            "pol-delay-1"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-practice-verification-goal-2",
+          "description": "将原理、材料结果、具体条件和再次修正相结合进行分析",
+          "successCriteria": "参考要点核对实践检验、实施结果、条件分析和继续实践；未人工核对不汇总确定分数",
+          "questionIds": [
+            "pol-practice-2",
+            "pol-practice-3",
+            "pol-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-18-objectives-1",
+      "reviewRevalidation": {
+        "status": "pending-independent-review",
+        "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+        "previousContentSha256": "68671127590c5c1ce082522996d77a9a7ed2780851c511b99dd981579c987e97",
+        "previousVersion": "0.1",
+        "gradingContractChanged": false
+      }
     }
   ]
 }

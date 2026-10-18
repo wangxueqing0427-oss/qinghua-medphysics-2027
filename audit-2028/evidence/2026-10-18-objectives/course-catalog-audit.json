@@ -1,0 +1,124 @@
+{
+  "scope": "Automated structure/answer contracts; cannot certify all knowledge, wording, copyright or expert approval",
+  "unitCount": 7,
+  "questionCount": 43,
+  "structuralErrors": [],
+  "duplicateIds": [],
+  "exactDuplicateStems": [],
+  "units": [
+    {
+      "id": "en-foundation-svo",
+      "subject": "en",
+      "questionCount": 5,
+      "sourceUrls": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/direct-objects"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "legacy-needs-difficulty-tags",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    },
+    {
+      "id": "353-incidence-risk",
+      "subject": "353",
+      "questionCount": 5,
+      "sourceUrls": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "legacy-needs-difficulty-tags",
+      "scopeStatus": "2027-reference-2028-provisional",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    },
+    {
+      "id": "pol-practice-verification",
+      "subject": "pol",
+      "questionCount": 5,
+      "sourceUrls": [
+        "https://www.mva.gov.cn/sy/zt/zt1/xxgcddsjdjs/qwjd/201807/t20180727_14488.html"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "legacy-needs-difficulty-tags",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    },
+    {
+      "id": "en-present-negative",
+      "subject": "en",
+      "questionCount": 7,
+      "sourceUrls": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/present-simple"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "explicit",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    },
+    {
+      "id": "pol-common-particular",
+      "subject": "pol",
+      "questionCount": 7,
+      "sourceUrls": [
+        "https://dangshi.people.com.cn/n1/2021/0507/c436975-32096575.html"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "explicit",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    },
+    {
+      "id": "353-person-time",
+      "subject": "353",
+      "questionCount": 7,
+      "sourceUrls": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、案例与自编训练；链接只核验概念，不复制教材或真题",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "explicit",
+      "scopeStatus": "provisional-previous-year",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "subject": "en",
+      "questionCount": 7,
+      "sourceUrls": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/subject-complements",
+        "https://dictionary.cambridge.org/grammar/british-grammar/finite-and-non-finite-"
+      ],
+      "sourceAccessVerifiedAutomatically": false,
+      "copyrightDeclared": "本项目原创讲解、例句、案例和练习；来源仅核验概念，不复制教材或真题",
+      "independentCopyrightReview": false,
+      "difficultyGradient": "explicit",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "internalReviewOnly": true,
+      "expertApproved": false,
+      "formalRelease": false
+    }
+  ],
+  "formalReleaseBlocked": true
+}

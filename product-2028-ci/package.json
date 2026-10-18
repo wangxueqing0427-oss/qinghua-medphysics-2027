@@ -1,1 +1,12 @@
-{"name":"qinghua-2028-isolated-e2e","private":true,"version":"0.0.4","scripts":{"test":"playwright test"},"devDependencies":{"@playwright/test":"1.64.0"}}
+{
+  "name": "qinghua-2028-isolated-e2e",
+  "private": true,
+  "version": "0.0.4",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "fake-indexeddb": "6.2.5"
+  }
+}

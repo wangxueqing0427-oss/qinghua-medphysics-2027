@@ -1,0 +1,61 @@
+{
+  "scope": "Internal evidence-link and synthetic storage tests; not expert approval or iPhone",
+  "results": [
+    {
+      "name": "14 goals cover all 43 real questions and all learning phases",
+      "pass": true
+    },
+    {
+      "name": "en-foundation-svo keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "353-incidence-risk keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "pol-practice-verification keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "en-present-negative keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "pol-common-particular keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "353-person-time keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "en-linking-and-verb-phrase keeps grading, prerequisites, source and review history while invalidating prior hash",
+      "pass": true
+    },
+    {
+      "name": "Unknown evidence question rejected",
+      "pass": true
+    },
+    {
+      "name": "Missing measurable success criteria rejected",
+      "pass": true
+    },
+    {
+      "name": "Invalid recall link rejected",
+      "pass": true
+    },
+    {
+      "name": "Unmapped question rejected",
+      "pass": true
+    },
+    {
+      "name": "Internal goals cannot confer expert approval",
+      "pass": true
+    },
+    {
+      "name": "Actual old saved answer survives metadata revision without reset",
+      "pass": true
+    }
+  ]
+}

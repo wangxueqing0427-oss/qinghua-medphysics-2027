@@ -1,0 +1,356 @@
+{
+  "mode": "questions",
+  "createdAt": "2026-10-18T10:47:33.959Z",
+  "scope": "Workflow checks only; no expert approval, deployment or real iPhone acceptance",
+  "formalReleaseApproved": false,
+  "errors": [],
+  "rows": [
+    {
+      "unit": "en-foundation-svo",
+      "id": "en-svo-1",
+      "type": "single",
+      "stem": "Children water the flowers. 的动作词是？",
+      "answerText": "water",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-foundation-svo",
+      "id": "en-svo-2",
+      "type": "single",
+      "stem": "Birds fly. 中的直接宾语是？",
+      "answerText": "没有直接宾语",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-foundation-svo",
+      "id": "en-svo-3",
+      "type": "subjective",
+      "stem": "The children in the garden water the flowers every morning. 写出主干并解释两个补充信息。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-foundation-svo",
+      "id": "en-svo-delay-1",
+      "type": "single",
+      "stem": "People read books in the library. 主干中的动作是？",
+      "answerText": "read",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-foundation-svo",
+      "id": "en-svo-delay-2",
+      "type": "multi",
+      "stem": "Birds fly over the lake. 哪些判断正确？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-incidence-risk",
+      "id": "risk-1",
+      "type": "single",
+      "stem": "累计发病风险的分子应使用？",
+      "answerText": "观察期新发病例",
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-incidence-risk",
+      "id": "risk-2",
+      "type": "number",
+      "stem": "300名期初有风险者完整随访一年，30名新病例，风险百分数是多少？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-incidence-risk",
+      "id": "risk-3",
+      "type": "subjective",
+      "stem": "甲队列一年10%，乙队列五年10%，能直接断言发病速度一样吗？解释还需要什么。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-incidence-risk",
+      "id": "risk-delay-1",
+      "type": "number",
+      "stem": "200名期初有风险者完整随访一年，12名新病例。累计风险百分数？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-incidence-risk",
+      "id": "risk-delay-2",
+      "type": "single",
+      "stem": "5名新病例/100人年应解释为？",
+      "answerText": "每100人年5名新病例的发生密度",
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-practice-verification",
+      "id": "pol-practice-1",
+      "type": "single",
+      "stem": "检验一种认识是否符合客观实际，根本标准是？",
+      "answerText": "实践",
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-practice-verification",
+      "id": "pol-practice-2",
+      "type": "multi",
+      "stem": "材料分析应包含哪些环节？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-practice-verification",
+      "id": "pol-practice-3",
+      "type": "subjective",
+      "stem": "社区提醒方案未达到预期，如何体现实践与认识的关系？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-practice-verification",
+      "id": "pol-delay-1",
+      "type": "single",
+      "stem": "某方案获得广泛赞同，但尚未实施。能据此认定其正确吗？",
+      "answerText": "不能，需要实践检验",
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-practice-verification",
+      "id": "pol-delay-2",
+      "type": "multi",
+      "stem": "试点结果与预期不符后，哪些做法符合本单元原理？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-1",
+      "type": "single",
+      "stem": "Mina ___ check the list. 选出否定形式。",
+      "answerText": "does not",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-2",
+      "type": "single",
+      "stem": "The volunteers do not ___ names. 选正确形式。",
+      "answerText": "store",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-3",
+      "type": "multi",
+      "stem": "哪些句子在本课范围内语法正确？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-4",
+      "type": "subjective",
+      "stem": "改正Mina does not stores names.，翻译，并指出改动理由。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-5",
+      "type": "single",
+      "stem": "A report says: The device does not store names, but it stores dates. 哪个结论有句子证据？",
+      "answerText": "设备不存储姓名，但存储日期",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-d1",
+      "type": "single",
+      "stem": "隔日闭卷：The student does not ___ the rule.（理解）",
+      "answerText": "understand",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-present-negative",
+      "id": "en-neg-d2",
+      "type": "subjective",
+      "stem": "不看前题，把The teams check dates.改为否定句并翻译。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-1",
+      "type": "single",
+      "stem": "把一个学校全部措施不加分析搬到另一学校，主要忽视什么？",
+      "answerText": "具体条件和特殊性",
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-2",
+      "type": "multi",
+      "stem": "符合本课方法的表述有哪些？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-3",
+      "type": "single",
+      "stem": "普遍性与特殊性可以直接替换为主要矛盾与次要矛盾吗？",
+      "answerText": "不可以，它们分析的关系不同",
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-4",
+      "type": "subjective",
+      "stem": "A校预约借书减少排队，B校学生主要在晚间借书。有人要求B校照搬全部预约流程。请用本课原理分析。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-5",
+      "type": "single",
+      "stem": "下列哪一句对材料的分析最充分？",
+      "answerText": "借鉴A校经验并核对B校晚间需求和实施条件",
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-d1",
+      "type": "multi",
+      "stem": "隔日判断：哪些论断需纠正？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "pol-common-particular",
+      "id": "pol-cp-d2",
+      "type": "subjective",
+      "stem": "原创迁移：两个社区都要改善垃圾分类，但住宅布局不同。提出一条符合共性个性关系的建议并说明理由。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-1",
+      "type": "single",
+      "stem": "首次事件的人时分母应包括？",
+      "answerText": "处于该结局风险且实际被观察的时间",
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-2",
+      "type": "number",
+      "stem": "40例新发病例、2000人年，求每1000人年的发病密度。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-3",
+      "type": "multi",
+      "stem": "关于发病密度哪些表述正确？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-4",
+      "type": "number",
+      "stem": "首次事件：甲0.5年发病，乙未发病随访1年，丙未发病随访0.5年。求每1000人年发病密度。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-5",
+      "type": "subjective",
+      "stem": "某研究报告20例/1000人年。有人解释为随访期间每个人都有2%发病风险。指出问题及缺少的信息。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-d1",
+      "type": "number",
+      "stem": "隔日：15个新病例、750人年，求每1000人年发病密度。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "353-person-time",
+      "id": "epi-pt-d2",
+      "type": "single",
+      "stem": "甲组10/1000人年，乙组10/1000人月，可直接说速率相同吗？",
+      "answerText": "不可以，时间单位不同",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-1",
+      "type": "single",
+      "stem": "The room is quiet. 中quiet的作用是？",
+      "answerText": "说明room状态的表语",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-2",
+      "type": "single",
+      "stem": "The assistant is checking the list. 的谓语动词短语是？",
+      "answerText": "is checking",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-3",
+      "type": "multi",
+      "stem": "哪些判断符合本课的三个例句？",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-4",
+      "type": "single",
+      "stem": "有人将The assistant is checking the list.简化为The assistant is.并说意思没有变化。怎样评价？",
+      "answerText": "丢失了核对清单这一动作和对象信息",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-5",
+      "type": "subjective",
+      "stem": "分别翻译The room is quiet.和Reading helps.，指出前句表语、后句主语，并解释为何不能机械删除-ing。",
+      "answerText": null,
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-d1",
+      "type": "single",
+      "stem": "隔日：The answer seems clear.中clear补充说明谁？",
+      "answerText": "answer",
+      "professionalApproval": false
+    },
+    {
+      "unit": "en-linking-and-verb-phrase",
+      "id": "en-link-d2",
+      "type": "single",
+      "stem": "隔日迁移：The students are reading.中are reading应该怎样处理？",
+      "answerText": "合起来识别正在阅读的动作",
+      "professionalApproval": false
+    }
+  ],
+  "similar": [],
+  "method": "Character-set overlap candidates; not semantic equivalence or expert review",
+  "passed": true
+}
