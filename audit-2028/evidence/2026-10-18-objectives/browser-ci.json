@@ -1,0 +1,16 @@
+{
+  "testedCommit": "f61489e774d7038ee2bf80b4522094348ff7a2de",
+  "workflowRun": 39121017415,
+  "job": 117656462093,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39121017415",
+  "conclusion": "success",
+  "evidence": "Fetched actual workflow job logs after completion",
+  "browser": {"expected":42,"skipped":0,"unexpected":0,"flaky":0},
+  "localGate": {"passed":228,"total":228},
+  "objectiveTests": {"passed":14,"total":14,"includedInLocalGate":true},
+  "skillsTests": {"passed":8,"total":8},
+  "scope": "Linux Chromium and WebKit mobile emulation, not actual iPhone",
+  "deployed": false,
+  "expertApproved": false,
+  "productionChanged": false
+}
