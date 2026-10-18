@@ -1,0 +1,17 @@
+{
+  "testedCommit":"dae95fdead2ee043d0b87213269983070b3f1db5",
+  "run":39122191055,
+  "job":117659859942,
+  "url":"https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39122191055",
+  "conclusion":"success",
+  "verifiedFrom":"completed workflow and actual job logs",
+  "draftTests":{"passed":17,"total":17,"scope":"engine and fake IndexedDB, not draft phone UI"},
+  "browser":{"passed":42,"skipped":0,"unexpected":0,"flaky":0,"scope":"existing seven-course UI, Chromium and WebKit mobile emulation"},
+  "localGate":{"passed":245,"total":245,"includesDraft17":true},
+  "failedPriorRun":{"run":39122010732,"commit":"f9660cbb71529e826ba6459d03e2e542579db295","result":"16/17; local-only graph dependency unavailable in CI; browser not run","fix":"Exact syllabus-node snapshot added; full local graph comparison retained"},
+  "mainUnchanged":true,
+  "deployed":false,
+  "catalogPublished":false,
+  "expertApproved":false,
+  "realIPhoneTested":false
+}
