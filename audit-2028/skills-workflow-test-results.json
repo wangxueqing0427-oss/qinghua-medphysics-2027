@@ -1,0 +1,37 @@
+{
+  "scope": "Node workflow validation, not browser or expert review",
+  "results": [
+    {
+      "name": "Existing seven units and answer texts inspected",
+      "pass": true
+    },
+    {
+      "name": "Invalid objective index rejected",
+      "pass": true
+    },
+    {
+      "name": "Duplicate stem flagged without deleting questions",
+      "pass": true
+    },
+    {
+      "name": "Subjective training remains pending without predicted exam score",
+      "pass": true
+    },
+    {
+      "name": "Wrong total rejected",
+      "pass": true
+    },
+    {
+      "name": "Duplicate questions rejected",
+      "pass": true
+    },
+    {
+      "name": "Unknown questions rejected",
+      "pass": true
+    },
+    {
+      "name": "Unsupported official exam claim rejected",
+      "pass": true
+    }
+  ]
+}

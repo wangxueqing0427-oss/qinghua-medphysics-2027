@@ -1,0 +1,64 @@
+{
+  "scope": "Installed repository files and explicit workflow invocation; not live client automatic discovery",
+  "skills": [
+    {
+      "skill": "qinghua-content-audit",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 5,
+      "missingReferences": [],
+      "passed": true
+    },
+    {
+      "skill": "qinghua-course-authoring",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 5,
+      "missingReferences": [],
+      "passed": true
+    },
+    {
+      "skill": "qinghua-exam-analysis",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 3,
+      "missingReferences": [],
+      "passed": true
+    },
+    {
+      "skill": "qinghua-learning-loop",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 5,
+      "missingReferences": [],
+      "passed": true
+    },
+    {
+      "skill": "qinghua-question-validation",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 4,
+      "missingReferences": [],
+      "passed": true
+    },
+    {
+      "skill": "qinghua-release-safety",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 5,
+      "missingReferences": [],
+      "passed": true
+    },
+    {
+      "skill": "qinghua-syllabus-mapping",
+      "officialValidatorPassed": true,
+      "validatorOutput": "Skill is valid!",
+      "references": 3,
+      "missingReferences": [],
+      "passed": true
+    }
+  ],
+  "automaticDiscoveryObserved": false,
+  "placementDocumentation": "https://learn.chatgpt.com/docs/build-skills",
+  "passed": true
+}
