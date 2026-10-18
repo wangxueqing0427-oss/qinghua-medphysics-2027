@@ -1,0 +1,16 @@
+{
+ "checkedAt":"2026-10-18","status":"internal-check-pending-independent-review",
+ "mapping":{"nodeId":"pol-plan-1","name":"基本理论","source":"user_requirements","status":"teaching_plan_exam_spec_pending","officialExamMappingConfirmed":false,"targetYear":2028,"verifiedCoverage":false},
+ "prerequisite":{"id":"pol-practice-verification","reason":"先理解实践检验认识，再学习认识环节与反复发展；不重做原检验标准课，也不取代共性个性课"},
+ "sources":[
+ {"url":"https://news.12371.cn/2017/08/29/ARTI1504001411770206.shtml","publisher":"共产党员网","title":"实践论","publishedAt":"2017-08-29","originalWorkYear":1937,"accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["感性到理性及认识返回实践","认识在实践中检验与发展，具体条件限制"],"applicability":"旧理论材料作为2028暂定教学参考，不是2028或2027研究生考试大纲","rights":"不复制原文长段或来源案例；原创现代公共生活情境"},
+ {"url":"https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_12.shtml","publisher":"共产党员网，页面注明来源中国民主法制出版社","title":"《实践论》《矛盾论》导读：第二章","publishedAt":"2012-08-27","accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["实践认识关系的教学解释","感性理性相联系及反对割裂"],"applicability":"官方平台可读教学导读，旧材料暂定参考；非已核验当前高校教学大纲或考试要求"}
+ ],
+ "failedRetrievals":[
+ {"url":"https://www.shkjdw.gov.cn/c/2013-05-19/486306.shtml","result":"fetch error; excluded from verified sources"},
+ {"url":"https://www.moe.gov.cn/srcsite/A26/jcj_kcjcgh/202012/t20201231_508361.html","result":"timeout/fetch error on repeated attempts; search summary not used as confirmed course policy"},
+ {"url":"https://www.moe.gov.cn/srcsite/A13/moe_772/201804/t20180424_334099.html","result":"fetch error; cannot confirm body or current applicability"}
+ ],
+ "pendingReview":["当前高校课程政策和2028考试大纲尚未核验；不能将2012/2017材料标为最终考试依据","感性理性、实践与思维关系表述是否准确且适合入门","认识反复深化不等于每次个人尝试必然进步的教学边界","题目是否有多解、主观评分点及材料分析深度"],
+ "expertApproved":false,"formalReleaseApproved":false
+}

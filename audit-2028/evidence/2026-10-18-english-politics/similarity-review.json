@@ -1,0 +1,8 @@
+{
+ "reviewType":"internal-AI-screening-not-independent-expert",
+ "candidate":{"a":"sva-d1","b":"sva-d3","score":0.7307692307692307,"detector":"character-set overlap, not semantic equivalence"},
+ "disposition":"retain-both-pending-professional-review",
+ "reason":"sva-d1考查children不规则名词复数与普通动词原形；sva-d3考查she对应has与plays具体词形，分别映射sva-g1与sva-g3。共同的隔日、括号词义和语法用语使字符集合相似，不是重复题干或同义改写。保留候选和内部判断，未自动删除或称专家认定。",
+ "exactDuplicateStems":0,
+ "formalApproval":false
+}

@@ -1,0 +1,14 @@
+{
+ "checkedAt":"2026-10-18","status":"internal-check-pending-independent-review",
+ "mapping":{"nodeId":"en-plan-2","name":"基础句法","source":"user_requirements","status":"teaching_plan_exam_spec_pending","officialExamMappingConfirmed":false,"targetYear":2028,"verifiedCoverage":false},
+ "prerequisite":{"id":"en-foundation-svo","reason":"先能识别主语、谓语与宾语，再处理人称和数；实际闭卷及客观答题证据解锁，不靠完成按钮"},
+ "nonDuplication":"已有en-present-negative讲do/does not+原形；本课主体为肯定句、be、人称及主语核心，否定仅提示另课规则，不复制原题。已有系表课讲句法功能，本课只讲be形式匹配。",
+ "sources":[
+ {"url":"https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement","publisher":"Government of Canada Translation Bureau","publishedAt":null,"modifiedAt":"2020-02-28","accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["一般现在时主谓数一致","第三人称单数实义动词形式与be/have等区别"],"limitation":"页面入门口诀不是全部人称、全部时态的规则；课程明确I/you与结构范围"},
+ {"url":"https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple","publisher":"British Council LearnEnglish","publishedAt":null,"accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["I等用原形、she/he/it用第三人称单数","一般现在时使用情境及助动结构需另区分"],"dateNote":"未见可确认正文发布日期；不以评论时间或搜索引擎估计代替"},
+ {"url":"https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html","publisher":"Purdue University OWL","publishedAt":null,"accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["修饰短语中的名词不替代主语核心","两个不同主体用and并列的一般规则"],"rights":"仅核对语法事实，未复制其例句、讲义或练习；不声称获得转载授权"}
+ ],
+ "failedRetrievals":[{"url":"https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-practice/present-simple-verb-be","status":"internal fetch error; not counted as verified evidence"}],
+ "pendingReview":["be人称表及常见词形的教学充分性","study/play/have具体形式与练习难度的英语专业复核","主观题评分点，是否仍需更多词汇铺垫","英语2028官方适用范围未核实；当前是教学补充而非官方必考范围"],
+ "expertApproved":false,"formalReleaseApproved":false
+}
