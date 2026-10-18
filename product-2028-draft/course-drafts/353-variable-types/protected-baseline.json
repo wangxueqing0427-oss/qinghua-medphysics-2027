@@ -1,0 +1,86 @@
+{
+  "baselineCommit": "45e6e631b9428516f9781a886af7d4f23df32f66",
+  "files": [
+    {
+      "path": "product-2028-draft/representative-courses.json",
+      "sha256": "7679091429582f2826121419393c9e36bc98985f02c8fff837c07780927205c0",
+      "contentSha256": "7679091429582f2826121419393c9e36bc98985f02c8fff837c07780927205c0"
+    },
+    {
+      "path": "product-2028-draft/content/batch-1.json",
+      "sha256": "86cd8ed6f297a4d3caefbfb3fce338ae7359fd85d37b7645752523fd5e913e78",
+      "contentSha256": "86cd8ed6f297a4d3caefbfb3fce338ae7359fd85d37b7645752523fd5e913e78"
+    },
+    {
+      "path": "product-2028-draft/content/batch-2.json",
+      "sha256": "fffb8e467e6f4665cdfc5eb1ded735cfafd39a602e8f500bb183bf281f58738f",
+      "contentSha256": "fffb8e467e6f4665cdfc5eb1ded735cfafd39a602e8f500bb183bf281f58738f"
+    },
+    {
+      "path": "product-2028-draft/content/catalog.json",
+      "sha256": "b894614f484806405b721d4648734c818fde6fe01fe71c9cb5a6da9021a869ae",
+      "contentSha256": "e229e28b36b86979f8b3726ca97d4788e07b908bbab110f7cd5a5698fc1f38b5"
+    },
+    {
+      "path": "product-2028-draft/content/history/2026-10-18-before-objectives.json",
+      "sha256": "21f6a78d592a9bd7c86a57a16b95fa76a85641c8ff407d9d4beb7b1f76c1fa26",
+      "contentSha256": "21f6a78d592a9bd7c86a57a16b95fa76a85641c8ff407d9d4beb7b1f76c1fa26"
+    },
+    {
+      "path": "product-2028-draft/expert-review/courses-and-answers.json",
+      "sha256": "5673a14bcaf6042a79454d1aa8e8adb3049ae9f02952342623e6db65fceec6ec",
+      "contentSha256": "5673a14bcaf6042a79454d1aa8e8adb3049ae9f02952342623e6db65fceec6ec"
+    },
+    {
+      "path": "product-2028-pilot-build/app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "contentSha256": "2404b2561cc4232ba7ff17f8570b1ba5a620ea4a296b8a498508c838dcca2881"
+    },
+    {
+      "path": "product-2028-pilot-build/course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "contentSha256": "0c3341c3ab5575df325bf7219e541b4c00cb27ea5d4d143d9dcb106ea3d043ec"
+    },
+    {
+      "path": "product-2028-pilot-build/icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "contentSha256": "211ae9b3c63950efea08f1e588b55310bb8679e8de36f2508f4eafe18fa8251a"
+    },
+    {
+      "path": "product-2028-pilot-build/index.html",
+      "sha256": "c3a85fdeff68f6e4640d8fe2b1fe008a381d8abb449b1aadf95f0679ec6d796e",
+      "contentSha256": "d4103e56bf8cefed8ec6bd9ad9c0b91ada3b225a9241318683bd28d13f0e40b1"
+    },
+    {
+      "path": "product-2028-pilot-build/learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "contentSha256": "7fd3e73a34187e7ad90057bfa953d3b402d784b5bcb8738a0c631f4093e661b9"
+    },
+    {
+      "path": "product-2028-pilot-build/manifest.json",
+      "sha256": "b1875c3458d25b102c6244d54ab926697cc47581b6120ecdfc72536cc10b2c94",
+      "contentSha256": "e8351d2275ad2f4d1dd042d0d95a559e2d7370a72d474833cd355b0ff64888a3"
+    },
+    {
+      "path": "product-2028-pilot-build/pilot-ui.js",
+      "sha256": "4aafb1aaf4063f7680fac7fa530797cfa38bb6fb39299e2d0c8591eb3c9da332",
+      "contentSha256": "e995f1929865901a5f3de8619fe984bca9b5d381a264dd6ac0a1accba9fd6f15"
+    },
+    {
+      "path": "product-2028-pilot-build/profile-repository.js",
+      "sha256": "42ddfab4760cdff140505ad2f52cd699b2944ac68cbdb07a0db64208154e6c4e",
+      "contentSha256": "92926ed9f916760afe2b46998b73b4ae77dd1852dbc0fb34d8550f7f47b21b16"
+    },
+    {
+      "path": "product-2028-pilot-build/representative-courses.json",
+      "sha256": "b0950e44a6ddbb491bb981a55a0c766e168c842006714b7e14607daba2177a96",
+      "contentSha256": "b0950e44a6ddbb491bb981a55a0c766e168c842006714b7e14607daba2177a96"
+    },
+    {
+      "path": "product-2028-pilot-build/sw.js",
+      "sha256": "405d5eb4fcbc1527b5a7e6d93bede9f141ffd9e2dc1bc6ddd66e498c25f651bc",
+      "contentSha256": "b093713ddd72c9a93b25d1dba1b3b2040a60cb1f83152e0397fd3b917596c4f4"
+    }
+  ],
+  "comparison": "UTF-8 content excluding trailing whitespace; original byte hash also retained, remote baseline may differ in final newline"
+}

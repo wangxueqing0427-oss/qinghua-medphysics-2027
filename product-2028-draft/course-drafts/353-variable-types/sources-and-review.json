@@ -1,0 +1,25 @@
+{
+  "checkedAt":"2026-10-18",
+  "status":"internal-source-check-pending-independent-review",
+  "mapping":{"nodeId":"s27-18-1","name":"变量类型","section":"第二部分 B统计学 一认识数据","relationship":"primary-partial-teaching-support","verifiedCoverage":false,"verifiedFullCoverage":false,"sourceYear":2027,"targetYear":2028,"scope":"变量分类；基础指标选择仅为衔接，不声称覆盖描述统计、散点图、抽样或推断"},
+  "sources":[
+    {"id":"tsinghua-2027-353","url":"https://vsph.tsinghua.edu.cn/info/1025/2775.htm","publisher":"清华大学万科公共卫生与健康学院","publishedAt":"2026-09-30","accessedAt":"2026-10-18","accessStatus":"full-page-read","applicableYear":2027,"useFor2028":"provisional-previous-year-only","supports":["认识数据要求变量分类及描述指标适用场景"],"doesNotConfirm":["2028最终招生目录与考试科目","本课已覆盖全部节点","医学物理特定方向学习方式"]},
+    {"id":"statcan-variable-types","url":"https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214817-eng.htm","publisher":"Statistics Canada","publishedAt":null,"modifiedAt":"2021-09-02","accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["变量定义及分类/数值","无序与有序、数值编码不代表数量","连续测量、舍入和固定步长离散记录"],"dateNote":"页面仅明确修改日期，不伪造首发日期"},
+    {"id":"nist-location","url":"https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm","publisher":"NIST/SEMATECH e-Handbook","publishedAt":null,"accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["均值与中位数计算","极端值与偏斜对位置指标的影响"],"dateNote":"所读页面未明确发布日期；不指定虚构日期"},
+    {"id":"cdc-description","url":"https://www.cdc.gov/field-epi-manual/php/chapters/describing-epi-data.html","publisher":"CDC Field Epidemiology Manual","publishedAt":"2024-08-08","accessedAt":"2026-10-18","accessStatus":"full-page-read","supports":["记录单位、表格单位和描述目的","计数与适当分母、事件定义及时间边界"]}
+  ],
+  "failedRetrievals":[
+    {"url":"https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch11/5214871-eng.htm","result":"inaccessible; not cited as evidence"},
+    {"url":"https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch11/5214867-eng.htm","result":"service unavailable page, not substantive content; replaced by actually read NIST page"},
+    {"url":"https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson2/section2.html","result":"timeout; not relied on, current CDC page read instead"}
+  ],
+  "originality":"讲解、案例、表格、题目和解析原创；只链接概念来源，不转载原文或来源例题。来源链接不表示外部机构认可课程。",
+  "internalFindings":[
+    {"topic":"离散定义","finding":"使用可枚举计数/固定步长，而非所有离散变量取值总数有限；不机械照搬来源入门简化句","status":"pending-statistics-expert"},
+    {"topic":"测量与记录","finding":"题目明确底层属性或保存值，防止整数身高、整岁年龄歧义","status":"internally-checked-pending-expert"},
+    {"topic":"指标与术语","finding":"有效已测者超界比例不等于发病率或确诊患病率；题目不提供诊断标准","status":"internally-checked-pending-expert"},
+    {"topic":"主观评分","finding":"评分要点可参考核对，但不是经校准的自动得分或官方评分标准","status":"reference-only"}
+  ],
+  "expertApproved":false,
+  "formalReleaseApproved":false
+}

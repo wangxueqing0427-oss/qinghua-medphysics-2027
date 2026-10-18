@@ -1,0 +1,77 @@
+{
+  "createdAt": "2026-10-18T11:05:21.791Z",
+  "scope": "Draft engine/controller with fake IndexedDB; not browser, real iPhone or expert review",
+  "contentSha256": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+  "questionCount": 12,
+  "similarCandidates": [],
+  "results": [
+    {
+      "name": "Full existing engine and objective validators accept unpublished draft",
+      "pass": true
+    },
+    {
+      "name": "Each of four goals links teaching, recall, foundation, application and delayed evidence",
+      "pass": true
+    },
+    {
+      "name": "Reuse bank validator on combined 55 questions without duplicate IDs/stems",
+      "pass": true
+    },
+    {
+      "name": "Node identity, prior-year scope, publication and source availability retained",
+      "pass": true
+    },
+    {
+      "name": "Categorical code and ordinal boundary answers match intended meaning",
+      "pass": true
+    },
+    {
+      "name": "Measurement precision and fractional discrete score boundaries checked",
+      "pass": true
+    },
+    {
+      "name": "Proportion unit, denominator and incorrect invited denominator distinguished",
+      "pass": true
+    },
+    {
+      "name": "Mean and median independently recomputed; subjective never auto-scored",
+      "pass": true
+    },
+    {
+      "name": "Question and source explanations remain explicit, not expert claims",
+      "pass": true
+    },
+    {
+      "name": "Seven-course catalog and ten-asset phone build exclude new draft",
+      "pass": true
+    },
+    {
+      "name": "Protected seven-course source, build and review hashes unchanged",
+      "pass": true
+    },
+    {
+      "name": "New draft real hidden recall and unfinished text survive fresh controller",
+      "pass": true
+    },
+    {
+      "name": "Wrong answer and explicit cause persist; duplicate stale submission rolls back",
+      "pass": true
+    },
+    {
+      "name": "All remaining real answers and reference-only subjective text save to review schedule",
+      "pass": true
+    },
+    {
+      "name": "Due date delayed test uses unseen items and updates evidence without mastery claim",
+      "pass": true
+    },
+    {
+      "name": "Old existing-course answer and second local profile remain isolated",
+      "pass": true
+    },
+    {
+      "name": "Backup restores original draft answers to independent local profile",
+      "pass": true
+    }
+  ]
+}
