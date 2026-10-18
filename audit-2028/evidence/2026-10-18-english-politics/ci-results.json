@@ -1,0 +1,12 @@
+{
+ "testedCommit":"4feb1ac5a6a8cb4001481c879820e388f85abf86",
+ "run":39144071152,"job":117724223296,
+ "url":"https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39144071152",
+ "conclusion":"success","evidence":"Completed job and fetched actual job logs; transient log transport failure retried successfully",
+ "englishDraft":{"passed":16,"total":16,"scope":"engine/controller with fake IndexedDB"},
+ "politicalDraft":{"passed":16,"total":16,"scope":"engine/controller with fake IndexedDB"},
+ "localGate":{"passed":277,"total":277,"includesBothDraftSuites":true},
+ "browser":{"passed":42,"unexpected":0,"skipped":0,"flaky":0,"scope":"existing seven-course UI in Chromium/WebKit mobile emulation; not new draft phone UI"},
+ "productionSha":"f8b99af10ee14c98d9f896050970fb0912ca04cc","productionUnchanged":true,
+ "draftsAddedToCatalog":false,"mobileBuildChanged":false,"deployed":false,"expertApproved":false,"realIPhoneTested":false
+}
