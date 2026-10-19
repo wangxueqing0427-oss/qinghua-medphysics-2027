@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "commit": "e62d26d1d5c1fb820516104d177446d175d175ca",
+  "branch": "engineering/2028-r5",
+  "runId": 39181239942,
+  "jobId": 117834238103,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39181239942",
+  "conclusion": "success",
+  "browser": {
+    "passed": 48,
+    "unexpected": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "existingApp": 42,
+    "expertHtml": 6,
+    "environments": [
+      "Linux Chromium",
+      "Linux WebKit mobile emulation"
+    ],
+    "realIPhone": false
+  },
+  "local": {
+    "passed": 326,
+    "total": 326
+  },
+  "ciFoundation": {
+    "passed": 45,
+    "total": 45
+  },
+  "ciExpertBundles": {
+    "passed": 4,
+    "total": 4
+  },
+  "expertApproved": 0,
+  "productionMain": "f8b99af10ee14c98d9f896050970fb0912ca04cc",
+  "productionModified": false,
+  "r5Deployed": false
+}
