@@ -1,0 +1,9 @@
+{
+  "scope": "CLI reporting behavior, not browser testing",
+  "exitCode": 0,
+  "stdout": "Browser tests NOT RUN or produced no report. Commit: undefined. Check preceding failed steps; no browser pass claim.\n\n",
+  "assertions": [
+    "Missing browser report states NOT RUN",
+    "No Passed claim"
+  ]
+}

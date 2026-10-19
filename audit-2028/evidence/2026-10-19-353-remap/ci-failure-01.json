@@ -1,0 +1,10 @@
+{
+  "commit": "2e44425c16c7bf578e8b202a847f61129d92f157",
+  "runId": 39183624558,
+  "jobId": 117841395889,
+  "conclusion": "failure",
+  "browserRun": false,
+  "error": "Cannot find module ../product-2028-draft/课程知识点与大纲映射.json in Linux checkout; legacy local-only source not previously committed",
+  "secondaryError": "summarize.cjs expected results.json before browser ever ran",
+  "fix": "Include immutable original mapping/tree inputs and label source fallback; rerun CI without reducing assertions"
+}

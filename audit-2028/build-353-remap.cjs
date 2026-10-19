@@ -1,6 +1,6 @@
 // Versioned engineering overlay. Never rewrites legacy graph, courses or review decisions.
 const fs=require('fs'),crypto=require('crypto');
-const root='product-2028-draft/syllabus-353-v2',design=require('../'+root+'/source-and-design.json'),old=require('../product-2028-draft/课程知识点与大纲映射.json'),legacyTree=require('../product-2028-draft/353知识树-R4.json');
+const root='product-2028-draft/syllabus-353-v2',design=require('../'+root+'/source-and-design.json'),legacy=require('../'+root+'/legacy-input.json'),old=legacy.content,legacyTree={nodes:legacy.treeNodes};
 const hash=x=>crypto.createHash('sha256').update(typeof x==='string'?x:JSON.stringify(x)).digest('hex');
 const specialId=s=>'s27v2-mp-'+s,sections=new Map(design.sections.map(s=>[s[0],{number:s[0],part:s[1],title:s[2],officialText:s[3],textSha256:hash(s[3])}]));
 const existing=old.syllabusNodes.filter(n=>n.id.startsWith('s27-')&&!n.id.startsWith('s27-22-'));
