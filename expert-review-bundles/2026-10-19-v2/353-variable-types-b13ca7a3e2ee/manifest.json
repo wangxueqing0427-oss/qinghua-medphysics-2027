@@ -1,0 +1,29 @@
+{
+  "unitId": "353-variable-types",
+  "version": "0.1",
+  "contentSha256": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+  "reviewStatus": "pending-independent-review",
+  "expertApproved": false,
+  "files": [
+    {
+      "file": "审阅全文.html",
+      "sha256": "07c0ea03831fb8d96039aa1dd20e74fb9bdd713f14857110ef293c1cff750007"
+    },
+    {
+      "file": "审阅全文.md",
+      "sha256": "9bdde36192ff7f9a012fdfc9381e220ddb870ef57385d2a8f4135af60362f8fa"
+    },
+    {
+      "file": "unit.json",
+      "sha256": "95d2948989fb19006841d662d1799432d74ffb048f6157b82c9fe021f2005957"
+    },
+    {
+      "file": "sources.json",
+      "sha256": "e8a8b72217f3de27df86a8ebeaf8088593f94b5a012f1a0a60b85484cba7729e"
+    },
+    {
+      "file": "review-form.json",
+      "sha256": "3699dcd547a61cfbd3b4d41f1ff5a783824e2170151ce8492aa1f958994e9ca0"
+    }
+  ]
+}

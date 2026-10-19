@@ -1,0 +1,21 @@
+{
+ "en-subject-verb-agreement":[
+  {"id":"E1","questionIds":["sva-b2","sva-a2","sva-d2"],"confirm":"I/you与be形式的解释是否准确，初学者会否误将现实人数当全部人称规则"},
+  {"id":"E2","questionIds":["sva-b3","sva-a3","sva-d3"],"confirm":"studies/plays/has词形及同主语并列谓语的解释、词汇铺垫"},
+  {"id":"E3","questionIds":["sva-b4","sva-a4","sva-d4"],"confirm":"主语核心和and规则的适用边界，是否需补充例外提示"},
+  {"id":"E4","questionIds":["sva-a1","sva-a3","sva-d4"],"confirm":"主观评分点是否充分、多种正确表达的接受边界；不把参考清单当官方分数"}
+ ],
+ "pol-knowledge-practice-development":[
+  {"id":"P1","questionIds":["kpd-b1","kpd-a1","kpd-d1"],"confirm":"认识环节与社会性物质实践的区分是否过度简化，嵌入实践过程的思考如何表述"},
+  {"id":"P2","questionIds":["kpd-b2","kpd-a2","kpd-d2"],"confirm":"感性理性认识的层次与依存关系准确性，观察判断的分类是否有歧义"},
+  {"id":"P3","questionIds":["kpd-b3","kpd-a3","kpd-d3"],"confirm":"返回实践、正确错误认识作用及因果证据边界是否准确"},
+  {"id":"P4","questionIds":["kpd-b4","kpd-a4","kpd-d4"],"confirm":"反复发展不等于个体每次必进步的表述、材料评分点及教材考试依据缺口"}
+ ],
+ "353-variable-types":[
+  {"id":"V1","questionIds":["var-b1","var-a1","var-d1"],"confirm":"观察单位、变量及取值术语是否一致，单位可为人/学校/家庭的例子是否清楚"},
+  {"id":"V2","questionIds":["var-b2","var-a2","var-d2"],"confirm":"无序/有序分类、数字编码与数量、等级不默认等距的适用范围"},
+  {"id":"V3","questionIds":["var-b3","var-a3","var-d3"],"confirm":"底层连续属性与离散记录、舍入和固定步长的分类边界"},
+  {"id":"V4","questionIds":["var-b4","var-d4"],"confirm":"有效分母、未测状态和超界比例，不能混称临床患病或发病指标"},
+  {"id":"V5","questionIds":["var-a4"],"confirm":"均值/中位数与研究问题的对应、是否需补充分布信息，主观评分点合理性"}
+ ]
+}

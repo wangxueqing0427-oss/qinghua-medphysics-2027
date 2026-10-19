@@ -1,0 +1,2054 @@
+{
+  "scope": "First internal structural failure, no browser run",
+  "error": "Four manually serialized question records had shifted fields; rejected by existing validator",
+  "priorDrafts": [
+    {
+      "folder": "en-past-simple-foundation",
+      "priorContentSha256": "24a58ba0cfb0e62f954f5a391f3367bff962a130a47d742cb66b4a01ff02e8d9",
+      "pack": {
+        "schemaVersion": 1,
+        "contentVersion": "2026-10-19-draft",
+        "units": [
+          {
+            "id": "en-past-simple-foundation",
+            "version": "0.1",
+            "subject": "en",
+            "title": "一般过去时基础：在叙事中找到已经发生的事",
+            "reviewStatus": "draft-internal-check",
+            "distribution": "held-pending-review",
+            "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+            "writtenAt": "2026-10-19",
+            "applicableYear": 2028,
+            "scopeStatus": "teaching-supplement-exam-spec-pending",
+            "mapping": [
+              "en-plan-2"
+            ],
+            "prerequisites": [
+              "en-subject-verb-agreement"
+            ],
+            "sources": [
+              "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+              "https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement"
+            ],
+            "explanation": "先接上一般现在时：A guide opens the hall every day. 导览员每天开门，表示通常动作。原创句Yesterday a guide opened the hall. 昨天一名导览员打开了大厅。yesterday是昨天，hall是大厅，open是打开；这次描述已经发生的过去动作，opened不是多个动作，也不是被动形式。一般过去时可讲过去一次事件，也可讲过去反复的习惯，本课先处理有明确过去语境的简单陈述句。先找动作与时间，再理解句义；不能看见every day就断定永远用现在时，In 2020, she walked here every day.说的是2020年那段时期的习惯。\n\n规则动词常在基本形式后加-ed，但不能把所有动词都照拼。open变opened，live变lived（本来有e只加d），study变studied（本课辅音字母+y改ied），play变played（元音+y保留y）。本课只要求掌握这些明确词例，重读闭音节双写及-ed发音后续学习。与现在时不同，本课简单过去时肯定句中，普通动作动词不再因第三人称单数额外加s：I opened和She opened都用opened，不能写opened后再加s。先读词义，再解释为什么用该词形，不靠猜尾字母。\n\n常用词也有不规则过去形式，需要连着词义学：go—went（去），have—had（有），see—saw（看见）。Yesterday Nia went to the hall and saw a poster. 昨天妮娅去了大厅并看到一张海报。went与saw都叙述过去，不能说goed或seed。be另有was/were：本课实际过去事实中I/he/she/it用was，you/we/they用were，You were early.表示你/你们当时到得早。这里不讨论虚拟假设中的I were等用法。一个故事中不规则词不能因主语单复数就改成现在时形式。\n\n否定和疑问只学最小可用边界，作为时态理解的新内容，不复制现有一般现在时否定课。普通动作的过去否定为did not加原形：Nia did not go. 不是did not went；一般疑问Did Nia go?也保留go。be的过去否定则是was not/were not，不写did not was。阅读先辨认谁、过去动作、否定范围：Nia did not buy a ticket, but she saw the poster.只说她没买票，并不否定她看海报。buy是买，ticket是票。若材料只写一句过去动作，不能推出现在仍然如此；也不把动作先后直接当因果。完成本课应能选词形、改错并译出时间与否定，不是只会背-ed。",
+            "definition": "本课一般过去时用于已给过去语境中的动作、状态或当时习惯。规则形式和常见不规则形式分别学习；普通动作肯定句一般不再按人称改变过去式，be用was/were；did结构后用原形。",
+            "conditions": "限定简单过去事实；不覆盖现在完成、过去完成、被动、虚拟语气、全部拼写和读音。英语2028官方范围未确认，作为基础教学补充。",
+            "example": "Yesterday a guide opened the hall：时间—主体—过去动作—对象。\nShe lived here in 2020；They played here yesterday：核对lived与played。\nNia went to the hall and saw a poster：went/saw不能加-ed。\nDid Nia go? / Nia did not go：did后使用go，不机械套went。",
+            "misconceptions": [
+              "所有过去式都加ed。",
+              "过去式还要因she再加s。",
+              "did not后仍用went。",
+              "every day只可能表示现在。",
+              "一句过去事实就能证明现在情况或因果。"
+            ],
+            "recall": [
+              "用过去一次事件和过去习惯各说明一个语境。",
+              "闭卷写出open、live、study、play的过去形式，说明人称是否再加s。",
+              "写出go/have/see的过去形式及you对应的过去be。",
+              "写出did否定/疑问与be否定的区别，并解释否定范围。"
+            ],
+            "teachingSections": [
+              {
+                "id": "section-1",
+                "explanationParagraph": 0,
+                "workedExample": "Yesterday a guide opened the hall：时间—主体—过去动作—对象。"
+              },
+              {
+                "id": "section-2",
+                "explanationParagraph": 1,
+                "workedExample": "She lived here in 2020；They played here yesterday：核对lived与played。"
+              },
+              {
+                "id": "section-3",
+                "explanationParagraph": 2,
+                "workedExample": "Nia went to the hall and saw a poster：went/saw不能加-ed。"
+              },
+              {
+                "id": "section-4",
+                "explanationParagraph": 3,
+                "workedExample": "Did Nia go? / Nia did not go：did后使用go，不机械套went。"
+              }
+            ],
+            "learningObjectives": [
+              {
+                "id": "pst-g1",
+                "description": "根据过去语境理解动作或当时习惯",
+                "successCriteria": "识别yesterday和过去时期，不将every day绝对化为现在。",
+                "teachingSectionIds": [
+                  "section-1"
+                ],
+                "recallIndexes": [
+                  0
+                ],
+                "questionIds": [
+                  "pst-b1",
+                  "pst-a1",
+                  "pst-d1"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "pst-g2",
+                "description": "使用本课规则过去式并避开重复人称标记",
+                "successCriteria": "opened/lived/studied/played正确，不造openeds。",
+                "teachingSectionIds": [
+                  "section-2"
+                ],
+                "recallIndexes": [
+                  1
+                ],
+                "questionIds": [
+                  "pst-b2",
+                  "pst-a2",
+                  "pst-d2"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "pst-g3",
+                "description": "识别常见不规则过去式与事实语境was/were",
+                "successCriteria": "went/had/saw及you were正确，译出已发生的事。",
+                "teachingSectionIds": [
+                  "section-3"
+                ],
+                "recallIndexes": [
+                  2
+                ],
+                "questionIds": [
+                  "pst-b3",
+                  "pst-a3",
+                  "pst-d3"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "pst-g4",
+                "description": "在did与be结构中保留正确形式并理解否定范围",
+                "successCriteria": "did not go、Did...go与was not区别，翻译不漏not或扩大否定。",
+                "teachingSectionIds": [
+                  "section-4"
+                ],
+                "recallIndexes": [
+                  3
+                ],
+                "questionIds": [
+                  "pst-b4",
+                  "pst-a4",
+                  "pst-d4"
+                ],
+                "evaluation": "objective-and-reference-review"
+              }
+            ],
+            "basicQuestions": [
+              {
+                "id": "pst-b1",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "In 2020, she walked here every day. 这句话描述什么？",
+                "options": [
+                  "2020年那段时间的习惯",
+                  "保证她现在每天来",
+                  "因为every day所以不可能是过去"
+                ],
+                "answer": 0,
+                "explanation": "A符合过去时期与walked。B把过去外推现在；C把频率词当唯一时态决定因素。每一天也可以属于过去时期。"
+              },
+              {
+                "id": "pst-b2",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "昨天的简单肯定句：She ___ the hall.（open=打开）",
+                "options": [
+                  "openeds",
+                  "opened",
+                  "opens"
+                ],
+                "answer": 1,
+                "explanation": "B为规则过去式。A错误地再加人称s；C为本题不需要的现在时形式。主语she不要求在opened之后再加s。"
+              },
+              {
+                "id": "pst-b3",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "Yesterday they ___ to the hall.（go=去）",
+                "options": [
+                  "goed",
+                  "goes",
+                  "went"
+                ],
+                "answer": 2,
+                "explanation": "C是go的不规则过去式。A机械加ed，B为第三人称单数现在形式且不匹配they。需同时核对时间和词形。"
+              },
+              {
+                "id": "pst-b4",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "过去否定：Nia did not ___ a ticket.（buy=买）",
+                "options": [
+                  "bought",
+                  "buy",
+                  "buys"
+                ],
+                "answer": 1,
+                "explanation": "B正确，did not已构成过去否定，后用原形buy。A重复过去形式，C误加现在时第三人称单数s。"
+              }
+            ],
+            "applicationQuestions": [
+              {
+                "id": "pst-a1",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "把In 2020, she walked here every day.译成中文，说明为什么every day不要求现在时。",
+                "answer": "2020年，她每天步行到这里。every day表示在2020年这个过去时期内的频率，不意味着现在仍如此。",
+                "explanation": "核对过去时间、每天与步行；不要求固定措辞，不自动评分。",
+                "rubric": [
+                  "译出2020年",
+                  "译出每天步行到这里",
+                  "说明频率可属于过去时期",
+                  "不外推现在"
+                ]
+              },
+              {
+                "id": "pst-a2",
+                "type": "multi",
+                "difficulty": "哪些过去词形符合本课词例？",
+                "stem": [
+                  "live—lived",
+                  "study—studyed",
+                  "play—played"
+                ],
+                "options": [
+                  0,
+                  2
+                ],
+                "answer": "A原有e加d；B应studied；C元音+y保留y加ed。不能仅凭都有y就同样改写。"
+              },
+              {
+                "id": "pst-a3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "改正Yesterday Nia goed to the hall and seed a poster.并翻译。",
+                "answer": "Yesterday Nia went to the hall and saw a poster. 昨天妮娅去了大厅并看见一张海报。",
+                "explanation": "go/see是本课不规则词例，核对两个动词和句义，不按所有词加ed处理。",
+                "rubric": [
+                  "goed改went",
+                  "seed改saw",
+                  "译出昨天去大厅",
+                  "译出看见海报"
+                ]
+              },
+              {
+                "id": "pst-a4",
+                "type": "multi",
+                "difficulty": "哪些过去事实句正确？",
+                "stem": [
+                  "Did Nia go?",
+                  "Nia did not went.",
+                  "The guide was not late."
+                ],
+                "options": [
+                  0,
+                  2
+                ],
+                "answer": "A中did后原形；B应did not go；C中be用was not，不用did not was。限定过去事实，不讨论假设语气。"
+              }
+            ],
+            "delayedQuestions": [
+              {
+                "id": "pst-d1",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：Last winter, we played here on Sundays. 可据此确认什么？",
+                "options": [
+                  "去年冬天曾在周日来玩",
+                  "现在每周日必来",
+                  "play绝不是过去动作"
+                ],
+                "answer": 0,
+                "explanation": "A对应明确过去时期；B越出材料；C忽视played。是否现在还来，需要新证据。"
+              },
+              {
+                "id": "pst-d2",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：The pupils ___ maps yesterday.（study=学习/研究）",
+                "options": [
+                  "studys",
+                  "studied",
+                  "studies"
+                ],
+                "answer": 1,
+                "explanation": "B为study的本课过去式；A不是正确词形，C为现在时第三人称单数。复数主语不把过去式改回现在。"
+              },
+              {
+                "id": "pst-d3",
+                "type": "multi",
+                "difficulty": "application",
+                "stem": "隔日：哪些词形适合本课简单过去事实？",
+                "options": [
+                  "They had a map.",
+                  "You was early.",
+                  "She saw a poster."
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A和C分别用had、saw；B中you应were。不能把you只有一个人当作was的理由。"
+              },
+              {
+                "id": "pst-d4",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "隔日：改正Did Nia went?并解释Nia did not buy a ticket, but she saw the poster.的句义。",
+                "answer": "Did Nia go?；她没买票，但看到了海报。did后用go；否定buy a ticket，不否定saw the poster。",
+                "explanation": "核对原形、疑问形式和否定边界；不由看海报推出买票。",
+                "rubric": [
+                  "went改go",
+                  "说明did后原形",
+                  "译出没买票",
+                  "保留看到了海报这一肯定信息"
+                ]
+              }
+            ],
+            "rubric": [
+              "过去语境正确",
+              "规则和不规则形式准确",
+              "did/be边界明确",
+              "译文保留否定和信息范围"
+            ],
+            "review": {
+              "intervalDays": [
+                1,
+                3,
+                7,
+                14,
+                30
+              ],
+              "delayedPrompt": "换过去时间与新主语，独立改写、解释和翻译，不背原句。"
+            },
+            "reviewRecord": {
+              "internalCheck": "source-linked-draft",
+              "expertApproved": false,
+              "publicRelease": false,
+              "limitations": [
+                "本课词形和be边界需英语专业复核",
+                "否定疑问衔接是否适合初学者",
+                "2027/2028英语完整年度大纲未核验"
+              ]
+            }
+          }
+        ]
+      },
+      "priorReviewPackage": {
+        "purpose": "Independent expert review; no personal learning data",
+        "unitFingerprints": [
+          {
+            "unitId": "en-past-simple-foundation",
+            "unitVersion": "0.1",
+            "contentSha256": "24a58ba0cfb0e62f954f5a391f3367bff962a130a47d742cb66b4a01ff02e8d9"
+          }
+        ],
+        "units": [
+          {
+            "id": "en-past-simple-foundation",
+            "version": "0.1",
+            "subject": "en",
+            "title": "一般过去时基础：在叙事中找到已经发生的事",
+            "reviewStatus": "draft-internal-check",
+            "distribution": "held-pending-review",
+            "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+            "writtenAt": "2026-10-19",
+            "applicableYear": 2028,
+            "scopeStatus": "teaching-supplement-exam-spec-pending",
+            "mapping": [
+              "en-plan-2"
+            ],
+            "prerequisites": [
+              "en-subject-verb-agreement"
+            ],
+            "sources": [
+              "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+              "https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement"
+            ],
+            "explanation": "先接上一般现在时：A guide opens the hall every day. 导览员每天开门，表示通常动作。原创句Yesterday a guide opened the hall. 昨天一名导览员打开了大厅。yesterday是昨天，hall是大厅，open是打开；这次描述已经发生的过去动作，opened不是多个动作，也不是被动形式。一般过去时可讲过去一次事件，也可讲过去反复的习惯，本课先处理有明确过去语境的简单陈述句。先找动作与时间，再理解句义；不能看见every day就断定永远用现在时，In 2020, she walked here every day.说的是2020年那段时期的习惯。\n\n规则动词常在基本形式后加-ed，但不能把所有动词都照拼。open变opened，live变lived（本来有e只加d），study变studied（本课辅音字母+y改ied），play变played（元音+y保留y）。本课只要求掌握这些明确词例，重读闭音节双写及-ed发音后续学习。与现在时不同，本课简单过去时肯定句中，普通动作动词不再因第三人称单数额外加s：I opened和She opened都用opened，不能写opened后再加s。先读词义，再解释为什么用该词形，不靠猜尾字母。\n\n常用词也有不规则过去形式，需要连着词义学：go—went（去），have—had（有），see—saw（看见）。Yesterday Nia went to the hall and saw a poster. 昨天妮娅去了大厅并看到一张海报。went与saw都叙述过去，不能说goed或seed。be另有was/were：本课实际过去事实中I/he/she/it用was，you/we/they用were，You were early.表示你/你们当时到得早。这里不讨论虚拟假设中的I were等用法。一个故事中不规则词不能因主语单复数就改成现在时形式。\n\n否定和疑问只学最小可用边界，作为时态理解的新内容，不复制现有一般现在时否定课。普通动作的过去否定为did not加原形：Nia did not go. 不是did not went；一般疑问Did Nia go?也保留go。be的过去否定则是was not/were not，不写did not was。阅读先辨认谁、过去动作、否定范围：Nia did not buy a ticket, but she saw the poster.只说她没买票，并不否定她看海报。buy是买，ticket是票。若材料只写一句过去动作，不能推出现在仍然如此；也不把动作先后直接当因果。完成本课应能选词形、改错并译出时间与否定，不是只会背-ed。",
+            "definition": "本课一般过去时用于已给过去语境中的动作、状态或当时习惯。规则形式和常见不规则形式分别学习；普通动作肯定句一般不再按人称改变过去式，be用was/were；did结构后用原形。",
+            "conditions": "限定简单过去事实；不覆盖现在完成、过去完成、被动、虚拟语气、全部拼写和读音。英语2028官方范围未确认，作为基础教学补充。",
+            "example": "Yesterday a guide opened the hall：时间—主体—过去动作—对象。\nShe lived here in 2020；They played here yesterday：核对lived与played。\nNia went to the hall and saw a poster：went/saw不能加-ed。\nDid Nia go? / Nia did not go：did后使用go，不机械套went。",
+            "misconceptions": [
+              "所有过去式都加ed。",
+              "过去式还要因she再加s。",
+              "did not后仍用went。",
+              "every day只可能表示现在。",
+              "一句过去事实就能证明现在情况或因果。"
+            ],
+            "recall": [
+              "用过去一次事件和过去习惯各说明一个语境。",
+              "闭卷写出open、live、study、play的过去形式，说明人称是否再加s。",
+              "写出go/have/see的过去形式及you对应的过去be。",
+              "写出did否定/疑问与be否定的区别，并解释否定范围。"
+            ],
+            "teachingSections": [
+              {
+                "id": "section-1",
+                "explanationParagraph": 0,
+                "workedExample": "Yesterday a guide opened the hall：时间—主体—过去动作—对象。"
+              },
+              {
+                "id": "section-2",
+                "explanationParagraph": 1,
+                "workedExample": "She lived here in 2020；They played here yesterday：核对lived与played。"
+              },
+              {
+                "id": "section-3",
+                "explanationParagraph": 2,
+                "workedExample": "Nia went to the hall and saw a poster：went/saw不能加-ed。"
+              },
+              {
+                "id": "section-4",
+                "explanationParagraph": 3,
+                "workedExample": "Did Nia go? / Nia did not go：did后使用go，不机械套went。"
+              }
+            ],
+            "learningObjectives": [
+              {
+                "id": "pst-g1",
+                "description": "根据过去语境理解动作或当时习惯",
+                "successCriteria": "识别yesterday和过去时期，不将every day绝对化为现在。",
+                "teachingSectionIds": [
+                  "section-1"
+                ],
+                "recallIndexes": [
+                  0
+                ],
+                "questionIds": [
+                  "pst-b1",
+                  "pst-a1",
+                  "pst-d1"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "pst-g2",
+                "description": "使用本课规则过去式并避开重复人称标记",
+                "successCriteria": "opened/lived/studied/played正确，不造openeds。",
+                "teachingSectionIds": [
+                  "section-2"
+                ],
+                "recallIndexes": [
+                  1
+                ],
+                "questionIds": [
+                  "pst-b2",
+                  "pst-a2",
+                  "pst-d2"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "pst-g3",
+                "description": "识别常见不规则过去式与事实语境was/were",
+                "successCriteria": "went/had/saw及you were正确，译出已发生的事。",
+                "teachingSectionIds": [
+                  "section-3"
+                ],
+                "recallIndexes": [
+                  2
+                ],
+                "questionIds": [
+                  "pst-b3",
+                  "pst-a3",
+                  "pst-d3"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "pst-g4",
+                "description": "在did与be结构中保留正确形式并理解否定范围",
+                "successCriteria": "did not go、Did...go与was not区别，翻译不漏not或扩大否定。",
+                "teachingSectionIds": [
+                  "section-4"
+                ],
+                "recallIndexes": [
+                  3
+                ],
+                "questionIds": [
+                  "pst-b4",
+                  "pst-a4",
+                  "pst-d4"
+                ],
+                "evaluation": "objective-and-reference-review"
+              }
+            ],
+            "basicQuestions": [
+              {
+                "id": "pst-b1",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "In 2020, she walked here every day. 这句话描述什么？",
+                "options": [
+                  "2020年那段时间的习惯",
+                  "保证她现在每天来",
+                  "因为every day所以不可能是过去"
+                ],
+                "answer": 0,
+                "explanation": "A符合过去时期与walked。B把过去外推现在；C把频率词当唯一时态决定因素。每一天也可以属于过去时期。"
+              },
+              {
+                "id": "pst-b2",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "昨天的简单肯定句：She ___ the hall.（open=打开）",
+                "options": [
+                  "openeds",
+                  "opened",
+                  "opens"
+                ],
+                "answer": 1,
+                "explanation": "B为规则过去式。A错误地再加人称s；C为本题不需要的现在时形式。主语she不要求在opened之后再加s。"
+              },
+              {
+                "id": "pst-b3",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "Yesterday they ___ to the hall.（go=去）",
+                "options": [
+                  "goed",
+                  "goes",
+                  "went"
+                ],
+                "answer": 2,
+                "explanation": "C是go的不规则过去式。A机械加ed，B为第三人称单数现在形式且不匹配they。需同时核对时间和词形。"
+              },
+              {
+                "id": "pst-b4",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "过去否定：Nia did not ___ a ticket.（buy=买）",
+                "options": [
+                  "bought",
+                  "buy",
+                  "buys"
+                ],
+                "answer": 1,
+                "explanation": "B正确，did not已构成过去否定，后用原形buy。A重复过去形式，C误加现在时第三人称单数s。"
+              }
+            ],
+            "applicationQuestions": [
+              {
+                "id": "pst-a1",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "把In 2020, she walked here every day.译成中文，说明为什么every day不要求现在时。",
+                "answer": "2020年，她每天步行到这里。every day表示在2020年这个过去时期内的频率，不意味着现在仍如此。",
+                "explanation": "核对过去时间、每天与步行；不要求固定措辞，不自动评分。",
+                "rubric": [
+                  "译出2020年",
+                  "译出每天步行到这里",
+                  "说明频率可属于过去时期",
+                  "不外推现在"
+                ]
+              },
+              {
+                "id": "pst-a2",
+                "type": "multi",
+                "difficulty": "哪些过去词形符合本课词例？",
+                "stem": [
+                  "live—lived",
+                  "study—studyed",
+                  "play—played"
+                ],
+                "options": [
+                  0,
+                  2
+                ],
+                "answer": "A原有e加d；B应studied；C元音+y保留y加ed。不能仅凭都有y就同样改写。"
+              },
+              {
+                "id": "pst-a3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "改正Yesterday Nia goed to the hall and seed a poster.并翻译。",
+                "answer": "Yesterday Nia went to the hall and saw a poster. 昨天妮娅去了大厅并看见一张海报。",
+                "explanation": "go/see是本课不规则词例，核对两个动词和句义，不按所有词加ed处理。",
+                "rubric": [
+                  "goed改went",
+                  "seed改saw",
+                  "译出昨天去大厅",
+                  "译出看见海报"
+                ]
+              },
+              {
+                "id": "pst-a4",
+                "type": "multi",
+                "difficulty": "哪些过去事实句正确？",
+                "stem": [
+                  "Did Nia go?",
+                  "Nia did not went.",
+                  "The guide was not late."
+                ],
+                "options": [
+                  0,
+                  2
+                ],
+                "answer": "A中did后原形；B应did not go；C中be用was not，不用did not was。限定过去事实，不讨论假设语气。"
+              }
+            ],
+            "delayedQuestions": [
+              {
+                "id": "pst-d1",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：Last winter, we played here on Sundays. 可据此确认什么？",
+                "options": [
+                  "去年冬天曾在周日来玩",
+                  "现在每周日必来",
+                  "play绝不是过去动作"
+                ],
+                "answer": 0,
+                "explanation": "A对应明确过去时期；B越出材料；C忽视played。是否现在还来，需要新证据。"
+              },
+              {
+                "id": "pst-d2",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：The pupils ___ maps yesterday.（study=学习/研究）",
+                "options": [
+                  "studys",
+                  "studied",
+                  "studies"
+                ],
+                "answer": 1,
+                "explanation": "B为study的本课过去式；A不是正确词形，C为现在时第三人称单数。复数主语不把过去式改回现在。"
+              },
+              {
+                "id": "pst-d3",
+                "type": "multi",
+                "difficulty": "application",
+                "stem": "隔日：哪些词形适合本课简单过去事实？",
+                "options": [
+                  "They had a map.",
+                  "You was early.",
+                  "She saw a poster."
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A和C分别用had、saw；B中you应were。不能把you只有一个人当作was的理由。"
+              },
+              {
+                "id": "pst-d4",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "隔日：改正Did Nia went?并解释Nia did not buy a ticket, but she saw the poster.的句义。",
+                "answer": "Did Nia go?；她没买票，但看到了海报。did后用go；否定buy a ticket，不否定saw the poster。",
+                "explanation": "核对原形、疑问形式和否定边界；不由看海报推出买票。",
+                "rubric": [
+                  "went改go",
+                  "说明did后原形",
+                  "译出没买票",
+                  "保留看到了海报这一肯定信息"
+                ]
+              }
+            ],
+            "rubric": [
+              "过去语境正确",
+              "规则和不规则形式准确",
+              "did/be边界明确",
+              "译文保留否定和信息范围"
+            ],
+            "review": {
+              "intervalDays": [
+                1,
+                3,
+                7,
+                14,
+                30
+              ],
+              "delayedPrompt": "换过去时间与新主语，独立改写、解释和翻译，不背原句。"
+            },
+            "reviewRecord": {
+              "internalCheck": "source-linked-draft",
+              "expertApproved": false,
+              "publicRelease": false,
+              "limitations": [
+                "本课词形和be边界需英语专业复核",
+                "否定疑问衔接是否适合初学者",
+                "2027/2028英语完整年度大纲未核验"
+              ]
+            }
+          }
+        ],
+        "reviewLog": []
+      }
+    },
+    {
+      "folder": "pol-connections-foundation",
+      "priorContentSha256": "8abd3c454472c155e9db2b263a2b398c20399c5b78acb246e8eeda5def156929",
+      "pack": {
+        "schemaVersion": 1,
+        "contentVersion": "2026-10-19-draft",
+        "units": [
+          {
+            "id": "pol-connections-foundation",
+            "version": "0.1",
+            "subject": "pol",
+            "title": "联系观点基础：看见关系，也核对关系成立的条件",
+            "reviewStatus": "draft-internal-check",
+            "distribution": "held-pending-review",
+            "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+            "writtenAt": "2026-10-19",
+            "applicableYear": 2028,
+            "scopeStatus": "teaching-supplement-exam-spec-pending",
+            "mapping": [
+              "pol-plan-1"
+            ],
+            "prerequisites": [
+              "pol-common-particular"
+            ],
+            "sources": [
+              "https://news.12371.cn/2017/08/29/ARTI1504001209326173.shtml",
+              "https://www.qstheory.cn/qshyjx/2021-06/21/c_1127582987.htm"
+            ],
+            "explanation": "先接上共性与个性：研究共同问题还要看对象的具体条件。本课换一个问题，为什么不能只盯一个孤立环节？原创情境：社区开放一间自习室，是否方便居民使用，不只与座位多少有关，还可能与开放时段、交通、照明、管理和使用需求有关。联系在这里指事物之间或同一事物内部要素之间相互影响、相互制约的关系。把问题放在这些关系中考察，不等于把附近所有事都硬扯进来；哪些关系实际存在，要调查依据和作用过程。\n\n联系不是靠主观愿望制造的。把座位多直接当作利用率一定高，是缺少条件的判断；如果开放时间与居民空闲时段不相合，增加座位也未必解决实际问题。承认客观联系不等于人无能为力：人可以在认识真实条件的基础上调整时段、改进管理，建立新的具体联系；但不能仅凭希望宣布某关系已存在。普遍联系的观点要求不孤立看问题，并不意味着任意两件事都有同样的直接关系，更不能把同时发生一律当作原因与结果。\n\n联系有不同形式和条件。有些是场所内部环节之间的，如照明与阅读体验；有些涉及场所与周围环境，如交通与到达便利。看整体与部分的关系时，既不忽略整体安排，也不认为某一个部分改善就保证整体最优。增加座位若挡住通道，可能带来其他问题；本例不提供具体消防或建筑标准，专业规范仍须另外核对。分析应说明对象、具体关联、条件和限制，不能只罗列一串因素名称。\n\n把联系观点用于材料题，可按三步：找出材料给出的相关要素；说明相互影响的具体路径；结合条件提出需要调查或协调的方向。例如材料说明自习室晚间需求集中但晚间关闭，就应分析时段与需求的错配，而不是只喊增加座位一定有效。数据中两项同时增加，也不能单凭同步认定因果，更不能用哲学术语替代研究设计。提出调整后仍须实践检验。这与认识实践课相通，但本课重点是从哪些关系和条件分析，尚不讨论系统最优化的完整理论或主次矛盾的全部方法。",
+            "definition": "本课联系是对象之间及对象内部要素之间相互影响、制约的关系。用联系观点分析，要把具体对象放在实际关系和条件中；不孤立、不主观臆造，也不把普遍联系偷换为任意直接因果。",
+            "conditions": "只讲联系分析入门与材料应用，不替代统计因果、工程安全标准、系统理论或完整辩证法。政治年度考试要求尚待核实，旧理论材料仅教学参考。",
+            "example": "座位、时段、需求：先找材料给出的要素。\n需求在晚间但晚间关闭：说明具体条件错配。\n加座位可能影响通道：局部措施需看整体影响，不给未经核实工程结论。\n提出调整并调查检验：同步变化不等于唯一因果。",
+            "misconceptions": [
+              "把一个因素当充分保证。",
+              "普遍联系等于任意两件事直接因果。",
+              "客观联系意味着人不能调整条件。",
+              "只堆因素不说明关系路径。",
+              "局部改善必定使整体最优。"
+            ],
+            "recall": [
+              "用自习室以外的例子解释要素联系。",
+              "说明客观性与人的能动调整为何不矛盾。",
+              "解释局部与整体、不同关系及条件。",
+              "写出材料—关系路径—条件—检验的表达顺序。"
+            ],
+            "teachingSections": [
+              {
+                "id": "section-1",
+                "explanationParagraph": 0,
+                "workedExample": "座位、时段、需求：先找材料给出的要素。"
+              },
+              {
+                "id": "section-2",
+                "explanationParagraph": 1,
+                "workedExample": "需求在晚间但晚间关闭：说明具体条件错配。"
+              },
+              {
+                "id": "section-3",
+                "explanationParagraph": 2,
+                "workedExample": "加座位可能影响通道：局部措施需看整体影响，不给未经核实工程结论。"
+              },
+              {
+                "id": "section-4",
+                "explanationParagraph": 3,
+                "workedExample": "提出调整并调查检验：同步变化不等于唯一因果。"
+              }
+            ],
+            "learningObjectives": [
+              {
+                "id": "con-g1",
+                "description": "识别材料中的真实关系而非孤立因素",
+                "successCriteria": "指出至少两个要素和具体相互作用，不硬拉无关事物。",
+                "teachingSectionIds": [
+                  "section-1"
+                ],
+                "recallIndexes": [
+                  0
+                ],
+                "questionIds": [
+                  "con-b1",
+                  "con-a1",
+                  "con-d1"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "con-g2",
+                "description": "区分客观联系、主观愿望和有条件的改进",
+                "successCriteria": "不把愿望或同步当因果，承认在规律条件上可调整。",
+                "teachingSectionIds": [
+                  "section-2"
+                ],
+                "recallIndexes": [
+                  1
+                ],
+                "questionIds": [
+                  "con-b2",
+                  "con-a2",
+                  "con-d2"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "con-g3",
+                "description": "分析局部措施与整体影响及条件",
+                "successCriteria": "说明局部变化可能有其他影响，避免必然最优。",
+                "teachingSectionIds": [
+                  "section-3"
+                ],
+                "recallIndexes": [
+                  2
+                ],
+                "questionIds": [
+                  "con-b3",
+                  "con-a3",
+                  "con-d3"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "con-g4",
+                "description": "用具体材料提出有依据的协调与检验方向",
+                "successCriteria": "联系材料给出路径和条件，不作未经检验的效果保证。",
+                "teachingSectionIds": [
+                  "section-4"
+                ],
+                "recallIndexes": [
+                  3
+                ],
+                "questionIds": [
+                  "con-b4",
+                  "con-a4",
+                  "con-d4"
+                ],
+                "evaluation": "objective-and-reference-review"
+              }
+            ],
+            "basicQuestions": [
+              {
+                "id": "con-b1",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "材料说自习室晚间需求多，但晚间关闭。首先应分析什么？",
+                "options": [
+                  "只数椅子，不看其他信息",
+                  "时段与使用需求的具体联系",
+                  "任意附近事件都必是原因"
+                ],
+                "answer": 1,
+                "explanation": "B对应材料明确的两个要素及错配。A孤立看一个环节；C把普遍联系扩大为任意因果。"
+              },
+              {
+                "id": "con-b2",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "下列哪项体现联系分析的边界？",
+                "options": [
+                  "希望利用率高就证明座位多必有用",
+                  "两项同步增加必然直接因果",
+                  "依据实际条件分析关系，不能凭愿望确认"
+                ],
+                "answer": 2,
+                "explanation": "C保留依据与条件。A把愿望当事实，B把同步当因果；都不能代替调查具体关系。"
+              },
+              {
+                "id": "con-b3",
+                "type": "multi",
+                "difficulty": "standard",
+                "stem": "增加座位可能影响通道时，哪些分析合理？",
+                "options": [
+                  "兼顾局部安排与整体使用条件",
+                  "座位增加就保证所有方面改善",
+                  "专业安全标准需另行核对"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A和C分别体现整体关系和专业边界。B把单项变化当整体成功保证，本课没有提供该结论。"
+              },
+              {
+                "id": "con-b4",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "材料分析只写要统筹兼顾，却不对应时段、需求等信息，主要缺什么？",
+                "options": [
+                  "原理与材料中具体关系的联系",
+                  "必须背出固定更多字数",
+                  "出现原理词就足够"
+                ],
+                "answer": 0,
+                "explanation": "A是论证缺口。B把字数当质量；C把口号当分析。需说明谁影响谁、条件是什么。"
+              }
+            ],
+            "applicationQuestions": [
+              {
+                "id": "con-a1",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "社区只增加自习室椅子，却未调查居民何时使用。用联系观点指出还需调查什么及理由。",
+                "answer": "应调查使用需求、开放时段、到达便利及管理条件等与材料相关的信息，说明它们如何影响使用，不能只凭座位增加保证利用率。",
+                "explanation": "不要求固定清单，重点是相关性与关系理由，不是越多因素越好。",
+                "rubric": [
+                  "指出座位不是唯一环节",
+                  "提出相关条件调查",
+                  "说明条件与使用之间的路径",
+                  "不保证措施必然有效"
+                ]
+              },
+              {
+                "id": "con-a2",
+                "type": "multi",
+                "difficulty": "哪些说法符合本课？",
+                "stem": [
+                  "可以依据实际关系调整开放时段",
+                  "只要口号一致，具体条件无须调查",
+                  "普遍联系不等于所有对象都有直接因果"
+                ],
+                "options": [
+                  0,
+                  2
+                ],
+                "answer": "A承认能动调整有客观依据；C限定普遍联系的含义。B以口号替代实际条件。"
+              },
+              {
+                "id": "con-a3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "有人说增加座位就是整体最优。请结合通道和管理分析，但不编造工程标准。",
+                "answer": "整体使用还涉及通行、管理和需求等关系，局部增座未必整体最优；应核对具体条件和适用专业规范，再评估调整。",
+                "explanation": "题目没有规范数值，不要求也不能编造通道宽度等标准。",
+                "rubric": [
+                  "区分局部变化与整体效果",
+                  "结合通道或管理具体关系",
+                  "提出核对条件及专业规范",
+                  "不造数值或效果保证"
+                ]
+              },
+              {
+                "id": "con-a4",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "材料表明晚间需求集中而场所晚间关闭。提出一条分析和后续方向。",
+                "answer": "开放时段与需求时段错配可能限制使用，应调查可行时段和管理条件，考虑协调安排并检验效果，不能只靠增加座位。",
+                "explanation": "需要材料证据、关系路径和后续检验；不能给确定成功结论。",
+                "rubric": [
+                  "引用晚间需求和关闭的信息",
+                  "解释时段错配路径",
+                  "提出调查协调方向",
+                  "保留检验与限制"
+                ]
+              }
+            ],
+            "delayedQuestions": [
+              {
+                "id": "con-d1",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：食堂供应时段与员工下班时段不匹配。哪项分析最贴近材料？",
+                "options": [
+                  "只看餐桌数量",
+                  "研究供应与需求时段的联系",
+                  "所有周边因素都已证明有因果"
+                ],
+                "answer": 1,
+                "explanation": "B对应明确材料；A遗漏时段关系；C超出证据。联系分析要具体，不是随意扩大因素。"
+              },
+              {
+                "id": "con-d2",
+                "type": "multi",
+                "difficulty": "application",
+                "stem": "隔日：如何理解客观联系？",
+                "options": [
+                  "不能靠愿望宣布某关系存在",
+                  "人完全不能改变任何条件",
+                  "可在实际规律和条件上作调整"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A与C相容：关系客观不等于不能在条件允许下行动。B把客观性误成消极无为。"
+              },
+              {
+                "id": "con-d3",
+                "type": "single",
+                "difficulty": "application",
+                "stem": "隔日：某环节效率提高，是否足以证明整个系统最优？",
+                "options": [
+                  "一定足够",
+                  "还须考察其他环节、相互作用与目标",
+                  "只要宣传就足够"
+                ],
+                "answer": 1,
+                "explanation": "B要求整体关系与目标依据；A把局部当充分条件；C以主观表述代替评估。"
+              },
+              {
+                "id": "con-d4",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "隔日：公交站调整后客流增长，另一同期活动也可能影响客流。用联系观点说明怎样分析。",
+                "answer": "应调查站点、出行需求、同期活动等实际关系及条件，不能只因先后或同步认定调整是唯一原因；再用适当资料和研究检验。",
+                "explanation": "哲学观点不替代因果研究方法，不要求编造统计结论。",
+                "rubric": [
+                  "指出多种相关条件",
+                  "区分同步与因果",
+                  "不认定唯一原因",
+                  "提出调查和检验方向"
+                ]
+              }
+            ],
+            "rubric": [
+              "关系具体",
+              "客观条件有依据",
+              "局部整体不绝对化",
+              "材料分析不替代因果证明"
+            ],
+            "review": {
+              "intervalDays": [
+                1,
+                3,
+                7,
+                14,
+                30
+              ],
+              "delayedPrompt": "换到食堂或交通材料，重新找要素、路径与条件。"
+            },
+            "reviewRecord": {
+              "internalCheck": "source-linked-draft",
+              "expertApproved": false,
+              "publicRelease": false,
+              "limitations": [
+                "联系的客观性、条件性和整体表述需学科教师复核",
+                "材料题是否多解以及评分点",
+                "政治2027/2028年度完整大纲缺口"
+              ]
+            }
+          }
+        ]
+      },
+      "priorReviewPackage": {
+        "purpose": "Independent expert review; no personal learning data",
+        "unitFingerprints": [
+          {
+            "unitId": "pol-connections-foundation",
+            "unitVersion": "0.1",
+            "contentSha256": "8abd3c454472c155e9db2b263a2b398c20399c5b78acb246e8eeda5def156929"
+          }
+        ],
+        "units": [
+          {
+            "id": "pol-connections-foundation",
+            "version": "0.1",
+            "subject": "pol",
+            "title": "联系观点基础：看见关系，也核对关系成立的条件",
+            "reviewStatus": "draft-internal-check",
+            "distribution": "held-pending-review",
+            "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+            "writtenAt": "2026-10-19",
+            "applicableYear": 2028,
+            "scopeStatus": "teaching-supplement-exam-spec-pending",
+            "mapping": [
+              "pol-plan-1"
+            ],
+            "prerequisites": [
+              "pol-common-particular"
+            ],
+            "sources": [
+              "https://news.12371.cn/2017/08/29/ARTI1504001209326173.shtml",
+              "https://www.qstheory.cn/qshyjx/2021-06/21/c_1127582987.htm"
+            ],
+            "explanation": "先接上共性与个性：研究共同问题还要看对象的具体条件。本课换一个问题，为什么不能只盯一个孤立环节？原创情境：社区开放一间自习室，是否方便居民使用，不只与座位多少有关，还可能与开放时段、交通、照明、管理和使用需求有关。联系在这里指事物之间或同一事物内部要素之间相互影响、相互制约的关系。把问题放在这些关系中考察，不等于把附近所有事都硬扯进来；哪些关系实际存在，要调查依据和作用过程。\n\n联系不是靠主观愿望制造的。把座位多直接当作利用率一定高，是缺少条件的判断；如果开放时间与居民空闲时段不相合，增加座位也未必解决实际问题。承认客观联系不等于人无能为力：人可以在认识真实条件的基础上调整时段、改进管理，建立新的具体联系；但不能仅凭希望宣布某关系已存在。普遍联系的观点要求不孤立看问题，并不意味着任意两件事都有同样的直接关系，更不能把同时发生一律当作原因与结果。\n\n联系有不同形式和条件。有些是场所内部环节之间的，如照明与阅读体验；有些涉及场所与周围环境，如交通与到达便利。看整体与部分的关系时，既不忽略整体安排，也不认为某一个部分改善就保证整体最优。增加座位若挡住通道，可能带来其他问题；本例不提供具体消防或建筑标准，专业规范仍须另外核对。分析应说明对象、具体关联、条件和限制，不能只罗列一串因素名称。\n\n把联系观点用于材料题，可按三步：找出材料给出的相关要素；说明相互影响的具体路径；结合条件提出需要调查或协调的方向。例如材料说明自习室晚间需求集中但晚间关闭，就应分析时段与需求的错配，而不是只喊增加座位一定有效。数据中两项同时增加，也不能单凭同步认定因果，更不能用哲学术语替代研究设计。提出调整后仍须实践检验。这与认识实践课相通，但本课重点是从哪些关系和条件分析，尚不讨论系统最优化的完整理论或主次矛盾的全部方法。",
+            "definition": "本课联系是对象之间及对象内部要素之间相互影响、制约的关系。用联系观点分析，要把具体对象放在实际关系和条件中；不孤立、不主观臆造，也不把普遍联系偷换为任意直接因果。",
+            "conditions": "只讲联系分析入门与材料应用，不替代统计因果、工程安全标准、系统理论或完整辩证法。政治年度考试要求尚待核实，旧理论材料仅教学参考。",
+            "example": "座位、时段、需求：先找材料给出的要素。\n需求在晚间但晚间关闭：说明具体条件错配。\n加座位可能影响通道：局部措施需看整体影响，不给未经核实工程结论。\n提出调整并调查检验：同步变化不等于唯一因果。",
+            "misconceptions": [
+              "把一个因素当充分保证。",
+              "普遍联系等于任意两件事直接因果。",
+              "客观联系意味着人不能调整条件。",
+              "只堆因素不说明关系路径。",
+              "局部改善必定使整体最优。"
+            ],
+            "recall": [
+              "用自习室以外的例子解释要素联系。",
+              "说明客观性与人的能动调整为何不矛盾。",
+              "解释局部与整体、不同关系及条件。",
+              "写出材料—关系路径—条件—检验的表达顺序。"
+            ],
+            "teachingSections": [
+              {
+                "id": "section-1",
+                "explanationParagraph": 0,
+                "workedExample": "座位、时段、需求：先找材料给出的要素。"
+              },
+              {
+                "id": "section-2",
+                "explanationParagraph": 1,
+                "workedExample": "需求在晚间但晚间关闭：说明具体条件错配。"
+              },
+              {
+                "id": "section-3",
+                "explanationParagraph": 2,
+                "workedExample": "加座位可能影响通道：局部措施需看整体影响，不给未经核实工程结论。"
+              },
+              {
+                "id": "section-4",
+                "explanationParagraph": 3,
+                "workedExample": "提出调整并调查检验：同步变化不等于唯一因果。"
+              }
+            ],
+            "learningObjectives": [
+              {
+                "id": "con-g1",
+                "description": "识别材料中的真实关系而非孤立因素",
+                "successCriteria": "指出至少两个要素和具体相互作用，不硬拉无关事物。",
+                "teachingSectionIds": [
+                  "section-1"
+                ],
+                "recallIndexes": [
+                  0
+                ],
+                "questionIds": [
+                  "con-b1",
+                  "con-a1",
+                  "con-d1"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "con-g2",
+                "description": "区分客观联系、主观愿望和有条件的改进",
+                "successCriteria": "不把愿望或同步当因果，承认在规律条件上可调整。",
+                "teachingSectionIds": [
+                  "section-2"
+                ],
+                "recallIndexes": [
+                  1
+                ],
+                "questionIds": [
+                  "con-b2",
+                  "con-a2",
+                  "con-d2"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "con-g3",
+                "description": "分析局部措施与整体影响及条件",
+                "successCriteria": "说明局部变化可能有其他影响，避免必然最优。",
+                "teachingSectionIds": [
+                  "section-3"
+                ],
+                "recallIndexes": [
+                  2
+                ],
+                "questionIds": [
+                  "con-b3",
+                  "con-a3",
+                  "con-d3"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "con-g4",
+                "description": "用具体材料提出有依据的协调与检验方向",
+                "successCriteria": "联系材料给出路径和条件，不作未经检验的效果保证。",
+                "teachingSectionIds": [
+                  "section-4"
+                ],
+                "recallIndexes": [
+                  3
+                ],
+                "questionIds": [
+                  "con-b4",
+                  "con-a4",
+                  "con-d4"
+                ],
+                "evaluation": "objective-and-reference-review"
+              }
+            ],
+            "basicQuestions": [
+              {
+                "id": "con-b1",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "材料说自习室晚间需求多，但晚间关闭。首先应分析什么？",
+                "options": [
+                  "只数椅子，不看其他信息",
+                  "时段与使用需求的具体联系",
+                  "任意附近事件都必是原因"
+                ],
+                "answer": 1,
+                "explanation": "B对应材料明确的两个要素及错配。A孤立看一个环节；C把普遍联系扩大为任意因果。"
+              },
+              {
+                "id": "con-b2",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "下列哪项体现联系分析的边界？",
+                "options": [
+                  "希望利用率高就证明座位多必有用",
+                  "两项同步增加必然直接因果",
+                  "依据实际条件分析关系，不能凭愿望确认"
+                ],
+                "answer": 2,
+                "explanation": "C保留依据与条件。A把愿望当事实，B把同步当因果；都不能代替调查具体关系。"
+              },
+              {
+                "id": "con-b3",
+                "type": "multi",
+                "difficulty": "standard",
+                "stem": "增加座位可能影响通道时，哪些分析合理？",
+                "options": [
+                  "兼顾局部安排与整体使用条件",
+                  "座位增加就保证所有方面改善",
+                  "专业安全标准需另行核对"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A和C分别体现整体关系和专业边界。B把单项变化当整体成功保证，本课没有提供该结论。"
+              },
+              {
+                "id": "con-b4",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "材料分析只写要统筹兼顾，却不对应时段、需求等信息，主要缺什么？",
+                "options": [
+                  "原理与材料中具体关系的联系",
+                  "必须背出固定更多字数",
+                  "出现原理词就足够"
+                ],
+                "answer": 0,
+                "explanation": "A是论证缺口。B把字数当质量；C把口号当分析。需说明谁影响谁、条件是什么。"
+              }
+            ],
+            "applicationQuestions": [
+              {
+                "id": "con-a1",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "社区只增加自习室椅子，却未调查居民何时使用。用联系观点指出还需调查什么及理由。",
+                "answer": "应调查使用需求、开放时段、到达便利及管理条件等与材料相关的信息，说明它们如何影响使用，不能只凭座位增加保证利用率。",
+                "explanation": "不要求固定清单，重点是相关性与关系理由，不是越多因素越好。",
+                "rubric": [
+                  "指出座位不是唯一环节",
+                  "提出相关条件调查",
+                  "说明条件与使用之间的路径",
+                  "不保证措施必然有效"
+                ]
+              },
+              {
+                "id": "con-a2",
+                "type": "multi",
+                "difficulty": "哪些说法符合本课？",
+                "stem": [
+                  "可以依据实际关系调整开放时段",
+                  "只要口号一致，具体条件无须调查",
+                  "普遍联系不等于所有对象都有直接因果"
+                ],
+                "options": [
+                  0,
+                  2
+                ],
+                "answer": "A承认能动调整有客观依据；C限定普遍联系的含义。B以口号替代实际条件。"
+              },
+              {
+                "id": "con-a3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "有人说增加座位就是整体最优。请结合通道和管理分析，但不编造工程标准。",
+                "answer": "整体使用还涉及通行、管理和需求等关系，局部增座未必整体最优；应核对具体条件和适用专业规范，再评估调整。",
+                "explanation": "题目没有规范数值，不要求也不能编造通道宽度等标准。",
+                "rubric": [
+                  "区分局部变化与整体效果",
+                  "结合通道或管理具体关系",
+                  "提出核对条件及专业规范",
+                  "不造数值或效果保证"
+                ]
+              },
+              {
+                "id": "con-a4",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "材料表明晚间需求集中而场所晚间关闭。提出一条分析和后续方向。",
+                "answer": "开放时段与需求时段错配可能限制使用，应调查可行时段和管理条件，考虑协调安排并检验效果，不能只靠增加座位。",
+                "explanation": "需要材料证据、关系路径和后续检验；不能给确定成功结论。",
+                "rubric": [
+                  "引用晚间需求和关闭的信息",
+                  "解释时段错配路径",
+                  "提出调查协调方向",
+                  "保留检验与限制"
+                ]
+              }
+            ],
+            "delayedQuestions": [
+              {
+                "id": "con-d1",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：食堂供应时段与员工下班时段不匹配。哪项分析最贴近材料？",
+                "options": [
+                  "只看餐桌数量",
+                  "研究供应与需求时段的联系",
+                  "所有周边因素都已证明有因果"
+                ],
+                "answer": 1,
+                "explanation": "B对应明确材料；A遗漏时段关系；C超出证据。联系分析要具体，不是随意扩大因素。"
+              },
+              {
+                "id": "con-d2",
+                "type": "multi",
+                "difficulty": "application",
+                "stem": "隔日：如何理解客观联系？",
+                "options": [
+                  "不能靠愿望宣布某关系存在",
+                  "人完全不能改变任何条件",
+                  "可在实际规律和条件上作调整"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A与C相容：关系客观不等于不能在条件允许下行动。B把客观性误成消极无为。"
+              },
+              {
+                "id": "con-d3",
+                "type": "single",
+                "difficulty": "application",
+                "stem": "隔日：某环节效率提高，是否足以证明整个系统最优？",
+                "options": [
+                  "一定足够",
+                  "还须考察其他环节、相互作用与目标",
+                  "只要宣传就足够"
+                ],
+                "answer": 1,
+                "explanation": "B要求整体关系与目标依据；A把局部当充分条件；C以主观表述代替评估。"
+              },
+              {
+                "id": "con-d4",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "隔日：公交站调整后客流增长，另一同期活动也可能影响客流。用联系观点说明怎样分析。",
+                "answer": "应调查站点、出行需求、同期活动等实际关系及条件，不能只因先后或同步认定调整是唯一原因；再用适当资料和研究检验。",
+                "explanation": "哲学观点不替代因果研究方法，不要求编造统计结论。",
+                "rubric": [
+                  "指出多种相关条件",
+                  "区分同步与因果",
+                  "不认定唯一原因",
+                  "提出调查和检验方向"
+                ]
+              }
+            ],
+            "rubric": [
+              "关系具体",
+              "客观条件有依据",
+              "局部整体不绝对化",
+              "材料分析不替代因果证明"
+            ],
+            "review": {
+              "intervalDays": [
+                1,
+                3,
+                7,
+                14,
+                30
+              ],
+              "delayedPrompt": "换到食堂或交通材料，重新找要素、路径与条件。"
+            },
+            "reviewRecord": {
+              "internalCheck": "source-linked-draft",
+              "expertApproved": false,
+              "publicRelease": false,
+              "limitations": [
+                "联系的客观性、条件性和整体表述需学科教师复核",
+                "材料题是否多解以及评分点",
+                "政治2027/2028年度完整大纲缺口"
+              ]
+            }
+          }
+        ],
+        "reviewLog": []
+      }
+    },
+    {
+      "folder": "353-frequency-denominator",
+      "priorContentSha256": "df9ff80e2f2797dd4620d6e0db1269c17e5de21e0c402e061e84d235e5c6e9cf",
+      "pack": {
+        "schemaVersion": 1,
+        "contentVersion": "2026-10-19-draft",
+        "units": [
+          {
+            "id": "353-frequency-denominator",
+            "version": "0.1",
+            "subject": "353",
+            "title": "频数、比例与缺失数据：先把人数和分母说明白",
+            "reviewStatus": "draft-internal-check",
+            "distribution": "held-pending-review",
+            "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+            "writtenAt": "2026-10-19",
+            "applicableYear": 2028,
+            "scopeStatus": "provisional-previous-year",
+            "mapping": [
+              "s27-18-2"
+            ],
+            "prerequisites": [
+              "353-variable-types"
+            ],
+            "sources": [
+              "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214814-eng.htm",
+              "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+              "https://vsph.tsinghua.edu.cn/info/1025/2775.htm"
+            ],
+            "explanation": "先回忆变量课：分类标签不等于数量，分析前要知道每行是谁、每列记什么。本课把一批有效记录整理成频数表。原创调查有10名参加者，选择的唯一主要通勤方式为步行4人、公交3人、自行车3人。频数就是某类别的记录数，本例三类互斥且每人只选一类，合计4+3+3=10，与有效记录数一致。表题要写清对象、时间和变量；不能只写4、3、3让读者猜单位，也不能把编码1、2、3相加当频数。若变量允许多选，分类频数之和可能大于人数，必须另说明，不能沿用本例单选校验。\n\n比例先问分子属于哪个分母。本例步行者占10名有效记录者的4/10=40%；频数4人的单位是人，比例40%是部分占总体的份额，不是人年速率。比较两个样本时，甲步行4/10，乙步行8/40，虽然乙步行人数多，但甲比例40%高于乙20%。既不能只看人数，也不能只看比例就忽略样本大小、来源和不确定性；本课仅描述这些样本，不进行总体推断或假设检验。\n\n缺失值不是自动的否定类别。若12名受邀者只有10人回答通勤方式，其中4人步行，问有效回答者中的步行比例，用4/10=40%；问受邀者的回答率，用10/12约83.33%。不能把未答2人算成不步行，再声称已知全体受邀者的真实步行比例。可报告在已知回答者的分布及缺失人数，并说明未回答者信息未知；是否有偏差还需研究缺失原因。缺失使分母选择与结论边界更重要，不能为了表格整齐把它删掉不交代。\n\n整理时先核对数据定义，再计算，再解释。对于单选且完整记录的本例，类别频数应与有效人数对上，各类别精确比例之和为100%；显示时四舍五入可能使合计略偏离100%，不应任意改原始频数去凑总和。多选题如10人中6人选阅读、5人选运动，两项允许同选，则60%+50%=110%并非自动错误，要说明分母为10人且可多选。本课不把样本通勤比例叫患病率或发病率；健康事件需专门定义、时间和风险人群。遇到统计图或报道先查题目、对象、分母、缺失与是否多选，再判断比较是否合理。",
+            "definition": "频数为某取值/类别出现的记录数；相对频数或比例以明确总数为分母，百分比为比例乘100%。单选互斥且穷尽时频数合计等于有效记录数；多选和缺失必须另说明。",
+            "conditions": "仅本课分类资料的样本描述，不进行总体推断、显著性检验或缺失值插补。比例与流行病学风险/速率不能随意互换；2027大纲为2028暂定参考。",
+            "example": "10份单选有效记录：4、3、3合计10；步行4/10=40%。\n甲4/10=40%，乙8/40=20%，人数排序不等于比例排序。\n12受邀、10回答、4步行：有效回答者40%；回答率约83.33%。\n允许多选时6/10+5/10=110%可合理，不能强改频数。",
+            "misconceptions": [
+              "把类别编码相加当人数。",
+              "人数更多就一定比例更高。",
+              "缺失自动等于否定。",
+              "所有百分比合计必须等于100%，不管是否多选。",
+              "样本比例可直接作全社区或疾病风险结论。"
+            ],
+            "recall": [
+              "说明频数表的对象、变量和单选合计校验。",
+              "闭卷比较频数与比例，写出4/10和8/40的意义。",
+              "区分有效回答比例与回答率，说明缺失不能当否定。",
+              "说明单选、多选及舍入如何影响合计检查。"
+            ],
+            "teachingSections": [
+              {
+                "id": "section-1",
+                "explanationParagraph": 0,
+                "workedExample": "10份单选有效记录：4、3、3合计10；步行4/10=40%。"
+              },
+              {
+                "id": "section-2",
+                "explanationParagraph": 1,
+                "workedExample": "甲4/10=40%，乙8/40=20%，人数排序不等于比例排序。"
+              },
+              {
+                "id": "section-3",
+                "explanationParagraph": 2,
+                "workedExample": "12受邀、10回答、4步行：有效回答者40%；回答率约83.33%。"
+              },
+              {
+                "id": "section-4",
+                "explanationParagraph": 3,
+                "workedExample": "允许多选时6/10+5/10=110%可合理，不能强改频数。"
+              }
+            ],
+            "learningObjectives": [
+              {
+                "id": "frq-g1",
+                "description": "整理单选频数并核对对象和有效总数",
+                "successCriteria": "4+3+3=10且单位明确，不把编码当人数。",
+                "teachingSectionIds": [
+                  "section-1"
+                ],
+                "recallIndexes": [
+                  0
+                ],
+                "questionIds": [
+                  "frq-b1",
+                  "frq-a1",
+                  "frq-d1"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "frq-g2",
+                "description": "计算并比较样本比例而非只比人数",
+                "successCriteria": "4/10=40%、8/40=20%，限制为样本描述。",
+                "teachingSectionIds": [
+                  "section-2"
+                ],
+                "recallIndexes": [
+                  1
+                ],
+                "questionIds": [
+                  "frq-b2",
+                  "frq-a2",
+                  "frq-d2"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "frq-g3",
+                "description": "正确处理有效分母、回答率和未知缺失",
+                "successCriteria": "有效回答分布与受邀者回答率区分，不造未答者状态。",
+                "teachingSectionIds": [
+                  "section-3"
+                ],
+                "recallIndexes": [
+                  2
+                ],
+                "questionIds": [
+                  "frq-b3",
+                  "frq-a3",
+                  "frq-d3"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "frq-g4",
+                "description": "区分单选多选与舍入校验并解释报道边界",
+                "successCriteria": "多选百分比可超过100%，不改频数凑合计，不外推疾病率。",
+                "teachingSectionIds": [
+                  "section-4"
+                ],
+                "recallIndexes": [
+                  3
+                ],
+                "questionIds": [
+                  "frq-b4",
+                  "frq-a4",
+                  "frq-d4"
+                ],
+                "evaluation": "objective-and-reference-review"
+              }
+            ],
+            "basicQuestions": [
+              {
+                "id": "frq-b1",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "10份单选有效记录，三类频数4、3、3。哪项正确？",
+                "options": [
+                  "频数和为10，与有效人数一致",
+                  "编码相加可替代人数",
+                  "任何表都必须三类"
+                ],
+                "answer": 0,
+                "explanation": "A核对本题互斥单选条件；B混淆编码与频数；C把示例类别数当普遍规定。"
+              },
+              {
+                "id": "frq-b2",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "步行4人/有效回答10人，对应百分比是？",
+                "options": [
+                  "4%",
+                  "40%",
+                  "400%"
+                ],
+                "answer": 1,
+                "explanation": "B来自4÷10×100%=40%。A把人数直接加百分号，C数量级错误；该比例仅描述有效回答者。"
+              },
+              {
+                "id": "frq-b3",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "12名受邀者中10人回答，4名回答者步行。有效回答者中的步行比例分母是什么？",
+                "options": [
+                  "12名受邀者",
+                  "4名步行者",
+                  "10名有效回答者"
+                ],
+                "answer": 2,
+                "explanation": "C与题目对象对应。A回答的是另一个分母问题且未答状态未知；B把部分自身当总体。"
+              },
+              {
+                "id": "frq-b4",
+                "type": "multi",
+                "difficulty": "standard",
+                "stem": "10人可同时选阅读和运动，6人选阅读、5人选运动，哪些正确？",
+                "options": [
+                  "60%和50%可以合计110%",
+                  "必须把5改成4使总和100%",
+                  "应注明可多选和分母为10人"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A和C与多选定义一致。B篡改原始数据来凑合计，不能这样纠错。"
+              }
+            ],
+            "applicationQuestions": [
+              {
+                "id": "frq-a1",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "说明为何本例4、3、3的频数表可以核对10人，并指出多选时是否仍用同一校验。",
+                "answer": "本例每人单选，类别互斥且覆盖有效记录，频数和10应等于有效人数；允许多选时同一人可进入多类，和可能超过人数，不能同样强制相等。",
+                "explanation": "核对前提与边界，不只算加法。",
+                "rubric": [
+                  "单选互斥条件",
+                  "合计10与有效人数对应",
+                  "多选可重复进入类别",
+                  "不将示例规则无条件外推"
+                ]
+              },
+              {
+                "id": "frq-a2",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "甲样本步行4/10，乙样本步行8/40。解释哪个样本步行人数多、哪个比例高，以及不能据此推断什么。",
+                "answer": "乙人数8多于甲4，但甲40%高于乙20%；只描述样本，不能未经抽样和不确定性分析认定总体差异或因果。",
+                "explanation": "需同时给人数、两个比例及范围，不能只背甲高。",
+                "rubric": [
+                  "乙人数更多",
+                  "甲40%",
+                  "乙20%",
+                  "不直接推断总体差异或因果"
+                ]
+              },
+              {
+                "id": "frq-a3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "有人将2名未答者算作不步行，报告全体受邀者中只有4人步行且已知比例为4/12。指出问题并给可报告内容。",
+                "answer": "未答状态未知，不能当不步行。可报告10名有效回答者中4人步行即40%，另报12人受邀、10人回答、2人缺失及回答率约83.33%。",
+                "explanation": "不同分母回答不同问题，不能用未知状态填补。",
+                "rubric": [
+                  "未答者状态未知",
+                  "有效回答分布40%",
+                  "交代2人缺失",
+                  "区分回答率10/12约83.33%"
+                ]
+              },
+              {
+                "id": "frq-a4",
+                "type": "single",
+                "difficulty": "三个单选类别真实计数各1人，总数3，显示百分比各33.3%。如何处理99.9%合计？",
+                "stem": [
+                  "改其中一个原始人数为2",
+                  "说明显示舍入，不任意改频数",
+                  "宣布一定有失访"
+                ],
+                "options": 1,
+                "answer": "B解释1/3的舍入显示。A篡改人数；C没有数据依据。应保留原始计数和所用精度。"
+              }
+            ],
+            "delayedQuestions": [
+              {
+                "id": "frq-d1",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：某单选表有效总数20，三类频数8、7、5。哪项核对成立？",
+                "options": [
+                  "三类频数相加20",
+                  "代码总和替代样本量",
+                  "一定代表全城市分布"
+                ],
+                "answer": 0,
+                "explanation": "A是本题计数一致性；B混淆编码；C越出样本代表性证据。"
+              },
+              {
+                "id": "frq-d2",
+                "type": "single",
+                "difficulty": "application",
+                "stem": "隔日：甲6/20、乙9/60，哪项比较正确？",
+                "options": [
+                  "乙人数多，所以比例必高",
+                  "甲30%，乙15%，甲样本比例更高",
+                  "甲6%乙9%"
+                ],
+                "answer": 1,
+                "explanation": "B分别计算6/20和9/60。A把绝对数排序当比例排序；C错误地直接加百分号。"
+              },
+              {
+                "id": "frq-d3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "隔日：30人受邀、24人有效回答、6人选公交。求有效回答者公交比例及回答率，并说明缺失边界。",
+                "answer": "有效回答者公交比例6/24=25%；回答率24/30=80%；未答6人状态未知，不能作非公交，也不能直接声称全体真实公交比例20%。",
+                "explanation": "独立核对两种分母与比例含义，主观答案待点评，不自动给分。",
+                "rubric": [
+                  "有效回答比例25%",
+                  "回答率80%",
+                  "未答6人未知",
+                  "不将缺失当否定或全体已知分布"
+                ]
+              },
+              {
+                "id": "frq-d4",
+                "type": "multi",
+                "difficulty": "application",
+                "stem": "隔日：看到几项百分比总和超过100%，先查什么？",
+                "options": [
+                  "是否允许多选以及分母定义",
+                  "不用看说明，直接改小某项频数",
+                  "数据对象、缺失及舍入精度"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A与C都是解释合计的必要信息。B在未核对前篡改数据。本题不保证所有超100%的表都正确，仍需逐项核对。"
+              }
+            ],
+            "rubric": [
+              "分母与题目对象一致",
+              "频数比例计算正确",
+              "缺失及多选明确",
+              "样本结论不外推"
+            ],
+            "review": {
+              "intervalDays": [
+                1,
+                3,
+                7,
+                14,
+                30
+              ],
+              "delayedPrompt": "换新频数和受邀/回答人数，独立计算两种比例并说明边界。"
+            },
+            "reviewRecord": {
+              "internalCheck": "source-linked-draft",
+              "expertApproved": false,
+              "publicRelease": false,
+              "limitations": [
+                "频数与分母术语、缺失边界需统计学专家复核",
+                "多选与舍入示例的教学充分性",
+                "不代表全部描述统计或2028正式范围"
+              ]
+            }
+          }
+        ]
+      },
+      "priorReviewPackage": {
+        "purpose": "Independent expert review; no personal learning data",
+        "unitFingerprints": [
+          {
+            "unitId": "353-frequency-denominator",
+            "unitVersion": "0.1",
+            "contentSha256": "df9ff80e2f2797dd4620d6e0db1269c17e5de21e0c402e061e84d235e5c6e9cf"
+          }
+        ],
+        "units": [
+          {
+            "id": "353-frequency-denominator",
+            "version": "0.1",
+            "subject": "353",
+            "title": "频数、比例与缺失数据：先把人数和分母说明白",
+            "reviewStatus": "draft-internal-check",
+            "distribution": "held-pending-review",
+            "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+            "writtenAt": "2026-10-19",
+            "applicableYear": 2028,
+            "scopeStatus": "provisional-previous-year",
+            "mapping": [
+              "s27-18-2"
+            ],
+            "prerequisites": [
+              "353-variable-types"
+            ],
+            "sources": [
+              "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214814-eng.htm",
+              "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+              "https://vsph.tsinghua.edu.cn/info/1025/2775.htm"
+            ],
+            "explanation": "先回忆变量课：分类标签不等于数量，分析前要知道每行是谁、每列记什么。本课把一批有效记录整理成频数表。原创调查有10名参加者，选择的唯一主要通勤方式为步行4人、公交3人、自行车3人。频数就是某类别的记录数，本例三类互斥且每人只选一类，合计4+3+3=10，与有效记录数一致。表题要写清对象、时间和变量；不能只写4、3、3让读者猜单位，也不能把编码1、2、3相加当频数。若变量允许多选，分类频数之和可能大于人数，必须另说明，不能沿用本例单选校验。\n\n比例先问分子属于哪个分母。本例步行者占10名有效记录者的4/10=40%；频数4人的单位是人，比例40%是部分占总体的份额，不是人年速率。比较两个样本时，甲步行4/10，乙步行8/40，虽然乙步行人数多，但甲比例40%高于乙20%。既不能只看人数，也不能只看比例就忽略样本大小、来源和不确定性；本课仅描述这些样本，不进行总体推断或假设检验。\n\n缺失值不是自动的否定类别。若12名受邀者只有10人回答通勤方式，其中4人步行，问有效回答者中的步行比例，用4/10=40%；问受邀者的回答率，用10/12约83.33%。不能把未答2人算成不步行，再声称已知全体受邀者的真实步行比例。可报告在已知回答者的分布及缺失人数，并说明未回答者信息未知；是否有偏差还需研究缺失原因。缺失使分母选择与结论边界更重要，不能为了表格整齐把它删掉不交代。\n\n整理时先核对数据定义，再计算，再解释。对于单选且完整记录的本例，类别频数应与有效人数对上，各类别精确比例之和为100%；显示时四舍五入可能使合计略偏离100%，不应任意改原始频数去凑总和。多选题如10人中6人选阅读、5人选运动，两项允许同选，则60%+50%=110%并非自动错误，要说明分母为10人且可多选。本课不把样本通勤比例叫患病率或发病率；健康事件需专门定义、时间和风险人群。遇到统计图或报道先查题目、对象、分母、缺失与是否多选，再判断比较是否合理。",
+            "definition": "频数为某取值/类别出现的记录数；相对频数或比例以明确总数为分母，百分比为比例乘100%。单选互斥且穷尽时频数合计等于有效记录数；多选和缺失必须另说明。",
+            "conditions": "仅本课分类资料的样本描述，不进行总体推断、显著性检验或缺失值插补。比例与流行病学风险/速率不能随意互换；2027大纲为2028暂定参考。",
+            "example": "10份单选有效记录：4、3、3合计10；步行4/10=40%。\n甲4/10=40%，乙8/40=20%，人数排序不等于比例排序。\n12受邀、10回答、4步行：有效回答者40%；回答率约83.33%。\n允许多选时6/10+5/10=110%可合理，不能强改频数。",
+            "misconceptions": [
+              "把类别编码相加当人数。",
+              "人数更多就一定比例更高。",
+              "缺失自动等于否定。",
+              "所有百分比合计必须等于100%，不管是否多选。",
+              "样本比例可直接作全社区或疾病风险结论。"
+            ],
+            "recall": [
+              "说明频数表的对象、变量和单选合计校验。",
+              "闭卷比较频数与比例，写出4/10和8/40的意义。",
+              "区分有效回答比例与回答率，说明缺失不能当否定。",
+              "说明单选、多选及舍入如何影响合计检查。"
+            ],
+            "teachingSections": [
+              {
+                "id": "section-1",
+                "explanationParagraph": 0,
+                "workedExample": "10份单选有效记录：4、3、3合计10；步行4/10=40%。"
+              },
+              {
+                "id": "section-2",
+                "explanationParagraph": 1,
+                "workedExample": "甲4/10=40%，乙8/40=20%，人数排序不等于比例排序。"
+              },
+              {
+                "id": "section-3",
+                "explanationParagraph": 2,
+                "workedExample": "12受邀、10回答、4步行：有效回答者40%；回答率约83.33%。"
+              },
+              {
+                "id": "section-4",
+                "explanationParagraph": 3,
+                "workedExample": "允许多选时6/10+5/10=110%可合理，不能强改频数。"
+              }
+            ],
+            "learningObjectives": [
+              {
+                "id": "frq-g1",
+                "description": "整理单选频数并核对对象和有效总数",
+                "successCriteria": "4+3+3=10且单位明确，不把编码当人数。",
+                "teachingSectionIds": [
+                  "section-1"
+                ],
+                "recallIndexes": [
+                  0
+                ],
+                "questionIds": [
+                  "frq-b1",
+                  "frq-a1",
+                  "frq-d1"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "frq-g2",
+                "description": "计算并比较样本比例而非只比人数",
+                "successCriteria": "4/10=40%、8/40=20%，限制为样本描述。",
+                "teachingSectionIds": [
+                  "section-2"
+                ],
+                "recallIndexes": [
+                  1
+                ],
+                "questionIds": [
+                  "frq-b2",
+                  "frq-a2",
+                  "frq-d2"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "frq-g3",
+                "description": "正确处理有效分母、回答率和未知缺失",
+                "successCriteria": "有效回答分布与受邀者回答率区分，不造未答者状态。",
+                "teachingSectionIds": [
+                  "section-3"
+                ],
+                "recallIndexes": [
+                  2
+                ],
+                "questionIds": [
+                  "frq-b3",
+                  "frq-a3",
+                  "frq-d3"
+                ],
+                "evaluation": "objective-and-reference-review"
+              },
+              {
+                "id": "frq-g4",
+                "description": "区分单选多选与舍入校验并解释报道边界",
+                "successCriteria": "多选百分比可超过100%，不改频数凑合计，不外推疾病率。",
+                "teachingSectionIds": [
+                  "section-4"
+                ],
+                "recallIndexes": [
+                  3
+                ],
+                "questionIds": [
+                  "frq-b4",
+                  "frq-a4",
+                  "frq-d4"
+                ],
+                "evaluation": "objective-and-reference-review"
+              }
+            ],
+            "basicQuestions": [
+              {
+                "id": "frq-b1",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "10份单选有效记录，三类频数4、3、3。哪项正确？",
+                "options": [
+                  "频数和为10，与有效人数一致",
+                  "编码相加可替代人数",
+                  "任何表都必须三类"
+                ],
+                "answer": 0,
+                "explanation": "A核对本题互斥单选条件；B混淆编码与频数；C把示例类别数当普遍规定。"
+              },
+              {
+                "id": "frq-b2",
+                "type": "single",
+                "difficulty": "foundation",
+                "stem": "步行4人/有效回答10人，对应百分比是？",
+                "options": [
+                  "4%",
+                  "40%",
+                  "400%"
+                ],
+                "answer": 1,
+                "explanation": "B来自4÷10×100%=40%。A把人数直接加百分号，C数量级错误；该比例仅描述有效回答者。"
+              },
+              {
+                "id": "frq-b3",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "12名受邀者中10人回答，4名回答者步行。有效回答者中的步行比例分母是什么？",
+                "options": [
+                  "12名受邀者",
+                  "4名步行者",
+                  "10名有效回答者"
+                ],
+                "answer": 2,
+                "explanation": "C与题目对象对应。A回答的是另一个分母问题且未答状态未知；B把部分自身当总体。"
+              },
+              {
+                "id": "frq-b4",
+                "type": "multi",
+                "difficulty": "standard",
+                "stem": "10人可同时选阅读和运动，6人选阅读、5人选运动，哪些正确？",
+                "options": [
+                  "60%和50%可以合计110%",
+                  "必须把5改成4使总和100%",
+                  "应注明可多选和分母为10人"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A和C与多选定义一致。B篡改原始数据来凑合计，不能这样纠错。"
+              }
+            ],
+            "applicationQuestions": [
+              {
+                "id": "frq-a1",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "说明为何本例4、3、3的频数表可以核对10人，并指出多选时是否仍用同一校验。",
+                "answer": "本例每人单选，类别互斥且覆盖有效记录，频数和10应等于有效人数；允许多选时同一人可进入多类，和可能超过人数，不能同样强制相等。",
+                "explanation": "核对前提与边界，不只算加法。",
+                "rubric": [
+                  "单选互斥条件",
+                  "合计10与有效人数对应",
+                  "多选可重复进入类别",
+                  "不将示例规则无条件外推"
+                ]
+              },
+              {
+                "id": "frq-a2",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "甲样本步行4/10，乙样本步行8/40。解释哪个样本步行人数多、哪个比例高，以及不能据此推断什么。",
+                "answer": "乙人数8多于甲4，但甲40%高于乙20%；只描述样本，不能未经抽样和不确定性分析认定总体差异或因果。",
+                "explanation": "需同时给人数、两个比例及范围，不能只背甲高。",
+                "rubric": [
+                  "乙人数更多",
+                  "甲40%",
+                  "乙20%",
+                  "不直接推断总体差异或因果"
+                ]
+              },
+              {
+                "id": "frq-a3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "有人将2名未答者算作不步行，报告全体受邀者中只有4人步行且已知比例为4/12。指出问题并给可报告内容。",
+                "answer": "未答状态未知，不能当不步行。可报告10名有效回答者中4人步行即40%，另报12人受邀、10人回答、2人缺失及回答率约83.33%。",
+                "explanation": "不同分母回答不同问题，不能用未知状态填补。",
+                "rubric": [
+                  "未答者状态未知",
+                  "有效回答分布40%",
+                  "交代2人缺失",
+                  "区分回答率10/12约83.33%"
+                ]
+              },
+              {
+                "id": "frq-a4",
+                "type": "single",
+                "difficulty": "三个单选类别真实计数各1人，总数3，显示百分比各33.3%。如何处理99.9%合计？",
+                "stem": [
+                  "改其中一个原始人数为2",
+                  "说明显示舍入，不任意改频数",
+                  "宣布一定有失访"
+                ],
+                "options": 1,
+                "answer": "B解释1/3的舍入显示。A篡改人数；C没有数据依据。应保留原始计数和所用精度。"
+              }
+            ],
+            "delayedQuestions": [
+              {
+                "id": "frq-d1",
+                "type": "single",
+                "difficulty": "standard",
+                "stem": "隔日：某单选表有效总数20，三类频数8、7、5。哪项核对成立？",
+                "options": [
+                  "三类频数相加20",
+                  "代码总和替代样本量",
+                  "一定代表全城市分布"
+                ],
+                "answer": 0,
+                "explanation": "A是本题计数一致性；B混淆编码；C越出样本代表性证据。"
+              },
+              {
+                "id": "frq-d2",
+                "type": "single",
+                "difficulty": "application",
+                "stem": "隔日：甲6/20、乙9/60，哪项比较正确？",
+                "options": [
+                  "乙人数多，所以比例必高",
+                  "甲30%，乙15%，甲样本比例更高",
+                  "甲6%乙9%"
+                ],
+                "answer": 1,
+                "explanation": "B分别计算6/20和9/60。A把绝对数排序当比例排序；C错误地直接加百分号。"
+              },
+              {
+                "id": "frq-d3",
+                "type": "subjective",
+                "difficulty": "application",
+                "stem": "隔日：30人受邀、24人有效回答、6人选公交。求有效回答者公交比例及回答率，并说明缺失边界。",
+                "answer": "有效回答者公交比例6/24=25%；回答率24/30=80%；未答6人状态未知，不能作非公交，也不能直接声称全体真实公交比例20%。",
+                "explanation": "独立核对两种分母与比例含义，主观答案待点评，不自动给分。",
+                "rubric": [
+                  "有效回答比例25%",
+                  "回答率80%",
+                  "未答6人未知",
+                  "不将缺失当否定或全体已知分布"
+                ]
+              },
+              {
+                "id": "frq-d4",
+                "type": "multi",
+                "difficulty": "application",
+                "stem": "隔日：看到几项百分比总和超过100%，先查什么？",
+                "options": [
+                  "是否允许多选以及分母定义",
+                  "不用看说明，直接改小某项频数",
+                  "数据对象、缺失及舍入精度"
+                ],
+                "answer": [
+                  0,
+                  2
+                ],
+                "explanation": "A与C都是解释合计的必要信息。B在未核对前篡改数据。本题不保证所有超100%的表都正确，仍需逐项核对。"
+              }
+            ],
+            "rubric": [
+              "分母与题目对象一致",
+              "频数比例计算正确",
+              "缺失及多选明确",
+              "样本结论不外推"
+            ],
+            "review": {
+              "intervalDays": [
+                1,
+                3,
+                7,
+                14,
+                30
+              ],
+              "delayedPrompt": "换新频数和受邀/回答人数，独立计算两种比例并说明边界。"
+            },
+            "reviewRecord": {
+              "internalCheck": "source-linked-draft",
+              "expertApproved": false,
+              "publicRelease": false,
+              "limitations": [
+                "频数与分母术语、缺失边界需统计学专家复核",
+                "多选与舍入示例的教学充分性",
+                "不代表全部描述统计或2028正式范围"
+              ]
+            }
+          }
+        ],
+        "reviewLog": []
+      }
+    }
+  ],
+  "fix": "Correct fields, version0.2, retain prior raw data and packages; no approval"
+}

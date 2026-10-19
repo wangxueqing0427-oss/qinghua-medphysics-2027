@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://news.12371.cn/2017/08/29/ARTI1504001209326173.shtml",
+      "publisher": "共产党员网",
+      "publishedAt": "2017-08-29",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "联系而非孤立片面的分析",
+        "内外条件与具体关系"
+      ],
+      "scope": "旧原著教学参考，不是当前考试大纲"
+    },
+    {
+      "url": "https://www.qstheory.cn/qshyjx/2021-06/21/c_1127582987.htm",
+      "publisher": "求是网，来源光明日报",
+      "publishedAt": "2021-06-21",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "全面与系统地观察对象及环境"
+      ],
+      "scope": "旧理论教学材料，非2028考试确认"
+    }
+  ],
+  "failedRetrievals": [],
+  "pendingReview": [
+    "联系的客观性、条件性和整体表述需学科教师复核",
+    "材料题是否多解以及评分点",
+    "政治2027/2028年度完整大纲缺口"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

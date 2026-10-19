@@ -1,0 +1,29 @@
+{
+  "unitId": "pol-knowledge-practice-development",
+  "version": "0.1",
+  "contentSha256": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+  "reviewStatus": "pending-independent-review",
+  "expertApproved": false,
+  "files": [
+    {
+      "file": "审阅全文.html",
+      "sha256": "baba38b7b3cc40d9554f1e1bcb057c85c07edbac12bb521278b09a6033c7de88"
+    },
+    {
+      "file": "审阅全文.md",
+      "sha256": "328af8c672ecd1afb1675fd643ad29ff473507e35ecaaf4f8987d96566951f32"
+    },
+    {
+      "file": "unit.json",
+      "sha256": "d86240c1623a454bde635608809c1026a177f765beff2c0862ef89b24f6a4de4"
+    },
+    {
+      "file": "sources.json",
+      "sha256": "47b5e565a9ce32042617fe86b1fe3ed31c7d13bd18e6a423303016eece1eafe8"
+    },
+    {
+      "file": "review-form.json",
+      "sha256": "df0ac187f34b15f7c157e5b640bc37a2b28e2d0940cda4b74d5da818923b8b0f"
+    }
+  ]
+}

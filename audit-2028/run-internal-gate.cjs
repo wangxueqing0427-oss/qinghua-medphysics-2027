@@ -1,6 +1,7 @@
 const fs=require('fs'),crypto=require('crypto'),{spawnSync}=require('child_process');
 const suites=[['course-engine-test.cjs','course-engine-results.json'],['profile-repository-test.cjs','profile-repository-results.json'],['learning-integration-test.cjs','learning-integration-results.json'],['pilot-ui-simulation-test.cjs','pilot-ui-simulation-results.json'],['content-contract-test.cjs','content-contract-results.json'],['pilot-offline-test.cjs','pilot-offline-results.json'],['pilot-http-test.cjs','pilot-http-results.json'],['regression.cjs','regression-results.json'],['material-backup.cjs','material-backup-results.json'],['round4-reliability-test.cjs','round4-reliability-results.json'],['r5-profile-rubric-test.cjs','r5-profile-rubric-results.json'],['r4-r5-compatibility-test.cjs','r4-r5-compatibility-results.json'],['mobile-build-test.cjs','mobile-build-results.json'],['round4-build-safety-test.cjs','round4-build-safety-results.json']];
 suites.unshift(['course-batch1-test.cjs','course-batch1-results.json'],['course-batch1-integration-test.cjs','course-batch1-integration-results.json']);
+suites.unshift(['foundation-batch-test.cjs','foundation-batch-results.json'],['expert-bundle-test.cjs','expert-bundle-results.json']);
 suites.unshift(['english-agreement-test.cjs','english-agreement-results.json'],['political-development-test.cjs','political-development-results.json']);
 suites.unshift(['variable-types-test.cjs','variable-types-results.json']);
 suites.unshift(['objective-quality-test.cjs','objective-quality-results.json']);

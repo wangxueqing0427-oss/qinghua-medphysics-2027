@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "reviewer": null,
+  "qualification": null,
+  "date": null,
+  "unitId": "pol-knowledge-practice-development",
+  "unitVersion": "0.1",
+  "contentSha256": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+  "decision": "pending",
+  "checks": {
+    "knowledge": null,
+    "scopeYear": null,
+    "formulaAndUnits": null,
+    "questionAnswer": null,
+    "explanation": null,
+    "rubric": null,
+    "sourceAndRights": null
+  },
+  "issues": [],
+  "correctionCommit": null,
+  "recheckReviewer": null,
+  "recheckDecision": "pending",
+  "formalReleaseApproved": false
+}

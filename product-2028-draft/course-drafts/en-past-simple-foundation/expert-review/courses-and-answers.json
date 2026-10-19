@@ -1,0 +1,345 @@
+{
+  "purpose": "Independent expert review; no personal learning data",
+  "unitFingerprints": [
+    {
+      "unitId": "en-past-simple-foundation",
+      "unitVersion": "0.2",
+      "contentSha256": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b"
+    }
+  ],
+  "units": [
+    {
+      "id": "en-past-simple-foundation",
+      "version": "0.2",
+      "subject": "en",
+      "title": "一般过去时基础：在叙事中找到已经发生的事",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创中文讲解、例句/情境与自编训练；来源仅核验概念，不复制来源例题或教材",
+      "writtenAt": "2026-10-19",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "prerequisites": [
+        "en-subject-verb-agreement"
+      ],
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+        "https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement"
+      ],
+      "explanation": "先接上一般现在时：A guide opens the hall every day. 导览员每天开门，表示通常动作。原创句Yesterday a guide opened the hall. 昨天一名导览员打开了大厅。yesterday是昨天，hall是大厅，open是打开；这次描述已经发生的过去动作，opened不是多个动作，也不是被动形式。一般过去时可讲过去一次事件，也可讲过去反复的习惯，本课先处理有明确过去语境的简单陈述句。先找动作与时间，再理解句义；不能看见every day就断定永远用现在时，In 2020, she walked here every day.说的是2020年那段时期的习惯。\n\n规则动词常在基本形式后加-ed，但不能把所有动词都照拼。open变opened，live变lived（本来有e只加d），study变studied（本课辅音字母+y改ied），play变played（元音+y保留y）。本课只要求掌握这些明确词例，重读闭音节双写及-ed发音后续学习。与现在时不同，本课简单过去时肯定句中，普通动作动词不再因第三人称单数额外加s：I opened和She opened都用opened，不能写opened后再加s。先读词义，再解释为什么用该词形，不靠猜尾字母。\n\n常用词也有不规则过去形式，需要连着词义学：go—went（去），have—had（有），see—saw（看见）。Yesterday Nia went to the hall and saw a poster. 昨天妮娅去了大厅并看到一张海报。went与saw都叙述过去，不能说goed或seed。be另有was/were：本课实际过去事实中I/he/she/it用was，you/we/they用were，You were early.表示你/你们当时到得早。这里不讨论虚拟假设中的I were等用法。一个故事中不规则词不能因主语单复数就改成现在时形式。\n\n否定和疑问只学最小可用边界，作为时态理解的新内容，不复制现有一般现在时否定课。普通动作的过去否定为did not加原形：Nia did not go. 不是did not went；一般疑问Did Nia go?也保留go。be的过去否定则是was not/were not，不写did not was。阅读先辨认谁、过去动作、否定范围：Nia did not buy a ticket, but she saw the poster.只说她没买票，并不否定她看海报。buy是买，ticket是票。若材料只写一句过去动作，不能推出现在仍然如此；也不把动作先后直接当因果。完成本课应能选词形、改错并译出时间与否定，不是只会背-ed。",
+      "definition": "本课一般过去时用于已给过去语境中的动作、状态或当时习惯。规则形式和常见不规则形式分别学习；普通动作肯定句一般不再按人称改变过去式，be用was/were；did结构后用原形。",
+      "conditions": "限定简单过去事实；不覆盖现在完成、过去完成、被动、虚拟语气、全部拼写和读音。英语2028官方范围未确认，作为基础教学补充。",
+      "example": "Yesterday a guide opened the hall：时间—主体—过去动作—对象。\nShe lived here in 2020；They played here yesterday：核对lived与played。\nNia went to the hall and saw a poster：went/saw不能加-ed。\nDid Nia go? / Nia did not go：did后使用go，不机械套went。",
+      "misconceptions": [
+        "所有过去式都加ed。",
+        "过去式还要因she再加s。",
+        "did not后仍用went。",
+        "every day只可能表示现在。",
+        "一句过去事实就能证明现在情况或因果。"
+      ],
+      "recall": [
+        "用过去一次事件和过去习惯各说明一个语境。",
+        "闭卷写出open、live、study、play的过去形式，说明人称是否再加s。",
+        "写出go/have/see的过去形式及you对应的过去be。",
+        "写出did否定/疑问与be否定的区别，并解释否定范围。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "Yesterday a guide opened the hall：时间—主体—过去动作—对象。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "She lived here in 2020；They played here yesterday：核对lived与played。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "Nia went to the hall and saw a poster：went/saw不能加-ed。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "Did Nia go? / Nia did not go：did后使用go，不机械套went。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pst-g1",
+          "description": "根据过去语境理解动作或当时习惯",
+          "successCriteria": "识别yesterday和过去时期，不将every day绝对化为现在。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pst-b1",
+            "pst-a1",
+            "pst-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pst-g2",
+          "description": "使用本课规则过去式并避开重复人称标记",
+          "successCriteria": "opened/lived/studied/played正确，不造openeds。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pst-b2",
+            "pst-a2",
+            "pst-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pst-g3",
+          "description": "识别常见不规则过去式与事实语境was/were",
+          "successCriteria": "went/had/saw及you were正确，译出已发生的事。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pst-b3",
+            "pst-a3",
+            "pst-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pst-g4",
+          "description": "在did与be结构中保留正确形式并理解否定范围",
+          "successCriteria": "did not go、Did...go与was not区别，翻译不漏not或扩大否定。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pst-b4",
+            "pst-a4",
+            "pst-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "pst-b1",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "In 2020, she walked here every day. 这句话描述什么？",
+          "options": [
+            "2020年那段时间的习惯",
+            "保证她现在每天来",
+            "因为every day所以不可能是过去"
+          ],
+          "answer": 0,
+          "explanation": "A符合过去时期与walked。B把过去外推现在；C把频率词当唯一时态决定因素。每一天也可以属于过去时期。"
+        },
+        {
+          "id": "pst-b2",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "昨天的简单肯定句：She ___ the hall.（open=打开）",
+          "options": [
+            "openeds",
+            "opened",
+            "opens"
+          ],
+          "answer": 1,
+          "explanation": "B为规则过去式。A错误地再加人称s；C为本题不需要的现在时形式。主语she不要求在opened之后再加s。"
+        },
+        {
+          "id": "pst-b3",
+          "type": "single",
+          "difficulty": "foundation",
+          "stem": "Yesterday they ___ to the hall.（go=去）",
+          "options": [
+            "goed",
+            "goes",
+            "went"
+          ],
+          "answer": 2,
+          "explanation": "C是go的不规则过去式。A机械加ed，B为第三人称单数现在形式且不匹配they。需同时核对时间和词形。"
+        },
+        {
+          "id": "pst-b4",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "过去否定：Nia did not ___ a ticket.（buy=买）",
+          "options": [
+            "bought",
+            "buy",
+            "buys"
+          ],
+          "answer": 1,
+          "explanation": "B正确，did not已构成过去否定，后用原形buy。A重复过去形式，C误加现在时第三人称单数s。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pst-a1",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "把In 2020, she walked here every day.译成中文，说明为什么every day不要求现在时。",
+          "answer": "2020年，她每天步行到这里。every day表示在2020年这个过去时期内的频率，不意味着现在仍如此。",
+          "explanation": "核对过去时间、每天与步行；不要求固定措辞，不自动评分。",
+          "rubric": [
+            "译出2020年",
+            "译出每天步行到这里",
+            "说明频率可属于过去时期",
+            "不外推现在"
+          ]
+        },
+        {
+          "id": "pst-a2",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "哪些过去词形符合本课词例？",
+          "options": [
+            "live—lived",
+            "study—studyed",
+            "play—played"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A原有e加d；B应studied；C元音+y保留y加ed。不能仅凭都有y就同样改写。"
+        },
+        {
+          "id": "pst-a3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "改正Yesterday Nia goed to the hall and seed a poster.并翻译。",
+          "answer": "Yesterday Nia went to the hall and saw a poster. 昨天妮娅去了大厅并看见一张海报。",
+          "explanation": "go/see是本课不规则词例，核对两个动词和句义，不按所有词加ed处理。",
+          "rubric": [
+            "goed改went",
+            "seed改saw",
+            "译出昨天去大厅",
+            "译出看见海报"
+          ]
+        },
+        {
+          "id": "pst-a4",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "哪些过去事实句正确？",
+          "options": [
+            "Did Nia go?",
+            "Nia did not went.",
+            "The guide was not late."
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A中did后原形；B应did not go；C中be用was not，不用did not was。限定过去事实，不讨论假设语气。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pst-d1",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "隔日：Last winter, we played here on Sundays. 可据此确认什么？",
+          "options": [
+            "去年冬天曾在周日来玩",
+            "现在每周日必来",
+            "play绝不是过去动作"
+          ],
+          "answer": 0,
+          "explanation": "A对应明确过去时期；B越出材料；C忽视played。是否现在还来，需要新证据。"
+        },
+        {
+          "id": "pst-d2",
+          "type": "single",
+          "difficulty": "standard",
+          "stem": "隔日：The pupils ___ maps yesterday.（study=学习/研究）",
+          "options": [
+            "studys",
+            "studied",
+            "studies"
+          ],
+          "answer": 1,
+          "explanation": "B为study的本课过去式；A不是正确词形，C为现在时第三人称单数。复数主语不把过去式改回现在。"
+        },
+        {
+          "id": "pst-d3",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "隔日：哪些词形适合本课简单过去事实？",
+          "options": [
+            "They had a map.",
+            "You was early.",
+            "She saw a poster."
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A和C分别用had、saw；B中you应were。不能把you只有一个人当作was的理由。"
+        },
+        {
+          "id": "pst-d4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：改正Did Nia went?并解释Nia did not buy a ticket, but she saw the poster.的句义。",
+          "answer": "Did Nia go?；她没买票，但看到了海报。did后用go；否定buy a ticket，不否定saw the poster。",
+          "explanation": "核对原形、疑问形式和否定边界；不由看海报推出买票。",
+          "rubric": [
+            "went改go",
+            "说明did后原形",
+            "译出没买票",
+            "保留看到了海报这一肯定信息"
+          ]
+        }
+      ],
+      "rubric": [
+        "过去语境正确",
+        "规则和不规则形式准确",
+        "did/be边界明确",
+        "译文保留否定和信息范围"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换过去时间与新主语，独立改写、解释和翻译，不背原句。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "本课词形和be边界需英语专业复核",
+          "否定疑问衔接是否适合初学者",
+          "2027/2028英语完整年度大纲未核验"
+        ]
+      },
+      "contentRevision": "field-order-fix-before-internal-acceptance"
+    }
+  ],
+  "reviewLog": []
+}

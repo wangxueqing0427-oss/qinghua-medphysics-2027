@@ -1,0 +1,17 @@
+{
+ "checkedAt":"2026-10-19","targetYear":2028,"targetYearOfficialRequirementsConfirmed":false,
+ "sources":[
+ {"url":"https://yz.tsinghua.edu.cn/zsxx/sszs/jzml.htm","publishedAt":"2026-10-08","dateBasis":"2027统招目录链接旁标注日期","accessStatus":"full-page-read","year":2027,"supports":"年份锚点，必须沿链接进入当前统招目录，不能混用旧UUID"},
+ {"url":"https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/c0fb8664-255f-4d6f-bf40-a5893e3343ec?ksfs=&yxsdm=096","publishedAt":null,"indexPublishedAt":"2026-10-08","accessStatus":"full-page-read","year":2027,"confirmed":{"department":"096万科公共卫生与健康学院","degreeCode":"105300","degree":"专业学位公共卫生","direction":"02医学物理与健康","mode":"非全日制","subjects":["101思想政治理论","201英语（一）","353卫生综合"],"admissionNote":"定向就业、原单位定向生（在职培养），不转档案户口，不提供住宿"},"limitation":"只确认2027目录，非2028承诺；不据此判断个人报考资格"},
+ {"url":"https://vsph.tsinghua.edu.cn/info/1025/2775.htm","publishedAt":"2026-09-30","accessStatus":"full-page-read","year":2027,"supports":["公共卫生、流行病学统计、基础交叉范围","统计认识数据含变量分类和描述指标","当前正文含医学物理方向专项：物理核心、测量评价、辐射防护、核医学影像和放疗物理及数据应用"],"changeHandling":"专项段落需与现有规划节点逐条复核；本轮不自动改覆盖率或旧课审定状态","useFor2028":"provisional_previous_year"},
+ {"url":"https://yankao.neea.edu.cn/html1/category/1509/6235-1.htm","publishedAt":null,"accessStatus":"full-page-read","supports":"本轮所读列表为2022等历史大纲，不是2027完整英语政治大纲"},
+ {"url":"https://yankao.neea.edu.cn/html1/report/16103/1379-1.htm","publishedAt":"2016-10-27","accessStatus":"page-metadata-read-image-body-not-transcribed","year":2017,"supports":"历史英语（一）页面的身份和年份，不支持2027题型分值结论"},
+ {"url":"https://yankao.neea.edu.cn/html1/report/16103/1369-1.htm","publishedAt":"2016-10-27","accessStatus":"page-metadata-read-image-body-not-transcribed","year":2017,"supports":"历史政治页面的身份和年份，不支持2027年度内容结论"}
+ ],
+ "failedOrExcluded":[
+ {"url":"https://www.moe.gov.cn/srcsite/A15/moe_778/s3261/202609/t20260923_1451734.html","status":"fetch error","handling":"不以搜索摘要确认管理规定全文、分值或个人资格"},
+ {"url":"https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/1d58a1e4-dc87-49f9-be0a-d000c060763f?ksfs=&yxsdm=500","status":"readable but not the current 2027 link chain and wrong department for target","handling":"不可用来确认目标方向"}
+ ],
+ "gaps":["2028正式目录、大纲和考试时间尚未核验","2027英语（一）和政治完整年度大纲仍缺可读核验正文","2027管理规定原文访问失败，分值细节未据摘要确认","2027医学物理专项段落与130规划节点须重新逐条对应"],
+ "courseProductionRule":"基础草稿可以继续，但不得声称覆盖全部官方要求或预测350分；不创建未经核实的官方试卷蓝图"
+}

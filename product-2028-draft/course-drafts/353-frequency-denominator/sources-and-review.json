@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27-18-2",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214814-eng.htm",
+      "publisher": "Statistics Canada",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "频数分布与相对频数整理"
+      ]
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+      "publisher": "CDC",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "比例、分子分母和百分比概念"
+      ]
+    },
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "sourceYear": 2027,
+      "useFor2028": "provisional",
+      "supports": [
+        "认识数据中的描述指标与数据产生/偏差入门"
+      ]
+    }
+  ],
+  "failedRetrievals": [
+    {
+      "url": "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214818-eng.htm",
+      "result": "fetch error; used actual frequency-distribution link instead"
+    }
+  ],
+  "pendingReview": [
+    "频数与分母术语、缺失边界需统计学专家复核",
+    "多选与舍入示例的教学充分性",
+    "不代表全部描述统计或2028正式范围"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

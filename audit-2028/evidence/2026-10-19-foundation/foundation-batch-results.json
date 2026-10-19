@@ -1,0 +1,388 @@
+{
+  "scope": "Three isolated authored modules with existing engine and fake IndexedDB; not expert or phone approval",
+  "reports": [
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "en-past-simple-foundation",
+      "contentSha256": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Hard prerequisite rejects crafted access without writing state",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "en-past-simple-foundation content-specific answer and explanation boundaries",
+          "pass": true
+        },
+        {
+          "name": "en-past-simple-foundation subjective feedback never fabricates official points",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "pol-connections-foundation",
+      "contentSha256": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Hard prerequisite rejects crafted access without writing state",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "pol-connections-foundation content-specific answer and explanation boundaries",
+          "pass": true
+        },
+        {
+          "name": "pol-connections-foundation subjective feedback never fabricates official points",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "353-frequency-denominator",
+      "contentSha256": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Hard prerequisite rejects crafted access without writing state",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "353-frequency-denominator content-specific answer and explanation boundaries",
+          "pass": true
+        },
+        {
+          "name": "353-frequency-denominator subjective feedback never fabricates official points",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "en-past-simple-foundation / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Hard prerequisite rejects crafted access without writing state",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / en-past-simple-foundation content-specific answer and explanation boundaries",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation / en-past-simple-foundation subjective feedback never fabricates official points",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Hard prerequisite rejects crafted access without writing state",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / pol-connections-foundation content-specific answer and explanation boundaries",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation / pol-connections-foundation subjective feedback never fabricates official points",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Hard prerequisite rejects crafted access without writing state",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / 353-frequency-denominator content-specific answer and explanation boundaries",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator / 353-frequency-denominator subjective feedback never fabricates official points",
+      "pass": true
+    }
+  ]
+}

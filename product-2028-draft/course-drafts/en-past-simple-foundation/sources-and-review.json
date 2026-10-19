@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+      "publisher": "British Council",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "规则/不规则过去式",
+        "过去语境",
+        "did否定疑问"
+      ]
+    },
+    {
+      "url": "https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement",
+      "publisher": "Government of Canada",
+      "publishedAt": null,
+      "modifiedAt": "2020-02-28",
+      "accessedAt": "2026-10-18",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "与已有现在时人称数形式作范围对照"
+      ],
+      "limitation": "不是过去时专门来源，沿用前轮真实访问记录"
+    }
+  ],
+  "failedRetrievals": [
+    {
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/past-simple-verb-be",
+      "result": "fetch error, not relied on"
+    }
+  ],
+  "pendingReview": [
+    "本课词形和be边界需英语专业复核",
+    "否定疑问衔接是否适合初学者",
+    "2027/2028英语完整年度大纲未核验"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

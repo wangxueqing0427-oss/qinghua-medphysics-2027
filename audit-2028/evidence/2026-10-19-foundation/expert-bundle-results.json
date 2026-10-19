@@ -1,0 +1,21 @@
+{
+  "scope": "Review package completeness/hash/preservation, not professional review",
+  "results": [
+    {
+      "name": "en-subject-verb-agreement complete readable immutable review bundle",
+      "pass": true
+    },
+    {
+      "name": "pol-knowledge-practice-development complete readable immutable review bundle",
+      "pass": true
+    },
+    {
+      "name": "353-variable-types complete readable immutable review bundle",
+      "pass": true
+    },
+    {
+      "name": "Manual edits cannot be overwritten on rerun",
+      "pass": true
+    }
+  ]
+}
