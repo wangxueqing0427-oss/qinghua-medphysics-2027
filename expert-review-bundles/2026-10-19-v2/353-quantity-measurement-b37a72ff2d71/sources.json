@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27v2-mp-core-quantity",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "mappingVersion": "353-2027-remap-v2-2026-10-19",
+    "boundary": "官方要求基本概念及测量评价；SI换算、极差和校正是教学分解，不冒充官方逐项公式。"
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "sourceYear": 2027,
+      "useFor2028": "provisional",
+      "supports": [
+        "基本数量分析和医学物理测量评价要求"
+      ]
+    },
+    {
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "publisher": "BIPM",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "米、秒、千克等SI基本单位及导出关系"
+      ],
+      "limits": "页面未显示发布日期；不编造。前缀换算关系在题内给出，例题原创。"
+    },
+    {
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology",
+      "publisher": "NIST",
+      "publishedAt": "2015-11-06",
+      "updatedAt": "2025-09-11",
+      "documentEdition": 1994,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": [
+        "准确性与重复性的区别",
+        "误差与修正符号",
+        "误差不等于不确定度"
+      ],
+      "limits": "历史计量指导；不能声称已核对最新VIM或2028考试要求。现代术语译法与教学边界待专家复核。"
+    }
+  ],
+  "failedRetrievals": [
+    {
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-2-nist-policy-si-units",
+      "result": "404 Not Found；不作为已读依据"
+    }
+  ],
+  "pendingReview": [
+    "量、量值、被测量的现代术语一致性",
+    "误差、校正、不确定度与参考假设的边界",
+    "均值极差教学层级",
+    "题目唯一性、单位换算和主观接受边界"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

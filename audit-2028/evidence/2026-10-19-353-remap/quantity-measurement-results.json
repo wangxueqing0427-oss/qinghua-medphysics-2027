@@ -1,0 +1,67 @@
+{
+  "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+  "course": "353-quantity-measurement",
+  "contentSha256": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+  "results": [
+    {
+      "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "Unit conversion and reference arithmetic independently recomputed",
+      "pass": true
+    },
+    {
+      "name": "Measurement limitations and subjective boundaries remain explicit",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>物理量、单位与测量：先说明测什么，再解释数字—待专业审核</title><style>body{max-width:850px;margin:24px auto;padding:0 20px;font:17px/1.7 system-ui;color:#182431}section{border-top:1px solid #ccd;padding:16px 0}p{white-space:pre-wrap;overflow-wrap:anywhere}h1{font-size:26px}h2{font-size:21px}@media print{body{font-size:11pt;margin:0}h2{break-after:avoid}section{break-inside:auto}}</style><h1>物理量、单位与测量：先说明测什么，再解释数字</h1><section><h2>审阅须知</h2><p>状态：待独立专业审核。内部检查和程序测试不等于专家结论。
+课程ID：353-quantity-measurement
+版本：0.1
+内容SHA256：b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76
+目标年度：2028；范围状态：provisional-previous-year
+先修：基础四则与比例，无硬先修课程
+请填写review-form.json并保存为新的审核意见文件；由项目review-ledger追加归档，不直接改原课程或覆盖历史。未核实审核人资格不得称正式审定。</p></section><section><h2>完整讲解</h2><p>看到记录‘走廊长度为2.4 m’，先不要只记2.4。我们关心的性质是长度，m是选用的单位米，2.4是用这个单位表达的数值。物理量的量值需要数值和单位共同表达；同一长度写成240 cm，数值变了，长度没有变。长度、时间、质量是不同种类的量；米m、秒s、千克kg分别是它们的SI基本单位。符号m在单位位置表示米，在某些公式里也可能作为质量的量符号，必须靠上下文区分。医学物理不是记设备名称，本课从读懂可比较的测量结果开始；只写‘2.4’不能让另一人知道测了长度、时间还是别的量。
+
+换单位本质上是乘以等于1的换算因子。例如240 cm乘(1 m/100 cm)=2.40 m，cm约掉，剩下m。面积和体积不能照搬长度倍数：一个边长1 cm的正方形边长是0.01 m，所以面积1 cm²=(0.01 m)²=0.0001 m²。速度也先统一单位：一段假设的直线路程1.2 m，用时0.6 s，平均速率为路程除以时间=2 m/s。若路程有来回，不能直接把路程当位移计算平均速度。本课只用题给直线行进且无返回的例子，暂不学习向量运算。单位能帮助发现把时间乘上路程之类的错误，但单位相同不保证物理概念和模型一定正确。
+
+测量前要定义被测量，也就是本次打算测的具体量。‘测房间’太含糊；‘测某房间两侧指定墙面间的水平距离，单位m’才给出了对象与性质。还要记录测量位置、方法、仪器及有关条件，方便比较和重复。本课情境：把同一参考长度在相同条件下读三次，得到1.01、1.00、1.02 m，算术平均为1.01 m，观测极差为0.02 m。极差只是这三次读数的最大值减最小值，不是自动得到的测量不确定度。显示小数位多也不证明结果更接近被测量值。先问条件是否相同、仪器有无校准依据，再谈比较；多次读数很接近，只能支持在所述条件下重复结果相近，不能据此宣布准确。
+
+最后把读数、参考比较和评价分开。为教学假设某长度参考值为1.00 m，且本题忽略参考值不确定度，读数为1.03 m，则相对该参考的有符号示值误差是1.03−1.00=+0.03 m，若要用加法校正，修正值为−0.03 m。二者符号相反，不要把误差的绝对大小0.03 m当作修正方向。真实参考和测量都有不确定性，校正也不意味着完全无误差；不确定度表征与测量结果相关的分散程度，不能直接等同于一次观测误差或极差。本课只建立区分，不给出完整不确定度预算、传播或覆盖因子计算。后续才将这些基本原则用于剂量、图像和环境测量；本课不提供临床校准程序、容差或个人健康判断。</p></section><section><h2>标准定义</h2><p>物理量是可定量表达的性质；数值与单位共同表达量值。被测量是拟测量的量。换算改变数值及单位，不改变同一个量。观测极差、误差、修正值和测量不确定度不能混同。</p></section><section><h2>条件与边界</h2><p>面向零基础，需会四则运算；换算关系在题中给出。误差例题仅在参考值给定且忽略其不确定度的教学假设下成立。NIST TN1297是历史计量指导，现代术语一致性待计量专家复核。2027大纲仅作2028暂定依据；无官方分值或题型承诺。</p></section><section><h2>分步示例</h2><p>长度2.4 m=240 cm，量未变。
+1 cm²=0.0001 m²；1.2 m/0.6 s=2 m/s。
+1.01、1.00、1.02 m：均值1.01 m、极差0.02 m，不能据此宣布准确。
+参考1.00 m与读数1.03 m：有符号误差+0.03 m，加法修正−0.03 m。</p></section><section><h2>常见误区</h2><p>只写数值不写单位。
+面积换算仍用长度倍数。
+单位对了就证明公式必对。
+重复接近或小数位多等于准确。
+把极差当不确定度或把误差符号当校正方向。</p></section><section><h2>学习目标及证据</h2><p>qm-g1：从测量记录辨认量、数值和单位
+验收：指出三者并说明同量单位变化不改变长度；不将裸数字当完整结果。
+教学：section-1；闭卷索引：0；题号：qm-b1、qm-a1、qm-d1
+
+qm-g2：按换算因子完成长度、面积与简单速率计算
+验收：写出换算和单位约去过程，面积倍数平方，能识别量纲检错的局限。
+教学：section-2；闭卷索引：1；题号：qm-b2、qm-a2、qm-d2
+
+qm-g3：定义被测量与比较条件，解释重复测量证据边界
+验收：说清对象性质和条件，计算均值及极差，不把重复一致认作准确。
+教学：section-3；闭卷索引：2；题号：qm-b3、qm-a3、qm-d3
+
+qm-g4：在给定参考假设下计算误差和修正并说明不确定度边界
+验收：有符号误差及修正方向正确；不把极差或单次误差当不确定度。
+教学：section-4；闭卷索引：3；题号：qm-b4、qm-a4、qm-d4</p></section><section><h2>闭卷回忆</h2><p>0：用一个长度记录区分量、数值、单位，并解释换单位后什么不变。
+1：闭卷推导面积换算并写一个路程除时间的单位。
+2：写出被测量和测量条件，说明重复接近能和不能证明什么。
+3：区分有符号误差、加法修正、极差和不确定度，说明教学假设。</p></section><section><h2>复习机制</h2><p>{
+  &quot;intervalDays&quot;: [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  &quot;delayedPrompt&quot;: &quot;换一组长度、面积和参考读数，闭卷解释表示、计算与评价边界。&quot;
+}</p></section><section><h2>需要专家逐项确认</h2><p>1. 量、量值、被测量的现代术语一致性 —— 未审核；请记录问题位置、建议、依据及复核结论。
+2. 误差、校正、不确定度与参考假设的边界 —— 未审核；请记录问题位置、建议、依据及复核结论。
+3. 均值极差教学层级 —— 未审核；请记录问题位置、建议、依据及复核结论。
+4. 题目唯一性、单位换算和主观接受边界 —— 未审核；请记录问题位置、建议、依据及复核结论。</p></section><section><h2>来源与真实访问结果</h2><p>{
+  &quot;checkedAt&quot;: &quot;2026-10-19&quot;,
+  &quot;status&quot;: &quot;internal-check-pending-independent-review&quot;,
+  &quot;mapping&quot;: {
+    &quot;nodeId&quot;: &quot;s27v2-mp-core-quantity&quot;,
+    &quot;source&quot;: &quot;https://vsph.tsinghua.edu.cn/info/1025/2775.htm&quot;,
+    &quot;officialExamMappingConfirmed&quot;: false,
+    &quot;targetYear&quot;: 2028,
+    &quot;verifiedCoverage&quot;: false,
+    &quot;mappingVersion&quot;: &quot;353-2027-remap-v2-2026-10-19&quot;,
+    &quot;boundary&quot;: &quot;官方要求基本概念及测量评价；SI换算、极差和校正是教学分解，不冒充官方逐项公式。&quot;
+  },
+  &quot;sources&quot;: [
+    {
+      &quot;url&quot;: &quot;https://vsph.tsinghua.edu.cn/info/1025/2775.htm&quot;,
+      &quot;publisher&quot;: &quot;清华大学&quot;,
+      &quot;publishedAt&quot;: &quot;2026-09-30&quot;,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;sourceYear&quot;: 2027,
+      &quot;useFor2028&quot;: &quot;provisional&quot;,
+      &quot;supports&quot;: [
+        &quot;基本数量分析和医学物理测量评价要求&quot;
+      ]
+    },
+    {
+      &quot;url&quot;: &quot;https://www.bipm.org/en/measurement-units/si-base-units&quot;,
+      &quot;publisher&quot;: &quot;BIPM&quot;,
+      &quot;publishedAt&quot;: null,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: [
+        &quot;米、秒、千克等SI基本单位及导出关系&quot;
+      ],
+      &quot;limits&quot;: &quot;页面未显示发布日期；不编造。前缀换算关系在题内给出，例题原创。&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology&quot;,
+      &quot;publisher&quot;: &quot;NIST&quot;,
+      &quot;publishedAt&quot;: &quot;2015-11-06&quot;,
+      &quot;updatedAt&quot;: &quot;2025-09-11&quot;,
+      &quot;documentEdition&quot;: 1994,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: [
+        &quot;准确性与重复性的区别&quot;,
+        &quot;误差与修正符号&quot;,
+        &quot;误差不等于不确定度&quot;
+      ],
+      &quot;limits&quot;: &quot;历史计量指导；不能声称已核对最新VIM或2028考试要求。现代术语译法与教学边界待专家复核。&quot;
+    }
+  ],
+  &quot;failedRetrievals&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-2-nist-policy-si-units&quot;,
+      &quot;result&quot;: &quot;404 Not Found；不作为已读依据&quot;
+    }
+  ],
+  &quot;pendingReview&quot;: [
+    &quot;量、量值、被测量的现代术语一致性&quot;,
+    &quot;误差、校正、不确定度与参考假设的边界&quot;,
+    &quot;均值极差教学层级&quot;,
+    &quot;题目唯一性、单位换算和主观接受边界&quot;
+  ],
+  &quot;expertApproved&quot;: false,
+  &quot;formalReleaseApproved&quot;: false
+}</p></section><section><h2>basicQuestions / qm-b1</h2><p>记录‘长度为2.4 m’，哪项解释正确？
+0：2.4是单位，m是数值
+1：长度是量，2.4是数值，m是单位
+2：改写240 cm后长度增大100倍
+标准/参考答案：长度是量，2.4是数值，m是单位
+解析：B分别指出量、数值、单位。A颠倒数值与单位；C混淆数值变换与量本身，2.4 m与240 cm相等。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / qm-b2</h2><p>已知1 cm=0.01 m，1 cm²等于多少？
+0：0.01 m²
+1：0.0001 m²
+2：100 m²
+标准/参考答案：0.0001 m²
+解析：B将两条边都乘0.01，面积因子为0.01²=0.0001。A只换一条边；C方向和平方因子都错。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / qm-b3</h2><p>同条件三次读数十分接近，单凭此事实能得出什么？
+0：这些重复读数接近，是否准确仍需其他依据
+1：仪器绝对没有系统影响
+2：显示的小数位足够就无需记录条件
+标准/参考答案：这些重复读数接近，是否准确仍需其他依据
+解析：A只陈述已有证据及限制。B重复接近也可能共同偏离参考；C显示位数不能替代条件和评价。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / qm-b4</h2><p>教学假设参考1.00 m，忽略参考不确定度，读数1.03 m。有符号误差和加法修正分别为？
+0：−0.03 m，+0.03 m
+1：+0.03 m，+0.03 m
+2：+0.03 m，−0.03 m
+标准/参考答案：+0.03 m，−0.03 m
+解析：C：误差=读数−参考=+0.03 m，修正加−0.03 m。A符号颠倒；B会继续增大读数。真实校正仍有不确定性。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / qm-a1</h2><p>有人把240 cm改写2.4 m后说‘数值变小，所以走廊缩短了’。区分量、数值、单位并纠正结论。
+
+标准/参考答案：被讨论的量是走廊长度；240和2.4是不同单位下的数值；cm与m是单位。因1 m=100 cm，两记录相等，不能据数值变小说走廊缩短。
+解析：核对三种角色和等量关系，不以关键词或字数自动打分。‘量不变、表示方式变’等同义表述可接受。
+主观评分要点（待核对，不自动给分）：
+1. 指出量是长度
+2. 辨认240/2.4数值
+3. 辨认cm/m单位及换算
+4. 否定长度缩短且给理由
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / qm-a2</h2><p>题给直线无返回行进1.2 m、耗时0.6 s。求平均速率并写单位；解释为什么‘单位对’不能单独证明模型正确。
+
+标准/参考答案：平均速率=路程/时间=1.2 m/0.6 s=2 m/s。单位帮助发现错误，但还须核对量的定义、行进条件与公式含义；不能反过来只凭m/s判定所有计算都正确。
+解析：接受2.0 m/s等数值等价写法；不要求向量运算。必须说明路程和时间、单位及模型边界，待人工核对。
+主观评分要点（待核对，不自动给分）：
+1. 公式路程除时间
+2. 数值2
+3. 单位m/s
+4. 量纲必要检错但不充分证明模型
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / qm-a3</h2><p>为同一参考长度在同条件读得1.01、1.00、1.02 m。求均值、极差，补充应记录的条件，并评价‘三次接近所以一定准确’。
+
+标准/参考答案：均值1.01 m，极差0.02 m；记录被测对象/长度位置、方法仪器及相关条件。三次接近只支持该条件下重复结果接近，不能独自证明准确，需校准/参考比较等依据。
+解析：均值和极差是描述本组读数；不能把0.02 m直接叫测量不确定度。允许合理的条件例子，不强求逐字一致。
+主观评分要点（待核对，不自动给分）：
+1. 均值1.01 m
+2. 极差0.02 m
+3. 至少说明对象和有关方法条件
+4. 否定仅凭重复接近证明准确
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / qm-a4</h2><p>关于本课测量评价，哪些判断合理？
+0：误差与加法修正要区分符号
+1：极差永远等于测量不确定度
+2：校正后仍需考虑不确定性
+3：不确定度就是本次读数减参考值
+标准/参考答案：误差与加法修正要区分符号；校正后仍需考虑不确定性
+解析：A和C符合本课边界。B极差只描述有限读数范围；D把不确定度误当一次参考差，二者不同。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / qm-d1</h2><p>隔日：同一段线长写成0.75 m或75 cm，哪项正确？
+0：单位变大后线长变长
+1：两种表达的长度相同
+2：75总比0.75大所以75 cm更长
+标准/参考答案：两种表达的长度相同
+解析：B依据1 m=100 cm。A、C都只比较单位或裸数值，忽略量值整体。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / qm-d2</h2><p>隔日：已知1 cm=0.01 m，5 cm²换算成m²是多少？
+0：0.05 m²
+1：0.0005 m²
+2：0.000005 m²
+标准/参考答案：0.0005 m²
+解析：B：5×(0.01)²=0.0005。A只用了长度因子，C多除100。不是把5 cm当作边长再平方。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / qm-d3</h2><p>隔日：某同学只报告‘读数3.02’，另一位说‘三次相同所以准确’。你分别需要追问什么，现有证据缺什么？
+
+标准/参考答案：追问测的对象与具体量、数值单位、方法位置和条件；三次相同只反映所述重复条件下的读数接近，还需参考/校准和其他不确定性来源信息，不能直接判准确。
+解析：考查新情境迁移，不能只复述‘不准确’；现有信息也不能断言一定不准确，应说证据不足。
+主观评分要点（待核对，不自动给分）：
+1. 具体被测量而非笼统对象
+2. 单位和条件
+3. 重复相同不充分证明准确
+4. 需参考/校准依据但不武断判不准确
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / qm-d4</h2><p>隔日：题设参考2.00 m且忽略参考不确定度，读数1.96 m。写出有符号误差与加法修正，并解释为何不能把0.04 m直接作为不确定度。
+
+标准/参考答案：误差1.96−2.00=−0.04 m；加法修正+0.04 m。本题差值相对指定参考，不能给出结果分散程度的完整评价；不确定度需另考虑测量和参考等来源，不能等同误差绝对值。
+解析：符号和单位必须同时核对。参考忽略不确定度仅是题设，并非真实参考无不确定性。不给出虚构总分。
+主观评分要点（待核对，不自动给分）：
+1. 误差−0.04 m
+2. 修正+0.04 m
+3. 区别差值与不确定度
+4. 说明题设及现实评价边界
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>审核记录表</h2><p>审核人及可核实资格：____
+日期：____
+结论：待审 / 需修改 / 拒绝 / 批准（须满足项目专业审定门槛）
+知识准确性、考试范围、公式单位、答案、解析、评分点、来源版权：逐项待审核
+问题编号｜课程/题号位置｜错误与依据｜建议修改｜作者修订提交｜复核人及结论
+（空白，不代表真实意见；补充意见以新文件追加保存。）</p></section></html>

@@ -1,0 +1,60 @@
+{
+  "scope": "Provenance, completeness of registry, references and immutable handoff; not semantic/expert approval",
+  "summary": {
+    "legacyPlanningNodes": 130,
+    "legacy353Nodes": 112,
+    "allLegacyPoints": 476,
+    "points353": 271,
+    "revised353Nodes": 131,
+    "specialtyNodes": 22,
+    "parts": {
+      "公共卫生": 32,
+      "流行病学与统计/A流行病学": 49,
+      "流行病学与统计/B统计学": 21,
+      "基础与交叉学科/通用": 7,
+      "基础与交叉学科/医学物理与健康专项": 22
+    },
+    "nodesWithPartialCourse": 6,
+    "verifiedCoveredNodes": 0,
+    "verifiedCoverageRatio": 0,
+    "expertApprovedCourses": 0,
+    "semanticallyApprovedLegacyPoints": 0
+  },
+  "results": [
+    {
+      "name": "Complete official section provenance and provisional target year",
+      "pass": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert(r.officialText.length>30)\n"
+    },
+    {
+      "name": "All 130 legacy nodes have explicit lossless crosswalk without runtime migration",
+      "pass": true
+    },
+    {
+      "name": "Every old point is retained verbatim and candidate relations never become coverage",
+      "pass": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert(x.candidateNodeIds.length)\n"
+    },
+    {
+      "name": "Distinct specialty branches and general scope retained with pedagogical not official priorities",
+      "pass": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert(m.rows.some(r=>r.name.includes(term)))\n"
+    },
+    {
+      "name": "Every prerequisite and candidate target exists and graph is acyclic",
+      "pass": true
+    },
+    {
+      "name": "Actual course and question IDs trace to content hash but no professional coverage",
+      "pass": true
+    },
+    {
+      "name": "Read-only expert handoff retains pending identity and all twelve new questions",
+      "pass": true
+    },
+    {
+      "name": "Old catalog and old independent review packets not replaced by overlay",
+      "pass": true
+    }
+  ]
+}

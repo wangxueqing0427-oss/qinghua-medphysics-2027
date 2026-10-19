@@ -1,0 +1,343 @@
+{
+  "purpose": "Independent expert review; no personal learning data",
+  "unitFingerprints": [
+    {
+      "unitId": "353-quantity-measurement",
+      "unitVersion": "0.1",
+      "contentSha256": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76"
+    }
+  ],
+  "units": [
+    {
+      "id": "353-quantity-measurement",
+      "version": "0.1",
+      "subject": "353",
+      "title": "物理量、单位与测量：先说明测什么，再解释数字",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创教学、情境和自编练习；教学来源只用于核验概念，不复制教材或来源例题。",
+      "writtenAt": "2026-10-19",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-previous-year",
+      "mapping": [
+        "s27v2-mp-core-quantity",
+        "s27v2-mp-measure-definition",
+        "s27v2-mp-measure-uncertainty"
+      ],
+      "prerequisites": [],
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.bipm.org/en/measurement-units/si-base-units",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology"
+      ],
+      "explanation": "看到记录‘走廊长度为2.4 m’，先不要只记2.4。我们关心的性质是长度，m是选用的单位米，2.4是用这个单位表达的数值。物理量的量值需要数值和单位共同表达；同一长度写成240 cm，数值变了，长度没有变。长度、时间、质量是不同种类的量；米m、秒s、千克kg分别是它们的SI基本单位。符号m在单位位置表示米，在某些公式里也可能作为质量的量符号，必须靠上下文区分。医学物理不是记设备名称，本课从读懂可比较的测量结果开始；只写‘2.4’不能让另一人知道测了长度、时间还是别的量。\n\n换单位本质上是乘以等于1的换算因子。例如240 cm乘(1 m/100 cm)=2.40 m，cm约掉，剩下m。面积和体积不能照搬长度倍数：一个边长1 cm的正方形边长是0.01 m，所以面积1 cm²=(0.01 m)²=0.0001 m²。速度也先统一单位：一段假设的直线路程1.2 m，用时0.6 s，平均速率为路程除以时间=2 m/s。若路程有来回，不能直接把路程当位移计算平均速度。本课只用题给直线行进且无返回的例子，暂不学习向量运算。单位能帮助发现把时间乘上路程之类的错误，但单位相同不保证物理概念和模型一定正确。\n\n测量前要定义被测量，也就是本次打算测的具体量。‘测房间’太含糊；‘测某房间两侧指定墙面间的水平距离，单位m’才给出了对象与性质。还要记录测量位置、方法、仪器及有关条件，方便比较和重复。本课情境：把同一参考长度在相同条件下读三次，得到1.01、1.00、1.02 m，算术平均为1.01 m，观测极差为0.02 m。极差只是这三次读数的最大值减最小值，不是自动得到的测量不确定度。显示小数位多也不证明结果更接近被测量值。先问条件是否相同、仪器有无校准依据，再谈比较；多次读数很接近，只能支持在所述条件下重复结果相近，不能据此宣布准确。\n\n最后把读数、参考比较和评价分开。为教学假设某长度参考值为1.00 m，且本题忽略参考值不确定度，读数为1.03 m，则相对该参考的有符号示值误差是1.03−1.00=+0.03 m，若要用加法校正，修正值为−0.03 m。二者符号相反，不要把误差的绝对大小0.03 m当作修正方向。真实参考和测量都有不确定性，校正也不意味着完全无误差；不确定度表征与测量结果相关的分散程度，不能直接等同于一次观测误差或极差。本课只建立区分，不给出完整不确定度预算、传播或覆盖因子计算。后续才将这些基本原则用于剂量、图像和环境测量；本课不提供临床校准程序、容差或个人健康判断。",
+      "definition": "物理量是可定量表达的性质；数值与单位共同表达量值。被测量是拟测量的量。换算改变数值及单位，不改变同一个量。观测极差、误差、修正值和测量不确定度不能混同。",
+      "conditions": "面向零基础，需会四则运算；换算关系在题中给出。误差例题仅在参考值给定且忽略其不确定度的教学假设下成立。NIST TN1297是历史计量指导，现代术语一致性待计量专家复核。2027大纲仅作2028暂定依据；无官方分值或题型承诺。",
+      "example": "长度2.4 m=240 cm，量未变。\n1 cm²=0.0001 m²；1.2 m/0.6 s=2 m/s。\n1.01、1.00、1.02 m：均值1.01 m、极差0.02 m，不能据此宣布准确。\n参考1.00 m与读数1.03 m：有符号误差+0.03 m，加法修正−0.03 m。",
+      "misconceptions": [
+        "只写数值不写单位。",
+        "面积换算仍用长度倍数。",
+        "单位对了就证明公式必对。",
+        "重复接近或小数位多等于准确。",
+        "把极差当不确定度或把误差符号当校正方向。"
+      ],
+      "recall": [
+        "用一个长度记录区分量、数值、单位，并解释换单位后什么不变。",
+        "闭卷推导面积换算并写一个路程除时间的单位。",
+        "写出被测量和测量条件，说明重复接近能和不能证明什么。",
+        "区分有符号误差、加法修正、极差和不确定度，说明教学假设。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "2.4 m与240 cm是同一长度。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "1 cm²=(0.01 m)²；路程除时间。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "三次读数均值1.01 m、极差0.02 m。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "误差+0.03 m与修正−0.03 m。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "qm-g1",
+          "description": "从测量记录辨认量、数值和单位",
+          "successCriteria": "指出三者并说明同量单位变化不改变长度；不将裸数字当完整结果。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "qm-b1",
+            "qm-a1",
+            "qm-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "qm-g2",
+          "description": "按换算因子完成长度、面积与简单速率计算",
+          "successCriteria": "写出换算和单位约去过程，面积倍数平方，能识别量纲检错的局限。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "qm-b2",
+            "qm-a2",
+            "qm-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "qm-g3",
+          "description": "定义被测量与比较条件，解释重复测量证据边界",
+          "successCriteria": "说清对象性质和条件，计算均值及极差，不把重复一致认作准确。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "qm-b3",
+            "qm-a3",
+            "qm-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "qm-g4",
+          "description": "在给定参考假设下计算误差和修正并说明不确定度边界",
+          "successCriteria": "有符号误差及修正方向正确；不把极差或单次误差当不确定度。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "qm-b4",
+            "qm-a4",
+            "qm-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "qm-b1",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "记录‘长度为2.4 m’，哪项解释正确？",
+          "options": [
+            "2.4是单位，m是数值",
+            "长度是量，2.4是数值，m是单位",
+            "改写240 cm后长度增大100倍"
+          ],
+          "answer": 1,
+          "explanation": "B分别指出量、数值、单位。A颠倒数值与单位；C混淆数值变换与量本身，2.4 m与240 cm相等。"
+        },
+        {
+          "id": "qm-b2",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "已知1 cm=0.01 m，1 cm²等于多少？",
+          "options": [
+            "0.01 m²",
+            "0.0001 m²",
+            "100 m²"
+          ],
+          "answer": 1,
+          "explanation": "B将两条边都乘0.01，面积因子为0.01²=0.0001。A只换一条边；C方向和平方因子都错。"
+        },
+        {
+          "id": "qm-b3",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "同条件三次读数十分接近，单凭此事实能得出什么？",
+          "options": [
+            "这些重复读数接近，是否准确仍需其他依据",
+            "仪器绝对没有系统影响",
+            "显示的小数位足够就无需记录条件"
+          ],
+          "answer": 0,
+          "explanation": "A只陈述已有证据及限制。B重复接近也可能共同偏离参考；C显示位数不能替代条件和评价。"
+        },
+        {
+          "id": "qm-b4",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "教学假设参考1.00 m，忽略参考不确定度，读数1.03 m。有符号误差和加法修正分别为？",
+          "options": [
+            "−0.03 m，+0.03 m",
+            "+0.03 m，+0.03 m",
+            "+0.03 m，−0.03 m"
+          ],
+          "answer": 2,
+          "explanation": "C：误差=读数−参考=+0.03 m，修正加−0.03 m。A符号颠倒；B会继续增大读数。真实校正仍有不确定性。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "qm-a1",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "有人把240 cm改写2.4 m后说‘数值变小，所以走廊缩短了’。区分量、数值、单位并纠正结论。",
+          "answer": "被讨论的量是走廊长度；240和2.4是不同单位下的数值；cm与m是单位。因1 m=100 cm，两记录相等，不能据数值变小说走廊缩短。",
+          "explanation": "核对三种角色和等量关系，不以关键词或字数自动打分。‘量不变、表示方式变’等同义表述可接受。",
+          "rubric": [
+            "指出量是长度",
+            "辨认240/2.4数值",
+            "辨认cm/m单位及换算",
+            "否定长度缩短且给理由"
+          ]
+        },
+        {
+          "id": "qm-a2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "题给直线无返回行进1.2 m、耗时0.6 s。求平均速率并写单位；解释为什么‘单位对’不能单独证明模型正确。",
+          "answer": "平均速率=路程/时间=1.2 m/0.6 s=2 m/s。单位帮助发现错误，但还须核对量的定义、行进条件与公式含义；不能反过来只凭m/s判定所有计算都正确。",
+          "explanation": "接受2.0 m/s等数值等价写法；不要求向量运算。必须说明路程和时间、单位及模型边界，待人工核对。",
+          "rubric": [
+            "公式路程除时间",
+            "数值2",
+            "单位m/s",
+            "量纲必要检错但不充分证明模型"
+          ]
+        },
+        {
+          "id": "qm-a3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "为同一参考长度在同条件读得1.01、1.00、1.02 m。求均值、极差，补充应记录的条件，并评价‘三次接近所以一定准确’。",
+          "answer": "均值1.01 m，极差0.02 m；记录被测对象/长度位置、方法仪器及相关条件。三次接近只支持该条件下重复结果接近，不能独自证明准确，需校准/参考比较等依据。",
+          "explanation": "均值和极差是描述本组读数；不能把0.02 m直接叫测量不确定度。允许合理的条件例子，不强求逐字一致。",
+          "rubric": [
+            "均值1.01 m",
+            "极差0.02 m",
+            "至少说明对象和有关方法条件",
+            "否定仅凭重复接近证明准确"
+          ]
+        },
+        {
+          "id": "qm-a4",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "关于本课测量评价，哪些判断合理？",
+          "options": [
+            "误差与加法修正要区分符号",
+            "极差永远等于测量不确定度",
+            "校正后仍需考虑不确定性",
+            "不确定度就是本次读数减参考值"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A和C符合本课边界。B极差只描述有限读数范围；D把不确定度误当一次参考差，二者不同。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "qm-d1",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "隔日：同一段线长写成0.75 m或75 cm，哪项正确？",
+          "options": [
+            "单位变大后线长变长",
+            "两种表达的长度相同",
+            "75总比0.75大所以75 cm更长"
+          ],
+          "answer": 1,
+          "explanation": "B依据1 m=100 cm。A、C都只比较单位或裸数值，忽略量值整体。"
+        },
+        {
+          "id": "qm-d2",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日：已知1 cm=0.01 m，5 cm²换算成m²是多少？",
+          "options": [
+            "0.05 m²",
+            "0.0005 m²",
+            "0.000005 m²"
+          ],
+          "answer": 1,
+          "explanation": "B：5×(0.01)²=0.0005。A只用了长度因子，C多除100。不是把5 cm当作边长再平方。"
+        },
+        {
+          "id": "qm-d3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：某同学只报告‘读数3.02’，另一位说‘三次相同所以准确’。你分别需要追问什么，现有证据缺什么？",
+          "answer": "追问测的对象与具体量、数值单位、方法位置和条件；三次相同只反映所述重复条件下的读数接近，还需参考/校准和其他不确定性来源信息，不能直接判准确。",
+          "explanation": "考查新情境迁移，不能只复述‘不准确’；现有信息也不能断言一定不准确，应说证据不足。",
+          "rubric": [
+            "具体被测量而非笼统对象",
+            "单位和条件",
+            "重复相同不充分证明准确",
+            "需参考/校准依据但不武断判不准确"
+          ]
+        },
+        {
+          "id": "qm-d4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：题设参考2.00 m且忽略参考不确定度，读数1.96 m。写出有符号误差与加法修正，并解释为何不能把0.04 m直接作为不确定度。",
+          "answer": "误差1.96−2.00=−0.04 m；加法修正+0.04 m。本题差值相对指定参考，不能给出结果分散程度的完整评价；不确定度需另考虑测量和参考等来源，不能等同误差绝对值。",
+          "explanation": "符号和单位必须同时核对。参考忽略不确定度仅是题设，并非真实参考无不确定性。不给出虚构总分。",
+          "rubric": [
+            "误差−0.04 m",
+            "修正+0.04 m",
+            "区别差值与不确定度",
+            "说明题设及现实评价边界"
+          ]
+        }
+      ],
+      "rubric": [
+        "量数值单位分开",
+        "换算推理和单位完整",
+        "说明测量条件与证据边界",
+        "误差修正与不确定度不混同"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换一组长度、面积和参考读数，闭卷解释表示、计算与评价边界。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "需计量/医学物理专家核对现代量值、误差、不确定度术语与深度",
+          "需教学审核换算、路程速率和主观答案边界",
+          "不包含完整不确定度评定、剂量校准或临床操作",
+          "2028正式考试范围未确认"
+        ]
+      }
+    }
+  ],
+  "reviewLog": []
+}

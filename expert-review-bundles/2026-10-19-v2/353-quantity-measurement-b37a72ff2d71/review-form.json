@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "reviewer": null,
+  "qualification": null,
+  "date": null,
+  "unitId": "353-quantity-measurement",
+  "unitVersion": "0.1",
+  "contentSha256": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+  "decision": "pending",
+  "checks": {
+    "knowledge": null,
+    "scopeYear": null,
+    "formulaAndUnits": null,
+    "questionAnswer": null,
+    "explanation": null,
+    "rubric": null,
+    "sourceAndRights": null
+  },
+  "issues": [],
+  "correctionCommit": null,
+  "recheckReviewer": null,
+  "recheckDecision": "pending",
+  "formalReleaseApproved": false
+}

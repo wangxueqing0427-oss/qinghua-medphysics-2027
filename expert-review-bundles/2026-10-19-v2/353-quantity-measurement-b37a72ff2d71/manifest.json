@@ -1,0 +1,29 @@
+{
+  "unitId": "353-quantity-measurement",
+  "version": "0.1",
+  "contentSha256": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+  "reviewStatus": "pending-independent-review",
+  "expertApproved": false,
+  "files": [
+    {
+      "file": "审阅全文.html",
+      "sha256": "9aaa3e389832377f4f7b77f36bc9445eeb75571251393fd6c53c982d26124a4a"
+    },
+    {
+      "file": "审阅全文.md",
+      "sha256": "eda6362f261ea80adc7fa3798e4fe989e24faa2a47e674889514de3b34e2d505"
+    },
+    {
+      "file": "unit.json",
+      "sha256": "a1d3416480dfd7eff331f48cebd2ab54295a3118168c47a03d2ecd0ad8d1ea95"
+    },
+    {
+      "file": "sources.json",
+      "sha256": "77748abfdb8eee983c22e14e27d8341e041f2c7706805e64a66dd75c4921da45"
+    },
+    {
+      "file": "review-form.json",
+      "sha256": "9f3419da4af122d2c35fe30f6bdb04b592946e92e43e1401f372c7b0f4a27f2b"
+    }
+  ]
+}
