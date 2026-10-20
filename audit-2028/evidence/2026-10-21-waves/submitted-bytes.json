@@ -1,0 +1,5 @@
+{
+  "scope": "Exact UTF-8 bytes against GitHub returned blob IDs; no deployment or learning data access",
+  "files": 38,
+  "failures": []
+}

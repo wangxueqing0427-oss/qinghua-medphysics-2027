@@ -1,0 +1,30 @@
+{
+  "engineeringSha": "29b1d8828f5e852cfd9c4a35088dc2eb1ed1b3dd",
+  "priorEngineeringSha": "2b4a3621c947ebab434ed96f8711cf95d62d041f",
+  "runId": 39514269434,
+  "jobId": 118942534944,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39514269434",
+  "conclusion": "success",
+  "browser": {
+    "passed": 56,
+    "total": 56,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "scope": "42 original application cases + 14 expert review HTML compatibility checks, real Chromium/WebKit mobile emulation; not real iPhone or isolated draft full app"
+  },
+  "local": {
+    "passed": 411,
+    "total": 411,
+    "scope": "Local logic/controller/fake IndexedDB suites; includes waves17 and nuclear evidence2"
+  },
+  "productionMain": "f8b99af10ee14c98d9f896050970fb0912ca04cc",
+  "deployed": false,
+  "expertApproved": 0,
+  "logExcerpt": [
+    "2026-10-20T23:19:51.0756117Z \u001b[36;1mnode audit-2028/nuclear-evidence-test.cjs\u001b[0m",
+    "2026-10-20T23:19:52.2955769Z {\"passed\":2,\"total\":2,\"failed\":[]}",
+    "2026-10-20T23:22:05.0266083Z   56 passed (1.4m)",
+    "2026-10-20T23:22:05.1048758Z Passed: 56; unexpected: 0; skipped: 0; flaky: 0."
+  ]
+}
