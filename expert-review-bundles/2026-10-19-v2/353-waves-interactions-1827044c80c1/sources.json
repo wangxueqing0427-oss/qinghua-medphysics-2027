@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-21",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27v2-mp-core-waves",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-21",
+      "accessStatus": "full-page-read",
+      "locator": "第三部分及医学物理与健康方向专项段",
+      "supports": "基本物理概念、数量分析、影像与放疗原理；2027适用，2028暂定",
+      "limits": "未逐条列波动公式、阈值或固定考试深度"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-2-period-and-frequency-in-oscillations",
+      "publisher": "OpenStax / Paul Peter Urone, Roger Hinrichs",
+      "publishedAt": "2022-07-13",
+      "accessedAt": "2026-10-21",
+      "accessStatus": "full-page-read",
+      "locator": "College Physics 2e §16.2，式16.8–16.9",
+      "supports": "周期、频率及Hz定义",
+      "limits": "教学资料，不是清华指定公式清单；仅原创解释，不复制原例或图"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+      "publisher": "OpenStax",
+      "publishedAt": "2022-07-13",
+      "accessedAt": "2026-10-21",
+      "accessStatus": "full-page-read",
+      "locator": "§16.9，式16.66–16.67及传播与介质运动正文",
+      "supports": "周期波速度、波长和频率关系",
+      "limits": "本课限周期行波；不等于所有波速都为c"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/29-3-photon-energies-and-the-electromagnetic-spectrum",
+      "publisher": "OpenStax",
+      "publishedAt": "2022-07-13",
+      "accessedAt": "2026-10-21",
+      "accessStatus": "full-page-read",
+      "locator": "§29.3，式29.12–29.14",
+      "supports": "电磁光子E=hf、真空E=hc/λ0、hc约1240 eV·nm",
+      "limits": "不是机械波通式，不由单光子能量推束功率"
+    },
+    {
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+      "publisher": "IAEA",
+      "publishedAt": "2005-07",
+      "accessedAt": "2026-10-21",
+      "accessStatus": "pdf-text-sections-read",
+      "locator": "Radiation Oncology Physics §1.4.1–1.4.9，印刷26–35页 / PDF第64–73页，重点式1.75、1.79及核场/电子场阈值正文",
+      "supports": "来源分类、光电、康普顿、核场电子对与三重产生边界、材料能量依赖及非穷举",
+      "limits": "历史教材不是现行临床规范；核场阈值采用重核反冲忽略的入门近似；不复制原图表或全文，不确证未读式8.5"
+    }
+  ],
+  "rights": "讲解、数值与题目原创，使用基本事实并链接来源。OpenStax网页标CC BY-NC-SA，不据此推产品所有内容可商用；若后续复制/改编教材须另核许可。IAEA不因可读就获得再分发授权。",
+  "failedRetrievals": [
+    {
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+      "result": "400 Content length is too large:20154657；未作本课已核依据"
+    }
+  ],
+  "pendingReview": [
+    "物理教师核对波动与单光子目标梯度和先修充分性",
+    "医学物理专家核对光电结合能与原子反冲近似、康普顿电子模型、核场阈值反冲修正和三重产生边界",
+    "逐题核对主观参考要点、材料概率表述及不作临床推断的限制",
+    "2028范围仍待当年正式文件；没有独立审核意见"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

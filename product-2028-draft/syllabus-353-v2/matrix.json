@@ -186,7 +186,7 @@
       "基础与交叉学科/通用": 7,
       "基础与交叉学科/医学物理与健康专项": 22
     },
-    "nodesWithPartialCourse": 7,
+    "nodesWithPartialCourse": 8,
     "verifiedCoveredNodes": 0,
     "verifiedCoverageRatio": 0,
     "expertApprovedCourses": 0,
@@ -4604,7 +4604,31 @@
         "mp-01-point-10",
         "mp-01-point-11"
       ],
-      "courseSupport": [],
+      "courseSupport": [
+        {
+          "id": "353-waves-interactions",
+          "version": "0.1",
+          "title": "波动与光子相互作用：从频率到能量去向",
+          "status": "draft-internal-check",
+          "contentHash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+          "questionIds": [
+            "wi-b1",
+            "wi-b2",
+            "wi-b3",
+            "wi-b4",
+            "wi-a1",
+            "wi-a2",
+            "wi-a3",
+            "wi-a4",
+            "wi-d1",
+            "wi-d2",
+            "wi-d3",
+            "wi-d4"
+          ],
+          "support": "partial-internal-teaching-only",
+          "expertApproved": false
+        }
+      ],
       "legacyQuestionCandidates": [
         "q-m01",
         "q-m02",
@@ -4629,7 +4653,7 @@
         "q60-air-3",
         "q60-air-4"
       ],
-      "gap": "尚无完整引擎课程；旧要点/候选题不能代替完整教学、闭卷、分层题及延迟测试"
+      "gap": "有部分可运行教学与练习；目标深度、完整性及专业准确性未审定"
     },
     {
       "id": "s27v2-mp-measure-definition",

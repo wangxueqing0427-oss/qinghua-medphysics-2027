@@ -1,0 +1,14 @@
+{
+  "units": 17,
+  "questions": 163,
+  "errors": [],
+  "similar": [
+    {
+      "a": "sva-d1",
+      "b": "sva-d3",
+      "score": 0.7307692307692307,
+      "action": "manual-review-only"
+    }
+  ],
+  "scope": "Structure and similarity candidates, not independent professional audit"
+}

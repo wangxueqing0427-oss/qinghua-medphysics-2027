@@ -1,0 +1,344 @@
+{
+  "purpose": "Independent expert review; no personal learning data",
+  "unitFingerprints": [
+    {
+      "unitId": "353-waves-interactions",
+      "unitVersion": "0.1",
+      "contentSha256": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230"
+    }
+  ],
+  "units": [
+    {
+      "id": "353-waves-interactions",
+      "version": "0.1",
+      "subject": "353",
+      "title": "波动与光子相互作用：从频率到能量去向",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创教学解释、假设数据及试题；只链接原始来源，不转载教材图表或整段翻译。",
+      "writtenAt": "2026-10-21",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-previous-year",
+      "mapping": [
+        "s27v2-mp-core-waves"
+      ],
+      "prerequisites": [
+        "353-energy-power"
+      ],
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+        "https://openstax.org/books/college-physics-2e/pages/29-3-photon-energies-and-the-electromagnetic-spectrum",
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf"
+      ],
+      "explanation": "先把三个常混的量拆开。波动是扰动的传播；想象绳上一列规则波峰向前移动，某处每秒经过多少个完整周期叫频率f，单位Hz，即每秒周期数；相邻同相位位置的间距叫波长λ，单位m；波形向前传播的速度v用m/s表示。对于这里讨论的周期行波，在一个周期T内波形前进一个波长，因此v=λ/T=fλ。假设某周期波每秒2个周期、波长3 m，速度为6 m/s，而不是把2和3相除。波速是传播速度，不是介质微小振动的速度；电磁波可在真空传播，不能因绳波需要绳子就认定所有波都需要物质介质。本课只用给定传播条件，不把任何波的速度都写成光速。\n\n上一课的能量和功率还需要区分到单个光子层次。光子是电磁辐射的量子，单个光子能量E=hf；对于真空中的波长λ0，有E=hc/λ0，其中h是普朗克常量，c是真空光速。本课给出常量或直接给hc，不要求凭空记忆数值。若题给hc≈1240 eV·nm，真空波长620 nm的光子能量约为2 eV，先用1240除620，再检查nm约去。相同条件下频率加倍，单个光子能量加倍；这不意味着束流总功率必加倍，因为还需知道单位时间光子数。也不能把E=hf套给任意机械波，或把介质中的波长直接代入hc/λ0。区分单个粒子能量与整束总能量，是衔接影像与剂量的第一步。\n\n当光子进入物质，需跟踪‘原光子是否还在、电子是否被带出、能量往哪里去’。光电效应中光子被吸收并释放一个束缚电子；在简化忽略原子反冲的记账下，光电子动能约为光子能量减该电子结合能，随后原子退激也要记账。例如题给40 keV光子和10 keV结合能，得到约30 keV光电子，不能说40 keV立即全在原地沉积。康普顿散射的入门模型把相互作用电子近似看作自由、静止电子，结果有反冲电子和散射光子，光子仍携带部分能量。例如题明确一次事件100 keV入射、70 keV散射，则电子获得30 keV；不能只给入射能量就擅定同样分配。两机制都可能间接造成电离，但吸收与散射不能混称同一件事，也不能把相互作用位置等同于全部吸收位置。\n\n第三类重点是电子对产生：光子在原子核场中转为电子与正电子，需要至少约2m_ec²≈1.022 MeV来提供两者静质量能；这里是常用重核反冲忽略的入门阈值表述，严格反冲修正不在本课。电子场中的三重产生阈值不同，约为4m_ec²，不混为1.022 MeV。达到阈值只说明能量允许，不代表必然发生或占主导。各机制概率还取决于光子能量、材料组成以及相应截面，不能用一个固定能量把所有材料分成绝对三区。光电、康普顿、电子对也不是所有过程的穷举，还有相干散射和特定条件的光核过程。影像需要分析被记录的透射或散射等信号，治疗需分析能量传递和后续沉积；本课不从机制名称直接推患者剂量、疗效或屏蔽厚度。比较医学应用前先明确能量、材料、几何及研究问题。",
+      "definition": "周期行波v=fλ，f=1/T；真空光子E=hf=hc/λ0。光电效应吸收光子并释放电子；康普顿散射留下散射光子和反冲电子；核场电子对产生有静质量能阈值。阈值不是主导概率的保证。",
+      "conditions": "2027清华353大纲作为2028暂定范围，只给基本概念和应用方向而未列本课公式清单。波动公式限本课周期行波；hc/λ0限真空波长；光电记账忽略原子反冲，康普顿采用自由静止电子近似，电子对核反冲在入门阈值近似中忽略。未提供临床程序，不从总输入能量推患者沉积。",
+      "example": "周期波f=2 Hz、λ=3 m：v=6 m/s。\n题给hc≈1240 eV·nm、λ0=620 nm：E≈2 eV。\n光电简化记账40−10=30 keV；给定康普顿事件100−70=30 keV。\n0.8 MeV低于核场电子对产生常用阈值；2 MeV虽高于阈值，也不能仅据能量断言必发生。",
+      "misconceptions": [
+        "波速等于介质振动速度，所有波速都等于c。",
+        "单光子能量翻倍等于束功率必翻倍。",
+        "用介质波长直接代入真空hc/λ0。",
+        "光电与康普顿都让原光子完全消失。",
+        "高于电子对阈值就一定主导，或三机制穷举所有过程。"
+      ],
+      "recall": [
+        "闭卷区分频率、波长、波速并解释周期行波v=fλ的单位。",
+        "说明单光子能量公式的条件，比较频率、真空波长与束功率。",
+        "以能量去向区分光电和康普顿，写出给定事件的简化记账。",
+        "解释核场电子对阈值、电子场边界及为什么阈值不等于主导概率。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "2 Hz×3 m=6 m/s，不是介质振动速度。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "1240 eV·nm除620 nm约2 eV，是真空单光子能量。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "光电40−10、给定散射100−70，均30 keV但机制不同。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "0.8 MeV不够核场阈值；2 MeV不能据此断言主导。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "wi-g1",
+          "description": "区分三个波动量并计算周期行波速度",
+          "successCriteria": "给出Hz、m、m/s，按v=fλ计算并识别介质振动与传播不同。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "wi-b1",
+            "wi-a1",
+            "wi-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "wi-g2",
+          "description": "按真空条件计算单光子能量并界定束功率",
+          "successCriteria": "用给定hc和真空波长计算，说明频率与能量关系及不能推出束功率。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "wi-b2",
+            "wi-a2",
+            "wi-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "wi-g3",
+          "description": "区分光电吸收与康普顿散射并进行条件化能量记账",
+          "successCriteria": "说明原光子去向，给出简化光电子/给定散射事件电子能量，不把转移等同局部全沉积。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "wi-b3",
+            "wi-a3",
+            "wi-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "wi-g4",
+          "description": "判断电子对能量边界并拒绝阈值和主导机制混淆",
+          "successCriteria": "区分核场/电子场阈值，说明能量材料概率和应用限制，不将三机制当穷举。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "wi-b4",
+            "wi-a4",
+            "wi-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "wi-b1",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "周期行波f=2 Hz、λ=3 m，给定条件下传播速度是多少？",
+          "options": [
+            "6 m/s",
+            "2/3 m/s",
+            "6 Hz"
+          ],
+          "answer": 0,
+          "explanation": "A：v=fλ=2×3=6 m/s。B把乘法误作除法；C数值虽同但单位是频率。此速度不是介质振动速度。"
+        },
+        {
+          "id": "wi-b2",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "题给hc≈1240 eV·nm，真空波长620 nm的单光子能量约为？",
+          "options": [
+            "620 eV",
+            "2 eV",
+            "1240×620 eV"
+          ],
+          "answer": 1,
+          "explanation": "B：E=hc/λ0=1240/620≈2 eV。A混淆长度数值和能量；C误乘而且nm不能正确约去。"
+        },
+        {
+          "id": "wi-b3",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "哪个描述正确区分光电效应与康普顿散射？",
+          "options": [
+            "两者原光子都必保留",
+            "两者原光子都必消失",
+            "光电吸收原光子；康普顿有散射光子和反冲电子"
+          ],
+          "answer": 2,
+          "explanation": "C描述本课机制。A错在光电原光子不保留；B错在康普顿仍有散射光子。不应由此推全部能量在同一点沉积。"
+        },
+        {
+          "id": "wi-b4",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "本课常用重核反冲忽略近似下，0.8 MeV光子能否在核场产生电子对？",
+          "options": [
+            "不能，低于约1.022 MeV静质量能阈值",
+            "必能，因为能量非零",
+            "必能，因为所有机制没有阈值"
+          ],
+          "answer": 0,
+          "explanation": "A：不足以提供电子与正电子静质量能。B/C忽略能量守恒要求。阈值是必要边界，不是高于它就必发生。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "wi-a1",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "某周期行波f=4 Hz、λ=0.5 m。求波速并解释三个量的含义；能否由此说介质每秒向前移动同样距离？",
+          "answer": "v=4×0.5=2 m/s。频率是每秒周期数，波长是相邻同相位间距，波速是波形传播速度；不能把它直接当介质净向前移动速度。",
+          "explanation": "可用波峰或其他同相位点解释；须区分传播与介质运动。按参考要点核对，不自动给主观总分。",
+          "rubric": [
+            "v=2 m/s",
+            "f为每秒周期数",
+            "λ为同相位间距",
+            "传播速度不等于介质净运动"
+          ]
+        },
+        {
+          "id": "wi-a2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "真空中甲光子频率是乙的两倍。比较单光子能量与波长，并说明能否确定甲束功率也是乙的两倍。",
+          "answer": "E甲=2E乙；由c=fλ0，λ0甲为乙的一半。不能确定束功率比，还需单位时间光子数及束的条件；单光子能量不是束总功率。",
+          "explanation": "只比较真空光子；不要求未知光子数的假设值。",
+          "rubric": [
+            "引用E=hf",
+            "能量两倍",
+            "真空波长一半",
+            "束功率还需单位时间光子数"
+          ]
+        },
+        {
+          "id": "wi-a3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "忽略原子反冲：40 keV光子光电吸收，电子结合能10 keV，求光电子动能。另给一次康普顿事件100 keV入射、70 keV散射，求反冲电子动能，并说明两次30 keV有何不同。",
+          "answer": "光电子约30 keV，余下结合能相关原子退激需另记账，原光子吸收。给定自由静止电子近似的康普顿事件电子30 keV，仍有70 keV散射光子；不能把相同电子动能误作机制相同或局部总沉积相同。",
+          "explanation": "给定散射能量才可相减，未要求只靠入射能量预测散射能量。",
+          "rubric": [
+            "40−10=30 keV",
+            "100−70=30 keV",
+            "光电吸收及原子退激",
+            "康普顿有散射光子，不等同局部全沉积"
+          ]
+        },
+        {
+          "id": "wi-a4",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "关于相互作用边界和医学联系，哪些表述成立？",
+          "options": [
+            "2 MeV高于常用核场阈值，仍不能断言电子对必主导",
+            "三重产生与核场电子对阈值完全相同",
+            "材料和光子能量共同影响相互作用概率",
+            "光电、康普顿、电子对已穷举所有光子过程"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A/C成立。B混淆电子场约4m_ec²与核场约2m_ec²；D遗漏相干散射及条件适用的光核过程。不能据机制名直接确定患者剂量。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "wi-d1",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日换数：周期行波f=5 Hz、λ=0.4 m，波速为？",
+          "options": [
+            "2 m/s",
+            "12.5 m/s",
+            "0.08 m/s"
+          ],
+          "answer": 0,
+          "explanation": "5×0.4=2 m/s。B/C分别误除；先确认是本课周期传播模型。"
+        },
+        {
+          "id": "wi-d2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：给定hc≈1240 eV·nm，真空波长310 nm的单光子能量约多少？与620 nm比较，并说明适用条件。",
+          "answer": "1240/310≈4 eV，是620 nm时2 eV的两倍。这里用真空波长和电磁光子公式，不可把任意机械波或介质波长直接照搬，也不能据此推束功率。",
+          "explanation": "考查换数后计算、反比关系和公式边界，不能只背原例2 eV。",
+          "rubric": [
+            "计算约4 eV",
+            "与620 nm相比两倍",
+            "真空电磁光子条件",
+            "不推束功率或套任意机械波"
+          ]
+        },
+        {
+          "id": "wi-d3",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日给定自由静止电子近似的康普顿事件：入射80 keV、散射50 keV。哪项正确？",
+          "options": [
+            "电子得80 keV，散射光子能量不需记账",
+            "电子得30 keV，仍有50 keV散射光子",
+            "原光子光电吸收，所以不存在散射光子"
+          ],
+          "answer": 1,
+          "explanation": "B按能量守恒80−50=30 keV。A重复分配能量；C把康普顿混为光电。不能凭此认定全部30 keV在相互作用点沉积。"
+        },
+        {
+          "id": "wi-d4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：有人说‘超过1.022 MeV后，所有材料都只发生电子对产生，所以能直接算患者吸收剂量’。指出至少四个问题。",
+          "answer": "核场阈值是入门重核近似条件下的能量允许边界，不是发生保证；主导概率需材料与能量等信息；其他光子过程仍可能存在，电子场三重产生阈值不同；患者吸收剂量还需能量转移、输运和指定质量等，不能由阈值直接得到。",
+          "explanation": "按具体错误和边界核对，不需要自行补临床参数或复杂截面公式。",
+          "rubric": [
+            "阈值不是发生保证",
+            "材料和能量影响概率",
+            "非穷举且核场/电子场不同",
+            "不能由阈值推患者吸收剂量"
+          ]
+        }
+      ],
+      "rubric": [
+        "波动量与单位",
+        "单光子与束能量边界",
+        "机制与能量去向",
+        "阈值概率及医学应用限制"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换数计算波速与真空单光子能量，闭卷解释机制、阈值和不能推出的临床结论。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "波动和光子模型的零基础教学深度待物理教师审核",
+          "阈值近似、术语、机制概率及医学边界待医学物理专家审核",
+          "主观题仅参考要点，不自动给专业分数",
+          "2028正式范围未确认"
+        ]
+      }
+    }
+  ],
+  "reviewLog": []
+}

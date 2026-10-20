@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "reviewer": null,
+  "qualification": null,
+  "date": null,
+  "unitId": "353-waves-interactions",
+  "unitVersion": "0.1",
+  "contentSha256": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+  "decision": "pending",
+  "checks": {
+    "knowledge": null,
+    "scopeYear": null,
+    "formulaAndUnits": null,
+    "questionAnswer": null,
+    "explanation": null,
+    "rubric": null,
+    "sourceAndRights": null
+  },
+  "issues": [],
+  "correctionCommit": null,
+  "recheckReviewer": null,
+  "recheckDecision": "pending",
+  "formalReleaseApproved": false
+}

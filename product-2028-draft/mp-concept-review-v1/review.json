@@ -17,7 +17,7 @@
     },
     "duplicateCandidatePairs": 7,
     "specialtyNodes": 22,
-    "nodesWithoutCompleteUnit": 18,
+    "nodesWithoutCompleteUnit": 17,
     "expertApproved": 0,
     "expertReviewPending": 113
   },
@@ -6261,7 +6261,28 @@
         "mp-10-point-5"
       ],
       "unresolvedPointIds": [],
-      "courseSupport": [],
+      "courseSupport": [
+        {
+          "id": "353-waves-interactions",
+          "version": "0.1",
+          "contentSha256": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+          "questionIds": [
+            "wi-b1",
+            "wi-b2",
+            "wi-b3",
+            "wi-b4",
+            "wi-a1",
+            "wi-a2",
+            "wi-a3",
+            "wi-a4",
+            "wi-d1",
+            "wi-d2",
+            "wi-d3",
+            "wi-d4"
+          ],
+          "status": "partial-draft-only"
+        }
+      ],
       "gap": "旧要点与部分草稿不等于完整课程；需独立审阅、前置讲解、分层题及延迟迁移。",
       "expertApproved": false
     },

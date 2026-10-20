@@ -1,0 +1,32 @@
+// Additive internal evidence only. Never edits the legacy point or a human decision.
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const {immutable}=require('./build-expert-review-bundles.cjs');
+const base='product-2028-draft/mp-concept-review-v1',out='product-2028-draft/mp-evidence-2026-10-21';
+const digest=x=>crypto.createHash('sha256').update(x).digest('hex');
+const report=JSON.parse(fs.readFileSync(base+'/review.json','utf8'));
+const book='https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf';
+// Locators below were read as body text, not inferred from the table of contents.
+const readings={
+ 'mp-01-point-4':{locator:'§1.4.1，印刷26页 / PDF第64页；§13.1，印刷451–453页 / PDF第489–491页',supported:'核跃迁可产生γ光子；近距离治疗将封装源置于治疗体积内或附近。',unsupported:'核医学具体核素、探测成像用途未在已读原文中逐项核对。',conclusion:'条件性支持',proposal:'分开讲来源和用途；核医学例子补核素衰变资料后再列举。'},
+ 'mp-03-point-4':{locator:'§3.3.2–3.3.3，印刷79页 / PDF第117页；§6.13相关表面剂量正文，印刷209–210页 / PDF第247–248页',supported:'圆柱室的光子/电子束应用及平行板几何、表面/建成区测量用途有正文支持。',unsupported:'不支持所有能区和所有型号通用选择；2005教材不能当现行临床校准协议。',conclusion:'条件性支持',proposal:'保留应用方向；增加束质、有效测量点、扰动修正和适用协议限制。'},
+ 'mp-03-point-6':{locator:'§3.4.2，印刷84页 / PDF第122页',supported:'放射变色胶片相对剂量测量、高空间分辨、高梯度用途以及标定和环境控制有正文支持。',unsupported:'未核实具体批次、扫描仪、后照射等待时间和小野通用校准程序。',conclusion:'条件性支持',proposal:'保留概念；把扫描时序、批次和设备特异要求列为须另查的操作条件。'},
+ 'mp-05-point-4':{locator:'§8.2.1，印刷281页 / PDF第319页；§8.2.3，印刷282页 / PDF第320页',supported:'能谱不能用单一能量完整表征；水中Rp、表面最可几能量、表面平均能量和R50是不同概念。',unsupported:'式8.5文本层出现可疑1.09系数，未见原页图像；不能确认Rp≈E/2的具体系数、能量定义或误差范围。',conclusion:'暂时无法核实',proposal:'撤下无条件近似的教学建议，保留为修订草案；不得把OCR式8.5作为纠错答案。仅明确必须给水介质、能量定义和适用区间。'},
+ 'mp-05-point-7':{locator:'§8.2.3.1，印刷282–284页 / PDF第320–322页',supported:'电子野大小影响侧向平衡、PDD与输出；入射角和限光系统散射影响分布。',unsupported:'未逐项核对SSD变化及全部介质和限光筒设计。',conclusion:'条件性支持',proposal:'保留已读野尺寸和角度条件，其余因素仍待配套原文和专家核实。'},
+ 'mp-06-point-1':{locator:'§13.1，印刷451–453页 / PDF第489–491页',supported:'封装源置于治疗体积内/附近，几何漏靶因陡剂量梯度而重要；腔内、组织间等布置。',unsupported:'不支持所有形状源都严格按点源反平方律；不证明现行具体疗效或临床适应证。',conclusion:'已找到支持依据',proposal:'保留基础定义；明确是教学概念，不提供处方或点源公式通用化。'},
+ 'mp-06-point-3':{locator:'§13.1及表13.1–13.4引导正文，印刷452–453页 / PDF第490–491页',supported:'放置方式、植入持续时间、装载方式和剂量率是不同分类轴；正文明确LDR概念。',unsupported:'未完整读取表格阈值，不确认HDR/LDR的数字边界或2028考查深度。',conclusion:'条件性支持',proposal:'只教分类依据，暂不新增剂量率阈值；分类版本由专家核定。'},
+ 'mp-06-point-5':{locator:'§13.1，印刷452–453页 / PDF第490–491页',supported:'源位置、源强和计算点关系影响优化治疗时间；陡梯度放大几何偏差的重要性。',unsupported:'未读取HDR驻留优化与导管重建专节，不能核定所有流程细节。',conclusion:'条件性支持',proposal:'将已核实的一般几何/时间关系与待核HDR具体实现分开。'},
+ 'mp-06-point-7':{locator:'§13.1，印刷452–453页 / PDF第490–491页',supported:'源强标定需可追溯至国家或国际标准实验室；仅用剂量模型不足以验证治疗。',unsupported:'已读段落未覆盖衰变修正算法、卡源、回源失败和机构应急程序。',conclusion:'条件性支持',proposal:'保留可追溯标定要求，衰变与卡源应急独立列待核，不给临床操作指令。'}
+};
+const attempted={NM14:{name:'Nuclear Medicine Physics: A Handbook for Teachers and Students',url:'https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf',edition:null,publishedAt:null,accessedAt:'2026-10-21',accessStatus:'fetch-failed',failure:'原文读取返回400：Content length is too large: 20154657；未读取正文，不能按搜索元数据补出版年或页码。'}};
+const rows=report.rows.filter(r=>r.queue==='insufficient-primary-evidence').map(r=>{const checked=readings[r.id];return {id:r.id,originalText:r.originalText,originalSource:r.originalSource,originalVersion:r.reviewRevision,claim:r.concept,formulaAndConditions:r.conditions,nodeIds:r.nodeIds,sourceChecks:checked?[{name:'Radiation Oncology Physics: A Handbook for Teachers and Students',edition:'IAEA STI/PUB/1196',publishedAt:'2005-07',url:book,accessedAt:'2026-10-21',accessStatus:'pdf-text-sections-read',...checked}]:[],candidateSourceIds:r.sourceIds,conclusion:checked?.conclusion||'暂时无法核实',supported:checked?.supported||null,unsupported:checked?.unsupported||'本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。',proposedRevision:checked?.proposal||r.proposedRevision,evidenceStrength:checked?'read-primary-historical-teaching-text-partial-scope':'insufficient',expertQuestion:r.expertQuestions,expertApproved:false,appliedToOriginal:false};});
+const protectedPaths=['review.json','editorial.tsv','internal-review-log-v1.jsonl','internal-review-log-v2.jsonl','locator-correction-history.json'].map(f=>({path:base+'/'+f,sha256:digest(fs.readFileSync(base+'/'+f))}));
+const ledger={revision:'mp-evidence-v3-2026-10-21',actor:'AI内部原文核查；不是独立专家意见',targetYear:2028,scopeStatus:'provisional_previous_year',sourceReviewSha256:digest(fs.readFileSync(base+'/review.json')),protectedPaths,accessFailures:Object.values(attempted),summary:Object.fromEntries(['已找到支持依据','条件性支持','发现矛盾','暂时无法核实'].map(s=>[s,rows.filter(r=>r.conclusion===s).length])),rows,expertApproved:0};
+immutable(out+'/claims.json',JSON.stringify(ledger,null,2));
+immutable(out+'/evidence-log.jsonl',rows.map(row=>JSON.stringify({revision:ledger.revision,id:row.id,pointHash:row.originalSource.pointHash,evidenceHash:digest(JSON.stringify(row)),conclusion:row.conclusion,expertApproved:false})).join('\n')+'\n');
+immutable(out+'/46条证据核查.md','# 46条具体主张追加核查（2026-10-21）\n\n不是专家结论。旧46条队列是历史快照，未改写；此处支持结论仅适用于写明范围。2027大纲用于2028仍暂定。\n\n'+JSON.stringify(ledger.summary)+'\n\n'+rows.map(r=>`## ${r.id}｜${r.conclusion}\n\n原文：${r.originalText}\n\n原文哈希：${r.originalSource.pointHash}\n\n待核：${r.claim}；条件：${r.formulaAndConditions}\n\n${r.sourceChecks.map(s=>`来源：${s.name}，${s.edition}，${s.publishedAt}；${s.url}\n定位：${s.locator}；访问：${s.accessedAt} ${s.accessStatus}`).join('\n')||'本轮未取得可读具体依据。原候选：'+r.candidateSourceIds.join('、')}\n\n支持：${r.supported||'尚无足够依据'}\n\n不支持/未核：${r.unsupported}\n\n建议（未应用）：${r.proposedRevision}\n\n专家问题：${r.expertQuestion.join('；')}\n`).join('\n'));
+const manuscript='expert-review-bundles/医学物理113条完整审阅稿-cf432b1e2f4e.md';
+for(const [queue,file,qualification]of [['subject-teacher-judgment','教师6条交接.md','相关学科教师；流行病学/诊断试验、医学AI评价或环境健康教学与研究经验'],['medical-physics-metrology-expert','医学物理计量61条交接.md','医学物理或计量专业资格及相应方向实践经验；按剂量、防护、束流、计量分别匹配']]){
+ const items=report.rows.filter(r=>r.queue===queue);
+ immutable(out+'/'+file,`# ${file.replace('.md','')}\n\n资格要求：${qualification}。未联系、未发送、未付费。\n\n复用完整审阅稿：${manuscript}；按下列ID定位原文和建议。沿用原审核模板及review-ledger追加机制；本文件不是新审批台账。\n\n`+items.map(r=>`## ${r.id}｜${r.concept}\n\n原文哈希：${r.originalSource.pointHash}\n需判断：${r.expertQuestions.join('；')}\n当前已有证据：${r.sourceLocators.map(s=>s.id+' '+s.locator+'（'+s.claimVerified+'）').join('；')}\n争议/未确认：${r.findings.substantiveIssue}；${r.conditions}\n需返回：逐项接受/需改/无法判断，准确修订措辞与适用条件、可读原文定位及理由；注明资格、日期、版本与哈希。不以空白模板当意见。\n`).join('\n'));
+}
+console.log(JSON.stringify({rows:rows.length,summary:ledger.summary,teacher:6,specialist:61,expertApproved:0}));

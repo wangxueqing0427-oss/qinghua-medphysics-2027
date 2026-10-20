@@ -1,0 +1,29 @@
+{
+  "unitId": "353-waves-interactions",
+  "version": "0.1",
+  "contentSha256": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+  "reviewStatus": "pending-independent-review",
+  "expertApproved": false,
+  "files": [
+    {
+      "file": "审阅全文.html",
+      "sha256": "081ea25bc8e12ba7f98a30a8652cc525b0d327e146e79a183cde3627895b5d61"
+    },
+    {
+      "file": "审阅全文.md",
+      "sha256": "8b9edb63b6f135f785e518c2f722d193ef147a1b1dafe1c6909856148b841684"
+    },
+    {
+      "file": "unit.json",
+      "sha256": "d8113a3902b1b206cc4172f554bf759587d9cce1ddff0fcff936ed93c4210382"
+    },
+    {
+      "file": "sources.json",
+      "sha256": "e37ee2ff962d5a5ab0669e8723d4024004ca1dd15d2edfdfc3c10aed897d101b"
+    },
+    {
+      "file": "review-form.json",
+      "sha256": "06b5056737c397928a40a105548408328c433859a76b2e2a823e4bac1fa10c13"
+    }
+  ]
+}
