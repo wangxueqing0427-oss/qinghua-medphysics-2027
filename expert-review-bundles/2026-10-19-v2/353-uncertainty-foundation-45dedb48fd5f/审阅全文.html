@@ -1,0 +1,204 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>测量误差与不确定度：读数接近，还缺哪些证据？—待专业审核</title><style>body{max-width:850px;margin:24px auto;padding:0 20px;font:17px/1.7 system-ui;color:#182431}section{border-top:1px solid #ccd;padding:16px 0}p{white-space:pre-wrap;overflow-wrap:anywhere}h1{font-size:26px}h2{font-size:21px}@media print{body{font-size:11pt;margin:0}h2{break-after:avoid}section{break-inside:auto}}</style><h1>测量误差与不确定度：读数接近，还缺哪些证据？</h1><section><h2>审阅须知</h2><p>状态：待独立专业审核。内部检查和程序测试不等于专家结论。
+课程ID：353-uncertainty-foundation
+版本：0.1
+内容SHA256：45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c
+目标年度：2028；范围状态：provisional-previous-year
+先修：353-quantity-measurement
+请填写review-form.json并保存为新的审核意见文件；由项目review-ledger追加归档，不直接改原课程或覆盖历史。未核实审核人资格不得称正式审定。</p></section><section><h2>完整讲解</h2><p>上一课区分量、单位、误差与修正。本课追问：把明显偏差修正后，为什么还不能说完全准确？教学假设某参考长度为10.00 cm，并暂忽略参考的不确定度，一次读数10.20 cm，相对参考的有符号差为+0.20 cm；加法修正−0.20 cm能让本次校正结果成为10.00 cm，但真实参考、读数、环境和模型仍可能有不确定性。误差是结果相对所谈量值的差，不确定度则描述对结果的量值归属有多分散的评价，不能把两者互换。它们都可能用cm表示，但同单位不等于同概念；‘校正了’也不意味着误差已知为零。
+
+用重复数据可以评价部分离散性，但先说明观察条件和计算对象。原创例子在相同条件独立测量三次，得到9.8、10.0、10.2 cm；均值为10.0 cm。三个离均差为−0.2、0、+0.2 cm，平方后相加是0.08 cm²。样本方差用n−1=2作分母，得到0.04 cm²，样本标准差s=0.20 cm。若目标是这三次独立观察的均值，在该模型下均值的A类标准不确定度分量uA=s/√n=0.20/√3，约0.115 cm。√表示平方根，可用计算器；不要将n换成n−1再开方。s描述本组单次读数的离散，s/√n是该模型下均值估计的分量，二者不能随意替代。
+
+A类和B类按评价方法区分，而不是给误差贴‘随机’和‘系统’两个固定标签。A类来自对观察系列的有效统计分析；B类利用其他信息，例如校准证书、仪器分辨率或已有资料。独立重复测量增多可使上述均值分量降低，但不能自动消除未识别偏差，也不能把校准信息忽略。若所有结果都共同偏移，仅看s小仍会误判。在使用分辨率等信息时还需合理分布和测量模型，不能把一个最小刻度直接当成完整不确定度。本课不计算B类分布换算，也不把多个来源的数值不加分析直接相加。
+
+最后要说清‘报告的是哪个量、按什么条件、包含哪些来源’。只报均值10.0 cm或只报uA=0.115 cm都不是完整的不确定度评价；本例仅演示一个A类分量，完整结果还要考虑其他输入及其关联。标准不确定度、合成标准不确定度和扩展不确定度属于后续学习内容，不能看到正负号就自动说95%概率，也不能任意取k=2而不说明条件。闭卷检查时，应能重算均值、s和uA，指出未纳入的校准或环境因素，并将‘证据不足以认定准确’与‘一定不准确’区分开。这些是通用测量素养，不授予临床剂量校准资格。</p></section><section><h2>标准定义</h2><p>误差与不确定度是不同概念。样本标准差描述观察离散性；在独立同条件观察均值的模型下，A类标准不确定度分量可用s/√n估计。A/B按评价方法分，不与随机/系统一一对应。</p></section><section><h2>条件与边界</h2><p>先修量与测量；需四则和平方根，式中数据及模型均在本课给出。只计算简单A类分量，不作完整预算、分布推断或临床校准。NIST为历史指导，现代中文计量术语待独立复核；2027对2028暂定，不宣称公式官方必考。</p></section><section><h2>分步示例</h2><p>假设参考10.00 cm、读数10.20 cm：差+0.20 cm，加法修正−0.20 cm，不代表真实不确定度为零。
+9.8、10.0、10.2 cm均值10.0，离均差平方和0.08，s=√(0.08/2)=0.20 cm。
+独立均值模型uA=0.20/√3≈0.115 cm；校准信息是另外需要的来源。
+只报uA不是完整结果，不能从未说明的正负区间推出95%。</p></section><section><h2>常见误区</h2><p>校正后不确定度必为零。
+把s与s/√n当同一个量。
+A类就是随机误差、B类就是系统误差。
+多测几次自动消除所有偏差。
+任意正负区间都是95%。</p></section><section><h2>学习目标及证据</h2><p>unc-g1：区分误差修正与不确定度
+验收：计算差与修正的符号，并说明校正不代表已知无误差。
+教学：section-1；闭卷索引：0；题号：unc-b1、unc-a1、unc-d1
+
+unc-g2：按独立均值模型计算s及A类分量
+验收：区分n−1与n、单位cm²与cm，得到s=0.20及uA约0.115。
+教学：section-2；闭卷索引：1；题号：unc-b2、unc-a2、unc-d2
+
+unc-g3：根据方法区分A/B信息并指出重复观测局限
+验收：不把A/B直接等同随机/系统，不以更多观测消除全部偏差。
+教学：section-3；闭卷索引：2；题号：unc-b3、unc-a3、unc-d3
+
+unc-g4：评价不完整报告及置信说法
+验收：指出量、条件、来源及关联缺口；不从任意正负号推95%。
+教学：section-4；闭卷索引：3；题号：unc-b4、unc-a4、unc-d4</p></section><section><h2>闭卷回忆</h2><p>0：用参考比较说明误差、修正与不确定度不同。
+1：不看答案重算三次数据的均值、s与均值A类分量。
+2：区分A/B按评价方法，并说明重复观测不能替代哪些证据。
+3：说明只报uA和未说明的正负区间为什么不足。</p></section><section><h2>复习机制</h2><p>{
+  &quot;intervalDays&quot;: [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  &quot;delayedPrompt&quot;: &quot;隔日换参考值与样本量，重算并指出未评定的来源。&quot;
+}</p></section><section><h2>需要专家逐项确认</h2><p>1. 现代计量术语和统计条件待计量/统计专家 —— 未审核；请记录问题位置、建议、依据及复核结论。
+2. 本课只算A类分量，不作完整预算 —— 未审核；请记录问题位置、建议、依据及复核结论。
+3. 不作临床校准或2028公式清单 —— 未审核；请记录问题位置、建议、依据及复核结论。</p></section><section><h2>来源与真实访问结果</h2><p>{
+  &quot;checkedAt&quot;: &quot;2026-10-19&quot;,
+  &quot;status&quot;: &quot;internal-check-pending-independent-review&quot;,
+  &quot;mapping&quot;: {
+    &quot;nodeId&quot;: &quot;s27v2-mp-measure-uncertainty&quot;,
+    &quot;source&quot;: &quot;https://vsph.tsinghua.edu.cn/info/1025/2775.htm&quot;,
+    &quot;officialExamMappingConfirmed&quot;: false,
+    &quot;targetYear&quot;: 2028,
+    &quot;verifiedCoverage&quot;: false
+  },
+  &quot;sources&quot;: [
+    {
+      &quot;url&quot;: &quot;https://vsph.tsinghua.edu.cn/info/1025/2775.htm&quot;,
+      &quot;publisher&quot;: &quot;清华大学&quot;,
+      &quot;publishedAt&quot;: &quot;2026-09-30&quot;,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: &quot;2027医学物理基本概念、测量与数量分析；2028暂定&quot;,
+      &quot;limits&quot;: &quot;只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-2-classification-components-uncertainty&quot;,
+      &quot;publisher&quot;: &quot;NIST&quot;,
+      &quot;publishedAt&quot;: null,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: &quot;历史NIST测量不确定度方法，非2028考试要求&quot;,
+      &quot;limits&quot;: &quot;只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-3-type-evaluation-standard-uncertainty&quot;,
+      &quot;publisher&quot;: &quot;NIST&quot;,
+      &quot;publishedAt&quot;: null,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: &quot;历史NIST测量不确定度方法，非2028考试要求&quot;,
+      &quot;limits&quot;: &quot;只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-4-type-b-evaluation-standard-uncertainty&quot;,
+      &quot;publisher&quot;: &quot;NIST&quot;,
+      &quot;publishedAt&quot;: null,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: &quot;历史NIST测量不确定度方法，非2028考试要求&quot;,
+      &quot;limits&quot;: &quot;只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单&quot;
+    }
+  ],
+  &quot;failedRetrievals&quot;: [],
+  &quot;pendingReview&quot;: [
+    &quot;现代计量术语和统计条件待计量/统计专家&quot;,
+    &quot;本课只算A类分量，不作完整预算&quot;,
+    &quot;不作临床校准或2028公式清单&quot;
+  ],
+  &quot;expertApproved&quot;: false,
+  &quot;formalReleaseApproved&quot;: false
+}</p></section><section><h2>basicQuestions / unc-b1</h2><p>按题设参考修正后恰好等于参考值，哪项判断合理？
+0：真实不确定度必为零
+1：仍需评价参考、测量和模型等来源
+2：校正与不确定度是同义词
+标准/参考答案：仍需评价参考、测量和模型等来源
+解析：B区分数字校正与测量知识的范围。A把相等当成全部来源无不确定性；C混淆不同概念。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / unc-b2</h2><p>独立同条件三次观察均值的A类分量公式在本课是？
+0：s/√3
+1：s/√2
+2：3s
+标准/参考答案：s/√3
+解析：A使用n=3。B混入计算样本方差时的n−1；C使独立平均的分量反而简单扩大，非本模型。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / unc-b3</h2><p>A类和B类不确定度评价按什么分类？
+0：仪器价格
+1：是否随机误差的一一对应
+2：利用统计分析或其他方法评价
+标准/参考答案：利用统计分析或其他方法评价
+解析：C按评价方法。A无关；B把评价方法与效应性质混同，二者无简单一一对应。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / unc-b4</h2><p>只报均值及一个A类分量，哪项最准确？
+0：自动包含全部来源
+1：可能还缺校准、环境及关联等评价
+2：自动是95%覆盖区间
+标准/参考答案：可能还缺校准、环境及关联等评价
+解析：B说明预算边界。A误把部分当全部；C未有区间类型、模型和条件便作概率结论。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / unc-a1</h2><p>题设参考5.00 cm且忽略其不确定度，读数5.10 cm。给出有符号差与加法修正，并解释修正后为什么不能称真实完全准确。
+
+标准/参考答案：差+0.10 cm，修正−0.10 cm；参考忽略不确定度是题设，实际还可能有参考、读数、条件和模型来源，修正不等于零不确定度或已知零误差。
+解析：待逐项核对，不能仅凭提到‘误差’就自动给分。允许同义解释，但符号、单位和现实边界都需要。
+主观评分要点（待核对，不自动给分）：
+1. 差+0.10 cm
+2. 修正−0.10 cm
+3. 题设与现实区分
+4. 说明仍有不确定性来源
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / unc-a2</h2><p>对9.8、10.0、10.2 cm，在本课独立同条件均值模型下算均值、s和uA，说明s与uA各描述什么。
+
+标准/参考答案：均值10.0 cm，平方和0.08 cm²；s=√(0.08/2)=0.20 cm；uA=0.20/√3≈0.115 cm。s描述观察离散，uA是该均值模型的A类分量，不是全部不确定度。
+解析：接受约0.12 cm等合理舍入，但须保留推导、单位与模型。不要求未教的完整合成预算。
+主观评分要点（待核对，不自动给分）：
+1. 均值10.0 cm
+2. n−1计算s=0.20 cm
+3. uA=s/√3约0.115 cm
+4. 解释两量及非完整预算
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / unc-a3</h2><p>某人测100次后认为可以丢掉校准证书，因为A类就解决全部系统问题。请指出问题。
+
+标准/参考答案：A类是评价方法而非消除系统效应的工具；独立观测增加可能降低均值相关分量，但校准、共同偏移和模型等仍要评价，证书信息不能因此丢弃。
+解析：需说明方法分类、独立性条件及未覆盖来源，不能只写‘不对’。
+主观评分要点（待核对，不自动给分）：
+1. A/B按方法
+2. 独立观测条件
+3. 多测不消除共同偏移
+4. 校准或其他信息仍需评价
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / unc-a4</h2><p>评价一份不确定度报告应查哪些信息？
+0：被测量、单位和测量条件
+1：只要有±就认作95%
+2：纳入来源与模型边界
+3：不问关联，把所有数字直接相加
+标准/参考答案：被测量、单位和测量条件；纳入来源与模型边界
+解析：A/C为必要信息。B无依据赋予概率；D忽略输入关系、单位与模型，不是合理合成方法。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / unc-d1</h2><p>隔日：重复读数都接近，但相对校准参考共同偏移，能说明什么？
+0：重复接近不能排除共同偏移
+1：重复一致必然准确
+2：不确定度等于共同偏移的绝对值
+标准/参考答案：重复接近不能排除共同偏移
+解析：A把两种证据分开。B忽略偏移；C把偏差和结果不确定度混同。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / unc-d2</h2><p>隔日：在同一独立均值模型且s近似不变，n从4增至16，s/√n怎样变？
+0：增为4倍
+1：减半
+2：不变
+标准/参考答案：减半
+解析：√4=2、√16=4，分量从s/2到s/4。A将n直接当倍数；C忽略均值模型变化。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / unc-d3</h2><p>隔日：对独立重复观察作统计分析，同时参考校准证书。分别是什么评价信息？能否因此把随机和系统效应完全分开？
+
+标准/参考答案：观察系列的统计分析属于A类；证书等其他信息可用于B类。它们按评价方法分类，不与随机/系统效应一一对应，还需定义模型和来源。
+解析：允许说明证书提供的信息还要按实际用途解释；不将标签当作来源性质的绝对划分。
+主观评分要点（待核对，不自动给分）：
+1. 指出A类统计方法
+2. B类利用其他资料
+3. 不一一对应随机/系统
+4. 强调模型与用途
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / unc-d4</h2><p>隔日：一份报告只写‘10±0.1 cm，所以真值95%在里面’。列出至少两项应追问的信息，并评价结论。
+
+标准/参考答案：需查被测量与条件、0.1属于何种不确定度或区间、纳入来源及模型/覆盖说明等。没有这些不能仅凭±认定95%，也不能断言结果一定错误。
+解析：考查信息不足的判别，不要求未教授的覆盖因子求法。
+主观评分要点（待核对，不自动给分）：
+1. 量和条件
+2. 区间/不确定度类型
+3. 来源或覆盖说明
+4. 结论证据不足而非武断错误
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>审核记录表</h2><p>审核人及可核实资格：____
+日期：____
+结论：待审 / 需修改 / 拒绝 / 批准（须满足项目专业审定门槛）
+知识准确性、考试范围、公式单位、答案、解析、评分点、来源版权：逐项待审核
+问题编号｜课程/题号位置｜错误与依据｜建议修改｜作者修订提交｜复核人及结论
+（空白，不代表真实意见；补充意见以新文件追加保存。）</p></section></html>

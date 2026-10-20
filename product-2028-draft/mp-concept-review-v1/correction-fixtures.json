@@ -1,0 +1,12 @@
+{
+ "scope":"Internal regression questions for seven revision proposals; not complete courses or official questions",
+ "expertApproved":false,"questions":[
+ {"id":"fix-H1","group":"H1","type":"single","stem":"封闭人群期初1000人均有风险、全程随访，观察期新发20人；另给总风险观察4000人年。哪个配对正确？","options":["累计风险2%；人时率0.005/人年","累计风险0.005%；人时率2人","两者都等于2%"],"answer":0,"explanation":"20/1000=0.02限定观察期；20/4000=0.005每人年。人数与人时分母、单位不同。","sourceIds":["CDC-FREQ"]},
+ {"id":"fix-H2","group":"H2","type":"single","stem":"教学队列两组同期间风险分别0.4和0.2，按第一组比第二组，风险比与结局优势比分别约为？","options":["2与2","2与2.667","2.667与2"],"answer":1,"explanation":"风险比0.4/0.2=2；优势比(0.4/0.6)/(0.2/0.8)=8/3。结局不罕见时不能把OR直接当RR。","sourceIds":["CDC-ASSOC"]},
+ {"id":"fix-H3","group":"H3","type":"single","stem":"有人对摄氏温度直接用s/均值比较相对变异，且均值近0℃。首先应核查什么？","options":["无量纲所以任何数据都能比较","只要算对除法就科学有效","有意义零点及均值近零的适用边界"],"answer":2,"explanation":"摄氏为带平移的区间尺度；均值近零也使CV敏感。不是不同量纲就自动可比。","sourceIds":["NIST-CV"]},
+ {"id":"fix-H4","group":"H4","type":"single","stem":"题中光子能量达到核场成对产生阈值，能否据此断言它必然主导所有材料中的相互作用？","options":["不能，还需材料和能区等条件","能，阈值就是占优界线","能，其他作用同时消失"],"answer":0,"explanation":"过程可发生与相对占优是不同命题，贡献还受材料及能量影响。此题不要求未给出的复杂截面。","sourceIds":["IAEA05"]},
+ {"id":"fix-H5","group":"H5","type":"single","stem":"Gy与Sv具有相同能量/质量量纲，能否据此把治疗处方Gy直接写为同数值有效剂量Sv推个人风险？","options":["能，量纲相同就是同一个量","不能，量的定义、权重和用途不同","能，任何生物效应都由输入能量唯一决定"],"answer":1,"explanation":"量纲相同不赋予通用换算；防护加权量及个人风险适用性需分别核对。","sourceIds":["SI26","WHO23"]},
+ {"id":"fix-H6","group":"H6","type":"single","stem":"电子射程公式原文提取出现可疑系数，暂时不能读原页图像，如何处理？","options":["凭常见记忆直接换系数","照OCR认定原教材有错","记录冲突与适用条件，系数继续待核，不作无条件数值题"],"answer":2,"explanation":"没有原页及专业核对不能把可疑提取作已核依据；保留原件和未决状态。","sourceIds":["IAEA05"]},
+ {"id":"fix-H7","group":"H7","type":"single","stem":"验收、commissioning与常规QA应如何理解？","options":["目的不同且验收与commissioning可部分重叠，基线后仍需持续验证","机器修好并测试一次等于全部QA完成","患者特异QA通过就证明所有临床决策正确"],"answer":0,"explanation":"A保留生命周期及证据范围。B/C把单次测试或部分链条当全部保障；不提供临床放行授权。","sourceIds":["IAEA05"]}
+ ]
+}

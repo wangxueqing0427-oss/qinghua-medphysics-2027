@@ -186,7 +186,7 @@
       "基础与交叉学科/通用": 7,
       "基础与交叉学科/医学物理与健康专项": 22
     },
-    "nodesWithPartialCourse": 6,
+    "nodesWithPartialCourse": 7,
     "verifiedCoveredNodes": 0,
     "verifiedCoverageRatio": 0,
     "expertApprovedCourses": 0,
@@ -4513,7 +4513,31 @@
       "verifiedCoverage": false,
       "expertApproved": false,
       "legacyTeachingPointIds": [],
-      "courseSupport": [],
+      "courseSupport": [
+        {
+          "id": "353-energy-power",
+          "version": "0.1",
+          "title": "能量与功率：同样的能量，为什么快慢不同？",
+          "status": "draft-internal-check",
+          "contentHash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+          "questionIds": [
+            "ep-b1",
+            "ep-b2",
+            "ep-b3",
+            "ep-b4",
+            "ep-a1",
+            "ep-a2",
+            "ep-a3",
+            "ep-a4",
+            "ep-d1",
+            "ep-d2",
+            "ep-d3",
+            "ep-d4"
+          ],
+          "support": "partial-internal-teaching-only",
+          "expertApproved": false
+        }
+      ],
       "legacyQuestionCandidates": [
         "q-m01",
         "q-m02",
@@ -4538,7 +4562,7 @@
         "q60-air-3",
         "q60-air-4"
       ],
-      "gap": "尚无完整引擎课程；旧要点/候选题不能代替完整教学、闭卷、分层题及延迟测试"
+      "gap": "有部分可运行教学与练习；目标深度、完整性及专业准确性未审定"
     },
     {
       "id": "s27v2-mp-core-waves",
@@ -4764,6 +4788,29 @@
             "qm-d2",
             "qm-d3",
             "qm-d4"
+          ],
+          "support": "partial-internal-teaching-only",
+          "expertApproved": false
+        },
+        {
+          "id": "353-uncertainty-foundation",
+          "version": "0.1",
+          "title": "测量误差与不确定度：读数接近，还缺哪些证据？",
+          "status": "draft-internal-check",
+          "contentHash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+          "questionIds": [
+            "unc-b1",
+            "unc-b2",
+            "unc-b3",
+            "unc-b4",
+            "unc-a1",
+            "unc-a2",
+            "unc-a3",
+            "unc-a4",
+            "unc-d1",
+            "unc-d2",
+            "unc-d3",
+            "unc-d4"
           ],
           "support": "partial-internal-teaching-only",
           "expertApproved": false

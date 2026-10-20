@@ -1,0 +1,83 @@
+{
+  "reason": "内部定位检查：粒子条目误归第16章，第16章为防护；不把该位置当已核依据。",
+  "before": [
+    {
+      "id": "mp-10-point-1",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "not-verified"
+        }
+      ],
+      "reviewHash": "703ca3e5ef9b2a0206c1137a1e47beadfe0512942227f487dd6bb7d3af983d15"
+    },
+    {
+      "id": "mp-10-point-2",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "not-verified"
+        }
+      ],
+      "reviewHash": "7489bcb4b242581b69a4322f1d1d7663d769df5a11790d24ad26cf3e5ed1f225"
+    },
+    {
+      "id": "mp-10-point-3",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "not-verified"
+        }
+      ],
+      "reviewHash": "46f39088c8a18cb636a6703f6ba4831be747e413d3426d294571edb09ce2d17a"
+    },
+    {
+      "id": "mp-10-point-4",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "not-verified"
+        }
+      ],
+      "reviewHash": "6749e9f5ddf92998cb8a7ba3e1589eb82a87965be1f0ffdbd9b29f950704a5be"
+    },
+    {
+      "id": "mp-10-point-5",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "partial-concept-only"
+        }
+      ],
+      "reviewHash": "cc5d866059991eb763d226a02db5fba6bd21d70b86eb0632f8a712bf841e07a1"
+    },
+    {
+      "id": "mp-10-point-6",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "partial-concept-only"
+        }
+      ],
+      "reviewHash": "b91b0eee5f52bf4f098ced79153a07607cb578f337bca8ce04d8f5b567390093"
+    },
+    {
+      "id": "mp-10-point-7",
+      "sourceLocators": [
+        {
+          "id": "IAEA05",
+          "locator": "对应第16章主题；具体未核主张见queue",
+          "claimVerified": "not-verified"
+        }
+      ],
+      "reviewHash": "d8f649ed32d56b947a1fbae4f3a64ecb2b3aa4cbbdc57abef2e1128a9e6120f8"
+    }
+  ],
+  "expertApproved": false
+}

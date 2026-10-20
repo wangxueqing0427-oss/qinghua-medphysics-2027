@@ -1,0 +1,261 @@
+{
+  "scope": "Two isolated full modules using actual controller answers and fake IndexedDB; not browser or expert approval",
+  "reports": [
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "353-uncertainty-foundation",
+      "contentSha256": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Independently recomputed examples agree with question answer text",
+          "pass": true
+        },
+        {
+          "name": "Reference-based feedback and scope cannot become clinical or official score",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "353-energy-power",
+      "contentSha256": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Independently recomputed examples agree with question answer text",
+          "pass": true
+        },
+        {
+          "name": "Reference-based feedback and scope cannot become clinical or official score",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "353-uncertainty-foundation / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Independently recomputed examples agree with question answer text",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation / Reference-based feedback and scope cannot become clinical or official score",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Independently recomputed examples agree with question answer text",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power / Reference-based feedback and scope cannot become clinical or official score",
+      "pass": true
+    }
+  ]
+}

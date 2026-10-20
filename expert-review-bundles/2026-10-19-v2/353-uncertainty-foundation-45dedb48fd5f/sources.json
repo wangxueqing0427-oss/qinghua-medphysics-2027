@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27v2-mp-measure-uncertainty",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": "2027医学物理基本概念、测量与数量分析；2028暂定",
+      "limits": "只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单"
+    },
+    {
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-2-classification-components-uncertainty",
+      "publisher": "NIST",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": "历史NIST测量不确定度方法，非2028考试要求",
+      "limits": "只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单"
+    },
+    {
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-3-type-evaluation-standard-uncertainty",
+      "publisher": "NIST",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": "历史NIST测量不确定度方法，非2028考试要求",
+      "limits": "只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单"
+    },
+    {
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-4-type-b-evaluation-standard-uncertainty",
+      "publisher": "NIST",
+      "publishedAt": null,
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": "历史NIST测量不确定度方法，非2028考试要求",
+      "limits": "只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单"
+    }
+  ],
+  "failedRetrievals": [],
+  "pendingReview": [
+    "现代计量术语和统计条件待计量/统计专家",
+    "本课只算A类分量，不作完整预算",
+    "不作临床校准或2028公式清单"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

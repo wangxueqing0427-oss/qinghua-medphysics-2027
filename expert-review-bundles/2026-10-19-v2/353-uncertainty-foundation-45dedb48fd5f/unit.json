@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-19-draft",
+  "units": [
+    {
+      "id": "353-uncertainty-foundation",
+      "version": "0.1",
+      "subject": "353",
+      "title": "测量误差与不确定度：读数接近，还缺哪些证据？",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创零基础讲解和自编题，外部资料仅核验概念，不转载教材图文。",
+      "writtenAt": "2026-10-19",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-previous-year",
+      "mapping": [
+        "s27v2-mp-measure-uncertainty"
+      ],
+      "prerequisites": [
+        "353-quantity-measurement"
+      ],
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-2-classification-components-uncertainty",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-3-type-evaluation-standard-uncertainty",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-4-type-b-evaluation-standard-uncertainty"
+      ],
+      "explanation": "上一课区分量、单位、误差与修正。本课追问：把明显偏差修正后，为什么还不能说完全准确？教学假设某参考长度为10.00 cm，并暂忽略参考的不确定度，一次读数10.20 cm，相对参考的有符号差为+0.20 cm；加法修正−0.20 cm能让本次校正结果成为10.00 cm，但真实参考、读数、环境和模型仍可能有不确定性。误差是结果相对所谈量值的差，不确定度则描述对结果的量值归属有多分散的评价，不能把两者互换。它们都可能用cm表示，但同单位不等于同概念；‘校正了’也不意味着误差已知为零。\n\n用重复数据可以评价部分离散性，但先说明观察条件和计算对象。原创例子在相同条件独立测量三次，得到9.8、10.0、10.2 cm；均值为10.0 cm。三个离均差为−0.2、0、+0.2 cm，平方后相加是0.08 cm²。样本方差用n−1=2作分母，得到0.04 cm²，样本标准差s=0.20 cm。若目标是这三次独立观察的均值，在该模型下均值的A类标准不确定度分量uA=s/√n=0.20/√3，约0.115 cm。√表示平方根，可用计算器；不要将n换成n−1再开方。s描述本组单次读数的离散，s/√n是该模型下均值估计的分量，二者不能随意替代。\n\nA类和B类按评价方法区分，而不是给误差贴‘随机’和‘系统’两个固定标签。A类来自对观察系列的有效统计分析；B类利用其他信息，例如校准证书、仪器分辨率或已有资料。独立重复测量增多可使上述均值分量降低，但不能自动消除未识别偏差，也不能把校准信息忽略。若所有结果都共同偏移，仅看s小仍会误判。在使用分辨率等信息时还需合理分布和测量模型，不能把一个最小刻度直接当成完整不确定度。本课不计算B类分布换算，也不把多个来源的数值不加分析直接相加。\n\n最后要说清‘报告的是哪个量、按什么条件、包含哪些来源’。只报均值10.0 cm或只报uA=0.115 cm都不是完整的不确定度评价；本例仅演示一个A类分量，完整结果还要考虑其他输入及其关联。标准不确定度、合成标准不确定度和扩展不确定度属于后续学习内容，不能看到正负号就自动说95%概率，也不能任意取k=2而不说明条件。闭卷检查时，应能重算均值、s和uA，指出未纳入的校准或环境因素，并将‘证据不足以认定准确’与‘一定不准确’区分开。这些是通用测量素养，不授予临床剂量校准资格。",
+      "definition": "误差与不确定度是不同概念。样本标准差描述观察离散性；在独立同条件观察均值的模型下，A类标准不确定度分量可用s/√n估计。A/B按评价方法分，不与随机/系统一一对应。",
+      "conditions": "先修量与测量；需四则和平方根，式中数据及模型均在本课给出。只计算简单A类分量，不作完整预算、分布推断或临床校准。NIST为历史指导，现代中文计量术语待独立复核；2027对2028暂定，不宣称公式官方必考。",
+      "example": "假设参考10.00 cm、读数10.20 cm：差+0.20 cm，加法修正−0.20 cm，不代表真实不确定度为零。\n9.8、10.0、10.2 cm均值10.0，离均差平方和0.08，s=√(0.08/2)=0.20 cm。\n独立均值模型uA=0.20/√3≈0.115 cm；校准信息是另外需要的来源。\n只报uA不是完整结果，不能从未说明的正负区间推出95%。",
+      "misconceptions": [
+        "校正后不确定度必为零。",
+        "把s与s/√n当同一个量。",
+        "A类就是随机误差、B类就是系统误差。",
+        "多测几次自动消除所有偏差。",
+        "任意正负区间都是95%。"
+      ],
+      "recall": [
+        "用参考比较说明误差、修正与不确定度不同。",
+        "不看答案重算三次数据的均值、s与均值A类分量。",
+        "区分A/B按评价方法，并说明重复观测不能替代哪些证据。",
+        "说明只报uA和未说明的正负区间为什么不足。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "+0.20 cm与−0.20 cm；校正不等于零不确定度。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "s=0.20 cm，uA约0.115 cm。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "观察系列与校准证书是不同方法来源。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "A类分量不是完整不确定度报告。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "unc-g1",
+          "description": "区分误差修正与不确定度",
+          "successCriteria": "计算差与修正的符号，并说明校正不代表已知无误差。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "unc-b1",
+            "unc-a1",
+            "unc-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "unc-g2",
+          "description": "按独立均值模型计算s及A类分量",
+          "successCriteria": "区分n−1与n、单位cm²与cm，得到s=0.20及uA约0.115。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "unc-b2",
+            "unc-a2",
+            "unc-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "unc-g3",
+          "description": "根据方法区分A/B信息并指出重复观测局限",
+          "successCriteria": "不把A/B直接等同随机/系统，不以更多观测消除全部偏差。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "unc-b3",
+            "unc-a3",
+            "unc-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "unc-g4",
+          "description": "评价不完整报告及置信说法",
+          "successCriteria": "指出量、条件、来源及关联缺口；不从任意正负号推95%。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "unc-b4",
+            "unc-a4",
+            "unc-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "unc-b1",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "按题设参考修正后恰好等于参考值，哪项判断合理？",
+          "options": [
+            "真实不确定度必为零",
+            "仍需评价参考、测量和模型等来源",
+            "校正与不确定度是同义词"
+          ],
+          "answer": 1,
+          "explanation": "B区分数字校正与测量知识的范围。A把相等当成全部来源无不确定性；C混淆不同概念。"
+        },
+        {
+          "id": "unc-b2",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "独立同条件三次观察均值的A类分量公式在本课是？",
+          "options": [
+            "s/√3",
+            "s/√2",
+            "3s"
+          ],
+          "answer": 0,
+          "explanation": "A使用n=3。B混入计算样本方差时的n−1；C使独立平均的分量反而简单扩大，非本模型。"
+        },
+        {
+          "id": "unc-b3",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "A类和B类不确定度评价按什么分类？",
+          "options": [
+            "仪器价格",
+            "是否随机误差的一一对应",
+            "利用统计分析或其他方法评价"
+          ],
+          "answer": 2,
+          "explanation": "C按评价方法。A无关；B把评价方法与效应性质混同，二者无简单一一对应。"
+        },
+        {
+          "id": "unc-b4",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "只报均值及一个A类分量，哪项最准确？",
+          "options": [
+            "自动包含全部来源",
+            "可能还缺校准、环境及关联等评价",
+            "自动是95%覆盖区间"
+          ],
+          "answer": 1,
+          "explanation": "B说明预算边界。A误把部分当全部；C未有区间类型、模型和条件便作概率结论。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "unc-a1",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "题设参考5.00 cm且忽略其不确定度，读数5.10 cm。给出有符号差与加法修正，并解释修正后为什么不能称真实完全准确。",
+          "answer": "差+0.10 cm，修正−0.10 cm；参考忽略不确定度是题设，实际还可能有参考、读数、条件和模型来源，修正不等于零不确定度或已知零误差。",
+          "explanation": "待逐项核对，不能仅凭提到‘误差’就自动给分。允许同义解释，但符号、单位和现实边界都需要。",
+          "rubric": [
+            "差+0.10 cm",
+            "修正−0.10 cm",
+            "题设与现实区分",
+            "说明仍有不确定性来源"
+          ]
+        },
+        {
+          "id": "unc-a2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "对9.8、10.0、10.2 cm，在本课独立同条件均值模型下算均值、s和uA，说明s与uA各描述什么。",
+          "answer": "均值10.0 cm，平方和0.08 cm²；s=√(0.08/2)=0.20 cm；uA=0.20/√3≈0.115 cm。s描述观察离散，uA是该均值模型的A类分量，不是全部不确定度。",
+          "explanation": "接受约0.12 cm等合理舍入，但须保留推导、单位与模型。不要求未教的完整合成预算。",
+          "rubric": [
+            "均值10.0 cm",
+            "n−1计算s=0.20 cm",
+            "uA=s/√3约0.115 cm",
+            "解释两量及非完整预算"
+          ]
+        },
+        {
+          "id": "unc-a3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "某人测100次后认为可以丢掉校准证书，因为A类就解决全部系统问题。请指出问题。",
+          "answer": "A类是评价方法而非消除系统效应的工具；独立观测增加可能降低均值相关分量，但校准、共同偏移和模型等仍要评价，证书信息不能因此丢弃。",
+          "explanation": "需说明方法分类、独立性条件及未覆盖来源，不能只写‘不对’。",
+          "rubric": [
+            "A/B按方法",
+            "独立观测条件",
+            "多测不消除共同偏移",
+            "校准或其他信息仍需评价"
+          ]
+        },
+        {
+          "id": "unc-a4",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "评价一份不确定度报告应查哪些信息？",
+          "options": [
+            "被测量、单位和测量条件",
+            "只要有±就认作95%",
+            "纳入来源与模型边界",
+            "不问关联，把所有数字直接相加"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A/C为必要信息。B无依据赋予概率；D忽略输入关系、单位与模型，不是合理合成方法。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "unc-d1",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "隔日：重复读数都接近，但相对校准参考共同偏移，能说明什么？",
+          "options": [
+            "重复接近不能排除共同偏移",
+            "重复一致必然准确",
+            "不确定度等于共同偏移的绝对值"
+          ],
+          "answer": 0,
+          "explanation": "A把两种证据分开。B忽略偏移；C把偏差和结果不确定度混同。"
+        },
+        {
+          "id": "unc-d2",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日：在同一独立均值模型且s近似不变，n从4增至16，s/√n怎样变？",
+          "options": [
+            "增为4倍",
+            "减半",
+            "不变"
+          ],
+          "answer": 1,
+          "explanation": "√4=2、√16=4，分量从s/2到s/4。A将n直接当倍数；C忽略均值模型变化。"
+        },
+        {
+          "id": "unc-d3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：对独立重复观察作统计分析，同时参考校准证书。分别是什么评价信息？能否因此把随机和系统效应完全分开？",
+          "answer": "观察系列的统计分析属于A类；证书等其他信息可用于B类。它们按评价方法分类，不与随机/系统效应一一对应，还需定义模型和来源。",
+          "explanation": "允许说明证书提供的信息还要按实际用途解释；不将标签当作来源性质的绝对划分。",
+          "rubric": [
+            "指出A类统计方法",
+            "B类利用其他资料",
+            "不一一对应随机/系统",
+            "强调模型与用途"
+          ]
+        },
+        {
+          "id": "unc-d4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：一份报告只写‘10±0.1 cm，所以真值95%在里面’。列出至少两项应追问的信息，并评价结论。",
+          "answer": "需查被测量与条件、0.1属于何种不确定度或区间、纳入来源及模型/覆盖说明等。没有这些不能仅凭±认定95%，也不能断言结果一定错误。",
+          "explanation": "考查信息不足的判别，不要求未教授的覆盖因子求法。",
+          "rubric": [
+            "量和条件",
+            "区间/不确定度类型",
+            "来源或覆盖说明",
+            "结论证据不足而非武断错误"
+          ]
+        }
+      ],
+      "rubric": [
+        "概念区分",
+        "计算和单位",
+        "独立性与模型",
+        "报告边界"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换参考值与样本量，重算并指出未评定的来源。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "现代计量术语和统计条件待计量/统计专家",
+          "本课只算A类分量，不作完整预算",
+          "不作临床校准或2028公式清单"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "version": "internal-revision-proposals-v1-2026-10-19",
+  "status": "draft-pending-independent-review",
+  "expertApproved": false,
+  "appliedToOriginal": false,
+  "groups": [
+    {
+      "id": "H1",
+      "topic": "发病分母、率与风险",
+      "queue": "subject-teacher-judgment",
+      "sourceIds": [
+        "CDC-FREQ",
+        "CDC-ASSOC"
+      ],
+      "finding": "原epidemiology要点把分子包含于分母作为率的通用定义，且未区分期初人数与人时。中文率一词使用有历史差异，应以定义、时间和单位消歧。",
+      "impact": "epi-02、epi-06及涉及RR/AR的题目；原完整风险与人时样板保持不改，仍须对照独立答案。",
+      "replacements": {
+        "epi-02-point-1": "先区分比例、比和人时速率：比例的分子是分母中的一部分；比的两个量不必互相包含；人时发病率用新发事件数除以风险观察人时。中文名称可能都含‘率’，答题必须写清分母、观察期与单位，不能只凭名称选择公式。",
+        "epi-02-point-2": "在期初无该病且有风险的封闭人群、观察期明确且随访完整等条件下，累计发病风险=期间新发该病人数/期初风险人数。随访长度不同或开放人群可考虑人时发病率=新发事件数/总风险人时；二者不是同一个量，风险无量纲且限定期间，速率带时间倒数单位。",
+        "epi-06-point-3": "风险比比较相同观察期、可比人群的累计发病风险；率比比较两组人时发病率。先依据题目设计和分母区分，再计算相应比值，不把所有‘发病率之比’无条件叫风险比。"
+      },
+      "before": [
+        {
+          "id": "epi-02-point-1",
+          "text": "率：事件发生频率，分子属于分母人群。比：两个有联系但不必互相包含的量。",
+          "pointHash": "45dea17fe51a5e21f51f8a3408a881770fff05498bc41e7788a0032e3e429f38"
+        },
+        {
+          "id": "epi-02-point-2",
+          "text": "发病率：一定期间新发病例 ÷ 同期有患病风险的人群。强调“新发生”。",
+          "pointHash": "5b258e1c07c2bd839de788c955004c71d6d012fce8e29f4537329b5cf15492a3"
+        },
+        {
+          "id": "epi-06-point-3",
+          "text": "RR = 暴露组发病率 / 非暴露组发病率。",
+          "pointHash": "0c38c9305d0399b2a1765f4fe18b85c327275048c4a89f7a1eee85644f527571"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    },
+    {
+      "id": "H2",
+      "topic": "OR与RR",
+      "queue": "subject-teacher-judgment",
+      "sourceIds": [
+        "CDC-ASSOC"
+      ],
+      "finding": "原OR方向表述省略优势与风险区别；罕见病加设计合适不是完整抽样说明，典型病例对照不能直接从固定病例对照数算总体风险。",
+      "impact": "epi-05、OR95%CI、Logistic解释及相关练习；不推因果或疗效。",
+      "replacements": {
+        "epi-05-point-2": "按明确的2×2表方向，OR=(a/b)/(c/d)=ad/bc，表示优势之比；OR>1或<1表示该方向下正/负关联，不能直接把OR数值解释为风险增大倍数，也不自动说明因果。风险比=(a/(a+b))/(c/(c+d))。",
+        "epi-05-point-3": "结局在目标人群中较少见且抽样、对照来源等条件适当时，OR可近似风险比；典型病例对照研究的病例对照人数由设计决定，不能直接当目标人群风险分母。不同抽样设计的OR解释需另行说明，不以‘罕见’一词覆盖所有条件。"
+      },
+      "before": [
+        {
+          "id": "epi-05-point-2",
+          "text": "OR = ad/bc。OR>1 可能增加风险，OR<1 可能保护，OR=1 无明显关联。",
+          "pointHash": "6791fc9a78064368aec3e48660b21c53dca63f6fbaec1628c5944f8cb9f2d900"
+        },
+        {
+          "id": "epi-05-point-3",
+          "text": "疾病罕见且设计合适时，OR可近似RR。",
+          "pointHash": "875e1fd4b349d2f90a6f0b33140a48f60deb32f636ea8de5ea6d5521adf98399"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    },
+    {
+      "id": "H3",
+      "topic": "变异系数适用条件",
+      "queue": "subject-teacher-judgment",
+      "sourceIds": [
+        "NIST-CV"
+      ],
+      "finding": "原条目仅说用于不同量纲或均值水平比较，缺有意义零点和均值近零的边界。",
+      "impact": "st-02及描述指标选择练习；摄氏温度等不能机械套用CV比较。",
+      "replacements": {
+        "st-02-point-4": "样本CV=s/均值，写成百分数时乘100%。通常用于有意义绝对零点的比率尺度，并核对正值数据与均值不接近零等适用性；均值近零会使CV不稳定。相同量的单位作纯倍数换算不改变CV，但摄氏与华氏等带平移的区间尺度不能机械比较；不同量纲并不自动保证科学上可比。"
+      },
+      "before": [
+        {
+          "id": "st-02-point-4",
+          "text": "变异系数CV=s/x̄×100%，用于比较量纲不同或均数水平差异较大的相对变异。",
+          "pointHash": "b6ed21aed19a3034bf3b77365a3c72f6878e26e64c1be26411f1efc80f1254d6"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    },
+    {
+      "id": "H4",
+      "topic": "光子相互作用及建成",
+      "queue": "medical-physics-metrology-expert",
+      "sourceIds": [
+        "IAEA05"
+      ],
+      "finding": "原三作用表未说明并非穷尽；成对阈值不等于占优界线；dmax不能简单定义为严格电子平衡点。",
+      "impact": "mp-01、mp-04及后续能量、波和剂量课程；复杂截面不列作官方必考公式。",
+      "replacements": {
+        "mp-01-point-5": "入门比较光电效应、康普顿散射和成对产生，但它们不是光子的全部可能作用。相对贡献取决于光子能量、材料组成和所比较的系数；光电效应通常在较低能量和高Z材料较突出，康普顿作用与电子数密度及能量有关。核场成对产生约需1.022 MeV阈能，达到阈值不等于立即占主导；电子场三重产生的阈值不同。具体相对占优须结合材料和题给信息。",
+        "mp-04-point-3": "兆伏光子束的建成与次级带电粒子通量随深度建立有关，同时存在光子衰减、散射和几何条件变化。dmax是给定条件下深度剂量达到最大的位置，不能简单当成严格带电粒子平衡点的定义；实际评价需区分近似、瞬态平衡与测量条件。"
+      },
+      "before": [
+        {
+          "id": "mp-01-point-5",
+          "text": "光子在物质中的三种核心相互作用要建立方向感：光电效应在较低光子能量和较高原子序数材料中更重要；康普顿散射主要与电子密度相关，在诊疗相关能区非常重要；电子对效应阈能为1.022 MeV，在更高能量时逐渐重要。",
+          "pointHash": "6aafbdb4a9ee00c2217cf0e1654ee597aa880ca951aac9583bf8d5c82d66cebe"
+        },
+        {
+          "id": "mp-04-point-3",
+          "text": "建成效应源于次级带电粒子的建立过程。表面附近电子平衡不足，随深度增加，前方产生并进入测量点的次级电子贡献增加，直到接近带电粒子平衡而达到dmax。",
+          "pointHash": "7aaed1f164d9f23aba24c8e359393bd7378f0fb21a27fc1772019301525281ea"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    },
+    {
+      "id": "H5",
+      "topic": "Gy/Sv与剂量概念",
+      "queue": "medical-physics-metrology-expert",
+      "sourceIds": [
+        "SI26",
+        "WHO23"
+      ],
+      "finding": "原当量剂量的生物学权重解释易与RBE混同，有效剂量易被读成个体风险预测。",
+      "impact": "mp-02、辐射防护、治疗处方与健康材料题；需权威防护定义及现行权重进一步复核。",
+      "replacements": {
+        "mp-02-point-5": "吸收剂量描述单位质量物质获得的平均沉积能量，单位Gy。防护用当量剂量按器官/组织平均吸收剂量及辐射类型权重构成，单位Sv；该防护权重不等于任意生物终点的RBE，不能把Gy直接作通用生物学效果或同数值Sv解释。具体防护量定义和权重待专业复核。",
+        "mp-02-point-6": "有效剂量以组织权重对相应当量剂量加权，用于辐射防护中的比较和管理，单位Sv。它使用参考人和平均化的防护约定，不能直接给特定年龄、个体、器官和高剂量治疗情境的患癌概率，也不能代替放疗靶区与正常组织剂量评价。",
+        "mp-02-point-7": "Gy与Sv均有能量/质量量纲，但代表的量与用途不同；量纲相同不构成通用换算规则。处方吸收剂量不能机械转写成同数值有效剂量来作个人风险推断；需先明确所谈物质/器官、辐射类型、时间及评价任务。"
+      },
+      "before": [
+        {
+          "id": "mp-02-point-5",
+          "text": "当量剂量H用于辐射防护，把器官或组织吸收剂量按辐射类型权重wR加权，单位Sv。概念上强调‘相同吸收剂量，不同辐射种类的生物学效应可不同’。",
+          "pointHash": "554c4b186f23393bda08f9084abad1d233cf12bdd6dd0bff0017f5056f0c711f"
+        },
+        {
+          "id": "mp-02-point-6",
+          "text": "有效剂量E进一步把各组织当量剂量按组织权重wT加权，反映全身非均匀照射所对应的总体随机性风险指标，单位同样是Sv。",
+          "pointHash": "7bc881dd23983e83f0e9fe77e9a2d46e3a017bfbe121ae4511aa720d34e7b482"
+        },
+        {
+          "id": "mp-02-point-7",
+          "text": "防护量Sv主要用于风险管理和防护比较，不应机械套到放疗处方剂量上。放疗治疗区出现几十Gy并不意味着拿几十Sv直接做同一种风险解释。",
+          "pointHash": "414bd7b9c75996b6d13b3fd0e20b90b7b7f37c06a649977d79afb5d899391946"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    },
+    {
+      "id": "H6",
+      "topic": "电子射程经验公式",
+      "queue": "insufficient-primary-evidence",
+      "sourceIds": [
+        "IAEA05"
+      ],
+      "finding": "原Rp(cm)约E(MeV)/2作为粗略量级关系缺能量定义和适用范围。已读原书区分Rp、R50与不同能量指标，但式8.5 OCR可疑，原页图像不可用。不能据OCR认定原式错误或写出未经确认的新系数。",
+      "impact": "mp-05-point-4及所有电子射程数值练习；暂不据此新增无条件数值题。",
+      "replacements": {
+        "mp-05-point-4": "电子束能量与水中射程存在条件化的经验联系，但Rp、R50、表面平均能量、最概然能量及机器标称能量不能混用。原‘Rp约E/2’仅保留为待核的粗略记忆提示，不用作普适或临床计算公式；本轮暂不确认新系数。题目若给出公式，须同时给能量定义、介质、单位和适用条件，实际临床束质需测量与规范评定。"
+      },
+      "before": [
+        {
+          "id": "mp-05-point-4",
+          "text": "常用经验关系要理解量级而不是死套：水中电子实用射程Rp(cm)约为入射能量E(MeV)的一半，即Rp≈E/2；实际考试若给定特定公式或条件，以题目为准。",
+          "pointHash": "4af958629b9ca6dd39f68ab34c9326260807e994fc309ac4bd0dcd55c441f9c7"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    },
+    {
+      "id": "H7",
+      "topic": "放疗QA边界",
+      "queue": "medical-physics-metrology-expert",
+      "sourceIds": [
+        "IAEA05"
+      ],
+      "finding": "原生命周期线性叙述忽略验收与commissioning可能重叠；QA类要点不能变成设备维修培训或临床操作授权。",
+      "impact": "mp-07-point-7、mp-09-point-7、mp-11与候选题；旧协议数字不升级为现行标准。",
+      "replacements": {
+        "mp-11-point-1": "设备验收主要核对约定规格和要求；commissioning为预期临床用途全面表征性能、准备模型数据和程序，二者可部分重叠。建立基线后仍需贯穿生命周期的QC/QA；不是一次验收或维修后测试即可替代持续验证。这里只学习目的和证据，不作为临床操作规程。",
+        "mp-11-point-4": "患者特异性QA与设备常规QA的任务和证据范围不同，不能互相完全替代；任何单项通过也不能证明整个计划、临床决策和递送链条全部正确。需明确验证目标、方法、局限及责任人。",
+        "mp-11-point-5": "发现QA异常应识别测量和模型问题、记录证据并由有资格团队按现行机构程序评估风险、纠正及复测。学习材料不授予个人暂停或恢复临床使用的权限，也不提供无依据容差和放行阈值。"
+      },
+      "before": [
+        {
+          "id": "mp-11-point-1",
+          "text": "设备验收（acceptance）关注新设备是否满足采购/技术要求；commissioning建立设备用于临床计算和治疗所需的基准数据与性能认知；之后进入常规QA。",
+          "pointHash": "49a142cd1272fa4200d603d183b852bd21c796a1168eeb22f65c47507d40260c"
+        },
+        {
+          "id": "mp-11-point-4",
+          "text": "患者特异性QA用于验证某个复杂计划从TPS到实际机器执行是否与预期一致，尤其适用于复杂调强等情境；它不是设备常规QA的替代品。",
+          "pointHash": "69be41d9599d72578fce5673c921537bf9e7c11e46372eb4c2611c81353fd0b3"
+        },
+        {
+          "id": "mp-11-point-5",
+          "text": "QA异常处理不能只写‘重新测’：应先确认测量本身，再判断偏差大小和临床影响，必要时暂停相关临床使用，查找原因、纠正、复测并记录。",
+          "pointHash": "eb05fed05d2abfd236fdc64abe63333ca3e7faa717eb49bbf2c17c27d0b2e1b5"
+        }
+      ],
+      "internalStatus": "draft-not-applied",
+      "expertDecision": null
+    }
+  ]
+}

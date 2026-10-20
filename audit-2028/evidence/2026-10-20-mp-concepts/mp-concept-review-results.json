@@ -1,0 +1,70 @@
+{
+  "scope": "Internal provenance, draft corrections and safe workflows; not independent expert review",
+  "summary": {
+    "totalOldMedicalPoints": 113,
+    "pointSpecificInternalMappings": 113,
+    "missingInternalRows": 0,
+    "unresolvedPrimaryClaims": 46,
+    "queueCounts": {
+      "source-backed-structural-text": 0,
+      "subject-teacher-judgment": 6,
+      "medical-physics-metrology-expert": 61,
+      "insufficient-primary-evidence": 46
+    },
+    "duplicateCandidatePairs": 7,
+    "specialtyNodes": 22,
+    "nodesWithoutCompleteUnit": 18,
+    "expertApproved": 0,
+    "expertReviewPending": 113
+  },
+  "results": [
+    {
+      "name": "All 113 exact original texts and source fingerprints retained",
+      "pass": true
+    },
+    {
+      "name": "Each authored concept has explicit valid specialty nodes and bounded reasoning",
+      "pass": true
+    },
+    {
+      "name": "Unavailable sources and 46 unresolved professional claims are not upgraded",
+      "pass": true
+    },
+    {
+      "name": "Duplicate candidates retained without merging or losing original evidence",
+      "pass": true
+    },
+    {
+      "name": "All 22 node gaps reference actual course versions and actual questions",
+      "pass": true
+    },
+    {
+      "name": "Seven revision groups are explicit diffs and never applied to old points",
+      "pass": true
+    },
+    {
+      "name": "Risk rate and OR regression examples independently recomputed",
+      "pass": true
+    },
+    {
+      "name": "CV and photon thresholds retain conditions rather than false universal rules",
+      "pass": true
+    },
+    {
+      "name": "Dose range and QA boundaries cannot become unverified clinical rules",
+      "pass": true
+    },
+    {
+      "name": "Seven correction fixtures grade right and wrong options using existing engine",
+      "pass": true
+    },
+    {
+      "name": "Original catalog remains seven courses; new expert packages remain unsigned",
+      "pass": true
+    },
+    {
+      "name": "Internal logs are immutable, with append-only locator correction history",
+      "pass": true
+    }
+  ]
+}

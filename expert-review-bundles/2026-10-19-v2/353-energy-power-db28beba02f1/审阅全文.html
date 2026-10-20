@@ -1,0 +1,188 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>能量与功率：同样的能量，为什么快慢不同？—待专业审核</title><style>body{max-width:850px;margin:24px auto;padding:0 20px;font:17px/1.7 system-ui;color:#182431}section{border-top:1px solid #ccd;padding:16px 0}p{white-space:pre-wrap;overflow-wrap:anywhere}h1{font-size:26px}h2{font-size:21px}@media print{body{font-size:11pt;margin:0}h2{break-after:avoid}section{break-inside:auto}}</style><h1>能量与功率：同样的能量，为什么快慢不同？</h1><section><h2>审阅须知</h2><p>状态：待独立专业审核。内部检查和程序测试不等于专家结论。
+课程ID：353-energy-power
+版本：0.1
+内容SHA256：db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05
+目标年度：2028；范围状态：provisional-previous-year
+先修：353-quantity-measurement
+请填写review-form.json并保存为新的审核意见文件；由项目review-ledger追加归档，不直接改原课程或覆盖历史。未核实审核人资格不得称正式审定。</p></section><section><h2>完整讲解</h2><p>上一课把量和单位分开，现在区分‘转移了多少’与‘转移多快’。能量的SI单位是焦耳J，功率的单位是瓦特W，1 W=1 J/s；在某段时间里的平均功率等于该段转移的能量除以经过时间。本课用假设加热器，不对应任何真实医疗设备或患者：甲以20 W工作30 s，乙以10 W工作60 s，在所述功率恒定且计算相应能量转移的模型下，两者均为600 J，但甲转移更快。两者能量相同不代表其他物理效应相同；温升、空间分布和损失等还需要额外条件，不能只凭600 J宣称有同样健康影响。
+
+要算能量，先把功率和时间放在同一套单位下。恒定功率时E=P×t；若各段功率不同但每段恒定，先逐段算再相加。原创例子先10 W工作20 s，再30 W工作10 s，总能量为200+300=500 J，总时长30 s，整段平均功率500/30约16.7 W，不是(10+30)/2=20 W，因为两段时间不同。功率随时间连续变化时需要更一般的方法，本课不学积分，不把某一时刻的功率乘全程时间当通用公式。所有题都明确是恒定、分段恒定还是给定平均功率。
+
+单位名称也能帮忙识别概念。千瓦时kWh虽然名字里有瓦，它是功率乘时间，属于能量单位：1 kWh=1000 J/s×3600 s=3.6×10^6 J。相反kW是功率单位，不能直接与J比较大小。功率更大并不必然耗能更多，还需比较工作时间；将同一能量写成J或kWh并不会改变转移的能量。本课换算只是数量分析，不讨论电价、用电系统或设备维修，也不把铭牌功率假定为每一时刻实际功率。先确认题目给的是输入、输出还是消耗，再选等式。
+
+最后明确研究边界和能量去向。本课假设100 J输入中，有60 J成为所指定的有用输出，则该定义下效率为60/100=60%，其余40 J去了其他形式或路径，不是能量凭空消失。只有在输入输出的系统边界和时间段一致、定义清楚时，这个比值才有意义；不能拿不同时间的输入和输出硬比。‘有用’由任务定义，并不表示40 J永远无用途。效率、功率、能量都不能直接当成临床疗效或风险：后续剂量需要看真正沉积到指定物质的能量及质量，输入设备的电能不是自动全部沉积人体。本课先训练守恒记账和模型边界，不提供医学处方。</p></section><section><h2>标准定义</h2><p>平均功率=在给定时间段转移的能量/该段时长，1 W=1 J/s。恒定功率下E=Pt，分段恒定可分段累计。kWh是能量单位。效率需定义同一边界和时段的有用输出与输入。</p></section><section><h2>条件与边界</h2><p>先修量与单位和四则运算；仅题给恒定或分段恒定模型，不教连续变化积分。SI单位依据BIPM，具体例子为原创教学分解，不冒充官方列明公式。2027范围对2028暂定；不从输入电能推个人剂量或疗效。</p></section><section><h2>分步示例</h2><p>20 W×30 s=600 J；10 W×60 s也600 J，平均功率不同。
+10 W×20 s+30 W×10 s=500 J；平均500/30≈16.7 W。
+1 kWh=3.6×10^6 J，不能把kW当能量。
+100 J输入、60 J指定有用输出：效率60%，其余40 J进入其他路径。</p></section><section><h2>常见误区</h2><p>能量相同则功率和效果相同。
+任意变功率也用瞬时P乘全程t。
+不等时两段功率直接取算术平均。
+kWh是功率单位。
+效率损失的能量凭空消失或直接等于健康损害。</p></section><section><h2>学习目标及证据</h2><p>ep-g1：区分能量与平均功率并正确计算
+验收：给出J、W、s关系，理解同能量可有不同功率。
+教学：section-1；闭卷索引：0；题号：ep-b1、ep-a1、ep-d1
+
+ep-g2：分段累计能量并计算整体平均功率
+验收：按时长加权，不把不等时功率直接平均，明确模型限制。
+教学：section-2；闭卷索引：1；题号：ep-b2、ep-a2、ep-d2
+
+ep-g3：判断能量单位并推导kWh换算
+验收：区分kW与kWh，按秒和千倍换算得到3.6×10^6 J。
+教学：section-3；闭卷索引：2；题号：ep-b3、ep-a3、ep-d3
+
+ep-g4：按边界计算效率并解释守恒及应用限制
+验收：同一时段系统内说明输入输出与其他路径，不由电能直接推剂量或疗效。
+教学：section-4；闭卷索引：3；题号：ep-b4、ep-a4、ep-d4</p></section><section><h2>闭卷回忆</h2><p>0：用J与W解释能量和平均功率，比较同能量不同时间。
+1：闭卷算分段能量和整段平均功率，说明时间权重。
+2：推导kWh到J并解释kW与kWh区别。
+3：定义系统边界和效率，说明能量去向及不能作出的健康结论。</p></section><section><h2>复习机制</h2><p>{
+  &quot;intervalDays&quot;: [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  &quot;delayedPrompt&quot;: &quot;更换功率与时长，闭卷累计能量、判断单位并说明模型条件。&quot;
+}</p></section><section><h2>需要专家逐项确认</h2><p>1. 功率能量边界与例题需物理教师审核 —— 未审核；请记录问题位置、建议、依据及复核结论。
+2. 不教复杂连续模型或设备维修 —— 未审核；请记录问题位置、建议、依据及复核结论。
+3. 不从输入能量推临床效果 —— 未审核；请记录问题位置、建议、依据及复核结论。
+4. 2028正式范围尚未确认 —— 未审核；请记录问题位置、建议、依据及复核结论。</p></section><section><h2>来源与真实访问结果</h2><p>{
+  &quot;checkedAt&quot;: &quot;2026-10-19&quot;,
+  &quot;status&quot;: &quot;internal-check-pending-independent-review&quot;,
+  &quot;mapping&quot;: {
+    &quot;nodeId&quot;: &quot;s27v2-mp-core-energy&quot;,
+    &quot;source&quot;: &quot;https://vsph.tsinghua.edu.cn/info/1025/2775.htm&quot;,
+    &quot;officialExamMappingConfirmed&quot;: false,
+    &quot;targetYear&quot;: 2028,
+    &quot;verifiedCoverage&quot;: false
+  },
+  &quot;sources&quot;: [
+    {
+      &quot;url&quot;: &quot;https://vsph.tsinghua.edu.cn/info/1025/2775.htm&quot;,
+      &quot;publisher&quot;: &quot;清华大学&quot;,
+      &quot;publishedAt&quot;: &quot;2026-09-30&quot;,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: &quot;2027医学物理基本概念、测量与数量分析；2028暂定&quot;,
+      &quot;limits&quot;: &quot;只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.bipm.org/en/publications/si-brochure&quot;,
+      &quot;publisher&quot;: &quot;BIPM&quot;,
+      &quot;publishedAt&quot;: &quot;2026&quot;,
+      &quot;accessedAt&quot;: &quot;2026-10-19&quot;,
+      &quot;accessStatus&quot;: &quot;full-page-read&quot;,
+      &quot;supports&quot;: &quot;SI第9版2026更新及J、W关系；已读官方目录与链接PDF相关表&quot;,
+      &quot;limits&quot;: &quot;只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单&quot;
+    }
+  ],
+  &quot;failedRetrievals&quot;: [],
+  &quot;pendingReview&quot;: [
+    &quot;功率能量边界与例题需物理教师审核&quot;,
+    &quot;不教复杂连续模型或设备维修&quot;,
+    &quot;不从输入能量推临床效果&quot;,
+    &quot;2028正式范围尚未确认&quot;
+  ],
+  &quot;expertApproved&quot;: false,
+  &quot;formalReleaseApproved&quot;: false
+}</p></section><section><h2>basicQuestions / ep-b1</h2><p>假设恒定20 W持续30 s，相关能量转移是多少？
+0：600 J
+1：600 W
+2：2/3 J
+标准/参考答案：600 J
+解析：A由E=Pt=20 J/s×30 s。B单位错误；C误将功率除时间。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / ep-b2</h2><p>假设10 W工作20 s，再30 W工作10 s，总能量是？
+0：400 J
+1：500 J
+2：600 J
+标准/参考答案：500 J
+解析：B：200+300=500 J。A与C可由错误平均或使用错误总时间产生，不满足分段模型。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / ep-b3</h2><p>下列哪个是能量单位而不是功率单位？
+0：W
+1：kW
+2：kWh
+标准/参考答案：kWh
+解析：C为功率乘时间。A和B是不同倍数的功率单位，不能只因kWh里有W就当功率。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>basicQuestions / ep-b4</h2><p>同一时段100 J输入、60 J指定有用输出，哪项合理？
+0：效率60%，另40 J进入其他路径
+1：另40 J凭空消失
+2：效率与任务边界无关
+标准/参考答案：效率60%，另40 J进入其他路径
+解析：A符合该系统定义。B违背能量记账；C忽略有用输出及边界定义。
+
+难度：basic；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / ep-a1</h2><p>甲20 W工作30 s，乙10 W工作60 s。比较能量和平均功率，并说明能否据此判两者对人体效果相同。
+
+标准/参考答案：两者均600 J，甲20 W、乙10 W。仅凭输入能量相同不能判人体效果相同，还需沉积位置、质量、时程、损失和生物等条件，本例不是患者模型。
+解析：单位与限制都要核对；不自动给医学效果分数。
+主观评分要点（待核对，不自动给分）：
+1. 两者600 J
+2. 功率20与10 W
+3. 区分输入与沉积
+4. 不能直接推出人体效果相同
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / ep-a2</h2><p>对10 W×20 s及30 W×10 s两段，计算总能量和全程平均功率，并指出直接平均10和30的问题。
+
+标准/参考答案：总500 J，时长30 s，平均500/30约16.7 W。两段持续时间不同，应以能量总和除总时长，不能简单平均得到20 W。
+解析：可接受50/3 W等同值及合理舍入；需展示分段能量和时长。
+主观评分要点（待核对，不自动给分）：
+1. 200+300 J
+2. 总时长30 s
+3. 平均约16.7 W
+4. 说明不等时权重
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / ep-a3</h2><p>已知1 kW=1000 W、1 h=3600 s，独立推导1 kWh的J数，并解释为什么不是功率。
+
+标准/参考答案：1000 J/s×3600 s=3.6×10^6 J；s约去，表示某功率持续时间后的能量，不是只有功率大小。
+解析：不能只写记忆数字，需要关系、单位和物理含义。
+主观评分要点（待核对，不自动给分）：
+1. 千倍关系
+2. 小时换秒
+3. 3.6×10^6 J
+4. 解释功率乘时间为能量
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>applicationQuestions / ep-a4</h2><p>关于能量记账和效率，哪些说法有依据？
+0：先说明输入输出的系统和时段
+1：效率60%说明患者获益60%
+2：其他路径的能量不代表消失
+3：铭牌功率总等于每时刻实际功率
+标准/参考答案：先说明输入输出的系统和时段；其他路径的能量不代表消失
+解析：A/C符合定义和守恒。B把物理效率当临床获益；D把标称参数作无条件实测值，均缺依据。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / ep-d1</h2><p>隔日：假设15 W恒定工作40 s，转移能量为？
+0：600 J
+1：600 W
+2：0.375 J
+标准/参考答案：600 J
+解析：15×40=600，单位J/s×s=J。B单位错；C误除时间。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / ep-d2</h2><p>隔日：5 W工作10 s后15 W工作30 s，总能量和全程平均功率是多少？
+
+标准/参考答案：50+450=500 J，总40 s，平均12.5 W。不能因两个阶段各一个就平均成10 W。
+解析：检验换新数字后是否能独立按时长计算，不背原例答案。
+主观评分要点（待核对，不自动给分）：
+1. 两段50和450 J
+2. 总500 J
+3. 总40 s及12.5 W
+4. 指出不等时不能直接平均
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / ep-d3</h2><p>隔日：0.5 kWh等于多少J？
+0：500 J
+1：1.8×10^6 J
+2：0.5 W
+标准/参考答案：1.8×10^6 J
+解析：B为0.5×3.6×10^6。A漏时间换算；C不仅数值也混淆量的种类。
+
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>delayedQuestions / ep-d4</h2><p>隔日：假设200 J输入，150 J成为题目定义的有用输出。求效率，说明其余能量和至少一条健康结论边界。
+
+标准/参考答案：效率75%，另50 J进入其他形式或路径。需边界时段一致，不能将75%解释为治愈率，输入能量也不必全沉积人体。
+解析：物理记账与临床效果必须分开；不用臆造未知损失的具体去向。
+主观评分要点（待核对，不自动给分）：
+1. 效率75%
+2. 其余50 J
+3. 系统时段和路径边界
+4. 不把效率或输入直接当疗效剂量
+难度：application；请核查唯一性、干扰项及目标对应。</p></section><section><h2>审核记录表</h2><p>审核人及可核实资格：____
+日期：____
+结论：待审 / 需修改 / 拒绝 / 批准（须满足项目专业审定门槛）
+知识准确性、考试范围、公式单位、答案、解析、评分点、来源版权：逐项待审核
+问题编号｜课程/题号位置｜错误与依据｜建议修改｜作者修订提交｜复核人及结论
+（空白，不代表真实意见；补充意见以新文件追加保存。）</p></section></html>

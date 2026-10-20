@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-19",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27v2-mp-core-energy",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": "2027医学物理基本概念、测量与数量分析；2028暂定",
+      "limits": "只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单"
+    },
+    {
+      "url": "https://www.bipm.org/en/publications/si-brochure",
+      "publisher": "BIPM",
+      "publishedAt": "2026",
+      "accessedAt": "2026-10-19",
+      "accessStatus": "full-page-read",
+      "supports": "SI第9版2026更新及J、W关系；已读官方目录与链接PDF相关表",
+      "limits": "只支持所述概念；独立专业审核未完成，不作临床程序或官方逐项公式清单"
+    }
+  ],
+  "failedRetrievals": [],
+  "pendingReview": [
+    "功率能量边界与例题需物理教师审核",
+    "不教复杂连续模型或设备维修",
+    "不从输入能量推临床效果",
+    "2028正式范围尚未确认"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

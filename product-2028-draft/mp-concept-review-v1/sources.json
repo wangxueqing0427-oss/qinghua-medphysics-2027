@@ -1,0 +1,24 @@
+{
+ "revision":"mp-concept-review-v1-2026-10-19","targetYear":2028,"scopeStatus":"provisional_previous_year","expertApproved":false,
+ "rights":"仅记录链接、定位及原创内部解释；不转载IAEA教材全文、表图或翻译，不因可在线阅读推断再分发许可。",
+ "sources":[
+  {"id":"TH27","url":"https://vsph.tsinghua.edu.cn/info/1025/2775.htm","publishedAt":"2026-09-30","accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"2027年三部分及医学物理专项范围","limits":"2028暂定；没有具体章节分值和公式清单"},
+  {"id":"IAEA05","url":"https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf","publishedAt":"2005-07","accessedAt":"2026-10-19","accessStatus":"pdf-text-sections-read","supports":"第1章光子相互作用、第2章剂量、第8章电子射程、第10/12章验收commissioning与QA；部分章节仅目录定位","limits":"历史教学参考而非现行临床程序；公式OCR可疑，未读原页图像的系数不确证；不能按目录即声称所有专业细节核验"},
+  {"id":"WHO23","url":"https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects","publishedAt":"2023-07-27","accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"Bq、Gy、有效剂量Sv及辐射健康概念入门","limits":"公众概览，不用于给个人风险或放疗处方换算"},
+  {"id":"CDC-FREQ","url":"https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html","publishedAt":null,"accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"累计发病风险的期初风险人口分母、人时发病率、患病指标","limits":"历史教材；中文术语须保留定义与观察期"},
+  {"id":"CDC-ASSOC","url":"https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html","publishedAt":null,"reviewedAt":"2012-05-18","accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"风险比、率比、OR与罕见结局近似及典型病例对照设计边界","limits":"不涵盖全部抽样方案；不将观察关联当因果"},
+  {"id":"NIST-CV","url":"https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/coefvari.htm","publishedAt":null,"accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"CV与有意义零点的比率尺度、均值近零敏感性","limits":"不意味着任何两类不同量纲数据都适合比较"},
+  {"id":"NIST-U2","url":"https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-2-classification-components-uncertainty","publishedAt":null,"documentEdition":1994,"accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"误差与不确定度、A/B按评定方法分而非随机/系统一一对应","limits":"历史指导；现代中文术语需计量专家复核"},
+  {"id":"NIST-U3","url":"https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-3-type-evaluation-standard-uncertainty","publishedAt":null,"documentEdition":1994,"accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"A类可由有效统计方法评定，包括独立重复观察均值标准差","limits":"样本离散度不直接等于完整结果不确定度"},
+  {"id":"NIST-U4","url":"https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-4-type-b-evaluation-standard-uncertainty","publishedAt":null,"documentEdition":1994,"accessedAt":"2026-10-19","accessStatus":"full-page-read","supports":"B类利用校准、分辨率、规格与既有资料等信息进行评定","limits":"不能无模型将所有量直接相加"},
+  {"id":"SI26","url":"https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf/2d2b50bf-f2b4-9661-f402-5f9d66e4b507?download=true&t=1780410776583&version=7.0","publishedAt":"2026","accessedAt":"2026-10-19","accessStatus":"pdf-text-sections-read","supports":"SI第9版2026更新；J、W、Gy、Sv及不能因同量纲混用量名","limits":"物理关系教学不是官方考点公式清单"},
+  {"id":"FDA21","url":"https://www.fda.gov/media/153486/download","publishedAt":"2021-10","accessedAt":"2026-10-19","accessStatus":"pdf-text-sections-read","supports":"训练测试独立性、患者/采集/中心依赖、代表性和生命周期评价","limits":"历史原则，不代替当前监管要求或证明算法临床有效"},
+  {"id":"WHO-VENT","url":"https://www.who.int/publications/i/item/9789240021280","publishedAt":"2021-03-01","accessedAt":"2026-10-19","accessStatus":"publication-overview-read","supports":"通风评估及室内空气质量与健康风险的关系","limits":"只核实简介，未读取路线图全文；不能确认ΔC=G/Q的全部假设或具体阈值"},
+  {"id":"NM14","url":"https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf","publishedAt":null,"accessedAt":"2026-10-19","accessStatus":"fetch-failed","supports":null,"limits":"搜索可找到标题，但正文读取失败；不能算已核验，出版年不凭搜索元数据填定"}
+ ],
+ "failedRetrievals":[
+  {"url":"https://www.iaea.org/resources/rpop/health-professionals/radiology/quantities-and-units","result":"fetch error"},
+  {"url":"https://www.icrp.org/page.asp?id=5","result":"页面可读但未找到有效剂量定义；不是该定义的证据"},
+  {"url":"https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf#page=319","result":"公式8.5文本提取有疑似系数错误；截图工具不支持，未确认原页系数，不用于改写"}
+ ]
+}

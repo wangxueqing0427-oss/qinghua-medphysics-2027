@@ -1,0 +1,29 @@
+{
+  "unitId": "353-uncertainty-foundation",
+  "version": "0.1",
+  "contentSha256": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+  "reviewStatus": "pending-independent-review",
+  "expertApproved": false,
+  "files": [
+    {
+      "file": "审阅全文.html",
+      "sha256": "e9fed48cfc9c5b0e94ed5777115f8ff5e24013e22359654232360f4e428340fc"
+    },
+    {
+      "file": "审阅全文.md",
+      "sha256": "2ad526448ee74fbc8c34624761ee7d5d4c0946c59d0b6dbaeab7fc83df0d00a8"
+    },
+    {
+      "file": "unit.json",
+      "sha256": "5bcd6f7159e0dca582e5f2bea2f3b8f93b770d46e2a89186f6261a206783b63a"
+    },
+    {
+      "file": "sources.json",
+      "sha256": "2dfdf46460436534013226dce1a6ce93cdc4b3c59b4e9dca0e54273000b4acd0"
+    },
+    {
+      "file": "review-form.json",
+      "sha256": "2a5f446ade50e3377d119b6ed4728783fb0ed5f816a61fbd97a72f85335cd8b2"
+    }
+  ]
+}

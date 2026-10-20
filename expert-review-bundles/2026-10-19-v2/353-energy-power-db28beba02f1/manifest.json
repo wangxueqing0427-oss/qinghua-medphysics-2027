@@ -1,0 +1,29 @@
+{
+  "unitId": "353-energy-power",
+  "version": "0.1",
+  "contentSha256": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+  "reviewStatus": "pending-independent-review",
+  "expertApproved": false,
+  "files": [
+    {
+      "file": "审阅全文.html",
+      "sha256": "5cae5ee00b1a3dd997d9d586d384f44901962a61cb2af4f49cd875a5fcfc4f59"
+    },
+    {
+      "file": "审阅全文.md",
+      "sha256": "3091730be422037254ef4bf2cdcaa9e8d338f52f6bfaa6b2ed025eea480ff9af"
+    },
+    {
+      "file": "unit.json",
+      "sha256": "439f27efa39c5c27019772ddf848bcc54d34a334b2c280eb2e147d4c413fd322"
+    },
+    {
+      "file": "sources.json",
+      "sha256": "060a737ad6afdbd26055844a07505db0b0ecdd5270fb9432cda113311174aad5"
+    },
+    {
+      "file": "review-form.json",
+      "sha256": "64bedb1887fe7a029e4d614908a3952a3b37f56e74b8f0ec00453ddf1e0060b6"
+    }
+  ]
+}

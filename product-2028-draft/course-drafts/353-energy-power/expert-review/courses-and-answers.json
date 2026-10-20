@@ -1,0 +1,342 @@
+{
+  "purpose": "Independent expert review; no personal learning data",
+  "unitFingerprints": [
+    {
+      "unitId": "353-energy-power",
+      "unitVersion": "0.1",
+      "contentSha256": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05"
+    }
+  ],
+  "units": [
+    {
+      "id": "353-energy-power",
+      "version": "0.1",
+      "subject": "353",
+      "title": "能量与功率：同样的能量，为什么快慢不同？",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创解释、题设及计算例子；不复制来源教材或商业设备参数。",
+      "writtenAt": "2026-10-19",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-previous-year",
+      "mapping": [
+        "s27v2-mp-core-energy"
+      ],
+      "prerequisites": [
+        "353-quantity-measurement"
+      ],
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.bipm.org/en/publications/si-brochure"
+      ],
+      "explanation": "上一课把量和单位分开，现在区分‘转移了多少’与‘转移多快’。能量的SI单位是焦耳J，功率的单位是瓦特W，1 W=1 J/s；在某段时间里的平均功率等于该段转移的能量除以经过时间。本课用假设加热器，不对应任何真实医疗设备或患者：甲以20 W工作30 s，乙以10 W工作60 s，在所述功率恒定且计算相应能量转移的模型下，两者均为600 J，但甲转移更快。两者能量相同不代表其他物理效应相同；温升、空间分布和损失等还需要额外条件，不能只凭600 J宣称有同样健康影响。\n\n要算能量，先把功率和时间放在同一套单位下。恒定功率时E=P×t；若各段功率不同但每段恒定，先逐段算再相加。原创例子先10 W工作20 s，再30 W工作10 s，总能量为200+300=500 J，总时长30 s，整段平均功率500/30约16.7 W，不是(10+30)/2=20 W，因为两段时间不同。功率随时间连续变化时需要更一般的方法，本课不学积分，不把某一时刻的功率乘全程时间当通用公式。所有题都明确是恒定、分段恒定还是给定平均功率。\n\n单位名称也能帮忙识别概念。千瓦时kWh虽然名字里有瓦，它是功率乘时间，属于能量单位：1 kWh=1000 J/s×3600 s=3.6×10^6 J。相反kW是功率单位，不能直接与J比较大小。功率更大并不必然耗能更多，还需比较工作时间；将同一能量写成J或kWh并不会改变转移的能量。本课换算只是数量分析，不讨论电价、用电系统或设备维修，也不把铭牌功率假定为每一时刻实际功率。先确认题目给的是输入、输出还是消耗，再选等式。\n\n最后明确研究边界和能量去向。本课假设100 J输入中，有60 J成为所指定的有用输出，则该定义下效率为60/100=60%，其余40 J去了其他形式或路径，不是能量凭空消失。只有在输入输出的系统边界和时间段一致、定义清楚时，这个比值才有意义；不能拿不同时间的输入和输出硬比。‘有用’由任务定义，并不表示40 J永远无用途。效率、功率、能量都不能直接当成临床疗效或风险：后续剂量需要看真正沉积到指定物质的能量及质量，输入设备的电能不是自动全部沉积人体。本课先训练守恒记账和模型边界，不提供医学处方。",
+      "definition": "平均功率=在给定时间段转移的能量/该段时长，1 W=1 J/s。恒定功率下E=Pt，分段恒定可分段累计。kWh是能量单位。效率需定义同一边界和时段的有用输出与输入。",
+      "conditions": "先修量与单位和四则运算；仅题给恒定或分段恒定模型，不教连续变化积分。SI单位依据BIPM，具体例子为原创教学分解，不冒充官方列明公式。2027范围对2028暂定；不从输入电能推个人剂量或疗效。",
+      "example": "20 W×30 s=600 J；10 W×60 s也600 J，平均功率不同。\n10 W×20 s+30 W×10 s=500 J；平均500/30≈16.7 W。\n1 kWh=3.6×10^6 J，不能把kW当能量。\n100 J输入、60 J指定有用输出：效率60%，其余40 J进入其他路径。",
+      "misconceptions": [
+        "能量相同则功率和效果相同。",
+        "任意变功率也用瞬时P乘全程t。",
+        "不等时两段功率直接取算术平均。",
+        "kWh是功率单位。",
+        "效率损失的能量凭空消失或直接等于健康损害。"
+      ],
+      "recall": [
+        "用J与W解释能量和平均功率，比较同能量不同时间。",
+        "闭卷算分段能量和整段平均功率，说明时间权重。",
+        "推导kWh到J并解释kW与kWh区别。",
+        "定义系统边界和效率，说明能量去向及不能作出的健康结论。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "20 W与10 W在不同时间都转移600 J。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "不等时两段总500 J、平均约16.7 W。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "1 kWh=3.6×10^6 J。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "100 J分成60 J与40 J，效率依任务定义。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "ep-g1",
+          "description": "区分能量与平均功率并正确计算",
+          "successCriteria": "给出J、W、s关系，理解同能量可有不同功率。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "ep-b1",
+            "ep-a1",
+            "ep-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "ep-g2",
+          "description": "分段累计能量并计算整体平均功率",
+          "successCriteria": "按时长加权，不把不等时功率直接平均，明确模型限制。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "ep-b2",
+            "ep-a2",
+            "ep-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "ep-g3",
+          "description": "判断能量单位并推导kWh换算",
+          "successCriteria": "区分kW与kWh，按秒和千倍换算得到3.6×10^6 J。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "ep-b3",
+            "ep-a3",
+            "ep-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "ep-g4",
+          "description": "按边界计算效率并解释守恒及应用限制",
+          "successCriteria": "同一时段系统内说明输入输出与其他路径，不由电能直接推剂量或疗效。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "ep-b4",
+            "ep-a4",
+            "ep-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "ep-b1",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "假设恒定20 W持续30 s，相关能量转移是多少？",
+          "options": [
+            "600 J",
+            "600 W",
+            "2/3 J"
+          ],
+          "answer": 0,
+          "explanation": "A由E=Pt=20 J/s×30 s。B单位错误；C误将功率除时间。"
+        },
+        {
+          "id": "ep-b2",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "假设10 W工作20 s，再30 W工作10 s，总能量是？",
+          "options": [
+            "400 J",
+            "500 J",
+            "600 J"
+          ],
+          "answer": 1,
+          "explanation": "B：200+300=500 J。A与C可由错误平均或使用错误总时间产生，不满足分段模型。"
+        },
+        {
+          "id": "ep-b3",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "下列哪个是能量单位而不是功率单位？",
+          "options": [
+            "W",
+            "kW",
+            "kWh"
+          ],
+          "answer": 2,
+          "explanation": "C为功率乘时间。A和B是不同倍数的功率单位，不能只因kWh里有W就当功率。"
+        },
+        {
+          "id": "ep-b4",
+          "type": "single",
+          "difficulty": "basic",
+          "stem": "同一时段100 J输入、60 J指定有用输出，哪项合理？",
+          "options": [
+            "效率60%，另40 J进入其他路径",
+            "另40 J凭空消失",
+            "效率与任务边界无关"
+          ],
+          "answer": 0,
+          "explanation": "A符合该系统定义。B违背能量记账；C忽略有用输出及边界定义。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "ep-a1",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "甲20 W工作30 s，乙10 W工作60 s。比较能量和平均功率，并说明能否据此判两者对人体效果相同。",
+          "answer": "两者均600 J，甲20 W、乙10 W。仅凭输入能量相同不能判人体效果相同，还需沉积位置、质量、时程、损失和生物等条件，本例不是患者模型。",
+          "explanation": "单位与限制都要核对；不自动给医学效果分数。",
+          "rubric": [
+            "两者600 J",
+            "功率20与10 W",
+            "区分输入与沉积",
+            "不能直接推出人体效果相同"
+          ]
+        },
+        {
+          "id": "ep-a2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "对10 W×20 s及30 W×10 s两段，计算总能量和全程平均功率，并指出直接平均10和30的问题。",
+          "answer": "总500 J，时长30 s，平均500/30约16.7 W。两段持续时间不同，应以能量总和除总时长，不能简单平均得到20 W。",
+          "explanation": "可接受50/3 W等同值及合理舍入；需展示分段能量和时长。",
+          "rubric": [
+            "200+300 J",
+            "总时长30 s",
+            "平均约16.7 W",
+            "说明不等时权重"
+          ]
+        },
+        {
+          "id": "ep-a3",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "已知1 kW=1000 W、1 h=3600 s，独立推导1 kWh的J数，并解释为什么不是功率。",
+          "answer": "1000 J/s×3600 s=3.6×10^6 J；s约去，表示某功率持续时间后的能量，不是只有功率大小。",
+          "explanation": "不能只写记忆数字，需要关系、单位和物理含义。",
+          "rubric": [
+            "千倍关系",
+            "小时换秒",
+            "3.6×10^6 J",
+            "解释功率乘时间为能量"
+          ]
+        },
+        {
+          "id": "ep-a4",
+          "type": "multi",
+          "difficulty": "application",
+          "stem": "关于能量记账和效率，哪些说法有依据？",
+          "options": [
+            "先说明输入输出的系统和时段",
+            "效率60%说明患者获益60%",
+            "其他路径的能量不代表消失",
+            "铭牌功率总等于每时刻实际功率"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A/C符合定义和守恒。B把物理效率当临床获益；D把标称参数作无条件实测值，均缺依据。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "ep-d1",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日：假设15 W恒定工作40 s，转移能量为？",
+          "options": [
+            "600 J",
+            "600 W",
+            "0.375 J"
+          ],
+          "answer": 0,
+          "explanation": "15×40=600，单位J/s×s=J。B单位错；C误除时间。"
+        },
+        {
+          "id": "ep-d2",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：5 W工作10 s后15 W工作30 s，总能量和全程平均功率是多少？",
+          "answer": "50+450=500 J，总40 s，平均12.5 W。不能因两个阶段各一个就平均成10 W。",
+          "explanation": "检验换新数字后是否能独立按时长计算，不背原例答案。",
+          "rubric": [
+            "两段50和450 J",
+            "总500 J",
+            "总40 s及12.5 W",
+            "指出不等时不能直接平均"
+          ]
+        },
+        {
+          "id": "ep-d3",
+          "type": "single",
+          "difficulty": "application",
+          "stem": "隔日：0.5 kWh等于多少J？",
+          "options": [
+            "500 J",
+            "1.8×10^6 J",
+            "0.5 W"
+          ],
+          "answer": 1,
+          "explanation": "B为0.5×3.6×10^6。A漏时间换算；C不仅数值也混淆量的种类。"
+        },
+        {
+          "id": "ep-d4",
+          "type": "subjective",
+          "difficulty": "application",
+          "stem": "隔日：假设200 J输入，150 J成为题目定义的有用输出。求效率，说明其余能量和至少一条健康结论边界。",
+          "answer": "效率75%，另50 J进入其他形式或路径。需边界时段一致，不能将75%解释为治愈率，输入能量也不必全沉积人体。",
+          "explanation": "物理记账与临床效果必须分开；不用臆造未知损失的具体去向。",
+          "rubric": [
+            "效率75%",
+            "其余50 J",
+            "系统时段和路径边界",
+            "不把效率或输入直接当疗效剂量"
+          ]
+        }
+      ],
+      "rubric": [
+        "量和单位",
+        "分段和时间权重",
+        "能量守恒与效率定义",
+        "应用边界"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "更换功率与时长，闭卷累计能量、判断单位并说明模型条件。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "功率能量边界与例题需物理教师审核",
+          "不教复杂连续模型或设备维修",
+          "不从输入能量推临床效果",
+          "2028正式范围尚未确认"
+        ]
+      }
+    }
+  ],
+  "reviewLog": []
+}

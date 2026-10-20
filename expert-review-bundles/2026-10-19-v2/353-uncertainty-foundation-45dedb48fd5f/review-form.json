@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "reviewer": null,
+  "qualification": null,
+  "date": null,
+  "unitId": "353-uncertainty-foundation",
+  "unitVersion": "0.1",
+  "contentSha256": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+  "decision": "pending",
+  "checks": {
+    "knowledge": null,
+    "scopeYear": null,
+    "formulaAndUnits": null,
+    "questionAnswer": null,
+    "explanation": null,
+    "rubric": null,
+    "sourceAndRights": null
+  },
+  "issues": [],
+  "correctionCommit": null,
+  "recheckReviewer": null,
+  "recheckDecision": "pending",
+  "formalReleaseApproved": false
+}

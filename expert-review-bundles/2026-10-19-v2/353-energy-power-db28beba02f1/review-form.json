@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "reviewer": null,
+  "qualification": null,
+  "date": null,
+  "unitId": "353-energy-power",
+  "unitVersion": "0.1",
+  "contentSha256": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+  "decision": "pending",
+  "checks": {
+    "knowledge": null,
+    "scopeYear": null,
+    "formulaAndUnits": null,
+    "questionAnswer": null,
+    "explanation": null,
+    "rubric": null,
+    "sourceAndRights": null
+  },
+  "issues": [],
+  "correctionCommit": null,
+  "recheckReviewer": null,
+  "recheckDecision": "pending",
+  "formalReleaseApproved": false
+}
