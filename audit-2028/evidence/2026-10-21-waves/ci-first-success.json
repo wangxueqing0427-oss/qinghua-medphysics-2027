@@ -1,0 +1,16 @@
+{
+  "headSha": "2b4a3621c947ebab434ed96f8711cf95d62d041f",
+  "runId": 39513783047,
+  "jobId": 118940915262,
+  "conclusion": "success",
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39513783047",
+  "browser": {
+    "passed": 56,
+    "total": 56,
+    "scope": "Original seven-unit application 42; seven expert review HTMLs 14; Chromium/WebKit mobile; not new draft application or real iPhone"
+  },
+  "logExcerpt": [
+    "2026-10-20T23:17:42.4739799Z   56 passed (1.3m)",
+    "2026-10-20T23:17:42.5408742Z Passed: 56; unexpected: 0; skipped: 0; flaky: 0."
+  ]
+}

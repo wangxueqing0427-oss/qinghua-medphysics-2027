@@ -1,0 +1,13 @@
+{
+  "scope": "Evidence metadata and append-only status composition only; not automatic verification of physics, source images or expert approval",
+  "results": [
+    {
+      "name": "Read-source metadata and all eight bounded updates retain the original 46 claims",
+      "pass": true
+    },
+    {
+      "name": "Fallback read never erases failed retrieval or turns text parsing into image/expert validation",
+      "pass": true
+    }
+  ]
+}
