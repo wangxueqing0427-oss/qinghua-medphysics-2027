@@ -1,0 +1,10 @@
+{
+  "scope": "Read-only full handoff document check; not expert assessment",
+  "date": "2026-10-20",
+  "file": "expert-review-bundles/医学物理113条完整审阅稿-cf432b1e2f4e.md",
+  "pointCount": 113,
+  "reportContentHash": "cf432b1e2f4edcede682db735135678862212394e5a492d218232ea36ee52fc9",
+  "fileSha256": "8a83f0b6542f0f42bc1c4c67d94f89ee62b9f080fc64ba8d222b458dea39b326",
+  "originalTextsPresent": true,
+  "expertApproved": false
+}
