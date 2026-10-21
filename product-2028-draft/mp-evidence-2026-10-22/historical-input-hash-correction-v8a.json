@@ -1,0 +1,26 @@
+{
+  "revision": "v8a-canonical-input-hashes",
+  "reason": "本轮补存v7文本时多加了一个末尾换行。Git blob读取接口也返回规范化文本，未取得base64；随后逐个证明仅移除该新增换行即精确匹配远程基线blob SHA后恢复本地字节。远程历史原件未改；v8初稿哈希保留并在此追加规范来源哈希。",
+  "baselineCommit": "ca82fab9cb9797b076c54b60df17255b0af72d44",
+  "corrections": [
+    {
+      "path": "audit-2028/evidence/2026-10-21-waves/conditional-claims-triage-v7.md",
+      "draftHash": "3715f187c7ab8bbc15d39555c503b1c8093ed4458774e968f020a960fd41f6c9",
+      "canonicalSha256": "dd1e8d423875128c18abbbace935503ecc35e6e21363a04263c61659d295bf6d",
+      "canonicalGitBlobSha": "4dca7a46cef78421f133ce74f17a085cb663aea0"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-21-waves/electron-coefficient-discrepancy-v7.json",
+      "draftHash": "1edc0116dd90822653b24333782f4615875f80ff2758bcb4485ea25225d6da98",
+      "canonicalSha256": "20b9bd9c7cf98bf2940df4bde304c6d39663fb3b009407f85a041e0bf373b3c9",
+      "canonicalGitBlobSha": "f747668505ac11311beb9edbb3a888be942332c4"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-21-waves/external-source-crosscheck-v7.md",
+      "draftHash": "e76b383e4656bb23610c75a108e7ed70490f15a26d4676367522946e6103b456",
+      "canonicalSha256": "7aafaf4e6f63e619737f39ae3754747b06d24583d6c65c40128d62c5676e7259",
+      "canonicalGitBlobSha": "abeca8bd4fb43dce9f5f6caae9d1b38031396436"
+    }
+  ],
+  "expertApproved": 0
+}

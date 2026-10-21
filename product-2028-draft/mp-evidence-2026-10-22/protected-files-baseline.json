@@ -1,0 +1,274 @@
+{
+  "remoteCommit": "ca82fab9cb9797b076c54b60df17255b0af72d44",
+  "scope": "Non-personal engineering assets only; no real learning storage",
+  "files": [
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/expert-review/courses-and-answers.json",
+      "gitBlobSha": "58725d2e7bf42a14cc23304a9ae983650cce9f68"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/sources-and-review.json",
+      "gitBlobSha": "8ec2d392c86bc4dcf19d91901f6c89059c85ff6d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/syllabus-node-snapshot.json",
+      "gitBlobSha": "b26a6fdd828be9ff98f1184e9788aa871a343e54"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/unit.json",
+      "gitBlobSha": "65dca73ff65a7fa10473e577ea54eb59c4e298a2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/expert-review/courses-and-answers.json",
+      "gitBlobSha": "6310bfcb3125384507b6b9a88425a61ddbf27a65"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/sources-and-review.json",
+      "gitBlobSha": "0f91ec12223aee4671f1d3315b5d50fb1ab60dfb"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/syllabus-node-snapshot.json",
+      "gitBlobSha": "d36581e5d2a50e9182ef61805a1f1c1cbeee3ead"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/unit.json",
+      "gitBlobSha": "537807adeeea77751f3d2f1a04a774de1623e502"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/expert-review/courses-and-answers.json",
+      "gitBlobSha": "f6feafb23eac607d07ee1b38db32b9d08b75a806"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/sources-and-review.json",
+      "gitBlobSha": "06dd4d81c58741f7f81955cb0ad605a2fb7be096"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/syllabus-node-snapshot.json",
+      "gitBlobSha": "ddfa75db77cc8c3a6167335a844d74b94ef17558"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/unit.json",
+      "gitBlobSha": "7f489e07b15d52f0074a2a2e295e2123eb90755a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/expert-review/courses-and-answers.json",
+      "gitBlobSha": "252de17e531415528ca9e72ef0928daac4f8dccb"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/sources-and-review.json",
+      "gitBlobSha": "7ccaad000792395c2c8191beda6e00d04f64eeb4"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/syllabus-node-snapshot.json",
+      "gitBlobSha": "8086045d9dadcd47bb5843d7e58db3e2df252b7a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/unit.json",
+      "gitBlobSha": "38b8ec8ddf15a2f8f9db2cbea8b7aa84f832b3f2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/expert-review/courses-and-answers.json",
+      "gitBlobSha": "a791e42b830ab4b92fd38afc75228733edd30e82"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/protected-baseline.json",
+      "gitBlobSha": "69c291cd3476fb363e7c50fd8bc04cc4e72d2b37"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/sources-and-review.json",
+      "gitBlobSha": "6008049e7c1601694a10af789e28d74086b081da"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/syllabus-node-snapshot.json",
+      "gitBlobSha": "cc7af07ad16a3e253d9451e6d121c6e61b58a0ff"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/unit.json",
+      "gitBlobSha": "ac1a7fbec603d5bcf067635aa90cec8b9bfcd58c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/内部审核与接续.md",
+      "gitBlobSha": "4f6afe8ad6db701e5d4f06c0fa885b2230c9f281"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/expert-review/courses-and-answers.json",
+      "gitBlobSha": "420aeada428f710299665a02b7397395c15bf40a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/sources-and-review.json",
+      "gitBlobSha": "9aa0e602af033de4c5e42334a4d9d12f96b425a5"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/syllabus-node-snapshot.json",
+      "gitBlobSha": "180193b9a03c869f119871c500a98d5725d78bac"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/unit.json",
+      "gitBlobSha": "ea08a483814b070dc0ac917c3611191b3d5c6d47"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/expert-review/courses-and-answers.json",
+      "gitBlobSha": "d33bc40e07aff63b24585ed6eddfb44c66fe808a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/sources-and-review.json",
+      "gitBlobSha": "2ab0c6262783cfc89a46db25883b0a51a203c237"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/syllabus-node-snapshot.json",
+      "gitBlobSha": "73e93b2d43c22ad5c835fedda47d765b88af19ee"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/unit.json",
+      "gitBlobSha": "78865d913a7bdf21095cf9908e9272af1c24c68a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/expert-review/courses-and-answers.json",
+      "gitBlobSha": "f98f70138b249b32a8dc12532321fd2094bb74bd"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/sources-and-review.json",
+      "gitBlobSha": "ff39f661235e45b9e67732e77e28f4fa5b32a6c3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/syllabus-node-snapshot.json",
+      "gitBlobSha": "307b3adc244595e7779f32c791d41e0a04b4a407"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/unit.json",
+      "gitBlobSha": "a75f6f94c22f28c314c3c2acd1094656305c37d0"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/内部交付.md",
+      "gitBlobSha": "7c72661cbbef9c5f149971514d1a7c840ef4edb3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/load-drafts.cjs",
+      "gitBlobSha": "e368646759d281bbaffe92c035d47d186424c121"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/expert-review/courses-and-answers.json",
+      "gitBlobSha": "63d4c2ffbfd2fe4b92cee8e2795a7d2df6a172d1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/sources-and-review.json",
+      "gitBlobSha": "affa233ff1dd3438ad0eb7c8bbbef092e305872d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/syllabus-node-snapshot.json",
+      "gitBlobSha": "907d1a2cb408e64cbabdef206e1a9fe3fbcd6a45"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/unit.json",
+      "gitBlobSha": "a98eecf976f9dc9a999431a539c5530e82c25f25"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/expert-review/courses-and-answers.json",
+      "gitBlobSha": "48c17e53c89840a54aec862dc8d45c217957a95b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/expert-review/review-template-v2.json",
+      "gitBlobSha": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/sources-and-review.json",
+      "gitBlobSha": "6b54c852659c5b680765297fb9a5395eef7b4ac7"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/syllabus-node-snapshot.json",
+      "gitBlobSha": "01833990cbe4221c2dca2f79fc0ac094c29bbc18"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/unit.json",
+      "gitBlobSha": "963dfa59fa429e71a22a2e672b670c737a0a85f8"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/内部交付.md",
+      "gitBlobSha": "4d919bfd582da73490052b626e5e13508b67304a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/registry.json",
+      "gitBlobSha": "7f0a7ac9ec49480d0335fb1e0cd25952a4b2325b"
+    },
+    {
+      "path": "product-2028-draft/course-engine.cjs",
+      "gitBlobSha": "7b268556234066e1e045dd1654837b53860f2f65"
+    },
+    {
+      "path": "product-2028-pilot-build/app.css",
+      "gitBlobSha": "8db46f89b208c4819f0b7e24b1f192f11134f5ab"
+    },
+    {
+      "path": "product-2028-pilot-build/course-engine.js",
+      "gitBlobSha": "7b268556234066e1e045dd1654837b53860f2f65"
+    },
+    {
+      "path": "product-2028-pilot-build/icon.svg",
+      "gitBlobSha": "6662b2f3f364734859561017d9cc4ad94bee6040"
+    },
+    {
+      "path": "product-2028-pilot-build/index.html",
+      "gitBlobSha": "0a23013019fefa97237770d188003c41b2930340"
+    },
+    {
+      "path": "product-2028-pilot-build/learning-controller.js",
+      "gitBlobSha": "ed2909c9e02033bb47bfc98da4b2b29d0b353a3f"
+    },
+    {
+      "path": "product-2028-pilot-build/manifest.json",
+      "gitBlobSha": "38c4e8a9614697e710b136cb378ba34269415d85"
+    },
+    {
+      "path": "product-2028-pilot-build/pilot-ui.js",
+      "gitBlobSha": "42d497dfa063bc3e0e90cd23057b2af704ec4a0f"
+    },
+    {
+      "path": "product-2028-pilot-build/profile-repository.js",
+      "gitBlobSha": "ac52000b8975b051c232c5345834905f9b190662"
+    },
+    {
+      "path": "product-2028-pilot-build/representative-courses.json",
+      "gitBlobSha": "22e48d8392f1e4e7a11eec9eb84762ff58e8baba"
+    },
+    {
+      "path": "product-2028-pilot-build/sw.js",
+      "gitBlobSha": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "revision": "conditional-queue-v8",
+  "basis": "30条原条件性支持逐条保留，不重复前轮22条报告",
+  "total": 30,
+  "actuallyFollowedUp": 9,
+  "remainingNotFollowedUp": 21,
+  "schemaCorrection": "v7队列把15条缺少sourceChecks字段误表述成无逐条来源。v6已有sourceIds及独立来源目录；字段缺失不等于来源未读。此记录不声称本轮重新核验所有旧来源。",
+  "rows": [
+    {
+      "id": "mp-01-point-4",
+      "pointHash": "0ffc2abe330135c8f38d572d5e5df93bee3e6ba8fb407c410081b328e6664da4",
+      "historicalGap": "核医学具体核素、探测成像用途未在已读原文中逐项核对。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§1.4.1，印刷26页 / PDF第64页；§13.1，印刷451–453页 / PDF第489–491页",
+          "supported": "核跃迁可产生γ光子；近距离治疗将封装源置于治疗体积内或附近。",
+          "unsupported": "核医学具体核素、探测成像用途未在已读原文中逐项核对。",
+          "conclusion": "条件性支持",
+          "proposal": "分开讲来源和用途；核医学例子补核素衰变资料后再列举。"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-01-point-8",
+      "pointHash": "b3061434d0d24d17761f678e484039fef67ccc792eb5680049a040197cb09cdd",
+      "historicalGap": "不能把所有速度区间写为越慢阻止本领必越大；不推导临床获益。",
+      "priorEvidenceReferences": [
+        "TRS461"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-01-point-9",
+      "pointHash": "e4acad080dc2b15d133a3049bad75e84dc2c5c253dda5d75a2cc9563d1a33312",
+      "historicalGap": "不支持无条件碳离子RBE总比质子高或固定比值。",
+      "priorEvidenceReferences": [
+        "TRS461"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-01-point-9",
+        "originalText": "碳离子同样具有有限射程和Bragg峰样深度剂量优势，同时线性能量传递（LET）和相对生物学效应（RBE）通常高于质子和常规光子，因此既有物理剂量学优势，也有更复杂的生物学与计划学问题。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "e4acad080dc2b15d133a3049bad75e84dc2c5c253dda5d75a2cc9563d1a33312",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "AAPM202-2020"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§4.6 pp30–31",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "RBE依赖组织、终点、分割与LET；不支持无条件的碳/质子固定排序。"
+          }
+        ],
+        "remaining": [
+          "改为条件性比较；不能以固定RBE推断个体疗效。"
+        ],
+        "minimumRevision": "改为条件性比较；不能以固定RBE推断个体疗效。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-03-point-4",
+      "pointHash": "4c4414bbb045885515b6b17654775272ab1fc716e21a3754015a536580612563",
+      "historicalGap": "不支持所有能区和所有型号通用选择；2005教材不能当现行临床校准协议。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§3.3.2–3.3.3，印刷79页 / PDF第117页；§6.13相关表面剂量正文，印刷209–210页 / PDF第247–248页",
+          "supported": "圆柱室的光子/电子束应用及平行板几何、表面/建成区测量用途有正文支持。",
+          "unsupported": "不支持所有能区和所有型号通用选择；2005教材不能当现行临床校准协议。",
+          "conclusion": "条件性支持",
+          "proposal": "保留应用方向；增加束质、有效测量点、扰动修正和适用协议限制。"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-03-point-5",
+      "pointHash": "3f664d434e0bd9d10567105b79a0150eab538716227c3c9094390ca10bb2ecb1",
+      "historicalGap": "不能外推所有半导体高分辨率或给统一快响应指标。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-03-point-6",
+      "pointHash": "382ffd4032bb9c8dc1864fbd970543aaab82ed58732a563e1d076040aacbb9ea",
+      "historicalGap": "未核实具体批次、扫描仪、后照射等待时间和小野通用校准程序。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§3.4.2，印刷84页 / PDF第122页",
+          "supported": "放射变色胶片相对剂量测量、高空间分辨、高梯度用途以及标定和环境控制有正文支持。",
+          "unsupported": "未核实具体批次、扫描仪、后照射等待时间和小野通用校准程序。",
+          "conclusion": "条件性支持",
+          "proposal": "保留概念；把扫描时序、批次和设备特异要求列为须另查的操作条件。"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-03-point-9",
+      "pointHash": "2e84bb1b826c4265e3a1b088d399dbb0d62bb37602fba665f09b4411509258ab",
+      "historicalGap": "不是要求三项同时存在；限本文小静态光子场。",
+      "priorEvidenceReferences": [
+        "TRS483"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-05-point-7",
+      "pointHash": "355b89819448d14285ecccf3efcc4bb8da029b65af8390116bfd15ebfe261073",
+      "historicalGap": "未逐项核对SSD变化及全部介质和限光筒设计。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§8.2.3.1，印刷282–284页 / PDF第320–322页",
+          "supported": "电子野大小影响侧向平衡、PDD与输出；入射角和限光系统散射影响分布。",
+          "unsupported": "未逐项核对SSD变化及全部介质和限光筒设计。",
+          "conclusion": "条件性支持",
+          "proposal": "保留已读野尺寸和角度条件，其余因素仍待配套原文和专家核实。"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-06-point-3",
+      "pointHash": "28552ee9a2595079aa7da0db58e0ce6c3e8cad21c4ba8b00ba4d4e9c7dcb1277",
+      "historicalGap": "未完整读取表格阈值，不确认HDR/LDR的数字边界或2028考查深度。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1及表13.1–13.4引导正文，印刷452–453页 / PDF第490–491页",
+          "supported": "放置方式、植入持续时间、装载方式和剂量率是不同分类轴；正文明确LDR概念。",
+          "unsupported": "未完整读取表格阈值，不确认HDR/LDR的数字边界或2028考查深度。",
+          "conclusion": "条件性支持",
+          "proposal": "只教分类依据，暂不新增剂量率阈值；分类版本由专家核定。"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-06-point-4",
+      "pointHash": "9fe044a7a6e38f59ef3d19f7af6e048d97b329a1c1200c504d05f0bdb33bd31f",
+      "historicalGap": "手工后装也存在；不支持所有后装均高活度或消除全部暴露。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-06-point-5",
+      "pointHash": "87a64dc99bf2f00f2eb0883eefaccaaec11cd33c66b3a614bb45ed533e1f5954",
+      "historicalGap": "未读取HDR驻留优化与导管重建专节，不能核定所有流程细节。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1，印刷452–453页 / PDF第490–491页",
+          "supported": "源位置、源强和计算点关系影响优化治疗时间；陡梯度放大几何偏差的重要性。",
+          "unsupported": "未读取HDR驻留优化与导管重建专节，不能核定所有流程细节。",
+          "conclusion": "条件性支持",
+          "proposal": "将已核实的一般几何/时间关系与待核HDR具体实现分开。"
+        }
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-06-point-5",
+        "originalText": "HDR计划常通过改变多个驻留位置及驻留时间塑造剂量分布；源位置偏差、导管重建错误或时间错误都可能造成局部明显剂量偏差。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "87a64dc99bf2f00f2eb0883eefaccaaec11cd33c66b3a614bb45ed533e1f5954",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "IAEA1196-v8-read"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§13.7.1、13.7.3 p479/PDF517；§13.9.3 p482/PDF520",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "几何重建、时间缩放和程序化源位置核对有正文；不把同活度线性时间关系推广到全程衰变积分。"
+          }
+        ],
+        "remaining": [
+          "讲清位置和时间均影响剂量；仍缺现代HDR驻留优化原始专节及误差定量。"
+        ],
+        "minimumRevision": "讲清位置和时间均影响剂量；仍缺现代HDR驻留优化原始专节及误差定量。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-06-point-6",
+      "pointHash": "b86a58b239e6f5a12093c053c68843df27dda841fcc885974979e995e1902b0a",
+      "historicalGap": "本轮未完整核查现代勾画、施源器检查与全部源QA流程。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-06-point-6",
+        "originalText": "近距离治疗计划与实施需要影像定位、施源器重建、靶区和危及器官勾画、剂量计算/优化、计划核对以及设备和源的质量保证。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "b86a58b239e6f5a12093c053c68843df27dda841fcc885974979e995e1902b0a",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "IAEA1196-v8-read"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§13.7.1–4 pp479–480/PDF517–518；§13.9.5 pp482–483/PDF520–521",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "重建、单位、手算对照、衰变及书面质量管理补齐部分已知缺口。"
+          }
+        ],
+        "remaining": [
+          "原流程可作教学框架，现代勾画、施源器/接口和完整HDR临床QA仍须现行专项原文。"
+        ],
+        "minimumRevision": "原流程可作教学框架，现代勾画、施源器/接口和完整HDR临床QA仍须现行专项原文。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-06-point-7",
+      "pointHash": "d13dc9fc92cdd3f311000414e7554f68ae9ed257dd1b2821b8b807f16f990b46",
+      "historicalGap": "已读段落未覆盖衰变修正算法、卡源、回源失败和机构应急程序。",
+      "priorEvidenceReferences": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1，印刷452–453页 / PDF第490–491页",
+          "supported": "源强标定需可追溯至国家或国际标准实验室；仅用剂量模型不足以验证治疗。",
+          "unsupported": "已读段落未覆盖衰变修正算法、卡源、回源失败和机构应急程序。",
+          "conclusion": "条件性支持",
+          "proposal": "保留可追溯标定要求，衰变与卡源应急独立列待核，不给临床操作指令。"
+        }
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-06-point-7",
+        "originalText": "放射源会随时间衰变，源强需要可追溯标定并在计划/治疗时正确处理；安全上还要考虑源卡住、回源失败等应急情形。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "d13dc9fc92cdd3f311000414e7554f68ae9ed257dd1b2821b8b807f16f990b46",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "IAEA1196-v8-read"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§13.7.4、13.8.3 pp479–480/PDF517–518",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "衰变修正和可追溯标定有直接正文。"
+          }
+        ],
+        "remaining": [
+          "卡源/回源失败的机构应急流程仍待核；不提供临床操作指令或采用旧泄漏阈值。"
+        ],
+        "minimumRevision": "卡源/回源失败的机构应急流程仍待核；不提供临床操作指令或采用旧泄漏阈值。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-07-point-3",
+      "pointHash": "3651736e44c88f45106d989c2df35b4850ec1a4423d3661a45f023d361d21980",
+      "historicalGap": "2005书不足以核实现代VMAT剂量率和机架速度全部可变特征。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-07-point-4",
+      "pointHash": "fedc9484e595f320c1b0e4fcc7b2f5dc2710962fd14505ba2a202e07a990a23d",
+      "historicalGap": "未逐项核实所有审批责任及临床QA时序。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-07-point-6",
+      "pointHash": "11f0d2c333c0e2f1f6ec01172a827c0103c4e30d6c84245df58d418f795a0bbe",
+      "historicalGap": "本次已读内容不足以证明所有计划低剂量体积增大及量化几何敏感性。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-08-point-1",
+      "pointHash": "30f960802f4b31563458a67dbe0fd9165b0c01b171ccb34d2bfe3cf81107b12d",
+      "historicalGap": "IGRT还包括离线复核及后续纠正策略，不应把所有实现都等同治疗前即时校正。",
+      "priorEvidenceReferences": [
+        "IAEA-IGRT19"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-08-point-5",
+      "pointHash": "aa6665655ebe0a6f722733a1b47682f86239013e436166ca8efe51e2ca3bbade",
+      "historicalGap": "原‘一次照射期间’可能窄于同一治疗分次内的临床含义；本轮未找到完整术语定义条款，不直接宣判最终术语。",
+      "priorEvidenceReferences": [
+        "IAEA-UNC16",
+        "IAEA-IGRT19"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-08-point-5",
+        "originalText": "分次间（interfraction）变化发生在不同分次之间；分次内（intrafraction）变化发生在一次照射期间。呼吸运动是典型分次内运动来源之一。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "aa6665655ebe0a6f722733a1b47682f86239013e436166ca8efe51e2ca3bbade",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "AAPM202-2020"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§9.2–9.3 p73；§11.2–11.3 pp91–92",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "不同分次的解剖变化与同分次呼吸运动分开处理；fraction不等于一段beam-on。"
+          }
+        ],
+        "remaining": [
+          "用同一治疗分次内/不同分次之间描述，不将时间边界缩窄为单次出束。"
+        ],
+        "minimumRevision": "用同一治疗分次内/不同分次之间描述，不将时间边界缩窄为单次出束。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-08-point-8",
+      "pointHash": "a1d645280297d9116e73516d042de237490a846d499a79e8cb779185210e8af6",
+      "historicalGap": "未逐一核对体重变化等全部触发因素和阈值，不能写成出现某变化就必重计划。",
+      "priorEvidenceReferences": [
+        "IAEA-IGRT19",
+        "IAEA-UNC16"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-08-point-8",
+        "originalText": "当出现明显体重变化、肿瘤缩小或器官形态变化时，仅做平移校正可能不够，可能需要重新评估甚至自适应计划。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "a1d645280297d9116e73516d042de237490a846d499a79e8cb779185210e8af6",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "AAPM202-2020"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§9.2 p73；§11.2 p91",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "新影像上重算并评价原约束是适应性重计划依据，几何校正不能代替全部解剖剂量评价。"
+          }
+        ],
+        "remaining": [
+          "保留可能需重评；变化大小、频率和重计划决定仍须专业协议，不自动触发。"
+        ],
+        "minimumRevision": "保留可能需重评；变化大小、频率和重计划决定仍须专业协议，不自动触发。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-09-point-1",
+      "pointHash": "bf8686a5ff38e6ce4583a385789318ff6f4e64b6dfae31c25ec349bf120072b0",
+      "historicalGap": "此处未完整支持呼吸运动管理全部方法。",
+      "priorEvidenceReferences": [
+        "IAEA1196"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-09-point-1",
+        "originalText": "模拟定位常包括体位选择、固定、定位影像获取、参考标记/坐标建立和必要的呼吸等运动管理；目标是可重复，而不只是舒服。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "bf8686a5ff38e6ce4583a385789318ff6f4e64b6dfae31c25ec349bf120072b0",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "AAPM202-2020"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§11.3 pp91–92",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "呼吸相位评估和运动/束扫描相互作用不能仅靠单一平均CT或固定体位解决。"
+          }
+        ],
+        "remaining": [
+          "只补充必要运动评估，不教个人屏气或门控处方；本轮未声称完整固定技术审核。"
+        ],
+        "minimumRevision": "只补充必要运动评估，不教个人屏气或门控处方；本轮未声称完整固定技术审核。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-10-point-1",
+      "pointHash": "156b666e1a9e21b9e7fea599a5b2de0c11c2aa0d5ab3717eb91869c73029a6ad",
+      "historicalGap": "不支持把电子等所有带电粒子均作相同尖峰，也不支持峰后严格归零。",
+      "priorEvidenceReferences": [
+        "TRS461"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-10-point-2",
+      "pointHash": "3e64070078c2e0ead0da132c8d569c79ed7d730f5e7d7bbc6e691c88e6581971",
+      "historicalGap": "未逐项核实现代能层点扫描实现。",
+      "priorEvidenceReferences": [
+        "TRS461"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-10-point-2",
+        "originalText": "粒子能量决定大体射程；为了覆盖有厚度的靶区，需要多个不同能量层叠加形成SOBP。现代扫描治疗还可通过逐层/逐点扫描塑形剂量。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "3e64070078c2e0ead0da132c8d569c79ed7d730f5e7d7bbc6e691c88e6581971",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "AAPM202-2020"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§3.6 pp17–18；§4.5 pp28–30",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "不同能量叠加与扫描点位置/权重有直接正文，不等于所有扫描都是同一时序。"
+          }
+        ],
+        "remaining": [
+          "区分能层深度与横向点位；不将临床示例间距、MU或能量误差作通用考试常数。"
+        ],
+        "minimumRevision": "区分能层深度与横向点位；不将临床示例间距、MU或能量误差作通用考试常数。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-10-point-7",
+      "pointHash": "dacbc76639320ae71e8b3577e13117e50d7924329627e4f2215cbb0ecedf330f",
+      "historicalGap": "模型输出不是普适实测生物剂量；不确认固定碳RBE。",
+      "priorEvidenceReferences": [
+        "TRS461"
+      ],
+      "thisBatchStatus": "已追加子句核查，仍条件性支持",
+      "newEvidence": {
+        "id": "mp-10-point-7",
+        "originalText": "碳离子兼具有限射程和较高LET/RBE等特点，因此计划评价不仅是物理剂量问题，还涉及生物学剂量模型。",
+        "originalSource": {
+          "path": "product-2028-draft/课程知识点与大纲映射.json",
+          "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+          "snapshotVersion": "legacy-input-2026-10-19",
+          "pointHash": "dacbc76639320ae71e8b3577e13117e50d7924329627e4f2215cbb0ecedf330f",
+          "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+        },
+        "originalVersion": "mp-concept-review-v1-2026-10-19",
+        "historicalStatus": "条件性支持",
+        "conclusion": "条件性支持",
+        "sourceIds": [
+          "AAPM202-2020"
+        ],
+        "subclaimChecks": [
+          {
+            "locator": "§4.6 pp30–31",
+            "subclaim": "前轮明确未核实部分的追加核对",
+            "finding": "吸收剂量与RBE加权剂量应透明一致报告；生物参数并非统一实测常数。"
+          }
+        ],
+        "remaining": [
+          "并列物理剂量和模型，保留模型/终点及单位说明；不跨模型直接换算。"
+        ],
+        "minimumRevision": "并列物理剂量和模型，保留模型/终点及单位说明；不跨模型直接换算。",
+        "expertStatus": "pending-independent-professional-review",
+        "appliedToOriginal": false
+      }
+    },
+    {
+      "id": "mp-13-point-1",
+      "pointHash": "b9b9cfa7a5ddeeed098e3a3d710110dcedd521ba68f824ee8f63b314907cdb71",
+      "historicalGap": "不是所有γ相机都使用闪烁PMT链路，不能把历史典型结构当全部现代固态设备。",
+      "priorEvidenceReferences": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.1–11.2.2.2，印刷312–314、324页 / PDF337–339、349页"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-13-point-2",
+      "pointHash": "dd115ebd0951358f0a804c94217e99bb42173e70fb8486b3d43659ccb04d3fc9",
+      "historicalGap": "不能保证能量窗消除全部散射，分辨率改善对具体核素/窗宽和计数任务的收益不能无条件量化。",
+      "priorEvidenceReferences": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.2相关能量估计与校正，印刷332–334页 / PDF357–359页；§11.2.3.3，印刷350页 / PDF375页"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-13-point-4",
+      "pointHash": "c4f8af529a445f4b0cfeff83b33dec88c00daa92898388fa66cc9b18a56f95a4",
+      "historicalGap": "并非所有SPECT都需探测器机械绕行，现代固定探测器结构未在已读内容中完整核查。",
+      "priorEvidenceReferences": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.3.1–11.2.3.3，印刷341–342、344、350页 / PDF366–367、369、375页"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-13-point-6",
+      "pointHash": "5177a3384960f764b6667c2a138a23e573d0d9d762d6b608138be6392cf7f240",
+      "historicalGap": "统计噪声常经重建和平滑影响实际分辨，不能将其直接等同于本征几何分辨率。",
+      "priorEvidenceReferences": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.3.1–11.3.2.2，印刷354–357页 / PDF379–382页"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-13-point-7",
+      "pointHash": "28a7bfb17e8b5a9bbab9af5a99940c554a79ae99fb1f89617c3982466ced7159",
+      "historicalGap": "本轮未逐页读完PET专节全部散射校正算法，不能把此条所有PET定量细节标完整确认；CT配准也可受患者运动影响。",
+      "priorEvidenceReferences": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.3.2–11.2.3.3，印刷344、350页 / PDF369、375页；§11.4.1，印刷392–393页 / PDF417–418页"
+        }
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-15-point-1",
+      "pointHash": "b0e4f75f905e1557ded834817f9a52ff8f0afc5549a933a964013b4924ab6fae",
+      "historicalGap": "非稳态、近场、不均匀、沉积反应及感染概率不由该式直接支持。",
+      "priorEvidenceReferences": [
+        "FEIGLEY2008"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    },
+    {
+      "id": "mp-15-point-3",
+      "pointHash": "e6c6395c3e235084e757b4d1f3b565736ea773cfba1fedd832bd6dc12f194031",
+      "historicalGap": "不支持任意隔板必改善或所有污染物用相同通风参数。",
+      "priorEvidenceReferences": [
+        "NIOSH2024"
+      ],
+      "thisBatchStatus": "本轮未补读，保留原缺口",
+      "newEvidence": null
+    }
+  ],
+  "expertApproved": 0
+}

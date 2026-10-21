@@ -1,0 +1,579 @@
+{
+  "revision": "four-gaps-v8-2026-10-22",
+  "baselineCommit": "ca82fab9cb9797b076c54b60df17255b0af72d44",
+  "actor": "AI内部原文核查，非独立专业审定",
+  "sources": [
+    {
+      "id": "DING1996-ABSTRACT",
+      "title": "Mean energy, energy-range relationships and depth-scaling factors for clinical electron beams",
+      "authors": [
+        "G X Ding",
+        "D W Rogers"
+      ],
+      "publishedAt": "1996-03",
+      "doi": "10.1118/1.597788",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8815379/",
+      "locator": "正式PubMed页面作者栏及Abstract第1–3段；卷23(3)361–376为文章书目页段，不是本轮已读PDF页",
+      "accessStatus": "original-abstract-page-read",
+      "fullTextRead": false,
+      "pdfPage": null,
+      "printedPageRead": null,
+      "supported": "摘要明确区分平均与最可几表面能量，报告Rp关系候选系数1.98、5–50 MeV与约3%研究准确度。",
+      "limitations": "全文未取得；摘要未逐项给出场尺寸、全部射程测量条件和系数单位。本轮不是全文原页验证或IAEA勘误。",
+      "accessedAt": "2026-10-22",
+      "expertApproval": false
+    },
+    {
+      "id": "AAPM202-2020",
+      "title": "Physical Uncertainties in the Planning and Delivery of Light Ion Beam Treatments, AAPM Report 202",
+      "publishedAt": "2020-03",
+      "url": "https://www.aapm.org/pubs/reports/RPT_202.pdf",
+      "accessStatus": "official-pdf-selected-body-and-two-page-images-read",
+      "pages": 107,
+      "bytes": 5474881,
+      "sha256": "22e5f53a9949b70aeebd3fd5d1b3be76a65b18a553999a97ddc0d80ce3c5c49a",
+      "locators": [
+        "§3.6 印刷/PDF17–18",
+        "§4.5–4.6 印刷/PDF28–31",
+        "§5.1 印刷/PDF31–32",
+        "§7.1 印刷/PDF52–53",
+        "§7.6–7.7 印刷/PDF55–56",
+        "§9.1–9.2 印刷/PDF72–73",
+        "§10.6 印刷/PDF84–85",
+        "§11.1–11.4 印刷/PDF88–92"
+      ],
+      "pageImagesViewed": [
+        84,
+        89
+      ],
+      "limitations": "2020报告含截至2015/2016的历史现状描述，不能当2026最新部署状况；不迁移历史临床数值或通用阈值。",
+      "accessedAt": "2026-10-22",
+      "expertApproval": false
+    },
+    {
+      "id": "STEDEM2024",
+      "title": "Systematic evaluation of spatial resolution and gamma criteria for quality assurance with detector arrays in stereotactic radiosurgery",
+      "authors": [
+        "Ann-Kathrin Stedem",
+        "Mark Tutty",
+        "Ndimofor Chofor",
+        "Marco Langhans",
+        "Christoph Kleefeld",
+        "Andreas A Schönfeld"
+      ],
+      "publishedAt": "2024-01-24",
+      "doi": "10.1002/acm2.14274",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10860444/",
+      "accessStatus": "original-html-body-read",
+      "locators": [
+        "§1",
+        "§2.1–2.2及表1",
+        "§3.2–3.3",
+        "§4相关讨论"
+      ],
+      "pdfPage": null,
+      "printedPageRead": null,
+      "limitations": "HTML正文有节定位但未读PDF，不能编造页码；两个SRS计划、指定设备和算法。§1/§2.2将间距与最高频率直接比较的文字有量纲疑点，不按原句生成公式。",
+      "accessedAt": "2026-10-22",
+      "expertApproval": false
+    },
+    {
+      "id": "IAEA1196-v8-read",
+      "title": "Radiation Oncology Physics: A Handbook for Teachers and Students, STI/PUB/1196",
+      "publishedAt": "2005-07",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+      "accessStatus": "local-original-pdf-selected-body-read",
+      "sha256": "da4e3b5af19ed9506a812fea6704ff15cf55991902684a17759dbc7cbba05da0",
+      "locators": [
+        "§13.7.1–13.7.4 印刷479–480/PDF517–518",
+        "§13.8.3 印刷480/PDF518",
+        "§13.9.3、13.9.5 印刷482–483/PDF520–521"
+      ],
+      "limitations": "历史教学资料，不采用其中泄漏、释放、定位容差、频次等数值作为现行标准。电子原页图像的读取沿用v6a回执，不谎称本轮重读所有图像。",
+      "accessedAt": "2026-10-22",
+      "expertApproval": false
+    }
+  ],
+  "fourGapUpdates": [
+    {
+      "id": "mp-05-point-4",
+      "originalText": "常用经验关系要理解量级而不是死套：水中电子实用射程Rp(cm)约为入射能量E(MeV)的一半，即Rp≈E/2；实际考试若给定特定公式或条件，以题目为准。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "4af958629b9ca6dd39f68ab34c9326260807e994fc309ac4bd0dcd55c441f9c7",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "暂时无法核实",
+      "conclusion": "来源间公式冲突待裁定",
+      "sourceIds": [
+        "DING1996-ABSTRACT"
+      ],
+      "subclaimChecks": [
+        {
+          "subclaim": "水中Rp≈E/2中的E可不加区分地使用",
+          "finding": "不支持。原始摘要区分表面平均能量与最可几能量；不能用标称能量替代定义明确的表面能量。"
+        },
+        {
+          "subclaim": "1.09与1.98",
+          "finding": "v6a已查看官方教材原页1.09；本轮读取Ding/Rogers正式摘要，候选关系为1.98，保留来源间差异，不静默改书。"
+        },
+        {
+          "subclaim": "能区及精度",
+          "finding": "5–50 MeV及约3%是该研究摘要所报告范围/准确度，不是Rp≈E/2的误差保证，不外推所有临床机器。"
+        },
+        {
+          "subclaim": "单位与全文条件",
+          "finding": "教材约定MeV/cm已在v6a取得；1996全文及公式原页未取得，不能把教材单位直接冒充已从论文全文核验。"
+        }
+      ],
+      "remaining": [
+        "未取得正式IAEA勘误",
+        "未取得1996论文全文原页、完整测量条件与公式单位段",
+        "需要电子束剂量学专家裁定课程是否及如何采用"
+      ],
+      "minimumRevision": "保留原文为历史；停止无条件用E/2解题。若保留量级说明，必须注明水、射程/能量定义及近似性质。候选1.98不进入正式课程或计算题。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-10-point-3",
+      "originalText": "质子治疗的重要风险是射程不确定性。CT值到阻止本领转换、患者解剖变化、气腔/骨组织、摆位和运动等都可能让实际Bragg峰位置偏离计划。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "2aa750c3193b10d624e53d3748a1712325a2f7f2f50299079baf05f056a27a5b",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "暂时无法核实",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "subclaim": "CT值到阻止本领转换影响射程",
+          "locator": "§5.1 pp31–32；§7.1 pp52–53",
+          "finding": "直接支持。模型可查表插值，也可先赋材料再赋阻止本领；CT数值不直接等于相对阻止本领。"
+        },
+        {
+          "subclaim": "标定与模型",
+          "locator": "§7.1、7.7 pp52–53、55–56",
+          "finding": "转换函数需按扫描协议建立并验证；骨、装置及植入物残差不能借软组织误差代替。"
+        },
+        {
+          "subclaim": "气腔/骨、摆位及解剖变化",
+          "locator": "§7.6 p55；§9.1–9.2 pp72–73；§11.1 p89",
+          "finding": "气体/组织路径变化可改变穿透深度；异质性下摆位变化不只是剂量分布刚性平移，骨/软组织/肺实例有正文。"
+        },
+        {
+          "subclaim": "所有界面具有统一误差",
+          "finding": "原句没有该数字或绝对命题，不额外要求通用百分比才认可定性主张；也不从该材料生成统一界面误差。"
+        }
+      ],
+      "remaining": [
+        "界面效应涉及能量损失、散射与算法，不能全归因HU标定",
+        "本轮未验证某一患者或特定TPS的误差，未批准任何临床修正参数"
+      ],
+      "minimumRevision": "明确是可能影响射程或剂量，不是每种气骨界面都产生同方向/同幅度位移；区分CT数据、转换函数、异质性运输与解剖变化。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-03-point-7",
+      "originalText": "二维/三维阵列可一次获取多个测量点，效率高，常用于患者特异性QA；空间分辨率受探测单元尺寸和间距限制。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "88854ab35a3c3042b92f0882ec840280f6703f9bfe07f53bccbd3475a0407a0d",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "暂时无法核实",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "STEDEM2024"
+      ],
+      "subclaimChecks": [
+        {
+          "subclaim": "阵列多点获取并用于PSQA",
+          "locator": "§1、§2.2表1、§3.3",
+          "finding": "原始正文和测量方法直接支持平面、圆柱阵列在患者特异QA中的应用及实时读出。"
+        },
+        {
+          "subclaim": "尺寸、间距与空间分辨能力",
+          "locator": "§1、§2.2、§3.2",
+          "finding": "元件尺寸、采样间距及响应函数共同影响重建信息；尺寸、间距、TPS网格、插值网格不是同一个量。"
+        },
+        {
+          "subclaim": "更密一定更能检错",
+          "locator": "§3.3、§4",
+          "finding": "不支持。设备、gamma算法、阈值、误差类型及通过点分布影响检出表现；插值不能创造丢失的信息。"
+        }
+      ],
+      "remaining": [
+        "两个SRS计划不支持所有患者、全类别阵列或统一间距阈值",
+        "圆柱布点不等于直接测得完整三维体积剂量；重建依赖模型",
+        "论文Nyquist文字表述有量纲疑点，需确认标准信号定义后才能用作课程公式"
+      ],
+      "minimumRevision": "将效率高改为可同时读出多个测量点；空间分辨能力由元件响应、几何采样及重建共同决定，不写间距=分辨率。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-10-point-4",
+      "originalText": "因此粒子计划不仅要看靶区覆盖，还要考虑鲁棒性（robustness）：在合理的摆位和射程扰动下，计划是否仍能保持可接受。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "2837cd1a2f00d69adb2447ccf9d055377d973171d6e932d9b00aafec60f49287",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "暂时无法核实",
+      "conclusion": "已找到支持依据",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "subclaim": "扰动下仍可接受的鲁棒性评价",
+          "locator": "§11.1.1 pp89–90、§11.4 p92",
+          "finding": "直接支持按系统摆位、过穿透和欠穿透情景重算剂量与DVH；原句为定性评价，不要求固定通用情景数。"
+        },
+        {
+          "subclaim": "评价与优化的区别",
+          "locator": "§10.6 pp84–85；§11.1 pp89–90",
+          "finding": "情景评价是在给定计划上重新计算；稳健优化把情景纳入求解目标；传统外扩不能一般保证高调制质子CTV内剂量鲁棒性。"
+        },
+        {
+          "subclaim": "概率、minimax、逐体素最坏剂量",
+          "locator": "§10.6.1 pp84–85",
+          "finding": "概率加权期望、场景目标最大值、逐体素极值包络是不同构造；包络不一定是物理可交付的单一场景。"
+        }
+      ],
+      "remaining": [
+        "情景集合、幅度及可接受阈值依赖机构和病例",
+        "静态情景不能自动覆盖呼吸/解剖变化",
+        "不声称APP已实现临床稳健优化或专家认可"
+      ],
+      "minimumRevision": "保留原定性目标，补需明确扰动假设及评价指标；区分重算评价、稳健求解和传统边界，不照搬报告中的临床示例数值。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    }
+  ],
+  "conditionalUpdates": [
+    {
+      "id": "mp-01-point-9",
+      "originalText": "碳离子同样具有有限射程和Bragg峰样深度剂量优势，同时线性能量传递（LET）和相对生物学效应（RBE）通常高于质子和常规光子，因此既有物理剂量学优势，也有更复杂的生物学与计划学问题。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "e4acad080dc2b15d133a3049bad75e84dc2c5c253dda5d75a2cc9563d1a33312",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§4.6 pp30–31",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "RBE依赖组织、终点、分割与LET；不支持无条件的碳/质子固定排序。"
+        }
+      ],
+      "remaining": [
+        "改为条件性比较；不能以固定RBE推断个体疗效。"
+      ],
+      "minimumRevision": "改为条件性比较；不能以固定RBE推断个体疗效。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-10-point-7",
+      "originalText": "碳离子兼具有限射程和较高LET/RBE等特点，因此计划评价不仅是物理剂量问题，还涉及生物学剂量模型。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "dacbc76639320ae71e8b3577e13117e50d7924329627e4f2215cbb0ecedf330f",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§4.6 pp30–31",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "吸收剂量与RBE加权剂量应透明一致报告；生物参数并非统一实测常数。"
+        }
+      ],
+      "remaining": [
+        "并列物理剂量和模型，保留模型/终点及单位说明；不跨模型直接换算。"
+      ],
+      "minimumRevision": "并列物理剂量和模型，保留模型/终点及单位说明；不跨模型直接换算。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-10-point-2",
+      "originalText": "粒子能量决定大体射程；为了覆盖有厚度的靶区，需要多个不同能量层叠加形成SOBP。现代扫描治疗还可通过逐层/逐点扫描塑形剂量。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "3e64070078c2e0ead0da132c8d569c79ed7d730f5e7d7bbc6e691c88e6581971",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§3.6 pp17–18；§4.5 pp28–30",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "不同能量叠加与扫描点位置/权重有直接正文，不等于所有扫描都是同一时序。"
+        }
+      ],
+      "remaining": [
+        "区分能层深度与横向点位；不将临床示例间距、MU或能量误差作通用考试常数。"
+      ],
+      "minimumRevision": "区分能层深度与横向点位；不将临床示例间距、MU或能量误差作通用考试常数。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-08-point-5",
+      "originalText": "分次间（interfraction）变化发生在不同分次之间；分次内（intrafraction）变化发生在一次照射期间。呼吸运动是典型分次内运动来源之一。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "aa6665655ebe0a6f722733a1b47682f86239013e436166ca8efe51e2ca3bbade",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§9.2–9.3 p73；§11.2–11.3 pp91–92",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "不同分次的解剖变化与同分次呼吸运动分开处理；fraction不等于一段beam-on。"
+        }
+      ],
+      "remaining": [
+        "用同一治疗分次内/不同分次之间描述，不将时间边界缩窄为单次出束。"
+      ],
+      "minimumRevision": "用同一治疗分次内/不同分次之间描述，不将时间边界缩窄为单次出束。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-08-point-8",
+      "originalText": "当出现明显体重变化、肿瘤缩小或器官形态变化时，仅做平移校正可能不够，可能需要重新评估甚至自适应计划。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "a1d645280297d9116e73516d042de237490a846d499a79e8cb779185210e8af6",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§9.2 p73；§11.2 p91",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "新影像上重算并评价原约束是适应性重计划依据，几何校正不能代替全部解剖剂量评价。"
+        }
+      ],
+      "remaining": [
+        "保留可能需重评；变化大小、频率和重计划决定仍须专业协议，不自动触发。"
+      ],
+      "minimumRevision": "保留可能需重评；变化大小、频率和重计划决定仍须专业协议，不自动触发。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-09-point-1",
+      "originalText": "模拟定位常包括体位选择、固定、定位影像获取、参考标记/坐标建立和必要的呼吸等运动管理；目标是可重复，而不只是舒服。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "bf8686a5ff38e6ce4583a385789318ff6f4e64b6dfae31c25ec349bf120072b0",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "AAPM202-2020"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§11.3 pp91–92",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "呼吸相位评估和运动/束扫描相互作用不能仅靠单一平均CT或固定体位解决。"
+        }
+      ],
+      "remaining": [
+        "只补充必要运动评估，不教个人屏气或门控处方；本轮未声称完整固定技术审核。"
+      ],
+      "minimumRevision": "只补充必要运动评估，不教个人屏气或门控处方；本轮未声称完整固定技术审核。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-06-point-5",
+      "originalText": "HDR计划常通过改变多个驻留位置及驻留时间塑造剂量分布；源位置偏差、导管重建错误或时间错误都可能造成局部明显剂量偏差。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "87a64dc99bf2f00f2eb0883eefaccaaec11cd33c66b3a614bb45ed533e1f5954",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "IAEA1196-v8-read"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§13.7.1、13.7.3 p479/PDF517；§13.9.3 p482/PDF520",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "几何重建、时间缩放和程序化源位置核对有正文；不把同活度线性时间关系推广到全程衰变积分。"
+        }
+      ],
+      "remaining": [
+        "讲清位置和时间均影响剂量；仍缺现代HDR驻留优化原始专节及误差定量。"
+      ],
+      "minimumRevision": "讲清位置和时间均影响剂量；仍缺现代HDR驻留优化原始专节及误差定量。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-06-point-6",
+      "originalText": "近距离治疗计划与实施需要影像定位、施源器重建、靶区和危及器官勾画、剂量计算/优化、计划核对以及设备和源的质量保证。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b86a58b239e6f5a12093c053c68843df27dda841fcc885974979e995e1902b0a",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "IAEA1196-v8-read"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§13.7.1–4 pp479–480/PDF517–518；§13.9.5 pp482–483/PDF520–521",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "重建、单位、手算对照、衰变及书面质量管理补齐部分已知缺口。"
+        }
+      ],
+      "remaining": [
+        "原流程可作教学框架，现代勾画、施源器/接口和完整HDR临床QA仍须现行专项原文。"
+      ],
+      "minimumRevision": "原流程可作教学框架，现代勾画、施源器/接口和完整HDR临床QA仍须现行专项原文。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    },
+    {
+      "id": "mp-06-point-7",
+      "originalText": "放射源会随时间衰变，源强需要可追溯标定并在计划/治疗时正确处理；安全上还要考虑源卡住、回源失败等应急情形。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "d13dc9fc92cdd3f311000414e7554f68ae9ed257dd1b2821b8b807f16f990b46",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "historicalStatus": "条件性支持",
+      "conclusion": "条件性支持",
+      "sourceIds": [
+        "IAEA1196-v8-read"
+      ],
+      "subclaimChecks": [
+        {
+          "locator": "§13.7.4、13.8.3 pp479–480/PDF517–518",
+          "subclaim": "前轮明确未核实部分的追加核对",
+          "finding": "衰变修正和可追溯标定有直接正文。"
+        }
+      ],
+      "remaining": [
+        "卡源/回源失败的机构应急流程仍待核；不提供临床操作指令或采用旧泄漏阈值。"
+      ],
+      "minimumRevision": "卡源/回源失败的机构应急流程仍待核；不提供临床操作指令或采用旧泄漏阈值。",
+      "expertStatus": "pending-independent-professional-review",
+      "appliedToOriginal": false
+    }
+  ],
+  "historicalInputHashes": {
+    "current-claims-v6a.json": "23e6229394cacebd209d74c258d39762b16e738dcebdffb6d4a835c71324977e",
+    "electron-coefficient-discrepancy-v7.json": "1edc0116dd90822653b24333782f4615875f80ff2758bcb4485ea25225d6da98",
+    "external-source-crosscheck-v7.md": "e76b383e4656bb23610c75a108e7ed70490f15a26d4676367522946e6103b456",
+    "conditional-claims-triage-v7.md": "3715f187c7ab8bbc15d39555c503b1c8093ed4458774e968f020a960fd41f6c9"
+  },
+  "citationCorrection": {
+    "preserves": "electron-coefficient-discrepancy-v7.json",
+    "priorAuthors": "Mackie TR et al.",
+    "correctAuthors": [
+      "G X Ding",
+      "D W Rogers"
+    ],
+    "identifier": "PMID8815379",
+    "basis": "已读正式PubMed作者栏；是本工程书目纠正，不冒称原书勘误"
+  },
+  "retrievalFailures": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3281975/",
+      "result": "reCAPTCHA；未以搜索正文片段冒充全文读取"
+    },
+    {
+      "url": "https://doi.org/10.1118/1.597788",
+      "result": "web fetch Cache miss；未取得全文"
+    },
+    {
+      "url": "https://nrc-publications.canada.ca/eng/search/?q=Mean+energy+energy-range+relationships",
+      "result": "不可访问；未取得全文"
+    }
+  ],
+  "expertApproved": 0,
+  "appliedToOriginal": false,
+  "teachingFormulaAuthorized": false,
+  "realLearningDataTouched": false,
+  "deployed": false,
+  "scope2028": "2027仅作暂定依据，本轮未确认2028正式考纲"
+}
