@@ -1,0 +1,70 @@
+{
+  "recordType": "append-only-source-discrepancy",
+  "recordId": "electron-coefficient-discrepancy-v7-2026-10-21",
+  "createdAt": "2026-10-21",
+  "claimId": "mp-05-point-4",
+  "claimLabel": "电子射程与能量经验近似",
+  "historicalStatusAtV6a": "暂时无法核实",
+  "newFinding": "source-conflict-found-review-pending",
+  "scope": "Evidence discrepancy only; not a formal erratum, expert approval, or teaching authorization.",
+  "originalSource": {
+    "title": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+    "publisher": "IAEA",
+    "identifier": "STI/PUB/1196",
+    "year": 2005,
+    "locator": {
+      "section": "8.2.1 Electron beam energy specification",
+      "printedPage": 281,
+      "pdfPage": 319,
+      "equation": "8.5"
+    },
+    "equationAsPrinted": "Ep,0 = 0.22 + 1.09 Rp + 0.0025 Rp^2",
+    "definitionsAsRead": {
+      "Ep0": "most probable electron energy at the phantom surface, MeV",
+      "Rp": "practical range in water, cm"
+    },
+    "accessStatus": "Official PDF text and page image checked; page image confirms printed coefficient 1.09.",
+    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf"
+  },
+  "independentPrimarySource": {
+    "title": "Mean energy, energy-range relationships and depth-scaling factors for clinical electron beams",
+    "authors": "Mackie TR et al.",
+    "year": 1996,
+    "identifier": "PubMed PMID 8815379",
+    "accessStatus": "Original research abstract read.",
+    "equationReported": "Eo,p = 0.22 + 1.98 Rp + 0.0025 Rp^2",
+    "applicabilityReported": "Clinical electron beams from 5 to 50 MeV; reported relation accuracy about 3%.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8815379/"
+  },
+  "supportingContextNotDirectlyEquivalent": {
+    "title": "Absorbed Dose Determination in External Beam Radiotherapy",
+    "publisher": "IAEA",
+    "identifier": "TRS-398",
+    "year": 2000,
+    "locators": [
+      "Section 7.2: E0 = 2.33 R50",
+      "Appendix II.4.3: Rp = 1.271 R50 - 0.23"
+    ],
+    "limitation": "These use different energy/depth relationships and do not independently establish the disputed linear coefficient in equation 8.5.",
+    "url": "https://www-pub.iaea.org/mtcd/publications/pdf/trs398_scr.pdf"
+  },
+  "assessment": {
+    "confidence": "high that a source discrepancy exists; likely print error, not formally adjudicated",
+    "directlyObservedConflict": "IAEA 2005 printed coefficient 1.09 versus Mackie et al. 1996 coefficient 1.98 in the corresponding most-probable-surface-energy versus practical-range relation.",
+    "recommendedDisposition": "Do not use the printed 1.09 for teaching calculations pending independent professional adjudication. Preserve the original source exactly. Present 1.98 only as a literature-supported correction candidate with its source, not as a silent edit or approved course formula.",
+    "unresolvedQuestions": [
+      "Confirm equation definitions and notation against the full primary article.",
+      "Determine whether an official IAEA erratum exists.",
+      "Obtain dated independent medical-physics expert opinion before course adoption."
+    ]
+  },
+  "protection": {
+    "historicalV6aUnchanged": true,
+    "originalKnowledgePointUnchanged": true,
+    "courseDraftUnchanged": true,
+    "v59Unchanged": true,
+    "r5NotDeployed": true,
+    "realLearningDataTouched": false,
+    "expertApprovalCount": 0
+  }
+}
