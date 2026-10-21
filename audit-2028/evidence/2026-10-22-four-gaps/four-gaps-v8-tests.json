@@ -1,0 +1,49 @@
+{
+  "scope": "Evidence/provenance integrity and mathematical counterexamples only; not medical physics validation, clinical planning, independent expert review or iPhone acceptance",
+  "results": [
+    {
+      "name": "Exactly four inherited gaps mapped to unchanged original text and hashes",
+      "pass": true
+    },
+    {
+      "name": "Historical v6a/v7 records match canonical bytes with transparent local-copy correction",
+      "pass": true
+    },
+    {
+      "name": "Citation error corrected without claiming abstract is a full paper or erratum",
+      "pass": true
+    },
+    {
+      "name": "Coefficient conflict and most-probable versus mean energy remain unresolved",
+      "pass": true
+    },
+    {
+      "name": "CT conversion is protocol-specific and interface effects are not all calibration error",
+      "pass": true
+    },
+    {
+      "name": "Array interpolation cannot recover an aliased signal in a mathematical counterexample",
+      "pass": true
+    },
+    {
+      "name": "Scenario evaluation is not optimization and no universal scenario count is invented",
+      "pass": true
+    },
+    {
+      "name": "Expected-loss optimization and minimax differ on a transparent toy example",
+      "pass": true
+    },
+    {
+      "name": "Nine conditional follow-ups are distinct from 21 not newly read entries",
+      "pass": true
+    },
+    {
+      "name": "67 protected assets are unchanged except a documented existing final newline in isolated SW",
+      "pass": true
+    },
+    {
+      "name": "Evidence checks never grant professional approval or authorize deployment",
+      "pass": true
+    }
+  ]
+}

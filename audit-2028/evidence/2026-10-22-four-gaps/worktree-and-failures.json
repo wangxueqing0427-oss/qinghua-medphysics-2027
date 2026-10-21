@@ -1,0 +1,33 @@
+{
+  "baselineCommit": "ca82fab9cb9797b076c54b60df17255b0af72d44",
+  "localGitMetadata": false,
+  "gitStatus": "not a git repository",
+  "previousCI": {
+    "run": 39570052268,
+    "conclusion": "success",
+    "scope": "engineering branch historical only"
+  },
+  "auditBranchPreviousCIRuns": 0,
+  "protectedAssets": {
+    "exactByteMatches": 66,
+    "isolatedSWFinalNewlineOnly": 1,
+    "publishedRuntimeChanges": 0
+  },
+  "failures": [
+    {
+      "stage": "Some PMC primary article openings",
+      "result": "reCAPTCHA; not counted as full text read"
+    },
+    {
+      "stage": "Ding1996 publisher DOI opening",
+      "result": "Cache miss; full article not obtained"
+    },
+    {
+      "stage": "Git blob retrieval for historical byte copies",
+      "result": "Connector returned decoded/normalized content, not base64. Compared one-newline candidate to authoritative blob SHA before restoring local copies."
+    }
+  ],
+  "expertApproved": 0,
+  "realLearningDataTouched": false,
+  "deployed": false
+}

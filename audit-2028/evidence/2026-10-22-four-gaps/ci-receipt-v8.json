@@ -1,0 +1,21 @@
+{
+  "recordDate": "2026-10-22",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "testedCommit": "88a534c3e2cde18bf126b07f23965ca459879c50",
+  "runId": 39636185511,
+  "runUrl": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39636185511",
+  "jobId": 119347187075,
+  "conclusion": "success",
+  "verifiedVia": "GitHub run metadata, job steps and decoded original job log",
+  "logEvidence": [
+    "2026-10-21T16:36:02.9100747Z {\"passed\":11,\"total\":11,\"failed\":[]}",
+    "2026-10-21T16:38:11.1191892Z   56 passed (1.3m)"
+  ],
+  "localGate": {"passed": 434, "total": 434},
+  "newEvidenceTests": {"passed": 11, "total": 11},
+  "browser": {"passed": 56, "total": 56, "engines": ["Chromium", "WebKit"], "scope": "Existing APP 42 and review HTML 14; not real iPhone acceptance"},
+  "independentExpertApprovals": 0,
+  "deploymentPerformed": false,
+  "liveLearningDataAccessed": false,
+  "limitations": "Software and evidence-record checks do not establish scientific correctness or expert approval. Electron formula remains unresolved. This receipt-only successor is not itself the tested code commit."
+}
