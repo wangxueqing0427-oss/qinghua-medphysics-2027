@@ -1,0 +1,2305 @@
+{
+  "kind": "derived-read-only-view-not-independent-approval-log",
+  "sourceRevisions": [
+    "mp-evidence-v3-2026-10-21",
+    "mp-evidence-v4-2026-10-21-local-pdf",
+    "mp-evidence-v5-2026-10-21-igrt"
+  ],
+  "summary": {
+    "已找到支持依据": 9,
+    "条件性支持": 15,
+    "发现矛盾": 0,
+    "暂时无法核实": 22
+  },
+  "expertApproved": 0,
+  "rows": [
+    {
+      "id": "mp-01-point-4",
+      "originalText": "γ射线常来自放射性核素的核跃迁。例如核医学中放射性核素可发射γ光子用于探测成像；近距离治疗也可使用放射源。具体核素和用途要在后续章节分别掌握。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "0ffc2abe330135c8f38d572d5e5df93bee3e6ba8fb407c410081b328e6664da4",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "核跃迁与可探测光子",
+      "formulaAndConditions": "核素衰变模式和用途需分别核对",
+      "nodeIds": [
+        "s27v2-mp-nuclear-chain"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§1.4.1，印刷26页 / PDF第64页；§13.1，印刷451–453页 / PDF第489–491页",
+          "supported": "核跃迁可产生γ光子；近距离治疗将封装源置于治疗体积内或附近。",
+          "unsupported": "核医学具体核素、探测成像用途未在已读原文中逐项核对。",
+          "conclusion": "条件性支持",
+          "proposal": "分开讲来源和用途；核医学例子补核素衰变资料后再列举。"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "核跃迁可产生γ光子；近距离治疗将封装源置于治疗体积内或附近。",
+      "unsupported": "核医学具体核素、探测成像用途未在已读原文中逐项核对。",
+      "proposedRevision": "分开讲来源和用途；核医学例子补核素衰变资料后再列举。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "核素衰变模式和用途需分别核对",
+        "核医学具体核素无可读专项依据",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-01-point-8",
+      "originalText": "质子带正电。其单位路径能量损失随速度降低而增大，在射程末端形成Bragg峰，峰后剂量迅速降低。临床常通过叠加不同能量的Bragg峰形成覆盖一定厚度靶区的展宽Bragg峰（SOBP）。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b3061434d0d24d17761f678e484039fef67ccc792eb5680049a040197cb09cdd",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "质子Bragg峰与SOBP",
+      "formulaAndConditions": "有能量展宽、散射和材料依赖",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "标记补充层级，待粒子物理专家复核",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "有能量展宽、散射和材料依赖",
+        "粒子专业细节本轮未核对正文",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-01-point-9",
+      "originalText": "碳离子同样具有有限射程和Bragg峰样深度剂量优势，同时线性能量传递（LET）和相对生物学效应（RBE）通常高于质子和常规光子，因此既有物理剂量学优势，也有更复杂的生物学与计划学问题。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "e4acad080dc2b15d133a3049bad75e84dc2c5c253dda5d75a2cc9563d1a33312",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "碳离子LET与RBE",
+      "formulaAndConditions": "随能量、位置、终点改变",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "取消无条件比较倾向，交粒子与放射生物学复核",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "随能量、位置、终点改变",
+        "通常高于不是任意情形严格排序",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-03-point-4",
+      "originalText": "圆柱形电离室常用于常规光子/电子束参考与相对测量；平行板电离室因几何特点常用于表面或电子束等对深度定位更敏感的场景。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "4c4414bbb045885515b6b17654775272ab1fc716e21a3754015a536580612563",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "圆柱与平行板电离室",
+      "formulaAndConditions": "腔体、定位、能区和协议相关",
+      "nodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§3.3.2–3.3.3，印刷79页 / PDF第117页；§6.13相关表面剂量正文，印刷209–210页 / PDF第247–248页",
+          "supported": "圆柱室的光子/电子束应用及平行板几何、表面/建成区测量用途有正文支持。",
+          "unsupported": "不支持所有能区和所有型号通用选择；2005教材不能当现行临床校准协议。",
+          "conclusion": "条件性支持",
+          "proposal": "保留应用方向；增加束质、有效测量点、扰动修正和适用协议限制。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "圆柱室的光子/电子束应用及平行板几何、表面/建成区测量用途有正文支持。",
+      "unsupported": "不支持所有能区和所有型号通用选择；2005教材不能当现行临床校准协议。",
+      "proposedRevision": "保留应用方向；增加束质、有效测量点、扰动修正和适用协议限制。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "腔体、定位、能区和协议相关",
+        "装置选型细节超出当前已核概念",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-03-point-5",
+      "originalText": "半导体探测器把辐射在半导体中产生的电子—空穴对转化为电信号。优点是灵敏、体积小、响应快、空间分辨率高；缺点是可能存在能量、温度、剂量率、方向等依赖。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "3f664d434e0bd9d10567105b79a0150eab538716227c3c9094390ca10bb2ecb1",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "半导体探测与依赖性",
+      "formulaAndConditions": "体积、材料、读出和能区影响",
+      "nodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "拆分原理和性能条件，待探测器专家查读来源",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "体积、材料、读出和能区影响",
+        "优点列表不是所有产品通性",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-03-point-6",
+      "originalText": "放射变色胶片可记录高空间分辨率二维剂量分布，适合高梯度、小野或计划验证；但需建立剂量—光密度/颜色响应标定，并控制扫描和分析条件。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "382ffd4032bb9c8dc1864fbd970543aaab82ed58732a563e1d076040aacbb9ea",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "胶片剂量标定及读出",
+      "formulaAndConditions": "批次、扫描、时间和响应条件",
+      "nodeIds": [
+        "s27v2-mp-measure-comparison"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§3.4.2，印刷84页 / PDF第122页",
+          "supported": "放射变色胶片相对剂量测量、高空间分辨、高梯度用途以及标定和环境控制有正文支持。",
+          "unsupported": "未核实具体批次、扫描仪、后照射等待时间和小野通用校准程序。",
+          "conclusion": "条件性支持",
+          "proposal": "保留概念；把扫描时序、批次和设备特异要求列为须另查的操作条件。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "放射变色胶片相对剂量测量、高空间分辨、高梯度用途以及标定和环境控制有正文支持。",
+      "unsupported": "未核实具体批次、扫描仪、后照射等待时间和小野通用校准程序。",
+      "proposedRevision": "保留概念；把扫描时序、批次和设备特异要求列为须另查的操作条件。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "批次、扫描、时间和响应条件",
+        "胶片性能细节未独立核对",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-03-point-7",
+      "originalText": "二维/三维阵列可一次获取多个测量点，效率高，常用于患者特异性QA；空间分辨率受探测单元尺寸和间距限制。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "88854ab35a3c3042b92f0882ec840280f6703f9bfe07f53bccbd3475a0407a0d",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "阵列采样与空间分辨",
+      "formulaAndConditions": "探元尺寸、间距及插值条件",
+      "nodeIds": [
+        "s27v2-mp-measure-comparison"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "补采样与实际空间响应区别，待剂量学复核",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "探元尺寸、间距及插值条件",
+        "探元间距不是全部分辨率定义",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-03-point-9",
+      "originalText": "小野剂量学更困难：射野尺寸接近探测器有效体积时容易产生体积平均；源遮挡、侧向电子平衡缺失和探测器扰动等也会使常规大野思路失效。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "2e84bb1b826c4265e3a1b088d399dbb0d62bb37602fba665f09b4411509258ab",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "小野体积平均及平衡条件",
+      "formulaAndConditions": "野尺寸、源遮挡、探测器与电子平衡",
+      "nodeIds": [
+        "s27v2-mp-measure-uncertainty"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "归入测量评价扩展，需小野剂量专家和现行来源",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "野尺寸、源遮挡、探测器与电子平衡",
+        "复杂效应不是零基础前置必背",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-05-point-4",
+      "originalText": "常用经验关系要理解量级而不是死套：水中电子实用射程Rp(cm)约为入射能量E(MeV)的一半，即Rp≈E/2；实际考试若给定特定公式或条件，以题目为准。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "4af958629b9ca6dd39f68ab34c9326260807e994fc309ac4bd0dcd55c441f9c7",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "电子射程与能量经验近似",
+      "formulaAndConditions": "水、特定束质和能量定义；非普适等式",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§8.2.1，印刷281页 / PDF第319页；§8.2.3，印刷282页 / PDF第320页",
+          "supported": "能谱不能用单一能量完整表征；水中Rp、表面最可几能量、表面平均能量和R50是不同概念。",
+          "unsupported": "式8.5文本层出现可疑1.09系数，未见原页图像；不能确认Rp≈E/2的具体系数、能量定义或误差范围。",
+          "conclusion": "暂时无法核实",
+          "proposal": "撤下无条件近似的教学建议，保留为修订草案；不得把OCR式8.5作为纠错答案。仅明确必须给水介质、能量定义和适用区间。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": "能谱不能用单一能量完整表征；水中Rp、表面最可几能量、表面平均能量和R50是不同概念。",
+      "unsupported": "式8.5文本层出现可疑1.09系数，未见原页图像；不能确认Rp≈E/2的具体系数、能量定义或误差范围。",
+      "proposedRevision": "撤下无条件近似的教学建议，保留为修订草案；不得把OCR式8.5作为纠错答案。仅明确必须给水介质、能量定义和适用区间。",
+      "evidenceStrength": "primary-read-specific-claim-unverified",
+      "expertQuestion": [
+        "水、特定束质和能量定义；非普适等式",
+        "E/2只能作有限近似；原页公式OCR疑错且截图失败",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-05-point-7",
+      "originalText": "电子束限光通常需要电子限光筒/附加挡块等系统；能量、射野大小、SSD和介质都会影响深度剂量和横向分布。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "355b89819448d14285ecccf3efcc4bb8da029b65af8390116bfd15ebfe261073",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "电子限光和几何",
+      "formulaAndConditions": "不同系统及野/能量条件",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§8.2.3.1，印刷282–284页 / PDF第320–322页",
+          "supported": "电子野大小影响侧向平衡、PDD与输出；入射角和限光系统散射影响分布。",
+          "unsupported": "未逐项核对SSD变化及全部介质和限光筒设计。",
+          "conclusion": "条件性支持",
+          "proposal": "保留已读野尺寸和角度条件，其余因素仍待配套原文和专家核实。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "电子野大小影响侧向平衡、PDD与输出；入射角和限光系统散射影响分布。",
+      "unsupported": "未逐项核对SSD变化及全部介质和限光筒设计。",
+      "proposedRevision": "保留已读野尺寸和角度条件，其余因素仍待配套原文和专家核实。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "不同系统及野/能量条件",
+        "具体附件不是基础课程核心",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-06-point-1",
+      "originalText": "近距离治疗（brachytherapy）是将密封放射源置于肿瘤内部、腔内、组织间或靶区附近进行照射的方法，特点是靶区附近剂量高而随距离增加迅速下降。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "93c5d4ceeaef449b44c40c35578ca795873e0a2f8e708dcc59be81c12068817f",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "近距离治疗几何分布",
+      "formulaAndConditions": "源位置与组织几何变化",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1，印刷451–453页 / PDF第489–491页",
+          "supported": "封装源置于治疗体积内/附近，几何漏靶因陡剂量梯度而重要；腔内、组织间等布置。",
+          "unsupported": "不支持所有形状源都严格按点源反平方律；不证明现行具体疗效或临床适应证。",
+          "conclusion": "已找到支持依据",
+          "proposal": "保留基础定义；明确是教学概念，不提供处方或点源公式通用化。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "封装源置于治疗体积内/附近，几何漏靶因陡剂量梯度而重要；腔内、组织间等布置。",
+      "unsupported": "不支持所有形状源都严格按点源反平方律；不证明现行具体疗效或临床适应证。",
+      "proposedRevision": "保留基础定义；明确是教学概念，不提供处方或点源公式通用化。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "源位置与组织几何变化",
+        "临床放置分类和定义需核对",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-06-point-3",
+      "originalText": "按放置方式可理解为腔内、组织间、表面/模具等；按剂量率常见LDR、HDR等概念。考试重点是理解分类依据和物理差别，不只背缩写。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "28552ee9a2595079aa7da0db58e0ce6c3e8cad21c4ba8b00ba4d4e9c7dcb1277",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "放置方式与剂量率分类",
+      "formulaAndConditions": "分类标准版本和上下文",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1及表13.1–13.4引导正文，印刷452–453页 / PDF第490–491页",
+          "supported": "放置方式、植入持续时间、装载方式和剂量率是不同分类轴；正文明确LDR概念。",
+          "unsupported": "未完整读取表格阈值，不确认HDR/LDR的数字边界或2028考查深度。",
+          "conclusion": "条件性支持",
+          "proposal": "只教分类依据，暂不新增剂量率阈值；分类版本由专家核定。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "放置方式、植入持续时间、装载方式和剂量率是不同分类轴；正文明确LDR概念。",
+      "unsupported": "未完整读取表格阈值，不确认HDR/LDR的数字边界或2028考查深度。",
+      "proposedRevision": "只教分类依据，暂不新增剂量率阈值；分类版本由专家核定。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "分类标准版本和上下文",
+        "未核对LDR/HDR阈值，不能补数字",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-06-point-4",
+      "originalText": "后装治疗：先放置施源器/导管并完成影像与计划，再由后装机远程驱动高活度源到指定驻留位置，按设定驻留时间完成治疗，可降低工作人员受照。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "9fe044a7a6e38f59ef3d19f7af6e048d97b329a1c1200c504d05f0bdb33bd31f",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "后装与工作人员受照",
+      "formulaAndConditions": "远程源驱动及防护系统条件",
+      "nodeIds": [
+        "s27v2-mp-protection-principle",
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "仅作安全与几何应用，待近距离专家审核",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "远程源驱动及防护系统条件",
+        "设备流程未直接核对",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-06-point-5",
+      "originalText": "HDR计划常通过改变多个驻留位置及驻留时间塑造剂量分布；源位置偏差、导管重建错误或时间错误都可能造成局部明显剂量偏差。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "87a64dc99bf2f00f2eb0883eefaccaaec11cd33c66b3a614bb45ed533e1f5954",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "驻留位置时间与剂量",
+      "formulaAndConditions": "计划、源强及几何依赖",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1，印刷452–453页 / PDF第490–491页",
+          "supported": "源位置、源强和计算点关系影响优化治疗时间；陡梯度放大几何偏差的重要性。",
+          "unsupported": "未读取HDR驻留优化与导管重建专节，不能核定所有流程细节。",
+          "conclusion": "条件性支持",
+          "proposal": "将已核实的一般几何/时间关系与待核HDR具体实现分开。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "源位置、源强和计算点关系影响优化治疗时间；陡梯度放大几何偏差的重要性。",
+      "unsupported": "未读取HDR驻留优化与导管重建专节，不能核定所有流程细节。",
+      "proposedRevision": "将已核实的一般几何/时间关系与待核HDR具体实现分开。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "计划、源强及几何依赖",
+        "不能只凭时间反推剂量",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-06-point-6",
+      "originalText": "近距离治疗计划与实施需要影像定位、施源器重建、靶区和危及器官勾画、剂量计算/优化、计划核对以及设备和源的质量保证。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b86a58b239e6f5a12093c053c68843df27dda841fcc885974979e995e1902b0a",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "近距离计划与验证环节",
+      "formulaAndConditions": "多专业流程和独立验证",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "降为过程理解，待现行规范和专家复核",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "多专业流程和独立验证",
+        "流程列表不是完整QA规范",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-06-point-7",
+      "originalText": "放射源会随时间衰变，源强需要可追溯标定并在计划/治疗时正确处理；安全上还要考虑源卡住、回源失败等应急情形。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "d13dc9fc92cdd3f311000414e7554f68ae9ed257dd1b2821b8b807f16f990b46",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "源衰变、标定和应急",
+      "formulaAndConditions": "核素、源强定义和机构程序",
+      "nodeIds": [
+        "s27v2-mp-protection-principle",
+        "s27v2-mp-nuclear-chain"
+      ],
+      "sourceChecks": [
+        {
+          "name": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+          "edition": "IAEA STI/PUB/1196",
+          "publishedAt": "2005-07",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "locator": "§13.1，印刷452–453页 / PDF第490–491页",
+          "supported": "源强标定需可追溯至国家或国际标准实验室；仅用剂量模型不足以验证治疗。",
+          "unsupported": "已读段落未覆盖衰变修正算法、卡源、回源失败和机构应急程序。",
+          "conclusion": "条件性支持",
+          "proposal": "保留可追溯标定要求，衰变与卡源应急独立列待核，不给临床操作指令。"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "源强标定需可追溯至国家或国际标准实验室；仅用剂量模型不足以验证治疗。",
+      "unsupported": "已读段落未覆盖衰变修正算法、卡源、回源失败和机构应急程序。",
+      "proposedRevision": "保留可追溯标定要求，衰变与卡源应急独立列待核，不给临床操作指令。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": [
+        "核素、源强定义和机构程序",
+        "源卡住处置需现行程序，不能凭本条操作",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "read-primary-historical-teaching-text-partial-scope",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-07-point-1",
+      "originalText": "IMRT（intensity-modulated radiation therapy）通过调节各射束内部的空间强度分布，使高剂量区更适形靶区并降低危及器官剂量。调强不是简单增加总剂量。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "4c1a117828e4c258de9715e8c5c42dec9b68e21e9d02a3494fcd237291fe7634",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "IMRT空间强度调制",
+      "formulaAndConditions": "复杂靶区与临床约束",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "强调分布塑形，具体技术细节待读权威原文",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "复杂靶区与临床约束",
+        "调强不等于增总剂量，方向可保留",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-07-point-2",
+      "originalText": "逆向计划与传统正向试错的思路不同：先定义靶区处方目标和危及器官约束，再由优化算法最小化目标函数/代价函数，寻找可实施的通量或控制参数。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "8a5aac15846032f7226be70a5dfc3f25589919fc28e4ea05b3cef2ea99930e42",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "逆向计划目标和约束",
+      "formulaAndConditions": "目标函数、可实施性和算法条件",
+      "nodeIds": [
+        "s27v2-mp-integration-model",
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "作为建模情境，需独立验证及专家边界",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "目标函数、可实施性和算法条件",
+        "优化结果不自动等于临床可用",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-07-point-3",
+      "originalText": "MLC是实现光子束强度调制的重要硬件。step-and-shoot通过多个静态子野累加；dynamic MLC在出束过程中连续移动叶片；VMAT在机架旋转过程中同时改变叶片、剂量率和/或机架速度。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "3651736e44c88f45106d989c2df35b4850ec1a4423d3661a45f023d361d21980",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "MLC、静态动态和VMAT",
+      "formulaAndConditions": "设备实现各异",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "降为可选例子，不扩维修知识训练",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "设备实现各异",
+        "硬件细节过多，尚无逐概念原文核验",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-07-point-4",
+      "originalText": "完整流程：CT/影像→靶区与OAR勾画→处方和约束→优化→剂量计算→计划评价→计划批准→患者特异QA/必要检查→治疗实施。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "fedc9484e595f320c1b0e4fcc7b2f5dc2710962fd14505ba2a202e07a990a23d",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "计划到实施的流程",
+      "formulaAndConditions": "以机构规范和多专业责任为准",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "保留说明性流程，未核验不作标准操作",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "以机构规范和多专业责任为准",
+        "顺序清单不能代表所有临床途径",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-07-point-6",
+      "originalText": "IMRT的优势包括复杂靶区适形和OAR保护；代价包括计划/实施复杂、对几何误差更敏感、低剂量体积可能增加以及更依赖QA。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "11f0d2c333c0e2f1f6ec01172a827c0103c4e30d6c84245df58d418f795a0bbe",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "调强收益和代价",
+      "formulaAndConditions": "技术、部位、几何及实施条件",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "避免把一般优点当临床保证",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "技术、部位、几何及实施条件",
+        "优劣需具体比较和证据",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-08-point-1",
+      "originalText": "IGRT（image-guided radiation therapy）利用治疗前或治疗过程中的影像确认患者、靶区及相关解剖位置，并据此进行配准、判断和必要校正，以降低几何不确定性。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "30f960802f4b31563458a67dbe0fd9165b0c01b171ccb34d2bfe3cf81107b12d",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "影像引导与几何不确定性",
+      "formulaAndConditions": "治疗前中及定位任务不同",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "前言PDF第7页；§3.1，印刷4页 / PDF第14页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "治疗室影像及基于影像采取行动、验证治疗位置的定义有原文支持。",
+      "unsupported": "IGRT还包括离线复核及后续纠正策略，不应把所有实现都等同治疗前即时校正。",
+      "proposedRevision": "保留影像支持几何判断，补‘在线/离线按机构协议执行’，不以单一工作流定义所有IGRT。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认定义深度及在线/离线分类是否足够，避免把影像引导与即时床移等同。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "locator": "前言PDF第7页；§3.1，印刷4页 / PDF第14页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-08-point-2",
+      "originalText": "基本闭环：患者摆位→获取影像→与计划参考影像配准→计算/观察位移与旋转偏差→按规则判断→校正治疗床或重新摆位→必要时复核→治疗。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "a167ca6d725d2a5448fa4d8c220e080f3154d79481ddf205967882dd096d3f23",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "影像配准与校正闭环",
+      "formulaAndConditions": "具体机构策略与权限",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "§3.2，印刷5页 / PDF第15页；§4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "参考/验证影像配准、偏差量化、在线床位校正及酌情重复成像等环节有原文支持。",
+      "unsupported": "该条适合作为在线闭环示例，不是离线策略或所有机构必须逐步照搬的处方。",
+      "proposedRevision": "标注‘在线IGRT示例’，所有行动阈值和权限由机构规范，不教通用床移数值。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认步骤逻辑和‘必要复核’的非处方边界。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "locator": "§3.2，印刷5页 / PDF第15页；§4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-08-point-3",
+      "originalText": "常见影像方式可包括kV/MV二维影像、锥形束CT（CBCT）等；不同设备和部位选择不同，考试重点是理解影像用于几何验证而不是死背机器型号。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "8bff427fec314b1295ecdf74069ed7c80a7ed80871938783d6ca0751fb43802a",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "kV/MV与CBCT几何验证",
+      "formulaAndConditions": "不同成像物理，不等于核医学探测",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "§3.1.1–3.1.4，印刷4–5页 / PDF第14–15页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "kV-CBCT、MV/EPID、kV平面影像等可用于位置验证，具体选择受成像任务约束。",
+      "unsupported": "列举不是全部技术清单；不能把诊断图像质量和特定患者定位精度等同。",
+      "proposedRevision": "保留‘可包括’，说明不同成像任务、设备和协议差异，不背型号。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认基础课程列举范围及是否需要补非电离成像作为例外。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "locator": "§3.1.1–3.1.4，印刷4–5页 / PDF第14–15页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-08-point-4",
+      "originalText": "配准可基于骨性结构、软组织或植入标记等。选择什么参照取决于真正需要定位的靶区和解剖关系；骨头对齐并不总等于软组织靶区完全对齐。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "d7f0a08e061a4cf9956ebc67bc904a60da97751639f2627d905532d9da47a34a",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "配准参照与靶区一致性",
+      "formulaAndConditions": "骨、软组织、标志与实际目标",
+      "nodeIds": [
+        "s27v2-mp-measure-comparison",
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "§2，印刷3页 / PDF第13页；§3.1.3–3.1.4，印刷5页 / PDF第15页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "肺/盆腔器官可独立于骨性结构运动；骨、植入标志及软组织显示各有定位应用。",
+      "unsupported": "不能从骨对齐推出所有软组织目标对齐，标志与靶区相关性仍须个体评价。",
+      "proposedRevision": "保留原限制，增加参照与真实靶区关联需验证，不给通用配准参照。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认替代标志和靶区运动关系的判分措辞。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "locator": "§2，印刷3页 / PDF第13页；§3.1.3–3.1.4，印刷5页 / PDF第15页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-08-point-5",
+      "originalText": "分次间（interfraction）变化发生在不同分次之间；分次内（intrafraction）变化发生在一次照射期间。呼吸运动是典型分次内运动来源之一。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "aa6665655ebe0a6f722733a1b47682f86239013e436166ca8efe51e2ca3bbade",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "分次内与分次间变化",
+      "formulaAndConditions": "时间尺度和运动源明确",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-UNC16",
+          "name": "Accuracy Requirements and Uncertainties in Radiotherapy",
+          "edition": "IAEA Human Health Series No.31，STI/PUB/1679",
+          "publishedAt": "2016-11",
+          "publicationEvidence": "PDF第6页Printed November 2016",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1679_HH31_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 315,
+          "readLocators": [
+            "§5.4.1及5.4.1.1，印刷75页 / PDF第87页",
+            "§6.6.1，印刷174页 / PDF第186页",
+            "§7.6.4相关重计划结论，印刷213页 / PDF第225页"
+          ],
+          "limits": "未把历史研究数值或肿瘤部位案例外推到个体；未全书或公式视觉审核。",
+          "locator": "UNC16 §6.6.1，印刷174页 / PDF第186页；§5.4.1.1，印刷75页 / PDF第87页；IGRT19 §3.1.4，印刷5页 / PDF第15页"
+        },
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "UNC16 §6.6.1，印刷174页 / PDF第186页；§5.4.1.1，印刷75页 / PDF第87页；IGRT19 §3.1.4，印刷5页 / PDF第15页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "分次间与分次内变化及呼吸相关分次内运动有正文支持。",
+      "unsupported": "原‘一次照射期间’可能窄于同一治疗分次内的临床含义；本轮未找到完整术语定义条款，不直接宣判最终术语。",
+      "proposedRevision": "建议改为‘不同治疗分次之间/同一治疗分次内’，由专家确认是否需包括定位至出束间变化。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "明确fraction与单段beam-on的区别及中文时间边界。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-UNC16",
+        "IAEA-IGRT19"
+      ],
+      "locator": "UNC16 §6.6.1，印刷174页 / PDF第186页；§5.4.1.1，印刷75页 / PDF第87页；IGRT19 §3.1.4，印刷5页 / PDF第15页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-08-point-7",
+      "originalText": "IGRT可帮助减少几何不确定性，但不能自动消灭所有误差，也不意味着边界可以无限缩小；影像剂量、工作流程、配准误差和解剖变化本身都要考虑。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "3c3dc25f394afc2e8d929d4ae1f9497071c1d593df34444d9eba17f40581a95c",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "IGRT残余误差与代价",
+      "formulaAndConditions": "成像剂量、配准及解剖变化",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "成像、勾画、配准、定位调整等仍有不确定性；外扩涉及风险权衡，电离成像带附加剂量。",
+      "unsupported": "不支持任意缩小边界或自动消除所有误差；文中示例数字不是所有患者的允许误差或边界公式。",
+      "proposedRevision": "保留残余误差和权衡限制；不搬用该报告的示例毫米数或剂量作统一临床规则。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认基础题能区分几何不确定性减少与总体误差归零。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "locator": "§6.4–6.6，印刷25–26页 / PDF第35–36页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-08-point-8",
+      "originalText": "当出现明显体重变化、肿瘤缩小或器官形态变化时，仅做平移校正可能不够，可能需要重新评估甚至自适应计划。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "a1d645280297d9116e73516d042de237490a846d499a79e8cb779185210e8af6",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "解剖变化和适应性评价",
+      "formulaAndConditions": "重大变化需要多专业复核",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "IGRT19 §3.2，印刷5页 / PDF第15页；UNC16 §5.4.1.1，印刷75页 / PDF第87页；§7.6.4结论，印刷213页 / PDF第225页"
+        },
+        {
+          "id": "IAEA-UNC16",
+          "name": "Accuracy Requirements and Uncertainties in Radiotherapy",
+          "edition": "IAEA Human Health Series No.31，STI/PUB/1679",
+          "publishedAt": "2016-11",
+          "publicationEvidence": "PDF第6页Printed November 2016",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1679_HH31_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 315,
+          "readLocators": [
+            "§5.4.1及5.4.1.1，印刷75页 / PDF第87页",
+            "§6.6.1，印刷174页 / PDF第186页",
+            "§7.6.4相关重计划结论，印刷213页 / PDF第225页"
+          ],
+          "limits": "未把历史研究数值或肿瘤部位案例外推到个体；未全书或公式视觉审核。",
+          "locator": "IGRT19 §3.2，印刷5页 / PDF第15页；UNC16 §5.4.1.1，印刷75页 / PDF第87页；§7.6.4结论，印刷213页 / PDF第225页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "复杂形变可能不能只靠平移；需判断是否改摆位、调整或重新计划，原文明确不能给简单通用重计划准则。",
+      "unsupported": "未逐一核对体重变化等全部触发因素和阈值，不能写成出现某变化就必重计划。",
+      "proposedRevision": "保留‘可能需重新评价’，把体重/肿瘤变化当待专业判断情境，不写自动重计划规则。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "核对例子、决策触发条件和多专业责任，拒绝自动处方化。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19",
+        "IAEA-UNC16"
+      ],
+      "locator": "IGRT19 §3.2，印刷5页 / PDF第15页；UNC16 §5.4.1.1，印刷75页 / PDF第87页；§7.6.4结论，印刷213页 / PDF第225页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-09-point-1",
+      "originalText": "模拟定位常包括体位选择、固定、定位影像获取、参考标记/坐标建立和必要的呼吸等运动管理；目标是可重复，而不只是舒服。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "bf8686a5ff38e6ce4583a385789318ff6f4e64b6dfae31c25ec349bf120072b0",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "定位与可重复条件",
+      "formulaAndConditions": "对象、坐标、体位和方法",
+      "nodeIds": [
+        "s27v2-mp-measure-definition",
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "按测量条件类比理解，具体定位方法待审",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "对象、坐标、体位和方法",
+        "不是设备舒适度单维指标",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-10-point-1",
+      "originalText": "Bragg峰：带电粒子接近射程末端时单位路径能量沉积显著增加，峰后剂量快速下降；这是与光子深度剂量分布的重要区别。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "156b666e1a9e21b9e7fea599a5b2de0c11c2aa0d5ab3717eb91869c73029a6ad",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "带电重粒子Bragg峰",
+      "formulaAndConditions": "不同粒子和核反应尾部不同",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "限定质子/重离子情境，不推广到电子束或称绝对零尾",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "不同粒子和核反应尾部不同",
+        "带电粒子泛称过宽；碳离子峰后可有碎片尾",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-10-point-2",
+      "originalText": "粒子能量决定大体射程；为了覆盖有厚度的靶区，需要多个不同能量层叠加形成SOBP。现代扫描治疗还可通过逐层/逐点扫描塑形剂量。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "3e64070078c2e0ead0da132c8d569c79ed7d730f5e7d7bbc6e691c88e6581971",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "能层与SOBP塑形",
+      "formulaAndConditions": "扫描和散射技术不同",
+      "nodeIds": [
+        "s27v2-mp-therapy-energy"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "保留概念候选，粒子专家确认技术边界",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "扫描和散射技术不同",
+        "与mp-01-point-8重叠且原文细节未核",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-10-point-3",
+      "originalText": "质子治疗的重要风险是射程不确定性。CT值到阻止本领转换、患者解剖变化、气腔/骨组织、摆位和运动等都可能让实际Bragg峰位置偏离计划。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "2aa750c3193b10d624e53d3748a1712325a2f7f2f50299079baf05f056a27a5b",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "射程不确定性来源",
+      "formulaAndConditions": "阻止本领、解剖、定位与运动",
+      "nodeIds": [
+        "s27v2-mp-measure-uncertainty",
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "作为建模限制，不教未经核实转换式",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "阻止本领、解剖、定位与运动",
+        "CT量到阻止本领不是简单恒定比例",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-10-point-4",
+      "originalText": "因此粒子计划不仅要看靶区覆盖，还要考虑鲁棒性（robustness）：在合理的摆位和射程扰动下，计划是否仍能保持可接受。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "2837cd1a2f00d69adb2447ccf9d055377d973171d6e932d9b00aafec60f49287",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "鲁棒评价",
+      "formulaAndConditions": "明确扰动集合、指标和临床条件",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "保留情境性概念，正式来源和深度待核",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "明确扰动集合、指标和临床条件",
+        "鲁棒不等于全部误差消失",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-10-point-7",
+      "originalText": "碳离子兼具有限射程和较高LET/RBE等特点，因此计划评价不仅是物理剂量问题，还涉及生物学剂量模型。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "dacbc76639320ae71e8b3577e13117e50d7924329627e4f2215cbb0ecedf330f",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "物理与生物模型剂量",
+      "formulaAndConditions": "模型参数与终点特异",
+      "nodeIds": [
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "保留待核，不发布生物剂量计算或临床推荐",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "模型参数与终点特异",
+        "缺少碳离子模型权威细节",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-11-point-3",
+      "originalText": "影像引导系统也需要QA，因为影像质量、成像坐标与治疗坐标的一致性会直接影响几何准确性。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "36fe12e7bc59a9e91eedd6d593eb3abffa6c75b88e0f717335662b319092ac6f",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "影像与治疗坐标QA",
+      "formulaAndConditions": "坐标链路与具体系统有关",
+      "nodeIds": [
+        "s27v2-mp-measure-comparison",
+        "s27v2-mp-therapy-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "IAEA-IGRT19",
+          "name": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+          "edition": "IAEA Human Health Reports No.16，STI/PUB/1827",
+          "publishedAt": "2019-02",
+          "publicationEvidence": "PDF第5页题名2019；第6页Printed February 2019",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "pdf-text-sections-read",
+          "pdfPages": 56,
+          "readLocators": [
+            "前言PDF第7页",
+            "§2，印刷3页 / PDF第13页",
+            "§3.1–3.2，印刷4–6页 / PDF第14–16页",
+            "§4.2.2.2–4.2.3，印刷14页 / PDF第24页；典型流程图文字印刷13页 / PDF第23页",
+            "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+            "§6.4–6.6，印刷25–26页 / PDF第35–36页"
+          ],
+          "limits": "历史技术实施报告，不把其示例容差/频次作为现行通用临床标准；只核已读正文，不转载流程图或表格。",
+          "locator": "§6.3.1–6.3.2，印刷22页 / PDF第32页"
+        }
+      ],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "图像质量、几何对准及图像到治疗坐标注册需要QA，还需端到端流程检查。",
+      "unsupported": "不能从该概念直接制定现行容差、频次或替代机构协议；旧表格数值仅历史示例。",
+      "proposedRevision": "保留坐标一致性和图像质量概念；强调硬件与数据/配准流程均需验证。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认坐标QA描述及硬件/流程区别，不引入未审定数值标准。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "sourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "locator": "§6.3.1–6.3.2，印刷22页 / PDF第32页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v5-2026-10-21-igrt"
+    },
+    {
+      "id": "mp-12-point-6",
+      "originalText": "屏蔽设计要考虑主射束、漏射和散射，工作负荷、使用因子、占用因子、距离、相邻区域用途以及辐射能量等。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "325813b49158b9c8cdf6306134b029e2653083055ba047fc625de3f9a5d94d3e",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "屏蔽输入与区域用途",
+      "formulaAndConditions": "负荷、占用、能量与源项定义",
+      "nodeIds": [
+        "s27v2-mp-protection-scenario"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "IAEA05"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "只作模型输入识别；完整设计需专业授权与现行标准",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "负荷、占用、能量与源项定义",
+        "列表不够完成安全设计",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-13-point-1",
+      "originalText": "γ相机典型链路：准直器→闪烁晶体（常见NaI(Tl)概念）→光电转换/位置逻辑→能量窗选择→形成二维分布。准直器改善方向信息但会牺牲灵敏度。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b9b9cfa7a5ddeeed098e3a3d710110dcedd521ba68f824ee8f63b314907cdb71",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "γ相机准直探测链",
+      "formulaAndConditions": "具体探测材料和结构随设备不同",
+      "nodeIds": [
+        "s27v2-mp-nuclear-chain"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.1–11.2.2.2，印刷312–314、324页 / PDF337–339、349页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "传统Anger相机准直、闪烁及光电转换链路和准直方向信息/计数取舍有支持；正文说明常见NaI(Tl)。",
+      "unsupported": "不是所有γ相机都使用闪烁PMT链路，不能把历史典型结构当全部现代固态设备。",
+      "proposedRevision": "明确‘传统Anger型典型链路’，保留现代直接转换等结构例外待专家确认。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "核对传统与现代架构边界及准直/灵敏度措辞。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.2.1–11.2.2.2，印刷312–314、324页 / PDF337–339、349页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-2",
+      "originalText": "能量窗用于选择目标光峰附近事件并减少部分散射事件影响；能量分辨率越好，越有利于区分不同能量事件。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "dd115ebd0951358f0a804c94217e99bb42173e70fb8486b3d43659ccb04d3fc9",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "能量窗与能量分辨",
+      "formulaAndConditions": "能谱、窗宽和计数统计共同作用",
+      "nodeIds": [
+        "s27v2-mp-nuclear-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.2相关能量估计与校正，印刷332–334页 / PDF357–359页；§11.2.3.3，印刷350页 / PDF375页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "采集能量窗保留所选能量事件；有限能量分辨使散射排除不完美，有正文支持。",
+      "unsupported": "不能保证能量窗消除全部散射，分辨率改善对具体核素/窗宽和计数任务的收益不能无条件量化。",
+      "proposedRevision": "写成减少部分散射并依核素、窗宽、分辨率与统计条件选择，不给通用窗宽。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "核对能量分辨率与散射/计数权衡的题目判分边界。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.2.2相关能量估计与校正，印刷332–334页 / PDF357–359页；§11.2.3.3，印刷350页 / PDF375页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-3",
+      "originalText": "空间分辨率描述区分相邻小结构的能力；灵敏度描述记录有效事件的能力。提高某一性能常可能付出另一性能代价，例如准直器分辨率与灵敏度之间存在权衡。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "c3619dea5440f0ff5d5e8e3532db36f5636123cedb396a6415a80d2fe23e36cf",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "空间分辨与灵敏度权衡",
+      "formulaAndConditions": "准直器设计、距离和任务相关",
+      "nodeIds": [
+        "s27v2-mp-nuclear-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.2.1，印刷314、320、324页 / PDF339、345、349页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "准直孔尺寸和长度影响方向接收、分辨与计数；分辨-灵敏度/噪声权衡有明确正文。",
+      "unsupported": "不推广成所有探测器的严格定律；不同距离与准直器设计需区分。",
+      "proposedRevision": "保留以准直器为例的可能权衡，不写任何性能提高必损另一项。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认分辨率、灵敏度与噪声三者定义及题目所给条件足够。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.2.2.1，印刷314、320、324页 / PDF339、345、349页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-4",
+      "originalText": "SPECT通过探测器绕患者多角度采集投影并重建断层图像。成像质量受计数统计、衰减、散射、运动、准直器和重建方法等影响。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "c4f8af529a445f4b0cfeff83b33dec88c00daa92898388fa66cc9b18a56f95a4",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "SPECT投影和重建",
+      "formulaAndConditions": "采样、计数、衰减、散射与运动",
+      "nodeIds": [
+        "s27v2-mp-nuclear-pet-spect",
+        "s27v2-mp-nuclear-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.3.1–11.2.3.3，印刷341–342、344、350页 / PDF366–367、369、375页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "传统旋转γ相机获取多角投影和重建；计数、运动、距离响应、衰减和散射影响有正文支持。",
+      "unsupported": "并非所有SPECT都需探测器机械绕行，现代固定探测器结构未在已读内容中完整核查。",
+      "proposedRevision": "将‘SPECT通过探测器绕患者’限定为常见旋转γ相机实现；共同原理改为多角投影重建。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认固定探测器例外、投影与重建描述是否适合基础课。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.2.3.1–11.2.3.3，印刷341–342、344、350页 / PDF366–367、369、375页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-5",
+      "originalText": "PET核素发射正电子，正电子在组织中减速后与电子湮灭，产生两束近乎反向的约511 keV光子。环形探测器在时间窗内记录符合事件，确定一条响应线（LOR）。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "8e960e75858b196c3aa964ad6c08e03c14e589ef3370969830b59133d79c2c50",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "PET符合与响应线",
+      "formulaAndConditions": "近反向湮灭光子、时间窗和非理想效应",
+      "nodeIds": [
+        "s27v2-mp-nuclear-pet-spect"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.3.1，印刷353–355页 / PDF378–380页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "正电子减速后湮灭、约511 keV近反向光子、时间符合与LOR的链路有直接正文支持。",
+      "unsupported": "近反向不是严格180度；符合判定并非保证每个事件都是真符合或直接给精确发生点。",
+      "proposedRevision": "保留‘约、近乎’限定，明确LOR并不单独确定线上的精确位置。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认假符合/散射符合是否需作为基础闭卷题边界。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.3.1，印刷353–355页 / PDF378–380页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-6",
+      "originalText": "PET并不是直接探测正电子；正电子射程、非共线性、探测器尺寸、计数统计等都会影响空间分辨率。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "5177a3384960f764b6667c2a138a23e573d0d9d762d6b608138be6392cf7f240",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "PET分辨率的物理限制",
+      "formulaAndConditions": "正电子射程、非共线性与探测响应",
+      "nodeIds": [
+        "s27v2-mp-nuclear-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.3.1–11.3.2.2，印刷354–357页 / PDF379–382页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "检测的是湮灭光子；正电子射程、非共线性、探测器尺度和统计噪声影响成像，正文支持。",
+      "unsupported": "统计噪声常经重建和平滑影响实际分辨，不能将其直接等同于本征几何分辨率。",
+      "proposedRevision": "区分物理/几何分辨限制与计数统计经重建造成的实用图像分辨损失。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "核对本征、系统和重建图像分辨率分类，避免混为单一指标。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.3.1–11.3.2.2，印刷354–357页 / PDF379–382页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-7",
+      "originalText": "衰减和散射会改变测得计数，PET/SPECT定量与图像质量通常需要相应校正；现代PET常与CT结合，CT既提供解剖信息，也可帮助衰减校正。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "28a7bfb17e8b5a9bbab9af5a99940c554a79ae99fb1f89617c3982466ced7159",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "校正与PET/CT信息",
+      "formulaAndConditions": "解剖、衰减及模型依赖",
+      "nodeIds": [
+        "s27v2-mp-nuclear-evaluation"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "§11.2.3.2–11.2.3.3，印刷344、350页 / PDF369、375页；§11.4.1，印刷392–393页 / PDF417–418页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "条件性支持",
+      "supported": "SPECT衰减/散射影响以及CT提供解剖和衰减校正用途有直接正文支持。",
+      "unsupported": "本轮未逐页读完PET专节全部散射校正算法，不能把此条所有PET定量细节标完整确认；CT配准也可受患者运动影响。",
+      "proposedRevision": "保留共同校正概念；分开标注已核SPECT与CT用途、待补PET特异算法及配准条件。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "核对PET/SPECT校正的共同点与差别，不给一套通用参数。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "§11.2.3.2–11.2.3.3，印刷344、350页 / PDF369、375页；§11.4.1，印刷392–393页 / PDF417–418页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-13-point-8",
+      "originalText": "核医学成像的共同逻辑：示踪剂分布反映生理/代谢或靶向过程→放射性衰变产生可探测信号→仪器定位事件→校正和重建→形成可解释图像。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "1cbc2e2f9df9cd68a427c14bbaac319693652fcc7a50ce276669f9ec65f11907",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "示踪剂到可解释图像",
+      "formulaAndConditions": "生理、衰变、探测、重建和定量链",
+      "nodeIds": [
+        "s27v2-mp-nuclear-chain"
+      ],
+      "sourceChecks": [
+        {
+          "id": "NM14-local-read",
+          "name": "Nuclear Medicine Physics: A Handbook for Teachers and Students",
+          "publisher": "IAEA",
+          "edition": "STI/PUB/1617，ISBN 978-92-0-143810-2",
+          "publishedAt": "2014-12",
+          "publicationEvidence": "PDF第4页题名Vienna 2014；第5页版权、书目与Printed December 2014",
+          "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1617web-1294055.pdf",
+          "accessedAt": "2026-10-21",
+          "accessStatus": "local-pdf-text-selected-pages-read",
+          "accessMethod": "官方原PDF下载后，复用import-tools/pdf.mjs进行只读文本提取；不是目录或搜索摘要",
+          "pdfPages": 766,
+          "bytes": 20154657,
+          "sha256": "781f71a33aa8666973d5c61d7922395b315e9db8780be66bc23cd5b81989880a",
+          "readPdfPages": [
+            4,
+            5,
+            8,
+            337,
+            338,
+            339,
+            345,
+            349,
+            356,
+            357,
+            358,
+            359,
+            366,
+            367,
+            369,
+            375,
+            378,
+            379,
+            380,
+            381,
+            382,
+            417,
+            418
+          ],
+          "limits": "只核读过的选定正文。文本提取不等于图表/复杂公式视觉核实；未渲染，canvas依赖缺失。历史教材不是现行设备临床协议。",
+          "rights": "原PDF及提取全文仅本地tmp/pdfs缓存，未提交或发布。提交内容仅书目、哈希、定位和原创核查意见，不复制表图、教材全文。",
+          "locator": "前言PDF第8页；§11.1–11.2.1，印刷312页 / PDF337页；§11.4.1，印刷392页 / PDF417页"
+        }
+      ],
+      "candidateSourceIds": [
+        "NM14"
+      ],
+      "conclusion": "已找到支持依据",
+      "supported": "示踪原理及生理/功能分布、衰变信号、成像与重建、解剖定位等整体链路有正文支持。",
+      "unsupported": "示踪剂摄取不直接等同疾病诊断或全部代谢；不能由链路概念推出临床准确率。",
+      "proposedRevision": "保留共同逻辑并强调示踪剂机制和临床解释条件，不作疗效或诊断保证。",
+      "evidenceStrength": "primary-read-bounded-support-not-expert-validation",
+      "expertQuestion": "确认‘生理/代谢或靶向’措辞是否覆盖而不夸大示踪特异性。",
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "locator": "前言PDF第8页；§11.1–11.2.1，印刷312页 / PDF337页；§11.4.1，印刷392页 / PDF417页",
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v4-2026-10-21-local-pdf"
+    },
+    {
+      "id": "mp-15-point-1",
+      "originalText": "题给公式ΔC=G/Q；先写单位、代入、结果，再说明限制。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b0e4f75f905e1557ded834817f9a52ff8f0afc5549a933a964013b4924ab6fae",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "稳态物料平衡的浓度模型",
+      "formulaAndConditions": "需定义G、Q、室外背景、充分混合、稳态及其他去除",
+      "nodeIds": [
+        "s27v2-mp-environment-ventilation",
+        "s27v2-mp-integration-model"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "WHO-VENT"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "保留题给模型待核；补单位、边界，不把公式当通风设计规范",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "需定义G、Q、室外背景、充分混合、稳态及其他去除",
+        "WHO仅简介可读，不能确证原公式完整条件",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    },
+    {
+      "id": "mp-15-point-3",
+      "originalText": "空间布局、源控制和通风等措施应结合实际暴露路径。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "e6c6395c3e235084e757b4d1f3b565736ea773cfba1fedd832bd6dc12f194031",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "claim": "空间、源控制与暴露路径",
+      "formulaAndConditions": "不同空间和污染物机制不同",
+      "nodeIds": [
+        "s27v2-mp-environment-space",
+        "s27v2-mp-environment-ventilation"
+      ],
+      "sourceChecks": [],
+      "candidateSourceIds": [
+        "WHO-VENT"
+      ],
+      "conclusion": "暂时无法核实",
+      "supported": null,
+      "unsupported": "本轮未取得支持该具体主张的已读原文；原来源候选、章节级对应均不算核实。",
+      "proposedRevision": "标注仅概览支持，机制与干预待环境健康专家",
+      "evidenceStrength": "insufficient",
+      "expertQuestion": [
+        "不同空间和污染物机制不同",
+        "通风不能替代源控制，未读完整路线图",
+        "确认该概念教学深度、建议措辞与可测试答案边界"
+      ],
+      "expertApproved": false,
+      "appliedToOriginal": false,
+      "historicalEvidenceStrength": "insufficient",
+      "currentEvidenceRevision": "mp-evidence-v3-2026-10-21"
+    }
+  ]
+}
