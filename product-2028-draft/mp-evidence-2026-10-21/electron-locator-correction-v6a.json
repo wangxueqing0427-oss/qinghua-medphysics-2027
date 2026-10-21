@@ -1,0 +1,18 @@
+{
+  "revision": "electron-original-page-v6a-locator-only",
+  "supersedesLocatorIn": ["claims-followup-v6.json", "electron-original-page-v6.json", "46条当前核查视图-v6.md"],
+  "claimId": "mp-05-point-4",
+  "priorSection": "8.2.3",
+  "correctSection": "8.2.1",
+  "sectionTitle": "Electron beam energy specification",
+  "printedPage": 281,
+  "pdfPage": 319,
+  "equation": "8.5",
+  "reason": "再次读取原页标题发现本轮初稿章节号录入错误；公式、页码与图像核对结论不变。保留初稿，并以本追加记录纠正定位。",
+  "sourceUrl": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+  "accessedAt": "2026-10-21",
+  "textHeadingActuallyRead": true,
+  "formulaChanged": false,
+  "coefficientScientificallyValidated": false,
+  "expertApproved": 0
+}
