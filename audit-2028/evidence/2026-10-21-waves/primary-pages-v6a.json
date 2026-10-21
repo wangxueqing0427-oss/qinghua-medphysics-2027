@@ -1,0 +1,45 @@
+{
+  "scope": "Evidence integrity and revision safety tests; not independent validation of scientific claims, expert approval or iPhone acceptance",
+  "results": [
+    {
+      "name": "All 22 unresolved originals retained byte-for-byte with original provenance",
+      "pass": true
+    },
+    {
+      "name": "Historical evidence and handoff files have unchanged hashes",
+      "pass": true
+    },
+    {
+      "name": "Only bounded evidence upgrades; expert and publication state stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "Four specific remaining gaps cannot be closed by related chapter matches",
+      "pass": true
+    },
+    {
+      "name": "Electron page image receipt does not validate or silently replace printed coefficient",
+      "pass": true
+    },
+    {
+      "name": "Energy and range definitions cannot be interchanged for calculation",
+      "pass": true
+    },
+    {
+      "name": "Important physical boundaries remain explicit in revision drafts",
+      "pass": true
+    },
+    {
+      "name": "Ventilation background subtraction is labelled derivation and not infection prediction",
+      "pass": true
+    },
+    {
+      "name": "Previous-year syllabus cannot imply 2028 final requirements or compulsory formula",
+      "pass": true
+    },
+    {
+      "name": "Read original heading corrects initial locator through an appended erratum",
+      "pass": true
+    }
+  ]
+}

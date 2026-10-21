@@ -1,0 +1,19 @@
+{
+  "engineeringCommit": "92539f852413d25e67e55a664b15c0da90dcfc0e",
+  "parent": "cccc1e07a17fdc0868301ac05caca9137731e269",
+  "ciRun": 39569649402,
+  "productionMain": "f8b99af10ee14c98d9f896050970fb0912ca04cc",
+  "localTests": {
+    "passed": 422,
+    "total": 422
+  },
+  "newEvidenceTests": {
+    "passed": 9,
+    "total": 9
+  },
+  "sourceFilesCompared": 8,
+  "byteHashesMatch": true,
+  "productionDeploy": false,
+  "expertApproved": 0,
+  "firstBlobTransportError": "GitHub create_blob transient transport error for claims ledger; retry succeeded; no branch update before complete tree"
+}

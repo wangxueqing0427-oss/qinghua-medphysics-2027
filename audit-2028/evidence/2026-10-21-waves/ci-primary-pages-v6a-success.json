@@ -1,0 +1,32 @@
+{
+  "id": 39570052268,
+  "head_sha": "c5bb5552bd2e182863f5cac6ed5111467fbc6989",
+  "status": "completed",
+  "conclusion": "success",
+  "html_url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39570052268",
+  "created_at": "2026-10-21T08:32:32Z",
+  "updated_at": "2026-10-21T08:35:13Z",
+  "jobId": 119121668852,
+  "observedLogLines": [
+    "2026-10-21T08:32:45.5762651Z {\"passed\":10,\"total\":10,\"failed\":[]}",
+    "2026-10-21T08:32:48.6004355Z {\"passed\":10,\"total\":10,\"failed\":[]}",
+    "2026-10-21T08:35:10.7566724Z   56 passed (1.3m)"
+  ],
+  "local": {
+    "passed": 423,
+    "total": 423,
+    "newEvidencePassed": 10,
+    "newEvidenceTotal": 10
+  },
+  "browser": {
+    "passed": 56,
+    "total": 56,
+    "scope": "Chromium and Linux WebKit; original APP42 and review HTML14; not real iPhone acceptance"
+  },
+  "firstEngineeringCommit": "92539f852413d25e67e55a664b15c0da90dcfc0e",
+  "firstRun": 39569649402,
+  "firstRunConclusion": "success",
+  "expertApproved": 0,
+  "deployed": false,
+  "mainUnchanged": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+}

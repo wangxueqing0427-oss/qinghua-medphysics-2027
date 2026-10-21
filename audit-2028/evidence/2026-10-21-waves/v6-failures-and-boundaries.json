@@ -1,0 +1,21 @@
+{
+  "failures": [
+    {
+      "stage": "first ledger generation",
+      "error": "KeyError: pointHash",
+      "effect": "No ledger files created; original records unchanged",
+      "fix": "Read originalSource.pointHash; rerun succeeded"
+    },
+    {
+      "stage": "initial local selected-page text display",
+      "error": "UnicodeEncodeError: gbk",
+      "fix": "Reran with Python -X utf8; only successful read counted"
+    }
+  ],
+  "unreadCandidates": [
+    "Unofficial textbook mirror and secondary thesis snippets: not adopted as formula evidence",
+    "No authoritative erratum obtained for IAEA1196 Eq8.5"
+  ],
+  "browserResult": "Pending actual CI; not inferred from local tests",
+  "expertApproved": 0
+}

@@ -1,0 +1,317 @@
+{
+  "startedAt": "2026-10-21T08:21:41.419Z",
+  "finishedAt": "2026-10-21T08:21:52.484Z",
+  "scope": "Local automated gate only; not browser, hosted smoke, content approval or real iPhone",
+  "passed": true,
+  "total": 422,
+  "testPassed": 422,
+  "reports": [
+    {
+      "suite": "primary-pages-v6-test.cjs",
+      "pass": true,
+      "passed": 9,
+      "total": 9,
+      "scope": "Evidence integrity and revision safety tests; not independent validation of scientific claims, expert approval or iPhone acceptance",
+      "error": null
+    },
+    {
+      "suite": "waves-evidence-test.cjs",
+      "pass": true,
+      "passed": 17,
+      "total": 17,
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "error": null
+    },
+    {
+      "suite": "nuclear-evidence-test.cjs",
+      "pass": true,
+      "passed": 4,
+      "total": 4,
+      "scope": "Evidence metadata and append-only status composition only; not automatic verification of physics, source images or expert approval",
+      "error": null
+    },
+    {
+      "suite": "mp-concept-review-test.cjs",
+      "pass": true,
+      "passed": 12,
+      "total": 12,
+      "scope": "Internal provenance, draft corrections and safe workflows; not independent expert review",
+      "error": null
+    },
+    {
+      "suite": "mp-foundation-test.cjs",
+      "pass": true,
+      "passed": 30,
+      "total": 30,
+      "scope": "Two isolated full modules using actual controller answers and fake IndexedDB; not browser or expert approval",
+      "error": null
+    },
+    {
+      "suite": "353-remap-test.cjs",
+      "pass": true,
+      "passed": 9,
+      "total": 9,
+      "scope": "Provenance, completeness of registry, references and immutable handoff; not semantic/expert approval",
+      "error": null
+    },
+    {
+      "suite": "quantity-measurement-test.cjs",
+      "pass": true,
+      "passed": 15,
+      "total": 15,
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "error": null
+    },
+    {
+      "suite": "review-ledger-test.cjs",
+      "pass": true,
+      "passed": 10,
+      "total": 10,
+      "scope": "Synthetic file-based review audit tests; no real expert approval, no identity verification or production record writes",
+      "error": null
+    },
+    {
+      "suite": "batch2-content-test.cjs",
+      "pass": true,
+      "passed": 7,
+      "total": 7,
+      "scope": "Internal content/answer checks, not independent expert review or full English coverage",
+      "error": null
+    },
+    {
+      "suite": "data-only-update-test.cjs",
+      "pass": true,
+      "passed": 3,
+      "total": 3,
+      "scope": "Isolated synthetic build tests; cache fingerprint changes do not prove real iPhone upgrade",
+      "error": null
+    },
+    {
+      "suite": "catalog-integration-test.cjs",
+      "pass": true,
+      "passed": 15,
+      "total": 15,
+      "scope": "Local controller and fake IndexedDB/catalog; not browser, expert approval or full 2028 coverage",
+      "error": null
+    },
+    {
+      "suite": "objective-quality-test.cjs",
+      "pass": true,
+      "passed": 14,
+      "total": 14,
+      "scope": "Internal evidence-link and synthetic storage tests; not expert approval or iPhone",
+      "error": null
+    },
+    {
+      "suite": "variable-types-test.cjs",
+      "pass": true,
+      "passed": 17,
+      "total": 17,
+      "scope": "Draft engine/controller with fake IndexedDB; not browser, real iPhone or expert review",
+      "error": null
+    },
+    {
+      "suite": "english-agreement-test.cjs",
+      "pass": true,
+      "passed": 16,
+      "total": 16,
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "error": null
+    },
+    {
+      "suite": "political-development-test.cjs",
+      "pass": true,
+      "passed": 16,
+      "total": 16,
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "error": null
+    },
+    {
+      "suite": "foundation-batch-test.cjs",
+      "pass": true,
+      "passed": 45,
+      "total": 45,
+      "scope": "Three isolated authored modules with existing engine and fake IndexedDB; not expert or phone approval",
+      "error": null
+    },
+    {
+      "suite": "expert-bundle-test.cjs",
+      "pass": true,
+      "passed": 4,
+      "total": 4,
+      "scope": "Review package completeness/hash/preservation, not professional review",
+      "error": null
+    },
+    {
+      "suite": "course-batch1-test.cjs",
+      "pass": true,
+      "passed": 13,
+      "total": 13,
+      "scope": "Content structure and deterministic answer checks; not independent expert review, whole syllabus coverage or real device",
+      "error": null
+    },
+    {
+      "suite": "course-batch1-integration-test.cjs",
+      "pass": true,
+      "passed": 3,
+      "total": 3,
+      "scope": "Actual controller/repository with fake IndexedDB; new drafts not integrated in published phone UI, not expert approval",
+      "error": null
+    },
+    {
+      "suite": "course-engine-test.cjs",
+      "pass": true,
+      "passed": 15,
+      "total": 15,
+      "scope": "Pure logic, not browser or iPhone; engine not integrated into old app",
+      "error": null
+    },
+    {
+      "suite": "profile-repository-test.cjs",
+      "pass": true,
+      "passed": 10,
+      "total": 10,
+      "scope": "Fake IndexedDB local draft module; not integrated UI, authentication, cloud sync or iPhone test",
+      "error": null
+    },
+    {
+      "suite": "learning-integration-test.cjs",
+      "pass": true,
+      "passed": 24,
+      "total": 24,
+      "scope": "Actual engine/controller/repository with fake IndexedDB. Simulated reopen/time; not a browser or real iPhone.",
+      "error": null
+    },
+    {
+      "suite": "pilot-ui-simulation-test.cjs",
+      "pass": true,
+      "passed": 6,
+      "total": 6,
+      "scope": "Actual pilot-ui.js click handlers with simulated DOM and fake IndexedDB. NOT a real browser or iPhone; no visual layout, Safari API or PWA verification.",
+      "error": null
+    },
+    {
+      "suite": "content-contract-test.cjs",
+      "pass": true,
+      "passed": 12,
+      "total": 12,
+      "scope": "Content schema, sample calculations and deterministic rubric-reference feedback; not expert review or scoring reliability calibration",
+      "error": null
+    },
+    {
+      "suite": "pilot-offline-test.cjs",
+      "pass": true,
+      "passed": 11,
+      "total": 11,
+      "scope": "Service worker logic with mocked cache/network, NOT actual browser installation, cache upgrades or iPhone offline use",
+      "error": null
+    },
+    {
+      "suite": "pilot-http-test.cjs",
+      "pass": true,
+      "passed": 12,
+      "total": 12,
+      "scope": "Real ephemeral localhost HTTP requests, no browser execution or mobile access",
+      "error": null
+    },
+    {
+      "suite": "regression.cjs",
+      "pass": true,
+      "passed": 32,
+      "total": 32,
+      "scope": "Node VM logic only; not real browser or iPhone",
+      "error": null
+    },
+    {
+      "suite": "material-backup.cjs",
+      "pass": true,
+      "passed": 11,
+      "total": 11,
+      "scope": "See individual report",
+      "error": null
+    },
+    {
+      "suite": "round4-reliability-test.cjs",
+      "pass": true,
+      "passed": 13,
+      "total": 13,
+      "scope": "Actual modules with fake IndexedDB; not browser or iPhone",
+      "error": null
+    },
+    {
+      "suite": "r5-profile-rubric-test.cjs",
+      "pass": true,
+      "passed": 3,
+      "total": 3,
+      "scope": "Actual local modules with fake IndexedDB; not real iPhone or online account isolation",
+      "error": null
+    },
+    {
+      "suite": "r4-r5-compatibility-test.cjs",
+      "pass": true,
+      "passed": 3,
+      "total": 3,
+      "scope": "Actual R4 controller at pinned GitHub commit and current R5 with fake IndexedDB; NOT real iPhone or browser upgrade",
+      "error": null
+    },
+    {
+      "suite": "mobile-build-test.cjs",
+      "pass": true,
+      "passed": 6,
+      "total": 6,
+      "scope": "Static browser artifact validation, NOT browser/iPhone execution or deployment",
+      "error": null
+    },
+    {
+      "suite": "round4-build-safety-test.cjs",
+      "pass": true,
+      "passed": 5,
+      "total": 5,
+      "scope": "Static build audit, not authentication/security penetration or iPhone",
+      "error": null
+    }
+  ],
+  "buildHashes": [
+    {
+      "file": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2"
+    },
+    {
+      "file": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043"
+    },
+    {
+      "file": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "file": "index.html",
+      "sha256": "c3a85fdeff68f6e4640d8fe2b1fe008a381d8abb449b1aadf95f0679ec6d796e"
+    },
+    {
+      "file": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b"
+    },
+    {
+      "file": "manifest.json",
+      "sha256": "b1875c3458d25b102c6244d54ab926697cc47581b6120ecdfc72536cc10b2c94"
+    },
+    {
+      "file": "pilot-ui.js",
+      "sha256": "4aafb1aaf4063f7680fac7fa530797cfa38bb6fb39299e2d0c8591eb3c9da332"
+    },
+    {
+      "file": "profile-repository.js",
+      "sha256": "42ddfab4760cdff140505ad2f52cd699b2944ac68cbdb07a0db64208154e6c4e"
+    },
+    {
+      "file": "representative-courses.json",
+      "sha256": "b0950e44a6ddbb491bb981a55a0c766e168c842006714b7e14607daba2177a96"
+    },
+    {
+      "file": "sw.js",
+      "sha256": "405d5eb4fcbc1527b5a7e6d93bede9f141ffd9e2dc1bc6ddd66e498c25f651bc"
+    }
+  ],
+  "releaseApproved": false
+}
