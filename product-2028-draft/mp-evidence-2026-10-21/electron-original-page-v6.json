@@ -1,0 +1,32 @@
+{
+  "revision": "electron-original-page-v6",
+  "claimId": "mp-05-point-4",
+  "sourceId": "IAEA1196",
+  "pdfPage": 319,
+  "printedPage": 281,
+  "section": "8.2.3",
+  "equation": "8.5",
+  "pageImageActuallyViewed": true,
+  "textActuallyRead": true,
+  "printedFormula": "E_{p,0} = 0.22 + 1.09 R_p + 0.0025 R_p^2",
+  "coefficientAsPrinted": "1.09",
+  "coefficientScientificallyValidated": false,
+  "erratumObtained": false,
+  "correctedCoefficient": null,
+  "formulaStatus": "as-printed-only-not-approved-for-teaching",
+  "imageSha256": "76cd60b23e125598f8666e758f39abbcdd7194245d163c36bcf2343effae7b9a",
+  "pdfSha256": "da4e3b5af19ed9506a812fea6704ff15cf55991902684a17759dbc7cbba05da0",
+  "quantities": {
+    "E_p,0": "水模体表面最可几电子能量，MeV；不是平均能量",
+    "Rp": "水中实用射程，cm；不是R50",
+    "R50": "吸收剂量降至最大值50%的深度，另用于平均能量关系"
+  },
+  "relationKind": "经验近似，非严格定律",
+  "validEnergyInterval": "本页未明确给出；不可补造",
+  "units": "本页约定能量MeV、射程cm；多项式数值系数依赖此单位约定。",
+  "officialScope": "2027大纲提供方向性范围，未确认该式是353必背公式；2028最终要求未核实。",
+  "correctionToPriorInterpretation": "图像与文本都为1.09，不得再称仅是OCR误读。原书可能存在印刷/编辑问题尚待权威勘误或独立原始资料确认；不得凭记忆改成另一系数。",
+  "expertApproved": 0,
+  "publishFormula": false,
+  "rights": "原书PDF与页面图像仅本机核对；不纳入公开源码或部署包。"
+}
