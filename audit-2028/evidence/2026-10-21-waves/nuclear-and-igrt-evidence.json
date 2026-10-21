@@ -1,0 +1,21 @@
+{
+  "scope": "Evidence metadata and append-only status composition only; not automatic verification of physics, source images or expert approval",
+  "results": [
+    {
+      "name": "Read-source metadata and all eight bounded updates retain the original 46 claims",
+      "pass": true
+    },
+    {
+      "name": "Fallback read never erases failed retrieval or turns text parsing into image/expert validation",
+      "pass": true
+    },
+    {
+      "name": "IGRT eight primary-source updates compose without replacing nuclear or original records",
+      "pass": true
+    },
+    {
+      "name": "Historical QA and uncertainty simplifications cannot silently override teaching or protocols",
+      "pass": true
+    }
+  ]
+}
