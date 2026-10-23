@@ -1,0 +1,85 @@
+{
+  "scope": "Evidence provenance, numerical transcription, units and scope guards; not independent professional review, deployed smoke or real iPhone acceptance",
+  "results": [
+    {
+      "name": "Exact seven v11 IDs, no new queue or HDR inflation",
+      "pass": true
+    },
+    {
+      "name": "Original texts, versions, source hashes and status preserved",
+      "pass": true
+    },
+    {
+      "name": "Historical protected files are byte-identical",
+      "pass": true
+    },
+    {
+      "name": "All seven distinguish bounded support, unresolved extensions and minimal revision",
+      "pass": true
+    },
+    {
+      "name": "Source provenance and actual reading limits present; no fabricated paragraph pagination",
+      "pass": true
+    },
+    {
+      "name": "NIST form/list cannot become a numerical stopping-power table",
+      "pass": true
+    },
+    {
+      "name": "Paired planning n20 is distinct from clinical cohort n152",
+      "pass": true
+    },
+    {
+      "name": "Same-study V5 values, units, SD and percentage-point differences remain reproducible",
+      "pass": true
+    },
+    {
+      "name": "Planning comparison retains platform/normalization confounds, not universal clinical causality",
+      "pass": true
+    },
+    {
+      "name": "MPPG2b millimetre values are equipment QA, never patient action thresholds",
+      "pass": true
+    },
+    {
+      "name": "Active AAPM directory, full text and Chinese legal force are distinct",
+      "pass": true
+    },
+    {
+      "name": "Initial review and IMRT QA before first fraction retain emergency exception and change review",
+      "pass": true
+    },
+    {
+      "name": "IGRT remains X-ray equipment scope with online/offline and residual-motion caveats",
+      "pass": true
+    },
+    {
+      "name": "Particle figures retain exact energies and conditions, no invented tail percentages",
+      "pass": true
+    },
+    {
+      "name": "Feigley original Eq2.1 is C not DeltaC; image verification does not rewrite v11 failure",
+      "pass": true
+    },
+    {
+      "name": "Background mass balance and example arithmetic with unit conversion, reject invalid flow",
+      "pass": true
+    },
+    {
+      "name": "HEPA rating and CADR retain particle, residential and ceiling boundaries",
+      "pass": true
+    },
+    {
+      "name": "ASHRAE metadata-only record cannot claim consolidated clauses or numerical requirements",
+      "pass": true
+    },
+    {
+      "name": "Actual retrieval failures preserved independently of later successful alternative reads",
+      "pass": true
+    },
+    {
+      "name": "No publication, real data access, expert approval, fee or final 2028 claim",
+      "pass": true
+    }
+  ]
+}

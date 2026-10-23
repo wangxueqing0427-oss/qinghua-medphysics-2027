@@ -1,0 +1,203 @@
+{
+  "nist": {
+    "material": "Water, Liquid",
+    "selectedPoints": [],
+    "tableObtained": false,
+    "unitsExpected": "MeV cm²/g for mass stopping power",
+    "electronicNuclearTotal": "Expected columns require actual table verification; no invented numerical trend",
+    "clinicalDoseEquivalent": false
+  },
+  "pairedIMRT": {
+    "sourceId": "NAGAI2017",
+    "pairedPatients": 20,
+    "clinicalCohortNotPairedN": 152,
+    "site": "left-sided breast",
+    "prescription": "50 Gy /25 fractions",
+    "beams": "6 MV, two tangential beams",
+    "CT": "3mm shallow breathing",
+    "TD": {
+      "system": "TomoTherapy5.0.5.18",
+      "algorithm": "convolution/superposition",
+      "grid": "1.96mm ×1.96mm ×slice thickness",
+      "width_cm": 2.51,
+      "pitch": 0.251,
+      "modulation": [
+        1.15,
+        1.85
+      ],
+      "normalization": "50Gy to50%PTV"
+    },
+    "CRT": {
+      "system": "Pinnacle3 / Varian Clinac2100C/D",
+      "algorithm": "collapsed cone convolution/superposition",
+      "normalization": "50Gy to PTV isocenter"
+    },
+    "locator": "HTML Results Table3; print article529–536, exact PDF page not verified",
+    "volumeUnit": "percent organ volume",
+    "rows": [
+      {
+        "organ": "left lung",
+        "threshold_Gy": 5,
+        "TDIMRT": [
+          12.8,
+          3.2
+        ],
+        "TD3DCRT": [
+          14.8,
+          2.8
+        ],
+        "CRT3D": [
+          20.9,
+          6.1
+        ],
+        "meanDifferencePercentagePoints": -8.1
+      },
+      {
+        "organ": "bilateral lung",
+        "threshold_Gy": 5,
+        "TDIMRT": [
+          5.8,
+          1.3
+        ],
+        "TD3DCRT": [
+          6.6,
+          1.4
+        ],
+        "CRT3D": [
+          9.3,
+          2.7
+        ],
+        "meanDifferencePercentagePoints": -3.5
+      }
+    ],
+    "values": "mean ±SD",
+    "confounds": [
+      "platform",
+      "prescription normalization"
+    ],
+    "universalLowDoseIncrease": false,
+    "comparativeClinicalOutcomeProven": false
+  },
+  "equipmentQA": {
+    "sourceId": "MPPG2B",
+    "locator": "HTML Table1",
+    "type": "equipment-QA-not-patient-action-threshold",
+    "rows": [
+      {
+        "test": "SRS imaging-treatment isocenter +table composite",
+        "tolerance_mm": 1,
+        "condition": "SRS only, day of special procedure"
+      },
+      {
+        "test": "imaging-treatment isocenter with lasers as treatment reference",
+        "tolerance_mm": 2,
+        "condition": "daily/day of special procedure"
+      },
+      {
+        "test": "table positioning/repositioning",
+        "tolerance_mm": 2,
+        "condition": "daily/day of special procedure"
+      }
+    ],
+    "patientActionThreshold_mm": null
+  },
+  "particleFigures": [
+    {
+      "sourceId": "TRS461",
+      "figure": "1.1",
+      "printedPage": 3,
+      "pdfPage": 14,
+      "particle": "proton",
+      "energy": 152,
+      "energyUnit": "MeV",
+      "medium": "water",
+      "geometry": "not fully specified in read caption",
+      "quantity": "normalized absorbed depth-dose",
+      "rawDosePoints": [],
+      "tailPercent": null
+    },
+    {
+      "sourceId": "TRS461",
+      "figure": "1.2",
+      "printedPage": 4,
+      "pdfPage": 15,
+      "particle": "carbon",
+      "energy": 290,
+      "energyUnit": "MeV/amu",
+      "medium": null,
+      "geometry": "PTV100–160mm; field/SSD not established",
+      "quantity": "weighted/isoeffective vs absorbed curves, not interchangeable",
+      "rawDosePoints": [],
+      "tailPercent": null
+    },
+    {
+      "sourceId": "IAEA1196",
+      "figure": "8.1",
+      "printedPage": 274,
+      "pdfPage": 312,
+      "particle": "electron",
+      "energy": [
+        6,
+        9,
+        12,
+        18
+      ],
+      "energyUnit": "MeV",
+      "medium": "water",
+      "geometry": "10×10cm²; SSD100cm",
+      "quantity": "percentage depth dose",
+      "rawDosePoints": [],
+      "tailPercent": null
+    }
+  ],
+  "massBalance": {
+    "sourceId": "FEIGLEY2008",
+    "sourceFormula": "C = G/Q",
+    "sourceFormulaVisuallyVerified": true,
+    "sourcePrintedPage": 15,
+    "sourcePdfPage": 18,
+    "derivedBalance": "G + Q*Cin - Q*C = 0",
+    "derivedResult": "DeltaC = C - Cin = G/Q",
+    "derivedNotQuoted": true,
+    "assumptions": [
+      "steady state",
+      "well mixed",
+      "constant background",
+      "constant volume and balanced inflow/outflow",
+      "no other removal or reaction",
+      "G and Q constant with Q>0"
+    ],
+    "units": {
+      "G": "mg/h",
+      "Q": "m³/h",
+      "DeltaC": "mg/m³"
+    },
+    "example": {
+      "G": 120,
+      "Q": 60,
+      "Cin": 0.3,
+      "DeltaC": 2,
+      "C": 2.3
+    },
+    "concentrationNotPersonalDoseOrInfectionProbability": true,
+    "localPdfSha256": "5cc51d35637e854503255293d65e829101b86979e0142de0381fb13c6f67a84e",
+    "localImageSha256": "aaee0fbe897818205d6683252f215d0cd4c956c2295ddbfc6a41ee56f82c3e58",
+    "cacheUploaded": false
+  },
+  "airCleaning": {
+    "HEPA": {
+      "sourceId": "CDC-VENT",
+      "efficiencyPercentAtLeast": 99.97,
+      "particleDiameter_um": 0.3,
+      "ratingNotRoomRisk": true
+    },
+    "CADRExample": {
+      "sourceId": "EPA-HOME",
+      "roomArea_ft2": 100,
+      "minCADR_cfm": 65,
+      "ceiling_ft": 8,
+      "scope": "residential particle cleaning example, not gas or clinical mandate"
+    },
+    "gasCADRNotClaimed": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "asOf": "2026-10-23",
+  "currentVerifiedActiveAAPM": [
+    "MPPG11A",
+    "MPPG2B"
+  ],
+  "activeStatusSource": "AAPM-ACTIVE",
+  "clinicalReview": {
+    "sourceId": "MPPG11A",
+    "initialReview": "QMP or supervised physicist before first fraction",
+    "emergencyException": "On-call remote/in-person review; if unavailable oncologist initial review followed by QMP next business day or before next treatment that day",
+    "QA": "First weekly review checks IMRT QA and documentation were completed prior to first fraction; not permission to defer QA",
+    "changes": "Dose-affecting changes handled as new plan review; fraction-only changes require differentiated documented handling",
+    "universalApprovalSequence": false,
+    "universalTolerance": false
+  },
+  "IGRT": {
+    "sourceId": "MPPG2B",
+    "scope": "X-ray equipment commissioning and QA",
+    "onlineOffline": "v11 IAEA historical definitions retained: online current fraction vs offline subsequent-fraction strategy; not every IGRT assessment triggers immediate couch shift",
+    "allMotionEliminated": false,
+    "patientActionThresholdVerified": false
+  },
+  "historicalNotCurrentCompleteNorm": [
+    "TRS461",
+    "IAEA1196",
+    "FEIGLEY2008",
+    "TG275"
+  ],
+  "guidanceNotLaw": [
+    "CDC-VENT",
+    "EPA-HOME"
+  ],
+  "metadataOnly": [
+    "ASHRAE241-CATALOG"
+  ],
+  "ASHRAEConsolidatedTextRead": false,
+  "ChineseCurrentLegalStatusVerified": false,
+  "verifiedFinal2028Syllabus": false
+}

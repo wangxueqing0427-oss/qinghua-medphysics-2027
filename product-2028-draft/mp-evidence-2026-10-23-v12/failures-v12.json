@@ -1,0 +1,82 @@
+[
+  {
+    "attempt": "v12-cache-sandbox.json",
+    "id": "pstar-form",
+    "url": "https://physics.nist.gov/PhysRefData/Star/Text/PSTAR-t.html",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+  },
+  {
+    "attempt": "v12-cache-sandbox.json",
+    "id": "feigley",
+    "url": "https://stacks.cdc.gov/view/cdc/218585/cdc_218585_DS1.pdf",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+  },
+  {
+    "attempt": "v12-cache-sandbox.json",
+    "id": "trs461",
+    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+  },
+  {
+    "attempt": "v12-cache-network-retry.json",
+    "id": "pstar-form",
+    "url": "https://physics.nist.gov/PhysRefData/Star/Text/PSTAR-t.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "attempt": "v12-cache-network-retry.json",
+    "id": "trs461",
+    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "attempt": "web",
+    "url": "NIST exploratory CGI GET",
+    "error": "not accessible; selector276 exploratory and unverified; no table read"
+  },
+  {
+    "attempt": "web",
+    "url": "CUA browser creation",
+    "error": "transport closed before response; no interactive form result"
+  },
+  {
+    "attempt": "web",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5514227/",
+    "error": "reCAPTCHA; no full body read"
+  },
+  {
+    "attempt": "web",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425907/",
+    "error": "reCAPTCHA; later publisher PDF read independently"
+  },
+  {
+    "attempt": "web",
+    "url": "https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/acm2.13366",
+    "error": "not accessible; PDFdirect later succeeded"
+  },
+  {
+    "attempt": "web",
+    "url": "https://doi.org/10.1002/acm2.13346",
+    "error": "redirect inaccessible once; direct publisher HTML later succeeded"
+  },
+  {
+    "attempt": "web",
+    "url": "web orchestration cell117",
+    "error": "terminated prolonged batch; no result credited"
+  },
+  {
+    "attempt": "web",
+    "url": "web orchestration cell123",
+    "error": "fatal connection failure; subsequent explicit calls provide credited reads"
+  },
+  {
+    "attempt": "web",
+    "url": "local PDF rendering",
+    "error": "Poppler font/nameToUnicode warnings; exit0 and actual viewed Eq2.1 image legible"
+  }
+]

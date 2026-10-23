@@ -1,0 +1,90 @@
+{
+  "base": "3073f10fbcf78734889f4c0e64b4d8fd6e9d2c65",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "scope": "v12 evidence, test and audit files only; workflow alias explicitly included",
+  "files": [
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/conditional-followup-v12.json",
+      "sha256": "351a0e85cac2268bff8840ebb38d19c42a8037e36bbf76e32f27a23e81a7ed2a",
+      "bytes": 37457
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/failures-v12.json",
+      "sha256": "b808457f64ee9a2f277e24eb9f8fc769bf033c0be155af61716289b3f28b104f",
+      "bytes": 2790
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/quantitative-matrix-v12.json",
+      "sha256": "ff950d9d26da309eada7ee66f5c96aba991bcf412d1e5a1d0a48ec11d9893608",
+      "bytes": 5557
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/standards-matrix-v12.json",
+      "sha256": "cfd71ed0e02004a020a8116c9495309b48bddc934e44e6e2ca7e96ad463c85ee",
+      "bytes": 1508
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/七条定量证据与现行规范-v12.md",
+      "sha256": "2019f0377bae83c6a7d61867528019f9df7a4f428b6b0c2ae397f9ec2ec2c15e",
+      "bytes": 16894
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/baseline.json",
+      "sha256": "f06815ae2e1960fd6acd4dd0437a820e996292591bf11d565026339c6900df44",
+      "bytes": 9500
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/local-gate.json",
+      "sha256": "faeefbb8bdc3dce00baa6398528d8550741d2aa1c189d8ffdcc91dac9ff856c8",
+      "bytes": 11257
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/new-tests.json",
+      "sha256": "3d5268ceb23ee5ba7ee237901de7c5afa9a4c497f4aa1a4cc9ffb7104267c62d",
+      "bytes": 2698
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/protected-check.json",
+      "sha256": "af441f2583dbd1db6438fcb9c19ad9ec76ba8fc33938042a3700344bf288b06b",
+      "bytes": 9019
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/skills-audit.json",
+      "sha256": "af6fb285b3440cbbf3438db496710dd0d4674ecafd486d26d122fba54037050d",
+      "bytes": 291
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/skills-release.json",
+      "sha256": "b9a76dff645d96989d118dd1979501c986c4360ef87b61e8a4ab217ad247658e",
+      "bytes": 12329
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/test-startup-failure.json",
+      "sha256": "90595156fd4dc3e4f83e9e87988f6dd524af85a086bddcdcb20c6c1255f4cdb1",
+      "bytes": 292
+    },
+    {
+      "path": "audit-2028/build-followup-v12.py",
+      "sha256": "619633f99036e1cd6b098036116581c2a96e4428e1c6bf696d7b959bc65ad5cf",
+      "bytes": 24705
+    },
+    {
+      "path": "audit-2028/conditional-v12-test.cjs",
+      "sha256": "66c58737d78f88ef968e431cbab1575a51f5c4e1aeb5ef56caf91837591e38ee",
+      "bytes": 9292
+    },
+    {
+      "path": "audit-2028/run-internal-gate.cjs",
+      "sha256": "bb85efdf5c2eb26fdc31d9ca6cbe8a850aaea16af850e7eba44895d7fa070d5f",
+      "bytes": 4325
+    },
+    {
+      "path": "product-2028-ci/workflow.yml",
+      "sha256": "ffa9601d55fed054e4ee1cec406875421d62de4d757993fe38431672f54ac29e",
+      "bytes": 5111
+    }
+  ],
+  "workflowAlias": ".github/workflows/2028-r5-e2e.yml",
+  "sourceCachesUploaded": false,
+  "productionChanged": false
+}

@@ -1,0 +1,7 @@
+{
+  "command": "import-tools/node.exe audit-2028/conditional-v12-test.cjs",
+  "sandbox": true,
+  "exitCode": 1,
+  "error": "EPERM lstat C:/Users/王学庆; Node failed before test execution",
+  "resolution": "Approved sandbox-external retry succeeded20/20; original failure preserved"
+}
