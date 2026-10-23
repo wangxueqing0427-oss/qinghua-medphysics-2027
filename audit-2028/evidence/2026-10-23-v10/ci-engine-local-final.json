@@ -1,0 +1,112 @@
+{
+  "scope": "Committed isolated engine/controller/synthetic IndexedDB/VM/offline/localhost HTTP tests, not real browser or physical iPhone; content and browser tests run separately",
+  "passed": true,
+  "reports": [
+    {
+      "suite": "catalog-integration-test",
+      "passed": 14,
+      "total": 14,
+      "pass": true,
+      "excludedLocalContentChecks": [
+        "Full 476-point graph integrity remains local; graph not approved for public upload"
+      ]
+    },
+    {
+      "suite": "course-batch1-integration-test",
+      "passed": 3,
+      "total": 3,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "course-engine-test",
+      "passed": 15,
+      "total": 15,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "profile-repository-test",
+      "passed": 10,
+      "total": 10,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "learning-integration-test",
+      "passed": 24,
+      "total": 24,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "pilot-ui-simulation-test",
+      "passed": 6,
+      "total": 6,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "content-contract-test",
+      "passed": 12,
+      "total": 12,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "pilot-offline-test",
+      "passed": 11,
+      "total": 11,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "pilot-http-test",
+      "passed": 12,
+      "total": 12,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "round4-reliability-test",
+      "passed": 13,
+      "total": 13,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "r5-profile-rubric-test",
+      "passed": 3,
+      "total": 3,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    },
+    {
+      "suite": "r4-r5-compatibility-test",
+      "passed": 3,
+      "total": 3,
+      "pass": true,
+      "excludedLocalContentChecks": []
+    }
+  ],
+  "excludedHistoricalSuites": [
+    {
+      "suite": "regression.cjs",
+      "reason": "Requires unpublished deploy-v60-candidate historical assets; local gate only"
+    },
+    {
+      "suite": "material-backup.cjs",
+      "reason": "Requires unpublished deploy-v60-candidate assets; synthetic local gate only"
+    },
+    {
+      "suite": "mobile-build-test.cjs",
+      "reason": "Requires local historical build manifest; local gate only"
+    },
+    {
+      "suite": "round4-build-safety-test.cjs",
+      "reason": "Local static candidate boundary check; browser CI independently validates committed build"
+    }
+  ],
+  "total": 126,
+  "testPassed": 126
+}

@@ -1,0 +1,22 @@
+{
+  "reviewer": null,
+  "qualification": null,
+  "date": null,
+  "unitId": null,
+  "unitVersion": null,
+  "decision": "pending",
+  "checks": {
+    "knowledge": null,
+    "scopeYear": null,
+    "formulaAndUnits": null,
+    "questionAnswer": null,
+    "explanation": null,
+    "rubric": null,
+    "sourceAndRights": null
+  },
+  "issues": [],
+  "correctionCommit": null,
+  "recheckReviewer": null,
+  "recheckDecision": "pending",
+  "formalReleaseApproved": false
+}
