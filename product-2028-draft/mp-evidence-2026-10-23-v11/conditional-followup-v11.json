@@ -1,0 +1,871 @@
+{
+  "revision": "conditional-followup-v11-2026-10-23",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "baseCommit": "1cc1b4f65e35f53fbd4079c9e61e16a28a592976",
+  "previousTestedCommit": "aa5a19953232b1e32a2586a4af78a278e7978c30",
+  "previousCi": 39897733247,
+  "inheritedUnfollowedIds": [
+    "mp-01-point-8",
+    "mp-07-point-4",
+    "mp-07-point-6",
+    "mp-08-point-1",
+    "mp-10-point-1",
+    "mp-15-point-1",
+    "mp-15-point-3"
+  ],
+  "newlyFollowedUpIds": [
+    "mp-01-point-8",
+    "mp-07-point-4",
+    "mp-07-point-6",
+    "mp-08-point-1",
+    "mp-10-point-1",
+    "mp-15-point-1",
+    "mp-15-point-3"
+  ],
+  "remainingUnfollowedIds": [],
+  "queueMeaning": "新增正文跟进7，不表示7条科学充分或审定；所有7条保留条件性状态和子主张缺口",
+  "updates": [
+    {
+      "id": "mp-01-point-8",
+      "originalText": "质子带正电。其单位路径能量损失随速度降低而增大，在射程末端形成Bragg峰，峰后剂量迅速降低。临床常通过叠加不同能量的Bragg峰形成覆盖一定厚度靶区的展宽Bragg峰（SOBP）。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b3061434d0d24d17761f678e484039fef67ccc792eb5680049a040197cb09cdd",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "b3061434d0d24d17761f678e484039fef67ccc792eb5680049a040197cb09cdd",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "TRS461"
+      ],
+      "priorLocator": "引言 印刷3–5 / PDF14–16",
+      "priorGap": "不能把所有速度区间写为越慢阻止本领必越大；不推导临床获益。",
+      "group": "粒子能损与深度剂量",
+      "subclaimChecks": [
+        {
+          "claim": "治疗语境的质子深度剂量峰与多能量展宽",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS461-v11"
+          ],
+          "locator": "§1.1.3 印刷3–5/PDF14–16",
+          "conditions": "能量、介质和束流展宽共同影响；不是临床获益证明"
+        },
+        {
+          "claim": "阻止本领单位及不同能区的模型处理",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "NIST-STAR",
+            "IAEA1196-v11"
+          ],
+          "locator": "NIST §3.2、3.5；教材§2.6印刷49–52/PDF87–90",
+          "conditions": "线性MeV/cm与质量MeV·cm²/g不得混淆；低能区需经验拟合/修正"
+        },
+        {
+          "claim": "所有速度越低能损必越大或直接等同局部吸收剂量",
+          "status": "unresolved-or-conditional",
+          "sourceIds": [
+            "NIST-STAR"
+          ],
+          "locator": "§3.5.1–3.5.4",
+          "conditions": "未读材料数值表，不宣称已证明低能区单调反例；单粒子能损不等同宏观深度剂量"
+        }
+      ],
+      "sourceIds": [
+        "TRS461-v11",
+        "NIST-STAR",
+        "IAEA1196-v11"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "写为治疗质子束在介质中的能损和输运可形成射程末端附近的Bragg峰，多能量束叠加展宽覆盖靶深度；删去不加条件的全速度单调表述。",
+      "remaining": [
+        "缺具体材料低能区数值表及定量适用范围",
+        "能损、局部能量沉积与临床深度剂量的教学边界待专家确认"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    },
+    {
+      "id": "mp-07-point-4",
+      "originalText": "完整流程：CT/影像→靶区与OAR勾画→处方和约束→优化→剂量计算→计划评价→计划批准→患者特异QA/必要检查→治疗实施。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "fedc9484e595f320c1b0e4fcc7b2f5dc2710962fd14505ba2a202e07a990a23d",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "fedc9484e595f320c1b0e4fcc7b2f5dc2710962fd14505ba2a202e07a990a23d",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "IAEA1196"
+      ],
+      "priorLocator": "§15.7.1、15.7.6–9 印刷532、535–538 / PDF570、573–576",
+      "priorGap": "未逐项核实所有审批责任及临床QA时序。",
+      "group": "计划实施与几何验证",
+      "subclaimChecks": [
+        {
+          "claim": "影像、结构、目标/约束、优化评价、医师批准与治疗参数传输",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "AAPM82"
+          ],
+          "locator": "§IV.D.1–6 印刷2107–2108/PDF19–20",
+          "conditions": "教学概览，临床目标在早期即参与，并非严格单向CT后才有处方"
+        },
+        {
+          "claim": "首次治疗前验证MU/剂量、MLC或通量、剂量分布及碰撞风险",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "AAPM82"
+          ],
+          "locator": "§IV.D.7–8 印刷2109/PDF21；§III.F.3印刷2106/PDF18",
+          "conditions": "验证方法按机构/技术制定；验证不只等同一次体模测量"
+        },
+        {
+          "claim": "唯一审批顺序、全部岗位法定责任、现行QA时序",
+          "status": "unresolved-or-conditional",
+          "sourceIds": [
+            "AAPM82"
+          ],
+          "locator": "§IV.D.1及IV.D.7",
+          "conditions": "原报告承认机构差异；不替代当地法规、现行协议和临床审批"
+        }
+      ],
+      "sourceIds": [
+        "AAPM82"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "将原箭头标成可迭代的教学示例，补充早期临床目标、数据传输核查和首次治疗前验证；批准与验证责任依机构协议，不写成通用强制线性流程。",
+      "remaining": [
+        "现行本地审批责任及异常重计划流程未逐项核对",
+        "需教师/临床物理专家确认教学简化不会误导QA责任"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    },
+    {
+      "id": "mp-07-point-6",
+      "originalText": "IMRT的优势包括复杂靶区适形和OAR保护；代价包括计划/实施复杂、对几何误差更敏感、低剂量体积可能增加以及更依赖QA。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "11f0d2c333c0e2f1f6ec01172a827c0103c4e30d6c84245df58d418f795a0bbe",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "11f0d2c333c0e2f1f6ec01172a827c0103c4e30d6c84245df58d418f795a0bbe",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "IAEA1196"
+      ],
+      "priorLocator": "§15.7.6、15.7.8–9 印刷535、537–538 / PDF573、575–576",
+      "priorGap": "本次已读内容不足以证明所有计划低剂量体积增大及量化几何敏感性。",
+      "group": "计划实施与几何验证",
+      "subclaimChecks": [
+        {
+          "claim": "适形、器官保护潜力伴随优化/交付/QA复杂性",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "AAPM82"
+          ],
+          "locator": "§I.A、IV.D.5、IV.E；印刷2090、2108、2110/PDF2、20、22",
+          "conditions": "并非每个病人IMRT必优于3DCRT"
+        },
+        {
+          "claim": "高梯度、运动或特定解剖变化会放大交付偏差风险",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "AAPM82",
+            "BALLIVY06"
+          ],
+          "locator": "AAPM §III.C.5–8印刷2101–2102/PDF13–14；Ballivy HTML§2–3",
+          "conditions": "研究范围为8名头颈患者与特定束流/算法；不可作统一几何误差换算"
+        },
+        {
+          "claim": "所有IMRT计划低剂量体积增加以及统一敏感度",
+          "status": "unresolved-or-conditional",
+          "sourceIds": [
+            "AAPM82",
+            "BALLIVY06"
+          ],
+          "locator": "AAPM §III.C.8及III.D(f)印刷2102–2103/PDF14–15",
+          "conditions": "全身剂量警示不等于低剂量体积已被普遍量化；需相同轮廓、目标、阈值和计划比较"
+        }
+      ],
+      "sourceIds": [
+        "AAPM82",
+        "BALLIVY06"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "收益写成可实现的计划目标；几何风险限定高梯度、运动及具体方案。低剂量体积写成需按指定阈值比较的可能代价，不给通用增幅。",
+      "remaining": [
+        "缺同条件计划比较的低剂量体积直接数据",
+        "不把研究边界数值用于临床建议或所有IMRT与3DCRT优劣结论"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    },
+    {
+      "id": "mp-08-point-1",
+      "originalText": "IGRT（image-guided radiation therapy）利用治疗前或治疗过程中的影像确认患者、靶区及相关解剖位置，并据此进行配准、判断和必要校正，以降低几何不确定性。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "30f960802f4b31563458a67dbe0fd9165b0c01b171ccb34d2bfe3cf81107b12d",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "30f960802f4b31563458a67dbe0fd9165b0c01b171ccb34d2bfe3cf81107b12d",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "IAEA-IGRT19"
+      ],
+      "priorLocator": "前言PDF第7页；§3.1，印刷4页 / PDF第14页",
+      "priorGap": "IGRT还包括离线复核及后续纠正策略，不应把所有实现都等同治疗前即时校正。",
+      "group": "计划实施与几何验证",
+      "subclaimChecks": [
+        {
+          "claim": "依据治疗位置影像及配准信息采取行动",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "IGRT19-v11"
+          ],
+          "locator": "§1.1–1.3印刷1/PDF11",
+          "conditions": "外照射报告语境；影像和床移不是同义词"
+        },
+        {
+          "claim": "离线分析既往分次以修正后续分次，在线纠正在本次交付前执行",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "IGRT19-v11"
+          ],
+          "locator": "§4.1.9、4.1.9.1–2印刷9–11/PDF19–21",
+          "conditions": "离线更针对系统偏差；在线处理当次偏移，协议取决部位/资源"
+        },
+        {
+          "claim": "全部IGRT都能实时完全消除运动或必须统一校正阈值",
+          "status": "unresolved-or-conditional",
+          "sourceIds": [
+            "IGRT19-v11"
+          ],
+          "locator": "§1.3及4.1.9",
+          "conditions": "不授权具体动作阈值/频次；不能保证消除全部几何不确定性"
+        }
+      ],
+      "sourceIds": [
+        "IGRT19-v11"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "保留原定义，补充在线/离线评估及后续分次纠正均属影像引导工作流；具体配准、动作与复核按部位和机构协议。",
+      "remaining": [
+        "当代各设备/非X射线技术细节及校正容差未核",
+        "需专家确认基础课程对系统/随机偏差的教学深度"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    },
+    {
+      "id": "mp-10-point-1",
+      "originalText": "Bragg峰：带电粒子接近射程末端时单位路径能量沉积显著增加，峰后剂量快速下降；这是与光子深度剂量分布的重要区别。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "156b666e1a9e21b9e7fea599a5b2de0c11c2aa0d5ab3717eb91869c73029a6ad",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "156b666e1a9e21b9e7fea599a5b2de0c11c2aa0d5ab3717eb91869c73029a6ad",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "TRS461"
+      ],
+      "priorLocator": "引言及§5.3.2 印刷3–5、62–63 / PDF14–16、73–74",
+      "priorGap": "不支持把电子等所有带电粒子均作相同尖峰，也不支持峰后严格归零。",
+      "group": "粒子能损与深度剂量",
+      "subclaimChecks": [
+        {
+          "claim": "治疗质子/离子可表现末端Bragg峰",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS461-v11"
+          ],
+          "locator": "§1.1.3印刷3–5/PDF14–16",
+          "conditions": "不同粒子、能量、介质和束流条件有别"
+        },
+        {
+          "claim": "离子碎裂会在峰后产生能量沉积，临床电子PDD不是相同尖峰",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS461-v11",
+            "IAEA1196-v11"
+          ],
+          "locator": "TRS §4.3(1)印刷46/PDF57；教材图8.1印刷274/PDF312、§8.1.5–6印刷279/PDF317",
+          "conditions": "图像实际查看PDF312，仅此页计视觉证据；不读取数值推导通用曲线"
+        },
+        {
+          "claim": "将所有带电粒子均归为同一Bragg深度剂量或峰后严格为零",
+          "status": "unsupported-extension",
+          "sourceIds": [
+            "IAEA1196-v11",
+            "TRS461-v11"
+          ],
+          "locator": "同上",
+          "conditions": "原句范围过宽；不是认定原文声称了峰后零剂量；零尾部只是禁止扩展的误解"
+        }
+      ],
+      "sourceIds": [
+        "TRS461-v11",
+        "IAEA1196-v11"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "将带电粒子明确限定为治疗质子/离子束，补充重离子碎裂尾部和电子束分布不同；峰后快速下降不等于严格为零。",
+      "remaining": [
+        "未建立各种粒子和能量的量化尾部比较",
+        "需医学物理专家确认能损与深度剂量区别及考试表述"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    },
+    {
+      "id": "mp-15-point-1",
+      "originalText": "题给公式ΔC=G/Q；先写单位、代入、结果，再说明限制。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b0e4f75f905e1557ded834817f9a52ff8f0afc5549a933a964013b4924ab6fae",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "b0e4f75f905e1557ded834817f9a52ff8f0afc5549a933a964013b4924ab6fae",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "FEIGLEY2008"
+      ],
+      "priorLocator": "§2.4.1 式2.1 印刷15 / PDF18",
+      "priorGap": "非稳态、近场、不均匀、沉积反应及感染概率不由该式直接支持。",
+      "group": "环境暴露与通风模型",
+      "subclaimChecks": [
+        {
+          "claim": "充分混合、稳态、清洁稀释送风时C=G/Q",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "FEIGLEY08-v11"
+          ],
+          "locator": "§2.4.1 Eq2.1印刷15/PDF18",
+          "conditions": "G为污染物质量/时间，Q为稀释通风体积/时间；无额外去除/反应，非任意再循环风量"
+        },
+        {
+          "claim": "有背景时增量ΔC=C−Cin=G/Q",
+          "status": "derived-under-assumptions",
+          "sourceIds": [
+            "FEIGLEY08-v11"
+          ],
+          "locator": "依据§2.4.1质量守恒的内部推导；不是原文引用",
+          "conditions": "稳态G+Q·Cin−Q·C=0，恒体积、同流量、背景恒定；单位mg/h÷m³/h=mg/m³"
+        },
+        {
+          "claim": "近场个人暴露、非稳态或感染概率由该式给出",
+          "status": "unsupported-extension",
+          "sourceIds": [
+            "FEIGLEY08-v11"
+          ],
+          "locator": "§2.3及2.4.1印刷12–16/PDF15–19",
+          "conditions": "源位置、气流、人员活动和非均匀性另需评价；不能把平均浓度直接当感染风险"
+        }
+      ],
+      "sourceIds": [
+        "FEIGLEY08-v11"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "先定义ΔC为相对送风背景增量，说明G、Q及充分混合稳态、无其他去除条件；标示守恒推导和质量单位，结果不是个人吸入剂量或感染概率。",
+      "remaining": [
+        "具体考试题给条件与单位仍需逐题核对",
+        "真实场景额外过滤/沉积/反应及非稳态需另建验证模型"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    },
+    {
+      "id": "mp-15-point-3",
+      "originalText": "空间布局、源控制和通风等措施应结合实际暴露路径。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "e6c6395c3e235084e757b4d1f3b565736ea773cfba1fedd832bd6dc12f194031",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "pointHash": "e6c6395c3e235084e757b4d1f3b565736ea773cfba1fedd832bd6dc12f194031",
+      "priorConclusion": "条件性支持",
+      "priorSourceIds": [
+        "NIOSH2024"
+      ],
+      "priorLocator": "屏障/气流、源附近过滤和人际直吹问答",
+      "priorGap": "不支持任意隔板必改善或所有污染物用相同通风参数。",
+      "group": "环境暴露与通风模型",
+      "subclaimChecks": [
+        {
+          "claim": "布局、源与气流路径共同影响暴露",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "FEIGLEY08-v11"
+          ],
+          "locator": "§2.3印刷12–14/PDF15–17",
+          "conditions": "包含进排风、家具/源位置、热因素和人员行为；不是单一参数通用处方"
+        },
+        {
+          "claim": "隔板可能改善也可能阻碍气流，源附近过滤需结合实际布局",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "NIOSH-FAQ-v11"
+          ],
+          "locator": "FAQ5、FAQ9 HTML正文",
+          "conditions": "感染性气溶胶语境；HEPA/CADR针对颗粒物，不是所有气态污染物"
+        },
+        {
+          "claim": "任意隔板、统一换气参数可保证所有污染物风险消除",
+          "status": "unsupported-extension",
+          "sourceIds": [
+            "NIOSH-FAQ-v11"
+          ],
+          "locator": "FAQ5、FAQ9",
+          "conditions": "需现场气流与暴露评价；无气体净化率或通用风险数字依据"
+        }
+      ],
+      "sourceIds": [
+        "FEIGLEY08-v11",
+        "NIOSH-FAQ-v11"
+      ],
+      "conclusion": "条件性支持",
+      "bodyFollowupPerformed": true,
+      "minimumRevision": "保留结合暴露路径原则；明确隔板效果取决布置，源控制和通风措施应针对污染物性质、气流及人员位置评价，不作统一参数保证。",
+      "remaining": [
+        "无具体空间现场数据，不能给出设计验收/健康风险消除结论",
+        "需职业卫生/通风专家确认课程示例边界"
+      ],
+      "nextStep": "按明确缺口补证并交独立学科专家；不自动修改原件或正式教学",
+      "appliedToOriginal": false,
+      "expertApproved": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "NIST-STAR",
+      "title": "PSTAR and ASTAR Databases for Protons and Helium Ions",
+      "authors": [
+        "NIST Physical Measurement Laboratory"
+      ],
+      "publishedAt": "undated live methods page; references ICRU49 (1993), not a new publication date",
+      "version": "Web methods §3.2 and §3.5.1–3.5.4",
+      "url": "https://physics.nist.gov/PhysRefData/Star/Text/programs.html",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "HTML §3.2 output units, §3.5 methods including low-energy fitting, shell/density corrections and CSDA integration; no print/PDF pagination"
+      ],
+      "readPdfPages": [],
+      "pageNumberBase": null,
+      "limits": "只读方法正文，未取得任何具体材料数值表；典型拟合分界不能当作普适物理阈值，不证明全能区单调关系。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "TRS461-v11",
+      "title": "Relative Biological Effectiveness in Ion Beam Therapy",
+      "authors": [
+        "IAEA",
+        "ICRU"
+      ],
+      "publishedAt": "2008-02",
+      "version": "Technical Reports Series461, STI/DOC/010/461",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "版权PDF5；§1.1.3印刷3–5/PDF14–16（既有概念重读，非首次发现）；新增§4.3(1)印刷46/PDF57碎裂尾段落"
+      ],
+      "readPdfPages": [
+        5,
+        14,
+        15,
+        16,
+        57
+      ],
+      "pageNumberBase": 1,
+      "limits": "历史报告；本轮不采用其疗效推断或RBE常数，不外推所有带电粒子。PDF图像请求未在工具中显示，不计视觉读取。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "IAEA1196-v11",
+      "title": "Radiation Oncology Physics: A Handbook for Teachers and Students",
+      "authors": [
+        "E. B. Podgorsak (technical editor)",
+        "IAEA"
+      ],
+      "publishedAt": "2005",
+      "version": "STI/PUB/1196, cached 696-page edition",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "§2.6印刷49–52/PDF87–90文本；§8.1.1 Fig8.1印刷274/PDF312图像及文本；§8.1.5–6印刷279/PDF317文本；§15.7.6、15.7.8–9印刷534、537/PDF572、575（历史上下文重读）"
+      ],
+      "readPdfPages": [
+        87,
+        88,
+        89,
+        90,
+        312,
+        317,
+        572,
+        575
+      ],
+      "pageNumberBase": 1,
+      "limits": "仅作历史教学依据；式2.11 OCR结构不可靠，未重建或授权公式；不采用历史设备容差/频次作现行标准。图8.1限其水、10×10cm²、SSD100cm示例。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "AAPM82",
+      "title": "Guidance document on delivery, treatment planning, and clinical implementation of IMRT",
+      "authors": [
+        "Gary A. Ezzell",
+        "James M. Galvin",
+        "Daniel Low",
+        "Jatinder R. Palta",
+        "et al."
+      ],
+      "publishedAt": "2003-07-24 (online); journal 2003-08",
+      "version": "AAPM Report82; Medical Physics30(8),2089–2115; DOI10.1118/1.1591194",
+      "url": "https://aapm.org/pubs/protected_files/reports/rpt_82.pdf",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "题名PDF1；§III.C.5–8印刷2101–2103/PDF13–15选段；§III.F.3与§IV.A印刷2106/PDF18选段；§IV.D.1–8印刷2107–2109/PDF19–21；§IV.E印刷2110/PDF22选段"
+      ],
+      "readPdfPages": [
+        1,
+        2,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "pageNumberBase": 1,
+      "limits": "2003历史指导且正文自述非处方性；旧技术、时间和阈值不当现行临床标准；全身剂量问题不等于已量化低剂量体积或二次癌风险。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "BALLIVY06",
+      "title": "Impact of geometric uncertainties on dose distribution during intensity modulated radiotherapy of head-and-neck cancer: the need for a planning target volume and a planning organ-at-risk volume",
+      "authors": [
+        "O. Ballivy",
+        "W. Parker",
+        "T. Vuong",
+        "G. Shenouda",
+        "H. Patrocinio"
+      ],
+      "publishedAt": "2006-06",
+      "version": "Current Oncology13(3):108–115; DOI10.3390/curroncol13030010",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891177/",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "HTML完整可访问；实际读§1、§2.1–2.5、§3.1.2、§3.2表II及相关段落、§4开头；108–115仅整篇印刷范围，未确认逐段印刷页/PDF页，不能伪造"
+      ],
+      "readPdfPages": [],
+      "pageNumberBase": null,
+      "limits": "8名头颈患者、26次重复CT、特定旧优化器及7–9束6MV；研究剂量学而非临床结局，不证明所有IMRT比所有3DCRT更敏感，不提供通用边界或百分数。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "IGRT19-v11",
+      "title": "Introduction of Image Guided Radiotherapy into Clinical Practice",
+      "authors": [
+        "IAEA"
+      ],
+      "publishedAt": "2019-02",
+      "version": "Human Health Reports16, STI/PUB/1827",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "§1.1–1.3印刷1/PDF11；新增§4.1.9及4.1.9.1–2印刷9–11/PDF19–21（在线/离线）；§4.2.2.3印刷14/PDF24选段"
+      ],
+      "readPdfPages": [
+        11,
+        19,
+        20,
+        21,
+        24
+      ],
+      "pageNumberBase": 1,
+      "limits": "X射线外照射实施报告；协议按部位与资源，非所有技术/近距离治疗通用定义；示例频次、容差不直接搬作现行临床规则。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "FEIGLEY08-v11",
+      "title": "Investigating Principles of Workroom Exposure, Final Progress Report",
+      "authors": [
+        "Charles E. Feigley",
+        "Jamil Khan",
+        "James A. Hussey",
+        "Emily Lee"
+      ],
+      "publishedAt": "2008-03-26",
+      "version": "University of South Carolina, NIOSH grant1R01OH07626, 100 PDF pages",
+      "url": "https://stacks.cdc.gov/view/cdc/218585/cdc_218585_DS1.pdf",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "题名PDF1；新增§2.3印刷12–14/PDF15–17工作间因素；§2.4及2.4.1印刷14–16/PDF17–19，Eq2.1印刷15/PDF18及近/远场模型边界"
+      ],
+      "readPdfPages": [
+        1,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "pageNumberBase": 1,
+      "limits": "NIOSH资助原始研究报告，不是CDC强制标准；未视觉核验Eq2.1原页；背景增量是本轮显式守恒推导，不冒充该报告原式。",
+      "independentExpertApproval": false
+    },
+    {
+      "id": "NIOSH-FAQ-v11",
+      "title": "Ventilation FAQs Frequently Asked Questions",
+      "authors": [
+        "CDC NIOSH"
+      ],
+      "publishedAt": "2024-10-04 (page date)",
+      "version": "Live official FAQ accessed2026-10-23",
+      "url": "https://www.cdc.gov/niosh/ventilation/faq/",
+      "accessedAt": "2026-10-23",
+      "accessStatus": "selected-primary-body-read",
+      "readLocators": [
+        "HTML FAQ5屏障气流；FAQ9源附近HEPA/颗粒物及CADR；无印刷或PDF页码"
+      ],
+      "readPdfPages": [],
+      "pageNumberBase": null,
+      "limits": "感染性气溶胶防护语境；过滤颗粒结论不授权所有气体污染物；不提供统一通风参数或风险消除保证。",
+      "independentExpertApproval": false
+    }
+  ],
+  "protectedHashes": {
+    "product-2028-draft/mp-evidence-2026-10-23-v10/conditional-followup-v10.json": "b670ab0b9524affe236380dadcbf2a48735c4f36cf7a51d6ab0dc19ff0e9d503",
+    "product-2028-draft/mp-evidence-2026-10-23/conditional-followup-v9.json": "cb3976c457c2f28276a61af03817f41c9a532a40cfdb49b1691d4c59556c7b17",
+    "product-2028-draft/mp-evidence-2026-10-22/conditional-followup-v8.json": "16cb098546076ca82e4ca0fb86b8242b31e5d11b621a9124d391e281910c6749",
+    "audit-2028/evidence/2026-10-21-waves/current-claims-v6a.json": "23e6229394cacebd209d74c258d39762b16e738dcebdffb6d4a835c71324977e",
+    "product-2028-draft/mp-evidence-2026-10-22/four-gaps-followup-v8.json": "9ec43e6f726222d1d2da45019b53ad09bafe7c16176f0557066b54ff72f846e3",
+    "product-2028-draft/mp-evidence-2026-10-22/historical-input-hash-correction-v8a.json": "f1c3ec5a3a394d7a7933ed7fca993f718d1d84b91d2bd39b987e8070154494f1",
+    "product-2028-draft/mp-evidence-2026-10-22/protected-files-baseline.json": "03d8c0d2473cb1c59565cf3c60b86304c39a8e987759d1f85df4915cb5f4cdec",
+    "product-2028-draft/mp-evidence-2026-10-22/四项原始证据与接续-v8.md": "02a5cc021952e10e906a898fdd76879a51f92f479d77d304c9abbbcfa5bee76a",
+    "product-2028-draft/mp-evidence-2026-10-23/locator-correction-v9a.json": "018c57d459409e517fe6eaf80405cb1b0790514e756df8901a70c5a68e08a62a",
+    "product-2028-draft/mp-evidence-2026-10-23/第一批原始依据与接续-v9.md": "56d936b4bba42085ecebb4fdffc897658c514296f27401cfb527a98dbfa35e17",
+    "product-2028-draft/mp-evidence-2026-10-23-v10/PET-SPECT小野与HDR接续-v10.md": "efd4a369891ed8ca21f6773e5cc2ef339ccc49ce347878faa793a08c6b6724eb",
+    "audit-2028/evidence/2026-10-23-v10/baseline-and-boundaries.json": "dc7f3b565b56feaf52d6996b2d2039e5382f3e44030471681ff16d7b6f9ce827",
+    "audit-2028/evidence/2026-10-23-v10/ci-engine-local-final.json": "acd5f9e483b2a8d28e6b31a88043cb6df109193d740e95ecb56378a0ed9499f6",
+    "audit-2028/evidence/2026-10-23-v10/ci-engine-local.json": "f72318276ba6f2a4e06a645e3ffbbbd35c4f1aed1265bb2a42e56d5933f29dcc",
+    "audit-2028/evidence/2026-10-23-v10/ci-final-v10.json": "a2b07f389c2f72a28608a5867a336b5fb3768d079826b4c4f6f904e2d0fc461f",
+    "audit-2028/evidence/2026-10-23-v10/ci-first-failure.json": "1f32d99a55c28a056d6520a438e7c0a87f596996623dbf721f47f40584e45d42",
+    "audit-2028/evidence/2026-10-23-v10/ci-second-failure.json": "ae6248f59dd3508f9091d49d5b7aa5ec93ae18970326633c811fb984be9616c1",
+    "audit-2028/evidence/2026-10-23-v10/local-gate-after-ci-port.json": "7df9d75e96fb6e6c18d36efe05320d1e2938beb607f00bb39f59615b919175ef",
+    "audit-2028/evidence/2026-10-23-v10/local-gate-final.json": "6931b97d517e40cd7684555ab7ceedf794eecab9ac96e7d8b79d4e139b69a7cf",
+    "audit-2028/evidence/2026-10-23-v10/local-gate.json": "d79f088492cec08d8e2d19f0c820e587bc31a11069945eaf5efa1a7620e2f54a",
+    "audit-2028/evidence/2026-10-23-v10/new-tests.json": "1cec7bbeb888dbf206e78468494a33d67d03e9e3be8044d779ee96e1394bfbcd",
+    "audit-2028/evidence/2026-10-23-v10/skills-audit.json": "9e7faa237aa40b334d68a4d3215e4ad954b00197953669f5af939f19b347e8c0",
+    "audit-2028/evidence/2026-10-23-v10/skills-release.json": "cd8e80e789fe6d37312672d00b7d686cc9ac20707189da32258276ee0d8e1b47",
+    "audit-2028/evidence/2026-10-23-v10/submission-manifest.json": "e98b39c06914ed79ac84380dbeb7f34979e846d975651f80eae37943af9c99e8",
+    "audit-2028/evidence/2026-10-23-v10/最终回执与下一断点.md": "2e4345d1af35699d406ed2e894440d0c581d545c2b100384f760c8d960469ca7",
+    "audit-2028/evidence/2026-10-21-waves/primary-pages-v6a.json": "ab15de394bc26b9dde26c10399ce20dfcd4029685ad109cc6f785cd6fda010c2",
+    "product-2028-draft/mp-evidence-2026-10-21/教师6条交接.md": "33fbb30c4aa93d741a8844e3e7e62b6881481bfe2a45c830e60e3273e4c4b0ab",
+    "product-2028-draft/mp-evidence-2026-10-21/医学物理计量61条交接.md": "08c1f9f14024dff6ff17b5c5438c0f3c7e8ad6000b31cec00027daa297fb97b1",
+    "expert-review-bundles/医学物理113条完整审阅稿-cf432b1e2f4e.md": "8a83f0b6542f0f42bc1c4c67d94f89ee62b9f080fc64ba8d222b458dea39b326",
+    "audit-2028/evidence/2026-10-23-v9/ci-final-v9.json": "c4742e26859d010a405e725c46f153134d81abfb6d3fdb99b8066d33edc1a82f",
+    "audit-2028/evidence/2026-10-23-v9/failure-and-boundaries.json": "8a749192fe80e3bf055bb149ff2b9e144ec7638c4e4e199623e9c6f3d4680497",
+    "product-2028-draft/2026-10-23条件性证据接续-v9.md": "1b91a329e3b70159b587083065dda92214583a4e395fb01989a2699865be4100"
+  },
+  "retrievalFailures": [
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "feigley",
+      "url": "https://stacks.cdc.gov/view/cdc/218585/cdc_218585_DS1.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "trs461",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "aapm82",
+      "url": "https://aapm.org/pubs/protected_files/reports/rpt_82.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "igrt",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "feigley",
+      "url": "https://stacks.cdc.gov/view/cdc/218585/cdc_218585_DS1.pdf",
+      "status": "failed",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "trs461",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+      "status": "failed",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "aapm82",
+      "url": "https://aapm.org/pubs/protected_files/reports/rpt_82.pdf",
+      "status": "failed",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "igrt",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "method": "web",
+      "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-passage-particles-matter.pdf",
+      "error": "400 Timeout fetching",
+      "readStatus": "not-read"
+    },
+    {
+      "method": "web",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1603_web.pdf",
+      "error": "not accessible via web tool; exploratory URL, no verified source identity",
+      "readStatus": "not-read"
+    },
+    {
+      "method": "python-local-extraction",
+      "error": "ModuleNotFoundError: No module named fitz; pypdf used successfully for cached IAEA1196",
+      "readStatus": "fallback-recorded"
+    },
+    {
+      "method": "web-screenshot",
+      "error": "Screenshot tool returned reference only; no page pixels actually available to inspect. No visual credit for TRS461/Feigley",
+      "readStatus": "not-visually-read"
+    },
+    {
+      "method": "pdftoppm",
+      "error": "nameToUnicode path warnings for Bulgarian/Greek/Thai; exit0, PNG generated and inspected",
+      "readStatus": "IAEA1196 PDF312 actually viewed"
+    },
+    {
+      "method": "github-connector",
+      "error": "Initial branch/main/commit fetches intermittently failed transport; isolated head and commit metadata later read. No clean local Git checkout",
+      "readStatus": "intermittent"
+    }
+  ],
+  "imageReadEvidence": [
+    {
+      "sourceId": "IAEA1196-v11",
+      "pdfPage": 312,
+      "printedPage": 274,
+      "path": "tmp/pdfs/v11-electron-p312.png",
+      "actuallyViewed": true,
+      "sha256": "f20949d77641e34dd1845b99765812b8a9ba031c91c543e153b0f4c5fa308f92"
+    }
+  ],
+  "localSourceCache": {
+    "path": "tmp/pdfs/iaea-1196.pdf",
+    "sha256": "da4e3b5af19ed9506a812fea6704ff15cf55991902684a17759dbc7cbba05da0",
+    "bytes": 7211436
+  },
+  "supplementary": [],
+  "hdrQueueChanged": false,
+  "independentExpertApproved": 0,
+  "formalContentChanged": false,
+  "deployed": false,
+  "liveLearningDataTouched": false,
+  "externalContact": false,
+  "paidServiceCreated": false,
+  "final2028RequirementsVerified": false,
+  "calculationChecks": {
+    "kind": "internal algebra and units, not clinical validation",
+    "formula": "G+Q*Cin-Q*C=0",
+    "derived": "DeltaC=G/Q; C=Cin+G/Q",
+    "assumptions": [
+      "steady-state",
+      "well-mixed",
+      "constant-volume",
+      "constant-inlet-background",
+      "balanced-dilution-flow",
+      "no-other-sink-or-reaction"
+    ],
+    "example": {
+      "G_mg_per_h": 120,
+      "Q_m3_per_h": 60,
+      "Cin_mg_per_m3": 0.3,
+      "DeltaC_mg_per_m3": 2,
+      "C_mg_per_m3": 2.3
+    },
+    "sourceFormulaVisuallyVerified": false
+  },
+  "localProtectedHashes": {
+    "AGENTS.md": "f1420d3d1b37b6a68544db273ea82f11277abf542b9ff63815b32aa51232842e",
+    "product-2028-draft/课程知识点与大纲映射.json": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+    "product-2028-pilot-build/app.css": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+    "product-2028-pilot-build/course-engine.js": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+    "product-2028-pilot-build/icon.svg": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+    "product-2028-pilot-build/index.html": "c3a85fdeff68f6e4640d8fe2b1fe008a381d8abb449b1aadf95f0679ec6d796e",
+    "product-2028-pilot-build/learning-controller.js": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+    "product-2028-pilot-build/manifest.json": "b1875c3458d25b102c6244d54ab926697cc47581b6120ecdfc72536cc10b2c94",
+    "product-2028-pilot-build/pilot-ui.js": "4aafb1aaf4063f7680fac7fa530797cfa38bb6fb39299e2d0c8591eb3c9da332",
+    "product-2028-pilot-build/profile-repository.js": "42ddfab4760cdff140505ad2f52cd699b2944ac68cbdb07a0db64208154e6c4e",
+    "product-2028-pilot-build/representative-courses.json": "b0950e44a6ddbb491bb981a55a0c766e168c842006714b7e14607daba2177a96",
+    "product-2028-pilot-build/sw.js": "405d5eb4fcbc1527b5a7e6d93bede9f141ffd9e2dc1bc6ddd66e498c25f651bc",
+    "product-2028-draft/content/353统一知识图谱.json": "36b233c6f2888ed7ded247709bce46f24a305dd5078b5b1b67e58664149531d1",
+    "product-2028-draft/content/batch-1.json": "86cd8ed6f297a4d3caefbfb3fce338ae7359fd85d37b7645752523fd5e913e78",
+    "product-2028-draft/content/batch-2.json": "fffb8e467e6f4665cdfc5eb1ded735cfafd39a602e8f500bb183bf281f58738f",
+    "product-2028-draft/content/catalog.json": "b894614f484806405b721d4648734c818fde6fe01fe71c9cb5a6da9021a869ae",
+    "product-2028-draft/content/knowledge-graph.json": "a32cebb00abfa6d74e7c986fdfd1abc0ad2df4b5c3c308480c1052df750403c2",
+    "product-2028-draft/content/semantic-pair-review.json": "8f326ebe4c9dcbfc00b3f0ee34ec17091881a14c1f4615ecac7499044298fc74",
+    "product-2028-draft/content/semantic-review-sources.json": "6e66a59c7108287f3c3d3cc91f71d63ff1c4e7a0930c0b39d562b1926c6c2953",
+    "product-2028-draft/content/政治统一知识图谱.json": "05e1cb68c7e2d0b47065ac81e0356dfed6c855fb889b54534813da675aaa58f5",
+    "product-2028-draft/content/英语统一知识图谱.json": "09c8a9927a94c76dafb9e4ed67c32df90388d9e19555c64d39ebec178e878764"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "reason": "Code review before CI: current workspace has pre-existing differences and unpublished graph files; keep local hashes in separate explicit local-only scope. Do not upload private graph or overwrite old files to satisfy CI.",
+  "initialEvidenceSha256": "f3581b49c8efdf14f361cee937e0a32ca588eb483e64f3b0c8d93c155b8ea202",
+  "revisedEvidenceSha256": "6a8cd55d1f531a3921d353778bd226c9986374c636c50f46e238278e2e3f56bf",
+  "localOnlyPaths": [
+    "AGENTS.md",
+    "product-2028-draft/课程知识点与大纲映射.json",
+    "product-2028-pilot-build/app.css",
+    "product-2028-pilot-build/course-engine.js",
+    "product-2028-pilot-build/icon.svg",
+    "product-2028-pilot-build/index.html",
+    "product-2028-pilot-build/learning-controller.js",
+    "product-2028-pilot-build/manifest.json",
+    "product-2028-pilot-build/pilot-ui.js",
+    "product-2028-pilot-build/profile-repository.js",
+    "product-2028-pilot-build/representative-courses.json",
+    "product-2028-pilot-build/sw.js",
+    "product-2028-draft/content/353统一知识图谱.json",
+    "product-2028-draft/content/batch-1.json",
+    "product-2028-draft/content/batch-2.json",
+    "product-2028-draft/content/catalog.json",
+    "product-2028-draft/content/knowledge-graph.json",
+    "product-2028-draft/content/semantic-pair-review.json",
+    "product-2028-draft/content/semantic-review-sources.json",
+    "product-2028-draft/content/政治统一知识图谱.json",
+    "product-2028-draft/content/英语统一知识图谱.json"
+  ],
+  "protectedHistoricalFiles": 32,
+  "initialLocalTestResult": "15/15; retained separately, rerun after correction"
+}

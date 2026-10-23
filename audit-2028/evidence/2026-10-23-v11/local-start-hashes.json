@@ -1,0 +1,33 @@
+{
+  "cwd": "user-supplied qinghua-medphysics project workspace (absolute user path withheld from public receipt)",
+  "gitDirectoryPresent": false,
+  "remoteBaseline": "1cc1b4f65e35f53fbd4079c9e61e16a28a592976",
+  "protectedHashes": {
+    "AGENTS.md": "f1420d3d1b37b6a68544db273ea82f11277abf542b9ff63815b32aa51232842e",
+    "product-2028-draft/mp-evidence-2026-10-23-v10/conditional-followup-v10.json": "b670ab0b9524affe236380dadcbf2a48735c4f36cf7a51d6ab0dc19ff0e9d503",
+    "product-2028-draft/mp-evidence-2026-10-23/conditional-followup-v9.json": "cb3976c457c2f28276a61af03817f41c9a532a40cfdb49b1691d4c59556c7b17",
+    "product-2028-draft/mp-evidence-2026-10-22/conditional-followup-v8.json": "16cb098546076ca82e4ca0fb86b8242b31e5d11b621a9124d391e281910c6749",
+    "audit-2028/evidence/2026-10-21-waves/current-claims-v6a.json": "23e6229394cacebd209d74c258d39762b16e738dcebdffb6d4a835c71324977e",
+    "product-2028-draft/课程知识点与大纲映射.json": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+    "product-2028-pilot-build/app.css": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+    "product-2028-pilot-build/course-engine.js": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+    "product-2028-pilot-build/icon.svg": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+    "product-2028-pilot-build/index.html": "c3a85fdeff68f6e4640d8fe2b1fe008a381d8abb449b1aadf95f0679ec6d796e",
+    "product-2028-pilot-build/learning-controller.js": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+    "product-2028-pilot-build/manifest.json": "b1875c3458d25b102c6244d54ab926697cc47581b6120ecdfc72536cc10b2c94",
+    "product-2028-pilot-build/pilot-ui.js": "4aafb1aaf4063f7680fac7fa530797cfa38bb6fb39299e2d0c8591eb3c9da332",
+    "product-2028-pilot-build/profile-repository.js": "42ddfab4760cdff140505ad2f52cd699b2944ac68cbdb07a0db64208154e6c4e",
+    "product-2028-pilot-build/representative-courses.json": "b0950e44a6ddbb491bb981a55a0c766e168c842006714b7e14607daba2177a96",
+    "product-2028-pilot-build/sw.js": "405d5eb4fcbc1527b5a7e6d93bede9f141ffd9e2dc1bc6ddd66e498c25f651bc",
+    "product-2028-draft/content/353统一知识图谱.json": "36b233c6f2888ed7ded247709bce46f24a305dd5078b5b1b67e58664149531d1",
+    "product-2028-draft/content/batch-1.json": "86cd8ed6f297a4d3caefbfb3fce338ae7359fd85d37b7645752523fd5e913e78",
+    "product-2028-draft/content/batch-2.json": "fffb8e467e6f4665cdfc5eb1ded735cfafd39a602e8f500bb183bf281f58738f",
+    "product-2028-draft/content/catalog.json": "b894614f484806405b721d4648734c818fde6fe01fe71c9cb5a6da9021a869ae",
+    "product-2028-draft/content/knowledge-graph.json": "a32cebb00abfa6d74e7c986fdfd1abc0ad2df4b5c3c308480c1052df750403c2",
+    "product-2028-draft/content/semantic-pair-review.json": "8f326ebe4c9dcbfc00b3f0ee34ec17091881a14c1f4615ecac7499044298fc74",
+    "product-2028-draft/content/semantic-review-sources.json": "6e66a59c7108287f3c3d3cc91f71d63ff1c4e7a0930c0b39d562b1926c6c2953",
+    "product-2028-draft/content/政治统一知识图谱.json": "05e1cb68c7e2d0b47065ac81e0356dfed6c855fb889b54534813da675aaa58f5",
+    "product-2028-draft/content/英语统一知识图谱.json": "09c8a9927a94c76dafb9e4ed67c32df90388d9e19555c64d39ebec178e878764"
+  },
+  "note": "No local Git checkout; compare only explicitly submitted files and protected hashes. Prior seven workspace differences remain; no clean-checkout claim."
+}

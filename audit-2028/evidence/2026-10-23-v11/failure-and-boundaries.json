@@ -1,0 +1,94 @@
+{
+  "failures": [
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "feigley",
+      "url": "https://stacks.cdc.gov/view/cdc/218585/cdc_218585_DS1.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "trs461",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "aapm82",
+      "url": "https://aapm.org/pubs/protected_files/reports/rpt_82.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access.json",
+      "id": "igrt",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+      "status": "failed",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "feigley",
+      "url": "https://stacks.cdc.gov/view/cdc/218585/cdc_218585_DS1.pdf",
+      "status": "failed",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "trs461",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/trs461_web.pdf",
+      "status": "failed",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "aapm82",
+      "url": "https://aapm.org/pubs/protected_files/reports/rpt_82.pdf",
+      "status": "failed",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "method": "local-urllib-v11-access-escalated.json",
+      "id": "igrt",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "method": "web",
+      "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-passage-particles-matter.pdf",
+      "error": "400 Timeout fetching",
+      "readStatus": "not-read"
+    },
+    {
+      "method": "web",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1603_web.pdf",
+      "error": "not accessible via web tool; exploratory URL, no verified source identity",
+      "readStatus": "not-read"
+    },
+    {
+      "method": "python-local-extraction",
+      "error": "ModuleNotFoundError: No module named fitz; pypdf used successfully for cached IAEA1196",
+      "readStatus": "fallback-recorded"
+    },
+    {
+      "method": "web-screenshot",
+      "error": "Screenshot tool returned reference only; no page pixels actually available to inspect. No visual credit for TRS461/Feigley",
+      "readStatus": "not-visually-read"
+    },
+    {
+      "method": "pdftoppm",
+      "error": "nameToUnicode path warnings for Bulgarian/Greek/Thai; exit0, PNG generated and inspected",
+      "readStatus": "IAEA1196 PDF312 actually viewed"
+    },
+    {
+      "method": "github-connector",
+      "error": "Initial branch/main/commit fetches intermittently failed transport; isolated head and commit metadata later read. No clean local Git checkout",
+      "readStatus": "intermittent"
+    }
+  ],
+  "noExpertApproval": true,
+  "noPublication": true
+}

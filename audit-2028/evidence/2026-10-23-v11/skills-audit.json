@@ -1,0 +1,11 @@
+{
+  "mode": "audit",
+  "createdAt": "2026-10-23T08:50:01.761Z",
+  "scope": "Workflow checks only; no expert approval, deployment or real iPhone acceptance",
+  "formalReleaseApproved": false,
+  "execution": {
+    "script": "audit-course-catalog.cjs",
+    "exitCode": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,17 @@
+{
+  "failures": [
+    {
+      "operation": "first v11 builder",
+      "exitCode": 1,
+      "error": "KeyError: pointHash",
+      "reason": "Historical v6a rows do not all duplicate their hash at top level; originalSource.pointHash is retained.",
+      "fix": "Use preserved originalSource.pointHash when top-level alias is absent. Do not rewrite historical source."
+    },
+    {
+      "operation": "first sandbox Node evidence-test launch",
+      "exitCode": 1,
+      "error": "EPERM lstat workspace parent directory (user path withheld)",
+      "fix": "Retry the same test with approved elevated execution; no assertion results claimed for launch failure."
+    }
+  ]
+}
