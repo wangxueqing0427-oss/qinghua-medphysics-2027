@@ -1,0 +1,26 @@
+{
+  "date":"2026-10-23",
+  "branch":"audit/2026-10-21-four-gaps-v7",
+  "testedCommit":"45ad7d23d00a52052202aa256b2b390bfd8f6815",
+  "initialEvidenceCommit":"72f3466f2b8f3ca44116be20bf2b99f1231bc792",
+  "locatorCorrectionCommit":"2f07fd78f6a168ca298f0a7b4b94bf908b31b9eb",
+  "runId":39890040652,
+  "runUrl":"https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39890040652",
+  "jobId":120207341618,
+  "conclusion":"success",
+  "verifiedVia":"GitHub original run metadata and decoded job logs",
+  "logEvidence":[
+    "2026-10-23T02:31:46.6091470Z {\"passed\":11,\"total\":11,\"failed\":[]}",
+    "2026-10-23T02:33:46.5551602Z   56 passed (1.3m)"
+  ],
+  "localGate":{"passed":445,"total":445,"startedAt":"2026-10-23T02:31:54.696Z","finishedAt":"2026-10-23T02:32:13.851Z"},
+  "browser":{"passed":56,"total":56,"engines":["Chromium","WebKit"],"scope":"Existing APP42 plus review HTML14, not physical iPhone"},
+  "newTests":{"passed":11,"total":11,"scope":"Evidence integrity and mathematical boundaries; not independent scientific validation"},
+  "sourcePdfBytesCheckedLocally":true,
+  "sourcePdfReadInCi":false,
+  "protectedMainSha":"f8b99af10ee14c98d9f896050970fb0912ca04cc",
+  "independentExpertApprovals":0,
+  "deploymentPerformed":false,
+  "liveLearningDataTouched":false,
+  "note":"Evidence-only successor commit is a receipt, not a fresh tested engineering build. First failures are preserved separately."
+}

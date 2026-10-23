@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "localInitialFailure": "first-test-failure.json: 9/10; numeric page list compared using lexical sorting; fixed the test comparator, not scientific evidence",
+  "ciFailures": [
+    {"runId":39889337105,"jobId":120205047970,"testedCommit":"72f3466f2b8f3ca44116be20bf2b99f1231bc792","failure":"ENOENT tmp/pdfs/iaea-1196.pdf in new test; copyrighted source cache deliberately not committed"},
+    {"runId":39889738968,"testedCommit":"2f07fd78f6a168ca298f0a7b4b94bf908b31b9eb","failure":"Same missing local PDF dependency before subsequent CI guard fix"}
+  ],
+  "fixCommit":"45ad7d23d00a52052202aa256b2b390bfd8f6815",
+  "fix":"Local runs compare original PDF bytes to recorded SHA256; CI validates recorded provenance metadata without claiming to read the absent PDF. Report explicitly stores localOriginalPdfHashChecked.",
+  "shellFailure":"One inline Python edit failed during PowerShell quoting; no intended edit was applied. Replaced with explicit patch and literal replacement; regression rerun.",
+  "sourceFailures":"See conditional-followup-v9.json retrievalFailures. Slow partial IAEA nuclear handbook download explicitly cancelled, not read or published.",
+  "locatorCorrection":"locator-correction-v9a.json overlays TG307 individual subclaim §3.1 with §3.3; committed original v9 JSON remains unchanged.",
+  "byteVerification":{"files":8,"mismatches":0,"method":"Git blob SHA1 from actual local bytes compared against remote tree at fixed engineering commit"},
+  "localGitMetadataAvailable":false,
+  "worktreeCleanClaimed":false,
+  "independentExpertApprovals":0,
+  "realIphoneTestsThisRound":0,
+  "deploymentPerformed":false,
+  "liveLearningDataTouched":false,
+  "externalExpertContact":false,
+  "chargesIntroduced":false
+}
