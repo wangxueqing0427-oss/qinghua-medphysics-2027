@@ -1,0 +1,20 @@
+{
+  "revision": "v9a-append-only-locator-correction",
+  "date": "2026-10-23",
+  "supersedesOpinion": false,
+  "sourceCommit": "72f3466f2b8f3ca44116be20bf2b99f1231bc792",
+  "originalFile": "product-2028-draft/mp-evidence-2026-10-23/conditional-followup-v9.json",
+  "corrections": [
+    {
+      "id": "mp-07-point-3",
+      "subclaim": "患者特异QA适用条件",
+      "oldLocator": "TG307 §3.1/§4.1–4.2.1",
+      "correctLocator": "TG307 §3.3/§4.1–4.2.1",
+      "basis": "Original HTML heading: 3.3 Limitations, applications, and challenges in clinical implementation of EPIDs; integrated VMAT image paragraph in this section.",
+      "sourceUrl": "https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.16536",
+      "reason": "Source catalog and Markdown were corrected before commit but the individual JSON subclaim retained the earlier locator. Preserve committed JSON and apply this explicit overlay. No support conclusion changes."
+    }
+  ],
+  "expertApproved": 0,
+  "formalContentChanged": false
+}
