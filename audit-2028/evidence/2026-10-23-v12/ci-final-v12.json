@@ -1,0 +1,97 @@
+{
+  "revision": "v12-final-ci-receipt",
+  "engineeringCommit": "6edb5712a0d9d6786259dd86e6fd0e413d0e8e9a",
+  "engineeringTree": "c278c92ccf6e9220c45bf48942bf3f00174e57a3",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "runId": 39934824700,
+  "runUrl": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39934824700",
+  "runAttempt": 2,
+  "runConclusion": "success",
+  "jobId": 120473008935,
+  "exactTestedHead": "6edb5712a0d9d6786259dd86e6fd0e413d0e8e9a",
+  "localFullRegression": {
+    "passed": 492,
+    "total": 492,
+    "scope": "workspace full gate; not identical in scope to CI engine"
+  },
+  "newEvidenceTests": {
+    "local": {
+      "passed": 20,
+      "total": 20
+    },
+    "ci": {
+      "passed": 20,
+      "total": 20
+    }
+  },
+  "ciIsolatedEngine": {
+    "passed": 126,
+    "total": 126,
+    "scope": "committed synthetic data/VM/IndexedDB/offline/localhost tests, not browser or physical phone"
+  },
+  "browser": {
+    "projects": {
+      "chromium": {
+        "total": 28,
+        "passed": 28
+      },
+      "webkit-mobile": {
+        "total": 28,
+        "passed": 28
+      }
+    },
+    "stats": {
+      "startTime": "2026-10-23T14:36:15.856Z",
+      "duration": 76761.066,
+      "expected": 56,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "scope": "real Linux Chromium and mobile-emulated WebKit, not physical iPhone"
+  },
+  "firstAttempt": {
+    "runId": 39934824700,
+    "engineering": "6edb5712a0d9d6786259dd86e6fd0e413d0e8e9a",
+    "conclusion": "cancelled",
+    "cause": "15-minute job budget exhausted during apt downloads from azure.archive.ubuntu.com; browser step skipped",
+    "browserTestsRun": false,
+    "evidenceTests": {
+      "passed": 20,
+      "total": 20
+    },
+    "engineTests": {
+      "passed": 126,
+      "total": 126
+    },
+    "jobId": 120351687587,
+    "logRead": true
+  },
+  "statusQueryFailure": {
+    "attempt": "GET actions/runs/39934824700/jobs",
+    "error": "tool timeout awaiting tools/call after300s; no result credited; subsequent reads succeeded"
+  },
+  "logParsingCorrection": {
+    "first": "Parser attempted to consume CI text following the JSON report and failed; no pass count recorded from that attempt",
+    "final": "Extract balanced JSON object, parsed stats and all56 per-project tests;28+28 expected, zero skipped/unexpected/flaky"
+  },
+  "refsVerified": [
+    {
+      "branch": "main",
+      "sha": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+    },
+    {
+      "branch": "audit/2026-10-21-four-gaps-v7",
+      "sha": "6edb5712a0d9d6786259dd86e6fd0e413d0e8e9a"
+    }
+  ],
+  "historicalProtectedHashesUnchanged": 46,
+  "localOnlyProtectedHashesUnchanged": 21,
+  "scienceSufficiency": "All seven remain conditional; PSTAR numerical table, matched particle dose arrays, consolidated ASHRAE clauses and local clinical protocols remain gaps",
+  "independentExpertApproved": 0,
+  "realIPhoneTested": false,
+  "deployed": false,
+  "formalContentChanged": false,
+  "liveLearningDataTouched": false,
+  "sourceCachesUploaded": false
+}

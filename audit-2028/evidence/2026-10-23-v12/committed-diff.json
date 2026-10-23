@@ -1,0 +1,110 @@
+[
+  {
+    "filename": ".github/workflows/2028-r5-e2e.yml",
+    "status": "modified",
+    "additions": 2,
+    "deletions": 1
+  },
+  {
+    "filename": "audit-2028/build-followup-v12.py",
+    "status": "added",
+    "additions": 152,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/conditional-v12-test.cjs",
+    "status": "added",
+    "additions": 27,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/baseline.json",
+    "status": "added",
+    "additions": 79,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/local-gate.json",
+    "status": "added",
+    "additions": 357,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/new-tests.json",
+    "status": "added",
+    "additions": 85,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/protected-check.json",
+    "status": "added",
+    "additions": 74,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/skills-audit.json",
+    "status": "added",
+    "additions": 11,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/skills-release.json",
+    "status": "added",
+    "additions": 370,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/submission-manifest.json",
+    "status": "added",
+    "additions": 90,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/evidence/2026-10-23-v12/test-startup-failure.json",
+    "status": "added",
+    "additions": 7,
+    "deletions": 0
+  },
+  {
+    "filename": "audit-2028/run-internal-gate.cjs",
+    "status": "modified",
+    "additions": 1,
+    "deletions": 0
+  },
+  {
+    "filename": "product-2028-ci/workflow.yml",
+    "status": "modified",
+    "additions": 2,
+    "deletions": 1
+  },
+  {
+    "filename": "product-2028-draft/mp-evidence-2026-10-23-v12/conditional-followup-v12.json",
+    "status": "added",
+    "additions": 682,
+    "deletions": 0
+  },
+  {
+    "filename": "product-2028-draft/mp-evidence-2026-10-23-v12/failures-v12.json",
+    "status": "added",
+    "additions": 82,
+    "deletions": 0
+  },
+  {
+    "filename": "product-2028-draft/mp-evidence-2026-10-23-v12/quantitative-matrix-v12.json",
+    "status": "added",
+    "additions": 203,
+    "deletions": 0
+  },
+  {
+    "filename": "product-2028-draft/mp-evidence-2026-10-23-v12/standards-matrix-v12.json",
+    "status": "added",
+    "additions": 40,
+    "deletions": 0
+  },
+  {
+    "filename": "product-2028-draft/mp-evidence-2026-10-23-v12/七条定量证据与现行规范-v12.md",
+    "status": "added",
+    "additions": 232,
+    "deletions": 0
+  }
+]

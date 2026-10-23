@@ -1,0 +1,17 @@
+{
+  "runId": 39934824700,
+  "engineering": "6edb5712a0d9d6786259dd86e6fd0e413d0e8e9a",
+  "conclusion": "cancelled",
+  "cause": "15-minute job budget exhausted during apt downloads from azure.archive.ubuntu.com; browser step skipped",
+  "browserTestsRun": false,
+  "evidenceTests": {
+    "passed": 20,
+    "total": 20
+  },
+  "engineTests": {
+    "passed": 126,
+    "total": 126
+  },
+  "jobId": 120351687587,
+  "logRead": true
+}
