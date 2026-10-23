@@ -1,0 +1,107 @@
+{
+  "revision": "v11-ci-final-receipt",
+  "engineeringCommit": "3ee9b1692edd50ab225ecccae21a5ada3855d9d1",
+  "baseReceipt": "1cc1b4f65e35f53fbd4079c9e61e16a28a592976",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "ci": {
+    "id": 39928569016,
+    "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39928569016",
+    "jobId": 120330909143,
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "3ee9b1692edd50ab225ecccae21a5ada3855d9d1",
+    "updatedAt": "2026-10-23T09:01:31Z",
+    "browser": {
+      "passed": 56,
+      "total": 56,
+      "failed": 0,
+      "scope": "Linux Playwright Chromium/WebKit including mobile viewport; not real iPhone"
+    },
+    "isolatedEngine": {
+      "passed": 126,
+      "total": 126,
+      "failed": 0,
+      "scope": "Existing explicit engine-only allowlist; four historical suites and full private graph audit remain local"
+    },
+    "evidenceV11": {
+      "passed": 15,
+      "total": 15,
+      "failed": 0,
+      "scope": "Provenance, immutability, scoped claims, algebra and negative boundaries; not scientific approval"
+    }
+  },
+  "local": {
+    "passed": 472,
+    "total": 472,
+    "failed": 0,
+    "evidence": "local-gate.json",
+    "scope": "Current workspace full local gate; no local .git and pre-existing differences, not a pristine remote checkout",
+    "protectedStartFiles": 25,
+    "protectedStartMismatches": 0,
+    "localOnlyAdditionalProtected": 21
+  },
+  "scientific": {
+    "queueFollowedUp": 7,
+    "conditional": 7,
+    "fullyConfirmed": 0,
+    "independentExpertApproved": 0,
+    "newlyUnfollowedIds": [],
+    "warning": "No unread queue items does not mean scientific gaps are resolved; every row retains specific remaining issues",
+    "HDRCounted": 0,
+    "previousNineCounted": 0
+  },
+  "diff": {
+    "existingFilesOnlyExpectedAdditions": [
+      {
+        "path": "product-2028-ci/workflow.yml",
+        "onlyExpectedChanges": true
+      },
+      {
+        "path": "audit-2028/run-internal-gate.cjs",
+        "onlyExpectedChanges": true
+      }
+    ],
+    "remotePaths": [
+      "audit-2028/build-followup-v11.py",
+      "audit-2028/fetch-v11-read-cache.py",
+      "audit-2028/conditional-v11-test.cjs",
+      "audit-2028/run-internal-gate.cjs",
+      "product-2028-ci/workflow.yml",
+      "product-2028-draft/2026-10-23条件性证据接续-v11.md",
+      "product-2028-draft/mp-evidence-2026-10-23-v11/conditional-followup-v11.json",
+      "product-2028-draft/mp-evidence-2026-10-23-v11/七条原始证据与接续-v11.md",
+      "audit-2028/evidence/2026-10-23-v11/bootstrap-failures.json",
+      "audit-2028/evidence/2026-10-23-v11/evidence-tests.json",
+      "audit-2028/evidence/2026-10-23-v11/failure-and-boundaries.json",
+      "audit-2028/evidence/2026-10-23-v11/initial-evidence-tests.json",
+      "audit-2028/evidence/2026-10-23-v11/local-gate.json",
+      "audit-2028/evidence/2026-10-23-v11/local-start-hashes.json",
+      "audit-2028/evidence/2026-10-23-v11/precommit-scope-correction.json",
+      "audit-2028/evidence/2026-10-23-v11/skills-audit.json",
+      "audit-2028/evidence/2026-10-23-v11/skills-release.json",
+      "audit-2028/evidence/2026-10-23-v11/submission-manifest.json",
+      ".github/workflows/2028-r5-e2e.yml"
+    ],
+    "workflowAliasSameBlob": true,
+    "productionChanged": false,
+    "appOrCourseFilesChanged": false,
+    "mainVerified": "f8b99af10ee14c98d9f896050970fb0912ca04cc",
+    "realLearningDataAccessed": false
+  },
+  "failures": {
+    "bootstrap": "bootstrap-failures.json",
+    "access": "failure-and-boundaries.json",
+    "scopeReview": "precommit-scope-correction.json",
+    "ciFailuresThisRun": 0
+  },
+  "receiptCommitScope": "Evidence-only receipt appended after exact engineering CI; receipt itself not claimed to rerun tests",
+  "logExcerpt": [
+    "2026-10-23T08:59:29.2280121Z \u001b[36;1mnode audit-2028/conditional-v11-test.cjs\u001b[0m",
+    "2026-10-23T08:59:29.5659082Z {\"passed\":15,\"total\":15,\"failed\":[]}",
+    "2026-10-23T08:59:30.5513058Z {\"passed\":15,\"total\":15,\"failed\":[]}",
+    "2026-10-23T08:59:31.8091063Z   \"total\": 126,",
+    "2026-10-23T08:59:31.8091435Z   \"testPassed\": 126",
+    "2026-10-23T09:00:13.1950746Z Running 56 tests using 1 worker",
+    "2026-10-23T09:01:28.1165099Z   56 passed (1.3m)"
+  ]
+}
