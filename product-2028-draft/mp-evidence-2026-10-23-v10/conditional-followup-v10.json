@@ -1,0 +1,752 @@
+{
+  "revision": "conditional-followup-v10-2026-10-23",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "baseCommit": "bdf6c860799f3da6aea7b53fd5b5246613ea19b7",
+  "previousTestedCommit": "45ad7d23d00a52052202aa256b2b390bfd8f6815",
+  "previousCi": 39890040652,
+  "inheritedUnfollowedIds": [
+    "mp-01-point-8",
+    "mp-03-point-4",
+    "mp-03-point-5",
+    "mp-03-point-6",
+    "mp-03-point-9",
+    "mp-07-point-4",
+    "mp-07-point-6",
+    "mp-08-point-1",
+    "mp-10-point-1",
+    "mp-13-point-1",
+    "mp-13-point-2",
+    "mp-13-point-4",
+    "mp-13-point-6",
+    "mp-13-point-7",
+    "mp-15-point-1",
+    "mp-15-point-3"
+  ],
+  "newlyFollowedUpIds": [
+    "mp-13-point-1",
+    "mp-13-point-2",
+    "mp-13-point-4",
+    "mp-13-point-6",
+    "mp-13-point-7",
+    "mp-03-point-4",
+    "mp-03-point-5",
+    "mp-03-point-6",
+    "mp-03-point-9"
+  ],
+  "remainingUnfollowedIds": [
+    "mp-01-point-8",
+    "mp-07-point-4",
+    "mp-07-point-6",
+    "mp-08-point-1",
+    "mp-10-point-1",
+    "mp-15-point-1",
+    "mp-15-point-3"
+  ],
+  "queueMeaning": "补读正文进度，不是科学确认率；旧证据缺字段不等于无证据",
+  "sources": [
+    {
+      "id": "SPECT-QA",
+      "name": "Quality Assurance for SPECT Systems",
+      "authors": [
+        "IAEA"
+      ],
+      "publishedAt": "2009 (official catalogue year)",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1394_web.pdf",
+      "version": "Human Health Series No.6, STI/PUB/1394",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "§2.1.1、能量窗段落、空间分辨率段落与术语smoothing；印刷12、16、32–33、244 / PDF24、28、44–45、256",
+      "readPdfPages": [
+        24,
+        28,
+        44,
+        45,
+        256
+      ],
+      "pageNumberBase": 1,
+      "limits": "传统Anger相机描述，不覆盖全部现代设备；未声称全书读取。2009年份非本轮版权页视觉核验。",
+      "expertApproval": false,
+      "directSupport": "传统NaI(Tl)闪烁光经PMT读出；能量窗不能完全拒绝患者散射；平滑的降噪与分辨损失不是本征指标。",
+      "publicationDateVerification": "Catalogue year only; no full copyright-page visual verification this round"
+    },
+    {
+      "id": "ESTEVES09",
+      "name": "Novel solid-state-detector dedicated cardiac camera for fast myocardial perfusion imaging: multicenter comparison with standard dual detector cameras",
+      "authors": [
+        "Fabio P. Esteves",
+        "Paolo Raggi",
+        "Russell D. Folks",
+        "et al."
+      ],
+      "publishedAt": "2009",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12350-009-9137-2.pdf",
+      "version": "J Nucl Cardiol 16:927–934; DOI10.1007/s12350-009-9137-2",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "Methods: Ultra-Fast Solid-State Cardiac Camera，印刷928–929 / PDF2–3",
+      "readPdfPages": [
+        2,
+        3
+      ],
+      "pageNumberBase": 1,
+      "limits": "特定DNM心肌灌注、Tc-99m tetrofosmin研究；不证明全部CZT架构或绝对定量性能。",
+      "expertApproval": false,
+      "directSupport": "特定心脏系统以19个固定CZT模块和多针孔采集；定位可转动，正式采集时探头/准直器不动。"
+    },
+    {
+      "id": "MOSES11",
+      "name": "Fundamental Limits of Spatial Resolution in PET",
+      "authors": [
+        "William W. Moses"
+      ],
+      "publishedAt": "2011-08-21",
+      "url": "https://psec.uchicago.edu/library/applications/PET/Bill_moses_fundamental_limits.pdf",
+      "version": "Author manuscript printout; DOI10.1016/j.nima.2010.11.092",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "§2.6–2.8，网页打印本PDF5–9；原刊S236–S240，无已核逐页对应",
+      "readPdfPages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "pageNumberBase": 1,
+      "limits": "正文经web读取；本地另有PDF缓存。未把打印本页码冒充原刊页码；未视觉复核公式，不授权公式教学。",
+      "expertApproval": false,
+      "directSupport": "§2.8区分高计数点源模型与有限计数下重建噪声/平滑；不提供一条普适计数—分辨率换算。"
+    },
+    {
+      "id": "EANM15",
+      "name": "FDG PET/CT: EANM procedure guidelines for tumour imaging: version 2.0",
+      "authors": [
+        "Ronald Boellaard",
+        "Roberto Delgado-Bolton",
+        "et al."
+      ],
+      "publishedAt": "2014-12-02 online; 2015 journal",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00259-014-2961-x.pdf",
+      "version": "Eur J Nucl Med Mol Imaging42:328–354; DOI10.1007/s00259-014-2961-x",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "CT pitfalls及PET image reconstruction；印刷341–342 / PDF14–15",
+      "readPdfPages": [
+        14,
+        15
+      ],
+      "pageNumberBase": 1,
+      "limits": "成人肿瘤18F-FDG历史v2.0指南；不认定为2026最新规范或其他核素通则，不宣称读完全部散射算法。",
+      "expertApproval": false,
+      "directSupport": "列出归一化、死时间、随机、散射和衰减校正；CT截断、金属和体位不一致限制定量。"
+    },
+    {
+      "id": "TRS483",
+      "name": "Dosimetry of Small Static Fields Used in External Beam Radiotherapy",
+      "authors": [
+        "IAEA",
+        "AAPM"
+      ],
+      "publishedAt": "2017-11",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/D483_web.pdf",
+      "version": "Technical Reports Series No.483, STI/DOC/010/483",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "§1.3印刷7/PDF19；§2.1.1部分印刷9–10/PDF21–22；§4.2.1选段印刷66–71/PDF78–83",
+      "readPdfPages": [
+        19,
+        21,
+        22,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "pageNumberBase": 1,
+      "limits": "限≤10MV小静态外照射光子野；不含电子、质子、正电压束。未视觉逐页核公式或读取全部校正因子表。",
+      "expertApproval": false,
+      "directSupport": "探测器须按任务及结构表征，体积平均与响应扰动须分开考虑；胶片扫描须匹配标定的照后间隔。"
+    },
+    {
+      "id": "TG43U1",
+      "name": "Update of AAPM Task Group No.43 Report: A revised AAPM protocol for brachytherapy dose calculations",
+      "authors": [
+        "Mark J. Rivard",
+        "Bert M. Coursey",
+        "et al."
+      ],
+      "publishedAt": "2004-02-27",
+      "url": "https://www.aapm.org/meetings/04AM/pdf/14-2226-27835.pdf",
+      "version": "Med Phys31(3):633–674; DOI10.1118/1.1646040",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "§III.A Eq1–3印刷637–638/PDF5–6；§III.A.4–5 Eq6、8印刷639/PDF7",
+      "readPdfPages": [
+        5,
+        6,
+        7
+      ],
+      "pageNumberBase": 1,
+      "limits": "正文文本已读；公式上下标和μ单位尚未视觉确认。2004配套共识数据主要是低能种子，不自动作为Ir-192 HDR数据；已发现勘误链接但未读其正文。",
+      "expertApproval": false,
+      "directSupport": "Eq1含源强、剂量率常数、几何比、径向函数及各向异性；常数依核素和源型号，g与F定义分开。"
+    },
+    {
+      "id": "HEBD12",
+      "name": "Dose Calculation for Photon-Emitting Brachytherapy Sources with Average Energy Higher than 50 keV: Full Report of the AAPM and ESTRO",
+      "authors": [
+        "Jose Perez-Calatayud",
+        "Facundo Ballester",
+        "et al."
+      ],
+      "publishedAt": "2012-08; bundled corrections through2016-01",
+      "url": "https://www.aapm.org/pubs/reports/RPT_229_full.pdf",
+      "version": "AAPM Report229, 153 PDF pages, current downloaded-web edition includes corrigenda",
+      "accessedAt": "2026-10-23",
+      "readStatus": "selected-primary-pdf-body-paragraphs-read",
+      "locator": "Corrigenda PDF3；§III–III.A印刷7–9/PDF23–25；符号表部分印刷44/PDF60",
+      "readPdfPages": [
+        3,
+        23,
+        24,
+        25,
+        60
+      ],
+      "pageNumberBase": 1,
+      "limits": "2016勘误页已读；仅部分正文，不宣称已核所有表格/全部驻留优化算法或临床QA。",
+      "expertApproval": false,
+      "directSupport": "TG43水介质叠加和散射假设有限；介质边界、屏蔽不由一般水中核函数自动解决。"
+    }
+  ],
+  "updates": [
+    {
+      "id": "mp-13-point-1",
+      "originalText": "γ相机典型链路：准直器→闪烁晶体（常见NaI(Tl)概念）→光电转换/位置逻辑→能量窗选择→形成二维分布。准直器改善方向信息但会牺牲灵敏度。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "b9b9cfa7a5ddeeed098e3a3d710110dcedd521ba68f824ee8f63b314907cdb71",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "SPECT-QA",
+        "ESTEVES09"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "传统NaI/PMT链路",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "SPECT-QA"
+          ]
+        },
+        {
+          "claim": "固定CZT为可核实例",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "ESTEVES09"
+          ]
+        },
+        {
+          "claim": "尚未本轮覆盖SiPM耦合闪烁PET等全部现代结构",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "尚未本轮覆盖SiPM耦合闪烁PET等全部现代结构"
+      ],
+      "minimumRevision": "限定传统链路；现代实现另列具体结构，不将CZT与闪烁光读出混同。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-13-point-2",
+      "originalText": "能量窗用于选择目标光峰附近事件并减少部分散射事件影响；能量分辨率越好，越有利于区分不同能量事件。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "dd115ebd0951358f0a804c94217e99bb42173e70fb8486b3d43659ccb04d3fc9",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "SPECT-QA"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "能量选择与残余散射",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "SPECT-QA"
+          ]
+        },
+        {
+          "claim": "核素/窗宽/算法对计数、分辨和绝对定量的量化收益未确认",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "核素/窗宽/算法对计数、分辨和绝对定量的量化收益未确认"
+      ],
+      "minimumRevision": "写减少部分散射；不保证窗越窄所有指标越好。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-13-point-4",
+      "originalText": "SPECT通过探测器绕患者多角度采集投影并重建断层图像。成像质量受计数统计、衰减、散射、运动、准直器和重建方法等影响。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "c4f8af529a445f4b0cfeff83b33dec88c00daa92898388fa66cc9b18a56f95a4",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "ESTEVES09"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "固定探头多角投影的具体反例",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "ESTEVES09"
+          ]
+        },
+        {
+          "claim": "不覆盖所有固定/旋转系统及采样充分性",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "不覆盖所有固定/旋转系统及采样充分性"
+      ],
+      "minimumRevision": "共同原理写多角投影；机械绕行仅传统实现。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-13-point-6",
+      "originalText": "PET并不是直接探测正电子；正电子射程、非共线性、探测器尺寸、计数统计等都会影响空间分辨率。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "5177a3384960f764b6667c2a138a23e573d0d9d762d6b608138be6392cf7f240",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "MOSES11",
+        "SPECT-QA"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "物理限制与重建/噪声/平滑概念须分开",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "MOSES11"
+          ]
+        },
+        {
+          "claim": "未授权本轮公式；SPECT本征定义不可直接套PET指标",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "未授权本轮公式；SPECT本征定义不可直接套PET指标"
+      ],
+      "minimumRevision": "分开描述物理响应、系统及重建图像；统计不直接等同本征几何分辨率。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-13-point-7",
+      "originalText": "衰减和散射会改变测得计数，PET/SPECT定量与图像质量通常需要相应校正；现代PET常与CT结合，CT既提供解剖信息，也可帮助衰减校正。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "28a7bfb17e8b5a9bbab9af5a99940c554a79ae99fb1f89617c3982466ced7159",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "EANM15"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "PET定量校正清单及CT限制",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "EANM15"
+          ]
+        },
+        {
+          "claim": "未核每种散射算法；运动补偿方法及其他示踪剂仍待核",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "未核每种散射算法；运动补偿方法及其他示踪剂仍待核"
+      ],
+      "minimumRevision": "保留共同概念；按示踪剂、配准与重建说明边界，不承诺校正后绝对准确。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-03-point-4",
+      "originalText": "圆柱形电离室常用于常规光子/电子束参考与相对测量；平行板电离室因几何特点常用于表面或电子束等对深度定位更敏感的场景。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "4c4414bbb045885515b6b17654775272ab1fc716e21a3754015a536580612563",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "TRS483"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "小野电离室局限与结构相关条件",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS483"
+          ]
+        },
+        {
+          "claim": "常规电子束/平行板表面测量仍沿用旧教材有限证据，非TRS483批准",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "常规电子束/平行板表面测量仍沿用旧教材有限证据，非TRS483批准"
+      ],
+      "minimumRevision": "分开常规束与小静态光子野；选型依协议和束质。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-03-point-5",
+      "originalText": "半导体探测器把辐射在半导体中产生的电子—空穴对转化为电信号。优点是灵敏、体积小、响应快、空间分辨率高；缺点是可能存在能量、温度、剂量率、方向等依赖。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "3f664d434e0bd9d10567105b79a0150eab538716227c3c9094390ca10bb2ecb1",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "TRS483"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "硅二极管型号与响应限制",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS483"
+          ]
+        },
+        {
+          "claim": "全类别空间分辨率、统一响应时间/温度系数未核",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "全类别空间分辨率、统一响应时间/温度系数未核"
+      ],
+      "minimumRevision": "只描述具体探测器，不作所有半导体性能保证。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-03-point-6",
+      "originalText": "放射变色胶片可记录高空间分辨率二维剂量分布，适合高梯度、小野或计划验证；但需建立剂量—光密度/颜色响应标定，并控制扫描和分析条件。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "382ffd4032bb9c8dc1864fbd970543aaab82ed58732a563e1d076040aacbb9ea",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "TRS483"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "标定、扫描响应及匹配照后间隔",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS483"
+          ]
+        },
+        {
+          "claim": "批次特异性仍缺本轮直接证据；不批准统一24h等待",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "批次特异性仍缺本轮直接证据；不批准统一24h等待"
+      ],
+      "minimumRevision": "规定匹配标定条件，批次/型号需独立依据和验证。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    },
+    {
+      "id": "mp-03-point-9",
+      "originalText": "小野剂量学更困难：射野尺寸接近探测器有效体积时容易产生体积平均；源遮挡、侧向电子平衡缺失和探测器扰动等也会使常规大野思路失效。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "2e84bb1b826c4265e3a1b088d399dbb0d62bb37602fba665f09b4411509258ab",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "originalVersion": "mp-concept-review-v1-2026-10-19",
+      "scope": "new-followup-from-v9-16",
+      "sourceIds": [
+        "TRS483"
+      ],
+      "subclaimChecks": [
+        {
+          "claim": "小静态光子野范围与探测器相关因素",
+          "status": "direct-bounded-support",
+          "sourceIds": [
+            "TRS483"
+          ]
+        },
+        {
+          "claim": "未核全部机型/野尺寸校正因子；不外推动态/其他粒子束",
+          "status": "unresolved-or-conditional",
+          "sourceIds": []
+        }
+      ],
+      "remaining": [
+        "未核全部机型/野尺寸校正因子；不外推动态/其他粒子束"
+      ],
+      "minimumRevision": "不设通用小野尺寸，探测器经表征与适用校正后使用。",
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "expertApproved": false,
+      "nextStep": "独立学科审核及补足列明缺口；不自动发布"
+    }
+  ],
+  "supplementary": [
+    {
+      "id": "mp-06-point-5",
+      "originalText": "HDR计划常通过改变多个驻留位置及驻留时间塑造剂量分布；源位置偏差、导管重建错误或时间错误都可能造成局部明显剂量偏差。",
+      "originalSource": {
+        "path": "product-2028-draft/课程知识点与大纲映射.json",
+        "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+        "snapshotVersion": "legacy-input-2026-10-19",
+        "pointHash": "87a64dc99bf2f00f2eb0883eefaccaaec11cd33c66b3a614bb45ed533e1f5954",
+        "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+      },
+      "scope": "supplement-not-in-v9-16",
+      "countedInQueue": false,
+      "sourceIds": [
+        "TG43U1",
+        "HEBD12"
+      ],
+      "conclusion": "条件性支持",
+      "appliedToOriginal": false,
+      "formulaTextRead": true,
+      "formulaVisuallyVerified": false,
+      "teachingFormulaAuthorized": false,
+      "calculationModel": "TG43二维单源水中剂量率核；非优化算法",
+      "optimization": "驻留位置与时间优化须独立方法学依据，本轮未新增确认",
+      "qualityAssurance": "源定位、时间、重建QA沿用v9已核资料，不由TG43公式替代",
+      "remaining": [
+        "原页公式图像及微单位视觉确认",
+        "TG43U1正式勘误正文及其影响",
+        "多驻留叠加的具体时间处理和优化算法",
+        "临床异质性/屏蔽与源型号数据的独立审核"
+      ],
+      "nextStep": "保留原主张，补充参考核函数定义；不可作为临床或正式题库计算器",
+      "textTranscriptionCandidate": {
+        "status": "text-only-not-authorized-for-teaching",
+        "equation": "Ddot(r,theta)=S_K*Lambda*G_L(r,theta)/G_L(r0,theta0)*g_L(r)*F(r,theta)",
+        "definitions": {
+          "r": "distance from active source centre in cm",
+          "r0": "1 cm",
+          "theta": "polar angle to longitudinal axis",
+          "theta0": "90 degrees",
+          "Lambda": "reference water dose rate divided by S_K; source/radionuclide dependent; cGy h^-1 U^-1",
+          "g_L": "transverse-plane attenuation/scatter after geometry factor removed",
+          "F": "2D angular variation relative to transverse plane"
+        },
+        "limits": "Eq1-3/6/8 text read, not visually verified. Do not reconstruct garbled micro-prefix from OCR or approve calculation questions."
+      }
+    }
+  ],
+  "protectedHashes": {
+    "product-2028-draft/mp-evidence-2026-10-22/conditional-followup-v8.json": "16cb098546076ca82e4ca0fb86b8242b31e5d11b621a9124d391e281910c6749",
+    "product-2028-draft/mp-evidence-2026-10-22/四项原始证据与接续-v8.md": "02a5cc021952e10e906a898fdd76879a51f92f479d77d304c9abbbcfa5bee76a",
+    "audit-2028/evidence/2026-10-21-waves/current-claims-v6a.json": "23e6229394cacebd209d74c258d39762b16e738dcebdffb6d4a835c71324977e",
+    "audit-2028/evidence/2026-10-21-waves/primary-pages-v6a.json": "ab15de394bc26b9dde26c10399ce20dfcd4029685ad109cc6f785cd6fda010c2",
+    "product-2028-draft/mp-evidence-2026-10-21/教师6条交接.md": "33fbb30c4aa93d741a8844e3e7e62b6881481bfe2a45c830e60e3273e4c4b0ab",
+    "product-2028-draft/mp-evidence-2026-10-21/医学物理计量61条交接.md": "08c1f9f14024dff6ff17b5c5438c0f3c7e8ad6000b31cec00027daa297fb97b1",
+    "expert-review-bundles/医学物理113条完整审阅稿-cf432b1e2f4e.md": "8a83f0b6542f0f42bc1c4c67d94f89ee62b9f080fc64ba8d222b458dea39b326",
+    "product-2028-draft/mp-evidence-2026-10-23/conditional-followup-v9.json": "cb3976c457c2f28276a61af03817f41c9a532a40cfdb49b1691d4c59556c7b17",
+    "product-2028-draft/mp-evidence-2026-10-23/locator-correction-v9a.json": "018c57d459409e517fe6eaf80405cb1b0790514e756df8901a70c5a68e08a62a",
+    "audit-2028/evidence/2026-10-23-v9/ci-final-v9.json": "c4742e26859d010a405e725c46f153134d81abfb6d3fdb99b8066d33edc1a82f",
+    "audit-2028/evidence/2026-10-23-v9/failure-and-boundaries.json": "8a749192fe80e3bf055bb149ff2b9e144ec7638c4e4e199623e9c6f3d4680497",
+    "product-2028-draft/2026-10-23条件性证据接续-v9.md": "1b91a329e3b70159b587083065dda92214583a4e395fb01989a2699865be4100"
+  },
+  "retrievalFailures": [
+    {
+      "method": "local-urllib",
+      "id": "trs483",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/D483_web.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "failed"
+    },
+    {
+      "method": "local-urllib",
+      "id": "spectqa",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1394_web.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "failed"
+    },
+    {
+      "method": "local-urllib",
+      "id": "czt",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12350-009-9137-2.pdf",
+      "error": "The read operation timed out",
+      "status": "failed"
+    },
+    {
+      "method": "local-urllib",
+      "id": "hebd",
+      "url": "https://www.aapm.org/pubs/reports/RPT_229_full.pdf",
+      "error": "The read operation timed out",
+      "status": "failed"
+    },
+    {
+      "method": "web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2776146/",
+      "error": "reCAPTCHA only; publisher PDF used instead"
+    },
+    {
+      "method": "web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315529/",
+      "error": "reCAPTCHA only; publisher PDF used instead"
+    },
+    {
+      "method": "web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144741/",
+      "error": "reCAPTCHA only; university-hosted author manuscript used instead"
+    },
+    {
+      "method": "web",
+      "url": "https://www.aapm.org/pubs/reports/RPT_84.pdf",
+      "error": "redirect DOI retrieval failed500; AAPM archived original found later"
+    },
+    {
+      "method": "github",
+      "error": "one branch GET transport send failure; later git/ref GET succeeded at bdf6c860"
+    },
+    {
+      "method": "PowerShell",
+      "error": "ConvertFrom-Json case-insensitive T_min/t_min key collision; read with -AsHashtable/Python instead"
+    },
+    {
+      "method": "PowerShell",
+      "error": "Win32_Process CIM access denied; downloader later completed normally"
+    },
+    {
+      "method": "web-screenshot",
+      "error": "screenshot result did not expose image bytes to view; not counted as visual read"
+    }
+  ],
+  "localCacheMetadata": [
+    {
+      "id": "pet-eanm",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00259-014-2961-x.pdf",
+      "bytes": 527584,
+      "sha256": "fd96c20f30c409db55159dae75bb633a4af75689a022da8e17987fe316acdf24",
+      "totalPages": 27,
+      "extractedPdfPages": [
+        14,
+        15,
+        16
+      ],
+      "status": "extracted-not-yet-read"
+    },
+    {
+      "id": "moses",
+      "url": "https://psec.uchicago.edu/library/applications/PET/Bill_moses_fundamental_limits.pdf",
+      "bytes": 1598963,
+      "sha256": "52d319833b15485db3a5373d6558b8a6349747d5d666f4e4c4f45e70217d49ba",
+      "totalPages": 14,
+      "extractedPdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "extracted-not-yet-read"
+    }
+  ],
+  "imageReadEvidence": [
+    {
+      "sourceId": "EANM15",
+      "pdfPage": 14,
+      "printedPage": 341,
+      "path": "tmp/pdfs/v10-pet-eanm-p14.png",
+      "actuallyViewed": true
+    }
+  ],
+  "independentExpertApproved": 0,
+  "teacherQueue": 6,
+  "expertQueue": 61,
+  "externalContact": false,
+  "final2028RequirementsVerified": false,
+  "formalContentChanged": false,
+  "deployed": false,
+  "liveLearningDataTouched": false,
+  "localCacheMetadataNote": "Raw extraction receipt preserved; extraction alone does not prove reading. Actual reads are specified in sources and imageReadEvidence."
+}

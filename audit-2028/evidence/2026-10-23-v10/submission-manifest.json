@@ -1,0 +1,67 @@
+[
+  {
+    "path": "audit-2028/build-followup-v10.py",
+    "sha256": "8fae001f8950226829258d7556b112cf26a9ce6add76fa969141bfc12dc5f8d7",
+    "bytes": 14109
+  },
+  {
+    "path": "audit-2028/evidence-v10-read.py",
+    "sha256": "a9d792e0de47f144269108b98ec278ccaa395b8aa6287024596fe4745d1881f9",
+    "bytes": 1572
+  },
+  {
+    "path": "audit-2028/conditional-v10-test.cjs",
+    "sha256": "fd5af6e1bfe712fa173e267bc88d6341dc38d6fb2315c2d0817867f8c14e4eaf",
+    "bytes": 6184
+  },
+  {
+    "path": "audit-2028/run-internal-gate.cjs",
+    "sha256": "c5a9765a94c3287826c94953dcc1cc9a8cebc8cdc3b2990e90d6541d47e2fd3c",
+    "bytes": 4153
+  },
+  {
+    "path": "product-2028-ci/workflow.yml",
+    "sha256": "97d06732fdce2ff84a1156ac0a14bc348e1ce22c0c2d409a54354ef87b2ebe3d",
+    "bytes": 4710
+  },
+  {
+    "path": "product-2028-draft/2026-10-23条件性证据接续-v10.md",
+    "sha256": "c44f3421144e419b7442ffb52a43947300d6262aa0a007f0eca3e8653b750456",
+    "bytes": 1928
+  },
+  {
+    "path": "product-2028-draft/mp-evidence-2026-10-23-v10/conditional-followup-v10.json",
+    "sha256": "b670ab0b9524affe236380dadcbf2a48735c4f36cf7a51d6ab0dc19ff0e9d503",
+    "bytes": 32400
+  },
+  {
+    "path": "product-2028-draft/mp-evidence-2026-10-23-v10/PET-SPECT小野与HDR接续-v10.md",
+    "sha256": "efd4a369891ed8ca21f6773e5cc2ef339ccc49ce347878faa793a08c6b6724eb",
+    "bytes": 8364
+  },
+  {
+    "path": "audit-2028/evidence/2026-10-23-v10/baseline-and-boundaries.json",
+    "sha256": "dc7f3b565b56feaf52d6996b2d2039e5382f3e44030471681ff16d7b6f9ce827",
+    "bytes": 3516
+  },
+  {
+    "path": "audit-2028/evidence/2026-10-23-v10/local-gate.json",
+    "sha256": "d79f088492cec08d8e2d19f0c820e587bc31a11069945eaf5efa1a7620e2f54a",
+    "bytes": 10715
+  },
+  {
+    "path": "audit-2028/evidence/2026-10-23-v10/new-tests.json",
+    "sha256": "1cec7bbeb888dbf206e78468494a33d67d03e9e3be8044d779ee96e1394bfbcd",
+    "bytes": 1670
+  },
+  {
+    "path": "audit-2028/evidence/2026-10-23-v10/skills-audit.json",
+    "sha256": "9e7faa237aa40b334d68a4d3215e4ad954b00197953669f5af939f19b347e8c0",
+    "bytes": 291
+  },
+  {
+    "path": "audit-2028/evidence/2026-10-23-v10/skills-release.json",
+    "sha256": "cd8e80e789fe6d37312672d00b7d686cc9ac20707189da32258276ee0d8e1b47",
+    "bytes": 11755
+  }
+]

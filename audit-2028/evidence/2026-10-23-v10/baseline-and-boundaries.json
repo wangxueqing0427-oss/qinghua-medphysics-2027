@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-23",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "baseCommit": "bdf6c860799f3da6aea7b53fd5b5246613ea19b7",
+  "baseTree": "d0568c731e212bdfe3b698e93f260fbec52875ed",
+  "priorCi": 39890040652,
+  "protectedMainSha": "f8b99af10ee14c98d9f896050970fb0912ca04cc",
+  "workspace": {
+    "remoteTrackedFiles": 364,
+    "localPresentAtBaseline": 318,
+    "matchedRawOrLfAtBaseline": 311,
+    "preExistingDifferent": [
+      "audit-2028/evidence/2026-10-18-objectives/browser-ci.json",
+      "audit-2028/objective-quality-test.cjs",
+      "product-2028-ci/https-tests/smoke.spec.cjs",
+      "product-2028-ci/https.config.cjs",
+      "product-2028-draft/2026-10-18七课教学质量整改.md",
+      "product-2028-draft/content/objective-quality.cjs",
+      "product-2028-pilot-build/sw.js"
+    ],
+    "locallyAbsent": 46,
+    "localGitMetadata": false,
+    "note": "Initial LF-only comparison flagged38; raw-or-LF comparison corrected that to7. Seven existing differences and46 missing paths are not overwritten or uploaded. Remote base tree retained for selective commit. Local gate tests current workspace; remote CI tests exact committed tree separately."
+  },
+  "failures": [
+    {
+      "method": "local-urllib",
+      "id": "trs483",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/D483_web.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "failed"
+    },
+    {
+      "method": "local-urllib",
+      "id": "spectqa",
+      "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1394_web.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "failed"
+    },
+    {
+      "method": "local-urllib",
+      "id": "czt",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12350-009-9137-2.pdf",
+      "error": "The read operation timed out",
+      "status": "failed"
+    },
+    {
+      "method": "local-urllib",
+      "id": "hebd",
+      "url": "https://www.aapm.org/pubs/reports/RPT_229_full.pdf",
+      "error": "The read operation timed out",
+      "status": "failed"
+    },
+    {
+      "method": "web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2776146/",
+      "error": "reCAPTCHA only; publisher PDF used instead"
+    },
+    {
+      "method": "web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315529/",
+      "error": "reCAPTCHA only; publisher PDF used instead"
+    },
+    {
+      "method": "web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144741/",
+      "error": "reCAPTCHA only; university-hosted author manuscript used instead"
+    },
+    {
+      "method": "web",
+      "url": "https://www.aapm.org/pubs/reports/RPT_84.pdf",
+      "error": "redirect DOI retrieval failed500; AAPM archived original found later"
+    },
+    {
+      "method": "github",
+      "error": "one branch GET transport send failure; later git/ref GET succeeded at bdf6c860"
+    },
+    {
+      "method": "PowerShell",
+      "error": "ConvertFrom-Json case-insensitive T_min/t_min key collision; read with -AsHashtable/Python instead"
+    },
+    {
+      "method": "PowerShell",
+      "error": "Win32_Process CIM access denied; downloader later completed normally"
+    },
+    {
+      "method": "web-screenshot",
+      "error": "screenshot result did not expose image bytes to view; not counted as visual read"
+    }
+  ],
+  "independentExpertApproved": 0,
+  "productionChanged": false,
+  "deployed": false,
+  "liveDataTouched": false
+}

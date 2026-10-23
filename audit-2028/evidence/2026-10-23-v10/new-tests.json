@@ -1,0 +1,53 @@
+{
+  "scope": "Versioned evidence integrity and boundary regression only; not independent scientific review, formula authorization or physical iPhone acceptance",
+  "results": [
+    {
+      "name": "Exact v9 queue partition; HDR supplement cannot inflate nine new reads",
+      "pass": true
+    },
+    {
+      "name": "Every original and provenance record preserved exactly, no course edits",
+      "pass": true
+    },
+    {
+      "name": "Prior v8/v9/v9a, handoffs and original hashes remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Primary body provenance has page base, author, edition, limits and unresolved subclaims",
+      "pass": true
+    },
+    {
+      "name": "Stationary acquisition exception stays device-specific rather than all SPECT or all CZT",
+      "pass": true
+    },
+    {
+      "name": "PET physical response, count noise and reconstruction not conflated",
+      "pass": true
+    },
+    {
+      "name": "TRS483 scope does not authorize electron or proton detector selection",
+      "pass": true
+    },
+    {
+      "name": "Film batch evidence remains unresolved, no universal 24h wait is approved",
+      "pass": true
+    },
+    {
+      "name": "TG43 text read is not visual formula approval, optimization or clinical QA",
+      "pass": true
+    },
+    {
+      "name": "Local cache hashes optional in CI; only actually viewed PET page gets visual credit",
+      "pass": true
+    },
+    {
+      "name": "Failed accesses remain recorded separately from successful body reads",
+      "pass": true
+    },
+    {
+      "name": "No publication, expert approval, external contact, paid or real-data mutation",
+      "pass": true
+    }
+  ]
+}
