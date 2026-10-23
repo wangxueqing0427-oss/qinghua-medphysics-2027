@@ -1,0 +1,220 @@
+{
+  "revision": "v13-nist-only",
+  "baseCommit": "f107461549fc7d295366047b7ac2f7dbdf151abc",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "claim": {
+    "id": "mp-01-point-8",
+    "originalText": "质子带正电。其单位路径能量损失随速度降低而增大，在射程末端形成Bragg峰，峰后剂量迅速降低。临床常通过叠加不同能量的Bragg峰形成覆盖一定厚度靶区的展宽Bragg峰（SOBP）。",
+    "originalSource": {
+      "path": "product-2028-draft/课程知识点与大纲映射.json",
+      "fileSha256": "dd161a4021f4b7d9bb82f72c3306c8bbf35a8ff6822156f9d522f4a7877473d3",
+      "snapshotVersion": "legacy-input-2026-10-19",
+      "pointHash": "b3061434d0d24d17761f678e484039fef67ccc792eb5680049a040197cb09cdd",
+      "originalBibliographyStatus": "not-recorded-in-legacy-point; new references are separate internal checks"
+    },
+    "originalVersion": "mp-concept-review-v1-2026-10-19",
+    "pointHash": "b3061434d0d24d17761f678e484039fef67ccc792eb5680049a040197cb09cdd",
+    "inheritedV12Conclusion": "条件性支持",
+    "inheritedV12Evidence": "product-2028-draft/mp-evidence-2026-10-23-v12/conditional-followup-v12.json",
+    "inheritedDirectSupport": [
+      "线性阻止本领与质量阻止本领须分别标MeV/cm、MeV·cm²/g；总量与分量区分沿用v11方法正文。",
+      "TRS461 Figure1.1给出152MeV质子水中曲线条件；多能量叠加覆盖靶区厚度的SOBP解释受这些条件限制。"
+    ],
+    "newDirectSupport": [
+      "实际官方POST取得液态水6点质量阻止本领及列定义；150MeV总量5.445MeV·cm²/g。",
+      "分量求和差异均在独立列打印舍入范围内；密度1g/cm³下可作线性量换算。"
+    ],
+    "remaining": [
+      "仅所选1–200MeV点呈所述趋势；不覆盖所有速度、材料或更低能区。",
+      "阻止本领、单粒子损失、介质沉积和宏观临床深度剂量仍不同。"
+    ],
+    "tasks": [
+      "A"
+    ],
+    "newSourceIds": [
+      "NIST-WATER-V13"
+    ],
+    "minimumRevision": "限定为特定介质和治疗能区的质子/离子射程末端特征；删除所有速度均越慢阻止本领越大的通则。",
+    "additionalRevision": "在解释中保留v13数据/场景的具体条件，不直接改课程。",
+    "conclusion": "条件性支持",
+    "requiresIndependentExpert": true,
+    "appliedToOriginal": false
+  },
+  "source": {
+    "id": "NIST-WATER-V13",
+    "authorsOrInstitution": [
+      "NIST Physical Measurement Laboratory"
+    ],
+    "title": "PSTAR proton stopping power output: WATER, LIQUID",
+    "publishedAt": "undated response; fetched2026-10-23",
+    "version": "Response revision not stated",
+    "url": "https://physics.nist.gov/PhysRefData/Star/Text/PSTAR-t.html",
+    "accessedAt": "2026-10-23",
+    "readingStatus": "official-form-and-result-body-read",
+    "actuallyRead": [
+      "Form DOM method/action/names, selected WaterLiquid value276; six output rows and column definitions; linked composition page"
+    ],
+    "printedPages": null,
+    "pdfPages": null,
+    "limits": "At the six selected points within1–200MeV only, mass total decreases with increasing kinetic energy. No extrapolation to all energies/materials/velocities. Not a clinical dose calculation or latest water I-value recommendation.",
+    "independentExpertApproval": false
+  },
+  "data": {
+    "sourceId": "NIST-WATER-V13",
+    "acquired": true,
+    "material": "WATER, LIQUID",
+    "materialSelector": "276",
+    "selectorObservedFromActualForm": true,
+    "formUrl": "https://physics.nist.gov/PhysRefData/Star/Text/PSTAR-t.html",
+    "method": "POST",
+    "action": "https://physics.nist.gov/cgi-bin/Star/ap_table-t.pl",
+    "interaction": "Native form: select Water, Liquid; fill6 energies one per line; uncheck Include default energies; click Submit; read returned headings and6 rows",
+    "formFieldNames": [
+      "prog",
+      "matno",
+      "Energies",
+      "ShowDefault"
+    ],
+    "hiddenProgramValue": "not inspected; normal browser form submission retained it",
+    "energyInput_MeV": [
+      1,
+      10,
+      50,
+      100,
+      150,
+      200
+    ],
+    "includeDefaultEnergies": false,
+    "outputVersion": "No revision/date label on actual response; retrieval2026-10-23, not a claimed2026 physics-data edition",
+    "columnDefinitions": {
+      "T": "proton kinetic energy, MeV",
+      "electronic": "STOP(e), MeV cm²/g",
+      "nuclear": "STOP(n), MeV cm²/g",
+      "total": "STOP(t), MeV cm²/g"
+    },
+    "sourceType": "official computed table output, not experimental depth-dose data",
+    "points": [
+      {
+        "outputRow": 1,
+        "printed": {
+          "energy": "1.000E+00",
+          "electronic": "2.606E+02",
+          "nuclear": "2.173E-01",
+          "total": "2.608E+02"
+        },
+        "energy_MeV": 1.0,
+        "electronic": 260.6,
+        "nuclear": 0.2173,
+        "total": 260.8,
+        "derivedSumResidual": -0.0173,
+        "derivedCombinedRoundingBound": 0.10005,
+        "support": "direct-bounded-numerical-output"
+      },
+      {
+        "outputRow": 2,
+        "printed": {
+          "energy": "1.000E+01",
+          "electronic": "4.564E+01",
+          "nuclear": "2.603E-02",
+          "total": "4.567E+01"
+        },
+        "energy_MeV": 10.0,
+        "electronic": 45.64,
+        "nuclear": 0.02603,
+        "total": 45.67,
+        "derivedSumResidual": 0.00397,
+        "derivedCombinedRoundingBound": 0.010005,
+        "support": "direct-bounded-numerical-output"
+      },
+      {
+        "outputRow": 3,
+        "printed": {
+          "energy": "5.000E+01",
+          "electronic": "1.244E+01",
+          "nuclear": "5.691E-03",
+          "total": "1.245E+01"
+        },
+        "energy_MeV": 50.0,
+        "electronic": 12.44,
+        "nuclear": 0.005691,
+        "total": 12.45,
+        "derivedSumResidual": 0.004309,
+        "derivedCombinedRoundingBound": 0.0100005,
+        "support": "direct-bounded-numerical-output"
+      },
+      {
+        "outputRow": 4,
+        "printed": {
+          "energy": "1.000E+02",
+          "electronic": "7.286E+00",
+          "nuclear": "2.944E-03",
+          "total": "7.289E+00"
+        },
+        "energy_MeV": 100.0,
+        "electronic": 7.286,
+        "nuclear": 0.002944,
+        "total": 7.289,
+        "derivedSumResidual": 5.6e-05,
+        "derivedCombinedRoundingBound": 0.0010005,
+        "support": "direct-bounded-numerical-output"
+      },
+      {
+        "outputRow": 5,
+        "printed": {
+          "energy": "1.500E+02",
+          "electronic": "5.443E+00",
+          "nuclear": "2.001E-03",
+          "total": "5.445E+00"
+        },
+        "energy_MeV": 150.0,
+        "electronic": 5.443,
+        "nuclear": 0.002001,
+        "total": 5.445,
+        "derivedSumResidual": -1e-06,
+        "derivedCombinedRoundingBound": 0.0010005,
+        "support": "direct-bounded-numerical-output"
+      },
+      {
+        "outputRow": 6,
+        "printed": {
+          "energy": "2.000E+02",
+          "electronic": "4.491E+00",
+          "nuclear": "1.522E-03",
+          "total": "4.492E+00"
+        },
+        "energy_MeV": 200.0,
+        "electronic": 4.491,
+        "nuclear": 0.001522,
+        "total": 4.492,
+        "derivedSumResidual": -0.000522,
+        "derivedCombinedRoundingBound": 0.0010005,
+        "support": "direct-bounded-numerical-output"
+      }
+    ],
+    "composition": {
+      "url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?ap-text276",
+      "actuallyRead": true,
+      "density_g_cm3": 1.0,
+      "meanExcitationEnergy_eV": 75.0,
+      "meaning": "Material parameters shown by this database, not a claim of latest recommended water I-value"
+    },
+    "unitCheck": {
+      "formula": "linear stopping power = mass stopping power × density",
+      "density_g_cm3": 1.0,
+      "atEnergy_MeV": 150,
+      "totalMass_MeV_cm2_g": 5.445,
+      "totalLinear_MeV_cm": 5.445,
+      "totalLinear_keV_um": 0.5445,
+      "derivedNotDirectTableColumn": true
+    },
+    "trend": "At the six selected points within1–200MeV only, mass total decreases with increasing kinetic energy. No extrapolation to all energies/materials/velocities.",
+    "doseEquivalent": false,
+    "rangeColumnsNotExtracted": true,
+    "accessControlBypassed": false
+  },
+  "userScope": "Only NIST liquid-water numerical table delivered; B/C/D remain unsubmitted local drafts",
+  "independentExpertApproved": 0,
+  "formalCourseChanged": false,
+  "deployed": false,
+  "liveLearningDataTouched": false
+}

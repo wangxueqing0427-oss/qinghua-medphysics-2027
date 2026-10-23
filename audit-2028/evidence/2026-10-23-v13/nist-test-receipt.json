@@ -1,0 +1,53 @@
+{
+  "scope": "Already completed local v13 suite; no rerun after user scope reduction. Not CI or tested-commit proof.",
+  "command": "import-tools/node.exe audit-2028/conditional-v13-test.cjs",
+  "localFullSuite": {
+    "passed": 24,
+    "total": 24
+  },
+  "directlyRelevantSubset": {
+    "passed": 6,
+    "total": 6,
+    "results": [
+      {
+        "name": "NIST row values and independent rounding intervals validate",
+        "pass": true
+      },
+      {
+        "name": "PSTAR wrong transcription is rejected rather than widening rounding tolerance",
+        "pass": true
+      },
+      {
+        "name": "200MeV independent rounding is not a false scientific contradiction",
+        "pass": true
+      },
+      {
+        "name": "Material selector observed, columns explicit, response revision unknown",
+        "pass": true
+      },
+      {
+        "name": "Units convert density times mass stopping power, not Gy or clinical dose",
+        "pass": true
+      },
+      {
+        "name": "Trend restricted to selected energies, not all velocities or a depth-dose curve",
+        "pass": true
+      }
+    ]
+  },
+  "executedTestSha256": "753d0c96d5ac6cf86a6e821fca0e9a89661c95dccd1e901abfe3e6d5de551aad",
+  "testedInputSha256": "d82e547fd63b4921a25ce5fdf38d037a86f2895ab6a7afe8e2dbe4f08c015c68",
+  "deliveredArtifactSha256": "14aaf74b72cc8139e0911c1330f28ffa668f10a383ae7a6707a3f0852781a11c",
+  "dataCopiedExactlyFromTestedInput": true,
+  "testFixturesAndBroaderTestScript": "Remain local/unsubmitted under reduced scope; remote commit contains evidence/audit only",
+  "previouslyStartedFullGate": {
+    "passed": 492,
+    "total": 492,
+    "scope": "Local automated gate only; not browser, hosted smoke, content approval or real iPhone",
+    "note": "Started before scope-reduction instruction; collected completion once, not repeated"
+  },
+  "CIExecutedForV13": false,
+  "browserRerunForV13": false,
+  "realIPhoneTested": false,
+  "independentExpertApproval": false
+}

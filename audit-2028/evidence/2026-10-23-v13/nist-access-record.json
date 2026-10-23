@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-23",
+  "exactAttemptTimes": "Not captured separately; no invented timestamp",
+  "initialAttempt": "In-app browser navigation timed out; later state showed the official form had loaded",
+  "successfulMethod": "Normal public form interaction, not a guessed CGI GET or access-control bypass",
+  "formUrl": "https://physics.nist.gov/PhysRefData/Star/Text/PSTAR-t.html",
+  "method": "POST",
+  "action": "https://physics.nist.gov/cgi-bin/Star/ap_table-t.pl",
+  "selectedMaterial": "Water, Liquid",
+  "observedSelector": "276",
+  "energiesMeV": [1, 10, 50, 100, 150, 200],
+  "includeDefaultEnergies": false,
+  "actuallyRead": "Returned material heading, kinetic-energy and three stopping-power column definitions, six rows, linked material composition",
+  "screenshot": "Result screenshot emitted and visually inspected in conversation; no screenshot uploaded to repository",
+  "accessControlBypassed": false,
+  "persistentGetResultAvailable": false,
+  "version": "Response declares no revision identifier; identified by retrieval date",
+  "independentExpertApproval": false
+}

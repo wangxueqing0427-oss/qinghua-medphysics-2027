@@ -1,0 +1,6 @@
+{
+  "command": "import-tools/node.exe audit-2028/conditional-v13-test.cjs",
+  "sandbox": true,
+  "error": "EPERM before tests started; sandbox-external authorized retry24/24",
+  "exitCode": 1
+}

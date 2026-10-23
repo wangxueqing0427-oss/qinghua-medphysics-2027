@@ -1,0 +1,15 @@
+{
+  "scope": "NIST-only deliverable per later user instruction",
+  "historicalUnchanged": 63,
+  "localProtectedUnchanged": 21,
+  "gitDirectoryPresent": false,
+  "newCIWorkflowSubmitted": false,
+  "existingProgramsChanged": false,
+  "pendingUnsubmitted": [
+    "B/C/D evidence drafts",
+    "audit-2028/conditional-v13-test.cjs",
+    "audit-2028/assemble-v13-evidence.py",
+    ".github/workflows/audit-v13-evidence.yml"
+  ],
+  "nextSingleTask": "Obtain a defensibly specified carbon-ion numerical depth-dose dataset; use existing saved draft as starting point, do not repeat NIST acquisition"
+}
