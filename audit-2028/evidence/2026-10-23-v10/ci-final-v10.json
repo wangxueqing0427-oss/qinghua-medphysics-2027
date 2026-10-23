@@ -1,0 +1,63 @@
+{
+  "revision": "v10-final-ci-receipt",
+  "engineeringCommit": "aa5a19953232b1e32a2586a4af78a278e7978c30",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "ci": {
+    "run": 39897733247,
+    "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/39897733247",
+    "job": 120231946267,
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "aa5a19953232b1e32a2586a4af78a278e7978c30",
+    "completedAt": "2026-10-23T04:00:11Z",
+    "browser": {
+      "passed": 56,
+      "total": 56,
+      "environment": "GitHub Actions Linux Playwright Chromium/WebKit; not real iPhone"
+    },
+    "isolatedEngine": {
+      "passed": 126,
+      "total": 126,
+      "scope": "Explicit committed engine-only suite; private 476-point graph check and four historical local-only suites excluded; not whole local gate"
+    },
+    "v10Evidence": {
+      "passed": 12,
+      "total": 12,
+      "scope": "Evidence integrity and boundaries, not scientific approval"
+    }
+  },
+  "local": {
+    "passed": 457,
+    "total": 457,
+    "evidence": "local-gate-final.json",
+    "workspaceNote": "Workspace has seven pre-existing differences from remote baseline; only allowlisted changes committed, local gate is not a pristine remote checkout"
+  },
+  "evidence": {
+    "inheritedQueue": 16,
+    "newBodyFollowups": 9,
+    "remaining": 7,
+    "allNine": "conditional support",
+    "hdrSupplement": "mp-06-point-5, not counted in queue",
+    "independentExpertApproved": 0
+  },
+  "production": {
+    "mainVerified": "f8b99af10ee14c98d9f896050970fb0912ca04cc",
+    "mainModified": false,
+    "V59Modified": false,
+    "R5Deployed": false,
+    "realLearningDataAccessed": false
+  },
+  "failuresRetained": [
+    "ci-first-failure.json",
+    "ci-second-failure.json"
+  ],
+  "transportLimit": "Final recursive tree GET did not return usable data; second attempt cancelled after prolonged wait. No tree-wide verification claim. Git Data allowlist commits and main ref checks retained.",
+  "logExcerpt": [
+    "2026-10-23T03:57:34.9698898Z {\"passed\":12,\"total\":12,\"failed\":[]}",
+    "2026-10-23T03:57:35.8488779Z {\"passed\":12,\"total\":12,\"failed\":[]}",
+    "2026-10-23T03:57:37.1950419Z   \"total\": 126,",
+    "2026-10-23T03:57:37.1950621Z   \"testPassed\": 126",
+    "2026-10-23T03:58:30.8448337Z Running 56 tests using 1 worker",
+    "2026-10-23T04:00:06.1231524Z   56 passed (1.6m)"
+  ]
+}
