@@ -1,0 +1,98 @@
+{
+  "scope": "Committed isolated engine/controller/synthetic IndexedDB/VM/offline/localhost HTTP tests, not real browser or physical iPhone; content and browser tests run separately",
+  "passed": true,
+  "reports": [
+    {
+      "suite": "catalog-integration-test",
+      "passed": 15,
+      "total": 15,
+      "pass": true
+    },
+    {
+      "suite": "course-batch1-integration-test",
+      "passed": 3,
+      "total": 3,
+      "pass": true
+    },
+    {
+      "suite": "course-engine-test",
+      "passed": 15,
+      "total": 15,
+      "pass": true
+    },
+    {
+      "suite": "profile-repository-test",
+      "passed": 10,
+      "total": 10,
+      "pass": true
+    },
+    {
+      "suite": "learning-integration-test",
+      "passed": 24,
+      "total": 24,
+      "pass": true
+    },
+    {
+      "suite": "pilot-ui-simulation-test",
+      "passed": 6,
+      "total": 6,
+      "pass": true
+    },
+    {
+      "suite": "content-contract-test",
+      "passed": 12,
+      "total": 12,
+      "pass": true
+    },
+    {
+      "suite": "pilot-offline-test",
+      "passed": 11,
+      "total": 11,
+      "pass": true
+    },
+    {
+      "suite": "pilot-http-test",
+      "passed": 12,
+      "total": 12,
+      "pass": true
+    },
+    {
+      "suite": "round4-reliability-test",
+      "passed": 13,
+      "total": 13,
+      "pass": true
+    },
+    {
+      "suite": "r5-profile-rubric-test",
+      "passed": 3,
+      "total": 3,
+      "pass": true
+    },
+    {
+      "suite": "r4-r5-compatibility-test",
+      "passed": 3,
+      "total": 3,
+      "pass": true
+    }
+  ],
+  "excludedHistoricalSuites": [
+    {
+      "suite": "regression.cjs",
+      "reason": "Requires unpublished deploy-v60-candidate historical assets; local gate only"
+    },
+    {
+      "suite": "material-backup.cjs",
+      "reason": "Requires unpublished deploy-v60-candidate assets; synthetic local gate only"
+    },
+    {
+      "suite": "mobile-build-test.cjs",
+      "reason": "Requires local historical build manifest; local gate only"
+    },
+    {
+      "suite": "round4-build-safety-test.cjs",
+      "reason": "Local static candidate boundary check; browser CI independently validates committed build"
+    }
+  ],
+  "total": 127,
+  "testPassed": 127
+}

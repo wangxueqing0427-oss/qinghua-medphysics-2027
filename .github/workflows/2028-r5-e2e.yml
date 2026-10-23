@@ -66,9 +66,9 @@ jobs:
       - name: Verify JSON-only updates invalidate cached course assets
         working-directory: .
         run: node audit-2028/data-only-update-test.cjs
-      - name: Run complete local gate on the exact committed Linux tree
+      - name: Run committed isolated engine regression with explicit scope
         working-directory: .
-        run: node audit-2028/run-internal-gate.cjs
+        run: node audit-2028/run-ci-engine-gate.cjs
       - run: npx playwright install --with-deps chromium webkit
       - run: npm test
       - name: Record evidence without artifact storage
