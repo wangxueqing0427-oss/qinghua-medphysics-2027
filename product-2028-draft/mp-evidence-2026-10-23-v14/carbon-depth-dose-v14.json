@@ -1,0 +1,132 @@
+{
+  "revision": "v14-carbon-depth-dose-figure-digitization",
+  "date": "2026-10-23",
+  "branch": "audit/2026-10-21-four-gaps-v7",
+  "baseCommit": "d889706e0cd6f1ce95c6f4e6c2db798a0da54161",
+  "scope": "仅核查碳离子深度剂量数值；不复做NIST质子阻止本领查询，不扩展其他条目",
+  "claim": {
+    "id": "mp-10-point-1",
+    "originalText": "Bragg峰：带电粒子接近射程末端时单位路径能量沉积显著增加，峰后剂量快速下降；这是与光子深度剂量分布的重要区别。",
+    "conclusion": "条件性支持",
+    "directSupport": "IAEA TRS 398 Figure 16 给出水中单能290 MeV/u碳束相对深度剂量曲线；可见约160 mm处的窄Bragg峰及峰后非零尾部。",
+    "remaining": [
+      "原图只有曲线而非机器可读数值表；本记录点值为人工按坐标轴目测数字化估计，不是IAEA原始表列值。",
+      "本数据只对应该图的单能碳束/水条件，不能外推为所有离子能量、材料或临床计划的固定峰深/尾部百分比。",
+      "该图是单能Bragg峰，不是SOBP；不能与TRS 461 Figure 1.2的生物等效剂量曲线混作同一数据集。"
+    ],
+    "minimumRevision": "将一般性表述限定为特定条件下的质子/离子深度剂量特征；重离子碎裂可形成峰后非零尾部；电子束另行说明。",
+    "appliedToOriginal": false,
+    "requiresIndependentExpert": true
+  },
+  "source": {
+    "institution": "International Atomic Energy Agency",
+    "title": "Absorbed Dose Determination in External Beam Radiotherapy: An International Code of Practice for Dosimetry Based on Standards of Absorbed Dose to Water",
+    "report": "IAEA Technical Reports Series No. 398",
+    "year": 2000,
+    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/TRS398_scr.pdf",
+    "figure": "Figure 16",
+    "printedPage": 151,
+    "pdfPageOneIndexed": 165,
+    "caption": "Depth dose distribution of a monoenergetic 290 MeV/u carbon beam in water.",
+    "axes": {
+      "x": "Depth in water (mm), plotted from 0 to 180 mm",
+      "y": "Relative dose, plotted from 0 to 100; the plotted peak is 100"
+    },
+    "actuallyInspected": "Official PDF page image was opened and visually inspected in this turn; adjacent text states the distal tail is due to fragmentation of incident particles.",
+    "dataAvailability": "No machine-readable point table or raw data array found in the report; values below are visual digitization estimates from the printed graph."
+  },
+  "conditions": {
+    "particle": "12C carbon ion",
+    "energy": "290 MeV/u, monoenergetic as captioned",
+    "medium": "water",
+    "observable": "relative depth dose, not absolute absorbed dose in Gy and not RBE-weighted/biological dose",
+    "normalization": "relative-dose maximum shown as 100",
+    "beamFieldAndDetectorDetails": "not specified by Figure 16 itself; not inferred here"
+  },
+  "digitization": {
+    "method": "Manual visual reading against the published figure axes and grid; relative-dose values rounded to whole percentage points.",
+    "status": "approximate graph-derived estimates, not original tabulated measurements",
+    "precisionLimit": "No formal pixel digitizer, uncertainty propagation, or independent second-reader check was performed. Near the sharp distal fall-off, small depth-reading differences cause large relative-dose differences.",
+    "points": [
+      {
+        "depth_mm": 0,
+        "relativeDosePercentApprox": 17
+      },
+      {
+        "depth_mm": 20,
+        "relativeDosePercentApprox": 17
+      },
+      {
+        "depth_mm": 40,
+        "relativeDosePercentApprox": 17
+      },
+      {
+        "depth_mm": 60,
+        "relativeDosePercentApprox": 17
+      },
+      {
+        "depth_mm": 80,
+        "relativeDosePercentApprox": 17
+      },
+      {
+        "depth_mm": 100,
+        "relativeDosePercentApprox": 18
+      },
+      {
+        "depth_mm": 120,
+        "relativeDosePercentApprox": 20
+      },
+      {
+        "depth_mm": 140,
+        "relativeDosePercentApprox": 23
+      },
+      {
+        "depth_mm": 150,
+        "relativeDosePercentApprox": 29
+      },
+      {
+        "depth_mm": 155,
+        "relativeDosePercentApprox": 36
+      },
+      {
+        "depth_mm": 158,
+        "relativeDosePercentApprox": 49
+      },
+      {
+        "depth_mm": 159,
+        "relativeDosePercentApprox": 64
+      },
+      {
+        "depth_mm": 160,
+        "relativeDosePercentApprox": 100
+      },
+      {
+        "depth_mm": 161,
+        "relativeDosePercentApprox": 7
+      },
+      {
+        "depth_mm": 165,
+        "relativeDosePercentApprox": 6
+      },
+      {
+        "depth_mm": 170,
+        "relativeDosePercentApprox": 5
+      },
+      {
+        "depth_mm": 180,
+        "relativeDosePercentApprox": 4
+      }
+    ]
+  },
+  "boundaries": {
+    "independentExpertApproval": false,
+    "formalCourseChanged": false,
+    "v59Changed": false,
+    "productionBranchChanged": false,
+    "realLearningDataTouched": false,
+    "r5Deployed": false,
+    "repositoryRegressionTestsRun": false,
+    "ciRun": false,
+    "localDraftAvailability": "B/C/D drafts mentioned in v13 receipt were not found in the connected Library or on the remote branch; this record continues from the v12 remote evidence boundary and the official source figure."
+  }
+}
