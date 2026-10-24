@@ -1,0 +1,61 @@
+{
+  "command": "bundled Python -X utf8 product-2028-draft/mp-evidence-2026-10-24-v16/verify-v16.py",
+  "scope": "Local metadata/evidence/hash checks only; no numerical curve re-extraction, full regression, CI, browser or real iPhone tests",
+  "passed": 12,
+  "total": 12,
+  "results": [
+    {
+      "name": "Expected engineering and source commits",
+      "passed": true
+    },
+    {
+      "name": "Four disjoint metadata questions",
+      "passed": true
+    },
+    {
+      "name": "Isotope and charge remain unknown",
+      "passed": true
+    },
+    {
+      "name": "Paper filter not promoted to file fact",
+      "passed": true
+    },
+    {
+      "name": "FLUKA run parameters remain unknown",
+      "passed": true
+    },
+    {
+      "name": "Lateral integration aperture remains unknown",
+      "passed": true
+    },
+    {
+      "name": "Runtime normalization dimensional calculation",
+      "passed": true
+    },
+    {
+      "name": "Pinned source locators and hashes provided",
+      "passed": true
+    },
+    {
+      "name": "v15 bytes match remote Git blobs",
+      "passed": true
+    },
+    {
+      "name": "Historical and v15 protected hashes unchanged",
+      "passed": true
+    },
+    {
+      "name": "Professional handoff has four real questions, no approval",
+      "passed": true
+    },
+    {
+      "name": "Failures and stopping boundary retained",
+      "passed": true
+    }
+  ],
+  "evidenceSha256": "eca3337533d7feb2a87bdea1613f2269825004209ed60aee85b2ae862c46aa16",
+  "reportSha256": "2b109f4cc1da1c6f2d83c026d7eeccd295969632e6eab5a3c835b627ec0ebdae",
+  "validatorSha256": "2c599111cb6524e71f9aa72674af3e431684b2b29f720ca97f8210ab9e43a228",
+  "independentExpertApproved": 0,
+  "CIStarted": false
+}
