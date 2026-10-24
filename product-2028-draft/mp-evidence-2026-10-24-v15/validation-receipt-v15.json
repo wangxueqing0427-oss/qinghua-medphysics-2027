@@ -1,0 +1,104 @@
+{
+  "command": "bundled Python -X utf8 tmp/pdfs/build-v15-carbon-evidence.py",
+  "scope": "Only source-byte/provenance, scalar units, numeric array ordering/range and historical protection checks; no program/full regression/browser/CI",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "name": "Downloaded bytes match official Git blob ID",
+      "pass": true
+    },
+    {
+      "name": "Machine modality carbon,121 energies, published range matches",
+      "pass": true
+    },
+    {
+      "name": "Actual selected energy290.82, not relabelled290",
+      "pass": true
+    },
+    {
+      "name": "Both numeric arrays contain135 entries",
+      "pass": true
+    },
+    {
+      "name": "All depths and IDD values finite and nonnegative",
+      "pass": true
+    },
+    {
+      "name": "Depths strictly increasing",
+      "pass": true
+    },
+    {
+      "name": "Array maximum agrees with stored peak position",
+      "pass": true
+    },
+    {
+      "name": "Peak lies inside supplied depth grid",
+      "pass": true
+    },
+    {
+      "name": "Distal positive tail included, not asserted universal zero",
+      "pass": true
+    },
+    {
+      "name": "Native amplitude not peak-normalized percent",
+      "pass": true
+    },
+    {
+      "name": "Read element count respects source shapes and metadata anchors",
+      "pass": true
+    },
+    {
+      "name": "v14 remains digitized, source energy differs",
+      "pass": true
+    },
+    {
+      "name": "Historical and local protected hashes unchanged",
+      "pass": true
+    },
+    {
+      "name": "Readonly MAT reader source remains local, no production code changes needed",
+      "pass": true
+    }
+  ],
+  "extractionReaderSha256": "f00b8df834163dec5dfae1b2d18fae368497237fb11f918f29d16e557f3af141",
+  "validationScriptSha256": "60e28018e649ab720b3652b25f3a87b4f571625c2d9e127f18a9e6d645d0e240",
+  "evidenceSha256": "0fbf77c90d64292a865fc0048a77f106b988b671ca239322b6c4efb46cabf616",
+  "sourceByteHashVerified": true,
+  "protectedLocalFiles": 84,
+  "sourceRemoteV14Hashes": {
+    "carbon-depth-dose-v14.json": "088ae2b537a66eab43cf5e8912551183902b35bb139f9741b8d21979dbe0c722",
+    "碳离子深度剂量最小交付-v14.md": "8d25020ab38026eaf1aafce50b90b371b1b32e6b05adbb429359346df517a31c"
+  },
+  "failures": [
+    {
+      "stage": "initial GitHub read",
+      "result": "Transport send error; one subsequent bounded read succeeded"
+    },
+    {
+      "stage": "targeted source retrieval",
+      "result": "Kase2011 J-STAGE/DOI/publisher endpoints inaccessible or timed out; watermark cached PDF response Cache miss. No numeric table extracted from search summary"
+    },
+    {
+      "stage": "local reader dependency",
+      "result": "SciPy unavailable; no dependency installation. Read-only MAT5 numeric decoding with existing numpy, validated against blob hash, dimensions, published library count and peak metadata"
+    },
+    {
+      "stage": "MAT header check",
+      "result": "Initial local header-prefix length assertion failed before extraction; corrected once to startswith and then decoded successfully"
+    },
+    {
+      "stage": "source download",
+      "result": "Sandbox WinError10013; authorized external retry succeeded969369bytes, original Git blob SHA matched"
+    }
+  ],
+  "independentExpertApproved": 0,
+  "CIStarted": false,
+  "remaining": [
+    "Exact isotope/charge and original FLUKA scoring configuration require author/run-log confirmation",
+    "Dataset is a simulated library kernel, not a clinical beam measurement or complete raw event file",
+    "135 numeric points are traceable; professional accuracy and physical-model validity not independently approved",
+    "No matched comparison to v14: energy290.82vs290, filter/geometry and IDD vs plotted relative dose differ"
+  ],
+  "metadataOnlyFinalization": "Appended exact pinned-source BSD license; numerical fields unchanged, no repeated numerical suite"
+}
