@@ -1,0 +1,68 @@
+{
+  "scope": "Coverage reconciliation, review hashes and internal training blueprint checks, not official exam or phone testing",
+  "results": [
+    {
+      "name": "149 distinct planning rows;353 count131 and legacy130 retained",
+      "pass": true
+    },
+    {
+      "name": "Actual course/question counts reconcile without legacy double counting",
+      "pass": true
+    },
+    {
+      "name": "Full coverage and expert counts remain zero",
+      "pass": true
+    },
+    {
+      "name": "All three blueprints checked by existing function",
+      "pass": true
+    },
+    {
+      "name": "No delayed transfer item leaked into first chapter training",
+      "pass": true
+    },
+    {
+      "name": "Version hashes bound to new review package",
+      "pass": true
+    },
+    {
+      "name": "133 original hashes remain unchanged after reports and tests",
+      "pass": true
+    }
+  ],
+  "blueprintResults": [
+    {
+      "id": "en-present-questions-chapter-training",
+      "errors": [],
+      "totalPoints": 8,
+      "subjectivePending": [
+        "en-present-questions-a4"
+      ],
+      "predictedScore": null,
+      "officialExam": false,
+      "appExamImplemented": false
+    },
+    {
+      "id": "pol-quantity-quality-chapter-training",
+      "errors": [],
+      "totalPoints": 8,
+      "subjectivePending": [
+        "pol-quantity-quality-a4"
+      ],
+      "predictedScore": null,
+      "officialExam": false,
+      "appExamImplemented": false
+    },
+    {
+      "id": "353-public-health-prevention-chapter-training",
+      "errors": [],
+      "totalPoints": 8,
+      "subjectivePending": [
+        "353-public-health-prevention-a4"
+      ],
+      "predictedScore": null,
+      "officialExam": false,
+      "appExamImplemented": false
+    }
+  ]
+}

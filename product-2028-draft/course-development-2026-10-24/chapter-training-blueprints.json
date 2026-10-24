@@ -1,0 +1,152 @@
+[
+  {
+    "id": "en-present-questions-chapter-training",
+    "kind": "self-authored-training",
+    "officialRulesVerified": false,
+    "subject": "en",
+    "unitId": "en-present-questions",
+    "minutes": 15,
+    "durationBasis": "project-authored suggestion; not official",
+    "totalPoints": 8,
+    "questions": [
+      {
+        "id": "en-present-questions-b1",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-b2",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-b3",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-b4",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-a1",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-a2",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-a3",
+        "points": 1
+      },
+      {
+        "id": "en-present-questions-a4",
+        "points": 1
+      }
+    ],
+    "scoringPolicy": {
+      "objectiveDenominator": 7,
+      "subjective": "reference-only pending human review; never zero-fill or produce total8 score",
+      "predictedScore": null
+    },
+    "delayedItemsExcluded": true
+  },
+  {
+    "id": "pol-quantity-quality-chapter-training",
+    "kind": "self-authored-training",
+    "officialRulesVerified": false,
+    "subject": "pol",
+    "unitId": "pol-quantity-quality",
+    "minutes": 15,
+    "durationBasis": "project-authored suggestion; not official",
+    "totalPoints": 8,
+    "questions": [
+      {
+        "id": "pol-quantity-quality-b1",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-b2",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-b3",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-b4",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-a1",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-a2",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-a3",
+        "points": 1
+      },
+      {
+        "id": "pol-quantity-quality-a4",
+        "points": 1
+      }
+    ],
+    "scoringPolicy": {
+      "objectiveDenominator": 7,
+      "subjective": "reference-only pending human review; never zero-fill or produce total8 score",
+      "predictedScore": null
+    },
+    "delayedItemsExcluded": true
+  },
+  {
+    "id": "353-public-health-prevention-chapter-training",
+    "kind": "self-authored-training",
+    "officialRulesVerified": false,
+    "subject": "353",
+    "unitId": "353-public-health-prevention",
+    "minutes": 15,
+    "durationBasis": "project-authored suggestion; not official",
+    "totalPoints": 8,
+    "questions": [
+      {
+        "id": "353-public-health-prevention-b1",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-b2",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-b3",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-b4",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-a1",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-a2",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-a3",
+        "points": 1
+      },
+      {
+        "id": "353-public-health-prevention-a4",
+        "points": 1
+      }
+    ],
+    "scoringPolicy": {
+      "objectiveDenominator": 7,
+      "subjective": "reference-only pending human review; never zero-fill or produce total8 score",
+      "predictedScore": null
+    },
+    "delayedItemsExcluded": true
+  }
+]

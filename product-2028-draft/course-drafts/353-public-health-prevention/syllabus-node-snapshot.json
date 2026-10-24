@@ -1,0 +1,43 @@
+{
+  "capturedAt": "2026-10-24",
+  "origin": "product-2028-draft/syllabus-353-v2/matrix.json",
+  "revision": "353-2027-remap-v2-2026-10-19",
+  "node": {
+    "id": "s27-1-2",
+    "name": "定义与学科联系",
+    "subject": "ph",
+    "legacyIds": [
+      "s27-1-2"
+    ],
+    "sectionNumber": 1,
+    "basisType": "official-section-decomposition",
+    "depth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+    "priority": "P1",
+    "prerequisites": [],
+    "part": "公共卫生",
+    "sectionTitle": "公共卫生与健康的定义",
+    "officialText": "了解公共卫生的发展历史，掌握公共卫生的定义及其与预防医学、临床医学的联系与异同，理解健康的内涵与外延，掌握测量人群健康水平的基本维度和指标（如人均预期寿命、孕产妇死亡率、婴幼儿死亡率等），了解公共卫生与健康的伦理原则。",
+    "sourceTextHash": "2819b6ea57deb8023832c33d3ac161cbad17943bc89246d77955366780414b2e",
+    "sourceUrl": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "targetYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingReview": "internal-source-comparison-pending-independent-review",
+    "prerequisiteBasis": "internal-pedagogical-order-not-official-weight",
+    "verifiedCoverage": false,
+    "expertApproved": false,
+    "legacyTeachingPointIds": [
+      "ph-01-point-1",
+      "ph-01-point-2",
+      "ph-01-point-3",
+      "ph-01-point-4"
+    ],
+    "courseSupport": [],
+    "legacyQuestionCandidates": [
+      "q-p01",
+      "q-p10"
+    ],
+    "gap": "尚无完整引擎课程；旧要点/候选题不能代替完整教学、闭卷、分层题及延迟测试",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm"
+  }
+}

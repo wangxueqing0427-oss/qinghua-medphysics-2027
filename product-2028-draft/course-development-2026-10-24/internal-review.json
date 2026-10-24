@@ -1,0 +1,772 @@
+{
+  "reviewScope": "AI source comparison and original problem review, NOT independent expertise or study-effect validation",
+  "units": [
+    {
+      "unitId": "en-present-questions",
+      "version": "0.1",
+      "contentSha256": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce",
+      "reviewer": "Codex AI internal screening; not independent reviewer",
+      "date": "2026-10-24",
+      "status": "internal-screened-pending-independent-review",
+      "expertApproved": false,
+      "objectives": [
+        {
+          "id": "en-present-questions-g1",
+          "description": "构造be问句",
+          "successCriteria": "能保留be并正确前移，不叠加do。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-present-questions-b1",
+            "en-present-questions-a1",
+            "en-present-questions-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g2",
+          "description": "选择do/does并还原动词",
+          "successCriteria": "根据主体选助动词，does后不用reads。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-present-questions-b2",
+            "en-present-questions-a2",
+            "en-present-questions-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g3",
+          "description": "提问和回答具体信息",
+          "successCriteria": "时间地点疑问词、直接问句语序及回答类别一致。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-present-questions-b3",
+            "en-present-questions-a3",
+            "en-present-questions-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g4",
+          "description": "区分主语与宾语疑问",
+          "successCriteria": "给出who作主语和what作宾语的两种结构并说明边界。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-present-questions-b4",
+            "en-present-questions-a4",
+            "en-present-questions-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-present-questions-b1",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "Is the room quiet?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-b2",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "Does Mina read each morning?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-b3",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "When does the group meet?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-b4",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "Who brings the list?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-a1",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "Is Rui in the library?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-a2",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "Do Mina and Rui read the report?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-a3",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "At home.",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-a4",
+          "phase": "applicationQuestions",
+          "type": "subjective",
+          "answerText": "Who checks the list?询问主体；What does Lena check?询问对象。前句who代替Lena，后句what代替the list，后句需does及check原形。",
+          "rubric": [
+            "写Who checks the list?",
+            "写What does Lena check?",
+            "说明主语与宾语被替换位置",
+            "解释does后check原形及本课非强调边界"
+          ],
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-d1",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "Are the tickets here?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-d2",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "Does Nora work here?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-d3",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "When does the train leave?",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "en-present-questions-d4",
+          "phase": "delayedQuestions",
+          "type": "subjective",
+          "answerText": "Who opens the gate?谁打开大门？What does Omar open?奥马尔打开什么？",
+          "rubric": [
+            "who作主语无需普通do支持",
+            "opens与本课默认单数一致",
+            "what宾语疑问保留Omar且用does open",
+            "中文翻译保留所问信息"
+          ],
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        }
+      ],
+      "issues": [
+        "英语教师核对who边界和题目唯一性",
+        "与后续间接问句的衔接",
+        "年度英语大纲完整正文尚未核实"
+      ]
+    },
+    {
+      "unitId": "pol-quantity-quality",
+      "version": "0.1",
+      "contentSha256": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b",
+      "reviewer": "Codex AI internal screening; not independent reviewer",
+      "date": "2026-10-24",
+      "status": "internal-screened-pending-independent-review",
+      "expertApproved": false,
+      "objectives": [
+        {
+          "id": "pol-quantity-quality-g1",
+          "description": "区别质与量",
+          "successCriteria": "不把哲学质误作好坏等级；用题给性质与数量证据分类。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b1",
+            "pol-quantity-quality-a1",
+            "pol-quantity-quality-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g2",
+          "description": "运用度与边界",
+          "successCriteria": "说明度的含义，拒绝由哲学概念推导未给出的临床或分数阈值。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b2",
+            "pol-quantity-quality-a2",
+            "pol-quantity-quality-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g3",
+          "description": "说明相互转化",
+          "successCriteria": "材料中找量的准备、质的转变及新量变，不承诺机械积累必成功。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b3",
+            "pol-quantity-quality-a3",
+            "pol-quantity-quality-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g4",
+          "description": "形成有边界的材料分析",
+          "successCriteria": "按对象证据概念行动组织答案，区分性质改变与价值评价。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b4",
+            "pol-quantity-quality-a4",
+            "pol-quantity-quality-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pol-quantity-quality-b1",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "体现量变",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-b2",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "事物保持一定质的数量界限",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-b3",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "达到一定程度并具备条件的量变可引起质变",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-b4",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "确定对象和层次，再找变化证据",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-a1",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "尚不足以判定质变",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-a2",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "不能，需专业研究和适用条件",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-a3",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "量的准备、质的变化、新的量变",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-a4",
+          "phase": "applicationQuestions",
+          "type": "subjective",
+          "answerText": "次数增加只是量的变化；高分没有由此得到证据。应改进反馈和练习质量、验证迁移和延迟保持，积累有效条件；不能预设固定成功阈值或保证分数。",
+          "rubric": [
+            "指出次数不等于能力变化",
+            "说明积累向转变须条件",
+            "提出纠错与新题/延迟验证",
+            "拒绝分数保证与任意阈值"
+          ],
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-d1",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "在该层次体现量变",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-d2",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "需结合事物和条件确定，不能凭概念编造数值",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-d3",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "新质基础上可继续量变",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "pol-quantity-quality-d4",
+          "phase": "delayedQuestions",
+          "type": "subjective",
+          "answerText": "当前仅确认会议数量增加；需补分工、决策和运行规则是否根本改变及效果证据。应检验机制实际运行，再判断转变，不能从次数直接推出质变或进步。",
+          "rubric": [
+            "限定当前数量证据",
+            "要求根本性质/机制证据",
+            "提出实际核对行动",
+            "不以质变自动等同进步"
+          ],
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        }
+      ],
+      "issues": [
+        "马克思主义理论教师核对概念和材料层次",
+        "度与价值方向的教学边界",
+        "不以旧讲义可疑例证支持现代法律或自然科学事实",
+        "年度政治考试范围未核实"
+      ]
+    },
+    {
+      "unitId": "353-public-health-prevention",
+      "version": "0.1",
+      "contentSha256": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5",
+      "reviewer": "Codex AI internal screening; not independent reviewer",
+      "date": "2026-10-24",
+      "status": "internal-screened-pending-independent-review",
+      "expertApproved": false,
+      "objectives": [
+        {
+          "id": "353-public-health-prevention-g1",
+          "description": "识别人群健康视角",
+          "successCriteria": "用对象与有组织行动解释公共卫生与临床的联系，不用地点机械分类。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b1",
+            "353-public-health-prevention-a1",
+            "353-public-health-prevention-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g2",
+          "description": "界定一级预防",
+          "successCriteria": "说清目标疾病、发生前阶段和风险降低目的，不承诺绝对有效。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b2",
+            "353-public-health-prevention-a2",
+            "353-public-health-prevention-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g3",
+          "description": "区分二级预防与诊断",
+          "successCriteria": "识别早期筛查目的，明确阳性非确诊及有症状检查的边界。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b3",
+            "353-public-health-prevention-a3",
+            "353-public-health-prevention-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g4",
+          "description": "运用三级预防与综合分类",
+          "successCriteria": "在确诊后康复情境解释目的，并按目标与阶段说明多重用途。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b4",
+            "353-public-health-prevention-a4",
+            "353-public-health-prevention-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "353-public-health-prevention-b1",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "人群健康与有组织的社会行动",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-b2",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "一级预防",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-b3",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "尽早识别可能疾病并衔接确认处理",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-b4",
+          "phase": "basicQuestions",
+          "type": "single",
+          "answerText": "三级预防",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-a1",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "否，应看对象、目的与组织行动",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-a2",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "按疾病发生前目标判断一级预防",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-a3",
+          "phase": "applicationQuestions",
+          "type": "single",
+          "answerText": "需按适用规范进一步确认，筛查不能替代诊断",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-a4",
+          "phase": "applicationQuestions",
+          "type": "subjective",
+          "answerText": "A主要按一级预防理解，B按题给目的属三级预防；先明确目标疾病与对象，再判阶段和具体目的，不能按健康教育名称固定分类。",
+          "rubric": [
+            "明确两组对象及目标疾病",
+            "A发生前降低风险",
+            "B确诊后减少损害目的",
+            "说明按对象阶段目的而非名称判定"
+          ],
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-d1",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "还需健康与风险效果证据",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-d2",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "一级",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-d3",
+          "phase": "delayedQuestions",
+          "type": "single",
+          "answerText": "需核对对象、阶段和检查目的",
+          "rubric": null,
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        },
+        {
+          "id": "353-public-health-prevention-d4",
+          "phase": "delayedQuestions",
+          "type": "subjective",
+          "answerText": "如目标病前适用风险控制；无症状目标人群适当筛查并确认；已确诊后功能康复。分别说明发生前、早期发现、减少后果，均不保证有效或以筛查作确诊。",
+          "rubric": [
+            "每例给目标和阶段",
+            "一级降低发生风险",
+            "二级早发现且阳性非确诊",
+            "三级减少损害且不保证效果"
+          ],
+          "internalChecks": [
+            "stem/key/explanation alignment inspected",
+            "wrong-option distinctions stated",
+            "objective/phase mapping checked"
+          ],
+          "independentReview": false
+        }
+      ],
+      "issues": [
+        "公共卫生教师核对三级预防与临床语境边界",
+        "疾病前与确诊后分类的目标特异性",
+        "筛查与诊断、健康教育跨阶段用途",
+        "2028正式大纲仍待核"
+      ]
+    }
+  ],
+  "similarityResolution": {
+    "candidatePair": [
+      "sva-d1",
+      "sva-d3"
+    ],
+    "finding": "Existing stems share delayed-test formatting but assess plural present form vs singular irregular/spelling; retained as distinct internal exercises. No independent reviewer conclusion.",
+    "changed": false
+  },
+  "independentExpertApproved": 0
+}

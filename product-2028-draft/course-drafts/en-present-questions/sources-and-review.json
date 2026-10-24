@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-24",
+  "status": "internal-screening-pending-independent-review",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+      "publisher": "British Council",
+      "publishedAt": null,
+      "accessedAt": "2026-10-24",
+      "accessStatus": "full-page-read",
+      "locator": "Present simple questions正文；未使用评论区",
+      "supports": [
+        "do/does及主语who的基础例外"
+      ]
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verb-be",
+      "publisher": "British Council",
+      "publishedAt": null,
+      "accessedAt": "2026-10-24",
+      "accessStatus": "full-page-read",
+      "locator": "开头be形式表和link verb段；不依赖评论区",
+      "supports": [
+        "am/is/are问句形式"
+      ]
+    }
+  ],
+  "pendingReview": [
+    "英语教师核对who边界和题目唯一性",
+    "与后续间接问句的衔接",
+    "年度英语大纲完整正文尚未核实"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

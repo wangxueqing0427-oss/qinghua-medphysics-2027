@@ -1,0 +1,1025 @@
+{
+  "purpose": "Independent expert review; no personal learning data",
+  "unitFingerprints": [
+    {
+      "unitId": "en-present-questions",
+      "unitVersion": "0.1",
+      "contentSha256": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce"
+    },
+    {
+      "unitId": "pol-quantity-quality",
+      "unitVersion": "0.1",
+      "contentSha256": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b"
+    },
+    {
+      "unitId": "353-public-health-prevention",
+      "unitVersion": "0.1",
+      "contentSha256": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5"
+    }
+  ],
+  "units": [
+    {
+      "id": "en-present-questions",
+      "subject": "en",
+      "title": "一般现在时疑问句：怎样问、问什么、谁是主语",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "prerequisites": [
+        "en-linking-and-verb-phrase",
+        "en-subject-verb-agreement"
+      ],
+      "prerequisiteExplanation": "先能找主语、区分be状态句与普通动作句，并认识he/she/it第三人称单数；不要求掌握过去时。若分不清is和works，先回到句子骨架与系动词课。",
+      "definition": "现在时直接问句：be状态句把be置于主语前；普通动作问句用do/does加主语加动词原形。疑问词的语法位置决定是否需要do支持。",
+      "conditions": "基础直接肯定问题；不覆盖间接问题、强调、疑问否定、情态动词和复杂who一致。2028英语考试范围未确认，属基础教学补充。",
+      "recall": [
+        "闭卷把Lena is ready与They are ready分别变成问句，解释为何不用do。",
+        "不看例句，说明does后动词形式，再把Omar reads变问句。",
+        "写一个问时间和一个问地点的问题，并给出符合信息类别的回答。",
+        "对Lena checks the list分别问谁与什么，标出被替换成分。"
+      ],
+      "misconceptions": [
+        "所有问题都用do。",
+        "does后仍保留reads。",
+        "直接问题与间接问题语序永远相同。",
+        "who永远不可能与助动词共现。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "把The room is quiet.变成本课一般问句。",
+          "options": [
+            "Is the room quiet?",
+            "Does the room is quiet?",
+            "The room quiet?"
+          ],
+          "answer": 0,
+          "explanation": "本句是be状态句；is前移，quiet保留。B重复助动成分；C丢失be。quiet意为安静的。",
+          "id": "en-present-questions-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "Mina reads each morning.对应哪一问句？",
+          "options": [
+            "Do Mina reads each morning?",
+            "Does Mina read each morning?",
+            "Does Mina reads each morning?"
+          ],
+          "answer": 1,
+          "explanation": "Mina是第三人称单数，选does；read须用原形。A助动词不一致，C重复第三人称标记。",
+          "id": "en-present-questions-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "要询问小组在何时见面，应选哪句？",
+          "options": [
+            "Where does the group meet?",
+            "When the group meets?",
+            "When does the group meet?"
+          ],
+          "answer": 2,
+          "explanation": "when问时间，does加主语加meet。A问地点，B不是本课完整直接问题的语序。",
+          "id": "en-present-questions-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "不知道谁带来名单，普通非强调地问谁带来名单，选哪句？",
+          "options": [
+            "Who brings the list?",
+            "Who does brings the list?",
+            "Who bring the list?"
+          ],
+          "answer": 0,
+          "explanation": "本课who占主语，默认单数brings；B结构重复，C不合本课给定单数语境。bring是带来。",
+          "id": "en-present-questions-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "Rui is in the library.的直接问句应为？",
+          "options": [
+            "Does Rui in the library?",
+            "Is Rui in the library?",
+            "Is Rui does in the library?"
+          ],
+          "answer": 1,
+          "explanation": "library是图书馆；原句be连接地点短语，前移is即可。A漏be，C多加does。",
+          "id": "en-present-questions-a1",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "主语是Mina and Rui，问二人是否读同一份报告，选哪句？",
+          "options": [
+            "Does Mina and Rui read the report?",
+            "Do Mina and Rui reads the report?",
+            "Do Mina and Rui read the report?"
+          ],
+          "answer": 2,
+          "explanation": "并列二人用do，动作read原形；A不看完整主体，B仍错误加s。report为报告。",
+          "id": "en-present-questions-a2",
+          "difficulty": "transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "Where does Omar study?哪项提供问题所要的信息？",
+          "options": [
+            "At home.",
+            "Yes, he does.",
+            "On Monday."
+          ],
+          "answer": 0,
+          "explanation": "where要求地点，At home在家。B只答是否，C给日期；都没有满足所问信息。",
+          "id": "en-present-questions-a3",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "把Lena checks the list.分别改为询问主语和宾语的直接问题，并解释两种形式。",
+          "answer": "Who checks the list?询问主体；What does Lena check?询问对象。前句who代替Lena，后句what代替the list，后句需does及check原形。",
+          "explanation": "评价看替换位置与助动词理由，不因出现who/does两个关键词就自动判满。参考答案不覆盖强调与否定问题。",
+          "rubric": [
+            "写Who checks the list?",
+            "写What does Lena check?",
+            "说明主语与宾语被替换位置",
+            "解释does后check原形及本课非强调边界"
+          ],
+          "id": "en-present-questions-a4",
+          "difficulty": "transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日新句The tickets are here.的问句是哪句？",
+          "options": [
+            "Do the tickets here?",
+            "Are the tickets here?",
+            "Is the tickets here?"
+          ],
+          "answer": 1,
+          "explanation": "tickets复数票，原句are前移；A丢be，C数不一致。此题换主语复习be结构而非背原句。",
+          "id": "en-present-questions-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "Which question is correct?主体为单个名字Nora，动词为work。",
+          "options": [
+            "Does Nora works here?",
+            "Do Nora work here?",
+            "Does Nora work here?"
+          ],
+          "answer": 2,
+          "explanation": "单数Nora用does，后接work原形。A重复标记，B不一致；正确句意为诺拉在这里工作吗？",
+          "id": "en-present-questions-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "已知The train leaves at six，询问出发时间应选？",
+          "options": [
+            "When does the train leave?",
+            "When the train leaves?",
+            "Where does the train leave?"
+          ],
+          "answer": 0,
+          "explanation": "when代替at six；does后leave。B语序不合直接问题，C问地点。",
+          "id": "en-present-questions-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "给出两句新问句：问谁打开大门、问Omar打开什么，并各译中文；词汇open打开，gate大门。",
+          "answer": "Who opens the gate?谁打开大门？What does Omar open?奥马尔打开什么？",
+          "explanation": "先判断未知成分，再核对动词；若使用其他同义名词不影响结构，可人工核对。不得据单次成功宣称持续掌握。",
+          "rubric": [
+            "who作主语无需普通do支持",
+            "opens与本课默认单数一致",
+            "what宾语疑问保留Omar且用does open",
+            "中文翻译保留所问信息"
+          ],
+          "id": "en-present-questions-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创讲解、例句/场景和自编训练；外部来源用于概念核对，不复制题目或作为真题",
+      "writtenAt": "2026-10-24",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verb-be"
+      ],
+      "explanation": "问题句不是把词随便调个位置。主语是句子谈论的主体，谓语说明主体的动作或状态。先把问句还原为陈述句，才能知道该搬哪个词。原创例句Lena is ready.意为莉娜准备好了；ready是准备好的，is连接Lena与状态。要问她是否准备好，把is放到主语前：Is Lena ready? 中文为莉娜准备好了吗？不能另加do写成Does Lena is ready?。They are ready.变Are they ready?，I am late.变Am I late?。本课只处理现在的事实或习惯，不把be和其他助动词随意叠加。\n\n普通动作句要请do或does帮助提问。主语he/she/it或一个人名时用does，其余本课主语用do。先找主体，再放助动词，然后让动作动词回到原形。Lena reads at home.莉娜在家读书，变Does Lena read at home?，不能写Does Lena reads，因为第三人称标记已由does承担。Do Lena and Omar read at home?里两个并列人名是复数，不能被最近的一个人名干扰。do在本节是构成疑问的助动词，不单独译为做。一般问句能用Yes或No回答，但简短回答必须保留相应助动词或be。\n\n特殊疑问句需要问具体的信息。where问地点，when问时间，what问内容；先写出一般问句框架，再把疑问词放最前。The group meets on Friday.意为小组周五见面，问时间为When does the group meet?，不能写When the group meets?作为本课独立直接问句。Where is the map?问地图在哪里，已有be就不加does。回答Where does Lena study?应给地点，例如At home.，不是只说Yes。本课区分直接问题与陈述句；嵌入式问句如I know where...留待长难句单元，不把这里的语序规则推广过去。\n\nwho问谁时，先判断它是不是要找的主语。Lena checks the list.莉娜核对名单；若不知道是谁核对，问Who checks the list?，who本身占据主语位置，本课普通非强调肯定问题不再加does。若已知Lena核对但不知道对象，问What does Lena check?，what占宾语位置，仍需要does。checks的-s在主语疑问中保留，是本课默认单数问法；不由此宣称所有who都只能配单数或永远不用助动词。否定、强调与复杂主语问题另课处理。解题最后再译句义并核对回答的信息类别，防止只背形式。",
+      "example": "Lena is ready → Is Lena ready?：先认be，再前移，ready不变。\nLena reads at home → Does Lena read at home?：does承担人称标记，read恢复原形。\nThe group meets on Friday → When does the group meet?：用when替换时间信息。\nLena checks the list → Who checks the list? / What does Lena check?：分别替换主语与宾语。",
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "Lena is ready → Is Lena ready?：先认be，再前移，ready不变。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "Lena reads at home → Does Lena read at home?：does承担人称标记，read恢复原形。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "The group meets on Friday → When does the group meet?：用when替换时间信息。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "Lena checks the list → Who checks the list? / What does Lena check?：分别替换主语与宾语。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-present-questions-g1",
+          "description": "构造be问句",
+          "successCriteria": "能保留be并正确前移，不叠加do。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-present-questions-b1",
+            "en-present-questions-a1",
+            "en-present-questions-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g2",
+          "description": "选择do/does并还原动词",
+          "successCriteria": "根据主体选助动词，does后不用reads。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-present-questions-b2",
+            "en-present-questions-a2",
+            "en-present-questions-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g3",
+          "description": "提问和回答具体信息",
+          "successCriteria": "时间地点疑问词、直接问句语序及回答类别一致。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-present-questions-b3",
+            "en-present-questions-a3",
+            "en-present-questions-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g4",
+          "description": "区分主语与宾语疑问",
+          "successCriteria": "给出who作主语和what作宾语的两种结构并说明边界。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-present-questions-b4",
+            "en-present-questions-a4",
+            "en-present-questions-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "能保留be并正确前移，不叠加do。",
+        "根据主体选助动词，does后不用reads。",
+        "时间地点疑问词、直接问句语序及回答类别一致。",
+        "给出who作主语和what作宾语的两种结构并说明边界。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换情境独立答题，记录错因；按实际客观证据安排复习。主观参考核对不代表已掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师核对who边界和题目唯一性",
+          "与后续间接问句的衔接",
+          "年度英语大纲完整正文尚未核实"
+        ]
+      }
+    },
+    {
+      "id": "pol-quantity-quality",
+      "subject": "pol",
+      "title": "量变与质变：看清积累、界限和性质变化",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-connections-foundation"
+      ],
+      "prerequisiteExplanation": "先能说明关系成立需要具体条件，知道共性不能取代具体分析；不要求掌握经济政策术语。课内重新解释质、量、度，不默认学过哲学。",
+      "definition": "量变体现原有质相对稳定时数量、程度等变化；质变指根本性质的转变。度表示保持一定质的数量界限。量变与质变相互联系，判断必须说明对象、条件和层次。",
+      "conditions": "稳定哲学基础教学补充；不覆盖质量互变规律全部复杂形式，不把具体政策、法律阈值、自然科学数值当作原理可直接推导的结论。年度政治范围待核。",
+      "recall": [
+        "不用好坏二字解释哲学的质，再举一个题给性质未变的量变例。",
+        "闭卷解释度与关节点，并说出为什么不能由原理算出医疗阈值。",
+        "分别说出量变、质变及新量变在一段自编材料中的证据。",
+        "写出材料分析四步及两种要避免的机械结论。"
+      ],
+      "misconceptions": [
+        "哲学质就是质量优劣。",
+        "任何数字变大都是质变。",
+        "积累多少小时必考到某分。",
+        "质变一律是进步且没有条件。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "题给图书室藏书增加，但制度与服务根本性质未变。最有依据的判断？",
+          "options": [
+            "发生质变，因为数量变大",
+            "体现量变",
+            "没有任何变化"
+          ],
+          "answer": 1,
+          "explanation": "B依据数量增加且性质相对稳定；A混淆大小与性质，C否认已给数量变化。此结论限于题给分析层次。",
+          "id": "pol-quantity-quality-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "哲学中的度首先表示什么？",
+          "options": [
+            "任何考试的统一及格线",
+            "事物保持一定质的数量界限",
+            "做事速度越慢越好"
+          ],
+          "answer": 1,
+          "explanation": "度关联质和量的界限；A将具体制度规则冒充通用哲学阈值，C是无依据方法。",
+          "id": "pol-quantity-quality-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "关于量变与质变，最恰当的说法？",
+          "options": [
+            "任何重复必然成功",
+            "质变与先前准备无关",
+            "达到一定程度并具备条件的量变可引起质变"
+          ],
+          "answer": 2,
+          "explanation": "C保留准备与条件。A把规律机械套为成功承诺，B割断发展联系。",
+          "id": "pol-quantity-quality-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "分析材料首先应做什么？",
+          "options": [
+            "确定对象和层次，再找变化证据",
+            "只写坚持就成功",
+            "看见增加就写质变"
+          ],
+          "answer": 0,
+          "explanation": "对象层次决定讨论什么性质；A先界定讨论对象并检查证据。B没有具体材料支撑，C把词语增加误当根本性质转变，均跳过判断步骤。",
+          "id": "pol-quantity-quality-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "平台只更换标志，材料未说明运行机制改变。可得何结论？",
+          "options": [
+            "已证明根本性质改变",
+            "尚不足以判定质变",
+            "绝不可能有任何质变"
+          ],
+          "answer": 1,
+          "explanation": "只知名称外观不能确认根本性质；C同样过强。应补机制与实践证据，而不是从缺信息推导绝对否定。",
+          "id": "pol-quantity-quality-a1",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "材料未给治疗参数与生物效应证据。能否从度的原理算具体安全剂量？",
+          "options": [
+            "能，阈值都一样",
+            "能，量越大越好",
+            "不能，需专业研究和适用条件"
+          ],
+          "answer": 2,
+          "explanation": "C避免把哲学规律替代量化专业证据；A无视条件，B否定适度。这里不提供医疗建议或剂量数值。",
+          "id": "pol-quantity-quality-a2",
+          "difficulty": "transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "合作组磨合→建立新协作制度→在新制度下扩展服务。最完整概括？",
+          "options": [
+            "量的准备、质的变化、新的量变",
+            "三次均只是开会数量变化",
+            "一次质变后不再有量变"
+          ],
+          "answer": 0,
+          "explanation": "A对三个阶段分别说明；B忽略题给新制度性质，C否认后续发展。具体制度是否根本改变现实中仍需材料支持。",
+          "id": "pol-quantity-quality-a3",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "有人说每天多做同样的错题，不纠错也不测新题，累积到某天必然350分。用本课原理分析并提出改进。",
+          "answer": "次数增加只是量的变化；高分没有由此得到证据。应改进反馈和练习质量、验证迁移和延迟保持，积累有效条件；不能预设固定成功阈值或保证分数。",
+          "explanation": "核对条件、证据与行动，不按出现量变质变两词自动给分。参考答案是自编教学，不是官方政治评分细则。",
+          "rubric": [
+            "指出次数不等于能力变化",
+            "说明积累向转变须条件",
+            "提出纠错与新题/延迟验证",
+            "拒绝分数保证与任意阈值"
+          ],
+          "id": "pol-quantity-quality-a4",
+          "difficulty": "transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日材料：服务次数增加，服务制度根本性质按题设未变。判断？",
+          "options": [
+            "必须是质变",
+            "必然是倒退",
+            "在该层次体现量变"
+          ],
+          "answer": 2,
+          "explanation": "题给服务次数增加且制度根本性质相对稳定，支持在此层次判断量变。A忽略性质条件；B把数量变化当成消极价值结论，材料并未支持。",
+          "id": "pol-quantity-quality-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "关于关节点哪项正确？",
+          "options": [
+            "需结合事物和条件确定，不能凭概念编造数值",
+            "所有对象关节点相同",
+            "关节点就是任一数字"
+          ],
+          "answer": 0,
+          "explanation": "关节点涉及保持质的界限，具体位置依对象与条件；B、C取消了判断依据。",
+          "id": "pol-quantity-quality-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "新制度建立后服务规模持续扩大，说明？",
+          "options": [
+            "质变结束所有变化",
+            "新质基础上可继续量变",
+            "先前积累不再有任何作用"
+          ],
+          "answer": 1,
+          "explanation": "B说明发展连续阶段。A把质变当终点，C否认前期准备与新阶段的联系。",
+          "id": "pol-quantity-quality-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "材料只说会议次数翻倍，就宣布协作机制已根本改变。写出需补何证据、当前能说什么及下一步行动。",
+          "answer": "当前仅确认会议数量增加；需补分工、决策和运行规则是否根本改变及效果证据。应检验机制实际运行，再判断转变，不能从次数直接推出质变或进步。",
+          "explanation": "可用其他合理机制证据；需说明同一对象层次。主观答复保留原文逐点核对，不生成官方分数。",
+          "rubric": [
+            "限定当前数量证据",
+            "要求根本性质/机制证据",
+            "提出实际核对行动",
+            "不以质变自动等同进步"
+          ],
+          "id": "pol-quantity-quality-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创讲解、例句/场景和自编训练；外部来源用于概念核对，不复制题目或作为真题",
+      "writtenAt": "2026-10-24",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "sources": [
+        "https://mzs.sxu.edu.cn/jpkc/119893.htm",
+        "https://www.qstheory.cn/dukan/hqwg/2024-02/08/c_1130075936.htm"
+      ],
+      "explanation": "哲学里的质不是产品好坏的评分，而是使事物成为它自身的根本规定；量是规模、数量、程度等可以有增减的规定。理解时先说清研究对象和观察层次，再比较变化前后。原创教学情境：一家仍按原有借阅制度运营的图书室，藏书从1000册增到1200册。已知制度与服务性质没有根本改变，册数增加体现量变，不能只因数字变大就说发生质变。相反，仅凭馆名改动也不足以判断性质改变。先问变的是数量还是根本性质，有什么材料证据，而不是看到变这个字就套规律。\n\n度是事物保持自身质的数量界限，关节点是度的边界。量变在原有质相对稳定时发生，质变则突破原有度，形成另一种质态。度不是随便给出的考试分数线，更不是任何场景都用同一阈值。教学模型：某封闭简单系统的状态由课程题干明确给定，参数在规定区间内仍是A态，超出并经观察确认为B态；根据题给状态与条件判断，不能用参数稍变就等同质变。现实系统的界限常需实证研究，不能从抽象原理推导具体医学剂量阈值或个体学习小时数。此模型是自编说明，不是自然定律的新发现。\n\n量变为质变作准备，量变达到一定程度并具备相应条件时发生质变；质变又开启新的量变。这里说的是发展过程的联系，不是保证机械重复任何动作都能成功。原创材料：一个合作组不断补充公共规则、磨合分工，条件成熟后建立起稳定的新协作制度，此后再扩展服务。分析应分别指出前期积累、制度根本改变及新制度下的继续发展。若只观察到开会次数增加，就还不足以确认制度已经改变。不要把质变等同于全部积极进步，变化可能有利也可能有害；评价方向需要具体对象和实践效果。\n\n解材料题按对象、证据、概念、行动四步。先说明在哪个层次讨论哪一事物，再引用材料中的数量积累或性质变化证据，解释二者关系，最后提出符合条件的行动。积累阶段重视扎实工作，条件成熟时把握转变，同时警惕消极因素积累；既不能急于求成，也不能把适度理解为永远不突破原状。原创反例：只增加无效重复训练次数，却不纠错、不检查迁移，无法据此推断学习能力必然提高，更不能保证350分。适度和促成转变要针对不同目标，不能把空泛口号当成具体措施。主观题只提供评分要点供核对，不模拟官方阅卷。",
+      "example": "藏书1000到1200册，题给制度服务性质不变：量变；先锁定图书室的制度层次。\n题给系统由A态转为B态且根本性质变化：据此判断质变，不猜现实阈值。\n合作组磨合→新制度成立→服务规模扩大：准备、转变、新积累分别找证据。\n学习次数增加但未纠错：只能说明数量变化，不能保证成绩或质变。",
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "藏书1000到1200册，题给制度服务性质不变：量变；先锁定图书室的制度层次。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "题给系统由A态转为B态且根本性质变化：据此判断质变，不猜现实阈值。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "合作组磨合→新制度成立→服务规模扩大：准备、转变、新积累分别找证据。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "学习次数增加但未纠错：只能说明数量变化，不能保证成绩或质变。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-quantity-quality-g1",
+          "description": "区别质与量",
+          "successCriteria": "不把哲学质误作好坏等级；用题给性质与数量证据分类。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b1",
+            "pol-quantity-quality-a1",
+            "pol-quantity-quality-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g2",
+          "description": "运用度与边界",
+          "successCriteria": "说明度的含义，拒绝由哲学概念推导未给出的临床或分数阈值。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b2",
+            "pol-quantity-quality-a2",
+            "pol-quantity-quality-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g3",
+          "description": "说明相互转化",
+          "successCriteria": "材料中找量的准备、质的转变及新量变，不承诺机械积累必成功。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b3",
+            "pol-quantity-quality-a3",
+            "pol-quantity-quality-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g4",
+          "description": "形成有边界的材料分析",
+          "successCriteria": "按对象证据概念行动组织答案，区分性质改变与价值评价。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b4",
+            "pol-quantity-quality-a4",
+            "pol-quantity-quality-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "不把哲学质误作好坏等级；用题给性质与数量证据分类。",
+        "说明度的含义，拒绝由哲学概念推导未给出的临床或分数阈值。",
+        "材料中找量的准备、质的转变及新量变，不承诺机械积累必成功。",
+        "按对象证据概念行动组织答案，区分性质改变与价值评价。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换情境独立答题，记录错因；按实际客观证据安排复习。主观参考核对不代表已掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师核对概念和材料层次",
+          "度与价值方向的教学边界",
+          "不以旧讲义可疑例证支持现代法律或自然科学事实",
+          "年度政治考试范围未核实"
+        ]
+      }
+    },
+    {
+      "id": "353-public-health-prevention",
+      "subject": "353",
+      "title": "公共卫生与三级预防：先定人群、疾病和干预目标",
+      "mapping": [
+        "s27-1-2",
+        "s27-2-2"
+      ],
+      "prerequisites": [],
+      "prerequisiteExplanation": "入门根课；本课先教公共卫生的人群视角和疾病过程，再教三级预防，不需要先学统计推断。会区分已经患病与尚未患病即可；所有情境只作教学分类，不提供个人诊疗建议。",
+      "definition": "公共卫生以人群健康和有组织的社会行动为视角。三级预防按明确目标疾病与干预目的区分：发生前减少风险、早期发现并处理、确诊后减少不良后果与功能损害。",
+      "conditions": "2027清华353公共卫生第一、二节作为2028暂定参考。只讲入门概念，不给临床方案，不替代筛查项目评价；同一措施可因目标疾病与对象不同归入不同阶段。",
+      "recall": [
+        "闭卷解释公共卫生为何不等于医院外的工作，用社区例子说明协同。",
+        "不看资料说出一级预防的三个判断信息及一项边界。",
+        "解释筛查阳性为什么不能直接写确诊，并区分有症状求诊检查。",
+        "用同一种健康教育在不同人群的目的说明为什么不能只看措施名称。"
+      ],
+      "misconceptions": [
+        "在医院发生就不是公共卫生。",
+        "所有带预防二字的措施都是一级。",
+        "筛查阳性就是确诊。",
+        "确诊后只有治疗没有预防，或按措施名字永久定级。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "社区组织供水改善并评估居民健康风险，体现何种视角？",
+          "options": [
+            "仅按一个人的诊断结果处理",
+            "人群健康与有组织的社会行动",
+            "只要人数多就保证有效"
+          ],
+          "answer": 1,
+          "explanation": "B对应对象和组织行动；A缩为个体，C把人群规模当成效果证据。公共卫生与个体服务可以协同。",
+          "id": "353-public-health-prevention-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "按题设对尚未发生目标感染者开展适用的预防接种，主要属？",
+          "options": [
+            "一级预防",
+            "二级预防",
+            "三级预防"
+          ],
+          "answer": 0,
+          "explanation": "目的是目标疾病发生前降低风险。B重早发现，C针对确诊后不良后果；不能据此制定实际接种方案。",
+          "id": "353-public-health-prevention-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "对无相关症状人群开展适当目标病筛查，主要目的？",
+          "options": [
+            "确诊后康复",
+            "保证每个阳性者患病",
+            "尽早识别可能疾病并衔接确认处理"
+          ],
+          "answer": 2,
+          "explanation": "C说明二级预防路径；阳性不是确诊，故B错误；A是不同阶段目的。",
+          "id": "353-public-health-prevention-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "已确诊并有活动障碍者接受功能康复，最符合？",
+          "options": [
+            "一级预防",
+            "三级预防",
+            "筛查即确诊"
+          ],
+          "answer": 1,
+          "explanation": "三级预防着重减少损害和改善功能；A不符合题给阶段，C混淆检查结论。",
+          "id": "353-public-health-prevention-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "医院组织人群健康风险监测就一定不属公共卫生吗？",
+          "options": [
+            "是，地点决定性质",
+            "是，公共卫生不能与临床合作",
+            "否，应看对象、目的与组织行动"
+          ],
+          "answer": 2,
+          "explanation": "公共卫生可在医院组织开展；A、B把场所和分工绝对化。仅有监测还不能证明干预有效。",
+          "id": "353-public-health-prevention-a1",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "社区对无目标病者做风险教育，主要目标是降低未来该病发生。分类最有依据的是？",
+          "options": [
+            "按疾病发生前目标判断一级预防",
+            "只要教育都属三级",
+            "教育没有预防意义"
+          ],
+          "answer": 0,
+          "explanation": "题设对象、阶段与目标支持A；B忽视对象，C否认可能作用。尚不据此估计效果大小。",
+          "id": "353-public-health-prevention-a2",
+          "difficulty": "transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "筛查报告阳性后，教学上最安全准确的表述？",
+          "options": [
+            "已确诊，不需进一步评估",
+            "需按适用规范进一步确认，筛查不能替代诊断",
+            "一定是假阳性"
+          ],
+          "answer": 1,
+          "explanation": "B保留筛查与诊断边界；A、C均超出单次结果信息，不提供个体处置建议。",
+          "id": "353-public-health-prevention-a3",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "同样是健康教育：A对未患目标病者降低风险，B对已确诊者支持并发症预防与功能维护。解释为何分类不同，并列判断顺序。",
+          "answer": "A主要按一级预防理解，B按题给目的属三级预防；先明确目标疾病与对象，再判阶段和具体目的，不能按健康教育名称固定分类。",
+          "explanation": "可接受同义表达，但必须说明题给目标；不按关键词自动给专业分。跨阶段活动应分子目标评价。",
+          "rubric": [
+            "明确两组对象及目标疾病",
+            "A发生前降低风险",
+            "B确诊后减少损害目的",
+            "说明按对象阶段目的而非名称判定"
+          ],
+          "id": "353-public-health-prevention-a4",
+          "difficulty": "transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日新情境：社区建立暴露监测与环境改善协作。为什么不能仅以参与人数证明成功？",
+          "options": [
+            "人数多必有效",
+            "还需健康与风险效果证据",
+            "因为公共卫生只处理个体"
+          ],
+          "answer": 1,
+          "explanation": "B要求进一步观察风险和健康结果，区分活动规模与实际效果。A把人数当作效果证据，C错误地把公共卫生对象缩成个体，均不符合题干。",
+          "id": "353-public-health-prevention-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "一种风险降低措施用在尚未发生目标疾病阶段，且题给目的在防止该病发生。选其主要层级。",
+          "options": [
+            "三级",
+            "二级",
+            "一级"
+          ],
+          "answer": 2,
+          "explanation": "按明确目标病和发生前目的判一级；不由措施名字或患者是否有其他疾病改变本题分类。",
+          "id": "353-public-health-prevention-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "某人已有相关症状去就诊接受检查，为什么不能自动叫人群筛查？",
+          "options": [
+            "需核对对象、阶段和检查目的",
+            "只因机器不同",
+            "检查结果必然正常"
+          ],
+          "answer": 0,
+          "explanation": "有症状诊断性评估与无症状人群筛查不同；B不看目的，C凭空断言结果。",
+          "id": "353-public-health-prevention-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "给目标疾病的一项一级、一项二级、一项三级干预各一个教学例子，并各说明阶段和局限。",
+          "answer": "如目标病前适用风险控制；无症状目标人群适当筛查并确认；已确诊后功能康复。分别说明发生前、早期发现、减少后果，均不保证有效或以筛查作确诊。",
+          "explanation": "允许合理原创例子；不要求特定临床技术，需专业人员复核边界。例子缺目标或与阶段矛盾应记录待完善。",
+          "rubric": [
+            "每例给目标和阶段",
+            "一级降低发生风险",
+            "二级早发现且阳性非确诊",
+            "三级减少损害且不保证效果"
+          ],
+          "id": "353-public-health-prevention-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创讲解、例句/场景和自编训练；外部来源用于概念核对，不复制题目或作为真题",
+      "writtenAt": "2026-10-24",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-previous-year",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.nichd.nih.gov/research/supported/prevention-research",
+        "https://stacks.cdc.gov/view/cdc/142637/cdc_142637_DS1.pdf"
+      ],
+      "explanation": "公共卫生关心一群人的健康，强调有组织的社会行动，不只是医院里给一个人治病。临床服务关注个体诊断治疗，公共卫生还研究风险怎样分布、如何改善环境和组织服务；二者能协同，不能简单分成公共卫生只预防、临床只治疗。原创例子：一个社区发现居民饮水可能受污染，组织监测、改善供水并评估人群健康，是人群层面的行动；居民腹泻后就诊属于个体服务，也可能为社区调查提供线索。分类前先定义目标疾病、对象和行动目的。不能因工作地点在医院就断定不是公共卫生，也不能因面对很多人就自动证明措施有效。\n\n一级预防着眼于目标疾病发生前，减少发生的可能性。这里的疾病前不是说一个人没有任何疾病，而是相对于本题明确的目标疾病而言。原创情境：对尚未发生目标感染、符合适用条件的人提供预防接种，目的是减少将来发病，按本课框架属一级预防。改善相关危险环境也可服务这个目标。判题步骤是找目标病、看对象相对于目标病的阶段、再问目的。不能说预防措施都属于一级，也不能由分类推出疫苗或环境措施对所有人百分之百有效。本课不规定接种人群、适应证或临床操作，实际需遵循专门规范。\n\n二级预防重在早发现、早诊断和早处理，常见路径是对无相关症状的目标人群开展适当筛查，识别可能的早期疾病并衔接诊断和处理。筛查不是确诊：阳性意味着需要进一步评估，不等于已经患病。原创情境：按适用规范对无相关症状者开展某目标病筛查，阳性后进入确认评估；不能把筛查与后续诊断混为同一步。已有症状者去求诊做检查，不应只因用了同一种检测就称为人群筛查。分类看对象与目的，而不是设备名字。本课不评价任何具体筛查项目是否利大于弊，后续需学习灵敏度、特异度、偏倚和获益风险。\n\n三级预防关注确诊疾病之后的影响，减少进展、并发症、功能损害并改善生活质量，康复是清楚的教学例子。原创情境：一名已确诊并出现活动障碍者接受针对功能恢复的康复安排，属于本课三级预防。对已确诊疾病开展并发症预防和康复，不是因为时间晚就放弃预防。现实措施可能同时作用于多个疾病或阶段，所以要说明分类对象；同样叫健康教育，可用于未患目标病人群的风险控制，也可用于已患病人群的并发症管理。答综合题应分别说明对象、阶段、目的和局限，不能只贴一级二级三级标签，更不能据分类保证治疗效果。",
+      "example": "社区改善供水：分析人群风险与组织行动，不等于个体治疗的简单复制。\n目标感染前适用的预防接种：对象未患目标病，目的减少发病。\n无症状人群适当筛查→阳性进一步诊断：早期发现不等于已确诊。\n确诊后功能康复：目标减少损害；同一健康教育可服务不同阶段。",
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "社区改善供水：分析人群风险与组织行动，不等于个体治疗的简单复制。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "目标感染前适用的预防接种：对象未患目标病，目的减少发病。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "无症状人群适当筛查→阳性进一步诊断：早期发现不等于已确诊。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "确诊后功能康复：目标减少损害；同一健康教育可服务不同阶段。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-public-health-prevention-g1",
+          "description": "识别人群健康视角",
+          "successCriteria": "用对象与有组织行动解释公共卫生与临床的联系，不用地点机械分类。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b1",
+            "353-public-health-prevention-a1",
+            "353-public-health-prevention-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g2",
+          "description": "界定一级预防",
+          "successCriteria": "说清目标疾病、发生前阶段和风险降低目的，不承诺绝对有效。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b2",
+            "353-public-health-prevention-a2",
+            "353-public-health-prevention-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g3",
+          "description": "区分二级预防与诊断",
+          "successCriteria": "识别早期筛查目的，明确阳性非确诊及有症状检查的边界。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b3",
+            "353-public-health-prevention-a3",
+            "353-public-health-prevention-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g4",
+          "description": "运用三级预防与综合分类",
+          "successCriteria": "在确诊后康复情境解释目的，并按目标与阶段说明多重用途。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b4",
+            "353-public-health-prevention-a4",
+            "353-public-health-prevention-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "用对象与有组织行动解释公共卫生与临床的联系，不用地点机械分类。",
+        "说清目标疾病、发生前阶段和风险降低目的，不承诺绝对有效。",
+        "识别早期筛查目的，明确阳性非确诊及有症状检查的边界。",
+        "在确诊后康复情境解释目的，并按目标与阶段说明多重用途。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换情境独立答题，记录错因；按实际客观证据安排复习。主观参考核对不代表已掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "公共卫生教师核对三级预防与临床语境边界",
+          "疾病前与确诊后分类的目标特异性",
+          "筛查与诊断、健康教育跨阶段用途",
+          "2028正式大纲仍待核"
+        ]
+      }
+    }
+  ],
+  "reviewLog": []
+}

@@ -1,0 +1,16 @@
+{
+  "baseCommit": "ba8d3ae50c2a832a021664df01471b8854c9c442",
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "localPassed": 89,
+  "localTotal": 89,
+  "protectedHashesUnchanged": 133,
+  "fullRegressionRun": false,
+  "browserRun": false,
+  "CIRun": false,
+  "realIPhoneRun": false,
+  "newCourses": 3,
+  "newQuestions": 36,
+  "independentExpertApproved": 0,
+  "remoteCommit": null,
+  "reason": "Bounded recursive tree request yielded no result; next fixed-file connector read failed. Stop repeated remote calls; local artifacts ready."
+}

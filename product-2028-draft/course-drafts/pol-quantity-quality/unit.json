@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-24-three-subject-draft",
+  "units": [
+    {
+      "id": "pol-quantity-quality",
+      "subject": "pol",
+      "title": "量变与质变：看清积累、界限和性质变化",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-connections-foundation"
+      ],
+      "prerequisiteExplanation": "先能说明关系成立需要具体条件，知道共性不能取代具体分析；不要求掌握经济政策术语。课内重新解释质、量、度，不默认学过哲学。",
+      "definition": "量变体现原有质相对稳定时数量、程度等变化；质变指根本性质的转变。度表示保持一定质的数量界限。量变与质变相互联系，判断必须说明对象、条件和层次。",
+      "conditions": "稳定哲学基础教学补充；不覆盖质量互变规律全部复杂形式，不把具体政策、法律阈值、自然科学数值当作原理可直接推导的结论。年度政治范围待核。",
+      "recall": [
+        "不用好坏二字解释哲学的质，再举一个题给性质未变的量变例。",
+        "闭卷解释度与关节点，并说出为什么不能由原理算出医疗阈值。",
+        "分别说出量变、质变及新量变在一段自编材料中的证据。",
+        "写出材料分析四步及两种要避免的机械结论。"
+      ],
+      "misconceptions": [
+        "哲学质就是质量优劣。",
+        "任何数字变大都是质变。",
+        "积累多少小时必考到某分。",
+        "质变一律是进步且没有条件。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "题给图书室藏书增加，但制度与服务根本性质未变。最有依据的判断？",
+          "options": [
+            "发生质变，因为数量变大",
+            "体现量变",
+            "没有任何变化"
+          ],
+          "answer": 1,
+          "explanation": "B依据数量增加且性质相对稳定；A混淆大小与性质，C否认已给数量变化。此结论限于题给分析层次。",
+          "id": "pol-quantity-quality-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "哲学中的度首先表示什么？",
+          "options": [
+            "任何考试的统一及格线",
+            "事物保持一定质的数量界限",
+            "做事速度越慢越好"
+          ],
+          "answer": 1,
+          "explanation": "度关联质和量的界限；A将具体制度规则冒充通用哲学阈值，C是无依据方法。",
+          "id": "pol-quantity-quality-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "关于量变与质变，最恰当的说法？",
+          "options": [
+            "任何重复必然成功",
+            "质变与先前准备无关",
+            "达到一定程度并具备条件的量变可引起质变"
+          ],
+          "answer": 2,
+          "explanation": "C保留准备与条件。A把规律机械套为成功承诺，B割断发展联系。",
+          "id": "pol-quantity-quality-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "分析材料首先应做什么？",
+          "options": [
+            "确定对象和层次，再找变化证据",
+            "只写坚持就成功",
+            "看见增加就写质变"
+          ],
+          "answer": 0,
+          "explanation": "对象层次决定讨论什么性质；A先界定讨论对象并检查证据。B没有具体材料支撑，C把词语增加误当根本性质转变，均跳过判断步骤。",
+          "id": "pol-quantity-quality-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "平台只更换标志，材料未说明运行机制改变。可得何结论？",
+          "options": [
+            "已证明根本性质改变",
+            "尚不足以判定质变",
+            "绝不可能有任何质变"
+          ],
+          "answer": 1,
+          "explanation": "只知名称外观不能确认根本性质；C同样过强。应补机制与实践证据，而不是从缺信息推导绝对否定。",
+          "id": "pol-quantity-quality-a1",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "材料未给治疗参数与生物效应证据。能否从度的原理算具体安全剂量？",
+          "options": [
+            "能，阈值都一样",
+            "能，量越大越好",
+            "不能，需专业研究和适用条件"
+          ],
+          "answer": 2,
+          "explanation": "C避免把哲学规律替代量化专业证据；A无视条件，B否定适度。这里不提供医疗建议或剂量数值。",
+          "id": "pol-quantity-quality-a2",
+          "difficulty": "transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "合作组磨合→建立新协作制度→在新制度下扩展服务。最完整概括？",
+          "options": [
+            "量的准备、质的变化、新的量变",
+            "三次均只是开会数量变化",
+            "一次质变后不再有量变"
+          ],
+          "answer": 0,
+          "explanation": "A对三个阶段分别说明；B忽略题给新制度性质，C否认后续发展。具体制度是否根本改变现实中仍需材料支持。",
+          "id": "pol-quantity-quality-a3",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "有人说每天多做同样的错题，不纠错也不测新题，累积到某天必然350分。用本课原理分析并提出改进。",
+          "answer": "次数增加只是量的变化；高分没有由此得到证据。应改进反馈和练习质量、验证迁移和延迟保持，积累有效条件；不能预设固定成功阈值或保证分数。",
+          "explanation": "核对条件、证据与行动，不按出现量变质变两词自动给分。参考答案是自编教学，不是官方政治评分细则。",
+          "rubric": [
+            "指出次数不等于能力变化",
+            "说明积累向转变须条件",
+            "提出纠错与新题/延迟验证",
+            "拒绝分数保证与任意阈值"
+          ],
+          "id": "pol-quantity-quality-a4",
+          "difficulty": "transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日材料：服务次数增加，服务制度根本性质按题设未变。判断？",
+          "options": [
+            "必须是质变",
+            "必然是倒退",
+            "在该层次体现量变"
+          ],
+          "answer": 2,
+          "explanation": "题给服务次数增加且制度根本性质相对稳定，支持在此层次判断量变。A忽略性质条件；B把数量变化当成消极价值结论，材料并未支持。",
+          "id": "pol-quantity-quality-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "关于关节点哪项正确？",
+          "options": [
+            "需结合事物和条件确定，不能凭概念编造数值",
+            "所有对象关节点相同",
+            "关节点就是任一数字"
+          ],
+          "answer": 0,
+          "explanation": "关节点涉及保持质的界限，具体位置依对象与条件；B、C取消了判断依据。",
+          "id": "pol-quantity-quality-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "新制度建立后服务规模持续扩大，说明？",
+          "options": [
+            "质变结束所有变化",
+            "新质基础上可继续量变",
+            "先前积累不再有任何作用"
+          ],
+          "answer": 1,
+          "explanation": "B说明发展连续阶段。A把质变当终点，C否认前期准备与新阶段的联系。",
+          "id": "pol-quantity-quality-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "材料只说会议次数翻倍，就宣布协作机制已根本改变。写出需补何证据、当前能说什么及下一步行动。",
+          "answer": "当前仅确认会议数量增加；需补分工、决策和运行规则是否根本改变及效果证据。应检验机制实际运行，再判断转变，不能从次数直接推出质变或进步。",
+          "explanation": "可用其他合理机制证据；需说明同一对象层次。主观答复保留原文逐点核对，不生成官方分数。",
+          "rubric": [
+            "限定当前数量证据",
+            "要求根本性质/机制证据",
+            "提出实际核对行动",
+            "不以质变自动等同进步"
+          ],
+          "id": "pol-quantity-quality-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创讲解、例句/场景和自编训练；外部来源用于概念核对，不复制题目或作为真题",
+      "writtenAt": "2026-10-24",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "sources": [
+        "https://mzs.sxu.edu.cn/jpkc/119893.htm",
+        "https://www.qstheory.cn/dukan/hqwg/2024-02/08/c_1130075936.htm"
+      ],
+      "explanation": "哲学里的质不是产品好坏的评分，而是使事物成为它自身的根本规定；量是规模、数量、程度等可以有增减的规定。理解时先说清研究对象和观察层次，再比较变化前后。原创教学情境：一家仍按原有借阅制度运营的图书室，藏书从1000册增到1200册。已知制度与服务性质没有根本改变，册数增加体现量变，不能只因数字变大就说发生质变。相反，仅凭馆名改动也不足以判断性质改变。先问变的是数量还是根本性质，有什么材料证据，而不是看到变这个字就套规律。\n\n度是事物保持自身质的数量界限，关节点是度的边界。量变在原有质相对稳定时发生，质变则突破原有度，形成另一种质态。度不是随便给出的考试分数线，更不是任何场景都用同一阈值。教学模型：某封闭简单系统的状态由课程题干明确给定，参数在规定区间内仍是A态，超出并经观察确认为B态；根据题给状态与条件判断，不能用参数稍变就等同质变。现实系统的界限常需实证研究，不能从抽象原理推导具体医学剂量阈值或个体学习小时数。此模型是自编说明，不是自然定律的新发现。\n\n量变为质变作准备，量变达到一定程度并具备相应条件时发生质变；质变又开启新的量变。这里说的是发展过程的联系，不是保证机械重复任何动作都能成功。原创材料：一个合作组不断补充公共规则、磨合分工，条件成熟后建立起稳定的新协作制度，此后再扩展服务。分析应分别指出前期积累、制度根本改变及新制度下的继续发展。若只观察到开会次数增加，就还不足以确认制度已经改变。不要把质变等同于全部积极进步，变化可能有利也可能有害；评价方向需要具体对象和实践效果。\n\n解材料题按对象、证据、概念、行动四步。先说明在哪个层次讨论哪一事物，再引用材料中的数量积累或性质变化证据，解释二者关系，最后提出符合条件的行动。积累阶段重视扎实工作，条件成熟时把握转变，同时警惕消极因素积累；既不能急于求成，也不能把适度理解为永远不突破原状。原创反例：只增加无效重复训练次数，却不纠错、不检查迁移，无法据此推断学习能力必然提高，更不能保证350分。适度和促成转变要针对不同目标，不能把空泛口号当成具体措施。主观题只提供评分要点供核对，不模拟官方阅卷。",
+      "example": "藏书1000到1200册，题给制度服务性质不变：量变；先锁定图书室的制度层次。\n题给系统由A态转为B态且根本性质变化：据此判断质变，不猜现实阈值。\n合作组磨合→新制度成立→服务规模扩大：准备、转变、新积累分别找证据。\n学习次数增加但未纠错：只能说明数量变化，不能保证成绩或质变。",
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "藏书1000到1200册，题给制度服务性质不变：量变；先锁定图书室的制度层次。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "题给系统由A态转为B态且根本性质变化：据此判断质变，不猜现实阈值。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "合作组磨合→新制度成立→服务规模扩大：准备、转变、新积累分别找证据。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "学习次数增加但未纠错：只能说明数量变化，不能保证成绩或质变。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-quantity-quality-g1",
+          "description": "区别质与量",
+          "successCriteria": "不把哲学质误作好坏等级；用题给性质与数量证据分类。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b1",
+            "pol-quantity-quality-a1",
+            "pol-quantity-quality-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g2",
+          "description": "运用度与边界",
+          "successCriteria": "说明度的含义，拒绝由哲学概念推导未给出的临床或分数阈值。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b2",
+            "pol-quantity-quality-a2",
+            "pol-quantity-quality-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g3",
+          "description": "说明相互转化",
+          "successCriteria": "材料中找量的准备、质的转变及新量变，不承诺机械积累必成功。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b3",
+            "pol-quantity-quality-a3",
+            "pol-quantity-quality-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-quantity-quality-g4",
+          "description": "形成有边界的材料分析",
+          "successCriteria": "按对象证据概念行动组织答案，区分性质改变与价值评价。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-quantity-quality-b4",
+            "pol-quantity-quality-a4",
+            "pol-quantity-quality-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "不把哲学质误作好坏等级；用题给性质与数量证据分类。",
+        "说明度的含义，拒绝由哲学概念推导未给出的临床或分数阈值。",
+        "材料中找量的准备、质的转变及新量变，不承诺机械积累必成功。",
+        "按对象证据概念行动组织答案，区分性质改变与价值评价。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换情境独立答题，记录错因；按实际客观证据安排复习。主观参考核对不代表已掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师核对概念和材料层次",
+          "度与价值方向的教学边界",
+          "不以旧讲义可疑例证支持现代法律或自然科学事实",
+          "年度政治考试范围未核实"
+        ]
+      }
+    }
+  ]
+}

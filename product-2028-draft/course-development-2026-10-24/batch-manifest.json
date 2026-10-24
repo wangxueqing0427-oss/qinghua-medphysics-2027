@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "mode": "isolated-engineering-only",
+  "formalReleaseApproved": false,
+  "folders": [
+    "en-present-questions",
+    "pol-quantity-quality",
+    "353-public-health-prevention"
+  ],
+  "priorRegistryUnchanged": true
+}

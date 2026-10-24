@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-24-three-subject-draft",
+  "units": [
+    {
+      "id": "353-public-health-prevention",
+      "subject": "353",
+      "title": "公共卫生与三级预防：先定人群、疾病和干预目标",
+      "mapping": [
+        "s27-1-2",
+        "s27-2-2"
+      ],
+      "prerequisites": [],
+      "prerequisiteExplanation": "入门根课；本课先教公共卫生的人群视角和疾病过程，再教三级预防，不需要先学统计推断。会区分已经患病与尚未患病即可；所有情境只作教学分类，不提供个人诊疗建议。",
+      "definition": "公共卫生以人群健康和有组织的社会行动为视角。三级预防按明确目标疾病与干预目的区分：发生前减少风险、早期发现并处理、确诊后减少不良后果与功能损害。",
+      "conditions": "2027清华353公共卫生第一、二节作为2028暂定参考。只讲入门概念，不给临床方案，不替代筛查项目评价；同一措施可因目标疾病与对象不同归入不同阶段。",
+      "recall": [
+        "闭卷解释公共卫生为何不等于医院外的工作，用社区例子说明协同。",
+        "不看资料说出一级预防的三个判断信息及一项边界。",
+        "解释筛查阳性为什么不能直接写确诊，并区分有症状求诊检查。",
+        "用同一种健康教育在不同人群的目的说明为什么不能只看措施名称。"
+      ],
+      "misconceptions": [
+        "在医院发生就不是公共卫生。",
+        "所有带预防二字的措施都是一级。",
+        "筛查阳性就是确诊。",
+        "确诊后只有治疗没有预防，或按措施名字永久定级。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "社区组织供水改善并评估居民健康风险，体现何种视角？",
+          "options": [
+            "仅按一个人的诊断结果处理",
+            "人群健康与有组织的社会行动",
+            "只要人数多就保证有效"
+          ],
+          "answer": 1,
+          "explanation": "B对应对象和组织行动；A缩为个体，C把人群规模当成效果证据。公共卫生与个体服务可以协同。",
+          "id": "353-public-health-prevention-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "按题设对尚未发生目标感染者开展适用的预防接种，主要属？",
+          "options": [
+            "一级预防",
+            "二级预防",
+            "三级预防"
+          ],
+          "answer": 0,
+          "explanation": "目的是目标疾病发生前降低风险。B重早发现，C针对确诊后不良后果；不能据此制定实际接种方案。",
+          "id": "353-public-health-prevention-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "对无相关症状人群开展适当目标病筛查，主要目的？",
+          "options": [
+            "确诊后康复",
+            "保证每个阳性者患病",
+            "尽早识别可能疾病并衔接确认处理"
+          ],
+          "answer": 2,
+          "explanation": "C说明二级预防路径；阳性不是确诊，故B错误；A是不同阶段目的。",
+          "id": "353-public-health-prevention-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "已确诊并有活动障碍者接受功能康复，最符合？",
+          "options": [
+            "一级预防",
+            "三级预防",
+            "筛查即确诊"
+          ],
+          "answer": 1,
+          "explanation": "三级预防着重减少损害和改善功能；A不符合题给阶段，C混淆检查结论。",
+          "id": "353-public-health-prevention-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "医院组织人群健康风险监测就一定不属公共卫生吗？",
+          "options": [
+            "是，地点决定性质",
+            "是，公共卫生不能与临床合作",
+            "否，应看对象、目的与组织行动"
+          ],
+          "answer": 2,
+          "explanation": "公共卫生可在医院组织开展；A、B把场所和分工绝对化。仅有监测还不能证明干预有效。",
+          "id": "353-public-health-prevention-a1",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "社区对无目标病者做风险教育，主要目标是降低未来该病发生。分类最有依据的是？",
+          "options": [
+            "按疾病发生前目标判断一级预防",
+            "只要教育都属三级",
+            "教育没有预防意义"
+          ],
+          "answer": 0,
+          "explanation": "题设对象、阶段与目标支持A；B忽视对象，C否认可能作用。尚不据此估计效果大小。",
+          "id": "353-public-health-prevention-a2",
+          "difficulty": "transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "筛查报告阳性后，教学上最安全准确的表述？",
+          "options": [
+            "已确诊，不需进一步评估",
+            "需按适用规范进一步确认，筛查不能替代诊断",
+            "一定是假阳性"
+          ],
+          "answer": 1,
+          "explanation": "B保留筛查与诊断边界；A、C均超出单次结果信息，不提供个体处置建议。",
+          "id": "353-public-health-prevention-a3",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "同样是健康教育：A对未患目标病者降低风险，B对已确诊者支持并发症预防与功能维护。解释为何分类不同，并列判断顺序。",
+          "answer": "A主要按一级预防理解，B按题给目的属三级预防；先明确目标疾病与对象，再判阶段和具体目的，不能按健康教育名称固定分类。",
+          "explanation": "可接受同义表达，但必须说明题给目标；不按关键词自动给专业分。跨阶段活动应分子目标评价。",
+          "rubric": [
+            "明确两组对象及目标疾病",
+            "A发生前降低风险",
+            "B确诊后减少损害目的",
+            "说明按对象阶段目的而非名称判定"
+          ],
+          "id": "353-public-health-prevention-a4",
+          "difficulty": "transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日新情境：社区建立暴露监测与环境改善协作。为什么不能仅以参与人数证明成功？",
+          "options": [
+            "人数多必有效",
+            "还需健康与风险效果证据",
+            "因为公共卫生只处理个体"
+          ],
+          "answer": 1,
+          "explanation": "B要求进一步观察风险和健康结果，区分活动规模与实际效果。A把人数当作效果证据，C错误地把公共卫生对象缩成个体，均不符合题干。",
+          "id": "353-public-health-prevention-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "一种风险降低措施用在尚未发生目标疾病阶段，且题给目的在防止该病发生。选其主要层级。",
+          "options": [
+            "三级",
+            "二级",
+            "一级"
+          ],
+          "answer": 2,
+          "explanation": "按明确目标病和发生前目的判一级；不由措施名字或患者是否有其他疾病改变本题分类。",
+          "id": "353-public-health-prevention-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "某人已有相关症状去就诊接受检查，为什么不能自动叫人群筛查？",
+          "options": [
+            "需核对对象、阶段和检查目的",
+            "只因机器不同",
+            "检查结果必然正常"
+          ],
+          "answer": 0,
+          "explanation": "有症状诊断性评估与无症状人群筛查不同；B不看目的，C凭空断言结果。",
+          "id": "353-public-health-prevention-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "给目标疾病的一项一级、一项二级、一项三级干预各一个教学例子，并各说明阶段和局限。",
+          "answer": "如目标病前适用风险控制；无症状目标人群适当筛查并确认；已确诊后功能康复。分别说明发生前、早期发现、减少后果，均不保证有效或以筛查作确诊。",
+          "explanation": "允许合理原创例子；不要求特定临床技术，需专业人员复核边界。例子缺目标或与阶段矛盾应记录待完善。",
+          "rubric": [
+            "每例给目标和阶段",
+            "一级降低发生风险",
+            "二级早发现且阳性非确诊",
+            "三级减少损害且不保证效果"
+          ],
+          "id": "353-public-health-prevention-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创讲解、例句/场景和自编训练；外部来源用于概念核对，不复制题目或作为真题",
+      "writtenAt": "2026-10-24",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-previous-year",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.nichd.nih.gov/research/supported/prevention-research",
+        "https://stacks.cdc.gov/view/cdc/142637/cdc_142637_DS1.pdf"
+      ],
+      "explanation": "公共卫生关心一群人的健康，强调有组织的社会行动，不只是医院里给一个人治病。临床服务关注个体诊断治疗，公共卫生还研究风险怎样分布、如何改善环境和组织服务；二者能协同，不能简单分成公共卫生只预防、临床只治疗。原创例子：一个社区发现居民饮水可能受污染，组织监测、改善供水并评估人群健康，是人群层面的行动；居民腹泻后就诊属于个体服务，也可能为社区调查提供线索。分类前先定义目标疾病、对象和行动目的。不能因工作地点在医院就断定不是公共卫生，也不能因面对很多人就自动证明措施有效。\n\n一级预防着眼于目标疾病发生前，减少发生的可能性。这里的疾病前不是说一个人没有任何疾病，而是相对于本题明确的目标疾病而言。原创情境：对尚未发生目标感染、符合适用条件的人提供预防接种，目的是减少将来发病，按本课框架属一级预防。改善相关危险环境也可服务这个目标。判题步骤是找目标病、看对象相对于目标病的阶段、再问目的。不能说预防措施都属于一级，也不能由分类推出疫苗或环境措施对所有人百分之百有效。本课不规定接种人群、适应证或临床操作，实际需遵循专门规范。\n\n二级预防重在早发现、早诊断和早处理，常见路径是对无相关症状的目标人群开展适当筛查，识别可能的早期疾病并衔接诊断和处理。筛查不是确诊：阳性意味着需要进一步评估，不等于已经患病。原创情境：按适用规范对无相关症状者开展某目标病筛查，阳性后进入确认评估；不能把筛查与后续诊断混为同一步。已有症状者去求诊做检查，不应只因用了同一种检测就称为人群筛查。分类看对象与目的，而不是设备名字。本课不评价任何具体筛查项目是否利大于弊，后续需学习灵敏度、特异度、偏倚和获益风险。\n\n三级预防关注确诊疾病之后的影响，减少进展、并发症、功能损害并改善生活质量，康复是清楚的教学例子。原创情境：一名已确诊并出现活动障碍者接受针对功能恢复的康复安排，属于本课三级预防。对已确诊疾病开展并发症预防和康复，不是因为时间晚就放弃预防。现实措施可能同时作用于多个疾病或阶段，所以要说明分类对象；同样叫健康教育，可用于未患目标病人群的风险控制，也可用于已患病人群的并发症管理。答综合题应分别说明对象、阶段、目的和局限，不能只贴一级二级三级标签，更不能据分类保证治疗效果。",
+      "example": "社区改善供水：分析人群风险与组织行动，不等于个体治疗的简单复制。\n目标感染前适用的预防接种：对象未患目标病，目的减少发病。\n无症状人群适当筛查→阳性进一步诊断：早期发现不等于已确诊。\n确诊后功能康复：目标减少损害；同一健康教育可服务不同阶段。",
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "社区改善供水：分析人群风险与组织行动，不等于个体治疗的简单复制。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "目标感染前适用的预防接种：对象未患目标病，目的减少发病。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "无症状人群适当筛查→阳性进一步诊断：早期发现不等于已确诊。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "确诊后功能康复：目标减少损害；同一健康教育可服务不同阶段。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-public-health-prevention-g1",
+          "description": "识别人群健康视角",
+          "successCriteria": "用对象与有组织行动解释公共卫生与临床的联系，不用地点机械分类。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b1",
+            "353-public-health-prevention-a1",
+            "353-public-health-prevention-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g2",
+          "description": "界定一级预防",
+          "successCriteria": "说清目标疾病、发生前阶段和风险降低目的，不承诺绝对有效。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b2",
+            "353-public-health-prevention-a2",
+            "353-public-health-prevention-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g3",
+          "description": "区分二级预防与诊断",
+          "successCriteria": "识别早期筛查目的，明确阳性非确诊及有症状检查的边界。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b3",
+            "353-public-health-prevention-a3",
+            "353-public-health-prevention-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-prevention-g4",
+          "description": "运用三级预防与综合分类",
+          "successCriteria": "在确诊后康复情境解释目的，并按目标与阶段说明多重用途。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-public-health-prevention-b4",
+            "353-public-health-prevention-a4",
+            "353-public-health-prevention-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "用对象与有组织行动解释公共卫生与临床的联系，不用地点机械分类。",
+        "说清目标疾病、发生前阶段和风险降低目的，不承诺绝对有效。",
+        "识别早期筛查目的，明确阳性非确诊及有症状检查的边界。",
+        "在确诊后康复情境解释目的，并按目标与阶段说明多重用途。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换情境独立答题，记录错因；按实际客观证据安排复习。主观参考核对不代表已掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "公共卫生教师核对三级预防与临床语境边界",
+          "疾病前与确诊后分类的目标特异性",
+          "筛查与诊断、健康教育跨阶段用途",
+          "2028正式大纲仍待核"
+        ]
+      }
+    }
+  ]
+}

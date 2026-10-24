@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-24-three-subject-draft",
+  "units": [
+    {
+      "id": "en-present-questions",
+      "subject": "en",
+      "title": "一般现在时疑问句：怎样问、问什么、谁是主语",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "prerequisites": [
+        "en-linking-and-verb-phrase",
+        "en-subject-verb-agreement"
+      ],
+      "prerequisiteExplanation": "先能找主语、区分be状态句与普通动作句，并认识he/she/it第三人称单数；不要求掌握过去时。若分不清is和works，先回到句子骨架与系动词课。",
+      "definition": "现在时直接问句：be状态句把be置于主语前；普通动作问句用do/does加主语加动词原形。疑问词的语法位置决定是否需要do支持。",
+      "conditions": "基础直接肯定问题；不覆盖间接问题、强调、疑问否定、情态动词和复杂who一致。2028英语考试范围未确认，属基础教学补充。",
+      "recall": [
+        "闭卷把Lena is ready与They are ready分别变成问句，解释为何不用do。",
+        "不看例句，说明does后动词形式，再把Omar reads变问句。",
+        "写一个问时间和一个问地点的问题，并给出符合信息类别的回答。",
+        "对Lena checks the list分别问谁与什么，标出被替换成分。"
+      ],
+      "misconceptions": [
+        "所有问题都用do。",
+        "does后仍保留reads。",
+        "直接问题与间接问题语序永远相同。",
+        "who永远不可能与助动词共现。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "把The room is quiet.变成本课一般问句。",
+          "options": [
+            "Is the room quiet?",
+            "Does the room is quiet?",
+            "The room quiet?"
+          ],
+          "answer": 0,
+          "explanation": "本句是be状态句；is前移，quiet保留。B重复助动成分；C丢失be。quiet意为安静的。",
+          "id": "en-present-questions-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "Mina reads each morning.对应哪一问句？",
+          "options": [
+            "Do Mina reads each morning?",
+            "Does Mina read each morning?",
+            "Does Mina reads each morning?"
+          ],
+          "answer": 1,
+          "explanation": "Mina是第三人称单数，选does；read须用原形。A助动词不一致，C重复第三人称标记。",
+          "id": "en-present-questions-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "要询问小组在何时见面，应选哪句？",
+          "options": [
+            "Where does the group meet?",
+            "When the group meets?",
+            "When does the group meet?"
+          ],
+          "answer": 2,
+          "explanation": "when问时间，does加主语加meet。A问地点，B不是本课完整直接问题的语序。",
+          "id": "en-present-questions-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "不知道谁带来名单，普通非强调地问谁带来名单，选哪句？",
+          "options": [
+            "Who brings the list?",
+            "Who does brings the list?",
+            "Who bring the list?"
+          ],
+          "answer": 0,
+          "explanation": "本课who占主语，默认单数brings；B结构重复，C不合本课给定单数语境。bring是带来。",
+          "id": "en-present-questions-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "Rui is in the library.的直接问句应为？",
+          "options": [
+            "Does Rui in the library?",
+            "Is Rui in the library?",
+            "Is Rui does in the library?"
+          ],
+          "answer": 1,
+          "explanation": "library是图书馆；原句be连接地点短语，前移is即可。A漏be，C多加does。",
+          "id": "en-present-questions-a1",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "主语是Mina and Rui，问二人是否读同一份报告，选哪句？",
+          "options": [
+            "Does Mina and Rui read the report?",
+            "Do Mina and Rui reads the report?",
+            "Do Mina and Rui read the report?"
+          ],
+          "answer": 2,
+          "explanation": "并列二人用do，动作read原形；A不看完整主体，B仍错误加s。report为报告。",
+          "id": "en-present-questions-a2",
+          "difficulty": "transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "Where does Omar study?哪项提供问题所要的信息？",
+          "options": [
+            "At home.",
+            "Yes, he does.",
+            "On Monday."
+          ],
+          "answer": 0,
+          "explanation": "where要求地点，At home在家。B只答是否，C给日期；都没有满足所问信息。",
+          "id": "en-present-questions-a3",
+          "difficulty": "transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "把Lena checks the list.分别改为询问主语和宾语的直接问题，并解释两种形式。",
+          "answer": "Who checks the list?询问主体；What does Lena check?询问对象。前句who代替Lena，后句what代替the list，后句需does及check原形。",
+          "explanation": "评价看替换位置与助动词理由，不因出现who/does两个关键词就自动判满。参考答案不覆盖强调与否定问题。",
+          "rubric": [
+            "写Who checks the list?",
+            "写What does Lena check?",
+            "说明主语与宾语被替换位置",
+            "解释does后check原形及本课非强调边界"
+          ],
+          "id": "en-present-questions-a4",
+          "difficulty": "transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日新句The tickets are here.的问句是哪句？",
+          "options": [
+            "Do the tickets here?",
+            "Are the tickets here?",
+            "Is the tickets here?"
+          ],
+          "answer": 1,
+          "explanation": "tickets复数票，原句are前移；A丢be，C数不一致。此题换主语复习be结构而非背原句。",
+          "id": "en-present-questions-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "single",
+          "stem": "Which question is correct?主体为单个名字Nora，动词为work。",
+          "options": [
+            "Does Nora works here?",
+            "Do Nora work here?",
+            "Does Nora work here?"
+          ],
+          "answer": 2,
+          "explanation": "单数Nora用does，后接work原形。A重复标记，B不一致；正确句意为诺拉在这里工作吗？",
+          "id": "en-present-questions-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "已知The train leaves at six，询问出发时间应选？",
+          "options": [
+            "When does the train leave?",
+            "When the train leaves?",
+            "Where does the train leave?"
+          ],
+          "answer": 0,
+          "explanation": "when代替at six；does后leave。B语序不合直接问题，C问地点。",
+          "id": "en-present-questions-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "reading"
+        },
+        {
+          "type": "subjective",
+          "stem": "给出两句新问句：问谁打开大门、问Omar打开什么，并各译中文；词汇open打开，gate大门。",
+          "answer": "Who opens the gate?谁打开大门？What does Omar open?奥马尔打开什么？",
+          "explanation": "先判断未知成分，再核对动词；若使用其他同义名词不影响结构，可人工核对。不得据单次成功宣称持续掌握。",
+          "rubric": [
+            "who作主语无需普通do支持",
+            "opens与本课默认单数一致",
+            "what宾语疑问保留Omar且用does open",
+            "中文翻译保留所问信息"
+          ],
+          "id": "en-present-questions-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "version": "0.1",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创讲解、例句/场景和自编训练；外部来源用于概念核对，不复制题目或作为真题",
+      "writtenAt": "2026-10-24",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verb-be"
+      ],
+      "explanation": "问题句不是把词随便调个位置。主语是句子谈论的主体，谓语说明主体的动作或状态。先把问句还原为陈述句，才能知道该搬哪个词。原创例句Lena is ready.意为莉娜准备好了；ready是准备好的，is连接Lena与状态。要问她是否准备好，把is放到主语前：Is Lena ready? 中文为莉娜准备好了吗？不能另加do写成Does Lena is ready?。They are ready.变Are they ready?，I am late.变Am I late?。本课只处理现在的事实或习惯，不把be和其他助动词随意叠加。\n\n普通动作句要请do或does帮助提问。主语he/she/it或一个人名时用does，其余本课主语用do。先找主体，再放助动词，然后让动作动词回到原形。Lena reads at home.莉娜在家读书，变Does Lena read at home?，不能写Does Lena reads，因为第三人称标记已由does承担。Do Lena and Omar read at home?里两个并列人名是复数，不能被最近的一个人名干扰。do在本节是构成疑问的助动词，不单独译为做。一般问句能用Yes或No回答，但简短回答必须保留相应助动词或be。\n\n特殊疑问句需要问具体的信息。where问地点，when问时间，what问内容；先写出一般问句框架，再把疑问词放最前。The group meets on Friday.意为小组周五见面，问时间为When does the group meet?，不能写When the group meets?作为本课独立直接问句。Where is the map?问地图在哪里，已有be就不加does。回答Where does Lena study?应给地点，例如At home.，不是只说Yes。本课区分直接问题与陈述句；嵌入式问句如I know where...留待长难句单元，不把这里的语序规则推广过去。\n\nwho问谁时，先判断它是不是要找的主语。Lena checks the list.莉娜核对名单；若不知道是谁核对，问Who checks the list?，who本身占据主语位置，本课普通非强调肯定问题不再加does。若已知Lena核对但不知道对象，问What does Lena check?，what占宾语位置，仍需要does。checks的-s在主语疑问中保留，是本课默认单数问法；不由此宣称所有who都只能配单数或永远不用助动词。否定、强调与复杂主语问题另课处理。解题最后再译句义并核对回答的信息类别，防止只背形式。",
+      "example": "Lena is ready → Is Lena ready?：先认be，再前移，ready不变。\nLena reads at home → Does Lena read at home?：does承担人称标记，read恢复原形。\nThe group meets on Friday → When does the group meet?：用when替换时间信息。\nLena checks the list → Who checks the list? / What does Lena check?：分别替换主语与宾语。",
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "Lena is ready → Is Lena ready?：先认be，再前移，ready不变。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "Lena reads at home → Does Lena read at home?：does承担人称标记，read恢复原形。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "The group meets on Friday → When does the group meet?：用when替换时间信息。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "Lena checks the list → Who checks the list? / What does Lena check?：分别替换主语与宾语。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-present-questions-g1",
+          "description": "构造be问句",
+          "successCriteria": "能保留be并正确前移，不叠加do。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-present-questions-b1",
+            "en-present-questions-a1",
+            "en-present-questions-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g2",
+          "description": "选择do/does并还原动词",
+          "successCriteria": "根据主体选助动词，does后不用reads。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-present-questions-b2",
+            "en-present-questions-a2",
+            "en-present-questions-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g3",
+          "description": "提问和回答具体信息",
+          "successCriteria": "时间地点疑问词、直接问句语序及回答类别一致。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-present-questions-b3",
+            "en-present-questions-a3",
+            "en-present-questions-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-questions-g4",
+          "description": "区分主语与宾语疑问",
+          "successCriteria": "给出who作主语和what作宾语的两种结构并说明边界。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-present-questions-b4",
+            "en-present-questions-a4",
+            "en-present-questions-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "能保留be并正确前移，不叠加do。",
+        "根据主体选助动词，does后不用reads。",
+        "时间地点疑问词、直接问句语序及回答类别一致。",
+        "给出who作主语和what作宾语的两种结构并说明边界。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换情境独立答题，记录错因；按实际客观证据安排复习。主观参考核对不代表已掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师核对who边界和题目唯一性",
+          "与后续间接问句的衔接",
+          "年度英语大纲完整正文尚未核实"
+        ]
+      }
+    }
+  ]
+}

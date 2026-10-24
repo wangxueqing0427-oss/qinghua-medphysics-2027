@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-24",
+  "status": "internal-screening-pending-independent-review",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://mzs.sxu.edu.cn/jpkc/119893.htm",
+      "publisher": "山西大学马克思主义哲学研究所",
+      "publishedAt": null,
+      "accessedAt": "2026-10-24",
+      "accessStatus": "full-page-read",
+      "locator": "第六章第二节：质/量/度、量变质变及方法论段",
+      "supports": [
+        "质、量、度及相互转化基础"
+      ],
+      "limitation": "只使用基本概念；不沿用其中未核实的历史、医学、法律、物理或原子量例证，亦非年度考试大纲"
+    },
+    {
+      "url": "https://www.qstheory.cn/dukan/hqwg/2024-02/08/c_1130075936.htm",
+      "publisher": "求是网/红旗文稿2024年第3期，习近平经济思想研究中心",
+      "publishedAt": "2024-02-08",
+      "accessedAt": "2026-10-24",
+      "accessStatus": "full-page-read",
+      "locator": "一、经济发展中质和量的辩证关系及演进规律",
+      "supports": [
+        "相互联系的教学背景"
+      ],
+      "limitation": "具体经济分析不是全部对象的定量阈值，也非2028大纲"
+    }
+  ],
+  "pendingReview": [
+    "马克思主义理论教师核对概念和材料层次",
+    "度与价值方向的教学边界",
+    "不以旧讲义可疑例证支持现代法律或自然科学事实",
+    "年度政治考试范围未核实"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-24",
+  "status": "internal-screening-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27-1-2",
+    "additionalNodeIds": [
+      "s27-2-2"
+    ],
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-24",
+      "accessStatus": "full-page-read",
+      "locator": "第一部分公共卫生一、二；2027级考试大纲",
+      "supports": [
+        "公共卫生定义与三级预防的教学要求"
+      ],
+      "limitation": "2028暂定依据，不是最终确认"
+    },
+    {
+      "url": "https://www.nichd.nih.gov/research/supported/prevention-research",
+      "publisher": "NIH/NICHD",
+      "publishedAt": null,
+      "modifiedAt": "2024-07-19",
+      "accessedAt": "2026-10-24",
+      "accessStatus": "full-page-read",
+      "locator": "Prevention includes multiple aspects三条及Last Reviewed",
+      "supports": [
+        "三级预防概念边界"
+      ]
+    },
+    {
+      "url": "https://stacks.cdc.gov/view/cdc/142637/cdc_142637_DS1.pdf",
+      "publisher": "CDC",
+      "publishedAt": null,
+      "accessedAt": "2026-10-24",
+      "accessStatus": "pdf-text-sections-read",
+      "locator": "PREVENTION, WHAT IS PREVENTION，PDF第1页；印刷页码未确认",
+      "supports": [
+        "一级、二级、三级预防分类"
+      ],
+      "limitation": "读取指定正文，未核对出版年份，不沿用其中效果百分比或具体临床建议"
+    }
+  ],
+  "pendingReview": [
+    "公共卫生教师核对三级预防与临床语境边界",
+    "疾病前与确诊后分类的目标特异性",
+    "筛查与诊断、健康教育跨阶段用途",
+    "2028正式大纲仍待核"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

@@ -1,0 +1,57 @@
+{
+  "scope": "Actual modules with fake IndexedDB; not browser or iPhone",
+  "results": [
+    {
+      "name": "en failed draft/save rollback and successful retry",
+      "pass": true
+    },
+    {
+      "name": "en wrong cause and real answer stored atomically",
+      "pass": true
+    },
+    {
+      "name": "en delayed new questions update evidence without erasing wrong history",
+      "pass": true
+    },
+    {
+      "name": "353 failed draft/save rollback and successful retry",
+      "pass": true
+    },
+    {
+      "name": "353 wrong cause and real answer stored atomically",
+      "pass": true
+    },
+    {
+      "name": "353 delayed new questions update evidence without erasing wrong history",
+      "pass": true
+    },
+    {
+      "name": "pol failed draft/save rollback and successful retry",
+      "pass": true
+    },
+    {
+      "name": "pol wrong cause and real answer stored atomically",
+      "pass": true
+    },
+    {
+      "name": "pol delayed new questions update evidence without erasing wrong history",
+      "pass": true
+    },
+    {
+      "name": "same-version changed answer blocked without mutation",
+      "pass": true
+    },
+    {
+      "name": "full answer/session/reflection backup restores identically except profile key",
+      "pass": true
+    },
+    {
+      "name": "malformed restore rejected without creating profile",
+      "pass": true
+    },
+    {
+      "name": "legacy schema1 without revision resumes safely",
+      "pass": true
+    }
+  ]
+}

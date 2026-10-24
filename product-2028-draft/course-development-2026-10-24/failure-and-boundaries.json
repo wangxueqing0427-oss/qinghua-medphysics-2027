@@ -1,0 +1,27 @@
+{
+  "failures": [
+    {
+      "stage": "local authoring generator parse",
+      "result": "Two mismatched brackets corrected before any output creation; one shell literal-newline syntax error before file writes. No old files affected."
+    },
+    {
+      "stage": "initial three-course tests",
+      "result": "48/50; three short explanations did not fully articulate distractor reasoning; expanded explanations and reran50/50",
+      "receipt": "batch-test-first-failure.json"
+    },
+    {
+      "stage": "coverage builder first invocation",
+      "result": "Static definitions require window alias; added isolated VM context.window=context. No store/app executed; corrected builder succeeded."
+    }
+  ],
+  "scope": "No full regression, remote CI, browser, hosted smoke or real iPhone rerun; isolated drafts only",
+  "noAutomaticExpertApproval": true,
+  "productionTouched": false,
+  "sourceRisks": [
+    "politics annual exam specification pending",
+    "2028 official requirements not confirmed",
+    "CDC publication date not established; no effects percentages used",
+    "University historical lecture examples excluded where facts not verified"
+  ],
+  "v16HandoffUnchanged": true
+}
