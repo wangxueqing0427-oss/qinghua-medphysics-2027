@@ -1,0 +1,1218 @@
+{
+  "baselineCommit": "614f182512fd5da210012699a05953bef2765d9a",
+  "baselineTree": "e7d9e426ab3a350a8c14e4638c0c5379840919f8",
+  "source": "GitHub Git tree API at immutable baseline; full tree read, not truncated",
+  "hashScheme": "git blob SHA-1 = SHA1('blob '+byteLength+'\\0'+rawBytes)",
+  "files": [
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v10/conditional-followup-v10.json",
+      "gitBlob": "8e57a4dee58e9fa399ffdfc52a2b7016b6a7253a"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23/conditional-followup-v9.json",
+      "gitBlob": "e925821180fa5c14137bc1190d71a71346690f86"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-22/conditional-followup-v8.json",
+      "gitBlob": "45d27472a2e2ebc56fbe9bdbc86b46f6c852d4a2"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-21-waves/current-claims-v6a.json",
+      "gitBlob": "f322d90649a2643fad189ea9076b5d4c6454d3e9"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-22/four-gaps-followup-v8.json",
+      "gitBlob": "8279eb4104de99fbd38ce9034ed3145465db4400"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-22/historical-input-hash-correction-v8a.json",
+      "gitBlob": "d45ade6a6fd03e869901dd38908d4bc52730e5fc"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-22/protected-files-baseline.json",
+      "gitBlob": "ea2354eaf154674e57e0a543b0f2bbe3db107562"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-22/四项原始证据与接续-v8.md",
+      "gitBlob": "469f66c2e4017de6e3306a2382cf4469a9be3b64"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23/locator-correction-v9a.json",
+      "gitBlob": "70279021981f4b6cb39277b1f049a66dd7976c52"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23/第一批原始依据与接续-v9.md",
+      "gitBlob": "9b313f51efa8a87d1549211494d48e2aa9a81349"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v10/PET-SPECT小野与HDR接续-v10.md",
+      "gitBlob": "4163376947dd8dbfbdbbe8d87ff41a4f21d50761"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/baseline-and-boundaries.json",
+      "gitBlob": "30ad44d6b20dc78e0d2740d3ce86f5765c1ea65a"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/ci-engine-local-final.json",
+      "gitBlob": "c066e719b18fc5fb2d4ba7ab5d5e0bde1ad36146"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/ci-engine-local.json",
+      "gitBlob": "f0b370fe1f813322a8f8f435928fefdac7efa01d"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/ci-final-v10.json",
+      "gitBlob": "2fb3735273adc172692d1c9b19d46340faca25ec"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/ci-first-failure.json",
+      "gitBlob": "c16636edb08b3470359b9f6dfbb3d4ea510cddaf"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/ci-second-failure.json",
+      "gitBlob": "3dda19e0fc5a01fa6323ec4cf15d30d7df6ca7ae"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/local-gate-after-ci-port.json",
+      "gitBlob": "571435e23678391f933a448a871df4746a6b1658"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/local-gate-final.json",
+      "gitBlob": "03b1cae007fb6c9530d343e5418c9854e4d64a9a"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/local-gate.json",
+      "gitBlob": "336571b0bceb901357f340a773fb4997958e11d5"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/new-tests.json",
+      "gitBlob": "2e29487fd1dd7f488049d7f78b32d8a04987595a"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/skills-audit.json",
+      "gitBlob": "db15a9baa425057f37b9d9fef860f6522d2af20d"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/skills-release.json",
+      "gitBlob": "9d4db7044f64eaaea09a1c299a7d6e69f8aebf6b"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/submission-manifest.json",
+      "gitBlob": "833f06a1256ebd6e0b9b2dcf394fdbf911a705e5"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v10/最终回执与下一断点.md",
+      "gitBlob": "639e80c657c286fd981d62e5231fa01372892473"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-21-waves/primary-pages-v6a.json",
+      "gitBlob": "59ddc0d17db4db9510caa0d8c75606a53de2855c"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-21/教师6条交接.md",
+      "gitBlob": "cc761b3d0a858368fd1049f8f456e0c545527765"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-21/医学物理计量61条交接.md",
+      "gitBlob": "e448188892e7bc3423b3e2dffbbf83e76c434170"
+    },
+    {
+      "path": "expert-review-bundles/医学物理113条完整审阅稿-cf432b1e2f4e.md",
+      "gitBlob": "d2f55da334b8fd06c44a341c953817dba5ccb5c5"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v9/ci-final-v9.json",
+      "gitBlob": "f62d4b95091421b0d7a32573417888b6e31affc1"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v9/failure-and-boundaries.json",
+      "gitBlob": "2782102abc81182d9f1c28163bd21d79b5966b9d"
+    },
+    {
+      "path": "product-2028-draft/2026-10-23条件性证据接续-v9.md",
+      "gitBlob": "f07c39bfe40eeff0ad3c2e285a05f7abff8953a6"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v11/conditional-followup-v11.json",
+      "gitBlob": "99e26b1cd5329021fcaa44f5d3351f31e4b29627"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v11/七条原始证据与接续-v11.md",
+      "gitBlob": "98b5c30b12ff3dff1c920205a1adbc716a42ea64"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/bootstrap-failures.json",
+      "gitBlob": "776bc2c1f2fa0189a437d9116ca07a3996441af7"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/ci-final-v11.json",
+      "gitBlob": "c46d41ed2eac9a0f2532d05e1da1d5c96be0f807"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/evidence-tests.json",
+      "gitBlob": "35df8740108d200236772368890013f479e80b12"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/failure-and-boundaries.json",
+      "gitBlob": "c378b0c91bd19c1cf9fab5c91344f018631eb097"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/initial-evidence-tests.json",
+      "gitBlob": "35df8740108d200236772368890013f479e80b12"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/local-gate.json",
+      "gitBlob": "2aedb929d6b56a0165c7785b3bfd3ce91beefae4"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/local-start-hashes.json",
+      "gitBlob": "78589c082ac81744ddf4fe899442d250a9a4004f"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/precommit-scope-correction.json",
+      "gitBlob": "2927c17fbf02b8473ab3cb68bf168161e30ff746"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/skills-audit.json",
+      "gitBlob": "7fe7e3bb4ca8c08ec5032c4e5f92ed3c4d0b19ca"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/skills-release.json",
+      "gitBlob": "8353308e0896a5203f94eba221af5d5f0fcdecf4"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/submission-manifest.json",
+      "gitBlob": "4c31f7a1df7f3ac4d34049f19e1cf4195494b048"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v11/最终回执与下一断点.md",
+      "gitBlob": "572099574ebd13f4f202635c4b52f23d0015c6f7"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/conditional-followup-v12.json",
+      "gitBlob": "4bc00a921b4891cb1af0023e61c4531dd7121ffb"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/failures-v12.json",
+      "gitBlob": "2a1cea3288c0b4d9280092f0a5cd5189cc9cb30c"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/quantitative-matrix-v12.json",
+      "gitBlob": "70b29adeff0f40d0be94d7dc1110c90d2593ee57"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/standards-matrix-v12.json",
+      "gitBlob": "cf2bd0a2f7b94a2a7ff429737e7aed7028569d5c"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-23-v12/七条定量证据与现行规范-v12.md",
+      "gitBlob": "2d2456870d03d59c25be7163a20773cf8fd545df"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/baseline.json",
+      "gitBlob": "8f2a6fdac11bda0904672087ec78aa3a086319ba"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/ci-final-v12.json",
+      "gitBlob": "260a7de7961545994e9135893e668ec16871e519"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/ci-first-timeout.json",
+      "gitBlob": "f4d507a7a1c4151d3406dde473448a890e2ad995"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/committed-diff.json",
+      "gitBlob": "30786542c76b5f9b7dd60e4b370d3298426fea6d"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/local-gate.json",
+      "gitBlob": "35c021951d28b01f2ed6b4eb8a802fbcb466e6fa"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/new-tests.json",
+      "gitBlob": "13987e1312c9bae63dd05c3dabef84fe31ea6025"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/protected-check.json",
+      "gitBlob": "b42acd675c8b795bfe8bceae122c91eb9d8aea8f"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/skills-audit.json",
+      "gitBlob": "9b9e9535712ac498d18bcb3e07c68c1e3213c84e"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/skills-release.json",
+      "gitBlob": "9810ba2e98eba4aa18ad6489a32577d5baf8d7fa"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/submission-manifest.json",
+      "gitBlob": "24e4059f781a21e291c5518a2892ab364067ec83"
+    },
+    {
+      "path": "audit-2028/evidence/2026-10-23-v12/test-startup-failure.json",
+      "gitBlob": "4e05542bdac699240dc874bd81d3b864d1897757"
+    },
+    {
+      "path": "product-2028-draft/2026-10-23定量证据与现行规范接续-v12.md",
+      "gitBlob": "f41fe9e2d10f7df7b668f52cd886ee85742cfce6"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "ee680a23a79f26dccc7689bcf1aca9fc506b2166"
+    },
+    {
+      "path": "product-2028-pilot-build/app.css",
+      "gitBlob": "8db46f89b208c4819f0b7e24b1f192f11134f5ab"
+    },
+    {
+      "path": "product-2028-pilot-build/course-engine.js",
+      "gitBlob": "7b268556234066e1e045dd1654837b53860f2f65"
+    },
+    {
+      "path": "product-2028-pilot-build/icon.svg",
+      "gitBlob": "6662b2f3f364734859561017d9cc4ad94bee6040"
+    },
+    {
+      "path": "product-2028-pilot-build/index.html",
+      "gitBlob": "0a23013019fefa97237770d188003c41b2930340"
+    },
+    {
+      "path": "product-2028-pilot-build/learning-controller.js",
+      "gitBlob": "ed2909c9e02033bb47bfc98da4b2b29d0b353a3f"
+    },
+    {
+      "path": "product-2028-pilot-build/manifest.json",
+      "gitBlob": "38c4e8a9614697e710b136cb378ba34269415d85"
+    },
+    {
+      "path": "product-2028-pilot-build/pilot-ui.js",
+      "gitBlob": "42d497dfa063bc3e0e90cd23057b2af704ec4a0f"
+    },
+    {
+      "path": "product-2028-pilot-build/profile-repository.js",
+      "gitBlob": "ac52000b8975b051c232c5345834905f9b190662"
+    },
+    {
+      "path": "product-2028-pilot-build/representative-courses.json",
+      "gitBlob": "22e48d8392f1e4e7a11eec9eb84762ff58e8baba"
+    },
+    {
+      "path": "product-2028-pilot-build/sw.js",
+      "gitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+    },
+    {
+      "path": "product-2028-draft/content/batch-1.json",
+      "gitBlob": "6194b3038d0d969d0552ece045a985cd339a44e4"
+    },
+    {
+      "path": "product-2028-draft/content/batch-2.json",
+      "gitBlob": "7cfb80c572938020bc40c9e7a3377ed0109197c7"
+    },
+    {
+      "path": "product-2028-draft/content/catalog.json",
+      "gitBlob": "79f21b718a3db7e54c78b5516b9f2fb200808953"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v15/carbon-native-array-v15.json",
+      "gitBlob": "c60ea4ca037a9c86047327f0ef81f2a524bf9cf8"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v15/validation-receipt-v15.json",
+      "gitBlob": "6c85adee995f72faba53a85671de7ad9cec02cb3"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v15/碳离子原生数值核查-v15.md",
+      "gitBlob": "71f0b0bd7005a5a872c035670ab784ca06de706e"
+    },
+    {
+      "path": "product-2028-draft/representative-courses.json",
+      "gitBlob": "aa9789daa835acf9f3e32cbdfdaee425e7fcf88e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/registry.json",
+      "gitBlob": "7f0a7ac9ec49480d0335fb1e0cd25952a4b2325b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/unit.json",
+      "gitBlob": "65dca73ff65a7fa10473e577ea54eb59c4e298a2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/unit.json",
+      "gitBlob": "537807adeeea77751f3d2f1a04a774de1623e502"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/unit.json",
+      "gitBlob": "7f489e07b15d52f0074a2a2e295e2123eb90755a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/unit.json",
+      "gitBlob": "38b8ec8ddf15a2f8f9db2cbea8b7aa84f832b3f2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/unit.json",
+      "gitBlob": "ac1a7fbec603d5bcf067635aa90cec8b9bfcd58c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/unit.json",
+      "gitBlob": "ea08a483814b070dc0ac917c3611191b3d5c6d47"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/unit.json",
+      "gitBlob": "78865d913a7bdf21095cf9908e9272af1c24c68a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/unit.json",
+      "gitBlob": "a75f6f94c22f28c314c3c2acd1094656305c37d0"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/unit.json",
+      "gitBlob": "a98eecf976f9dc9a999431a539c5530e82c25f25"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/unit.json",
+      "gitBlob": "963dfa59fa429e71a22a2e672b670c737a0a85f8"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/sources-and-review.json",
+      "gitBlob": "8ec2d392c86bc4dcf19d91901f6c89059c85ff6d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/sources-and-review.json",
+      "gitBlob": "0f91ec12223aee4671f1d3315b5d50fb1ab60dfb"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/sources-and-review.json",
+      "gitBlob": "06dd4d81c58741f7f81955cb0ad605a2fb7be096"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/sources-and-review.json",
+      "gitBlob": "7ccaad000792395c2c8191beda6e00d04f64eeb4"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/sources-and-review.json",
+      "gitBlob": "6008049e7c1601694a10af789e28d74086b081da"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/sources-and-review.json",
+      "gitBlob": "9aa0e602af033de4c5e42334a4d9d12f96b425a5"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/sources-and-review.json",
+      "gitBlob": "2ab0c6262783cfc89a46db25883b0a51a203c237"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/sources-and-review.json",
+      "gitBlob": "ff39f661235e45b9e67732e77e28f4fa5b32a6c3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/sources-and-review.json",
+      "gitBlob": "affa233ff1dd3438ad0eb7c8bbbef092e305872d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/sources-and-review.json",
+      "gitBlob": "6b54c852659c5b680765297fb9a5395eef7b4ac7"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/expert-review/courses-and-answers.json",
+      "gitBlob": "58725d2e7bf42a14cc23304a9ae983650cce9f68"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/expert-review/courses-and-answers.json",
+      "gitBlob": "6310bfcb3125384507b6b9a88425a61ddbf27a65"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/expert-review/courses-and-answers.json",
+      "gitBlob": "f6feafb23eac607d07ee1b38db32b9d08b75a806"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/expert-review/courses-and-answers.json",
+      "gitBlob": "252de17e531415528ca9e72ef0928daac4f8dccb"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/expert-review/courses-and-answers.json",
+      "gitBlob": "a791e42b830ab4b92fd38afc75228733edd30e82"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/expert-review/courses-and-answers.json",
+      "gitBlob": "420aeada428f710299665a02b7397395c15bf40a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/expert-review/courses-and-answers.json",
+      "gitBlob": "d33bc40e07aff63b24585ed6eddfb44c66fe808a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/expert-review/courses-and-answers.json",
+      "gitBlob": "f98f70138b249b32a8dc12532321fd2094bb74bd"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/expert-review/courses-and-answers.json",
+      "gitBlob": "63d4c2ffbfd2fe4b92cee8e2795a7d2df6a172d1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/expert-review/courses-and-answers.json",
+      "gitBlob": "48c17e53c89840a54aec862dc8d45c217957a95b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v16/fixed-library-metadata-v16.json",
+      "gitBlob": "cfed8cc480379f3227ed5913ad9edb6572b6d39e"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v16/validation-receipt-v16.json",
+      "gitBlob": "4319560d8d6bbb1ef72bdbf68061e510aa67f1b5"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v16/verify-v16.py",
+      "gitBlob": "6a312b164c923f2859293f27b15a2b408bad2561"
+    },
+    {
+      "path": "product-2028-draft/mp-evidence-2026-10-24-v16/固定碳库元数据核查-v16.md",
+      "gitBlob": "1ece736106f8fd6b4283b542f50301513635513a"
+    },
+    {
+      "path": "audit-2028/draft-course-loop.cjs",
+      "gitBlob": "e803dc89eb114d0e882e181e68ef5f5b9cb9d047"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/batch-manifest.json",
+      "gitBlob": "72630cf4ae52f3562c292111c0d1190c34593cb5"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/batch-test-first-failure.json",
+      "gitBlob": "64194a7f8a1247b6b6c1e316190fb528e266651f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/batch-test-results.json",
+      "gitBlob": "599aedcd1d5f0577d21f289ac2202aeb85340206"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/batch-test.cjs",
+      "gitBlob": "0e3d0bb837b6d873197d4681924785988e860c27"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/build-coverage.cjs",
+      "gitBlob": "9ad5865f4385b5bf8c0ecd7f8bf4e68aec18069c"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/chapter-training-blueprints.json",
+      "gitBlob": "732d545963974ae04eb4e91834019705e0aa27b8"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/coverage-exam-test-results.json",
+      "gitBlob": "7543460801ae9e79140479091d29e618b5ecbbf7"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/coverage-matrix.json",
+      "gitBlob": "24d814cb1e42643ee3108f3530c39870cb7d9504"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/coverage-matrix.md",
+      "gitBlob": "5a0fa02da31052f83f695906ed8e68ca2b9f289f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/delivery-receipt.json",
+      "gitBlob": "77ed809e1cd42df18ef848658f7eb76306d3365d"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/expert-review/courses-and-answers.json",
+      "gitBlob": "a1af017e2f1a834d16a5041562724200446038fb"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/failure-and-boundaries.json",
+      "gitBlob": "ce51ad5dc8943e142a232621dac038f97efaccfb"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/finalize-batch.cjs",
+      "gitBlob": "b165438d7c36a89d90dcb026d6e8be9bab4df1c4"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/internal-review.json",
+      "gitBlob": "64b1e5df27561b3138e73c6c2a6078f987c93431"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/legacy-english-agreement-results.json",
+      "gitBlob": "9d03455270d22a45dd16604c675ff266dcecd83f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/legacy-harness-check.cjs",
+      "gitBlob": "5ebd731cf817604c2c99cb04678d7e2bf0f06f8f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/load-batch.cjs",
+      "gitBlob": "7eb5947002f3de96d959c88129865a82b0ea4c46"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/production-tasks.json",
+      "gitBlob": "7d2b7fef51c49b0bb49ce29f9acaa9013a67bf77"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/protected-baseline.json",
+      "gitBlob": "e3b8b8f7ce494bf07281326e4928e869b4033933"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/r4-r5-compatibility-results.json",
+      "gitBlob": "27471cd1262be86184b5dbad7c722aeaca9cf04a"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/related-test-receipt.json",
+      "gitBlob": "8e3707bc896779dc7bbc3b3753ba1848821885ea"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/round4-reliability-results.json",
+      "gitBlob": "4fc910da129b16717888ef66838003f2708c87a7"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/run-related.cjs",
+      "gitBlob": "0ac5fe52834faea0192ee6f292b41dc99340ee33"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/学习路线与接续.md",
+      "gitBlob": "fd185e38cd49398adc8205d46bebea3c77fb2b9e"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/考试能力与依据缺口.md",
+      "gitBlob": "e05d75642296f501ec752262830f67ae0e0aaa4b"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/集中交付与下一断点.md",
+      "gitBlob": "bb1946fc5c16c3e97803d5913ab2790dae6816d3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-public-health-prevention/sources-and-review.json",
+      "gitBlob": "848a52a810ba444fbc66a1968e71ba5a458c501a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-public-health-prevention/syllabus-node-snapshot.json",
+      "gitBlob": "b0b9b963e8c7c6ab5e1da93df56e1c4bca2dc353"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-public-health-prevention/unit.json",
+      "gitBlob": "96069ae600cb9ac7cb81c364ae095c0a1e6552ed"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-questions/sources-and-review.json",
+      "gitBlob": "acd8a10b2b71c9d2aa260041007071c96114ebec"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-questions/syllabus-node-snapshot.json",
+      "gitBlob": "3b4e51e1571396f3c69b3fb0fbd8b010cbdbddb0"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-questions/unit.json",
+      "gitBlob": "ae2272c706b5ea8cd947ae45cb2dc40fb5e1d5ce"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-quantity-quality/sources-and-review.json",
+      "gitBlob": "ee398755d3ccfd7fa5bb84e9a949fafd5f24165c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-quantity-quality/syllabus-node-snapshot.json",
+      "gitBlob": "107868762fdd94842b8b5b6a15e76ac0a5204b33"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-quantity-quality/unit.json",
+      "gitBlob": "29266c70a8bb09915c0a7e4fa8880481b3e404cd"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-24/submission-manifest.json",
+      "gitBlob": "fb5625fc3381ef3a7f520629cf45a6dcc29dc544"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/batch-manifest.json",
+      "gitBlob": "ab488743ce5a2e559d7f8694b730b58e791fc065"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/batch-test-first-failure.json",
+      "gitBlob": "3cdf4b781d58686c39359f15047cd1c05273aa5d"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/batch-test-results.json",
+      "gitBlob": "aa52a977166fab18dfa518a81ca80601f9cc3e59"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/batch-test.cjs",
+      "gitBlob": "845d56e953817c008fbcef93838a9598adc65639"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/coverage-update.json",
+      "gitBlob": "523b57cb0b6c14cbf9c02c39c07d719c7562abbd"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/delivery-receipt.json",
+      "gitBlob": "d9ad296936c75f73bb6faa40dabd9a47d21a3813"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/engineering-failures.json",
+      "gitBlob": "b41fff76dac842811422ab348ec95c7a080a9958"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/expert-review/courses-and-answers.json",
+      "gitBlob": "21ef408c2ac9cf18f9dffe2303657dc840a72bd2"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/internal-review.json",
+      "gitBlob": "95f5185bc3279a551ec94f5ca87326ee67d3cc64"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/load-batch.cjs",
+      "gitBlob": "b869a0ad3da088c9268e86841c610a22c8554f9d"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/numeric-input-results.json",
+      "gitBlob": "d7cc28ac1af6b47ffbb082e818ab36528a3898c6"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/prepare-review.cjs",
+      "gitBlob": "4c88ffaef54e9e7a2adced7b3b121b95552340f2"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/previous-batch-results.json",
+      "gitBlob": "599aedcd1d5f0577d21f289ac2202aeb85340206"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/protected-baseline.json",
+      "gitBlob": "37c0b774f93b6364101446fd1767cd3b5af12c5a"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/r4-r5-compatibility-results.json",
+      "gitBlob": "27471cd1262be86184b5dbad7c722aeaca9cf04a"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/regression-receipt.json",
+      "gitBlob": "675515b1b073469ab54d1c90c8261ab8cb5da0d7"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/review-preparation-receipt.json",
+      "gitBlob": "a6f0912a6816cef078fef706cf015180fc0e2891"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/round4-reliability-results.json",
+      "gitBlob": "4fc910da129b16717888ef66838003f2708c87a7"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/run-regression.cjs",
+      "gitBlob": "9d4c9dafc3d1fd6c88a9601ad447cd68ea81d5ff"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/source-access-failures.json",
+      "gitBlob": "d863b4d2e4b78be6535517b7ddc98c944d13512e"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/verify-numeric-input.cjs",
+      "gitBlob": "33fd46500fe688067636452e326362661c107f33"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/本批交付与接续.md",
+      "gitBlob": "2ca85ac41a09a5df1cc916167519a476df8ce034"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-dispersion-foundation/sources-and-review.json",
+      "gitBlob": "9cb80cbc0896bbe6833e8db712283e0b31f9e529"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-dispersion-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "86ceea284ed457fffb178f57c1ea967ca9a6376b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-dispersion-foundation/unit.json",
+      "gitBlob": "bb4cd1d0dcad217dbefd7740ccb329910355b378"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-mean-median/sources-and-review.json",
+      "gitBlob": "f56bd63b595b3458199bc91d3c88cbf34e507812"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-mean-median/syllabus-node-snapshot.json",
+      "gitBlob": "86ceea284ed457fffb178f57c1ea967ca9a6376b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-mean-median/unit.json",
+      "gitBlob": "662241a855b24d9a3aa1534c93db214f602e9c0e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-study-design-foundation/sources-and-review.json",
+      "gitBlob": "b03a94b2b3d3f4bf08ce23f19072e924b51c22a9"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-study-design-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "337c8c0ae13b6fefe6acae13a0f45ef8725ceace"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-study-design-foundation/unit.json",
+      "gitBlob": "b9d0035be6f2e7ba077ffe962a2532bb13747425"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-articles-foundation/sources-and-review.json",
+      "gitBlob": "bd06df0b849e7e1fc04363bf2d53439a7387f706"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-articles-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "2fffc03a0b228c36fffb6e05967cd16a265d0cea"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-articles-foundation/unit.json",
+      "gitBlob": "6d6b595ec64c6daade68b46fd392350771f1766e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-nouns-countability/sources-and-review.json",
+      "gitBlob": "3d37a4a243ff2adc12df78abd3a424a360715c8c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-nouns-countability/syllabus-node-snapshot.json",
+      "gitBlob": "2fffc03a0b228c36fffb6e05967cd16a265d0cea"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-nouns-countability/unit.json",
+      "gitBlob": "d65f5481eeca8830855d4e9e0a908bfc92b38da7"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-pronoun-reference/sources-and-review.json",
+      "gitBlob": "bd8faabd6deed7bbe6bf6fa9a69bb34159b7543a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-pronoun-reference/syllabus-node-snapshot.json",
+      "gitBlob": "2fffc03a0b228c36fffb6e05967cd16a265d0cea"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-pronoun-reference/unit.json",
+      "gitBlob": "c81c07edd9aa94d8230050cc1e500bffe9426b09"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-contradiction-unity/sources-and-review.json",
+      "gitBlob": "cc8082e26db425255cb5f5099cdefce02c493328"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-contradiction-unity/syllabus-node-snapshot.json",
+      "gitBlob": "d3f13a148c79f67d8760a5540136754632c6b1cf"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-contradiction-unity/unit.json",
+      "gitBlob": "9203eb71d1e25c41eb447583b2ba22f87db68246"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-matter-consciousness/sources-and-review.json",
+      "gitBlob": "334c65177eae5b02029a5bf840e3b0724bca95bf"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-matter-consciousness/syllabus-node-snapshot.json",
+      "gitBlob": "d3f13a148c79f67d8760a5540136754632c6b1cf"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-matter-consciousness/unit.json",
+      "gitBlob": "3e4d2e8ae533e41e6dae27c03f777af490672b15"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-primary-contradictions/sources-and-review.json",
+      "gitBlob": "f723f70256d5683e370910e14469a6940caab11b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-primary-contradictions/syllabus-node-snapshot.json",
+      "gitBlob": "d3f13a148c79f67d8760a5540136754632c6b1cf"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-primary-contradictions/unit.json",
+      "gitBlob": "830874d727bda5b0e6ca980f4f28b8bc172e91a2"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25/submission-manifest.json",
+      "gitBlob": "72dcc9183f17d9aaab18b50772d4268a9b101e6f"
+    },
+    {
+      "path": "product-2028-draft/pilot-ui.js",
+      "gitBlob": "42d497dfa063bc3e0e90cd23057b2af704ec4a0f"
+    },
+    {
+      "path": "product-2028-draft/course-engine.cjs",
+      "gitBlob": "7b268556234066e1e045dd1654837b53860f2f65"
+    },
+    {
+      "path": "product-2028-draft/learning-controller.cjs",
+      "gitBlob": "ed2909c9e02033bb47bfc98da4b2b29d0b353a3f"
+    },
+    {
+      "path": "product-2028-draft/profile-repository.cjs",
+      "gitBlob": "ac52000b8975b051c232c5345834905f9b190662"
+    },
+    {
+      "path": "product-2028-draft/sw.js",
+      "gitBlob": "31106347696f4e98f185d68b1f5b808bdae0d2d3"
+    },
+    {
+      "path": "product-2028-draft/index.html",
+      "gitBlob": "53329964365ae60a81f0c9b7504e754acc0488ff"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/protected-baseline.json",
+      "gitBlob": "69c291cd3476fb363e7c50fd8bc04cc4e72d2b37"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/syllabus-node-snapshot.json",
+      "gitBlob": "cc7af07ad16a3e253d9451e6d121c6e61b58a0ff"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-variable-types/内部审核与接续.md",
+      "gitBlob": "4f6afe8ad6db701e5d4f06c0fa885b2230c9f281"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/syllabus-node-snapshot.json",
+      "gitBlob": "307b3adc244595e7779f32c791d41e0a04b4a407"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-subject-verb-agreement/内部交付.md",
+      "gitBlob": "7c72661cbbef9c5f149971514d1a7c840ef4edb3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/syllabus-node-snapshot.json",
+      "gitBlob": "01833990cbe4221c2dca2f79fc0ac094c29bbc18"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-knowledge-practice-development/内部交付.md",
+      "gitBlob": "4d919bfd582da73490052b626e5e13508b67304a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-past-simple-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "73e93b2d43c22ad5c835fedda47d765b88af19ee"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-connections-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "907d1a2cb408e64cbabdef206e1a9fe3fbcd6a45"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-frequency-denominator/syllabus-node-snapshot.json",
+      "gitBlob": "d36581e5d2a50e9182ef61805a1f1c1cbeee3ead"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-quantity-measurement/syllabus-node-snapshot.json",
+      "gitBlob": "ddfa75db77cc8c3a6167335a844d74b94ef17558"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-uncertainty-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "8086045d9dadcd47bb5843d7e58db3e2df252b7a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-energy-power/syllabus-node-snapshot.json",
+      "gitBlob": "b26a6fdd828be9ff98f1184e9788aa871a343e54"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-waves-interactions/syllabus-node-snapshot.json",
+      "gitBlob": "180193b9a03c869f119871c500a98d5725d78bac"
+    },
+    {
+      "path": "product-2028-integration-29/browser.spec.cjs",
+      "gitBlob": "2486ceff11de4017573d9c8750d9986c4c433dc4"
+    },
+    {
+      "path": "product-2028-integration-29/build-manifest.json",
+      "gitBlob": "fcf6bbe679f09a42a87e644f2ba09bc06d37b4e8"
+    },
+    {
+      "path": "product-2028-integration-29/build.cjs",
+      "gitBlob": "91fddd246eb25263879d5740392bae2f329851ee"
+    },
+    {
+      "path": "product-2028-integration-29/evidence/final-ci-40174691350.json",
+      "gitBlob": "3dfdd73711f2b67e1053e7eed79acbc8335b105d"
+    },
+    {
+      "path": "product-2028-integration-29/evidence/first-ci-40161818058.json",
+      "gitBlob": "8bf6008732576e293bbea56c165201a7372835c1"
+    },
+    {
+      "path": "product-2028-integration-29/evidence/first-failure-analysis.json",
+      "gitBlob": "c44f124a178f0d99022187491bfa2f2b211017e1"
+    },
+    {
+      "path": "product-2028-integration-29/evidence/protection-and-scope.json",
+      "gitBlob": "2d12e81d077641931f8fcf5b2f3cdb4f7ca486d5"
+    },
+    {
+      "path": "product-2028-integration-29/local-results.json",
+      "gitBlob": "42157e16b51a3224dfc4932b772d060fa52f0bed"
+    },
+    {
+      "path": "product-2028-integration-29/local-test.cjs",
+      "gitBlob": "6c9b2a61ad18fef0e7b8d5468ca8865b6a1512c3"
+    },
+    {
+      "path": "product-2028-integration-29/playwright.config.cjs",
+      "gitBlob": "f407cb9d8cd3f815888ddbdb0e0820a2fd555fd3"
+    },
+    {
+      "path": "product-2028-integration-29/protected-baseline.json",
+      "gitBlob": "94ee1fd18fa2c62f4aa7d783596319637e7a9354"
+    },
+    {
+      "path": "product-2028-integration-29/README.md",
+      "gitBlob": "84e688db14b8e0ea194e68e99396804bc910b912"
+    },
+    {
+      "path": "product-2028-integration-29/server.cjs",
+      "gitBlob": "3ec87f94be2d5cc7561a77fa4ca6101d300bbe48"
+    },
+    {
+      "path": "product-2028-integration-29/submission-manifest.json",
+      "gitBlob": "251a15f493a13d93bbecb98bdd1a4596672b5f75"
+    },
+    {
+      "path": "product-2028-integration-29/summarize.cjs",
+      "gitBlob": "7d436fdacde090e5ee3c86d86e0e7a47d6634e6a"
+    },
+    {
+      "path": "product-2028-integration-29/集中交付与下一断点.md",
+      "gitBlob": "9bfad3119a86aff2ac72eacfa4d60d2f10f6af41"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-manifest.json",
+      "gitBlob": "26476e8813a522bd85404d78dd42c532b5a87c88"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-test-first-failure.json",
+      "gitBlob": "2597659d6faa54307b6387245b7471eee76f0e0b"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-test-results.json",
+      "gitBlob": "651ebd6fffab3dd4a8de2236843e97fd09e19b34"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-test.cjs",
+      "gitBlob": "1a38a8effbcf855dd623444a2b659149c232f245"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/compatibility-first-failure.json",
+      "gitBlob": "d2d160950b22019d65aca163091b12e1042ecfdd"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/compatibility-results.json",
+      "gitBlob": "2a80c625f8a794293611bd1cad05049e1f8180e0"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/compatibility-test.cjs",
+      "gitBlob": "3df021f0baca3fe5a51226684b4cff2a26edbccc"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/coverage-update.json",
+      "gitBlob": "e512b78c43254d18ee83add0cd1ddebf608b84ae"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/courses-and-answers.json",
+      "gitBlob": "5767a4e6706349e2673e1217fb45d7f83acab498"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/decisions.json",
+      "gitBlob": "4a6db3a8edb2f3cd49ad20c60c34d94b086b39af"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/review-template-v2.json",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/failures-and-boundaries.json",
+      "gitBlob": "ef1516ef136271918124bc08fd7aa84482e52024"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/internal-review.json",
+      "gitBlob": "c8fc82515da534664e29014fee1394fc45957e45"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/load-batch.cjs",
+      "gitBlob": "7941c53ab1d5d88d9c0ccc56930f6e590c3ea7e1"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/prepare-review.cjs",
+      "gitBlob": "348aed502226dafc534a9af71b40bfa028882f53"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/protected-baseline.json",
+      "gitBlob": "b7a8ef700b3232abe0d6648263acc7a8b1ec567f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/quality-receipt.json",
+      "gitBlob": "eca2144d329ced20db1ce916d54abb3c7a79dc92"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/selection-and-boundaries.json",
+      "gitBlob": "32db2ec2177caa032b6a25e4f51eedb9fee2b680"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/本批交付与接续.md",
+      "gitBlob": "f11ba1b653f59848fe848a3d0736c79aacefa5ad"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-bias-control-foundation/sources-and-review.json",
+      "gitBlob": "114b132c9046394a585445495de3d5262abf9390"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-bias-control-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "a98451885b943896af160282379758371d44cc46"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-bias-control-foundation/unit.json",
+      "gitBlob": "c35bc6c2b8abd44c1530e70806ea4b9137ddc622"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-probability-binomial-foundation/sources-and-review.json",
+      "gitBlob": "e52867115b8a137052a4b69edac077b06aea3ab8"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-probability-binomial-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "8993be9bbaf4885f7dad7347cf2b22ae136e9be3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-probability-binomial-foundation/unit.json",
+      "gitBlob": "fd8dcf2998c3f812d87958079895ac2f273ef86e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-random-sampling-foundation/sources-and-review.json",
+      "gitBlob": "3cdd508ec21c14994e6d9f198daa4979e57f3a65"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-random-sampling-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "b9887e2660bd4740df7ca8d20105b9d881a2eb00"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-random-sampling-foundation/unit.json",
+      "gitBlob": "bb0f81b5a2c9dffeab1258bb7c1d0d6d1740b320"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-defining-relative-foundation/sources-and-review.json",
+      "gitBlob": "4c97257dabb1dafe54c3d459075127a57c37252c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-defining-relative-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "d42aed137d19cd60773622a2430fc39e365d0d02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-defining-relative-foundation/unit.json",
+      "gitBlob": "5114c63c26a60f4159b0a15437625a9d87fd3649"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-passive-simple-foundation/sources-and-review.json",
+      "gitBlob": "762a40e47f2c17aa29754a0305e0c82ea499f9cd"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-passive-simple-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "73cb6aeaf628aaf2778bf8da17e03edc3d37f2b1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-passive-simple-foundation/unit.json",
+      "gitBlob": "86825252bbd0a227ec923a610a5496f20e856690"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-continuous-foundation/sources-and-review.json",
+      "gitBlob": "fc0204265c967f7226eb1c3ed9c42439a82e2fe1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-continuous-foundation/syllabus-node-snapshot.json",
+      "gitBlob": "73cb6aeaf628aaf2778bf8da17e03edc3d37f2b1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-continuous-foundation/unit.json",
+      "gitBlob": "20737c9b7c1c45be56b3e3d9bd220bc017881bcc"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/sources-and-review.json",
+      "gitBlob": "ee8961bd4a9306d7e0a371299a6f11532d780d30"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/syllabus-node-snapshot.json",
+      "gitBlob": "93c5c0b75cf90c6d7abfa3cd6b82ea144e91a796"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/unit.json",
+      "gitBlob": "53963837084fc755a17f9002ad40fb92a1b4a661"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-productive-forces-relations/sources-and-review.json",
+      "gitBlob": "d06a44887841832c2c84ee9c47c6370c4cad7c7b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-productive-forces-relations/syllabus-node-snapshot.json",
+      "gitBlob": "93c5c0b75cf90c6d7abfa3cd6b82ea144e91a796"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-productive-forces-relations/unit.json",
+      "gitBlob": "30a2c6e1a7d372ecf9e6d1837fb7dcba81a012f2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-social-being-consciousness/sources-and-review.json",
+      "gitBlob": "ec4bc009b7f5623679c9f55cab2d03634bc5466d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-social-being-consciousness/syllabus-node-snapshot.json",
+      "gitBlob": "93c5c0b75cf90c6d7abfa3cd6b82ea144e91a796"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-social-being-consciousness/unit.json",
+      "gitBlob": "1bd2d218d0aba3b478e5029617b3c6ecc97cf336"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/submission-manifest.json",
+      "gitBlob": "a2b951452d0cee0f1c9381315d3ce1fa918f0bf2"
+    }
+  ],
+  "localOnlyNotInRepository": [
+    "product-2028-draft/课程知识点与大纲映射.json",
+    "product-2028-draft/content/353统一知识图谱.json",
+    "product-2028-draft/content/knowledge-graph.json",
+    "product-2028-draft/content/semantic-pair-review.json",
+    "product-2028-draft/content/semantic-review-sources.json",
+    "product-2028-draft/content/政治统一知识图谱.json",
+    "product-2028-draft/content/英语统一知识图谱.json"
+  ],
+  "preExistingLocalRemoteDifferences": [
+    {
+      "path": "product-2028-pilot-build/sw.js",
+      "localGitBlob": "a95dbf37636f8132c8d282f20aed385a5323eb40",
+      "remoteBaselineGitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+    }
+  ],
+  "policy": "CI verifies every298 remote-baseline protected blob. Local305 SHA256 remains separate; do not overwrite either R5 cache."
+}
+

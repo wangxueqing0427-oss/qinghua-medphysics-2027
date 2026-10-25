@@ -34,15 +34,13 @@
       "pass": true
     },
     {
-      "name": "Historical protection: all local files or explicitly tracked CI subset, with local-only scope recorded",
+      "name": "Historical protection: local305 SHA256 and immutable remote298 Git blobs remain separate and explicit",
       "pass": true
     }
   ],
   "protection": {
-    "mode": "all local historical files",
-    "baselineCount": 305,
+    "mode": "all local historical files SHA256",
     "checkedCount": 305,
-    "localOnlyNotAvailableInCI": [],
     "mismatches": []
   },
   "expertApproved": 0

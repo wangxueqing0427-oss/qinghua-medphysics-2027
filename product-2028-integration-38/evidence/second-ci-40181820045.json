@@ -1,0 +1,141 @@
+{
+  "runId": 40181820045,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40181820045",
+  "testedCommit": "406375be3f01fd6f6fdc8f3af5f489c7bea8aaa9",
+  "conclusion": "failure",
+  "evidence": {
+    "commit": "406375be3f01fd6f6fdc8f3af5f489c7bea8aaa9",
+    "scope": "Linux Chromium and mobile-view WebKit, NOT real iPhone; synthetic profiles only",
+    "expertApproved": 0,
+    "local": {
+      "scope": "Generated candidate integrity checks only; no repetition of previous307-answer suite; not browser/expert/iPhone",
+      "courses": 38,
+      "questions": 415,
+      "newCourses": 9,
+      "newQuestions": 108,
+      "results": [
+        {
+          "name": "Generated38 courses415 unique questions validate with objective links and prerequisite DAG",
+          "pass": true
+        },
+        {
+          "name": "Generated pack exactly equals existing draft loader; no course or answer transformations",
+          "pass": true
+        },
+        {
+          "name": "Prior29 payloads retain exact content and versions inside candidate38",
+          "pass": true
+        },
+        {
+          "name": "New9 content hashes match already-tested third-batch receipt",
+          "pass": true
+        },
+        {
+          "name": "Test-only database, pending journal and cache namespaces differ from SET29/R5",
+          "pass": true
+        },
+        {
+          "name": "Formal release remains blocked and expertise is not manufactured",
+          "pass": true
+        },
+        {
+          "name": "Incremental browser selection includes exactly9 new courses and3 explicit old representatives",
+          "pass": true
+        },
+        {
+          "name": "Historical protection: all local files or explicitly tracked CI subset, with local-only scope recorded",
+          "pass": false,
+          "error": "product-2028-pilot-build/sw.js\n+ actual - expected\n\n+ 'b093713ddd72c9a93b25d1dba1b3b2040a60cb1f83152e0397fd3b917596c4f4'\n- '405d5eb4fcbc1527b5a7e6d93bede9f141ffd9e2dc1bc6ddd66e498c25f651bc'\n"
+        }
+      ],
+      "expertApproved": 0
+    },
+    "build": {
+      "scope": "Local/CI38-course isolated preview only; no remote site or release",
+      "units": 38,
+      "questions": 415,
+      "port": 5298,
+      "database": "qh2028_isolated_set38_v1",
+      "journal": "qh2028_set38_pending_v1:",
+      "expertApproved": 0,
+      "files": [
+        {
+          "path": "index.html",
+          "sha256": "5e47da52a72ad0df82fb6ff72e3a3880eb0912d719e60ddbb47c817510605d48",
+          "source": "product-2028-draft/index.html"
+        },
+        {
+          "path": "app.css",
+          "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+          "source": "product-2028-draft/app.css"
+        },
+        {
+          "path": "icon.svg",
+          "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+          "source": "product-2028-draft/icon.svg"
+        },
+        {
+          "path": "manifest.json",
+          "sha256": "9636dc4a1f87c0808dca843b46c8045ac293a0f150cf4fcff9dbbcd2f250fdc6",
+          "source": "product-2028-draft/manifest.json"
+        },
+        {
+          "path": "course-engine.js",
+          "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+          "source": "product-2028-draft/course-engine.cjs"
+        },
+        {
+          "path": "profile-repository.js",
+          "sha256": "5aaf05c37de45e05357e18e6d98175c19cb0b383600d5368914945fd5008135c",
+          "source": "product-2028-draft/profile-repository.cjs"
+        },
+        {
+          "path": "learning-controller.js",
+          "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+          "source": "product-2028-draft/learning-controller.cjs"
+        },
+        {
+          "path": "pilot-ui.js",
+          "sha256": "2061de81b60d69ac727fb9118cd211a3a8043d7c846dcd7a3e14ea4f961a846d",
+          "source": "product-2028-draft/pilot-ui.js"
+        },
+        {
+          "path": "representative-courses.json",
+          "sha256": "d98652d83b872e712e7ea9668a746c6ecc5b36913920e7c98d6e87f8c82627ce",
+          "source": "existing combined38 loader"
+        },
+        {
+          "path": "sw.js",
+          "sha256": "d40f3b5447bf1ed63e1d5fbe65a231197d692a7783138f62645cf7fcce147c70",
+          "source": "product-2028-draft/sw.js"
+        }
+      ]
+    },
+    "browser": {
+      "notRun": true
+    }
+  },
+  "cause": "Local historical R5 sw.js differs from immutable remote614f182 baseline. Browser not installed/tested.",
+  "diagnosis": {
+    "remoteBaseline": "614f182512fd5da210012699a05953bef2765d9a",
+    "trackedProtected": 298,
+    "localOnly": [
+      "product-2028-draft/课程知识点与大纲映射.json",
+      "product-2028-draft/content/353统一知识图谱.json",
+      "product-2028-draft/content/knowledge-graph.json",
+      "product-2028-draft/content/semantic-pair-review.json",
+      "product-2028-draft/content/semantic-review-sources.json",
+      "product-2028-draft/content/政治统一知识图谱.json",
+      "product-2028-draft/content/英语统一知识图谱.json"
+    ],
+    "differences": [
+      {
+        "path": "product-2028-pilot-build/sw.js",
+        "localGitBlob": "a95dbf37636f8132c8d282f20aed385a5323eb40",
+        "remoteBaselineGitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+      }
+    ]
+  },
+  "remediation": "Verify immutable remote-baseline298 Git blobs in CI separately from unchanged local305 SHA256. No original source/cache overwritten; no browser assertion/answer changed."
+}
+
