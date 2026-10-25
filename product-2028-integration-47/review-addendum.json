@@ -1,0 +1,13 @@
+{
+  "mode":"References and additional review questions only; not another full review package",
+  "existing47PriorityQueue":"product-2028-draft/planning-handoff-2026-10-25/核验回执.json#criticalQuestionQueue",
+  "new9VersionHashesAndSources":"product-2028-draft/course-development-2026-10-25-fourth/internal-review.json",
+  "existingNew9PendingChecklist":"product-2028-draft/course-development-2026-10-25-fourth/专业审核待办.md",
+  "questions":[
+    {"subject":"en","priority":"P1","scope":"Vocabulary productive recall and original short passage evidence","ask":"核对主动生产参考答案、词音与词形边界；短文指代和因果限制是否明确；允许等义表达的核对范围。"},
+    {"subject":"pol","priority":"P0","scope":"Historical timeline and source layers","ask":"核对1840、1842-08-29与1939语境；复制品说明和电子转录不得误称已读原始手稿；概念边界及材料要点待教师审定。"},
+    {"subject":"353","priority":"P0","scope":"Prevalence, normality and standard error assumptions","ask":"核对现患分母与期间去重特例、CDF舍入、独立同分布有限方差及相关设计排除；UI显示固定单位不等于用户可切换单位。"}
+  ],
+  "reviewer":null,"reviewDate":null,"opinion":null,"approved":false,"independentExpertApproved":0,
+  "externalContact":false,"cost":0
+}

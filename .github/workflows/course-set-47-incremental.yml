@@ -1,0 +1,49 @@
+name: Isolated47 incremental browser validation
+on:
+  push:
+    branches: [courses/2026-10-24-three-subject-foundations]
+    paths:
+      - product-2028-integration-47/*.cjs
+      - .github/workflows/course-set-47-incremental.yml
+permissions:
+  contents: read
+concurrency:
+  group: isolated-set47-incremental
+  cancel-in-progress: false
+jobs:
+  incremental:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned test dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Build isolated47 course preview
+        run: node product-2028-integration-47/build.cjs
+      - name: Check build integrity and historical protection
+        run: node product-2028-integration-47/candidate-check.cjs
+      - name: Install Chromium and WebKit
+        working-directory: product-2028-ci
+        run: npx playwright install --with-deps chromium webkit
+      - name: New9 plus risk-selected old representatives in actual browsers
+        working-directory: product-2028-ci
+        run: npx playwright test --config=../product-2028-integration-47/playwright.config.cjs
+      - name: Preserve scoped evidence including first failures
+        if: always()
+        run: node product-2028-integration-47/summarize.cjs
+      - name: Preserve synthetic browser failure evidence
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: set47-failure-${{ github.sha }}
+          path: |
+            product-2028-integration-47/browser-results.json
+            product-2028-integration-47/ci-summary.json
+            product-2028-ci/test-results/
+          retention-days: 7

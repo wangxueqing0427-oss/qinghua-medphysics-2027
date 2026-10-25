@@ -1,0 +1,5 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert/strict');
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');const old=require('../product-2028-draft/course-development-2026-10-25-fourth/protected-baseline.json'),manifest=require('../product-2028-draft/course-development-2026-10-25-fourth/submission-manifest.json');
+for(const[p,h]of Object.entries(old.hashes))assert.equal(hash(fs.readFileSync(p)),h,p);
+const hashes={...old.hashes};for(const f of manifest.files){const b=fs.readFileSync(f.path);assert.equal(hash(b),f.sha256,f.path);hashes[f.path]=f.sha256;}hashes[manifest.selfPath]=hash(fs.readFileSync(manifest.selfPath));
+const target=path.join(__dirname,'protected-baseline.json');if(fs.existsSync(target))throw Error('Do not replace existing protection baseline');fs.writeFileSync(target,JSON.stringify({baseCommit:'2cb1bb8dcd4c9f359cdf463b57dbdce02ef6c41c',hashes,scope:'Local pre-existing338 plus49 fourth-batch committed files; private7 graphs/cache retained, no real learner data'},null,2));console.log(JSON.stringify({count:Object.keys(hashes).length}));

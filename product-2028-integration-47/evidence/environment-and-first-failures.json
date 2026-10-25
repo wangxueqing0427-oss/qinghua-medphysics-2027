@@ -1,0 +1,10 @@
+{
+  "baseCommit":"2cb1bb8dcd4c9f359cdf463b57dbdce02ef6c41c",
+  "localGit":"No .git; use existing remote parent tree and non-force leased branch update, no initialization",
+  "localPlaywright":"product-2028-ci/node_modules/@playwright/test absent; no repeated Windows browser initialization",
+  "failures":[{"stage":"local Node startup before script execution","command":"import-tools/node.exe product-2028-integration-47/prepare-protection.cjs","error":"EPERM lstat C:\\Users\\王学庆 at Node realpath main resolution","resolution":"Used --preserve-symlinks --preserve-symlinks-main; script then succeeded with387 protected hashes. Not a browser or product defect."}],
+  "preCIReviewCorrections":["Changed remaining copied415 unique-ID fixture to523 before CI; retained expected full question count.","Updated subjective expected text to actual new vocabulary/reading/history synthetic original inputs; no course answer changed."],
+  "unexpectedBrowserFailures":"not yet run; append actual CI records separately",
+  "intentionalNegativeFixtures":"Wrong first answer, stale duplicate, one-shot storage failure, numeric invalid input and changed-answer rejection are test scenarios, not unexpected failures",
+  "expertApproved":0
+}
