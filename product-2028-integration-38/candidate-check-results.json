@@ -1,0 +1,42 @@
+{
+  "scope": "Generated candidate integrity checks only; no repetition of previous307-answer suite; not browser/expert/iPhone",
+  "courses": 38,
+  "questions": 415,
+  "newCourses": 9,
+  "newQuestions": 108,
+  "results": [
+    {
+      "name": "Generated38 courses415 unique questions validate with objective links and prerequisite DAG",
+      "pass": true
+    },
+    {
+      "name": "Generated pack exactly equals existing draft loader; no course or answer transformations",
+      "pass": true
+    },
+    {
+      "name": "Prior29 payloads retain exact content and versions inside candidate38",
+      "pass": true
+    },
+    {
+      "name": "New9 content hashes match already-tested third-batch receipt",
+      "pass": true
+    },
+    {
+      "name": "Test-only database, pending journal and cache namespaces differ from SET29/R5",
+      "pass": true
+    },
+    {
+      "name": "Formal release remains blocked and expertise is not manufactured",
+      "pass": true
+    },
+    {
+      "name": "Incremental browser selection includes exactly9 new courses and3 explicit old representatives",
+      "pass": true
+    },
+    {
+      "name": "Historical protected files are unchanged locally",
+      "pass": true
+    }
+  ],
+  "expertApproved": 0
+}

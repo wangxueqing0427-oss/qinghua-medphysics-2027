@@ -1,0 +1,39 @@
+name: Isolated38 incremental browser validation
+on:
+  push:
+    branches: [courses/2026-10-24-three-subject-foundations]
+    paths:
+      - product-2028-integration-38/*.cjs
+      - .github/workflows/course-set-38-incremental.yml
+permissions:
+  contents: read
+concurrency:
+  group: isolated-set38-incremental
+  cancel-in-progress: false
+jobs:
+  incremental:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned test dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Build isolated38-course preview
+        run: node product-2028-integration-38/build.cjs
+      - name: Candidate content and compatibility integrity
+        run: node product-2028-integration-38/candidate-check.cjs
+      - name: Install Chromium and WebKit
+        working-directory: product-2028-ci
+        run: npx playwright install --with-deps chromium webkit
+      - name: New9 courses plus affected old representatives in real browsers
+        working-directory: product-2028-ci
+        run: npx playwright test --config=../product-2028-integration-38/playwright.config.cjs
+      - name: Preserve actual scoped results in job log
+        if: always()
+        run: node product-2028-integration-38/summarize.cjs

@@ -1,0 +1,27 @@
+[
+  {
+    "source": "product-2028-integration-29/build.cjs",
+    "sha256": "5462717e637a977ee2dbf840c91fd9244d188914d3cb6c8ff5455ac370f3fc22",
+    "target": "product-2028-integration-38/build.cjs"
+  },
+  {
+    "source": "product-2028-integration-29/server.cjs",
+    "sha256": "8cc1db9dd29f8ad0f9300de780a66dc07c2e7a73492d9d7a08de62d73bdccdc3",
+    "target": "product-2028-integration-38/server.cjs"
+  },
+  {
+    "source": "product-2028-integration-29/playwright.config.cjs",
+    "sha256": "5926be1274593d845e9c445342ced7ceac6f2e2b8ea6ab83990676db4d90da7f",
+    "target": "product-2028-integration-38/playwright.config.cjs"
+  },
+  {
+    "source": "product-2028-integration-29/browser.spec.cjs",
+    "sha256": "818b5dafb78ae4d3bbb00b3efb66e6f9749e80ea4188eada88b3fd58d22c9451",
+    "target": "product-2028-integration-38/browser.spec.cjs"
+  },
+  {
+    "source": "product-2028-integration-29/summarize.cjs",
+    "sha256": "2e328f47728b4bb2e6a256d2f51913b5c0f1d875f66629a0158069bd31f8d178",
+    "target": "product-2028-integration-38/summarize.cjs"
+  }
+]
