@@ -1,0 +1,13 @@
+{
+  "accessedAt":"2026-10-25",
+  "method":"Read specified public HTML teaching/source sections; locator stored per course. No downloaded PDF, copied exercise, audio or full-source redistribution.",
+  "provisionalScope":"2027清华353 published2026-09-30 used provisionally for2028; English/politics annual official exam scope not confirmed.",
+  "failedRetrievals":[
+    {"url":"https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-perfect","result":"web retrieval timeout400; used accessible B1-B2 formal lesson instead"},
+    {"source":"Cambridge English dictionary read/study entries","result":"403; not used as verified evidence; accessible English Wiktionary sections used, teacher pronunciation review pending"},
+    {"url":"https://www.dpm.org.cn/court/event/157696.html","result":"timeout400; not relied on"},
+    {"url":"https://www.gov.cn/guoqing/2021-04/09/content_5555766.htm","result":"403; not relied on"},
+    {"url":"https://dangshi.people.com.cn/n1/2021/0412/c436975-32075238.html","result":"502; not relied on"}
+  ],
+  "specificLimits":["Dictionary phonetic facts only; linked audio not listened to or imported, no pronunciation validation claim.","Museum description explicitly concerns a replica; original treaty manuscript not read.","1939 historical text is an electronic transcription; its present-time wording not transferred to2026/2028.","CDC archive definitions and Table3.3 used; Figure3.1 example not reused; period denominator example limited to closed fixed fully observed population.","OpenStax simplifications not used to promise arbitrary n30 guarantees; IID finite variance and complex-design exclusions retained.","CDF approximations independently recomputed; not extracted clinical data."]
+}

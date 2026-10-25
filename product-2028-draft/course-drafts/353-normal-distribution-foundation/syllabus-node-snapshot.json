@@ -1,0 +1,36 @@
+{
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "s27-19-2",
+    "subject": "stats",
+    "section": "推断基础",
+    "name": "概率模型",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "applicableYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingStatus": "proposed_not_reviewed",
+    "candidateChapterIds": [
+      "st-03",
+      "st-04",
+      "st-05",
+      "st-06"
+    ],
+    "questionIds": [
+      "q-s03",
+      "q-s04",
+      "q-s05",
+      "q-s12",
+      "q-v16-s03-1",
+      "q-v16-s03-2",
+      "q-v16-s04-1",
+      "q-v16-s04-2",
+      "q-v16-s05-1",
+      "q-v16-s05-2",
+      "q-v16-s06-1",
+      "q-v16-s06-2"
+    ],
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}

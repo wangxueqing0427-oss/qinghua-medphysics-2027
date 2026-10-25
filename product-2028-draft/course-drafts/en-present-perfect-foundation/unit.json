@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "en-present-perfect-foundation",
+      "version": "0.1",
+      "subject": "en",
+      "title": "现在完成时入门：过去事件与当前关联",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "prerequisites": [
+        "en-past-simple-foundation",
+        "en-passive-simple-foundation",
+        "en-subject-verb-agreement"
+      ],
+      "prerequisiteExplanation": "复用过去时间判断及被动课给定分词，专门区分完成与过去叙事，不重做一般过去时。",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+      ],
+      "explanation": "先复用过去时和被动课给定的分词。现在完成时主动形式是have/has加过去分词：I have studied.我已经学习过；She has written a note.她已写好一条笔记。I/you/we/they用have，he/she/it用has。study的分词studied、write的分词written、read的分词仍写read，本课直接给定，不假设所有分词都加ed。have studied不是be studied，前者此处说主体做过，后者涉及被动等不同结构，不能看见分词就叫被动。\n\n时态选择先理解事件与时间，不只背中文“了”。现在完成可表达截至现在的人生经历、仍未结束时期内的事件，或与当前有关的结果。I have read this note.在未指定结束过去时间的当前语境可说我已读过；I read it yesterday.说昨天已发生的事实，yesterday是明确结束的过去时间。本课标准教学不写I have read it yesterday.。但过去事件有当前影响并不强迫一律用完成时：若说明昨天发生，用过去时也可表达与现在有关的事实。\n\nfor加持续时长，如for two years；since加开始时间点，如since 2024。She has lived here for two years.表示持续到当前的居住；live是居住。时间段和起点不能互换成since two years。持续表达还要看动词意义：arrive是到达这一瞬间事件，不能用I have arrived here for two years.直接表示住了两年，应改已教的have lived。并不是所有带for的句子都必须完成时，本课只讨论给定仍持续到现在的语境。\n\n否定把not放在have/has后：She has not written a note.；一般疑问把have/has提到主语前：Has she written a note?不再加does，written也不退成write。判断和改写示范：原句She has written a note.→Has she written a note?→She has not written a note.，每一步保持人称和分词。闭卷先说结构，再说明完成与过去的语境边界；应用与隔日题要求独立改写和理由。主观回答用给定要点待核对，不用单个关键词冒充语言评分。",
+      "definition": "现在完成时have/has+过去分词在给定语境连接过去与当前；与明确结束过去时间的一般过去时区别。",
+      "conditions": "限定主动基础完成、给定分词及仍持续状态；不覆盖全部完成/进行体系、地区差异和复杂副词位置；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "She has written a note：has对应she，written为write给定分词。\nI read it yesterday：明确结束时间用本课一般过去叙事。\nhave lived here since 2024 / for two years：起点与时长分开。\nHas she written a note? / She has not written a note.保持分词。",
+      "misconceptions": [
+        "把have+分词和be+分词混同。",
+        "看见中文了或当前影响就机械选择完成时。",
+        "since后填时长，或瞬间到达直接接持续两年。",
+        "加does后仍保留has，或把written误退原形。"
+      ],
+      "recall": [
+        "写主语与have/has的对应和write分词。",
+        "用明确过去时间说明完成时与过去时的区别。",
+        "闭卷说明for/since及持续状态限制。",
+        "把给定完成肯定句改否定和疑问并解释。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "She has written a note：has对应she，written为write给定分词。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "I read it yesterday：明确结束时间用本课一般过去叙事。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "have lived here since 2024 / for two years：起点与时长分开。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "Has she written a note? / She has not written a note.保持分词。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-present-perfect-foundation-g1",
+          "description": "构成主动现在完成时",
+          "successCriteria": "正确选have/has和给定过去分词，能与简单被动结构区分。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-present-perfect-foundation-b1",
+            "en-present-perfect-foundation-a1",
+            "en-present-perfect-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-perfect-foundation-g2",
+          "description": "依据事件时间选择时态",
+          "successCriteria": "区分明确结束过去时间与截至当前语境，不把当前影响当唯一强制规则。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-present-perfect-foundation-b2",
+            "en-present-perfect-foundation-a2",
+            "en-present-perfect-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-perfect-foundation-g3",
+          "description": "使用持续时间表达",
+          "successCriteria": "区分since时间点与for时长，并修正瞬间动词持续表达。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-present-perfect-foundation-b3",
+            "en-present-perfect-foundation-a3",
+            "en-present-perfect-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-perfect-foundation-g4",
+          "description": "独立改写并给出理由",
+          "successCriteria": "真实写否定疑问，保持主语一致和分词，说明语境限制待核对。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-present-perfect-foundation-b4",
+            "en-present-perfect-foundation-a4",
+            "en-present-perfect-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "have/has与主语一致。",
+        "过去分词正确，否定疑问不用多余does。",
+        "for/since与时间点/时长匹配，持续状态合理。",
+        "说明明确过去时间限制，允许符合语境的等义答案。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核完成语境、持续动词与改写的评分边界。",
+          "不声称本课覆盖所有完成时或2028官方命题范围。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "en-present-perfect-foundation-b1",
+          "type": "single",
+          "stem": "She ___ written a note.应填？",
+          "options": [
+            "has",
+            "have",
+            "does"
+          ],
+          "answer": 0,
+          "explanation": "She是第三人称单数，完成主动结构has+written；does后不能直接放written构成此句。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把have+分词和be+分词混同。"
+        },
+        {
+          "id": "en-present-perfect-foundation-b2",
+          "type": "single",
+          "stem": "给定yesterday明确指已结束的昨天，哪句符合本课标准教学？",
+          "options": [
+            "I have read it yesterday.",
+            "I read it yesterday.",
+            "I has read it yesterday."
+          ],
+          "answer": 1,
+          "explanation": "明确结束的过去时间使用一般过去叙事；当前有关联也不必改完成时。第三句还有人称错误。",
+          "difficulty": "foundation",
+          "errorCauseHint": "看见中文了或当前影响就机械选择完成时。"
+        },
+        {
+          "id": "en-present-perfect-foundation-b3",
+          "type": "single",
+          "stem": "表示从2024持续居住到现在，哪项适当？",
+          "options": [
+            "since two years",
+            "for 2024",
+            "since 2024"
+          ],
+          "answer": 2,
+          "explanation": "since后接起点2024，for后接时长。还须给定持续到现在的状态，不能只看时间词忽略语境。",
+          "difficulty": "foundation",
+          "errorCauseHint": "since后填时长，或瞬间到达直接接持续两年。"
+        },
+        {
+          "id": "en-present-perfect-foundation-b4",
+          "type": "single",
+          "stem": "She has written a note.正确疑问句是？",
+          "options": [
+            "Has she written a note?",
+            "Does she has written a note?",
+            "Has she write a note?"
+          ],
+          "answer": 0,
+          "explanation": "完成疑问将has提到主语前并保留written，不加does，也不把完成分词退成原形。",
+          "difficulty": "foundation",
+          "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-present-perfect-foundation-a1",
+          "type": "single",
+          "stem": "给定read的分词写作read，They ___ this note.表达截至现在已经读过，选？",
+          "options": [
+            "has read",
+            "have read",
+            "are read"
+          ],
+          "answer": 1,
+          "explanation": "They配have，后接给定分词read；are read会改变结构和意义，不是这里的主动完成。",
+          "difficulty": "application",
+          "errorCauseHint": "把have+分词和be+分词混同。"
+        },
+        {
+          "id": "en-present-perfect-foundation-a2",
+          "type": "single",
+          "stem": "哪项说法最准确？",
+          "options": [
+            "有当前影响只能用完成时",
+            "中文有了必用完成时",
+            "需结合时间语境；说昨天读过仍用一般过去时"
+          ],
+          "answer": 2,
+          "explanation": "完成表达和过去事实都可能与当前有关。明确结束时间与叙述目的须一起判断，不能按翻译词机械选时态。",
+          "difficulty": "application",
+          "errorCauseHint": "看见中文了或当前影响就机械选择完成时。"
+        },
+        {
+          "id": "en-present-perfect-foundation-a3",
+          "type": "single",
+          "stem": "要说在此居住并持续到现在两年，哪句适当？",
+          "options": [
+            "I have lived here for two years.",
+            "I have arrived here for two years.",
+            "I have lived here since two years."
+          ],
+          "answer": 0,
+          "explanation": "live可表示持续居住，for接时长；arrive是到达瞬间，不能直接表达持续居住两年，since则接起点。",
+          "difficulty": "application",
+          "errorCauseHint": "since后填时长，或瞬间到达直接接持续两年。"
+        },
+        {
+          "id": "en-present-perfect-foundation-a4",
+          "type": "subjective",
+          "stem": "把She has written a note.改成否定句和一般疑问句；说明为什么不加does。",
+          "answer": "She has not written a note. / Has she written a note? have/has承担完成助动词功能，否定或前置即可，不另加does，written保留。",
+          "rubric": [
+            "have/has与主语一致。",
+            "过去分词正确，否定疑问不用多余does。",
+            "for/since与时间点/时长匹配，持续状态合理。",
+            "说明明确过去时间限制，允许符合语境的等义答案。"
+          ],
+          "explanation": "核对has位置、not、written及主体；合理缩写hasn't可接受。参考要点供待核对，不因出现has关键词就自动判专业分数。",
+          "difficulty": "application",
+          "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-present-perfect-foundation-d1",
+          "type": "single",
+          "stem": "隔日：I ___ studied English.给定截至现在的完成语境，选？",
+          "options": [
+            "has",
+            "have",
+            "was"
+          ],
+          "answer": 1,
+          "explanation": "I配have，studied为分词；was studied不是本句主体主动学习的现在完成结构。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把have+分词和be+分词混同。"
+        },
+        {
+          "id": "en-present-perfect-foundation-d2",
+          "type": "single",
+          "stem": "新情境：明确说“她昨天写了笔记”，哪句适当？",
+          "options": [
+            "She has written a note yesterday.",
+            "She have written a note yesterday.",
+            "She wrote a note yesterday.（wrote为write过去式）"
+          ],
+          "answer": 2,
+          "explanation": "已给wrote过去式和明确过去时间，使用一般过去事实叙述；不能因写完有当前结果强制使用完成时。",
+          "difficulty": "delayed",
+          "errorCauseHint": "看见中文了或当前影响就机械选择完成时。"
+        },
+        {
+          "id": "en-present-perfect-foundation-d3",
+          "type": "single",
+          "stem": "for three years与since 2023在本课持续状态中的区别？",
+          "options": [
+            "前者时长，后者起点",
+            "前者起点，后者时长",
+            "二者都只能接过去式"
+          ],
+          "answer": 0,
+          "explanation": "for表达持续多久，since表达从何时开始；本课持续到现在的状态用完成形式，不把该规则无限推广到所有for句。",
+          "difficulty": "delayed",
+          "errorCauseHint": "since后填时长，或瞬间到达直接接持续两年。"
+        },
+        {
+          "id": "en-present-perfect-foundation-d4",
+          "type": "subjective",
+          "stem": "给定live=居住。写“他们已在此居住三年（仍居住）”并改为疑问句；解释为何不用arrived持续三年。",
+          "answer": "They have lived here for three years. / Have they lived here for three years? lived表示持续居住，arrived表示到达瞬间不能直接代替。",
+          "rubric": [
+            "have/has与主语一致。",
+            "过去分词正确，否定疑问不用多余does。",
+            "for/since与时间点/时长匹配，持续状态合理。",
+            "说明明确过去时间限制，允许符合语境的等义答案。"
+          ],
+          "explanation": "核对They-have、lived、for+时长及疑问前置；内容检验新主语迁移，保留原文和遗漏，主观待核对。",
+          "difficulty": "delayed",
+          "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+        }
+      ]
+    }
+  ]
+}

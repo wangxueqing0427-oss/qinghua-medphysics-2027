@@ -1,0 +1,12 @@
+{
+  "method":"Existing character-set overlap candidate detector unchanged; human-style AI internal comparison below is not independent semantic approval.",
+  "candidates":[
+    {"a":"sva-d1","b":"sva-d3","status":"historical candidate preserved; old course unchanged"},
+    {"a":"en-present-continuous-foundation-a4","b":"en-present-perfect-foundation-a4","status":"parallel transformation format, different tense target: be+ing versus have/has+participle; English teacher review remains pending"},
+    {"a":"en-reading-evidence-foundation-b1","b":"en-reading-evidence-foundation-d1","status":"same locating skill, different original passages/person/time/quantity; deliberately delayed transfer, not reused text answer"},
+    {"a":"en-reading-evidence-foundation-b2","b":"en-reading-evidence-foundation-a2","status":"same original passage supplied for self-contained UI, but He/Rui versus them/words target differs"},
+    {"a":"en-reading-evidence-foundation-a2","b":"en-reading-evidence-foundation-d2","status":"parallel pronoun skill across independent passages A/B; delayed transfer retained, teacher semantic review pending"}
+  ],
+  "exactDuplicateStemErrors":0,
+  "expertApproved":0
+}

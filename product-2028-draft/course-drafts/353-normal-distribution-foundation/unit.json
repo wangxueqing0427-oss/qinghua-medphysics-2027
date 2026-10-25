@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "353-normal-distribution-foundation",
+      "version": "0.1",
+      "subject": "353",
+      "title": "连续变量与正态分布入门：面积、位置与适用条件",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "mapping": [
+        "s27-19-2"
+      ],
+      "prerequisites": [
+        "353-probability-binomial-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "prerequisiteExplanation": "从离散计数过渡连续变量，复用均数/SD和概率而非重讲二项分布。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/7-1-the-central-limit-theorem-for-sample-means-averages"
+      ],
+      "explanation": "从二项计数转到连续变量。连续模型可用区间表示数值，如等待时间在10到12分钟；曲线下某区间面积才是概率，不是曲线的高度。正态分布是一种对称钟形的连续模型，不是任何医学测量都天然服从它。在理想连续模型中恰等于某一点的概率为0，但现实仪器把数值四舍五入会让许多记录相同，两者不矛盾。先问变量、测量和模型条件，再谈计算，不把图像像钟就当经过验证。\n\n正态模型由均数μ和标准差σ描述，σ必须大于0。μ改变中心位置，σ改变分散程度；均数与标准差的单位和原变量相同。标准化z=(x−μ)/σ把距离写成几个标准差，是无量纲数。原创例：假定某等待时间在本题按正态模型，μ=100分钟、σ=10分钟，x=110分钟则z=1；x=90分钟则z=−1。负z不是负概率，只表示在均数左侧。模型是假定，不是临床诊断或所有等待时间的事实结论。\n\n标准正态累积分布Φ(z)表示Z≤z的左侧面积。本课给四位小数近似表：Φ(0)=0.5000，Φ(1)=0.8413，Φ(−1)=0.1587，Φ(2)=0.9772。于是0到1间面积0.8413−0.5000=0.3413；右侧超过2为1−0.9772=0.0228。用表中舍入值算出的结果也只是近似，不能叫精确真值。均数两侧一个标准差内约68%是模型性质，不是每个实际样本都必须恰有68人或68.27%。\n\n应用先审查分布条件和问题。明显偏斜、多峰、混合人群、异常值或有边界的数据，不能仅因样本多就断定原始数据正态；增加样本不会自动把原人群变成正态。抽样均值的分布是下一课另一个对象，不能与个体分布混同。例：大量等待接近0、少数极长，直接套μ±σ算概率可能不适当，需看资料和模型。闭卷与延迟题同时考面积、标准化和适用边界，不能只凭算对z宣称掌握。",
+      "definition": "正态是由μ与σ>0确定的连续概率模型；概率为面积，z标准化无量纲，是否适合数据须另判断。",
+      "conditions": "所有数例明确假定模型；CDF为四位舍入近似，不作临床参考值或所有医学变量的分布断言；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "连续区间的面积是概率，曲线高度不是概率。\nμ100分钟、σ10分钟、x110分钟→z1，无量纲。\nP(0<Z≤1)≈.8413−.5000=.3413；P(Z>2)≈.0228。\n偏斜等待时间不能因n很大就把原始分布称正态。",
+      "misconceptions": [
+        "把密度高度当区间概率，或记录同值否定连续模型。",
+        "把负z当负概率或忘记σ必须大于0。",
+        "把舍入表值与约68%当每个样本的精确比例。",
+        "样本变大就宣称原始数据必正态。"
+      ],
+      "recall": [
+        "说明连续模型概率为何要看面积，与仪器舍入怎样区分。",
+        "闭卷写z公式、参数单位和σ条件。",
+        "说明Φ、右尾和两个累计值之差怎样计算。",
+        "写两种不能不加检验套正态的情况，并区分个体和样本均值。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "连续区间的面积是概率，曲线高度不是概率。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "μ100分钟、σ10分钟、x110分钟→z1，无量纲。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "P(0<Z≤1)≈.8413−.5000=.3413；P(Z>2)≈.0228。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "偏斜等待时间不能因n很大就把原始分布称正态。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-normal-distribution-foundation-g1",
+          "description": "解释连续模型概率面积",
+          "successCriteria": "区分密度、区间概率和舍入记录，不把单点概率误作实际记录频率。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-normal-distribution-foundation-b1",
+            "353-normal-distribution-foundation-a1",
+            "353-normal-distribution-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-normal-distribution-foundation-g2",
+          "description": "正确标准化并检查量纲",
+          "successCriteria": "计算给定μσx的z，说明符号及无量纲，拒绝σ为0。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-normal-distribution-foundation-b2",
+            "353-normal-distribution-foundation-a2",
+            "353-normal-distribution-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-normal-distribution-foundation-g3",
+          "description": "用给定累计表算区间或尾部",
+          "successCriteria": "通过加减补集计算近似概率，说明四位表的舍入边界。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-normal-distribution-foundation-b3",
+            "353-normal-distribution-foundation-a3",
+            "353-normal-distribution-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-normal-distribution-foundation-g4",
+          "description": "审查正态适用范围",
+          "successCriteria": "对偏斜/混合样本指出模型待检，拒绝大样本令原始数据必正态。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-normal-distribution-foundation-b4",
+            "353-normal-distribution-foundation-a4",
+            "353-normal-distribution-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "概率用区间面积解释，区分密度和舍入。",
+        "z减均数除SD，参数单位一致且σ>0。",
+        "累计值之差或补集正确，承认近似。",
+        "模型条件与个体/均值区分，非临床结论。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计学教师复核连续模型、标准化与近似概率表述。",
+          "无真实数据拟合验证，不把例中假定作为医学变量的分布事实。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-normal-distribution-foundation-b1",
+          "type": "single",
+          "stem": "在连续正态模型中，某区间概率由什么表示？",
+          "options": [
+            "该区间曲线下面积",
+            "某一点曲线高度",
+            "横坐标数值本身"
+          ],
+          "answer": 0,
+          "explanation": "密度的区间积分即面积给概率，高度不等于某区间或某点概率；横坐标只是取值而非概率。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把密度高度当区间概率，或记录同值否定连续模型。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-b2",
+          "type": "number",
+          "stem": "题设μ=50分钟、σ=5分钟、x=55分钟。按正态标准化求z。",
+          "answer": 1,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "z=(55−50)/5=1，分钟相除消去单位；表示高于均数一个SD，不是1分钟或概率1。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把负z当负概率或忘记σ必须大于0。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-b3",
+          "type": "single",
+          "stem": "给Φ(1)=0.8413，P(Z>1)近似为？",
+          "options": [
+            "0.8413",
+            "1.8413",
+            "0.1587"
+          ],
+          "answer": 2,
+          "explanation": "右侧是全部面积1减左侧.8413得到.1587；使用舍入累计表，结果亦近似，不能把Φ直接当右尾。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把舍入表值与约68%当每个样本的精确比例。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-b4",
+          "type": "single",
+          "stem": "明显偏斜数据样本量很大，能否直接认定原始变量正态？",
+          "options": [
+            "不能，个体分布与均值分布须区分",
+            "能，数量多必把所有个体变正态",
+            "能，所有医学变量原本正态"
+          ],
+          "answer": 0,
+          "explanation": "大样本不会改变原总体个体取值分布。抽样均值的近似正态是另一对象且有条件，不能混为一谈。",
+          "difficulty": "foundation",
+          "errorCauseHint": "样本变大就宣称原始数据必正态。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-normal-distribution-foundation-a1",
+          "type": "single",
+          "stem": "理想连续模型单点概率0，但仪器记录多人同为10.0，如何解释？",
+          "options": [
+            "正态逻辑必然错误",
+            "记录有舍入区间，不等于数学单点事件",
+            "证明密度高度就是人数"
+          ],
+          "answer": 1,
+          "explanation": "有限精度将邻近连续数值记成同一数字，实际记录重复不等于对精确数学点给了正概率。",
+          "difficulty": "application",
+          "errorCauseHint": "把密度高度当区间概率，或记录同值否定连续模型。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-a2",
+          "type": "number",
+          "stem": "假定μ=80秒、σ=10秒，观测60秒，求z。",
+          "answer": -2,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "(60−80)/10=−2，表示均数左侧两个SD。负的是标准化位置，不是负概率，秒在比值中消去。",
+          "difficulty": "application",
+          "errorCauseHint": "把负z当负概率或忘记σ必须大于0。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-a3",
+          "type": "number",
+          "stem": "给Φ(1)=.8413、Φ(0)=.5000。按该舍入表求P(0<Z≤1)。",
+          "answer": 0.3413,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "区间面积为右端累计减左端累计，.8413−.5000=.3413；连续模型端点取等号不改变面积，结果为表精度近似。",
+          "difficulty": "application",
+          "errorCauseHint": "把舍入表值与约68%当每个样本的精确比例。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-a4",
+          "type": "subjective",
+          "stem": "某等待时间资料多数近0、少数极长。有人只因n=500说原始数据必正态。指出两项问题并说明应补什么检查。",
+          "answer": "明显偏斜与钟形模型可能不符；n大不改变个体分布，均值抽样分布是另一对象。应看分布、数据生成与异常/混合因素，不能仅凭样本数套模型。",
+          "rubric": [
+            "概率用区间面积解释，区分密度和舍入。",
+            "z减均数除SD，参数单位一致且σ>0。",
+            "累计值之差或补集正确，承认近似。",
+            "模型条件与个体/均值区分，非临床结论。"
+          ],
+          "explanation": "核对模型与数据、个体与均值两个区分；可提出图形和背景检查，不要求本课未教的正式检验，主观待专业核对。",
+          "difficulty": "application",
+          "errorCauseHint": "样本变大就宣称原始数据必正态。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-normal-distribution-foundation-d1",
+          "type": "single",
+          "stem": "隔日：正态曲线更高处就代表该点概率大于0吗？",
+          "options": [
+            "是，直接把高度当概率",
+            "不是；理想连续模型单点仍为0，区间看面积",
+            "任何概率可超过1"
+          ],
+          "answer": 1,
+          "explanation": "密度可以高而单点面积仍0，概率必须对区间或事件积分；不要将图形高度与概率值直接等同。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把密度高度当区间概率，或记录同值否定连续模型。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-d2",
+          "type": "number",
+          "stem": "隔日假定μ=30分钟、σ=3分钟，x=24分钟。求z。",
+          "answer": -2,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "z=(24−30)/3=−2。先检查σ正且同单位，再解释左侧位置；负值不意味着发生概率为负。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把负z当负概率或忘记σ必须大于0。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-d3",
+          "type": "number",
+          "stem": "给Φ(2)=.9772。按四位近似表求P(Z>2)。",
+          "answer": 0.0228,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "1−.9772=.0228是右尾近似；不直接用.9772，也不能称图表舍入结果为精确真值。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把舍入表值与约68%当每个样本的精确比例。"
+        },
+        {
+          "id": "353-normal-distribution-foundation-d4",
+          "type": "subjective",
+          "stem": "新资料混合两类人群出现两个峰。写出为何不能未经核验套单一正态，并区分增加样本和研究均值抽样分布。",
+          "answer": "混合两峰不自然符合单峰正态，需分析分组和生成过程。增加样本不把原始个体变正态；均值抽样分布是重复抽样统计量的分布，须另审条件。",
+          "rubric": [
+            "概率用区间面积解释，区分密度和舍入。",
+            "z减均数除SD，参数单位一致且σ>0。",
+            "累计值之差或补集正确，承认近似。",
+            "模型条件与个体/均值区分，非临床结论。"
+          ],
+          "explanation": "核对多峰的模型风险和两个分布对象，不把图形检查说成已证明所有分布；参考要点待核对，不生成专业评分。",
+          "difficulty": "delayed",
+          "errorCauseHint": "样本变大就宣称原始数据必正态。"
+        }
+      ],
+      "cdfReference": {
+        "method": "Phi(z)=(1+erf(z/sqrt(2)))/2, rounded to four decimals; examples authored, not extracted clinical data",
+        "values": {
+          "0": 0.5,
+          "1": 0.8413,
+          "2": 0.9772,
+          "-1": 0.1587
+        }
+      }
+    }
+  ]
+}

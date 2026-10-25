@@ -1,0 +1,15 @@
+{
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "en-plan-4",
+    "subject": "en",
+    "name": "阅读",
+    "source": "user_requirements",
+    "status": "teaching_plan_exam_spec_pending",
+    "candidateChapterIds": [],
+    "questionIds": [],
+    "mappingStatus": "pending",
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}

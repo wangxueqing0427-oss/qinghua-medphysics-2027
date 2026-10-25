@@ -1,0 +1,298 @@
+{
+  "baseCommit": "343a3c4ec38a9b2af37e4b207d2e99e42e103ca9",
+  "allowedBranch": "courses/2026-10-24-three-subject-foundations",
+  "mode": "additions-only-no-Git-init",
+  "files": [
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/batch-manifest.json",
+      "bytes": 521,
+      "sha256": "06ff107f0e248e510b5e71587795744236dccea2de8871984ba0678d950c0632",
+      "gitBlob": "b5dec091451f2e896f77f6963ce8854f1af8fe84"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/batch-test-results.json",
+      "bytes": 47691,
+      "sha256": "3feaebed03d787fde5d72f392ef99a0b6b7a6564a23aac19bd684d12ec55110d",
+      "gitBlob": "13093035b97292d3bc48ae3b34d3a1914575250f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/batch-test.cjs",
+      "bytes": 7999,
+      "sha256": "919706ff6254f0ad2d8fec44975d1aedfd4ffece811b0289f0ff5875598592fd",
+      "gitBlob": "d75ade13ee9c14bed2ebc5ebaadb1eb4ddfe7978"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/compatibility-results.json",
+      "bytes": 698,
+      "sha256": "e7430eddb480b3d6c4b616daa2c8370d2b3a8d5fdc7eddf08e4ecbdcb052e47b",
+      "gitBlob": "1974e4445e9186afb0f3b18958921c24ef7891a3"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/compatibility-test.cjs",
+      "bytes": 3959,
+      "sha256": "17792c463c83e6113eb441618b6ce6f9ce515c6f70f71fc4e1029a25140f66b8",
+      "gitBlob": "d1356faf5197f82cd51c22f261e3384adf77da11"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/coverage-update.json",
+      "bytes": 100715,
+      "sha256": "d1d5ba92ae7360cee86d2adb2e7d625ba36dca2e05292948898cd19aae88ffff",
+      "gitBlob": "d2bf9c4dec42877537a3f63440f8d81ab0e75fe7"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/final-check-results.json",
+      "bytes": 887,
+      "sha256": "5821721663ded3192c00f10d5cb99df98cc4f1c6b4238abf0be08d6a3f176aeb",
+      "gitBlob": "5fb1e6e23f88e0537a6f3b13b7baab5c6def6fa5"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/final-check.cjs",
+      "bytes": 2511,
+      "sha256": "e468d51802153077c17951c7025e2579a8d5793844a7ad17aee92c056fa41b2a",
+      "gitBlob": "55ad8623353f83ae9d9b8c564207be8b919187c1"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/first-failures.json",
+      "bytes": 705,
+      "sha256": "7afdc1cb868d423d32621611a2e4c9c061e96ba673ce31c269232af32bf24511",
+      "gitBlob": "e34461a3336c8a813caa95b91c18deacd5b61cf5"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/internal-review-log/decisions.json",
+      "bytes": 10577,
+      "sha256": "582ff69d7b007b72c03364e5d26f35a6de482e57fe24328a47f5a954511a4adc",
+      "gitBlob": "2f025106eee1fa4fc50e85e44ee8baddf2ef29cf"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/internal-review.json",
+      "bytes": 6607,
+      "sha256": "3a99dcef89243cc3acfb1516c4de6688526e7aae7bc7ca69d6280f1bd7aa0778",
+      "gitBlob": "f6b981011e733a72fc72834fac0edbb0370967d2"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/load-batch.cjs",
+      "bytes": 915,
+      "sha256": "af168a161216fb814ce75739ed3e5132e5298de1fa0518a592b9278b4f68e5a5",
+      "gitBlob": "594ac5e0f706be97aff67cc0c34b33e8fb2cbeb6"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/prepare-evidence.cjs",
+      "bytes": 4396,
+      "sha256": "94cbf8b756990236f73c0360e8f0cb0df88ec5b75c4c2088b2d4ea6027bd7f2a",
+      "gitBlob": "ea97b75a69d9c22de43b2a2bd89b59cb4ac2270f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/protected-baseline.json",
+      "bytes": 49267,
+      "sha256": "d0c641ff971ef61a956ffb2743e294c3cbda806e7d673e25e71b812ad83487e1",
+      "gitBlob": "f68f8a7116f9eb5c452daff7287bc754ed1a30de"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/quality-receipt.json",
+      "bytes": 1641,
+      "sha256": "aee4eb6f7f6b77b18f25945d25a9a85ab81c66f3d8fe005ae6e51884a96d5da0",
+      "gitBlob": "195526bc13aab8bbd93489b5f20a2e5ca95c4655"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/selection-and-boundaries.json",
+      "bytes": 8226,
+      "sha256": "3bfb9c55ee4c8f94c578f9f69835519ce08a795c4c693b0054676c12505b2be0",
+      "gitBlob": "5c52041ccaa6df788d8f37fccedc85f55b348e07"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/similarity-review.json",
+      "bytes": 1190,
+      "sha256": "e2fc7bf19cfe72f0cc2939f797123b8f6a7520cac9481c50b55ddc17026071b4",
+      "gitBlob": "42e504f302a4e4c7bb53785860cf2c38aefe5d57"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/source-access-and-boundaries.json",
+      "bytes": 1772,
+      "sha256": "59fc563638785e05aac3a6bd36841841a73d57d68453332ac505bb557efeadbb",
+      "gitBlob": "ea0eceb33df2d1c05163c7f6529bf343f8f19a9a"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/submission-check.cjs",
+      "bytes": 1718,
+      "sha256": "62b5a6ffabd5d0747812f46c55b44d4e3691458dedd897e97041d917280039ce",
+      "gitBlob": "b6718cdd38fab166ab9765f0d043593dbe97c316"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/专业审核待办.md",
+      "bytes": 2468,
+      "sha256": "27fcc7a5461dad4f8149c2e38f1589af4ad5ab9f9fec2ed94304c35b8df52a2b",
+      "gitBlob": "7857dca9e770e42635c5f36ab842adbea6e91652"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-fourth/本批交付与接续.md",
+      "bytes": 4035,
+      "sha256": "3427b7ff610a585c8212c84c78bf56c071e977b30ee705268a45dba1b814ecdf",
+      "gitBlob": "c72105c336e1224785f0305b6bad547eb7e7303f"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-normal-distribution-foundation/sources-and-review.json",
+      "bytes": 2312,
+      "sha256": "b08f32c0b0dcd52e668da348e0daab9b6766a94e9fe63fd843d38a76045c0313",
+      "gitBlob": "0fcf69af39f9b4249ea04ea50c6c9e3aa2f58086"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-normal-distribution-foundation/syllabus-node-snapshot.json",
+      "bytes": 809,
+      "sha256": "6bfd4e1b5bf87ba58f6886e93e94cf62258338dfe5aa33ec3e9ce81955d589c2",
+      "gitBlob": "1d71ca3c81dd5aeebddb3fb8f52d056c62d17cd6"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-normal-distribution-foundation/unit.json",
+      "bytes": 17165,
+      "sha256": "4934a2c22274277eac7ee5a8127eb53fe2b8e2f77421084db83f2397b63ef847",
+      "gitBlob": "bfe9e875bc02ba9912732cc79288fb437fec6b7f"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-ratio-rate-prevalence/sources-and-review.json",
+      "bytes": 2190,
+      "sha256": "7964e19475afcac5acaf08475bd1edd3ff98bd43de26bbaf682f0337eaa9b265",
+      "gitBlob": "a5e3ac6fa57e3bd32b653b7f976997948e3dc3a7"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-ratio-rate-prevalence/syllabus-node-snapshot.json",
+      "bytes": 576,
+      "sha256": "83bb08c3e18acc93bc55eb462500966f3f4051aaf6c55e08e120dcd8426f9249",
+      "gitBlob": "a9703197dfda7bd47ef936c8806d6c519cd35d3e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-ratio-rate-prevalence/unit.json",
+      "bytes": 17344,
+      "sha256": "bc45507b567b90fdbea77c629e086e2b606959c5f5f9c09b8992902b22b7c676",
+      "gitBlob": "85da17f9cb0a7ded2db18aa83319c66fa5dd1dc2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-sampling-distribution-se/sources-and-review.json",
+      "bytes": 2339,
+      "sha256": "a2913ba0928761ad4746cd6d4ef6bc74d14ecfb7b0d11058cdaf4e7ccadfc635",
+      "gitBlob": "7a76d19c48a5c40a2c293c18b72eee120bf19a20"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-sampling-distribution-se/syllabus-node-snapshot.json",
+      "bytes": 809,
+      "sha256": "99aebea0301c0a786db568faa7a275d77c11498511d36836c712b47f579a344f",
+      "gitBlob": "55330366cee80255bf906861a1b2f130250b12c9"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-sampling-distribution-se/unit.json",
+      "bytes": 17221,
+      "sha256": "7f90b2ea58c35c558c40cc9869a73777a714a789b25177e93fe5b4253ddb71f9",
+      "gitBlob": "c9970df8ca89852a25a615afdba812dcc5800ebb"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-perfect-foundation/sources-and-review.json",
+      "bytes": 1435,
+      "sha256": "6f877849b7202f375e485294ad286ef45ed62a3847be1408db2e760634945294",
+      "gitBlob": "3c4e8ab4eeee5da34cdcf0f877a986818534690d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-perfect-foundation/syllabus-node-snapshot.json",
+      "bytes": 390,
+      "sha256": "6a93893af9ec271fc54c6332d5e84386751be377fe2edc31f2c695aeaeb584a9",
+      "gitBlob": "b4a71f96e55572c4ce03b108e3546b2c0aed3a76"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-perfect-foundation/unit.json",
+      "bytes": 16974,
+      "sha256": "348d711cb25715459baf2a63c27569b6f219e9923163916f1cbcfbad7c1115dc",
+      "gitBlob": "70a942be5e736c5fc27e1167330ca48869333b9d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-reading-evidence-foundation/sources-and-review.json",
+      "bytes": 1548,
+      "sha256": "a06f3db137a1c8eee10c1a0d85fc0afa0278e697301b4589fdbf7de21a5b3262",
+      "gitBlob": "70fca0195d5c9c8a129037bba6c55d607d7ff19a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-reading-evidence-foundation/syllabus-node-snapshot.json",
+      "bytes": 384,
+      "sha256": "c82c43343f59af85249966a05078c28fc9ebd3b23b2e233bcc78943e08e88441",
+      "gitBlob": "721ae76623fd81ac365f1cb4f14b7d57982be498"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-reading-evidence-foundation/unit.json",
+      "bytes": 24730,
+      "sha256": "22702e1f5058cecf11974f19f5a1bdcc91586ff5c8fc12f72c278cae0be11467",
+      "gitBlob": "a16ab6e3e806585a21f8e0174d70560199875577"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-vocabulary-retrieval-foundation/sources-and-review.json",
+      "bytes": 2212,
+      "sha256": "72815f6eabfb4be04f324c54b9e600f367a7abc787d83b3fd37775ebf4ecb8e0",
+      "gitBlob": "64b78657414381c7820da78b8abf8d4ea017ca5e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-vocabulary-retrieval-foundation/syllabus-node-snapshot.json",
+      "bytes": 393,
+      "sha256": "e86acc62d69610d6b49c30fc4606d4f2834cbf4a78efaaab3f3989173127c2f9",
+      "gitBlob": "aeff96f5e27773f329d6966e78cc640853a1956c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-vocabulary-retrieval-foundation/unit.json",
+      "bytes": 17588,
+      "sha256": "5359a8a3e0ac69a9b654c123571947e35bd4db97db046813d361fb12cda22b55",
+      "gitBlob": "642b2664b5e141159c592f0753fd7ab844630200"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-base-superstructure-foundation/sources-and-review.json",
+      "bytes": 1670,
+      "sha256": "fb13d07b350c4dc82b49ae2af6ae9315745329e60b4869a9b72e5dc3e547e9e5",
+      "gitBlob": "5ebb2b1d43a2b5d2b5ebb7e6ffd1c0505e699ffc"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-base-superstructure-foundation/syllabus-node-snapshot.json",
+      "bytes": 392,
+      "sha256": "590daf9868032a643e1cbcf2a0b42307da3d4f5add2b39cba25951b0739ae49e",
+      "gitBlob": "eaa293658541c38e2239fc91de291cc199057a9f"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-base-superstructure-foundation/unit.json",
+      "bytes": 18219,
+      "sha256": "b30c03fd24b96883c94af188119a961638ca433665115df264c56ed2ea0e029c",
+      "gitBlob": "922464b00fc3b8baffe4bb6ae568dc2628dba82e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-modern-history-entry/sources-and-review.json",
+      "bytes": 2298,
+      "sha256": "c1132c54c47d1eb5edd1ce80b84fbf2b3e65eeffe9a4a96d684240358c662907",
+      "gitBlob": "50ce42ad82872594d6ac12c1f74079a59e38528a"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-modern-history-entry/syllabus-node-snapshot.json",
+      "bytes": 398,
+      "sha256": "58bbe02758b2f1d9f3aae65f807789bc942b7eaeb94fc47146542b8e318b239d",
+      "gitBlob": "7b7d7d0c58c0861f510f2b8f09983365770527c9"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-modern-history-entry/unit.json",
+      "bytes": 18299,
+      "sha256": "dcf0a7fd11b72a3ebab14ae9b7e93a6a4fd37e94a8c69f7ea4892d91cd020dde",
+      "gitBlob": "3092375e1f8ad198d61e95d2ee152abd093a7e34"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-people-individual-history/sources-and-review.json",
+      "bytes": 1697,
+      "sha256": "2999c08db7814879172bf72b19cf3fc3359c9e5b199db0d20f88ec8bc195c5c6",
+      "gitBlob": "4ebe024313f307e6440201d42ab2120856ee4ec2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-people-individual-history/syllabus-node-snapshot.json",
+      "bytes": 392,
+      "sha256": "590daf9868032a643e1cbcf2a0b42307da3d4f5add2b39cba25951b0739ae49e",
+      "gitBlob": "eaa293658541c38e2239fc91de291cc199057a9f"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-people-individual-history/unit.json",
+      "bytes": 17507,
+      "sha256": "e08edfeb395f4f6d8c25f07be0d08ae9e97ad7d6163dff0c5bec440aee0c2cb5",
+      "gitBlob": "9cbc209df68b19e3b464b006d31001fddf5cfa7e"
+    }
+  ],
+  "selfPath": "product-2028-draft/course-development-2026-10-25-fourth/submission-manifest.json",
+  "selfHashExcluded": true,
+  "forbidden": "existing courses, real learner data, private graphs, PDFs/caches, production and audit refs"
+}

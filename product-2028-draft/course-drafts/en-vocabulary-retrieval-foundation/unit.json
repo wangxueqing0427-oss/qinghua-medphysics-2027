@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "en-vocabulary-retrieval-foundation",
+      "version": "0.1",
+      "subject": "en",
+      "title": "词汇入门：词音、词形、语境与主动回忆",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "en-plan-1"
+      ],
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "prerequisiteExplanation": "用已有SVO例句建立首组小词集的词义辨认、词形与主动回忆；不重讲12课语法。",
+      "sources": [
+        "https://en.wiktionary.org/wiki/study",
+        "https://en.wiktionary.org/wiki/read",
+        "https://en.wiktionary.org/wiki/note",
+        "https://en.wiktionary.org/wiki/evidence"
+      ],
+      "explanation": "本课先学四个能在短文中真正用起来的词，不用一长串中文清单冒充词汇能力。study在本课作动词“学习、研读”，read作动词“阅读”，note作名词“笔记、简短记录”，evidence作名词“支持说法的事实或观察”。I study English.是“我学英语”；Read the note.是“读这条笔记”，句首原形可作简短指令。看词能选中文叫辨认，把词放进句子解释才是理解；只看一眼眼熟，不等于隔日能主动写出词。\n\n词音和词形要一起记，但本课没有录音验收，也不把汉字谐音当标准发音。词典英语条目给study /ˈstʌd.i/、read现在形式 /ɹiːd/、note英式 /nəʊ̯t/、evidence /ˈɛv.ɪ.dəns/；ˈ在重读音节前，ː表示该元音较长，不是两个词或两个音节。英美和个体读音可能不同，音标只是读音引导，发音质量仍需教师复核。study—studies—studying—studied分别是原形、第三人称单数、ing形式、过去形式；read—reads—reading的书写变化也要连句子记。不要因末尾s就一律判断为名词复数。\n\n遇到多种含义时先问句中做什么：She studies a note.中studies是她研读，a note是一条笔记；Two notes are short.的notes才是复数名词。This result is evidence.表示“这个结果是依据”；本课这个一般意义的evidence通常不可数，不机械写an evidence。它不等于“绝对证明”，一个结果未必能推出对所有人都有效。学习时把词类、常用搭配和当前句义放在一起，词典的其他义项留待后课，不把本课一义说成永远唯一含义。\n\n主动回忆是先遮住答案，再从中文或新情境独立提取英文，最后核对并写清错在哪里。示范：看“我学英语”后盖住范句，写I study English.；核对主体I、动词study、对象English，而不是仅勾选“我记住了”。忘记词、把studies用在I后、把note当动词，是不同错因。先完成基础和应用题，隔日用新提示再写句；选择题正确只说明本次辨认，主观原文需对照要点核对，不生成可靠发音分数或虚构词汇量。",
+      "definition": "词汇学习同时包含词音/词形辨认、语境理解及无提示主动提取；四词小单元不是考研词汇总表。",
+      "conditions": "只覆盖给定四词的明确语境；不自动判定发音，不复制词典音频或原练习；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "I study English → 主体I、动作study、对象English；先译句再认词。\nShe studies / They study：第三人称形式与原形分开；音标ˈ不是字母。\nA note / two notes / evidence：给定语境下可数性不同。\n盖住英文后从“读这条笔记”写Read the note.；再逐项核对。",
+      "misconceptions": [
+        "把眼熟当会主动写出。",
+        "把IPA符号当字母或把所有s当复数。",
+        "脱离语境照搬唯一词义或写an evidence。",
+        "没遮答案就声称闭卷掌握。"
+      ],
+      "recall": [
+        "闭卷写出四词本课词义，并用一句话区分辨认和主动提取。",
+        "写study四种词形，说明ˈ和ː的作用。",
+        "解释She studies a note.和This result is evidence.的词类与句义。",
+        "不看范句，从中文写一个study句和一个note句，记录实际漏项。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "I study English → 主体I、动作study、对象English；先译句再认词。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "She studies / They study：第三人称形式与原形分开；音标ˈ不是字母。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "A note / two notes / evidence：给定语境下可数性不同。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "盖住英文后从“读这条笔记”写Read the note.；再逐项核对。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-vocabulary-retrieval-foundation-g1",
+          "description": "辨认四个词并区分学习证据",
+          "successCriteria": "能把四词与给定句义对应，并指出眼熟不能证明主动提取。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-vocabulary-retrieval-foundation-b1",
+            "en-vocabulary-retrieval-foundation-a1",
+            "en-vocabulary-retrieval-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-g2",
+          "description": "解释词音符号及给定词形",
+          "successCriteria": "能正确辨认study/studies及重音长音符号，不把名词复数与动词s混同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-vocabulary-retrieval-foundation-b2",
+            "en-vocabulary-retrieval-foundation-a2",
+            "en-vocabulary-retrieval-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-g3",
+          "description": "按语境理解词类与可数性",
+          "successCriteria": "能在完整句中解释studies、notes与evidence的本课用法并纠错。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-vocabulary-retrieval-foundation-b3",
+            "en-vocabulary-retrieval-foundation-a3",
+            "en-vocabulary-retrieval-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-g4",
+          "description": "独立写出目标词和短句",
+          "successCriteria": "遮住英文从中文生成完整句，保留原文并按词形、句义、拼写要点人工核对。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-vocabulary-retrieval-foundation-b4",
+            "en-vocabulary-retrieval-foundation-a4",
+            "en-vocabulary-retrieval-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "保留独立英文原文，不以选择答案替代生成。",
+        "主体与动词人称一致，study/reads等词形符合句子。",
+        "note与evidence在当前句义和可数性上适当。",
+        "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师确认音标教学、词义边界及初学者负荷；未测试真实发音。",
+          "社区词典条目可能更新；本课只记录事实、自编中文与例句，未复制音频/整段释义。",
+          "四词并非全词汇覆盖，主动生产答案须教师或逐项参考核对。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "en-vocabulary-retrieval-foundation-b1",
+          "type": "single",
+          "stem": "在I study English.中，study最合适的本课意思是？",
+          "options": [
+            "学习",
+            "笔记",
+            "依据"
+          ],
+          "answer": 0,
+          "explanation": "句中study位于I后作动词，表示学习，English是所学对象；不能把另外两个名词的意义移过来。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把眼熟当会主动写出。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-b2",
+          "type": "single",
+          "stem": "She ___ English every day.给定study原形，通常填哪一种？",
+          "options": [
+            "study",
+            "studies",
+            "studying"
+          ],
+          "answer": 1,
+          "explanation": "本课一般现在时肯定句中She为第三人称单数，study变studies；studying单独不构成这里的限定谓语。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把IPA符号当字母或把所有s当复数。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-b3",
+          "type": "single",
+          "stem": "This result is evidence.对evidence的解释哪项适当？",
+          "options": [
+            "一条笔记的复数",
+            "已经绝对证明所有人有效",
+            "这个结果提供依据，本课该义通常不可数"
+          ],
+          "answer": 2,
+          "explanation": "evidence指支持说法的事实或观察，一份结果不保证普遍结论；本课一般意义通常不可数，与notes无关。",
+          "difficulty": "foundation",
+          "errorCauseHint": "脱离语境照搬唯一词义或写an evidence。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-b4",
+          "type": "single",
+          "stem": "哪种做法真正产生主动回忆证据？",
+          "options": [
+            "盖住英文，从中文独立写出再核对",
+            "反复看范句后点完成",
+            "只把词标成绿色"
+          ],
+          "answer": 0,
+          "explanation": "主动提取须在答案遮蔽时实际生成，原文及核对漏项才是证据；颜色和完成按钮不能替代答题。",
+          "difficulty": "foundation",
+          "errorCauseHint": "没遮答案就声称闭卷掌握。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-vocabulary-retrieval-foundation-a1",
+          "type": "single",
+          "stem": "Read the note.整句最合适的意思是？",
+          "options": [
+            "这个结果是依据",
+            "读这条笔记",
+            "她每天学习"
+          ],
+          "answer": 1,
+          "explanation": "Read在此是阅读指令，the note是阅读对象；不能把其他词的零散词义拼成并不存在的句意。",
+          "difficulty": "application",
+          "errorCauseHint": "把眼熟当会主动写出。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-a2",
+          "type": "single",
+          "stem": "词典study /ˈstʌd.i/与read /ɹiːd/中，两个符号的解释哪项正确？",
+          "options": [
+            "ˈ是字母，ː表示复数",
+            "两者都表示过去时",
+            "ˈ标重音位置，ː标较长元音"
+          ],
+          "answer": 2,
+          "explanation": "音标符号指导发音，重音标在音节前，长音号属于元音发音信息；它们不承担时态和复数功能。",
+          "difficulty": "application",
+          "errorCauseHint": "把IPA符号当字母或把所有s当复数。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-a3",
+          "type": "single",
+          "stem": "哪句在本课给定词义下最合适？",
+          "options": [
+            "Two notes are short.",
+            "I studies English.",
+            "This result is an evidence."
+          ],
+          "answer": 0,
+          "explanation": "notes为可数名词复数，Two与are对应；I后不用studies，本课一般意义的evidence不机械加an。",
+          "difficulty": "application",
+          "errorCauseHint": "脱离语境照搬唯一词义或写an evidence。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-a4",
+          "type": "subjective",
+          "stem": "遮住课文，不看英文提示：写“我学英语”和“读这条笔记”两句英文；再用中文说明哪一步是在主动提取。",
+          "answer": "I study English. / Read the note. 先遮住英文独立写，再核对词义、拼写和人称；仅抄范句不算主动回忆。",
+          "rubric": [
+            "保留独立英文原文，不以选择答案替代生成。",
+            "主体与动词人称一致，study/reads等词形符合句子。",
+            "note与evidence在当前句义和可数性上适当。",
+            "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+          ],
+          "explanation": "参考句不是唯一合法表达；核对I后study原形、read作指令、note作对象及独立生成过程。保留原答案，待逐项核对，不给虚构专业分数。",
+          "difficulty": "application",
+          "errorCauseHint": "没遮答案就声称闭卷掌握。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-vocabulary-retrieval-foundation-d1",
+          "type": "single",
+          "stem": "隔日新句：They read two notes.这里notes表示什么？",
+          "options": [
+            "第三人称动词",
+            "两条笔记",
+            "学习的过去式"
+          ],
+          "answer": 1,
+          "explanation": "two明确修饰复数名词notes；read才是动作。用新句区分词类，不能靠词尾s一律判成动词。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把眼熟当会主动写出。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-d2",
+          "type": "single",
+          "stem": "隔日不看表：study的过去形式是哪项？",
+          "options": [
+            "studys",
+            "studyed",
+            "studied"
+          ],
+          "answer": 2,
+          "explanation": "study以辅音字母+y结尾，本课给定过去形式studied；须结合已教过去时，不能随意拼studyed。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把IPA符号当字母或把所有s当复数。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-d3",
+          "type": "single",
+          "stem": "一位学习者只记住一例成功结果。哪种英文表达最符合本课证据边界？",
+          "options": [
+            "This result is evidence.但不因此证明所有人有效",
+            "This result is an evidence.且证明所有人有效",
+            "evidence只能指笔记"
+          ],
+          "answer": 0,
+          "explanation": "evidence可提供支持，但证据范围受对象和情境限制；可数性及普遍性都不能由单个结果随意扩展。",
+          "difficulty": "delayed",
+          "errorCauseHint": "脱离语境照搬唯一词义或写an evidence。"
+        },
+        {
+          "id": "en-vocabulary-retrieval-foundation-d4",
+          "type": "subjective",
+          "stem": "不看英文范句：写“她学习英语”和“两条笔记很短”两句英文；指出你与上次相比是否仍漏第三人称或复数。",
+          "answer": "She studies English. / Two notes are short. 对照studies、notes、are及原始作答，记录实际遗漏。",
+          "rubric": [
+            "保留独立英文原文，不以选择答案替代生成。",
+            "主体与动词人称一致，study/reads等词形符合句子。",
+            "note与evidence在当前句义和可数性上适当。",
+            "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+          ],
+          "explanation": "延迟生成用新主语和复数情境检验词形迁移；允许合理等义句。只有原文和逐项核对能说明本次表现，不外推长期掌握。",
+          "difficulty": "delayed",
+          "errorCauseHint": "没遮答案就声称闭卷掌握。"
+        }
+      ]
+    }
+  ]
+}

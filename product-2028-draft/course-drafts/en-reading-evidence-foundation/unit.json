@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "subject": "en",
+      "title": "基础短文阅读：定位信息、辨认指代与区分推断",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "en-plan-4",
+        "en-plan-3"
+      ],
+      "prerequisites": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-defining-relative-foundation",
+        "en-vocabulary-retrieval-foundation"
+      ],
+      "prerequisiteExplanation": "只使用已教句型和明示词汇，把骨架/指代能力迁移到短文及答案证据。",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/reading/a1",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+      ],
+      "explanation": "先读原创短文A，不计时猜答案。Rui是人名，Monday/Tuesday/Friday是周一/周二/周五；studied是学习过，remembered是想起，once是一次。A1写周一学六词，A3写周二记住两词，A6写周五记住五词，三个数字的对象和日期不同。定位题先圈问题中的人、动作、时间，再回原句找相同条件，而不是看到six就填6。本课所有文章都是原创教学文本，不是历年真题，短篇成功也不等于考研阅读全部完成。\n\n指代是用较短的词接回已经提到的人或事。A2的He接A1的Rui，his note是Rui的笔记；A4的them接the words，而不是the note。A5的They在这段情境指Rui和分享计划的Leah，不是所有学习者。遇到代词先找语法上数量合适、意义上能完成动作的候选，再把名字代回句子检验；不能把最近的任何名词机械当先行词。若文字缺乏足够线索，应保留不确定，不能编人物。\n\n推断要区分原文说了什么和你想补什么。A4中的share是分享、plan是方案；冒号后是三个指令：cover盖住、recall回忆、check核对。A5与A6表明尝试后记住词数变多，但没有随机对照、也没有说明所有其他条件；最多说Rui在这次记录中表现改善，不能说该计划必然造成提高或所有人都有效。A7主动限制这个结果的外推范围。证据可以来自两句合读，但必须说清桥梁和限制，不能把常识当文中事实。\n\n回答简答题时用结论—原句编号—限制的三步法。示范：Rui的记录从周二两词到周五五词，依据A3和A6；这不证明所有学习者提高，A7已有边界。练习时题目内重复提供短文，避免闭卷后找不到文本；闭卷是先独立回忆方法，不要求靠记数字代替阅读。延迟测试改用Nora短文B，twice是两次，describes是描述，其余词给定。系统保留你的文字、错因与到期时间，主观结论用参考要点待核对，不能伪造精确评分。",
+      "definition": "阅读答案须匹配对象和时间、检查指代并把推断限定在文本证据范围。",
+      "conditions": "只练原创短篇与给定词义；不把相关先后关系当因果，不外推全部考研阅读难度；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "问周二记住多少→A3 two，不是A1 six。\nA4 check them →核对the words；A2 He→Rui。\nA5+A6支持先尝试后记录变好，不证明普遍因果。\n结论：两词变五词；证据A3/A6；限制A7，不是所有人。",
+      "misconceptions": [
+        "忽略人或日期，取第一个数字。",
+        "最近名词机械替代代词。",
+        "把前后变化当普遍因果。",
+        "不给原句证据或不说明外推限制。"
+      ],
+      "recall": [
+        "不看短文，复述定位人、动作、日期的步骤。",
+        "说明检验代词先行词的两个条件。",
+        "区分原文明示、有限推断和无依据扩展。",
+        "闭卷复述简答三步法，再独立读新短文作答。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "问周二记住多少→A3 two，不是A1 six。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "A4 check them →核对the words；A2 He→Rui。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "A5+A6支持先尝试后记录变好，不证明普遍因果。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "结论：两词变五词；证据A3/A6；限制A7，不是所有人。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-reading-evidence-foundation-g1",
+          "description": "按对象和时间定位明示事实",
+          "successCriteria": "在两篇原创文本中找到指定日期的词数，并排除其他日期干扰。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-reading-evidence-foundation-b1",
+            "en-reading-evidence-foundation-a1",
+            "en-reading-evidence-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-evidence-foundation-g2",
+          "description": "把代词还原成有依据的对象",
+          "successCriteria": "用相应句子辨认He/They/them并解释单复数与语义线索。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-reading-evidence-foundation-b2",
+            "en-reading-evidence-foundation-a2",
+            "en-reading-evidence-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-evidence-foundation-g3",
+          "description": "识别推断和因果外推的边界",
+          "successCriteria": "区分记录变化与因果保证，选择保留对象范围的结论。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-reading-evidence-foundation-b3",
+            "en-reading-evidence-foundation-a3",
+            "en-reading-evidence-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-evidence-foundation-g4",
+          "description": "写有文本依据的简短回答",
+          "successCriteria": "真实写出结论、至少两个相关句号和适用限制，待参考要点核对。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-reading-evidence-foundation-b4",
+            "en-reading-evidence-foundation-a4",
+            "en-reading-evidence-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "指出指定人物和日期，数字对应原文。",
+        "列出能支持结论的句子编号或等义引述。",
+        "指代与原文一致，不增加人物或情节。",
+        "说明单人记录不能证明普遍因果；主观待核对。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核短文自然度、指代明确性及词汇负荷。",
+          "阅读方法为教学补充，不代表2028官方题型或难度。",
+          "相同短文在多题中重复提供属于自足呈现，需区别真正重复题。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "en-reading-evidence-foundation-b1",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\n周二Rui记住多少词？",
+          "options": [
+            "two",
+            "six",
+            "five"
+          ],
+          "answer": 0,
+          "explanation": "A3明确Tuesday和two；A1 six是周一所学数，A6 five是周五记住数，日期和动作都要匹配。",
+          "difficulty": "foundation",
+          "errorCauseHint": "忽略人或日期，取第一个数字。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A3"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-b2",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\nA2的He最明确指谁？",
+          "options": [
+            "Leah",
+            "Rui",
+            "所有学生"
+          ],
+          "answer": 1,
+          "explanation": "A1介绍Rui，A2继续他读自己的笔记；Leah到A4才引入，也不能扩成所有学生。",
+          "difficulty": "foundation",
+          "errorCauseHint": "最近名词机械替代代词。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A1",
+              "A2"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-b3",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\n哪项结论最受短文支持？",
+          "options": [
+            "方案对任何人必然有效",
+            "五个词都是新学而从未学过的",
+            "Rui这次的记忆记录改善，但不能保证所有人有效"
+          ],
+          "answer": 2,
+          "explanation": "A3/A6显示记录变化，A7限制外推。没有对照或普遍证据，不能保证因果，也没有五词全新来源的信息。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把前后变化当普遍因果。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A3",
+              "A6",
+              "A7"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-b4",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\n哪种简答最符合证据要求？",
+          "options": [
+            "依据A3和A6说两词到五词，并保留A7限制",
+            "只写这个方法神奇",
+            "只说我也喜欢笔记"
+          ],
+          "answer": 0,
+          "explanation": "简答应给与问题相符的变化、文本支持和限制；个人喜好与没有证据的夸大都不能替代阅读解释。",
+          "difficulty": "foundation",
+          "errorCauseHint": "不给原句证据或不说明外推限制。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A3",
+              "A6",
+              "A7"
+            ],
+            "supportType": "limits"
+          }
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-reading-evidence-foundation-a1",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\n从周一所学到周五记住，正确对应是哪项？",
+          "options": [
+            "周一五、周五六",
+            "周一六、周五五",
+            "两天都是二"
+          ],
+          "answer": 1,
+          "explanation": "A1 studied six与A6 remembered five不是同一动作；先区分学习数量与回忆数量，不能用变化制造新事实。",
+          "difficulty": "application",
+          "errorCauseHint": "忽略人或日期，取第一个数字。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A1",
+              "A6"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-a2",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\nA4中check them的them指什么？",
+          "options": [
+            "所有人",
+            "笔记",
+            "词"
+          ],
+          "answer": 2,
+          "explanation": "cover the note后recall the words再check them，复数them与words对应，核对的是回忆出的词而非人群。",
+          "difficulty": "application",
+          "errorCauseHint": "最近名词机械替代代词。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A4"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-a3",
+          "type": "single",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\nA5和A6先后出现，能否证明方案单独导致改善？",
+          "options": [
+            "不能；只是该次先后记录，其他因素未控制",
+            "能；只要写then就是因果",
+            "能；有三天就足够普遍"
+          ],
+          "answer": 0,
+          "explanation": "短文未排除其他学习、熟悉度等因素。先后顺序和时间长短不足以证明独立因果，A7还明确限制对象。",
+          "difficulty": "application",
+          "errorCauseHint": "把前后变化当普遍因果。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A5",
+              "A6",
+              "A7"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-a4",
+          "type": "subjective",
+          "stem": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.\n\n用中文概括Rui哪两次回忆记录发生变化，写出句子编号，并说一项不能推出的结论。",
+          "answer": "A3周二两词，A6周五五词；不能据此保证对所有人有效或证明方案独立因果，A7明确范围限制。",
+          "rubric": [
+            "指出指定人物和日期，数字对应原文。",
+            "列出能支持结论的句子编号或等义引述。",
+            "指代与原文一致，不增加人物或情节。",
+            "说明单人记录不能证明普遍因果；主观待核对。"
+          ],
+          "explanation": "核对人物、日期、两次回忆而非初学数量，以及A7边界。接受等义表达；保留原文，评分要点用于待核对而非关键词自动给分。",
+          "difficulty": "application",
+          "errorCauseHint": "不给原句证据或不说明外推限制。",
+          "readingEvidence": {
+            "passageId": "A",
+            "sentenceIds": [
+              "A3",
+              "A6",
+              "A7"
+            ],
+            "supportType": "limits"
+          }
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "en-reading-evidence-foundation-d1",
+          "type": "single",
+          "stem": "B1 Nora studied four new words on Saturday.\nB2 She read a note twice.\nB3 On Sunday, she remembered one word.\nB4 Then she covered the note, recalled the words and checked them.\nB5 On Monday, she remembered three words.\nB6 This result describes Nora, not every learner.\n\n隔日新文中，Nora周日记住多少词？",
+          "options": [
+            "four",
+            "one",
+            "three"
+          ],
+          "answer": 1,
+          "explanation": "B3 On Sunday ...one word直接支持；B1 four是周六所学量，B5 three是周一回忆，不能混用。",
+          "difficulty": "delayed",
+          "errorCauseHint": "忽略人或日期，取第一个数字。",
+          "readingEvidence": {
+            "passageId": "B",
+            "sentenceIds": [
+              "B3"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-d2",
+          "type": "single",
+          "stem": "B1 Nora studied four new words on Saturday.\nB2 She read a note twice.\nB3 On Sunday, she remembered one word.\nB4 Then she covered the note, recalled the words and checked them.\nB5 On Monday, she remembered three words.\nB6 This result describes Nora, not every learner.\n\nB4末尾checked them中的them指什么？",
+          "options": [
+            "Nora",
+            "那条笔记",
+            "词"
+          ],
+          "answer": 2,
+          "explanation": "B4先盖笔记、回忆词再核对它们，复数them回接words；不是单数note或人名Nora。",
+          "difficulty": "delayed",
+          "errorCauseHint": "最近名词机械替代代词。",
+          "readingEvidence": {
+            "passageId": "B",
+            "sentenceIds": [
+              "B4"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-d3",
+          "type": "single",
+          "stem": "B1 Nora studied four new words on Saturday.\nB2 She read a note twice.\nB3 On Sunday, she remembered one word.\nB4 Then she covered the note, recalled the words and checked them.\nB5 On Monday, she remembered three words.\nB6 This result describes Nora, not every learner.\n\n新文哪种结论适当？",
+          "options": [
+            "Nora周日到周一回忆记录变好，但不代表每个人",
+            "每个人一定三天学会全部单词",
+            "Nora再也不会遗忘"
+          ],
+          "answer": 0,
+          "explanation": "B3与B5给出一到三，B6限制为Nora的结果；短文没有未来不忘或所有人表现的证据。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把前后变化当普遍因果。",
+          "readingEvidence": {
+            "passageId": "B",
+            "sentenceIds": [
+              "B3",
+              "B5",
+              "B6"
+            ],
+            "supportType": "direct"
+          }
+        },
+        {
+          "id": "en-reading-evidence-foundation-d4",
+          "type": "subjective",
+          "stem": "B1 Nora studied four new words on Saturday.\nB2 She read a note twice.\nB3 On Sunday, she remembered one word.\nB4 Then she covered the note, recalled the words and checked them.\nB5 On Monday, she remembered three words.\nB6 This result describes Nora, not every learner.\n\n用B文写一段简答：回忆数量怎样变、依据哪两句、为什么不能保证普遍效果？",
+          "answer": "从B3周日一词到B5周一三词；B6只描述Nora，单人记录没有普遍或对照证据。",
+          "rubric": [
+            "指出指定人物和日期，数字对应原文。",
+            "列出能支持结论的句子编号或等义引述。",
+            "指代与原文一致，不增加人物或情节。",
+            "说明单人记录不能证明普遍因果；主观待核对。"
+          ],
+          "explanation": "延迟题更换人物日期与数量，检验方法迁移。核对B3/B5/B6及限制，允许等义中文，不据此推断真实考试分数。",
+          "difficulty": "delayed",
+          "errorCauseHint": "不给原句证据或不说明外推限制。",
+          "readingEvidence": {
+            "passageId": "B",
+            "sentenceIds": [
+              "B3",
+              "B5",
+              "B6"
+            ],
+            "supportType": "limits"
+          }
+        }
+      ],
+      "readingPassages": [
+        {
+          "id": "A",
+          "sentences": [
+            {
+              "id": "A1",
+              "text": "Rui studied six new words on Monday."
+            },
+            {
+              "id": "A2",
+              "text": "He read his note once."
+            },
+            {
+              "id": "A3",
+              "text": "On Tuesday, he remembered two words."
+            },
+            {
+              "id": "A4",
+              "text": "Leah shared a new plan: cover the note, recall the words, and then check them."
+            },
+            {
+              "id": "A5",
+              "text": "They tried this plan for three days."
+            },
+            {
+              "id": "A6",
+              "text": "On Friday, Rui remembered five words."
+            },
+            {
+              "id": "A7",
+              "text": "This small result is evidence about Rui's learning, not a rule for everyone."
+            }
+          ],
+          "origin": "original-not-past-exam"
+        },
+        {
+          "id": "B",
+          "sentences": [
+            {
+              "id": "B1",
+              "text": "Nora studied four new words on Saturday."
+            },
+            {
+              "id": "B2",
+              "text": "She read a note twice."
+            },
+            {
+              "id": "B3",
+              "text": "On Sunday, she remembered one word."
+            },
+            {
+              "id": "B4",
+              "text": "Then she covered the note, recalled the words and checked them."
+            },
+            {
+              "id": "B5",
+              "text": "On Monday, she remembered three words."
+            },
+            {
+              "id": "B6",
+              "text": "This result describes Nora, not every learner."
+            }
+          ],
+          "origin": "original-delayed-text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "pol-people-individual-history",
+      "version": "0.1",
+      "subject": "pol",
+      "title": "人民群众与个人的历史作用：主体、条件与合力",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-social-being-consciousness",
+        "pol-productive-forces-relations",
+        "pol-epistemology-case-analysis"
+      ],
+      "prerequisiteExplanation": "将物质条件和实际行动分析迁移到历史主体，避免把认识论材料改写为同一课。",
+      "sources": [
+        "https://fuwu.12371.cn/2014/04/08/ARTI1396920690906651_7.shtml",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ],
+      "explanation": "本课在历史唯物主义框架下讨论谁推动社会历史，不是统计谁在新闻中出现最多。人民群众是社会实践的主体，物质财富与精神财富的创造离不开广大人民的劳动、交流和实践活动；社会变革也必须通过现实人的活动实现。这里的群众不是随手把几个观众叫一群人，也不是把复杂社会里的每个人在每件事上的作用说成相同。要看具体历史条件中实际承担生产、创造和变革的社会实践。\n\n承认群众主体作用，不等于个人没有作用。个人可能提出思想、组织行动、发明工具或推动政策，也可能阻碍发展；作用大小和方向需结合社会条件、群体实践及实际结果判断。历史人物无法凭主观愿望任意选择继承的经济、技术和社会条件，也不能独自替代所有人的劳动。虚构图书馆改进借阅流程，一名馆员提出方案，但分类、实施与反馈依靠多人合作；既不抹去提出者，也不把所有改善归功于一人。\n\n恩格斯关于相互作用和个人意志合力的论述提醒我们：许多人在既有条件中行动，结果不能只用单个人的愿望解释。合力不是机械相加赞同票，也不保证每个人的目标都原样实现。图书馆中馆员希望节省整理时间，读者希望更快找书，设施和经费又有限；共同实践可能形成不同于最初单一设想的安排。应分析行动怎样通过条件发生作用，而非用“英雄决定一切”或“个人永远无关”两句口号替代研究。\n\n材料分析先列群体实践，再找个人具体贡献，然后写条件和证据。原创案例：志愿者整理资料，某人提出分类法，大家试用后因使用习惯调整标签。可说集体实施与反馈不可替代，个人倡议也发挥作用；不能从一次成功推出该人可脱离条件改变任意历史。闭卷要求独立复述两种片面观点的错误，练习要求对新案例提出理由。参考评分点是教学核对表而非官方评分，不把出现“群众”二字自动当完整答案。",
+      "definition": "历史唯物主义强调人民群众的社会实践主体作用，同时在具体条件与实践中评价个人作用。",
+      "conditions": "理论入门和虚构协作案例，不把简化组织案例等同完整历史解释；不对真实人物作无来源评价；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "生产与文化创造依赖现实社会实践，不只依赖著名姓名。\n图书馆方案提出者有贡献，但实施反馈依赖多人和资源。\n多方目标与条件相互作用，结果并非一人愿望原样实现。\n材料答题：群体实践—个人贡献—条件—不能推出的结论。",
+      "misconceptions": [
+        "英雄一个人创造一切历史。",
+        "承认群众就必须否认个人贡献。",
+        "合力就是所有人目标原样相加。",
+        "只写群众关键词，不解释材料中的实践。"
+      ],
+      "recall": [
+        "闭卷说出群众主体作用的实践依据。",
+        "说明个人作用应放在什么条件中评价。",
+        "解释合力为何不等于个人愿望简单相加。",
+        "用新案例同时分析群体、个人与条件。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "生产与文化创造依赖现实社会实践，不只依赖著名姓名。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "图书馆方案提出者有贡献，但实施反馈依赖多人和资源。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "多方目标与条件相互作用，结果并非一人愿望原样实现。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "材料答题：群体实践—个人贡献—条件—不能推出的结论。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-people-individual-history-g1",
+          "description": "说明群众主体作用的实践依据",
+          "successCriteria": "能联系生产、精神创造或变革活动说明，不按知名度代替实践。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-people-individual-history-b1",
+            "pol-people-individual-history-a1",
+            "pol-people-individual-history-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-people-individual-history-g2",
+          "description": "有条件地评价个人作用",
+          "successCriteria": "指出具体个人贡献与条件，避免英雄万能和个人无用两极。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-people-individual-history-b2",
+            "pol-people-individual-history-a2",
+            "pol-people-individual-history-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-people-individual-history-g3",
+          "description": "解释相互作用与合力",
+          "successCriteria": "在多人目标不一致的情境中识别共同作用和未必预设的结果。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-people-individual-history-b3",
+            "pol-people-individual-history-a3",
+            "pol-people-individual-history-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-people-individual-history-g4",
+          "description": "形成有材料依据的分析",
+          "successCriteria": "写出群体实践、个人贡献和限制，原文可对照参考要点核验。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-people-individual-history-b4",
+            "pol-people-individual-history-a4",
+            "pol-people-individual-history-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "说明具体社会实践及群体贡献。",
+        "指出个人实际贡献，不抹去或夸大。",
+        "分析资源、既有关系或协作等条件。",
+        "不从单例作万能结论，主观待教师核对。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "理论教师复核群众概念边界、个人与历史条件的讲解。",
+          "虚构组织案例是方法桥梁，不应替代复杂历史材料训练。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "pol-people-individual-history-b1",
+          "type": "single",
+          "stem": "本课判断历史主体作用首先看什么？",
+          "options": [
+            "实际社会实践与创造活动",
+            "新闻出现次数",
+            "个人名气"
+          ],
+          "answer": 0,
+          "explanation": "主体作用应联系生产创造和社会变革的现实活动，知名度与报道数量不能代替历史实践依据。",
+          "difficulty": "foundation",
+          "errorCauseHint": "英雄一个人创造一切历史。"
+        },
+        {
+          "id": "pol-people-individual-history-b2",
+          "type": "single",
+          "stem": "承认群众主体作用是否意味着个人毫无作用？",
+          "options": [
+            "是，个人一概无贡献",
+            "否，须在条件与实践中评价个人具体作用",
+            "个人作用可脱离社会条件"
+          ],
+          "answer": 1,
+          "explanation": "个人能推动或阻碍实践，但受社会条件并通过群体活动发挥作用；两个绝对化判断都不完整。",
+          "difficulty": "foundation",
+          "errorCauseHint": "承认群众就必须否认个人贡献。"
+        },
+        {
+          "id": "pol-people-individual-history-b3",
+          "type": "single",
+          "stem": "合力论述最不应被解释为何种规则？",
+          "options": [
+            "多种行动相互作用",
+            "条件影响结果",
+            "所有愿望必然原样相加实现"
+          ],
+          "answer": 2,
+          "explanation": "合力并不保证每个人原初目标都实现，结果由相互作用形成，不能把理论变成愿望票数的机械求和。",
+          "difficulty": "foundation",
+          "errorCauseHint": "合力就是所有人目标原样相加。"
+        },
+        {
+          "id": "pol-people-individual-history-b4",
+          "type": "single",
+          "stem": "材料分析哪种回答较完整？",
+          "options": [
+            "列群体实践、个人贡献和条件限制",
+            "只写群众两个字",
+            "只列一个名人"
+          ],
+          "answer": 0,
+          "explanation": "完整回答需要把范畴落到材料行动和条件上；单个词或名字既不能展示理解，也不足以构成评分依据。",
+          "difficulty": "foundation",
+          "errorCauseHint": "只写群众关键词，不解释材料中的实践。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-people-individual-history-a1",
+          "type": "single",
+          "stem": "某馆员提方案，多人分类实施并反馈。对个人贡献如何评价？",
+          "options": [
+            "方案人独自完成所有工作",
+            "提出者有贡献，实施仍依赖多人和资源",
+            "所有人都没有作用"
+          ],
+          "answer": 1,
+          "explanation": "材料同时有倡议、实施、反馈和条件，须兼顾不同贡献；不能把方案的提出等同全部实践结果。",
+          "difficulty": "application",
+          "errorCauseHint": "英雄一个人创造一切历史。"
+        },
+        {
+          "id": "pol-people-individual-history-a2",
+          "type": "single",
+          "stem": "众人希望不同，最终规则经过试行调整。这最能说明？",
+          "options": [
+            "个体目标完全一致",
+            "物质条件不存在",
+            "结果受多方行动与条件相互作用"
+          ],
+          "answer": 2,
+          "explanation": "不同目标与试行反馈形成新安排，不是单一愿望直接决定。相互作用并不意味着无需分析具体条件。",
+          "difficulty": "application",
+          "errorCauseHint": "承认群众就必须否认个人贡献。"
+        },
+        {
+          "id": "pol-people-individual-history-a3",
+          "type": "single",
+          "stem": "有人据一次志愿活动成功断言组织者可改变任意历史，问题是？",
+          "options": [
+            "从有限案例外推个人万能，忽略条件和集体实践",
+            "个人确实完全不能有作用",
+            "志愿者不算实际行动"
+          ],
+          "answer": 0,
+          "explanation": "单例不能证明任意社会环境中的无限能力；指出夸大并不等于否认组织者的实际贡献或他人实践。",
+          "difficulty": "application",
+          "errorCauseHint": "合力就是所有人目标原样相加。"
+        },
+        {
+          "id": "pol-people-individual-history-a4",
+          "type": "subjective",
+          "stem": "志愿者整理资料，一人提分类法，集体试用后改标签。写出群众、个人及条件三个方面，不只列关键词。",
+          "answer": "集体整理试用反馈承担实际实践；提出分类法者作出具体贡献；既有资料、使用习惯和资源影响方案，不能归功于一人万能。",
+          "rubric": [
+            "说明具体社会实践及群体贡献。",
+            "指出个人实际贡献，不抹去或夸大。",
+            "分析资源、既有关系或协作等条件。",
+            "不从单例作万能结论，主观待教师核对。"
+          ],
+          "explanation": "核对行动证据和三方面关系。可有合理不同条件，但不能编材料外事实当既定结论，参考要点不等于官方分数。",
+          "difficulty": "application",
+          "errorCauseHint": "只写群众关键词，不解释材料中的实践。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-people-individual-history-d1",
+          "type": "single",
+          "stem": "隔日：只研究著名人物名字而不看生产与社会行动，主要缺什么？",
+          "options": [
+            "更多姓名拼写",
+            "群众实践与条件的依据",
+            "所有个人贡献都须删除"
+          ],
+          "answer": 1,
+          "explanation": "缺少现实社会活动与条件的分析，不是单纯姓名数量问题，也不必删除有证据的个人贡献。",
+          "difficulty": "delayed",
+          "errorCauseHint": "英雄一个人创造一切历史。"
+        },
+        {
+          "id": "pol-people-individual-history-d2",
+          "type": "single",
+          "stem": "评价一位倡议者的历史作用，哪种方法适当？",
+          "options": [
+            "只按其自述愿望",
+            "先认定作用永远为零",
+            "考察具体贡献、实践结果及社会条件"
+          ],
+          "answer": 2,
+          "explanation": "实际作用须由行动结果及条件评价，既不能把愿望当全部历史，也不能预先否定所有个人作用。",
+          "difficulty": "delayed",
+          "errorCauseHint": "承认群众就必须否认个人贡献。"
+        },
+        {
+          "id": "pol-people-individual-history-d3",
+          "type": "single",
+          "stem": "多人行动后出现并非任何一人完整预定的结果，这与合力分析？",
+          "options": [
+            "相容，结果可以由条件中的相互作用形成",
+            "矛盾，结果必须等于某个人全部愿望",
+            "证明人不可能行动"
+          ],
+          "answer": 0,
+          "explanation": "合力分析允许结果不同于单一意图，仍需研究各行动如何受条件制约；不能跳成宿命或无行动。",
+          "difficulty": "delayed",
+          "errorCauseHint": "合力就是所有人目标原样相加。"
+        },
+        {
+          "id": "pol-people-individual-history-d4",
+          "type": "subjective",
+          "stem": "自拟一个协作改进案例，写个人贡献、共同实践、一个限制条件，并反驳个人万能或个人无用之一。",
+          "answer": "例如一人提阅览规则，多人实施并反馈，场地资源限制方案；倡议有作用但不能脱离集体实施，所以非个人万能。",
+          "rubric": [
+            "说明具体社会实践及群体贡献。",
+            "指出个人实际贡献，不抹去或夸大。",
+            "分析资源、既有关系或协作等条件。",
+            "不从单例作万能结论，主观待教师核对。"
+          ],
+          "explanation": "核对例子内的具体行动与条件，避免只有抽象口号。允许其他原创案例，主观答案保持待核对，不生成虚构专业评分。",
+          "difficulty": "delayed",
+          "errorCauseHint": "只写群众关键词，不解释材料中的实践。"
+        }
+      ]
+    }
+  ]
+}

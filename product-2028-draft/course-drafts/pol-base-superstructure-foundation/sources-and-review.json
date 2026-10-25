@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "pol-plan-1"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://2d.hep.com.cn/13384041111111/3",
+      "publisher": "高等教育出版社电子原著",
+      "originalYear": 1859,
+      "locator": "《政治经济学批判》序言，生产关系总和/经济结构/上层建筑段",
+      "supports": [
+        "经济基础定义、上层建筑及社会变革关系"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+      "publisher": "恩格斯原信电子文本/Marxists Internet Archive",
+      "originalDate": "1890-09-21/22",
+      "locator": "经济因素归根到底制约但非唯一因素；相互作用和个人意志合力诸段",
+      "supports": [
+        "非单一机械决定、条件与合力"
+      ],
+      "limitation": "原著电子转录，网页发布日期未标；不冒称原手稿图像"
+    }
+  ],
+  "pendingReview": [
+    "马克思主义理论教师确认生产关系/上层建筑范畴及简化案例边界。",
+    "原著术语到零基础讲解的转述须独立复核；非2028最终大纲确认。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

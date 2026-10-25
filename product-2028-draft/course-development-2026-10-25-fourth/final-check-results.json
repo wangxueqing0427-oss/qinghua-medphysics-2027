@@ -1,0 +1,29 @@
+{
+  "scope": "Final evidence/locator/hash consistency only; no historical browser or full CI rerun",
+  "results": [
+    {
+      "name": "Current nine content hashes equal actual tested hashes and append-only pending review decisions",
+      "pass": true
+    },
+    {
+      "name": "All selected test results passed and source records have precise locators/no invented publication date",
+      "pass": true
+    },
+    {
+      "name": "Independent normal CDF arithmetic receipt matches four-decimal table",
+      "pass": true
+    },
+    {
+      "name": "All protected338 files remain byte-identical after reports and targeted tests",
+      "pass": true
+    }
+  ],
+  "cdfIndependentCommand": "python -c import math; round((1+math.erf(z/math.sqrt(2)))/2,4) for z in [0,1,-1,2]",
+  "cdfObserved": {
+    "0": 0.5,
+    "1": 0.8413,
+    "2": 0.9772,
+    "-1": 0.1587
+  },
+  "expertApproved": 0
+}

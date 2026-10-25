@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "pol-plan-1"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": "2014-04-08",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://fuwu.12371.cn/2014/04/08/ARTI1396920690906651_7.shtml",
+      "publisher": "共产党员网/《党的群众路线学习问答》，人民日报出版社",
+      "locator": "第六问：人民群众是实践和认识的主体、物质精神财富创造者和社会变革力量",
+      "supports": [
+        "历史主体及集体实践的理论表述"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+      "publisher": "恩格斯原信电子文本/Marxists Internet Archive",
+      "originalDate": "1890-09-21/22",
+      "locator": "经济因素归根到底制约但非唯一因素；相互作用和个人意志合力诸段",
+      "supports": [
+        "非单一机械决定、条件与合力"
+      ],
+      "limitation": "原著电子转录，网页发布日期未标；不冒称原手稿图像"
+    }
+  ],
+  "pendingReview": [
+    "理论教师复核群众概念边界、个人与历史条件的讲解。",
+    "虚构组织案例是方法桥梁，不应替代复杂历史材料训练。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

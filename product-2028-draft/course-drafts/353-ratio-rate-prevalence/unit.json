@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "353-ratio-rate-prevalence",
+      "version": "0.1",
+      "subject": "353",
+      "title": "率、比例、比与患病率：按对象、时间和分母辨析",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "mapping": [
+        "s27-8-1",
+        "s27-8-2"
+      ],
+      "prerequisites": [
+        "353-variable-types",
+        "353-study-design-foundation",
+        "353-frequency-denominator",
+        "353-incidence-risk",
+        "353-person-time"
+      ],
+      "prerequisiteExplanation": "直接引用三课已教分母，只新增指标选用/对照和现患状况解释，不重做相同风险或人时计算课。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ],
+      "explanation": "指标名字带“率”不等于分母一定有人时。比是两个量相除，分子不必是分母一部分；男20人女10人，男女性别比20/10=2，可大于1。比例的分子须包含在分母中，男占全体20/30，介于0和1之间。若用新发事件除以观察人时，结果有时间倒数维度；风险或患病比例则是无量纲。本课不重复人时计算，而练先找对象、时间、分子是否属于分母，再决定量的性质，不能靠中文名猜。\n\n时点患病率描述指定时刻人群中正在患某病的比例，分子包括当时仍患病的新旧病例。例：某日零时在册80人，其中8人符合当前患病定义，时点患病率8/80=0.10，即10%；分母包括这8个病例，而非只剩72名未患病者。对象、日期、病例定义和在册范围必须一致。它不是观察从健康到新发的风险，所以不能把旧病例排出分子，也不能拿就诊者人数自动代表全社区人口。\n\n期间患病率问指定期间内曾患病的独立人数，不是每天病例数相加。本课给一个封闭、成员固定且全程资料完整的100人群体：一月内共有12名不同的人曾符合患病定义，其中有月初旧病例，也有当月新病例，期间比例为12/100=12%。同一人病十天只数一人。开放或人口流动群体可能使用明确界定的平均/中期人口等分母，必须按研究定义说明；不能把本课固定100人的特例当一切期间患病率的万能分母。\n\n按研究问题选指标：问今天医疗服务负担可看当前现患比例；问起初健康者一段时间内新发概率看累计风险；问新事件相对不同观察时间看发病密度。患病率受发生、病程及生存等共同影响，不能从高患病率直接断定新发风险一定高，更不能单凭横断面关联推因果。遇到数据只报病例却不交代时点、对象或分母，应先要求定义。闭卷与延迟题都要写实际分子分母、时间和限制；公式会算不等于指标选对。",
+      "definition": "用对象、时间、分母和量纲辨析比、比例及人时率；患病率为指定时点/期间现患状况的比例，不等于新发风险。",
+      "conditions": "期间计算例限固定封闭且全程记录完整人群；开放人群分母须另定义，非临床诊断规则；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "男20/女10=2是比；男20/全体30是比例。\n指定时刻8个现患/80全体=10%，不是8/72。\n固定100人一月12个独立患病者=12%，不累计患病天数。\n今天现患、未来新发、人时发病三个研究问题，分别选相应指标。",
+      "misconceptions": [
+        "看到率字就把所有指标当人时率。",
+        "时点患病分母只放未患病者或只数新病例。",
+        "期间把同一人重复数或把特定分母推广所有开放人群。",
+        "从高患病率直接推出高新发风险或因果。"
+      ],
+      "recall": [
+        "分别举比、比例、人时率，说明分子包含关系与单位。",
+        "闭卷写时点患病率分子分母和日期要求。",
+        "说明期间独立人数的去重及固定群体前提。",
+        "给现患、新发风险和人时问题各选指标并说明不能推出什么。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "男20/女10=2是比；男20/全体30是比例。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "指定时刻8个现患/80全体=10%，不是8/72。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "固定100人一月12个独立患病者=12%，不累计患病天数。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "今天现患、未来新发、人时发病三个研究问题，分别选相应指标。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-ratio-rate-prevalence-g1",
+          "description": "按包含关系和维度辨析指标",
+          "successCriteria": "在具体数量中区分比、比例和时间率，排除只凭指标名称猜测。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-ratio-rate-prevalence-b1",
+            "353-ratio-rate-prevalence-a1",
+            "353-ratio-rate-prevalence-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-g2",
+          "description": "正确计算并解释时点患病率",
+          "successCriteria": "用同一时刻全体为分母，包含现患新旧病例，解释百分比。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-ratio-rate-prevalence-b2",
+            "353-ratio-rate-prevalence-a2",
+            "353-ratio-rate-prevalence-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-g3",
+          "description": "处理期间患病的独立人数与前提",
+          "successCriteria": "对固定封闭完整群体计算去重比例，并指出开放人群分母须定义。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-ratio-rate-prevalence-b3",
+            "353-ratio-rate-prevalence-a3",
+            "353-ratio-rate-prevalence-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-g4",
+          "description": "按问题选择指标并限制解释",
+          "successCriteria": "区分现患负担、新发风险和人时，真实说明患病率不能单独证明风险或因果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-ratio-rate-prevalence-b4",
+            "353-ratio-rate-prevalence-a4",
+            "353-ratio-rate-prevalence-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "对象时间病例定义一致。",
+        "分母包含现患病例，不只健康者。",
+        "期间按独立人去重，明确固定完整人群特例。",
+        "区分现患、新发与人时，不作无依据因果解释。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "流行病学教师复核期间患病率分母表述与开放人群边界。",
+          "率的术语约定多样，本课区分量的性质而非否定习惯名称。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-ratio-rate-prevalence-b1",
+          "type": "single",
+          "stem": "男20人、女10人，男/女=2最直接属于？",
+          "options": [
+            "比，分子不必包含在分母中",
+            "全体中男性比例",
+            "每人年发病密度"
+          ],
+          "answer": 0,
+          "explanation": "男和女是两个组，相除为比可大于1；男性占全体应为20/30，且这里没有观察人时。",
+          "difficulty": "foundation",
+          "errorCauseHint": "看到率字就把所有指标当人时率。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-b2",
+          "type": "single",
+          "stem": "某日零时80人中8人正在患病，时点患病率分母是？",
+          "options": [
+            "72名未患病者",
+            "80名当时全体",
+            "只有当天新患病者"
+          ],
+          "answer": 1,
+          "explanation": "时点比例分母是同一时刻符合人群范围的全体，包含现患者；不能套用累计风险的起初健康分母。",
+          "difficulty": "foundation",
+          "errorCauseHint": "时点患病分母只放未患病者或只数新病例。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-b3",
+          "type": "single",
+          "stem": "固定100人一月曾患病12人，其中某人患病十天，如何计数？",
+          "options": [
+            "该人计十次",
+            "仅数月末仍病者",
+            "每名独立患病者只计一次"
+          ],
+          "answer": 2,
+          "explanation": "期间患病比例统计期间内独立人，不是患病人天，也不是只看月末一个时点。固定完整群体的前提不可省略。",
+          "difficulty": "foundation",
+          "errorCauseHint": "期间把同一人重复数或把特定分母推广所有开放人群。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-b4",
+          "type": "single",
+          "stem": "要描述今天在册人群的当前患病负担，优先看？",
+          "options": [
+            "定义清楚的时点患病比例",
+            "只用健康者作分母的现患比",
+            "没有人口分母的病例数即普遍风险"
+          ],
+          "answer": 0,
+          "explanation": "当前负担与同一时刻现患比例相符；病例数可报告但不等于有分母的比例，更不能直接称普遍风险。",
+          "difficulty": "foundation",
+          "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-ratio-rate-prevalence-a1",
+          "type": "single",
+          "stem": "某班男12人、女8人，男性占全体的比例是？",
+          "options": [
+            "12/8=1.5",
+            "12/20=0.6",
+            "8/12约0.667"
+          ],
+          "answer": 1,
+          "explanation": "占全体要求分母包含男和女，20人为总体；12/8是男女性别比，倒数也不是男性占全体。",
+          "difficulty": "application",
+          "errorCauseHint": "看到率字就把所有指标当人时率。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-a2",
+          "type": "number",
+          "stem": "某时刻120名在册者中18人正在患病，含旧病例。填时点患病率小数，不填百分数。",
+          "answer": 0.15,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "同一时点分母120包含18个病例，18÷120=0.15即15%；不减病例得102，也不排除旧病例。",
+          "difficulty": "application",
+          "errorCauseHint": "时点患病分母只放未患病者或只数新病例。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-a3",
+          "type": "number",
+          "stem": "固定200人全季完整记录，共30名不同者曾患病，有人多次发作。填本例期间患病比例小数。",
+          "answer": 0.15,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "独立患病者30除固定完整群体200为0.15。复发不另增人数；该分母只在题设固定群体下成立。",
+          "difficulty": "application",
+          "errorCauseHint": "期间把同一人重复数或把特定分母推广所有开放人群。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-a4",
+          "type": "subjective",
+          "stem": "A地区现患比例较高，能否据此断言新发风险一定更高？说明需要区分的分母、时间及至少一个影响因素。",
+          "answer": "不能；现患用指定时点/期间全体，新发风险用起初未病且可发病者及观察期。病程、生存等也影响现患，需相应发生数据，不能仅由现患推因果。",
+          "rubric": [
+            "对象时间病例定义一致。",
+            "分母包含现患病例，不只健康者。",
+            "期间按独立人去重，明确固定完整人群特例。",
+            "区分现患、新发与人时，不作无依据因果解释。"
+          ],
+          "explanation": "核对指标对象、时间分母和至少一个病程/生存等因素；不要求临床推断。参考要点待专业复核，不给关键词分数。",
+          "difficulty": "application",
+          "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-ratio-rate-prevalence-d1",
+          "type": "single",
+          "stem": "隔日：某报告给10新事件/500人年。与10/500人的比例相比，关键区别是？",
+          "options": [
+            "分子一定全是旧病例",
+            "分母含观察时间，单位为时间倒数",
+            "二者单位必相同"
+          ],
+          "answer": 1,
+          "explanation": "人时分母含时间维度，所得不是无量纲人数比例。须明确新事件与观察定义，不能单凭数值相同说性质相同。",
+          "difficulty": "delayed",
+          "errorCauseHint": "看到率字就把所有指标当人时率。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-d2",
+          "type": "number",
+          "stem": "隔日某日全体75人，当前旧病例6、新病例3均仍病。时点患病率填小数。",
+          "answer": 0.12,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "当前仍病者6+3=9，全体75含病例，9/75=0.12。不能只数3个新病例或仅用66名未病者。",
+          "difficulty": "delayed",
+          "errorCauseHint": "时点患病分母只放未患病者或只数新病例。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-d3",
+          "type": "number",
+          "stem": "固定50人全月完整记录，6名独立者曾患病，其中两人各发作两次。期间患病比例填小数。",
+          "answer": 0.12,
+          "unit": "无量纲",
+          "tolerance": 1e-9,
+          "explanation": "期间按独立人6/50=0.12，重复发作仍为同一人，不能数成8/50；固定成员和完整记录为此算式前提。",
+          "difficulty": "delayed",
+          "errorCauseHint": "期间把同一人重复数或把特定分母推广所有开放人群。"
+        },
+        {
+          "id": "353-ratio-rate-prevalence-d4",
+          "type": "subjective",
+          "stem": "新报告只写“患病率20%”没有对象和时间。提出三个需补充的信息，并解释为什么不能当未来新发概率。",
+          "answer": "补充人群范围、指定时点或期间、病例定义及分子分母构造（任三合理项）。现患混合新旧及病程，不是起初健康者未来新发概率。",
+          "rubric": [
+            "对象时间病例定义一致。",
+            "分母包含现患病例，不只健康者。",
+            "期间按独立人去重，明确固定完整人群特例。",
+            "区分现患、新发与人时，不作无依据因果解释。"
+          ],
+          "explanation": "核对问题是否针对定义缺口，以及现患与新发风险的边界；可列去重或开放人群分母条件。保存原文待核对，不编后续风险。",
+          "difficulty": "delayed",
+          "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+        }
+      ]
+    }
+  ]
+}

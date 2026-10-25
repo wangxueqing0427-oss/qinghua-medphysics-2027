@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "pol-plan-3",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "pol-plan-3"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": "2004-05-28",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://lt.china-office.gov.cn/ljzg/zgjk/lsgk/200405/t20040528_2910327.htm",
+      "publisher": "中国外交机构网站",
+      "locator": "《近代(1840—1919)》全文概览",
+      "supports": [
+        "1840年鸦片战争及近代社会性质逐步变化"
+      ],
+      "limitation": "现代历史概览，非1840原始档案"
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://njjhs.cn/Collection/54.html",
+      "publisher": "南京条约史料陈列馆/静海寺",
+      "locator": "中英《南京条约》藏品介绍及复制品说明",
+      "supports": [
+        "1842-08-29签订日期"
+      ],
+      "limitation": "实际读取馆方复制品说明，未读取条约原件图像"
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193912.htm",
+      "publisher": "毛泽东等原著电子文本/Marxists Internet Archive",
+      "originalDate": "1939-12",
+      "locator": "《中国革命和中国共产党》第一章第三节，社会性质和主要矛盾段",
+      "supports": [
+        "该历史语境中的半殖民地半封建概念和矛盾分析"
+      ],
+      "limitation": "第一章为其他同志起草、经毛泽东修改；电子转录非原手稿，文中现在属于1939语境"
+    }
+  ],
+  "pendingReview": [
+    "近现代史/马克思主义理论教师复核史实、文献版本和社会性质概念。",
+    "条约原件尚未读取；本课仅使用可读馆方复制品说明核对日期。",
+    "现代概览与1939理论文本性质不同，不据此声称完成原始档案史学论证。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

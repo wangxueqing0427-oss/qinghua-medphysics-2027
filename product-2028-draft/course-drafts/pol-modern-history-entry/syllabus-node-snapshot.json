@@ -1,0 +1,15 @@
+{
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "pol-plan-3",
+    "subject": "pol",
+    "name": "中国近现代史",
+    "source": "user_requirements",
+    "status": "teaching_plan_exam_spec_pending",
+    "candidateChapterIds": [],
+    "questionIds": [],
+    "mappingStatus": "pending",
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}

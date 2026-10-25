@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "subject": "pol",
+      "title": "经济基础与上层建筑：区分社会结构的两个层次",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-productive-forces-relations",
+        "pol-social-being-consciousness"
+      ],
+      "prerequisiteExplanation": "从生产关系总和及社会观念衔接具体制度/意识形式的分析，防止与生产力混层。",
+      "sources": [
+        "https://2d.hep.com.cn/13384041111111/3",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ],
+      "explanation": "先回到已学的生产力和生产关系。劳动者、工具、技术怎样组织物质生产，是理解社会结构的起点，但“经济基础”不是厂房地基，也不等于机器数量。在历史唯物主义这一理论框架中，它指一定社会生产力发展阶段上的生产关系总和；人与人在生产中的地位、占有关系和相应分配关系属于分析对象。例：一个虚构合作工坊改变生产资料占有和收益分配办法，讨论的是生产关系层次；单纯换一台机器首先是生产力变化，不能直接给机器贴经济基础标签。\n\n“上层建筑”也不是楼房上半部。与经济基础联系的政治法律制度、设施及相应的社会意识形式构成该范畴；课堂先区分制度层面和观念层面。例如虚构材料中的组织权责规则、用于维护既定社会关系的政治法律安排与相关论证，分别提供制度和意识线索。不是一切口头意见都能不加分析地归为某社会整体的上层建筑，也不能把一座厂房、某个消费数字直接当作该范畴的完整内容。\n\n经济基础的变化会对上层建筑提出相应要求，上层建筑又能通过制度与思想作用于社会生活。这里的“决定”讲根本制约关系，不等于每项经济变动当天就自动产生唯一法律条文。恩格斯的原信明确反对把经济因素歪曲成唯一作用因素；政治、法律、思想等有相互作用，传统和具体条件也不能省略。教学用“基础制约—上层反作用—具体条件”的分析顺序，既避免只靠观念解释一切，也避免经济数字一变就机械预测任何制度。\n\n读材料要先标对象，再判关系，最后说限制。虚构案例：工坊改变占有与分配，新的权责规则帮助落实分配，但执行经验显示规则有缺陷，需修订。前一变化属于生产关系的线索，规则的实施说明制度有反作用；不能由这段小材料证明整个社会已完成形态更替。闭卷先给定义，再用新例区分工具与关系、规则与思想。材料题参考答案列要点而不套官方分值；需理论教师确认范畴边界，未获独立审核前保持草稿。",
+      "definition": "经济基础是一定生产力发展阶段上生产关系的总和；上层建筑包括相应政治法律制度及意识形式，二者在具体历史条件中相互作用。",
+      "conditions": "历史唯物主义入门理论与原创有限案例；不是具体国家政策或制度改革的事实判断；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "换机器→首先是生产力；改变占有/分配→生产关系线索。\n权责制度与维护其合理性的观念应分层说明，不是楼房上下层。\n生产关系变化提出制度要求，具体制度仍受条件、传统与行动影响。\n工坊案例只展示分析方法，不能外推整个社会形态已更替。",
+      "misconceptions": [
+        "经济基础等于机器、GDP或建筑基础。",
+        "上层建筑是所有实物建筑或所有私人想法。",
+        "经济一变制度必同时按唯一方式改变。",
+        "拿一个虚构小组织代表完整社会变革。"
+      ],
+      "recall": [
+        "闭卷定义经济基础，并与生产力举例区分。",
+        "分别说出上层建筑制度和意识层面的分析线索。",
+        "说明基础制约与上层反作用为何不等于单一机械决定。",
+        "用对象—关系—条件三步分析新材料并给出限制。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "换机器→首先是生产力；改变占有/分配→生产关系线索。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "权责制度与维护其合理性的观念应分层说明，不是楼房上下层。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "生产关系变化提出制度要求，具体制度仍受条件、传统与行动影响。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "工坊案例只展示分析方法，不能外推整个社会形态已更替。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-base-superstructure-foundation-g1",
+          "description": "区分生产关系总和与生产工具",
+          "successCriteria": "用定义和新案例辨认经济基础所处层次，不拿机器数量直接替代。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-base-superstructure-foundation-b1",
+            "pol-base-superstructure-foundation-a1",
+            "pol-base-superstructure-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-g2",
+          "description": "区分上层建筑的制度与观念层面",
+          "successCriteria": "按给定材料识别政治法律制度和相应意识形式，并排除实物混淆。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-base-superstructure-foundation-b2",
+            "pol-base-superstructure-foundation-a2",
+            "pol-base-superstructure-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-g3",
+          "description": "解释制约与反作用的非机械关系",
+          "successCriteria": "指出根本制约、相互作用及历史条件，排除唯一因素和同时变化论。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-base-superstructure-foundation-b3",
+            "pol-base-superstructure-foundation-a3",
+            "pol-base-superstructure-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-g4",
+          "description": "作有限度的材料分析",
+          "successCriteria": "按对象关系条件给证据，不从局部材料虚构完整社会变革结论。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-base-superstructure-foundation-b4",
+            "pol-base-superstructure-foundation-a4",
+            "pol-base-superstructure-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "经济基础定义落在生产关系总和而非生产力。",
+        "制度和意识层面按材料分别识别。",
+        "基础制约与反作用、具体条件均说明。",
+        "不作材料外推；参考要点待理论教师核对，不生成官方分值。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师确认生产关系/上层建筑范畴及简化案例边界。",
+          "原著术语到零基础讲解的转述须独立复核；非2028最终大纲确认。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "pol-base-superstructure-foundation-b1",
+          "type": "single",
+          "stem": "历史唯物主义中的经济基础主要指？",
+          "options": [
+            "一定阶段生产关系的总和",
+            "全部机器数量",
+            "房屋地基"
+          ],
+          "answer": 0,
+          "explanation": "范畴落在人与人的生产关系及其总和，不等于工具这一生产力因素，也不是字面建筑术语。",
+          "difficulty": "foundation",
+          "errorCauseHint": "经济基础等于机器、GDP或建筑基础。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-b2",
+          "type": "single",
+          "stem": "给定材料中，政治法律制度与相应社会意识形式属于哪一分析层次？",
+          "options": [
+            "仅机器设备",
+            "上层建筑",
+            "仅自然气候"
+          ],
+          "answer": 1,
+          "explanation": "制度和相应意识形式属于上层建筑的两个方面，不能用自然或工具概念替代社会结构范畴。",
+          "difficulty": "foundation",
+          "errorCauseHint": "上层建筑是所有实物建筑或所有私人想法。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-b3",
+          "type": "single",
+          "stem": "对经济基础与上层建筑关系，哪项较准确？",
+          "options": [
+            "经济是唯一发生作用的因素",
+            "经济一变所有制度立即同变",
+            "基础根本制约，同时存在反作用和具体条件"
+          ],
+          "answer": 2,
+          "explanation": "恩格斯反对唯一经济因素的歪曲；根本制约不取消政治法律思想的作用，也不推出变化时点和形式唯一。",
+          "difficulty": "foundation",
+          "errorCauseHint": "经济一变制度必同时按唯一方式改变。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-b4",
+          "type": "single",
+          "stem": "分析虚构工坊案例时哪种结论更合适？",
+          "options": [
+            "按占有分配和制度线索说明，不外推全社会已转型",
+            "一台新机器证明社会形态已更替",
+            "规则毫无实际作用"
+          ],
+          "answer": 0,
+          "explanation": "材料能支持局部关系分析，不能凭一台工具或个别规则推导全社会历史结论，也不能抹去反作用。",
+          "difficulty": "foundation",
+          "errorCauseHint": "拿一个虚构小组织代表完整社会变革。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-base-superstructure-foundation-a1",
+          "type": "single",
+          "stem": "工坊仅更换效率更高的工具，首先属于何种变化？",
+          "options": [
+            "经济基础定义本身就是机器",
+            "生产力中的工具变化",
+            "完整政治制度更替"
+          ],
+          "answer": 1,
+          "explanation": "工具首先是生产力线索；是否连带生产关系与制度变化须有进一步材料，不可把不同层次直接等同。",
+          "difficulty": "application",
+          "errorCauseHint": "经济基础等于机器、GDP或建筑基础。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-a2",
+          "type": "single",
+          "stem": "虚构社会材料分别讨论权责制度和维护制度的观念，恰当方法是？",
+          "options": [
+            "都当楼房结构",
+            "全部排除出社会分析",
+            "区分制度与意识形式，再看与基础的关系"
+          ],
+          "answer": 2,
+          "explanation": "制度和观念属于不同分析面向，需结合社会关系判断，不能按日常字面或简单排除代替概念。",
+          "difficulty": "application",
+          "errorCauseHint": "上层建筑是所有实物建筑或所有私人想法。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-a3",
+          "type": "single",
+          "stem": "新制度帮助落实分配规则，这说明什么？",
+          "options": [
+            "上层建筑具有反作用，但效果仍需条件和证据",
+            "制度是唯一原因且无经济条件",
+            "基础制约不存在"
+          ],
+          "answer": 0,
+          "explanation": "制度的实施能影响社会实践，说明反作用；这并不否定基础制约，也不保证所有制度具有相同效果。",
+          "difficulty": "application",
+          "errorCauseHint": "经济一变制度必同时按唯一方式改变。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-a4",
+          "type": "subjective",
+          "stem": "虚构合作工坊改变占有、分配，又修订权责规则。按对象、关系、限制各写一点分析，不宣称全社会已转型。",
+          "answer": "占有分配是生产关系线索；权责规则可对落实分配起反作用，需看条件；小组织案例不足以证明整个社会形态更替。",
+          "rubric": [
+            "经济基础定义落在生产关系总和而非生产力。",
+            "制度和意识层面按材料分别识别。",
+            "基础制约与反作用、具体条件均说明。",
+            "不作材料外推；参考要点待理论教师核对，不生成官方分值。"
+          ],
+          "explanation": "核对范畴归属、双向关系和外推限制。可提出不同合理条件，但不能用关键词命中冒充准确专业评分。",
+          "difficulty": "application",
+          "errorCauseHint": "拿一个虚构小组织代表完整社会变革。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-base-superstructure-foundation-d1",
+          "type": "single",
+          "stem": "隔日新材料：研究者统计机器台数后直接称之为经济基础，主要错在哪里？",
+          "options": [
+            "机器不可数",
+            "把生产工具与生产关系总和混同",
+            "统计一定不科学"
+          ],
+          "answer": 1,
+          "explanation": "问题是范畴层次混淆，机器可统计但其数量不就是生产关系总和；不能反过来否定所有统计方法。",
+          "difficulty": "delayed",
+          "errorCauseHint": "经济基础等于机器、GDP或建筑基础。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-d2",
+          "type": "single",
+          "stem": "下列哪项最需要作为上层建筑意识层面的候选再结合历史条件分析？",
+          "options": [
+            "自然降雨量",
+            "车间螺钉数量",
+            "维护特定社会制度的思想论证"
+          ],
+          "answer": 2,
+          "explanation": "思想论证提供意识层面的线索；具体归属仍结合历史社会关系，而自然和工具计数不能直接代替。",
+          "difficulty": "delayed",
+          "errorCauseHint": "上层建筑是所有实物建筑或所有私人想法。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-d3",
+          "type": "single",
+          "stem": "经济关系变化后制度调整方式不同，哪种解释合适？",
+          "options": [
+            "根本制约不排除传统、政治行动等条件的相互作用",
+            "这证明经济因素从来无作用",
+            "所有差异都是偶然且不必研究"
+          ],
+          "answer": 0,
+          "explanation": "非机械决定允许具体过程存在条件差异，须研究相互作用；不能从形式不同推出根本制约不存在。",
+          "difficulty": "delayed",
+          "errorCauseHint": "经济一变制度必同时按唯一方式改变。"
+        },
+        {
+          "id": "pol-base-superstructure-foundation-d4",
+          "type": "subjective",
+          "stem": "用一个自拟小案例区分工具变化、生产关系变化、制度反作用，并说明案例不能证明什么。",
+          "answer": "例如购设备是工具变化，调整占有分配是关系变化，权责制度帮助执行是反作用；单个案例不能证明全社会已形态更替或唯一因果。",
+          "rubric": [
+            "经济基础定义落在生产关系总和而非生产力。",
+            "制度和意识层面按材料分别识别。",
+            "基础制约与反作用、具体条件均说明。",
+            "不作材料外推；参考要点待理论教师核对，不生成官方分值。"
+          ],
+          "explanation": "新案例须与三层次对应并保留边界。参考答案仅示范要点，独立专业审定未完成，主观原文保留待核对。",
+          "difficulty": "delayed",
+          "errorCauseHint": "拿一个虚构小组织代表完整社会变革。"
+        }
+      ]
+    }
+  ]
+}

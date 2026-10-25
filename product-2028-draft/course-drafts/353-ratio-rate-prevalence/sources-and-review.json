@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27-8-1",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "s27-8-1",
+      "s27-8-2"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "applicableYear": 2027,
+      "locator": "2027年353大纲：疾病分布率和比；概率模型及抽样推断条目",
+      "supports": [
+        "2027大纲宽范围暂作2028教学关联"
+      ],
+      "limitation": "不确认2028最终要求，细目深度由教学规划解释"
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+      "publisher": "CDC archived Principles of Epidemiology, Third Edition",
+      "locator": "Lesson3 Section1 formal ratio/proportion/rate definitions",
+      "supports": [
+        "比、比例、带时间维度率的区分"
+      ],
+      "limitation": "历史教学资料，不作现行临床操作规范"
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html",
+      "publisher": "CDC archived Principles of Epidemiology, Third Edition",
+      "reviewedAt": "2012-05-18",
+      "locator": "Table3.3及Prevalence定义段；未采用图3.1例题",
+      "supports": [
+        "现患个案包含旧病例、时点/期间界定及分母边界"
+      ]
+    }
+  ],
+  "pendingReview": [
+    "流行病学教师复核期间患病率分母表述与开放人群边界。",
+    "率的术语约定多样，本课区分量的性质而非否定习惯名称。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

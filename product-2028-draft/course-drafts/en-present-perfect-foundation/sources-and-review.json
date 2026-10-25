@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "en-plan-2"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect",
+      "publisher": "British Council",
+      "locator": "Formal lesson: have/has + participle; unfinished time, life experience, present result, for/since",
+      "supports": [
+        "完成形式和给定时间语境"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+      "publisher": "British Council",
+      "locator": "Formal grammar section: completed past events and past forms",
+      "supports": [
+        "与明确结束过去时间对照"
+      ]
+    }
+  ],
+  "pendingReview": [
+    "英语教师复核完成语境、持续动词与改写的评分边界。",
+    "不声称本课覆盖所有完成时或2028官方命题范围。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

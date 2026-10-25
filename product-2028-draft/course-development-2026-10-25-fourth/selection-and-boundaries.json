@@ -1,0 +1,236 @@
+{
+  "baseCommit": "343a3c4ec38a9b2af37e4b207d2e99e42e103ca9",
+  "source": "product-2028-draft/planning-handoff-2026-10-25/核验回执.json",
+  "selected": [
+    {
+      "subject": "en",
+      "rank": 1,
+      "id": "en-vocabulary-retrieval-foundation",
+      "title": "词汇入门：词音、词形、语境与主动回忆",
+      "nodes": [
+        "en-plan-1"
+      ],
+      "existingPre": [
+        "en-foundation-svo"
+      ],
+      "plannedPre": [],
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "score": 47,
+      "gap": "en-plan-1无独立课程；现有语法例句中的零散释义不能替代系统词汇学习。",
+      "relation": "用已有SVO例句建立首组小词集的词义辨认、词形与主动回忆；不重讲12课语法。",
+      "boundary": "只建立首组经来源核对的基础词汇单元和学习方法，不等于核心词汇全部完成；不新增朗读技术功能。"
+    },
+    {
+      "subject": "en",
+      "rank": 2,
+      "id": "en-reading-evidence-foundation",
+      "title": "基础短文阅读：定位信息、辨认指代与区分推断",
+      "nodes": [
+        "en-plan-4",
+        "en-plan-3"
+      ],
+      "existingPre": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-defining-relative-foundation"
+      ],
+      "plannedPre": [
+        "en-vocabulary-retrieval-foundation"
+      ],
+      "scores": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "score": 45,
+      "gap": "en-plan-4无完整课程；现有从句课解决句子结构，不等于篇章理解和证据定位。",
+      "relation": "只使用已教句型和明示词汇，把骨架/指代能力迁移到短文及答案证据。",
+      "boundary": "从短篇原创入门文本开始，不冒充真题或完整考研阅读；不在材料中暗藏未教复杂句。"
+    },
+    {
+      "subject": "en",
+      "rank": 3,
+      "id": "en-present-perfect-foundation",
+      "title": "现在完成时入门：过去事件与当前关联",
+      "nodes": [
+        "en-plan-2"
+      ],
+      "existingPre": [
+        "en-past-simple-foundation",
+        "en-passive-simple-foundation",
+        "en-subject-verb-agreement"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "score": 40,
+      "gap": "已有一般现在/过去和现在进行、一般时被动，尚无have/has加分词的完整教学。",
+      "relation": "复用过去时间判断及被动课给定分词，专门区分完成与过去叙事，不重做一般过去时。",
+      "boundary": "先限基础完成用法、给定动词与明确语境，例外/时间状语/延续条件须先核源；不声称全部完成时体系完成。"
+    },
+    {
+      "subject": "pol",
+      "rank": 1,
+      "id": "pol-base-superstructure-foundation",
+      "title": "经济基础与上层建筑：区分社会结构的两个层次",
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "existingPre": [
+        "pol-productive-forces-relations",
+        "pol-social-being-consciousness"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "score": 43,
+      "gap": "生产关系课明确未展开上层建筑体系；现有社会意识课不能代替本组范畴。",
+      "relation": "从生产关系总和及社会观念衔接具体制度/意识形式的分析，防止与生产力混层。",
+      "boundary": "稳定理论入门与给定材料，不推演未核实政策/历史必然结论；须理论教师确认范畴边界。"
+    },
+    {
+      "subject": "pol",
+      "rank": 2,
+      "id": "pol-people-individual-history",
+      "title": "人民群众与个人的历史作用：主体、条件与合力",
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "existingPre": [
+        "pol-social-being-consciousness",
+        "pol-productive-forces-relations",
+        "pol-epistemology-case-analysis"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        4,
+        5
+      ],
+      "score": 41,
+      "gap": "已有社会存在、生产关系与认识论迁移，尚无群众与个人作用的完整单元。",
+      "relation": "将物质条件和实际行动分析迁移到历史主体，避免把认识论材料改写为同一课。",
+      "boundary": "使用经核实的理论来源和有限材料，不把简化例子当完整历史解释或官方评分标准。"
+    },
+    {
+      "subject": "pol",
+      "rank": 3,
+      "id": "pol-modern-history-entry",
+      "title": "史纲起步：时间线、史料与近代中国社会性质",
+      "nodes": [
+        "pol-plan-3"
+      ],
+      "existingPre": [
+        "pol-social-being-consciousness",
+        "pol-primary-contradictions"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        3,
+        5
+      ],
+      "score": 39,
+      "gap": "11门政治课全部集中于pol-plan-1，pol-plan-3尚无完整课程。",
+      "relation": "从区分史实/解释和时间顺序开始，必要术语课内解释；既有矛盾课仅提供分析工具，不能替代史实。",
+      "boundary": "制作前核实适用教材、史料和概念，不凭年度推测加入2028时政或未经核实日期；本轮不编写史实正文。"
+    },
+    {
+      "subject": "353",
+      "rank": 1,
+      "id": "353-ratio-rate-prevalence",
+      "title": "率、比例、比与患病率：按对象、时间和分母辨析",
+      "nodes": [
+        "s27-8-1",
+        "s27-8-2"
+      ],
+      "existingPre": [
+        "353-variable-types",
+        "353-study-design-foundation",
+        "353-frequency-denominator",
+        "353-incidence-risk",
+        "353-person-time"
+      ],
+      "plannedPre": [],
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "score": 50,
+      "gap": "s27-8-1无完整单元；已有比例、累计风险与人时率分散在三课，尚缺整合辨析及患病率边界。",
+      "relation": "直接引用三课已教分母，只新增指标选用/对照和现患状况解释，不重做相同风险或人时计算课。",
+      "boundary": "区分常用名称与量的性质；2027原文率和比为直接关联，患病率细目属待核教学补充，不冒称官方逐词必考。"
+    },
+    {
+      "subject": "353",
+      "rank": 2,
+      "id": "353-normal-distribution-foundation",
+      "title": "连续变量与正态分布入门：面积、位置与适用条件",
+      "nodes": [
+        "s27-19-2"
+      ],
+      "existingPre": [
+        "353-probability-binomial-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "plannedPre": [],
+      "scores": [
+        5,
+        5,
+        4,
+        5
+      ],
+      "score": 48,
+      "gap": "概率模型节点仅有二项计数的部分支持，连续分布、面积解释和标准化无完整单元。",
+      "relation": "从离散计数过渡连续变量，复用均数/SD和概率而非重讲二项分布。",
+      "boundary": "先解释模型和概率面积；标准化及模型适合条件须核源，不把所有医学变量说成正态。"
+    },
+    {
+      "subject": "353",
+      "rank": 3,
+      "id": "353-sampling-distribution-se",
+      "title": "抽样分布与标准误：区分个体差异和估计波动",
+      "nodes": [
+        "s27-19-3"
+      ],
+      "existingPre": [
+        "353-random-sampling-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "plannedPre": [
+        "353-normal-distribution-foundation"
+      ],
+      "scores": [
+        5,
+        5,
+        4,
+        5
+      ],
+      "score": 48,
+      "gap": "s27-19-3无课程，当前只有样本差异的直观说明，尚缺统计量分布和标准误。",
+      "relation": "复用抽样设计与SD，在重复抽样思想下建立推断前置，不把SD改名成SE。",
+      "boundary": "均值标准误和近似条件需独立统计审核；不套任意样本量阈值，不在本课偷渡完整检验/区间课程。"
+    }
+  ],
+  "scope": "Approved fourth batch only. No V59/R5/deployment; old47 priority review items preserved; independent expert approved0."
+}

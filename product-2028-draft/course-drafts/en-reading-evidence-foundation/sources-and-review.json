@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "en-plan-4",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "en-plan-4",
+      "en-plan-3"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/a1",
+      "publisher": "British Council",
+      "locator": "A1 reading formal introduction: familiar topics/simple information, preparation/text/tasks",
+      "supports": [
+        "零基础短文活动层次；未采用网站题文"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+      "publisher": "British Council",
+      "locator": "Formal grammar teaching section, past simple forms",
+      "supports": [
+        "短文中studied/read/remembered及给定过去叙事"
+      ]
+    }
+  ],
+  "pendingReview": [
+    "英语教师复核短文自然度、指代明确性及词汇负荷。",
+    "阅读方法为教学补充，不代表2028官方题型或难度。",
+    "相同短文在多题中重复提供属于自足呈现，需区别真正重复题。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

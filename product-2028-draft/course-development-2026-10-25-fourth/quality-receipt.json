@@ -1,0 +1,19 @@
+{
+  "baseCommit":"343a3c4ec38a9b2af37e4b207d2e99e42e103ca9",
+  "branch":"courses/2026-10-24-three-subject-foundations",
+  "newCourses":9,"newQuestions":108,"allCourses":47,"allQuestions":523,
+  "tests":[
+    {"command":"import-tools/node.exe product-2028-draft/course-development-2026-10-25-fourth/batch-test.cjs","passed":148,"total":148,"evidence":"batch-test-results.json"},
+    {"command":"import-tools/node.exe product-2028-draft/course-development-2026-10-25-fourth/compatibility-test.cjs","passed":4,"total":4,"evidence":"compatibility-results.json"},
+    {"command":"import-tools/node.exe product-2028-draft/course-development-2026-10-25-fourth/final-check.cjs","passed":4,"total":4,"evidence":"final-check-results.json"}
+  ],
+  "localTargetedTotal":156,"localTargetedPassed":156,
+  "browserThisRound":"not-run; prior38 suite not rerun; new47 browser candidate not built or accepted",
+  "ciThisRound":"not-dispatched; existing workflow path filters do not include fourth-batch additions",
+  "iPhoneThisRound":"not-tested; no user ordinary test requested",
+  "protection":{"localHashCount":338,"unchanged":true,"old38Payloads":"deep-equal","old47PriorityQuestionQueue":"retained in protected prior handoff","privateGraphs":7,"existingR5CacheDifference":"retained locally; never uploaded"},
+  "coverage":{"nodes":149,"partialDraftSupport":29,"noCourseSupport":120,"fullVerified":0},
+  "independentExpertApproved":0,"formalReleaseApproved":false,
+  "protectedRemoteRefsBefore":{"main":"f8b99af10ee14c98d9f896050970fb0912ca04cc","audit/2026-10-21-four-gaps-v7":"ba8d3ae50c2a832a021664df01471b8854c9c442"},
+  "stopAfterSubmission":true
+}

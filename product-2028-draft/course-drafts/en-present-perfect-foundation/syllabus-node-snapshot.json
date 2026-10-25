@@ -1,0 +1,15 @@
+{
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "en-plan-2",
+    "subject": "en",
+    "name": "基础句法",
+    "source": "user_requirements",
+    "status": "teaching_plan_exam_spec_pending",
+    "candidateChapterIds": [],
+    "questionIds": [],
+    "mappingStatus": "pending",
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}

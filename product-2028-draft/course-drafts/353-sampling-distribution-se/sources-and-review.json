@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "s27-19-3",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "s27-19-3"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "applicableYear": 2027,
+      "locator": "2027年353大纲：疾病分布率和比；概率模型及抽样推断条目",
+      "supports": [
+        "2027大纲宽范围暂作2028教学关联"
+      ],
+      "limitation": "不确认2028最终要求，细目深度由教学规划解释"
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/7-1-the-central-limit-theorem-for-sample-means-averages",
+      "publisher": "OpenStax Introductory Statistics 2e",
+      "locator": "7.1 sample means/averages, repeated samples and mean/SE relation",
+      "supports": [
+        "重复抽样均值及标准误直观"
+      ],
+      "limitation": "教材简化表述不作为任意总体/样本量30的保证；本课另外限定独立同分布有限方差"
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://dept.stat.lsa.umich.edu/~kshedden/introds/topics/standard_errors/",
+      "publisher": "University of Michigan Statistics, Kevin Shedden teaching materials",
+      "locator": "Standard errors: IID mean, sigma/sqrt(n), estimated SD and quadrupling sample size",
+      "supports": [
+        "独立同分布均值标准误、估计和样本量关系"
+      ],
+      "limitation": "教学讲义非医学诊断/临床规范，网页发布日期未标"
+    }
+  ],
+  "pendingReview": [
+    "统计学教师复核抽样分布、标准误估计及CLT的入门深度。",
+    "相关/复杂设计仅作不适用提醒，未给未核实的修正公式。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

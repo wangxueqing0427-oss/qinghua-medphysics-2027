@@ -1,0 +1,22 @@
+{
+  "scope": "Old38 to47 payload compatibility; synthetic IndexedDB only; no network/browser/real iPhone or real learner data",
+  "results": [
+    {
+      "name": "Three-subject old38 actual synthetic answer and unfinished drafts created",
+      "pass": true
+    },
+    {
+      "name": "Reopen same synthetic database with47 catalog without rewriting any old answers/drafts",
+      "pass": true
+    },
+    {
+      "name": "Restore old38 backup as independent profile retains payload and no new-course progress",
+      "pass": true
+    },
+    {
+      "name": "Offline-style local-only next answer changes one course only; stale submit rejected",
+      "pass": true
+    }
+  ],
+  "expertApproved": 0
+}

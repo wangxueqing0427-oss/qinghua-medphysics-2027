@@ -1,0 +1,17 @@
+{
+  "baseCommit": "343a3c4ec38a9b2af37e4b207d2e99e42e103ca9",
+  "mode": "isolated-engineering-only",
+  "formalReleaseApproved": false,
+  "folders": [
+    "en-vocabulary-retrieval-foundation",
+    "en-reading-evidence-foundation",
+    "en-present-perfect-foundation",
+    "pol-base-superstructure-foundation",
+    "pol-people-individual-history",
+    "pol-modern-history-entry",
+    "353-ratio-rate-prevalence",
+    "353-normal-distribution-foundation",
+    "353-sampling-distribution-se"
+  ],
+  "plannedQuestions": 108
+}

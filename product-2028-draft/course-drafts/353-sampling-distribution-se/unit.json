@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "353-sampling-distribution-se",
+      "version": "0.1",
+      "subject": "353",
+      "title": "抽样分布与标准误：区分个体差异和估计波动",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "mapping": [
+        "s27-19-3"
+      ],
+      "prerequisites": [
+        "353-random-sampling-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation",
+        "353-normal-distribution-foundation"
+      ],
+      "prerequisiteExplanation": "复用抽样设计与SD，在重复抽样思想下建立推断前置，不把SD改名成SE。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/7-1-the-central-limit-theorem-for-sample-means-averages",
+        "https://dept.stat.lsa.umich.edu/~kshedden/introds/topics/standard_errors/"
+      ],
+      "explanation": "一份样本里的个体值形成个体数据分布；从同一总体按同一设计反复各抽n个人，每次算一个均数，许多个均数形成样本均数的抽样分布。这里n是每一份样本的人数，不是重复抽了多少次。示范：每次抽4人算平均等待时间，重复100次会有100个均数；不能把n写成100。抽样分布是统计量在重复抽样思想下的分布，不是把原始个体按均数排序，也不是同一份样本反复按计算器。\n\n标准差SD描述个体数值的离散，标准误SE描述估计量在重复抽样中的波动。若X1到Xn独立同分布且总体方差σ²有限，样本均数的标准误为σ/√n；σ未知时常以样本SD s估计，得到s/√n，样本SD通常需n≥2。两者单位都与原变量相同，不能因单位相同就说含义一样。已知总体SD8分钟、每次n=16，均值SE=8/4=2分钟；它不是本次均数离真实均数必恰好2分钟，也不是个体SD被缩成2。\n\n固定总体SD和相同独立抽样前提下，样本量增为4倍，均数SE变原来一半，而不是四分之一。例：σ=12秒，n=9时SE=4秒，n=36时SE=2秒；反复测算均数的次数只是帮助观察抽样分布，并不自动增加每份样本的n。实际s来自样本会波动，比较不同研究不能忽略总体、设计与测量差异。SE小只指某估计波动小，不自动排除系统偏倚，也不表示所有个体都靠近均数。\n\n若总体本来正态且按上述独立同分布条件取样，均数有正态抽样分布；总体非正态时，经典中心极限定理在独立同分布、有限方差等条件下给随n增加的近似，不存在任意总体n≥30就保证精确正态的万能门槛。原始数据仍可能偏斜。整群相关、重复同一人的相关观测、权重或抽样比例很大的有限总体设计等，可能需要设计相关的方差处理，不能无条件套s/√n。本课止于推断前置，不假装已教完整置信区间和检验。",
+      "definition": "抽样分布是统计量随重复抽样变化的分布；均数SE在IID有限方差下为σ/√n，未知σ可用s估计；与个体SD不同。",
+      "conditions": "限定均数、独立同分布及有限方差；未知σ估计、相关设计和正态近似边界均须说明；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "每次4人、重复100次→100个均数，公式中的n=4。\nσ8分钟、n16→SE2分钟，不是实际误差必为2。\n固定σ12秒，n9→4秒，n36→2秒，样本量四倍SE一半。\n正态总体与非正态CLT近似分开；相关整群不可直接套独立公式。",
+      "misconceptions": [
+        "把重复次数当每份样本量，混同个体与统计量分布。",
+        "把SD当SE或把SE当这一次真实误差。",
+        "样本量四倍就认为SE四分之一，或SE小就无偏倚。",
+        "n30万能保证正态，忽略相关或有限总体设计。"
+      ],
+      "recall": [
+        "画面式描述重复抽样、每次n及均数分布。",
+        "闭卷写SD和SE含义、公式、单位与未知σ估计。",
+        "计算样本量四倍的SE变化并列固定条件。",
+        "说明精确正态、CLT近似与相关设计三种边界。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "每次4人、重复100次→100个均数，公式中的n=4。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "σ8分钟、n16→SE2分钟，不是实际误差必为2。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "固定σ12秒，n9→4秒，n36→2秒，样本量四倍SE一半。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "正态总体与非正态CLT近似分开；相关整群不可直接套独立公式。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-sampling-distribution-se-g1",
+          "description": "识别统计量抽样分布及样本量",
+          "successCriteria": "区别个体、每次样本均数与重复次数，准确确定公式n。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-sampling-distribution-se-b1",
+            "353-sampling-distribution-se-a1",
+            "353-sampling-distribution-se-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-sampling-distribution-se-g2",
+          "description": "计算并解释均数标准误",
+          "successCriteria": "在IID有限方差条件下用σ或s除√n，给正确单位并拒绝实际误差等同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-sampling-distribution-se-b2",
+            "353-sampling-distribution-se-a2",
+            "353-sampling-distribution-se-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-sampling-distribution-se-g3",
+          "description": "解释样本量对SE的影响",
+          "successCriteria": "在相同总体设计中计算n四倍SE一半，并指出不能因此消除偏倚。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-sampling-distribution-se-b3",
+            "353-sampling-distribution-se-a3",
+            "353-sampling-distribution-se-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-sampling-distribution-se-g4",
+          "description": "审查正态与独立假设的边界",
+          "successCriteria": "区分正态总体精确结果与CLT近似，指出n30和相关资料套式的错误。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-sampling-distribution-se-b4",
+            "353-sampling-distribution-se-a4",
+            "353-sampling-distribution-se-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "统计对象和每份n准确，非重复次数。",
+        "公式、量纲、SD与SE的解释一致。",
+        "样本量缩放条件固定且不宣称消除偏倚。",
+        "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计学教师复核抽样分布、标准误估计及CLT的入门深度。",
+          "相关/复杂设计仅作不适用提醒，未给未核实的修正公式。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-sampling-distribution-se-b1",
+          "type": "single",
+          "stem": "每次随机抽4人算均数，重复100次。样本均数抽样分布由什么组成？",
+          "options": [
+            "100个样本均数，且每份n=4",
+            "400个体值且公式n=100",
+            "同一均数按100次计算器"
+          ],
+          "answer": 0,
+          "explanation": "每次4人的均数是一个统计量结果，100次形成100个均数；公式n仍是每份抽样规模4，不是重复次数。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把重复次数当每份样本量，混同个体与统计量分布。"
+        },
+        {
+          "id": "353-sampling-distribution-se-b2",
+          "type": "number",
+          "stem": "给独立同分布且总体SD=8分钟，n=16。求均数SE。",
+          "answer": 2,
+          "unit": "分钟",
+          "tolerance": 1e-9,
+          "explanation": "SE=σ/√n=8/√16=2分钟。它描述均数抽样波动，不能把个体SD8也改称2或当实际误差。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把SD当SE或把SE当这一次真实误差。"
+        },
+        {
+          "id": "353-sampling-distribution-se-b3",
+          "type": "single",
+          "stem": "同一总体相同独立抽样，n变4倍，均数SE变为？",
+          "options": [
+            "原来4倍",
+            "原来1/4",
+            "原来1/2"
+          ],
+          "answer": 2,
+          "explanation": "SE与√n成反比，√(4n)=2√n，因此一半；需固定总体SD和设计，不是任何研究都可这样比较。",
+          "difficulty": "foundation",
+          "errorCauseHint": "样本量四倍就认为SE四分之一，或SE小就无偏倚。"
+        },
+        {
+          "id": "353-sampling-distribution-se-b4",
+          "type": "single",
+          "stem": "总体非正态，n=30，就能保证原始数据和均数都精确正态吗？",
+          "options": [
+            "不能；对象、IID有限方差和近似条件须区分",
+            "能；30是通用严格定理",
+            "能；样本会改变原总体"
+          ],
+          "answer": 0,
+          "explanation": "CLT讨论均数随n的近似，非原始个体数据；没有任意分布n30精确保证，还须相应独立与方差条件。",
+          "difficulty": "foundation",
+          "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-sampling-distribution-se-a1",
+          "type": "single",
+          "stem": "每次抽25人，重复80次形成80个均数。均值SE公式中的n是？",
+          "options": [
+            "80",
+            "25",
+            "2000"
+          ],
+          "answer": 1,
+          "explanation": "n是每份样本25，80是重复次数，2000是各次总抽取数；不能把模拟重复当实际每份有效样本量。",
+          "difficulty": "application",
+          "errorCauseHint": "把重复次数当每份样本量，混同个体与统计量分布。"
+        },
+        {
+          "id": "353-sampling-distribution-se-a2",
+          "type": "number",
+          "stem": "某独立同分布样本n=25，样本SD s=15秒。用本课公式估计均数SE。",
+          "answer": 3,
+          "unit": "秒",
+          "tolerance": 1e-9,
+          "explanation": "估计SE=s/√n=15/5=3秒，用样本SD估计未知σ；这是估计的抽样波动，不是本次误差必为3。",
+          "difficulty": "application",
+          "errorCauseHint": "把SD当SE或把SE当这一次真实误差。"
+        },
+        {
+          "id": "353-sampling-distribution-se-a3",
+          "type": "number",
+          "stem": "固定总体SD=12秒、独立抽样。从n=9增到n=36，后者均数SE是多少秒？",
+          "answer": 2,
+          "unit": "秒",
+          "tolerance": 1e-9,
+          "explanation": "n36时12/6=2秒，n9时12/3=4秒，四倍样本量使SE一半；未改变总体SD12。",
+          "difficulty": "application",
+          "errorCauseHint": "样本量四倍就认为SE四分之一，或SE小就无偏倚。"
+        },
+        {
+          "id": "353-sampling-distribution-se-a4",
+          "type": "subjective",
+          "stem": "研究把同一人多次记录当独立样本，称n大于30所以s/√n一定正确且没有偏倚。指出至少三处问题。",
+          "answer": "同人记录可能相关，不能直接当IID；n30不保证精确正态或公式设计适用；SE小不排除系统偏倚，需考虑依赖结构和研究设计。",
+          "rubric": [
+            "统计对象和每份n准确，非重复次数。",
+            "公式、量纲、SD与SE的解释一致。",
+            "样本量缩放条件固定且不宣称消除偏倚。",
+            "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+          ],
+          "explanation": "核对相关性、近似门槛和偏倚区别，不要求给复杂修正式。参考要点待专业核对，不自动评分。",
+          "difficulty": "application",
+          "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-sampling-distribution-se-d1",
+          "type": "single",
+          "stem": "隔日：重复抽样时记录的是每份样本中位数，而非均数。这些中位数形成什么？",
+          "options": [
+            "原始所有个体分布",
+            "中位数的抽样分布，不能直接把均数SE公式当其公式",
+            "同一观测的测量单位"
+          ],
+          "answer": 1,
+          "explanation": "抽样分布可以对应不同统计量，但本课σ/√n专用于给定条件的均数；换统计量需另推方差，不能机械套。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把重复次数当每份样本量，混同个体与统计量分布。"
+        },
+        {
+          "id": "353-sampling-distribution-se-d2",
+          "type": "number",
+          "stem": "隔日新样本IID，n=9且s=6分钟，估计均数SE是多少？",
+          "answer": 2,
+          "unit": "分钟",
+          "tolerance": 1e-9,
+          "explanation": "s/√n=6/3=2分钟。s描述个体离散，SE估计样本均数波动，两者同单位却非同一含义。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把SD当SE或把SE当这一次真实误差。"
+        },
+        {
+          "id": "353-sampling-distribution-se-d3",
+          "type": "single",
+          "stem": "一项有固定方向的选择偏倚研究扩大样本，SE降低后能说明什么？",
+          "options": [
+            "均值抽样波动可能变小，但不能据此说偏倚消失",
+            "所有系统误差必消失",
+            "每个个体数值都更相近"
+          ],
+          "answer": 0,
+          "explanation": "抽样波动与系统偏倚不同；样本增大不能修复选择机制，也不改变总体个体SD，需分别检查。",
+          "difficulty": "delayed",
+          "errorCauseHint": "样本量四倍就认为SE四分之一，或SE小就无偏倚。"
+        },
+        {
+          "id": "353-sampling-distribution-se-d4",
+          "type": "subjective",
+          "stem": "新总体明显偏斜，抽取样本均数。说明何时可讨论CLT近似、何时是精确正态，并说明原始数据是否随n自动变正态。",
+          "answer": "IID有限方差等经典条件下随n增加可讨论均数近似；总体正态且独立取样时均数精确正态。无任意n30保证，原始个体分布不因n改变。",
+          "rubric": [
+            "统计对象和每份n准确，非重复次数。",
+            "公式、量纲、SD与SE的解释一致。",
+            "样本量缩放条件固定且不宣称消除偏倚。",
+            "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+          ],
+          "explanation": "核对精确与近似、必要条件和分布对象。允许说明重尾收敛慢等补充但不强制，本课主观原文待教师核对。",
+          "difficulty": "delayed",
+          "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+        }
+      ]
+    }
+  ]
+}

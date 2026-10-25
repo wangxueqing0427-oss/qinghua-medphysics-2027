@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-fourth-draft",
+  "units": [
+    {
+      "id": "pol-modern-history-entry",
+      "version": "0.1",
+      "subject": "pol",
+      "title": "史纲起步：时间线、史料与近代中国社会性质",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、情境与自编训练；来源用于核对知识，不冒充真题或官方评分",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "mapping": [
+        "pol-plan-3"
+      ],
+      "prerequisites": [
+        "pol-social-being-consciousness",
+        "pol-primary-contradictions"
+      ],
+      "prerequisiteExplanation": "从区分史实/解释和时间顺序开始，必要术语课内解释；既有矛盾课仅提供分析工具，不能替代史实。",
+      "sources": [
+        "https://lt.china-office.gov.cn/ljzg/zgjk/lsgk/200405/t20040528_2910327.htm",
+        "https://njjhs.cn/Collection/54.html",
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193912.htm"
+      ],
+      "explanation": "史纲从时间、事件和证据学起，不把一串年份背完就当理解。先放两个经来源核对的锚点：1840年鸦片战争爆发；1842年8月29日中英《南京条约》签订。前者是战争开始的年份，后者是条约签订的具体日期，不能把两件事压成同一天。时间线能显示先后，但“先发生”不自动证明是后一切变化的唯一原因。本课只是近代史起步，不假装两件事就覆盖完整史纲。\n\n史料必须问谁在何时写了什么、现在读到的是什么。外交机构2004年的历史概览是后来的解释性介绍；馆方藏品页面明确介绍复制品，能用于核对馆方所记日期，不能说我们已经看过1842年原条约手稿。1939年的《中国革命和中国共产党》则是特定历史时点的理论文献；当前可读的是电子转录。引用时分别记原作年代、网页年代与实际读取形态，不虚构历史人物说过的句子，不把现代展签当当年原始档案。\n\n“半殖民地半封建”不是领土恰好一半，也不是一个社会分成两个互不联系的整齐半块。原著在具体历史背景下分析外国势力控制影响与封建社会关系残存，同时指出资本主义成分等复杂变化。它是社会性质的历史概念，不是可由一个百分比算出的标签。1840之后的变化是过程，不等于战争爆发当天所有关系完全换掉。学习时把术语放回当时的经济、政治与社会关系，不移作今天社会性质的判断。\n\n结合既学主要矛盾方法，原著对当时近代中国分析帝国主义与中华民族、封建主义与人民大众等矛盾。要说明“当时”，不能把1939文本中的“现在”读成2026或2028。不同历史阶段的具体焦点仍须进一步史料和后续课程，不能用本课两个日期宣布每个时期的主要矛盾都相同。答题用事实锚点、来源层次、概念解释和范围限制；材料题用参考要点待核对，不伪造史料、官方分值或独立专业审定。",
+      "definition": "历史学习须区分事件时间、资料形成时间与当前读取形态；近代社会性质概念必须放回相应历史语境。",
+      "conditions": "只核对本课列明的1840/1842锚点及1939理论文本范围，非完整近代史，不确认2028最终考试规则；2028正式要求未确认，不据此推断官方题型或分值。",
+      "example": "1840战争爆发→1842-08-29签条约，事件与具体日期不能互换。\n馆方复制品展签≠已读取1842原手稿，电子转录≠原著手迹。\n半殖民地半封建是关系与过程概念，不是50%领土算术。\n1939文本的当时不能直接代入今天；矛盾分析需阶段条件。",
+      "misconceptions": [
+        "将1840战争爆发与1842条约签订当同一时点。",
+        "把复制品介绍或网页访问当已读原始手稿。",
+        "把半殖民地半封建解释成各占一半领土。",
+        "将1939的现在和矛盾分析无条件搬到今天。"
+      ],
+      "recall": [
+        "闭卷写两件事件的时间并说明先后不等于唯一因果。",
+        "区分原作、后来的介绍与实际读取形态。",
+        "用关系和过程解释社会性质，不用50%算术。",
+        "按当时与现在边界解释原著的矛盾分析。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "1840战争爆发→1842-08-29签条约，事件与具体日期不能互换。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "馆方复制品展签≠已读取1842原手稿，电子转录≠原著手迹。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "半殖民地半封建是关系与过程概念，不是50%领土算术。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "1939文本的当时不能直接代入今天；矛盾分析需阶段条件。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-modern-history-entry-g1",
+          "description": "建立准确的起步时间线",
+          "successCriteria": "分清1840战争爆发和1842-08-29条约签订，能纠正混淆。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-modern-history-entry-b1",
+            "pol-modern-history-entry-a1",
+            "pol-modern-history-entry-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-modern-history-entry-g2",
+          "description": "辨别史料层次与读取事实",
+          "successCriteria": "区分后世介绍、原作电子转录与原手稿，准确报告未读原件。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-modern-history-entry-b2",
+            "pol-modern-history-entry-a2",
+            "pol-modern-history-entry-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-modern-history-entry-g3",
+          "description": "解释历史社会性质概念",
+          "successCriteria": "说明半殖民地半封建不是机械半数且变化为过程。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-modern-history-entry-b3",
+            "pol-modern-history-entry-a3",
+            "pol-modern-history-entry-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-modern-history-entry-g4",
+          "description": "作有历史语境的概念分析",
+          "successCriteria": "引用1939文献时限定当时，不将术语和主要矛盾无条件移植今天。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-modern-history-entry-b4",
+            "pol-modern-history-entry-a4",
+            "pol-modern-history-entry-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "时间与事件对应准确。",
+        "原作年代、网页资料和读取形态分清。",
+        "社会性质用关系和过程解释，无50%误读。",
+        "矛盾分析限定历史背景，不虚构原话或官方评分。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷复述四项目标，再完成新情境延迟题。客观正确不等于长期掌握；主观答案按要点待核对。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "近现代史/马克思主义理论教师复核史实、文献版本和社会性质概念。",
+          "条约原件尚未读取；本课仅使用可读馆方复制品说明核对日期。",
+          "现代概览与1939理论文本性质不同，不据此声称完成原始档案史学论证。"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "pol-modern-history-entry-b1",
+          "type": "single",
+          "stem": "本课两个锚点的顺序正确的是？",
+          "options": [
+            "1840鸦片战争爆发，1842-08-29南京条约签订",
+            "1842战争爆发，1840条约签订",
+            "两件均在1939发生"
+          ],
+          "answer": 0,
+          "explanation": "外交机构概览与馆方说明分别支持1840战争和1842年8月29日条约；1939是本课理论文本的原作年代。",
+          "difficulty": "foundation",
+          "errorCauseHint": "将1840战争爆发与1842条约签订当同一时点。"
+        },
+        {
+          "id": "pol-modern-history-entry-b2",
+          "type": "single",
+          "stem": "读取馆方对复制品的说明后，哪种记录诚实准确？",
+          "options": [
+            "已看过1842条约原手稿",
+            "读取现代馆方复制品说明，未读原手稿",
+            "馆方网页就是当年签约过程录像"
+          ],
+          "answer": 1,
+          "explanation": "必须区分载体和资料层次；复制品介绍可提供馆方所记日期，但不能升级成已读原件或亲历证据。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把复制品介绍或网页访问当已读原始手稿。"
+        },
+        {
+          "id": "pol-modern-history-entry-b3",
+          "type": "single",
+          "stem": "半殖民地半封建在本课中怎样理解？",
+          "options": [
+            "两块领土各占50%",
+            "两个词可直接计算人口比例",
+            "外国势力影响与封建关系等交织的历史社会性质"
+          ],
+          "answer": 2,
+          "explanation": "该术语概括特定历史社会关系，不是领土或人口的机械半数，且须结合资本主义成分等复杂过程。",
+          "difficulty": "foundation",
+          "errorCauseHint": "把半殖民地半封建解释成各占一半领土。"
+        },
+        {
+          "id": "pol-modern-history-entry-b4",
+          "type": "single",
+          "stem": "读1939原著电子文本中的现在，首先应怎样处理？",
+          "options": [
+            "放回1939原作语境",
+            "当作2028最新政策",
+            "解释为所有时代永不变化"
+          ],
+          "answer": 0,
+          "explanation": "原作中的时间指示应放回文献形成背景，不因今天访问网页就变成今天的社会性质或考试要求。",
+          "difficulty": "foundation",
+          "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-modern-history-entry-a1",
+          "type": "single",
+          "stem": "学生把“1840年8月29日签南京条约”写入笔记，最小校正是？",
+          "options": [
+            "只把事件换为1939写作",
+            "条约签订日期改1842年8月29日，1840留作战争爆发年",
+            "保留日期并称从原手稿读到"
+          ],
+          "answer": 1,
+          "explanation": "校正需匹配已核对事件与年月日，馆方说明支持1842-08-29；不可为了修正一个数字再虚构读取原手稿。",
+          "difficulty": "application",
+          "errorCauseHint": "将1840战争爆发与1842条约签订当同一时点。"
+        },
+        {
+          "id": "pol-modern-history-entry-a2",
+          "type": "single",
+          "stem": "2004历史概览和1939理论文献电子版，正确区分是？",
+          "options": [
+            "都必是1840同时代日记",
+            "网页访问日就是原作日",
+            "分别为后世概览与历史原作转录，仍需说明读取形态"
+          ],
+          "answer": 2,
+          "explanation": "资料各有作者、形成时间和目的；电子载体不抹去原作年份，也不等于已查看原始手迹或档案。",
+          "difficulty": "application",
+          "errorCauseHint": "把复制品介绍或网页访问当已读原始手稿。"
+        },
+        {
+          "id": "pol-modern-history-entry-a3",
+          "type": "single",
+          "stem": "有人说战争爆发当天全部关系瞬间改为机械各半，主要问题是？",
+          "options": [
+            "忽略渐变过程，把社会关系术语误作50%算术",
+            "日期越早概念越一定正确",
+            "只需多写两个年份即可"
+          ],
+          "answer": 0,
+          "explanation": "本课概念涉及多种关系交织与渐进变化，不能以单一时点取代过程，更不能把半字当精确数量比例。",
+          "difficulty": "application",
+          "errorCauseHint": "把半殖民地半封建解释成各占一半领土。"
+        },
+        {
+          "id": "pol-modern-history-entry-a4",
+          "type": "subjective",
+          "stem": "用两三句说明1939文本中的近代社会性质和矛盾分析怎样使用；至少列一项不能推出的今天结论。",
+          "answer": "应放回当时外国势力影响和封建关系等历史条件，说明该时期的矛盾；不能因访问电子版就说今天仍同一社会性质或各阶段主要矛盾不变。",
+          "rubric": [
+            "时间与事件对应准确。",
+            "原作年代、网页资料和读取形态分清。",
+            "社会性质用关系和过程解释，无50%误读。",
+            "矛盾分析限定历史背景，不虚构原话或官方评分。"
+          ],
+          "explanation": "核对历史语境、概念和外推限制。不能编造原著引文或现代政策，接受等义解释，主观待专业复核。",
+          "difficulty": "application",
+          "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-modern-history-entry-d1",
+          "type": "single",
+          "stem": "隔日：南京条约签订这个锚点应写哪一天？",
+          "options": [
+            "1840-08-29",
+            "1842-08-29",
+            "1939-12-29"
+          ],
+          "answer": 1,
+          "explanation": "馆方说明记1842年8月29日；1840用于本课战争爆发年份，1939年12月用于理论文献背景，不可交叉。",
+          "difficulty": "delayed",
+          "errorCauseHint": "将1840战争爆发与1842条约签订当同一时点。"
+        },
+        {
+          "id": "pol-modern-history-entry-d2",
+          "type": "single",
+          "stem": "要写来源读取回执，哪项合格？",
+          "options": [
+            "只见链接就称原件全文已核验",
+            "把网页页脚年份当签约年份",
+            "记录馆方复制品介绍及原著电子转录，分别注明未见手稿"
+          ],
+          "answer": 2,
+          "explanation": "回执应如实标记载体和实际读到的内容，链接或页脚不能代替全文读取，也不能充当历史事件日期。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把复制品介绍或网页访问当已读原始手稿。"
+        },
+        {
+          "id": "pol-modern-history-entry-d3",
+          "type": "single",
+          "stem": "解释近代社会性质变化，哪种表述符合本课？",
+          "options": [
+            "在具体历史中逐步形成的关系格局，不能按半字作比例计算",
+            "所有旧关系当日全消失",
+            "只有领土平均分割才适用该词"
+          ],
+          "answer": 0,
+          "explanation": "理论概念要联系真实历史关系与变化过程，不以字面数量替代，也不假设旧关系在一个时点全部消失。",
+          "difficulty": "delayed",
+          "errorCauseHint": "把半殖民地半封建解释成各占一半领土。"
+        },
+        {
+          "id": "pol-modern-history-entry-d4",
+          "type": "subjective",
+          "stem": "闭卷写本课两件事件的时间，再说明现代展签与1939理论电子文本各能支持什么、不能证明什么。",
+          "answer": "1840鸦片战争爆发；1842-08-29南京条约签订。展签支持馆方所记日期但不等于原手稿；1939文本支持当时理论分析，不证明2028政策或所有阶段不变。",
+          "rubric": [
+            "时间与事件对应准确。",
+            "原作年代、网页资料和读取形态分清。",
+            "社会性质用关系和过程解释，无50%误读。",
+            "矛盾分析限定历史背景，不虚构原话或官方评分。"
+          ],
+          "explanation": "核对日期对应、来源层次和历史边界三个方面。独立原文保留，参考要点不等于专家审定或官方分值。",
+          "difficulty": "delayed",
+          "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+        }
+      ],
+      "historicalClaims": [
+        {
+          "event": "鸦片战争爆发",
+          "date": "1840",
+          "source": "https://lt.china-office.gov.cn/ljzg/zgjk/lsgk/200405/t20040528_2910327.htm"
+        },
+        {
+          "event": "中英南京条约签订",
+          "date": "1842-08-29",
+          "source": "https://njjhs.cn/Collection/54.html",
+          "readForm": "museum-replica-description-not-manuscript"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "s27-8-1",
+    "subject": "epi",
+    "section": "疾病分布",
+    "name": "率与比",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "applicableYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingStatus": "proposed_not_reviewed",
+    "candidateChapterIds": [
+      "epi-02"
+    ],
+    "questionIds": [
+      "q-e03",
+      "q-e04",
+      "q-e05"
+    ],
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}

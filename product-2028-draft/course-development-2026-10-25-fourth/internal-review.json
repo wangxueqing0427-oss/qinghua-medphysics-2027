@@ -1,0 +1,127 @@
+{
+  "status": "Internal screening is not independent approval",
+  "expertApproved": 0,
+  "existing47PriorityQueue": "../planning-handoff-2026-10-25/核验回执.json#criticalQuestionQueue",
+  "courses": [
+    {
+      "unitId": "en-vocabulary-retrieval-foundation",
+      "version": "0.1",
+      "contentSha256": "48c2166eec19f7a027184dbb3b22d7e975af4ee2d6632a8ef1897539e38e5dba",
+      "status": "pending-independent-review",
+      "qualification": "英语教师/语言教学专业",
+      "issues": [
+        "英语教师确认音标教学、词义边界及初学者负荷；未测试真实发音。",
+        "社区词典条目可能更新；本课只记录事实、自编中文与例句，未复制音频/整段释义。",
+        "四词并非全词汇覆盖，主动生产答案须教师或逐项参考核对。"
+      ],
+      "sourceRecord": "../course-drafts/en-vocabulary-retrieval-foundation/sources-and-review.json",
+      "answerRecord": "../course-drafts/en-vocabulary-retrieval-foundation/unit.json"
+    },
+    {
+      "unitId": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "contentSha256": "6a2378a75f315ad9b1eb3d29cbbcaaec278d8cc80112a79fdbc030d37ec59a8d",
+      "status": "pending-independent-review",
+      "qualification": "英语教师/语言教学专业",
+      "issues": [
+        "英语教师复核短文自然度、指代明确性及词汇负荷。",
+        "阅读方法为教学补充，不代表2028官方题型或难度。",
+        "相同短文在多题中重复提供属于自足呈现，需区别真正重复题。"
+      ],
+      "sourceRecord": "../course-drafts/en-reading-evidence-foundation/sources-and-review.json",
+      "answerRecord": "../course-drafts/en-reading-evidence-foundation/unit.json"
+    },
+    {
+      "unitId": "en-present-perfect-foundation",
+      "version": "0.1",
+      "contentSha256": "be35a11911fb478a6fe5d8ccea494f38f3d8afba258292f4ccccfecb06460e8b",
+      "status": "pending-independent-review",
+      "qualification": "英语教师/语言教学专业",
+      "issues": [
+        "英语教师复核完成语境、持续动词与改写的评分边界。",
+        "不声称本课覆盖所有完成时或2028官方命题范围。"
+      ],
+      "sourceRecord": "../course-drafts/en-present-perfect-foundation/sources-and-review.json",
+      "answerRecord": "../course-drafts/en-present-perfect-foundation/unit.json"
+    },
+    {
+      "unitId": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "contentSha256": "36225cf43d99fa29b5309d58a9c4a579baf788c428bbbb9e7af65368eda316eb",
+      "status": "pending-independent-review",
+      "qualification": "马克思主义理论教师；史纲另需近现代史背景",
+      "issues": [
+        "马克思主义理论教师确认生产关系/上层建筑范畴及简化案例边界。",
+        "原著术语到零基础讲解的转述须独立复核；非2028最终大纲确认。"
+      ],
+      "sourceRecord": "../course-drafts/pol-base-superstructure-foundation/sources-and-review.json",
+      "answerRecord": "../course-drafts/pol-base-superstructure-foundation/unit.json"
+    },
+    {
+      "unitId": "pol-people-individual-history",
+      "version": "0.1",
+      "contentSha256": "e2856cd1e1a947c2d340bf76b118cac269c01b6bb300839a9fcdeed83ee9a1dd",
+      "status": "pending-independent-review",
+      "qualification": "马克思主义理论教师；史纲另需近现代史背景",
+      "issues": [
+        "理论教师复核群众概念边界、个人与历史条件的讲解。",
+        "虚构组织案例是方法桥梁，不应替代复杂历史材料训练。"
+      ],
+      "sourceRecord": "../course-drafts/pol-people-individual-history/sources-and-review.json",
+      "answerRecord": "../course-drafts/pol-people-individual-history/unit.json"
+    },
+    {
+      "unitId": "pol-modern-history-entry",
+      "version": "0.1",
+      "contentSha256": "bc6535af1b01f3d4e29c2a3e2d072690e9b62edb311e91007ee8e1177be4fd14",
+      "status": "pending-independent-review",
+      "qualification": "马克思主义理论教师；史纲另需近现代史背景",
+      "issues": [
+        "近现代史/马克思主义理论教师复核史实、文献版本和社会性质概念。",
+        "条约原件尚未读取；本课仅使用可读馆方复制品说明核对日期。",
+        "现代概览与1939理论文本性质不同，不据此声称完成原始档案史学论证。"
+      ],
+      "sourceRecord": "../course-drafts/pol-modern-history-entry/sources-and-review.json",
+      "answerRecord": "../course-drafts/pol-modern-history-entry/unit.json"
+    },
+    {
+      "unitId": "353-ratio-rate-prevalence",
+      "version": "0.1",
+      "contentSha256": "69dc93148be5506318214c3af37a2ea1cffe37ca6dbafbc5f0c65f6fbdc0fa99",
+      "status": "pending-independent-review",
+      "qualification": "流行病学/卫生统计教师",
+      "issues": [
+        "流行病学教师复核期间患病率分母表述与开放人群边界。",
+        "率的术语约定多样，本课区分量的性质而非否定习惯名称。"
+      ],
+      "sourceRecord": "../course-drafts/353-ratio-rate-prevalence/sources-and-review.json",
+      "answerRecord": "../course-drafts/353-ratio-rate-prevalence/unit.json"
+    },
+    {
+      "unitId": "353-normal-distribution-foundation",
+      "version": "0.1",
+      "contentSha256": "d3f47bff1fc386e65c99a9e48d80bda47c31718f45a9746be951bb5f6803e685",
+      "status": "pending-independent-review",
+      "qualification": "流行病学/卫生统计教师",
+      "issues": [
+        "统计学教师复核连续模型、标准化与近似概率表述。",
+        "无真实数据拟合验证，不把例中假定作为医学变量的分布事实。"
+      ],
+      "sourceRecord": "../course-drafts/353-normal-distribution-foundation/sources-and-review.json",
+      "answerRecord": "../course-drafts/353-normal-distribution-foundation/unit.json"
+    },
+    {
+      "unitId": "353-sampling-distribution-se",
+      "version": "0.1",
+      "contentSha256": "8e8f7be8d91a4a933333f0b7752e7c2d0c4625e1314918be26ea82074c07ead6",
+      "status": "pending-independent-review",
+      "qualification": "流行病学/卫生统计教师",
+      "issues": [
+        "统计学教师复核抽样分布、标准误估计及CLT的入门深度。",
+        "相关/复杂设计仅作不适用提醒，未给未核实的修正公式。"
+      ],
+      "sourceRecord": "../course-drafts/353-sampling-distribution-se/sources-and-review.json",
+      "answerRecord": "../course-drafts/353-sampling-distribution-se/unit.json"
+    }
+  ]
+}

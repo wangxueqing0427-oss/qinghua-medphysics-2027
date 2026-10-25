@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-25",
+  "status": "internal-check-pending-independent-review",
+  "mapping": {
+    "nodeId": "en-plan-1",
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false,
+    "allNodeIds": [
+      "en-plan-1"
+    ]
+  },
+  "sources": [
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://en.wiktionary.org/wiki/study",
+      "publisher": "Wiktionary English entry",
+      "locator": "English pronunciation /ˈstʌd.i/; verb study/studies/studying/studied",
+      "supports": [
+        "词音和词形事实；不引入词典例句或音频"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://en.wiktionary.org/wiki/read",
+      "publisher": "Wiktionary English entry",
+      "locator": "English present pronunciation /ɹiːd/; reads/reading and written past read",
+      "supports": [
+        "当前读音及词形"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://en.wiktionary.org/wiki/note",
+      "publisher": "Wiktionary English entry",
+      "locator": "English noun and UK IPA /nəʊ̯t/; plural notes",
+      "supports": [
+        "笔记语境和词形"
+      ]
+    },
+    {
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "url": "https://en.wiktionary.org/wiki/evidence",
+      "publisher": "Wiktionary English entry",
+      "locator": "English noun: usually uncountable; IPA /ˈɛv.ɪ.dəns/",
+      "supports": [
+        "支持主张的事实/观察；通常不可数"
+      ]
+    }
+  ],
+  "pendingReview": [
+    "英语教师确认音标教学、词义边界及初学者负荷；未测试真实发音。",
+    "社区词典条目可能更新；本课只记录事实、自编中文与例句，未复制音频/整段释义。",
+    "四词并非全词汇覆盖，主动生产答案须教师或逐项参考核对。"
+  ],
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
