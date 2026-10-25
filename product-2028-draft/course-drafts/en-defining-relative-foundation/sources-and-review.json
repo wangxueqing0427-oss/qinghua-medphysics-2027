@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "en-plan-3",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "targetYear": 2028,
+    "officialExamMappingConfirmed": false,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/relative-clauses-defining-relative-clauses",
+      "publisher": "British Council",
+      "title": "Defining relative clauses",
+      "locator": "正文who/that、which/that、Omitting relative pronoun；不使用评论",
+      "publishedAt": null,
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+      "publisher": "British Council",
+      "title": "Present simple",
+      "locator": "正文形式与present time；不采用评论",
+      "publishedAt": null,
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    }
+  ],
+  "pendingReview": [
+    "英语教师复核关系词省略、主从结构和译文自然度",
+    "非限定性、介词前置、whose/where等完整体系尚未覆盖"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
+

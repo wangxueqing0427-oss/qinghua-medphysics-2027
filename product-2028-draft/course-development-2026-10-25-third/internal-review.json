@@ -1,0 +1,1835 @@
+{
+  "expertApproved": 0,
+  "scope": "Original teaching and self-authored questions; AI internal screening is not independent professional review",
+  "units": [
+    {
+      "id": "en-present-continuous-foundation",
+      "version": "0.1",
+      "contentSha256": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "en-present-continuous-foundation-g1",
+          "description": "组成当前动作谓语",
+          "successCriteria": "主语匹配am/is/are并保留-ing，不遗漏be。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b1",
+            "en-present-continuous-foundation-a1",
+            "en-present-continuous-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-continuous-foundation-g2",
+          "description": "按语境区分习惯和当前活动",
+          "successCriteria": "比较两种时态意义，并拒绝本课know状态义的机械进行化。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b2",
+            "en-present-continuous-foundation-a2",
+            "en-present-continuous-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-continuous-foundation-g3",
+          "description": "写出指定-ing形式",
+          "successCriteria": "read/write/run/lie四词形式正确。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b3",
+            "en-present-continuous-foundation-a3",
+            "en-present-continuous-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-continuous-foundation-g4",
+          "description": "转换否定和疑问",
+          "successCriteria": "be后not与be前移正确，不叠加do。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b4",
+            "en-present-continuous-foundation-a4",
+            "en-present-continuous-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-present-continuous-foundation-b1",
+          "type": "single",
+          "stem": "Lin此刻正在读便条，Lin ___ a note now。",
+          "answerText": "is reading",
+          "explanation": "Lin为单数，当前动作需is reading。B遗漏be，C把do体系与进行结构混接；先确认整个谓语再看词尾。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-b2",
+          "type": "single",
+          "stem": "想表达每日习惯而非此刻动作，哪句更合题意？",
+          "answerText": "She reads every evening.",
+          "explanation": "题目指定反复习惯，reads every evening最合适。A明确当前一刻，C缺完整谓语；不是说进行时永远不能与频率词同用。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-b3",
+          "type": "single",
+          "stem": "write的本课-ing形式是？",
+          "answerText": "writing",
+          "explanation": "write末尾不发音e去掉再加ing，成writing。A保留e，B无根据双写t，不能只凭看到ing认定词形正确。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-b4",
+          "type": "single",
+          "stem": "将They are waiting改为一般疑问句，正确的是？",
+          "answerText": "Are they waiting?",
+          "explanation": "已有be时把are移到主语前，得到Are they waiting。B额外加入do，C破坏主语与动作的位置。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-a1",
+          "type": "single",
+          "stem": "I ___ at this moment，应选择本课完整的正在工作表达。",
+          "answerText": "am working",
+          "explanation": "I与am配合，当前动作写am working；A缺be，C是第三人称形式，既不配I也不是本题要求的进行结构。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-a2",
+          "type": "single",
+          "stem": "know表示知道时，哪句符合本课常规用法？",
+          "answerText": "I know the answer.",
+          "explanation": "know在给定状态义通常用一般形式。A机械套进行时，B缺完整谓语；本题不讨论特殊修辞或其他语义。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-a3",
+          "type": "single",
+          "stem": "表示“他正在跑”，哪个组合正确？",
+          "answerText": "He is running.",
+          "explanation": "本课run变running且单数主体需is。B拼写错，C遗漏be；语法与拼写要分两步检查。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-a4",
+          "type": "subjective",
+          "stem": "把We are writing notes改为否定句和一般疑问句，说明为什么不加do。",
+          "answerText": "We are not writing notes. Are we writing notes? 已有be，否定加not、疑问前移are。",
+          "explanation": "先核对正在写这一意义，再转换be的位置；答案逐点人工核对，不能凭一个词给自动满分。",
+          "rubric": [
+            "否定保留are writing",
+            "not放are后",
+            "疑问are前移",
+            "说明不加do"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-d1",
+          "type": "single",
+          "stem": "隔日：两名学生此刻正在看地图，应选？",
+          "answerText": "The students are looking at a map.",
+          "explanation": "复数students用are looking，A主谓不一致，C少be。本题在新主语中复查结构，而不是重复原来的Lin句子。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-d2",
+          "type": "single",
+          "stem": "原意是每周固定在周日步行，哪句最直接？",
+          "answerText": "We walk every Sunday.",
+          "explanation": "明确普通习惯，walk every Sunday直接表达；A把are与原形混接，B缺完整谓语，不把时间词机械当唯一依据。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-d3",
+          "type": "single",
+          "stem": "隔日拼写迁移：lie在本课“躺”义的-ing是？",
+          "answerText": "lying",
+          "explanation": "本课指定lie改成lying，B和C不是该形式。需要记住给定词形，不把write的去e规则机械套到所有词。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-present-continuous-foundation-d4",
+          "type": "subjective",
+          "stem": "给出“她现在没在等”的英语句子及相应疑问句，并解释与“她每天等”有何不同。",
+          "answerText": "She is not waiting now. Is she waiting now? 当前动作不同于She waits every day的习惯。",
+          "explanation": "分别核查意义、be与-ing，主观答案保留原文和参考要点，等待核对，不虚构评分。",
+          "rubric": [
+            "is与she对应",
+            "否定结构正确",
+            "疑问前移is",
+            "区分当前动作和习惯"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "英语教师复核状态动词语境、现在进行时与暂时情境的边界",
+        "未覆盖将来安排、过去进行时及完成时"
+      ]
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "version": "0.1",
+      "contentSha256": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "en-passive-simple-foundation-g1",
+          "description": "辨认动作方向",
+          "successCriteria": "指出被动主语是承受者，转换不颠倒执行者。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b1",
+            "en-passive-simple-foundation-a1",
+            "en-passive-simple-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-passive-simple-foundation-g2",
+          "description": "构成一般现在被动",
+          "successCriteria": "be与新主语一致，正确使用给定分词。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b2",
+            "en-passive-simple-foundation-a2",
+            "en-passive-simple-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-passive-simple-foundation-g3",
+          "description": "构成过去被动及转换",
+          "successCriteria": "was/were加分词，否定疑问不叠加did。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b3",
+            "en-passive-simple-foundation-a3",
+            "en-passive-simple-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-passive-simple-foundation-g4",
+          "description": "限定转换范围",
+          "successCriteria": "定位宾语与是否保留by，拒绝不及物机械变换。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b4",
+            "en-passive-simple-foundation-a4",
+            "en-passive-simple-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-passive-simple-foundation-b1",
+          "type": "single",
+          "stem": "The list is checked by Jo中，谁执行check？",
+          "answerText": "Jo",
+          "explanation": "by Jo在本题明确给执行者Jo，list承受检查。B混淆句首主体与执行角色，C忽略题目已经提供的信息。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-b2",
+          "type": "single",
+          "stem": "The rooms ___ every morning，选完整一般现在被动。",
+          "answerText": "are cleaned",
+          "explanation": "复数rooms需要are，动作被动用cleaned。A不一致，C可为状态描述但不符合本题指定的被清扫动作结构。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-b3",
+          "type": "single",
+          "stem": "昨天单数便条被写好：The note ___ yesterday，选完整过去被动。",
+          "answerText": "was written",
+          "explanation": "昨天用过去was，单数note与之对应，write分词用written。A未保持过去时间，B把过去式wrote放入分词位置。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-b4",
+          "type": "single",
+          "stem": "对He sleeps这句，哪项符合本课被动转换边界？",
+          "answerText": "该句没有可直接提升的宾语，不机械变被动。",
+          "explanation": "He sleeps的sleep在本句无宾语，不适用本课宾语提升转换。B忽略及物边界，C只移动词却没有构造正确谓语。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-a1",
+          "type": "single",
+          "stem": "The lab tests the samples，若突出samples，正确转换？",
+          "answerText": "The samples are tested by the lab.",
+          "explanation": "samples是原宾语，被动改作主语并用are tested。A颠倒角色，C改成样本执行测试，失去原句含义。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-a2",
+          "type": "single",
+          "stem": "单数便条昨天被写好，哪句正确？",
+          "answerText": "The note was written yesterday.",
+          "explanation": "昨天对应was，write分词用written。A时态和词形都不合，B虽有was却用wrote，不能只检查be。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-a3",
+          "type": "single",
+          "stem": "将The box was opened改成否定被动，正确？",
+          "answerText": "The box was not opened.",
+          "explanation": "在was后加not并保留分词，B叠加did，C丢掉be；本题不是让学习者改成主动句。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-a4",
+          "type": "subjective",
+          "stem": "把A student made the model改被动，并说明为什么不把He sleeps机械改为被动。",
+          "answerText": "The model was made by a student. made是给定分词；sleep在He sleeps中无宾语，不能套此转换。",
+          "explanation": "核对原宾语、过去时和分词三层，不能因出现by就自动判全部正确；主观题仅参考核对。",
+          "rubric": [
+            "model成为主语",
+            "was made正确",
+            "执行者方向保留",
+            "指出sleep无宾语"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-d1",
+          "type": "single",
+          "stem": "隔日：The chairs ___ last night，要求复数过去被动。",
+          "answerText": "were cleaned",
+          "explanation": "复数chairs配were，动作被动保留cleaned。A数不一致，C是形容状态结构，不是指定的被清扫谓语。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-d2",
+          "type": "single",
+          "stem": "“这张地图每天被使用”，哪项完整？",
+          "answerText": "The map is used every day.",
+          "explanation": "一般现在单数被动是is used，A缺be，B缺分词；不能把every day当作忽略语态的理由。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-d3",
+          "type": "single",
+          "stem": "过去被动疑问句的正确顺序是？",
+          "answerText": "Was the letter written yesterday?",
+          "explanation": "把was移至主语前，后保留written。B多加did，C把主语放错；先找整句谓语再移动。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-passive-simple-foundation-d4",
+          "type": "subjective",
+          "stem": "写出“窗户昨天被打开”的被动句，再说明不写执行者是否使句子无效。",
+          "answerText": "The window was opened yesterday. by执行者可不写，未知或非重点不妨碍本课结构成立。",
+          "explanation": "不要把可省略执行者误说为不存在执行者；按参考点核对，不虚构专业分数。",
+          "rubric": [
+            "window为承受者",
+            "was opened正确",
+            "保留昨天时间",
+            "说明by可省略但不改方向"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "英语教师核对被动语义、短语自然度与可转换范围",
+        "未覆盖完成、进行被动或所有过去分词"
+      ]
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "version": "0.1",
+      "contentSha256": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "en-defining-relative-foundation-g1",
+          "description": "划出主从骨架",
+          "successCriteria": "先行词、修饰范围和主句谓语识别正确。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b1",
+            "en-defining-relative-foundation-a1",
+            "en-defining-relative-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-defining-relative-foundation-g2",
+          "description": "选择限定性关系词",
+          "successCriteria": "在给定选项中按人或物选择且解释that可用范围。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b2",
+            "en-defining-relative-foundation-a2",
+            "en-defining-relative-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-defining-relative-foundation-g3",
+          "description": "判别关系词角色与省略",
+          "successCriteria": "从句已有主语时判宾语可省，不重复代词。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b3",
+            "en-defining-relative-foundation-a3",
+            "en-defining-relative-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-defining-relative-foundation-g4",
+          "description": "保持两层主谓一致",
+          "successCriteria": "主句与从句分别找主体，不受邻近词干扰。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b4",
+            "en-defining-relative-foundation-a4",
+            "en-defining-relative-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-defining-relative-foundation-b1",
+          "type": "single",
+          "stem": "The girl who carries a map is our guide的主句骨架是？",
+          "answerText": "The girl is our guide.",
+          "explanation": "修饰段who carries a map限定girl；主句girl is guide。B只是从句，C换了主体，不能按最近名词猜。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-b2",
+          "type": "single",
+          "stem": "本课限定性从句指物：The tool ___ helps us is new，给定选项哪项正确？",
+          "answerText": "which",
+          "explanation": "tool是物，which在从句作主语。A按本课不指该物，C不是此处关系词；that也可用但未设为竞争选项。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-b3",
+          "type": "single",
+          "stem": "The man who helps us is kind中who的角色是？",
+          "answerText": "从句主语",
+          "explanation": "who对应man，执行helps的动作，是从句主语。A把句层混淆，B误判helps前主体；此位置本课不能省略。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-b4",
+          "type": "single",
+          "stem": "The books that she reads ___ useful，主句谓语应选？",
+          "answerText": "are",
+          "explanation": "主句主体books为复数，选are；she只是从句主体，不能因离空格近而控制主句一致关系。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-a1",
+          "type": "single",
+          "stem": "The doctor who works here is friendly里限定doctor的部分是？",
+          "answerText": "who works here",
+          "explanation": "who works here说明哪位医生；A是主句述语，C是被修饰名词，不是修饰从句本身。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-a2",
+          "type": "single",
+          "stem": "本课限定性从句指人：The teacher ___ helps me is patient，选？",
+          "answerText": "who",
+          "explanation": "teacher是人，用who作从句主语；which不用于本题给定人，it会造成两个普通句硬接，不是关系引导。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-a3",
+          "type": "single",
+          "stem": "哪句符合本课宾语关系词省略规则？",
+          "answerText": "The book I read is short.",
+          "explanation": "A中I是从句主语，book对应宾语可省that。B删掉本应充当从句主语的who，C重复宾语it。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-a4",
+          "type": "subjective",
+          "stem": "拆解The children who read stories are happy，解释read和are为何可同时存在。",
+          "answerText": "主句The children are happy；who read stories修饰children，who作从句主语，两层各有谓语。",
+          "explanation": "不能仅数动词说有错，要说明各自所属句层；主观解析按四点核对，保留原答案。",
+          "rubric": [
+            "主句children are happy",
+            "修饰范围正确",
+            "who角色正确",
+            "区分两个谓语层次"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-d1",
+          "type": "single",
+          "stem": "隔日：The report that we need is ready的主句是？",
+          "answerText": "The report is ready.",
+          "explanation": "主句report is ready，从句that we need限定report。A是恢复的从句意思，C只修饰片段，不等于全句骨架。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-d2",
+          "type": "single",
+          "stem": "指定物、限定性从句：The bag ___ is on the chair is mine，选？",
+          "answerText": "that",
+          "explanation": "that指bag并在从句作主语；A按本课不指物，B是普通代词。that在这里不等于可以任意省略。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-d3",
+          "type": "single",
+          "stem": "The letter that Tom wrote is long中，哪项正确？",
+          "answerText": "that作从句宾语，本课可省略。",
+          "explanation": "Tom是wrote的主语，letter对应宾语，故可省that；B角色倒置，C会重复宾语，破坏结构。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "en-defining-relative-foundation-d4",
+          "type": "subjective",
+          "stem": "解释The student who reads these books is here的两层主体，并判断把is改are是否正确。",
+          "answerText": "主句student is here为单数；从句who指student，reads正确。books是reads宾语，不控制主句is，改are错误。",
+          "explanation": "在新句中检查分层和一致关系，而非只背books通常配are；参考核对不自动评分。",
+          "rubric": [
+            "识别主句student",
+            "识别who的指代",
+            "指出books为宾语",
+            "保留is并给理由"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "英语教师复核关系词省略、主从结构和译文自然度",
+        "非限定性、介词前置、whose/where等完整体系尚未覆盖"
+      ]
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "version": "0.1",
+      "contentSha256": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "pol-social-being-consciousness-g1",
+          "description": "区分社会物质与精神方面",
+          "successCriteria": "正确归类生产生活条件和观念材料。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b1",
+            "pol-social-being-consciousness-a1",
+            "pol-social-being-consciousness-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-social-being-consciousness-g2",
+          "description": "解释决定关系",
+          "successCriteria": "给出现实基础而不声称所有观念即时同步。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b2",
+            "pol-social-being-consciousness-a2",
+            "pol-social-being-consciousness-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-social-being-consciousness-g3",
+          "description": "解释相对独立及反作用",
+          "successCriteria": "承认观念作用且不升级为最终决定者。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b3",
+            "pol-social-being-consciousness-a3",
+            "pol-social-being-consciousness-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-social-being-consciousness-g4",
+          "description": "将关系用于材料分析",
+          "successCriteria": "引用具体事实并指出行动条件，不编造效果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b4",
+            "pol-social-being-consciousness-a4",
+            "pol-social-being-consciousness-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pol-social-being-consciousness-b1",
+          "type": "single",
+          "stem": "材料中的“工厂劳动组织方式发生改变”首先属于哪类分析对象？",
+          "answerText": "社会存在的物质生活条件",
+          "explanation": "劳动组织涉及实际生产方式，应从社会存在分析。B把实际关系误当幻想，C忽略生产生活的社会性质；不是因它被文字描述就变成观念本身。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-b2",
+          "type": "single",
+          "stem": "解释某观念形成的唯物史观基本取向是？",
+          "answerText": "考察相关社会生活和生产条件",
+          "explanation": "从实际社会条件理解观念，符合存在决定意识。A用个人特质替代历史基础，C否认现实来源；并非否认个人思考活动。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-b3",
+          "type": "single",
+          "stem": "旧观念在条件改变后仍延续，最合理判断是？",
+          "answerText": "需分析观念继承和变化时滞",
+          "explanation": "不同步提示分析相对独立性，不能否认存在的基础作用。A把决定误成瞬时同步，B把相对独立绝对化。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-b4",
+          "type": "single",
+          "stem": "材料分析中哪一步最能防止空喊概念？",
+          "answerText": "用具体事实说明条件与观念的关系",
+          "explanation": "应连接题内事实与关系并说明条件。B没有分析，C虚构结果；理论可以指导分析，但不能替代证据。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-a1",
+          "type": "single",
+          "stem": "社区公共交通改善与居民出行看法变化，哪组分类正确？",
+          "answerText": "交通条件属物质方面，看法属精神方面",
+          "explanation": "交通设施和使用条件属于实际生活条件，看法属于观念。A否认现实，C混淆对象；两者联系不等于概念同一。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-a2",
+          "type": "single",
+          "stem": "有人说同一城市的人观念不同，所以存在不决定意识。主要错误是？",
+          "answerText": "把决定理解为人人同步同样",
+          "explanation": "决定并非一对一机械复制，个人经历和继承条件会造成差异。A和B本身不是此推理的错误，关键是关系被过度简化。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-a3",
+          "type": "single",
+          "stem": "要使合理观念作用于实际生活，较适当的是？",
+          "answerText": "结合条件转化为实际行动并检验",
+          "explanation": "反作用要通过人的实践和具体条件实现。B颠倒基础关系，C否认能动作用；不承诺任何观念必然带来成功。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-a4",
+          "type": "subjective",
+          "stem": "共享场地已建但旧组织观念延续，如何解释并提出一项有条件的改进？",
+          "answerText": "条件改变提供现实基础，观念可能有惯性；调查阻碍、组织实际活动并反馈，不保证一建场地就自动转变。",
+          "explanation": "按题内材料分别解释存在、意识及行动，不以术语命中率当专业评分。",
+          "rubric": [
+            "识别场地条件",
+            "指出观念惯性",
+            "不颠倒决定关系",
+            "提出可检验行动和限制"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-d1",
+          "type": "single",
+          "stem": "隔日：居民对新劳动安排的评价首先属于？",
+          "answerText": "社会意识方面",
+          "explanation": "评价是精神方面，劳动安排本身是现实关系。A混淆对象与认识，C把社会评价当孤立物理量，均不能代替分类。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-d2",
+          "type": "single",
+          "stem": "某人把相对独立性解释为观念无现实基础，应怎样纠正？",
+          "answerText": "相对独立不取消存在的基础作用",
+          "explanation": "相对独立描述发展方式与作用，不是否认现实基础。A将其绝对化，B换成不相关的物理形状判断。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-d3",
+          "type": "single",
+          "stem": "分析观念的促进或阻碍作用，需要？",
+          "answerText": "结合内容、实际条件和人的行动",
+          "explanation": "反作用方向与实现依赖内容和条件。B抹平正确错误和条件差异，C无法说明社会效果，不构成理论分析。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-social-being-consciousness-d4",
+          "type": "subjective",
+          "stem": "新情境中条件已变但习惯观念未立即改变，写一个不机械化的解释。",
+          "answerText": "社会条件为观念提供基础，但继承、经历和组织过程使变化不完全同步；通过有条件的实践改进，不把惯性说成观念最终决定现实。",
+          "explanation": "允许不同原创情境，须保持关系及条件清楚；参考点不是自动得分保证。",
+          "rubric": [
+            "存在的基础作用",
+            "说明不完全同步",
+            "指出具体作用途径",
+            "拒绝绝对独立"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "马克思主义理论教师复核社会存在范围、相对独立性与案例限度",
+        "年度政治考试范围和评分标准未确认"
+      ]
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "contentSha256": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "pol-epistemology-case-analysis-g1",
+          "description": "区分证据与推论",
+          "successCriteria": "正确标注材料已有事实、原因判断及行动建议。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b1",
+            "pol-epistemology-case-analysis-a1",
+            "pol-epistemology-case-analysis-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-g2",
+          "description": "说明认识深化",
+          "successCriteria": "解释整理核对而非纯堆积，兼顾经验与理论。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b2",
+            "pol-epistemology-case-analysis-a2",
+            "pol-epistemology-case-analysis-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-g3",
+          "description": "限定实践检验范围",
+          "successCriteria": "保留其他影响与阶段条件，不作永恒保证。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b3",
+            "pol-epistemology-case-analysis-a3",
+            "pol-epistemology-case-analysis-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-g4",
+          "description": "完成材料迁移表达",
+          "successCriteria": "引用事实和关系，提出可检验行动且不编数据。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b4",
+            "pol-epistemology-case-analysis-a4",
+            "pol-epistemology-case-analysis-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pol-epistemology-case-analysis-b1",
+          "type": "single",
+          "stem": "“两天晚间排队较长；因此原因一定只有开放时间”中后半句属于？",
+          "answerText": "超出有限观察的原因推断",
+          "explanation": "两天记录不能直接排除其他原因，后半句是过强推断。B和C把解释冒充观察；不是否认排队事实本身。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-b2",
+          "type": "single",
+          "stem": "把零散观察整理成概念和判断，较恰当的理解是？",
+          "answerText": "需核对材料并通过分析形成解释",
+          "explanation": "材料真实性和分析过程都重要。A把积累自动化，C切断现实基础；理性认识不等于随意猜测。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-b3",
+          "type": "single",
+          "stem": "判断试行方案有效后，最应避免哪种说法？",
+          "answerText": "此方案在所有地点永久有效",
+          "explanation": "局部实践证据有范围，C越界外推。A和B是保留条件的合理步骤，不是对实践作用的否定。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-b4",
+          "type": "single",
+          "stem": "材料题中连接原理与事实的合适方式是？",
+          "answerText": "指出题内哪些事实体现何种关系",
+          "explanation": "要解释原理为何适用，而不只是名称对应。B缺论证，C虚构数据，均不能说明真实认识过程。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-a1",
+          "type": "single",
+          "stem": "“下周拟试行新排期”在尚未执行时应归为？",
+          "answerText": "待检验行动建议",
+          "explanation": "拟试行说明未来方案而非既成结果。A混淆计划与执行，C从提议跃到普遍结论，没有实践支持。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-a2",
+          "type": "single",
+          "stem": "只凭一次亲历否定所有研究和理论，主要问题是？",
+          "answerText": "把局部经验绝对化",
+          "explanation": "局部经验不能替代全部理论和他人实践知识。A和B并无错，C才是经验主义式片面化，应结合分析和更广材料。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-a3",
+          "type": "single",
+          "stem": "不同地点直接照搬排期效果不佳，较合理处理是？",
+          "answerText": "调查条件差异后调整并检验",
+          "explanation": "适用条件可能不同，应比较并修正。B否定检验作用，C拒绝现实差异；不能仅凭失败次数得出所有理论无效。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-a4",
+          "type": "subjective",
+          "stem": "阅读室两晚拥堵，小组建议延时。写出目前知道什么、还缺什么、怎样检验。",
+          "answerText": "已知两晚拥堵；原因和代表性未定，应补充分时需求、资源与其他变化，在许可条件下试行并比较反馈。",
+          "explanation": "按证据、推断、条件、行动四层核对，不因写到实践二字就给出虚构分数。",
+          "rubric": [
+            "引用两晚事实",
+            "区分原因推断",
+            "列出缺失条件",
+            "提出可检验实践"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-d1",
+          "type": "single",
+          "stem": "隔日：一场活动满意度较高，“一切活动都应同样举办”属于？",
+          "answerText": "超出单次材料的推广",
+          "explanation": "单次满意不能代表所有活动及条件，B指出推论范围。A和C都把局部结果扩大，需继续比较和实践检验。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-d2",
+          "type": "single",
+          "stem": "对已有解释进行核对时，最合理的是？",
+          "answerText": "同时查真实材料、逻辑和适用条件",
+          "explanation": "认识深化需要面对反例与条件，A拒绝修正，B选择性收集；条理和赞同人数不自动证明真理。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-d3",
+          "type": "single",
+          "stem": "某阶段方案有效，而条件变化后需调整，这说明？",
+          "answerText": "认识应随实践和对象变化发展",
+          "explanation": "阶段适用与后续发展可以同时成立。B和C是无根据绝对化；新变化不自动否认过去条件下的结论。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-d4",
+          "type": "subjective",
+          "stem": "某活动方案只在小范围试过，别人建议直接全区照用。写一段有边界的认识论分析。",
+          "answerText": "先说明小范围实践提供有限依据，再比较对象、资源和环境，分步检验并修改，不能把局部效果当全区保证。",
+          "explanation": "允许不同表达，但必须具体说明证据范围和行动，不能关键词匹配冒充专业评分。",
+          "rubric": [
+            "小范围事实",
+            "条件比较",
+            "分步实践与修正",
+            "拒绝无条件保证"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "理论教师核对材料归因、感性理性边界及参考答题要点",
+        "本课不是官方评分细则，未实现可靠主观自动评分"
+      ]
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "version": "0.1",
+      "contentSha256": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "pol-productive-forces-relations-g1",
+          "description": "识别生产能力要素",
+          "successCriteria": "同时考虑劳动者和生产资料，区分工具与对象。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b1",
+            "pol-productive-forces-relations-a1",
+            "pol-productive-forces-relations-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-productive-forces-relations-g2",
+          "description": "识别生产关系范围",
+          "successCriteria": "说明所有、生产中地位关系和分配，排除一般好恶。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b2",
+            "pol-productive-forces-relations-a2",
+            "pol-productive-forces-relations-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-productive-forces-relations-g3",
+          "description": "解释两者相互作用",
+          "successCriteria": "区分制约与反作用及适合条件，拒绝机械推断。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b3",
+            "pol-productive-forces-relations-a3",
+            "pol-productive-forces-relations-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-productive-forces-relations-g4",
+          "description": "迁移到生产情境",
+          "successCriteria": "分层提取事实并提出有条件分析，不把管理当全部制度。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b4",
+            "pol-productive-forces-relations-a4",
+            "pol-productive-forces-relations-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pol-productive-forces-relations-b1",
+          "type": "single",
+          "stem": "面包坊用于烘烤的烤炉，在给定生产过程首先属于？",
+          "answerText": "劳动资料",
+          "explanation": "烤炉作为劳动手段是劳动资料；面粉才是本题被加工对象，个人情绪不能替代该要素分类。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-b2",
+          "type": "single",
+          "stem": "下列哪项最直接涉及生产关系？",
+          "answerText": "生产资料归谁所有及产品怎样分配",
+          "explanation": "所有与分配涉及生产中人与人的物质经济关系。A和C是技术物性，不能因此直接判为同一经济关系。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-b3",
+          "type": "single",
+          "stem": "生产关系是否适合生产力，主要影响应怎样表述？",
+          "answerText": "可能促进，也可能成为障碍",
+          "explanation": "需考察具体适合状况，不能先验认定所有安排同效。A取消反作用，B把促进无条件化，均片面。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-b4",
+          "type": "single",
+          "stem": "生产方式在本课应怎样理解？",
+          "answerText": "生产力与生产关系的统一",
+          "explanation": "本课以两者统一理解生产方式，不把其缩为技术目录或主观偏好。统一不抹平能力与关系的区别。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-a1",
+          "type": "single",
+          "stem": "提高劳动者技能与增加适合的工具，主要改善哪类条件？",
+          "answerText": "生产力条件",
+          "explanation": "技能与劳动资料结合影响生产能力。A把生产与评价混淆，C否认事实联系；不据此保证任意条件下产出必增。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-a2",
+          "type": "single",
+          "stem": "哪项不宜仅因“人与人”就判成生产关系？",
+          "answerText": "两位同学课外音乐偏好相同",
+          "explanation": "课外共同爱好并非题定生产中的经济关系；A和B在范围内。需要看关系发生的领域和性质，不只是是否有两个人。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-a3",
+          "type": "single",
+          "stem": "新工艺被旧协作方式阻碍，较合理分析是？",
+          "answerText": "核对具体协调条件并考察适应性改进",
+          "explanation": "具体分析技术与关系衔接，A保留条件。B机械即时化，C用意愿替代能力，均超出材料证据。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-a4",
+          "type": "subjective",
+          "stem": "面包坊新工艺提高潜在产能但原料交接不畅，分别指出生产力、生产关系材料及一项限制。",
+          "answerText": "新工艺和劳动者技能属能力，生产中协作交接属关系材料；应核对实际瓶颈，不由一件工具推断全部制度必变。",
+          "explanation": "只讨论简化情境，不把该例当完整制度史证据；参考要点待教师核对。",
+          "rubric": [
+            "能力要素",
+            "生产中协作关系",
+            "适合与反作用",
+            "反对机械外推"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-d1",
+          "type": "single",
+          "stem": "隔日：印刷时被加工的纸张，在此首先是？",
+          "answerText": "劳动对象",
+          "explanation": "题设纸张是被作用材料，为劳动对象；印刷机是劳动资料。C是人与人的经济关系，不能与纸张本身混同。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-d2",
+          "type": "single",
+          "stem": "将生产力概括为机器数量，遗漏了什么关键内容？",
+          "answerText": "有知识技能劳动者与生产资料的结合",
+          "explanation": "生产能力不只机器台数，还包括人的技能及其与资料的结合。A无关核心，B把任意偏好都并入能力，范围过宽。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-d3",
+          "type": "single",
+          "stem": "“关系调整可不顾任何技术条件无限增产”应如何评价？",
+          "answerText": "夸大反作用并取消现实能力条件",
+          "explanation": "反作用受现实条件限制，不能无条件无限增产。B把夸张当规律，C回避了错误方向，均不成立。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "pol-productive-forces-relations-d4",
+          "type": "subjective",
+          "stem": "印刷工艺变化后分工和分配仍未调整，写一段不机械化的分析。",
+          "answerText": "区分工艺与技能的能力条件和生产中分工分配的关系条件，调查二者适合状况；改进要有依据，不承诺工具变化立即导致全部制度更替。",
+          "explanation": "具体表达可不同，应说明关系和条件，不以四个关键词当自动专业评分。",
+          "rubric": [
+            "能力与关系分别识别",
+            "说明相互联系",
+            "根据事实检查适合",
+            "保留变化条件"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "马克思主义理论教师复核生产关系三个方面及基本规律表达",
+        "经济基础/上层建筑完整课、社会形态史与年度政策另行建设"
+      ]
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "contentSha256": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "353-probability-binomial-foundation-g1",
+          "description": "定义事件与计算等可能概率",
+          "successCriteria": "写出结果集合和分子分母，明确等可能条件。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b1",
+            "353-probability-binomial-foundation-a1",
+            "353-probability-binomial-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-probability-binomial-foundation-g2",
+          "description": "求补事件并解释概率表示",
+          "successCriteria": "用1−p计算，小数百分数不混用，不把有限频率当必然。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b2",
+            "353-probability-binomial-foundation-a2",
+            "353-probability-binomial-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-probability-binomial-foundation-g3",
+          "description": "判断二项条件及两次概率",
+          "successCriteria": "检查固定n、两类、独立、恒定p并展开两条路径。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b3",
+            "353-probability-binomial-foundation-a3",
+            "353-probability-binomial-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-probability-binomial-foundation-g4",
+          "description": "解释计数期望与限制",
+          "successCriteria": "用np解释平均计数，拒绝单组保证和真实人群无条件套模。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b4",
+            "353-probability-binomial-foundation-a4",
+            "353-probability-binomial-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "353-probability-binomial-foundation-b1",
+          "type": "single",
+          "stem": "等可能抽取编号1至5的一张卡，编号大于3的概率是？",
+          "answerText": "2/5",
+          "explanation": "事件包含4和5两种结果，总计五种等可能结果，概率2/5。B数的是补事件，C漏分母，不能把成功张数直接当概率。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-b2",
+          "type": "number",
+          "stem": "教学事件P(A)=0.25，补事件概率为多少？输入0至1小数。",
+          "answerText": "0.75 无量纲",
+          "explanation": "同一试验补事件概率1−0.25=0.75，而非75。它没有人数单位；本题概率作为假设，不从一次观察结果估计。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-b3",
+          "type": "single",
+          "stem": "哪种情况符合题定二项模型？",
+          "answerText": "固定n次、两类、独立且p恒定",
+          "explanation": "完整条件需同时满足，C正确。A违背固定与恒定条件，B只满足两类分类，未保证独立和相同概率。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-b4",
+          "type": "single",
+          "stem": "n=10、p=0.2时E(X)=2的正确解释？",
+          "answerText": "反复同类整组试验的平均计数为2",
+          "explanation": "期望是模型下的平均计数，可不是每组保证。B混淆随机结果与均值，C把计数和概率混用且概率超过1。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-a1",
+          "type": "number",
+          "stem": "等可能抽取编号1至8的一张卡，事件为编号不超过2，求小数概率。",
+          "answerText": "0.25 无量纲",
+          "explanation": "符合1、2共两种，总共8种等可能结果，2/8=0.25。须根据新事件计数，不能沿用五卡例的分母。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-a2",
+          "type": "number",
+          "stem": "假定某事件概率0.4，其不发生概率是多少？输入小数。",
+          "answerText": "0.6 无量纲",
+          "explanation": "同一个试验上1−0.4=0.6。0.6为60%，系统要求小数；补事件不是取负数或把分子减1。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-a3",
+          "type": "number",
+          "stem": "两次独立试验、每次p=0.2，恰一次成功的概率是多少？输入小数。",
+          "answerText": "0.32 无量纲",
+          "explanation": "两条互斥路径为0.2×0.8和0.8×0.2，和为0.32。只算一条得0.16遗漏顺序；相乘依赖独立假设。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-a4",
+          "type": "subjective",
+          "stem": "一组10次独立同概率试验p=0.2，说明X、E(X)，并解释为何不能据此保证真实家庭10人中恰好2人出现某结局。",
+          "answerText": "X为该组成功次数，E(X)=10×0.2=2；期望非单组保证，家庭成员独立和恒定风险也未必成立。",
+          "explanation": "先检查单位和模型条件，再解释数值。仅有两种结局不充分，主观题保留参考核对而非专业自动评分。",
+          "rubric": [
+            "X计数定义",
+            "期望2",
+            "期望非必然",
+            "真实独立同概率未确认"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-d1",
+          "type": "number",
+          "stem": "隔日：六个等可能编号1至6，事件为编号大于4，求概率小数，允许小数近似误差1e-10。",
+          "answerText": "0.3333333333333333 无量纲",
+          "explanation": "符合5、6两种，总数6，概率2/6=1/3；请保留足够小数。没有给不等概率，故可按计数计算。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-d2",
+          "type": "number",
+          "stem": "隔日：P(B)=0.15，求非B的小数概率。",
+          "answerText": "0.85 无量纲",
+          "explanation": "补事件为1−0.15=0.85，不能把观察频数或人数代入这个题定概率；无量纲标签用于统一输入。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-d3",
+          "type": "number",
+          "stem": "隔日：两次独立且每次p=0.4，恰一次成功的小数概率是？",
+          "answerText": "0.48 无量纲",
+          "explanation": "两种顺序各0.4×0.6=0.24，总和0.48。这里计算的是恰一次，不是至少一次或两次全成功。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-probability-binomial-foundation-d4",
+          "type": "subjective",
+          "stem": "12次固定独立试验p=0.25，解释期望，并指出“不放回抽取且成功概率改变”为什么不能原样套本课二项。",
+          "answerText": "E(X)=12×0.25=3，是重复同类整组的平均计数；不放回导致p变化且一般不独立，不满足本课模型。",
+          "explanation": "检查换数字后仍能解释同一模型，不能因算对3就认定所有假设成立；待统计教师复核。",
+          "rubric": [
+            "期望3",
+            "平均非保证",
+            "恒定p边界",
+            "独立性边界"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "统计教师复核等可能、独立同分布假设及模型到真实健康问题的边界",
+        "尚缺连续分布、条件概率、完整组合公式和抽样分布，不能称概率节点完整覆盖"
+      ]
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "version": "0.1",
+      "contentSha256": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "353-random-sampling-foundation-g1",
+          "description": "定义总体和抽样框",
+          "successCriteria": "指出推断人群、实际框及覆盖缺口。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b1",
+            "353-random-sampling-foundation-a1",
+            "353-random-sampling-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-random-sampling-foundation-g2",
+          "description": "识别简单随机及入样概率",
+          "successCriteria": "按题定完整框计算n/N，拒绝便利招募等同随机。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b2",
+            "353-random-sampling-foundation-a2",
+            "353-random-sampling-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-random-sampling-foundation-g3",
+          "description": "区分常见设计",
+          "successCriteria": "按抽取单位和层内是否抽取判断，不套固定人数规则。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b3",
+            "353-random-sampling-foundation-a3",
+            "353-random-sampling-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-random-sampling-foundation-g4",
+          "description": "解释波动与不应答",
+          "successCriteria": "报告实际答复和限制，不用大样本掩盖系统偏差。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b4",
+            "353-random-sampling-foundation-a4",
+            "353-random-sampling-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "353-random-sampling-foundation-b1",
+          "type": "single",
+          "stem": "要研究全社区成年人，却只从阅读室访客名单抽样，主要先查什么？",
+          "answerText": "抽样框是否覆盖目标总体",
+          "explanation": "访客框可能漏掉不来的人，先检查覆盖。B不能改变框，C制造错误数据；随机抽取也不自动消除此缺口。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-b2",
+          "type": "number",
+          "stem": "完整N=200名单不放回简单随机抽n=20，某人的入样概率是多少？输入小数。",
+          "answerText": "0.1 无量纲",
+          "explanation": "对题定设计个人入样概率n/N=20/200=0.1。并不表示每个小组恰好抽10%，也不适用于未知覆盖的便利名单。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-b3",
+          "type": "single",
+          "stem": "按年龄分层且每层内随机抽人，属于？",
+          "answerText": "分层随机抽样",
+          "explanation": "先分层且各层内随机抽取是分层。A的抽取单位不同，B没有概率机制；分层不要求每层样本量相等。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-b4",
+          "type": "single",
+          "stem": "扩大一个系统性遗漏人群的便利样本，能否自动消除覆盖偏差？",
+          "answerText": "不能，需处理框和选择机制",
+          "explanation": "系统覆盖问题不因人数大自动修复。B把精度与偏差混淆，C还把抽样和因果混淆，均不成立。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-a1",
+          "type": "single",
+          "stem": "社区全体登记成年人是目标，实际抽取来自完整登记册；这张册首先叫？",
+          "answerText": "抽样框",
+          "explanation": "名单是实施抽样的框，不是某个结局测量值。C是入组后的干预分配概念，与抽取名单不是同一层。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-a2",
+          "type": "number",
+          "stem": "完整N=500名册，简单随机不放回抽50，某人的入样概率？",
+          "answerText": "0.1 无量纲",
+          "explanation": "50/500=0.1，应用n/N以完整框和题定简单随机为前提，不能把样本中的某比例误作个人入样概率。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-a3",
+          "type": "single",
+          "stem": "随机抽4个班，调查每个入选班所有学生，本课设计是？",
+          "answerText": "单阶段整群抽样",
+          "explanation": "抽取的是班这一群体并纳入全体，为本题单阶段整群。B描述各层内抽人，C忽略已明确的随机抽班。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-a4",
+          "type": "subjective",
+          "stem": "完整框中抽30人但仅24答复，应怎样报告？为何不能说人数足够大所以无偏？",
+          "answerText": "分别报告抽30、答24和答复比例0.8；检查未答复特点和目标覆盖，大样本不自动消除系统差异。",
+          "explanation": "缺失与抽样波动分开处理；不对不应答偏差方向作无依据判断，参考要点待专业审核。",
+          "rubric": [
+            "区分抽取与实际答复",
+            "比例24/30=0.8",
+            "不把未答当0",
+            "说明系统偏差边界"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-d1",
+          "type": "single",
+          "stem": "隔日：要推断全体学生，却从自愿参加者中抽取，随机机制首先覆盖的是？",
+          "answerText": "当前志愿者框",
+          "explanation": "框内随机不能给框外人机会，首先只覆盖当前志愿者。A和C扩大推断范围，需另核总体与框的差异。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-d2",
+          "type": "number",
+          "stem": "完整N=80名单，不放回简单随机抽8，每人入样概率小数？",
+          "answerText": "0.1 无量纲",
+          "explanation": "8/80=0.1，概率无量纲。这里确认的是设计机会，不是样本必然恰好复现总体所有特征。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-d3",
+          "type": "single",
+          "stem": "系统抽样中较应警惕什么？",
+          "answerText": "名单周期与抽取间隔吻合",
+          "explanation": "周期吻合可能造成系统问题，需检查排序和起点。B把随机起点错误化，C忽略名单结构，均片面。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-random-sampling-foundation-d4",
+          "type": "subjective",
+          "stem": "两次规范随机样本均数不同，是否一定说明有人造假？同时说明为何增样本不能保证无系统偏差。",
+          "answerText": "随机抽样会有样本波动，差异不自动证明造假；覆盖、不应答等机制可能系统偏离，扩大人数不自动消除。",
+          "explanation": "不以结果不同即否定设计，亦不以随机二字免除质量核查；独立专业审定仍待完成。",
+          "rubric": [
+            "承认随机波动",
+            "拒绝无据造假结论",
+            "指出系统机制",
+            "说明增样本限制"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "统计/流行病学教师复核目标总体、抽样框和复杂抽样边界",
+        "样本量、权重和设计效应的完整计算仍待后续课程"
+      ]
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "version": "0.1",
+      "contentSha256": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+      "reviewer": "Codex AI internal source-linked screening only",
+      "expertApproved": false,
+      "status": "pending-independent-review",
+      "objectiveCoverage": [
+        {
+          "id": "353-bias-control-foundation-g1",
+          "description": "识别选择偏倚机制",
+          "successCriteria": "解释谁被选入/留下的规则怎样可能扭曲比较。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-bias-control-foundation-g2",
+          "description": "识别信息偏倚及控制",
+          "successCriteria": "定位测量/回忆/记录差异，措施对应且不保证全消除。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-bias-control-foundation-g3",
+          "description": "识别候选混杂与边界",
+          "successCriteria": "核查第三因素条件，拒绝任何第三变量和中介一律调整。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-bias-control-foundation-g4",
+          "description": "选择有条件的控制措施",
+          "successCriteria": "将机制与设计/分析措施对应，说明随机化和显著性限制。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "questions": [
+        {
+          "id": "353-bias-control-foundation-b1",
+          "type": "single",
+          "stem": "病例来自社区，但对照专挑从未暴露者，首先担心什么？",
+          "answerText": "选择机制人为扭曲暴露比较",
+          "explanation": "对照按缺乏暴露挑选会改变来源人群暴露分布，可能制造关联。B把最大差异当好设计，C回避纳入机制。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-b2",
+          "type": "single",
+          "stem": "病例被详细追问而对照只粗问，首先对应？",
+          "answerText": "信息获取不一致的偏倚风险",
+          "explanation": "调查强度不同可能造成系统报告差异，属信息过程风险。A忽略测量机制，C把资料差异当因果证据，均不成立。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-b3",
+          "type": "single",
+          "stem": "判断某第三因素为候选混杂，哪项较完整？",
+          "answerText": "与暴露有关、独立影响结局且非暴露后果等条件需核查",
+          "explanation": "C保留关键因果条件。A范围过宽，B把中间环节机械当混杂，可能改变要估计的效应，不可自动控制。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-b4",
+          "type": "single",
+          "stem": "哪种说法正确？",
+          "answerText": "控制措施应对应具体错误机制",
+          "explanation": "机制不同需不同措施，A正确。B显著性不核查系统错误，C把随机分配作用无限扩大；均不可作质量保证。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-a1",
+          "type": "single",
+          "stem": "队列中退出与暴露和患病有关，分析只保留留下者，首先应查？",
+          "answerText": "选择/留组机制是否扭曲关联",
+          "explanation": "与暴露结局有关的退出可能影响留下者比较，需查选择机制。A无关，C把规模当无偏保证；此题不预断偏差方向。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-a2",
+          "type": "single",
+          "stem": "要减少两组测量方式不同带来的风险，最匹配的是？",
+          "answerText": "统一定义、培训并核对记录",
+          "explanation": "一致定义与实施直接针对信息过程。A加重不一致，B未修正机制；C也不是完全消除所有错误的保证。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-a3",
+          "type": "single",
+          "stem": "题定年龄独立影响结局、与暴露有关且非暴露造成，可怎样处理？",
+          "answerText": "作为候选混杂进一步收集并适当分层/调整",
+          "explanation": "年龄满足题给候选条件，宜结合设计处理。B无依据，C忽略测量和模型假设；不是所有相关第三变量都可如此处理。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-a4",
+          "type": "subjective",
+          "stem": "某试验已随机分配，但两组不盲测量且失访不同，能否说没有偏倚？给对应改进。",
+          "answerText": "不能。随机分配不自动解决信息和留组问题，应改善一致/可盲测量，跟踪失访原因并按设计分析，保留剩余限制。",
+          "explanation": "按机制核对而非只写随机二字，主观题待专业判断；不能承诺具体偏差方向。",
+          "rubric": [
+            "拒绝无偏保证",
+            "识别信息风险",
+            "识别失访风险",
+            "对应改进和限制"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-d1",
+          "type": "single",
+          "stem": "隔日：仅调查愿意留下且更可能无症状的人，然后外推全人群，需先查？",
+          "answerText": "入组/留组选择及目标人群差异",
+          "explanation": "留下者机制与结局可能有关，应查选择和范围。A过窄，C不解决系统差异；需证据才判断偏差方向和幅度。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-d2",
+          "type": "single",
+          "stem": "下列哪种断言超出本课证据？",
+          "answerText": "所有误分类总将关联推向无效值",
+          "explanation": "误分类影响方向有条件，不能无条件说总向无效值。A和B保留适用边界，并非本题错误断言。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-d3",
+          "type": "single",
+          "stem": "看到第三变量在暴露到结局的作用路径中，应？",
+          "answerText": "先明确因果问题，不机械当普通混杂调整",
+          "explanation": "中间环节与混杂不同，需明确目标效应和条件。B可能改变研究问题，C无依据，不能用变量个数判断造假。",
+          "rubric": null,
+          "verdict": "internally-compared-not-professionally-approved"
+        },
+        {
+          "id": "353-bias-control-foundation-d4",
+          "type": "subjective",
+          "stem": "大样本研究p值很小，但对照选择和测量流程未说明。写出仍需核查什么及不能作的结论。",
+          "answerText": "应查对照来源、入组留组、测量一致性和混杂条件；小p值只涉及统计模型下随机解释，不证明无偏或因果。",
+          "explanation": "不凭显著性替代设计审查；允许不同表述但需具体问题与边界，独立审定仍为0。",
+          "rubric": [
+            "选择机制",
+            "信息机制",
+            "混杂条件",
+            "不把显著性当因果保证"
+          ],
+          "verdict": "internally-compared-not-professionally-approved"
+        }
+      ],
+      "pending": [
+        "流行病学教师复核选择偏倚、信息偏倚、混杂与中介的边界及题目唯一性",
+        "各研究类型的详细控制方法、效应修饰和调整计算尚待独立课程"
+      ]
+    }
+  ],
+  "duplicateCandidateReview": {
+    "newExactDuplicateStems": 0,
+    "newSimilarityCandidates": 0,
+    "existingCandidates": [
+      {
+        "a": "sva-d1",
+        "b": "sva-d3",
+        "action": "Preserve prior original pair, similarity only; no automatic deletion or expertise claim"
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "third-batch-internal-en-present-continuous-foundation",
+    "unitId": "en-present-continuous-foundation",
+    "unitVersion": "0.1",
+    "contentSha256": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "en-present-continuous-foundation-pending-1",
+        "status": "open",
+        "message": "英语教师复核状态动词语境、现在进行时与暂时情境的边界"
+      },
+      {
+        "id": "en-present-continuous-foundation-pending-2",
+        "status": "open",
+        "message": "未覆盖将来安排、过去进行时及完成时"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-en-passive-simple-foundation",
+    "unitId": "en-passive-simple-foundation",
+    "unitVersion": "0.1",
+    "contentSha256": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "en-passive-simple-foundation-pending-1",
+        "status": "open",
+        "message": "英语教师核对被动语义、短语自然度与可转换范围"
+      },
+      {
+        "id": "en-passive-simple-foundation-pending-2",
+        "status": "open",
+        "message": "未覆盖完成、进行被动或所有过去分词"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-en-defining-relative-foundation",
+    "unitId": "en-defining-relative-foundation",
+    "unitVersion": "0.1",
+    "contentSha256": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "en-defining-relative-foundation-pending-1",
+        "status": "open",
+        "message": "英语教师复核关系词省略、主从结构和译文自然度"
+      },
+      {
+        "id": "en-defining-relative-foundation-pending-2",
+        "status": "open",
+        "message": "非限定性、介词前置、whose/where等完整体系尚未覆盖"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-pol-social-being-consciousness",
+    "unitId": "pol-social-being-consciousness",
+    "unitVersion": "0.1",
+    "contentSha256": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "pol-social-being-consciousness-pending-1",
+        "status": "open",
+        "message": "马克思主义理论教师复核社会存在范围、相对独立性与案例限度"
+      },
+      {
+        "id": "pol-social-being-consciousness-pending-2",
+        "status": "open",
+        "message": "年度政治考试范围和评分标准未确认"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-pol-epistemology-case-analysis",
+    "unitId": "pol-epistemology-case-analysis",
+    "unitVersion": "0.1",
+    "contentSha256": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "pol-epistemology-case-analysis-pending-1",
+        "status": "open",
+        "message": "理论教师核对材料归因、感性理性边界及参考答题要点"
+      },
+      {
+        "id": "pol-epistemology-case-analysis-pending-2",
+        "status": "open",
+        "message": "本课不是官方评分细则，未实现可靠主观自动评分"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-pol-productive-forces-relations",
+    "unitId": "pol-productive-forces-relations",
+    "unitVersion": "0.1",
+    "contentSha256": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "pol-productive-forces-relations-pending-1",
+        "status": "open",
+        "message": "马克思主义理论教师复核生产关系三个方面及基本规律表达"
+      },
+      {
+        "id": "pol-productive-forces-relations-pending-2",
+        "status": "open",
+        "message": "经济基础/上层建筑完整课、社会形态史与年度政策另行建设"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-353-probability-binomial-foundation",
+    "unitId": "353-probability-binomial-foundation",
+    "unitVersion": "0.1",
+    "contentSha256": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "353-probability-binomial-foundation-pending-1",
+        "status": "open",
+        "message": "统计教师复核等可能、独立同分布假设及模型到真实健康问题的边界"
+      },
+      {
+        "id": "353-probability-binomial-foundation-pending-2",
+        "status": "open",
+        "message": "尚缺连续分布、条件概率、完整组合公式和抽样分布，不能称概率节点完整覆盖"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-353-random-sampling-foundation",
+    "unitId": "353-random-sampling-foundation",
+    "unitVersion": "0.1",
+    "contentSha256": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "353-random-sampling-foundation-pending-1",
+        "status": "open",
+        "message": "统计/流行病学教师复核目标总体、抽样框和复杂抽样边界"
+      },
+      {
+        "id": "353-random-sampling-foundation-pending-2",
+        "status": "open",
+        "message": "样本量、权重和设计效应的完整计算仍待后续课程"
+      }
+    ],
+    "formalReleaseApproved": false
+  },
+  {
+    "id": "third-batch-internal-353-bias-control-foundation",
+    "unitId": "353-bias-control-foundation",
+    "unitVersion": "0.1",
+    "contentSha256": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+    "reviewer": "Codex AI internal screening",
+    "qualification": "AI tooling; NOT a human or independent subject expert",
+    "date": "2026-10-25",
+    "decision": "changes-required",
+    "checks": {
+      "knowledge": false,
+      "scopeYear": false,
+      "formulaAndUnits": false,
+      "questionAnswer": false,
+      "explanation": false,
+      "rubric": false,
+      "sourceAndRights": false
+    },
+    "issues": [
+      {
+        "id": "353-bias-control-foundation-pending-1",
+        "status": "open",
+        "message": "流行病学教师复核选择偏倚、信息偏倚、混杂与中介的边界及题目唯一性"
+      },
+      {
+        "id": "353-bias-control-foundation-pending-2",
+        "status": "open",
+        "message": "各研究类型的详细控制方法、效应修饰和调整计算尚待独立课程"
+      }
+    ],
+    "formalReleaseApproved": false
+  }
+]

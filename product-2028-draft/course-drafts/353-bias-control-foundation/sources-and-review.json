@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "s27-10-3",
+    "additionalNodeIds": [
+      "s27-18-6",
+      "s27-11-5",
+      "s27-12-6",
+      "s27-13-4"
+    ],
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "targetYear": 2028,
+    "officialExamMappingConfirmed": false,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "title": "2027年353考试大纲",
+      "locator": "第二部分A四至七、B一至二；2028仅暂定参考",
+      "publishedAt": "2026-09-30",
+      "version": "2027",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+      "publisher": "CDC；Brendan R. Jackson/Patricia M. Griffin",
+      "title": "Designing and Conducting Analytic Studies in the Field",
+      "locator": "Chapter7研究类型表、Selection of Controls与比较组/回忆局限",
+      "publishedAt": "2024-08-08",
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+      "publisher": "CDC；Richard C. Dicker",
+      "title": "Analyzing and Interpreting Data",
+      "locator": "Chapter8 Planning the Analysis、Confounding、Interpreting Data/Box8.4/8.5；选择/信息偏倚与混杂条件",
+      "publishedAt": "2025-01-06",
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    }
+  ],
+  "pendingReview": [
+    "流行病学教师复核选择偏倚、信息偏倚、混杂与中介的边界及题目唯一性",
+    "各研究类型的详细控制方法、效应修饰和调整计算尚待独立课程"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
+

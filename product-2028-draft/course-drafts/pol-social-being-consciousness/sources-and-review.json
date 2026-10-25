@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "targetYear": 2028,
+    "officialExamMappingConfirmed": false,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://2d.hep.com.cn/13384041111111/3",
+      "publisher": "高等教育出版社电子资源；马克思原作",
+      "title": "《政治经济学批判》序言",
+      "locator": "原文总论段：生产关系、生产力、社会存在和社会意识；电子页无印刷页码",
+      "publishedAt": null,
+      "version": "原作1859；电子版日期未显示",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+      "publisher": "恩格斯；中文马克思主义文库电子版",
+      "title": "致约瑟夫·布洛赫",
+      "locator": "关于第二个问题段落：归根到底与交互作用；不使用其古代史例作题",
+      "publishedAt": null,
+      "version": "原作1890-09-21至22；电子版日期未显示",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    }
+  ],
+  "pendingReview": [
+    "马克思主义理论教师复核社会存在范围、相对独立性与案例限度",
+    "年度政治考试范围和评分标准未确认"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
+

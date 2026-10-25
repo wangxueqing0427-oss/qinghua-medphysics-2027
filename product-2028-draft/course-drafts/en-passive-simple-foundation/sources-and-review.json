@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "targetYear": 2028,
+    "officialExamMappingConfirmed": false,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives",
+      "publisher": "British Council",
+      "title": "Passives",
+      "locator": "正文Grammar explanation/How we make passive/时态表；本课只教一般现在与过去",
+      "publishedAt": null,
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+      "publisher": "British Council",
+      "title": "Past simple",
+      "locator": "正文规则/不规则形式、过去时语境",
+      "publishedAt": null,
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    }
+  ],
+  "pendingReview": [
+    "英语教师核对被动语义、短语自然度与可转换范围",
+    "未覆盖完成、进行被动或所有过去分词"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
+

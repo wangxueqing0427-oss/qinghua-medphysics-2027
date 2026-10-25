@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "s27-19-1",
+    "additionalNodeIds": [
+      "s27-19-2"
+    ],
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "targetYear": 2028,
+    "officialExamMappingConfirmed": false,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "title": "2027年353考试大纲",
+      "locator": "第二部分A四至七、B一至二；2028仅暂定参考",
+      "publishedAt": "2026-09-30",
+      "version": "2027",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+      "publisher": "OpenStax",
+      "title": "Introductory Statistics 2e 3.1 Terminology",
+      "locator": "样本空间、事件、等可能计数与频率边界",
+      "publishedAt": null,
+      "version": "2e",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution",
+      "publisher": "OpenStax",
+      "title": "Introductory Statistics 2e 4.3 Binomial distribution",
+      "locator": "二项试验条件、X计数、np和npq",
+      "publishedAt": null,
+      "version": "2e",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    }
+  ],
+  "pendingReview": [
+    "统计教师复核等可能、独立同分布假设及模型到真实健康问题的边界",
+    "尚缺连续分布、条件概率、完整组合公式和抽样分布，不能称概率节点完整覆盖"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
+

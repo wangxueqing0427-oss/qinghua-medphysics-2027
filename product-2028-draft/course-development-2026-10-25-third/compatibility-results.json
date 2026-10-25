@@ -1,0 +1,22 @@
+{
+  "scope": "Synthetic old29 backup with current repository/controller and candidate38 content; no real learner data, no browser",
+  "results": [
+    {
+      "name": "Create old29-course actual synthetic recall/answer/draft payload",
+      "pass": true
+    },
+    {
+      "name": "Reopen existing synthetic old profile with38-course controller without data rewrite",
+      "pass": true
+    },
+    {
+      "name": "Restore old backup as new profile retains old payload and no invented new progress",
+      "pass": true
+    },
+    {
+      "name": "Completing next old answer in38-course view never changes source backup or another profile",
+      "pass": true
+    }
+  ],
+  "expertApproved": 0
+}

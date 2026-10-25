@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "353-bias-control-foundation",
+      "subject": "353",
+      "title": "研究设计中的偏倚控制：先找错误怎样产生",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "provisional_previous_year",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-random-sampling-foundation"
+      ],
+      "prerequisiteExplanation": "先修研究方向、比较组和抽样框；从选择与信息过程出发，再识别混杂，不跳级做复杂回归。",
+      "mapping": [
+        "s27-10-3",
+        "s27-18-6",
+        "s27-11-5",
+        "s27-12-6",
+        "s27-13-4"
+      ],
+      "conditions": "研究设计基础情境及已给因果条件；不预断偏倚方向，不把随机化或统计显著视为无偏证明；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "研究结果与真实目标不符，可能来自随机波动，也可能来自产生系统性偏离的选择或测量过程。偏倚不是只有研究者故意骗人才会出现。选择偏倚先问谁进入、留下或退出研究，以及这些过程是否与暴露、结局相关并扭曲目标关联。原创病例对照情境：病例来自某社区，却按“从未暴露”专门挑选对照，比较就可能被选人规则人为改变。对照应反映病例来源人群的有关暴露状况，不是为了让两组差异最大而挑人，也不是所有不应答都必然同方向偏。\n\n信息偏倚关注进入研究后信息如何被取得、记忆、测量和记录。若病例被反复追问往年饮食，而对照只粗问一次，报告差异可能来自调查方式；这与抽样框漏人的选择问题不同。控制可包括一致的定义、问卷与调查培训、适当的盲法和可核实记录，但“用了同一表格”不保证回忆完全准确。对某次实际差错要追踪其系统性与影响，不把所有随机读数波动都叫相同偏倚。资料质量仍需具体判断，本课不保证误分类总把关联推向或远离无效值。\n\n混杂是暴露与结局的关联受到第三因素影响而发生歪曲，不能只凭第三变量与结果相关就认定。基础判断需看其是否与暴露有关、是否独立影响结局，并避免把暴露导致的中间环节当作普通混杂直接控制。原创材料明确给出：年龄影响结局且高年龄组在暴露组更多，并不是暴露造成年龄，年龄可作为候选混杂。若未给这些条件，应说需要核查而不是拍板。限制、设计中的合理随机分配以及分析中的分层或适当模型可帮助控制特定问题，但各有假设，匹配后还需相应分析。\n\n控制错误先与发生机制配对：选人问题改进来源与纳入随访；信息问题改进一致测量和记录；混杂问题收集合适第三变量并按设计分析。随机分配平均意义上帮助平衡基线因素，但有限样本仍可能不平衡，也不自动处理失访或不盲测量；随机抽样则主要针对从谁取样，两者不能互换。样本大、p值小也不证明没有偏倚或因果已成立。闭卷须说清问题、机制、对应措施和剩余限制；隔日换情境重新辨认，不靠看到“回忆”就忽略比较组其他问题。",
+      "definition": "选择偏倚关注入组/留组机制，信息偏倚关注资料获取中的系统错误，混杂关注第三因素扭曲关联；控制需对应机制且保留条件。",
+      "example": "专挑从未暴露者当对照会改变来源暴露分布，不是理想对照原则。\n病例反复追问、对照粗问：信息获取不一致。\n题定年龄独立影响结局且暴露组年龄更高：候选混杂，不等于任意第三变量。\n机制→措施→剩余限制；随机化不消除所有测量与失访问题。",
+      "misconceptions": [
+        "偏倚必定是故意造假。",
+        "任何第三变量都是混杂。",
+        "误分类永远朝同一个方向。",
+        "随机分配或p值小即可证明无偏。"
+      ],
+      "recall": [
+        "解释选择机制与关联，给对照选择反例。",
+        "区别信息与选择偏倚，并列测量控制限制。",
+        "写候选混杂条件，说明中介不能机械当混杂。",
+        "按机制配措施，并解释随机化、大样本和p值的边界。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "专挑从未暴露者当对照会改变来源暴露分布，不是理想对照原则。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "病例反复追问、对照粗问：信息获取不一致。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "题定年龄独立影响结局且暴露组年龄更高：候选混杂，不等于任意第三变量。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "机制→措施→剩余限制；随机化不消除所有测量与失访问题。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-bias-control-foundation-g1",
+          "description": "识别选择偏倚机制",
+          "successCriteria": "解释谁被选入/留下的规则怎样可能扭曲比较。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-bias-control-foundation-g2",
+          "description": "识别信息偏倚及控制",
+          "successCriteria": "定位测量/回忆/记录差异，措施对应且不保证全消除。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-bias-control-foundation-g3",
+          "description": "识别候选混杂与边界",
+          "successCriteria": "核查第三因素条件，拒绝任何第三变量和中介一律调整。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-bias-control-foundation-g4",
+          "description": "选择有条件的控制措施",
+          "successCriteria": "将机制与设计/分析措施对应，说明随机化和显著性限制。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "解释谁被选入/留下的规则怎样可能扭曲比较。",
+        "定位测量/回忆/记录差异，措施对应且不保证全消除。",
+        "核查第三因素条件，拒绝任何第三变量和中介一律调整。",
+        "将机制与设计/分析措施对应，说明随机化和显著性限制。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "流行病学教师复核选择偏倚、信息偏倚、混杂与中介的边界及题目唯一性",
+          "各研究类型的详细控制方法、效应修饰和调整计算尚待独立课程"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "病例来自社区，但对照专挑从未暴露者，首先担心什么？",
+          "options": [
+            "选择机制人为扭曲暴露比较",
+            "已经保证最理想对照",
+            "只是无关紧要的字体问题"
+          ],
+          "answer": 0,
+          "explanation": "对照按缺乏暴露挑选会改变来源人群暴露分布，可能制造关联。B把最大差异当好设计，C回避纳入机制。",
+          "id": "353-bias-control-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "病例被详细追问而对照只粗问，首先对应？",
+          "options": [
+            "只有样本量不足",
+            "信息获取不一致的偏倚风险",
+            "必然证明真实因果"
+          ],
+          "answer": 1,
+          "explanation": "调查强度不同可能造成系统报告差异，属信息过程风险。A忽略测量机制，C把资料差异当因果证据，均不成立。",
+          "id": "353-bias-control-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "判断某第三因素为候选混杂，哪项较完整？",
+          "options": [
+            "只要有第三个变量",
+            "只要它是暴露造成的中间环节",
+            "与暴露有关、独立影响结局且非暴露后果等条件需核查"
+          ],
+          "answer": 2,
+          "explanation": "C保留关键因果条件。A范围过宽，B把中间环节机械当混杂，可能改变要估计的效应，不可自动控制。",
+          "id": "353-bias-control-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "哪种说法正确？",
+          "options": [
+            "控制措施应对应具体错误机制",
+            "p值小保证没有偏倚",
+            "随机分配保证所有失访和测量问题消失"
+          ],
+          "answer": 0,
+          "explanation": "机制不同需不同措施，A正确。B显著性不核查系统错误，C把随机分配作用无限扩大；均不可作质量保证。",
+          "id": "353-bias-control-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "队列中退出与暴露和患病有关，分析只保留留下者，首先应查？",
+          "options": [
+            "只查问卷颜色",
+            "选择/留组机制是否扭曲关联",
+            "因人数多就无需查"
+          ],
+          "answer": 1,
+          "explanation": "与暴露结局有关的退出可能影响留下者比较，需查选择机制。A无关，C把规模当无偏保证；此题不预断偏差方向。",
+          "id": "353-bias-control-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "要减少两组测量方式不同带来的风险，最匹配的是？",
+          "options": [
+            "故意对一组问更多提示问题",
+            "只扩大例数且保留不同测量",
+            "统一定义、培训并核对记录"
+          ],
+          "answer": 2,
+          "explanation": "一致定义与实施直接针对信息过程。A加重不一致，B未修正机制；C也不是完全消除所有错误的保证。",
+          "id": "353-bias-control-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题定年龄独立影响结局、与暴露有关且非暴露造成，可怎样处理？",
+          "options": [
+            "作为候选混杂进一步收集并适当分层/调整",
+            "只因是数字就忽略",
+            "直接声称任意调整一定无误"
+          ],
+          "answer": 0,
+          "explanation": "年龄满足题给候选条件，宜结合设计处理。B无依据，C忽略测量和模型假设；不是所有相关第三变量都可如此处理。",
+          "id": "353-bias-control-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "某试验已随机分配，但两组不盲测量且失访不同，能否说没有偏倚？给对应改进。",
+          "answer": "不能。随机分配不自动解决信息和留组问题，应改善一致/可盲测量，跟踪失访原因并按设计分析，保留剩余限制。",
+          "rubric": [
+            "拒绝无偏保证",
+            "识别信息风险",
+            "识别失访风险",
+            "对应改进和限制"
+          ],
+          "explanation": "按机制核对而非只写随机二字，主观题待专业判断；不能承诺具体偏差方向。",
+          "id": "353-bias-control-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：仅调查愿意留下且更可能无症状的人，然后外推全人群，需先查？",
+          "options": [
+            "必定只是随机四舍五入",
+            "入组/留组选择及目标人群差异",
+            "样本越大就必定代表全部"
+          ],
+          "answer": 1,
+          "explanation": "留下者机制与结局可能有关，应查选择和范围。A过窄，C不解决系统差异；需证据才判断偏差方向和幅度。",
+          "id": "353-bias-control-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "下列哪种断言超出本课证据？",
+          "options": [
+            "统一工具仍需质量核查",
+            "不同回忆方式可能有信息偏倚",
+            "所有误分类总将关联推向无效值"
+          ],
+          "answer": 2,
+          "explanation": "误分类影响方向有条件，不能无条件说总向无效值。A和B保留适用边界，并非本题错误断言。",
+          "id": "353-bias-control-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "看到第三变量在暴露到结局的作用路径中，应？",
+          "options": [
+            "先明确因果问题，不机械当普通混杂调整",
+            "一定作为混杂无条件剔除",
+            "因为有第三变量就证明结果伪造"
+          ],
+          "answer": 0,
+          "explanation": "中间环节与混杂不同，需明确目标效应和条件。B可能改变研究问题，C无依据，不能用变量个数判断造假。",
+          "id": "353-bias-control-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "大样本研究p值很小，但对照选择和测量流程未说明。写出仍需核查什么及不能作的结论。",
+          "answer": "应查对照来源、入组留组、测量一致性和混杂条件；小p值只涉及统计模型下随机解释，不证明无偏或因果。",
+          "rubric": [
+            "选择机制",
+            "信息机制",
+            "混杂条件",
+            "不把显著性当因果保证"
+          ],
+          "explanation": "不凭显著性替代设计审查；允许不同表述但需具体问题与边界，独立审定仍为0。",
+          "id": "353-bias-control-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

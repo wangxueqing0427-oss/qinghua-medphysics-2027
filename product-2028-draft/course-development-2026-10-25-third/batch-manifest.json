@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "mode": "isolated-engineering-only",
+  "formalReleaseApproved": false,
+  "folders": [
+    "en-present-continuous-foundation",
+    "en-passive-simple-foundation",
+    "en-defining-relative-foundation",
+    "pol-social-being-consciousness",
+    "pol-epistemology-case-analysis",
+    "pol-productive-forces-relations",
+    "353-probability-binomial-foundation",
+    "353-random-sampling-foundation",
+    "353-bias-control-foundation"
+  ],
+  "previousBatch": "product-2028-draft/course-development-2026-10-25",
+  "baseCommit": "cfcaa8e78f1b8b305987f1db32a51abd593848ab",
+  "oldRegistriesUnchanged": true
+}
+

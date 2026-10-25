@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "s27-18-5",
+    "additionalNodeIds": [
+      "s27-10-2"
+    ],
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "targetYear": 2028,
+    "officialExamMappingConfirmed": false,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "title": "2027年353考试大纲",
+      "locator": "第二部分A四至七、B一至二；2028仅暂定参考",
+      "publishedAt": "2026-09-30",
+      "version": "2027",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+      "publisher": "OpenStax",
+      "title": "Introductory Statistics 2e 1.2 Data and sampling",
+      "locator": "简单随机、分层、整群、系统抽样与样本变异指定段",
+      "publishedAt": null,
+      "version": "2e",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    },
+    {
+      "url": "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+      "publisher": "CDC；Brendan R. Jackson/Patricia M. Griffin",
+      "title": "Designing and Conducting Analytic Studies in the Field",
+      "locator": "Chapter7研究类型表、Selection of Controls与比较组/回忆局限",
+      "publishedAt": "2024-08-08",
+      "version": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "仅实际读取的教学正文/指定段落；不使用评论或搜索摘要作为依据，不属于2028官方考试文件"
+    }
+  ],
+  "pendingReview": [
+    "统计/流行病学教师复核目标总体、抽样框和复杂抽样边界",
+    "样本量、权重和设计效应的完整计算仍待后续课程"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}
+

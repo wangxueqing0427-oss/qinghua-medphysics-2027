@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "353-probability-binomial-foundation",
+      "subject": "353",
+      "title": "概率与二项分布入门：先说结果和条件，再计算",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "provisional_previous_year",
+      "prerequisites": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "prerequisiteExplanation": "先修变量、频数比例和有效分母；从等可能事件到计数模型，不跳到未教的检验公式。",
+      "mapping": [
+        "s27-19-1",
+        "s27-19-2"
+      ],
+      "conditions": "有限等可能模型及固定n、独立、恒定p的二项计数；题中概率为教学假设，不是临床发生率；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "概率用于描述已定义事件的不确定程度。先写清一次试验可能出现什么结果，所有可能结果组成样本空间，事件是其中符合要求的结果集合。原创例：盒内五张同样质地且充分混匀的卡片，编号1至5，每张被抽到的机会相同。事件A为编号大于3，符合的是4、5，所以P(A)=2/5=0.4。0.4也可写40%，不是40。分子分母计数相除只因这里明确等可能；若卡片机会不同，不能只按张数套用。观察中某次没抽到A不等于它的概率是0。\n\n事件A不发生叫补事件，在明确同一个试验的前提下P(非A)=1−P(A)。上例不大于3包括1、2、3，概率0.6，0.4+0.6=1。概率没有人数或分钟单位，属于无量纲；系统数值题要求输入0至1小数并以“无量纲”为单位标签，不能把百分数数值40当0.4提交。长期频率可帮助估计概率，但有限次数比例会波动，不保证每五次恰有两次成功。也不把概率0的教学有限事件直接推广成连续分布的全部结论。\n\n随机变量是给试验结果赋数值的规则；本课X记录若干次试验中目标事件的次数。二项模型需固定次数n、每次按目标发生/不发生分为两类、各次独立且目标概率p相同。把目标发生叫“成功”只是计数名称，不代表健康获益。对两次独立试验且p=0.3，恰好一次的两条互斥路径为成功后失败、失败后成功，概率0.3×0.7+0.7×0.3=0.42；这里独立才可把路径概率相乘。不放回抽卡通常会改变后续p，不能不检查条件就套二项。\n\n二项X的可能取值为0至n的整数，各取值的概率合起来为1；期望E(X)=np表示重复同类整组试验的平均计数，不保证某一组恰好等于np。n=10、p=0.2时期望2次，但单组可以0次、1次或其他允许次数；方差np(1−p)此处只识别模型表达，完整方差推导后续学习。真实人群中同一家成员可能有关联、风险可能不同，不能仅因有两种结果就声称二项条件成立。先审查模型，再解释数字含义，延迟题换n和p重算并写局限。",
+      "definition": "概率描述明确事件的不确定程度；本课二项随机变量X计固定n次独立、恒定成功概率p试验的成功次数，期望np并非单组保证。",
+      "example": "等可能五卡，大于3为两卡：2/5=0.4=40%。\n非A有三卡：1−0.4=0.6；输入小数而非60。\nn=2、p=0.3：恰一次=0.3×0.7+0.7×0.3=0.42。\nn=10、p=0.2，E(X)=2，不是每组固定2。",
+      "misconceptions": [
+        "不等可能也一律按结果个数相除。",
+        "一次没发生就概率0。",
+        "只有两类结果就必是二项。",
+        "期望等于每组必然计数。"
+      ],
+      "recall": [
+        "闭卷写样本空间、事件及五卡等可能概率。",
+        "解释补事件并转换0.4和40%，说明频率波动。",
+        "列二项四条件，手算两次恰一次路径。",
+        "解释np而不保证单组结果，并给一个不适用情境。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "等可能五卡，大于3为两卡：2/5=0.4=40%。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "非A有三卡：1−0.4=0.6；输入小数而非60。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "n=2、p=0.3：恰一次=0.3×0.7+0.7×0.3=0.42。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "n=10、p=0.2，E(X)=2，不是每组固定2。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-probability-binomial-foundation-g1",
+          "description": "定义事件与计算等可能概率",
+          "successCriteria": "写出结果集合和分子分母，明确等可能条件。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b1",
+            "353-probability-binomial-foundation-a1",
+            "353-probability-binomial-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-probability-binomial-foundation-g2",
+          "description": "求补事件并解释概率表示",
+          "successCriteria": "用1−p计算，小数百分数不混用，不把有限频率当必然。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b2",
+            "353-probability-binomial-foundation-a2",
+            "353-probability-binomial-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-probability-binomial-foundation-g3",
+          "description": "判断二项条件及两次概率",
+          "successCriteria": "检查固定n、两类、独立、恒定p并展开两条路径。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b3",
+            "353-probability-binomial-foundation-a3",
+            "353-probability-binomial-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-probability-binomial-foundation-g4",
+          "description": "解释计数期望与限制",
+          "successCriteria": "用np解释平均计数，拒绝单组保证和真实人群无条件套模。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-probability-binomial-foundation-b4",
+            "353-probability-binomial-foundation-a4",
+            "353-probability-binomial-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "写出结果集合和分子分母，明确等可能条件。",
+        "用1−p计算，小数百分数不混用，不把有限频率当必然。",
+        "检查固定n、两类、独立、恒定p并展开两条路径。",
+        "用np解释平均计数，拒绝单组保证和真实人群无条件套模。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计教师复核等可能、独立同分布假设及模型到真实健康问题的边界",
+          "尚缺连续分布、条件概率、完整组合公式和抽样分布，不能称概率节点完整覆盖"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+        "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "等可能抽取编号1至5的一张卡，编号大于3的概率是？",
+          "options": [
+            "2/5",
+            "3/5",
+            "2"
+          ],
+          "answer": 0,
+          "explanation": "事件包含4和5两种结果，总计五种等可能结果，概率2/5。B数的是补事件，C漏分母，不能把成功张数直接当概率。",
+          "id": "353-probability-binomial-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "教学事件P(A)=0.25，补事件概率为多少？输入0至1小数。",
+          "answer": 0.75,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "同一试验补事件概率1−0.25=0.75，而非75。它没有人数单位；本题概率作为假设，不从一次观察结果估计。",
+          "id": "353-probability-binomial-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "哪种情况符合题定二项模型？",
+          "options": [
+            "不固定次数且每次风险变化",
+            "只要记录有病无病，无须其他条件",
+            "固定n次、两类、独立且p恒定"
+          ],
+          "answer": 2,
+          "explanation": "完整条件需同时满足，C正确。A违背固定与恒定条件，B只满足两类分类，未保证独立和相同概率。",
+          "id": "353-probability-binomial-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "n=10、p=0.2时E(X)=2的正确解释？",
+          "options": [
+            "反复同类整组试验的平均计数为2",
+            "每一组必定恰好2",
+            "单次成功概率为2"
+          ],
+          "answer": 0,
+          "explanation": "期望是模型下的平均计数，可不是每组保证。B混淆随机结果与均值，C把计数和概率混用且概率超过1。",
+          "id": "353-probability-binomial-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "number",
+          "stem": "等可能抽取编号1至8的一张卡，事件为编号不超过2，求小数概率。",
+          "answer": 0.25,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "符合1、2共两种，总共8种等可能结果，2/8=0.25。须根据新事件计数，不能沿用五卡例的分母。",
+          "id": "353-probability-binomial-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "假定某事件概率0.4，其不发生概率是多少？输入小数。",
+          "answer": 0.6,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "同一个试验上1−0.4=0.6。0.6为60%，系统要求小数；补事件不是取负数或把分子减1。",
+          "id": "353-probability-binomial-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "两次独立试验、每次p=0.2，恰一次成功的概率是多少？输入小数。",
+          "answer": 0.32,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "两条互斥路径为0.2×0.8和0.8×0.2，和为0.32。只算一条得0.16遗漏顺序；相乘依赖独立假设。",
+          "id": "353-probability-binomial-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "一组10次独立同概率试验p=0.2，说明X、E(X)，并解释为何不能据此保证真实家庭10人中恰好2人出现某结局。",
+          "answer": "X为该组成功次数，E(X)=10×0.2=2；期望非单组保证，家庭成员独立和恒定风险也未必成立。",
+          "rubric": [
+            "X计数定义",
+            "期望2",
+            "期望非必然",
+            "真实独立同概率未确认"
+          ],
+          "explanation": "先检查单位和模型条件，再解释数值。仅有两种结局不充分，主观题保留参考核对而非专业自动评分。",
+          "id": "353-probability-binomial-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日：六个等可能编号1至6，事件为编号大于4，求概率小数，允许小数近似误差1e-10。",
+          "answer": 0.3333333333333333,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "符合5、6两种，总数6，概率2/6=1/3；请保留足够小数。没有给不等概率，故可按计数计算。",
+          "id": "353-probability-binomial-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "隔日：P(B)=0.15，求非B的小数概率。",
+          "answer": 0.85,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "补事件为1−0.15=0.85，不能把观察频数或人数代入这个题定概率；无量纲标签用于统一输入。",
+          "id": "353-probability-binomial-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "隔日：两次独立且每次p=0.4，恰一次成功的小数概率是？",
+          "answer": 0.48,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "两种顺序各0.4×0.6=0.24，总和0.48。这里计算的是恰一次，不是至少一次或两次全成功。",
+          "id": "353-probability-binomial-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "12次固定独立试验p=0.25，解释期望，并指出“不放回抽取且成功概率改变”为什么不能原样套本课二项。",
+          "answer": "E(X)=12×0.25=3，是重复同类整组的平均计数；不放回导致p变化且一般不独立，不满足本课模型。",
+          "rubric": [
+            "期望3",
+            "平均非保证",
+            "恒定p边界",
+            "独立性边界"
+          ],
+          "explanation": "检查换数字后仍能解释同一模型，不能因算对3就认定所有假设成立；待统计教师复核。",
+          "id": "353-probability-binomial-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

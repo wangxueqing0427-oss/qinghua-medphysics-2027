@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "353-random-sampling-foundation",
+      "subject": "353",
+      "title": "随机抽样基础：抽谁、从哪张名单抽、能推到谁",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "provisional_previous_year",
+      "prerequisites": [
+        "353-probability-binomial-foundation",
+        "353-study-design-foundation"
+      ],
+      "prerequisiteExplanation": "先修概率、变量与观察实验区别；重点抽样设计和偏差，不教授尚无基础的复杂抽样方差公式。",
+      "mapping": [
+        "s27-18-5",
+        "s27-10-2"
+      ],
+      "conditions": "本课简单随机、分层、整群和系统抽样的基础辨认；不声称简单均值适用于任意复杂样本；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "要推断谁，先定义目标总体；实际取得的那部分人是样本；用于抽取的名单或单位集合是抽样框。原创情境：研究某社区登记成年人本月平均阅读时间，目标要明确是否包含暂住者，抽样框为可用的完整名册而非只来活动室的人。即使从活动室访客中随机抽取，也不能自动代表全社区成年人，因为没有进入框的人机会为零。随机选取不能修复抽样框本身的遗漏，也不能把抽到但未回答的人默认为读书0分钟；总体边界和缺失需分别报告。\n\n简单随机抽样要求总体中每一个同样大小的样本都有相同机会被选取，本课以完整无重复名单、随机数、不放回抽n人为例。N=200抽n=20时，每个人的入样概率为20/200=0.1，但这不保证每个年龄段恰好按人口比例出现。不能把随手遇到、最先回复或自愿报名叫简单随机。随机抽样决定谁进入研究，随机分配决定入组后接受哪种干预，两者目的不同；一项试验可有随机分配却只从便利招募的志愿者中取人。\n\n分层是先按已知特征分组，再在每层内随机抽取；整群是抽一些群体，在本课单阶段例中调查入选群所有人。按三个年龄层各随机抽人属于分层，随机抽四个班并调查全班属于整群。系统抽样可随机确定起点再按间隔抽取，但名单周期性若与间隔吻合，可能造成问题。分层不意味着各层必须抽相同人数，整群也不等于只调查自愿整队。不同设计会影响估计和误差，后续复杂设计需相应权重与方差方法，本课只建立区别。\n\n随机样本之间的差异形成抽样波动，不等于每次有差异都是操作错误；系统性遗漏与不应答偏差则不能只靠扩大人数解决。原创计算：完整框N=300、n=30，个人入样概率0.1；若选中30人只有24人答复，应报告24/30=0.8答复比例，再分析未答复者，而非宣称调查30人的完整结果。扩大合理样本通常有助于减小随机波动，但不能保证一份具体样本更接近总体，也不消除系统偏差。闭卷写抽样步骤、报告边界并换名单迁移。",
+      "definition": "概率抽样以明确总体和抽样框为前提；简单随机、分层、整群与系统抽样不同，随机抽样不等于随机分配，也不保证没有遗漏和不应答偏差。",
+      "example": "社区全部成年人是目标，活动室访客框可能遗漏。\nN=200、n=20简单随机：个人入样概率0.1，不保证各年龄比例恰好。\n每年龄层随机抽人是分层；抽班全员是单阶段整群。\n选30答24：答复比例0.8；未答复不计作0分钟。",
+      "misconceptions": [
+        "任意名单中随机都代表全人群。",
+        "先来先抽就是简单随机。",
+        "随机分配与随机抽样相同。",
+        "人数大自动消除所有偏差。"
+      ],
+      "recall": [
+        "闭卷区别总体、样本与抽样框并说明遗漏。",
+        "给简单随机定义和n/N例子，区分随机分配。",
+        "分别造分层与整群例，说明系统抽样起点和周期性风险。",
+        "解释抽样波动、答复比例和系统偏差不能混同。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "社区全部成年人是目标，活动室访客框可能遗漏。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "N=200、n=20简单随机：个人入样概率0.1，不保证各年龄比例恰好。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "每年龄层随机抽人是分层；抽班全员是单阶段整群。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "选30答24：答复比例0.8；未答复不计作0分钟。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-random-sampling-foundation-g1",
+          "description": "定义总体和抽样框",
+          "successCriteria": "指出推断人群、实际框及覆盖缺口。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b1",
+            "353-random-sampling-foundation-a1",
+            "353-random-sampling-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-random-sampling-foundation-g2",
+          "description": "识别简单随机及入样概率",
+          "successCriteria": "按题定完整框计算n/N，拒绝便利招募等同随机。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b2",
+            "353-random-sampling-foundation-a2",
+            "353-random-sampling-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-random-sampling-foundation-g3",
+          "description": "区分常见设计",
+          "successCriteria": "按抽取单位和层内是否抽取判断，不套固定人数规则。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b3",
+            "353-random-sampling-foundation-a3",
+            "353-random-sampling-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-random-sampling-foundation-g4",
+          "description": "解释波动与不应答",
+          "successCriteria": "报告实际答复和限制，不用大样本掩盖系统偏差。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-random-sampling-foundation-b4",
+            "353-random-sampling-foundation-a4",
+            "353-random-sampling-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "指出推断人群、实际框及覆盖缺口。",
+        "按题定完整框计算n/N，拒绝便利招募等同随机。",
+        "按抽取单位和层内是否抽取判断，不套固定人数规则。",
+        "报告实际答复和限制，不用大样本掩盖系统偏差。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计/流行病学教师复核目标总体、抽样框和复杂抽样边界",
+          "样本量、权重和设计效应的完整计算仍待后续课程"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "要研究全社区成年人，却只从阅读室访客名单抽样，主要先查什么？",
+          "options": [
+            "抽样框是否覆盖目标总体",
+            "只需把随机数变大",
+            "未回答者全部算0"
+          ],
+          "answer": 0,
+          "explanation": "访客框可能漏掉不来的人，先检查覆盖。B不能改变框，C制造错误数据；随机抽取也不自动消除此缺口。",
+          "id": "353-random-sampling-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "完整N=200名单不放回简单随机抽n=20，某人的入样概率是多少？输入小数。",
+          "answer": 0.1,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "对题定设计个人入样概率n/N=20/200=0.1。并不表示每个小组恰好抽10%，也不适用于未知覆盖的便利名单。",
+          "id": "353-random-sampling-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "按年龄分层且每层内随机抽人，属于？",
+          "options": [
+            "只抽某个完整班的整群",
+            "无规则自愿报名",
+            "分层随机抽样"
+          ],
+          "answer": 2,
+          "explanation": "先分层且各层内随机抽取是分层。A的抽取单位不同，B没有概率机制；分层不要求每层样本量相等。",
+          "id": "353-random-sampling-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "扩大一个系统性遗漏人群的便利样本，能否自动消除覆盖偏差？",
+          "options": [
+            "不能，需处理框和选择机制",
+            "能，人数越多保证完全无偏",
+            "能，同时自动证明因果"
+          ],
+          "answer": 0,
+          "explanation": "系统覆盖问题不因人数大自动修复。B把精度与偏差混淆，C还把抽样和因果混淆，均不成立。",
+          "id": "353-random-sampling-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "社区全体登记成年人是目标，实际抽取来自完整登记册；这张册首先叫？",
+          "options": [
+            "结局变量",
+            "抽样框",
+            "随机分配结果"
+          ],
+          "answer": 1,
+          "explanation": "名单是实施抽样的框，不是某个结局测量值。C是入组后的干预分配概念，与抽取名单不是同一层。",
+          "id": "353-random-sampling-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "完整N=500名册，简单随机不放回抽50，某人的入样概率？",
+          "answer": 0.1,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "50/500=0.1，应用n/N以完整框和题定简单随机为前提，不能把样本中的某比例误作个人入样概率。",
+          "id": "353-random-sampling-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "随机抽4个班，调查每个入选班所有学生，本课设计是？",
+          "options": [
+            "单阶段整群抽样",
+            "每班都抽若干人的分层",
+            "完全无概率的便利抽样"
+          ],
+          "answer": 0,
+          "explanation": "抽取的是班这一群体并纳入全体，为本题单阶段整群。B描述各层内抽人，C忽略已明确的随机抽班。",
+          "id": "353-random-sampling-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "完整框中抽30人但仅24答复，应怎样报告？为何不能说人数足够大所以无偏？",
+          "answer": "分别报告抽30、答24和答复比例0.8；检查未答复特点和目标覆盖，大样本不自动消除系统差异。",
+          "rubric": [
+            "区分抽取与实际答复",
+            "比例24/30=0.8",
+            "不把未答当0",
+            "说明系统偏差边界"
+          ],
+          "explanation": "缺失与抽样波动分开处理；不对不应答偏差方向作无依据判断，参考要点待专业审核。",
+          "id": "353-random-sampling-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：要推断全体学生，却从自愿参加者中抽取，随机机制首先覆盖的是？",
+          "options": [
+            "自动覆盖全校所有学生",
+            "当前志愿者框",
+            "所有未报名者"
+          ],
+          "answer": 1,
+          "explanation": "框内随机不能给框外人机会，首先只覆盖当前志愿者。A和C扩大推断范围，需另核总体与框的差异。",
+          "id": "353-random-sampling-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "完整N=80名单，不放回简单随机抽8，每人入样概率小数？",
+          "answer": 0.1,
+          "unit": "无量纲",
+          "tolerance": 1e-10,
+          "explanation": "8/80=0.1，概率无量纲。这里确认的是设计机会，不是样本必然恰好复现总体所有特征。",
+          "id": "353-random-sampling-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "系统抽样中较应警惕什么？",
+          "options": [
+            "名单周期与抽取间隔吻合",
+            "使用任何随机起点都必然错误",
+            "只要固定间隔就不需检查名单"
+          ],
+          "answer": 0,
+          "explanation": "周期吻合可能造成系统问题，需检查排序和起点。B把随机起点错误化，C忽略名单结构，均片面。",
+          "id": "353-random-sampling-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "两次规范随机样本均数不同，是否一定说明有人造假？同时说明为何增样本不能保证无系统偏差。",
+          "answer": "随机抽样会有样本波动，差异不自动证明造假；覆盖、不应答等机制可能系统偏离，扩大人数不自动消除。",
+          "rubric": [
+            "承认随机波动",
+            "拒绝无据造假结论",
+            "指出系统机制",
+            "说明增样本限制"
+          ],
+          "explanation": "不以结果不同即否定设计，亦不以随机二字免除质量核查；独立专业审定仍待完成。",
+          "id": "353-random-sampling-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

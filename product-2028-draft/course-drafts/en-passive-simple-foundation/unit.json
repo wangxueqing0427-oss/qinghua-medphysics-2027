@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "en-passive-simple-foundation",
+      "subject": "en",
+      "title": "一般时被动语态：句子先说承受动作的事物",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisites": [
+        "en-past-simple-foundation",
+        "en-linking-and-verb-phrase",
+        "en-pronoun-reference"
+      ],
+      "prerequisiteExplanation": "先修过去时间、主语宾语和代词；本课先教过去分词指定词形，只限一般现在与一般过去被动。",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "conditions": "只处理本课给定的及物动作和一般现在/一般过去；be加过去分词不自动证明所有句子都是事件被动；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "主动句先说谁做事，被动句可以先说谁或什么承受动作。The team checks the list意为团队检查名单，list是被检查的对象。若要突出名单，写The list is checked by the team。team、check、list分别是团队、检查、名单；被动没有把检查方向颠倒，名单仍不是执行者。普通被动结构先掌握be加过去分词，过去分词是一种动词形式，不等于句子一定发生在过去。先画出执行者和承受者，再选择叙述重点，不把“谁在句首”误当“谁做动作”。\n\n本课给定check→checked、clean→cleaned、write→written、make→made。前两个规则词过去式和过去分词同形，write过去式是wrote而分词是written，不能写is wrote。一般现在被动用am/is/are加过去分词，由新的主语决定be：The room is cleaned，The rooms are cleaned。cleaned不因复数而变成cleans，也不因句子现在时而写clean。把be和分词一起读才是本课完整谓语；只写The room cleaned不能表达本题指定的被动陈述。\n\n一般过去被动用was/were加过去分词：The note was written yesterday，昨天便条被写好；The notes were written yesterday。was/were承担过去时间和单复数配合，written保留分词形式。疑问句把be前移，Was the note written yesterday?；否定加not，The note was not written yesterday。不加did再接was。句子时间依赖完整结构和语境，不因written的中文常译为“写了”就把所有被动判成过去；对比is checked every day与was checked yesterday。\n\n转换时先找原宾语，再改作被动主语，配时态和be，选分词，最后决定是否说明执行者。A teacher opened the box→The box was opened by a teacher。本课只变换有合适宾语的动作；He sleeps没有可直接提到句首的宾语，不造is slept这种机械变换。by短语可在执行者已知、不重要或未知时省略，被动也不表示动作一定由人完成。阅读时恢复动作方向并保留否定、时间和数量；隔日用新主语重做，错因区分角色、be、分词和时间。",
+      "definition": "本课事件被动以be + 过去分词表达承受动作的主体；一般现在用am/is/are，一般过去用was/were。",
+      "example": "The team checks the list→The list is checked by the team，方向不变。\nwrite→written；The rooms are cleaned匹配复数。\nThe note was written yesterday→Was the note written yesterday?\nA teacher opened the box→The box was opened by a teacher；不机械转换sleep。",
+      "misconceptions": [
+        "过去分词必然表示过去时间。",
+        "is wrote正确。",
+        "任何动词都能变被动。",
+        "被动主语一定执行动作。"
+      ],
+      "recall": [
+        "说明主动与被动的动作方向，转换team检查list。",
+        "闭卷写write/make/check的分词并配复数be。",
+        "把昨天写好的note句改否定和疑问。",
+        "写转换四步并解释为什么不机械变换He sleeps。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "The team checks the list→The list is checked by the team，方向不变。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "write→written；The rooms are cleaned匹配复数。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "The note was written yesterday→Was the note written yesterday?"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "A teacher opened the box→The box was opened by a teacher；不机械转换sleep。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-passive-simple-foundation-g1",
+          "description": "辨认动作方向",
+          "successCriteria": "指出被动主语是承受者，转换不颠倒执行者。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b1",
+            "en-passive-simple-foundation-a1",
+            "en-passive-simple-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-passive-simple-foundation-g2",
+          "description": "构成一般现在被动",
+          "successCriteria": "be与新主语一致，正确使用给定分词。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b2",
+            "en-passive-simple-foundation-a2",
+            "en-passive-simple-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-passive-simple-foundation-g3",
+          "description": "构成过去被动及转换",
+          "successCriteria": "was/were加分词，否定疑问不叠加did。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b3",
+            "en-passive-simple-foundation-a3",
+            "en-passive-simple-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-passive-simple-foundation-g4",
+          "description": "限定转换范围",
+          "successCriteria": "定位宾语与是否保留by，拒绝不及物机械变换。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-passive-simple-foundation-b4",
+            "en-passive-simple-foundation-a4",
+            "en-passive-simple-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "指出被动主语是承受者，转换不颠倒执行者。",
+        "be与新主语一致，正确使用给定分词。",
+        "was/were加分词，否定疑问不叠加did。",
+        "定位宾语与是否保留by，拒绝不及物机械变换。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师核对被动语义、短语自然度与可转换范围",
+          "未覆盖完成、进行被动或所有过去分词"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "The list is checked by Jo中，谁执行check？",
+          "options": [
+            "Jo",
+            "the list",
+            "无法根据by判断"
+          ],
+          "answer": 0,
+          "explanation": "by Jo在本题明确给执行者Jo，list承受检查。B混淆句首主体与执行角色，C忽略题目已经提供的信息。",
+          "id": "en-passive-simple-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "The rooms ___ every morning，选完整一般现在被动。",
+          "options": [
+            "is cleaned",
+            "are cleaned",
+            "are clean"
+          ],
+          "answer": 1,
+          "explanation": "复数rooms需要are，动作被动用cleaned。A不一致，C可为状态描述但不符合本题指定的被清扫动作结构。",
+          "id": "en-passive-simple-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "昨天单数便条被写好：The note ___ yesterday，选完整过去被动。",
+          "options": [
+            "is written",
+            "was wrote",
+            "was written"
+          ],
+          "answer": 2,
+          "explanation": "昨天用过去was，单数note与之对应，write分词用written。A未保持过去时间，B把过去式wrote放入分词位置。",
+          "id": "en-passive-simple-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "对He sleeps这句，哪项符合本课被动转换边界？",
+          "options": [
+            "该句没有可直接提升的宾语，不机械变被动。",
+            "任何动词都可直接写is slept。",
+            "把he移到句末就一定构成被动。"
+          ],
+          "answer": 0,
+          "explanation": "He sleeps的sleep在本句无宾语，不适用本课宾语提升转换。B忽略及物边界，C只移动词却没有构造正确谓语。",
+          "id": "en-passive-simple-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "The lab tests the samples，若突出samples，正确转换？",
+          "options": [
+            "The lab is tested by the samples.",
+            "The samples are tested by the lab.",
+            "The samples tests the lab."
+          ],
+          "answer": 1,
+          "explanation": "samples是原宾语，被动改作主语并用are tested。A颠倒角色，C改成样本执行测试，失去原句含义。",
+          "id": "en-passive-simple-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "单数便条昨天被写好，哪句正确？",
+          "options": [
+            "The note is wrote yesterday.",
+            "The note was wrote yesterday.",
+            "The note was written yesterday."
+          ],
+          "answer": 2,
+          "explanation": "昨天对应was，write分词用written。A时态和词形都不合，B虽有was却用wrote，不能只检查be。",
+          "id": "en-passive-simple-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "将The box was opened改成否定被动，正确？",
+          "options": [
+            "The box was not opened.",
+            "The box did not was opened.",
+            "The box not opened."
+          ],
+          "answer": 0,
+          "explanation": "在was后加not并保留分词，B叠加did，C丢掉be；本题不是让学习者改成主动句。",
+          "id": "en-passive-simple-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "把A student made the model改被动，并说明为什么不把He sleeps机械改为被动。",
+          "answer": "The model was made by a student. made是给定分词；sleep在He sleeps中无宾语，不能套此转换。",
+          "rubric": [
+            "model成为主语",
+            "was made正确",
+            "执行者方向保留",
+            "指出sleep无宾语"
+          ],
+          "explanation": "核对原宾语、过去时和分词三层，不能因出现by就自动判全部正确；主观题仅参考核对。",
+          "id": "en-passive-simple-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：The chairs ___ last night，要求复数过去被动。",
+          "options": [
+            "was cleaned",
+            "were cleaned",
+            "were clean"
+          ],
+          "answer": 1,
+          "explanation": "复数chairs配were，动作被动保留cleaned。A数不一致，C是形容状态结构，不是指定的被清扫谓语。",
+          "id": "en-passive-simple-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "“这张地图每天被使用”，哪项完整？",
+          "options": [
+            "The map used every day.",
+            "The map is use every day.",
+            "The map is used every day."
+          ],
+          "answer": 2,
+          "explanation": "一般现在单数被动是is used，A缺be，B缺分词；不能把every day当作忽略语态的理由。",
+          "id": "en-passive-simple-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "过去被动疑问句的正确顺序是？",
+          "options": [
+            "Was the letter written yesterday?",
+            "Did the letter was written yesterday?",
+            "Was written the letter yesterday?"
+          ],
+          "answer": 0,
+          "explanation": "把was移至主语前，后保留written。B多加did，C把主语放错；先找整句谓语再移动。",
+          "id": "en-passive-simple-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "写出“窗户昨天被打开”的被动句，再说明不写执行者是否使句子无效。",
+          "answer": "The window was opened yesterday. by执行者可不写，未知或非重点不妨碍本课结构成立。",
+          "rubric": [
+            "window为承受者",
+            "was opened正确",
+            "保留昨天时间",
+            "说明by可省略但不改方向"
+          ],
+          "explanation": "不要把可省略执行者误说为不存在执行者；按参考点核对，不虚构专业分数。",
+          "id": "en-passive-simple-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

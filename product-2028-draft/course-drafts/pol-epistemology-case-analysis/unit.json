@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "pol-epistemology-case-analysis",
+      "subject": "pol",
+      "title": "认识论材料分析：把判断、证据和行动连成一段答案",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisites": [
+        "pol-knowledge-practice-development",
+        "pol-common-particular"
+      ],
+      "prerequisiteExplanation": "已有实践与认识发展讲概念；本课新增材料取证、推论审查和迁移写作，不重写同一概念课。",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "conditions": "原创社会活动情境的认识论迁移训练；不把一次成功当普遍验证，不以哲学例子替代具体学科研究；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "先分清材料中的观察、解释和建议。观察是题目明确给出的接触或记录，解释是依据材料提出的判断，建议是打算怎样行动。三者常写在同一段里，却不能互当证据。原创材料：某阅读室两天晚上排队较长；小组猜测开放时段安排与需求不符，并提出延长开放。两天排队是有限材料，关于原因的猜测还须核对其他时段、人员配置等条件，延长开放只是方案。认识论分析不能见到一个口号就给所有推论盖“实践证明”印章，先查结论是否超出观察。\n\n从感性材料到理性认识，需要整理真实而相对充分的材料，辨别联系和解释，不是数量堆积就自动正确。感性认识偏重直接接触到的现象，理性认识借概念、判断和推理把握联系和本质。阅读室例中收集分时段需求、比较不同安排，可使最初印象发展成较有根据的解释；但一张大表也可能记录错误，逻辑整齐也不保证前提真实。不能一边说理论重要一边完全不接触现实，也不能认为亲历一次便不需要理论整理；个人可以学习他人实践形成的可靠知识。\n\n回到实践是让认识指导可实施行动，并在过程中检验和修正。阅读室小组在有人员保障和许可的条件下试行不同安排，记录等待情况和其他影响，再比较方案预想与实际。并非只要结果令自己满意就证明所有原因判断正确，还要核对是否有其他因素变化、适用条件是否保持。即使某阶段方案有效，新的需求、资源和环境也可能要求更新认识；不能把暂时适用说成永远正确。认识的发展有反复不等于任何说法都同样正确，更不等于没有可以达到的认识。\n\n写答案可用四个明确动作：摘取题内事实，说明相关原理，解释它为何适用，提出有条件的下一步。不要把所有哲学词语一口气堆上去。若题目问为何不能照搬另一地点做法，应比较条件差异并试验，而不只是说“具体问题具体分析”。若只有两天观察，不能捏造整年趋势。闭卷换到公共活动排期等非职业专属情境，独立写出证据与边界；错因区分观察与推断混淆、遗漏实践检验、绝对化和脱离材料，延迟题重新组织文字而非复制答案。",
+      "definition": "本课将认识论用于材料推理：区分观察与推断，整理感性材料形成判断，回到有条件的实践检验并随变化修正。",
+      "example": "两晚排队是观察；开放时段是原因属于推断；延时是建议。\n分时记录与比较帮助解释，材料多不自动真实。\n有条件试行并记录变化，不把一次有效外推所有地点。\n事实→原理→适用关系→下一步，不能补造整年数据。",
+      "misconceptions": [
+        "方案提出即为实践证明。",
+        "亲历一次就不需要理论。",
+        "一次成功支持任何范围。",
+        "材料题只需背术语无需事实。"
+      ],
+      "recall": [
+        "用阅读室案例区分观察、推断和建议。",
+        "解释感性向理性发展需要什么，不把表格数量当真理。",
+        "写实践检验与后续修正的条件。",
+        "闭卷写四步材料答案并标一项不能推断的结论。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "两晚排队是观察；开放时段是原因属于推断；延时是建议。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "分时记录与比较帮助解释，材料多不自动真实。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "有条件试行并记录变化，不把一次有效外推所有地点。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "事实→原理→适用关系→下一步，不能补造整年数据。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-epistemology-case-analysis-g1",
+          "description": "区分证据与推论",
+          "successCriteria": "正确标注材料已有事实、原因判断及行动建议。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b1",
+            "pol-epistemology-case-analysis-a1",
+            "pol-epistemology-case-analysis-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-g2",
+          "description": "说明认识深化",
+          "successCriteria": "解释整理核对而非纯堆积，兼顾经验与理论。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b2",
+            "pol-epistemology-case-analysis-a2",
+            "pol-epistemology-case-analysis-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-g3",
+          "description": "限定实践检验范围",
+          "successCriteria": "保留其他影响与阶段条件，不作永恒保证。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b3",
+            "pol-epistemology-case-analysis-a3",
+            "pol-epistemology-case-analysis-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-g4",
+          "description": "完成材料迁移表达",
+          "successCriteria": "引用事实和关系，提出可检验行动且不编数据。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-epistemology-case-analysis-b4",
+            "pol-epistemology-case-analysis-a4",
+            "pol-epistemology-case-analysis-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "正确标注材料已有事实、原因判断及行动建议。",
+        "解释整理核对而非纯堆积，兼顾经验与理论。",
+        "保留其他影响与阶段条件，不作永恒保证。",
+        "引用事实和关系，提出可检验行动且不编数据。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "理论教师核对材料归因、感性理性边界及参考答题要点",
+          "本课不是官方评分细则，未实现可靠主观自动评分"
+        ]
+      },
+      "sources": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "“两天晚间排队较长；因此原因一定只有开放时间”中后半句属于？",
+          "options": [
+            "超出有限观察的原因推断",
+            "题内已经直接测量的唯一原因",
+            "完全没有推论成分"
+          ],
+          "answer": 0,
+          "explanation": "两天记录不能直接排除其他原因，后半句是过强推断。B和C把解释冒充观察；不是否认排队事实本身。",
+          "id": "pol-epistemology-case-analysis-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "把零散观察整理成概念和判断，较恰当的理解是？",
+          "options": [
+            "材料数量一多就必然正确",
+            "需核对材料并通过分析形成解释",
+            "只要不看现实逻辑就会正确"
+          ],
+          "answer": 1,
+          "explanation": "材料真实性和分析过程都重要。A把积累自动化，C切断现实基础；理性认识不等于随意猜测。",
+          "id": "pol-epistemology-case-analysis-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "判断试行方案有效后，最应避免哪种说法？",
+          "options": [
+            "记录实施条件",
+            "继续关注需求变化",
+            "此方案在所有地点永久有效"
+          ],
+          "answer": 2,
+          "explanation": "局部实践证据有范围，C越界外推。A和B是保留条件的合理步骤，不是对实践作用的否定。",
+          "id": "pol-epistemology-case-analysis-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "材料题中连接原理与事实的合适方式是？",
+          "options": [
+            "指出题内哪些事实体现何种关系",
+            "只抄全部哲学术语",
+            "补写题目没有的成功比例"
+          ],
+          "answer": 0,
+          "explanation": "要解释原理为何适用，而不只是名称对应。B缺论证，C虚构数据，均不能说明真实认识过程。",
+          "id": "pol-epistemology-case-analysis-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "“下周拟试行新排期”在尚未执行时应归为？",
+          "options": [
+            "已得到的实践结果",
+            "待检验行动建议",
+            "已证实普遍规律"
+          ],
+          "answer": 1,
+          "explanation": "拟试行说明未来方案而非既成结果。A混淆计划与执行，C从提议跃到普遍结论，没有实践支持。",
+          "id": "pol-epistemology-case-analysis-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "只凭一次亲历否定所有研究和理论，主要问题是？",
+          "options": [
+            "重视真实材料本身",
+            "注意实践条件",
+            "把局部经验绝对化"
+          ],
+          "answer": 2,
+          "explanation": "局部经验不能替代全部理论和他人实践知识。A和B并无错，C才是经验主义式片面化，应结合分析和更广材料。",
+          "id": "pol-epistemology-case-analysis-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "不同地点直接照搬排期效果不佳，较合理处理是？",
+          "options": [
+            "调查条件差异后调整并检验",
+            "宣布实践完全不能检验认识",
+            "坚持所有地点必须同一排期"
+          ],
+          "answer": 0,
+          "explanation": "适用条件可能不同，应比较并修正。B否定检验作用，C拒绝现实差异；不能仅凭失败次数得出所有理论无效。",
+          "id": "pol-epistemology-case-analysis-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "阅读室两晚拥堵，小组建议延时。写出目前知道什么、还缺什么、怎样检验。",
+          "answer": "已知两晚拥堵；原因和代表性未定，应补充分时需求、资源与其他变化，在许可条件下试行并比较反馈。",
+          "rubric": [
+            "引用两晚事实",
+            "区分原因推断",
+            "列出缺失条件",
+            "提出可检验实践"
+          ],
+          "explanation": "按证据、推断、条件、行动四层核对，不因写到实践二字就给出虚构分数。",
+          "id": "pol-epistemology-case-analysis-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：一场活动满意度较高，“一切活动都应同样举办”属于？",
+          "options": [
+            "无需边界的直接事实",
+            "超出单次材料的推广",
+            "题内提供的长期验证"
+          ],
+          "answer": 1,
+          "explanation": "单次满意不能代表所有活动及条件，B指出推论范围。A和C都把局部结果扩大，需继续比较和实践检验。",
+          "id": "pol-epistemology-case-analysis-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "对已有解释进行核对时，最合理的是？",
+          "options": [
+            "拒绝任何反例",
+            "只累计赞同意见",
+            "同时查真实材料、逻辑和适用条件"
+          ],
+          "answer": 2,
+          "explanation": "认识深化需要面对反例与条件，A拒绝修正，B选择性收集；条理和赞同人数不自动证明真理。",
+          "id": "pol-epistemology-case-analysis-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "某阶段方案有效，而条件变化后需调整，这说明？",
+          "options": [
+            "认识应随实践和对象变化发展",
+            "过去证据必定全部伪造",
+            "不存在任何可认识的事实"
+          ],
+          "answer": 0,
+          "explanation": "阶段适用与后续发展可以同时成立。B和C是无根据绝对化；新变化不自动否认过去条件下的结论。",
+          "id": "pol-epistemology-case-analysis-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "某活动方案只在小范围试过，别人建议直接全区照用。写一段有边界的认识论分析。",
+          "answer": "先说明小范围实践提供有限依据，再比较对象、资源和环境，分步检验并修改，不能把局部效果当全区保证。",
+          "rubric": [
+            "小范围事实",
+            "条件比较",
+            "分步实践与修正",
+            "拒绝无条件保证"
+          ],
+          "explanation": "允许不同表达，但必须具体说明证据范围和行动，不能关键词匹配冒充专业评分。",
+          "id": "pol-epistemology-case-analysis-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

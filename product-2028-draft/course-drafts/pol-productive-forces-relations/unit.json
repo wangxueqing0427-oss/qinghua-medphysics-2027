@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "pol-productive-forces-relations",
+      "subject": "pol",
+      "title": "生产力与生产关系：分清生产能力和人与人的关系",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisites": [
+        "pol-social-being-consciousness",
+        "pol-contradiction-unity"
+      ],
+      "prerequisiteExplanation": "先修本批社会存在与既有矛盾属性；先分人—自然和生产中人—人，不跳入全部政治经济学。",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "conditions": "历史唯物主义基本范畴与原创简化情境；不从单一工具变化推断制度必然立即更替；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "同一个生产场景可以问两种不同问题：人们用什么能力和手段取得生活资料，以及人们在生产中如何结成关系。生产力侧重人们利用和改造自然、生产物质资料的能力，不只是机器数量，还包含具备知识技能的劳动者与生产资料的结合。劳动资料是用于劳动的工具等条件，劳动对象是加工或作用的对象。原创面包坊中，劳动者技能、烤炉工具和面粉材料帮助理解这些要素；不能把顾客对面包的评价直接算作烤炉的物理生产能力。\n\n生产关系关心生产过程中人与人的物质经济关系，包括生产资料所有制关系、生产中人的地位和相互关系、产品分配关系等方面。谁拥有生产资料、如何组织协作与分配，和烤炉温度不是同一问题。生产资料所有制关系在其中具有基础地位，但不应把所有日常友谊和个人好恶都归成生产关系。面包坊分工及产品分配的约定可作为分析关系的材料；要说明发生在生产中及其经济性质，不能见到“关系”两个字就套用全部历史唯物主义概念。\n\n生产力的发展状况制约生产关系，生产关系是否适合又会对生产力发展产生作用。适合时可促进，不适合时可能形成障碍；这种矛盾运动不是工具变一件、制度就立刻变一件的机械对应。原创情境中，新工艺提高潜在产能，但旧的协调和分配安排造成原料衔接不畅，应调查实际瓶颈并改进相应关系。不能仅凭一台新烤炉就断言所有制必须立即改变，更不能说调整一条安排便能不顾技术和人员条件无限增产。决定与反作用需分方向解释。\n\n分析题先把能力要素与关系要素分栏，再说明两者的具体相互作用和证据边界。劳动者培训和工具改善是能力条件，生产中的协作与分配安排是关系条件；具体事物可能包含多层因素，不能一词定性。生产方式可从生产力与生产关系的统一理解；本课不展开上层建筑全部体系，也不把某个管理技巧当社会制度的完整替代。闭卷解释面包坊新情境，延迟题换到印刷等普通生产案例，按要素混淆、方向颠倒和机械决定三类错因复习。",
+      "definition": "生产力指生产物质资料的能力；生产关系指生产中人与人的物质经济关系。两者相互联系，生产力制约生产关系，生产关系对生产力有反作用。",
+      "example": "烤炉与有技能劳动者、面粉：能力要素须结合理解。\n所有、生产协作与分配：不能拿温度直接代替经济关系。\n新工艺遇旧协调障碍：调查关系与能力是否适合。\n印刷工具、人员技能与分配安排分层说明，不作一对一机械推论。",
+      "misconceptions": [
+        "生产力就是机器台数。",
+        "任何人际好恶都是生产关系。",
+        "生产关系决定工具并且无条件无限增产。",
+        "一台新设备必然立即改变整个制度。"
+      ],
+      "recall": [
+        "闭卷区别生产力、劳动资料和劳动对象。",
+        "列出生产关系本课三个方面并给边界。",
+        "说明决定与反作用，不写机械即时更替。",
+        "用新生产情境分栏并解释统一。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "烤炉与有技能劳动者、面粉：能力要素须结合理解。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "所有、生产协作与分配：不能拿温度直接代替经济关系。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "新工艺遇旧协调障碍：调查关系与能力是否适合。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "印刷工具、人员技能与分配安排分层说明，不作一对一机械推论。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-productive-forces-relations-g1",
+          "description": "识别生产能力要素",
+          "successCriteria": "同时考虑劳动者和生产资料，区分工具与对象。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b1",
+            "pol-productive-forces-relations-a1",
+            "pol-productive-forces-relations-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-productive-forces-relations-g2",
+          "description": "识别生产关系范围",
+          "successCriteria": "说明所有、生产中地位关系和分配，排除一般好恶。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b2",
+            "pol-productive-forces-relations-a2",
+            "pol-productive-forces-relations-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-productive-forces-relations-g3",
+          "description": "解释两者相互作用",
+          "successCriteria": "区分制约与反作用及适合条件，拒绝机械推断。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b3",
+            "pol-productive-forces-relations-a3",
+            "pol-productive-forces-relations-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-productive-forces-relations-g4",
+          "description": "迁移到生产情境",
+          "successCriteria": "分层提取事实并提出有条件分析，不把管理当全部制度。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-productive-forces-relations-b4",
+            "pol-productive-forces-relations-a4",
+            "pol-productive-forces-relations-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "同时考虑劳动者和生产资料，区分工具与对象。",
+        "说明所有、生产中地位关系和分配，排除一般好恶。",
+        "区分制约与反作用及适合条件，拒绝机械推断。",
+        "分层提取事实并提出有条件分析，不把管理当全部制度。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师复核生产关系三个方面及基本规律表达",
+          "经济基础/上层建筑完整课、社会形态史与年度政策另行建设"
+        ]
+      },
+      "sources": [
+        "https://2d.hep.com.cn/13384041111111/3",
+        "https://www.12371.cn/2024/03/21/ARTI1711014349115386.shtml",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "面包坊用于烘烤的烤炉，在给定生产过程首先属于？",
+          "options": [
+            "劳动资料",
+            "劳动对象面粉",
+            "个人情绪本身"
+          ],
+          "answer": 0,
+          "explanation": "烤炉作为劳动手段是劳动资料；面粉才是本题被加工对象，个人情绪不能替代该要素分类。",
+          "id": "pol-productive-forces-relations-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "下列哪项最直接涉及生产关系？",
+          "options": [
+            "烤炉最高温度",
+            "生产资料归谁所有及产品怎样分配",
+            "面粉颗粒直径"
+          ],
+          "answer": 1,
+          "explanation": "所有与分配涉及生产中人与人的物质经济关系。A和C是技术物性，不能因此直接判为同一经济关系。",
+          "id": "pol-productive-forces-relations-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "生产关系是否适合生产力，主要影响应怎样表述？",
+          "options": [
+            "与发展完全无关",
+            "一切安排均自动促进",
+            "可能促进，也可能成为障碍"
+          ],
+          "answer": 2,
+          "explanation": "需考察具体适合状况，不能先验认定所有安排同效。A取消反作用，B把促进无条件化，均片面。",
+          "id": "pol-productive-forces-relations-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "生产方式在本课应怎样理解？",
+          "options": [
+            "生产力与生产关系的统一",
+            "只有机器型号",
+            "仅个人喜好"
+          ],
+          "answer": 0,
+          "explanation": "本课以两者统一理解生产方式，不把其缩为技术目录或主观偏好。统一不抹平能力与关系的区别。",
+          "id": "pol-productive-forces-relations-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "提高劳动者技能与增加适合的工具，主要改善哪类条件？",
+          "options": [
+            "只有消费评价",
+            "生产力条件",
+            "与生产完全无关的词语"
+          ],
+          "answer": 1,
+          "explanation": "技能与劳动资料结合影响生产能力。A把生产与评价混淆，C否认事实联系；不据此保证任意条件下产出必增。",
+          "id": "pol-productive-forces-relations-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "哪项不宜仅因“人与人”就判成生产关系？",
+          "options": [
+            "生产资料所有关系",
+            "生产中产品分配关系",
+            "两位同学课外音乐偏好相同"
+          ],
+          "answer": 2,
+          "explanation": "课外共同爱好并非题定生产中的经济关系；A和B在范围内。需要看关系发生的领域和性质，不只是是否有两个人。",
+          "id": "pol-productive-forces-relations-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "新工艺被旧协作方式阻碍，较合理分析是？",
+          "options": [
+            "核对具体协调条件并考察适应性改进",
+            "所有制必定在当天自动更替",
+            "只要喊口号就无需人员技术"
+          ],
+          "answer": 0,
+          "explanation": "具体分析技术与关系衔接，A保留条件。B机械即时化，C用意愿替代能力，均超出材料证据。",
+          "id": "pol-productive-forces-relations-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "面包坊新工艺提高潜在产能但原料交接不畅，分别指出生产力、生产关系材料及一项限制。",
+          "answer": "新工艺和劳动者技能属能力，生产中协作交接属关系材料；应核对实际瓶颈，不由一件工具推断全部制度必变。",
+          "rubric": [
+            "能力要素",
+            "生产中协作关系",
+            "适合与反作用",
+            "反对机械外推"
+          ],
+          "explanation": "只讨论简化情境，不把该例当完整制度史证据；参考要点待教师核对。",
+          "id": "pol-productive-forces-relations-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：印刷时被加工的纸张，在此首先是？",
+          "options": [
+            "劳动资料印刷机",
+            "劳动对象",
+            "所有制关系"
+          ],
+          "answer": 1,
+          "explanation": "题设纸张是被作用材料，为劳动对象；印刷机是劳动资料。C是人与人的经济关系，不能与纸张本身混同。",
+          "id": "pol-productive-forces-relations-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "将生产力概括为机器数量，遗漏了什么关键内容？",
+          "options": [
+            "机器的颜色",
+            "一切私人偏好",
+            "有知识技能劳动者与生产资料的结合"
+          ],
+          "answer": 2,
+          "explanation": "生产能力不只机器台数，还包括人的技能及其与资料的结合。A无关核心，B把任意偏好都并入能力，范围过宽。",
+          "id": "pol-productive-forces-relations-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "“关系调整可不顾任何技术条件无限增产”应如何评价？",
+          "options": [
+            "夸大反作用并取消现实能力条件",
+            "正确说明一切生产规律",
+            "只说明机器颜色"
+          ],
+          "answer": 0,
+          "explanation": "反作用受现实条件限制，不能无条件无限增产。B把夸张当规律，C回避了错误方向，均不成立。",
+          "id": "pol-productive-forces-relations-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "印刷工艺变化后分工和分配仍未调整，写一段不机械化的分析。",
+          "answer": "区分工艺与技能的能力条件和生产中分工分配的关系条件，调查二者适合状况；改进要有依据，不承诺工具变化立即导致全部制度更替。",
+          "rubric": [
+            "能力与关系分别识别",
+            "说明相互联系",
+            "根据事实检查适合",
+            "保留变化条件"
+          ],
+          "explanation": "具体表达可不同，应说明关系和条件，不以四个关键词当自动专业评分。",
+          "id": "pol-productive-forces-relations-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

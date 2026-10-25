@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "en-present-continuous-foundation",
+      "subject": "en",
+      "title": "现在进行时：正在做与通常做怎样分开",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisites": [
+        "en-present-questions",
+        "en-present-negative"
+      ],
+      "prerequisiteExplanation": "先修已有一般现在时疑问和否定，知道am/is/are、do/does及主语；本课重新解释进行结构，不复写否定句课。",
+      "mapping": [
+        "en-plan-2"
+      ],
+      "conditions": "仅当前动作、当前阶段活动及本课指定状态义；不以now作为机械选时态信号；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "先把动词当作一个完整组合来看。read是阅读，reading表示动作展开的形式，但单独的reading不能在本课普通陈述句中承担完整谓语。正在发生的动作可用am/is/are加动词-ing：I am reading a note表示我正在读便条，He is reading强调他正在读。am与I配合，is与单数主体配合，are与you、we、they和复数主体配合。句子的时间信息由语境和整个结构表达，不能写He reading，也不能把is后再用reads。先找主语，再圈出be和-ing这两个部分。\n\n通常、反复发生的活动和说话时正在发生的活动需要区分。Mina reads every evening说习惯，Mina is reading now说当前动作。还有当前阶段的暂时活动：This week we are studying maps意为这周我们在学地图，不要求此刻人人都拿着地图。不要看到一个时间词就忽略意思。know在本课“知道”义通常不用进行时，所以I know the answer表达我知道答案；不是看到now就必写am knowing。其他动词的特殊意义留到后续语境课，不用一条口令覆盖所有词。\n\n构成-ing时本课先处理四个示例：read变reading，write去末尾不发音的e成writing，run在这里双写n成running，lie变lying。本课给词形而不宣称所有动词都照一个拼写口诀。句子He is writing a name中write是写，name是名字；He is running是跑步，两者都需要is而不是does。练习遇到词形不熟时先确认原形和给定变化，再配be，不要把名词复数s、动词第三人称s与-ing混为一件事。\n\n否定只在be后加not：They are not waiting表示他们没有在等。一般疑问把be移到主语前：Are they waiting? 回答Yes, they are或No, they aren't；不再加do。比较Do they wait here every day?问通常是否等，Are they waiting here now?问现在是否在等。改错时按主体、时间意义、be、词形四步核对。闭卷应能自己造陈述、否定与疑问，不是背原题选项；隔日换主语与动作，错因分别记录结构遗漏、词形或时间意义误判。",
+      "definition": "本课现在进行结构为am/is/are + 动词-ing，用于语境中的当前动作或当前阶段活动；与一般现在时习惯义区分。",
+      "example": "I am reading；He is reading：先匹配be，再写reading。\nMina reads every evening / is reading now：习惯与当前动作不同。\nwrite→writing，run→running；He is writing a name。\nThey are not waiting→Are they waiting? 不再加do。",
+      "misconceptions": [
+        "只写He reading。",
+        "有now就把know强行进行化。",
+        "进行时用does加ing。",
+        "一般现在时与进行时含义完全相同。"
+      ],
+      "recall": [
+        "闭卷写I与he正在读的两个句子，标出完整谓语。",
+        "用自己的话区分通常读、现在读，并说明know的本课边界。",
+        "闭卷写read/write/run/lie的-ing。",
+        "把They are waiting改否定与疑问，并写肯定短答。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "I am reading；He is reading：先匹配be，再写reading。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "Mina reads every evening / is reading now：习惯与当前动作不同。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "write→writing，run→running；He is writing a name。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "They are not waiting→Are they waiting? 不再加do。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-present-continuous-foundation-g1",
+          "description": "组成当前动作谓语",
+          "successCriteria": "主语匹配am/is/are并保留-ing，不遗漏be。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b1",
+            "en-present-continuous-foundation-a1",
+            "en-present-continuous-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-continuous-foundation-g2",
+          "description": "按语境区分习惯和当前活动",
+          "successCriteria": "比较两种时态意义，并拒绝本课know状态义的机械进行化。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b2",
+            "en-present-continuous-foundation-a2",
+            "en-present-continuous-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-continuous-foundation-g3",
+          "description": "写出指定-ing形式",
+          "successCriteria": "read/write/run/lie四词形式正确。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b3",
+            "en-present-continuous-foundation-a3",
+            "en-present-continuous-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-present-continuous-foundation-g4",
+          "description": "转换否定和疑问",
+          "successCriteria": "be后not与be前移正确，不叠加do。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-present-continuous-foundation-b4",
+            "en-present-continuous-foundation-a4",
+            "en-present-continuous-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "主语匹配am/is/are并保留-ing，不遗漏be。",
+        "比较两种时态意义，并拒绝本课know状态义的机械进行化。",
+        "read/write/run/lie四词形式正确。",
+        "be后not与be前移正确，不叠加do。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核状态动词语境、现在进行时与暂时情境的边界",
+          "未覆盖将来安排、过去进行时及完成时"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "Lin此刻正在读便条，Lin ___ a note now。",
+          "options": [
+            "is reading",
+            "reading",
+            "does reading"
+          ],
+          "answer": 0,
+          "explanation": "Lin为单数，当前动作需is reading。B遗漏be，C把do体系与进行结构混接；先确认整个谓语再看词尾。",
+          "id": "en-present-continuous-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "想表达每日习惯而非此刻动作，哪句更合题意？",
+          "options": [
+            "She is reading at this moment.",
+            "She reads every evening.",
+            "She reading every evening."
+          ],
+          "answer": 1,
+          "explanation": "题目指定反复习惯，reads every evening最合适。A明确当前一刻，C缺完整谓语；不是说进行时永远不能与频率词同用。",
+          "id": "en-present-continuous-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "write的本课-ing形式是？",
+          "options": [
+            "writeing",
+            "writting",
+            "writing"
+          ],
+          "answer": 2,
+          "explanation": "write末尾不发音e去掉再加ing，成writing。A保留e，B无根据双写t，不能只凭看到ing认定词形正确。",
+          "id": "en-present-continuous-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "将They are waiting改为一般疑问句，正确的是？",
+          "options": [
+            "Are they waiting?",
+            "Do they are waiting?",
+            "Are waiting they?"
+          ],
+          "answer": 0,
+          "explanation": "已有be时把are移到主语前，得到Are they waiting。B额外加入do，C破坏主语与动作的位置。",
+          "id": "en-present-continuous-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "I ___ at this moment，应选择本课完整的正在工作表达。",
+          "options": [
+            "working",
+            "am working",
+            "works"
+          ],
+          "answer": 1,
+          "explanation": "I与am配合，当前动作写am working；A缺be，C是第三人称形式，既不配I也不是本题要求的进行结构。",
+          "id": "en-present-continuous-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "know表示知道时，哪句符合本课常规用法？",
+          "options": [
+            "I am knowing the answer now.",
+            "I knowing the answer.",
+            "I know the answer."
+          ],
+          "answer": 2,
+          "explanation": "know在给定状态义通常用一般形式。A机械套进行时，B缺完整谓语；本题不讨论特殊修辞或其他语义。",
+          "id": "en-present-continuous-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "表示“他正在跑”，哪个组合正确？",
+          "options": [
+            "He is running.",
+            "He is runing.",
+            "He running."
+          ],
+          "answer": 0,
+          "explanation": "本课run变running且单数主体需is。B拼写错，C遗漏be；语法与拼写要分两步检查。",
+          "id": "en-present-continuous-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "把We are writing notes改为否定句和一般疑问句，说明为什么不加do。",
+          "answer": "We are not writing notes. Are we writing notes? 已有be，否定加not、疑问前移are。",
+          "rubric": [
+            "否定保留are writing",
+            "not放are后",
+            "疑问are前移",
+            "说明不加do"
+          ],
+          "explanation": "先核对正在写这一意义，再转换be的位置；答案逐点人工核对，不能凭一个词给自动满分。",
+          "id": "en-present-continuous-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：两名学生此刻正在看地图，应选？",
+          "options": [
+            "The students is looking at a map.",
+            "The students are looking at a map.",
+            "The students looking at a map."
+          ],
+          "answer": 1,
+          "explanation": "复数students用are looking，A主谓不一致，C少be。本题在新主语中复查结构，而不是重复原来的Lin句子。",
+          "id": "en-present-continuous-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "原意是每周固定在周日步行，哪句最直接？",
+          "options": [
+            "We are walk every Sunday.",
+            "We walking every Sunday.",
+            "We walk every Sunday."
+          ],
+          "answer": 2,
+          "explanation": "明确普通习惯，walk every Sunday直接表达；A把are与原形混接，B缺完整谓语，不把时间词机械当唯一依据。",
+          "id": "en-present-continuous-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日拼写迁移：lie在本课“躺”义的-ing是？",
+          "options": [
+            "lying",
+            "lieing",
+            "liing"
+          ],
+          "answer": 0,
+          "explanation": "本课指定lie改成lying，B和C不是该形式。需要记住给定词形，不把write的去e规则机械套到所有词。",
+          "id": "en-present-continuous-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "给出“她现在没在等”的英语句子及相应疑问句，并解释与“她每天等”有何不同。",
+          "answer": "She is not waiting now. Is she waiting now? 当前动作不同于She waits every day的习惯。",
+          "rubric": [
+            "is与she对应",
+            "否定结构正确",
+            "疑问前移is",
+            "区分当前动作和习惯"
+          ],
+          "explanation": "分别核查意义、be与-ing，主观答案保留原文和参考要点，等待核对，不虚构评分。",
+          "id": "en-present-continuous-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

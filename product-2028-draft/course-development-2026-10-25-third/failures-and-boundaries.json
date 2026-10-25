@@ -1,0 +1,44 @@
+{
+  "sourceAccess": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-continuous",
+      "actualResult": "web fetch timeout",
+      "resolution": "Official free-resources canonical URL read successfully; no repeated same-path attempt"
+    },
+    {
+      "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1859a.htm",
+      "actualResult": "not accessible via web tool",
+      "resolution": "Read HEP primary-text electronic edition and marx/06.htm; failed URL not used as supporting evidence"
+    },
+    {
+      "url": "https://www.marxists.org/chinese/marx-engels/37/363.htm",
+      "actualResult": "not accessible via web tool",
+      "resolution": "Located and read actual Engels letter primary text; no invented page number"
+    },
+    {
+      "url": "https://www.cdc.gov/field-epi-manual/php/chapters/analyzing-interpreting-data.html",
+      "actualResult": "404 Not Found",
+      "resolution": "Read canonical analyze-interpret-data.html and named sections"
+    }
+  ],
+  "engineering": [
+    {
+      "id": "THIRD-01",
+      "firstResult": "136/146;9 shared section lookups failed plus1 numeric assertion",
+      "cause": "New authored JSON used literal backslash-n separators rather than actual paragraph breaks; strict floating point equality in test",
+      "fix": "Only new9 draft explanation/example separators normalized; test independently recomputes within1e-12, tighter than question tolerance1e-10. Answers unchanged.",
+      "final": "146/146",
+      "firstReceipt": "batch-test-first-failure.json"
+    },
+    {
+      "id": "THIRD-02",
+      "firstResult": "compatibility1/4",
+      "cause": "Test reused closed repository instance",
+      "fix": "Same fake IndexedDB factory, new repository and profile handles after close; no production implementation changes.",
+      "final": "compatibility4/4",
+      "firstReceipt": "compatibility-first-failure.json"
+    }
+  ],
+  "independentExpertApproved": 0
+}
+

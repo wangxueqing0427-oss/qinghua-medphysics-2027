@@ -1,0 +1,164 @@
+{
+  "baseCommit": "cfcaa8e78f1b8b305987f1db32a51abd593848ab",
+  "existingUnits": 29,
+  "existingQuestions": 307,
+  "selection": [
+    {
+      "id": "en-present-continuous-foundation",
+      "title": "现在进行时：正在做与通常做怎样分开",
+      "subject": "en",
+      "pre": [
+        "en-present-questions",
+        "en-present-negative"
+      ],
+      "nodes": [
+        "en-plan-2"
+      ],
+      "pending": [
+        "英语教师复核状态动词语境、现在进行时与暂时情境的边界",
+        "未覆盖将来安排、过去进行时及完成时"
+      ]
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "title": "一般时被动语态：句子先说承受动作的事物",
+      "subject": "en",
+      "pre": [
+        "en-past-simple-foundation",
+        "en-linking-and-verb-phrase",
+        "en-pronoun-reference"
+      ],
+      "nodes": [
+        "en-plan-2"
+      ],
+      "pending": [
+        "英语教师核对被动语义、短语自然度与可转换范围",
+        "未覆盖完成、进行被动或所有过去分词"
+      ]
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "title": "限定性定语从句：在长句中认出是哪一个人或物",
+      "subject": "en",
+      "pre": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-subject-verb-agreement"
+      ],
+      "nodes": [
+        "en-plan-3"
+      ],
+      "pending": [
+        "英语教师复核关系词省略、主从结构和译文自然度",
+        "非限定性、介词前置、whose/where等完整体系尚未覆盖"
+      ]
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "title": "社会存在与社会意识：从生活条件理解观念变化",
+      "subject": "pol",
+      "pre": [
+        "pol-matter-consciousness",
+        "pol-connections-foundation"
+      ],
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "pending": [
+        "马克思主义理论教师复核社会存在范围、相对独立性与案例限度",
+        "年度政治考试范围和评分标准未确认"
+      ]
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "title": "认识论材料分析：把判断、证据和行动连成一段答案",
+      "subject": "pol",
+      "pre": [
+        "pol-knowledge-practice-development",
+        "pol-common-particular"
+      ],
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "pending": [
+        "理论教师核对材料归因、感性理性边界及参考答题要点",
+        "本课不是官方评分细则，未实现可靠主观自动评分"
+      ]
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "title": "生产力与生产关系：分清生产能力和人与人的关系",
+      "subject": "pol",
+      "pre": [
+        "pol-social-being-consciousness",
+        "pol-contradiction-unity"
+      ],
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "pending": [
+        "马克思主义理论教师复核生产关系三个方面及基本规律表达",
+        "经济基础/上层建筑完整课、社会形态史与年度政策另行建设"
+      ]
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "title": "概率与二项分布入门：先说结果和条件，再计算",
+      "subject": "353",
+      "pre": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "nodes": [
+        "s27-19-1",
+        "s27-19-2"
+      ],
+      "pending": [
+        "统计教师复核等可能、独立同分布假设及模型到真实健康问题的边界",
+        "尚缺连续分布、条件概率、完整组合公式和抽样分布，不能称概率节点完整覆盖"
+      ]
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "title": "随机抽样基础：抽谁、从哪张名单抽、能推到谁",
+      "subject": "353",
+      "pre": [
+        "353-probability-binomial-foundation",
+        "353-study-design-foundation"
+      ],
+      "nodes": [
+        "s27-18-5",
+        "s27-10-2"
+      ],
+      "pending": [
+        "统计/流行病学教师复核目标总体、抽样框和复杂抽样边界",
+        "样本量、权重和设计效应的完整计算仍待后续课程"
+      ]
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "title": "研究设计中的偏倚控制：先找错误怎样产生",
+      "subject": "353",
+      "pre": [
+        "353-study-design-foundation",
+        "353-random-sampling-foundation"
+      ],
+      "nodes": [
+        "s27-10-3",
+        "s27-18-6",
+        "s27-11-5",
+        "s27-12-6",
+        "s27-13-4"
+      ],
+      "pending": [
+        "流行病学教师复核选择偏倚、信息偏倚、混杂与中介的边界及题目唯一性",
+        "各研究类型的详细控制方法、效应修饰和调整计算尚待独立课程"
+      ]
+    }
+  ],
+  "legacyWorkflows": "Reuse exported E.validate/O.validateObjectives/W.inspect, draft-course-loop and review-ledger; do not run CLI writers against old reports.",
+  "official2028Confirmed": false,
+  "expertApproved": 0,
+  "alreadyPassed29BrowserSuiteRerun": false
+}
+

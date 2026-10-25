@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "en-defining-relative-foundation",
+      "subject": "en",
+      "title": "限定性定语从句：在长句中认出是哪一个人或物",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisites": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-subject-verb-agreement"
+      ],
+      "prerequisiteExplanation": "先修句子骨架、代词指代和主谓一致；从两个短句的共同名词开始，不提前教授全部复合句。",
+      "mapping": [
+        "en-plan-3"
+      ],
+      "conditions": "仅who/which/that引导的限定性从句，清楚区分从句主语和宾语；不推广到逗号非限定性结构；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "读长句时先问哪一段在帮助我们认出名词。The student who carries a blue bag is my friend：student是学生，carries是带着，blue bag是蓝包，friend是朋友。who carries a blue bag帮助限定是哪位学生，主句骨架是The student is my friend。这个修饰名词的小句叫定语从句，被修饰的student叫先行词。不要因为carries先出现就把is删掉；两个谓语分属不同层。限定性从句提供识别范围所需信息，本课不加逗号，不等于任意插入的补充说明。\n\n本课who或that可指人，which或that可指物。The guide who helps us is kind说帮助我们的导游很友好；The book which lies on the desk is new说桌上的那本书是新的。guide、kind、desk分别是导游、友好的、书桌。必须先判断指代谁，再看关系词在从句中的角色；不能把which当成所有人的通用选择，也不能说只有that能指物。选择题会明确限定候选，避免把who和that两个都正确的形式放在单选题中却假称只有一个答案。\n\n当关系词就是从句的主语时，本课不能省略：The nurse who helps me is patient中who做helps的主语；删who后The nurse helps me is patient在本课普通写法中两个谓语冲突。当关系词作宾语而从句已有主语时可以省略：The book that I read is short可写The book I read is short，I是从句主语，read的宾语位置由book对应。不另补it形成that I read it；那会重复宾语。先恢复短句I read the book，再判断缺的是主语还是宾语。\n\n拆解按先行词、修饰范围、主句骨架、从句角色四步。The books that she reads are useful中books是复数主句主体，所以are；从句主体she为单数，所以reads。不要让离are最近的she决定主句谓语。合句时只保留一个被替代位置，译文可先说“她读的那些书很有用”。闭卷写下两层骨架并解释省略条件，隔日换成人和新动作迁移；此课只解决基础限定性关系，不宣称掌握所有长难句。",
+      "definition": "限定性定语从句修饰名词并限定识别范围；本课关系词who/which/that需按先行词及从句主宾角色解释。",
+      "example": "The student [who carries a blue bag] is my friend→主句student is friend。\nThe guide who helps us / The book which lies on the desk：人、物分别判断。\nThe book that I read→The book I read；I read it不能再重复it。\nThe books [that she reads] are useful：she reads与books are分层。",
+      "misconceptions": [
+        "从句谓语出现后主句不再需要谓语。",
+        "which可无条件指任何人。",
+        "关系词都能删。",
+        "最近的名词决定全部谓语。"
+      ],
+      "recall": [
+        "写出student长句主句骨架和修饰范围。",
+        "解释who/which/that本课人和物的指代。",
+        "各举主语关系词不可省和宾语可省一例。",
+        "拆books that she reads are useful的两层主谓。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "The student [who carries a blue bag] is my friend→主句student is friend。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "The guide who helps us / The book which lies on the desk：人、物分别判断。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "The book that I read→The book I read；I read it不能再重复it。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "The books [that she reads] are useful：she reads与books are分层。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-defining-relative-foundation-g1",
+          "description": "划出主从骨架",
+          "successCriteria": "先行词、修饰范围和主句谓语识别正确。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b1",
+            "en-defining-relative-foundation-a1",
+            "en-defining-relative-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-defining-relative-foundation-g2",
+          "description": "选择限定性关系词",
+          "successCriteria": "在给定选项中按人或物选择且解释that可用范围。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b2",
+            "en-defining-relative-foundation-a2",
+            "en-defining-relative-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-defining-relative-foundation-g3",
+          "description": "判别关系词角色与省略",
+          "successCriteria": "从句已有主语时判宾语可省，不重复代词。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b3",
+            "en-defining-relative-foundation-a3",
+            "en-defining-relative-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-defining-relative-foundation-g4",
+          "description": "保持两层主谓一致",
+          "successCriteria": "主句与从句分别找主体，不受邻近词干扰。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-defining-relative-foundation-b4",
+            "en-defining-relative-foundation-a4",
+            "en-defining-relative-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "先行词、修饰范围和主句谓语识别正确。",
+        "在给定选项中按人或物选择且解释that可用范围。",
+        "从句已有主语时判宾语可省，不重复代词。",
+        "主句与从句分别找主体，不受邻近词干扰。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核关系词省略、主从结构和译文自然度",
+          "非限定性、介词前置、whose/where等完整体系尚未覆盖"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/relative-clauses-defining-relative-clauses",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "The girl who carries a map is our guide的主句骨架是？",
+          "options": [
+            "The girl is our guide.",
+            "who carries a map",
+            "The map is our guide."
+          ],
+          "answer": 0,
+          "explanation": "修饰段who carries a map限定girl；主句girl is guide。B只是从句，C换了主体，不能按最近名词猜。",
+          "id": "en-defining-relative-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "本课限定性从句指物：The tool ___ helps us is new，给定选项哪项正确？",
+          "options": [
+            "who",
+            "which",
+            "he"
+          ],
+          "answer": 1,
+          "explanation": "tool是物，which在从句作主语。A按本课不指该物，C不是此处关系词；that也可用但未设为竞争选项。",
+          "id": "en-defining-relative-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "The man who helps us is kind中who的角色是？",
+          "options": [
+            "主句宾语",
+            "从句宾语",
+            "从句主语"
+          ],
+          "answer": 2,
+          "explanation": "who对应man，执行helps的动作，是从句主语。A把句层混淆，B误判helps前主体；此位置本课不能省略。",
+          "id": "en-defining-relative-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "The books that she reads ___ useful，主句谓语应选？",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "answer": 0,
+          "explanation": "主句主体books为复数，选are；she只是从句主体，不能因离空格近而控制主句一致关系。",
+          "id": "en-defining-relative-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "The doctor who works here is friendly里限定doctor的部分是？",
+          "options": [
+            "is friendly",
+            "who works here",
+            "The doctor"
+          ],
+          "answer": 1,
+          "explanation": "who works here说明哪位医生；A是主句述语，C是被修饰名词，不是修饰从句本身。",
+          "id": "en-defining-relative-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "本课限定性从句指人：The teacher ___ helps me is patient，选？",
+          "options": [
+            "which",
+            "it",
+            "who"
+          ],
+          "answer": 2,
+          "explanation": "teacher是人，用who作从句主语；which不用于本题给定人，it会造成两个普通句硬接，不是关系引导。",
+          "id": "en-defining-relative-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "哪句符合本课宾语关系词省略规则？",
+          "options": [
+            "The book I read is short.",
+            "The student helps me is kind.",
+            "The book that I read it is short."
+          ],
+          "answer": 0,
+          "explanation": "A中I是从句主语，book对应宾语可省that。B删掉本应充当从句主语的who，C重复宾语it。",
+          "id": "en-defining-relative-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "拆解The children who read stories are happy，解释read和are为何可同时存在。",
+          "answer": "主句The children are happy；who read stories修饰children，who作从句主语，两层各有谓语。",
+          "rubric": [
+            "主句children are happy",
+            "修饰范围正确",
+            "who角色正确",
+            "区分两个谓语层次"
+          ],
+          "explanation": "不能仅数动词说有错，要说明各自所属句层；主观解析按四点核对，保留原答案。",
+          "id": "en-defining-relative-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：The report that we need is ready的主句是？",
+          "options": [
+            "we need the report",
+            "The report is ready.",
+            "that we need"
+          ],
+          "answer": 1,
+          "explanation": "主句report is ready，从句that we need限定report。A是恢复的从句意思，C只修饰片段，不等于全句骨架。",
+          "id": "en-defining-relative-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "指定物、限定性从句：The bag ___ is on the chair is mine，选？",
+          "options": [
+            "who",
+            "she",
+            "that"
+          ],
+          "answer": 2,
+          "explanation": "that指bag并在从句作主语；A按本课不指物，B是普通代词。that在这里不等于可以任意省略。",
+          "id": "en-defining-relative-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "The letter that Tom wrote is long中，哪项正确？",
+          "options": [
+            "that作从句宾语，本课可省略。",
+            "that作从句主语，必须省略。",
+            "省略that后必须补it。"
+          ],
+          "answer": 0,
+          "explanation": "Tom是wrote的主语，letter对应宾语，故可省that；B角色倒置，C会重复宾语，破坏结构。",
+          "id": "en-defining-relative-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "解释The student who reads these books is here的两层主体，并判断把is改are是否正确。",
+          "answer": "主句student is here为单数；从句who指student，reads正确。books是reads宾语，不控制主句is，改are错误。",
+          "rubric": [
+            "识别主句student",
+            "识别who的指代",
+            "指出books为宾语",
+            "保留is并给理由"
+          ],
+          "explanation": "在新句中检查分层和一致关系，而非只背books通常配are；参考核对不自动评分。",
+          "id": "en-defining-relative-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

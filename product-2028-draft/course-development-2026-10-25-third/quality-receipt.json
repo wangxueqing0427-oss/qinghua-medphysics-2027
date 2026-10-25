@@ -1,0 +1,29 @@
+{
+  "baseCommit": "cfcaa8e78f1b8b305987f1db32a51abd593848ab",
+  "unitHashes": {
+    "en-present-continuous-foundation": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+    "en-passive-simple-foundation": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+    "en-defining-relative-foundation": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+    "pol-social-being-consciousness": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+    "pol-epistemology-case-analysis": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+    "pol-productive-forces-relations": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+    "353-probability-binomial-foundation": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+    "353-random-sampling-foundation": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+    "353-bias-control-foundation": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9"
+  },
+  "testHashesMatch": true,
+  "targetedBatch": {
+    "passed": 146,
+    "total": 146
+  },
+  "syntheticCompatibility": {
+    "passed": 4,
+    "total": 4
+  },
+  "protectedCount": 258,
+  "protectedUnchanged": true,
+  "expertApproved": 0,
+  "browserRerun": false,
+  "priorBrowserRun": "40174691350; historical29 only, not new38",
+  "deployment": false
+}

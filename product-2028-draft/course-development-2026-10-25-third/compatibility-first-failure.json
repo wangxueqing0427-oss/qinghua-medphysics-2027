@@ -1,0 +1,25 @@
+{
+  "scope": "Synthetic old29 backup with current repository/controller and candidate38 content; no real learner data, no browser",
+  "results": [
+    {
+      "name": "Create old29-course actual synthetic recall/answer/draft payload",
+      "pass": true
+    },
+    {
+      "name": "Reopen existing synthetic old profile with38-course controller without data rewrite",
+      "pass": false,
+      "error": "An operation was called on an object on which it is not allowed or at a time when it is not allowed. Also occurs if a request is made on a source object that has been deleted or removed. Use TransactionInactiveError or ReadOnlyError when possible, as they are more specific variations of InvalidStateError."
+    },
+    {
+      "name": "Restore old backup as new profile retains old payload and no invented new progress",
+      "pass": false,
+      "error": "An operation was called on an object on which it is not allowed or at a time when it is not allowed. Also occurs if a request is made on a source object that has been deleted or removed. Use TransactionInactiveError or ReadOnlyError when possible, as they are more specific variations of InvalidStateError."
+    },
+    {
+      "name": "Completing next old answer in38-course view never changes source backup or another profile",
+      "pass": false,
+      "error": "An operation was called on an object on which it is not allowed or at a time when it is not allowed. Also occurs if a request is made on a source object that has been deleted or removed. Use TransactionInactiveError or ReadOnlyError when possible, as they are more specific variations of InvalidStateError."
+    }
+  ],
+  "expertApproved": 0
+}

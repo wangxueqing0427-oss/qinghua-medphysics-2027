@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-third-course-batch",
+  "units": [
+    {
+      "id": "pol-social-being-consciousness",
+      "subject": "pol",
+      "title": "社会存在与社会意识：从生活条件理解观念变化",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文讲解、例句、情境和自编题；概念对照来源，不复制来源题目，不冒充真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisites": [
+        "pol-matter-consciousness",
+        "pol-connections-foundation"
+      ],
+      "prerequisiteExplanation": "先修物质意识和联系；从社会生活层次重建概念，不把个人愿望直接等同社会意识的全部。",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "conditions": "稳定理论入门及原创材料分析；抽象例子不作为真实历史因果研究或年度时政结论；2028最终考试范围尚未核实，本课仅暂定教学草稿。",
+      "explanation": "先区分社会生活的条件和人们怎样理解这些条件。社会存在指社会生活的物质方面，包含地理环境、人口因素和物质生活的生产方式等；社会意识指社会生活的精神方面，包含相关观念、心理和理论等。生产方式关心人们如何生产生活资料及在其中结成什么关系，不是一个人的消费偏好。原创情境：一个地区运输方式、劳动组织和居住分布发生变化，是分析生活条件的材料；居民对时间安排的看法，是观念材料。分类时看材料指向，不按“写成文字就全是意识”判断。\n\n社会存在决定社会意识，意思是应从实际社会条件中说明观念的形成和变化，不能用某个人的灵机一动代替历史解释。例如生产与交往方式变化，可能使原有作息观念受到挑战；分析须交代物质变化、受影响群体及观念变化之间的联系。决定关系不意味着每个人在相同条件下必定说完全一样的话，也不意味着一个因素可以无需证据地解释一切。主观愿望可以影响行动，但不能凭愿望宣布客观生活条件已经改变；本课将“决定”与简单的一对一同步对应分开。\n\n观念有继承性，不会在外部条件变动的瞬间全部消失，也可能提出对未来的设想；这些体现社会意识变化与社会存在变化并非机械同步。相对独立并不是脱离社会条件而独立起源。恩格斯讨论经济基础时强调各种因素交互作用，不能把唯物史观改写成只剩一个孤立经济按钮。观念通过人的有组织行动作用于现实，可促进或阻碍发展，作用方向要看具体内容和条件；不能把“观念有作用”倒推为观念是社会存在的最终决定者。\n\n材料题先标事实层，再标观念层，说明决定关系和条件下的反作用。原创案例：社区已具备共享活动空间，但部分居民仍只接受旧的封闭组织方式。既要看空间、组织和资源条件，也要调查观念惯性；可用讨论与实际活动检验改进方案，不能只喊口号或只修场地就保证参与。答案须引用题内事实而非编造政策成绩。闭卷后换一个情境再解释“为何不同步不否定决定关系”，将概念分类、关系颠倒、脱离材料三类错因分别复习。",
+      "definition": "社会存在是社会生活的物质方面，社会意识是其精神方面；社会存在决定社会意识，社会意识在一定条件下通过人的实践产生反作用。",
+      "example": "运输与劳动组织是生活条件材料，对作息的看法是观念材料。\n生活条件改变→说明观念变化的现实基础，不能用个人愿望替代。\n旧观念延续不等于完全脱离现实，相对独立不等于绝对独立。\n共享场地+观念惯性：同时分析物质条件与行动中的观念作用。",
+      "misconceptions": [
+        "社会存在就是人是否活着。",
+        "同条件人人观念必然完全相同。",
+        "观念不同步证明它决定现实。",
+        "宣传一句话即可保证现实改变。"
+      ],
+      "recall": [
+        "闭卷说明社会存在、社会意识并分别给材料例子。",
+        "解释存在决定意识，不把决定等同机械同步。",
+        "解释相对独立和反作用，不颠倒基础关系。",
+        "用共享场景写事实—概念—关系—行动四步。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "运输与劳动组织是生活条件材料，对作息的看法是观念材料。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "生活条件改变→说明观念变化的现实基础，不能用个人愿望替代。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "旧观念延续不等于完全脱离现实，相对独立不等于绝对独立。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "共享场地+观念惯性：同时分析物质条件与行动中的观念作用。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-social-being-consciousness-g1",
+          "description": "区分社会物质与精神方面",
+          "successCriteria": "正确归类生产生活条件和观念材料。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b1",
+            "pol-social-being-consciousness-a1",
+            "pol-social-being-consciousness-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-social-being-consciousness-g2",
+          "description": "解释决定关系",
+          "successCriteria": "给出现实基础而不声称所有观念即时同步。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b2",
+            "pol-social-being-consciousness-a2",
+            "pol-social-being-consciousness-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-social-being-consciousness-g3",
+          "description": "解释相对独立及反作用",
+          "successCriteria": "承认观念作用且不升级为最终决定者。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b3",
+            "pol-social-being-consciousness-a3",
+            "pol-social-being-consciousness-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-social-being-consciousness-g4",
+          "description": "将关系用于材料分析",
+          "successCriteria": "引用具体事实并指出行动条件，不编造效果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-social-being-consciousness-b4",
+            "pol-social-being-consciousness-a4",
+            "pol-social-being-consciousness-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "正确归类生产生活条件和观念材料。",
+        "给出现实基础而不声称所有观念即时同步。",
+        "承认观念作用且不升级为最终决定者。",
+        "引用具体事实并指出行动条件，不编造效果。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换题，按真实答题证据安排复习；主观题逐项核对，不自动认定掌握"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师复核社会存在范围、相对独立性与案例限度",
+          "年度政治考试范围和评分标准未确认"
+        ]
+      },
+      "sources": [
+        "https://2d.hep.com.cn/13384041111111/3",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "材料中的“工厂劳动组织方式发生改变”首先属于哪类分析对象？",
+          "options": [
+            "社会存在的物质生活条件",
+            "仅是个人幻想",
+            "完全无关社会生活"
+          ],
+          "answer": 0,
+          "explanation": "劳动组织涉及实际生产方式，应从社会存在分析。B把实际关系误当幻想，C忽略生产生活的社会性质；不是因它被文字描述就变成观念本身。",
+          "id": "pol-social-being-consciousness-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "解释某观念形成的唯物史观基本取向是？",
+          "options": [
+            "只问最先说这句话的人是否聪明",
+            "考察相关社会生活和生产条件",
+            "认为观念无须现实来源"
+          ],
+          "answer": 1,
+          "explanation": "从实际社会条件理解观念，符合存在决定意识。A用个人特质替代历史基础，C否认现实来源；并非否认个人思考活动。",
+          "id": "pol-social-being-consciousness-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "旧观念在条件改变后仍延续，最合理判断是？",
+          "options": [
+            "决定关系被彻底推翻",
+            "观念不受任何现实条件影响",
+            "需分析观念继承和变化时滞"
+          ],
+          "answer": 2,
+          "explanation": "不同步提示分析相对独立性，不能否认存在的基础作用。A把决定误成瞬时同步，B把相对独立绝对化。",
+          "id": "pol-social-being-consciousness-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "材料分析中哪一步最能防止空喊概念？",
+          "options": [
+            "用具体事实说明条件与观念的关系",
+            "只重复概念十遍",
+            "替材料补造成功数据"
+          ],
+          "answer": 0,
+          "explanation": "应连接题内事实与关系并说明条件。B没有分析，C虚构结果；理论可以指导分析，但不能替代证据。",
+          "id": "pol-social-being-consciousness-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "社区公共交通改善与居民出行看法变化，哪组分类正确？",
+          "options": [
+            "两者都是纯个人幻想",
+            "交通条件属物质方面，看法属精神方面",
+            "交通条件就是看法，两者无需区分"
+          ],
+          "answer": 1,
+          "explanation": "交通设施和使用条件属于实际生活条件，看法属于观念。A否认现实，C混淆对象；两者联系不等于概念同一。",
+          "id": "pol-social-being-consciousness-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "有人说同一城市的人观念不同，所以存在不决定意识。主要错误是？",
+          "options": [
+            "注意到了观念差异",
+            "承认观念有历史",
+            "把决定理解为人人同步同样"
+          ],
+          "answer": 2,
+          "explanation": "决定并非一对一机械复制，个人经历和继承条件会造成差异。A和B本身不是此推理的错误，关键是关系被过度简化。",
+          "id": "pol-social-being-consciousness-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "要使合理观念作用于实际生活，较适当的是？",
+          "options": [
+            "结合条件转化为实际行动并检验",
+            "只宣称观念已替代物质条件",
+            "认为观念永远没有作用"
+          ],
+          "answer": 0,
+          "explanation": "反作用要通过人的实践和具体条件实现。B颠倒基础关系，C否认能动作用；不承诺任何观念必然带来成功。",
+          "id": "pol-social-being-consciousness-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "共享场地已建但旧组织观念延续，如何解释并提出一项有条件的改进？",
+          "answer": "条件改变提供现实基础，观念可能有惯性；调查阻碍、组织实际活动并反馈，不保证一建场地就自动转变。",
+          "rubric": [
+            "识别场地条件",
+            "指出观念惯性",
+            "不颠倒决定关系",
+            "提出可检验行动和限制"
+          ],
+          "explanation": "按题内材料分别解释存在、意识及行动，不以术语命中率当专业评分。",
+          "id": "pol-social-being-consciousness-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：居民对新劳动安排的评价首先属于？",
+          "options": [
+            "劳动机器本身",
+            "社会意识方面",
+            "与社会毫无联系的物理量"
+          ],
+          "answer": 1,
+          "explanation": "评价是精神方面，劳动安排本身是现实关系。A混淆对象与认识，C把社会评价当孤立物理量，均不能代替分类。",
+          "id": "pol-social-being-consciousness-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "某人把相对独立性解释为观念无现实基础，应怎样纠正？",
+          "options": [
+            "这种绝对独立解释完全正确",
+            "观念只有物质形状没有内容",
+            "相对独立不取消存在的基础作用"
+          ],
+          "answer": 2,
+          "explanation": "相对独立描述发展方式与作用，不是否认现实基础。A将其绝对化，B换成不相关的物理形状判断。",
+          "id": "pol-social-being-consciousness-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "分析观念的促进或阻碍作用，需要？",
+          "options": [
+            "结合内容、实际条件和人的行动",
+            "假定所有观念都有同一效果",
+            "只看口号声音大小"
+          ],
+          "answer": 0,
+          "explanation": "反作用方向与实现依赖内容和条件。B抹平正确错误和条件差异，C无法说明社会效果，不构成理论分析。",
+          "id": "pol-social-being-consciousness-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "新情境中条件已变但习惯观念未立即改变，写一个不机械化的解释。",
+          "answer": "社会条件为观念提供基础，但继承、经历和组织过程使变化不完全同步；通过有条件的实践改进，不把惯性说成观念最终决定现实。",
+          "rubric": [
+            "存在的基础作用",
+            "说明不完全同步",
+            "指出具体作用途径",
+            "拒绝绝对独立"
+          ],
+          "explanation": "允许不同原创情境，须保持关系及条件清楚；参考点不是自动得分保证。",
+          "id": "pol-social-being-consciousness-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ]
+    }
+  ]
+}

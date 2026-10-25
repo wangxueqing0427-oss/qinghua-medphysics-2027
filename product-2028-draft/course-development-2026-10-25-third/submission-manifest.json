@@ -1,0 +1,284 @@
+{
+  "parent": "cfcaa8e78f1b8b305987f1db32a51abd593848ab",
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "addOnly": true,
+  "protectedCount": 258,
+  "files": [
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-manifest.json",
+      "bytes": 629,
+      "sha256": "c2f2ba013537612cab46487f56b0f4e8720d027066eb23961217a258d9720415",
+      "gitBlob": "26476e8813a522bd85404d78dd42c532b5a87c88"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-test-first-failure.json",
+      "bytes": 49288,
+      "sha256": "517e3336b88f9cdc771281047d1e84d7bb2a2b8297dc8ee5cdbe10741bdae5f4",
+      "gitBlob": "2597659d6faa54307b6387245b7471eee76f0e0b"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-test-results.json",
+      "bytes": 47690,
+      "sha256": "5c67a7851154af7c9456c7af242d16144749decc3a900543af66a0203e95b8ef",
+      "gitBlob": "651ebd6fffab3dd4a8de2236843e97fd09e19b34"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/batch-test.cjs",
+      "bytes": 6747,
+      "sha256": "a9732d50b1f5876e5b1429ced18963a892e2f687ceea499725e52ab69144e5cc",
+      "gitBlob": "1a38a8effbcf855dd623444a2b659149c232f245"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/compatibility-first-failure.json",
+      "bytes": 1671,
+      "sha256": "b07361d710f00159892d4d6396bb6e1a7593c6b6eb21e59502bd58fa03b8c7e8",
+      "gitBlob": "d2d160950b22019d65aca163091b12e1042ecfdd"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/compatibility-results.json",
+      "bytes": 693,
+      "sha256": "81968aa8ad719b9ab4ade7f3968bdfdb6edaf3003ddab56e3dcf046f0cba38d7",
+      "gitBlob": "2a80c625f8a794293611bd1cad05049e1f8180e0"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/compatibility-test.cjs",
+      "bytes": 3265,
+      "sha256": "afce639f7ed129235c60a269a8913ee59960efb00a0e1a7922c5c9ef3e748cff",
+      "gitBlob": "3df021f0baca3fe5a51226684b4cff2a26edbccc"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/coverage-update.json",
+      "bytes": 84463,
+      "sha256": "fd69fc580a6e0fd0be33430845aafa35b795701811d5c2c82a2fa5a1531b53cc",
+      "gitBlob": "e512b78c43254d18ee83add0cd1ddebf608b84ae"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/courses-and-answers.json",
+      "bytes": 159629,
+      "sha256": "f6ea4477263cf6ee04bb92a0e2bba0846d1c649779d0279b4fced44be27d4dd2",
+      "gitBlob": "5767a4e6706349e2673e1217fb45d7f83acab498"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/decisions.json",
+      "bytes": 9865,
+      "sha256": "fc86879b98d07f904960584dfc0e2b37abe32b0e8f2d3f6c6109478299e15544",
+      "gitBlob": "4a6db3a8edb2f3cd49ad20c60c34d94b086b39af"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/review-template-v2.json",
+      "bytes": 500,
+      "sha256": "1376b174f2e78dcff2e3b5c35bb95548fe388ffb27d6aa568ac3d0b09aa70fce",
+      "gitBlob": "6a487962805ea15faf4c1f53209c86d1f7a9ae02"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/failures-and-boundaries.json",
+      "bytes": 1994,
+      "sha256": "6926298bf1842d64fa713e3c7a6708ba2d6987f9a1303d6c58452eb0c56456c7",
+      "gitBlob": "ef1516ef136271918124bc08fd7aa84482e52024"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/internal-review.json",
+      "bytes": 85941,
+      "sha256": "1c6e561a2b716eb00c3a90fa4342bf4419d4efaba2e429897a7eab7c2840ce87",
+      "gitBlob": "c8fc82515da534664e29014fee1394fc45957e45"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/load-batch.cjs",
+      "bytes": 1000,
+      "sha256": "7a5268ba778d383c4c73351c0fd2dd1d7d1ee11469b2f9669d6c3c25c1476539",
+      "gitBlob": "7941c53ab1d5d88d9c0ccc56930f6e590c3ea7e1"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/prepare-review.cjs",
+      "bytes": 4853,
+      "sha256": "ed236f7ff7e26e32886c802fdafac6b512d195750ddb8459a20b9d8a8ea2e6f0",
+      "gitBlob": "348aed502226dafc534a9af71b40bfa028882f53"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/protected-baseline.json",
+      "bytes": 37375,
+      "sha256": "4c900ae1bc96f23c934b41242935304677eadd8f27fbbe7bcbd732c64356065d",
+      "gitBlob": "b7a8ef700b3232abe0d6648263acc7a8b1ec567f"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/quality-receipt.json",
+      "bytes": 1391,
+      "sha256": "07bae85ca41f5d3b7076a914ef36ec50252130f504d3a5a1273fb875efc7567a",
+      "gitBlob": "eca2144d329ced20db1ce916d54abb3c7a79dc92"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/selection-and-boundaries.json",
+      "bytes": 5119,
+      "sha256": "d3b0d180185d4f07ec09369a2d5166964482ff82a582830f1b84c78c810bf385",
+      "gitBlob": "32db2ec2177caa032b6a25e4f51eedb9fee2b680"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/本批交付与接续.md",
+      "bytes": 5358,
+      "sha256": "b2ab9ae43ffbe689ef72c2de149b89aa3e7eac1eeb88cf37db0f9e9b32be25e1",
+      "gitBlob": "f11ba1b653f59848fe848a3d0736c79aacefa5ad"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-bias-control-foundation/sources-and-review.json",
+      "bytes": 2495,
+      "sha256": "0349e0e1e6799e0b544aaa7533ba175f4a601dbae15431b9b89579d2d14a7354",
+      "gitBlob": "114b132c9046394a585445495de3d5262abf9390"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-bias-control-foundation/syllabus-node-snapshot.json",
+      "bytes": 566,
+      "sha256": "cb6b92aa30ed40984c1457f0f67023bd4254fd033d375c6e562459e21fd3d658",
+      "gitBlob": "a98451885b943896af160282379758371d44cc46"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-bias-control-foundation/unit.json",
+      "bytes": 17418,
+      "sha256": "37e59f04ad45f3ac96abad6cb39395313a0c7c110635079ae0b749d7c6158e6f",
+      "gitBlob": "c35bc6c2b8abd44c1530e70806ea4b9137ddc622"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-probability-binomial-foundation/sources-and-review.json",
+      "bytes": 2299,
+      "sha256": "fb75b372361863b1867f6b44c517b352d04aba5cf6d4e32902d542909bf1bc1e",
+      "gitBlob": "e52867115b8a137052a4b69edac077b06aea3ab8"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-probability-binomial-foundation/syllabus-node-snapshot.json",
+      "bytes": 804,
+      "sha256": "df63c220288056a769b2d060d0970e29f366293105862cf30c87ddfc4097f7f0",
+      "gitBlob": "8993be9bbaf4885f7dad7347cf2b22ae136e9be3"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-probability-binomial-foundation/unit.json",
+      "bytes": 15991,
+      "sha256": "dba79f8c7f59fc1c7e680e7300165d56b6f1b7f95c093cf5e2257b1cd3b541bd",
+      "gitBlob": "fd8dcf2998c3f812d87958079895ac2f273ef86e"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-random-sampling-foundation/sources-and-review.json",
+      "bytes": 2389,
+      "sha256": "1fecddc91fb8f5ec5e292a2d342d7790296e3d0067b63ddf83c6ff38dc94f789",
+      "gitBlob": "3cdd508ec21c14994e6d9f198daa4979e57f3a65"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-random-sampling-foundation/syllabus-node-snapshot.json",
+      "bytes": 810,
+      "sha256": "d6cde445f31c3d66bbb5bf36f321c9b640329c3138b893ee5d57b8dc3f893294",
+      "gitBlob": "b9887e2660bd4740df7ca8d20105b9d881a2eb00"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/353-random-sampling-foundation/unit.json",
+      "bytes": 16567,
+      "sha256": "400bbd0a15b9d6cab844aa3bf943cb5c5a926606bdf08abf3c97c63cb874df01",
+      "gitBlob": "bb0f81b5a2c9dffeab1258bb7c1d0d6d1740b320"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-defining-relative-foundation/sources-and-review.json",
+      "bytes": 1682,
+      "sha256": "e103bc7cc07938b34653c068d0406f3df517a0429bccfc1c96949aaf82177db0",
+      "gitBlob": "4c97257dabb1dafe54c3d459075127a57c37252c"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-defining-relative-foundation/syllabus-node-snapshot.json",
+      "bytes": 394,
+      "sha256": "d5c703a2907385a509efcd5ea6f79732c4869dcdda96e99ba2fd4c830f985d4e",
+      "gitBlob": "d42aed137d19cd60773622a2430fc39e365d0d02"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-defining-relative-foundation/unit.json",
+      "bytes": 15865,
+      "sha256": "feb92485378d4faa4565d795c0ed4a465ff1728e7d2dba2a09991c418b0d303d",
+      "gitBlob": "5114c63c26a60f4159b0a15437625a9d87fd3649"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-passive-simple-foundation/sources-and-review.json",
+      "bytes": 1627,
+      "sha256": "ec74d8190d250c56a16cd1391aea50f0398f0a2e4c6f7a717adab8101f729a52",
+      "gitBlob": "762a40e47f2c17aa29754a0305e0c82ea499f9cd"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-passive-simple-foundation/syllabus-node-snapshot.json",
+      "bytes": 391,
+      "sha256": "30165f5adf3f59af57b26deade96fdf37d13dbf8e494f06adec9c88c2971c1d5",
+      "gitBlob": "73cb6aeaf628aaf2778bf8da17e03edc3d37f2b1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-passive-simple-foundation/unit.json",
+      "bytes": 15940,
+      "sha256": "371b6c5b190679530f96a0734061664b490826cbe17d4b8a90e62f1286db72f6",
+      "gitBlob": "86825252bbd0a227ec923a610a5496f20e856690"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-continuous-foundation/sources-and-review.json",
+      "bytes": 1669,
+      "sha256": "1921bae6500edd616d9c5c63526ffa7c2f15308064a65521ca71a1815b353081",
+      "gitBlob": "fc0204265c967f7226eb1c3ed9c42439a82e2fe1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-continuous-foundation/syllabus-node-snapshot.json",
+      "bytes": 391,
+      "sha256": "30165f5adf3f59af57b26deade96fdf37d13dbf8e494f06adec9c88c2971c1d5",
+      "gitBlob": "73cb6aeaf628aaf2778bf8da17e03edc3d37f2b1"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/en-present-continuous-foundation/unit.json",
+      "bytes": 15790,
+      "sha256": "86adb176a91a279179c312b97ed0b6d156021229000b42df3fa98600cff565c7",
+      "gitBlob": "20737c9b7c1c45be56b3e3d9bd220bc017881bcc"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/sources-and-review.json",
+      "bytes": 1854,
+      "sha256": "55a13d38e9710f2dc46e8a81df882ee0f28fae14725fbfb23436da067c5ec7f1",
+      "gitBlob": "ee8961bd4a9306d7e0a371299a6f11532d780d30"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/syllabus-node-snapshot.json",
+      "bytes": 393,
+      "sha256": "f4908b2cf4b61759820ad03fda8f636fb0babe87ceb436ed6b97af28137decfc",
+      "gitBlob": "93c5c0b75cf90c6d7abfa3cd6b82ea144e91a796"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/unit.json",
+      "bytes": 16807,
+      "sha256": "880d980540adeb8cee80af1ad1661effb193e5e3b9a70daf4a04409acc440ead",
+      "gitBlob": "53963837084fc755a17f9002ad40fb92a1b4a661"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-productive-forces-relations/sources-and-review.json",
+      "bytes": 2429,
+      "sha256": "03d2d6acd8c1db8e9e5db1746b6ca061057caa01f88c542cc15be061ca4d9a19",
+      "gitBlob": "d06a44887841832c2c84ee9c47c6370c4cad7c7b"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-productive-forces-relations/syllabus-node-snapshot.json",
+      "bytes": 393,
+      "sha256": "f4908b2cf4b61759820ad03fda8f636fb0babe87ceb436ed6b97af28137decfc",
+      "gitBlob": "93c5c0b75cf90c6d7abfa3cd6b82ea144e91a796"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-productive-forces-relations/unit.json",
+      "bytes": 16805,
+      "sha256": "b728a026fdaaeefc6c835a0a87130e4651cb7fe1528b1cc0f90509f94c095577",
+      "gitBlob": "30a2c6e1a7d372ecf9e6d1837fb7dcba81a012f2"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-social-being-consciousness/sources-and-review.json",
+      "bytes": 1823,
+      "sha256": "247aed0373ba76c492935ffb69372880be645f9cd066565d61a5f205ae750d85",
+      "gitBlob": "ec4bc009b7f5623679c9f55cab2d03634bc5466d"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-social-being-consciousness/syllabus-node-snapshot.json",
+      "bytes": 393,
+      "sha256": "f4908b2cf4b61759820ad03fda8f636fb0babe87ceb436ed6b97af28137decfc",
+      "gitBlob": "93c5c0b75cf90c6d7abfa3cd6b82ea144e91a796"
+    },
+    {
+      "path": "product-2028-draft/course-drafts/pol-social-being-consciousness/unit.json",
+      "bytes": 17092,
+      "sha256": "b031d13b3ec1359dfb350cc809baf714faad00f65d33ba3d6c3b41f0f088f707",
+      "gitBlob": "1bd2d218d0aba3b478e5029617b3c6ecc97cf336"
+    }
+  ]
+}

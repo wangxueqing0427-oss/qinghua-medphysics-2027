@@ -1,0 +1,24 @@
+{
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "s27-10-3",
+    "subject": "epi",
+    "section": "描述研究",
+    "name": "偏倚控制",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "applicableYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingStatus": "proposed_not_reviewed",
+    "candidateChapterIds": [
+      "epi-04"
+    ],
+    "questionIds": [
+      "q-e07",
+      "q-e08"
+    ],
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}
+
