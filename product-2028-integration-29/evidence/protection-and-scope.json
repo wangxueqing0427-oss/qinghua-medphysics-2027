@@ -1,0 +1,27 @@
+{
+  "baseCommit": "dbb6104d85d61b9477f09394d48d375f9a4718e0",
+  "testedCommit": "6780da8bfb2b36f8d17686ebdf18ffa31a0e940b",
+  "localProtectedHashes": {
+    "checked": 228,
+    "mismatches": []
+  },
+  "remoteProtectedRefs": [
+    {
+      "ref": "heads/main",
+      "sha": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+    },
+    {
+      "ref": "heads/audit/2026-10-21-four-gaps-v7",
+      "sha": "ba8d3ae50c2a832a021664df01471b8854c9c442"
+    }
+  ],
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "productionDeployed": false,
+  "R5Deployed": false,
+  "realLearningDataRead": false,
+  "expertApproved": 0,
+  "realIphoneTested": false,
+  "history": "Initial failure and fixes preserved; initial submission-manifest remains historical and is not rewritten.",
+  "scope": "Only integration harness, workflow and evidence added. Original course data and original runtime sources remain unchanged."
+}
+
