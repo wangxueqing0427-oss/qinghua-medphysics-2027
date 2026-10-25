@@ -16,6 +16,6 @@
 
 命令：根目录node product-2028-integration-38/build.cjs；node product-2028-integration-38/candidate-check.cjs。使用product-2028-ci现有固定依赖，在该目录运行npx playwright test --config=../product-2028-integration-38/playwright.config.cjs。Linux CI运行Chromium和iPhone13视口WebKit，retries=0、不跳过用例；不是真实iPhone。
 
-不重复SET29历史74项整套，也不调用会覆盖旧报告的历史Skills CLI/一次性脚本。当前使用导出验证接口及既有学习机制，305个历史文件哈希保护。首次浏览器结果无论成功或失败都追加保存，失败后只修相关问题并回归。
+不重复SET29历史74项整套，也不调用会覆盖旧报告的历史Skills CLI/一次性脚本。当前使用导出验证接口及既有学习机制。本地核对全部305个历史保护哈希；CI只核对git实际跟踪的保护文件，并单独列明未提交的本地来源，不上传私有图谱，也不声称远端已核对它们。首次浏览器结果无论成功或失败都追加保存，失败后只修相关问题并回归。
 
 审核资料整理在professional-review；独立专业审定0。本轮提交回执后停止，不启动第四批、不发布。

@@ -1,0 +1,121 @@
+{
+  "runId": 40181534611,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40181534611",
+  "testedCommit": "656a1a64be37a8d3515badd1f5a885eaca358291",
+  "conclusion": "failure",
+  "evidence": {
+    "commit": "656a1a64be37a8d3515badd1f5a885eaca358291",
+    "scope": "Linux Chromium and mobile-view WebKit, NOT real iPhone; synthetic profiles only",
+    "expertApproved": 0,
+    "local": {
+      "scope": "Generated candidate integrity checks only; no repetition of previous307-answer suite; not browser/expert/iPhone",
+      "courses": 38,
+      "questions": 415,
+      "newCourses": 9,
+      "newQuestions": 108,
+      "results": [
+        {
+          "name": "Generated38 courses415 unique questions validate with objective links and prerequisite DAG",
+          "pass": true
+        },
+        {
+          "name": "Generated pack exactly equals existing draft loader; no course or answer transformations",
+          "pass": true
+        },
+        {
+          "name": "Prior29 payloads retain exact content and versions inside candidate38",
+          "pass": true
+        },
+        {
+          "name": "New9 content hashes match already-tested third-batch receipt",
+          "pass": true
+        },
+        {
+          "name": "Test-only database, pending journal and cache namespaces differ from SET29/R5",
+          "pass": true
+        },
+        {
+          "name": "Formal release remains blocked and expertise is not manufactured",
+          "pass": true
+        },
+        {
+          "name": "Incremental browser selection includes exactly9 new courses and3 explicit old representatives",
+          "pass": true
+        },
+        {
+          "name": "Historical protected files are unchanged locally",
+          "pass": false,
+          "error": "ENOENT: no such file or directory, open 'product-2028-draft/课程知识点与大纲映射.json'"
+        }
+      ],
+      "expertApproved": 0
+    },
+    "build": {
+      "scope": "Local/CI38-course isolated preview only; no remote site or release",
+      "units": 38,
+      "questions": 415,
+      "port": 5298,
+      "database": "qh2028_isolated_set38_v1",
+      "journal": "qh2028_set38_pending_v1:",
+      "expertApproved": 0,
+      "files": [
+        {
+          "path": "index.html",
+          "sha256": "5e47da52a72ad0df82fb6ff72e3a3880eb0912d719e60ddbb47c817510605d48",
+          "source": "product-2028-draft/index.html"
+        },
+        {
+          "path": "app.css",
+          "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+          "source": "product-2028-draft/app.css"
+        },
+        {
+          "path": "icon.svg",
+          "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+          "source": "product-2028-draft/icon.svg"
+        },
+        {
+          "path": "manifest.json",
+          "sha256": "9636dc4a1f87c0808dca843b46c8045ac293a0f150cf4fcff9dbbcd2f250fdc6",
+          "source": "product-2028-draft/manifest.json"
+        },
+        {
+          "path": "course-engine.js",
+          "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+          "source": "product-2028-draft/course-engine.cjs"
+        },
+        {
+          "path": "profile-repository.js",
+          "sha256": "5aaf05c37de45e05357e18e6d98175c19cb0b383600d5368914945fd5008135c",
+          "source": "product-2028-draft/profile-repository.cjs"
+        },
+        {
+          "path": "learning-controller.js",
+          "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+          "source": "product-2028-draft/learning-controller.cjs"
+        },
+        {
+          "path": "pilot-ui.js",
+          "sha256": "2061de81b60d69ac727fb9118cd211a3a8043d7c846dcd7a3e14ea4f961a846d",
+          "source": "product-2028-draft/pilot-ui.js"
+        },
+        {
+          "path": "representative-courses.json",
+          "sha256": "d98652d83b872e712e7ea9668a746c6ecc5b36913920e7c98d6e87f8c82627ce",
+          "source": "existing combined38 loader"
+        },
+        {
+          "path": "sw.js",
+          "sha256": "d40f3b5447bf1ed63e1d5fbe65a231197d692a7783138f62645cf7fcce147c70",
+          "source": "product-2028-draft/sw.js"
+        }
+      ]
+    },
+    "browser": {
+      "notRun": true
+    }
+  },
+  "cause": "Full local protection set contains untracked local-only knowledge graph. CI cannot read it; no browser installed/tested in this run.",
+  "remediation": "Keep305-file local verification, explicitly report/verify git-tracked CI subset and require all critical engine/new9 input hashes. Do not upload local-only source. Browser assertions remain unchanged."
+}
+

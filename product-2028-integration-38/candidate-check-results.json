@@ -34,9 +34,16 @@
       "pass": true
     },
     {
-      "name": "Historical protected files are unchanged locally",
+      "name": "Historical protection: all local files or explicitly tracked CI subset, with local-only scope recorded",
       "pass": true
     }
   ],
+  "protection": {
+    "mode": "all local historical files",
+    "baselineCount": 305,
+    "checkedCount": 305,
+    "localOnlyNotAvailableInCI": [],
+    "mismatches": []
+  },
   "expertApproved": 0
 }

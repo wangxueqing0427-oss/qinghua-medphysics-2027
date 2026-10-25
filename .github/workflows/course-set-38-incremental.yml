@@ -3,7 +3,12 @@ on:
   push:
     branches: [courses/2026-10-24-three-subject-foundations]
     paths:
-      - product-2028-integration-38/*.cjs
+      - product-2028-integration-38/build.cjs
+      - product-2028-integration-38/server.cjs
+      - product-2028-integration-38/playwright.config.cjs
+      - product-2028-integration-38/browser.spec.cjs
+      - product-2028-integration-38/candidate-check.cjs
+      - product-2028-integration-38/summarize.cjs
       - .github/workflows/course-set-38-incremental.yml
 permissions:
   contents: read
