@@ -1,0 +1,558 @@
+{
+  "baseCommit": "06cbf586b3bdd109f4ddc1ba3bbb0b1c0c326b17",
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "scope": "Only selection priority and human-review execution checklists; no course/manuscript regeneration, browser/CI run or professional opinion",
+  "verificationMethod": "Read-only current metadata, reference/DAG/arithmetic and SHA256 checks with existing loader/review-ledger; not a learning regression or scientific approval",
+  "results": [
+    {
+      "name": "149 unique matrix nodes;24 partial and125 without course support",
+      "passed": true
+    },
+    {
+      "name": "38 existing courses415 question IDs and49 prerequisite edges; current course graph acyclic",
+      "passed": true
+    },
+    {
+      "name": "Exactly9 proposals,3 per subject; no existing unit or new course directory reused/created",
+      "passed": true
+    },
+    {
+      "name": "All proposed mappings and existing prerequisites resolve; planned prerequisite order valid",
+      "passed": true
+    },
+    {
+      "name": "Priority arithmetic and within-subject order match declared4F+3E+2D+G",
+      "passed": true
+    },
+    {
+      "name": "Existing38 status and9 blank human forms still bind current course versions/hashes; approvals0",
+      "passed": true
+    },
+    {
+      "name": "Risk47 questions are real owned items;P0=38/P1=9/remaining61; no false error verdict",
+      "passed": true
+    },
+    {
+      "name": "Two checklists contain all proposals/hash locks/question references and existing Markdown links resolve",
+      "passed": true
+    },
+    {
+      "name": "All305 local historic protection SHA256 values preserved including local graphs and R5 cache",
+      "passed": true
+    }
+  ],
+  "inputs": [
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/coverage-update.json",
+      "sha256": "fd69fc580a6e0fd0be33430845aafa35b795701811d5c2c82a2fa5a1531b53cc"
+    },
+    {
+      "path": "product-2028-draft/course-development-2026-10-25-third/load-batch.cjs",
+      "sha256": "7a5268ba778d383c4c73351c0fd2dd1d7d1ee11469b2f9669d6c3c25c1476539"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/38-course-status.json",
+      "sha256": "d4d28d41dbd657db651d063312f84443e8309ecf1949faf85d96e6516af6f633"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/preparation-receipt.json",
+      "sha256": "19afb854989236b4d3ae4388208da412ee29314bc4a54ef009bd68bed2979c8f"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/english/review.md",
+      "sha256": "be546cc5b42e288de2460abce4fa0e7d3f3c1ad2642e908c07e6d122b76de7c3"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/english/opinion-forms.json",
+      "sha256": "a71264cff8f2251ddf481b4371ad51570ebc047e53c717bb87dbd0e77308141a"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/marxism/review.md",
+      "sha256": "4a1b09082c405325f931d04fa7d7aafa2b99913d00a933fc0140d6d1e7f12d50"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/marxism/opinion-forms.json",
+      "sha256": "a560d6318429a52c8dc4e1a520c5bb74f30d6ac468c316972a387ee80e25dcf9"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/public-health-statistics/review.md",
+      "sha256": "febf92c73d06d21149363353d79b0daf43ab373f6bf4834d18b8aa85da3af774"
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/public-health-statistics/opinion-forms.json",
+      "sha256": "6c2ee6845970c5ed2340babdbc5ce29d031c4f478d7cc414ad5981da48fe2a61"
+    },
+    {
+      "path": "product-2028-integration-38/protected-baseline.json",
+      "sha256": "73d361911657b3f83e941661854643730090ec3466b004c28ec05177d11e9abc"
+    },
+    {
+      "path": "product-2028-integration-38/remote-protected-baseline.json",
+      "sha256": "598602fbe73044b967e89d751d25f324bb0fc89f8ba044c88d55d6e8a202760e"
+    }
+  ],
+  "selected": [
+    {
+      "subject": "en",
+      "rank": 1,
+      "id": "en-vocabulary-retrieval-foundation",
+      "title": "词汇入门：词音、词形、语境与主动回忆",
+      "nodes": [
+        "en-plan-1"
+      ],
+      "existingPre": [
+        "en-foundation-svo"
+      ],
+      "plannedPre": [],
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "score": 47,
+      "gap": "en-plan-1无独立课程；现有语法例句中的零散释义不能替代系统词汇学习。",
+      "relation": "用已有SVO例句建立首组小词集的词义辨认、词形与主动回忆；不重讲12课语法。",
+      "boundary": "只建立首组经来源核对的基础词汇单元和学习方法，不等于核心词汇全部完成；不新增朗读技术功能。"
+    },
+    {
+      "subject": "en",
+      "rank": 2,
+      "id": "en-reading-evidence-foundation",
+      "title": "基础短文阅读：定位信息、辨认指代与区分推断",
+      "nodes": [
+        "en-plan-4",
+        "en-plan-3"
+      ],
+      "existingPre": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-defining-relative-foundation"
+      ],
+      "plannedPre": [
+        "en-vocabulary-retrieval-foundation"
+      ],
+      "scores": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "score": 45,
+      "gap": "en-plan-4无完整课程；现有从句课解决句子结构，不等于篇章理解和证据定位。",
+      "relation": "只使用已教句型和明示词汇，把骨架/指代能力迁移到短文及答案证据。",
+      "boundary": "从短篇原创入门文本开始，不冒充真题或完整考研阅读；不在材料中暗藏未教复杂句。"
+    },
+    {
+      "subject": "en",
+      "rank": 3,
+      "id": "en-present-perfect-foundation",
+      "title": "现在完成时入门：过去事件与当前关联",
+      "nodes": [
+        "en-plan-2"
+      ],
+      "existingPre": [
+        "en-past-simple-foundation",
+        "en-passive-simple-foundation",
+        "en-subject-verb-agreement"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "score": 40,
+      "gap": "已有一般现在/过去和现在进行、一般时被动，尚无have/has加分词的完整教学。",
+      "relation": "复用过去时间判断及被动课给定分词，专门区分完成与过去叙事，不重做一般过去时。",
+      "boundary": "先限基础完成用法、给定动词与明确语境，例外/时间状语/延续条件须先核源；不声称全部完成时体系完成。"
+    },
+    {
+      "subject": "pol",
+      "rank": 1,
+      "id": "pol-base-superstructure-foundation",
+      "title": "经济基础与上层建筑：区分社会结构的两个层次",
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "existingPre": [
+        "pol-productive-forces-relations",
+        "pol-social-being-consciousness"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "score": 43,
+      "gap": "生产关系课明确未展开上层建筑体系；现有社会意识课不能代替本组范畴。",
+      "relation": "从生产关系总和及社会观念衔接具体制度/意识形式的分析，防止与生产力混层。",
+      "boundary": "稳定理论入门与给定材料，不推演未核实政策/历史必然结论；须理论教师确认范畴边界。"
+    },
+    {
+      "subject": "pol",
+      "rank": 2,
+      "id": "pol-people-individual-history",
+      "title": "人民群众与个人的历史作用：主体、条件与合力",
+      "nodes": [
+        "pol-plan-1"
+      ],
+      "existingPre": [
+        "pol-social-being-consciousness",
+        "pol-productive-forces-relations",
+        "pol-epistemology-case-analysis"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        4,
+        5
+      ],
+      "score": 41,
+      "gap": "已有社会存在、生产关系与认识论迁移，尚无群众与个人作用的完整单元。",
+      "relation": "将物质条件和实际行动分析迁移到历史主体，避免把认识论材料改写为同一课。",
+      "boundary": "使用经核实的理论来源和有限材料，不把简化例子当完整历史解释或官方评分标准。"
+    },
+    {
+      "subject": "pol",
+      "rank": 3,
+      "id": "pol-modern-history-entry",
+      "title": "史纲起步：时间线、史料与近代中国社会性质",
+      "nodes": [
+        "pol-plan-3"
+      ],
+      "existingPre": [
+        "pol-social-being-consciousness",
+        "pol-primary-contradictions"
+      ],
+      "plannedPre": [],
+      "scores": [
+        4,
+        4,
+        3,
+        5
+      ],
+      "score": 39,
+      "gap": "11门政治课全部集中于pol-plan-1，pol-plan-3尚无完整课程。",
+      "relation": "从区分史实/解释和时间顺序开始，必要术语课内解释；既有矛盾课仅提供分析工具，不能替代史实。",
+      "boundary": "制作前核实适用教材、史料和概念，不凭年度推测加入2028时政或未经核实日期；本轮不编写史实正文。"
+    },
+    {
+      "subject": "353",
+      "rank": 1,
+      "id": "353-ratio-rate-prevalence",
+      "title": "率、比例、比与患病率：按对象、时间和分母辨析",
+      "nodes": [
+        "s27-8-1",
+        "s27-8-2"
+      ],
+      "existingPre": [
+        "353-variable-types",
+        "353-study-design-foundation",
+        "353-frequency-denominator",
+        "353-incidence-risk",
+        "353-person-time"
+      ],
+      "plannedPre": [],
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "score": 50,
+      "gap": "s27-8-1无完整单元；已有比例、累计风险与人时率分散在三课，尚缺整合辨析及患病率边界。",
+      "relation": "直接引用三课已教分母，只新增指标选用/对照和现患状况解释，不重做相同风险或人时计算课。",
+      "boundary": "区分常用名称与量的性质；2027原文率和比为直接关联，患病率细目属待核教学补充，不冒称官方逐词必考。"
+    },
+    {
+      "subject": "353",
+      "rank": 2,
+      "id": "353-normal-distribution-foundation",
+      "title": "连续变量与正态分布入门：面积、位置与适用条件",
+      "nodes": [
+        "s27-19-2"
+      ],
+      "existingPre": [
+        "353-probability-binomial-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "plannedPre": [],
+      "scores": [
+        5,
+        5,
+        4,
+        5
+      ],
+      "score": 48,
+      "gap": "概率模型节点仅有二项计数的部分支持，连续分布、面积解释和标准化无完整单元。",
+      "relation": "从离散计数过渡连续变量，复用均数/SD和概率而非重讲二项分布。",
+      "boundary": "先解释模型和概率面积；标准化及模型适合条件须核源，不把所有医学变量说成正态。"
+    },
+    {
+      "subject": "353",
+      "rank": 3,
+      "id": "353-sampling-distribution-se",
+      "title": "抽样分布与标准误：区分个体差异和估计波动",
+      "nodes": [
+        "s27-19-3"
+      ],
+      "existingPre": [
+        "353-random-sampling-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "plannedPre": [
+        "353-normal-distribution-foundation"
+      ],
+      "scores": [
+        5,
+        5,
+        4,
+        5
+      ],
+      "score": 48,
+      "gap": "s27-19-3无课程，当前只有样本差异的直观说明，尚缺统计量分布和标准误。",
+      "relation": "复用抽样设计与SD，在重复抽样思想下建立推断前置，不把SD改名成SE。",
+      "boundary": "均值标准误和近似条件需独立统计审核；不套任意样本量阈值，不在本课偷渡完整检验/区间课程。"
+    }
+  ],
+  "criticalQuestionQueue": [
+    {
+      "priority": "P0",
+      "unitId": "353-probability-binomial-foundation",
+      "questions": [
+        "353-probability-binomial-foundation-b3",
+        "353-probability-binomial-foundation-a3",
+        "353-probability-binomial-foundation-a4",
+        "353-probability-binomial-foundation-d3",
+        "353-probability-binomial-foundation-d4"
+      ],
+      "risk": "二项独立/同概率前提、恰一次两条路径、期望非单组保证；核查公式定义/无量纲/数值容差",
+      "request": "逐一写出成立条件、复算过程和可接受解释；任何无条件真实人群外推须指出修订。"
+    },
+    {
+      "priority": "P0",
+      "unitId": "353-random-sampling-foundation",
+      "questions": [
+        "353-random-sampling-foundation-b2",
+        "353-random-sampling-foundation-a2",
+        "353-random-sampling-foundation-a3",
+        "353-random-sampling-foundation-a4",
+        "353-random-sampling-foundation-d3",
+        "353-random-sampling-foundation-d4"
+      ],
+      "risk": "n/N完整框与简单随机前提，分层/整群/系统抽样、不应答和波动边界",
+      "request": "核查设计定义与分母、代表性限制及题干唯一性，不以概率抽样自动推无偏。"
+    },
+    {
+      "priority": "P0",
+      "unitId": "353-bias-control-foundation",
+      "questions": [
+        "353-bias-control-foundation-b3",
+        "353-bias-control-foundation-a3",
+        "353-bias-control-foundation-a4",
+        "353-bias-control-foundation-d2",
+        "353-bias-control-foundation-d3",
+        "353-bias-control-foundation-d4"
+      ],
+      "risk": "混杂与中介、误分类方向、随机化/小p值不能排除所有系统误差",
+      "request": "按题定因果条件判断参考答案，列出必要但未给出的条件和可能多解，不机械套规则。"
+    },
+    {
+      "priority": "P0",
+      "unitId": "en-passive-simple-foundation",
+      "questions": [
+        "en-passive-simple-foundation-b2",
+        "en-passive-simple-foundation-b4",
+        "en-passive-simple-foundation-a4",
+        "en-passive-simple-foundation-d1",
+        "en-passive-simple-foundation-d2",
+        "en-passive-simple-foundation-d4"
+      ],
+      "risk": "事件被动与状态、及物转换边界、给定词形与延迟新词负担",
+      "request": "核对全部选项是否唯一，特别确认are clean/were clean等状态选项与题定任务的区别；检查新词是否教过。"
+    },
+    {
+      "priority": "P0",
+      "unitId": "en-defining-relative-foundation",
+      "questions": [
+        "en-defining-relative-foundation-b2",
+        "en-defining-relative-foundation-a2",
+        "en-defining-relative-foundation-a3",
+        "en-defining-relative-foundation-d2",
+        "en-defining-relative-foundation-d3",
+        "en-defining-relative-foundation-d4"
+      ],
+      "risk": "who/which/that替换、主宾角色、省略和两层一致",
+      "request": "逐项标明关系词角色及可省条件，检查是否有第二个正确选项或遗漏上下文。"
+    },
+    {
+      "priority": "P1",
+      "unitId": "en-present-continuous-foundation",
+      "questions": [
+        "en-present-continuous-foundation-b2",
+        "en-present-continuous-foundation-a2",
+        "en-present-continuous-foundation-d2",
+        "en-present-continuous-foundation-d3",
+        "en-present-continuous-foundation-d4"
+      ],
+      "risk": "习惯/当前阶段、状态义例外、拼写与主观变换",
+      "request": "判断限定语境是否足够，标出特殊用法的边界与可接受表达；发现答案歧义立即升P0。"
+    },
+    {
+      "priority": "P0",
+      "unitId": "pol-social-being-consciousness",
+      "questions": [
+        "pol-social-being-consciousness-a2",
+        "pol-social-being-consciousness-a4",
+        "pol-social-being-consciousness-d2",
+        "pol-social-being-consciousness-d4"
+      ],
+      "risk": "决定与相对独立/反作用的范畴和因果边界",
+      "request": "确认定义与参考要点不机械化、不脱离材料；列出合理等价答案和不可接受的反向表述。"
+    },
+    {
+      "priority": "P1",
+      "unitId": "pol-epistemology-case-analysis",
+      "questions": [
+        "pol-epistemology-case-analysis-b1",
+        "pol-epistemology-case-analysis-a4",
+        "pol-epistemology-case-analysis-d1",
+        "pol-epistemology-case-analysis-d4"
+      ],
+      "risk": "观察/推断/方案、实践检验范围及材料分析评分边界",
+      "request": "对每个主观点给出必要/可选要点及可接受替代表达，不套官方分值；若材料不足以支持结论升P0。"
+    },
+    {
+      "priority": "P0",
+      "unitId": "pol-productive-forces-relations",
+      "questions": [
+        "pol-productive-forces-relations-b2",
+        "pol-productive-forces-relations-b3",
+        "pol-productive-forces-relations-a4",
+        "pol-productive-forces-relations-d3",
+        "pol-productive-forces-relations-d4"
+      ],
+      "risk": "生产关系范围、能力/关系层次、制约与反作用及管理案例外推",
+      "request": "核对范畴、所有制地位和参考论证，指出简化情境不能支持的结论与需修订的要点。"
+    }
+  ],
+  "counts": {
+    "nodes": 149,
+    "partialNodes": 24,
+    "unsupportedNodes": 125,
+    "courses": 38,
+    "questions": 415,
+    "existingPrerequisiteEdges": 49,
+    "proposedNewCourses": 9,
+    "newCoursesActuallyCreated": 0,
+    "manuscriptsRegenerated": 0,
+    "independentExpertApproved": 0
+  },
+  "versionLocks": [
+    {
+      "unitId": "en-present-continuous-foundation",
+      "version": "0.1",
+      "contentSha256": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "en-passive-simple-foundation",
+      "version": "0.1",
+      "contentSha256": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "en-defining-relative-foundation",
+      "version": "0.1",
+      "contentSha256": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "pol-social-being-consciousness",
+      "version": "0.1",
+      "contentSha256": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "contentSha256": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "pol-productive-forces-relations",
+      "version": "0.1",
+      "contentSha256": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "contentSha256": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "353-random-sampling-foundation",
+      "version": "0.1",
+      "contentSha256": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    },
+    {
+      "unitId": "353-bias-control-foundation",
+      "version": "0.1",
+      "contentSha256": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+      "reviewer": null,
+      "reviewDate": null,
+      "decision": "pending"
+    }
+  ],
+  "protection": {
+    "localChecked": 305,
+    "mismatches": [],
+    "sevenLocalGraphFilesPreserved": true,
+    "existingR5CacheDifferencePreserved": true,
+    "remote298RehashedThisRound": false,
+    "remoteProtectionMethod": "Immutable parent tree retained; require final commit diff to contain only the3 new planning files",
+    "historicalBrowserRun": 40182090104,
+    "browserRerun": false,
+    "CIRerun": false,
+    "externalContact": false,
+    "externalSending": false,
+    "paidService": false,
+    "productionRelease": false
+  },
+  "outputDocuments": [
+    {
+      "path": "product-2028-draft/planning-handoff-2026-10-25/第四批课程优先级.md",
+      "sha256": "e90c5f4e72503a243f78b8f337ffecf0d887e01e203b83ef9dd4a3aa101ac3ba"
+    },
+    {
+      "path": "product-2028-draft/planning-handoff-2026-10-25/专业审核执行清单.md",
+      "sha256": "889d55a29e120696dda259a211458b4fc5079506954be4bc6899876d1765bf0a"
+    }
+  ],
+  "stopAfterCommit": true
+}
