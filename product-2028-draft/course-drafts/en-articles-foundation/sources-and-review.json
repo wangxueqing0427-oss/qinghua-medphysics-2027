@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/comment/136255",
+      "publisher": "British Council",
+      "locator": "该官方页面开头The indefinite article a/an正文、辅音/元音音素段；不依赖评论区",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+      "publisher": "British Council",
+      "locator": "开头the的可识别指称与前文提及",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns",
+      "publisher": "British Council",
+      "locator": "Uncount nouns正文：information等及计量表达",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "英语教师复核冠词唯一答案的语境充分性及音素解释"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

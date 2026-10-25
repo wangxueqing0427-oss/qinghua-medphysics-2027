@@ -1,0 +1,12 @@
+{
+  "checkedAt":"2026-10-25",
+  "policy":"Failures are not source support; no repeated circumvention or expert claims",
+  "failures":[
+    {"url":"https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/personal-pronouns","result":"400 Timeout fetching; canonical free-resources path also timed out","alternative":"Read BC Teens formal table and Government of Canada personal-pronouns body"},
+    {"url":"https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/definite-article","result":"400 Timeout fetching","alternative":"Free-resources canonical page read successfully"},
+    {"url":"https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/indefinite-article-and","result":"URL inaccessible; not used as read evidence","alternative":"Official search result comment/136255 page; read formal a/an teaching body, not user comments"},
+    {"url":"https://dangjian.people.com.cn/n1/2019/0102/c117092-30499540.html","result":"400 Timeout fetching","alternative":"Nanjing University republication of the author's2019Qushi text read"}
+  ],
+  "unresolved":["2028 official requirements unconfirmed","exact current English/politics annual specification not confirmed","independent professional review still absent"],
+  "independentExpertApproved":0
+}

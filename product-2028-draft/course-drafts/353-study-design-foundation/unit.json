@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "353-study-design-foundation",
+      "subject": "353",
+      "title": "观察性与实验性研究：谁决定暴露，怎样设置比较",
+      "prerequisites": [
+        "353-variable-types",
+        "353-public-health-prevention"
+      ],
+      "mapping": [
+        "s27-7-1",
+        "s27-7-2"
+      ],
+      "recall": [
+        "闭卷用一个问题标出对象、暴露、结局。",
+        "观察与实验的关键分类依据是什么，问卷是否足够判断。",
+        "分别解释随机抽样与随机分配，说明比较组为何重要。",
+        "列关联不能直接推因果的理由及人体研究边界。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "研究社区教育安排与后续行为，教育安排在本问题中是？",
+          "options": [
+            "暴露/研究因素",
+            "必然有害物",
+            "研究结局本身"
+          ],
+          "answer": 0,
+          "explanation": "因素不一定有害，A符合研究问题；B把暴露限定为危险物，C混淆原因候选与后续结果。",
+          "id": "353-study-design-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "仅记录居民自然形成的行为与结局，未分配目标暴露，属于？",
+          "options": [
+            "因为问卷所以必为实验",
+            "观察性研究",
+            "必为随机双盲试验"
+          ],
+          "answer": 1,
+          "explanation": "B依据未主动分配暴露；A看工具分类，C凭空补随机和盲法条件，都不符合题设。",
+          "id": "353-study-design-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "随机抽样与随机分配的区别正确是？",
+          "options": [
+            "完全同义",
+            "都保证样本与总体完全一致",
+            "选谁入样本与给样本何安排不同"
+          ],
+          "answer": 2,
+          "explanation": "C区分入样本过程与安排分配；A取消设计差别，B做无条件同质性保证。",
+          "id": "353-study-design-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "观察到暴露组结果更好，最恰当结论？",
+          "options": [
+            "关联尚需评估混杂偏倚与时间条件",
+            "已证明因果且普遍有效",
+            "无需比较组"
+          ],
+          "answer": 0,
+          "explanation": "A保留证据边界；B过度外推，C否认解释所需比较信息，不合研究推理。",
+          "id": "353-study-design-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "研究者按方案分配两种教育方式并随访结局，按本课关键依据是？",
+          "options": [
+            "只要在社区就不能实验",
+            "实验性研究思路",
+            "所有人都必须接受危险暴露"
+          ],
+          "answer": 1,
+          "explanation": "B依据分配目标因素；A以地点分类，C凭空加入伤害且不符合伦理边界。实际开展还需专业审查。",
+          "id": "353-study-design-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "只给自然行为人群抽血测结局，最关键分类问题是？",
+          "options": [
+            "是否使用实验室仪器",
+            "抽血次数是否大于一次",
+            "是否按研究方案分配目标暴露"
+          ],
+          "answer": 2,
+          "explanation": "C追问研究因素分配，不能由采样工具或次数自动定义实验；采集操作与目标暴露分开。",
+          "id": "353-study-design-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "随机分配后两组有限样本，正确说法是？",
+          "options": [
+            "可减少系统差异但不保证完全相同",
+            "所有变量绝对相等",
+            "自动消除全部失访偏倚"
+          ],
+          "answer": 0,
+          "explanation": "A说明随机化作用和限制；B、C把设计优点绝对化，还需检查实施和随访质量。",
+          "id": "353-study-design-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "区分随机抽样和随机分配，说明两者各不能保证什么。",
+          "answer": "抽样决定进入样本的人，分配决定入组者接受哪种安排；随机过程不保证一次样本完美代表或两组完全相同，也不自动消除测量失访问题。",
+          "explanation": "核对过程和边界，不给未知设计补写随机双盲；未建立专业自动评分。",
+          "rubric": [
+            "抽样选入样本",
+            "分配选安排",
+            "不保证绝对代表或同质",
+            "仍有测量失访等限制"
+          ],
+          "id": "353-study-design-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：先观察日常运动习惯，再记录健康结果，研究者不分配运动，属于？",
+          "options": [
+            "只要随访就是实验",
+            "观察性研究",
+            "已证明运动因果"
+          ],
+          "answer": 1,
+          "explanation": "B依据目标暴露未被研究分配；A把时间结构当分配，C把分类当因果证据。",
+          "id": "353-study-design-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：研究者主动按方案分配教育安排，能否直接认定随机双盲？",
+          "options": [
+            "一定可以",
+            "因有问卷所以可以",
+            "不能，还缺随机及盲法信息"
+          ],
+          "answer": 2,
+          "explanation": "分配支持实验性思路，但随机和盲法是额外设计条件；A、B给题干添加了不存在的事实。",
+          "id": "353-study-design-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日暴露不是必然有害，以下哪个可作研究因素？",
+          "options": [
+            "明确规定的健康教育安排",
+            "只有毒物才可",
+            "只有传染病病原体才可"
+          ],
+          "answer": 0,
+          "explanation": "研究因素可有利、有害或效果未知；B、C过度限制暴露定义，并把流行病学缩为单一疾病领域。",
+          "id": "353-study-design-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "自然行为与较好结局相关时，写一项合理表述、两项需核查因素及不能做的伦理跳跃。",
+          "answer": "可报告给定样本关联；核查时间先后、混杂或偏倚，不直接称因果。不能为验证伤害而任意使人暴露，实际研究需相应伦理规范。",
+          "explanation": "示例仅教学，不提供临床试验实施建议。合理候选因素可以多于两项，逐项人工核对。",
+          "rubric": [
+            "限定样本关联",
+            "至少两项解释风险",
+            "不直接推普遍因果",
+            "不以研究名义任意伤害"
+          ],
+          "id": "353-study-design-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "入门研究设计；不涵盖全套随机试验、队列/病例对照细节、统计因果识别或实际临床操作。2027范围仅2028暂定依据。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "provisional-previous-year",
+      "prerequisiteExplanation": "先修：353-variable-types、353-public-health-prevention；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "流行病学研究人群中健康与疾病的分布及其影响因素，并把认识用于预防和健康促进，不只研究传染病。设计先把问题说清：研究对象是谁，暴露是什么，结局是什么。暴露是待研究的因素，不一定有害，例如一种健康教育安排；结局是要观察的健康或行为结果，不等于研究者希望出现的结果。原创问题问社区教育安排是否影响某行为，需要规定观察对象、时间和测量方法，而不是先决定答案。这里用教学情境，不评价真实干预疗效。\n\n观察性与实验性的重要区分是研究者是否按研究方案主动分配要研究的暴露。若只记录人们已经形成的行为与后续结果，没有为研究分配行为，属于本课观察性研究。若按方案分配两种教育安排并比较后续结果，则属于实验性思路。给每个人发问卷不自动把研究变成实验；抽血或拍片等数据收集操作也不等于分配目标暴露。必须看本题研究因素和分配过程，而不是是否使用实验室设备。任何实际人体研究还需相应伦理和专业规范。\n\n比较组帮助判断观察到的结果与什么相比较，不能只看接受安排的一组前后变化就排除所有其他原因。观察性研究的暴露组可能在年龄、基础健康等方面不同，混杂和选择偏倚等会影响解释；实验设计中的随机分配可减少系统性基线差异，但并不保证每个有限样本两组完全相同，也不消除失访或测量问题。随机抽样与随机分配不同：前者关乎谁进入样本，后者关乎样本成员得到什么安排，本课只认识区别，不要求计算随机序列。\n\n设计分类不能直接等于因果证实或伦理合格。原创观察到某行为者结局较好，不能仅凭关联说行为必导致改善；需要考虑时间先后、混杂、偏倚和其他证据。实验性安排也须说明对象、比较、结局和执行质量，不能为了验证危险因素而随意使人暴露于已知伤害。本课不把所有观察研究细分为完整队列或病例对照，也不默认任何实验都随机或双盲。闭卷按问题→分配暴露与否→比较对象→解释限制完成，错题记录实验室误判、随机混淆和因果外推，隔日换新场景再分类。",
+      "definition": "流行病学涉及人群健康疾病分布、因素及应用。观察与实验按研究者是否依方案分配目标暴露区分；比较和偏倚控制影响解释，设计分类不自动证明因果或伦理合格。",
+      "example": "社区人群、教育安排、行为结果：分别对应对象、暴露、结局。\n记录自然行为是观察；按研究方案分配教育安排是实验思路。\n随机抽样选谁入组，随机分配决定入组者哪种安排。\n有关联≠已证因果，实验分类也不保证伦理和实施质量。",
+      "misconceptions": [
+        "只要用实验室设备就是实验研究。",
+        "研究暴露只能是有害物。",
+        "实验设计自动等于随机双盲。",
+        "随机分配保证两组绝对同质且排除全部偏倚。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "社区人群、教育安排、行为结果：分别对应对象、暴露、结局。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "记录自然行为是观察；按研究方案分配教育安排是实验思路。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "随机抽样选谁入组，随机分配决定入组者哪种安排。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "有关联≠已证因果，实验分类也不保证伦理和实施质量。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-study-design-foundation-g1",
+          "description": "界定对象暴露结局",
+          "successCriteria": "区分研究因素与结果，不限于有害因素或传染病。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b1",
+            "353-study-design-foundation-a1",
+            "353-study-design-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g2",
+          "description": "按目标暴露分配分类",
+          "successCriteria": "不用问卷/设备名字判断是否实验。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b2",
+            "353-study-design-foundation-a2",
+            "353-study-design-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g3",
+          "description": "说明比较与随机区别",
+          "successCriteria": "比较组及随机分配不等于随机抽样或绝对同质。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b3",
+            "353-study-design-foundation-a3",
+            "353-study-design-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g4",
+          "description": "保留因果与伦理边界",
+          "successCriteria": "说明偏倚混杂和实施条件，不以分类直接证因果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b4",
+            "353-study-design-foundation-a4",
+            "353-study-design-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "区分研究因素与结果，不限于有害因素或传染病。",
+        "不用问卷/设备名字判断是否实验。",
+        "比较组及随机分配不等于随机抽样或绝对同质。",
+        "说明偏倚混杂和实施条件，不以分类直接证因果。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "流行病学/公共卫生教师复核分配、比较及伦理边界",
+          "不把随机化叙述当所有偏倚已排除"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section7.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    }
+  ]
+}

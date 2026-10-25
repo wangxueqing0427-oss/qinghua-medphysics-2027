@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "en-nouns-countability",
+      "subject": "en",
+      "title": "名词数与可数性：一个、多个与怎样计量",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "recall": [
+        "解释one book与two books中的s，给一个普通单数限定表达。",
+        "闭卷写box/city/boy/child的复数并区分规则。",
+        "写两瓶水与三条信息，指出谁加s。",
+        "解释The bottles of water are here为何用are，再写改错步骤。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "one book变成two ___，正确是？",
+          "options": [
+            "books",
+            "book",
+            "bookes"
+          ],
+          "answer": 0,
+          "explanation": "本课book是可数名词，two要求复数books。B保留单数，C多加e；不要把名词s解释为动词人称。",
+          "id": "en-nouns-countability-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "表示三个城市，应写three ___。",
+          "options": [
+            "citys",
+            "cities",
+            "city"
+          ],
+          "answer": 1,
+          "explanation": "city的辅音字母+y在此改成ies；A误保留y，C单复数不符。此规则只处理给定词例。",
+          "id": "en-nouns-countability-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "按本课information的信息义，哪项正确？",
+          "options": [
+            "three informations",
+            "a information",
+            "three pieces of information"
+          ],
+          "answer": 2,
+          "explanation": "信息用不可数information，三条通过pieces计数。A直接复数化，B误加不定冠词且无计量单位。",
+          "id": "en-nouns-countability-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "The bottles of water ___ here.主体为bottles，选？",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "answer": 0,
+          "explanation": "bottles为复数主体，所以are；of water不是主体。B受邻近名词干扰，C仅配本课I。",
+          "id": "en-nouns-countability-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "题给desk是桌子可数义，普通句I bought ___完整自然的是？",
+          "options": [
+            "desk",
+            "a desk",
+            "a desks"
+          ],
+          "answer": 1,
+          "explanation": "单数可数desk需限定词，a desk完整；A裸用，C冠词单数与复数冲突。bought意为买了。",
+          "id": "en-nouns-countability-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两个孩子：two ___。",
+          "options": [
+            "childs",
+            "childes",
+            "children"
+          ],
+          "answer": 2,
+          "explanation": "children是本课不规则复数；不能套所有词加s或es。两个错误选项都不是该意义下的标准形式。",
+          "id": "en-nouns-countability-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "要表达两瓶水而非两种水，正确？",
+          "options": [
+            "two bottles of water",
+            "two bottle of waters",
+            "two waters of bottle"
+          ],
+          "answer": 0,
+          "explanation": "计数瓶子应bottles，物质义water不变；B两个位置都错，C不构成本课计量表达。",
+          "id": "en-nouns-countability-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "改正three piece of information，并解释为何不是three informations。",
+          "answer": "three pieces of information。three限定可数计量单位piece；information在本句为不可数信息义。",
+          "explanation": "检查数词指向和计量单位，不能仅见pieces就判已掌握全部不可数词。",
+          "rubric": [
+            "给出pieces",
+            "指出three对应piece",
+            "说明information语义",
+            "拒绝information直接加s"
+          ],
+          "id": "en-nouns-countability-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日换词：a box与four ___的对应？",
+          "options": [
+            "boxs",
+            "boxes",
+            "box"
+          ],
+          "answer": 1,
+          "explanation": "box在本课加es形成boxes；A拼写错误，C未按four使用复数，不涉及动词变化。",
+          "id": "en-nouns-countability-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日比较city与boy，正确的一组是？",
+          "options": [
+            "citys; boies",
+            "cities; boies",
+            "cities; boys"
+          ],
+          "answer": 2,
+          "explanation": "city用cities，boy因y前为元音字母而用boys；A和B均机械改写y。",
+          "id": "en-nouns-countability-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "给定water为物质义，哪项能计量？",
+          "options": [
+            "one bottle of water",
+            "one water of bottles",
+            "a waters"
+          ],
+          "answer": 0,
+          "explanation": "一瓶水用bottle作单位；B关系颠倒，C把物质义直接复数化，不能表达本题份量。",
+          "id": "en-nouns-countability-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "把two piece of information与The bottles is here改正，并给各自原因。",
+          "answer": "two pieces of information；The bottles are here。前者计量单位需复数，后者复数主体匹配are。",
+          "explanation": "两处错误来源不同，分别说明，不能用统一加s口诀替代句法判断。",
+          "rubric": [
+            "pieces正确",
+            "information保持不变",
+            "are正确",
+            "区分计量错误与主谓错误"
+          ],
+          "id": "en-nouns-countability-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "本课日常可数/物质义及指定词例；特殊词义和完整冠词体系另课。2028英语范围未最终确认。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：en-foundation-svo；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "名词是给人、事物或概念命名的词。先判断本句说的是什么，再看它在英语里怎样计数。book是书：one book一本，two books两本。这里book末尾的s表示名词复数，不是动词第三人称单数；The books are here中books是主体，are说明位置。可数单数名词在本课普通句中不能裸用：I have a book我有一本书，也可说my book我的书。a、my等放在名词前帮助限定指称。本课先认识这些词的作用，a/an和the的完整选择留到冠词课。\n\n常见复数可在名词后加s：desk桌子变desks。以本课的box盒子、class班级为例加es成boxes、classes；city城市变cities，boy男孩变boys，比较辅音字母+y与元音字母+y。不要据此断言所有词尾都机械适用同一规则；child孩子的常用复数是children，person人的常用复数是people。原创句Two children carry three boxes意为两个孩子搬三个盒子，两个数词分别约束不同名词。读句时把数量和主体连起来，而不是看到任何s都判成一个人。\n\n不可数是英语在特定意思下的语法用法，不是现实中永远无法测量。water表示水这种物质，information表示信息，本课不写two waters或three informations，也不用a information。要数份量，可说two bottles of water两瓶水，one piece of information一条信息；复数加在bottles或pieces上。The water is cold中水用单数一致；The bottles are here中主体是瓶子，不能被of water里的water诱导。本课用量词把语言表达与现实数量区分，不把中文条、份直接当英语名词可数证据。\n\n同一个词可能因意义改变而改变可数性，例如某物质与一份商品的语境不能一概而论。本课只对已给定的book、box、city、child、water、information等意思练习，不把记住几个词等同于掌握全部名词。做题顺序是解释词义、找计数单位、选单复数、核对谓语。原创改错three piece of information应为three pieces of information；错误在piece而非给information加s。闭卷时换成新数量和新主语，再解释为什么，错题按词义、拼写或主体误判记录，隔日题不背原题顺序。",
+      "definition": "名词命名人、事物和概念。可数性取决于英语中该词在给定意义下的用法；可数名词区分单复数，不可数物质或信息可借可数单位计量。",
+      "example": "one book→two books：数量改变的是名词，动词须另查。\ncity→cities而boy→boys；child→children，不写childs。\ntwo bottles of water：瓶可数，water保持物质义。\nthree piece of information→three pieces of information：先查计量单位。",
+      "misconceptions": [
+        "名词末尾s一律是动词第三人称。",
+        "所有复数都直接加s。",
+        "中文能数几条，英语information就能加s。",
+        "of water中最近的water决定bottles的谓语。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "one book→two books：数量改变的是名词，动词须另查。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "city→cities而boy→boys；child→children，不写childs。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "two bottles of water：瓶可数，water保持物质义。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "three piece of information→three pieces of information：先查计量单位。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-nouns-countability-g1",
+          "description": "区别名词单复数",
+          "successCriteria": "指出s落在名词而非自动当动词标记。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-nouns-countability-b1",
+            "en-nouns-countability-a1",
+            "en-nouns-countability-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g2",
+          "description": "构成本课复数形式",
+          "successCriteria": "准确写boxes、cities、boys、children。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-nouns-countability-b2",
+            "en-nouns-countability-a2",
+            "en-nouns-countability-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g3",
+          "description": "使用不可数计量",
+          "successCriteria": "water/information不直接复数化，计量单位匹配。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-nouns-countability-b3",
+            "en-nouns-countability-a3",
+            "en-nouns-countability-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g4",
+          "description": "按句义与主体改错",
+          "successCriteria": "说明名词意义和真正主体，拒绝所有名词同规则。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-nouns-countability-b4",
+            "en-nouns-countability-a4",
+            "en-nouns-countability-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "指出s落在名词而非自动当动词标记。",
+        "准确写boxes、cities、boys、children。",
+        "water/information不直接复数化，计量单位匹配。",
+        "说明名词意义和真正主体，拒绝所有名词同规则。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核可数性语境边界和零基础词汇负担"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/count-nouns",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns"
+      ]
+    }
+  ]
+}

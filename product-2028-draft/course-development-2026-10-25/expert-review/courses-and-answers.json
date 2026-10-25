@@ -1,0 +1,3019 @@
+{
+  "purpose": "Independent expert review; no personal learning data",
+  "unitFingerprints": [
+    {
+      "unitId": "en-nouns-countability",
+      "unitVersion": "0.1",
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745"
+    },
+    {
+      "unitId": "en-pronoun-reference",
+      "unitVersion": "0.1",
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9"
+    },
+    {
+      "unitId": "en-articles-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491"
+    },
+    {
+      "unitId": "pol-matter-consciousness",
+      "unitVersion": "0.1",
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24"
+    },
+    {
+      "unitId": "pol-contradiction-unity",
+      "unitVersion": "0.1",
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008"
+    },
+    {
+      "unitId": "pol-primary-contradictions",
+      "unitVersion": "0.1",
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19"
+    },
+    {
+      "unitId": "353-mean-median",
+      "unitVersion": "0.1",
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e"
+    },
+    {
+      "unitId": "353-dispersion-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af"
+    },
+    {
+      "unitId": "353-study-design-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c"
+    }
+  ],
+  "units": [
+    {
+      "id": "en-nouns-countability",
+      "subject": "en",
+      "title": "名词数与可数性：一个、多个与怎样计量",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "recall": [
+        "解释one book与two books中的s，给一个普通单数限定表达。",
+        "闭卷写box/city/boy/child的复数并区分规则。",
+        "写两瓶水与三条信息，指出谁加s。",
+        "解释The bottles of water are here为何用are，再写改错步骤。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "one book变成two ___，正确是？",
+          "options": [
+            "books",
+            "book",
+            "bookes"
+          ],
+          "answer": 0,
+          "explanation": "本课book是可数名词，two要求复数books。B保留单数，C多加e；不要把名词s解释为动词人称。",
+          "id": "en-nouns-countability-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "表示三个城市，应写three ___。",
+          "options": [
+            "citys",
+            "cities",
+            "city"
+          ],
+          "answer": 1,
+          "explanation": "city的辅音字母+y在此改成ies；A误保留y，C单复数不符。此规则只处理给定词例。",
+          "id": "en-nouns-countability-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "按本课information的信息义，哪项正确？",
+          "options": [
+            "three informations",
+            "a information",
+            "three pieces of information"
+          ],
+          "answer": 2,
+          "explanation": "信息用不可数information，三条通过pieces计数。A直接复数化，B误加不定冠词且无计量单位。",
+          "id": "en-nouns-countability-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "The bottles of water ___ here.主体为bottles，选？",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "answer": 0,
+          "explanation": "bottles为复数主体，所以are；of water不是主体。B受邻近名词干扰，C仅配本课I。",
+          "id": "en-nouns-countability-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "题给desk是桌子可数义，普通句I bought ___完整自然的是？",
+          "options": [
+            "desk",
+            "a desk",
+            "a desks"
+          ],
+          "answer": 1,
+          "explanation": "单数可数desk需限定词，a desk完整；A裸用，C冠词单数与复数冲突。bought意为买了。",
+          "id": "en-nouns-countability-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两个孩子：two ___。",
+          "options": [
+            "childs",
+            "childes",
+            "children"
+          ],
+          "answer": 2,
+          "explanation": "children是本课不规则复数；不能套所有词加s或es。两个错误选项都不是该意义下的标准形式。",
+          "id": "en-nouns-countability-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "要表达两瓶水而非两种水，正确？",
+          "options": [
+            "two bottles of water",
+            "two bottle of waters",
+            "two waters of bottle"
+          ],
+          "answer": 0,
+          "explanation": "计数瓶子应bottles，物质义water不变；B两个位置都错，C不构成本课计量表达。",
+          "id": "en-nouns-countability-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "改正three piece of information，并解释为何不是three informations。",
+          "answer": "three pieces of information。three限定可数计量单位piece；information在本句为不可数信息义。",
+          "explanation": "检查数词指向和计量单位，不能仅见pieces就判已掌握全部不可数词。",
+          "rubric": [
+            "给出pieces",
+            "指出three对应piece",
+            "说明information语义",
+            "拒绝information直接加s"
+          ],
+          "id": "en-nouns-countability-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日换词：a box与four ___的对应？",
+          "options": [
+            "boxs",
+            "boxes",
+            "box"
+          ],
+          "answer": 1,
+          "explanation": "box在本课加es形成boxes；A拼写错误，C未按four使用复数，不涉及动词变化。",
+          "id": "en-nouns-countability-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日比较city与boy，正确的一组是？",
+          "options": [
+            "citys; boies",
+            "cities; boies",
+            "cities; boys"
+          ],
+          "answer": 2,
+          "explanation": "city用cities，boy因y前为元音字母而用boys；A和B均机械改写y。",
+          "id": "en-nouns-countability-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "给定water为物质义，哪项能计量？",
+          "options": [
+            "one bottle of water",
+            "one water of bottles",
+            "a waters"
+          ],
+          "answer": 0,
+          "explanation": "一瓶水用bottle作单位；B关系颠倒，C把物质义直接复数化，不能表达本题份量。",
+          "id": "en-nouns-countability-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "把two piece of information与The bottles is here改正，并给各自原因。",
+          "answer": "two pieces of information；The bottles are here。前者计量单位需复数，后者复数主体匹配are。",
+          "explanation": "两处错误来源不同，分别说明，不能用统一加s口诀替代句法判断。",
+          "rubric": [
+            "pieces正确",
+            "information保持不变",
+            "are正确",
+            "区分计量错误与主谓错误"
+          ],
+          "id": "en-nouns-countability-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "本课日常可数/物质义及指定词例；特殊词义和完整冠词体系另课。2028英语范围未最终确认。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：en-foundation-svo；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "名词是给人、事物或概念命名的词。先判断本句说的是什么，再看它在英语里怎样计数。book是书：one book一本，two books两本。这里book末尾的s表示名词复数，不是动词第三人称单数；The books are here中books是主体，are说明位置。可数单数名词在本课普通句中不能裸用：I have a book我有一本书，也可说my book我的书。a、my等放在名词前帮助限定指称。本课先认识这些词的作用，a/an和the的完整选择留到冠词课。\n\n常见复数可在名词后加s：desk桌子变desks。以本课的box盒子、class班级为例加es成boxes、classes；city城市变cities，boy男孩变boys，比较辅音字母+y与元音字母+y。不要据此断言所有词尾都机械适用同一规则；child孩子的常用复数是children，person人的常用复数是people。原创句Two children carry three boxes意为两个孩子搬三个盒子，两个数词分别约束不同名词。读句时把数量和主体连起来，而不是看到任何s都判成一个人。\n\n不可数是英语在特定意思下的语法用法，不是现实中永远无法测量。water表示水这种物质，information表示信息，本课不写two waters或three informations，也不用a information。要数份量，可说two bottles of water两瓶水，one piece of information一条信息；复数加在bottles或pieces上。The water is cold中水用单数一致；The bottles are here中主体是瓶子，不能被of water里的water诱导。本课用量词把语言表达与现实数量区分，不把中文条、份直接当英语名词可数证据。\n\n同一个词可能因意义改变而改变可数性，例如某物质与一份商品的语境不能一概而论。本课只对已给定的book、box、city、child、water、information等意思练习，不把记住几个词等同于掌握全部名词。做题顺序是解释词义、找计数单位、选单复数、核对谓语。原创改错three piece of information应为three pieces of information；错误在piece而非给information加s。闭卷时换成新数量和新主语，再解释为什么，错题按词义、拼写或主体误判记录，隔日题不背原题顺序。",
+      "definition": "名词命名人、事物和概念。可数性取决于英语中该词在给定意义下的用法；可数名词区分单复数，不可数物质或信息可借可数单位计量。",
+      "example": "one book→two books：数量改变的是名词，动词须另查。\ncity→cities而boy→boys；child→children，不写childs。\ntwo bottles of water：瓶可数，water保持物质义。\nthree piece of information→three pieces of information：先查计量单位。",
+      "misconceptions": [
+        "名词末尾s一律是动词第三人称。",
+        "所有复数都直接加s。",
+        "中文能数几条，英语information就能加s。",
+        "of water中最近的water决定bottles的谓语。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "one book→two books：数量改变的是名词，动词须另查。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "city→cities而boy→boys；child→children，不写childs。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "two bottles of water：瓶可数，water保持物质义。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "three piece of information→three pieces of information：先查计量单位。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-nouns-countability-g1",
+          "description": "区别名词单复数",
+          "successCriteria": "指出s落在名词而非自动当动词标记。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-nouns-countability-b1",
+            "en-nouns-countability-a1",
+            "en-nouns-countability-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g2",
+          "description": "构成本课复数形式",
+          "successCriteria": "准确写boxes、cities、boys、children。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-nouns-countability-b2",
+            "en-nouns-countability-a2",
+            "en-nouns-countability-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g3",
+          "description": "使用不可数计量",
+          "successCriteria": "water/information不直接复数化，计量单位匹配。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-nouns-countability-b3",
+            "en-nouns-countability-a3",
+            "en-nouns-countability-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g4",
+          "description": "按句义与主体改错",
+          "successCriteria": "说明名词意义和真正主体，拒绝所有名词同规则。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-nouns-countability-b4",
+            "en-nouns-countability-a4",
+            "en-nouns-countability-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "指出s落在名词而非自动当动词标记。",
+        "准确写boxes、cities、boys、children。",
+        "water/information不直接复数化，计量单位匹配。",
+        "说明名词意义和真正主体，拒绝所有名词同规则。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核可数性语境边界和零基础词汇负担"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/count-nouns",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns"
+      ]
+    },
+    {
+      "id": "en-pronoun-reference",
+      "subject": "en",
+      "title": "人称代词与指代：谁做事、动作落到谁",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-linking-and-verb-phrase"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "recall": [
+        "闭卷列主格并用复数物品作例子。",
+        "把I/he/they的宾格写出，说明在何位置用。",
+        "举出两个候选使she不清楚的句子并改写。",
+        "给出主体→动作→对象，再替换对象而不颠倒方向。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "题给The bags are blue.用代词替换bags，选？",
+          "options": [
+            "They are blue.",
+            "It are blue.",
+            "Them are blue."
+          ],
+          "answer": 0,
+          "explanation": "bags复数作主语需they；B数不符，C把宾格作本课主语。blue意为蓝色，bags是包。",
+          "id": "en-pronoun-reference-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "She helps ___，题给对象是一个男孩Omar。",
+          "options": [
+            "he",
+            "him",
+            "his"
+          ],
+          "answer": 1,
+          "explanation": "helps的对象作宾语，him合适；he为主格，his为所属形式，不符合本题角色。",
+          "id": "en-pronoun-reference-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "Nora与Mira均为女性，随后只写she left，无其他线索。最恰当？",
+          "options": [
+            "必指最近的Mira",
+            "必指Nora",
+            "可能歧义，应澄清"
+          ],
+          "answer": 2,
+          "explanation": "两个同样可行候选不能只靠距离确定；A、B都把缺失语境当成确定证据。left意为离开了。",
+          "id": "en-pronoun-reference-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给Lena helps Omar且Omar用he/him，替换宾语正确？",
+          "options": [
+            "Lena helps him.",
+            "He helps Lena.",
+            "Lena helps he."
+          ],
+          "answer": 0,
+          "explanation": "A保留主体和动作对象；B调换角色，C未用宾格。不能因词语相同就认定意义保持。",
+          "id": "en-pronoun-reference-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "明确指向两本书，___ are new.应选？",
+          "options": [
+            "It",
+            "They",
+            "Them"
+          ],
+          "answer": 1,
+          "explanation": "两本书是复数主体，选They；It单数，Them为宾格。new是新的，不影响代词格。",
+          "id": "en-pronoun-reference-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "I go with ___，题给对象为复数they所指的人。",
+          "options": [
+            "they",
+            "their",
+            "them"
+          ],
+          "answer": 2,
+          "explanation": "介词with后用宾格them；they为主格，their为所有格限定形式，二者不适用于本题位置。",
+          "id": "en-pronoun-reference-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给The pupils carried the boxes. They were tired.且明确疲倦的是学生，they指？",
+          "options": [
+            "pupils",
+            "boxes",
+            "一定无法确定"
+          ],
+          "answer": 0,
+          "explanation": "题干已给疲倦对象为学生，A有依据；B只抓最近名词，C忽略额外语境。pupils为学生。",
+          "id": "en-pronoun-reference-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "改正Her helps he.，并说明两个代词各自在句中的工作。",
+          "answer": "She helps him。She作主语，him作helps的宾语；指称对象可保持，语法角色分别决定形态。",
+          "explanation": "逐处核对角色和形态，不要求把主宾格口诀当所有语域下的完整规则。",
+          "rubric": [
+            "She主格",
+            "him宾格",
+            "主体与对象区分",
+            "保留帮助方向"
+          ],
+          "id": "en-pronoun-reference-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：已知两名同学为主体，___ study here。",
+          "options": [
+            "Them",
+            "They",
+            "Him"
+          ],
+          "answer": 1,
+          "explanation": "两人作主语需They；Them宾格，Him单数宾格。不能因中文他们就任意选同义形式。",
+          "id": "en-pronoun-reference-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：Please call ___，指说话者我。",
+          "options": [
+            "I",
+            "my",
+            "me"
+          ],
+          "answer": 2,
+          "explanation": "call后说话者作对象，用me；I为主格，my为限定所属，均不能替换本题宾语。",
+          "id": "en-pronoun-reference-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两名同样可能的指代对象后出现he，无其他条件，应如何？",
+          "options": [
+            "保留歧义并请求或补充语境",
+            "永远取最近人名",
+            "随意选一个"
+          ],
+          "answer": 0,
+          "explanation": "证据不足需澄清，不能把近邻偏好当绝对语法法则，也不能随机填真实身份。",
+          "id": "en-pronoun-reference-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "题给The teachers help the children，将两组名词都换成人称代词，解释格与数。",
+          "answer": "They help them。teachers为复数主体用They；children为复数对象用them。",
+          "explanation": "要求角色与数同时正确；若写They help they，需标记宾格遗漏，而不是给准确专业总分。",
+          "rubric": [
+            "They复数主格",
+            "them复数宾格",
+            "主体teachers",
+            "对象children且方向未反"
+          ],
+          "id": "en-pronoun-reference-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "限基础主格/宾格与明确指代、歧义识别；不覆盖反身、所有格和全部单数they用法。基础教学补充，非2028最终大纲。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：en-nouns-countability、en-linking-and-verb-phrase；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "代词用于代替已经说清的人或事物，减少重复；首先要知道它代替谁。主格I我、you你或你们、he他、she她、it它、we我们、they他们，在本课作主语。原创句Mira reads. She reads.中She代替Mira，位置是动作的主体。The boxes are heavy. They are heavy.中They代替复数盒子。代词的单复数要跟所指对象和意义对应，而不是跟最近一个单词对应。本课先给清楚的所指，不用姓名推测现实人的性别；题目会明确称谓或给代词条件。\n\n宾格用于本课动词宾语和介词后：me、you、him、her、it、us、them。主语是主体，宾语是动作所涉及对象，不按中文词序死背。原创句She helps him她帮助他：She在动词前作主语，him是helps的宾语，不能写Her helps he。with是和……一起，with them用宾格them。I与me指同一个说话者但位置不同；you和it主宾同形，不代表所有代词都不变。先判断角色再选形态，比只看中文他更可靠。\n\n指代要结合前文的数、意义和语境，不能只取最近名词。原创句The students put the books away. They were tired.本课明确疲倦的是学生，所以they指students而不是books；tired是疲倦的，put away是收好。若两个候选同样可能，就需要补信息或重写，不能宣称代词一定最近指代。两名已知女性Nora和Mira交谈后写she smiled，只凭这句可能无法确定谁微笑，应改用姓名。读题时承认证据不足也是正确理解，不瞎猜身份。\n\n综合改写保留原意义，不能为了避免重复而丢失参与者。原创给定Omar is a boy，Lena helps Omar，可改Lena helps him；改成He helps Lena就把施事和对象反了。复数同理We meet them不是They meet us的原位替代，虽可能描写同一见面事件，句法角色已换。本课不展开反身代词、关系代词、形式主语或所有格；尤其不把its和it’s混入人称宾格记忆。闭卷先画主体→动作→对象，再用新人物、新数量迁移，主观答案按角色、形式和意义逐项核对。",
+      "definition": "人称代词依所指对象替代名词，并按本课句法角色采用主格或宾格；主语用主格，动词宾语和介词宾语用宾格，指代须有语境依据。",
+      "example": "Mira reads→She reads；boxes→They：先有清楚指称。\nShe helps him / with them：区分主语、动词宾语和介词宾语。\nNora told Mira...she smiled：两个候选时应澄清。\nLena helps Omar→Lena helps him：保留动作方向。",
+      "misconceptions": [
+        "he与him可以在任何位置任意换。",
+        "所有代词永远只指最近名词。",
+        "两个同样可行对象仍可无证据断言所指。",
+        "替换名词时可以调换主体与对象而称意义不变。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "Mira reads→She reads；boxes→They：先有清楚指称。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "She helps him / with them：区分主语、动词宾语和介词宾语。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "Nora told Mira...she smiled：两个候选时应澄清。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "Lena helps Omar→Lena helps him：保留动作方向。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-pronoun-reference-g1",
+          "description": "使用主格及数",
+          "successCriteria": "依据给定所指选择she/they等，不凭邻近词猜测。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b1",
+            "en-pronoun-reference-a1",
+            "en-pronoun-reference-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g2",
+          "description": "按角色使用宾格",
+          "successCriteria": "动词宾语和介词后使用him/them/me等。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b2",
+            "en-pronoun-reference-a2",
+            "en-pronoun-reference-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g3",
+          "description": "识别歧义指代",
+          "successCriteria": "区分可确定的所指与需澄清的同类候选。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b3",
+            "en-pronoun-reference-a3",
+            "en-pronoun-reference-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g4",
+          "description": "保留角色改写",
+          "successCriteria": "替换名词不颠倒主体和对象，说明不覆盖反身用法。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b4",
+            "en-pronoun-reference-a4",
+            "en-pronoun-reference-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "依据给定所指选择she/they等，不凭邻近词猜测。",
+        "动词宾语和介词后使用him/them/me等。",
+        "区分可确定的所指与需澄清的同类候选。",
+        "替换名词不颠倒主体和对象，说明不覆盖反身用法。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师核对指代消歧与角色教学；不自动评断自由文本语法"
+        ]
+      },
+      "sources": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/personal-pronouns",
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/personal-pronouns-possessives"
+      ]
+    },
+    {
+      "id": "en-articles-foundation",
+      "subject": "en",
+      "title": "冠词入门：a、an、the与不加冠词",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-pronoun-reference"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "recall": [
+        "闭卷解释a key的数与指称条件。",
+        "解释a university与an hour为何不按首字母选。",
+        "写首次也用the的明确情境，并给再次仍需核对的理由。",
+        "比较Water与the water in this bottle的指称范围。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "语境：一位身份未确定的学生，student为单数可数，选___ student。",
+          "options": [
+            "a",
+            "an",
+            "∅"
+          ],
+          "answer": 0,
+          "explanation": "student以辅音音素开头且单数可数，a合适；B音素不符，C在本题普通名词短语中缺限定。",
+          "id": "en-articles-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给hour的h不发音，表达一小时应为？",
+          "options": [
+            "a hour",
+            "an hour",
+            "an hours"
+          ],
+          "answer": 1,
+          "explanation": "hour紧接元音音素，用an；A按字母误判，C把单数冠词与复数混合，不适合本题。",
+          "id": "en-articles-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两句指同一只狗：I saw a dog. ___ dog was wet.",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "answer": 2,
+          "explanation": "已明确同一对象，可用The；A会引入另一未知成员，An又不合dog起始音素。",
+          "id": "en-articles-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "本课泛谈水这种物质：___ water is important.首字母大小写不计。",
+          "options": [
+            "∅",
+            "a",
+            "an"
+          ],
+          "answer": 0,
+          "explanation": "泛指不可数物质water本题不加冠词；a/an要求单数可数成员，不能直接放在此意义的water前。",
+          "id": "en-articles-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "新找到一个未知身份的小包，完整短语应为？",
+          "options": [
+            "a bags",
+            "a small bag",
+            "small a bag"
+          ],
+          "answer": 1,
+          "explanation": "a应置于整体名词短语前，bag单数；A混单复，C冠词位置不符合本题基本词序。",
+          "id": "en-articles-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给university开头发/j/，一个大学应选？",
+          "options": [
+            "an university",
+            "a universities",
+            "a university"
+          ],
+          "answer": 2,
+          "explanation": "/j/为辅音音素，因此a；A只看元音字母，B混单复。发音条件已在题干明确。",
+          "id": "en-articles-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "房间桌上只有一张双方可见的地图，首次请求拿地图，哪项可成立？",
+          "options": [
+            "Pass me the map.",
+            "首次绝不能用the",
+            "Pass me an maps."
+          ],
+          "answer": 0,
+          "explanation": "共同情境可唯一识别，A成立；B误把首次当绝对条件，C数与冠词均不匹配。",
+          "id": "en-articles-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "解释Books are useful与The books on my desk are useful在本课语境中的差别，并说明不能推出哪条绝对规则。",
+          "answer": "前句泛谈复数书，后句特指桌上可识别的一组书；不能推断所有泛指都只能用零冠词或所有首次提及都用a。",
+          "explanation": "需要语境理由和规则边界，不因写了泛指特指两词就自动给准确总分。",
+          "rubric": [
+            "前句泛谈",
+            "后句特指桌上书",
+            "说明可识别条件",
+            "拒绝首次必a等绝对化"
+          ],
+          "id": "en-articles-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日给定old以元音音素开始，一张旧地图选？",
+          "options": [
+            "a old map",
+            "an old map",
+            "an map old"
+          ],
+          "answer": 1,
+          "explanation": "看紧接的old而非map，用an；A忽略音素，C形容词位置不合本题结构。",
+          "id": "en-articles-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日water为不可数信息中的物质义，哪项不能直接成立？",
+          "options": [
+            "some water",
+            "the water in this bottle",
+            "a water（未给份量或商品义）"
+          ],
+          "answer": 2,
+          "explanation": "本题明确无份量或商品转义，不能直接a water；A可表示一些水，B可特指，均在本课范围内成立。",
+          "id": "en-articles-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日情境第一次提及但双方清楚是哪一辆车，哪条原则正确？",
+          "options": [
+            "the可由共同情境支持",
+            "首次永远只能a",
+            "the只能修饰复数"
+          ],
+          "answer": 0,
+          "explanation": "the取决于可识别性，不只前文出现次数；B过强，C忽略单数和特指不可数用法。",
+          "id": "en-articles-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "改正an university与a information，给出本课语境下的自然表达和原因。",
+          "answer": "a university，按已给/j/辅音音素；some information或a piece of information，information为不可数信息义。",
+          "explanation": "可接受符合语境的替代表达；没有给出确指对象时不要求一律改成the。",
+          "rubric": [
+            "a university正确",
+            "按音素解释",
+            "信息表达不用直接a information",
+            "解释计量或some而非机械加s"
+          ],
+          "id": "en-articles-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "基础冠词语境；不覆盖地名惯用、所有表类指结构或全部商品义。2028范围仍待年度核对。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：en-nouns-countability、en-pronoun-reference；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "冠词在名词前，帮助读者判断你说的是哪一个或哪一类。a/an通常用于单数可数名词，指一位或一个尚未能共同识别的成员；不是英语里所有名词前都放a。原创I found a key意为我找到一把钥匙，key是可数的钥匙，读者此时不知道哪一把。若有形容词也要整体看：a small bag一个小包。冠词不是专门标记主语或宾语的词；主语宾语都可能有冠词。先核对名词的数与可数性，再判断是否能共同识别，不能只按中文有没有一字决定。\n\na还是an看后面紧接词的起始发音，不只看字母。a university里university大学以辅音音素/j/起头，an hour一小时的h通常不发音，开头为元音音素；本课直接给出这两个词的读音条件，不要求凭拼写猜。an old map一张旧地图，紧接的old以元音音素开头，不能跳过old只看map。a/an不直接跟本课复数books或不可数information。选项题若缺发音或存在地区变体应说明，不能把字母表的元音字母当成全部答案。\n\nthe用于交谈双方或读者能够辨认的对象，前文提过是常见依据，但并非唯一依据。原创I saw a dog. The dog was wet.我看到一条狗，那条狗是湿的，第二句与前一条狗关联。若桌上明确只有一张本题地图，Pass me the map传给我那张地图，虽然第一次说map也能识别。the既可与单数也可与复数或特指不可数名词连用：the water in this bottle这瓶里的水。不能把首次必a、第二次必the当机械规则，仍需核对是否同一对象以及语境。\n\n零冠词指本课某些场合不加a/an/the，记作空格∅。一般谈论复数事物可说Books can be useful书可能有用，泛谈物质可说Water is important水很重要；这里不是特指哪一批书或哪瓶水。反过来，The books on my desk are new是我桌上那些可辨认的书。不能把零冠词理解为所有单数名词都可以裸用，也不声称一般概念只能用零冠词，本课不展开the加单数表类指等进阶用法。改错时依次检查名词数、所指是否可识别、紧接发音，写出选择理由再到隔日题迁移。",
+      "definition": "本课a/an限定一个尚不可共同识别的单数可数成员，形式看紧接音素；the标识可共同辨认对象；泛谈复数或不可数物质的给定语境可用零冠词。",
+      "example": "I found a key：一个未知身份成员，不是所有名词都加a。\na university；an hour；an old map：看紧接的音素。\na dog→the dog；情境唯一的the map可首次出现。\n泛谈Water与Books不加冠词，特指the water in this bottle。",
+      "misconceptions": [
+        "元音字母开头永远用an。",
+        "首次提及必用a，第二次必用the。",
+        "the只能接单数。",
+        "所有名词前都必须加a或an。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "I found a key：一个未知身份成员，不是所有名词都加a。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "a university；an hour；an old map：看紧接的音素。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "a dog→the dog；情境唯一的the map可首次出现。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "泛谈Water与Books不加冠词，特指the water in this bottle。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-articles-foundation-g1",
+          "description": "解释不定指称",
+          "successCriteria": "单数可数未知成员可用a/an，不按中文一字机械翻译。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-articles-foundation-b1",
+            "en-articles-foundation-a1",
+            "en-articles-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g2",
+          "description": "按发音选a/an",
+          "successCriteria": "给定发音条件下处理university、hour和形容词。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-articles-foundation-b2",
+            "en-articles-foundation-a2",
+            "en-articles-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g3",
+          "description": "使用可识别指称the",
+          "successCriteria": "结合前文或共同语境，不绝对化首次/再次规则。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-articles-foundation-b3",
+            "en-articles-foundation-a3",
+            "en-articles-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g4",
+          "description": "区分泛指与特指",
+          "successCriteria": "在本课复数/不可数语境选零冠词，给出选择条件。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-articles-foundation-b4",
+            "en-articles-foundation-a4",
+            "en-articles-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "单数可数未知成员可用a/an，不按中文一字机械翻译。",
+        "给定发音条件下处理university、hour和形容词。",
+        "结合前文或共同语境，不绝对化首次/再次规则。",
+        "在本课复数/不可数语境选零冠词，给出选择条件。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核冠词唯一答案的语境充分性及音素解释"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/comment/136255",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns"
+      ]
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "subject": "pol",
+      "title": "物质与意识：从实际出发，怎样发挥主动性",
+      "prerequisites": [
+        "pol-practice-verification"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "recall": [
+        "闭卷用座位例区分现实条件与愿望。",
+        "解释坚持从实际出发为何不是永远照搬旧数据。",
+        "列一个能动实践措施并说明为何不是空想。",
+        "用四步写一个方案，列出不能保证的结果。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "题给实际20座位，希望30人同时坐下，最符合从实际出发的是？",
+          "options": [
+            "先调查容量并调整安排",
+            "宣布愿望自动增加座位",
+            "不必核对数据"
+          ],
+          "answer": 0,
+          "explanation": "A区分愿望与客观条件；B把主观愿望当事实，C省略调查。题给数字不是任何场所的法定标准。",
+          "id": "pol-matter-consciousness-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "有证据显示条件变化，认识和方案应？",
+          "options": [
+            "永远沿用旧表",
+            "依据新事实修订",
+            "只看愿望是否强烈"
+          ],
+          "answer": 1,
+          "explanation": "实际会发展，认识需跟随证据修订；A守旧，C用愿望取代事实，不是发挥正确能动性。",
+          "id": "pol-matter-consciousness-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "意识对实际工作产生能动影响的合适说明？",
+          "options": [
+            "想法自动变资源",
+            "承认客观条件就无需行动",
+            "认识通过实践指导行动"
+          ],
+          "answer": 2,
+          "explanation": "C保留实践中介和条件；A是意志万能，B消极化物质决定意识，均不完整。",
+          "id": "pol-matter-consciousness-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "尊重规律与发挥主动性应如何？",
+          "options": [
+            "结合具体条件采取行动并检验",
+            "任意宣布规律失效",
+            "只要积极就保证成功"
+          ],
+          "answer": 0,
+          "explanation": "A同时保留条件、行动和检验；B否定客观性，C混淆主动实践与无条件结果承诺。",
+          "id": "pol-matter-consciousness-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "组织者没调查便认定已有足够资源，主要错误是？",
+          "options": [
+            "过分核对证据",
+            "以主观设想代替实际",
+            "认识随实际更新"
+          ],
+          "answer": 1,
+          "explanation": "B指出缺证据的主观化判断；A与题意相反，C恰是应采取的方法，不是题给错误。",
+          "id": "pol-matter-consciousness-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔壁新增房间已经核实，但继续照旧限制方案，最应改进？",
+          "options": [
+            "否定所有旧经验",
+            "宣称事实随意变化",
+            "根据新条件更新判断"
+          ],
+          "answer": 2,
+          "explanation": "C保留旧经验的适用边界并使用新证据；A全盘否定，B误读事实变化为随意性。",
+          "id": "pol-matter-consciousness-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "有困难时哪种行动最符合本课？",
+          "options": [
+            "分析资源、改进安排、检查效果",
+            "因客观困难放弃所有行动",
+            "只喊口号不实施"
+          ],
+          "answer": 0,
+          "explanation": "A是有条件的主动实践；B消极等待，C缺实践，均不能体现有效能动作用。",
+          "id": "pol-matter-consciousness-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "评析只要相信就不用纠错也必得350分，并给有条件的改进。",
+          "answer": "信心不等于客观成绩；需结合基础、时间和真实测试，采取纠错与复习并验证，不能保证分数。",
+          "explanation": "按事实条件、实践措施和验证核对答案。信心可能支持行动，但不是客观成绩证据；不能将术语匹配变成预测成绩或保证分数。",
+          "rubric": [
+            "区分愿望与结果",
+            "识别实际条件",
+            "提出纠错复习行动",
+            "保留检验与不保证分数边界"
+          ],
+          "id": "pol-matter-consciousness-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：现实资源与对资源的期望不同，制定方案应优先依据？",
+          "options": [
+            "期望值本身",
+            "查明的实际条件",
+            "想象中的条件"
+          ],
+          "answer": 1,
+          "explanation": "B给认识提供事实依据；A、C若未经证实都不能替代实际资源，并不否认合理目标的作用。",
+          "id": "pol-matter-consciousness-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日材料给出条件已改变，哪项不妥？",
+          "options": [
+            "重新调查",
+            "修订计划",
+            "旧认识永不需变"
+          ],
+          "answer": 2,
+          "explanation": "C使认识脱离发展中的实际；A、B可使主观更符合客观，但修订仍要证据。",
+          "id": "pol-matter-consciousness-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日认识的能动作用不意味着？",
+          "options": [
+            "脱离条件的想法自动实现",
+            "行动可由计划指导",
+            "实践结果可反过来修订认识"
+          ],
+          "answer": 0,
+          "explanation": "A把主观活动绝对化；B、C保留实践和反馈，都是本课合理联系。",
+          "id": "pol-matter-consciousness-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "用一个原创场景说明既不消极等待、又不凭愿望办事的步骤。",
+          "answer": "先查事实与资源，提出可行方案，落实行动，再比较结果修正；困难是条件而非放弃理由，目标也不是效果保证。",
+          "explanation": "接受不同非敏感生活例子，须有具体事实与可检验措施，而非纯口号。",
+          "rubric": [
+            "事实条件",
+            "可行方案",
+            "实践实施",
+            "结果检查与修正"
+          ],
+          "id": "pol-matter-consciousness-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "基础原理与方法论；不以2019原文确定2028时政或考试细则，不引申神经科学或临床结论。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：pol-practice-verification；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "哲学讨论的物质不是专指金属、木材等某一种东西，而着眼于不以人的意愿为转移的客观实在；意识包括人的想法、判断和计划等主观活动。先分清一个现实条件与对它的看法。原创情境：活动室实际有20个座位，组织者希望安排30人同时入座。希望不会自动增加座位，制定方案必须先调查真实容量；这说明不能拿愿望替代客观条件，不是说人没有改变条件的能力。此处数字仅为教学情境，不引出建筑消防等未核实标准。\n\n物质决定意识，落实到方法上要求从实际出发、实事求是；实际还会变化，旧判断不能永远照搬。原创情境：同一活动后来增加了隔壁房间，核实后可用座位改变，计划就应修订。若仍守着旧表格，就未反映新条件。承认条件变化不是说事实由主观随意决定，而是要求认识跟着有证据的实际发展。遇到材料题先列已知条件与未知项，再判断计划依据，避免把记住的哲学术语当现成结论。\n\n意识并非毫无作用，人能够提出目标、选择方案并通过实践改变条件。但这种能动作用不是想一想就凭空改变世界。原创情境：组织者根据调查安排分时段、协调新增场所，再用实际执行结果检查是否可行；计划通过行动产生影响，同时受资源、制度与规律制约。不能从承认物质决定意识推出躺着不行动，也不能从强调信心推出主观愿望万能。正确与错误的认识可能引导不同实践结果，判断仍需实际证据，不以动机良好代替效果。\n\n尊重客观规律与发挥主观能动性要结合。规律不是任意下命令就可取消的约束，但人可以认识条件、改进方法、利用规律。材料分析按事实条件→认识判断→实践措施→检验修正组织答案。原创反例：说只要相信自己，无需纠错便必达350分，把愿望当成结果；另一个极端是条件困难所以什么也不做，也否定主动实践。本课不讨论意识起源的全部科学细节，不由哲学原理推出个人健康、临床疗效或考试分数。闭卷回答要写具体措施及边界，而不只是抄口号。",
+      "definition": "物质范畴着眼客观实在，不由人的意愿随意改变；物质决定意识，同时意识能通过实践指导行动。方法要求从实际出发并将能动性与客观条件相结合。",
+      "example": "20座位与30人愿望：先查客观条件。\n新增房间后重新调查，不能守旧表。\n分时段和协调场地是经实践起作用的方案。\n事实→判断→措施→验证，不许把信心当分数保证。",
+      "misconceptions": [
+        "物质只指金属等具体材料。",
+        "坚持客观条件就只能消极等待。",
+        "想法不经行动便自动生成资源。",
+        "信心足够就能保证350分。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "20座位与30人愿望：先查客观条件。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "新增房间后重新调查，不能守旧表。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "分时段和协调场地是经实践起作用的方案。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "事实→判断→措施→验证，不许把信心当分数保证。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-matter-consciousness-g1",
+          "description": "区分现实条件与愿望",
+          "successCriteria": "不把物质限定为某种材料，也不用愿望替代容量。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b1",
+            "pol-matter-consciousness-a1",
+            "pol-matter-consciousness-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g2",
+          "description": "随实际变化修订认识",
+          "successCriteria": "指出新证据怎样改变旧计划。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b2",
+            "pol-matter-consciousness-a2",
+            "pol-matter-consciousness-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g3",
+          "description": "说明意识能动作用",
+          "successCriteria": "通过实际措施解释作用，避开消极等待与意志万能。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b3",
+            "pol-matter-consciousness-a3",
+            "pol-matter-consciousness-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g4",
+          "description": "结合规律与主动性",
+          "successCriteria": "给出具体实践与验证，不用哲学承诺考试或临床结果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b4",
+            "pol-matter-consciousness-a4",
+            "pol-matter-consciousness-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "不把物质限定为某种材料，也不用愿望替代容量。",
+        "指出新证据怎样改变旧计划。",
+        "通过实际措施解释作用，避开消极等待与意志万能。",
+        "给出具体实践与验证，不用哲学承诺考试或临床结果。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师复核物质范畴和意识作用边界"
+        ]
+      },
+      "sources": [
+        "https://www.nju.edu.cn/info/3391/318581.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "subject": "pol",
+      "title": "矛盾的同一性与斗争性：相互依存不等于没有差异",
+      "prerequisites": [
+        "pol-common-particular",
+        "pol-connections-foundation"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "recall": [
+        "解释哲学矛盾为什么不等于吵架。",
+        "闭卷列同一性的一个含义和一个不能推出的结论。",
+        "说明斗争性不必采取何种具体形式。",
+        "按四步分析一个新的生活或学习系统。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "哲学矛盾最恰当的入门理解是？",
+          "options": [
+            "同一系统中对立又联系的方面关系",
+            "所有吵架都穷尽其含义",
+            "任意两个词放一起"
+          ],
+          "answer": 0,
+          "explanation": "A保留统一体、对立与联系；B把哲学概念缩成争吵，C省略客观关系依据。",
+          "id": "pol-contradiction-unity-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "同一性意味着？",
+          "options": [
+            "双方完全相同",
+            "有条件的相互依存和贯通",
+            "任何条件下任意转化"
+          ],
+          "answer": 1,
+          "explanation": "B保留依存与条件；A抹掉差异，C把有条件的联系绝对化，不合本课含义。",
+          "id": "pol-contradiction-unity-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "斗争性不能机械等同于？",
+          "options": [
+            "对立方面的排斥倾向",
+            "在关系中存在差异和张力",
+            "所有问题都须暴力冲突"
+          ],
+          "answer": 2,
+          "explanation": "C把哲学对立套成唯一行为方式；A、B是给定语境的概念说明，不等于行动方案。",
+          "id": "pol-contradiction-unity-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "只有合作表象就断定不存在任何矛盾，其问题是？",
+          "options": [
+            "只看联系而忽略可能的对立",
+            "正确区分了双方",
+            "完成了所有实证调查"
+          ],
+          "answer": 0,
+          "explanation": "合作不自动排除差异和张力；B、C并无题干证据。仍需研究具体双方和条件。",
+          "id": "pol-contradiction-unity-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "两件互无关系的事被硬称为矛盾双方，缺少什么？",
+          "options": [
+            "术语字数",
+            "统一体与客观联系依据",
+            "更多口号"
+          ],
+          "answer": 1,
+          "explanation": "B要求关系证据；A和C不能把无关事物变成客观矛盾，也不能证明应用准确。",
+          "id": "pol-contradiction-unity-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "分析同一性时，哪句保留合理边界？",
+          "options": [
+            "所有差异必须消失",
+            "双方永远一样",
+            "依存与转化须看具体条件"
+          ],
+          "answer": 2,
+          "explanation": "C区别条件性联系与无差别同一；A、B取消了作为对立双方的具体差别。",
+          "id": "pol-contradiction-unity-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "在服务资源冲突中，哪项更合本课方法？",
+          "options": [
+            "同时查对立和依存证据再调整",
+            "只承认分歧否认共同系统",
+            "以斗争性为由拒绝调查"
+          ],
+          "answer": 0,
+          "explanation": "A完整看关系并行动；B割裂同一性，C用术语代替证据，不能构成有效分析。",
+          "id": "pol-contradiction-unity-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "用服务覆盖与质量情境分别说明同一性和斗争性，并写一项改进及限制。",
+          "answer": "在给定系统中二者为服务目标相互支撑；有限资源条件可有张力。可调整资源并监测效果，但不能宣称一切覆盖质量永远对立或调整必成功。",
+          "explanation": "要点按材料条件核对；没有可信专业自动评分，不从关键词出现计算总分。",
+          "rubric": [
+            "界定同一系统",
+            "依存证据",
+            "具体对立条件",
+            "改进与非普遍化边界"
+          ],
+          "id": "pol-contradiction-unity-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：双方有合作就必然完全相同，这种说法？",
+          "options": [
+            "必然正确",
+            "混淆同一性与无差别相同",
+            "可替代一切调查"
+          ],
+          "answer": 1,
+          "explanation": "同一性是在对立中的联系，不取消双方区别；A与C都把概念绝对化。",
+          "id": "pol-contradiction-unity-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：斗争性的合理边界是？",
+          "options": [
+            "只等于肢体冲突",
+            "任何人都必须对抗",
+            "具体对立不预设唯一处置方式"
+          ],
+          "answer": 2,
+          "explanation": "C区分哲学性质与具体行动形式；A、B把概念变成行为命令，超出证据和适用范围。",
+          "id": "pol-contradiction-unity-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日分析一个新系统，首先应？",
+          "options": [
+            "指明系统与双方及证据",
+            "随意选两个名称",
+            "只背术语不看材料"
+          ],
+          "answer": 0,
+          "explanation": "有明确对象和联系才可分析；B、C缺少关系与条件，无法检验是否适用。",
+          "id": "pol-contradiction-unity-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "为什么只强调和谐或只强调对立都可能片面？用一个有条件的原创例子说明。",
+          "answer": "前者可能忽视问题和张力，后者可能忽略共同系统与依存；应分别给两类证据并根据条件处理，而非预设所有关系均相同。",
+          "explanation": "接受不同合理场景，需说明边界；不以模型推出现实因果或法律裁决。",
+          "rubric": [
+            "联系不可代替对立",
+            "对立不可抹去依存",
+            "原创具体条件",
+            "措施或检验不绝对化"
+          ],
+          "id": "pol-contradiction-unity-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "原理基础；具体矛盾须证据与层次。历史文献非2028年度大纲，不用于法律或医学判断。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：pol-common-particular、pol-connections-foundation；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "哲学矛盾讨论的是事物中相互对立又相互联系的方面，不是日常争吵的同义词，也不是形式逻辑中一句话同时肯定与否定的全部含义。要先说是哪一个统一体、哪两方面、怎样对立。原创教学情境：一项服务同时要求在有限时间内提高覆盖与保障质量。二者可相互支持，也可能在给定资源下形成张力；必须根据具体材料说明，不能把任意两件互不相关的事硬凑成哲学矛盾。此情境是分析模型，不宣布所有覆盖与质量永远对立。\n\n同一性强调对立双方相互依存、贯通以及在一定条件下的转化可能，不是双方完全相同或没有差别。服务的覆盖如果没有质量支撑，形式上的覆盖未必实现目的；质量改进也需要实际服务过程。这可以帮助理解同处一个系统且相互制约的联系，但不能把教学模型当实证因果结果。分析同一性要写明共同系统与依存条件；不能一句合作就抹掉对立，也不能说任何两个方面都能在任何条件下无差别转化。\n\n斗争性强调对立方面相互排斥、相互分离的倾向，不等于只能使用冲突、暴力或彼此消灭。在本课给定资源配置中，新增一种服务可能与另一目标争用相同资源，需分析具体张力及其处理方法。同一性与斗争性相互联系，不能只看和谐就否认问题，也不能只看分歧就否认依存。原理用于解释结构与运动，处理具体问题仍要调查数据与规则；不能以哲学术语为借口随意损害他人权益或替代法律判断。\n\n回答材料题先列统一体与双方，再分别找依存证据和对立证据，最后给出有条件的改进措施。原创方案可以是重新配置资源并监测质量与覆盖，而不是口号式要求一方彻底消失。对立双方的关系会随条件变化，某一表象缓和不等于哲学矛盾永远消失。本课不重复共性个性单元，也不提前把主要矛盾与主要方面混为同一性斗争性；后续单元另讲比较层次。闭卷用新场景做两种证据分析，不以写出术语数量充当理解。",
+      "definition": "哲学矛盾反映具体统一体中对立方面的关系。同一性体现条件性的依存和贯通，斗争性体现对立的排斥趋势；二者相互联系而非取消彼此。",
+      "example": "先界定同一服务系统中的覆盖与质量，不能拼凑任意两件事。\n依存证据说明同一性，但不等于双方一模一样。\n有限资源张力可体现对立，不等于必须暴力冲突。\n统一体→双方→依存/对立证据→条件性措施。",
+      "misconceptions": [
+        "哲学矛盾只是吵架。",
+        "同一性就是双方毫无差异。",
+        "斗争性只允许暴力冲突。",
+        "任意两件无关事物都可硬配成矛盾。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "先界定同一服务系统中的覆盖与质量，不能拼凑任意两件事。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "依存证据说明同一性，但不等于双方一模一样。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "有限资源张力可体现对立，不等于必须暴力冲突。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "统一体→双方→依存/对立证据→条件性措施。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-contradiction-unity-g1",
+          "description": "辨认哲学矛盾",
+          "successCriteria": "说明统一体和具体双方，区别争吵与任意拼凑。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b1",
+            "pol-contradiction-unity-a1",
+            "pol-contradiction-unity-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g2",
+          "description": "解释同一性",
+          "successCriteria": "说出条件性依存与联系，不等于无差别相同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b2",
+            "pol-contradiction-unity-a2",
+            "pol-contradiction-unity-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g3",
+          "description": "解释斗争性及统一",
+          "successCriteria": "给出具体对立，不把斗争性等同暴力或否认依存。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b3",
+            "pol-contradiction-unity-a3",
+            "pol-contradiction-unity-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g4",
+          "description": "进行双面材料分析",
+          "successCriteria": "分别引用依存和对立证据，提出有条件措施。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b4",
+            "pol-contradiction-unity-a4",
+            "pol-contradiction-unity-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "说明统一体和具体双方，区别争吵与任意拼凑。",
+        "说出条件性依存与联系，不等于无差别相同。",
+        "给出具体对立，不把斗争性等同暴力或否认依存。",
+        "分别引用依存和对立证据，提出有条件措施。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "理论教师复核同一性/斗争性及服务情境类比边界"
+        ]
+      },
+      "sources": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "subject": "pol",
+      "title": "主要矛盾与主要方面：先分清比较的是哪一层",
+      "prerequisites": [
+        "pol-contradiction-unity",
+        "pol-common-particular"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "recall": [
+        "闭卷说主要矛盾比较哪些对象。",
+        "画甲乙与甲内A/B，标明两个层次。",
+        "解释重点不等于放弃所有次要工作。",
+        "给出转化所需的条件证据与答题顺序。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "在矛盾甲和乙之间识别决定当前重点的一项，属于分析？",
+          "options": [
+            "主要矛盾",
+            "甲内部主要方面",
+            "共性个性同义词"
+          ],
+          "answer": 0,
+          "explanation": "A是多个矛盾之间的比较；B是同一矛盾内部层次，C混淆不同哲学概念。",
+          "id": "pol-primary-contradictions-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "甲内部A/B中A起支配作用，应称？",
+          "options": [
+            "另一种主要矛盾",
+            "甲的主要方面",
+            "任意外部条件"
+          ],
+          "answer": 1,
+          "explanation": "B保留同一矛盾内部比较；A跳到多个矛盾层次，C忽视题给双方关系。",
+          "id": "pol-primary-contradictions-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两点论与重点论结合要求？",
+          "options": [
+            "所有工作平均分配",
+            "只做重点永远不顾其余",
+            "抓关键并兼顾必要协同"
+          ],
+          "answer": 2,
+          "explanation": "C同时看到主次；A取消重点，B割裂整体联系。资源安排仍需看具体阶段和条件。",
+          "id": "pol-primary-contradictions-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "工作重点应随什么调整？",
+          "options": [
+            "有证据的制约关系变化",
+            "说话者临时偏好",
+            "固定标签永不改变"
+          ],
+          "answer": 0,
+          "explanation": "A用实际关系说明变化；B主观任意，C固定化主次，都不符合条件性分析。",
+          "id": "pol-primary-contradictions-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "题给多个问题中供需瓶颈制约其他改善，当前优先处理供需，依据是？",
+          "options": [
+            "问题名称最长",
+            "对整体的关键制约作用",
+            "人数最多就一定主要"
+          ],
+          "answer": 1,
+          "explanation": "B对应题给作用关系；A、C用表面特征代替实际影响，不足以确定主次。",
+          "id": "pol-primary-contradictions-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "将主要矛盾甲和甲内主要方面A当同一概念，错误在？",
+          "options": [
+            "保留了层次",
+            "强调具体条件",
+            "混淆多个矛盾与同一矛盾内部比较"
+          ],
+          "answer": 2,
+          "explanation": "C指出比较对象不同；A、B并不是题给错误。应该先画清甲乙和A/B再命名。",
+          "id": "pol-primary-contradictions-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "瓶颈改善后仍需信息协同，最恰当措施？",
+          "options": [
+            "优先关键并保留必要支持",
+            "宣布次要工作永远无用",
+            "把所有问题完全等量处理"
+          ],
+          "answer": 0,
+          "explanation": "A优先题给关键制约并保留必要支持，兼顾重点与整体；B把次要工作永久排除，C无视主次平均化，均忽略题给作用关系。",
+          "id": "pol-primary-contradictions-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "设当前甲为主要矛盾，甲内A为主要方面。分别说明两判断比较什么，并给未来可能改变判断的条件。",
+          "answer": "甲与其他矛盾比较；A与甲内另一方比较。过程关键制约或内部支配地位变化，需要新的证据和阶段条件，不能任意宣布。",
+          "explanation": "先核对甲乙是多个矛盾，再核对A/B是甲内部双方。变化需要阶段和作用证据，不把抽象模型当现实社会性质的自动裁定。",
+          "rubric": [
+            "主要矛盾比较多个矛盾",
+            "主要方面比较内部双方",
+            "变化须作用关系证据",
+            "不混同或永恒化"
+          ],
+          "id": "pol-primary-contradictions-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日把一个过程的三个矛盾列出，再找关键制约，这是？",
+          "options": [
+            "只在一个矛盾内比较",
+            "主要矛盾层次",
+            "等于统计人数"
+          ],
+          "answer": 1,
+          "explanation": "B正确定位多个矛盾间比较；A是另一层次，C不能单独提供决定性作用证据。",
+          "id": "pol-primary-contradictions-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日同一矛盾的支配一方改变，应优先表述为？",
+          "options": [
+            "主要矛盾数目必增加",
+            "所有社会性质均相同",
+            "该矛盾主次方面发生转化"
+          ],
+          "answer": 2,
+          "explanation": "C忠实于内部支配关系变化；A、B均超出题给抽象模型，不是必然结论。",
+          "id": "pol-primary-contradictions-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "抓重点但不忽视必要支持，避免的是？",
+          "options": [
+            "平均用力与片面一点论",
+            "所有调查",
+            "根据条件调整"
+          ],
+          "answer": 0,
+          "explanation": "A是两种片面性；调查和条件调整是方法要求，不是应排除的行为。",
+          "id": "pol-primary-contradictions-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "新阶段乙成为主要瓶颈，而甲仍存在。应怎样修订工作安排，哪些结论不能推出？",
+          "answer": "依据新证据把重点转向乙，并评估甲与其他支持；不能由重点转移断言甲消失、所有资源平均分配或乙永远主要。",
+          "explanation": "允许不同具体协同方案，但必须说明乙为何成为新瓶颈，且甲仍存在。只调整主次重点，不据此断言甲消失或乙永久主要。",
+          "rubric": [
+            "承认新瓶颈证据",
+            "调整重点",
+            "保留甲存在与协同",
+            "不推出永久主次或完全平均"
+          ],
+          "id": "pol-primary-contradictions-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "只作原理比较层次；不自动套用现实社会/政治结论，不宣称2028年度范围确认。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：pol-contradiction-unity、pol-common-particular；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "复杂过程可以有多种矛盾，分析主要矛盾是在这些不同矛盾之间比较哪一个对过程起关键制约作用；不是简单选声音最大或数字最多的问题。原创项目同时有供需不匹配、协作不顺、信息不全等问题，题干若给明确证据显示当前供需不匹配制约其余问题，就据这个条件确定重点。教学判断依赖给定材料，不是宣称现实项目永远同一短板。先列过程、阶段和多个问题，再看影响关系；不能凭个人偏好直接宣布主要。\n\n矛盾的主要方面是在同一矛盾内部两方面之间比较起支配作用的一方，分析层次与主要矛盾不同。原创抽象模型：过程有矛盾甲和乙，当前甲是主要矛盾；甲内部有A和B，A处于支配地位。甲和A不是同一种比较，不能把A直接写成多个矛盾中的主要矛盾。事物性质主要由居于支配地位的矛盾主要方面规定，使用时仍须界定所讨论事物和层次，不能把每个现实问题的性质都用单个数字决定。\n\n两点论要求看到主要和次要，重点论要求把力量集中在关键处，二者结合而非相互排斥。只抓重点却放弃其他相关工作可能破坏整体；把所有问题完全平均处理又可能错失关键。原创题给供需是当前重点，信息工作仍能支持改善，则优先补供需并保持必要信息协同，而不是宣布信息永远无用。这里是在明确材料下训练资源分析，不编制现实政策，也不把只做某一项的APP简洁入口误解为永久忽略其他学科。\n\n主次关系能在一定条件下转化，需要新的实际证据，而不是永远固定或随意宣布。若当前瓶颈缓解、协作成为主要制约，工作重点应据调查变化；同一矛盾内部A/B地位变化又是另一层次。答题按比较层次→主次依据→统筹措施→变化条件组织。不能把主要矛盾、主要方面、共性个性三个概念当同义词。本课不扩展特定历史时期的社会主要矛盾结论，相关年度内容需另核实；闭卷要能在新抽象模型中标注而非背现成名词。",
+      "definition": "主要矛盾是在复杂过程中多个矛盾间起关键作用的矛盾；主要方面是在同一矛盾内部起支配作用的一方。两者比较层次不同，主次取决于具体阶段与条件。",
+      "example": "多个矛盾甲乙之间找当前关键制约：主要矛盾。\n甲内部A/B起支配作用的一方：主要方面。\n重点补关键并保留必要协同，不是平均用力或只顾一点。\n条件变动后重查主次，分清不同层次的转化。",
+      "misconceptions": [
+        "主要矛盾与主要方面是同义词。",
+        "声音最大或人数最多必然主要。",
+        "抓重点就是永远不做其余工作。",
+        "确定一次主次就永远不再变化。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "多个矛盾甲乙之间找当前关键制约：主要矛盾。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "甲内部A/B起支配作用的一方：主要方面。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "重点补关键并保留必要协同，不是平均用力或只顾一点。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "条件变动后重查主次，分清不同层次的转化。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-primary-contradictions-g1",
+          "description": "识别主要矛盾的层次",
+          "successCriteria": "在多个矛盾间据制约证据比较。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b1",
+            "pol-primary-contradictions-a1",
+            "pol-primary-contradictions-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g2",
+          "description": "区分主要方面",
+          "successCriteria": "在同一矛盾双方内部比较，不把甲与A混同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b2",
+            "pol-primary-contradictions-a2",
+            "pol-primary-contradictions-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g3",
+          "description": "结合两点与重点",
+          "successCriteria": "优先关键同时安排必要协同。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b3",
+            "pol-primary-contradictions-a3",
+            "pol-primary-contradictions-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g4",
+          "description": "按条件调整判断",
+          "successCriteria": "有证据才谈主次转化，不固定化或主观宣布。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b4",
+            "pol-primary-contradictions-a4",
+            "pol-primary-contradictions-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "在多个矛盾间据制约证据比较。",
+        "在同一矛盾双方内部比较，不把甲与A混同。",
+        "优先关键同时安排必要协同。",
+        "有证据才谈主次转化，不固定化或主观宣布。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "理论教师复核性质判断的表述与主要方面的适用层次"
+        ]
+      },
+      "sources": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    },
+    {
+      "id": "353-mean-median",
+      "subject": "353",
+      "title": "均数与中位数：数据中心不等于每个人都一样",
+      "prerequisites": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "mapping": [
+        "s27-18-2"
+      ],
+      "recall": [
+        "闭卷写出均数计算步骤及缺失处理边界。",
+        "用奇数、偶数n分别说明中位数位置规则。",
+        "解释一个极端值为何可能拉动均数，能否直接删除。",
+        "列中心报告必要信息和两个不能推出的结论。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "三名有效观测2、4、6分钟的均数是？",
+          "options": [
+            "4分钟",
+            "12分钟",
+            "6分钟"
+          ],
+          "answer": 0,
+          "explanation": "加总12除以有效n=3得4分钟；B只求和，C取最大值，均未完成均数定义。",
+          "id": "353-mean-median-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "数据8、2、10、6分钟先排序后，中位数为？",
+          "options": [
+            "6分钟",
+            "7分钟",
+            "8分钟"
+          ],
+          "answer": 1,
+          "explanation": "排序2、6、8、10，中间6与8均值7；A来自原顺序中间2与10，C只取排序后一个中间值。",
+          "id": "353-mean-median-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "对1、2、3、4、40分钟，哪项正确？",
+          "options": [
+            "均数3、中位数10",
+            "40必为错误必须删掉",
+            "均数10、中位数3"
+          ],
+          "answer": 2,
+          "explanation": "和50/n5=10，排序中间第3个为3；A颠倒指标，B对记录正确性作无依据断言。",
+          "id": "353-mean-median-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两组均数都4分钟，就能说明？",
+          "options": [
+            "仅凭中心不能断定分布或个体相同",
+            "每个人均等于4",
+            "两个总体完全一致"
+          ],
+          "answer": 0,
+          "explanation": "A保留描述边界；B把均数当每个人，C把小样本中心当总体一致，均超出证据。",
+          "id": "353-mean-median-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "number",
+          "stem": "有效时间1、3、5分钟，一条缺失不计入。均数是多少？输入分钟。",
+          "answer": 3,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "有效和9、n3，均数3分钟；把缺失作0或把分母写4都会改变问题，应另报缺失数。",
+          "id": "353-mean-median-a1",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "已排序2、4、8、10分钟，按本课规则中位数是多少？",
+          "answer": 6,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "n4为偶数，中间4与8的均值是6分钟，不能取4或8之一；输出仍为时间单位。",
+          "id": "353-mean-median-a2",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "偏斜资料存在真实大值，最合适做法？",
+          "options": [
+            "自动删最大值",
+            "均数永远不能算",
+            "核查并按问题报告适合的中心与分布"
+          ],
+          "answer": 2,
+          "explanation": "C要求证据与问题导向；A未经核查删除，B混淆可计算性与指标解释适合度。",
+          "id": "353-mean-median-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "报告一组5人时间均数4分钟，能否推出人人4分钟或全国均数4？还应说明什么？",
+          "answer": "不能；需说明变量、单位、有效n、缺失与样本来源，并补分布或离散信息。样本中心不保证个体或总体相同。",
+          "explanation": "样本中心只是描述已观察到的一组数据，不等于每个人或全国参数；应同时报告变量、单位、有效n及来源，不凭均数一词给完整分数。",
+          "rubric": [
+            "拒绝人人相同",
+            "拒绝全国外推",
+            "报告单位n和来源",
+            "补缺失与分布信息"
+          ],
+          "id": "353-mean-median-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日新数据3、5、7分钟的均数，输入分钟。",
+          "answer": 5,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "总和15除以3得5分钟，注意输入正确单位；这是换数据的计算迁移，不沿用原例结果。",
+          "id": "353-mean-median-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "隔日新顺序9、1、11、7、3分钟的中位数，输入分钟。",
+          "answer": 7,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "排序1、3、7、9、11，n5的中间第3位为7分钟；原第3行11不是中位数，需先按大小排序。",
+          "id": "353-mean-median-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "数据一个值由40增至80，其余1、2、3、4不变，中位数？",
+          "options": [
+            "仍为3分钟",
+            "必增一倍",
+            "必等于新均数"
+          ],
+          "answer": 0,
+          "explanation": "排序中间值仍3，说明对尾部数值的敏感性较低；B、C不符合本题位置定义，不推广为任何变化均无影响。",
+          "id": "353-mean-median-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "两组2、4、6与0、4、8分钟均数一样，写中心计算并指出还须比较什么。",
+          "answer": "两组和均为12，n3，均数4分钟；需比较离散和分布以及样本来源，不能断定服务体验完全相同。",
+          "explanation": "计算与解释分开核对；尚未教授推断检验，不据此宣布显著差异或临床意义。",
+          "rubric": [
+            "两组各除以3",
+            "4分钟单位",
+            "离散分布差异",
+            "不作显著性或总体保证"
+          ],
+          "id": "353-mean-median-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "只作有限数值观测的描述；不涵盖加权均数、分组近似、全部分位数定义和推断。2027大纲仅2028暂定参考。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "provisional-previous-year",
+      "prerequisiteExplanation": "先修：353-variable-types、353-frequency-denominator；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "描述数据中心是在回答这一组观测大致处在什么水平，不是在断定每个人都等于这个数字。先确认变量是数值、单位一致、哪些记录有效。均数把所有有效数值相加再除以个数n。原创三次等待时间2、4、6分钟，和为12分钟，除以3得4分钟；每个有效观测在本课简单算术均数中权重相同。缺失时间不是0，若有一条缺失，应说明有效n而不是擅自加入总和。不同单位先规范，不能把2分钟与120秒不换算就当2和120求平均。\n\n中位数从排序后的位置找中心，不先把所有数加起来。奇数n取第(n+1)/2个；偶数n在本课数值数据约定中取中间两数均值。原创原顺序8、2、10、4分钟，先排为2、4、8、10，取4与8均值为6分钟；不能取原记录的中间两行。重复值仍是有效观测，不能为了排序就删除。中位数与均数单位同原变量；对等级类别能描述位置但不能未经说明把类别编码当等距数值平均，本课计算只用明确数值变量。\n\n极端观测会影响均数，中位数通常对其具体数值不那么敏感。原创1、2、3、4、40分钟：均数50/5=10，中位数3。不是说40一定测错，也不是见到大值就删除；需要核查记录和情境，保留真实极端值并说明分布。选择指标要看研究问题和数据形态，偏斜等待时间可报告中位数及后续离散指标；不能推出均数只有正态时才可计算，或中位数总能替代所有分析。这里比较的是样本描述，不做群体推断或治疗效果判断。\n\n报告中心必须同时说清变量、单位、有效样本量和指标名称，后续还要看离散程度。两个组均数相同可能一个集中一个分散，所以不能仅凭均数称人群完全相同。原创两组2、4、6与0、4、8分钟都均数4，但变化幅度不同。材料题先写计算过程，再解释结果只描述谁，最后说明缺失与异常值处理；不可由几人的等待时间直接推全国水平。错题区分分母、排序、单位和过度解释，隔日换数据验证，不以记住4或6这两个结果当掌握。",
+      "definition": "算术均数为有效数值总和除以有效个数n；数值样本中位数在排序后取奇数n的中间值或偶数n的中间两值均值。两者描述中心，不等于个体和总体结论。",
+      "example": "2+4+6=12；12/3=4分钟，n是有效观测数。\n8、2、10、4先排2、4、8、10；中位数(4+8)/2=6分钟。\n1、2、3、4、40：均数10、中位数3，不自动删40。\n2、4、6与0、4、8均数相同，中心相同不等于分布相同。",
+      "misconceptions": [
+        "缺失值可不说明便按0算。",
+        "中位数无需排序。",
+        "真实极端值必须删除。",
+        "均数相同就证明分布相同。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "2+4+6=12；12/3=4分钟，n是有效观测数。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "8、2、10、4先排2、4、8、10；中位数(4+8)/2=6分钟。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "1、2、3、4、40：均数10、中位数3，不自动删40。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "2、4、6与0、4、8均数相同，中心相同不等于分布相同。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-mean-median-g1",
+          "description": "计算简单算术均数",
+          "successCriteria": "有效n、加总和单位正确，不把缺失记0。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-mean-median-b1",
+            "353-mean-median-a1",
+            "353-mean-median-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g2",
+          "description": "计算奇偶样本中位数",
+          "successCriteria": "先排序，再按规定位置或两数均值求中心。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-mean-median-b2",
+            "353-mean-median-a2",
+            "353-mean-median-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g3",
+          "description": "解释极端值与指标选择",
+          "successCriteria": "比较均数/中位数但不自动删值或限制均数仅正态。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-mean-median-b3",
+            "353-mean-median-a3",
+            "353-mean-median-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g4",
+          "description": "规范报告与推断边界",
+          "successCriteria": "报告变量单位n，拒绝由中心推个体相同或全国结论。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-mean-median-b4",
+            "353-mean-median-a4",
+            "353-mean-median-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "有效n、加总和单位正确，不把缺失记0。",
+        "先排序，再按规定位置或两数均值求中心。",
+        "比较均数/中位数但不自动删值或限制均数仅正态。",
+        "报告变量单位n，拒绝由中心推个体相同或全国结论。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计教师复核中心指标选用与外推边界",
+          "零基础排序及缺失规则是否清晰"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm"
+      ]
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "subject": "353",
+      "title": "离散程度：极差、样本标准差与四分位距",
+      "prerequisites": [
+        "353-mean-median"
+      ],
+      "mapping": [
+        "s27-18-2"
+      ],
+      "recall": [
+        "用相同均数两组数据说明为何还需离散。",
+        "闭卷写s²与s步骤、n条件和单位。",
+        "已给Q1、Q3时如何求IQR，未给时为何先问算法。",
+        "列SD不能自动替代的两个量和解释边界。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "数据1、3、5分钟的极差为？",
+          "options": [
+            "4分钟",
+            "5分钟",
+            "3分钟"
+          ],
+          "answer": 0,
+          "explanation": "最大5减最小1得4；B只取最大，C混作均数。极差只利用端点，不等于所有波动信息。",
+          "id": "353-dispersion-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "数据1、3、5分钟，均数3，按样本公式求方差s²。",
+          "answer": 4,
+          "unit": "分钟²",
+          "tolerance": 1e-10,
+          "explanation": "平方偏差和4+0+4=8，n−1=2，因此s²=4分钟²；分母和平方单位都要保留。",
+          "id": "353-dispersion-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "给定Q1=2、Q3=7分钟，IQR是？",
+          "options": [
+            "4.5分钟",
+            "7分钟",
+            "5分钟"
+          ],
+          "answer": 2,
+          "explanation": "IQR=7−2=5分钟；A误把两分位数取平均，B只取上四分位数，均不合定义。",
+          "id": "353-dispersion-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "样本SD在本课主要描述？",
+          "options": [
+            "观测值的离散程度",
+            "均数标准误的同义词",
+            "仪器准确度的充分证明"
+          ],
+          "answer": 0,
+          "explanation": "SD描述样本观测离散；B混淆SE，C把统计分散等同测量准确，均缺适用依据。",
+          "id": "353-dispersion-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "number",
+          "stem": "数据2、3、4分钟的极差是多少？",
+          "answer": 2,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "最大4−最小2=2分钟，与另一组同均数也可以有不同极差；不直接推出显著差异。",
+          "id": "353-dispersion-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "数据2、4、6分钟，平方偏差和8，按样本SD公式求s。",
+          "answer": 2,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "n3，样本方差8/(3−1)=4分钟²，开平方s=2分钟；不能把4直接当SD。",
+          "id": "353-dispersion-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "软件对同一小样本给出略异Q1/Q3，应先核对？",
+          "options": [
+            "哪家品牌更贵",
+            "是否可任意挑一个",
+            "采用的分位数定义与插值约定"
+          ],
+          "answer": 2,
+          "explanation": "C解释有限样本算法差异；A、B不能验证数学定义。本课直接给四分位数，不隐瞒算法条件。",
+          "id": "353-dispersion-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "为什么等待时间SD=2分钟，不能说均数标准误2分钟或仪器误差2分钟？",
+          "answer": "SD描述个体观测离散；SE与均数估计精度有关并有额外样本假设；仪器误差另需测量评价。三者定义和用途不同。",
+          "explanation": "本课不要求套SE公式，重点辨认统计量含义；不得凭SD给置信区间或临床结论。",
+          "rubric": [
+            "SD为观测离散",
+            "不自动等于SE",
+            "仪器评价另需证据",
+            "保留推断与测量边界"
+          ],
+          "id": "353-dispersion-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日数据2、5、8分钟的极差，输入分钟。",
+          "answer": 6,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "最大8减最小2得6分钟；此题换数据复查端点计算，不把中心值5当极差。",
+          "id": "353-dispersion-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "隔日数据2、5、8分钟，均数5，样本方差是多少？",
+          "answer": 9,
+          "unit": "分钟²",
+          "tolerance": 1e-10,
+          "explanation": "平方偏差9+0+9=18，n−1=2，方差9分钟²；本题问方差，不应再开方报3分钟。",
+          "id": "353-dispersion-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "隔日已给Q1=4、Q3=10分钟，IQR为？",
+          "options": [
+            "6分钟",
+            "7分钟",
+            "14分钟"
+          ],
+          "answer": 0,
+          "explanation": "10−4=6分钟；B平均，C相加，均不对应中间部分的跨度定义。",
+          "id": "353-dispersion-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "某组有真实极端等待值，应如何选报中心与离散，能否直接删值或断言SD不能算？",
+          "answer": "先核查记录与问题，可用中位数/IQR说明中段，也可按目的报告均数/SD并解释极端值影响；不自动删除，也不把非正态等同SD不可计算。",
+          "explanation": "选择可有合理差异，须解释理由和分位数约定；主观参考不自动产生专业分数。",
+          "rubric": [
+            "核查而非自动删",
+            "选择配套中心与离散",
+            "说明尾部影响",
+            "区分计算性与解释适合度"
+          ],
+          "id": "353-dispersion-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "有限样本描述，样本方差n−1且n≥2；IQR题给Q1/Q3。不覆盖SE计算、推断或测量不确定度替代。2028范围暂定。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "provisional-previous-year",
+      "prerequisiteExplanation": "先修：353-mean-median；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "离散程度描述观测之间有多分散，补充均数或中位数不能表达的信息。先确认同一变量同一单位。原创两组1、3、5与2、3、4分钟，均数都是3，但第一组更分散。极差是最大值减最小值，分别4和2分钟；它只看两端，不概括每个数据离中心的距离，也随样本和极端值变化。极差不是最大值本身，更不能只看一个大极差就断定流程危险或存在统计显著性。报告中心和离散要说明是哪一种指标，不能把所有波动都叫误差。\n\n本课样本方差s²把每个值与样本均数的差平方后相加，再除以n−1，要求n≥2；样本标准差s取方差的平方根。原创1、3、5分钟：均数3，偏差−2、0、2，平方4、0、4，平方和8，除以2得s²=4分钟²，再开方s=2分钟。平方消除正负抵消，方差单位为原单位平方，SD回到原单位。本课不把除n的总体描述方差与此样本公式混用，也不宣称s本身就是总体标准差的无偏估计；推断性质留待后课。\n\n四分位距IQR为Q3−Q1，关注中间部分的数据跨度，单位仍同原变量。本课直接给Q1和Q3，避免把不同软件的有限样本分位数算法混成唯一规则。若Q1=2、Q3=7分钟，IQR=5分钟；它不是(Q1+Q3)/2，也不是把中位数减最小值。出现偏斜或极端观测时，IQR可与中位数一起描述，但不能因此说SD在所有非正态数据上不能计算，或IQR必定比SD小。具体分位数计算约定必须另说明，不把图上估值冒充精确分位数。\n\n选择离散指标要结合分布、问题和解释目的。SD会受到极端值影响，IQR主要看中间部分，两者并非同一个量；SD是样本观测离散，不是测量仪器准确度、不等于均数标准误，也不是置信区间。原创报告等待时间中位数与IQR，可说明典型位置和中段跨度，却不能直接给个体最大等待或全国风险。算题按中心、偏差、平方和、分母、开方、单位逐步检查；错因分别记录公式、分母和量纲，延迟题改数据再算。",
+      "definition": "极差为最大值减最小值；本课样本方差为平方偏差和除以n−1，n≥2，SD为其平方根。IQR为已给Q3减Q1；各量描述离散而非自动提供推断或测量准确度。",
+      "example": "1、3、5极差5−1=4；2、3、4极差4−2=2分钟。\n1、3、5的平方偏差和8；s²=8/(3−1)=4，s=2分钟。\n已给Q1=2、Q3=7分钟：IQR=5分钟；不猜软件算法。\nSD≠标准误/仪器准确度；先选指标并说明数据与单位。",
+      "misconceptions": [
+        "极差就是最大值。",
+        "样本方差与SD同单位同数值。",
+        "SD与均数SE或仪器误差是同义词。",
+        "所有软件的有限样本分位数算法必相同。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "1、3、5极差5−1=4；2、3、4极差4−2=2分钟。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "1、3、5的平方偏差和8；s²=8/(3−1)=4，s=2分钟。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "已给Q1=2、Q3=7分钟：IQR=5分钟；不猜软件算法。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "SD≠标准误/仪器准确度；先选指标并说明数据与单位。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-dispersion-foundation-g1",
+          "description": "计算并解释极差",
+          "successCriteria": "最大减最小，不把同均数当同离散。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b1",
+            "353-dispersion-foundation-a1",
+            "353-dispersion-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g2",
+          "description": "计算样本方差与SD",
+          "successCriteria": "n−1、平方根和单位清楚，限定n≥2。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b2",
+            "353-dispersion-foundation-a2",
+            "353-dispersion-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g3",
+          "description": "使用已给四分位数",
+          "successCriteria": "IQR=Q3−Q1，说明分位数算法仍需约定。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b3",
+            "353-dispersion-foundation-a3",
+            "353-dispersion-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g4",
+          "description": "区分离散与其他量",
+          "successCriteria": "不把SD等同SE、仪器误差或临床风险，按分布选指标。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b4",
+            "353-dispersion-foundation-a4",
+            "353-dispersion-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "最大减最小，不把同均数当同离散。",
+        "n−1、平方根和单位清楚，限定n≥2。",
+        "IQR=Q3−Q1，说明分位数算法仍需约定。",
+        "不把SD等同SE、仪器误差或临床风险，按分布选指标。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计/计量教师复核样本公式与SD/SE边界",
+          "分位数定义不可默认为所有软件一致"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm"
+      ]
+    },
+    {
+      "id": "353-study-design-foundation",
+      "subject": "353",
+      "title": "观察性与实验性研究：谁决定暴露，怎样设置比较",
+      "prerequisites": [
+        "353-variable-types",
+        "353-public-health-prevention"
+      ],
+      "mapping": [
+        "s27-7-1",
+        "s27-7-2"
+      ],
+      "recall": [
+        "闭卷用一个问题标出对象、暴露、结局。",
+        "观察与实验的关键分类依据是什么，问卷是否足够判断。",
+        "分别解释随机抽样与随机分配，说明比较组为何重要。",
+        "列关联不能直接推因果的理由及人体研究边界。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "研究社区教育安排与后续行为，教育安排在本问题中是？",
+          "options": [
+            "暴露/研究因素",
+            "必然有害物",
+            "研究结局本身"
+          ],
+          "answer": 0,
+          "explanation": "因素不一定有害，A符合研究问题；B把暴露限定为危险物，C混淆原因候选与后续结果。",
+          "id": "353-study-design-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "仅记录居民自然形成的行为与结局，未分配目标暴露，属于？",
+          "options": [
+            "因为问卷所以必为实验",
+            "观察性研究",
+            "必为随机双盲试验"
+          ],
+          "answer": 1,
+          "explanation": "B依据未主动分配暴露；A看工具分类，C凭空补随机和盲法条件，都不符合题设。",
+          "id": "353-study-design-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "随机抽样与随机分配的区别正确是？",
+          "options": [
+            "完全同义",
+            "都保证样本与总体完全一致",
+            "选谁入样本与给样本何安排不同"
+          ],
+          "answer": 2,
+          "explanation": "C区分入样本过程与安排分配；A取消设计差别，B做无条件同质性保证。",
+          "id": "353-study-design-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "观察到暴露组结果更好，最恰当结论？",
+          "options": [
+            "关联尚需评估混杂偏倚与时间条件",
+            "已证明因果且普遍有效",
+            "无需比较组"
+          ],
+          "answer": 0,
+          "explanation": "A保留证据边界；B过度外推，C否认解释所需比较信息，不合研究推理。",
+          "id": "353-study-design-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "研究者按方案分配两种教育方式并随访结局，按本课关键依据是？",
+          "options": [
+            "只要在社区就不能实验",
+            "实验性研究思路",
+            "所有人都必须接受危险暴露"
+          ],
+          "answer": 1,
+          "explanation": "B依据分配目标因素；A以地点分类，C凭空加入伤害且不符合伦理边界。实际开展还需专业审查。",
+          "id": "353-study-design-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "只给自然行为人群抽血测结局，最关键分类问题是？",
+          "options": [
+            "是否使用实验室仪器",
+            "抽血次数是否大于一次",
+            "是否按研究方案分配目标暴露"
+          ],
+          "answer": 2,
+          "explanation": "C追问研究因素分配，不能由采样工具或次数自动定义实验；采集操作与目标暴露分开。",
+          "id": "353-study-design-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "随机分配后两组有限样本，正确说法是？",
+          "options": [
+            "可减少系统差异但不保证完全相同",
+            "所有变量绝对相等",
+            "自动消除全部失访偏倚"
+          ],
+          "answer": 0,
+          "explanation": "A说明随机化作用和限制；B、C把设计优点绝对化，还需检查实施和随访质量。",
+          "id": "353-study-design-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "区分随机抽样和随机分配，说明两者各不能保证什么。",
+          "answer": "抽样决定进入样本的人，分配决定入组者接受哪种安排；随机过程不保证一次样本完美代表或两组完全相同，也不自动消除测量失访问题。",
+          "explanation": "核对过程和边界，不给未知设计补写随机双盲；未建立专业自动评分。",
+          "rubric": [
+            "抽样选入样本",
+            "分配选安排",
+            "不保证绝对代表或同质",
+            "仍有测量失访等限制"
+          ],
+          "id": "353-study-design-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：先观察日常运动习惯，再记录健康结果，研究者不分配运动，属于？",
+          "options": [
+            "只要随访就是实验",
+            "观察性研究",
+            "已证明运动因果"
+          ],
+          "answer": 1,
+          "explanation": "B依据目标暴露未被研究分配；A把时间结构当分配，C把分类当因果证据。",
+          "id": "353-study-design-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：研究者主动按方案分配教育安排，能否直接认定随机双盲？",
+          "options": [
+            "一定可以",
+            "因有问卷所以可以",
+            "不能，还缺随机及盲法信息"
+          ],
+          "answer": 2,
+          "explanation": "分配支持实验性思路，但随机和盲法是额外设计条件；A、B给题干添加了不存在的事实。",
+          "id": "353-study-design-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日暴露不是必然有害，以下哪个可作研究因素？",
+          "options": [
+            "明确规定的健康教育安排",
+            "只有毒物才可",
+            "只有传染病病原体才可"
+          ],
+          "answer": 0,
+          "explanation": "研究因素可有利、有害或效果未知；B、C过度限制暴露定义，并把流行病学缩为单一疾病领域。",
+          "id": "353-study-design-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "自然行为与较好结局相关时，写一项合理表述、两项需核查因素及不能做的伦理跳跃。",
+          "answer": "可报告给定样本关联；核查时间先后、混杂或偏倚，不直接称因果。不能为验证伤害而任意使人暴露，实际研究需相应伦理规范。",
+          "explanation": "示例仅教学，不提供临床试验实施建议。合理候选因素可以多于两项，逐项人工核对。",
+          "rubric": [
+            "限定样本关联",
+            "至少两项解释风险",
+            "不直接推普遍因果",
+            "不以研究名义任意伤害"
+          ],
+          "id": "353-study-design-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "入门研究设计；不涵盖全套随机试验、队列/病例对照细节、统计因果识别或实际临床操作。2027范围仅2028暂定依据。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "provisional-previous-year",
+      "prerequisiteExplanation": "先修：353-variable-types、353-public-health-prevention；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "流行病学研究人群中健康与疾病的分布及其影响因素，并把认识用于预防和健康促进，不只研究传染病。设计先把问题说清：研究对象是谁，暴露是什么，结局是什么。暴露是待研究的因素，不一定有害，例如一种健康教育安排；结局是要观察的健康或行为结果，不等于研究者希望出现的结果。原创问题问社区教育安排是否影响某行为，需要规定观察对象、时间和测量方法，而不是先决定答案。这里用教学情境，不评价真实干预疗效。\n\n观察性与实验性的重要区分是研究者是否按研究方案主动分配要研究的暴露。若只记录人们已经形成的行为与后续结果，没有为研究分配行为，属于本课观察性研究。若按方案分配两种教育安排并比较后续结果，则属于实验性思路。给每个人发问卷不自动把研究变成实验；抽血或拍片等数据收集操作也不等于分配目标暴露。必须看本题研究因素和分配过程，而不是是否使用实验室设备。任何实际人体研究还需相应伦理和专业规范。\n\n比较组帮助判断观察到的结果与什么相比较，不能只看接受安排的一组前后变化就排除所有其他原因。观察性研究的暴露组可能在年龄、基础健康等方面不同，混杂和选择偏倚等会影响解释；实验设计中的随机分配可减少系统性基线差异，但并不保证每个有限样本两组完全相同，也不消除失访或测量问题。随机抽样与随机分配不同：前者关乎谁进入样本，后者关乎样本成员得到什么安排，本课只认识区别，不要求计算随机序列。\n\n设计分类不能直接等于因果证实或伦理合格。原创观察到某行为者结局较好，不能仅凭关联说行为必导致改善；需要考虑时间先后、混杂、偏倚和其他证据。实验性安排也须说明对象、比较、结局和执行质量，不能为了验证危险因素而随意使人暴露于已知伤害。本课不把所有观察研究细分为完整队列或病例对照，也不默认任何实验都随机或双盲。闭卷按问题→分配暴露与否→比较对象→解释限制完成，错题记录实验室误判、随机混淆和因果外推，隔日换新场景再分类。",
+      "definition": "流行病学涉及人群健康疾病分布、因素及应用。观察与实验按研究者是否依方案分配目标暴露区分；比较和偏倚控制影响解释，设计分类不自动证明因果或伦理合格。",
+      "example": "社区人群、教育安排、行为结果：分别对应对象、暴露、结局。\n记录自然行为是观察；按研究方案分配教育安排是实验思路。\n随机抽样选谁入组，随机分配决定入组者哪种安排。\n有关联≠已证因果，实验分类也不保证伦理和实施质量。",
+      "misconceptions": [
+        "只要用实验室设备就是实验研究。",
+        "研究暴露只能是有害物。",
+        "实验设计自动等于随机双盲。",
+        "随机分配保证两组绝对同质且排除全部偏倚。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "社区人群、教育安排、行为结果：分别对应对象、暴露、结局。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "记录自然行为是观察；按研究方案分配教育安排是实验思路。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "随机抽样选谁入组，随机分配决定入组者哪种安排。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "有关联≠已证因果，实验分类也不保证伦理和实施质量。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-study-design-foundation-g1",
+          "description": "界定对象暴露结局",
+          "successCriteria": "区分研究因素与结果，不限于有害因素或传染病。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b1",
+            "353-study-design-foundation-a1",
+            "353-study-design-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g2",
+          "description": "按目标暴露分配分类",
+          "successCriteria": "不用问卷/设备名字判断是否实验。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b2",
+            "353-study-design-foundation-a2",
+            "353-study-design-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g3",
+          "description": "说明比较与随机区别",
+          "successCriteria": "比较组及随机分配不等于随机抽样或绝对同质。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b3",
+            "353-study-design-foundation-a3",
+            "353-study-design-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g4",
+          "description": "保留因果与伦理边界",
+          "successCriteria": "说明偏倚混杂和实施条件，不以分类直接证因果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b4",
+            "353-study-design-foundation-a4",
+            "353-study-design-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "区分研究因素与结果，不限于有害因素或传染病。",
+        "不用问卷/设备名字判断是否实验。",
+        "比较组及随机分配不等于随机抽样或绝对同质。",
+        "说明偏倚混杂和实施条件，不以分类直接证因果。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "流行病学/公共卫生教师复核分配、比较及伦理边界",
+          "不把随机化叙述当所有偏倚已排除"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section7.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    }
+  ],
+  "reviewLog": []
+}

@@ -1,0 +1,2794 @@
+{
+  "baseCommit": "ca1c019d4a1c4f9d91c74a5399714065b6f3fc3b",
+  "method": "add-only overlay on verified previous coverage matrix; no rewriting original149 nodes or claiming full coverage",
+  "before": {
+    "units": 20,
+    "questions": 199,
+    "partiallySupportedNodes": 12
+  },
+  "after": {
+    "units": 29,
+    "questions": 307,
+    "partiallySupportedNodes": 14,
+    "fullVerifiedNodes": 0,
+    "independentApproved": 0
+  },
+  "subjects": [
+    {
+      "subject": "en",
+      "units": 9,
+      "questions": 91,
+      "addedUnits": 3,
+      "addedQuestions": 36
+    },
+    {
+      "subject": "pol",
+      "units": 8,
+      "questions": 84,
+      "addedUnits": 3,
+      "addedQuestions": 36
+    },
+    {
+      "subject": "353",
+      "units": 12,
+      "questions": 132,
+      "addedUnits": 3,
+      "addedQuestions": 36
+    }
+  ],
+  "newUnits": [
+    {
+      "id": "en-nouns-countability",
+      "title": "名词数与可数性：一个、多个与怎样计量",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "en-pronoun-reference",
+      "title": "人称代词与指代：谁做事、动作落到谁",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-linking-and-verb-phrase"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "en-articles-foundation",
+      "title": "冠词入门：a、an、the与不加冠词",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-pronoun-reference"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "title": "物质与意识：从实际出发，怎样发挥主动性",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "prerequisites": [
+        "pol-practice-verification"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "title": "矛盾的同一性与斗争性：相互依存不等于没有差异",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "prerequisites": [
+        "pol-common-particular",
+        "pol-connections-foundation"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "title": "主要矛盾与主要方面：先分清比较的是哪一层",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "prerequisites": [
+        "pol-contradiction-unity",
+        "pol-common-particular"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "353-mean-median",
+      "title": "均数与中位数：数据中心不等于每个人都一样",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "prerequisites": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "mapping": [
+        "s27-18-2"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "title": "离散程度：极差、样本标准差与四分位距",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "prerequisites": [
+        "353-mean-median"
+      ],
+      "mapping": [
+        "s27-18-2"
+      ],
+      "questions": 12
+    },
+    {
+      "id": "353-study-design-foundation",
+      "title": "观察性与实验性研究：谁决定暴露，怎样设置比较",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "prerequisites": [
+        "353-variable-types",
+        "353-public-health-prevention"
+      ],
+      "mapping": [
+        "s27-7-1",
+        "s27-7-2"
+      ],
+      "questions": 12
+    }
+  ],
+  "nodes": [
+    {
+      "id": "en-plan-1",
+      "name": "词音和词汇",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-2",
+      "name": "基础句法",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [
+        "en-foundation-svo",
+        "en-present-negative",
+        "en-linking-and-verb-phrase",
+        "en-subject-verb-agreement",
+        "en-past-simple-foundation",
+        "en-present-questions"
+      ],
+      "newPartialCourseIds": [
+        "en-nouns-countability",
+        "en-pronoun-reference",
+        "en-articles-foundation"
+      ],
+      "currentPartialCourseIds": [
+        "en-foundation-svo",
+        "en-present-negative",
+        "en-linking-and-verb-phrase",
+        "en-subject-verb-agreement",
+        "en-past-simple-foundation",
+        "en-present-questions",
+        "en-nouns-countability",
+        "en-pronoun-reference",
+        "en-articles-foundation"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-3",
+      "name": "复杂句分析",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-4",
+      "name": "阅读",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-5",
+      "name": "完形",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-6",
+      "name": "新题型",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-7",
+      "name": "翻译",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-8",
+      "name": "小作文",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-9",
+      "name": "大作文",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "en-plan-10",
+      "name": "核验真题与模拟",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-1",
+      "name": "基本理论",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [
+        "pol-practice-verification",
+        "pol-common-particular",
+        "pol-knowledge-practice-development",
+        "pol-connections-foundation",
+        "pol-quantity-quality"
+      ],
+      "newPartialCourseIds": [
+        "pol-matter-consciousness",
+        "pol-contradiction-unity",
+        "pol-primary-contradictions"
+      ],
+      "currentPartialCourseIds": [
+        "pol-practice-verification",
+        "pol-common-particular",
+        "pol-knowledge-practice-development",
+        "pol-connections-foundation",
+        "pol-quantity-quality",
+        "pol-matter-consciousness",
+        "pol-contradiction-unity",
+        "pol-primary-contradictions"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-2",
+      "name": "理论体系",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-3",
+      "name": "中国近现代史",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-4",
+      "name": "思想道德与法治",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-5",
+      "name": "年度时政",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-6",
+      "name": "选择训练",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-7",
+      "name": "主观表达",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "pol-plan-8",
+      "name": "核验真题与模拟",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "targetYear": 2028,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-1-1",
+      "name": "发展史",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-1-2",
+      "name": "定义与学科联系",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [
+        "353-public-health-prevention"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-public-health-prevention"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-1-3",
+      "name": "健康维度和人群指标",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-1-4",
+      "name": "伦理原则",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-2-1",
+      "name": "国内外疾病负担",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-2-2",
+      "name": "三级预防",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [
+        "353-public-health-prevention"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-public-health-prevention"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-2-3",
+      "name": "感染性疾病防控",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-2-4",
+      "name": "慢性病风险与防控",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-1",
+      "name": "体系框架",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-2",
+      "name": "成本与决策",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-3",
+      "name": "国家体系比较",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-4",
+      "name": "中国医保与筹资支付",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-5",
+      "name": "整合服务",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-6",
+      "name": "健康战略",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-3-7",
+      "name": "政策分析",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-4-1",
+      "name": "事件特点",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-4-2",
+      "name": "应急体制",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-4-3",
+      "name": "国内卫生法律",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-4-4",
+      "name": "国际卫生规则与能力",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-4-5",
+      "name": "国际紧急事件判断",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-4-6",
+      "name": "应对评价",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-5-1",
+      "name": "全球健康与发展目标",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-5-2",
+      "name": "负担指标",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-5-3",
+      "name": "估计不确定性",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-5-4",
+      "name": "资源优先决策",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-5-5",
+      "name": "援助效果与风险",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-6-1",
+      "name": "行为风险",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-6-2",
+      "name": "行为改变",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-6-3",
+      "name": "教育与促进",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-6-4",
+      "name": "干预评价",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-7-1",
+      "name": "定义与对象",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [
+        "353-study-design-foundation"
+      ],
+      "currentPartialCourseIds": [
+        "353-study-design-foundation"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-7-2",
+      "name": "观察和实验",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [
+        "353-study-design-foundation"
+      ],
+      "currentPartialCourseIds": [
+        "353-study-design-foundation"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-7-3",
+      "name": "研究用途",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-7-4",
+      "name": "疾病自然史",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-8-1",
+      "name": "率与比",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-8-2",
+      "name": "发病测量",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "beforeCourseIds": [
+        "353-incidence-risk",
+        "353-person-time"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-incidence-risk",
+        "353-person-time"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-8-3",
+      "name": "死亡测量",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-8-4",
+      "name": "流行强度",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-8-5",
+      "name": "人时地分析",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-9-1",
+      "name": "病因概念分类",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-9-2",
+      "name": "因果判断",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-9-3",
+      "name": "病因研究设计",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-10-1",
+      "name": "现况与普查",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-10-2",
+      "name": "抽样方法与误差",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-10-3",
+      "name": "偏倚控制",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-10-4",
+      "name": "生态学研究",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-10-5",
+      "name": "设计优缺点",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-11-1",
+      "name": "设计与类型",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-11-2",
+      "name": "样本和因素",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-11-3",
+      "name": "OR及区间",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-11-4",
+      "name": "配对资料",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-11-5",
+      "name": "偏倚和局限",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-12-1",
+      "name": "设计与随访",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-12-2",
+      "name": "样本量",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-12-3",
+      "name": "累计发病与标化",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-12-4",
+      "name": "RR与归因指标",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-12-5",
+      "name": "剂量反应",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-12-6",
+      "name": "偏倚与局限",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-13-1",
+      "name": "试验原则",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-13-2",
+      "name": "绝对与相对效应",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-13-3",
+      "name": "生存资料",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-13-4",
+      "name": "偏倚控制",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-14-1",
+      "name": "基本概念",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-14-2",
+      "name": "真实性",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-14-3",
+      "name": "可靠性",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-14-4",
+      "name": "收益",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-14-5",
+      "name": "联合方法",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-15-1",
+      "name": "流行过程",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-15-2",
+      "name": "传播环节",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-15-3",
+      "name": "影响因素",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-15-4",
+      "name": "暴发调查",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-16-1",
+      "name": "目的",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-16-2",
+      "name": "系统评价",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-16-3",
+      "name": "传染预警",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-16-4",
+      "name": "慢性病系统",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-16-5",
+      "name": "新技术",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-17-1",
+      "name": "循证概念",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-17-2",
+      "name": "系统评价",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-17-3",
+      "name": "Meta基本思路",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-18-1",
+      "name": "变量类型",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [
+        "353-variable-types"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-variable-types"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-18-2",
+      "name": "描述指标",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [
+        "353-frequency-denominator"
+      ],
+      "newPartialCourseIds": [
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "currentPartialCourseIds": [
+        "353-frequency-denominator",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-18-3",
+      "name": "散点与相关",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-18-4",
+      "name": "数据产生",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-18-5",
+      "name": "随机抽样",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-18-6",
+      "name": "采集偏差",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-19-1",
+      "name": "概率",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-19-2",
+      "name": "概率模型",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-19-3",
+      "name": "抽样分布",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-19-4",
+      "name": "点估计",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-19-5",
+      "name": "区间含义",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-19-6",
+      "name": "检验与决策",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-1",
+      "name": "参数方法选择",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-2",
+      "name": "多组比较",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-3",
+      "name": "不同设计方差分析",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-4",
+      "name": "分类检验",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-5",
+      "name": "线性回归",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-6",
+      "name": "Logistic回归",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-20-7",
+      "name": "多重回归",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-21-1",
+      "name": "材料信息整合",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-21-2",
+      "name": "逻辑与数量分析",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-21-3",
+      "name": "健康和行为",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-21-4",
+      "name": "营养与环境",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-21-5",
+      "name": "法律伦理治理",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27-21-6",
+      "name": "健康数据和AI",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-core-quantity",
+      "name": "物理量、单位与量纲",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [],
+      "beforeCourseIds": [
+        "353-quantity-measurement"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-quantity-measurement"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-core-energy",
+      "name": "能量、功率与守恒的基本数量关系",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-quantity"
+      ],
+      "beforeCourseIds": [
+        "353-energy-power"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-energy-power"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-core-waves",
+      "name": "波、光子与物质相互作用的概念桥梁",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-energy"
+      ],
+      "beforeCourseIds": [
+        "353-waves-interactions"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-waves-interactions"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-measure-definition",
+      "name": "被测量、测量条件与结果表达",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-quantity"
+      ],
+      "beforeCourseIds": [
+        "353-quantity-measurement"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-quantity-measurement"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-measure-uncertainty",
+      "name": "重复测量、误差、校正与不确定性的区别",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "beforeCourseIds": [
+        "353-quantity-measurement",
+        "353-uncertainty-foundation"
+      ],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [
+        "353-quantity-measurement",
+        "353-uncertainty-foundation"
+      ],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-measure-comparison",
+      "name": "测量比较、相对变化与评价边界",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-uncertainty"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-protection-quantity",
+      "name": "剂量物理量及防护量的区别",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-energy",
+        "s27v2-mp-measure-definition"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-protection-principle",
+      "name": "辐射防护原则及情境判断",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-protection-quantity"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-protection-scenario",
+      "name": "时间距离屏蔽的条件化数量推理",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-protection-principle"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-nuclear-chain",
+      "name": "核医学衰变、示踪与探测成像链路",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-waves"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-nuclear-pet-spect",
+      "name": "PET与SPECT的物理信息与成像差异",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-nuclear-chain"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-nuclear-evaluation",
+      "name": "计数、分辨率、校正及影像评价",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-nuclear-chain",
+        "s27v2-mp-measure-comparison"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-therapy-energy",
+      "name": "放疗能量沉积与剂量分布",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-waves",
+        "s27v2-mp-protection-quantity"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-therapy-evaluation",
+      "name": "靶区正常组织、分次与计划评价",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-therapy-energy",
+        "s27v2-mp-measure-comparison"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-ai-data",
+      "name": "数据质量、抽样、标签及信息泄漏",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-ai-validation",
+      "name": "算法评价、外部验证与泛化",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-ai-data"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-ai-governance",
+      "name": "隐私、公平、伦理与应用边界",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-ai-validation"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-environment-space",
+      "name": "物理空间、暴露路径及健康",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-environment-air",
+      "name": "大气环境、暴露测量与干预评价",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-environment-space",
+        "s27v2-mp-measure-comparison"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-environment-ventilation",
+      "name": "室内通风、浓度与模型条件",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-environment-space",
+        "s27v2-mp-core-quantity"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-integration-model",
+      "name": "物理与工程模型的假设、输入输出及限制",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-comparison"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-mp-integration-evidence",
+      "name": "复杂健康问题的证据整合与书面论证",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-integration-model",
+        "s27v2-mp-ai-validation",
+        "s27v2-mp-environment-air"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-detail-health-measures",
+      "name": "寿命、孕产妇与婴幼儿死亡指标的对象和分母",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-1-3"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-detail-system-evolution",
+      "name": "中国卫生体系演变",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-3-4"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-detail-correlation-causation",
+      "name": "相关与因果的区别",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-18-3"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-detail-relationships",
+      "name": "变量关系评价原理",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-20-4"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    },
+    {
+      "id": "s27v2-detail-written-reasoning",
+      "name": "科学问题分析及书面表达",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "targetYear": 2028,
+      "scopeStatus": "provisional_previous_year",
+      "prerequisiteNodeIds": [
+        "s27-21-2"
+      ],
+      "beforeCourseIds": [],
+      "newPartialCourseIds": [],
+      "currentPartialCourseIds": [],
+      "fullCoverageVerified": false,
+      "independentExpertApproved": false
+    }
+  ]
+}

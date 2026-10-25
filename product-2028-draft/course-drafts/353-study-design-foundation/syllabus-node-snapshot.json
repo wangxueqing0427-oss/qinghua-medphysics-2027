@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-10-25",
+  "origin": "product-2028-draft/syllabus-353-v2/matrix.json",
+  "revision": "353-2027-remap-v2-2026-10-19",
+  "node": {
+    "id": "s27-7-1",
+    "name": "定义与对象",
+    "subject": "epi",
+    "legacyIds": [
+      "s27-7-1"
+    ],
+    "sectionNumber": 7,
+    "basisType": "official-section-decomposition",
+    "depth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+    "priority": "P1",
+    "prerequisites": [],
+    "part": "流行病学与统计/A流行病学",
+    "sectionTitle": "流行病学绪论",
+    "officialText": "掌握流行病学定义、研究对象、观察性研究方法、实验性研究方法。了解流行病学在描述疾病或健康状态的分布及其特点、探讨疾病的病因和影响因素、评价疾病的诊断治疗与防治措施的效果、揭示疾病自然史、以及在疾病防治和健康促进中的应用。",
+    "sourceTextHash": "0ad75808c774c2198336cf30e8cba7160ed2a0ff582329622a6d19cfce5f0679",
+    "sourceUrl": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "targetYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingReview": "internal-source-comparison-pending-independent-review",
+    "prerequisiteBasis": "internal-pedagogical-order-not-official-weight",
+    "verifiedCoverage": false,
+    "expertApproved": false,
+    "legacyTeachingPointIds": [
+      "epi-01-point-1",
+      "epi-01-point-2"
+    ],
+    "courseSupport": [],
+    "legacyQuestionCandidates": [
+      "q-e01",
+      "q-e02"
+    ],
+    "gap": "尚无完整引擎课程；旧要点/候选题不能代替完整教学、闭卷、分层题及延迟测试",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm"
+  }
+}

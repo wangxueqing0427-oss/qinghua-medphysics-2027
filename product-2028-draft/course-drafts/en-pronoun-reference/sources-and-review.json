@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://our-languages.canada.ca/en/writing-tips-plus/personal-pronouns",
+      "publisher": "加拿大政府Translation Bureau",
+      "locator": "主格/宾格正文与形态；页面更新2022-09-21",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/personal-pronouns-possessives",
+      "publisher": "British Council",
+      "locator": "主格/宾格表及指代清晰条件；不使用评论区",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "英语教师核对指代消歧与角色教学；不自动评断自由文本语法"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

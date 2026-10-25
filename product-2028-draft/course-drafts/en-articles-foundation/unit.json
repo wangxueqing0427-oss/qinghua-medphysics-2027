@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "en-articles-foundation",
+      "subject": "en",
+      "title": "冠词入门：a、an、the与不加冠词",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-pronoun-reference"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "recall": [
+        "闭卷解释a key的数与指称条件。",
+        "解释a university与an hour为何不按首字母选。",
+        "写首次也用the的明确情境，并给再次仍需核对的理由。",
+        "比较Water与the water in this bottle的指称范围。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "语境：一位身份未确定的学生，student为单数可数，选___ student。",
+          "options": [
+            "a",
+            "an",
+            "∅"
+          ],
+          "answer": 0,
+          "explanation": "student以辅音音素开头且单数可数，a合适；B音素不符，C在本题普通名词短语中缺限定。",
+          "id": "en-articles-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给hour的h不发音，表达一小时应为？",
+          "options": [
+            "a hour",
+            "an hour",
+            "an hours"
+          ],
+          "answer": 1,
+          "explanation": "hour紧接元音音素，用an；A按字母误判，C把单数冠词与复数混合，不适合本题。",
+          "id": "en-articles-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两句指同一只狗：I saw a dog. ___ dog was wet.",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "answer": 2,
+          "explanation": "已明确同一对象，可用The；A会引入另一未知成员，An又不合dog起始音素。",
+          "id": "en-articles-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "本课泛谈水这种物质：___ water is important.首字母大小写不计。",
+          "options": [
+            "∅",
+            "a",
+            "an"
+          ],
+          "answer": 0,
+          "explanation": "泛指不可数物质water本题不加冠词；a/an要求单数可数成员，不能直接放在此意义的water前。",
+          "id": "en-articles-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "新找到一个未知身份的小包，完整短语应为？",
+          "options": [
+            "a bags",
+            "a small bag",
+            "small a bag"
+          ],
+          "answer": 1,
+          "explanation": "a应置于整体名词短语前，bag单数；A混单复，C冠词位置不符合本题基本词序。",
+          "id": "en-articles-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给university开头发/j/，一个大学应选？",
+          "options": [
+            "an university",
+            "a universities",
+            "a university"
+          ],
+          "answer": 2,
+          "explanation": "/j/为辅音音素，因此a；A只看元音字母，B混单复。发音条件已在题干明确。",
+          "id": "en-articles-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "房间桌上只有一张双方可见的地图，首次请求拿地图，哪项可成立？",
+          "options": [
+            "Pass me the map.",
+            "首次绝不能用the",
+            "Pass me an maps."
+          ],
+          "answer": 0,
+          "explanation": "共同情境可唯一识别，A成立；B误把首次当绝对条件，C数与冠词均不匹配。",
+          "id": "en-articles-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "解释Books are useful与The books on my desk are useful在本课语境中的差别，并说明不能推出哪条绝对规则。",
+          "answer": "前句泛谈复数书，后句特指桌上可识别的一组书；不能推断所有泛指都只能用零冠词或所有首次提及都用a。",
+          "explanation": "需要语境理由和规则边界，不因写了泛指特指两词就自动给准确总分。",
+          "rubric": [
+            "前句泛谈",
+            "后句特指桌上书",
+            "说明可识别条件",
+            "拒绝首次必a等绝对化"
+          ],
+          "id": "en-articles-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日给定old以元音音素开始，一张旧地图选？",
+          "options": [
+            "a old map",
+            "an old map",
+            "an map old"
+          ],
+          "answer": 1,
+          "explanation": "看紧接的old而非map，用an；A忽略音素，C形容词位置不合本题结构。",
+          "id": "en-articles-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日water为不可数信息中的物质义，哪项不能直接成立？",
+          "options": [
+            "some water",
+            "the water in this bottle",
+            "a water（未给份量或商品义）"
+          ],
+          "answer": 2,
+          "explanation": "本题明确无份量或商品转义，不能直接a water；A可表示一些水，B可特指，均在本课范围内成立。",
+          "id": "en-articles-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日情境第一次提及但双方清楚是哪一辆车，哪条原则正确？",
+          "options": [
+            "the可由共同情境支持",
+            "首次永远只能a",
+            "the只能修饰复数"
+          ],
+          "answer": 0,
+          "explanation": "the取决于可识别性，不只前文出现次数；B过强，C忽略单数和特指不可数用法。",
+          "id": "en-articles-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "改正an university与a information，给出本课语境下的自然表达和原因。",
+          "answer": "a university，按已给/j/辅音音素；some information或a piece of information，information为不可数信息义。",
+          "explanation": "可接受符合语境的替代表达；没有给出确指对象时不要求一律改成the。",
+          "rubric": [
+            "a university正确",
+            "按音素解释",
+            "信息表达不用直接a information",
+            "解释计量或some而非机械加s"
+          ],
+          "id": "en-articles-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "基础冠词语境；不覆盖地名惯用、所有表类指结构或全部商品义。2028范围仍待年度核对。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：en-nouns-countability、en-pronoun-reference；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "冠词在名词前，帮助读者判断你说的是哪一个或哪一类。a/an通常用于单数可数名词，指一位或一个尚未能共同识别的成员；不是英语里所有名词前都放a。原创I found a key意为我找到一把钥匙，key是可数的钥匙，读者此时不知道哪一把。若有形容词也要整体看：a small bag一个小包。冠词不是专门标记主语或宾语的词；主语宾语都可能有冠词。先核对名词的数与可数性，再判断是否能共同识别，不能只按中文有没有一字决定。\n\na还是an看后面紧接词的起始发音，不只看字母。a university里university大学以辅音音素/j/起头，an hour一小时的h通常不发音，开头为元音音素；本课直接给出这两个词的读音条件，不要求凭拼写猜。an old map一张旧地图，紧接的old以元音音素开头，不能跳过old只看map。a/an不直接跟本课复数books或不可数information。选项题若缺发音或存在地区变体应说明，不能把字母表的元音字母当成全部答案。\n\nthe用于交谈双方或读者能够辨认的对象，前文提过是常见依据，但并非唯一依据。原创I saw a dog. The dog was wet.我看到一条狗，那条狗是湿的，第二句与前一条狗关联。若桌上明确只有一张本题地图，Pass me the map传给我那张地图，虽然第一次说map也能识别。the既可与单数也可与复数或特指不可数名词连用：the water in this bottle这瓶里的水。不能把首次必a、第二次必the当机械规则，仍需核对是否同一对象以及语境。\n\n零冠词指本课某些场合不加a/an/the，记作空格∅。一般谈论复数事物可说Books can be useful书可能有用，泛谈物质可说Water is important水很重要；这里不是特指哪一批书或哪瓶水。反过来，The books on my desk are new是我桌上那些可辨认的书。不能把零冠词理解为所有单数名词都可以裸用，也不声称一般概念只能用零冠词，本课不展开the加单数表类指等进阶用法。改错时依次检查名词数、所指是否可识别、紧接发音，写出选择理由再到隔日题迁移。",
+      "definition": "本课a/an限定一个尚不可共同识别的单数可数成员，形式看紧接音素；the标识可共同辨认对象；泛谈复数或不可数物质的给定语境可用零冠词。",
+      "example": "I found a key：一个未知身份成员，不是所有名词都加a。\na university；an hour；an old map：看紧接的音素。\na dog→the dog；情境唯一的the map可首次出现。\n泛谈Water与Books不加冠词，特指the water in this bottle。",
+      "misconceptions": [
+        "元音字母开头永远用an。",
+        "首次提及必用a，第二次必用the。",
+        "the只能接单数。",
+        "所有名词前都必须加a或an。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "I found a key：一个未知身份成员，不是所有名词都加a。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "a university；an hour；an old map：看紧接的音素。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "a dog→the dog；情境唯一的the map可首次出现。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "泛谈Water与Books不加冠词，特指the water in this bottle。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-articles-foundation-g1",
+          "description": "解释不定指称",
+          "successCriteria": "单数可数未知成员可用a/an，不按中文一字机械翻译。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-articles-foundation-b1",
+            "en-articles-foundation-a1",
+            "en-articles-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g2",
+          "description": "按发音选a/an",
+          "successCriteria": "给定发音条件下处理university、hour和形容词。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-articles-foundation-b2",
+            "en-articles-foundation-a2",
+            "en-articles-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g3",
+          "description": "使用可识别指称the",
+          "successCriteria": "结合前文或共同语境，不绝对化首次/再次规则。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-articles-foundation-b3",
+            "en-articles-foundation-a3",
+            "en-articles-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g4",
+          "description": "区分泛指与特指",
+          "successCriteria": "在本课复数/不可数语境选零冠词，给出选择条件。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-articles-foundation-b4",
+            "en-articles-foundation-a4",
+            "en-articles-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "单数可数未知成员可用a/an，不按中文一字机械翻译。",
+        "给定发音条件下处理university、hour和形容词。",
+        "结合前文或共同语境，不绝对化首次/再次规则。",
+        "在本课复数/不可数语境选零冠词，给出选择条件。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师复核冠词唯一答案的语境充分性及音素解释"
+        ]
+      },
+      "sources": [
+        "https://learnenglish.britishcouncil.org/comment/136255",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns"
+      ]
+    }
+  ]
+}

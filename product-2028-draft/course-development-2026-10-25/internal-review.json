@@ -1,0 +1,1719 @@
+{
+  "scope": "Internal AI comparison only; generated answer checks cannot establish expert status or learner performance",
+  "units": [
+    {
+      "id": "en-nouns-countability",
+      "version": "0.1",
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "en-nouns-countability-b1",
+          "type": "single",
+          "answerText": "books",
+          "explanation": "本课book是可数名词，two要求复数books。B保留单数，C多加e；不要把名词s解释为动词人称。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-b2",
+          "type": "single",
+          "answerText": "cities",
+          "explanation": "city的辅音字母+y在此改成ies；A误保留y，C单复数不符。此规则只处理给定词例。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-b3",
+          "type": "single",
+          "answerText": "three pieces of information",
+          "explanation": "信息用不可数information，三条通过pieces计数。A直接复数化，B误加不定冠词且无计量单位。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-b4",
+          "type": "single",
+          "answerText": "are",
+          "explanation": "bottles为复数主体，所以are；of water不是主体。B受邻近名词干扰，C仅配本课I。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-a1",
+          "type": "single",
+          "answerText": "a desk",
+          "explanation": "单数可数desk需限定词，a desk完整；A裸用，C冠词单数与复数冲突。bought意为买了。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-a2",
+          "type": "single",
+          "answerText": "children",
+          "explanation": "children是本课不规则复数；不能套所有词加s或es。两个错误选项都不是该意义下的标准形式。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-a3",
+          "type": "single",
+          "answerText": "two bottles of water",
+          "explanation": "计数瓶子应bottles，物质义water不变；B两个位置都错，C不构成本课计量表达。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-a4",
+          "type": "subjective",
+          "answerText": "three pieces of information。three限定可数计量单位piece；information在本句为不可数信息义。",
+          "explanation": "检查数词指向和计量单位，不能仅见pieces就判已掌握全部不可数词。",
+          "referenceRubric": [
+            "给出pieces",
+            "指出three对应piece",
+            "说明information语义",
+            "拒绝information直接加s"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-d1",
+          "type": "single",
+          "answerText": "boxes",
+          "explanation": "box在本课加es形成boxes；A拼写错误，C未按four使用复数，不涉及动词变化。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-d2",
+          "type": "single",
+          "answerText": "cities; boys",
+          "explanation": "city用cities，boy因y前为元音字母而用boys；A和B均机械改写y。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-d3",
+          "type": "single",
+          "answerText": "one bottle of water",
+          "explanation": "一瓶水用bottle作单位；B关系颠倒，C把物质义直接复数化，不能表达本题份量。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-nouns-countability-d4",
+          "type": "subjective",
+          "answerText": "two pieces of information；The bottles are here。前者计量单位需复数，后者复数主体匹配are。",
+          "explanation": "两处错误来源不同，分别说明，不能用统一加s口诀替代句法判断。",
+          "referenceRubric": [
+            "pieces正确",
+            "information保持不变",
+            "are正确",
+            "区分计量错误与主谓错误"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "en-nouns-countability-g1",
+          "description": "区别名词单复数",
+          "successCriteria": "指出s落在名词而非自动当动词标记。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-nouns-countability-b1",
+            "en-nouns-countability-a1",
+            "en-nouns-countability-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g2",
+          "description": "构成本课复数形式",
+          "successCriteria": "准确写boxes、cities、boys、children。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-nouns-countability-b2",
+            "en-nouns-countability-a2",
+            "en-nouns-countability-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g3",
+          "description": "使用不可数计量",
+          "successCriteria": "water/information不直接复数化，计量单位匹配。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-nouns-countability-b3",
+            "en-nouns-countability-a3",
+            "en-nouns-countability-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-nouns-countability-g4",
+          "description": "按句义与主体改错",
+          "successCriteria": "说明名词意义和真正主体，拒绝所有名词同规则。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-nouns-countability-b4",
+            "en-nouns-countability-a4",
+            "en-nouns-countability-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "英语教师复核可数性语境边界和零基础词汇负担"
+      ]
+    },
+    {
+      "id": "en-pronoun-reference",
+      "version": "0.1",
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "en-pronoun-reference-b1",
+          "type": "single",
+          "answerText": "They are blue.",
+          "explanation": "bags复数作主语需they；B数不符，C把宾格作本课主语。blue意为蓝色，bags是包。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-b2",
+          "type": "single",
+          "answerText": "him",
+          "explanation": "helps的对象作宾语，him合适；he为主格，his为所属形式，不符合本题角色。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-b3",
+          "type": "single",
+          "answerText": "可能歧义，应澄清",
+          "explanation": "两个同样可行候选不能只靠距离确定；A、B都把缺失语境当成确定证据。left意为离开了。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-b4",
+          "type": "single",
+          "answerText": "Lena helps him.",
+          "explanation": "A保留主体和动作对象；B调换角色，C未用宾格。不能因词语相同就认定意义保持。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-a1",
+          "type": "single",
+          "answerText": "They",
+          "explanation": "两本书是复数主体，选They；It单数，Them为宾格。new是新的，不影响代词格。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-a2",
+          "type": "single",
+          "answerText": "them",
+          "explanation": "介词with后用宾格them；they为主格，their为所有格限定形式，二者不适用于本题位置。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-a3",
+          "type": "single",
+          "answerText": "pupils",
+          "explanation": "题干已给疲倦对象为学生，A有依据；B只抓最近名词，C忽略额外语境。pupils为学生。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-a4",
+          "type": "subjective",
+          "answerText": "She helps him。She作主语，him作helps的宾语；指称对象可保持，语法角色分别决定形态。",
+          "explanation": "逐处核对角色和形态，不要求把主宾格口诀当所有语域下的完整规则。",
+          "referenceRubric": [
+            "She主格",
+            "him宾格",
+            "主体与对象区分",
+            "保留帮助方向"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-d1",
+          "type": "single",
+          "answerText": "They",
+          "explanation": "两人作主语需They；Them宾格，Him单数宾格。不能因中文他们就任意选同义形式。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-d2",
+          "type": "single",
+          "answerText": "me",
+          "explanation": "call后说话者作对象，用me；I为主格，my为限定所属，均不能替换本题宾语。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-d3",
+          "type": "single",
+          "answerText": "保留歧义并请求或补充语境",
+          "explanation": "证据不足需澄清，不能把近邻偏好当绝对语法法则，也不能随机填真实身份。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-pronoun-reference-d4",
+          "type": "subjective",
+          "answerText": "They help them。teachers为复数主体用They；children为复数对象用them。",
+          "explanation": "要求角色与数同时正确；若写They help they，需标记宾格遗漏，而不是给准确专业总分。",
+          "referenceRubric": [
+            "They复数主格",
+            "them复数宾格",
+            "主体teachers",
+            "对象children且方向未反"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "en-pronoun-reference-g1",
+          "description": "使用主格及数",
+          "successCriteria": "依据给定所指选择she/they等，不凭邻近词猜测。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b1",
+            "en-pronoun-reference-a1",
+            "en-pronoun-reference-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g2",
+          "description": "按角色使用宾格",
+          "successCriteria": "动词宾语和介词后使用him/them/me等。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b2",
+            "en-pronoun-reference-a2",
+            "en-pronoun-reference-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g3",
+          "description": "识别歧义指代",
+          "successCriteria": "区分可确定的所指与需澄清的同类候选。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b3",
+            "en-pronoun-reference-a3",
+            "en-pronoun-reference-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g4",
+          "description": "保留角色改写",
+          "successCriteria": "替换名词不颠倒主体和对象，说明不覆盖反身用法。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b4",
+            "en-pronoun-reference-a4",
+            "en-pronoun-reference-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "英语教师核对指代消歧与角色教学；不自动评断自由文本语法"
+      ]
+    },
+    {
+      "id": "en-articles-foundation",
+      "version": "0.1",
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "en-articles-foundation-b1",
+          "type": "single",
+          "answerText": "a",
+          "explanation": "student以辅音音素开头且单数可数，a合适；B音素不符，C在本题普通名词短语中缺限定。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-b2",
+          "type": "single",
+          "answerText": "an hour",
+          "explanation": "hour紧接元音音素，用an；A按字母误判，C把单数冠词与复数混合，不适合本题。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-b3",
+          "type": "single",
+          "answerText": "The",
+          "explanation": "已明确同一对象，可用The；A会引入另一未知成员，An又不合dog起始音素。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-b4",
+          "type": "single",
+          "answerText": "∅",
+          "explanation": "泛指不可数物质water本题不加冠词；a/an要求单数可数成员，不能直接放在此意义的water前。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-a1",
+          "type": "single",
+          "answerText": "a small bag",
+          "explanation": "a应置于整体名词短语前，bag单数；A混单复，C冠词位置不符合本题基本词序。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-a2",
+          "type": "single",
+          "answerText": "a university",
+          "explanation": "/j/为辅音音素，因此a；A只看元音字母，B混单复。发音条件已在题干明确。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-a3",
+          "type": "single",
+          "answerText": "Pass me the map.",
+          "explanation": "共同情境可唯一识别，A成立；B误把首次当绝对条件，C数与冠词均不匹配。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-a4",
+          "type": "subjective",
+          "answerText": "前句泛谈复数书，后句特指桌上可识别的一组书；不能推断所有泛指都只能用零冠词或所有首次提及都用a。",
+          "explanation": "需要语境理由和规则边界，不因写了泛指特指两词就自动给准确总分。",
+          "referenceRubric": [
+            "前句泛谈",
+            "后句特指桌上书",
+            "说明可识别条件",
+            "拒绝首次必a等绝对化"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-d1",
+          "type": "single",
+          "answerText": "an old map",
+          "explanation": "看紧接的old而非map，用an；A忽略音素，C形容词位置不合本题结构。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-d2",
+          "type": "single",
+          "answerText": "a water（未给份量或商品义）",
+          "explanation": "本题明确无份量或商品转义，不能直接a water；A可表示一些水，B可特指，均在本课范围内成立。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-d3",
+          "type": "single",
+          "answerText": "the可由共同情境支持",
+          "explanation": "the取决于可识别性，不只前文出现次数；B过强，C忽略单数和特指不可数用法。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "en-articles-foundation-d4",
+          "type": "subjective",
+          "answerText": "a university，按已给/j/辅音音素；some information或a piece of information，information为不可数信息义。",
+          "explanation": "可接受符合语境的替代表达；没有给出确指对象时不要求一律改成the。",
+          "referenceRubric": [
+            "a university正确",
+            "按音素解释",
+            "信息表达不用直接a information",
+            "解释计量或some而非机械加s"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "en-articles-foundation-g1",
+          "description": "解释不定指称",
+          "successCriteria": "单数可数未知成员可用a/an，不按中文一字机械翻译。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-articles-foundation-b1",
+            "en-articles-foundation-a1",
+            "en-articles-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g2",
+          "description": "按发音选a/an",
+          "successCriteria": "给定发音条件下处理university、hour和形容词。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-articles-foundation-b2",
+            "en-articles-foundation-a2",
+            "en-articles-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g3",
+          "description": "使用可识别指称the",
+          "successCriteria": "结合前文或共同语境，不绝对化首次/再次规则。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-articles-foundation-b3",
+            "en-articles-foundation-a3",
+            "en-articles-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-articles-foundation-g4",
+          "description": "区分泛指与特指",
+          "successCriteria": "在本课复数/不可数语境选零冠词，给出选择条件。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-articles-foundation-b4",
+            "en-articles-foundation-a4",
+            "en-articles-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "英语教师复核冠词唯一答案的语境充分性及音素解释"
+      ]
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "version": "0.1",
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "pol-matter-consciousness-b1",
+          "type": "single",
+          "answerText": "先调查容量并调整安排",
+          "explanation": "A区分愿望与客观条件；B把主观愿望当事实，C省略调查。题给数字不是任何场所的法定标准。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-b2",
+          "type": "single",
+          "answerText": "依据新事实修订",
+          "explanation": "实际会发展，认识需跟随证据修订；A守旧，C用愿望取代事实，不是发挥正确能动性。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-b3",
+          "type": "single",
+          "answerText": "认识通过实践指导行动",
+          "explanation": "C保留实践中介和条件；A是意志万能，B消极化物质决定意识，均不完整。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-b4",
+          "type": "single",
+          "answerText": "结合具体条件采取行动并检验",
+          "explanation": "A同时保留条件、行动和检验；B否定客观性，C混淆主动实践与无条件结果承诺。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-a1",
+          "type": "single",
+          "answerText": "以主观设想代替实际",
+          "explanation": "B指出缺证据的主观化判断；A与题意相反，C恰是应采取的方法，不是题给错误。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-a2",
+          "type": "single",
+          "answerText": "根据新条件更新判断",
+          "explanation": "C保留旧经验的适用边界并使用新证据；A全盘否定，B误读事实变化为随意性。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-a3",
+          "type": "single",
+          "answerText": "分析资源、改进安排、检查效果",
+          "explanation": "A是有条件的主动实践；B消极等待，C缺实践，均不能体现有效能动作用。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-a4",
+          "type": "subjective",
+          "answerText": "信心不等于客观成绩；需结合基础、时间和真实测试，采取纠错与复习并验证，不能保证分数。",
+          "explanation": "按事实条件、实践措施和验证核对答案。信心可能支持行动，但不是客观成绩证据；不能将术语匹配变成预测成绩或保证分数。",
+          "referenceRubric": [
+            "区分愿望与结果",
+            "识别实际条件",
+            "提出纠错复习行动",
+            "保留检验与不保证分数边界"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-d1",
+          "type": "single",
+          "answerText": "查明的实际条件",
+          "explanation": "B给认识提供事实依据；A、C若未经证实都不能替代实际资源，并不否认合理目标的作用。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-d2",
+          "type": "single",
+          "answerText": "旧认识永不需变",
+          "explanation": "C使认识脱离发展中的实际；A、B可使主观更符合客观，但修订仍要证据。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-d3",
+          "type": "single",
+          "answerText": "脱离条件的想法自动实现",
+          "explanation": "A把主观活动绝对化；B、C保留实践和反馈，都是本课合理联系。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-matter-consciousness-d4",
+          "type": "subjective",
+          "answerText": "先查事实与资源，提出可行方案，落实行动，再比较结果修正；困难是条件而非放弃理由，目标也不是效果保证。",
+          "explanation": "接受不同非敏感生活例子，须有具体事实与可检验措施，而非纯口号。",
+          "referenceRubric": [
+            "事实条件",
+            "可行方案",
+            "实践实施",
+            "结果检查与修正"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "pol-matter-consciousness-g1",
+          "description": "区分现实条件与愿望",
+          "successCriteria": "不把物质限定为某种材料，也不用愿望替代容量。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b1",
+            "pol-matter-consciousness-a1",
+            "pol-matter-consciousness-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g2",
+          "description": "随实际变化修订认识",
+          "successCriteria": "指出新证据怎样改变旧计划。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b2",
+            "pol-matter-consciousness-a2",
+            "pol-matter-consciousness-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g3",
+          "description": "说明意识能动作用",
+          "successCriteria": "通过实际措施解释作用，避开消极等待与意志万能。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b3",
+            "pol-matter-consciousness-a3",
+            "pol-matter-consciousness-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g4",
+          "description": "结合规律与主动性",
+          "successCriteria": "给出具体实践与验证，不用哲学承诺考试或临床结果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b4",
+            "pol-matter-consciousness-a4",
+            "pol-matter-consciousness-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "马克思主义理论教师复核物质范畴和意识作用边界"
+      ]
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "version": "0.1",
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "pol-contradiction-unity-b1",
+          "type": "single",
+          "answerText": "同一系统中对立又联系的方面关系",
+          "explanation": "A保留统一体、对立与联系；B把哲学概念缩成争吵，C省略客观关系依据。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-b2",
+          "type": "single",
+          "answerText": "有条件的相互依存和贯通",
+          "explanation": "B保留依存与条件；A抹掉差异，C把有条件的联系绝对化，不合本课含义。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-b3",
+          "type": "single",
+          "answerText": "所有问题都须暴力冲突",
+          "explanation": "C把哲学对立套成唯一行为方式；A、B是给定语境的概念说明，不等于行动方案。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-b4",
+          "type": "single",
+          "answerText": "只看联系而忽略可能的对立",
+          "explanation": "合作不自动排除差异和张力；B、C并无题干证据。仍需研究具体双方和条件。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-a1",
+          "type": "single",
+          "answerText": "统一体与客观联系依据",
+          "explanation": "B要求关系证据；A和C不能把无关事物变成客观矛盾，也不能证明应用准确。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-a2",
+          "type": "single",
+          "answerText": "依存与转化须看具体条件",
+          "explanation": "C区别条件性联系与无差别同一；A、B取消了作为对立双方的具体差别。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-a3",
+          "type": "single",
+          "answerText": "同时查对立和依存证据再调整",
+          "explanation": "A完整看关系并行动；B割裂同一性，C用术语代替证据，不能构成有效分析。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-a4",
+          "type": "subjective",
+          "answerText": "在给定系统中二者为服务目标相互支撑；有限资源条件可有张力。可调整资源并监测效果，但不能宣称一切覆盖质量永远对立或调整必成功。",
+          "explanation": "要点按材料条件核对；没有可信专业自动评分，不从关键词出现计算总分。",
+          "referenceRubric": [
+            "界定同一系统",
+            "依存证据",
+            "具体对立条件",
+            "改进与非普遍化边界"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-d1",
+          "type": "single",
+          "answerText": "混淆同一性与无差别相同",
+          "explanation": "同一性是在对立中的联系，不取消双方区别；A与C都把概念绝对化。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-d2",
+          "type": "single",
+          "answerText": "具体对立不预设唯一处置方式",
+          "explanation": "C区分哲学性质与具体行动形式；A、B把概念变成行为命令，超出证据和适用范围。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-d3",
+          "type": "single",
+          "answerText": "指明系统与双方及证据",
+          "explanation": "有明确对象和联系才可分析；B、C缺少关系与条件，无法检验是否适用。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-contradiction-unity-d4",
+          "type": "subjective",
+          "answerText": "前者可能忽视问题和张力，后者可能忽略共同系统与依存；应分别给两类证据并根据条件处理，而非预设所有关系均相同。",
+          "explanation": "接受不同合理场景，需说明边界；不以模型推出现实因果或法律裁决。",
+          "referenceRubric": [
+            "联系不可代替对立",
+            "对立不可抹去依存",
+            "原创具体条件",
+            "措施或检验不绝对化"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "pol-contradiction-unity-g1",
+          "description": "辨认哲学矛盾",
+          "successCriteria": "说明统一体和具体双方，区别争吵与任意拼凑。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b1",
+            "pol-contradiction-unity-a1",
+            "pol-contradiction-unity-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g2",
+          "description": "解释同一性",
+          "successCriteria": "说出条件性依存与联系，不等于无差别相同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b2",
+            "pol-contradiction-unity-a2",
+            "pol-contradiction-unity-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g3",
+          "description": "解释斗争性及统一",
+          "successCriteria": "给出具体对立，不把斗争性等同暴力或否认依存。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b3",
+            "pol-contradiction-unity-a3",
+            "pol-contradiction-unity-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g4",
+          "description": "进行双面材料分析",
+          "successCriteria": "分别引用依存和对立证据，提出有条件措施。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b4",
+            "pol-contradiction-unity-a4",
+            "pol-contradiction-unity-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "理论教师复核同一性/斗争性及服务情境类比边界"
+      ]
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "version": "0.1",
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "pol-primary-contradictions-b1",
+          "type": "single",
+          "answerText": "主要矛盾",
+          "explanation": "A是多个矛盾之间的比较；B是同一矛盾内部层次，C混淆不同哲学概念。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-b2",
+          "type": "single",
+          "answerText": "甲的主要方面",
+          "explanation": "B保留同一矛盾内部比较；A跳到多个矛盾层次，C忽视题给双方关系。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-b3",
+          "type": "single",
+          "answerText": "抓关键并兼顾必要协同",
+          "explanation": "C同时看到主次；A取消重点，B割裂整体联系。资源安排仍需看具体阶段和条件。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-b4",
+          "type": "single",
+          "answerText": "有证据的制约关系变化",
+          "explanation": "A用实际关系说明变化；B主观任意，C固定化主次，都不符合条件性分析。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-a1",
+          "type": "single",
+          "answerText": "对整体的关键制约作用",
+          "explanation": "B对应题给作用关系；A、C用表面特征代替实际影响，不足以确定主次。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-a2",
+          "type": "single",
+          "answerText": "混淆多个矛盾与同一矛盾内部比较",
+          "explanation": "C指出比较对象不同；A、B并不是题给错误。应该先画清甲乙和A/B再命名。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-a3",
+          "type": "single",
+          "answerText": "优先关键并保留必要支持",
+          "explanation": "A优先题给关键制约并保留必要支持，兼顾重点与整体；B把次要工作永久排除，C无视主次平均化，均忽略题给作用关系。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-a4",
+          "type": "subjective",
+          "answerText": "甲与其他矛盾比较；A与甲内另一方比较。过程关键制约或内部支配地位变化，需要新的证据和阶段条件，不能任意宣布。",
+          "explanation": "先核对甲乙是多个矛盾，再核对A/B是甲内部双方。变化需要阶段和作用证据，不把抽象模型当现实社会性质的自动裁定。",
+          "referenceRubric": [
+            "主要矛盾比较多个矛盾",
+            "主要方面比较内部双方",
+            "变化须作用关系证据",
+            "不混同或永恒化"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-d1",
+          "type": "single",
+          "answerText": "主要矛盾层次",
+          "explanation": "B正确定位多个矛盾间比较；A是另一层次，C不能单独提供决定性作用证据。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-d2",
+          "type": "single",
+          "answerText": "该矛盾主次方面发生转化",
+          "explanation": "C忠实于内部支配关系变化；A、B均超出题给抽象模型，不是必然结论。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-d3",
+          "type": "single",
+          "answerText": "平均用力与片面一点论",
+          "explanation": "A是两种片面性；调查和条件调整是方法要求，不是应排除的行为。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "pol-primary-contradictions-d4",
+          "type": "subjective",
+          "answerText": "依据新证据把重点转向乙，并评估甲与其他支持；不能由重点转移断言甲消失、所有资源平均分配或乙永远主要。",
+          "explanation": "允许不同具体协同方案，但必须说明乙为何成为新瓶颈，且甲仍存在。只调整主次重点，不据此断言甲消失或乙永久主要。",
+          "referenceRubric": [
+            "承认新瓶颈证据",
+            "调整重点",
+            "保留甲存在与协同",
+            "不推出永久主次或完全平均"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "pol-primary-contradictions-g1",
+          "description": "识别主要矛盾的层次",
+          "successCriteria": "在多个矛盾间据制约证据比较。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b1",
+            "pol-primary-contradictions-a1",
+            "pol-primary-contradictions-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g2",
+          "description": "区分主要方面",
+          "successCriteria": "在同一矛盾双方内部比较，不把甲与A混同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b2",
+            "pol-primary-contradictions-a2",
+            "pol-primary-contradictions-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g3",
+          "description": "结合两点与重点",
+          "successCriteria": "优先关键同时安排必要协同。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b3",
+            "pol-primary-contradictions-a3",
+            "pol-primary-contradictions-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g4",
+          "description": "按条件调整判断",
+          "successCriteria": "有证据才谈主次转化，不固定化或主观宣布。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b4",
+            "pol-primary-contradictions-a4",
+            "pol-primary-contradictions-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "理论教师复核性质判断的表述与主要方面的适用层次"
+      ]
+    },
+    {
+      "id": "353-mean-median",
+      "version": "0.1",
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "353-mean-median-b1",
+          "type": "single",
+          "answerText": "4分钟",
+          "explanation": "加总12除以有效n=3得4分钟；B只求和，C取最大值，均未完成均数定义。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-b2",
+          "type": "single",
+          "answerText": "7分钟",
+          "explanation": "排序2、6、8、10，中间6与8均值7；A来自原顺序中间2与10，C只取排序后一个中间值。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-b3",
+          "type": "single",
+          "answerText": "均数10、中位数3",
+          "explanation": "和50/n5=10，排序中间第3个为3；A颠倒指标，B对记录正确性作无依据断言。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-b4",
+          "type": "single",
+          "answerText": "仅凭中心不能断定分布或个体相同",
+          "explanation": "A保留描述边界；B把均数当每个人，C把小样本中心当总体一致，均超出证据。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-a1",
+          "type": "number",
+          "answerText": "3 分钟",
+          "explanation": "有效和9、n3，均数3分钟；把缺失作0或把分母写4都会改变问题，应另报缺失数。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-a2",
+          "type": "number",
+          "answerText": "6 分钟",
+          "explanation": "n4为偶数，中间4与8的均值是6分钟，不能取4或8之一；输出仍为时间单位。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-a3",
+          "type": "single",
+          "answerText": "核查并按问题报告适合的中心与分布",
+          "explanation": "C要求证据与问题导向；A未经核查删除，B混淆可计算性与指标解释适合度。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-a4",
+          "type": "subjective",
+          "answerText": "不能；需说明变量、单位、有效n、缺失与样本来源，并补分布或离散信息。样本中心不保证个体或总体相同。",
+          "explanation": "样本中心只是描述已观察到的一组数据，不等于每个人或全国参数；应同时报告变量、单位、有效n及来源，不凭均数一词给完整分数。",
+          "referenceRubric": [
+            "拒绝人人相同",
+            "拒绝全国外推",
+            "报告单位n和来源",
+            "补缺失与分布信息"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-d1",
+          "type": "number",
+          "answerText": "5 分钟",
+          "explanation": "总和15除以3得5分钟，注意输入正确单位；这是换数据的计算迁移，不沿用原例结果。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-d2",
+          "type": "number",
+          "answerText": "7 分钟",
+          "explanation": "排序1、3、7、9、11，n5的中间第3位为7分钟；原第3行11不是中位数，需先按大小排序。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-d3",
+          "type": "single",
+          "answerText": "仍为3分钟",
+          "explanation": "排序中间值仍3，说明对尾部数值的敏感性较低；B、C不符合本题位置定义，不推广为任何变化均无影响。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-mean-median-d4",
+          "type": "subjective",
+          "answerText": "两组和均为12，n3，均数4分钟；需比较离散和分布以及样本来源，不能断定服务体验完全相同。",
+          "explanation": "计算与解释分开核对；尚未教授推断检验，不据此宣布显著差异或临床意义。",
+          "referenceRubric": [
+            "两组各除以3",
+            "4分钟单位",
+            "离散分布差异",
+            "不作显著性或总体保证"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "353-mean-median-g1",
+          "description": "计算简单算术均数",
+          "successCriteria": "有效n、加总和单位正确，不把缺失记0。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-mean-median-b1",
+            "353-mean-median-a1",
+            "353-mean-median-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g2",
+          "description": "计算奇偶样本中位数",
+          "successCriteria": "先排序，再按规定位置或两数均值求中心。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-mean-median-b2",
+            "353-mean-median-a2",
+            "353-mean-median-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g3",
+          "description": "解释极端值与指标选择",
+          "successCriteria": "比较均数/中位数但不自动删值或限制均数仅正态。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-mean-median-b3",
+            "353-mean-median-a3",
+            "353-mean-median-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g4",
+          "description": "规范报告与推断边界",
+          "successCriteria": "报告变量单位n，拒绝由中心推个体相同或全国结论。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-mean-median-b4",
+            "353-mean-median-a4",
+            "353-mean-median-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "统计教师复核中心指标选用与外推边界",
+        "零基础排序及缺失规则是否清晰"
+      ]
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "version": "0.1",
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "353-dispersion-foundation-b1",
+          "type": "single",
+          "answerText": "4分钟",
+          "explanation": "最大5减最小1得4；B只取最大，C混作均数。极差只利用端点，不等于所有波动信息。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-b2",
+          "type": "number",
+          "answerText": "4 分钟²",
+          "explanation": "平方偏差和4+0+4=8，n−1=2，因此s²=4分钟²；分母和平方单位都要保留。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-b3",
+          "type": "single",
+          "answerText": "5分钟",
+          "explanation": "IQR=7−2=5分钟；A误把两分位数取平均，B只取上四分位数，均不合定义。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-b4",
+          "type": "single",
+          "answerText": "观测值的离散程度",
+          "explanation": "SD描述样本观测离散；B混淆SE，C把统计分散等同测量准确，均缺适用依据。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-a1",
+          "type": "number",
+          "answerText": "2 分钟",
+          "explanation": "最大4−最小2=2分钟，与另一组同均数也可以有不同极差；不直接推出显著差异。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-a2",
+          "type": "number",
+          "answerText": "2 分钟",
+          "explanation": "n3，样本方差8/(3−1)=4分钟²，开平方s=2分钟；不能把4直接当SD。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-a3",
+          "type": "single",
+          "answerText": "采用的分位数定义与插值约定",
+          "explanation": "C解释有限样本算法差异；A、B不能验证数学定义。本课直接给四分位数，不隐瞒算法条件。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-a4",
+          "type": "subjective",
+          "answerText": "SD描述个体观测离散；SE与均数估计精度有关并有额外样本假设；仪器误差另需测量评价。三者定义和用途不同。",
+          "explanation": "本课不要求套SE公式，重点辨认统计量含义；不得凭SD给置信区间或临床结论。",
+          "referenceRubric": [
+            "SD为观测离散",
+            "不自动等于SE",
+            "仪器评价另需证据",
+            "保留推断与测量边界"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-d1",
+          "type": "number",
+          "answerText": "6 分钟",
+          "explanation": "最大8减最小2得6分钟；此题换数据复查端点计算，不把中心值5当极差。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-d2",
+          "type": "number",
+          "answerText": "9 分钟²",
+          "explanation": "平方偏差9+0+9=18，n−1=2，方差9分钟²；本题问方差，不应再开方报3分钟。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-d3",
+          "type": "single",
+          "answerText": "6分钟",
+          "explanation": "10−4=6分钟；B平均，C相加，均不对应中间部分的跨度定义。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-dispersion-foundation-d4",
+          "type": "subjective",
+          "answerText": "先核查记录与问题，可用中位数/IQR说明中段，也可按目的报告均数/SD并解释极端值影响；不自动删除，也不把非正态等同SD不可计算。",
+          "explanation": "选择可有合理差异，须解释理由和分位数约定；主观参考不自动产生专业分数。",
+          "referenceRubric": [
+            "核查而非自动删",
+            "选择配套中心与离散",
+            "说明尾部影响",
+            "区分计算性与解释适合度"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "353-dispersion-foundation-g1",
+          "description": "计算并解释极差",
+          "successCriteria": "最大减最小，不把同均数当同离散。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b1",
+            "353-dispersion-foundation-a1",
+            "353-dispersion-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g2",
+          "description": "计算样本方差与SD",
+          "successCriteria": "n−1、平方根和单位清楚，限定n≥2。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b2",
+            "353-dispersion-foundation-a2",
+            "353-dispersion-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g3",
+          "description": "使用已给四分位数",
+          "successCriteria": "IQR=Q3−Q1，说明分位数算法仍需约定。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b3",
+            "353-dispersion-foundation-a3",
+            "353-dispersion-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g4",
+          "description": "区分离散与其他量",
+          "successCriteria": "不把SD等同SE、仪器误差或临床风险，按分布选指标。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b4",
+            "353-dispersion-foundation-a4",
+            "353-dispersion-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "统计/计量教师复核样本公式与SD/SE边界",
+        "分位数定义不可默认为所有软件一致"
+      ]
+    },
+    {
+      "id": "353-study-design-foundation",
+      "version": "0.1",
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "reviewer": "Codex AI internal source-linked screening; not independent professional",
+      "reviewedAt": "2026-10-25",
+      "status": "pending-independent-review",
+      "expertApproved": false,
+      "questions": [
+        {
+          "id": "353-study-design-foundation-b1",
+          "type": "single",
+          "answerText": "暴露/研究因素",
+          "explanation": "因素不一定有害，A符合研究问题；B把暴露限定为危险物，C混淆原因候选与后续结果。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-b2",
+          "type": "single",
+          "answerText": "观察性研究",
+          "explanation": "B依据未主动分配暴露；A看工具分类，C凭空补随机和盲法条件，都不符合题设。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-b3",
+          "type": "single",
+          "answerText": "选谁入样本与给样本何安排不同",
+          "explanation": "C区分入样本过程与安排分配；A取消设计差别，B做无条件同质性保证。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-b4",
+          "type": "single",
+          "answerText": "关联尚需评估混杂偏倚与时间条件",
+          "explanation": "A保留证据边界；B过度外推，C否认解释所需比较信息，不合研究推理。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-a1",
+          "type": "single",
+          "answerText": "实验性研究思路",
+          "explanation": "B依据分配目标因素；A以地点分类，C凭空加入伤害且不符合伦理边界。实际开展还需专业审查。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-a2",
+          "type": "single",
+          "answerText": "是否按研究方案分配目标暴露",
+          "explanation": "C追问研究因素分配，不能由采样工具或次数自动定义实验；采集操作与目标暴露分开。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-a3",
+          "type": "single",
+          "answerText": "可减少系统差异但不保证完全相同",
+          "explanation": "A说明随机化作用和限制；B、C把设计优点绝对化，还需检查实施和随访质量。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-a4",
+          "type": "subjective",
+          "answerText": "抽样决定进入样本的人，分配决定入组者接受哪种安排；随机过程不保证一次样本完美代表或两组完全相同，也不自动消除测量失访问题。",
+          "explanation": "核对过程和边界，不给未知设计补写随机双盲；未建立专业自动评分。",
+          "referenceRubric": [
+            "抽样选入样本",
+            "分配选安排",
+            "不保证绝对代表或同质",
+            "仍有测量失访等限制"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-d1",
+          "type": "single",
+          "answerText": "观察性研究",
+          "explanation": "B依据目标暴露未被研究分配；A把时间结构当分配，C把分类当因果证据。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-d2",
+          "type": "single",
+          "answerText": "不能，还缺随机及盲法信息",
+          "explanation": "分配支持实验性思路，但随机和盲法是额外设计条件；A、B给题干添加了不存在的事实。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-d3",
+          "type": "single",
+          "answerText": "明确规定的健康教育安排",
+          "explanation": "研究因素可有利、有害或效果未知；B、C过度限制暴露定义，并把流行病学缩为单一疾病领域。",
+          "referenceRubric": null,
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        },
+        {
+          "id": "353-study-design-foundation-d4",
+          "type": "subjective",
+          "answerText": "可报告给定样本关联；核查时间先后、混杂或偏倚，不直接称因果。不能为验证伤害而任意使人暴露，实际研究需相应伦理规范。",
+          "explanation": "示例仅教学，不提供临床试验实施建议。合理候选因素可以多于两项，逐项人工核对。",
+          "referenceRubric": [
+            "限定样本关联",
+            "至少两项解释风险",
+            "不直接推普遍因果",
+            "不以研究名义任意伤害"
+          ],
+          "internalCheck": "key/distractor/units/conditions compared; independent accuracy approval absent"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "353-study-design-foundation-g1",
+          "description": "界定对象暴露结局",
+          "successCriteria": "区分研究因素与结果，不限于有害因素或传染病。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b1",
+            "353-study-design-foundation-a1",
+            "353-study-design-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g2",
+          "description": "按目标暴露分配分类",
+          "successCriteria": "不用问卷/设备名字判断是否实验。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b2",
+            "353-study-design-foundation-a2",
+            "353-study-design-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g3",
+          "description": "说明比较与随机区别",
+          "successCriteria": "比较组及随机分配不等于随机抽样或绝对同质。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b3",
+            "353-study-design-foundation-a3",
+            "353-study-design-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-study-design-foundation-g4",
+          "description": "保留因果与伦理边界",
+          "successCriteria": "说明偏倚混杂和实施条件，不以分类直接证因果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-study-design-foundation-b4",
+            "353-study-design-foundation-a4",
+            "353-study-design-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "unresolved": [
+        "流行病学/公共卫生教师复核分配、比较及伦理边界",
+        "不把随机化叙述当所有偏倚已排除"
+      ]
+    }
+  ],
+  "expertApproved": 0
+}

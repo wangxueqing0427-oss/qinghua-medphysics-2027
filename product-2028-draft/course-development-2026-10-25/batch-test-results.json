@@ -1,0 +1,1242 @@
+{
+  "scope": "Existing learning controller/engine with fake IndexedDB and synthetic answers; not browser, real iPhone, expert approval or learner-effect evidence",
+  "baseCommit": "ca1c019d4a1c4f9d91c74a5399714065b6f3fc3b",
+  "reports": [
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "en-nouns-countability",
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "en-pronoun-reference",
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "en-articles-foundation",
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "pol-matter-consciousness",
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "pol-contradiction-unity",
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "pol-primary-contradictions",
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "353-mean-median",
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "353-dispersion-foundation",
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Draft engine and fake IndexedDB; not browser or real iPhone or independent content approval",
+      "course": "353-study-design-foundation",
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "results": [
+        {
+          "name": "Existing engine/objective/bank validators accept draft but formal release stays blocked",
+          "pass": true
+        },
+        {
+          "name": "Every goal has concrete teaching paragraph, recall and all three question phases",
+          "pass": true
+        },
+        {
+          "name": "Source access and provisional planning status never become official 2028 confirmation",
+          "pass": true
+        },
+        {
+          "name": "Planning node snapshot matches pending teaching scope and full local graph when available",
+          "pass": true
+        },
+        {
+          "name": "Standalone draft absent from existing seven-course catalog and phone build",
+          "pass": true
+        },
+        {
+          "name": "Existing sources, review history, assets and 353 draft content remain unchanged",
+          "pass": true
+        },
+        {
+          "name": "Prerequisite or root-entry contract preserves state before actual answers",
+          "pass": true
+        },
+        {
+          "name": "Hidden recall and unsubmitted answer survive a fresh controller",
+          "pass": true
+        },
+        {
+          "name": "Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+          "pass": true
+        },
+        {
+          "name": "Complete eight actual responses; subjective original retained with null score",
+          "pass": true
+        },
+        {
+          "name": "Due delayed tests persist four new responses without fabricated mastery or score",
+          "pass": true
+        },
+        {
+          "name": "Old prerequisite answer and separate local profile stay independent",
+          "pass": true
+        },
+        {
+          "name": "Export/restore clones all actual answers without changing original profile",
+          "pass": true
+        },
+        {
+          "name": "Objective teaching/recall and every phase truly linked; complete explanations",
+          "pass": true
+        },
+        {
+          "name": "Checked choice keys, distractors and subjective non-scoring",
+          "pass": true
+        },
+        {
+          "name": "Formula and scientific interpretation boundaries",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "en-nouns-countability / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Existing engine/objective/bank validators accept draft but formal release stays blocked",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Every goal has concrete teaching paragraph, recall and all three question phases",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Source access and provisional planning status never become official 2028 confirmation",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Planning node snapshot matches pending teaching scope and full local graph when available",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Standalone draft absent from existing seven-course catalog and phone build",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Existing sources, review history, assets and 353 draft content remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Prerequisite or root-entry contract preserves state before actual answers",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Hidden recall and unsubmitted answer survive a fresh controller",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Wrong answer, explicit cause and stale duplicate rollback are real stored events",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Complete eight actual responses; subjective original retained with null score",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Due delayed tests persist four new responses without fabricated mastery or score",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Old prerequisite answer and separate local profile stay independent",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Export/restore clones all actual answers without changing original profile",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Objective teaching/recall and every phase truly linked; complete explanations",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Checked choice keys, distractors and subjective non-scoring",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation / Formula and scientific interpretation boundaries",
+      "pass": true
+    },
+    {
+      "name": "All29 units and307 questions validate with prior20 preserved",
+      "pass": true
+    },
+    {
+      "name": "All prior protection hashes unchanged",
+      "pass": true
+    }
+  ],
+  "similarCandidates": [
+    {
+      "a": "sva-d1",
+      "b": "sva-d3",
+      "score": 0.7307692307692307,
+      "action": "manual-review-only"
+    }
+  ],
+  "similarityMethod": "Character-set overlap candidates; not semantic equivalence or expert review",
+  "protectedCount": 171,
+  "independentExpertApproved": 0
+}

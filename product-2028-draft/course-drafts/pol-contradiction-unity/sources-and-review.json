@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+      "publisher": "毛泽东《矛盾论》，中文马克思主义文库电子版",
+      "locator": "原文第四/第五部分；作品1937-08，当前网页电子版出版日未显示",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml",
+      "publisher": "共产党员网",
+      "locator": "《实践论》《矛盾论》导读正文：实践与矛盾方法，非年度考试大纲",
+      "publishedAt": "2012-08-27",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "理论教师复核同一性/斗争性及服务情境类比边界"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

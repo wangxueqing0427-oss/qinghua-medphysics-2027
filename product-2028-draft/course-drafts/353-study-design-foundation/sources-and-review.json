@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "s27-7-1",
+    "additionalNodeIds": [
+      "s27-7-2"
+    ],
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "locator": "2027级353第二部分A一、B一；仅作2028暂定依据",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section7.html",
+      "publisher": "CDC archived Principles of Epidemiology第三版",
+      "locator": "Lesson1 Section7 Experimental studies/Observational studies；历史教材概念参考非现行操作规范",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+      "publisher": "CDC，Brendan R. Jackson/Patricia M. Griffin",
+      "locator": "Field Epidemiology Manual Chapter7，研究设计、比较组与偏倚段",
+      "publishedAt": "2024-08-08",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "流行病学/公共卫生教师复核分配、比较及伦理边界",
+    "不把随机化叙述当所有偏倚已排除"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "353-dispersion-foundation",
+      "subject": "353",
+      "title": "离散程度：极差、样本标准差与四分位距",
+      "prerequisites": [
+        "353-mean-median"
+      ],
+      "mapping": [
+        "s27-18-2"
+      ],
+      "recall": [
+        "用相同均数两组数据说明为何还需离散。",
+        "闭卷写s²与s步骤、n条件和单位。",
+        "已给Q1、Q3时如何求IQR，未给时为何先问算法。",
+        "列SD不能自动替代的两个量和解释边界。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "数据1、3、5分钟的极差为？",
+          "options": [
+            "4分钟",
+            "5分钟",
+            "3分钟"
+          ],
+          "answer": 0,
+          "explanation": "最大5减最小1得4；B只取最大，C混作均数。极差只利用端点，不等于所有波动信息。",
+          "id": "353-dispersion-foundation-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "number",
+          "stem": "数据1、3、5分钟，均数3，按样本公式求方差s²。",
+          "answer": 4,
+          "unit": "分钟²",
+          "tolerance": 1e-10,
+          "explanation": "平方偏差和4+0+4=8，n−1=2，因此s²=4分钟²；分母和平方单位都要保留。",
+          "id": "353-dispersion-foundation-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "给定Q1=2、Q3=7分钟，IQR是？",
+          "options": [
+            "4.5分钟",
+            "7分钟",
+            "5分钟"
+          ],
+          "answer": 2,
+          "explanation": "IQR=7−2=5分钟；A误把两分位数取平均，B只取上四分位数，均不合定义。",
+          "id": "353-dispersion-foundation-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "样本SD在本课主要描述？",
+          "options": [
+            "观测值的离散程度",
+            "均数标准误的同义词",
+            "仪器准确度的充分证明"
+          ],
+          "answer": 0,
+          "explanation": "SD描述样本观测离散；B混淆SE，C把统计分散等同测量准确，均缺适用依据。",
+          "id": "353-dispersion-foundation-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "number",
+          "stem": "数据2、3、4分钟的极差是多少？",
+          "answer": 2,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "最大4−最小2=2分钟，与另一组同均数也可以有不同极差；不直接推出显著差异。",
+          "id": "353-dispersion-foundation-a1",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "数据2、4、6分钟，平方偏差和8，按样本SD公式求s。",
+          "answer": 2,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "n3，样本方差8/(3−1)=4分钟²，开平方s=2分钟；不能把4直接当SD。",
+          "id": "353-dispersion-foundation-a2",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "软件对同一小样本给出略异Q1/Q3，应先核对？",
+          "options": [
+            "哪家品牌更贵",
+            "是否可任意挑一个",
+            "采用的分位数定义与插值约定"
+          ],
+          "answer": 2,
+          "explanation": "C解释有限样本算法差异；A、B不能验证数学定义。本课直接给四分位数，不隐瞒算法条件。",
+          "id": "353-dispersion-foundation-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "为什么等待时间SD=2分钟，不能说均数标准误2分钟或仪器误差2分钟？",
+          "answer": "SD描述个体观测离散；SE与均数估计精度有关并有额外样本假设；仪器误差另需测量评价。三者定义和用途不同。",
+          "explanation": "本课不要求套SE公式，重点辨认统计量含义；不得凭SD给置信区间或临床结论。",
+          "rubric": [
+            "SD为观测离散",
+            "不自动等于SE",
+            "仪器评价另需证据",
+            "保留推断与测量边界"
+          ],
+          "id": "353-dispersion-foundation-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日数据2、5、8分钟的极差，输入分钟。",
+          "answer": 6,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "最大8减最小2得6分钟；此题换数据复查端点计算，不把中心值5当极差。",
+          "id": "353-dispersion-foundation-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "隔日数据2、5、8分钟，均数5，样本方差是多少？",
+          "answer": 9,
+          "unit": "分钟²",
+          "tolerance": 1e-10,
+          "explanation": "平方偏差9+0+9=18，n−1=2，方差9分钟²；本题问方差，不应再开方报3分钟。",
+          "id": "353-dispersion-foundation-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "隔日已给Q1=4、Q3=10分钟，IQR为？",
+          "options": [
+            "6分钟",
+            "7分钟",
+            "14分钟"
+          ],
+          "answer": 0,
+          "explanation": "10−4=6分钟；B平均，C相加，均不对应中间部分的跨度定义。",
+          "id": "353-dispersion-foundation-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "某组有真实极端等待值，应如何选报中心与离散，能否直接删值或断言SD不能算？",
+          "answer": "先核查记录与问题，可用中位数/IQR说明中段，也可按目的报告均数/SD并解释极端值影响；不自动删除，也不把非正态等同SD不可计算。",
+          "explanation": "选择可有合理差异，须解释理由和分位数约定；主观参考不自动产生专业分数。",
+          "rubric": [
+            "核查而非自动删",
+            "选择配套中心与离散",
+            "说明尾部影响",
+            "区分计算性与解释适合度"
+          ],
+          "id": "353-dispersion-foundation-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "有限样本描述，样本方差n−1且n≥2；IQR题给Q1/Q3。不覆盖SE计算、推断或测量不确定度替代。2028范围暂定。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "provisional-previous-year",
+      "prerequisiteExplanation": "先修：353-mean-median；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "离散程度描述观测之间有多分散，补充均数或中位数不能表达的信息。先确认同一变量同一单位。原创两组1、3、5与2、3、4分钟，均数都是3，但第一组更分散。极差是最大值减最小值，分别4和2分钟；它只看两端，不概括每个数据离中心的距离，也随样本和极端值变化。极差不是最大值本身，更不能只看一个大极差就断定流程危险或存在统计显著性。报告中心和离散要说明是哪一种指标，不能把所有波动都叫误差。\n\n本课样本方差s²把每个值与样本均数的差平方后相加，再除以n−1，要求n≥2；样本标准差s取方差的平方根。原创1、3、5分钟：均数3，偏差−2、0、2，平方4、0、4，平方和8，除以2得s²=4分钟²，再开方s=2分钟。平方消除正负抵消，方差单位为原单位平方，SD回到原单位。本课不把除n的总体描述方差与此样本公式混用，也不宣称s本身就是总体标准差的无偏估计；推断性质留待后课。\n\n四分位距IQR为Q3−Q1，关注中间部分的数据跨度，单位仍同原变量。本课直接给Q1和Q3，避免把不同软件的有限样本分位数算法混成唯一规则。若Q1=2、Q3=7分钟，IQR=5分钟；它不是(Q1+Q3)/2，也不是把中位数减最小值。出现偏斜或极端观测时，IQR可与中位数一起描述，但不能因此说SD在所有非正态数据上不能计算，或IQR必定比SD小。具体分位数计算约定必须另说明，不把图上估值冒充精确分位数。\n\n选择离散指标要结合分布、问题和解释目的。SD会受到极端值影响，IQR主要看中间部分，两者并非同一个量；SD是样本观测离散，不是测量仪器准确度、不等于均数标准误，也不是置信区间。原创报告等待时间中位数与IQR，可说明典型位置和中段跨度，却不能直接给个体最大等待或全国风险。算题按中心、偏差、平方和、分母、开方、单位逐步检查；错因分别记录公式、分母和量纲，延迟题改数据再算。",
+      "definition": "极差为最大值减最小值；本课样本方差为平方偏差和除以n−1，n≥2，SD为其平方根。IQR为已给Q3减Q1；各量描述离散而非自动提供推断或测量准确度。",
+      "example": "1、3、5极差5−1=4；2、3、4极差4−2=2分钟。\n1、3、5的平方偏差和8；s²=8/(3−1)=4，s=2分钟。\n已给Q1=2、Q3=7分钟：IQR=5分钟；不猜软件算法。\nSD≠标准误/仪器准确度；先选指标并说明数据与单位。",
+      "misconceptions": [
+        "极差就是最大值。",
+        "样本方差与SD同单位同数值。",
+        "SD与均数SE或仪器误差是同义词。",
+        "所有软件的有限样本分位数算法必相同。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "1、3、5极差5−1=4；2、3、4极差4−2=2分钟。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "1、3、5的平方偏差和8；s²=8/(3−1)=4，s=2分钟。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "已给Q1=2、Q3=7分钟：IQR=5分钟；不猜软件算法。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "SD≠标准误/仪器准确度；先选指标并说明数据与单位。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-dispersion-foundation-g1",
+          "description": "计算并解释极差",
+          "successCriteria": "最大减最小，不把同均数当同离散。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b1",
+            "353-dispersion-foundation-a1",
+            "353-dispersion-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g2",
+          "description": "计算样本方差与SD",
+          "successCriteria": "n−1、平方根和单位清楚，限定n≥2。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b2",
+            "353-dispersion-foundation-a2",
+            "353-dispersion-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g3",
+          "description": "使用已给四分位数",
+          "successCriteria": "IQR=Q3−Q1，说明分位数算法仍需约定。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b3",
+            "353-dispersion-foundation-a3",
+            "353-dispersion-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-dispersion-foundation-g4",
+          "description": "区分离散与其他量",
+          "successCriteria": "不把SD等同SE、仪器误差或临床风险，按分布选指标。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-dispersion-foundation-b4",
+            "353-dispersion-foundation-a4",
+            "353-dispersion-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "最大减最小，不把同均数当同离散。",
+        "n−1、平方根和单位清楚，限定n≥2。",
+        "IQR=Q3−Q1，说明分位数算法仍需约定。",
+        "不把SD等同SE、仪器误差或临床风险，按分布选指标。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计/计量教师复核样本公式与SD/SE边界",
+          "分位数定义不可默认为所有软件一致"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "Targeted previous-batch synthetic engine/storage compatibility; no full gate, browser, live storage or deployment",
+  "passed": true,
+  "results": [
+    {
+      "script": "product-2028-draft/course-development-2026-10-24/batch-test.cjs",
+      "exitCode": 0,
+      "stdout": "{\"passed\":50,\"total\":50,\"failed\":[],\"similarCandidates\":1}\n",
+      "stderr": "",
+      "reportFile": "previous-batch-results.json",
+      "passed": 50,
+      "total": 50
+    },
+    {
+      "script": "audit-2028/round4-reliability-test.cjs",
+      "exitCode": 0,
+      "stdout": "{\"passed\":13,\"total\":13,\"failed\":[]}\n",
+      "stderr": "",
+      "reportFile": "round4-reliability-results.json",
+      "passed": 13,
+      "total": 13
+    },
+    {
+      "script": "audit-2028/r4-r5-compatibility-test.cjs",
+      "exitCode": 0,
+      "stdout": "{\"passed\":3,\"total\":3,\"failed\":[]}\n",
+      "stderr": "",
+      "reportFile": "r4-r5-compatibility-results.json",
+      "passed": 3,
+      "total": 3
+    }
+  ]
+}

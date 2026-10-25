@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "pol-primary-contradictions",
+      "subject": "pol",
+      "title": "主要矛盾与主要方面：先分清比较的是哪一层",
+      "prerequisites": [
+        "pol-contradiction-unity",
+        "pol-common-particular"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "recall": [
+        "闭卷说主要矛盾比较哪些对象。",
+        "画甲乙与甲内A/B，标明两个层次。",
+        "解释重点不等于放弃所有次要工作。",
+        "给出转化所需的条件证据与答题顺序。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "在矛盾甲和乙之间识别决定当前重点的一项，属于分析？",
+          "options": [
+            "主要矛盾",
+            "甲内部主要方面",
+            "共性个性同义词"
+          ],
+          "answer": 0,
+          "explanation": "A是多个矛盾之间的比较；B是同一矛盾内部层次，C混淆不同哲学概念。",
+          "id": "pol-primary-contradictions-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "甲内部A/B中A起支配作用，应称？",
+          "options": [
+            "另一种主要矛盾",
+            "甲的主要方面",
+            "任意外部条件"
+          ],
+          "answer": 1,
+          "explanation": "B保留同一矛盾内部比较；A跳到多个矛盾层次，C忽视题给双方关系。",
+          "id": "pol-primary-contradictions-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两点论与重点论结合要求？",
+          "options": [
+            "所有工作平均分配",
+            "只做重点永远不顾其余",
+            "抓关键并兼顾必要协同"
+          ],
+          "answer": 2,
+          "explanation": "C同时看到主次；A取消重点，B割裂整体联系。资源安排仍需看具体阶段和条件。",
+          "id": "pol-primary-contradictions-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "工作重点应随什么调整？",
+          "options": [
+            "有证据的制约关系变化",
+            "说话者临时偏好",
+            "固定标签永不改变"
+          ],
+          "answer": 0,
+          "explanation": "A用实际关系说明变化；B主观任意，C固定化主次，都不符合条件性分析。",
+          "id": "pol-primary-contradictions-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "题给多个问题中供需瓶颈制约其他改善，当前优先处理供需，依据是？",
+          "options": [
+            "问题名称最长",
+            "对整体的关键制约作用",
+            "人数最多就一定主要"
+          ],
+          "answer": 1,
+          "explanation": "B对应题给作用关系；A、C用表面特征代替实际影响，不足以确定主次。",
+          "id": "pol-primary-contradictions-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "将主要矛盾甲和甲内主要方面A当同一概念，错误在？",
+          "options": [
+            "保留了层次",
+            "强调具体条件",
+            "混淆多个矛盾与同一矛盾内部比较"
+          ],
+          "answer": 2,
+          "explanation": "C指出比较对象不同；A、B并不是题给错误。应该先画清甲乙和A/B再命名。",
+          "id": "pol-primary-contradictions-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "瓶颈改善后仍需信息协同，最恰当措施？",
+          "options": [
+            "优先关键并保留必要支持",
+            "宣布次要工作永远无用",
+            "把所有问题完全等量处理"
+          ],
+          "answer": 0,
+          "explanation": "A优先题给关键制约并保留必要支持，兼顾重点与整体；B把次要工作永久排除，C无视主次平均化，均忽略题给作用关系。",
+          "id": "pol-primary-contradictions-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "设当前甲为主要矛盾，甲内A为主要方面。分别说明两判断比较什么，并给未来可能改变判断的条件。",
+          "answer": "甲与其他矛盾比较；A与甲内另一方比较。过程关键制约或内部支配地位变化，需要新的证据和阶段条件，不能任意宣布。",
+          "explanation": "先核对甲乙是多个矛盾，再核对A/B是甲内部双方。变化需要阶段和作用证据，不把抽象模型当现实社会性质的自动裁定。",
+          "rubric": [
+            "主要矛盾比较多个矛盾",
+            "主要方面比较内部双方",
+            "变化须作用关系证据",
+            "不混同或永恒化"
+          ],
+          "id": "pol-primary-contradictions-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日把一个过程的三个矛盾列出，再找关键制约，这是？",
+          "options": [
+            "只在一个矛盾内比较",
+            "主要矛盾层次",
+            "等于统计人数"
+          ],
+          "answer": 1,
+          "explanation": "B正确定位多个矛盾间比较；A是另一层次，C不能单独提供决定性作用证据。",
+          "id": "pol-primary-contradictions-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日同一矛盾的支配一方改变，应优先表述为？",
+          "options": [
+            "主要矛盾数目必增加",
+            "所有社会性质均相同",
+            "该矛盾主次方面发生转化"
+          ],
+          "answer": 2,
+          "explanation": "C忠实于内部支配关系变化；A、B均超出题给抽象模型，不是必然结论。",
+          "id": "pol-primary-contradictions-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "抓重点但不忽视必要支持，避免的是？",
+          "options": [
+            "平均用力与片面一点论",
+            "所有调查",
+            "根据条件调整"
+          ],
+          "answer": 0,
+          "explanation": "A是两种片面性；调查和条件调整是方法要求，不是应排除的行为。",
+          "id": "pol-primary-contradictions-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "新阶段乙成为主要瓶颈，而甲仍存在。应怎样修订工作安排，哪些结论不能推出？",
+          "answer": "依据新证据把重点转向乙，并评估甲与其他支持；不能由重点转移断言甲消失、所有资源平均分配或乙永远主要。",
+          "explanation": "允许不同具体协同方案，但必须说明乙为何成为新瓶颈，且甲仍存在。只调整主次重点，不据此断言甲消失或乙永久主要。",
+          "rubric": [
+            "承认新瓶颈证据",
+            "调整重点",
+            "保留甲存在与协同",
+            "不推出永久主次或完全平均"
+          ],
+          "id": "pol-primary-contradictions-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "只作原理比较层次；不自动套用现实社会/政治结论，不宣称2028年度范围确认。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：pol-contradiction-unity、pol-common-particular；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "复杂过程可以有多种矛盾，分析主要矛盾是在这些不同矛盾之间比较哪一个对过程起关键制约作用；不是简单选声音最大或数字最多的问题。原创项目同时有供需不匹配、协作不顺、信息不全等问题，题干若给明确证据显示当前供需不匹配制约其余问题，就据这个条件确定重点。教学判断依赖给定材料，不是宣称现实项目永远同一短板。先列过程、阶段和多个问题，再看影响关系；不能凭个人偏好直接宣布主要。\n\n矛盾的主要方面是在同一矛盾内部两方面之间比较起支配作用的一方，分析层次与主要矛盾不同。原创抽象模型：过程有矛盾甲和乙，当前甲是主要矛盾；甲内部有A和B，A处于支配地位。甲和A不是同一种比较，不能把A直接写成多个矛盾中的主要矛盾。事物性质主要由居于支配地位的矛盾主要方面规定，使用时仍须界定所讨论事物和层次，不能把每个现实问题的性质都用单个数字决定。\n\n两点论要求看到主要和次要，重点论要求把力量集中在关键处，二者结合而非相互排斥。只抓重点却放弃其他相关工作可能破坏整体；把所有问题完全平均处理又可能错失关键。原创题给供需是当前重点，信息工作仍能支持改善，则优先补供需并保持必要信息协同，而不是宣布信息永远无用。这里是在明确材料下训练资源分析，不编制现实政策，也不把只做某一项的APP简洁入口误解为永久忽略其他学科。\n\n主次关系能在一定条件下转化，需要新的实际证据，而不是永远固定或随意宣布。若当前瓶颈缓解、协作成为主要制约，工作重点应据调查变化；同一矛盾内部A/B地位变化又是另一层次。答题按比较层次→主次依据→统筹措施→变化条件组织。不能把主要矛盾、主要方面、共性个性三个概念当同义词。本课不扩展特定历史时期的社会主要矛盾结论，相关年度内容需另核实；闭卷要能在新抽象模型中标注而非背现成名词。",
+      "definition": "主要矛盾是在复杂过程中多个矛盾间起关键作用的矛盾；主要方面是在同一矛盾内部起支配作用的一方。两者比较层次不同，主次取决于具体阶段与条件。",
+      "example": "多个矛盾甲乙之间找当前关键制约：主要矛盾。\n甲内部A/B起支配作用的一方：主要方面。\n重点补关键并保留必要协同，不是平均用力或只顾一点。\n条件变动后重查主次，分清不同层次的转化。",
+      "misconceptions": [
+        "主要矛盾与主要方面是同义词。",
+        "声音最大或人数最多必然主要。",
+        "抓重点就是永远不做其余工作。",
+        "确定一次主次就永远不再变化。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "多个矛盾甲乙之间找当前关键制约：主要矛盾。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "甲内部A/B起支配作用的一方：主要方面。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "重点补关键并保留必要协同，不是平均用力或只顾一点。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "条件变动后重查主次，分清不同层次的转化。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-primary-contradictions-g1",
+          "description": "识别主要矛盾的层次",
+          "successCriteria": "在多个矛盾间据制约证据比较。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b1",
+            "pol-primary-contradictions-a1",
+            "pol-primary-contradictions-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g2",
+          "description": "区分主要方面",
+          "successCriteria": "在同一矛盾双方内部比较，不把甲与A混同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b2",
+            "pol-primary-contradictions-a2",
+            "pol-primary-contradictions-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g3",
+          "description": "结合两点与重点",
+          "successCriteria": "优先关键同时安排必要协同。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b3",
+            "pol-primary-contradictions-a3",
+            "pol-primary-contradictions-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-primary-contradictions-g4",
+          "description": "按条件调整判断",
+          "successCriteria": "有证据才谈主次转化，不固定化或主观宣布。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-primary-contradictions-b4",
+            "pol-primary-contradictions-a4",
+            "pol-primary-contradictions-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "在多个矛盾间据制约证据比较。",
+        "在同一矛盾双方内部比较，不把甲与A混同。",
+        "优先关键同时安排必要协同。",
+        "有证据才谈主次转化，不固定化或主观宣布。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "理论教师复核性质判断的表述与主要方面的适用层次"
+        ]
+      },
+      "sources": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    }
+  ]
+}

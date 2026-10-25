@@ -1,0 +1,78 @@
+{
+  "capturedAt": "2026-10-25",
+  "origin": "product-2028-draft/syllabus-353-v2/matrix.json",
+  "revision": "353-2027-remap-v2-2026-10-19",
+  "node": {
+    "id": "s27-18-2",
+    "name": "描述指标",
+    "subject": "stats",
+    "legacyIds": [
+      "s27-18-2"
+    ],
+    "sectionNumber": 18,
+    "basisType": "official-section-decomposition",
+    "depth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+    "priority": "P0",
+    "prerequisites": [],
+    "part": "流行病学与统计/B统计学",
+    "sectionTitle": "认识数据",
+    "officialText": "掌握数据类型和变量的分类，了解对数据进行描述性分析的基本方法，包括描述数据特征常用的统计指标及其适用场景。掌握如何使用散点图和相关系数等方法理解变量之间的关系，并了解相关与因果关系之间的差异。同时，熟悉数据的产生过程，掌握随机抽样的基本原理，了解如何避免和控制数据收集中的偏差。",
+    "sourceTextHash": "24daf248b8a4e2911651c998df24bbfd6d791a82a1423a9de511b7ce5da481d6",
+    "sourceUrl": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "sourceYear": 2027,
+    "targetYear": 2028,
+    "status": "provisional_previous_year",
+    "mappingReview": "internal-source-comparison-pending-independent-review",
+    "prerequisiteBasis": "internal-pedagogical-order-not-official-weight",
+    "verifiedCoverage": false,
+    "expertApproved": false,
+    "legacyTeachingPointIds": [
+      "st-02-point-1",
+      "st-02-point-2",
+      "st-02-point-3",
+      "st-02-point-4",
+      "st-02-point-5"
+    ],
+    "courseSupport": [
+      {
+        "id": "353-frequency-denominator",
+        "version": "0.2",
+        "title": "频数、比例与缺失数据：先把人数和分母说明白",
+        "status": "draft-internal-check",
+        "contentHash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+        "questionIds": [
+          "frq-b1",
+          "frq-b2",
+          "frq-b3",
+          "frq-b4",
+          "frq-a1",
+          "frq-a2",
+          "frq-a3",
+          "frq-a4",
+          "frq-d1",
+          "frq-d2",
+          "frq-d3",
+          "frq-d4"
+        ],
+        "support": "partial-internal-teaching-only",
+        "expertApproved": false
+      }
+    ],
+    "legacyQuestionCandidates": [
+      "q-s01",
+      "q-s02",
+      "q-s03",
+      "q-s09",
+      "q-v16-s01-1",
+      "q-v16-s01-2",
+      "q-v16-s02-1",
+      "q-v16-s02-2",
+      "q-v16-s04-1",
+      "q-v16-s04-2",
+      "q-v16-s10-1",
+      "q-v16-s10-2"
+    ],
+    "gap": "有部分可运行教学与练习；目标深度、完整性及专业准确性未审定",
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm"
+  }
+}

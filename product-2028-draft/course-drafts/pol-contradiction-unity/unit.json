@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "pol-contradiction-unity",
+      "subject": "pol",
+      "title": "矛盾的同一性与斗争性：相互依存不等于没有差异",
+      "prerequisites": [
+        "pol-common-particular",
+        "pol-connections-foundation"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "recall": [
+        "解释哲学矛盾为什么不等于吵架。",
+        "闭卷列同一性的一个含义和一个不能推出的结论。",
+        "说明斗争性不必采取何种具体形式。",
+        "按四步分析一个新的生活或学习系统。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "哲学矛盾最恰当的入门理解是？",
+          "options": [
+            "同一系统中对立又联系的方面关系",
+            "所有吵架都穷尽其含义",
+            "任意两个词放一起"
+          ],
+          "answer": 0,
+          "explanation": "A保留统一体、对立与联系；B把哲学概念缩成争吵，C省略客观关系依据。",
+          "id": "pol-contradiction-unity-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "同一性意味着？",
+          "options": [
+            "双方完全相同",
+            "有条件的相互依存和贯通",
+            "任何条件下任意转化"
+          ],
+          "answer": 1,
+          "explanation": "B保留依存与条件；A抹掉差异，C把有条件的联系绝对化，不合本课含义。",
+          "id": "pol-contradiction-unity-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "斗争性不能机械等同于？",
+          "options": [
+            "对立方面的排斥倾向",
+            "在关系中存在差异和张力",
+            "所有问题都须暴力冲突"
+          ],
+          "answer": 2,
+          "explanation": "C把哲学对立套成唯一行为方式；A、B是给定语境的概念说明，不等于行动方案。",
+          "id": "pol-contradiction-unity-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "只有合作表象就断定不存在任何矛盾，其问题是？",
+          "options": [
+            "只看联系而忽略可能的对立",
+            "正确区分了双方",
+            "完成了所有实证调查"
+          ],
+          "answer": 0,
+          "explanation": "合作不自动排除差异和张力；B、C并无题干证据。仍需研究具体双方和条件。",
+          "id": "pol-contradiction-unity-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "两件互无关系的事被硬称为矛盾双方，缺少什么？",
+          "options": [
+            "术语字数",
+            "统一体与客观联系依据",
+            "更多口号"
+          ],
+          "answer": 1,
+          "explanation": "B要求关系证据；A和C不能把无关事物变成客观矛盾，也不能证明应用准确。",
+          "id": "pol-contradiction-unity-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "分析同一性时，哪句保留合理边界？",
+          "options": [
+            "所有差异必须消失",
+            "双方永远一样",
+            "依存与转化须看具体条件"
+          ],
+          "answer": 2,
+          "explanation": "C区别条件性联系与无差别同一；A、B取消了作为对立双方的具体差别。",
+          "id": "pol-contradiction-unity-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "在服务资源冲突中，哪项更合本课方法？",
+          "options": [
+            "同时查对立和依存证据再调整",
+            "只承认分歧否认共同系统",
+            "以斗争性为由拒绝调查"
+          ],
+          "answer": 0,
+          "explanation": "A完整看关系并行动；B割裂同一性，C用术语代替证据，不能构成有效分析。",
+          "id": "pol-contradiction-unity-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "用服务覆盖与质量情境分别说明同一性和斗争性，并写一项改进及限制。",
+          "answer": "在给定系统中二者为服务目标相互支撑；有限资源条件可有张力。可调整资源并监测效果，但不能宣称一切覆盖质量永远对立或调整必成功。",
+          "explanation": "要点按材料条件核对；没有可信专业自动评分，不从关键词出现计算总分。",
+          "rubric": [
+            "界定同一系统",
+            "依存证据",
+            "具体对立条件",
+            "改进与非普遍化边界"
+          ],
+          "id": "pol-contradiction-unity-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：双方有合作就必然完全相同，这种说法？",
+          "options": [
+            "必然正确",
+            "混淆同一性与无差别相同",
+            "可替代一切调查"
+          ],
+          "answer": 1,
+          "explanation": "同一性是在对立中的联系，不取消双方区别；A与C都把概念绝对化。",
+          "id": "pol-contradiction-unity-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：斗争性的合理边界是？",
+          "options": [
+            "只等于肢体冲突",
+            "任何人都必须对抗",
+            "具体对立不预设唯一处置方式"
+          ],
+          "answer": 2,
+          "explanation": "C区分哲学性质与具体行动形式；A、B把概念变成行为命令，超出证据和适用范围。",
+          "id": "pol-contradiction-unity-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日分析一个新系统，首先应？",
+          "options": [
+            "指明系统与双方及证据",
+            "随意选两个名称",
+            "只背术语不看材料"
+          ],
+          "answer": 0,
+          "explanation": "有明确对象和联系才可分析；B、C缺少关系与条件，无法检验是否适用。",
+          "id": "pol-contradiction-unity-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "为什么只强调和谐或只强调对立都可能片面？用一个有条件的原创例子说明。",
+          "answer": "前者可能忽视问题和张力，后者可能忽略共同系统与依存；应分别给两类证据并根据条件处理，而非预设所有关系均相同。",
+          "explanation": "接受不同合理场景，需说明边界；不以模型推出现实因果或法律裁决。",
+          "rubric": [
+            "联系不可代替对立",
+            "对立不可抹去依存",
+            "原创具体条件",
+            "措施或检验不绝对化"
+          ],
+          "id": "pol-contradiction-unity-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "原理基础；具体矛盾须证据与层次。历史文献非2028年度大纲，不用于法律或医学判断。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：pol-common-particular、pol-connections-foundation；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "哲学矛盾讨论的是事物中相互对立又相互联系的方面，不是日常争吵的同义词，也不是形式逻辑中一句话同时肯定与否定的全部含义。要先说是哪一个统一体、哪两方面、怎样对立。原创教学情境：一项服务同时要求在有限时间内提高覆盖与保障质量。二者可相互支持，也可能在给定资源下形成张力；必须根据具体材料说明，不能把任意两件互不相关的事硬凑成哲学矛盾。此情境是分析模型，不宣布所有覆盖与质量永远对立。\n\n同一性强调对立双方相互依存、贯通以及在一定条件下的转化可能，不是双方完全相同或没有差别。服务的覆盖如果没有质量支撑，形式上的覆盖未必实现目的；质量改进也需要实际服务过程。这可以帮助理解同处一个系统且相互制约的联系，但不能把教学模型当实证因果结果。分析同一性要写明共同系统与依存条件；不能一句合作就抹掉对立，也不能说任何两个方面都能在任何条件下无差别转化。\n\n斗争性强调对立方面相互排斥、相互分离的倾向，不等于只能使用冲突、暴力或彼此消灭。在本课给定资源配置中，新增一种服务可能与另一目标争用相同资源，需分析具体张力及其处理方法。同一性与斗争性相互联系，不能只看和谐就否认问题，也不能只看分歧就否认依存。原理用于解释结构与运动，处理具体问题仍要调查数据与规则；不能以哲学术语为借口随意损害他人权益或替代法律判断。\n\n回答材料题先列统一体与双方，再分别找依存证据和对立证据，最后给出有条件的改进措施。原创方案可以是重新配置资源并监测质量与覆盖，而不是口号式要求一方彻底消失。对立双方的关系会随条件变化，某一表象缓和不等于哲学矛盾永远消失。本课不重复共性个性单元，也不提前把主要矛盾与主要方面混为同一性斗争性；后续单元另讲比较层次。闭卷用新场景做两种证据分析，不以写出术语数量充当理解。",
+      "definition": "哲学矛盾反映具体统一体中对立方面的关系。同一性体现条件性的依存和贯通，斗争性体现对立的排斥趋势；二者相互联系而非取消彼此。",
+      "example": "先界定同一服务系统中的覆盖与质量，不能拼凑任意两件事。\n依存证据说明同一性，但不等于双方一模一样。\n有限资源张力可体现对立，不等于必须暴力冲突。\n统一体→双方→依存/对立证据→条件性措施。",
+      "misconceptions": [
+        "哲学矛盾只是吵架。",
+        "同一性就是双方毫无差异。",
+        "斗争性只允许暴力冲突。",
+        "任意两件无关事物都可硬配成矛盾。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "先界定同一服务系统中的覆盖与质量，不能拼凑任意两件事。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "依存证据说明同一性，但不等于双方一模一样。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "有限资源张力可体现对立，不等于必须暴力冲突。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "统一体→双方→依存/对立证据→条件性措施。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-contradiction-unity-g1",
+          "description": "辨认哲学矛盾",
+          "successCriteria": "说明统一体和具体双方，区别争吵与任意拼凑。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b1",
+            "pol-contradiction-unity-a1",
+            "pol-contradiction-unity-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g2",
+          "description": "解释同一性",
+          "successCriteria": "说出条件性依存与联系，不等于无差别相同。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b2",
+            "pol-contradiction-unity-a2",
+            "pol-contradiction-unity-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g3",
+          "description": "解释斗争性及统一",
+          "successCriteria": "给出具体对立，不把斗争性等同暴力或否认依存。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b3",
+            "pol-contradiction-unity-a3",
+            "pol-contradiction-unity-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-contradiction-unity-g4",
+          "description": "进行双面材料分析",
+          "successCriteria": "分别引用依存和对立证据，提出有条件措施。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-contradiction-unity-b4",
+            "pol-contradiction-unity-a4",
+            "pol-contradiction-unity-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "说明统一体和具体双方，区别争吵与任意拼凑。",
+        "说出条件性依存与联系，不等于无差别相同。",
+        "给出具体对立，不把斗争性等同暴力或否认依存。",
+        "分别引用依存和对立证据，提出有条件措施。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "理论教师复核同一性/斗争性及服务情境类比边界"
+        ]
+      },
+      "sources": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    }
+  ]
+}

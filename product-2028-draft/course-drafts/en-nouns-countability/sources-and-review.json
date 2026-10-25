@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "en-plan-2",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/count-nouns",
+      "publisher": "British Council",
+      "locator": "Count nouns正文：单复数、限定词及不规则词",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns",
+      "publisher": "British Council",
+      "locator": "Uncount nouns正文：information等及计量表达",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "英语教师复核可数性语境边界和零基础词汇负担"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

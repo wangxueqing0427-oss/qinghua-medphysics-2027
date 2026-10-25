@@ -1,0 +1,74 @@
+{
+  "baseCommit": "ca1c019d4a1c4f9d91c74a5399714065b6f3fc3b",
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "localTestsPassed": 221,
+  "localTestsTotal": 221,
+  "protectedHashesUnchanged": 171,
+  "newCourses": 9,
+  "newQuestions": 108,
+  "totalStructuredCourses": 29,
+  "totalQuestions": 307,
+  "unitVersions": [
+    {
+      "id": "en-nouns-countability",
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "questions": 12
+    },
+    {
+      "id": "en-pronoun-reference",
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "questions": 12
+    },
+    {
+      "id": "en-articles-foundation",
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "questions": 12
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "questions": 12
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "questions": 12
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "questions": 12
+    },
+    {
+      "id": "353-mean-median",
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "questions": 12
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "questions": 12
+    },
+    {
+      "id": "353-study-design-foundation",
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "questions": 12
+    }
+  ],
+  "independentExpertApproved": 0,
+  "fullGateRun": false,
+  "browserRun": false,
+  "CIRun": false,
+  "realIPhoneRun": false,
+  "productionTouched": false,
+  "testCommands": [
+    "import-tools/node.exe product-2028-draft/course-development-2026-10-25/batch-test.cjs",
+    "import-tools/node.exe product-2028-draft/course-development-2026-10-25/run-regression.cjs",
+    "import-tools/node.exe product-2028-draft/course-development-2026-10-25/verify-numeric-input.cjs"
+  ],
+  "unresolved": [
+    "appropriate independent professional review",
+    "2028 final requirements and yearly English/politics exam specification",
+    "browser/iPhone acceptance at future candidate release gate"
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "pol-matter-consciousness",
+      "subject": "pol",
+      "title": "物质与意识：从实际出发，怎样发挥主动性",
+      "prerequisites": [
+        "pol-practice-verification"
+      ],
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "recall": [
+        "闭卷用座位例区分现实条件与愿望。",
+        "解释坚持从实际出发为何不是永远照搬旧数据。",
+        "列一个能动实践措施并说明为何不是空想。",
+        "用四步写一个方案，列出不能保证的结果。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "题给实际20座位，希望30人同时坐下，最符合从实际出发的是？",
+          "options": [
+            "先调查容量并调整安排",
+            "宣布愿望自动增加座位",
+            "不必核对数据"
+          ],
+          "answer": 0,
+          "explanation": "A区分愿望与客观条件；B把主观愿望当事实，C省略调查。题给数字不是任何场所的法定标准。",
+          "id": "pol-matter-consciousness-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "有证据显示条件变化，认识和方案应？",
+          "options": [
+            "永远沿用旧表",
+            "依据新事实修订",
+            "只看愿望是否强烈"
+          ],
+          "answer": 1,
+          "explanation": "实际会发展，认识需跟随证据修订；A守旧，C用愿望取代事实，不是发挥正确能动性。",
+          "id": "pol-matter-consciousness-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "意识对实际工作产生能动影响的合适说明？",
+          "options": [
+            "想法自动变资源",
+            "承认客观条件就无需行动",
+            "认识通过实践指导行动"
+          ],
+          "answer": 2,
+          "explanation": "C保留实践中介和条件；A是意志万能，B消极化物质决定意识，均不完整。",
+          "id": "pol-matter-consciousness-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "尊重规律与发挥主动性应如何？",
+          "options": [
+            "结合具体条件采取行动并检验",
+            "任意宣布规律失效",
+            "只要积极就保证成功"
+          ],
+          "answer": 0,
+          "explanation": "A同时保留条件、行动和检验；B否定客观性，C混淆主动实践与无条件结果承诺。",
+          "id": "pol-matter-consciousness-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "组织者没调查便认定已有足够资源，主要错误是？",
+          "options": [
+            "过分核对证据",
+            "以主观设想代替实际",
+            "认识随实际更新"
+          ],
+          "answer": 1,
+          "explanation": "B指出缺证据的主观化判断；A与题意相反，C恰是应采取的方法，不是题给错误。",
+          "id": "pol-matter-consciousness-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔壁新增房间已经核实，但继续照旧限制方案，最应改进？",
+          "options": [
+            "否定所有旧经验",
+            "宣称事实随意变化",
+            "根据新条件更新判断"
+          ],
+          "answer": 2,
+          "explanation": "C保留旧经验的适用边界并使用新证据；A全盘否定，B误读事实变化为随意性。",
+          "id": "pol-matter-consciousness-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "有困难时哪种行动最符合本课？",
+          "options": [
+            "分析资源、改进安排、检查效果",
+            "因客观困难放弃所有行动",
+            "只喊口号不实施"
+          ],
+          "answer": 0,
+          "explanation": "A是有条件的主动实践；B消极等待，C缺实践，均不能体现有效能动作用。",
+          "id": "pol-matter-consciousness-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "评析只要相信就不用纠错也必得350分，并给有条件的改进。",
+          "answer": "信心不等于客观成绩；需结合基础、时间和真实测试，采取纠错与复习并验证，不能保证分数。",
+          "explanation": "按事实条件、实践措施和验证核对答案。信心可能支持行动，但不是客观成绩证据；不能将术语匹配变成预测成绩或保证分数。",
+          "rubric": [
+            "区分愿望与结果",
+            "识别实际条件",
+            "提出纠错复习行动",
+            "保留检验与不保证分数边界"
+          ],
+          "id": "pol-matter-consciousness-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：现实资源与对资源的期望不同，制定方案应优先依据？",
+          "options": [
+            "期望值本身",
+            "查明的实际条件",
+            "想象中的条件"
+          ],
+          "answer": 1,
+          "explanation": "B给认识提供事实依据；A、C若未经证实都不能替代实际资源，并不否认合理目标的作用。",
+          "id": "pol-matter-consciousness-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日材料给出条件已改变，哪项不妥？",
+          "options": [
+            "重新调查",
+            "修订计划",
+            "旧认识永不需变"
+          ],
+          "answer": 2,
+          "explanation": "C使认识脱离发展中的实际；A、B可使主观更符合客观，但修订仍要证据。",
+          "id": "pol-matter-consciousness-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日认识的能动作用不意味着？",
+          "options": [
+            "脱离条件的想法自动实现",
+            "行动可由计划指导",
+            "实践结果可反过来修订认识"
+          ],
+          "answer": 0,
+          "explanation": "A把主观活动绝对化；B、C保留实践和反馈，都是本课合理联系。",
+          "id": "pol-matter-consciousness-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "用一个原创场景说明既不消极等待、又不凭愿望办事的步骤。",
+          "answer": "先查事实与资源，提出可行方案，落实行动，再比较结果修正；困难是条件而非放弃理由，目标也不是效果保证。",
+          "explanation": "接受不同非敏感生活例子，须有具体事实与可检验措施，而非纯口号。",
+          "rubric": [
+            "事实条件",
+            "可行方案",
+            "实践实施",
+            "结果检查与修正"
+          ],
+          "id": "pol-matter-consciousness-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "基础原理与方法论；不以2019原文确定2028时政或考试细则，不引申神经科学或临床结论。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：pol-practice-verification；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "哲学讨论的物质不是专指金属、木材等某一种东西，而着眼于不以人的意愿为转移的客观实在；意识包括人的想法、判断和计划等主观活动。先分清一个现实条件与对它的看法。原创情境：活动室实际有20个座位，组织者希望安排30人同时入座。希望不会自动增加座位，制定方案必须先调查真实容量；这说明不能拿愿望替代客观条件，不是说人没有改变条件的能力。此处数字仅为教学情境，不引出建筑消防等未核实标准。\n\n物质决定意识，落实到方法上要求从实际出发、实事求是；实际还会变化，旧判断不能永远照搬。原创情境：同一活动后来增加了隔壁房间，核实后可用座位改变，计划就应修订。若仍守着旧表格，就未反映新条件。承认条件变化不是说事实由主观随意决定，而是要求认识跟着有证据的实际发展。遇到材料题先列已知条件与未知项，再判断计划依据，避免把记住的哲学术语当现成结论。\n\n意识并非毫无作用，人能够提出目标、选择方案并通过实践改变条件。但这种能动作用不是想一想就凭空改变世界。原创情境：组织者根据调查安排分时段、协调新增场所，再用实际执行结果检查是否可行；计划通过行动产生影响，同时受资源、制度与规律制约。不能从承认物质决定意识推出躺着不行动，也不能从强调信心推出主观愿望万能。正确与错误的认识可能引导不同实践结果，判断仍需实际证据，不以动机良好代替效果。\n\n尊重客观规律与发挥主观能动性要结合。规律不是任意下命令就可取消的约束，但人可以认识条件、改进方法、利用规律。材料分析按事实条件→认识判断→实践措施→检验修正组织答案。原创反例：说只要相信自己，无需纠错便必达350分，把愿望当成结果；另一个极端是条件困难所以什么也不做，也否定主动实践。本课不讨论意识起源的全部科学细节，不由哲学原理推出个人健康、临床疗效或考试分数。闭卷回答要写具体措施及边界，而不只是抄口号。",
+      "definition": "物质范畴着眼客观实在，不由人的意愿随意改变；物质决定意识，同时意识能通过实践指导行动。方法要求从实际出发并将能动性与客观条件相结合。",
+      "example": "20座位与30人愿望：先查客观条件。\n新增房间后重新调查，不能守旧表。\n分时段和协调场地是经实践起作用的方案。\n事实→判断→措施→验证，不许把信心当分数保证。",
+      "misconceptions": [
+        "物质只指金属等具体材料。",
+        "坚持客观条件就只能消极等待。",
+        "想法不经行动便自动生成资源。",
+        "信心足够就能保证350分。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "20座位与30人愿望：先查客观条件。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "新增房间后重新调查，不能守旧表。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "分时段和协调场地是经实践起作用的方案。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "事实→判断→措施→验证，不许把信心当分数保证。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-matter-consciousness-g1",
+          "description": "区分现实条件与愿望",
+          "successCriteria": "不把物质限定为某种材料，也不用愿望替代容量。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b1",
+            "pol-matter-consciousness-a1",
+            "pol-matter-consciousness-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g2",
+          "description": "随实际变化修订认识",
+          "successCriteria": "指出新证据怎样改变旧计划。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b2",
+            "pol-matter-consciousness-a2",
+            "pol-matter-consciousness-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g3",
+          "description": "说明意识能动作用",
+          "successCriteria": "通过实际措施解释作用，避开消极等待与意志万能。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b3",
+            "pol-matter-consciousness-a3",
+            "pol-matter-consciousness-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-matter-consciousness-g4",
+          "description": "结合规律与主动性",
+          "successCriteria": "给出具体实践与验证，不用哲学承诺考试或临床结果。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-matter-consciousness-b4",
+            "pol-matter-consciousness-a4",
+            "pol-matter-consciousness-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "不把物质限定为某种材料，也不用愿望替代容量。",
+        "指出新证据怎样改变旧计划。",
+        "通过实际措施解释作用，避开消极等待与意志万能。",
+        "给出具体实践与验证，不用哲学承诺考试或临床结果。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "马克思主义理论教师复核物质范畴和意识作用边界"
+        ]
+      },
+      "sources": [
+        "https://www.nju.edu.cn/info/3391/318581.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    }
+  ]
+}

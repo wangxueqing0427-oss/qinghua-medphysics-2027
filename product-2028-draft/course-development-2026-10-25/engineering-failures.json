@@ -1,0 +1,9 @@
+{
+  "failures":[
+    {"stage":"first nine-course tests","result":"143/146; five concise explanations in three units failed completeness threshold","correction":"Expanded decision basis and limits; retained first failure receipt and reran146/146"},
+    {"stage":"local submit manifest assembly","result":"Relative new-course paths mixed with absolute batch paths; Path.relative_to rejected before manifest creation or remote writes","correction":"Resolve paths against workspace before deriving relative manifest entries; no course or test data changed"}
+  ],
+  "sourceFailuresFile":"source-access-failures.json",
+  "historicalFilesOverwritten":false,
+  "expertApprovalAdded":false
+}

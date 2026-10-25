@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "353-mean-median",
+      "subject": "353",
+      "title": "均数与中位数：数据中心不等于每个人都一样",
+      "prerequisites": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "mapping": [
+        "s27-18-2"
+      ],
+      "recall": [
+        "闭卷写出均数计算步骤及缺失处理边界。",
+        "用奇数、偶数n分别说明中位数位置规则。",
+        "解释一个极端值为何可能拉动均数，能否直接删除。",
+        "列中心报告必要信息和两个不能推出的结论。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "三名有效观测2、4、6分钟的均数是？",
+          "options": [
+            "4分钟",
+            "12分钟",
+            "6分钟"
+          ],
+          "answer": 0,
+          "explanation": "加总12除以有效n=3得4分钟；B只求和，C取最大值，均未完成均数定义。",
+          "id": "353-mean-median-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "数据8、2、10、6分钟先排序后，中位数为？",
+          "options": [
+            "6分钟",
+            "7分钟",
+            "8分钟"
+          ],
+          "answer": 1,
+          "explanation": "排序2、6、8、10，中间6与8均值7；A来自原顺序中间2与10，C只取排序后一个中间值。",
+          "id": "353-mean-median-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "对1、2、3、4、40分钟，哪项正确？",
+          "options": [
+            "均数3、中位数10",
+            "40必为错误必须删掉",
+            "均数10、中位数3"
+          ],
+          "answer": 2,
+          "explanation": "和50/n5=10，排序中间第3个为3；A颠倒指标，B对记录正确性作无依据断言。",
+          "id": "353-mean-median-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两组均数都4分钟，就能说明？",
+          "options": [
+            "仅凭中心不能断定分布或个体相同",
+            "每个人均等于4",
+            "两个总体完全一致"
+          ],
+          "answer": 0,
+          "explanation": "A保留描述边界；B把均数当每个人，C把小样本中心当总体一致，均超出证据。",
+          "id": "353-mean-median-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "number",
+          "stem": "有效时间1、3、5分钟，一条缺失不计入。均数是多少？输入分钟。",
+          "answer": 3,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "有效和9、n3，均数3分钟；把缺失作0或把分母写4都会改变问题，应另报缺失数。",
+          "id": "353-mean-median-a1",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "已排序2、4、8、10分钟，按本课规则中位数是多少？",
+          "answer": 6,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "n4为偶数，中间4与8的均值是6分钟，不能取4或8之一；输出仍为时间单位。",
+          "id": "353-mean-median-a2",
+          "difficulty": "application",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "偏斜资料存在真实大值，最合适做法？",
+          "options": [
+            "自动删最大值",
+            "均数永远不能算",
+            "核查并按问题报告适合的中心与分布"
+          ],
+          "answer": 2,
+          "explanation": "C要求证据与问题导向；A未经核查删除，B混淆可计算性与指标解释适合度。",
+          "id": "353-mean-median-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "报告一组5人时间均数4分钟，能否推出人人4分钟或全国均数4？还应说明什么？",
+          "answer": "不能；需说明变量、单位、有效n、缺失与样本来源，并补分布或离散信息。样本中心不保证个体或总体相同。",
+          "explanation": "样本中心只是描述已观察到的一组数据，不等于每个人或全国参数；应同时报告变量、单位、有效n及来源，不凭均数一词给完整分数。",
+          "rubric": [
+            "拒绝人人相同",
+            "拒绝全国外推",
+            "报告单位n和来源",
+            "补缺失与分布信息"
+          ],
+          "id": "353-mean-median-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日新数据3、5、7分钟的均数，输入分钟。",
+          "answer": 5,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "总和15除以3得5分钟，注意输入正确单位；这是换数据的计算迁移，不沿用原例结果。",
+          "id": "353-mean-median-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "number",
+          "stem": "隔日新顺序9、1、11、7、3分钟的中位数，输入分钟。",
+          "answer": 7,
+          "unit": "分钟",
+          "tolerance": 1e-10,
+          "explanation": "排序1、3、7、9、11，n5的中间第3位为7分钟；原第3行11不是中位数，需先按大小排序。",
+          "id": "353-mean-median-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "calculation"
+        },
+        {
+          "type": "single",
+          "stem": "数据一个值由40增至80，其余1、2、3、4不变，中位数？",
+          "options": [
+            "仍为3分钟",
+            "必增一倍",
+            "必等于新均数"
+          ],
+          "answer": 0,
+          "explanation": "排序中间值仍3，说明对尾部数值的敏感性较低；B、C不符合本题位置定义，不推广为任何变化均无影响。",
+          "id": "353-mean-median-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "两组2、4、6与0、4、8分钟均数一样，写中心计算并指出还须比较什么。",
+          "answer": "两组和均为12，n3，均数4分钟；需比较离散和分布以及样本来源，不能断定服务体验完全相同。",
+          "explanation": "计算与解释分开核对；尚未教授推断检验，不据此宣布显著差异或临床意义。",
+          "rubric": [
+            "两组各除以3",
+            "4分钟单位",
+            "离散分布差异",
+            "不作显著性或总体保证"
+          ],
+          "id": "353-mean-median-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "只作有限数值观测的描述；不涵盖加权均数、分组近似、全部分位数定义和推断。2027大纲仅2028暂定参考。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "provisional-previous-year",
+      "prerequisiteExplanation": "先修：353-variable-types、353-frequency-denominator；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "描述数据中心是在回答这一组观测大致处在什么水平，不是在断定每个人都等于这个数字。先确认变量是数值、单位一致、哪些记录有效。均数把所有有效数值相加再除以个数n。原创三次等待时间2、4、6分钟，和为12分钟，除以3得4分钟；每个有效观测在本课简单算术均数中权重相同。缺失时间不是0，若有一条缺失，应说明有效n而不是擅自加入总和。不同单位先规范，不能把2分钟与120秒不换算就当2和120求平均。\n\n中位数从排序后的位置找中心，不先把所有数加起来。奇数n取第(n+1)/2个；偶数n在本课数值数据约定中取中间两数均值。原创原顺序8、2、10、4分钟，先排为2、4、8、10，取4与8均值为6分钟；不能取原记录的中间两行。重复值仍是有效观测，不能为了排序就删除。中位数与均数单位同原变量；对等级类别能描述位置但不能未经说明把类别编码当等距数值平均，本课计算只用明确数值变量。\n\n极端观测会影响均数，中位数通常对其具体数值不那么敏感。原创1、2、3、4、40分钟：均数50/5=10，中位数3。不是说40一定测错，也不是见到大值就删除；需要核查记录和情境，保留真实极端值并说明分布。选择指标要看研究问题和数据形态，偏斜等待时间可报告中位数及后续离散指标；不能推出均数只有正态时才可计算，或中位数总能替代所有分析。这里比较的是样本描述，不做群体推断或治疗效果判断。\n\n报告中心必须同时说清变量、单位、有效样本量和指标名称，后续还要看离散程度。两个组均数相同可能一个集中一个分散，所以不能仅凭均数称人群完全相同。原创两组2、4、6与0、4、8分钟都均数4，但变化幅度不同。材料题先写计算过程，再解释结果只描述谁，最后说明缺失与异常值处理；不可由几人的等待时间直接推全国水平。错题区分分母、排序、单位和过度解释，隔日换数据验证，不以记住4或6这两个结果当掌握。",
+      "definition": "算术均数为有效数值总和除以有效个数n；数值样本中位数在排序后取奇数n的中间值或偶数n的中间两值均值。两者描述中心，不等于个体和总体结论。",
+      "example": "2+4+6=12；12/3=4分钟，n是有效观测数。\n8、2、10、4先排2、4、8、10；中位数(4+8)/2=6分钟。\n1、2、3、4、40：均数10、中位数3，不自动删40。\n2、4、6与0、4、8均数相同，中心相同不等于分布相同。",
+      "misconceptions": [
+        "缺失值可不说明便按0算。",
+        "中位数无需排序。",
+        "真实极端值必须删除。",
+        "均数相同就证明分布相同。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "2+4+6=12；12/3=4分钟，n是有效观测数。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "8、2、10、4先排2、4、8、10；中位数(4+8)/2=6分钟。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "1、2、3、4、40：均数10、中位数3，不自动删40。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "2、4、6与0、4、8均数相同，中心相同不等于分布相同。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-mean-median-g1",
+          "description": "计算简单算术均数",
+          "successCriteria": "有效n、加总和单位正确，不把缺失记0。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-mean-median-b1",
+            "353-mean-median-a1",
+            "353-mean-median-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g2",
+          "description": "计算奇偶样本中位数",
+          "successCriteria": "先排序，再按规定位置或两数均值求中心。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-mean-median-b2",
+            "353-mean-median-a2",
+            "353-mean-median-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g3",
+          "description": "解释极端值与指标选择",
+          "successCriteria": "比较均数/中位数但不自动删值或限制均数仅正态。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-mean-median-b3",
+            "353-mean-median-a3",
+            "353-mean-median-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-mean-median-g4",
+          "description": "规范报告与推断边界",
+          "successCriteria": "报告变量单位n，拒绝由中心推个体相同或全国结论。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-mean-median-b4",
+            "353-mean-median-a4",
+            "353-mean-median-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "有效n、加总和单位正确，不把缺失记0。",
+        "先排序，再按规定位置或两数均值求中心。",
+        "比较均数/中位数但不自动删值或限制均数仅正态。",
+        "报告变量单位n，拒绝由中心推个体相同或全国结论。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "统计教师复核中心指标选用与外推边界",
+          "零基础排序及缺失规则是否清晰"
+        ]
+      },
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm"
+      ]
+    }
+  ]
+}

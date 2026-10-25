@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "pol-plan-1",
+    "additionalNodeIds": [],
+    "source": "user_requirements",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://www.nju.edu.cn/info/3391/318581.htm",
+      "publisher": "南京大学转载习近平原文/求是2019年第1期",
+      "locator": "正文第一部分：客观实际、变化与精神能动作用；转载2019-01-02",
+      "publishedAt": "2019-01-02",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml",
+      "publisher": "共产党员网",
+      "locator": "《实践论》《矛盾论》导读正文：实践与矛盾方法，非年度考试大纲",
+      "publishedAt": "2012-08-27",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "马克思主义理论教师复核物质范畴和意识作用边界"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

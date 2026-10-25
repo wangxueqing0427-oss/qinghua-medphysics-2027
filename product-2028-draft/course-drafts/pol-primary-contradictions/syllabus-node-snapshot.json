@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-10-25",
+  "origin": "product-2028-draft/content/knowledge-graph.json",
+  "node": {
+    "id": "pol-plan-1",
+    "subject": "pol",
+    "name": "基本理论",
+    "source": "user_requirements",
+    "status": "teaching_plan_exam_spec_pending",
+    "candidateChapterIds": [],
+    "questionIds": [],
+    "mappingStatus": "pending",
+    "verifiedCoverage": false,
+    "verifiedFullCoverage": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "mode": "isolated-engineering-only",
+  "formalReleaseApproved": false,
+  "folders": [
+    "en-nouns-countability",
+    "en-pronoun-reference",
+    "en-articles-foundation",
+    "pol-matter-consciousness",
+    "pol-contradiction-unity",
+    "pol-primary-contradictions",
+    "353-mean-median",
+    "353-dispersion-foundation",
+    "353-study-design-foundation"
+  ],
+  "previousBatch": "product-2028-draft/course-development-2026-10-24",
+  "oldRegistriesUnchanged": true
+}

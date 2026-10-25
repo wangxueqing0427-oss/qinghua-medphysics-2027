@@ -1,0 +1,19 @@
+{
+  "scope": "Actual R4 controller at pinned GitHub commit and current R5 with fake IndexedDB; NOT real iPhone or browser upgrade",
+  "sourceCommit": "32113226f50d4641c6e560dde65cc39a17d35ef1",
+  "fixtureSha256": "031082bdd3255400a87086f1773fc80962e0ec999560caa7b9c47a9bba60d2a6",
+  "results": [
+    {
+      "name": "en R4 feedback resumes in R5 without overwriting and restores independently",
+      "pass": true
+    },
+    {
+      "name": "353 R4 feedback resumes in R5 without overwriting and restores independently",
+      "pass": true
+    },
+    {
+      "name": "pol R4 feedback resumes in R5 without overwriting and restores independently",
+      "pass": true
+    }
+  ]
+}

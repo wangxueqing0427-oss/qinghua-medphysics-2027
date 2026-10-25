@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-25",
+  "mapping": {
+    "nodeId": "s27-18-2",
+    "additionalNodeIds": [],
+    "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "officialExamMappingConfirmed": false,
+    "targetYear": 2028,
+    "verifiedCoverage": false
+  },
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "locator": "2027级353第二部分A一、B一；仅作2028暂定依据",
+      "publishedAt": "2026-09-30",
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "locator": "1.3.5.1定义及异常值讨论；网页无本轮可确认发布日期",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "locator": "1.3.5.6方差/SD/极差/IQR定义及尾部敏感性",
+      "publishedAt": null,
+      "accessedAt": "2026-10-25",
+      "accessStatus": "full-page-read",
+      "limitation": "实际读取指定正文段落；不依赖搜索摘要、用户评论或未核实年度规则"
+    }
+  ],
+  "pendingReview": [
+    "统计教师复核中心指标选用与外推边界",
+    "零基础排序及缺失规则是否清晰"
+  ],
+  "status": "internal-screening-pending-independent-review",
+  "expertApproved": false,
+  "formalReleaseApproved": false
+}

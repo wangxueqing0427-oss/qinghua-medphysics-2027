@@ -1,0 +1,41 @@
+{
+  "scope": "Numeric input grading boundary only; scientific meaning reviewed separately",
+  "results": [
+    {
+      "name": "353-mean-median-a1 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median-a2 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median-d1 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median-d2 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation-b2 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation-a1 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation-a2 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation-d1 rejects wrong value/unit/non-finite input",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation-d2 rejects wrong value/unit/non-finite input",
+      "pass": true
+    }
+  ]
+}

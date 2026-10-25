@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-25-second-course-batch",
+  "units": [
+    {
+      "id": "en-pronoun-reference",
+      "subject": "en",
+      "title": "人称代词与指代：谁做事、动作落到谁",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-linking-and-verb-phrase"
+      ],
+      "mapping": [
+        "en-plan-2"
+      ],
+      "recall": [
+        "闭卷列主格并用复数物品作例子。",
+        "把I/he/they的宾格写出，说明在何位置用。",
+        "举出两个候选使she不清楚的句子并改写。",
+        "给出主体→动作→对象，再替换对象而不颠倒方向。"
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "题给The bags are blue.用代词替换bags，选？",
+          "options": [
+            "They are blue.",
+            "It are blue.",
+            "Them are blue."
+          ],
+          "answer": 0,
+          "explanation": "bags复数作主语需they；B数不符，C把宾格作本课主语。blue意为蓝色，bags是包。",
+          "id": "en-pronoun-reference-b1",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "She helps ___，题给对象是一个男孩Omar。",
+          "options": [
+            "he",
+            "him",
+            "his"
+          ],
+          "answer": 1,
+          "explanation": "helps的对象作宾语，him合适；he为主格，his为所属形式，不符合本题角色。",
+          "id": "en-pronoun-reference-b2",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "Nora与Mira均为女性，随后只写she left，无其他线索。最恰当？",
+          "options": [
+            "必指最近的Mira",
+            "必指Nora",
+            "可能歧义，应澄清"
+          ],
+          "answer": 2,
+          "explanation": "两个同样可行候选不能只靠距离确定；A、B都把缺失语境当成确定证据。left意为离开了。",
+          "id": "en-pronoun-reference-b3",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给Lena helps Omar且Omar用he/him，替换宾语正确？",
+          "options": [
+            "Lena helps him.",
+            "He helps Lena.",
+            "Lena helps he."
+          ],
+          "answer": 0,
+          "explanation": "A保留主体和动作对象；B调换角色，C未用宾格。不能因词语相同就认定意义保持。",
+          "id": "en-pronoun-reference-b4",
+          "difficulty": "foundation",
+          "errorCauseHint": "concept"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "single",
+          "stem": "明确指向两本书，___ are new.应选？",
+          "options": [
+            "It",
+            "They",
+            "Them"
+          ],
+          "answer": 1,
+          "explanation": "两本书是复数主体，选They；It单数，Them为宾格。new是新的，不影响代词格。",
+          "id": "en-pronoun-reference-a1",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "I go with ___，题给对象为复数they所指的人。",
+          "options": [
+            "they",
+            "their",
+            "them"
+          ],
+          "answer": 2,
+          "explanation": "介词with后用宾格them；they为主格，their为所有格限定形式，二者不适用于本题位置。",
+          "id": "en-pronoun-reference-a2",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "题给The pupils carried the boxes. They were tired.且明确疲倦的是学生，they指？",
+          "options": [
+            "pupils",
+            "boxes",
+            "一定无法确定"
+          ],
+          "answer": 0,
+          "explanation": "题干已给疲倦对象为学生，A有依据；B只抓最近名词，C忽略额外语境。pupils为学生。",
+          "id": "en-pronoun-reference-a3",
+          "difficulty": "application",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "改正Her helps he.，并说明两个代词各自在句中的工作。",
+          "answer": "She helps him。She作主语，him作helps的宾语；指称对象可保持，语法角色分别决定形态。",
+          "explanation": "逐处核对角色和形态，不要求把主宾格口诀当所有语域下的完整规则。",
+          "rubric": [
+            "She主格",
+            "him宾格",
+            "主体与对象区分",
+            "保留帮助方向"
+          ],
+          "id": "en-pronoun-reference-a4",
+          "difficulty": "application",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：已知两名同学为主体，___ study here。",
+          "options": [
+            "Them",
+            "They",
+            "Him"
+          ],
+          "answer": 1,
+          "explanation": "两人作主语需They；Them宾格，Him单数宾格。不能因中文他们就任意选同义形式。",
+          "id": "en-pronoun-reference-d1",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：Please call ___，指说话者我。",
+          "options": [
+            "I",
+            "my",
+            "me"
+          ],
+          "answer": 2,
+          "explanation": "call后说话者作对象，用me；I为主格，my为限定所属，均不能替换本题宾语。",
+          "id": "en-pronoun-reference-d2",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "single",
+          "stem": "两名同样可能的指代对象后出现he，无其他条件，应如何？",
+          "options": [
+            "保留歧义并请求或补充语境",
+            "永远取最近人名",
+            "随意选一个"
+          ],
+          "answer": 0,
+          "explanation": "证据不足需澄清，不能把近邻偏好当绝对语法法则，也不能随机填真实身份。",
+          "id": "en-pronoun-reference-d3",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "concept"
+        },
+        {
+          "type": "subjective",
+          "stem": "题给The teachers help the children，将两组名词都换成人称代词，解释格与数。",
+          "answer": "They help them。teachers为复数主体用They；children为复数对象用them。",
+          "explanation": "要求角色与数同时正确；若写They help they，需标记宾格遗漏，而不是给准确专业总分。",
+          "rubric": [
+            "They复数主格",
+            "them复数宾格",
+            "主体teachers",
+            "对象children且方向未反"
+          ],
+          "id": "en-pronoun-reference-d4",
+          "difficulty": "delayed-transfer",
+          "errorCauseHint": "incomplete"
+        }
+      ],
+      "conditions": "限基础主格/宾格与明确指代、歧义识别；不覆盖反身、所有格和全部单数they用法。基础教学补充，非2028最终大纲。",
+      "version": "0.1",
+      "writtenAt": "2026-10-25",
+      "applicableYear": 2028,
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "项目原创中文讲解、场景、数字与自编题；来源仅核对概念，不复制来源题目或冒称真题",
+      "scopeStatus": "teaching-supplement-exam-spec-pending",
+      "prerequisiteExplanation": "先修：en-nouns-countability、en-linking-and-verb-phrase；先修仅指可开始条件，不表示长期掌握。课内从核心术语与例题重新解释，缺少基础应回看先修并重测。",
+      "explanation": "代词用于代替已经说清的人或事物，减少重复；首先要知道它代替谁。主格I我、you你或你们、he他、she她、it它、we我们、they他们，在本课作主语。原创句Mira reads. She reads.中She代替Mira，位置是动作的主体。The boxes are heavy. They are heavy.中They代替复数盒子。代词的单复数要跟所指对象和意义对应，而不是跟最近一个单词对应。本课先给清楚的所指，不用姓名推测现实人的性别；题目会明确称谓或给代词条件。\n\n宾格用于本课动词宾语和介词后：me、you、him、her、it、us、them。主语是主体，宾语是动作所涉及对象，不按中文词序死背。原创句She helps him她帮助他：She在动词前作主语，him是helps的宾语，不能写Her helps he。with是和……一起，with them用宾格them。I与me指同一个说话者但位置不同；you和it主宾同形，不代表所有代词都不变。先判断角色再选形态，比只看中文他更可靠。\n\n指代要结合前文的数、意义和语境，不能只取最近名词。原创句The students put the books away. They were tired.本课明确疲倦的是学生，所以they指students而不是books；tired是疲倦的，put away是收好。若两个候选同样可能，就需要补信息或重写，不能宣称代词一定最近指代。两名已知女性Nora和Mira交谈后写she smiled，只凭这句可能无法确定谁微笑，应改用姓名。读题时承认证据不足也是正确理解，不瞎猜身份。\n\n综合改写保留原意义，不能为了避免重复而丢失参与者。原创给定Omar is a boy，Lena helps Omar，可改Lena helps him；改成He helps Lena就把施事和对象反了。复数同理We meet them不是They meet us的原位替代，虽可能描写同一见面事件，句法角色已换。本课不展开反身代词、关系代词、形式主语或所有格；尤其不把its和it’s混入人称宾格记忆。闭卷先画主体→动作→对象，再用新人物、新数量迁移，主观答案按角色、形式和意义逐项核对。",
+      "definition": "人称代词依所指对象替代名词，并按本课句法角色采用主格或宾格；主语用主格，动词宾语和介词宾语用宾格，指代须有语境依据。",
+      "example": "Mira reads→She reads；boxes→They：先有清楚指称。\nShe helps him / with them：区分主语、动词宾语和介词宾语。\nNora told Mira...she smiled：两个候选时应澄清。\nLena helps Omar→Lena helps him：保留动作方向。",
+      "misconceptions": [
+        "he与him可以在任何位置任意换。",
+        "所有代词永远只指最近名词。",
+        "两个同样可行对象仍可无证据断言所指。",
+        "替换名词时可以调换主体与对象而称意义不变。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "Mira reads→She reads；boxes→They：先有清楚指称。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "She helps him / with them：区分主语、动词宾语和介词宾语。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "Nora told Mira...she smiled：两个候选时应澄清。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "Lena helps Omar→Lena helps him：保留动作方向。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-pronoun-reference-g1",
+          "description": "使用主格及数",
+          "successCriteria": "依据给定所指选择she/they等，不凭邻近词猜测。",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b1",
+            "en-pronoun-reference-a1",
+            "en-pronoun-reference-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g2",
+          "description": "按角色使用宾格",
+          "successCriteria": "动词宾语和介词后使用him/them/me等。",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b2",
+            "en-pronoun-reference-a2",
+            "en-pronoun-reference-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g3",
+          "description": "识别歧义指代",
+          "successCriteria": "区分可确定的所指与需澄清的同类候选。",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b3",
+            "en-pronoun-reference-a3",
+            "en-pronoun-reference-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-pronoun-reference-g4",
+          "description": "保留角色改写",
+          "successCriteria": "替换名词不颠倒主体和对象，说明不覆盖反身用法。",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-pronoun-reference-b4",
+            "en-pronoun-reference-a4",
+            "en-pronoun-reference-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "依据给定所指选择she/they等，不凭邻近词猜测。",
+        "动词宾语和介词后使用him/them/me等。",
+        "区分可确定的所指与需澄清的同类候选。",
+        "替换名词不颠倒主体和对象，说明不覆盖反身用法。"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换数据或场景独立回答，按实际客观表现安排复习；主观要点待核对，不据点击完成认定掌握。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语教师核对指代消歧与角色教学；不自动评断自由文本语法"
+        ]
+      },
+      "sources": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/personal-pronouns",
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/personal-pronouns-possessives"
+      ]
+    }
+  ]
+}
