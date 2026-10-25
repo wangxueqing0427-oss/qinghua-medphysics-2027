@@ -1,0 +1,161 @@
+{
+  "purpose": "Blank real professional opinion forms; NOT review evidence",
+  "role": "公共卫生、统计学与流行病学专业人员",
+  "requiredQualification": "统计教学/研究设计与偏倚分析经验；医学物理/计量旧课仍需相应专业人员，不能由本包审核替代",
+  "independentExpertApproved": 0,
+  "forms": [
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "353-probability-binomial-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "353-probability-binomial-foundation-review-1",
+          "question": "等可能计数和补事件是否明确模型条件，概率/频率是否混淆？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "353-probability-binomial-foundation-review-2",
+          "question": "二项模型固定n、独立、恒定p及两次路径计算、np解释是否准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "353-probability-binomial-foundation-review-3",
+          "question": "无量纲输入、容差与真实人群依赖/异质风险边界是否充分？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    },
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "353-random-sampling-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "353-random-sampling-foundation-review-1",
+          "question": "简单随机的样本等机会定义和n/N前提是否准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "353-random-sampling-foundation-review-2",
+          "question": "总体、抽样框、分层/整群/系统设计与随机分配区分是否清楚？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "353-random-sampling-foundation-review-3",
+          "question": "覆盖、不应答、随机波动及权重/设计效应尚未教学的边界是否充分？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    },
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "353-bias-control-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "353-bias-control-foundation-review-1",
+          "question": "选择/信息偏倚及混杂、中介界限有无错误或多解？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "353-bias-control-foundation-review-2",
+          "question": "控制措施是否匹配发生机制，有无预断误分类方向？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "353-bias-control-foundation-review-3",
+          "question": "随机分配、大样本和小p值的限制及主观参考要点是否准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "purpose": "Blank real professional opinion forms; NOT review evidence",
+  "role": "马克思主义理论教师",
+  "requiredQualification": "马克思主义基本原理/思想政治理论教学和材料分析经验；不预填审核身份",
+  "independentExpertApproved": 0,
+  "forms": [
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "pol-social-being-consciousness",
+      "unitVersion": "0.1",
+      "contentSha256": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "pol-social-being-consciousness-review-1",
+          "question": "社会存在/意识的范畴范围、生产方式地位是否表达准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "pol-social-being-consciousness-review-2",
+          "question": "决定、相对独立和反作用有无机械化或夸大？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "pol-social-being-consciousness-review-3",
+          "question": "原创材料能否支持参考结论，主观要点是否漏掉必要边界？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    },
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "pol-epistemology-case-analysis",
+      "unitVersion": "0.1",
+      "contentSha256": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "pol-epistemology-case-analysis-review-1",
+          "question": "与既有认识实践课相比，本课材料分析迁移是否有实质新增？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-review-2",
+          "question": "观察/推断/建议及实践检验范围的哲学表达是否准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "pol-epistemology-case-analysis-review-3",
+          "question": "参考要点是否允许合理不同表达，是否误当官方评分规则？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    },
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "pol-productive-forces-relations",
+      "unitVersion": "0.1",
+      "contentSha256": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "pol-productive-forces-relations-review-1",
+          "question": "生产力要素、生产关系三个方面及所有制基础地位是否准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "pol-productive-forces-relations-review-2",
+          "question": "生产力制约与生产关系反作用是否充分保留条件？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "pol-productive-forces-relations-review-3",
+          "question": "简化生产案例是否足以支撑分类，是否混淆管理与制度整体？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    }
+  ]
+}

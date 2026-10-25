@@ -1,0 +1,33 @@
+{
+  "firstCI": {
+    "run": 40181534611,
+    "commit": "656a1a64be37a8d3515badd1f5a885eaca358291",
+    "result": "7/8 prechecks; browser not run; missing local-only knowledge graph"
+  },
+  "secondCI": {
+    "run": 40181820045,
+    "commit": "406375be3f01fd6f6fdc8f3af5f489c7bea8aaa9",
+    "result": "7/8 prechecks; browser not run; pre-existing local/remote R5 cache baseline differs"
+  },
+  "firstActualBrowserRun": {
+    "run": 40182090104,
+    "commit": "5185ca9ed6cb8c52e8c2dbfa820813b74737698b",
+    "chromium": "21/21",
+    "webkitMobile": "21/21",
+    "skipped": 0,
+    "flaky": 0
+  },
+  "fixes": "Separate all305 local SHA256 protection from fixed-baseline298 remote Git blob protection. Explicit7 local-only inputs and1 pre-existing R5 cache difference. Neither original cache is overwritten. No test assertion deleted, no course/answer/runtime changes, no timeout increase/retries/skips.",
+  "scope": "Incremental12 UI course loops per browser:9 new plus3 old representatives;9 other directory/abnormal/upgrade cases per browser=21. Required old prerequisites are traversed via UI, not a full historical29-course rerun.",
+  "notClaimed": [
+    "Real iPhone acceptance",
+    "Full professional content correctness",
+    "Online multiuser authentication",
+    "All415 questions in every network condition",
+    "All29 old courses individually re-tested this round",
+    "Production deployment or approval",
+    "350+score prediction"
+  ],
+  "independentExpertApproved": 0
+}
+

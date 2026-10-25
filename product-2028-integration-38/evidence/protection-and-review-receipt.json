@@ -1,0 +1,112 @@
+{
+  "testedCommit": "5185ca9ed6cb8c52e8c2dbfa820813b74737698b",
+  "courseBaseline": "614f182512fd5da210012699a05953bef2765d9a",
+  "local": {
+    "count": 305,
+    "hashScheme": "SHA256",
+    "mismatches": []
+  },
+  "CI": {
+    "mode": "immutable remote baseline Git blobs; distinct from local305 SHA256",
+    "baselineCommit": "614f182512fd5da210012699a05953bef2765d9a",
+    "checkedCount": 298,
+    "localOnlyNotAvailableInCI": [
+      "product-2028-draft/课程知识点与大纲映射.json",
+      "product-2028-draft/content/353统一知识图谱.json",
+      "product-2028-draft/content/knowledge-graph.json",
+      "product-2028-draft/content/semantic-pair-review.json",
+      "product-2028-draft/content/semantic-review-sources.json",
+      "product-2028-draft/content/政治统一知识图谱.json",
+      "product-2028-draft/content/英语统一知识图谱.json"
+    ],
+    "preExistingDifferences": [
+      {
+        "path": "product-2028-pilot-build/sw.js",
+        "localGitBlob": "a95dbf37636f8132c8d282f20aed385a5323eb40",
+        "remoteBaselineGitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+      }
+    ],
+    "mismatches": []
+  },
+  "protectedBranches": [
+    {
+      "branch": "main",
+      "sha": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+    },
+    {
+      "branch": "audit/2026-10-21-four-gaps-v7",
+      "sha": "ba8d3ae50c2a832a021664df01471b8854c9c442"
+    }
+  ],
+  "reviewPackages": [
+    {
+      "path": "product-2028-integration-38/prepare-professional-review.cjs",
+      "gitBlob": "0d617f11c2f9496758f94aa0c51cfae0f626dfed",
+      "bytes": 10411
+    },
+    {
+      "path": "product-2028-integration-38/professional-review-test.cjs",
+      "gitBlob": "1e8228d9629e18510e6ef449a562987a6d26b58b",
+      "bytes": 3785
+    },
+    {
+      "path": "product-2028-integration-38/professional-review-results.json",
+      "gitBlob": "abb8c66f2090c0f33ea9b1577952306ce0129970",
+      "bytes": 1792
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/38-course-status.json",
+      "gitBlob": "62118b15413b075a1bd04e5c663250ad29426c09",
+      "bytes": 39144
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/preparation-receipt.json",
+      "gitBlob": "eff319e74ce6141372cd5be50d4321234457a9fc",
+      "bytes": 536
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/README.md",
+      "gitBlob": "8cb0f2b5fcd8f28888a4c5c9e72c157652a7c49d",
+      "bytes": 817
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/english/opinion-forms.json",
+      "gitBlob": "fb8bd2ae3cb60da61a649dc645a11945e31a22ba",
+      "bytes": 5219
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/english/review.md",
+      "gitBlob": "5ae60412b48edaf4b8dbdc6fde9431b59bd8c43a",
+      "bytes": 37136
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/marxism/opinion-forms.json",
+      "gitBlob": "83f79bc7c251e4b68ee434a976168a7c8bab352e",
+      "bytes": 5201
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/marxism/review.md",
+      "gitBlob": "52ea6fcdbcf6aba91b27ba40857f0802a43a4d36",
+      "bytes": 41659
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/public-health-statistics/opinion-forms.json",
+      "gitBlob": "7dca8bdfc5f195e4fbb7003a69b3849db8eabfc9",
+      "bytes": 5286
+    },
+    {
+      "path": "product-2028-integration-38/professional-review/public-health-statistics/review.md",
+      "gitBlob": "77097444474fc8530ba63aac57adde5e4a1004f2",
+      "bytes": 41254
+    }
+  ],
+  "V59Changed": false,
+  "R5Changed": false,
+  "formalCourseChanged": false,
+  "realLearnerDataRead": false,
+  "realLearnerDataWritten": false,
+  "productionDeployed": false,
+  "independentExpertApproved": 0,
+  "sourceData": "Generated candidate equals existing38-loader; prior29 contents exactly equal previous loader. Metadata gaps and expert questions remain pending."
+}
+

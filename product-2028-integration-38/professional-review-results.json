@@ -1,0 +1,50 @@
+{
+  "scope": "Review-package completeness and immutable version binding only; NOT knowledge expertise or returned human opinions",
+  "results": [
+    {
+      "name": "38 status rows exactly match source versions/content hashes and415 questions",
+      "pass": true
+    },
+    {
+      "name": "No professional identity, approval or formal release invented",
+      "pass": true
+    },
+    {
+      "name": "english readable manuscript contains exact full3 units/36 questions, sources, goals and rubrics",
+      "pass": true
+    },
+    {
+      "name": "english blank opinion forms bind exact hashes, leaving real reviewer/qualification/date/opinion pending",
+      "pass": true
+    },
+    {
+      "name": "english critical unresolved questions retained for every course with no automatic acceptance",
+      "pass": true
+    },
+    {
+      "name": "marxism readable manuscript contains exact full3 units/36 questions, sources, goals and rubrics",
+      "pass": true
+    },
+    {
+      "name": "marxism blank opinion forms bind exact hashes, leaving real reviewer/qualification/date/opinion pending",
+      "pass": true
+    },
+    {
+      "name": "marxism critical unresolved questions retained for every course with no automatic acceptance",
+      "pass": true
+    },
+    {
+      "name": "public-health-statistics readable manuscript contains exact full3 units/36 questions, sources, goals and rubrics",
+      "pass": true
+    },
+    {
+      "name": "public-health-statistics blank opinion forms bind exact hashes, leaving real reviewer/qualification/date/opinion pending",
+      "pass": true
+    },
+    {
+      "name": "public-health-statistics critical unresolved questions retained for every course with no automatic acceptance",
+      "pass": true
+    }
+  ],
+  "independentExpertApproved": 0
+}

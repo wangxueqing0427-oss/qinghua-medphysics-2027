@@ -1,0 +1,873 @@
+{
+  "engineeringBase": "614f182512fd5da210012699a05953bef2765d9a",
+  "courses": 38,
+  "questions": 415,
+  "independentExpertApproved": 0,
+  "formalReleaseApproved": false,
+  "rows": [
+    {
+      "id": "en-foundation-svo",
+      "title": "先找句子骨架：谁做了什么",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003",
+      "questions": 5,
+      "currentInternalStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语政治官方考试要求映射尚待核实",
+        "专业课程需要进一步独立准确性复核",
+        "真实iPhone教学效果未验证"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/direct-objects"
+      ]
+    },
+    {
+      "id": "353-incidence-risk",
+      "title": "累计发病风险：分母先找有风险的人",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "40e5842b0a18d56b664398cc9cfbe4736d5d955ee5f5435627e100b0206f7a47",
+      "questions": 5,
+      "currentInternalStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语政治官方考试要求映射尚待核实",
+        "专业课程需要进一步独立准确性复核",
+        "真实iPhone教学效果未验证"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ]
+    },
+    {
+      "id": "pol-practice-verification",
+      "title": "判断是否正确：把认识放回实践检验",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "e155584e08d332230e573e378f3a938ed9eb1e8107acd7b152faf5fb03d55be0",
+      "questions": 5,
+      "currentInternalStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语政治官方考试要求映射尚待核实",
+        "专业课程需要进一步独立准确性复核",
+        "真实iPhone教学效果未验证"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://www.mva.gov.cn/sy/zt/zt1/xxgcddsjdjs/qwjd/201807/t20180727_14488.html"
+      ]
+    },
+    {
+      "id": "en-present-negative",
+      "title": "一般现在时否定：别把动作词再加一次s",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "e0bba9771a551fcf25ac9a9aac29935fa9e69b2e60706497388e3f221b330f54",
+      "questions": 7,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "Independent review not recorded"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/present-simple"
+      ]
+    },
+    {
+      "id": "pol-common-particular",
+      "title": "共性与个性：有共同原则也要分析具体条件",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "c7e260a16371de191ccc0d31a08b08f99aace1993ef5f67221e647c32ffe0d26",
+      "questions": 7,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "Independent review not recorded"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://dangshi.people.com.cn/n1/2021/0507/c436975-32096575.html"
+      ]
+    },
+    {
+      "id": "353-person-time",
+      "title": "人时发病率：随访长短不同怎样比较",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "6439be0b62e44aad288dc890b7324531ed0a1996ae8ae72f0430956d61b344f9",
+      "questions": 7,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "Independent review not recorded"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ]
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "title": "句子骨架补课：状态、动作与不能删的成分",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "26ec2a545c7f523db731c4854e19a2205dc31646379ee028ee8abdc2c47c048c",
+      "questions": 7,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "Independent review not recorded"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/content/catalog.json (assembled source/overrides)",
+      "sourceUrls": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/subject-complements",
+        "https://dictionary.cambridge.org/grammar/british-grammar/finite-and-non-finite-"
+      ]
+    },
+    {
+      "id": "353-variable-types",
+      "title": "变量类型与指标选择：先问每一行、每一列代表什么",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "2028最终考纲未确认",
+        "连续属性与离散记录、等级处理须统计学专家复核",
+        "内部审核不代表正式审定"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-variable-types/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214817-eng.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/describing-epi-data.html"
+      ]
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "title": "主谓一致基础：先找谁，再决定动词形式",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语考试2028适用要求尚未核实",
+        "词形、教学梯度和主观评分点待英语专业审核"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-subject-verb-agreement/unit.json",
+      "sourceUrls": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+        "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+      ]
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "title": "认识与实践发展：从看到现象到行动检验，再继续认识",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "2028考试要求未确认，旧材料仅教学暂定参考",
+        "认识论术语与题目边界待独立政治学科教师复核",
+        "主观反馈是要点参考，不是官方定分标准"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-knowledge-practice-development/unit.json",
+      "sourceUrls": [
+        "https://news.12371.cn/2017/08/29/ARTI1504001411770206.shtml",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_12.shtml"
+      ]
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "title": "一般过去时基础：在叙事中找到已经发生的事",
+      "subject": "en",
+      "version": "0.2",
+      "contentSha256": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "本课词形和be边界需英语专业复核",
+        "否定疑问衔接是否适合初学者",
+        "2027/2028英语完整年度大纲未核验"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-past-simple-foundation/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+        "https://our-languages.canada.ca/en/writing-tips-plus/verb-agreement"
+      ]
+    },
+    {
+      "id": "pol-connections-foundation",
+      "title": "联系观点基础：看见关系，也核对关系成立的条件",
+      "subject": "pol",
+      "version": "0.2",
+      "contentSha256": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "联系的客观性、条件性和整体表述需学科教师复核",
+        "材料题是否多解以及评分点",
+        "政治2027/2028年度完整大纲缺口"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-connections-foundation/unit.json",
+      "sourceUrls": [
+        "https://news.12371.cn/2017/08/29/ARTI1504001209326173.shtml",
+        "https://www.qstheory.cn/qshyjx/2021-06/21/c_1127582987.htm"
+      ]
+    },
+    {
+      "id": "353-frequency-denominator",
+      "title": "频数、比例与缺失数据：先把人数和分母说明白",
+      "subject": "353",
+      "version": "0.2",
+      "contentSha256": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "频数与分母术语、缺失边界需统计学专家复核",
+        "多选与舍入示例的教学充分性",
+        "不代表全部描述统计或2028正式范围"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-frequency-denominator/unit.json",
+      "sourceUrls": [
+        "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214814-eng.htm",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm"
+      ]
+    },
+    {
+      "id": "353-quantity-measurement",
+      "title": "物理量、单位与测量：先说明测什么，再解释数字",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "需计量/医学物理专家核对现代量值、误差、不确定度术语与深度",
+        "需教学审核换算、路程速率和主观答案边界",
+        "不包含完整不确定度评定、剂量校准或临床操作",
+        "2028正式考试范围未确认"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-quantity-measurement/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.bipm.org/en/measurement-units/si-base-units",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology"
+      ]
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "title": "测量误差与不确定度：读数接近，还缺哪些证据？",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "现代计量术语和统计条件待计量/统计专家",
+        "本课只算A类分量，不作完整预算",
+        "不作临床校准或2028公式清单"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-uncertainty-foundation/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-2-classification-components-uncertainty",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-3-type-evaluation-standard-uncertainty",
+        "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-4-type-b-evaluation-standard-uncertainty"
+      ]
+    },
+    {
+      "id": "353-energy-power",
+      "title": "能量与功率：同样的能量，为什么快慢不同？",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "功率能量边界与例题需物理教师审核",
+        "不教复杂连续模型或设备维修",
+        "不从输入能量推临床效果",
+        "2028正式范围尚未确认"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-energy-power/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.bipm.org/en/publications/si-brochure"
+      ]
+    },
+    {
+      "id": "353-waves-interactions",
+      "title": "波动与光子相互作用：从频率到能量去向",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "波动和光子模型的零基础教学深度待物理教师审核",
+        "阈值近似、术语、机制概率及医学边界待医学物理专家审核",
+        "主观题仅参考要点，不自动给专业分数",
+        "2028正式范围未确认"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-waves-interactions/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+        "https://openstax.org/books/college-physics-2e/pages/29-3-photon-energies-and-the-electromagnetic-spectrum",
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf"
+      ]
+    },
+    {
+      "id": "en-present-questions",
+      "title": "一般现在时疑问句：怎样问、问什么、谁是主语",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师核对who边界和题目唯一性",
+        "与后续间接问句的衔接",
+        "年度英语大纲完整正文尚未核实"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-present-questions/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verb-be"
+      ]
+    },
+    {
+      "id": "pol-quantity-quality",
+      "title": "量变与质变：看清积累、界限和性质变化",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "马克思主义理论教师核对概念和材料层次",
+        "度与价值方向的教学边界",
+        "不以旧讲义可疑例证支持现代法律或自然科学事实",
+        "年度政治考试范围未核实"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-quantity-quality/unit.json",
+      "sourceUrls": [
+        "https://mzs.sxu.edu.cn/jpkc/119893.htm",
+        "https://www.qstheory.cn/dukan/hqwg/2024-02/08/c_1130075936.htm"
+      ]
+    },
+    {
+      "id": "353-public-health-prevention",
+      "title": "公共卫生与三级预防：先定人群、疾病和干预目标",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "公共卫生教师核对三级预防与临床语境边界",
+        "疾病前与确诊后分类的目标特异性",
+        "筛查与诊断、健康教育跨阶段用途",
+        "2028正式大纲仍待核"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-public-health-prevention/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.nichd.nih.gov/research/supported/prevention-research",
+        "https://stacks.cdc.gov/view/cdc/142637/cdc_142637_DS1.pdf"
+      ]
+    },
+    {
+      "id": "en-nouns-countability",
+      "title": "名词数与可数性：一个、多个与怎样计量",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师复核可数性语境边界和零基础词汇负担"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-nouns-countability/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/count-nouns",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns"
+      ]
+    },
+    {
+      "id": "en-pronoun-reference",
+      "title": "人称代词与指代：谁做事、动作落到谁",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师核对指代消歧与角色教学；不自动评断自由文本语法"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-pronoun-reference/unit.json",
+      "sourceUrls": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/personal-pronouns",
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/personal-pronouns-possessives"
+      ]
+    },
+    {
+      "id": "en-articles-foundation",
+      "title": "冠词入门：a、an、the与不加冠词",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师复核冠词唯一答案的语境充分性及音素解释"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-articles-foundation/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/comment/136255",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns"
+      ]
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "title": "物质与意识：从实际出发，怎样发挥主动性",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "马克思主义理论教师复核物质范畴和意识作用边界"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-matter-consciousness/unit.json",
+      "sourceUrls": [
+        "https://www.nju.edu.cn/info/3391/318581.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "title": "矛盾的同一性与斗争性：相互依存不等于没有差异",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "理论教师复核同一性/斗争性及服务情境类比边界"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-contradiction-unity/unit.json",
+      "sourceUrls": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "title": "主要矛盾与主要方面：先分清比较的是哪一层",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "理论教师复核性质判断的表述与主要方面的适用层次"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-primary-contradictions/unit.json",
+      "sourceUrls": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm",
+        "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_all.shtml"
+      ]
+    },
+    {
+      "id": "353-mean-median",
+      "title": "均数与中位数：数据中心不等于每个人都一样",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "统计教师复核中心指标选用与外推边界",
+        "零基础排序及缺失规则是否清晰"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-mean-median/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm"
+      ]
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "title": "离散程度：极差、样本标准差与四分位距",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "统计/计量教师复核样本公式与SD/SE边界",
+        "分位数定义不可默认为所有软件一致"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-dispersion-foundation/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm"
+      ]
+    },
+    {
+      "id": "353-study-design-foundation",
+      "title": "观察性与实验性研究：谁决定暴露，怎样设置比较",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "流行病学/公共卫生教师复核分配、比较及伦理边界",
+        "不把随机化叙述当所有偏倚已排除"
+      ],
+      "thirdBatch": false,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-study-design-foundation/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section7.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    },
+    {
+      "id": "en-present-continuous-foundation",
+      "title": "现在进行时：正在做与通常做怎样分开",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师复核状态动词语境、现在进行时与暂时情境的边界",
+        "未覆盖将来安排、过去进行时及完成时"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-present-continuous-foundation/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ]
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "title": "一般时被动语态：句子先说承受动作的事物",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师核对被动语义、短语自然度与可转换范围",
+        "未覆盖完成、进行被动或所有过去分词"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-passive-simple-foundation/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+      ]
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "title": "限定性定语从句：在长句中认出是哪一个人或物",
+      "subject": "en",
+      "version": "0.1",
+      "contentSha256": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "英语教师复核关系词省略、主从结构和译文自然度",
+        "非限定性、介词前置、whose/where等完整体系尚未覆盖"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/en-defining-relative-foundation/unit.json",
+      "sourceUrls": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/relative-clauses-defining-relative-clauses",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple"
+      ]
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "title": "社会存在与社会意识：从生活条件理解观念变化",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "马克思主义理论教师复核社会存在范围、相对独立性与案例限度",
+        "年度政治考试范围和评分标准未确认"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-social-being-consciousness/unit.json",
+      "sourceUrls": [
+        "https://2d.hep.com.cn/13384041111111/3",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ]
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "title": "认识论材料分析：把判断、证据和行动连成一段答案",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "理论教师核对材料归因、感性理性边界及参考答题要点",
+        "本课不是官方评分细则，未实现可靠主观自动评分"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-epistemology-case-analysis/unit.json",
+      "sourceUrls": [
+        "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ]
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "title": "生产力与生产关系：分清生产能力和人与人的关系",
+      "subject": "pol",
+      "version": "0.1",
+      "contentSha256": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "马克思主义理论教师复核生产关系三个方面及基本规律表达",
+        "经济基础/上层建筑完整课、社会形态史与年度政策另行建设"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/pol-productive-forces-relations/unit.json",
+      "sourceUrls": [
+        "https://2d.hep.com.cn/13384041111111/3",
+        "https://www.12371.cn/2024/03/21/ARTI1711014349115386.shtml",
+        "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm"
+      ]
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "title": "概率与二项分布入门：先说结果和条件，再计算",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "统计教师复核等可能、独立同分布假设及模型到真实健康问题的边界",
+        "尚缺连续分布、条件概率、完整组合公式和抽样分布，不能称概率节点完整覆盖"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-probability-binomial-foundation/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+        "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution"
+      ]
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "title": "随机抽样基础：抽谁、从哪张名单抽、能推到谁",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "统计/流行病学教师复核目标总体、抽样框和复杂抽样边界",
+        "样本量、权重和设计效应的完整计算仍待后续课程"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-random-sampling-foundation/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "title": "研究设计中的偏倚控制：先找错误怎样产生",
+      "subject": "353",
+      "version": "0.1",
+      "contentSha256": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+      "questions": 12,
+      "currentInternalStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "independentProfessionalDecision": "not-obtained",
+      "independentExpertApproved": false,
+      "pending": [
+        "流行病学教师复核选择偏倚、信息偏倚、混杂与中介的边界及题目唯一性",
+        "各研究类型的详细控制方法、效应修饰和调整计算尚待独立课程"
+      ],
+      "thirdBatch": true,
+      "existingUnitPath": "product-2028-draft/course-drafts/353-bias-control-foundation/unit.json",
+      "sourceUrls": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+      ]
+    }
+  ],
+  "scope": "Declared internal states and content fingerprints only; no inferred expert identities or approvals",
+  "priorReviewLog": {
+    "path": "product-2028-draft/course-development-2026-10-25-third/expert-review/decisions.json",
+    "sha256": "fc86879b98d07f904960584dfc0e2b37abe32b0e8f2d3f6c6109478299e15544",
+    "preserved": true
+  }
+}

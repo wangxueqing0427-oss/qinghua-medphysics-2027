@@ -1,0 +1,28 @@
+{
+  "sourceBase": "614f182512fd5da210012699a05953bef2765d9a",
+  "statusRows": 38,
+  "totalQuestions": 415,
+  "packages": [
+    {
+      "subject": "en",
+      "path": "english",
+      "units": 3,
+      "questions": 36
+    },
+    {
+      "subject": "pol",
+      "path": "marxism",
+      "units": 3,
+      "questions": 36
+    },
+    {
+      "subject": "353",
+      "path": "public-health-statistics",
+      "units": 3,
+      "questions": 36
+    }
+  ],
+  "independentExpertApproved": 0,
+  "externalContact": false,
+  "paidService": false
+}

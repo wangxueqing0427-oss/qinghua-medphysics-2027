@@ -1,0 +1,161 @@
+{
+  "purpose": "Blank real professional opinion forms; NOT review evidence",
+  "role": "英语教师",
+  "requiredQualification": "英语语法教学与阅读命题/零基础教学经验；身份及资格须由实际审核人员提供，不预填姓名",
+  "independentExpertApproved": 0,
+  "forms": [
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "en-present-continuous-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "en-present-continuous-foundation-review-1",
+          "question": "状态动词本课语义及通常不用于进行时的限制，是否清楚保留例外？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "en-present-continuous-foundation-review-2",
+          "question": "当前阶段活动与说话时动作的区别，习惯/暂时情境是否造成单选歧义？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "en-present-continuous-foundation-review-3",
+          "question": "-ing拼写示例及新词负担是否适合零基础？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    },
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "en-passive-simple-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "en-passive-simple-foundation-review-1",
+          "question": "be+分词的事件被动与形容词状态是否区分充分？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "en-passive-simple-foundation-review-2",
+          "question": "给定及物动词转换及执行者省略条件是否准确，是否过度推广？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "en-passive-simple-foundation-review-3",
+          "question": "一般时态、过去式/分词区别和延迟新情境的标准答案是否唯一？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    },
+    {
+      "id": null,
+      "reviewer": null,
+      "qualification": null,
+      "qualificationEvidence": null,
+      "date": null,
+      "unitId": "en-defining-relative-foundation",
+      "unitVersion": "0.1",
+      "contentSha256": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+      "decision": "pending",
+      "checks": {
+        "knowledge": null,
+        "scopeYear": null,
+        "formulaAndUnits": null,
+        "questionAnswer": null,
+        "explanation": null,
+        "rubric": null,
+        "sourceAndRights": null
+      },
+      "questions": [
+        {
+          "id": "en-defining-relative-foundation-review-1",
+          "question": "限定性从句主语/宾语角色与关系词省略条件是否准确？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "en-defining-relative-foundation-review-2",
+          "question": "who/which/that的人物范围、可替换形式是否使单选多解？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        },
+        {
+          "id": "en-defining-relative-foundation-review-3",
+          "question": "主从句骨架、两层主谓一致和中文解释是否误导？",
+          "opinion": null,
+          "reason": null,
+          "reference": null,
+          "status": "pending"
+        }
+      ],
+      "issues": [],
+      "correctionCommit": null,
+      "recheckReviewer": null,
+      "recheckDecision": "pending",
+      "formalReleaseApproved": false
+    }
+  ]
+}
