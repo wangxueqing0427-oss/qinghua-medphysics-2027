@@ -1,0 +1,61 @@
+{
+  "scope": "Local/CI29-course isolated preview only; no remote site or release",
+  "units": 29,
+  "questions": 307,
+  "port": 5289,
+  "database": "qh2028_isolated_set29_v1",
+  "journal": "qh2028_set29_pending_v1:",
+  "expertApproved": 0,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "777c6e783f58a7b199d1e608e4ff0052935cdef42d3398005745b3af9e4ebca3",
+      "source": "product-2028-draft/index.html"
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "source": "product-2028-draft/app.css"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "source": "product-2028-draft/icon.svg"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "617fc0269bd73ae30186b7069995f1bbb042ec7613bf5d554c48018c3ece175a",
+      "source": "product-2028-draft/manifest.json"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "source": "product-2028-draft/course-engine.cjs"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "c496af5555c0480ff626e6299cd6c94bd2fbe8070fb212fcb7bddaf64e74e698",
+      "source": "product-2028-draft/profile-repository.cjs"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "source": "product-2028-draft/learning-controller.cjs"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "0daf41dbcaf24d7712b5aa6666e172736529f7ea851d0b37eac244c2d68df725",
+      "source": "product-2028-draft/pilot-ui.js"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "ab8fbd677d1b95a53bdf808a635c70a89350699c9c4b809c6a2f6788c20d385e",
+      "source": "existing combined29 loader"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "97f6928525a70581d29b902307dc76bb5c9d7e2c29ad7cc135e50bd4c499b947",
+      "source": "product-2028-draft/sw.js"
+    }
+  ]
+}

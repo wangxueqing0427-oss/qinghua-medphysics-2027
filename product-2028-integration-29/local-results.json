@@ -1,0 +1,347 @@
+{
+  "scope": "Existing29-course engine and fake IndexedDB only; browser results recorded separately",
+  "courses": [
+    {
+      "id": "en-foundation-svo",
+      "subject": "en",
+      "questions": 5,
+      "contentSha256": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-practice-verification",
+      "subject": "pol",
+      "questions": 5,
+      "contentSha256": "e155584e08d332230e573e378f3a938ed9eb1e8107acd7b152faf5fb03d55be0",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-incidence-risk",
+      "subject": "353",
+      "questions": 5,
+      "contentSha256": "40e5842b0a18d56b664398cc9cfbe4736d5d955ee5f5435627e100b0206f7a47",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-present-negative",
+      "subject": "en",
+      "questions": 7,
+      "contentSha256": "e0bba9771a551fcf25ac9a9aac29935fa9e69b2e60706497388e3f221b330f54",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-common-particular",
+      "subject": "pol",
+      "questions": 7,
+      "contentSha256": "c7e260a16371de191ccc0d31a08b08f99aace1993ef5f67221e647c32ffe0d26",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-person-time",
+      "subject": "353",
+      "questions": 7,
+      "contentSha256": "6439be0b62e44aad288dc890b7324531ed0a1996ae8ae72f0430956d61b344f9",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "subject": "en",
+      "questions": 7,
+      "contentSha256": "26ec2a545c7f523db731c4854e19a2205dc31646379ee028ee8abdc2c47c048c",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "subject": "pol",
+      "questions": 12,
+      "contentSha256": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-variable-types",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "subject": "en",
+      "questions": 12,
+      "contentSha256": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-connections-foundation",
+      "subject": "pol",
+      "questions": 12,
+      "contentSha256": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-frequency-denominator",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "subject": "en",
+      "questions": 12,
+      "contentSha256": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-quantity-quality",
+      "subject": "pol",
+      "questions": 12,
+      "contentSha256": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-quantity-measurement",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-present-questions",
+      "subject": "en",
+      "questions": 12,
+      "contentSha256": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "subject": "pol",
+      "questions": 12,
+      "contentSha256": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-nouns-countability",
+      "subject": "en",
+      "questions": 12,
+      "contentSha256": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "subject": "pol",
+      "questions": 12,
+      "contentSha256": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-energy-power",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-pronoun-reference",
+      "subject": "en",
+      "questions": 12,
+      "contentSha256": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "stage": "scheduled"
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "subject": "pol",
+      "questions": 12,
+      "contentSha256": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-waves-interactions",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "stage": "scheduled"
+    },
+    {
+      "id": "en-articles-foundation",
+      "subject": "en",
+      "questions": 12,
+      "contentSha256": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-public-health-prevention",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-mean-median",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "stage": "scheduled"
+    },
+    {
+      "id": "353-study-design-foundation",
+      "subject": "353",
+      "questions": 12,
+      "contentSha256": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "stage": "scheduled"
+    }
+  ],
+  "results": [
+    {
+      "name": "Combined corpus validates29 units307 unique questions, objectives and prerequisite DAG",
+      "pass": true
+    },
+    {
+      "name": "en-foundation-svo learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-practice-verification learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-incidence-risk learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-present-negative learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-common-particular learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-person-time learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-linking-and-verb-phrase learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-knowledge-practice-development learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-variable-types learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-subject-verb-agreement learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-connections-foundation learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-frequency-denominator learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-past-simple-foundation learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-quantity-quality learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-quantity-measurement learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-present-questions learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-matter-consciousness learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-nouns-countability learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-contradiction-unity learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-energy-power learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-pronoun-reference learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "pol-primary-contradictions learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-waves-interactions learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "en-articles-foundation learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-public-health-prevention learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-mean-median learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-dispersion-foundation learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "353-study-design-foundation learn/recall/answer/cause/reload/due review with real synthetic payloads",
+      "pass": true
+    },
+    {
+      "name": "All307 stored answer records, separate profile empty and no score forecast",
+      "pass": true
+    },
+    {
+      "name": "Closing repository and fresh controller recovers all courses without network",
+      "pass": true
+    },
+    {
+      "name": "Full backup restore clones307 answers and independent multicourse progress",
+      "pass": true
+    },
+    {
+      "name": "Same-version changed answer blocked without rewriting existing answers",
+      "pass": true
+    }
+  ],
+  "independentExpertApproved": 0
+}

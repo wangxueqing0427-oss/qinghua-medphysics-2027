@@ -1,0 +1,64 @@
+{
+  "baseCommit": "dbb6104d85d61b9477f09394d48d375f9a4718e0",
+  "baseTree": "5df49ff72e1e1b4b4a520d9577f5fa354deb0c89",
+  "addOnly": true,
+  "files": [
+    {
+      "path": "product-2028-integration-29/browser.spec.cjs",
+      "sha256": "77b2f21a6a4d067af932584894cbe428e125fd0008784ae7732cbb98ef4d09f0",
+      "bytes": 12504
+    },
+    {
+      "path": "product-2028-integration-29/build.cjs",
+      "sha256": "5462717e637a977ee2dbf840c91fd9244d188914d3cb6c8ff5455ac370f3fc22",
+      "bytes": 2446
+    },
+    {
+      "path": "product-2028-integration-29/local-test.cjs",
+      "sha256": "056f7fb9951f3b480ebe87d2edc185c409678cc9b54f2cbe902bc3a0e5580df3",
+      "bytes": 6188
+    },
+    {
+      "path": "product-2028-integration-29/playwright.config.cjs",
+      "sha256": "5926be1274593d845e9c445342ced7ceac6f2e2b8ea6ab83990676db4d90da7f",
+      "bytes": 738
+    },
+    {
+      "path": "product-2028-integration-29/server.cjs",
+      "sha256": "8cc1db9dd29f8ad0f9300de780a66dc07c2e7a73492d9d7a08de62d73bdccdc3",
+      "bytes": 829
+    },
+    {
+      "path": "product-2028-integration-29/summarize.cjs",
+      "sha256": "2e328f47728b4bb2e6a256d2f51913b5c0f1d875f66629a0158069bd31f8d178",
+      "bytes": 1429
+    },
+    {
+      "path": ".github/workflows/course-set-29-integration.yml",
+      "sha256": "2c7d63b896f4768d2569eab348897bb1f797c8384581d0e9bf89a23896e419c8",
+      "bytes": 1401
+    },
+    {
+      "path": "product-2028-integration-29/protected-baseline.json",
+      "sha256": "0e39fcb1626c0c25b18df4170daff424f0e0eb71ab25b984430fabc5f69583e8",
+      "bytes": 33302
+    },
+    {
+      "path": "product-2028-integration-29/build-manifest.json",
+      "sha256": "e8c0b78d79d05f9b956948d2d2f4342a1d223754192d8cb9c95cc24c788d1064",
+      "bytes": 2050
+    },
+    {
+      "path": "product-2028-integration-29/local-results.json",
+      "sha256": "dcb3dca300a74fbd7b89eb05b45c0f78d76f80fc9e03b0802479fbb767d1e421",
+      "bytes": 11287
+    }
+  ],
+  "exclude": [
+    ".build",
+    "downloaded runtimes",
+    "real data",
+    "production builds"
+  ],
+  "browserStatus": "not-yet-run; initial engineering commit triggers isolated Linux CI"
+}

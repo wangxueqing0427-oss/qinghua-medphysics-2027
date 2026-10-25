@@ -1,0 +1,39 @@
+name: Isolated29-course integration
+on:
+  push:
+    branches: [courses/2026-10-24-three-subject-foundations]
+    paths:
+      - product-2028-integration-29/*.cjs
+      - .github/workflows/course-set-29-integration.yml
+permissions:
+  contents: read
+concurrency:
+  group: isolated-set29-integration
+  cancel-in-progress: false
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned test dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Build isolated29-course preview
+        run: node product-2028-integration-29/build.cjs
+      - name: Run whole corpus synthetic integration
+        run: node product-2028-integration-29/local-test.cjs
+      - name: Install Chromium and WebKit
+        working-directory: product-2028-ci
+        run: npx playwright install --with-deps chromium webkit
+      - name: Actual browser tests
+        working-directory: product-2028-ci
+        run: npx playwright test --config=../product-2028-integration-29/playwright.config.cjs
+      - name: Record scoped evidence in job log
+        if: always()
+        run: node product-2028-integration-29/summarize.cjs
