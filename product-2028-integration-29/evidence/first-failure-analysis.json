@@ -1,0 +1,14 @@
+{
+  "runId":40161818058,
+  "testedCommit":"be3caf016daab08074d63c49a17734d7e2f880ac",
+  "actualBrowserResult":{"passed":71,"total":74,"skipped":0,"unexpected":3},
+  "defects":[
+    {"id":"SET29-T1","kind":"test orchestration","affected":["Chromium pol-primary-contradictions","mobile WebKit pol-primary-contradictions"],"observed":"waited for #learned on a prerequisite already completed by traversal of another parent","rootCause":"helper captured missing prerequisites once; direct parent shared a prerequisite that was completed during recursion","fix":"Recompute missing list from actual saved recall/objective evidence after each completed prerequisite; no simulated completions"},
+    {"id":"SET29-T2","kind":"fault injection timing","affected":["Chromium save failure journal"],"observed":"timed out waiting for #answer","rootCause":"IDB failure installed before learned transaction finished, targeting stage transition instead of intended draft persistence","fix":"Wait for visible recall answer field before injecting failure; retain quota failure, close/reopen, original text and exactly-once assertions"}
+  ],
+  "standardsLowered":false,
+  "courseOrAnswerChanges":false,
+  "productionChanges":false,
+  "expertApprovalAdded":false,
+  "windowsSyntaxCheck":"Initial sandbox EPERM on --check; approved external parse-only VM syntax check passed; not counted as browser test"
+}
