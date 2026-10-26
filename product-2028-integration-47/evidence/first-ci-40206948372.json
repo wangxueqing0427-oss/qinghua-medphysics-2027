@@ -1,0 +1,170 @@
+{
+  "runId": 40206948372,
+  "jobId": 121209821700,
+  "sha": "40326fab8ab26b1b098d739a994ac2d206fddd21",
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40206948372",
+  "conclusion": "cancelled",
+  "reason": "35-minute job budget exhausted after long runtime dependency installation; cancellation logged at16:01:50Z",
+  "actualBrowserStart": "2026-10-25T16:00:22Z",
+  "observedCompletedPasses": [
+    "  ✓   1 [chromium] › ../product-2028-integration-47/browser.spec.cjs:13:1 › isolated47-course menu,523-question ownership and release boundary (476ms)",
+    "  ✓   2 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-foundation-svo UI full initial and delayed learning loop (2.3s)",
+    "  ✓   3 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-practice-verification UI full initial and delayed learning loop (2.3s)",
+    "  ✓   4 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › 353-variable-types UI full initial and delayed learning loop (3.6s)",
+    "  ✓   5 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-vocabulary-retrieval-foundation UI full initial and delayed learning loop (4.5s)",
+    "  ✓   6 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-reading-evidence-foundation UI full initial and delayed learning loop (13.6s)",
+    "  ✓   7 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-present-perfect-foundation UI full initial and delayed learning loop (13.5s)",
+    "  ✓   8 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-base-superstructure-foundation UI full initial and delayed learning loop (13.3s)",
+    "  ✓   9 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-people-individual-history UI full initial and delayed learning loop (16.5s)",
+    "  ✓  10 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-modern-history-entry UI full initial and delayed learning loop (13.4s)"
+  ],
+  "observedPassCount": 10,
+  "webkitCompleted": 0,
+  "plannedTests": 46,
+  "fullBrowserReportWritten": false,
+  "summaryBoundary": "summarizer says notRun because JSON reporter did not finish; this does not erase observed partial Chromium pass lines",
+  "summary": {
+    "commit": "40326fab8ab26b1b098d739a994ac2d206fddd21",
+    "scope": "Linux Chromium and mobile-view WebKit, NOT real iPhone; synthetic profiles only",
+    "expertApproved": 0,
+    "local": {
+      "baseCommit": "2cb1bb8dcd4c9f359cdf463b57dbdce02ef6c41c",
+      "scope": "SET47 incremental build integrity, no original course changes or learner data",
+      "courses": 47,
+      "questions": 523,
+      "results": [
+        {
+          "name": "Candidate47 courses523 unique questions, objective links and prerequisite DAG valid",
+          "pass": true
+        },
+        {
+          "name": "Build equals existing fourth loader; old38 payloads and answers remain byte-equivalent as data",
+          "pass": true
+        },
+        {
+          "name": "New9 hashes exactly match actual fourth-batch tested payloads; release blocked",
+          "pass": true
+        },
+        {
+          "name": "SET47 DB/journal/cache independent from SET38 and R5; whitelist server only",
+          "pass": true
+        },
+        {
+          "name": "Browser focus is new9 plus3 risk-selected old subjects, no repeat old whole suite",
+          "pass": true
+        },
+        {
+          "name": "Historical local hashes or frozen remote Git blobs protected with explicit local differences",
+          "pass": true
+        }
+      ],
+      "protection": {
+        "mode": "CI remote tracked blobs",
+        "count": 380,
+        "localOnly": [
+          "product-2028-draft/课程知识点与大纲映射.json",
+          "product-2028-draft/content/353统一知识图谱.json",
+          "product-2028-draft/content/knowledge-graph.json",
+          "product-2028-draft/content/semantic-pair-review.json",
+          "product-2028-draft/content/semantic-review-sources.json",
+          "product-2028-draft/content/政治统一知识图谱.json",
+          "product-2028-draft/content/英语统一知识图谱.json"
+        ],
+        "preExistingDifferences": [
+          {
+            "path": "product-2028-pilot-build/sw.js",
+            "localGitBlob": "a95dbf37636f8132c8d282f20aed385a5323eb40",
+            "remoteBaselineGitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+          }
+        ],
+        "mismatches": []
+      },
+      "expertApproved": 0
+    },
+    "build": {
+      "scope": "Local/CI47-course isolated preview only; no remote site or release",
+      "units": 47,
+      "questions": 523,
+      "port": 5307,
+      "database": "qh2028_isolated_set47_v1",
+      "journal": "qh2028_set47_pending_v1:",
+      "expertApproved": 0,
+      "files": [
+        {
+          "path": "index.html",
+          "sha256": "dc45fbc04dba5872389709877c2a02ecd5bd30a7634b7525f5f3ec9df32934e9",
+          "source": "product-2028-draft/index.html"
+        },
+        {
+          "path": "app.css",
+          "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+          "source": "product-2028-draft/app.css"
+        },
+        {
+          "path": "icon.svg",
+          "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+          "source": "product-2028-draft/icon.svg"
+        },
+        {
+          "path": "manifest.json",
+          "sha256": "1458817dd9c4180b530d8b6591a427f706e711b171f8889c0b6867329466bf84",
+          "source": "product-2028-draft/manifest.json"
+        },
+        {
+          "path": "course-engine.js",
+          "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+          "source": "product-2028-draft/course-engine.cjs"
+        },
+        {
+          "path": "profile-repository.js",
+          "sha256": "4f492b22657cf5b8bbf13ebcbc6f682e7f9525d47e7e724e9693fc8ac5825622",
+          "source": "product-2028-draft/profile-repository.cjs"
+        },
+        {
+          "path": "learning-controller.js",
+          "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+          "source": "product-2028-draft/learning-controller.cjs"
+        },
+        {
+          "path": "pilot-ui.js",
+          "sha256": "540b84b42871bf999a7d378332b08dcd22885c619e5156e1258b9d79cd549a86",
+          "source": "product-2028-draft/pilot-ui.js"
+        },
+        {
+          "path": "representative-courses.json",
+          "sha256": "1426b9b786fe617b0f964e636032bae824003e0911e28f0bc9cb1a58848e1879",
+          "source": "existing combined47 loader"
+        },
+        {
+          "path": "sw.js",
+          "sha256": "be579b7a8c8e59bea81743998b1355dc6740b7cbbd7bf59e32c9f3943c16c16a",
+          "source": "product-2028-draft/sw.js"
+        }
+      ]
+    },
+    "browser": {
+      "notRun": true
+    }
+  },
+  "logExcerpt": [
+    "2026-10-25T15:26:50.7386564Z Fetched 12.6 MB in 1s (9502 kB/s)",
+    "2026-10-25T15:59:55.9267752Z Fetched 119 MB in 33min 3s (60.0 kB/s)",
+    "2026-10-25T16:00:22.4529213Z Running 46 tests using 1 worker",
+    "2026-10-25T16:00:23.6152905Z   ✓   1 [chromium] › ../product-2028-integration-47/browser.spec.cjs:13:1 › isolated47-course menu,523-question ownership and release boundary (476ms)",
+    "2026-10-25T16:00:25.8847931Z   ✓   2 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-foundation-svo UI full initial and delayed learning loop (2.3s)",
+    "2026-10-25T16:00:28.1737732Z   ✓   3 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-practice-verification UI full initial and delayed learning loop (2.3s)",
+    "2026-10-25T16:00:31.7530049Z   ✓   4 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › 353-variable-types UI full initial and delayed learning loop (3.6s)",
+    "2026-10-25T16:00:36.2353865Z   ✓   5 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-vocabulary-retrieval-foundation UI full initial and delayed learning loop (4.5s)",
+    "2026-10-25T16:00:49.8707784Z   ✓   6 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-reading-evidence-foundation UI full initial and delayed learning loop (13.6s)",
+    "2026-10-25T16:01:03.3839827Z   ✓   7 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › en-present-perfect-foundation UI full initial and delayed learning loop (13.5s)",
+    "2026-10-25T16:01:16.6508527Z   ✓   8 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-base-superstructure-foundation UI full initial and delayed learning loop (13.3s)",
+    "2026-10-25T16:01:33.1829990Z   ✓   9 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-people-individual-history UI full initial and delayed learning loop (16.5s)",
+    "2026-10-25T16:01:46.6328641Z   ✓  10 [chromium] › ../product-2028-integration-47/browser.spec.cjs:15:24 › pol-modern-history-entry UI full initial and delayed learning loop (13.4s)",
+    "2026-10-25T16:01:50.9183397Z ##[error]The operation was canceled."
+  ],
+  "earlierLogAccess": {
+    "result": "404 BlobNotFound while running; retrieved after job completed"
+  },
+  "repair": "Use official version-matched preinstalled browser container; same test assertions and course data unchanged",
+  "expertApproved": 0
+}

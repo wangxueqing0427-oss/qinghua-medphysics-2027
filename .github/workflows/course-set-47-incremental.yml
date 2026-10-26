@@ -14,6 +14,12 @@ jobs:
   incremental:
     runs-on: ubuntu-latest
     timeout-minutes: 35
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,9 +34,11 @@ jobs:
         run: node product-2028-integration-47/build.cjs
       - name: Check build integrity and historical protection
         run: node product-2028-integration-47/candidate-check.cjs
-      - name: Install Chromium and WebKit
+      - name: Verify pinned preinstalled Chromium and WebKit
         working-directory: product-2028-ci
-        run: npx playwright install --with-deps chromium webkit
+        run: |
+          npx playwright --version
+          node -e "const fs=require('fs'),p=require('playwright');for(const n of ['chromium','webkit']){const x=p[n].executablePath();if(!fs.existsSync(x))throw Error('Missing '+n+' '+x);console.log(n+': '+x);}"
       - name: New9 plus risk-selected old representatives in actual browsers
         working-directory: product-2028-ci
         run: npx playwright test --config=../product-2028-integration-47/playwright.config.cjs

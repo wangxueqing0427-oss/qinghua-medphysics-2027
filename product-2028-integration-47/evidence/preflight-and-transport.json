@@ -1,0 +1,14 @@
+{
+  "engineeringCommit":"40326fab8ab26b1b098d739a994ac2d206fddd21",
+  "baseCommit":"2cb1bb8dcd4c9f359cdf463b57dbdce02ef6c41c",
+  "branch":"courses/2026-10-24-three-subject-foundations",
+  "initialFiles":16,
+  "scopeVerification":"Recursive Git tree comparison verified every existing remote blob unchanged and only16 allowed additions before non-force leased ref update.",
+  "transportIssue":{"stage":"GET commits engineering SHA before branch update","observed":"Connector response did not contain structuredContent.content; parsing stopped before update_ref","resolution":"Commit object existed; repeated read confirmed it. Used bounded recursive tree/hash comparison instead of relying on oversized commit-patch response. No re-created commit, no force push."},
+  "localBuild":{"courses":47,"questions":523,"deployed":false},
+  "localCandidateChecks":{"passed":6,"total":6,"hashesChecked":387},
+  "ciRun":40206948372,
+  "ciUrl":"https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40206948372",
+  "ciBrowserResult":"pending; final outcome will be recorded in a separate immutable receipt",
+  "expertApproved":0
+}

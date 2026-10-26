@@ -1,0 +1,12 @@
+{
+  "status":"Prepared alternative, not executed at creation",
+  "source":"https://playwright.dev/docs/docker",
+  "accessedAt":"2026-10-25",
+  "actualRead":"Introduction, Usage, End-to-end tests, Image tags and version-matching note",
+  "officiallyDocumentedImage":"mcr.microsoft.com/playwright:v1.64.0-noble",
+  "matchesExistingPackage":"@playwright/test1.64.0",
+  "supports":"Official image contains browser binaries and system dependencies; npm test package must still be installed separately. Trusted local candidate tests only.",
+  "scope":"Alternative to stalled runtime browser/system dependency installation; no change to test cases, assertions, course answers or production",
+  "activationCondition":"Only after first run produces actual environment failure/timeout evidence; do not start duplicate parallel jobs",
+  "expertApproved":0
+}
