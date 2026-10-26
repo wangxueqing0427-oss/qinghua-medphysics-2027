@@ -1,0 +1,107 @@
+{
+  "testedCommit": "b8924778647bb6d6005bab9a6ea4238f737aae2c",
+  "ciRun": 40248473257,
+  "localProtection": {
+    "count": 387,
+    "mismatches": [],
+    "scope": "Verified after local harness generation;7 private graphs and retained local R5 cache included"
+  },
+  "ciProtection": {
+    "mode": "CI remote tracked blobs",
+    "count": 380,
+    "localOnly": [
+      "product-2028-draft/课程知识点与大纲映射.json",
+      "product-2028-draft/content/353统一知识图谱.json",
+      "product-2028-draft/content/knowledge-graph.json",
+      "product-2028-draft/content/semantic-pair-review.json",
+      "product-2028-draft/content/semantic-review-sources.json",
+      "product-2028-draft/content/政治统一知识图谱.json",
+      "product-2028-draft/content/英语统一知识图谱.json"
+    ],
+    "preExistingDifferences": [
+      {
+        "path": "product-2028-pilot-build/sw.js",
+        "localGitBlob": "a95dbf37636f8132c8d282f20aed385a5323eb40",
+        "remoteBaselineGitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+      }
+    ],
+    "mismatches": []
+  },
+  "buildFiles": [
+    {
+      "path": "index.html",
+      "sha256": "dc45fbc04dba5872389709877c2a02ecd5bd30a7634b7525f5f3ec9df32934e9",
+      "source": "product-2028-draft/index.html"
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "source": "product-2028-draft/app.css"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "source": "product-2028-draft/icon.svg"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "1458817dd9c4180b530d8b6591a427f706e711b171f8889c0b6867329466bf84",
+      "source": "product-2028-draft/manifest.json"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "source": "product-2028-draft/course-engine.cjs"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "4f492b22657cf5b8bbf13ebcbc6f682e7f9525d47e7e724e9693fc8ac5825622",
+      "source": "product-2028-draft/profile-repository.cjs"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "source": "product-2028-draft/learning-controller.cjs"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "540b84b42871bf999a7d378332b08dcd22885c619e5156e1258b9d79cd549a86",
+      "source": "product-2028-draft/pilot-ui.js"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "1426b9b786fe617b0f964e636032bae824003e0911e28f0bc9cb1a58848e1879",
+      "source": "existing combined47 loader"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "be579b7a8c8e59bea81743998b1355dc6740b7cbbd7bf59e32c9f3943c16c16a",
+      "source": "product-2028-draft/sw.js"
+    }
+  ],
+  "localAndBothCIBuildHashesIdentical": true,
+  "protectedRefs": [
+    {
+      "branch": "main",
+      "sha": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+    },
+    {
+      "branch": "audit/2026-10-21-four-gaps-v7",
+      "sha": "ba8d3ae50c2a832a021664df01471b8854c9c442"
+    },
+    {
+      "branch": "courses/2026-10-24-three-subject-foundations",
+      "sha": "b8924778647bb6d6005bab9a6ea4238f737aae2c"
+    }
+  ],
+  "sourceScope": "Original2cb1bb8 tree blobs unchanged; only SET47 harness, workflow and evidence additions/changes",
+  "review": {
+    "independentExpertApproved": 0,
+    "existing47PriorityQueueUnchanged": true,
+    "new9Records": "product-2028-draft/course-development-2026-10-25-fourth/internal-review.json",
+    "additionalQuestions": "../review-addendum.json",
+    "externalContact": false
+  },
+  "noDeploy": true,
+  "noRealLearnerData": true
+}

@@ -1,0 +1,121 @@
+{
+  "baseCommit": "2cb1bb8dcd4c9f359cdf463b57dbdce02ef6c41c",
+  "testedCommit": "b8924778647bb6d6005bab9a6ea4238f737aae2c",
+  "testedRun": 40248473257,
+  "receiptParent": "b8924778647bb6d6005bab9a6ea4238f737aae2c",
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "allHarnessFiles": [
+    {
+      "path": "product-2028-integration-47/browser.spec.cjs",
+      "gitBlob": "c0bfb3485ea140570254b2221289676783efec9f"
+    },
+    {
+      "path": "product-2028-integration-47/build-manifest.json",
+      "gitBlob": "cbd7750fe550d6b9d3e8b686cd5ed3e888c15ae5"
+    },
+    {
+      "path": "product-2028-integration-47/build.cjs",
+      "gitBlob": "27391de4f9a1bb44ca821f87fd361f2288aa05fb"
+    },
+    {
+      "path": "product-2028-integration-47/candidate-check-results.json",
+      "gitBlob": "83861f60d4361327b06b49a766a5de6c3ec1ab64"
+    },
+    {
+      "path": "product-2028-integration-47/candidate-check.cjs",
+      "gitBlob": "0df7d04643482ef6f765575887986156dab26580"
+    },
+    {
+      "path": "product-2028-integration-47/create-incremental.cjs",
+      "gitBlob": "81760ae2711c237ac81d9248c66c37c707d4fb07"
+    },
+    {
+      "path": "product-2028-integration-47/playwright.config.cjs",
+      "gitBlob": "249389ca69c7d3970a74815e0c4f566b3b7b1166"
+    },
+    {
+      "path": "product-2028-integration-47/prepare-protection.cjs",
+      "gitBlob": "81f815e90a10eb23728c2d5bb7fe63598578f67e"
+    },
+    {
+      "path": "product-2028-integration-47/protected-baseline.json",
+      "gitBlob": "54a63956b2aa5313a5967b1bdc7ea2ddf2db8c71"
+    },
+    {
+      "path": "product-2028-integration-47/README.md",
+      "gitBlob": "1d9d2094150010bb6cdefe64a24d47832cb15cef"
+    },
+    {
+      "path": "product-2028-integration-47/remote-protected-baseline.json",
+      "gitBlob": "0e5f3b01e9fb23b3b1e09fa4ebab04dd5fef2922"
+    },
+    {
+      "path": "product-2028-integration-47/review-addendum.json",
+      "gitBlob": "4ecf5e2dbc9f070c4934b3da61e3e51fe32336d1"
+    },
+    {
+      "path": "product-2028-integration-47/server.cjs",
+      "gitBlob": "e68a5e16f841235c89c892f7b585f68f02fe81e1"
+    },
+    {
+      "path": "product-2028-integration-47/summarize.cjs",
+      "gitBlob": "2f800383b0a86ef60124e13c3ae8262f5d235508"
+    },
+    {
+      "path": "product-2028-integration-47/集中交付与下一断点.md",
+      "gitBlob": "de9b18f292a94ac74f934d4bedfd89f23a8d2252"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/container-fallback-basis.json",
+      "gitBlob": "a23e2b6a5ed9b8a36b2a32174660901433e3dfb2"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/environment-and-first-failures.json",
+      "gitBlob": "94842941379fb3bddc018a201831b175821c9bf1"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/final-ci-40248473257.json",
+      "gitBlob": "e877847bcd815a4ad92ba3450e20cd0bb958c408"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/first-ci-40206948372.json",
+      "gitBlob": "bc262da70d16a3d8b07daf3902456bf6b92e82ca"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/first-ci-reason-boundary.json",
+      "gitBlob": "da98e00d408ad9d216ad20689d3282f0bba5c80f"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/preflight-and-transport.json",
+      "gitBlob": "15343f9029fd2202ac1072948cc1175c71c605d2"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/protection-and-review-receipt.json",
+      "gitBlob": "f533a8af9aa01a03243fe2ff7449f5c3bf86c9d0"
+    },
+    {
+      "path": ".github/workflows/course-set-47-incremental.yml",
+      "gitBlob": "01111297428acb254ae86537c2fcab8a25cc0495"
+    }
+  ],
+  "receiptAdditions": [
+    {
+      "path": "product-2028-integration-47/集中交付与下一断点.md",
+      "gitBlob": "de9b18f292a94ac74f934d4bedfd89f23a8d2252"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/final-ci-40248473257.json",
+      "gitBlob": "e877847bcd815a4ad92ba3450e20cd0bb958c408"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/first-ci-reason-boundary.json",
+      "gitBlob": "da98e00d408ad9d216ad20689d3282f0bba5c80f"
+    },
+    {
+      "path": "product-2028-integration-47/evidence/protection-and-review-receipt.json",
+      "gitBlob": "f533a8af9aa01a03243fe2ff7449f5c3bf86c9d0"
+    }
+  ],
+  "scope": "Evidence-only additions; no test/program/course changes after successful CI. Manifest self-hash excluded.",
+  "expertApproved": 0
+}

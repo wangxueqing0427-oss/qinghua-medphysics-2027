@@ -1,0 +1,8 @@
+{
+  "correctsInterpretationOf":"first-ci-40206948372.json reason field and README timing explanation; original record preserved",
+  "observed":"First job configured35-minute limit; started15:26:37Z; operation cancelled16:01:50Z. apt log states Fetched119MB in33min3s at60.0kB/s. Browser execution began16:00:22Z and10 Chromium cases completed before cancellation.",
+  "inference":"Timing is consistent with exhaustion of configured job budget after slow dependency preparation. Retrieved log does not explicitly identify the cancellation actor or contain a maximum-execution-time message; do not claim a separately verified cancellation source.",
+  "repairEvidence":"Use official version-matched preinstalled browser image; second run40248473257 entered browser step without repeating runtime apt installation.",
+  "notClaimed":"First run did not complete46 cases, did not complete WebKit and cannot be recorded as full browser success.",
+  "expertApproved":0
+}
