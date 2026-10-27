@@ -12,6 +12,7 @@ for(const name of ['index.html','app.css','icon.svg','manifest.json','course-eng
   s=once(s,"'use strict';","'use strict';\nconst EDITION='"+EDITION+"';");
   s=once(s,'qh2028_product_pending_v1:',JOURNAL).replaceAll('独立测试构建 R5',LABEL).replaceAll(' · iPhone反馈集中修复 · 非正式课程版',' · 从零学习 · 47课523题 · 内容待审校');
   s=once(s,'新档案从零开始；原V59数据不会导入或修改。','新档案从零开始，无需旧版进度。仅恢复本候选新学习数据的备份。');
+  s=once(s,"app.innerHTML='<h1>现在只做一项</h1>","app.innerHTML='<h1>现在只做一项</h1><p>新版档案独立保存，无需旧版进度；已有新版记录会继续保留。</p>");
   s=once(s,"{displayName:document.getElementById('name').value","{candidateEdition:EDITION,displayName:document.getElementById('name').value");
   s=once(s,'profile=await repository.restoreAsNewProfile(crypto.randomUUID(),JSON.parse(await file.text()));',"const backup=JSON.parse(await file.text());if(backup.profile?.settings?.candidateEdition!==EDITION)throw Error('仅支持本候选导出的新学习档案备份；旧版无需迁移，原文件未修改');profile=await repository.restoreAsNewProfile(crypto.randomUUID(),backup);");
   s=s.replaceAll('qinghua-2028-local-backup.json','qinghua-2028-mobile-c1-backup.json');

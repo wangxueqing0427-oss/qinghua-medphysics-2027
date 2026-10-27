@@ -49,7 +49,7 @@
     },
     {
       "path": "pilot-ui.js",
-      "sha256": "0913125b8089b5ad340e5656d15343536c228b9607ba0ee72e2c0d0944294786",
+      "sha256": "f5c3a218f723aa2b29116c6078ec1c6fa260b035637aeee248b119383b75f11e",
       "source": "product-2028-draft/pilot-ui.js"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "path": "sw.js",
-      "sha256": "ac060f5e3da580c8eb09ba9c1ecf01156701225a5c9184d6518e42381094ac02",
+      "sha256": "d4b0e32df5490fc3facd433eae53b6f65c774e1ec8bac4f8659e17140066810c",
       "source": "product-2028-draft/sw.js"
     }
   ]
