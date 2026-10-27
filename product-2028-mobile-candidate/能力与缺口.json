@@ -1,0 +1,21 @@
+{
+  "edition":"qh2028-mobile-candidate-c1",
+  "baseCommit":"8fd545099716acf11e6576127286dc530765ba3c",
+  "scope":"首个独立手机版候选工程，不是完整课程/考试交付",
+  "coverage":{"courses":47,"questions":523,"planningNodes":149,"partialDraftSupport":29,"nodesWithoutCourseSupport":120,"newCoursesThisPhase":0,"semanticReauditCompletedThisPhase":"仅353-ratio-rate-prevalence；未冒称重审全部47课","independentProfessionalApproved":0},
+  "implemented":["47课共用实际学习—闭卷—练题—参考反馈—错因—到期复习流程","新档案从零；独立数据库/日志/缓存；三科菜单筛选","实际答案和草稿本机保存、失败重试、JSON备份恢复","只允许本候选标识的备份导入；非密码或签名认证"],
+  "validation":"以实际CI回执为准；原SET47通过不自动代表新C1通过",
+  "remaining":[
+    {"priority":"P0","module":"内容","gap":"120节点缺课程支持，29节点只是部分草稿；已有课逐项来源/答案/目标覆盖仍需内部多轮核对。先处理本课rubric错配、术语与开放分母边界，不在未复核前回写。"},
+    {"priority":"P0","module":"考试能力","gap":"尚无完整章节/阶段/全真考试蓝图和对应足量题库；不得编造2028规则或从少量题推350分。"},
+    {"priority":"P0","module":"主观评分","gap":"现有参考要点+本人核对，保留原文并无可靠自动专业分数；需逐题评分边界和一致性复核。"},
+    {"priority":"P1","module":"英语","gap":"词汇/语音/阅读/翻译/写作仍不完整；音标文字不等于已测试朗读或发音能力。"},
+    {"priority":"P1","module":"复习提醒","gap":"仅在APP打开后安排/显示到期任务；尚未实现并验证iPhone后台推送提醒，不能承诺离线后台提醒。"},
+    {"priority":"P1","module":"诊断","gap":"可显示错题与单元复习状态，但跨科薄弱知识/成绩诊断及可信模拟分数尚不完整。"},
+    {"priority":"P1","module":"升级","gap":"未来版本应沿用新档案命名空间与edition，不因版本标识变化清零；课程答案变化目前保护性阻止混用，尚非完整数据迁移/复评流程。"},
+    {"priority":"P1","module":"真实设备与部署","gap":"尚未新增HTTPS候选部署，不把127.0.0.1当手机链接；iPhone Safari/PWA生命周期、键盘、文件分享及最终体验仍待集中验收。"},
+    {"priority":"P2","module":"账户","gap":"仅本地独立档案，不是在线账户安全；正式账户仍暂缓，不擅自开服务。"}
+  ],
+  "releaseRule":"报告所有未解决项并待用户最终集中iPhone验收；公开部署/生产替换需明确授权；不联系教师，不编造专家审定。",
+  "nextWork":"以先修和真实覆盖缺口连续完善内容及考试能力，阶段性保存断点；不机械每9课停止，也不虚构已在后台持续运行。"
+}

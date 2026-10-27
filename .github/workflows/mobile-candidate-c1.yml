@@ -1,0 +1,65 @@
+name: New2028 mobile candidate C1
+on:
+  push:
+    branches: [courses/2026-10-24-three-subject-foundations]
+    paths:
+      - product-2028-mobile-candidate/*.cjs
+      - .github/workflows/mobile-candidate-c1.yml
+permissions:
+  contents: read
+concurrency:
+  group: new2028-mobile-candidate-c1
+  cancel-in-progress: false
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned test dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Build dedicated candidate without modifying prior builds
+        run: node product-2028-mobile-candidate/build.cjs
+      - name: Check content, fresh identity and historical protection
+        run: node product-2028-mobile-candidate/candidate-check.cjs
+      - name: Verify preinstalled matching browsers
+        working-directory: product-2028-ci
+        run: |
+          npx playwright --version
+          node -e "const fs=require('fs'),p=require('playwright');for(const n of ['chromium','webkit'])if(!fs.existsSync(p[n].executablePath()))throw Error('Missing '+n);"
+      - name: Real browsers and mobile simulation with synthetic profiles only
+        working-directory: product-2028-ci
+        run: npx playwright test --config=../product-2028-mobile-candidate/playwright.config.cjs
+      - name: Preserve exact tested SHA and result boundaries
+        if: always()
+        run: node product-2028-mobile-candidate/summarize.cjs
+      - name: Save static candidate for review, not public deployment
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-c1-static-${{ github.sha }}
+          path: product-2028-mobile-candidate/.build/
+          include-hidden-files: true
+          retention-days: 7
+      - name: Preserve synthetic failure evidence
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-c1-failure-${{ github.sha }}
+          path: |
+            product-2028-mobile-candidate/browser-results.json
+            product-2028-mobile-candidate/ci-summary.json
+            product-2028-ci/test-results/
+          retention-days: 7

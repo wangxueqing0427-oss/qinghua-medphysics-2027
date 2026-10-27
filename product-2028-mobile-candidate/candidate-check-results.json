@@ -1,0 +1,46 @@
+{
+  "baseCommit": "8fd545099716acf11e6576127286dc530765ba3c",
+  "scope": "MOBILE-C1 incremental build integrity, no original course changes or learner data",
+  "courses": 47,
+  "questions": 523,
+  "results": [
+    {
+      "name": "Candidate47 courses523 unique questions, objective links and prerequisite DAG valid",
+      "pass": true
+    },
+    {
+      "name": "Build equals existing fourth loader; old38 payloads and answers remain byte-equivalent as data",
+      "pass": true
+    },
+    {
+      "name": "New9 hashes exactly match actual fourth-batch tested payloads; release blocked",
+      "pass": true
+    },
+    {
+      "name": "MOBILE-C1 DB/journal/cache independent from SET38 and R5; whitelist server only",
+      "pass": true
+    },
+    {
+      "name": "Browser focus is new9 plus3 risk-selected old subjects, no repeat old whole suite",
+      "pass": true
+    },
+    {
+      "name": "Historical local hashes or frozen remote Git blobs protected with explicit local differences",
+      "pass": true
+    },
+    {
+      "name": "Dedicated edition, from-zero create and foreign-backup guard are present",
+      "pass": true
+    },
+    {
+      "name": "Only10 static assets are packaged; engine/controller/course payload unchanged",
+      "pass": true
+    }
+  ],
+  "protection": {
+    "mode": "local SHA256 including7 private graphs and retained R5 cache",
+    "count": 411,
+    "mismatches": []
+  },
+  "expertApproved": 0
+}

@@ -1,0 +1,66 @@
+{
+  "scope": "Local/CI dedicated mobile candidate only; not deployed or full curriculum acceptance",
+  "edition": "qh2028-mobile-candidate-c1",
+  "label": "2028新版手机候选 MOBILE-C1",
+  "courses": 47,
+  "questions": 523,
+  "database": "qh2028_mobile_candidate_v1",
+  "journal": "qh2028_mobile_candidate_pending_v1:",
+  "port": 5308,
+  "startsAtZero": true,
+  "oldProgressMigration": false,
+  "backupBoundary": "UI rejects foreign/missing edition marker; local safety guard, not authentication or cryptographic origin proof",
+  "expertApproved": 0,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "f399293c4ab0927029250c533f14ca7b74b2534b902e4997062958f60e413362",
+      "source": "product-2028-draft/index.html"
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "source": "product-2028-draft/app.css"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "source": "product-2028-draft/icon.svg"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "a79959f35f120e0d75fa415f4725f8df49cca6fa00d49151c812339d1eba28de",
+      "source": "product-2028-draft/manifest.json"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "source": "product-2028-draft/course-engine.cjs"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "84c587840bb62d4451f402268032c1d3ca1fc4f8282c3da7a8034794f9d632a0",
+      "source": "product-2028-draft/profile-repository.cjs"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "source": "product-2028-draft/learning-controller.cjs"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "0913125b8089b5ad340e5656d15343536c228b9607ba0ee72e2c0d0944294786",
+      "source": "product-2028-draft/pilot-ui.js"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "1426b9b786fe617b0f964e636032bae824003e0911e28f0bc9cb1a58848e1879",
+      "source": "unchanged combined47 loader"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "ac060f5e3da580c8eb09ba9c1ecf01156701225a5c9184d6518e42381094ac02",
+      "source": "product-2028-draft/sw.js"
+    }
+  ]
+}

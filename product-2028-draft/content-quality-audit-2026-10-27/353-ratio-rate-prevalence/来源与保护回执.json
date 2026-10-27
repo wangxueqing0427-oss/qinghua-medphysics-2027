@@ -1,0 +1,94 @@
+{
+  "reviewDate": "2026-10-27",
+  "baseCommit": "8fd545099716acf11e6576127286dc530765ba3c",
+  "frozenCourse": {
+    "path": "product-2028-draft/course-drafts/353-ratio-rate-prevalence/unit.json",
+    "version": "0.1",
+    "fileSha256": "bc45507b567b90fdbea77c629e086e2b606959c5f5f9c09b8992902b22b7c676",
+    "gitBlob": "85da17f9cb0a7ded2db18aa83319c66fa5dd1dc2",
+    "priorLedgerContentHash": "69dc93148be5506318214c3af37a2ea1cffe37ca6dbafbc5f0c65f6fbdc0fa99",
+    "hashBoundary": "本轮重算文件SHA256和Git blob并与基线树比较；contentHash从既有台账读取，不称本轮重算。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "CDC",
+      "title": "Principles of Epidemiology in Public Health Practice, Third Edition, Lesson3 Section1",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+      "edition": "2006; book updated May2012; HTML reviewed2012-05-18",
+      "read": "指定正文非搜索摘要",
+      "locators": {
+        "Ratio": "Definition/Properties of ratio，网页行24–58",
+        "Proportion": "Definition/Properties of proportion，行80–128",
+        "Rate": "Definition of rate及宽严用语，行157–165"
+      }
+    },
+    {
+      "id": "S2",
+      "publisher": "CDC",
+      "title": "同书 Lesson3 Section2 Morbidity Frequency Measures",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html",
+      "edition": "2006; book updated May2012",
+      "read": "指定正文与表3.3文本，未采用Figure3.1示例",
+      "locators": {
+        "Table3.3": "网页行14–24；印刷3-10 / PDF189页(零基188)",
+        "Risk": "Definition及More About Denominators，行28–58",
+        "IncidenceRate": "Definition/Method/Properties，行74–90",
+        "Prevalence": "Definition/Method，行142–160；印刷3-16 / PDF195页(零基194)",
+        "PropertiesOfPrevalence": "行171–179"
+      }
+    },
+    {
+      "id": "S3",
+      "publisher": "CDC",
+      "title": "同书 Lesson1 Section7 Analytic Epidemiology",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section7.html",
+      "edition": "2006; book updated May2012; HTML reviewed2012-05-18",
+      "read": "Cross-sectional study及总结，网页行39–45",
+      "locators": {
+        "CrossSectional": "同时测量、发生与生存因素难分、描述性用途"
+      }
+    },
+    {
+      "id": "S4",
+      "publisher": "CDC",
+      "title": "SS1978 Third Edition PDF",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/SS1978.pdf",
+      "publishedAt": "2006-10",
+      "updatedAt": "2012-05",
+      "read": "封面及指定文字页：印刷3-8(PDF187/零基186)、3-10(PDF189/零基188)、3-16(PDF195/零基194)，未读全511页",
+      "limitation": "截图请求只返回引用字符串，模型未收到可见图像，不能称已视觉确认表3.2列位置；文本流中的Period prevalence位置需第二轮复核，不据此宣布教材错误。"
+    }
+  ],
+  "sourceBoundary": "同一CDC教材的不同章节/载体，不当作多个独立机构交叉认证；基础定义依据不等于现行临床规范或2028考试要求。",
+  "unresolved": [
+    "开放人群期间指标的分母、集合归属和通用比例措辞仍需针对定义复核，不用固定群体特例外推。",
+    "本轮未读取中国指定教材；术语译名与教学大纲口径未独立核实。"
+  ],
+  "accessLimits": [
+    {
+      "operation": "PDF截图指定页",
+      "observed": "仅返回引用文本，未取得模型可见图像，无可报告的HTTP错误码"
+    }
+  ],
+  "arithmetic": {
+    "method": "Python用题干数字直接运算，不用读取的answer值作为算式输入",
+    "results": {
+      "20/10": 2,
+      "20/30": 0.6666666666666666,
+      "8/80": 0.1,
+      "12/100": 0.12,
+      "12/20": 0.6,
+      "18/120": 0.15,
+      "30/200": 0.15,
+      "10/500": 0.02,
+      "9/75": 0.12,
+      "6/50": 0.12
+    }
+  },
+  "workflowBoundary": "按用户限定只新增报告，不运行会改写全局结果的audit/questions CLI，不改原decisions.json。不是单元/浏览器测试或专家审批。",
+  "expertApproved": 0,
+  "noCourseChange": true,
+  "noDeployment": true,
+  "noCI": true
+}
