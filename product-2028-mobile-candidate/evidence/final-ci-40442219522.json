@@ -1,0 +1,729 @@
+{
+  "runId": 40442219522,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40442219522",
+  "conclusion": "success",
+  "commit": "fa23351964d6c903aad9755c7668b77c2c5c18e1",
+  "scope": "Linux Chromium and mobile-view WebKit, NOT real iPhone; synthetic profiles only",
+  "expertApproved": 0,
+  "local": {
+    "baseCommit": "8fd545099716acf11e6576127286dc530765ba3c",
+    "scope": "MOBILE-C1 incremental build integrity, no original course changes or learner data",
+    "courses": 47,
+    "questions": 523,
+    "results": [
+      {
+        "name": "Candidate47 courses523 unique questions, objective links and prerequisite DAG valid",
+        "pass": true
+      },
+      {
+        "name": "Build equals existing fourth loader; old38 payloads and answers remain byte-equivalent as data",
+        "pass": true
+      },
+      {
+        "name": "New9 hashes exactly match actual fourth-batch tested payloads; release blocked",
+        "pass": true
+      },
+      {
+        "name": "MOBILE-C1 DB/journal/cache independent from SET38 and R5; whitelist server only",
+        "pass": true
+      },
+      {
+        "name": "Browser focus is new9 plus3 risk-selected old subjects, no repeat old whole suite",
+        "pass": true
+      },
+      {
+        "name": "Historical local hashes or frozen remote Git blobs protected with explicit local differences",
+        "pass": true
+      },
+      {
+        "name": "Dedicated edition, from-zero create and foreign-backup guard are present",
+        "pass": true
+      },
+      {
+        "name": "Only10 static assets are packaged; engine/controller/course payload unchanged",
+        "pass": true
+      }
+    ],
+    "protection": {
+      "mode": "CI remote tracked blobs",
+      "count": 404,
+      "localOnly": [
+        "product-2028-draft/课程知识点与大纲映射.json",
+        "product-2028-draft/content/353统一知识图谱.json",
+        "product-2028-draft/content/knowledge-graph.json",
+        "product-2028-draft/content/semantic-pair-review.json",
+        "product-2028-draft/content/semantic-review-sources.json",
+        "product-2028-draft/content/政治统一知识图谱.json",
+        "product-2028-draft/content/英语统一知识图谱.json"
+      ],
+      "preExistingDifferences": [
+        {
+          "path": "product-2028-pilot-build/sw.js",
+          "localGitBlob": "a95dbf37636f8132c8d282f20aed385a5323eb40",
+          "remoteBaselineGitBlob": "f978b5e1cd938364f0984d6f9259075bc1988f2d"
+        }
+      ],
+      "mismatches": []
+    },
+    "expertApproved": 0
+  },
+  "build": {
+    "scope": "Local/CI dedicated mobile candidate only; not deployed or full curriculum acceptance",
+    "edition": "qh2028-mobile-candidate-c1",
+    "label": "2028新版手机候选 MOBILE-C1",
+    "courses": 47,
+    "questions": 523,
+    "database": "qh2028_mobile_candidate_v1",
+    "journal": "qh2028_mobile_candidate_pending_v1:",
+    "port": 5308,
+    "startsAtZero": true,
+    "oldProgressMigration": false,
+    "backupBoundary": "UI rejects foreign/missing edition marker; local safety guard, not authentication or cryptographic origin proof",
+    "expertApproved": 0,
+    "files": [
+      {
+        "path": "index.html",
+        "sha256": "f399293c4ab0927029250c533f14ca7b74b2534b902e4997062958f60e413362",
+        "source": "product-2028-draft/index.html"
+      },
+      {
+        "path": "app.css",
+        "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+        "source": "product-2028-draft/app.css"
+      },
+      {
+        "path": "icon.svg",
+        "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+        "source": "product-2028-draft/icon.svg"
+      },
+      {
+        "path": "manifest.json",
+        "sha256": "a79959f35f120e0d75fa415f4725f8df49cca6fa00d49151c812339d1eba28de",
+        "source": "product-2028-draft/manifest.json"
+      },
+      {
+        "path": "course-engine.js",
+        "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+        "source": "product-2028-draft/course-engine.cjs"
+      },
+      {
+        "path": "profile-repository.js",
+        "sha256": "84c587840bb62d4451f402268032c1d3ca1fc4f8282c3da7a8034794f9d632a0",
+        "source": "product-2028-draft/profile-repository.cjs"
+      },
+      {
+        "path": "learning-controller.js",
+        "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+        "source": "product-2028-draft/learning-controller.cjs"
+      },
+      {
+        "path": "pilot-ui.js",
+        "sha256": "f5c3a218f723aa2b29116c6078ec1c6fa260b035637aeee248b119383b75f11e",
+        "source": "product-2028-draft/pilot-ui.js"
+      },
+      {
+        "path": "representative-courses.json",
+        "sha256": "1426b9b786fe617b0f964e636032bae824003e0911e28f0bc9cb1a58848e1879",
+        "source": "unchanged combined47 loader"
+      },
+      {
+        "path": "sw.js",
+        "sha256": "d4b0e32df5490fc3facd433eae53b6f65c774e1ec8bac4f8659e17140066810c",
+        "source": "product-2028-draft/sw.js"
+      }
+    ]
+  },
+  "browser": {
+    "stats": {
+      "startTime": "2026-10-27T03:06:33.228Z",
+      "duration": 503154.101,
+      "expected": 54,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "rows": [
+      {
+        "project": "chromium",
+        "title": "isolated47-course menu,523-question ownership and release boundary",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "en-foundation-svo UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "pol-practice-verification UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "353-variable-types UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "en-vocabulary-retrieval-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "en-reading-evidence-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "en-present-perfect-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "pol-base-superstructure-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "pol-people-individual-history UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "pol-modern-history-entry UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "353-ratio-rate-prevalence UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "353-normal-distribution-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "353-sampling-distribution-se UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "three subjects retain separate unsubmitted drafts across logout and page close",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "save failure journal survives close and retries without silent answer loss",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "offline cached47-course shell saves answers and reconnects",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "download and restore backup clone actual answer records independently",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "independent same-named local profiles do not share course progress",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "changed answer negative fixture blocks mixed scoring and retains prior data",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "isolated PWA update preserves profile and submitted recall",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "new353 numeric input rejects nonnumeric without saving; visible units and exact numeric answer preserved",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "submitted answer transaction failure retries once with original input and no duplicate record",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "new candidate profile starts at zero and persists edition without requiring legacy import",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "synthetic legacy namespaces and journal remain untouched when new candidate learns",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "mobile subject navigation filters47 courses without changing progress or overflowing viewport",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "foreign backup rejected without writes; own new-edition backup restores independently",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "isolated47-course menu,523-question ownership and release boundary",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "en-foundation-svo UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "pol-practice-verification UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "353-variable-types UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "en-vocabulary-retrieval-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "en-reading-evidence-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "en-present-perfect-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "pol-base-superstructure-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "pol-people-individual-history UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "pol-modern-history-entry UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "353-ratio-rate-prevalence UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "353-normal-distribution-foundation UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "353-sampling-distribution-se UI full initial and delayed learning loop",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "three subjects retain separate unsubmitted drafts across logout and page close",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "save failure journal survives close and retries without silent answer loss",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "offline cached47-course shell saves answers and reconnects",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "download and restore backup clone actual answer records independently",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "independent same-named local profiles do not share course progress",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "changed answer negative fixture blocks mixed scoring and retains prior data",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "isolated PWA update preserves profile and submitted recall",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "new353 numeric input rejects nonnumeric without saving; visible units and exact numeric answer preserved",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "submitted answer transaction failure retries once with original input and no duplicate record",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "new candidate profile starts at zero and persists edition without requiring legacy import",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "synthetic legacy namespaces and journal remain untouched when new candidate learns",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "mobile subject navigation filters47 courses without changing progress or overflowing viewport",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "foreign backup rejected without writes; own new-edition backup restores independently",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "chromium",
+        "title": "old38 actual answer and unfinished draft reopen in47 without rewriting original data",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "project": "webkit-mobile",
+        "title": "old38 actual answer and unfinished draft reopen in47 without rewriting original data",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "chromium",
+        "total": 27,
+        "passed": 27
+      },
+      {
+        "name": "webkit-mobile",
+        "total": 27,
+        "passed": 27
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "id": 12706802041,
+      "name": "mobile-c1-static-fa23351964d6c903aad9755c7668b77c2c5c18e1",
+      "size_in_bytes": 192513,
+      "url": "https://api.github.com/repos/wangxueqing0427-oss/qinghua-medphysics-2027/actions/artifacts/12706802041",
+      "archive_download_url": "https://api.github.com/repos/wangxueqing0427-oss/qinghua-medphysics-2027/actions/artifacts/12706802041/zip",
+      "expired": false,
+      "created_at": "2026-10-27T03:14:58Z",
+      "expires_at": "2026-11-03T03:14:56Z",
+      "updated_at": "2026-10-27T03:14:58Z",
+      "digest": "sha256:e10c299a844e86e3e8819e77f4e8af1c99f4bf146069f9b6a8b878a0abcdcf0f",
+      "workflow_run": {
+        "id": 40442219522,
+        "repository_id": 1360056555,
+        "head_repository_id": 1360056555,
+        "head_branch": "courses/2026-10-24-three-subject-foundations",
+        "head_sha": "fa23351964d6c903aad9755c7668b77c2c5c18e1"
+      }
+    }
+  ],
+  "boundaries": {
+    "physicalIPhoneTest": false,
+    "publicDeployment": false,
+    "productionChange": false,
+    "independentProfessionalApproved": 0,
+    "firstFailurePreserved": "first-ci-40440379167.json",
+    "assertionsUnchanged": true
+  }
+}

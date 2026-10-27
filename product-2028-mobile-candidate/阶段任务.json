@@ -3,8 +3,8 @@
   "goal":"新版独立2028系统，从零学习；连续按模块推进，不机械每9课停止",
   "currentPhase":"首个47课独立手机候选工程",
   "tasks":[
-    {"id":"C1-build","priority":"P0","state":"local-complete","doneWhen":"47课523题完整加载；新数据库/日志/缓存/标识；无旧档案自动导入"},
-    {"id":"C1-test","priority":"P0","state":"local8checks-pass-browser-CI-pending","doneWhen":"实际Chromium/WebKit包含零档案、备份归属、三科导航、旧命名空间保护及完整闭环；归档实际SHA与首次失败"},
+    {"id":"C1-build","priority":"P0","state":"local-and-CI-complete-static-artifact-not-deployed","doneWhen":"47课523题完整加载；新数据库/日志/缓存/标识；无旧档案自动导入"},
+    {"id":"C1-test","priority":"P0","state":"local8of8-CI8of8-Chromium27of27-WebKitMobile27of27","testedSha":"fa23351964d6c903aad9755c7668b77c2c5c18e1","run":40442219522,"doneWhen":"实际Chromium/WebKit包含零档案、备份归属、三科导航、旧命名空间保护及完整闭环；归档实际SHA与首次失败"},
     {"id":"content-audit-1","priority":"P0","state":"AI-internal-report-saved-not-revised","doneWhen":"单课12题独立推导、来源边界、rubric问题与第二轮复核交接，原件不变"},
     {"id":"C1-https","priority":"P1","state":"not-deployed","dependency":"通过内部验证后准备独立来源部署方案并取得明确授权；不把同github.io下另一目录当真正独立来源"},
     {"id":"content-completion","priority":"P0","state":"remaining","dependency":"依据149节点及真实先修/考试能力缺口连续建设，不能把部分草稿节点算已完整覆盖"},
