@@ -32,7 +32,8 @@
     "product-2028-svo-c1/.build/sw.js",
     ".github/workflows/svo-first-lesson-ci.yml",
     "product-2028-svo-c1/push-manifest.json",
-    "product-2028-svo-c1/ci-first-failure.json"
+    "product-2028-svo-c1/ci-first-failure.json",
+    "product-2028-svo-c1/ci-first-browser-failure.json"
   ],
   "hashes": [
     {
@@ -89,7 +90,7 @@
     },
     {
       "path": "product-2028-svo-c1/ci-browser.cjs",
-      "sha256": "a1ab487f4943ebf0c643fb7cad81ebbdfe4078a4ee5a9386e19b72d0542f952c"
+      "sha256": "5bc489e4e5b62b6fc789ccdfedbddd154e019a55b777db9f2c07f9f8ca20d15f"
     },
     {
       "path": "product-2028-svo-c1/ci-protection.cjs",
@@ -154,6 +155,10 @@
     {
       "path": "product-2028-svo-c1/ci-first-failure.json",
       "sha256": "bfb9b16954910eebaa7db636edf778265f3f80293747a5c847ece1f4db50986d"
+    },
+    {
+      "path": "product-2028-svo-c1/ci-first-browser-failure.json",
+      "sha256": "afcc6d5669381f0637cae876793001bb8dc17384629b9a212db5dae371066a3c"
     }
   ],
   "excluded": [

@@ -1,0 +1,5 @@
+{
+  "artifactId": 12807370368,
+  "artifactSha256": "b0b8058e432b0965ae42165632bb924ac6e40ed58e651c06410e05c0ecbb96ef",
+  "fix": "Wait for visible task page #wrong after create before reading profile. Original zero-events and persistence assertions retained; no product or answer change."
+}
