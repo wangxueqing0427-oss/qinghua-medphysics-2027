@@ -1,0 +1,275 @@
+{
+  "upstream": "81cce666088c2877f64ed68b42befb4f1e139262",
+  "browserTestedC1": "fa23351964d6c903aad9755c7668b77c2c5c18e1",
+  "id": "en-foundation-svo",
+  "version": "0.2-svo1",
+  "contentHash": "38ebb61e28277f69a330547b68748cc84a5a2400c124acdc0a6559342fbe1888",
+  "originalHash": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003",
+  "questionIds": [
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-3",
+    "en-svo-delay-1",
+    "en-svo-delay-2"
+  ],
+  "original47Hashes": [
+    {
+      "id": "en-foundation-svo",
+      "hash": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003"
+    },
+    {
+      "id": "353-incidence-risk",
+      "hash": "40e5842b0a18d56b664398cc9cfbe4736d5d955ee5f5435627e100b0206f7a47"
+    },
+    {
+      "id": "pol-practice-verification",
+      "hash": "e155584e08d332230e573e378f3a938ed9eb1e8107acd7b152faf5fb03d55be0"
+    },
+    {
+      "id": "en-present-negative",
+      "hash": "e0bba9771a551fcf25ac9a9aac29935fa9e69b2e60706497388e3f221b330f54"
+    },
+    {
+      "id": "pol-common-particular",
+      "hash": "c7e260a16371de191ccc0d31a08b08f99aace1993ef5f67221e647c32ffe0d26"
+    },
+    {
+      "id": "353-person-time",
+      "hash": "6439be0b62e44aad288dc890b7324531ed0a1996ae8ae72f0430956d61b344f9"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "hash": "26ec2a545c7f523db731c4854e19a2205dc31646379ee028ee8abdc2c47c048c"
+    },
+    {
+      "id": "353-variable-types",
+      "hash": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960"
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "hash": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd"
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "hash": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218"
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "hash": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b"
+    },
+    {
+      "id": "pol-connections-foundation",
+      "hash": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f"
+    },
+    {
+      "id": "353-frequency-denominator",
+      "hash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5"
+    },
+    {
+      "id": "353-quantity-measurement",
+      "hash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76"
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "hash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c"
+    },
+    {
+      "id": "353-energy-power",
+      "hash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05"
+    },
+    {
+      "id": "353-waves-interactions",
+      "hash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230"
+    },
+    {
+      "id": "en-present-questions",
+      "hash": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce"
+    },
+    {
+      "id": "pol-quantity-quality",
+      "hash": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b"
+    },
+    {
+      "id": "353-public-health-prevention",
+      "hash": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5"
+    },
+    {
+      "id": "en-nouns-countability",
+      "hash": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745"
+    },
+    {
+      "id": "en-pronoun-reference",
+      "hash": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9"
+    },
+    {
+      "id": "en-articles-foundation",
+      "hash": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491"
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "hash": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24"
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "hash": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008"
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "hash": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19"
+    },
+    {
+      "id": "353-mean-median",
+      "hash": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e"
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "hash": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af"
+    },
+    {
+      "id": "353-study-design-foundation",
+      "hash": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c"
+    },
+    {
+      "id": "en-present-continuous-foundation",
+      "hash": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08"
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "hash": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747"
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "hash": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc"
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "hash": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec"
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "hash": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244"
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "hash": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca"
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "hash": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69"
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "hash": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e"
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "hash": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9"
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation",
+      "hash": "48c2166eec19f7a027184dbb3b22d7e975af4ee2d6632a8ef1897539e38e5dba"
+    },
+    {
+      "id": "en-reading-evidence-foundation",
+      "hash": "6a2378a75f315ad9b1eb3d29cbbcaaec278d8cc80112a79fdbc030d37ec59a8d"
+    },
+    {
+      "id": "en-present-perfect-foundation",
+      "hash": "be35a11911fb478a6fe5d8ccea494f38f3d8afba258292f4ccccfecb06460e8b"
+    },
+    {
+      "id": "pol-base-superstructure-foundation",
+      "hash": "36225cf43d99fa29b5309d58a9c4a579baf788c428bbbb9e7af65368eda316eb"
+    },
+    {
+      "id": "pol-people-individual-history",
+      "hash": "e2856cd1e1a947c2d340bf76b118cac269c01b6bb300839a9fcdeed83ee9a1dd"
+    },
+    {
+      "id": "pol-modern-history-entry",
+      "hash": "bc6535af1b01f3d4e29c2a3e2d072690e9b62edb311e91007ee8e1177be4fd14"
+    },
+    {
+      "id": "353-ratio-rate-prevalence",
+      "hash": "69dc93148be5506318214c3af37a2ea1cffe37ca6dbafbc5f0c65f6fbdc0fa99"
+    },
+    {
+      "id": "353-normal-distribution-foundation",
+      "hash": "d3f47bff1fc386e65c99a9e48d80bda47c31718f45a9746be951bb5f6803e685"
+    },
+    {
+      "id": "353-sampling-distribution-se",
+      "hash": "8e8f7be8d91a4a933333f0b7752e7c2d0c4625e1314918be26ea82074c07ead6"
+    }
+  ],
+  "protected": [
+    {
+      "path": "product-2028-draft/representative-courses.json",
+      "sha256": "7679091429582f2826121419393c9e36bc98985f02c8fff837c07780927205c0"
+    },
+    {
+      "path": "product-2028-draft/course-engine.cjs",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043"
+    },
+    {
+      "path": "product-2028-draft/learning-controller.cjs",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b"
+    },
+    {
+      "path": "product-2028-draft/profile-repository.cjs",
+      "sha256": "42ddfab4760cdff140505ad2f52cd699b2944ac68cbdb07a0db64208154e6c4e"
+    },
+    {
+      "path": "product-2028-draft/pilot-ui.js",
+      "sha256": "4aafb1aaf4063f7680fac7fa530797cfa38bb6fb39299e2d0c8591eb3c9da332"
+    },
+    {
+      "path": "product-2028-mobile-candidate/build.cjs",
+      "sha256": "606cc6260a4d451fc876affd6790fc3b05ef8d7d208d6023acb2395f612253ce"
+    },
+    {
+      "path": "product-2028-mobile-candidate/build-manifest.json",
+      "sha256": "9ede14c24f753cdab792f230d8c37ac7667dc7be48a36eae12344462490f1d48"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/index.html",
+      "sha256": "f399293c4ab0927029250c533f14ca7b74b2534b902e4997062958f60e413362"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/manifest.json",
+      "sha256": "a79959f35f120e0d75fa415f4725f8df49cca6fa00d49151c812339d1eba28de"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/pilot-ui.js",
+      "sha256": "f5c3a218f723aa2b29116c6078ec1c6fa260b035637aeee248b119383b75f11e"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/profile-repository.js",
+      "sha256": "84c587840bb62d4451f402268032c1d3ca1fc4f8282c3da7a8034794f9d632a0"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/representative-courses.json",
+      "sha256": "1426b9b786fe617b0f964e636032bae824003e0911e28f0bc9cb1a58848e1879"
+    },
+    {
+      "path": "product-2028-mobile-candidate/.build/sw.js",
+      "sha256": "d4b0e32df5490fc3facd433eae53b6f65c774e1ec8bac4f8659e17140066810c"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "svo-first-lesson-1",
+  "units": [
+    {
+      "version": "0.2-svo1",
+      "reviewStatus": "internally-reviewed-for-pilot",
+      "distribution": "held-pending-review",
+      "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+      "writtenAt": "2026-10-10",
+      "applicableYear": 2028,
+      "id": "en-foundation-svo",
+      "subject": "en",
+      "title": "先找句子骨架：谁做了什么",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/clause-structure-verb-patterns",
+        "https://style.mla.org/subject/",
+        "https://style.mla.org/predicate/",
+        "https://style.mla.org/objects/",
+        "https://style.mla.org/modifiers/",
+        "https://courses.dcs.wisc.edu/wp/grammar/objects/"
+      ],
+      "explanation": "先学三个名字：主语S、谓语动词V、直接宾语O。本课只看简单主动陈述句。Children water the flowers. 中，Children是孩子们，是做动作的主语；water在这里是动词“浇水”，不是名词“水”；the flowers是被浇的花，是water的直接宾语。先找动作，再问谁做、动作指向什么，得到Children—water—the flowers。\n加上修饰信息：The children in the garden water the flowers every morning. 可以先提取中心词主干children—water—the flowers。完整主语可以是The children in the garden，不能把children这个中心词当作永远唯一的完整主语。这里先将in the garden理解为修饰children，说明哪些孩子；every morning说明浇花的时间。补充信息不替代water这个动作。\n谓语动词与完整谓语不同：本句谓语动词是water；完整谓语还可以包括the flowers和every morning。我们当前只找谓语动词，不要求背完整谓语术语。\n不是每句都有直接宾语。Birds fly. 中，Birds是鸟，fly是飞，句子已经完整，没有动作直接指向的宾语。Birds fly over the lake. 中over意为“在……上方”，over the lake补充飞行的地点；lake属于介词over后面的部分，不是fly的直接宾语。People read books in the library. 表示人们在图书馆读书，动作是read，books是直接宾语，in the library是地点补充。",
+      "definition": "在本课简单主动动作句中，S是主语，V是谓语动词，O是直接宾语。主语可为含修饰信息的一组词；中心词主干是帮助理解的简化。直接宾语在本课例句中说明动作直接指向的人或物。",
+      "conditions": "只训练简单主动陈述动作句；“谁做什么”是本课入门方法，不适用于所有主语或所有英语句型。被动、系表、祈使及复杂句以后学习。SV也可构成完整句，不能强行加宾语；同一个词在不同句中可以有不同用法。",
+      "example": "Children water the flowers. → water：浇；Children：孩子们；the flowers：花。Birds fly. → Birds—fly，无直接宾语。先口头解释，再遮住讲解独立提取主干。",
+      "misconceptions": [
+        "把water一律当名词“水”。",
+        "把中心词children误当含修饰语句子的完整主语。",
+        "混淆谓语动词water与含其他成分的完整谓语。",
+        "见到句尾名词lake就认作fly的直接宾语；忽略介词over。",
+        "认为每句话必须有S、V、O三部分。"
+      ],
+      "recall": [
+        "隐藏讲解：按顺序说出动作句主干的三个部分。",
+        "回忆Birds fly.是否有直接宾语，说明原因。"
+      ],
+      "basicQuestions": [
+        {
+          "id": "en-svo-1",
+          "type": "single",
+          "stem": "Children water the flowers. 的动作词是？",
+          "options": [
+            "Children",
+            "water",
+            "flowers"
+          ],
+          "answer": 1,
+          "explanation": "water在此表示浇水，承担动作谓语。"
+        },
+        {
+          "id": "en-svo-2",
+          "type": "single",
+          "stem": "Birds fly. 中的直接宾语是？",
+          "options": [
+            "Birds",
+            "fly",
+            "没有直接宾语"
+          ],
+          "answer": 2,
+          "explanation": "Birds是主体，fly是不带宾语的动作。"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "en-svo-3",
+          "type": "subjective",
+          "stem": "The children in the garden water the flowers every morning. 写出主干并解释两个补充信息。",
+          "answer": "中心词主干children—water—the flowers；完整主语可写The children in the garden。in the garden表示花园里的孩子（也可合理解释为浇花地点，仍不能取代主干）；every morning说明动作时间。",
+          "explanation": "题目要求提取主干并解释两处补充信息，不要求翻译全部词语或分析未教的复杂句。children为中心词，带修饰信息的完整主语也是合理答案。两种地点理解均不改变water和the flowers的功能。",
+          "rubric": [
+            "指出children为主语中心词；写The children in the garden作为完整主语也可，不因合理长短形式扣分。",
+            "辨认谓语动词water（浇水），不把它当名词。",
+            "辨认直接宾语the flowers；冠词大小写不影响此处功能判断。",
+            "解释in the garden的地点/修饰信息及every morning的时间信息；不要求额外语法术语或逐词翻译。"
+          ]
+        }
+      ],
+      "rubric": [
+        "能在新例句中找对主干",
+        "不强行给不及物动词配宾语"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换成People read books in the library. 独立找主干，不背原句答案。"
+      },
+      "delayedQuestions": [
+        {
+          "id": "en-svo-delay-1",
+          "type": "single",
+          "stem": "People read books in the library. 主干中的动作是？",
+          "options": [
+            "People",
+            "read",
+            "library"
+          ],
+          "answer": 1,
+          "explanation": "read表达动作；People是主体，books是宾语。"
+        },
+        {
+          "id": "en-svo-delay-2",
+          "type": "multi",
+          "stem": "Birds fly over the lake. 哪些判断正确？",
+          "options": [
+            "Birds是主语",
+            "fly是动作动词",
+            "lake是fly的直接宾语"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "over the lake补充地点，lake是介词over的宾语，不是fly的直接宾语。"
+        }
+      ],
+      "reviewRecord": {
+        "date": "2026-10-28",
+        "reviewer": "Codex AI内部逐题复核",
+        "scope": "仅SVO首课；权威公开正文对照、独立解题与评分任务对齐，非真人专业审定",
+        "internalCheck": "passed-for-isolated-first-lesson",
+        "expertApproved": false,
+        "publicRelease": false,
+        "priorContentHash": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003",
+        "limitations": [
+          "非完整英语课程或2028最终考试要求",
+          "主观题参考核对，不自动专业打分"
+        ]
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "teaching-supplement-exam-spec-pending",
+      "learningObjectives": [
+        {
+          "id": "en-foundation-svo-goal-1",
+          "description": "在简单动作句中区分主语、动作和宾语，并识别不及物句没有直接宾语",
+          "successCriteria": "找对water/read及主体对象；说明Birds fly没有直接宾语，不把介词宾语当直接宾语",
+          "questionIds": [
+            "en-svo-1",
+            "en-svo-2",
+            "en-svo-delay-1",
+            "en-svo-delay-2"
+          ],
+          "recallIndexes": [
+            0,
+            1
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-foundation-svo-goal-2",
+          "description": "从带地点和时间的句子提取主干并解释补充信息",
+          "successCriteria": "独立写出children—water—the flowers或含完整主语的合理主干，解释in the garden的地点/修饰意义、every morning的时间意义；不把主语中心词与完整主语等同。",
+          "questionIds": [
+            "en-svo-3"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "contentRevision": "2026-10-28-svo-first-lesson",
+      "reviewRevalidation": {
+        "status": "internally-rechecked-expert-pending",
+        "previousContentSha256": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003",
+        "previousVersion": "0.1",
+        "gradingContractChanged": true
+      }
+    }
+  ]
+}

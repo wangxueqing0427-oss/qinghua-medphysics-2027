@@ -1,0 +1,35 @@
+{
+  "scope": "Actual installed Edge (Chromium) with iPhone viewport; NOT WebKit or physical iPhone",
+  "passed": 7,
+  "failed": 0,
+  "results": [
+    {
+      "name": "start actual installed Edge Chromium mobile viewport",
+      "pass": true
+    },
+    {
+      "name": "one lesson teaching and actual closed recall survive page close",
+      "pass": true
+    },
+    {
+      "name": "objective wrong answer displays full explanation and saved cause",
+      "pass": true
+    },
+    {
+      "name": "subjective exact original text with whitespace; reference and self-check only",
+      "pass": true
+    },
+    {
+      "name": "wrong book and due review via synthetic clock, original error retained",
+      "pass": true
+    },
+    {
+      "name": "real browser JSON export and independent restore preserve all records",
+      "pass": true
+    },
+    {
+      "name": "cached offline reload retains profile and course progress",
+      "pass": true
+    }
+  ]
+}

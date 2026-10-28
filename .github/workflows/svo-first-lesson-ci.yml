@@ -1,0 +1,58 @@
+name: SVO first lesson targeted browsers
+on:
+  push:
+    branches: [candidate/2026-10-28-svo-first-lesson]
+    paths:
+      - product-2028-svo-c1/.build/**
+      - product-2028-svo-c1/ci-*.cjs
+      - product-2028-svo-c1/push-manifest.json
+      - .github/workflows/svo-first-lesson-ci.yml
+permissions:
+  contents: read
+concurrency:
+  group: svo-first-lesson-targeted
+  cancel-in-progress: false
+jobs:
+  targeted:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing pinned Playwright dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Frozen source and build protection, scoring boundaries
+        run: node product-2028-svo-c1/ci-protection.cjs
+      - name: Chromium and mobile WebKit actual single-lesson UI
+        run: |
+          node product-2028-svo-c1/server.cjs &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          node -e "const http=require('http');let n=0;function probe(){http.get('http://127.0.0.1:5311/',r=>{if(r.statusCode!==200)process.exit(1);r.resume();}).on('error',()=>{if(++n>=30)process.exit(1);setTimeout(probe,200);});}probe();"
+          export SVO_PLAYWRIGHT="$GITHUB_WORKSPACE/product-2028-ci/node_modules/playwright"
+          status=0
+          SVO_BROWSER=chromium node product-2028-svo-c1/ci-browser.cjs || status=1
+          SVO_BROWSER=webkit node product-2028-svo-c1/ci-browser.cjs || status=1
+          exit "$status"
+      - name: Preserve exact tested SHA and all actual results
+        if: always()
+        run: node product-2028-svo-c1/ci-summary.cjs
+      - name: Save synthetic CI evidence without deploying
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: svo-targeted-${{ github.sha }}-${{ github.run_attempt }}
+          path: product-2028-svo-c1/ci-output/
+          retention-days: 7

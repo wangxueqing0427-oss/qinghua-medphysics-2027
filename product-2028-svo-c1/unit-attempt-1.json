@@ -1,0 +1,43 @@
+{
+  "scope": "Actual candidate engine/controller/repository, fake IndexedDB; not browser or iPhone",
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "frozen single course / original five IDs / objective goal mapping",
+      "pass": true
+    },
+    {
+      "name": "independent objective answer fixtures and wrong-answer boundaries",
+      "pass": true
+    },
+    {
+      "name": "new profile genuinely zero; teaching to closed recall draft restart",
+      "pass": true
+    },
+    {
+      "name": "save failure retains real answer then retries once; duplicate submit blocked",
+      "pass": true
+    },
+    {
+      "name": "wrong cause persists, next objective graded, actual subjective whitespace preserved",
+      "pass": true
+    },
+    {
+      "name": "due schedule blocks early test; opens delayed new questions with history retained",
+      "pass": true
+    },
+    {
+      "name": "reopen and backup restore preserve complete sessions answers snapshots and wrong causes",
+      "pass": true
+    },
+    {
+      "name": "same course ID changed version cannot overwrite existing answer history",
+      "pass": true
+    },
+    {
+      "name": "candidate assets frozen, one-course-only, original C1 and other46 preserved",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "candidate": "MOBILE-C1-SVO",
+  "upstream": "81cce666088c2877f64ed68b42befb4f1e139262",
+  "testedOriginalC1": "fa23351964d6c903aad9755c7668b77c2c5c18e1",
+  "localOnly": true,
+  "deployed": false,
+  "courses": 1,
+  "questions": 5,
+  "courseId": "en-foundation-svo",
+  "version": "0.2-svo1",
+  "contentHash": "38ebb61e28277f69a330547b68748cc84a5a2400c124acdc0a6559342fbe1888",
+  "edition": "qh2028-svo-first-lesson-v1",
+  "database": "qh2028_svo_first_lesson_v1",
+  "expertApproved": false,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "fbbebc55e0ff324a6be5585360d4017f028ec89a2863bb81be69d3330e88a408"
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "3d855145c0d83cfd25fc67fa375a13bafe3ada05427dd63e965ac5d8d831bdeb"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "10e4df863f635e068d1e11e9b25dd20d644a1d1ef43b0ccdf756a928c8bc0b90"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "5c8ddda18c86b30934e4f60adf75e395498f569f21308a11964db5d46476b2a7"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "c3654af7478f13892b0412c88032c5051e77c8e5b4f906e3726d29bcda6cd280"
+    }
+  ]
+}

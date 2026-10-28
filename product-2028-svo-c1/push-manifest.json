@@ -1,0 +1,161 @@
+{
+  "baseline": "81cce666088c2877f64ed68b42befb4f1e139262",
+  "branch": "candidate/2026-10-28-svo-first-lesson",
+  "files": [
+    "product-2028-svo-c1/course.json",
+    "product-2028-svo-c1/original-course.json",
+    "product-2028-svo-c1/freeze.json",
+    "product-2028-svo-c1/sources-and-audit.json",
+    "product-2028-svo-c1/build-manifest.json",
+    "product-2028-svo-c1/source-provenance.json",
+    "product-2028-svo-c1/delivery-receipt.json",
+    "product-2028-svo-c1/unit-attempt-1.json",
+    "product-2028-svo-c1/browser-attempt-1.json",
+    "product-2028-svo-c1/browser.cjs",
+    "product-2028-svo-c1/test.cjs",
+    "product-2028-svo-c1/build.cjs",
+    "product-2028-svo-c1/server.cjs",
+    "product-2028-svo-c1/ci-browser.cjs",
+    "product-2028-svo-c1/ci-protection.cjs",
+    "product-2028-svo-c1/ci-summary.cjs",
+    "product-2028-svo-c1/交付与授权清单.md",
+    "product-2028-svo-c1/定向CI说明.md",
+    "product-2028-svo-c1/.build/index.html",
+    "product-2028-svo-c1/.build/app.css",
+    "product-2028-svo-c1/.build/icon.svg",
+    "product-2028-svo-c1/.build/manifest.json",
+    "product-2028-svo-c1/.build/course-engine.js",
+    "product-2028-svo-c1/.build/profile-repository.js",
+    "product-2028-svo-c1/.build/learning-controller.js",
+    "product-2028-svo-c1/.build/pilot-ui.js",
+    "product-2028-svo-c1/.build/representative-courses.json",
+    "product-2028-svo-c1/.build/sw.js",
+    ".github/workflows/svo-first-lesson-ci.yml",
+    "product-2028-svo-c1/push-manifest.json"
+  ],
+  "hashes": [
+    {
+      "path": "product-2028-svo-c1/course.json",
+      "sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af"
+    },
+    {
+      "path": "product-2028-svo-c1/original-course.json",
+      "sha256": "d9fe5acb8784cd4b7e20f13e95cd722e5fe23aa11b585f0054d399cfb8954e26"
+    },
+    {
+      "path": "product-2028-svo-c1/freeze.json",
+      "sha256": "32a9d0483e9952b4986b137ffe0513f0bef0181068bf42b81a176b8af64908e6"
+    },
+    {
+      "path": "product-2028-svo-c1/sources-and-audit.json",
+      "sha256": "c0b8905c8f0c61f3b97e5f71469ef2b0475a504b85a829dde69465c33e21d7a4"
+    },
+    {
+      "path": "product-2028-svo-c1/build-manifest.json",
+      "sha256": "84f934f2fd648ea83ab365e093dd3a93c73d109fa14d620b417ea6d28a13292e"
+    },
+    {
+      "path": "product-2028-svo-c1/source-provenance.json",
+      "sha256": "db0753ece23cff2a3ef9ddb86a472a6107be31dbedeef85fb4a8907496913dec"
+    },
+    {
+      "path": "product-2028-svo-c1/delivery-receipt.json",
+      "sha256": "3465f6ac7ac90cfe936c32719cb3dd83bd0e719fff5eff6dab5dc6f26f19b474"
+    },
+    {
+      "path": "product-2028-svo-c1/unit-attempt-1.json",
+      "sha256": "53ec1559f3d06a8fb8a244db45a3c53978405d955b05d3fd41df62fd97bb23b7"
+    },
+    {
+      "path": "product-2028-svo-c1/browser-attempt-1.json",
+      "sha256": "27379a40cdb380da2113912c6f7a3b8a06f966a73bb04074a1c78889374cc2b1"
+    },
+    {
+      "path": "product-2028-svo-c1/browser.cjs",
+      "sha256": "7bb42414f745c3ffe4597b2adcbb311b12b929a7c038655c6ca15c63485b05d6"
+    },
+    {
+      "path": "product-2028-svo-c1/test.cjs",
+      "sha256": "f56e51804a3d68822fc6333d47f0c043a988cf6d6c03ec532fcf61c7e8b03425"
+    },
+    {
+      "path": "product-2028-svo-c1/build.cjs",
+      "sha256": "78582bfe7667007b9667f50976c402e0008937b11f43c54840cf50d9411dad6e"
+    },
+    {
+      "path": "product-2028-svo-c1/server.cjs",
+      "sha256": "15c7b427f4078b842225e129ff7c1c542933463b58cc7299466b38a443543cc1"
+    },
+    {
+      "path": "product-2028-svo-c1/ci-browser.cjs",
+      "sha256": "a1ab487f4943ebf0c643fb7cad81ebbdfe4078a4ee5a9386e19b72d0542f952c"
+    },
+    {
+      "path": "product-2028-svo-c1/ci-protection.cjs",
+      "sha256": "79684ecff4c648b710608ccf7dc36719ac348e6fb891e43e2758f416f4550c58"
+    },
+    {
+      "path": "product-2028-svo-c1/ci-summary.cjs",
+      "sha256": "59ce1955e539ff2384764a4912c7a16e248d0b96cc0afeb5d54ee0442ae81bca"
+    },
+    {
+      "path": "product-2028-svo-c1/交付与授权清单.md",
+      "sha256": "b86db5e9a905e547da5de455dc4ea7a368e7c5defb7024c79f081d752fa62bcc"
+    },
+    {
+      "path": "product-2028-svo-c1/定向CI说明.md",
+      "sha256": "ab70af09ac3f452d586ac699fb19a6469eed7e8dea9730bd01a26e9574008b5b"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/index.html",
+      "sha256": "fbbebc55e0ff324a6be5585360d4017f028ec89a2863bb81be69d3330e88a408"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/manifest.json",
+      "sha256": "3d855145c0d83cfd25fc67fa375a13bafe3ada05427dd63e965ac5d8d831bdeb"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/profile-repository.js",
+      "sha256": "10e4df863f635e068d1e11e9b25dd20d644a1d1ef43b0ccdf756a928c8bc0b90"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/pilot-ui.js",
+      "sha256": "5c8ddda18c86b30934e4f60adf75e395498f569f21308a11964db5d46476b2a7"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/representative-courses.json",
+      "sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af"
+    },
+    {
+      "path": "product-2028-svo-c1/.build/sw.js",
+      "sha256": "c3654af7478f13892b0412c88032c5051e77c8e5b4f906e3726d29bcda6cd280"
+    },
+    {
+      "path": ".github/workflows/svo-first-lesson-ci.yml",
+      "sha256": "1112790277608692f55b4387ff1f1b04eccf94e59210b551459e8a97034488ae"
+    }
+  ],
+  "excluded": [
+    "browser-trace.zip",
+    "synthetic-browser-backup.json",
+    "prepare.cjs",
+    "all private data"
+  ],
+  "expertApprovals": 0
+}

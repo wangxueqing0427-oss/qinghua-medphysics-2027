@@ -1,0 +1,34 @@
+{
+  "date":"2026-10-28",
+  "reviewKind":"Codex AI内部内容核查，非独立专家审定",
+  "expertApprovals":0,
+  "sources":[
+    {"id":"BC","institution":"British Council","title":"Clause structure and verb patterns","url":"https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/clause-structure-verb-patterns","read":"正文Clause structure及Transitive and intransitive verbs，网页行7–85；非评论区","publicationDate":"页面未显示，未推断","supports":"简单陈述句主语与动词短语，SV及SVO；动词用法决定是否有宾语","limits":"页面入门概括不能推广为所有句型中第一个名词就是主语；本课不教授该通则"},
+    {"id":"MLA-S","institution":"Modern Language Association","title":"Subject","url":"https://style.mla.org/subject/","publicationDate":"2020-07-22","read":"正文行3–30","supports":"主语不恒为施事、不恒居句首或等同句子主题；本课主动动作句须限域"},
+    {"id":"MLA-P","institution":"Modern Language Association","title":"Predicate","url":"https://style.mla.org/predicate/","publicationDate":"2020-07-22","read":"正文行3–19","supports":"完整谓语可以含动词和其他成分，不应与单个谓语动词混同"},
+    {"id":"MLA-O","institution":"Modern Language Association","title":"Objects","url":"https://style.mla.org/objects/","publicationDate":"2020-07-22","read":"正文行3–17","supports":"直接宾语与动词动作关系；不强求每句存在直接宾语"},
+    {"id":"MLA-M","institution":"Modern Language Association","title":"Modifiers","url":"https://style.mla.org/modifiers/","publicationDate":"2020-07-22","read":"正文行3–25","supports":"修饰语可以修饰主语或谓语；名词后的介词短语不总是动作地点"},
+    {"id":"WISC","institution":"University of Wisconsin–Madison Continuing Studies","title":"English Grammar for Second Language Learners: Objects","url":"https://courses.dcs.wisc.edu/wp/grammar/objects/","publicationDate":"2019-06-26最后修订","read":"网页行15–20及32–33","supports":"直接宾语与介词后宾语的区别","limits":"该页间接宾语相关简化/术语不纳入本课依据"}
+  ],
+  "failures":[
+    {"url":"https://dictionary.cambridge.org/grammar/british-grammar/subjects","result":"403 Forbidden"},
+    {"url":"https://dictionary.cambridge.org/grammar/british-grammar/direct-objects","result":"403 Forbidden，不能标记本轮已读"},
+    {"url":"https://dictionary.cambridge.org/grammar/british-grammar/adjuncts","result":"403 Forbidden"},
+    {"url":"https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/clause-structure","result":"旧路径不可读；搜索定位到新正文路径，未循环重试"},
+    {"url":"https://www.ucl.ac.uk/internet-grammar/function/subject.htm","result":"不可访问"},
+    {"url":"https://www.ucl.ac.uk/internet-grammar/function/object.htm","result":"不可访问"}
+  ],
+  "questions":[
+    {"id":"en-svo-1","independentAnswer":"water","reason":"Children实施浇花动作；flowers为动作指向，不是动作词","originalIndex":1,"status":"内部确认","sourceIds":["BC","MLA-O"]},
+    {"id":"en-svo-2","independentAnswer":"没有直接宾语","reason":"Birds为主语，fly在该句不带直接宾语；不能把主语算宾语","originalIndex":2,"status":"内部确认","sourceIds":["BC"]},
+    {"id":"en-svo-3","independentAnswer":"children—water—the flowers；in the garden是地点/修饰信息，every morning是时间","status":"澄清完整主语/中心词及合理修饰解释；不要求翻译或复杂术语","sourceIds":["MLA-S","MLA-P","MLA-M"],"scoring":"只按参考要点自行核对，无自动分数；接受The children in the garden完整主语，不要求排他句法分析"},
+    {"id":"en-svo-delay-1","independentAnswer":"read","originalIndex":1,"reason":"People为主体，read为动作，books为直接宾语；in the library为地点补充","status":"内部确认","sourceIds":["BC","MLA-O"]},
+    {"id":"en-svo-delay-2","independentAnswer":["Birds是主语","fly是动作动词"],"originalIndices":[0,1],"reason":"lake位于over介词短语中，不是fly直接宾语；选第三项属错误","status":"内部确认","sourceIds":["BC","WISC"]}
+  ],
+  "goals":[
+    {"goal":"en-foundation-svo-goal-1","teaching":"S/V/O、SV边界、介词短语例句","recallIndexes":[0,1],"questionIds":["en-svo-1","en-svo-2","en-svo-delay-1","en-svo-delay-2"],"evidence":"2道首次客观题及2道延迟新例句；不是完整英语能力测评"},
+    {"goal":"en-foundation-svo-goal-2","teaching":"含修饰信息主干提取及完整主语澄清","recallIndexes":[0],"questionIds":["en-svo-3"],"evidence":"用户实际文字及要点核对；本目标缺少独立延迟主观题，不宣称已延迟验证全部目标"}
+  ],
+  "internalConclusion":"首课限域教学和5题核查通过；允许作为待真机验收的本地试运行候选，非专业审定或正式发布许可",
+  "pending":["同一句介词短语可能有不同附着解释，采用容许合理解释的评分，不把唯一附着作为考点","第二个目标尚无新的延迟主观迁移题，本轮不为凑题量扩题","真实iPhone学习效果与长期保留尚未验证","2028正式招生要求未据此确认；此为英语基础教学补充"]
+}

@@ -1,0 +1,49 @@
+{
+  "ref": "81cce666088c2877f64ed68b42befb4f1e139262",
+  "originalBrowserSHA": "fa23351964d6c903aad9755c7668b77c2c5c18e1",
+  "files": [
+    {
+      "path": "product-2028-draft/course-engine.cjs",
+      "remote": "7b268556234066e1e045dd1654837b53860f2f65",
+      "local": "7b268556234066e1e045dd1654837b53860f2f65",
+      "match": true
+    },
+    {
+      "path": "product-2028-draft/learning-controller.cjs",
+      "remote": "ed2909c9e02033bb47bfc98da4b2b29d0b353a3f",
+      "local": "ed2909c9e02033bb47bfc98da4b2b29d0b353a3f",
+      "match": true
+    },
+    {
+      "path": "product-2028-draft/pilot-ui.js",
+      "remote": "42d497dfa063bc3e0e90cd23057b2af704ec4a0f",
+      "local": "42d497dfa063bc3e0e90cd23057b2af704ec4a0f",
+      "match": true
+    },
+    {
+      "path": "product-2028-draft/profile-repository.cjs",
+      "remote": "ac52000b8975b051c232c5345834905f9b190662",
+      "local": "ac52000b8975b051c232c5345834905f9b190662",
+      "match": true
+    },
+    {
+      "path": "product-2028-draft/representative-courses.json",
+      "remote": "aa9789daa835acf9f3e32cbdfdaee425e7fcf88e",
+      "local": "aa9789daa835acf9f3e32cbdfdaee425e7fcf88e",
+      "match": true
+    },
+    {
+      "path": "product-2028-mobile-candidate/build-manifest.json",
+      "remote": "375b0f44c205328853d0e045276f935861cb2b8e",
+      "local": "375b0f44c205328853d0e045276f935861cb2b8e",
+      "match": true
+    },
+    {
+      "path": "product-2028-mobile-candidate/build.cjs",
+      "remote": "0d44e3e298007aa432a1dd4d1cea9ef2b1d2e9bf",
+      "local": "0d44e3e298007aa432a1dd4d1cea9ef2b1d2e9bf",
+      "match": true
+    }
+  ],
+  "localGit": false
+}

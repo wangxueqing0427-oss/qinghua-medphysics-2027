@@ -1,0 +1,169 @@
+{
+  "version": "0.1",
+  "reviewStatus": "internally-reviewed-for-pilot",
+  "distribution": "held-pending-review",
+  "authorship": "本项目原创讲解、例句、案例及训练题；外部来源仅作概念核验，不复制原文",
+  "writtenAt": "2026-10-10",
+  "applicableYear": 2028,
+  "id": "en-foundation-svo",
+  "subject": "en",
+  "title": "先找句子骨架：谁做了什么",
+  "sources": [
+    "https://dictionary.cambridge.org/grammar/british-grammar/direct-objects"
+  ],
+  "explanation": "读长句之前，先从一个动作句开始。Children water the flowers. 可以先问谁在做：Children；做什么动作：water；动作指向什么：the flowers。water在这里是动词“浇水”，不要因为见过名词“水”就把句子读成一串名词。The children in the garden water the flowers every morning. 去掉补充地点和时间的信息，主干仍是children—water—flowers。不是每句话都有宾语，例如Birds fly.只有主语和动词；不要强行找宾语。",
+  "definition": "在本单元的简单陈述动作句中，主语是句子谈论的主体，谓语动词表达动作，直接宾语承受该动作。",
+  "conditions": "范围限定为简单主动动作句。系表结构、被动语态和祈使句后续单独学习；SVO不是所有英语句子的唯一结构。",
+  "example": "Children water the flowers. 孩子们给花浇水。搭配：water the flowers；in the garden修饰语不是主干动作。",
+  "misconceptions": [
+    "把所有water都译为名词水。",
+    "把时间地点当宾语。",
+    "认为所有句子都有宾语。"
+  ],
+  "recall": [
+    "隐藏讲解：按顺序说出动作句主干的三个部分。",
+    "回忆Birds fly.是否有直接宾语，说明原因。"
+  ],
+  "basicQuestions": [
+    {
+      "id": "en-svo-1",
+      "type": "single",
+      "stem": "Children water the flowers. 的动作词是？",
+      "options": [
+        "Children",
+        "water",
+        "flowers"
+      ],
+      "answer": 1,
+      "explanation": "water在此表示浇水，承担动作谓语。"
+    },
+    {
+      "id": "en-svo-2",
+      "type": "single",
+      "stem": "Birds fly. 中的直接宾语是？",
+      "options": [
+        "Birds",
+        "fly",
+        "没有直接宾语"
+      ],
+      "answer": 2,
+      "explanation": "Birds是主体，fly是不带宾语的动作。"
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "en-svo-3",
+      "type": "subjective",
+      "stem": "The children in the garden water the flowers every morning. 写出主干并解释两个补充信息。",
+      "answer": "children—water—the flowers；in the garden补充地点/修饰孩子，every morning补充时间。",
+      "explanation": "先确认动作water，再定位主体和动作对象；地点时间不替代主干。",
+      "rubric": [
+        "主体children",
+        "动作water",
+        "对象the flowers",
+        "说明地点和时间是补充信息"
+      ]
+    }
+  ],
+  "rubric": [
+    "能在新例句中找对主干",
+    "不强行给不及物动词配宾语"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "换成People read books in the library. 独立找主干，不背原句答案。"
+  },
+  "delayedQuestions": [
+    {
+      "id": "en-svo-delay-1",
+      "type": "single",
+      "stem": "People read books in the library. 主干中的动作是？",
+      "options": [
+        "People",
+        "read",
+        "library"
+      ],
+      "answer": 1,
+      "explanation": "read表达动作；People是主体，books是宾语。"
+    },
+    {
+      "id": "en-svo-delay-2",
+      "type": "multi",
+      "stem": "Birds fly over the lake. 哪些判断正确？",
+      "options": [
+        "Birds是主语",
+        "fly是动作动词",
+        "lake是fly的直接宾语"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "over the lake补充地点，lake是介词over的宾语，不是fly的直接宾语。"
+    }
+  ],
+  "reviewRecord": {
+    "date": "2026-10-10",
+    "reviewer": "AI-assisted internal source and answer review",
+    "scope": "仅该原创样板单元的概念、范围、公式/单位、题目答案和解析核查；非独立专家审校、非2028考试全覆盖",
+    "checks": [
+      "十项内容字段存在",
+      "来源与概念一致性",
+      "题目选项与答案逐题核对",
+      "数值风险30/300=10%、12/200=6%",
+      "试卷/政策适用年份不冒称最终",
+      "主观题参考评分，不给确定自动分数"
+    ],
+    "limitations": [
+      "英语政治官方考试要求映射尚待核实",
+      "专业课程需要进一步独立准确性复核",
+      "真实iPhone教学效果未验证"
+    ]
+  },
+  "licenseStatus": "project-original-with-source-links",
+  "syllabusStatus": "teaching-supplement-exam-spec-pending",
+  "learningObjectives": [
+    {
+      "id": "en-foundation-svo-goal-1",
+      "description": "在简单动作句中区分主语、动作和宾语，并识别不及物句没有直接宾语",
+      "successCriteria": "找对water/read及主体对象；说明Birds fly没有直接宾语，不把介词宾语当直接宾语",
+      "questionIds": [
+        "en-svo-1",
+        "en-svo-2",
+        "en-svo-delay-1",
+        "en-svo-delay-2"
+      ],
+      "recallIndexes": [
+        0,
+        1
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "en-foundation-svo-goal-2",
+      "description": "从带地点和时间的句子提取主干并解释补充信息",
+      "successCriteria": "独立写出children—water—the flowers，指出in the garden修饰孩子、every morning表示时间",
+      "questionIds": [
+        "en-svo-3"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "contentRevision": "2026-10-18-objectives-1",
+  "reviewRevalidation": {
+    "status": "pending-independent-review",
+    "reason": "目标证据映射新增，内容哈希已变化；旧审核仅保留历史，不自动沿用",
+    "previousContentSha256": "ff0d40b3acdbde82252b981c056a309d5d4acb5f6be34469546951664c999a66",
+    "previousVersion": "0.1",
+    "gradingContractChanged": false
+  }
+}
