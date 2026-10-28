@@ -1,0 +1,15 @@
+{
+  "runId":40667468137,
+  "url":"https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40667468137",
+  "testedSHA":"3963aff5bd9ca222e53f14ac530a6e03a7a6b891",
+  "jobId":122745494572,
+  "protection":{"passed":6,"failed":1},
+  "browsers":"not run: workflow stopped at failed protection step; do not count as browser pass",
+  "actualError":"git diff --name-status 81cce666088c2877f64ed68b42befb4f1e139262 HEAD: error: Could not access '81cce666088c2877f64ed68b42befb4f1e139262'",
+  "artifactId":12807010670,
+  "artifactSha256":"e99a257e06b39c5fbcae5c452117540efad2ef64dcbb835cbdd4c30892ae4dbe",
+  "fix":"Per-command safe.directory set only to resolved checked-out repository root for child Git calls; retain all baseline and allowlist assertions. Container checkout used temporary HOME safe-directory configuration. Verify repair in next actual CI.",
+  "candidateChanged":false,
+  "assertionsRemoved":false,
+  "expertApprovals":0
+}

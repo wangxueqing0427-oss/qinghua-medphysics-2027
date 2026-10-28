@@ -31,7 +31,8 @@
     "product-2028-svo-c1/.build/representative-courses.json",
     "product-2028-svo-c1/.build/sw.js",
     ".github/workflows/svo-first-lesson-ci.yml",
-    "product-2028-svo-c1/push-manifest.json"
+    "product-2028-svo-c1/push-manifest.json",
+    "product-2028-svo-c1/ci-first-failure.json"
   ],
   "hashes": [
     {
@@ -92,7 +93,7 @@
     },
     {
       "path": "product-2028-svo-c1/ci-protection.cjs",
-      "sha256": "79684ecff4c648b710608ccf7dc36719ac348e6fb891e43e2758f416f4550c58"
+      "sha256": "7ba3aeca8dc022e9d86d1e1e6f360f46ab4db1ceaea243535b709127bda9af31"
     },
     {
       "path": "product-2028-svo-c1/ci-summary.cjs",
@@ -149,6 +150,10 @@
     {
       "path": ".github/workflows/svo-first-lesson-ci.yml",
       "sha256": "1112790277608692f55b4387ff1f1b04eccf94e59210b551459e8a97034488ae"
+    },
+    {
+      "path": "product-2028-svo-c1/ci-first-failure.json",
+      "sha256": "bfb9b16954910eebaa7db636edf778265f3f80293747a5c847ece1f4db50986d"
     }
   ],
   "excluded": [
