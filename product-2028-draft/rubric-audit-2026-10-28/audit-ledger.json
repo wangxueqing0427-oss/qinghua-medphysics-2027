@@ -1,0 +1,2373 @@
+{
+  "scope": "AI第二遍任务对齐与所列来源核查；同一AI流程，非盲审、非独立专业审核；未对47课全部知识重新专家审定",
+  "checked": 110,
+  "confirmed": 16,
+  "improvements": 6,
+  "unflagged": 88,
+  "expertApprovals": 0,
+  "rows": [
+    {
+      "course": "en-foundation-svo",
+      "questionId": "en-svo-3",
+      "originalVersion": "0.1",
+      "courseHash": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003",
+      "questionHash": "a54f1fa81d2c32f9da49f2a32177b3f2cb2d5924eb2386bce54d35d4bc7c7058",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-incidence-risk",
+      "questionId": "risk-3",
+      "originalVersion": "0.1",
+      "courseHash": "40e5842b0a18d56b664398cc9cfbe4736d5d955ee5f5435627e100b0206f7a47",
+      "questionHash": "f123a1ccd449a7e9d5bd3157c5dcdff3c5ee27a13817e9d252b6c76b2171a398",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-practice-verification",
+      "questionId": "pol-practice-3",
+      "originalVersion": "0.1",
+      "courseHash": "e155584e08d332230e573e378f3a938ed9eb1e8107acd7b152faf5fb03d55be0",
+      "questionHash": "2faec62fe69f644a4949e658cee01c98fa35116ce59dda84467e1850b1315ec9",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-negative",
+      "questionId": "en-neg-4",
+      "originalVersion": "0.1",
+      "courseHash": "e0bba9771a551fcf25ac9a9aac29935fa9e69b2e60706497388e3f221b330f54",
+      "questionHash": "967005eae63c2800cf43c888f379dcead9fa6a5ae40025c2e1ae7d2495683d70",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-negative",
+      "questionId": "en-neg-d2",
+      "originalVersion": "0.1",
+      "courseHash": "e0bba9771a551fcf25ac9a9aac29935fa9e69b2e60706497388e3f221b330f54",
+      "questionHash": "1d9b8fbca18a90b5ad3991aa04eb243cd08d92ee53dbc54c6bd965a474d27bb4",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-common-particular",
+      "questionId": "pol-cp-4",
+      "originalVersion": "0.1",
+      "courseHash": "c7e260a16371de191ccc0d31a08b08f99aace1993ef5f67221e647c32ffe0d26",
+      "questionHash": "08cc88def1e8248f4292f21acf687223c6cb7cb223b78525bad2c8c030d1a9bc",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-common-particular",
+      "questionId": "pol-cp-d2",
+      "originalVersion": "0.1",
+      "courseHash": "c7e260a16371de191ccc0d31a08b08f99aace1993ef5f67221e647c32ffe0d26",
+      "questionHash": "53e465852a8e4c6947265a9eab96863e3bc2044a0545b842119fb7f52e166ecb",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-person-time",
+      "questionId": "epi-pt-5",
+      "originalVersion": "0.1",
+      "courseHash": "6439be0b62e44aad288dc890b7324531ed0a1996ae8ae72f0430956d61b344f9",
+      "questionHash": "7e4b3c22aa809c510b0215928a34757eae10f028b6075b3c4a999a7602416160",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-linking-and-verb-phrase",
+      "questionId": "en-link-5",
+      "originalVersion": "0.1",
+      "courseHash": "26ec2a545c7f523db731c4854e19a2205dc31646379ee028ee8abdc2c47c048c",
+      "questionHash": "7f81ee70c66740aa6b4ec187b5deb7f329f5013f8501e2de71914c27f0610b71",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-variable-types",
+      "questionId": "var-a1",
+      "originalVersion": "0.1",
+      "courseHash": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+      "questionHash": "7ad706e95a89bab171ec02462e407925b44970713a9ae8f475b241d5e51a59d5",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-variable-types",
+      "questionId": "var-a4",
+      "originalVersion": "0.1",
+      "courseHash": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+      "questionHash": "0ae20f34261eb5095433de7a64740bb2d0e3fa2dbdc82b7f7153e08e6788e64a",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-variable-types",
+      "questionId": "var-d3",
+      "originalVersion": "0.1",
+      "courseHash": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960",
+      "questionHash": "2f7fce308c2484791ead592a7e05e970be660ae67489e59d6c88b9f0268f9947",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-subject-verb-agreement",
+      "questionId": "sva-a1",
+      "originalVersion": "0.1",
+      "courseHash": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd",
+      "questionHash": "c3aa848fc8dfbd72293118f5f8a735b74733abcbd7446f583fa8a2b480a1c5f8",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-subject-verb-agreement",
+      "questionId": "sva-a3",
+      "originalVersion": "0.1",
+      "courseHash": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd",
+      "questionHash": "c86175970a6a4142205ea78b74998188f688a76fe7ddaa19afdfaa2f973f4777",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-subject-verb-agreement",
+      "questionId": "sva-d4",
+      "originalVersion": "0.1",
+      "courseHash": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd",
+      "questionHash": "83faeb2223f4b0859f120146de8e0aed3f500155e97f59ce64c34ce5779cf345",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "题干没有要求翻译，rubric把中文译句设为独立核对项。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "BC-simple"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-knowledge-practice-development",
+      "questionId": "kpd-a1",
+      "originalVersion": "0.1",
+      "courseHash": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+      "questionHash": "76a50fed92c8db1baa24bd3ee3a2c9f3bbe6df528539071b242710cd414bf41b",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-knowledge-practice-development",
+      "questionId": "kpd-a3",
+      "originalVersion": "0.1",
+      "courseHash": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+      "questionHash": "6aacee164b1a3401e471f2a312995fe6ce1a33287d66a2e0191327ffb649a109",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-knowledge-practice-development",
+      "questionId": "kpd-a4",
+      "originalVersion": "0.1",
+      "courseHash": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+      "questionHash": "07598544ba621d82ad5d2f29b7e6ee15173dbccab8b0a339d2ea07ad208f3385",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-knowledge-practice-development",
+      "questionId": "kpd-d2",
+      "originalVersion": "0.1",
+      "courseHash": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218",
+      "questionHash": "e2e5236e0a0279852565783dfae0b26eac8614708923dbec822734b0cdd205cd",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-past-simple-foundation",
+      "questionId": "pst-a1",
+      "originalVersion": "0.2",
+      "courseHash": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b",
+      "questionHash": "d2e57d6e731e814d5a7e97b83fe59f87f987805b84b7140c3b59f9b7aa4cc5f4",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-past-simple-foundation",
+      "questionId": "pst-a3",
+      "originalVersion": "0.2",
+      "courseHash": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b",
+      "questionHash": "dfab63fe569d4d8c755889094fd456dc6928302c380ae5e32d561644cc729bf3",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-past-simple-foundation",
+      "questionId": "pst-d4",
+      "originalVersion": "0.2",
+      "courseHash": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b",
+      "questionHash": "68015e007f77794aa0caf09ec4a11b74526c1bf2957703368bd6e01a32c5592c",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-connections-foundation",
+      "questionId": "con-a1",
+      "originalVersion": "0.2",
+      "courseHash": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "questionHash": "8be6134021f148802445afe2ac246ae0f87e523b3ca73df032a873b995734091",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-connections-foundation",
+      "questionId": "con-a3",
+      "originalVersion": "0.2",
+      "courseHash": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "questionHash": "4ce2c9867d1b945c72d4335f60eec17edea9877057855ffe06f11a9d97792dad",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "建议改进",
+      "finding": "专业规范核对可作为补充，不宜成为未明确要求的必备评分点。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-connections-foundation",
+      "questionId": "con-a4",
+      "originalVersion": "0.2",
+      "courseHash": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "questionHash": "483397f5075fdcfb58c0616009db44419fdc8cc4400a49e221c02e73a85c297b",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-connections-foundation",
+      "questionId": "con-d4",
+      "originalVersion": "0.2",
+      "courseHash": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f",
+      "questionHash": "b66587ec725d4f32ce6e3a29cc62f7523d7b9b955781cad4f0a5e9c2efd9a94e",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-frequency-denominator",
+      "questionId": "frq-a1",
+      "originalVersion": "0.2",
+      "courseHash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "questionHash": "95dc74047ab1f6848d47c49a27710e8af92ff0b09c10b95bcf5cf9abda7c99c0",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-frequency-denominator",
+      "questionId": "frq-a2",
+      "originalVersion": "0.2",
+      "courseHash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "questionHash": "1912869416ded5a8b6ed9fab535f8183b1fa6ca35d16c97cc64340192c9d3aa5",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-frequency-denominator",
+      "questionId": "frq-a3",
+      "originalVersion": "0.2",
+      "courseHash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "questionHash": "654705e184301c3de50de33e5529f3b05da8d5bd62307f124801f783dbe8be87",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-frequency-denominator",
+      "questionId": "frq-d3",
+      "originalVersion": "0.2",
+      "courseHash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5",
+      "questionHash": "8aa8af5c1b18ce8524a242b62909894aa9475b8353f06a2309c255fb7e3b9381",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-quantity-measurement",
+      "questionId": "qm-a1",
+      "originalVersion": "0.1",
+      "courseHash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "questionHash": "797832e74d52245cdf63505b5218577150f83dad6fd491d0cbce05514283ef4a",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-quantity-measurement",
+      "questionId": "qm-a2",
+      "originalVersion": "0.1",
+      "courseHash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "questionHash": "5b1e31f163a8d2f680a49ec12f1f01f3a9d791ad018a01bd307d4ffefa8ebd6f",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-quantity-measurement",
+      "questionId": "qm-a3",
+      "originalVersion": "0.1",
+      "courseHash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "questionHash": "ddff4cd8b545e4f4365d1035c777837c8d99fa8fadd3ec45106be06ab25fee26",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-quantity-measurement",
+      "questionId": "qm-d3",
+      "originalVersion": "0.1",
+      "courseHash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "questionHash": "5b4f4e9c8313f336aa68146a3d969efd19a6da014a22401e0eb771ca13f9c3b4",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-quantity-measurement",
+      "questionId": "qm-d4",
+      "originalVersion": "0.1",
+      "courseHash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76",
+      "questionHash": "759a40a6557673b225aa8e8a724ec5739baaffbb498d2c83a828bde49bfef382",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "questionId": "unc-a1",
+      "originalVersion": "0.1",
+      "courseHash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "questionHash": "28df46704db86d7b5b3bae2ea4184bd4a277f0aeb1ef1b29cdba464c944cb0c9",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "questionId": "unc-a2",
+      "originalVersion": "0.1",
+      "courseHash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "questionHash": "6d496ba66b58721efe29f69880d3ffaf96c297a1e982bb0becb0f227755160e1",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "questionId": "unc-a3",
+      "originalVersion": "0.1",
+      "courseHash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "questionHash": "d52389ef494ce34ad5186cb57ceb2e455382599b302ea2d65f87184bf4ae4c78",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "questionId": "unc-d3",
+      "originalVersion": "0.1",
+      "courseHash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "questionHash": "4bc112f1bcdac7a1a7d5a2ba4bc103a8298908342768d9d9a1713ceb5448e99f",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "questionId": "unc-d4",
+      "originalVersion": "0.1",
+      "courseHash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c",
+      "questionHash": "80295797de3ce740d00145e99f7ad55379377d3f886aa22b2546bb3f4f2dba06",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "题干至少追问两项，rubric却可能被解释为四类全部必答。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-energy-power",
+      "questionId": "ep-a1",
+      "originalVersion": "0.1",
+      "courseHash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "questionHash": "1df1324b32f66da4d814ec365aaaf266947ebc0902dac533432a1bc687853b46",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-energy-power",
+      "questionId": "ep-a2",
+      "originalVersion": "0.1",
+      "courseHash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "questionHash": "dc9a9e77d366635c5cd3f1023ed54a1323d3e5db98dbcaf1148039c190881579",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-energy-power",
+      "questionId": "ep-a3",
+      "originalVersion": "0.1",
+      "courseHash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "questionHash": "526ab8465d5dd3d468de85495d36f240ced50a927f3a85c5932f5c6de59ddc25",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-energy-power",
+      "questionId": "ep-d2",
+      "originalVersion": "0.1",
+      "courseHash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "questionHash": "12f164f610b907dcb01ec007d030e6e698b4fe4d1ac4f06de3eb9d81611d8672",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "建议改进",
+      "finding": "计算题未要求推导，解释两种平均不可混淆可作教学反馈。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-energy-power",
+      "questionId": "ep-d4",
+      "originalVersion": "0.1",
+      "courseHash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05",
+      "questionHash": "7696249f9835a4e7cd28b716eaf7732e1a9e6fd591ed27aaca59817dc1609cce",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-waves-interactions",
+      "questionId": "wi-a1",
+      "originalVersion": "0.1",
+      "courseHash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "questionHash": "77182440588810a66d20d0f85a5467e4ad3fc5decadf671b585713db097a1623",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-waves-interactions",
+      "questionId": "wi-a2",
+      "originalVersion": "0.1",
+      "courseHash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "questionHash": "d50f7c26ccc2e3c54251cc98d1fc094715c87f31f4edc7e5fcfc81158cdbcaaf",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-waves-interactions",
+      "questionId": "wi-a3",
+      "originalVersion": "0.1",
+      "courseHash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "questionHash": "fe1c895b3e91e085ba4fd98f9adf619db78f3e386b23b52af8d388fb55931ffd",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-waves-interactions",
+      "questionId": "wi-d2",
+      "originalVersion": "0.1",
+      "courseHash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "questionHash": "b92496e92d50308c5359b19693f260acb76162740c3ba6c2e1f272ab9bfe7222",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-waves-interactions",
+      "questionId": "wi-d4",
+      "originalVersion": "0.1",
+      "courseHash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230",
+      "questionHash": "6e9ceb5024b2d405f362f9fb3ad1bc5fbc7593827065b3d6fbcbb783d6dd7eef",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-questions",
+      "questionId": "en-present-questions-a4",
+      "originalVersion": "0.1",
+      "courseHash": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce",
+      "questionHash": "8527bbc814f70a79a8ce80d6f0f2c8d52354939e530eef4138119f3ef0b63349",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "建议改进",
+      "finding": "非强调结构边界宜提示为补充。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-questions",
+      "questionId": "en-present-questions-d4",
+      "originalVersion": "0.1",
+      "courseHash": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce",
+      "questionHash": "41d6cfa9f881871b3368635e6e2d59ff0140624cc34c276b249f0224e8ed9e5b",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-quantity-quality",
+      "questionId": "pol-quantity-quality-a4",
+      "originalVersion": "0.1",
+      "courseHash": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b",
+      "questionHash": "9fa97898464c1756807ab626ec6a3985efa91e1ebdb361bbd2cb2a6af07cc495",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-quantity-quality",
+      "questionId": "pol-quantity-quality-d4",
+      "originalVersion": "0.1",
+      "courseHash": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b",
+      "questionHash": "db5013322a7a7e69726612f497fcaf05f20d29dc683039e665e451ac9f8c7d13",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-public-health-prevention",
+      "questionId": "353-public-health-prevention-a4",
+      "originalVersion": "0.1",
+      "courseHash": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5",
+      "questionHash": "e3cbf14d00bfa4e94641a70031c049cd91f6d6c6ba87994d07a2b286eadcb7c2",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-public-health-prevention",
+      "questionId": "353-public-health-prevention-d4",
+      "originalVersion": "0.1",
+      "courseHash": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5",
+      "questionHash": "31f707c6da699f70f1a3ff7ad323cabb2fc0c66b08cf8c3138cfb27b640862ed",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-nouns-countability",
+      "questionId": "en-nouns-countability-a4",
+      "originalVersion": "0.1",
+      "courseHash": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "questionHash": "f00e681164aab9c18e8ff4fd5955dc56634eeb41568f7089c05cd9e36842204c",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-nouns-countability",
+      "questionId": "en-nouns-countability-d4",
+      "originalVersion": "0.1",
+      "courseHash": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745",
+      "questionHash": "6c94d45a1394bbb3e617253bb35acbf34f5ca57522288047ba33efb333e797ad",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-pronoun-reference",
+      "questionId": "en-pronoun-reference-a4",
+      "originalVersion": "0.1",
+      "courseHash": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "questionHash": "5274ea11f7026235056eca6e29325a86512651de5b6b3b75447cabc9e130138a",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-pronoun-reference",
+      "questionId": "en-pronoun-reference-d4",
+      "originalVersion": "0.1",
+      "courseHash": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9",
+      "questionHash": "8104375104bf1cf82108a5330135b64d1cce8d619e36c7552e13428d6d3cc8e9",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-articles-foundation",
+      "questionId": "en-articles-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "questionHash": "a316bc46d65950444b1b1cc09f130e59a98898c5063966c11e679224d0daff63",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-articles-foundation",
+      "questionId": "en-articles-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491",
+      "questionHash": "54d50dff81b2354ff27ce07971924d3f0dde020cae5ae94bf08f3ba377748858",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-matter-consciousness",
+      "questionId": "pol-matter-consciousness-a4",
+      "originalVersion": "0.1",
+      "courseHash": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "questionHash": "ea1e3f7f40701897fe554656ff6f871598abf32bbc974fd3c5db13b1c5a6c4ff",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-matter-consciousness",
+      "questionId": "pol-matter-consciousness-d4",
+      "originalVersion": "0.1",
+      "courseHash": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24",
+      "questionHash": "f3caa0246acccffab9967369854bb39f6cb1da2bdb5bcf5e60f3f294f552d2cb",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-contradiction-unity",
+      "questionId": "pol-contradiction-unity-a4",
+      "originalVersion": "0.1",
+      "courseHash": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "questionHash": "473fc362623201dc07f5a84f9b65ad554f4b802afc36f9d48a591c4072a7f5c8",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-contradiction-unity",
+      "questionId": "pol-contradiction-unity-d4",
+      "originalVersion": "0.1",
+      "courseHash": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008",
+      "questionHash": "7315d16ecef32202e048f77943fe107c17ed486f08ac5908e396287c69cdfcc2",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "建议改进",
+      "finding": "措施与检验建议超出题干示例分析，可明确为拓展。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-primary-contradictions",
+      "questionId": "pol-primary-contradictions-a4",
+      "originalVersion": "0.1",
+      "courseHash": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "questionHash": "0161c5540c2a1bec7ac3c584efd247d1a300aa2f132f59f3adeb62d514f159dc",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-primary-contradictions",
+      "questionId": "pol-primary-contradictions-d4",
+      "originalVersion": "0.1",
+      "courseHash": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19",
+      "questionHash": "291aa5c4f8912e9c8e3674ab07cd32740897ad001bc0b8f3591e787c86609ad8",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-mean-median",
+      "questionId": "353-mean-median-a4",
+      "originalVersion": "0.1",
+      "courseHash": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "questionHash": "b39b49e357891b420ac36d81c2ca7e2dcbf742b1ef6516150763f4ad4154ea2c",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-mean-median",
+      "questionId": "353-mean-median-d4",
+      "originalVersion": "0.1",
+      "courseHash": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e",
+      "questionHash": "6a6b12edf30e2dad7d33b50eedd6a42d24a4580d0a6d6aa5c2eec1d632541a14",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-dispersion-foundation",
+      "questionId": "353-dispersion-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "questionHash": "3ed68b4e4a7d97e42bc9f91e79e313fda47e621da9be4aa9bf5294461c9d65ff",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-dispersion-foundation",
+      "questionId": "353-dispersion-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af",
+      "questionHash": "7ebfc0ab1336fc3644bcec198cf7162d687482eae82c53e9e59f83c6f29e2326",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-study-design-foundation",
+      "questionId": "353-study-design-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "questionHash": "270a51f4ae7463df04f2652c3643824714d1352698dd9d5886dec820f9bff06a",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-study-design-foundation",
+      "questionId": "353-study-design-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c",
+      "questionHash": "357e7c8974f886164424d6872e91a193f4bd4da4153fc7e0421b54f7999ff575",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-continuous-foundation",
+      "questionId": "en-present-continuous-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+      "questionHash": "f94e4ef8a227ec90efd84f87cff2f4c0126106ff133f61c5ac4250def5a9f03b",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-continuous-foundation",
+      "questionId": "en-present-continuous-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08",
+      "questionHash": "24bf79ffda7db1965851a804b5601ffd19a08d20aec37022e6e0bcfa5db7a566",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-passive-simple-foundation",
+      "questionId": "en-passive-simple-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+      "questionHash": "d8a7fb8da4a35257b8f461021cf24dcfe18dad2c30b9228aabbf3467267c8040",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-passive-simple-foundation",
+      "questionId": "en-passive-simple-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747",
+      "questionHash": "e8e265eba856b3731ea8e7519151a9e36e2fdf922ce4694c5fd0d78830076a19",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-defining-relative-foundation",
+      "questionId": "en-defining-relative-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+      "questionHash": "70bc6b3c2b9112286d558111315181ac2e1d1975415fab416c52c3c97dc0e7e9",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-defining-relative-foundation",
+      "questionId": "en-defining-relative-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc",
+      "questionHash": "9adefb2d197b962fbb6e566410c6fa3e632d29f6695f13b84498bbe63ba2dc87",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-social-being-consciousness",
+      "questionId": "pol-social-being-consciousness-a4",
+      "originalVersion": "0.1",
+      "courseHash": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+      "questionHash": "23ad9898673ca807acd51d63c32af59762e6e6bdb66551f7fac4642fbdc8e9ed",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-social-being-consciousness",
+      "questionId": "pol-social-being-consciousness-d4",
+      "originalVersion": "0.1",
+      "courseHash": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec",
+      "questionHash": "c9b55f15d2a062df79f134c67b203e546a078b7bccb917bc08059bebe66b05f9",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-epistemology-case-analysis",
+      "questionId": "pol-epistemology-case-analysis-a4",
+      "originalVersion": "0.1",
+      "courseHash": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+      "questionHash": "7a7ce7e91cb1260349082218c2c00670c35c94232536c7ab497722af43abf644",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-epistemology-case-analysis",
+      "questionId": "pol-epistemology-case-analysis-d4",
+      "originalVersion": "0.1",
+      "courseHash": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244",
+      "questionHash": "f9e5a4531f031061af08e93b8b7b27bccde579812f993132971e5f3bef1bcd59",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-productive-forces-relations",
+      "questionId": "pol-productive-forces-relations-a4",
+      "originalVersion": "0.1",
+      "courseHash": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+      "questionHash": "cd79e78655b5fc78d60062f6963b05a760befc9ae0fdcca7f0ea49bbb19c23e1",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "建议改进",
+      "finding": "适合及反作用论述与题干识别任务的关系需教师判断。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-productive-forces-relations",
+      "questionId": "pol-productive-forces-relations-d4",
+      "originalVersion": "0.1",
+      "courseHash": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca",
+      "questionHash": "c5bca305a0c1973a23da58e854a153d624a69625eaed02c3147f6f1b2836236f",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-probability-binomial-foundation",
+      "questionId": "353-probability-binomial-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+      "questionHash": "9d5fdab6067fd94a3c97c73495ac52211d18a2d90c07e7e072142212b08d29c0",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-probability-binomial-foundation",
+      "questionId": "353-probability-binomial-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69",
+      "questionHash": "7376e2df67420ddf51c3296d6df2e1c4dc81fa4b6810d98f6657cc64d62258cf",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-random-sampling-foundation",
+      "questionId": "353-random-sampling-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+      "questionHash": "590d34486a8509bbb547d30aa2e44e2316bb9b7828f199e0ea170bd7d755b1e0",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "建议改进",
+      "finding": "缺答不按零分处理是合理补充，但评分应先对应覆盖与应答机制。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-random-sampling-foundation",
+      "questionId": "353-random-sampling-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e",
+      "questionHash": "3c9a55147d4eae937ddb711c1a980f428db6bd2bb77a6da6a559b3e3dccb382e",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-bias-control-foundation",
+      "questionId": "353-bias-control-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+      "questionHash": "5f686a7778f0d360916c3e24e9ea13780e7db00c722d46ea3aa3b558ac22bad3",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-bias-control-foundation",
+      "questionId": "353-bias-control-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9",
+      "questionHash": "8cf7d41eddcd2a22b555db262416ea81931e021b87c5be83809c14ca852170f5",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-vocabulary-retrieval-foundation",
+      "questionId": "en-vocabulary-retrieval-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "48c2166eec19f7a027184dbb3b22d7e975af4ee2d6632a8ef1897539e38e5dba",
+      "questionHash": "2c069e4870c2dcda389eed9db66f2ed235d0ce8238282005332ecc2e893bc652",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "要求未在题干出现的evidence、词义解释或不会词清单。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "BC-simple"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-vocabulary-retrieval-foundation",
+      "questionId": "en-vocabulary-retrieval-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "48c2166eec19f7a027184dbb3b22d7e975af4ee2d6632a8ef1897539e38e5dba",
+      "questionHash": "bd7e750a020ec3e0089c275a30e73a70e7d6bc2abc69ff9e62de67ee687a6105",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "通用词义清单遗漏本题notes/are与实际遗漏对照，额外要求evidence。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "BC-simple"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-reading-evidence-foundation",
+      "questionId": "en-reading-evidence-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "6a2378a75f315ad9b1eb3d29cbbcaaec278d8cc80112a79fdbc030d37ec59a8d",
+      "questionHash": "fdd61113d860fbb380f575371d9af444144eebba37cfcb02577d18a7202d02ca",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-reading-evidence-foundation",
+      "questionId": "en-reading-evidence-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "6a2378a75f315ad9b1eb3d29cbbcaaec278d8cc80112a79fdbc030d37ec59a8d",
+      "questionHash": "6bbedc8f5057ce2226cbd8fe23d8807fe5bf8bc1964adbb798e96b9e555d49c1",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-perfect-foundation",
+      "questionId": "en-present-perfect-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "be35a11911fb478a6fe5d8ccea494f38f3d8afba258292f4ccccfecb06460e8b",
+      "questionHash": "9c7b33e3e192085b707ca66007ce34230a2b6d73fb19970bd3e8246127dc32f3",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "for/since和明确过去时间是其他考点，本题未要求。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "BC-perfect"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "en-present-perfect-foundation",
+      "questionId": "en-present-perfect-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "be35a11911fb478a6fe5d8ccea494f38f3d8afba258292f4ccccfecb06460e8b",
+      "questionHash": "9ea1892edecfc2b4636265ba4668785a2e8e011f2be152c8a3b24d2ad3f14003",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "额外要求明确过去时间与否定规则，错因提示仍指旧题written。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "BC-perfect"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-base-superstructure-foundation",
+      "questionId": "pol-base-superstructure-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "36225cf43d99fa29b5309d58a9c4a579baf788c428bbbb9e7af65368eda316eb",
+      "questionHash": "21f9036073eca55394c484afeb5f6a3b9c3e29e39eeb7ee8dea57a3a7ff4b2a5",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "强制制度/意识两层和社会整体定义，题内并无意识材料。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "Engels1890"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-base-superstructure-foundation",
+      "questionId": "pol-base-superstructure-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "36225cf43d99fa29b5309d58a9c4a579baf788c428bbbb9e7af65368eda316eb",
+      "questionHash": "dda71d3e7402d2a5311bfcfa39763a29345efe5a7e0492664b0840749d876f82",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "原rubric未直接检查工具变化，又强制题干未问意识层面。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "Engels1890"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-people-individual-history",
+      "questionId": "pol-people-individual-history-a4",
+      "originalVersion": "0.1",
+      "courseHash": "e2856cd1e1a947c2d340bf76b118cac269c01b6bb300839a9fcdeed83ee9a1dd",
+      "questionHash": "ae782221231146dc8737cb0377cd0c711656e765fc5f291e2d301e534cc343b8",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-people-individual-history",
+      "questionId": "pol-people-individual-history-d4",
+      "originalVersion": "0.1",
+      "courseHash": "e2856cd1e1a947c2d340bf76b118cac269c01b6bb300839a9fcdeed83ee9a1dd",
+      "questionHash": "c2e4eb7a7976338e3672a39193944b1d23d4878c6fc50ac062ec8985534272d9",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "未发现新的明确评分错配",
+      "finding": "本轮任务对齐扫描未发现明确错配；不代表专业知识审定。",
+      "revision": null,
+      "sourceIds": [
+        "Prompt-only"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-modern-history-entry",
+      "questionId": "pol-modern-history-entry-a4",
+      "originalVersion": "0.1",
+      "courseHash": "bc6535af1b01f3d4e29c2a3e2d072690e9b62edb311e91007ee8e1177be4fd14",
+      "questionHash": "921d8af02665c4df04969cddf9ba59a5e6500f366dc800ddf3bfcc21dd5c7015",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "题干要求历史语境和今天外推边界，却额外要求两事件日期/资料形态。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "Mao1939"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "pol-modern-history-entry",
+      "questionId": "pol-modern-history-entry-d4",
+      "originalVersion": "0.1",
+      "courseHash": "bc6535af1b01f3d4e29c2a3e2d072690e9b62edb311e91007ee8e1177be4fd14",
+      "questionHash": "834ddef91ae0eee729d41a8d8f8ed0e5ccb4c441ad09d630de2621f497764700",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "未明确核对两日期及两来源，反而要求未问的社会性质解释。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "Mao1939",
+        "Museum1842"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-ratio-rate-prevalence",
+      "questionId": "353-ratio-rate-prevalence-a4",
+      "originalVersion": "0.1",
+      "courseHash": "69dc93148be5506318214c3af37a2ea1cffe37ca6dbafbc5f0c65f6fbdc0fa99",
+      "questionHash": "17a81815664356b4666c1d830da44f13ab655e9ac7b55f09bd32a7620359631e",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "强加期间去重/固定人群条件，却缺新发风险分母和影响因素的明确核对。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "CDC3"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-ratio-rate-prevalence",
+      "questionId": "353-ratio-rate-prevalence-d4",
+      "originalVersion": "0.1",
+      "courseHash": "69dc93148be5506318214c3af37a2ea1cffe37ca6dbafbc5f0c65f6fbdc0fa99",
+      "questionHash": "8130aa4d6a0cbc7bf7d7bc791a747d89285c1ea5719a60319ad1e9aea836921e",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "题干任三项信息被通用期间计算清单替代。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "CDC3"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-normal-distribution-foundation",
+      "questionId": "353-normal-distribution-foundation-a4",
+      "originalVersion": "0.1",
+      "courseHash": "d3f47bff1fc386e65c99a9e48d80bda47c31718f45a9746be951bb5f6803e685",
+      "questionHash": "6f492dd69202e9819cdaeba675903d5149d9e868fe3be9698801fd9785038e45",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "密度面积、z公式、累计差值与本题模型批判无关。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-normal-distribution-foundation",
+      "questionId": "353-normal-distribution-foundation-d4",
+      "originalVersion": "0.1",
+      "courseHash": "d3f47bff1fc386e65c99a9e48d80bda47c31718f45a9746be951bb5f6803e685",
+      "questionHash": "c0f0bab6668329df56bf3c28887ac7367518d715e09c546842a05e784ff7e7a5",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "复用计算rubric，未逐项检查混合多峰和两分布区别。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-sampling-distribution-se",
+      "questionId": "353-sampling-distribution-se-a4",
+      "originalVersion": "0.1",
+      "courseHash": "8e8f7be8d91a4a933333f0b7752e7c2d0c4625e1314918be26ea82074c07ead6",
+      "questionHash": "a554fbc21bd2c231aebe6b3a9b93f348220bcc42c939b026762189b93198d116",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "强制样本量缩放、计算量纲等未问题，三处实际问题核对不清。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "UM-SE",
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "expertApproved": false
+    },
+    {
+      "course": "353-sampling-distribution-se",
+      "questionId": "353-sampling-distribution-se-d4",
+      "originalVersion": "0.1",
+      "courseHash": "8e8f7be8d91a4a933333f0b7752e7c2d0c4625e1314918be26ea82074c07ead6",
+      "questionHash": "699bdca336c7bc445904fb2440418c6ce73a498f46431a42a82fd5629bf89430",
+      "checked": [
+        "题干",
+        "参考答案",
+        "rubric",
+        "解析",
+        "任务一致性"
+      ],
+      "status": "确认评分错配",
+      "finding": "复用SE计算rubric，题目核心是精确/近似与原始分布。",
+      "revision": "rubric-r1-2026-10-28",
+      "sourceIds": [
+        "UM-SE",
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "expertApproved": false
+    }
+  ],
+  "identicalRubricGroups": [
+    [
+      "en-vocabulary-retrieval-foundation-a4",
+      "en-vocabulary-retrieval-foundation-d4"
+    ],
+    [
+      "en-reading-evidence-foundation-a4",
+      "en-reading-evidence-foundation-d4"
+    ],
+    [
+      "en-present-perfect-foundation-a4",
+      "en-present-perfect-foundation-d4"
+    ],
+    [
+      "pol-base-superstructure-foundation-a4",
+      "pol-base-superstructure-foundation-d4"
+    ],
+    [
+      "pol-people-individual-history-a4",
+      "pol-people-individual-history-d4"
+    ],
+    [
+      "pol-modern-history-entry-a4",
+      "pol-modern-history-entry-d4"
+    ],
+    [
+      "353-ratio-rate-prevalence-a4",
+      "353-ratio-rate-prevalence-d4"
+    ],
+    [
+      "353-normal-distribution-foundation-a4",
+      "353-normal-distribution-foundation-d4"
+    ],
+    [
+      "353-sampling-distribution-se-a4",
+      "353-sampling-distribution-se-d4"
+    ]
+  ],
+  "duplicateCaution": "相同模板仅为候选信号；只有与题干不符者列为确认问题。",
+  "pending": [
+    "开放人群期间患病率分母仍需情境化专业核对",
+    "政治小组织案例与社会总体概念的类比边界",
+    "中心极限定理的完整适用条件不能由简化教学网页替代",
+    "旧档案不自动改写为新评分版本，保留版本门禁",
+    "其余6题建议优化尚未改写"
+  ]
+}

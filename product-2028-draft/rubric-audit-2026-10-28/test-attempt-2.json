@@ -1,0 +1,137 @@
+{
+  "scope": "Node actual engine/controller/repository with fake IndexedDB. Not browser, network-offline, iPhone or professional approval. No CI requested.",
+  "contentVersion": "rubric-r1-2026-10-28",
+  "passed": 32,
+  "failed": 0,
+  "total": 32,
+  "results": [
+    {
+      "name": "47 courses / 523 questions / 110 subjective; original prerequisite graph retained",
+      "pass": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-present-perfect-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-present-perfect-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-base-superstructure-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-base-superstructure-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-modern-history-entry-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-modern-history-entry-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-normal-distribution-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-normal-distribution-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-sampling-distribution-se-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-sampling-distribution-se-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "sva-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "unc-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "all untouched questions and content preserved; only 9 new unit versions",
+      "pass": true
+    },
+    {
+      "name": "review records pending and version/hash-bound, never professional approval",
+      "pass": true
+    },
+    {
+      "name": "en-subject-verb-agreement real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "353-uncertainty-foundation real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "en-present-perfect-foundation real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "pol-base-superstructure-foundation real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "pol-modern-history-entry real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "353-normal-distribution-foundation real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "353-sampling-distribution-se real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "save failure rolls back; retained draft retries exactly once",
+      "pass": true
+    },
+    {
+      "name": "old snapshots remain readable with original pack; revised version blocked without mutation",
+      "pass": true
+    },
+    {
+      "name": "backup restore preserves every raw answer / rubric snapshot / error reflection / review; profiles isolated",
+      "pass": true
+    },
+    {
+      "name": "all 686 pre-existing local files unchanged incl original course and MOBILE-C1; no history overwrites",
+      "pass": true
+    }
+  ]
+}

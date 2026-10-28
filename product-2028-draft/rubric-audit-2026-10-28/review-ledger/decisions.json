@@ -1,0 +1,146 @@
+[
+  {
+    "id": "rubric-r1-en-subject-verb-agreement",
+    "unitId": "en-subject-verb-agreement",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "7604c7020ced4e817dba53a629c43cd25b1d4c506506e17f1c5efa37b11a9b1b",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-353-uncertainty-foundation",
+    "unitId": "353-uncertainty-foundation",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "ef28088ed15e03c1187d4d703910975ba704406a641d8ef854b19b6a706a80c0",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-en-vocabulary-retrieval-foundation",
+    "unitId": "en-vocabulary-retrieval-foundation",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "305cc502f461b6b17aaf8ac57333ec08a10ce9140588e638c605a6dbe408367b",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-en-present-perfect-foundation",
+    "unitId": "en-present-perfect-foundation",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "180a2627ac9c4db581421377088ba00f1970f1d7e01a208d0c148cc7dadbbbb0",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-pol-base-superstructure-foundation",
+    "unitId": "pol-base-superstructure-foundation",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "3b4c0faa650569bf0df2b0d7b6f54f8b887f9b33b1df45a786452e9b6c4af696",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-pol-modern-history-entry",
+    "unitId": "pol-modern-history-entry",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "143c869a470ec002421a48bf7e39ec0e278aec55eefaa00c20b1eaf5f85c0596",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-353-ratio-rate-prevalence",
+    "unitId": "353-ratio-rate-prevalence",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "57a0d42db643f5b36332c44a9d67b0deee341f69bc7692adc3372f8c4be5a32a",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-353-normal-distribution-foundation",
+    "unitId": "353-normal-distribution-foundation",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "6b7de27e9fd4e08f91d1029fe0651f4781731da6c4099df5c5abc218c3849294",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  },
+  {
+    "id": "rubric-r1-353-sampling-distribution-se",
+    "unitId": "353-sampling-distribution-se",
+    "unitVersion": "0.2-rubric-r1",
+    "contentSha256": "9f44b3c613f6324232b32a9d59d4e944ec03f04e7a040e5a4639816d0d8b211d",
+    "reviewer": "Codex AI内部复核",
+    "qualification": "AI任务对齐与来源核对，非真人专业资格",
+    "date": "2026-10-28",
+    "decision": "changes-required",
+    "issues": [
+      {
+        "status": "pending",
+        "detail": "评分错配已作隔离修订，仍需独立专业判断；旧审核不自动沿用"
+      }
+    ]
+  }
+]

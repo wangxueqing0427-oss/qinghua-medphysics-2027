@@ -1,0 +1,53 @@
+{
+  "baseline": "c0d4b5d6ce125cbb1fa5b0bf54416a8ddadc7e29",
+  "branch": "courses/2026-10-24-three-subject-foundations",
+  "files": [
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/audit-ledger.json",
+      "sha256": "97eb4fd3429b89548ee4fa0ee0d9530f224d2ca669e4456d9ce3089b3c758b18"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/frozen-baseline.json",
+      "sha256": "3ae1334aaa3c9eec1834ccf4dc147e7f6f83df8dcfca016c8e9f3d3f297f7581"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/load-revision.cjs",
+      "sha256": "fb9d0d82e2f84ee3cbfe40e473c9f9c4d2ae60db78d0c85390dc6b7ec5112121"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/protection.json",
+      "sha256": "7670f7bf42e408b0bae1a4629489255b55473b4e85669b7772c6a14a5190eac5"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/revisions.json",
+      "sha256": "b8565581cb27f0db7bbd90b649f5e110edd66309156a308c56f91ca5cbf9f908"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/sources.json",
+      "sha256": "eea52b8cd95ac39bc66a15e3956d21972776c151a322c0177f1721ee29b5249f"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/test-attempt-1.json",
+      "sha256": "2a28519bf0d954617a9b9625b0c0a04252568eb62e4571012901cc2ae2ef636b"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/test-attempt-2.json",
+      "sha256": "335644ddec4f102c8734bf4fcf00ae45ae64a0aebcede99b0a3b6076eb43f7d3"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/test.cjs",
+      "sha256": "5feb2ff9a6627dc81c3c61b2b1c9cd3d3d9e14dfcdb4aada05428c8769567e1e"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/审计与接续.md",
+      "sha256": "8aecf691b356236baa77a87b422a17f98f6f0b12633d62f95e2683c6ccd6bfda"
+    },
+    {
+      "path": "product-2028-draft/rubric-audit-2026-10-28/review-ledger/decisions.json",
+      "sha256": "f0583b8b617b68e86120fbf67b5636e054176fd36406a58ede594250fbe7ca6c"
+    }
+  ],
+  "additionalFile": "product-2028-draft/rubric-audit-2026-10-28/submit-manifest.json",
+  "ci": "not-run-data-only",
+  "expertApprovals": 0
+}

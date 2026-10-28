@@ -1,0 +1,146 @@
+{
+  "scope": "Node actual engine/controller/repository with fake IndexedDB. Not browser, network-offline, iPhone or professional approval. No CI requested.",
+  "contentVersion": "rubric-r1-2026-10-28",
+  "passed": 23,
+  "failed": 9,
+  "total": 32,
+  "results": [
+    {
+      "name": "47 courses / 523 questions / 110 subjective; original prerequisite graph retained",
+      "pass": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-present-perfect-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "en-present-perfect-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-base-superstructure-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-base-superstructure-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-modern-history-entry-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "pol-modern-history-entry-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-normal-distribution-foundation-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-normal-distribution-foundation-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-sampling-distribution-se-a4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "353-sampling-distribution-se-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "sva-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "unc-d4 minimal patch + reference-only feedback",
+      "pass": true
+    },
+    {
+      "name": "all untouched questions and content preserved; only 9 new unit versions",
+      "pass": true
+    },
+    {
+      "name": "review records pending and version/hash-bound, never professional approval",
+      "pass": true
+    },
+    {
+      "name": "en-subject-verb-agreement real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Values have same structure but are not reference-equal:\n\n[\n  0,\n  2\n]\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:428)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "353-uncertainty-foundation real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Values have same structure but are not reference-equal:\n\n[\n  0,\n  2\n]\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:428)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation real module initial + delayed synthetic answers",
+      "pass": true
+    },
+    {
+      "name": "en-present-perfect-foundation real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'feedback'\n- 'scheduled'\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:642)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "pol-base-superstructure-foundation real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Values have same structure but are not reference-equal:\n\n[\n  0,\n  1,\n  3\n]\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:428)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "pol-modern-history-entry real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'feedback'\n- 'scheduled'\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:642)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "353-ratio-rate-prevalence real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Values have same structure but are not reference-equal:\n\n[\n  0,\n  2\n]\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:428)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "353-normal-distribution-foundation real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'feedback'\n- 'scheduled'\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:642)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "353-sampling-distribution-se real module initial + delayed synthetic answers",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'feedback'\n- 'scheduled'\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:642)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:170)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async requisite (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:14:149)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:143\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:15:66"
+    },
+    {
+      "name": "save failure rolls back; retained draft retries exactly once",
+      "pass": true
+    },
+    {
+      "name": "old snapshots remain readable with original pack; revised version blocked without mutation",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Values have same structure but are not reference-equal:\n\n[\n  0,\n  2\n]\n\n    at finish (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:13:428)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:18:372\n    at async test (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:5:34)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-draft\\rubric-audit-2026-10-28\\test.cjs:17:1"
+    },
+    {
+      "name": "backup restore preserves every raw answer / rubric snapshot / error reflection / review; profiles isolated",
+      "pass": true
+    },
+    {
+      "name": "all 686 pre-existing local files unchanged incl original course and MOBILE-C1; no history overwrites",
+      "pass": true
+    }
+  ]
+}

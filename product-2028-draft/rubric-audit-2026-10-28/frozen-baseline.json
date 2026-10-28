@@ -1,0 +1,528 @@
+{
+  "baseline": "c0d4b5d6ce125cbb1fa5b0bf54416a8ddadc7e29",
+  "units": [
+    {
+      "id": "en-foundation-svo",
+      "version": "0.1",
+      "hash": "077d93cfc576f568f63ba779e45d612dc91ef485ad44ffa883a098b0d3809003"
+    },
+    {
+      "id": "353-incidence-risk",
+      "version": "0.1",
+      "hash": "40e5842b0a18d56b664398cc9cfbe4736d5d955ee5f5435627e100b0206f7a47"
+    },
+    {
+      "id": "pol-practice-verification",
+      "version": "0.1",
+      "hash": "e155584e08d332230e573e378f3a938ed9eb1e8107acd7b152faf5fb03d55be0"
+    },
+    {
+      "id": "en-present-negative",
+      "version": "0.1",
+      "hash": "e0bba9771a551fcf25ac9a9aac29935fa9e69b2e60706497388e3f221b330f54"
+    },
+    {
+      "id": "pol-common-particular",
+      "version": "0.1",
+      "hash": "c7e260a16371de191ccc0d31a08b08f99aace1993ef5f67221e647c32ffe0d26"
+    },
+    {
+      "id": "353-person-time",
+      "version": "0.1",
+      "hash": "6439be0b62e44aad288dc890b7324531ed0a1996ae8ae72f0430956d61b344f9"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "version": "0.1",
+      "hash": "26ec2a545c7f523db731c4854e19a2205dc31646379ee028ee8abdc2c47c048c"
+    },
+    {
+      "id": "353-variable-types",
+      "version": "0.1",
+      "hash": "b13ca7a3e2eee01cf32084c5a0e61eadd1eaccfb393e1b1d59f74438a73d2960"
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "version": "0.1",
+      "hash": "5c30ec826a6a5068adaa2f7bca2b488a876e6aabc9640ade4a2b78e35c813fcd"
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "version": "0.1",
+      "hash": "e2614afff05f8a9b8961a4333e2d68bbf126f2b3d8be37a850395a597b0de218"
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "version": "0.2",
+      "hash": "4b5630223b4f0e0269a2ac147a4982f2df990ca3b5b4f7f2248d87909b15644b"
+    },
+    {
+      "id": "pol-connections-foundation",
+      "version": "0.2",
+      "hash": "969d12cd953bcf38a03d7d82677a56266e123ea8114269d69e51a2c2a1ae964f"
+    },
+    {
+      "id": "353-frequency-denominator",
+      "version": "0.2",
+      "hash": "758fdc7d1745e95c168488dd69677af208d23785e911819951fd4c544fc29bd5"
+    },
+    {
+      "id": "353-quantity-measurement",
+      "version": "0.1",
+      "hash": "b37a72ff2d710b20807b5c1c6bbcdfa5193f57305c0416263cb2398708f73d76"
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "version": "0.1",
+      "hash": "45dedb48fd5f1270aff475d5e49727bc68b89cfaad38ebb500dcec14932a2a7c"
+    },
+    {
+      "id": "353-energy-power",
+      "version": "0.1",
+      "hash": "db28beba02f1e25d2c5b013862a9e13d0852e1742d496b1b1db7217eb8654a05"
+    },
+    {
+      "id": "353-waves-interactions",
+      "version": "0.1",
+      "hash": "1827044c80c1d6583484786c0bc52632aa0040ee61f9d4814cb93d5b42c18230"
+    },
+    {
+      "id": "en-present-questions",
+      "version": "0.1",
+      "hash": "0cee6afb9685854df1388935f7f43cb537927f164013182d4312ed6e6d8f56ce"
+    },
+    {
+      "id": "pol-quantity-quality",
+      "version": "0.1",
+      "hash": "a7459f8730d30c6c4d24fa9888c4cc3525d2fee2f717891930dbc88a1942b77b"
+    },
+    {
+      "id": "353-public-health-prevention",
+      "version": "0.1",
+      "hash": "bf9be0b1d868d58681f4e049e33e988f9b55c2dd861b76173276cbd66ef4d3b5"
+    },
+    {
+      "id": "en-nouns-countability",
+      "version": "0.1",
+      "hash": "4dcc25739cf760a3bafb5058c48eccd10db1f01bceb78e437fb277f7d5445745"
+    },
+    {
+      "id": "en-pronoun-reference",
+      "version": "0.1",
+      "hash": "20228362394da8470756b777a517a44524262e3f3563da61d0d67a6e166ce5b9"
+    },
+    {
+      "id": "en-articles-foundation",
+      "version": "0.1",
+      "hash": "35abb9b97d3e81efee87c649a538c7b294a1552e975d9bedb0a7c148b7e6d491"
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "version": "0.1",
+      "hash": "836dd2d7265bd4a9b0788193dcb384fd46fc4fe053454edab00f7a779f82eb24"
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "version": "0.1",
+      "hash": "2bc7ae51e530878815da143781c58b5b5c22b2e2c5ba595677317897f89e5008"
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "version": "0.1",
+      "hash": "567ac169679c7e5d203bd5cd7d5f353dcdcc758091eb552f65c66784c216cb19"
+    },
+    {
+      "id": "353-mean-median",
+      "version": "0.1",
+      "hash": "87db8fae18de8b6f0cc1d293780b55d16e433a562153dbf135e98e614f0e263e"
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "version": "0.1",
+      "hash": "8da4f629e15d183b0f5173b7eefaa50f58c051d309bb753ac65a17cb2a7f08af"
+    },
+    {
+      "id": "353-study-design-foundation",
+      "version": "0.1",
+      "hash": "eb565d147b43326823a133f4a0dba24dc2b26e3e3bb7b4ea7262f521d16fd50c"
+    },
+    {
+      "id": "en-present-continuous-foundation",
+      "version": "0.1",
+      "hash": "efb3b48eb66c6c69b5f7bdfa4f113e02cbab53190d20e59224e8870350335e08"
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "version": "0.1",
+      "hash": "46d4a1b9f214b3e03e6e7b97c3366eff29b4c6807da2140787e1955a56c8b747"
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "version": "0.1",
+      "hash": "39b2939c9f632428e3fa01cee1257b05e7c4695bdaa692287cc5c042c34962cc"
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "version": "0.1",
+      "hash": "fefd926211ef7d73a985477700b4ac879659249a7c0311aeef8db14da775acec"
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "hash": "181d6d51f8de54d23535c3152bed74248572c5bd401368c86543f3337757d244"
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "version": "0.1",
+      "hash": "3b2adb0d89ae8ff1aa2fce18e08eeec0f94f70509314941726ce4c673bfc53ca"
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "hash": "3e1622d9020460741318b345f91940285ee46309b4334101c56f03e0056d1d69"
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "version": "0.1",
+      "hash": "32a8115dcabe4d95a42a872afa100cc833483da442731e69414a24ebce6eea8e"
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "version": "0.1",
+      "hash": "11e94854163a0b6cbf357078469fabd8398bc921c278b503ed29cf414245b0e9"
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation",
+      "version": "0.1",
+      "hash": "48c2166eec19f7a027184dbb3b22d7e975af4ee2d6632a8ef1897539e38e5dba"
+    },
+    {
+      "id": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "hash": "6a2378a75f315ad9b1eb3d29cbbcaaec278d8cc80112a79fdbc030d37ec59a8d"
+    },
+    {
+      "id": "en-present-perfect-foundation",
+      "version": "0.1",
+      "hash": "be35a11911fb478a6fe5d8ccea494f38f3d8afba258292f4ccccfecb06460e8b"
+    },
+    {
+      "id": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "hash": "36225cf43d99fa29b5309d58a9c4a579baf788c428bbbb9e7af65368eda316eb"
+    },
+    {
+      "id": "pol-people-individual-history",
+      "version": "0.1",
+      "hash": "e2856cd1e1a947c2d340bf76b118cac269c01b6bb300839a9fcdeed83ee9a1dd"
+    },
+    {
+      "id": "pol-modern-history-entry",
+      "version": "0.1",
+      "hash": "bc6535af1b01f3d4e29c2a3e2d072690e9b62edb311e91007ee8e1177be4fd14"
+    },
+    {
+      "id": "353-ratio-rate-prevalence",
+      "version": "0.1",
+      "hash": "69dc93148be5506318214c3af37a2ea1cffe37ca6dbafbc5f0c65f6fbdc0fa99"
+    },
+    {
+      "id": "353-normal-distribution-foundation",
+      "version": "0.1",
+      "hash": "d3f47bff1fc386e65c99a9e48d80bda47c31718f45a9746be951bb5f6803e685"
+    },
+    {
+      "id": "353-sampling-distribution-se",
+      "version": "0.1",
+      "hash": "8e8f7be8d91a4a933333f0b7752e7c2d0c4625e1314918be26ea82074c07ead6"
+    }
+  ],
+  "originalChangedQuestions": [
+    {
+      "course": "353-ratio-rate-prevalence",
+      "question": {
+        "id": "353-ratio-rate-prevalence-a4",
+        "type": "subjective",
+        "stem": "A地区现患比例较高，能否据此断言新发风险一定更高？说明需要区分的分母、时间及至少一个影响因素。",
+        "answer": "不能；现患用指定时点/期间全体，新发风险用起初未病且可发病者及观察期。病程、生存等也影响现患，需相应发生数据，不能仅由现患推因果。",
+        "rubric": [
+          "对象时间病例定义一致。",
+          "分母包含现患病例，不只健康者。",
+          "期间按独立人去重，明确固定完整人群特例。",
+          "区分现患、新发与人时，不作无依据因果解释。"
+        ],
+        "explanation": "核对指标对象、时间分母和至少一个病程/生存等因素；不要求临床推断。参考要点待专业复核，不给关键词分数。",
+        "difficulty": "application",
+        "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+      }
+    },
+    {
+      "course": "353-ratio-rate-prevalence",
+      "question": {
+        "id": "353-ratio-rate-prevalence-d4",
+        "type": "subjective",
+        "stem": "新报告只写“患病率20%”没有对象和时间。提出三个需补充的信息，并解释为什么不能当未来新发概率。",
+        "answer": "补充人群范围、指定时点或期间、病例定义及分子分母构造（任三合理项）。现患混合新旧及病程，不是起初健康者未来新发概率。",
+        "rubric": [
+          "对象时间病例定义一致。",
+          "分母包含现患病例，不只健康者。",
+          "期间按独立人去重，明确固定完整人群特例。",
+          "区分现患、新发与人时，不作无依据因果解释。"
+        ],
+        "explanation": "核对问题是否针对定义缺口，以及现患与新发风险的边界；可列去重或开放人群分母条件。保存原文待核对，不编后续风险。",
+        "difficulty": "delayed",
+        "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+      }
+    },
+    {
+      "course": "en-vocabulary-retrieval-foundation",
+      "question": {
+        "id": "en-vocabulary-retrieval-foundation-a4",
+        "type": "subjective",
+        "stem": "遮住课文，不看英文提示：写“我学英语”和“读这条笔记”两句英文；再用中文说明哪一步是在主动提取。",
+        "answer": "I study English. / Read the note. 先遮住英文独立写，再核对词义、拼写和人称；仅抄范句不算主动回忆。",
+        "rubric": [
+          "保留独立英文原文，不以选择答案替代生成。",
+          "主体与动词人称一致，study/reads等词形符合句子。",
+          "note与evidence在当前句义和可数性上适当。",
+          "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+        ],
+        "explanation": "参考句不是唯一合法表达；核对I后study原形、read作指令、note作对象及独立生成过程。保留原答案，待逐项核对，不给虚构专业分数。",
+        "difficulty": "application",
+        "errorCauseHint": "没遮答案就声称闭卷掌握。"
+      }
+    },
+    {
+      "course": "en-vocabulary-retrieval-foundation",
+      "question": {
+        "id": "en-vocabulary-retrieval-foundation-d4",
+        "type": "subjective",
+        "stem": "不看英文范句：写“她学习英语”和“两条笔记很短”两句英文；指出你与上次相比是否仍漏第三人称或复数。",
+        "answer": "She studies English. / Two notes are short. 对照studies、notes、are及原始作答，记录实际遗漏。",
+        "rubric": [
+          "保留独立英文原文，不以选择答案替代生成。",
+          "主体与动词人称一致，study/reads等词形符合句子。",
+          "note与evidence在当前句义和可数性上适当。",
+          "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+        ],
+        "explanation": "延迟生成用新主语和复数情境检验词形迁移；允许合理等义句。只有原文和逐项核对能说明本次表现，不外推长期掌握。",
+        "difficulty": "delayed",
+        "errorCauseHint": "没遮答案就声称闭卷掌握。"
+      }
+    },
+    {
+      "course": "en-present-perfect-foundation",
+      "question": {
+        "id": "en-present-perfect-foundation-a4",
+        "type": "subjective",
+        "stem": "把She has written a note.改成否定句和一般疑问句；说明为什么不加does。",
+        "answer": "She has not written a note. / Has she written a note? have/has承担完成助动词功能，否定或前置即可，不另加does，written保留。",
+        "rubric": [
+          "have/has与主语一致。",
+          "过去分词正确，否定疑问不用多余does。",
+          "for/since与时间点/时长匹配，持续状态合理。",
+          "说明明确过去时间限制，允许符合语境的等义答案。"
+        ],
+        "explanation": "核对has位置、not、written及主体；合理缩写hasn't可接受。参考要点供待核对，不因出现has关键词就自动判专业分数。",
+        "difficulty": "application",
+        "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+      }
+    },
+    {
+      "course": "en-present-perfect-foundation",
+      "question": {
+        "id": "en-present-perfect-foundation-d4",
+        "type": "subjective",
+        "stem": "给定live=居住。写“他们已在此居住三年（仍居住）”并改为疑问句；解释为何不用arrived持续三年。",
+        "answer": "They have lived here for three years. / Have they lived here for three years? lived表示持续居住，arrived表示到达瞬间不能直接代替。",
+        "rubric": [
+          "have/has与主语一致。",
+          "过去分词正确，否定疑问不用多余does。",
+          "for/since与时间点/时长匹配，持续状态合理。",
+          "说明明确过去时间限制，允许符合语境的等义答案。"
+        ],
+        "explanation": "核对They-have、lived、for+时长及疑问前置；内容检验新主语迁移，保留原文和遗漏，主观待核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+      }
+    },
+    {
+      "course": "pol-base-superstructure-foundation",
+      "question": {
+        "id": "pol-base-superstructure-foundation-a4",
+        "type": "subjective",
+        "stem": "虚构合作工坊改变占有、分配，又修订权责规则。按对象、关系、限制各写一点分析，不宣称全社会已转型。",
+        "answer": "占有分配是生产关系线索；权责规则可对落实分配起反作用，需看条件；小组织案例不足以证明整个社会形态更替。",
+        "rubric": [
+          "经济基础定义落在生产关系总和而非生产力。",
+          "制度和意识层面按材料分别识别。",
+          "基础制约与反作用、具体条件均说明。",
+          "不作材料外推；参考要点待理论教师核对，不生成官方分值。"
+        ],
+        "explanation": "核对范畴归属、双向关系和外推限制。可提出不同合理条件，但不能用关键词命中冒充准确专业评分。",
+        "difficulty": "application",
+        "errorCauseHint": "拿一个虚构小组织代表完整社会变革。"
+      }
+    },
+    {
+      "course": "pol-base-superstructure-foundation",
+      "question": {
+        "id": "pol-base-superstructure-foundation-d4",
+        "type": "subjective",
+        "stem": "用一个自拟小案例区分工具变化、生产关系变化、制度反作用，并说明案例不能证明什么。",
+        "answer": "例如购设备是工具变化，调整占有分配是关系变化，权责制度帮助执行是反作用；单个案例不能证明全社会已形态更替或唯一因果。",
+        "rubric": [
+          "经济基础定义落在生产关系总和而非生产力。",
+          "制度和意识层面按材料分别识别。",
+          "基础制约与反作用、具体条件均说明。",
+          "不作材料外推；参考要点待理论教师核对，不生成官方分值。"
+        ],
+        "explanation": "新案例须与三层次对应并保留边界。参考答案仅示范要点，独立专业审定未完成，主观原文保留待核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "拿一个虚构小组织代表完整社会变革。"
+      }
+    },
+    {
+      "course": "pol-modern-history-entry",
+      "question": {
+        "id": "pol-modern-history-entry-a4",
+        "type": "subjective",
+        "stem": "用两三句说明1939文本中的近代社会性质和矛盾分析怎样使用；至少列一项不能推出的今天结论。",
+        "answer": "应放回当时外国势力影响和封建关系等历史条件，说明该时期的矛盾；不能因访问电子版就说今天仍同一社会性质或各阶段主要矛盾不变。",
+        "rubric": [
+          "时间与事件对应准确。",
+          "原作年代、网页资料和读取形态分清。",
+          "社会性质用关系和过程解释，无50%误读。",
+          "矛盾分析限定历史背景，不虚构原话或官方评分。"
+        ],
+        "explanation": "核对历史语境、概念和外推限制。不能编造原著引文或现代政策，接受等义解释，主观待专业复核。",
+        "difficulty": "application",
+        "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+      }
+    },
+    {
+      "course": "pol-modern-history-entry",
+      "question": {
+        "id": "pol-modern-history-entry-d4",
+        "type": "subjective",
+        "stem": "闭卷写本课两件事件的时间，再说明现代展签与1939理论电子文本各能支持什么、不能证明什么。",
+        "answer": "1840鸦片战争爆发；1842-08-29南京条约签订。展签支持馆方所记日期但不等于原手稿；1939文本支持当时理论分析，不证明2028政策或所有阶段不变。",
+        "rubric": [
+          "时间与事件对应准确。",
+          "原作年代、网页资料和读取形态分清。",
+          "社会性质用关系和过程解释，无50%误读。",
+          "矛盾分析限定历史背景，不虚构原话或官方评分。"
+        ],
+        "explanation": "核对日期对应、来源层次和历史边界三个方面。独立原文保留，参考要点不等于专家审定或官方分值。",
+        "difficulty": "delayed",
+        "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+      }
+    },
+    {
+      "course": "353-normal-distribution-foundation",
+      "question": {
+        "id": "353-normal-distribution-foundation-a4",
+        "type": "subjective",
+        "stem": "某等待时间资料多数近0、少数极长。有人只因n=500说原始数据必正态。指出两项问题并说明应补什么检查。",
+        "answer": "明显偏斜与钟形模型可能不符；n大不改变个体分布，均值抽样分布是另一对象。应看分布、数据生成与异常/混合因素，不能仅凭样本数套模型。",
+        "rubric": [
+          "概率用区间面积解释，区分密度和舍入。",
+          "z减均数除SD，参数单位一致且σ>0。",
+          "累计值之差或补集正确，承认近似。",
+          "模型条件与个体/均值区分，非临床结论。"
+        ],
+        "explanation": "核对模型与数据、个体与均值两个区分；可提出图形和背景检查，不要求本课未教的正式检验，主观待专业核对。",
+        "difficulty": "application",
+        "errorCauseHint": "样本变大就宣称原始数据必正态。"
+      }
+    },
+    {
+      "course": "353-normal-distribution-foundation",
+      "question": {
+        "id": "353-normal-distribution-foundation-d4",
+        "type": "subjective",
+        "stem": "新资料混合两类人群出现两个峰。写出为何不能未经核验套单一正态，并区分增加样本和研究均值抽样分布。",
+        "answer": "混合两峰不自然符合单峰正态，需分析分组和生成过程。增加样本不把原始个体变正态；均值抽样分布是重复抽样统计量的分布，须另审条件。",
+        "rubric": [
+          "概率用区间面积解释，区分密度和舍入。",
+          "z减均数除SD，参数单位一致且σ>0。",
+          "累计值之差或补集正确，承认近似。",
+          "模型条件与个体/均值区分，非临床结论。"
+        ],
+        "explanation": "核对多峰的模型风险和两个分布对象，不把图形检查说成已证明所有分布；参考要点待核对，不生成专业评分。",
+        "difficulty": "delayed",
+        "errorCauseHint": "样本变大就宣称原始数据必正态。"
+      }
+    },
+    {
+      "course": "353-sampling-distribution-se",
+      "question": {
+        "id": "353-sampling-distribution-se-a4",
+        "type": "subjective",
+        "stem": "研究把同一人多次记录当独立样本，称n大于30所以s/√n一定正确且没有偏倚。指出至少三处问题。",
+        "answer": "同人记录可能相关，不能直接当IID；n30不保证精确正态或公式设计适用；SE小不排除系统偏倚，需考虑依赖结构和研究设计。",
+        "rubric": [
+          "统计对象和每份n准确，非重复次数。",
+          "公式、量纲、SD与SE的解释一致。",
+          "样本量缩放条件固定且不宣称消除偏倚。",
+          "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+        ],
+        "explanation": "核对相关性、近似门槛和偏倚区别，不要求给复杂修正式。参考要点待专业核对，不自动评分。",
+        "difficulty": "application",
+        "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+      }
+    },
+    {
+      "course": "353-sampling-distribution-se",
+      "question": {
+        "id": "353-sampling-distribution-se-d4",
+        "type": "subjective",
+        "stem": "新总体明显偏斜，抽取样本均数。说明何时可讨论CLT近似、何时是精确正态，并说明原始数据是否随n自动变正态。",
+        "answer": "IID有限方差等经典条件下随n增加可讨论均数近似；总体正态且独立取样时均数精确正态。无任意n30保证，原始个体分布不因n改变。",
+        "rubric": [
+          "统计对象和每份n准确，非重复次数。",
+          "公式、量纲、SD与SE的解释一致。",
+          "样本量缩放条件固定且不宣称消除偏倚。",
+          "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+        ],
+        "explanation": "核对精确与近似、必要条件和分布对象。允许说明重尾收敛慢等补充但不强制，本课主观原文待教师核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+      }
+    },
+    {
+      "course": "en-subject-verb-agreement",
+      "question": {
+        "id": "sva-d4",
+        "type": "subjective",
+        "difficulty": "application",
+        "stem": "隔日：The messages from the visitor is short. 找出主语核心，改错并说明原因。（message=消息，from=来自，short=简短）",
+        "answer": "核心为复数messages，应改为The messages from the visitor are short. 来自访客的消息很简短。from the visitor只是补充来源，不使主语变单数。",
+        "explanation": "迁移时干扰方向与label on jars相反：这次主语复数、修饰短语单数。核对核心、are和理由，不根据最近名词套答案。",
+        "rubric": [
+          "指出messages为核心复数",
+          "is改are",
+          "说明from the visitor为修饰语",
+          "句义为来自访客的消息简短"
+        ]
+      }
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "question": {
+        "id": "unc-d4",
+        "type": "subjective",
+        "difficulty": "application",
+        "stem": "隔日：一份报告只写‘10±0.1 cm，所以真值95%在里面’。列出至少两项应追问的信息，并评价结论。",
+        "answer": "需查被测量与条件、0.1属于何种不确定度或区间、纳入来源及模型/覆盖说明等。没有这些不能仅凭±认定95%，也不能断言结果一定错误。",
+        "explanation": "考查信息不足的判别，不要求未教授的覆盖因子求法。",
+        "rubric": [
+          "量和条件",
+          "区间/不确定度类型",
+          "来源或覆盖说明",
+          "结论证据不足而非武断错误"
+        ]
+      }
+    }
+  ]
+}

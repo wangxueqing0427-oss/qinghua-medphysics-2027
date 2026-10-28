@@ -1,0 +1,253 @@
+{
+  "revision": "rubric-r1-2026-10-28",
+  "baseline": "c0d4b5d6ce125cbb1fa5b0bf54416a8ddadc7e29",
+  "mode": "isolated-content-only",
+  "approved": false,
+  "changes": [
+    {
+      "course": "353-ratio-rate-prevalence",
+      "questionId": "353-ratio-rate-prevalence-a4",
+      "issue": "强加期间去重/固定人群条件，却缺新发风险分母和影响因素的明确核对。",
+      "rubric": [
+        "不能仅由较高现患比例断言新发风险更高。",
+        "区分现患的指定时点/期间人群分母与累计风险的期初未患目标病且有发生可能者分母。",
+        "说明现患时间范围与新发风险观察期，不把两者混为同一过程。",
+        "至少给出病程、无治愈生存等一个合理影响因素，并说明还需发生数据；不要求额外写期间去重或人时公式。"
+      ],
+      "sources": [
+        "CDC3"
+      ],
+      "acceptedBoundary": "用同病新发不同、病程不同均可解释现患水平；不要求因果推断术语或统一固定群体分母。"
+    },
+    {
+      "course": "353-ratio-rate-prevalence",
+      "questionId": "353-ratio-rate-prevalence-d4",
+      "issue": "题干任三项信息被通用期间计算清单替代。",
+      "rubric": [
+        "从人群/地域范围、时点或期间、目标病及病例定义、分子构造、分母范围或统计方法中提出三项不同且合理的信息；同义重复不另计。",
+        "说明这些信息用于界定20%的含义；不强制某一唯一三项组合。",
+        "说明现患包含新旧病例并受病程等影响，不能把它当作期初未患目标病者未来观察期的新发概率。",
+        "期间去重或开放人群分母可作适当补充，不是所有合格答案的必备项；未明确病例定义时不得臆测未来风险。"
+      ],
+      "sources": [
+        "CDC3"
+      ],
+      "acceptedBoundary": "可答对象、日期、病例定义等；不能把分子分母必须各单列当唯一答案。"
+    },
+    {
+      "course": "en-vocabulary-retrieval-foundation",
+      "questionId": "en-vocabulary-retrieval-foundation-a4",
+      "issue": "要求未在题干出现的evidence、词义解释或不会词清单。",
+      "rubric": [
+        "独立写出“I study English.”或在原意和任务范围内的等义句，主体、动词及English对应。",
+        "独立写出“Read the note.”等保留读与笔记对象的合理指令句。",
+        "用中文说明先遮住英文、从提示独立写出，再核对，才是主动提取；抄写不算。",
+        "只按本题两句及提取过程核对，不额外要求使用evidence、列音标或解释四词全部义项。"
+      ],
+      "sources": [
+        "BC-simple"
+      ],
+      "acceptedBoundary": "合理等义指令、标点差异可接受；不凭此评价发音或词汇量。"
+    },
+    {
+      "course": "en-vocabulary-retrieval-foundation",
+      "questionId": "en-vocabulary-retrieval-foundation-d4",
+      "issue": "通用词义清单遗漏本题notes/are与实际遗漏对照，额外要求evidence。",
+      "rubric": [
+        "写出“She studies English.”等保留她学习英语的句子，studies与主语一致。",
+        "写出“Two notes are short.”等保留两条笔记和简短含义的句子，notes及are正确。",
+        "依据本人本次与可用的上次原答案说明是否仍漏第三人称或复数；若无上次记录，明确无法比较，仍核对本次。",
+        "不强制使用evidence、读音或其他未问词义；允许保留原意的等义表达。"
+      ],
+      "sources": [
+        "BC-simple"
+      ],
+      "acceptedBoundary": "无上次记录不能逼迫编造；现有原文对照而非系统猜测错因。"
+    },
+    {
+      "course": "en-present-perfect-foundation",
+      "questionId": "en-present-perfect-foundation-a4",
+      "issue": "for/since和明确过去时间是其他考点，本题未要求。",
+      "rubric": [
+        "否定句为“She has not written a note.”，接受hasn't；保留written和对象。",
+        "一般疑问为“Has she written a note?”，has前置且written保持分词。",
+        "说明has已作完成助动词，否定/疑问不用再加does，不退成write。",
+        "不要求本题额外给for/since或过去时间例句；等义缩写可接受。"
+      ],
+      "sources": [
+        "BC-perfect"
+      ],
+      "acceptedBoundary": "保持原句命题和两种改写，不强制无关时间状语。"
+    },
+    {
+      "course": "en-present-perfect-foundation",
+      "questionId": "en-present-perfect-foundation-d4",
+      "issue": "额外要求明确过去时间与否定规则，错因提示仍指旧题written。",
+      "rubric": [
+        "写出“They have lived here for three years.”，保留仍居住语境、They-have、lived及for+三年。",
+        "疑问为“Have they lived here for three years?”，助动词前置、分词保持。",
+        "解释arrived表示到达事件，不能直接代替lived表达本题持续三年的居住。",
+        "不额外要求否定句或结束过去时间例句；承认不同语境下for并不一律要求完成时。"
+      ],
+      "sources": [
+        "BC-perfect"
+      ],
+      "acceptedBoundary": "接受They've lived的缩写；不把到达/居住差别扩成所有动词通则。"
+    },
+    {
+      "course": "pol-base-superstructure-foundation",
+      "questionId": "pol-base-superstructure-foundation-a4",
+      "issue": "强制制度/意识两层和社会整体定义，题内并无意识材料。",
+      "rubric": [
+        "把题给占有、分配变化识别为生产关系层次的线索，不把工具数量当作该关系本身。",
+        "结合权责规则落实分配的可能作用分析关系，并说明需看具体条件，不能保证效果。",
+        "说明单个虚构工坊不足以证明整个社会形态已经更替。",
+        "不要求补造题内没有的意识材料或逐字背全社会定义；理论框架下的等义分析可接受。"
+      ],
+      "sources": [
+        "Engels1890"
+      ],
+      "acceptedBoundary": "小组织为教学类比，不能据此认定它本身就是社会整体经济基础/上层建筑。"
+    },
+    {
+      "course": "pol-base-superstructure-foundation",
+      "questionId": "pol-base-superstructure-foundation-d4",
+      "issue": "原rubric未直接检查工具变化，又强制题干未问意识层面。",
+      "rubric": [
+        "自拟案例中分别指出工具/技术变化、占有分工分配等生产关系变化。",
+        "指出案例中规则或制度如何可能影响关系的落实，说明具体作用及条件。",
+        "说明小案例不能证明全社会形态更替或唯一因果。",
+        "接受其他合理案例，不强制另加意识形态实例；保留教学类比与社会整体范畴的边界。"
+      ],
+      "sources": [
+        "Engels1890"
+      ],
+      "acceptedBoundary": "不以术语出现替代具体对应；制度归属仍待理论专业复核。"
+    },
+    {
+      "course": "pol-modern-history-entry",
+      "questionId": "pol-modern-history-entry-a4",
+      "issue": "题干要求历史语境和今天外推边界，却额外要求两事件日期/资料形态。",
+      "rubric": [
+        "将1939文本的社会性质及矛盾分析放回当时外国势力影响、社会关系变化等历史条件。",
+        "说明相关分析针对所述历史时期，不能把文本中的当时当成今天。",
+        "至少给一项不能推出的今天结论，如今日社会性质不变、各阶段主要矛盾恒定。",
+        "不额外要求背1842具体日期或交代展签形态；不虚构原著引文，接受等义解释。"
+      ],
+      "sources": [
+        "Mao1939"
+      ],
+      "acceptedBoundary": "不要求当代政策答案；不把社会性质当50%数值定义。"
+    },
+    {
+      "course": "pol-modern-history-entry",
+      "questionId": "pol-modern-history-entry-d4",
+      "issue": "未明确核对两日期及两来源，反而要求未问的社会性质解释。",
+      "rubric": [
+        "两事件对应：1840年鸦片战争爆发；1842年8月29日《南京条约》签订，允许等义日期格式。",
+        "区分现代馆方展签/复制件介绍与原始手稿；它支持馆方所记日期，不表示已读条约原件。",
+        "说明1939电子文本是历史理论文献的转录，可支持当时分析，不能直接证明2028政策或所有阶段不变。",
+        "不额外要求解释50%误读或重述社会性质全部内容；不虚构未读取版本和引文。"
+      ],
+      "sources": [
+        "Mao1939",
+        "Museum1842"
+      ],
+      "acceptedBoundary": "电子转录不是手稿核验，日期与事件都需对应。"
+    },
+    {
+      "course": "353-normal-distribution-foundation",
+      "questionId": "353-normal-distribution-foundation-a4",
+      "issue": "密度面积、z公式、累计差值与本题模型批判无关。",
+      "rubric": [
+        "指出近0集中且少数极长提示偏斜，单一正态模型需检查，不能仅因样本大直接假定。",
+        "指出n=500不会让原始个体分布自动正态，均值抽样分布是不同对象。",
+        "提出合理检查，如分布图、生成过程、异常/混合来源；无需给未教授的正式检验。",
+        "不要求本题计算z或面积；图形特征提示风险，不等于仅凭描述已完成正式分布检验。"
+      ],
+      "sources": [
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "acceptedBoundary": "可用合理图形或背景检查，不指定唯一检验、不硬判临床变量模型。"
+    },
+    {
+      "course": "353-normal-distribution-foundation",
+      "questionId": "353-normal-distribution-foundation-d4",
+      "issue": "复用计算rubric，未逐项检查混合多峰和两分布区别。",
+      "rubric": [
+        "指出两类混合出现双峰与单峰正态模型可能不符，需检查分组与数据生成过程。",
+        "说明增加样本不使原始个体分布自动正态。",
+        "说明均值抽样分布来自重复抽样统计量，需另审抽样/近似条件。",
+        "不强制计算z、概率面积或实施未教授的正式检验；不因双峰描述就声称已证明所有分布。"
+      ],
+      "sources": [
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "acceptedBoundary": "混合数据可合理分组或审查模型，具体方法待进一步课程。"
+    },
+    {
+      "course": "353-sampling-distribution-se",
+      "questionId": "353-sampling-distribution-se-a4",
+      "issue": "强制样本量缩放、计算量纲等未问题，三处实际问题核对不清。",
+      "rubric": [
+        "指出同一人的重复观测可能相关，不能未经检查当独立同分布样本套s/√n。",
+        "指出n>30不是任何总体或设计都保证精确正态或公式适用的万能门槛。",
+        "指出标准误小或n大不保证没有系统偏倚，需核对研究设计与测量机制。",
+        "对应上述至少三处问题作解释；不要求给复杂相关修正式、实际SE数值或样本量四倍计算。"
+      ],
+      "sources": [
+        "UM-SE",
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "acceptedBoundary": "不因标签n大而推无偏，也不要求本课未教的修正公式。"
+    },
+    {
+      "course": "353-sampling-distribution-se",
+      "questionId": "353-sampling-distribution-se-d4",
+      "issue": "复用SE计算rubric，题目核心是精确/近似与原始分布。",
+      "rubric": [
+        "说明经典IID、有限方差等条件下，随每份样本n增大可讨论均值的CLT近似；不把n=30当通用精确保证。",
+        "说明总体正态且本课独立同分布取样条件下，均值抽样分布精确正态。",
+        "说明原始个体分布不因样本量增加而自动正态，不能与均值分布混同。",
+        "不要求计算SE、缩放或量纲；重尾/相关设计可作适当补充，不是必备关键词。"
+      ],
+      "sources": [
+        "UM-SE",
+        "NIST-normal",
+        "OpenStax7"
+      ],
+      "acceptedBoundary": "IID/有限方差的严谨充分条件需保留待统计复核，不扩大教材简述为任意分布。"
+    },
+    {
+      "course": "en-subject-verb-agreement",
+      "questionId": "sva-d4",
+      "issue": "题干没有要求翻译，rubric把中文译句设为独立核对项。",
+      "rubric": [
+        "指出主语核心是复数messages。",
+        "把is改成are，保留The messages from the visitor are short.的结构。",
+        "说明from the visitor修饰messages，visitor不决定主句谓语单复数。"
+      ],
+      "sources": [
+        "BC-simple"
+      ],
+      "acceptedBoundary": "中文翻译可帮助理解，但没有译出中文不能单独算漏答。"
+    },
+    {
+      "course": "353-uncertainty-foundation",
+      "questionId": "unc-d4",
+      "issue": "题干至少追问两项，rubric却可能被解释为四类全部必答。",
+      "rubric": [
+        "至少追问两项不同的合理信息，例如被测量/条件、0.1的类型、所含来源、模型或覆盖说明；同义重复不另计，不要求列全。",
+        "说明仅凭±0.1不能认定95%覆盖或真值概率，需要相应定义及依据。",
+        "区分证据不足与一定错误，不因未给信息就武断否定全部报告。"
+      ],
+      "sources": [
+        "Prompt-only"
+      ],
+      "acceptedBoundary": "允许任意两项合理追问；不要求本课未教的覆盖因子求解。"
+    }
+  ]
+}

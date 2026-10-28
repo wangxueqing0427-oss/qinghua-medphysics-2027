@@ -1,0 +1,113 @@
+{
+  "accessedOn": "2026-10-28",
+  "reading": "只登记实际返回的正文范围，无PDF或截图原页宣称",
+  "sources": [
+    {
+      "id": "CDC3",
+      "institution": "US CDC",
+      "title": "Principles of Epidemiology, Lesson 3 Section 2",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html",
+      "version": "页面Last Reviewed 2012-05-18；历史基础教材",
+      "read": "HTML正文：Risk / More About Denominators（约28–58行）；Prevalence / Properties（142–178行）",
+      "supports": "区分期初有风险分母与现患人群；现患含新旧病例并受病程影响。",
+      "limits": "不凭本页批准开放期间分母的所有统计口径；不作为2028最终考试要求。"
+    },
+    {
+      "id": "BC-perfect",
+      "institution": "British Council",
+      "title": "Present perfect",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-perfect",
+      "version": "公开语法参考，未显示正式出版日期",
+      "read": "HTML正文7–28、71–116行，未采用读者评论",
+      "supports": "have/has+分词、持续至当前语境、时间状语边界及问句实例。",
+      "limits": "本轮为限定例句核对，不审尽所有语域/例外。"
+    },
+    {
+      "id": "BC-simple",
+      "institution": "British Council",
+      "title": "Present simple",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+      "version": "公开语法参考，未显示正式出版日期",
+      "read": "HTML正文8–38、66–77行",
+      "supports": "I后原形、第三人称单数形式、do/does及主语疑问边界。",
+      "limits": "不据此认定本次翻译是唯一自然表达或发音已核验。"
+    },
+    {
+      "id": "NIST-normal",
+      "institution": "NIST/SEMATECH",
+      "title": "e-Handbook 1.3.6.6.1 Normal Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm",
+      "version": "在线手册，无本页明确发布日期",
+      "read": "HTML正文8–32行，非图像测量",
+      "supports": "正态模型参数与模型检查、CLT讨论的对象是均值抽样分布。",
+      "limits": "该页CLT简述未列全充分条件，不能独立支持任意分布万能门槛；经典IID有限方差的严谨边界仍待统计专业核对。"
+    },
+    {
+      "id": "OpenStax7",
+      "institution": "OpenStax",
+      "title": "Introductory Statistics 2e §7.1",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/7-1-the-central-limit-theorem-for-sample-means-averages",
+      "version": "2e；本轮不新增未核实出版日期",
+      "read": "HTML正文23–39及示例54–73行",
+      "supports": "重复样本均值为抽样分布；n为每份样本大小；SE与原始SD不同。",
+      "limits": "本轮读取的示例/简述未独立证明所有CLT条件。保留条件，不把示例n25用于任意总体保证。"
+    },
+    {
+      "id": "UM-SE",
+      "institution": "University of Michigan Statistics / course author Kerby Shedden",
+      "title": "Introduction to Data Science: Standard errors",
+      "url": "https://dept.stat.lsa.umich.edu/~kshedden/introds/topics/standard_errors/",
+      "version": "公开教学网页，未显示正式出版日期",
+      "read": "HTML正文33–37行；未将未读取后段登记为证据",
+      "supports": "估计误差与测量误差不同，不能把SE当实际已知误差。",
+      "limits": "本次可见段不能独立确认全部相关设计公式或偏倚命题；修订只删除无关要求，不替换旧知识答案。"
+    },
+    {
+      "id": "Engels1890",
+      "institution": "Marxists Internet Archive 中文文库（原著电子转录）",
+      "title": "恩格斯致约瑟夫·布洛赫",
+      "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+      "version": "原作1890-09-21至22；译本/网页发布日期未单独核定",
+      "read": "HTML正文16–20行",
+      "supports": "经济基础与其他因素相互作用、反对经济因素唯一决定式机械应用。",
+      "limits": "电子转录非手稿；不批准工坊规则自动等同社会整体上层建筑的类比。"
+    },
+    {
+      "id": "Mao1939",
+      "institution": "Marxists Internet Archive 中文文库（原著电子转录）",
+      "title": "中国革命和中国共产党",
+      "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193912.htm",
+      "version": "原作1939-12；电子转录，不声称原件或指定正式校勘版已核对",
+      "read": "题头4–8行、第一章第三节29–45行",
+      "supports": "1840后变化的历史过程、原作的当时语境，不能直接移作今天结论。",
+      "limits": "特定时期矛盾完整表述本轮未重新全篇核定，继续待核；不新改参考答案。"
+    },
+    {
+      "id": "Museum1842",
+      "institution": "南京条约史料陈列馆 / 南京静海寺纪念馆",
+      "title": "《南京条约》复制件",
+      "url": "https://njjhs.cn/Collection/54.html",
+      "version": "馆方网页，未显示发布日期",
+      "read": "HTML123–131行",
+      "supports": "馆方记载1842-08-29签订及复制件形态。",
+      "limits": "不声称读取条约原件。"
+    },
+    {
+      "id": "Prompt-only",
+      "institution": "本项目冻结题干及课程",
+      "title": "任务要求对齐证据",
+      "url": null,
+      "version": "基线c0d4b5d6，原课0.1",
+      "read": "unc-d4完整题干、参考答案及本课讲解第四段；sva-d4等题干完整读取",
+      "supports": "题干要求至少两项、不要求译文等，可直接用原题证明评分任务越界。",
+      "limits": "不是外部知识权威；只支撑任务对齐，不能独立证明计量学内容。"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://dept.stat.lsa.umich.edu/~kshedden/introds/topics/large_sample_approximations/",
+      "result": "web工具Internal Error / not accessible；未取得正文",
+      "action": "不重试、不计为证据，不据此升级CLT条件核实"
+    }
+  ]
+}
