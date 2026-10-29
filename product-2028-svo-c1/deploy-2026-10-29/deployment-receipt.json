@@ -1,0 +1,237 @@
+{
+  "runId": "40874320030",
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40874320030",
+  "testHarnessSHA": "9931f85a4d0f03d5664beefb4764c5af76111f78",
+  "deployedSourceSHA": "03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+  "site": "https://qh2028-svo-c1-test.pages.dev/",
+  "assets": {
+    "at": "2026-10-29T12:34:46.231Z",
+    "testHarnessSHA": "9931f85a4d0f03d5664beefb4764c5af76111f78",
+    "deployedSourceSHA": "03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+    "site": "https://qh2028-svo-c1-test.pages.dev/",
+    "assets": [
+      {
+        "path": "index.html",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/",
+        "redirected": true,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "fbbebc55e0ff324a6be5585360d4017f028ec89a2863bb81be69d3330e88a408",
+        "match": true
+      },
+      {
+        "path": "app.css",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/app.css",
+        "redirected": false,
+        "contentType": "text/css; charset=utf-8",
+        "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+        "match": true
+      },
+      {
+        "path": "icon.svg",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/icon.svg",
+        "redirected": false,
+        "contentType": "image/svg+xml",
+        "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+        "match": true
+      },
+      {
+        "path": "manifest.json",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/manifest.json",
+        "redirected": false,
+        "contentType": "application/json",
+        "sha256": "3d855145c0d83cfd25fc67fa375a13bafe3ada05427dd63e965ac5d8d831bdeb",
+        "match": true
+      },
+      {
+        "path": "course-engine.js",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/course-engine.js",
+        "redirected": false,
+        "contentType": "application/javascript",
+        "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+        "match": true
+      },
+      {
+        "path": "profile-repository.js",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/profile-repository.js",
+        "redirected": false,
+        "contentType": "application/javascript",
+        "sha256": "10e4df863f635e068d1e11e9b25dd20d644a1d1ef43b0ccdf756a928c8bc0b90",
+        "match": true
+      },
+      {
+        "path": "learning-controller.js",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/learning-controller.js",
+        "redirected": false,
+        "contentType": "application/javascript",
+        "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+        "match": true
+      },
+      {
+        "path": "pilot-ui.js",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/pilot-ui.js",
+        "redirected": false,
+        "contentType": "application/javascript",
+        "sha256": "5c8ddda18c86b30934e4f60adf75e395498f569f21308a11964db5d46476b2a7",
+        "match": true
+      },
+      {
+        "path": "representative-courses.json",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/representative-courses.json",
+        "redirected": false,
+        "contentType": "application/json",
+        "sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af",
+        "match": true
+      },
+      {
+        "path": "sw.js",
+        "status": 200,
+        "finalUrl": "https://qh2028-svo-c1-test.pages.dev/sw.js",
+        "redirected": false,
+        "contentType": "application/javascript",
+        "sha256": "c3654af7478f13892b0412c88032c5051e77c8e5b4f906e3726d29bcda6cd280",
+        "match": true
+      }
+    ],
+    "allTenMatch": true,
+    "frozenLocalAssetsMatch": true,
+    "original47CourseHashesMatch": true,
+    "expertApprovals": 0
+  },
+  "browsers": [
+    {
+      "scope": "Actual Linux chromium with iPhone viewport; NOT physical iPhone",
+      "testedSHA": "9931f85a4d0f03d5664beefb4764c5af76111f78",
+      "deployedSourceSHA": "03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+      "site": "https://qh2028-svo-c1-test.pages.dev/",
+      "browserName": "chromium",
+      "passed": 7,
+      "failed": 0,
+      "results": [
+        {
+          "name": "start actual Linux browser with iPhone viewport",
+          "pass": true
+        },
+        {
+          "name": "one lesson teaching and actual closed recall survive page close",
+          "pass": true
+        },
+        {
+          "name": "objective wrong answer displays full explanation and saved cause",
+          "pass": true
+        },
+        {
+          "name": "subjective exact original text with whitespace; reference and self-check only",
+          "pass": true
+        },
+        {
+          "name": "wrong book and due review via synthetic clock, original error retained",
+          "pass": true
+        },
+        {
+          "name": "real browser JSON export and independent restore preserve all records",
+          "pass": true
+        },
+        {
+          "name": "cached offline reload retains profile and course progress",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "scope": "Actual Linux webkit with iPhone viewport; NOT physical iPhone",
+      "testedSHA": "9931f85a4d0f03d5664beefb4764c5af76111f78",
+      "deployedSourceSHA": "03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+      "site": "https://qh2028-svo-c1-test.pages.dev/",
+      "browserName": "webkit",
+      "passed": 7,
+      "failed": 0,
+      "results": [
+        {
+          "name": "start actual Linux browser with iPhone viewport",
+          "pass": true
+        },
+        {
+          "name": "one lesson teaching and actual closed recall survive page close",
+          "pass": true
+        },
+        {
+          "name": "objective wrong answer displays full explanation and saved cause",
+          "pass": true
+        },
+        {
+          "name": "subjective exact original text with whitespace; reference and self-check only",
+          "pass": true
+        },
+        {
+          "name": "wrong book and due review via synthetic clock, original error retained",
+          "pass": true
+        },
+        {
+          "name": "real browser JSON export and independent restore preserve all records",
+          "pass": true
+        },
+        {
+          "name": "cached offline reload retains profile and course progress",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "expertApprovals": 0,
+  "scope": "Actual deployed HTTPS site; Linux Chromium + mobile-view WebKit; synthetic local profiles, NOT physical iPhone",
+  "pending": [
+    "Goal2 separate delayed subjective question",
+    "Real iPhone Safari/PWA final acceptance"
+  ],
+  "cloudflare": {
+    "project": "qh2028-svo-c1-test",
+    "deploymentId": "b21ad0dd-f5ee-4697-b634-11f5de6f45fa",
+    "deploymentAlias": "https://b21ad0dd.qh2028-svo-c1-test.pages.dev/",
+    "publicUrl": "https://qh2028-svo-c1-test.pages.dev/",
+    "mode": "Pages Direct Upload; existing account; no purchased domain, plan upgrade, or new cloud data storage",
+    "environmentNote": "Cloudflare UI shows Production/main for this new test project; this is NOT a push to the repository main branch"
+  },
+  "upload": {
+    "files": 10,
+    "zipSha256": "707e164db6b5809e1c4ecaeefda1f20e8e5e162ad5af7c37a780bbd03a0d7018",
+    "onlyWhitelistedAssets": true
+  },
+  "artifact": {
+    "id": 12896713725,
+    "sha256": "6e32960bb30fcbee0e06a310829ee690b7e1e6401423ce89d6327b2c7b417dfe",
+    "retentionDays": 7
+  },
+  "privacy": {
+    "realLearningDataReadOrWritten": false,
+    "syntheticBrowserProfilesOnly": true,
+    "credentialsOrPrivateFilesUploaded": false
+  },
+  "remaining": [
+    "Goal2 lacks a separate delayed subjective transfer question",
+    "Physical iPhone Safari/PWA acceptance outstanding",
+    "No new deployed-version upgrade/migration test; first release only",
+    "Independent professional approvals remain 0"
+  ],
+  "operationalFailures": [
+    {
+      "kind": "verification client",
+      "detail": "First asset check rejected Cloudflare index.html -> / same-origin canonical redirect; allowed same-origin follow, hashes still required."
+    },
+    {
+      "kind": "local environment",
+      "detail": "Restricted network EACCES; authorized read-only network check with normal certificate validation succeeded."
+    }
+  ],
+  "candidateFilesChangedSinceCI": false,
+  "stopped": true
+}
