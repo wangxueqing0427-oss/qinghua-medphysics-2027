@@ -1,0 +1,13 @@
+{
+  "runId":40892656548,
+  "url":"https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40892656548",
+  "testedSHA":"4f87656f5d19ed2c5074585c13a77ef78a20de0f",
+  "oldProductSourceSHA":"03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+  "reproduced":[{"browser":"chromium","offlineReloadFailed":true,"onlineDataSurvived":true},{"browser":"webkit","offlineReloadFailed":true,"onlineDataSurvived":true}],
+  "fixture":"One initial real precache icon.svg request returns503; HTTP listener and all TCP connections then closed; Node fetch confirms unreachable. No browser setOffline or request routing.",
+  "meaning":"Old failure mechanism reproduced; NOT confirmation of unique cause of the physical iPhone incident and NOT passing release acceptance",
+  "artifactId":12905348031,
+  "artifactSha256":"d9fd70e6bf91da1c1be9cadac8649f82dec246deed0b252e101fb1a8f6db1e18",
+  "evidence":"baseline-reproduction.json, screenshots and traces inside original artifact; preserve original run, do not overwrite",
+  "expertApprovals":0
+}

@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
@@ -28,8 +29,10 @@ jobs:
       - name: Existing browser dependencies
         working-directory: product-2028-ci
         run: npm install --ignore-scripts --no-audit --no-fund
-      - name: Reproduce old failure without touching the public site
-        run: node product-2028-svo-offline-r1/reproduce.cjs
+      - name: Check original files, course and database contract protection
+        run: node product-2028-svo-offline-r1/protect.cjs
+      - name: Real Chromium and mobile WebKit TCP-outage regression
+        run: node product-2028-svo-offline-r1/regress.cjs
       - name: Preserve baseline failure evidence
         if: always()
         uses: actions/upload-artifact@v4
