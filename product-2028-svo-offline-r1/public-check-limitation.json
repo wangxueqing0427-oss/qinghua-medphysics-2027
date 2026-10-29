@@ -1,0 +1,8 @@
+{
+  "purpose":"Optional read-only cross-check that the public test site still serves its old source",
+  "attemptedFiles":["index.html","pilot-ui.js","sw.js"],
+  "result":"No hash result obtained: Node HTTPS connection timed out",
+  "error":"UND_ERR_CONNECT_TIMEOUT",
+  "conclusion":"Do not infer website downtime or a changed deployment from this network timeout. No Cloudflare write, upload or deployment was performed in this repair task.",
+  "retry":"Not repeated; public replacement explicitly unauthorized this round"
+}

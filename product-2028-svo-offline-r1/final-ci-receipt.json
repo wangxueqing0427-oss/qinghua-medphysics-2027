@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-29",
+  "branch": "fix/2026-10-29-svo-offline",
+  "testedSHA": "53439b9fedbfca8fdd000cdc9c2ff59c160d4f90",
+  "runId": 40894120807,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40894120807",
+  "conclusion": "success",
+  "protection": {
+    "sha": "53439b9fedbfca8fdd000cdc9c2ff59c160d4f90",
+    "sourceBaseline": "03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+    "allOriginalTrackedFilesUnchanged": true,
+    "all47CourseHashesMatch": true,
+    "oldCandidateTenAssetsUnchanged": true,
+    "courseVersionAndDatabaseUnchanged": true,
+    "onlyThreeNewCandidateFilesChanged": true,
+    "actualLearnerDataInspected": false,
+    "expertApprovals": 0,
+    "deployed": false
+  },
+  "regression": {
+    "sha": "53439b9fedbfca8fdd000cdc9c2ff59c160d4f90",
+    "scope": "Actual browser TCP transport outage; no setOffline or route mocking. Not physical iPhone radio/OS network disable.",
+    "passed": 14,
+    "failed": 0,
+    "rows": [
+      {
+        "browser": "chromium",
+        "name": "first-online install failure is visible, never false offline-ready; actual recall still saved",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "online retry verifies active controller and complete cache before showing ready",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "actual wrong answer and draft at question2 survive true unavailable transport refresh",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "offline new navigation with query/index and page-close restart use canonical shell",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "browser-process close and reopen retains worker, cached shell, and exact learning data",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "cache-loss warning and network repair never reset progress; backup restores independently",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "old published SW -> explicit update -> new controller retains entire profile and answers",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "first-online install failure is visible, never false offline-ready; actual recall still saved",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "online retry verifies active controller and complete cache before showing ready",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "actual wrong answer and draft at question2 survive true unavailable transport refresh",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "offline new navigation with query/index and page-close restart use canonical shell",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "browser-process close and reopen retains worker, cached shell, and exact learning data",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "cache-loss warning and network repair never reset progress; backup restores independently",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "old published SW -> explicit update -> new controller retains entire profile and answers",
+        "pass": true
+      }
+    ],
+    "expertApprovals": 0,
+    "deployed": false
+  },
+  "baseline": {
+    "runId": 40892656548,
+    "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40892656548",
+    "testedSHA": "4f87656f5d19ed2c5074585c13a77ef78a20de0f",
+    "oldProductSourceSHA": "03f1580d4e73a8ae1a845d61bfa001ade54375d0",
+    "reproduced": [
+      {
+        "browser": "chromium",
+        "offlineReloadFailed": true,
+        "onlineDataSurvived": true
+      },
+      {
+        "browser": "webkit",
+        "offlineReloadFailed": true,
+        "onlineDataSurvived": true
+      }
+    ],
+    "fixture": "One initial real precache icon.svg request returns503; HTTP listener and all TCP connections then closed; Node fetch confirms unreachable. No browser setOffline or request routing.",
+    "meaning": "Old failure mechanism reproduced; NOT confirmation of unique cause of the physical iPhone incident and NOT passing release acceptance",
+    "artifactId": 12905348031,
+    "artifactSha256": "d9fd70e6bf91da1c1be9cadac8649f82dec246deed0b252e101fb1a8f6db1e18",
+    "evidence": "baseline-reproduction.json, screenshots and traces inside original artifact; preserve original run, do not overwrite",
+    "expertApprovals": 0
+  },
+  "artifact": {
+    "id": 12905474437,
+    "sha256": "608338f78ab128c31b742c0f84583c6a13cc0c285af9dcb9b77c258a72a83a0d",
+    "retentionDays": 7
+  },
+  "deployed": false,
+  "independentProfessionalApprovals": 0,
+  "hardwareLimitation": "TCP listener outage is real transport unavailability, NOT physical iPhone Wi-Fi/cellular/airplane-mode disable. User iPhone report is the only physical-device evidence.",
+  "phoneSpecificCause": "Not yet uniquely identified; controlled initial install failure reproduces online-success/offline-failure with preserved data."
+}
