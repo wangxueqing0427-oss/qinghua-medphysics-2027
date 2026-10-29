@@ -1,0 +1,48 @@
+name: SVO deployed HTTPS smoke
+on:
+  push:
+    branches: [verification/2026-10-29-svo-https]
+    paths:
+      - product-2028-svo-c1/online-*.cjs
+      - .github/workflows/svo-online-smoke.yml
+permissions:
+  contents: read
+jobs:
+  online:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing pinned browser dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Verify all deployed asset hashes against frozen candidate
+        run: node product-2028-svo-c1/online-assets.cjs
+      - name: Actual public HTTPS learning, backup and offline browsers
+        run: |
+          export SVO_PLAYWRIGHT="$GITHUB_WORKSPACE/product-2028-ci/node_modules/playwright"
+          status=0
+          SVO_BROWSER=chromium node product-2028-svo-c1/online-browser.cjs || status=1
+          SVO_BROWSER=webkit node product-2028-svo-c1/online-browser.cjs || status=1
+          exit "$status"
+      - name: Record actual online results and exact source
+        if: always()
+        run: node product-2028-svo-c1/online-summary.cjs
+      - name: Preserve synthetic online evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: svo-online-${{ github.sha }}-${{ github.run_attempt }}
+          path: product-2028-svo-c1/online-output/
+          retention-days: 7
