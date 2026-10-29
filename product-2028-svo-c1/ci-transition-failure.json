@@ -1,0 +1,111 @@
+{
+  "sha": "f93f85cc8c81536839f1bc778ddb2913dd9807d4",
+  "runId": "40668150621",
+  "attempt": "1",
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40668150621",
+  "scope": "Linux actual Chromium + mobile-view WebKit, synthetic profiles only; not real iPhone or professional approval",
+  "protection": {
+    "scope": "Linux source/blob/build/score-contract protection; not browser or real learner DB inspection",
+    "sha": "f93f85cc8c81536839f1bc778ddb2913dd9807d4",
+    "passed": 7,
+    "failed": 0,
+    "results": [
+      {
+        "name": "candidate10 assets exactly match authorized frozen build",
+        "pass": true
+      },
+      {
+        "name": "all47 old course payload hashes and historical SVO version unchanged",
+        "pass": true
+      },
+      {
+        "name": "all original tracked blobs unchanged vs exact upstream, only allowlisted additions",
+        "pass": true
+      },
+      {
+        "name": "source engine repository and UI blobs equal recorded original C1 source",
+        "pass": true
+      },
+      {
+        "name": "subjective accepts alternative formulations as reference-only, not keyword grades",
+        "pass": true
+      },
+      {
+        "name": "objective comparison remains strict and raw-text handling does not change choice grading",
+        "pass": true
+      },
+      {
+        "name": "single lesson namespace separate, no auto professional approval or false delayed-goal closure",
+        "pass": true
+      }
+    ]
+  },
+  "browsers": [
+    {
+      "scope": "Actual Linux chromium with iPhone viewport; NOT physical iPhone",
+      "testedSHA": "f93f85cc8c81536839f1bc778ddb2913dd9807d4",
+      "browserName": "chromium",
+      "passed": 1,
+      "failed": 1,
+      "results": [
+        {
+          "name": "start actual Linux browser with iPhone viewport",
+          "pass": true
+        },
+        {
+          "name": "one lesson teaching and actual closed recall survive page close",
+          "pass": false,
+          "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert((await page.locator('#app').innerText()).includes('完整主语'))\n\n    at /__w/qinghua-medphysics-2027/qinghua-medphysics-2027/product-2028-svo-c1/ci-browser.cjs:11:415\n    at async test (/__w/qinghua-medphysics-2027/qinghua-medphysics-2027/product-2028-svo-c1/ci-browser.cjs:5:34)\n    at async /__w/qinghua-medphysics-2027/qinghua-medphysics-2027/product-2028-svo-c1/ci-browser.cjs:11:1"
+        }
+      ]
+    },
+    {
+      "scope": "Actual Linux webkit with iPhone viewport; NOT physical iPhone",
+      "testedSHA": "f93f85cc8c81536839f1bc778ddb2913dd9807d4",
+      "browserName": "webkit",
+      "passed": 7,
+      "failed": 0,
+      "results": [
+        {
+          "name": "start actual Linux browser with iPhone viewport",
+          "pass": true
+        },
+        {
+          "name": "one lesson teaching and actual closed recall survive page close",
+          "pass": true
+        },
+        {
+          "name": "objective wrong answer displays full explanation and saved cause",
+          "pass": true
+        },
+        {
+          "name": "subjective exact original text with whitespace; reference and self-check only",
+          "pass": true
+        },
+        {
+          "name": "wrong book and due review via synthetic clock, original error retained",
+          "pass": true
+        },
+        {
+          "name": "real browser JSON export and independent restore preserve all records",
+          "pass": true
+        },
+        {
+          "name": "cached offline reload retains profile and course progress",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "complete": false,
+  "deployed": false,
+  "expertApprovals": 0,
+  "pending": [
+    "Goal2 lacks a separate delayed subjective transfer question",
+    "real iPhone acceptance not performed",
+    "reference-only subjective feedback, no professional automatic score"
+  ],
+  "artifactId": 12807151426,
+  "artifactSha256": "f1bf64bdfd80c86dd44cf91b61d6a2c4d1c6eaaa56c847dc4f5a181e5e2d3fc5",
+  "fix": "Wait for existing UI act() busy=false after each click, then retain exact existing assertions. Last bounded repair for Chromium transition-readiness family; no product/candidate changes."
+}
