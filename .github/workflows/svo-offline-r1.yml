@@ -1,0 +1,39 @@
+name: SVO offline failure reproduction and regression
+on:
+  push:
+    branches: [fix/2026-10-29-svo-offline]
+    paths:
+      - product-2028-svo-offline-r1/*.cjs
+      - product-2028-svo-offline-r1/.build/**
+      - .github/workflows/svo-offline-r1.yml
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing browser dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Reproduce old failure without touching the public site
+        run: node product-2028-svo-offline-r1/reproduce.cjs
+      - name: Preserve baseline failure evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: svo-offline-${{ github.sha }}-${{ github.run_attempt }}
+          path: product-2028-svo-offline-r1/evidence/
+          retention-days: 7
