@@ -1,0 +1,53 @@
+{
+  "sha": "local-uncommitted",
+  "at": "2026-10-30T03:14:40.481Z",
+  "passed": 8,
+  "failed": 0,
+  "rows": [
+    {
+      "browser": "chromium",
+      "name": "baseline-mixed-script",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "baseline-registration-pending",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "mixed-bootstrap-independent",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "registration-timeout-retry",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "message-timeout-visible",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "update-timeout-visible",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "tcp-outage-close-reopen-data",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "r1-upgrade-preserves-profile",
+      "pass": true
+    }
+  ],
+  "baselineReproductionsAreObservedProductFailures": true,
+  "physicalIPhone": false,
+  "actualUserDataTouched": false,
+  "expertApprovals": 0,
+  "deployed": false
+}

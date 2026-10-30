@@ -1,0 +1,55 @@
+{
+  "sha": "local-uncommitted",
+  "at": "2026-10-30T02:14:12.454Z",
+  "passed": 6,
+  "failed": 2,
+  "rows": [
+    {
+      "browser": "chromium",
+      "name": "baseline-mixed-script",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "baseline-registration-pending",
+      "pass": false,
+      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#offline-retry')\u001b[22m\n\u001b[2m    - locator resolved to <button disabled type=\"button\" id=\"offline-retry\">重试离线准备</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    57 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-svo-offline-r2\\regress.cjs:7:254\n    at async scenario (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-svo-offline-r2\\regress.cjs:2:1274)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-svo-offline-r2\\regress.cjs:7:1"
+    },
+    {
+      "browser": "chromium",
+      "name": "mixed-bootstrap-independent",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "registration-timeout-retry",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "message-timeout-visible",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert((await page.locator('#offline-health-details').innerText()).includes('激活：activated'))\n\n    at C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-svo-offline-r2\\regress.cjs:10:350\n    at async scenario (C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-svo-offline-r2\\regress.cjs:2:1274)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\product-2028-svo-offline-r2\\regress.cjs:10:1"
+    },
+    {
+      "browser": "chromium",
+      "name": "update-timeout-visible",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "tcp-outage-close-reopen-data",
+      "pass": true
+    },
+    {
+      "browser": "chromium",
+      "name": "r1-upgrade-preserves-profile",
+      "pass": true
+    }
+  ],
+  "baselineReproductionsAreObservedProductFailures": true,
+  "physicalIPhone": false,
+  "actualUserDataTouched": false,
+  "expertApprovals": 0,
+  "deployed": false
+}

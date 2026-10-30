@@ -1,0 +1,41 @@
+name: SVO R2 bounded offline readiness
+on:
+  push:
+    branches: [fix/2026-10-30-svo-readiness-r2]
+    paths:
+      - product-2028-svo-offline-r2/*.cjs
+      - product-2028-svo-offline-r2/.build/**
+      - .github/workflows/svo-offline-r2.yml
+permissions:
+  contents: read
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing browser dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Protect original assets and data contract
+        run: node product-2028-svo-offline-r2/protect.cjs
+      - name: Real Chromium and mobile WebKit readiness and TCP outage
+        run: node product-2028-svo-offline-r2/regress.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: svo-readiness-r2-${{ github.sha }}
+          path: product-2028-svo-offline-r2/evidence/
+          retention-days: 7
