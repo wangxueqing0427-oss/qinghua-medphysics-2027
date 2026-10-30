@@ -1,0 +1,143 @@
+{
+  "runId": 40996457034,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/40996457034",
+  "testedSHA": "dc7fab52d635de5dcabb203ee3425c1e4ece7a9d",
+  "conclusion": "success",
+  "jobId": 123870612789,
+  "results": {
+    "sha": "dc7fab52d635de5dcabb203ee3425c1e4ece7a9d",
+    "at": "2026-10-30T03:18:31.211Z",
+    "passed": 16,
+    "failed": 0,
+    "rows": [
+      {
+        "browser": "chromium",
+        "name": "baseline-mixed-script",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "baseline-registration-pending",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "mixed-bootstrap-independent",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "registration-timeout-retry",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "message-timeout-visible",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "update-timeout-visible",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "tcp-outage-close-reopen-data",
+        "pass": true
+      },
+      {
+        "browser": "chromium",
+        "name": "r1-upgrade-preserves-profile",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "baseline-mixed-script",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "baseline-registration-pending",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "mixed-bootstrap-independent",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "registration-timeout-retry",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "message-timeout-visible",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "update-timeout-visible",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "tcp-outage-close-reopen-data",
+        "pass": true
+      },
+      {
+        "browser": "webkit",
+        "name": "r1-upgrade-preserves-profile",
+        "pass": true
+      }
+    ],
+    "baselineReproductionsAreObservedProductFailures": true,
+    "physicalIPhone": false,
+    "actualUserDataTouched": false,
+    "expertApprovals": 0,
+    "deployed": false
+  },
+  "protection": {
+    "sha": "dc7fab52d635de5dcabb203ee3425c1e4ece7a9d",
+    "allExistingTrackedFilesUnchanged": true,
+    "originalR1AssetsUnchanged": true,
+    "all47CourseHashesMatch": true,
+    "onlyThreeCandidateFilesChanged": true,
+    "courseScoringStorageUnchanged": true,
+    "actualUserDataTouched": false,
+    "expertApprovals": 0,
+    "deployed": false
+  },
+  "protectedRefs": [
+    {
+      "branch": "main",
+      "sha": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+    },
+    {
+      "branch": "courses/2026-10-24-three-subject-foundations",
+      "sha": "81cce666088c2877f64ed68b42befb4f1e139262"
+    },
+    {
+      "branch": "candidate/2026-10-28-svo-first-lesson",
+      "sha": "03f1580d4e73a8ae1a845d61bfa001ade54375d0"
+    },
+    {
+      "branch": "audit/2026-10-21-four-gaps-v7",
+      "sha": "ba8d3ae50c2a832a021664df01471b8854c9c442"
+    },
+    {
+      "branch": "fix/2026-10-29-svo-offline",
+      "sha": "52c7a9ab11d7ca7ad0b360fadcdad8d585ea9f85"
+    }
+  ],
+  "artifact": {
+    "id": 12950739389,
+    "sha256": "96f53b8e38213ce0ff019a52aaf63e479060e556a0a4d36b981f15168db68c89",
+    "retentionDays": 7
+  },
+  "baselineReproductionsPerBrowser": 2,
+  "fixedScenariosPerBrowser": 6,
+  "physicalIPhoneAccepted": false,
+  "publicDeploymentPerformed": false,
+  "expertApprovals": 0
+}

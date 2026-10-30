@@ -1,0 +1,90 @@
+[
+  {
+    "file": "chromium-baseline-mixed-observed.json",
+    "sha256": "8c9174e50fb906dc0fd363d3f1de61425e2a985a0ae054147c76fc698d409807"
+  },
+  {
+    "file": "chromium-baseline-mixed-observed.png",
+    "sha256": "c31d4d5122e2bbc425246c329b8b833bfeb5c7f9a24ee3d706e398eaeef28627"
+  },
+  {
+    "file": "chromium-baseline-mixed-script-requests.json",
+    "sha256": "1b4dbae198cea50b783ebc8b0ac0311b47e5cf9bf2272330b9baace8dfb5c8bc"
+  },
+  {
+    "file": "chromium-baseline-mixed-script.zip",
+    "sha256": "5056f3eb38336533c34538f0b034706eb6bfd47c2fa38aabc108d952a5afc74b"
+  },
+  {
+    "file": "chromium-baseline-registration-pending-first-failure.png",
+    "sha256": "6fd0dee5dabdc7c9f2377a75e2f8f7fdef58dce44895e681663b9fab9c1a6740"
+  },
+  {
+    "file": "chromium-baseline-registration-pending-requests.json",
+    "sha256": "b98961587ab5c5ab7fbb4e492b88d13d7ff37f089cc4cd94270f8d9f81d1eba0"
+  },
+  {
+    "file": "chromium-baseline-registration-pending.zip",
+    "sha256": "9db521e305516572aa7b451a37c6e4d9b760e76bf1bb62bd468cbc0bc0becb06"
+  },
+  {
+    "file": "chromium-message-timeout-visible-first-failure.png",
+    "sha256": "d6e1625b44cf18e93fdc9b8c35b1e7022e593e7f0701f23d1d6202242e358da0"
+  },
+  {
+    "file": "chromium-message-timeout-visible-requests.json",
+    "sha256": "dc399b7727f2bd3dac4b7a45eb75340a90e115e95c863299d808869b11192181"
+  },
+  {
+    "file": "chromium-message-timeout-visible.zip",
+    "sha256": "9d3234fb3a200b1018e72102668de1079231c3d5d3b6b0d26acdb9272f6596b9"
+  },
+  {
+    "file": "chromium-mixed-bootstrap-independent-requests.json",
+    "sha256": "432acefbdfb80106d9ea36cdeacfa0f7aff14227321fc85b49d3ef32e6cad07e"
+  },
+  {
+    "file": "chromium-mixed-bootstrap-independent.zip",
+    "sha256": "66184b9093d63d169fb4517ae2e7156eac14443fce0b0374907b5d4007dd47ee"
+  },
+  {
+    "file": "chromium-r1-upgrade-preserves-profile-requests.json",
+    "sha256": "17bf2bbc7408f196342467842b312cb915e4cc44c8719371f2945a2ec2f7b955"
+  },
+  {
+    "file": "chromium-r1-upgrade-preserves-profile.zip",
+    "sha256": "8792d0eb52dffa7eb23ab2ff43799127d7f095d80545574262a4a00be1600447"
+  },
+  {
+    "file": "chromium-registration-timeout-retry-requests.json",
+    "sha256": "58e14177288b804aa3447554106cc7c80927f85334905c482360c8d77acb70b1"
+  },
+  {
+    "file": "chromium-registration-timeout-retry.zip",
+    "sha256": "033b42361aae431c46c8628621e6432496fc402a707ab93dec62c32639bcba68"
+  },
+  {
+    "file": "chromium-tcp-outage-close-reopen-data-requests.json",
+    "sha256": "da61ccc4cfb0f226a3422312de1082d6980e547c12ab274780ab43679a6e19e2"
+  },
+  {
+    "file": "chromium-tcp-outage-close-reopen-data.zip",
+    "sha256": "26cba885afd1e9b08df568871d67dbf1815960dda540596a55b43363a7b140cb"
+  },
+  {
+    "file": "chromium-update-timeout-visible-requests.json",
+    "sha256": "da61ccc4cfb0f226a3422312de1082d6980e547c12ab274780ab43679a6e19e2"
+  },
+  {
+    "file": "chromium-update-timeout-visible.zip",
+    "sha256": "4af5a0b0d7da11130568bd5ae588e31bef27937d192ff0143ec979dac7942a0a"
+  },
+  {
+    "file": "online-assets-before.json",
+    "sha256": "7b6c4c7bbe8d6929bec332bc85493ac4a170853f9ed1bd25802123bdf2d08889"
+  },
+  {
+    "file": "results.json",
+    "sha256": "28fc3604357c9e06287fe3816687f6499611744e20fb235d438a799a9772c318"
+  }
+]
