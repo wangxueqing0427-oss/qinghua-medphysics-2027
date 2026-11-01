@@ -1,0 +1,7 @@
+{
+  "sourceSHA": "c128875a6797260b839915891a820af18ab0bb42",
+  "actualPublicGitHubApi": true,
+  "denied": "CI failed; deployment denied",
+  "outputCreated": false,
+  "cloudflareDeployment": false
+}

@@ -1,0 +1,67 @@
+{
+  "sha": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+  "branch": "automation/2026-11-01-svo-preview",
+  "proof": {
+    "ready": true,
+    "sha": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+    "branch": "automation/2026-11-01-svo-preview",
+    "runId": 41287064839,
+    "runUrl": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/41287064839",
+    "jobId": 124790395644
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "68757e87d12f22c9ce8fc48b10fc730ab4459514904e8484bcd8a167b0b466d2",
+      "bytes": 6451
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "bytes": 10151
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "3d855145c0d83cfd25fc67fa375a13bafe3ada05427dd63e965ac5d8d831bdeb",
+      "bytes": 294
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "bytes": 5368
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "10e4df863f635e068d1e11e9b25dd20d644a1d1ef43b0ccdf756a928c8bc0b90",
+      "bytes": 6880
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "bytes": 7193
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "2bd50fefcdc389bc3dc14dfdc98cb6ab79d0c710fe7b4210d1b190e094c8c14a",
+      "bytes": 18685
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af",
+      "bytes": 9138
+    },
+    {
+      "path": "sw.js",
+      "sha256": "8d1ab02a00537d4b4f4ff29ba820c91d5ecd46c88db3b53c3b547d956d47a656",
+      "bytes": 2895
+    }
+  ],
+  "execution": "Local output only; live public GitHub CI proof",
+  "cloudflareProjectCreated": false,
+  "deployed": false
+}

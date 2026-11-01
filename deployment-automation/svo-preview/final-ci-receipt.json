@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-01",
+  "sourceSHA": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+  "branch": "automation/2026-11-01-svo-preview",
+  "pr": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/pull/3",
+  "prBase": "integration/svo-preview-base",
+  "runs": [
+    {
+      "id": 41287060573,
+      "event": "push",
+      "headSHA": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/41287060573"
+    },
+    {
+      "id": 41287064839,
+      "event": "pull_request",
+      "headSHA": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/41287064839"
+    }
+  ],
+  "results": [
+    {
+      "event": "push",
+      "browserResult": {
+        "sha": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+        "at": "2026-11-01T08:02:52.384Z",
+        "passed": 16,
+        "failed": 0,
+        "rows": [
+          {
+            "browser": "chromium",
+            "name": "baseline-mixed-script",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "baseline-registration-pending",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "mixed-bootstrap-independent",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "registration-timeout-retry",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "message-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "update-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "tcp-outage-close-reopen-data",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "r1-upgrade-preserves-profile",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "baseline-mixed-script",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "baseline-registration-pending",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "mixed-bootstrap-independent",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "registration-timeout-retry",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "message-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "update-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "tcp-outage-close-reopen-data",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "r1-upgrade-preserves-profile",
+            "pass": true
+          }
+        ],
+        "baselineReproductionsAreObservedProductFailures": true,
+        "physicalIPhone": false,
+        "actualUserDataTouched": false,
+        "expertApprovals": 0,
+        "deployed": false
+      },
+      "protection": {
+        "sha": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+        "originalTrackedSourceUnchanged": true,
+        "all47CourseHashesMatch": true,
+        "exactR2AssetsUnchanged": true,
+        "onlyApprovedPolicyAndNewAutomationChanged": true,
+        "actualLearningDataTouched": false
+      },
+      "automationTests": {
+        "passed": 11,
+        "failed": 0
+      },
+      "actualCheckedOutSourceSHA": "12bd66c8259956bf68f5e28f48ba40772d36bea5"
+    },
+    {
+      "event": "pr",
+      "browserResult": {
+        "sha": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+        "at": "2026-11-01T08:02:54.677Z",
+        "passed": 16,
+        "failed": 0,
+        "rows": [
+          {
+            "browser": "chromium",
+            "name": "baseline-mixed-script",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "baseline-registration-pending",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "mixed-bootstrap-independent",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "registration-timeout-retry",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "message-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "update-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "tcp-outage-close-reopen-data",
+            "pass": true
+          },
+          {
+            "browser": "chromium",
+            "name": "r1-upgrade-preserves-profile",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "baseline-mixed-script",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "baseline-registration-pending",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "mixed-bootstrap-independent",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "registration-timeout-retry",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "message-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "update-timeout-visible",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "tcp-outage-close-reopen-data",
+            "pass": true
+          },
+          {
+            "browser": "webkit",
+            "name": "r1-upgrade-preserves-profile",
+            "pass": true
+          }
+        ],
+        "baselineReproductionsAreObservedProductFailures": true,
+        "physicalIPhone": false,
+        "actualUserDataTouched": false,
+        "expertApprovals": 0,
+        "deployed": false
+      },
+      "protection": {
+        "sha": "55db52cd61ce224523e7e29fcdb4df64163a1124",
+        "originalTrackedSourceUnchanged": true,
+        "all47CourseHashesMatch": true,
+        "exactR2AssetsUnchanged": true,
+        "onlyApprovedPolicyAndNewAutomationChanged": true,
+        "actualLearningDataTouched": false
+      },
+      "automationTests": {
+        "passed": 11,
+        "failed": 0
+      },
+      "actualCheckedOutSourceSHA": "12bd66c8259956bf68f5e28f48ba40772d36bea5"
+    }
+  ],
+  "prProtectionShaFieldNote": "Existing protect tool prints GITHUB_SHA (event merge SHA for PR); actual git HEAD is checkout of sourceSHA. Browser command explicitly labels SOURCE_SHA. Do not interpret merge SHA as deployed source.",
+  "firstFailedRuns": [
+    41286841253,
+    41286844163
+  ],
+  "artifacts": [
+    {
+      "run": 41287060573,
+      "id": 13075612352,
+      "sha256": "8d28a6057a8adbaada3e88e2dd1baca8ad5371eb735dbeff9479878a309ebd9d"
+    },
+    {
+      "run": 41287064839,
+      "id": 13075657094,
+      "sha256": "6d03080a59d8c69034358277bcf814768e91e8b569cc220c6a5c44515803a8f3"
+    }
+  ],
+  "cloudflareProjectCreated": false,
+  "previewDeployed": false,
+  "previewSmoke": "Not run: config.cloudflareConnected=false. Skipped environment-dependent job is not a pass.",
+  "tokenCreated": false,
+  "paidServicesAdded": false,
+  "protectedRefs": [
+    {
+      "branch": "main",
+      "sha": "f8b99af10ee14c98d9f896050970fb0912ca04cc"
+    },
+    {
+      "branch": "engineering/2028-r5",
+      "sha": "a3a6a31cce210f5608a08764cc8489a9a72d89c1"
+    },
+    {
+      "branch": "candidate/2026-10-28-svo-first-lesson",
+      "sha": "03f1580d4e73a8ae1a845d61bfa001ade54375d0"
+    },
+    {
+      "branch": "audit/2026-10-21-four-gaps-v7",
+      "sha": "ba8d3ae50c2a832a021664df01471b8854c9c442"
+    },
+    {
+      "branch": "fix/2026-10-30-svo-readiness-r2",
+      "sha": "14a9b007ca556600613ba761a5223a439073b690"
+    }
+  ],
+  "actualLearningDataTouched": false,
+  "physicalIPhoneAccepted": false,
+  "expertApprovals": 0,
+  "blocker": "Windows browser control refused URL identification; no Cloudflare management connector; App installation not yet verified"
+}
