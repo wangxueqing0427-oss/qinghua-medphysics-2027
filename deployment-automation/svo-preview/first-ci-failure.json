@@ -1,0 +1,25 @@
+{
+  "sourceSHA": "c128875a6797260b839915891a820af18ab0bb42",
+  "runs": [
+    {
+      "id": 41286841253,
+      "event": "push",
+      "jobId": 124789754477
+    },
+    {
+      "id": 41286844163,
+      "event": "pull_request",
+      "jobId": 124789762694
+    }
+  ],
+  "localAutomationTestsPassed": 11,
+  "remoteAutomationTestsPassed": 11,
+  "browserTestsExecuted": false,
+  "failedGate": "protect.cjs",
+  "actual": "A product-2028-draft/开发与验收规范.md",
+  "expectedIncorrectly": "M",
+  "verifiedBaseFileAbsent": true,
+  "resolution": "Keep exact protected file list; expected status for this newly synchronized policy file is A, AGENTS remains M",
+  "deploymentStageEntered": false,
+  "cloudflareConnected": false
+}
