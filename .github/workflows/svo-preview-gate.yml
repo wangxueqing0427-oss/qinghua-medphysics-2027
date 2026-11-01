@@ -1,0 +1,83 @@
+name: SVO Preview quality gate
+on:
+  push:
+    branches: [automation/2026-11-01-svo-preview, 'preview/svo-*']
+  pull_request:
+    branches: [integration/svo-preview-base]
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+  checks: read
+  actions: read
+jobs:
+  verify:
+    name: Verify SVO candidate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    outputs:
+      connected: ${{ steps.connection.outputs.connected }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing browser dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Fixed whitelist, failure gates and reproducible build tests
+        run: node --test deployment-automation/svo-preview/automation.test.cjs
+      - name: Protect all existing course, candidate and storage sources
+        run: node deployment-automation/svo-preview/protect.cjs
+      - name: Real Chromium and mobile WebKit readiness and TCP outage
+        run: env GITHUB_SHA="$SOURCE_SHA" node product-2028-svo-offline-r2/regress.cjs
+      - id: connection
+        name: Explicit integration state (not a test bypass)
+        run: node -e "const fs=require('fs');const c=require('./deployment-automation/svo-preview/config.json');fs.appendFileSync(process.env.GITHUB_OUTPUT,'connected='+c.cloudflareConnected+'\n');"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: svo-preview-gate-${{ github.run_id }}
+          path: product-2028-svo-offline-r2/evidence/
+          retention-days: 7
+  preview-smoke:
+    name: Verify connected Cloudflare preview
+    needs: verify
+    if: needs.verify.outputs.connected == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Exact SHA Preview discovery, 10 hashes, actual browser smoke
+        run: node deployment-automation/svo-preview/preview-check.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: svo-preview-online-${{ github.run_id }}
+          path: deployment-automation/svo-preview/evidence/
+          retention-days: 7
