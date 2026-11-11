@@ -25,5 +25,7 @@ jobs:
         run: npm install --ignore-scripts --no-audit --no-fund
       - name: Targeted subjective state, delayed learning and data isolation
         run: node --test product-2028-svo-subjective-candidate/test.cjs
+      - name: Rebuild prerequisite historic C1 assets locally in CI only
+        run: node product-2028-mobile-candidate/build.cjs
       - name: Reuse existing frozen original SVO unit and storage regression
         run: node product-2028-svo-c1/test.cjs
