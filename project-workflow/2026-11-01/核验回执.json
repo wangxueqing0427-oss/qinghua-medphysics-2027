@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-01",
+  "scope": "Local policy documents only",
+  "paths": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "3db5a1a4057a5bb1b94d53ad566952e7f9aa7354e0ab493bfbc2db607fa02af2",
+      "bytes": 3290
+    },
+    {
+      "path": "product-2028-draft/开发与验收规范.md",
+      "sha256": "818a564c26197e1662c438c35ff017c51faabe4db429beff766d7d9b50b89d02",
+      "bytes": 3358
+    },
+    {
+      "path": "project-workflow/2026-11-01/开发流程升级规范.md",
+      "sha256": "8f6e250342814f75d8690f9c92813a9255417151ef7fa8c42a74d253c788c69e",
+      "bytes": 4746
+    }
+  ],
+  "documentLinksExist": true,
+  "unrelatedTestsRun": false,
+  "gitPush": false,
+  "cloudflareChanged": false,
+  "tokenCreated": false,
+  "productionChanged": false
+}

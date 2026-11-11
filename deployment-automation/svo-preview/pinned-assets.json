@@ -1,0 +1,70 @@
+{
+  "candidate": "MOBILE-C1-SVO-OFFLINE-R2",
+  "base": "53439b9fedbfca8fdd000cdc9c2ff59c160d4f90",
+  "courseVersion": "0.2-svo1",
+  "database": "qh2028_svo_first_lesson_v1",
+  "expertApprovals": 0,
+  "deployed": false,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "68757e87d12f22c9ce8fc48b10fc730ab4459514904e8484bcd8a167b0b466d2",
+      "r1Sha256": "f1b7970f7d665fd9aea1c82d9028fcd1c35c4e2160201de450090b2c67108837",
+      "changed": true
+    },
+    {
+      "path": "app.css",
+      "sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "r1Sha256": "b0d35d088aa55690349b5576909fcc8af4bab77be90861d4223d99c8c3be9cf2",
+      "changed": false
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "r1Sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "changed": false
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "3d855145c0d83cfd25fc67fa375a13bafe3ada05427dd63e965ac5d8d831bdeb",
+      "r1Sha256": "3d855145c0d83cfd25fc67fa375a13bafe3ada05427dd63e965ac5d8d831bdeb",
+      "changed": false
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "r1Sha256": "33f18182491ead4da1d158a73d59834c9bea91a5c08de86af8a73d230230d043",
+      "changed": false
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "10e4df863f635e068d1e11e9b25dd20d644a1d1ef43b0ccdf756a928c8bc0b90",
+      "r1Sha256": "10e4df863f635e068d1e11e9b25dd20d644a1d1ef43b0ccdf756a928c8bc0b90",
+      "changed": false
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "r1Sha256": "e9e9c4976e05c2df49b2c6b4c69d69499e9c96086dc55bdabab6628cdf84fa4b",
+      "changed": false
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "2bd50fefcdc389bc3dc14dfdc98cb6ab79d0c710fe7b4210d1b190e094c8c14a",
+      "r1Sha256": "92565716047c0671c66996c16dab12804c7cd90e81978082e8b0ec10019eaa11",
+      "changed": true
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af",
+      "r1Sha256": "c844bd26d1020c24ab6889cdfd73dcab476521cb0bbe09a344dbeae50cd0c0af",
+      "changed": false
+    },
+    {
+      "path": "sw.js",
+      "sha256": "8d1ab02a00537d4b4f4ff29ba820c91d5ecd46c88db3b53c3b547d956d47a656",
+      "r1Sha256": "4d03517a622158623e88bfaf17ac6f0dd561dc23c0810b7ae7737a818c08a01c",
+      "changed": true
+    }
+  ]
+}

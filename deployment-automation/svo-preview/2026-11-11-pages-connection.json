@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-11",
+  "project": "qh2028-svo-pages-preview",
+  "type": "Pages",
+  "repository": "wangxueqing0427-oss/qinghua-medphysics-2027",
+  "sourceBaseline": "12bd66c8259956bf68f5e28f48ba40772d36bea5",
+  "browserReadOnlyRun": "3016213f-1062-489c-a05e-b50c4f0791f7",
+  "connectionObserved": true,
+  "productionBranchObserved": "integration/svo-preview-base",
+  "automaticProductionDeploymentsObserved": false,
+  "buildCommandReported": "node deployment-automation/svo-preview/pages-build.cjs",
+  "outputDirectoryObserved": "deployment-automation/svo-preview/public",
+  "rootDirectoryReported": "empty",
+  "previewBranchAuthorizedAndEnforcedBySource": "automation/2026-11-01-svo-preview",
+  "readingLimits": [
+    "Browser report abbreviates preview branch label as 2026-11-01-svo-preview; full value also supplied by user.",
+    "Browser report says build command visually truncated; actual build logs must verify execution.",
+    "Node version not visible; actual build logs remain necessary."
+  ],
+  "initialHoldingDeployment": "9ba3979a-06ea-4bab-bb21-fd92b7d59e42",
+  "holdingSourceSHA": "14a9b007ca556600613ba761a5223a439073b690",
+  "initialHoldingDeploymentAvailable": false,
+  "previewValidated": false,
+  "R2AssetsModified": false,
+  "actualLearningDataTouched": false,
+  "expertApprovals": 0
+}
