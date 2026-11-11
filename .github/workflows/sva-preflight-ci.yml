@@ -12,7 +12,13 @@ jobs:
   preflight:
     name: Verify strict SVO-to-SVA prerequisite and original course protection
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,3 +31,19 @@ jobs:
         run: npm install --ignore-scripts --no-audit --no-fund
       - name: Validate SVA draft and real delayed-answer prerequisite evidence (no deployment)
         run: node --test product-2028-sva-preflight/test.cjs
+      - name: Reconstruct already isolated, frozen six-question SVO build locally
+        run: node product-2028-svo-subjective-candidate/build.cjs
+      - name: Build independent two-course preflight with separate database and offline cache
+        run: node product-2028-sva-preflight/build.cjs
+      - name: Verify SVO-to-SVA actual mobile UI and offline reopen with Chromium and WebKit
+        run: node product-2028-sva-preflight/browser.cjs
+      - name: Preserve purely synthetic evidence, no deployment action
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sva-preflight-${{ github.sha }}
+          path: |
+            product-2028-sva-preflight/build-receipt.json
+            product-2028-sva-preflight/browser-results.json
+          if-no-files-found: warn
+          retention-days: 7
