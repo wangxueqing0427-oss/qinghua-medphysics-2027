@@ -59,4 +59,5 @@ function checkSvaPrerequisite(backup,svoUnit,svaUnit){
     return fail('subjective-feedback-not-persisted');
   return {ready:true,mastered:false,reason:'full-delayed-practice-completed-ungraded-subjective'};
 }
-module.exports={checkSvaPrerequisite,SVO_ID,SVA_ID};
+const SvaPrerequisite={checkSvaPrerequisite,SVO_ID,SVA_ID};
+if(typeof module!=='undefined')module.exports=SvaPrerequisite;else window.SvaPrerequisite=SvaPrerequisite;
