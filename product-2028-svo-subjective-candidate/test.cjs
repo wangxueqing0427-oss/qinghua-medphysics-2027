@@ -102,7 +102,7 @@ test('full synthetic first lesson, delayed answer, feedback, scheduling and back
   assert.equal(review.state,'subjective-pending');
   assert.equal(review.scoreEstimate,null);
   assert(backup.events.some(x=>x.action==='answered'&&x.payload?.questionId==='en-svo-delay-3'));
-  assert(backup.events.some(x=>x.action==='feedback-read'&&x.payload?.selfRubric?.length===4));
+  assert(backup.events.some(x=>x.action==='scheduled'&&x.payload?.reflection?.selfRubric?.length===4));
   const clone=await repository.restoreAsNewProfile('synthetic-svo-delay-clone',backup);
   const restored=await clone.exportBackup();
   assert.notEqual(restored.profileId,backup.profileId);
