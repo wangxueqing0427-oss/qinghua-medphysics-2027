@@ -12,7 +12,13 @@ jobs:
   targeted:
     name: Isolated subjective and existing SVO regression
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,3 +35,17 @@ jobs:
         run: node product-2028-mobile-candidate/build.cjs
       - name: Reuse existing frozen original SVO unit and storage regression
         run: node product-2028-svo-c1/test.cjs
+      - name: Generate standalone R2-derived six-question candidate in isolated output
+        run: node product-2028-svo-subjective-candidate/build.cjs
+      - name: Test isolated mobile lesson, delayed review and offline reopen in Chromium and WebKit
+        run: node product-2028-svo-subjective-candidate/browser.cjs
+      - name: Retain candidate build and real browser evidence without deploying
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: svo-subjective-local-${{ github.sha }}
+          path: |
+            product-2028-svo-subjective-candidate/build-receipt.json
+            product-2028-svo-subjective-candidate/browser-results.json
+          if-no-files-found: warn
+          retention-days: 7
