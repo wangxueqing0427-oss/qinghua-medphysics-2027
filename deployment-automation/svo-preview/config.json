@@ -1,12 +1,12 @@
 {
-  "project": "qh2028-svo-git-preview",
+  "project": "qh2028-svo-pages-preview",
   "repository": "wangxueqing0427-oss/qinghua-medphysics-2027",
   "workflowPath": ".github/workflows/svo-preview-gate.yml",
   "verifyJobName": "Verify SVO candidate",
   "productionBranch": "integration/svo-preview-base",
-  "previewBranches": ["automation/2026-11-01-svo-preview", "preview/svo-*"],
+  "previewBranches": ["automation/2026-11-01-svo-preview"],
   "automaticProductionDeployments": false,
-  "cloudflareConnected": false,
+  "cloudflareConnected": true,
   "nodeVersion": "22",
   "buildCommand": "node deployment-automation/svo-preview/pages-build.cjs",
   "outputDirectory": "deployment-automation/svo-preview/public"
