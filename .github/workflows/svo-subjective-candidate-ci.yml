@@ -1,0 +1,26 @@
+name: SVO subjective isolated candidate
+on:
+  push:
+    branches:
+      - candidate/2026-11-11-svo-subjective
+    paths:
+      - product-2028-svo-subjective-candidate/**
+      - .github/workflows/svo-subjective-candidate-ci.yml
+permissions:
+  contents: read
+jobs:
+  targeted:
+    name: Isolated subjective and existing SVO regression
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Targeted subjective state, delayed learning and data isolation
+        run: node --test product-2028-svo-subjective-candidate/test.cjs
+      - name: Reuse existing frozen original SVO unit and storage regression
+        run: node product-2028-svo-c1/test.cjs
