@@ -1,0 +1,27 @@
+name: SVA progression preflight (isolated)
+on:
+  push:
+    branches:
+      - candidate/2026-11-11-sva-preflight
+    paths:
+      - product-2028-sva-preflight/**
+      - .github/workflows/sva-preflight-ci.yml
+permissions:
+  contents: read
+jobs:
+  preflight:
+    name: Verify strict SVO-to-SVA prerequisite and original course protection
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing pinned synthetic IndexedDB dependency
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Validate SVA draft and real delayed-answer prerequisite evidence (no deployment)
+        run: node --test product-2028-sva-preflight/test.cjs
