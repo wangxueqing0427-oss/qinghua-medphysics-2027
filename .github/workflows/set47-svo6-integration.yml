@@ -1,0 +1,49 @@
+name: 2028 isolated 47-course SVO6 integration
+on:
+  push:
+    branches:
+      - candidate/2026-11-12-set47-consolidated
+    paths:
+      - product-2028-integration-47-upgraded/**
+      - .github/workflows/set47-svo6-integration.yml
+permissions:
+  contents: read
+jobs:
+  integration:
+    name: Verify 47-course SVO6 candidate without deployment
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare existing pinned Playwright/IndexedDB dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Reconstruct previous existing 47-course isolated output
+        run: node product-2028-integration-47/build.cjs
+      - name: Construct independent 47-course plus SVO6 output
+        run: node product-2028-integration-47-upgraded/build.cjs
+      - name: Check content integrity, version isolation, reference-only grading and strict prerequisite
+        run: node --test product-2028-integration-47-upgraded/test.cjs
+      - name: Check 47-course UI and SVO-to-SVA progression in Chromium and WebKit
+        run: node product-2028-integration-47-upgraded/browser.cjs
+      - name: Archive synthetic evidence only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: set47-svo6-candidate-\${{ github.sha }}
+          path: |
+            product-2028-integration-47-upgraded/build-receipt.json
+            product-2028-integration-47-upgraded/browser-results.json
+          if-no-files-found: warn
+          retention-days: 7
