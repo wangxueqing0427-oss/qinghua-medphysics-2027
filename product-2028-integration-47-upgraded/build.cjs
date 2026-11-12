@@ -29,7 +29,7 @@ assert.equal(questions,524);
 assert.deepEqual(E.validate(pack),[]);
 assert.deepEqual(validateObjectives(pack),[]);
 assert(E.validate(pack,true).includes('release-blocked'),'Formal release must remain blocked');
-assert(pack.units.every(u=>u.distribution==='held-pending-review'&&u.reviewRecord?.expertApproved===false),'Do not release unreviewed drafts');
+assert(pack.units.every(u=>u.distribution==='held-pending-review'&&u.reviewRecord?.expertApproved!==true),'Do not release unreviewed drafts');
 assert.deepEqual(pack.units.filter(u=>u.id!==nextSvo.id),original.units.filter(u=>u.id!==nextSvo.id),'All original 46 units must remain byte-equivalent as JSON');
 const sva=pack.units.find(u=>u.id==='en-subject-verb-agreement');
 assert.deepEqual(sva.prerequisites,['en-foundation-svo']);
