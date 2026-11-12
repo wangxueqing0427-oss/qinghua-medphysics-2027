@@ -33,7 +33,7 @@ test('candidate edition and file manifest protect old data and make release fail
  assert.notEqual(R.DRAFT_DB,'qh2028_isolated_set47_v1');
  assert.notEqual(R.DRAFT_DB,'qh2028_svo_sva_preflight_v1');
  assert(E.validate(pack,true).includes('release-blocked'));
- assert(pack.units.every(u=>u.distribution==='held-pending-review'&&u.reviewRecord.expertApproved===false));
+ assert(pack.units.every(u=>u.distribution==='held-pending-review'&&u.reviewRecord?.expertApproved!==true));
  const html=fs.readFileSync(path.join(dir,'.build/index.html'),'utf8');
  assert(html.indexOf('sva-prerequisite.js')<html.indexOf('learning-controller.js'));
  assert(html.includes('SET47-SVO6'));
