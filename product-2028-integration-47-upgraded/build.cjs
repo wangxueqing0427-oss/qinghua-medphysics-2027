@@ -18,7 +18,7 @@ assert(prev&&prev.version!==nextSvo.version,'Require a different SVO course vers
 assert.equal(prev.basicQuestions.length+prev.applicationQuestions.length+prev.delayedQuestions.length,5);
 assert.equal(nextSvo.basicQuestions.length+nextSvo.applicationQuestions.length+nextSvo.delayedQuestions.length,6);
 assert.deepEqual(nextSvo.basicQuestions,prev.basicQuestions);
-assert.deepEqual(nextSvo.applicationQuestions,prev.applicationQuestions);
+assert.deepEqual(nextSvo.applicationQuestions.map(q=>({id:q.id,type:q.type,stem:q.stem})),prev.applicationQuestions.map(q=>({id:q.id,type:q.type,stem:q.stem})),'Preserve the original application question identity and prompt; documented clarification of its reference answer and rubric belongs to the new version');
 assert.deepEqual(nextSvo.delayedQuestions.slice(0,2),prev.delayedQuestions);
 assert.equal(nextSvo.delayedQuestions[2].id,'en-svo-delay-3');
 const pack={...original,contentVersion:'set47-plus-svo6-2026-11-12-internal-draft',units:original.units.map(u=>u.id===nextSvo.id?nextSvo:u)};
