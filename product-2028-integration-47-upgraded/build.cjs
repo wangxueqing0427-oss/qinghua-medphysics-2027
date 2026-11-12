@@ -64,8 +64,8 @@ for(const item of baseline.files){
    s=once(s,"47课隔离验证 SET47","47课524题内部整合 SET47-SVO6");
    s=once(s,"'needs-review':'需要复习'","'needs-review':'客观题需要复习','subjective-pending':'主观题待核对'");
    s=once(s,"'qinghua-2028-local-backup.json'","'qinghua-2028-set47-svo6-backup.json'");
-   s=once(s,"+'</details>'+pack.units.map(u=>{const s=",
-     "+'</details>'+'<label>按科目筛选<select id=\"subject-filter\"><option value=\"all\">全部课程</option><option value=\"en\">英语</option><option value=\"pol\">政治</option><option value=\"353\">353卫生综合</option></select></label>'+pack.units.map(u=>{const s=");
+   s=once(s,"+'</p></details>'+pack.units.map(u=>{const s=",
+     "+'</p></details>'+'<label>按科目筛选<select id=\"subject-filter\"><option value=\"all\">全部课程</option><option value=\"en\">英语</option><option value=\"pol\">政治</option><option value=\"353\">353卫生综合</option></select></label>'+pack.units.map(u=>{const s=");
    s=once(s,"return '<section class=\"card\"><h2>'+esc(u.title)","return '<section class=\"card\" data-subject=\"'+esc(u.subject)+'\"><h2>'+esc(u.title)");
    s=once(s,"app.querySelectorAll('[data-unit]').forEach(b=>b.onclick=",
      "document.getElementById('subject-filter').onchange=e=>{for(const card of app.querySelectorAll('[data-subject]'))card.hidden=e.target.value!=='all'&&card.dataset.subject!==e.target.value;};app.querySelectorAll('[data-unit]').forEach(b=>b.onclick=");
