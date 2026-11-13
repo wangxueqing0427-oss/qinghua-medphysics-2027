@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-t-tests-original-draft",
+  "units": [
+    {
+      "id": "353-t-tests-paired-independent-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "统计推断进阶：单样本、配对与独立两样本t检验",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "原创中文学习笔记与虚构数值教学题，非清华真题或真实医学研究分析",
+      "mapping": [
+        "STAT02"
+      ],
+      "prerequisites": [
+        "353-inference-ci-hypothesis-foundation"
+      ],
+      "prerequisiteExplanation": "先修上一门置信区间与H0、p值基础课，必须真实完成闭卷回答和客观练习，不自动跳过。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://online.stat.psu.edu/stat500/Lesson07",
+        "https://online.stat.psu.edu/stat500/Lesson12",
+        "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/t_test.htm",
+        "https://www.itl.nist.gov/div898/handbook/prc/section2/prc22.htm"
+      ],
+      "explanation": "统计检验的第一步不是代公式，而是辨别数据结构。一个总体均数与固定值比较，可以考虑单样本检验；两组互不对应的对象比较，是独立两样本；同一对象干预前后或一一匹配两次测量，则是配对样本，应先形成每对差值。随机抽样、观测独立性、分布、离群值及测量条件影响检验适用性。题目即使给出相同的两个均数，独立与配对设计也可能给出不同标准误和结果。\n\n总体标准差σ未知、用样本标准差s估计时，在独立随机样本来自正态总体的单样本模型中，可用t=(x̄−μ0)/(s/√n)，自由度df=n−1。虚构数据x̄=14、μ0=12、s=3、n=9，标准误为1，t=2，自由度8。t值不等于p值，双侧或单侧检验需要结合预先设定的备择假设与t分布。若σ已知且满足相应条件，上一课的z检验适用情形不同，不能任意混用。\n\n配对t检验把每对测量转为差值d_i，检验总体平均差值μ_d：t=(d̄−μ_d0)/(s_d/√n)，自由度df=n−1，其中n是配对数而不是测量次数的两倍。虚构样本d̄=4、s_d=8、n=16、μ_d0=0，则差值标准误2，t=2，df=15。差值分布的假设尤其重要。配对不表示必然有因果效应，前后测量仍可能受到时间趋势、共同因素和其他偏倚影响。\n\n独立两样本t检验研究两组总体均数差异。若假设两组独立且方差相等，可以考虑合并方差的t方法，其自由度n1+n2−2；若方差不等，通常需要考虑Welch方法，其标准误和自由度与合并方差法不同。不能只因样本量相同就判定方差相同，不能将同一人的前后测量当作独立样本；选用检验方法要有设计和假设依据。统计显著性不等于效应大小或临床重要性，不能凭教材中的虚构数值作任何实际医学诊断、治疗或临床试验结论。",
+      "definition": "单样本t=(x̄−μ0)/(s/√n)，df=n−1；配对t=(d̄−μd0)/(sd/√n)，其中n为配对数；独立两样本的合并方差方法需等方差前提，方差不等时可考虑Welch方法。t值≠p值。",
+      "conditions": "只研究独立随机样本及正态或适当近似的统计入门条件。所有数据虚构，不用作真实医学试验、疗效结论或诊断；配对并非随机对照试验，样本量相同不等于方差相同；不含多重比较、回归、复杂抽样、临床试验正式分析及2028官方考纲核定。",
+      "example": "单样本：x̄14、μ0=12、s3、n9，则t=2、df8。配对：d̄4、sd8、n16，t=2、df15。均数标准误示例s10、n25→SE2。独立等方差模型n1=8,n2=12→df18。均为虚构。",
+      "misconceptions": [
+        "同一个人前后两次测量可以无条件当作两组独立样本。",
+        "t=2就表示p值等于0.02。",
+        "配对t检验的n是两次观测的总个数。",
+        "两组样本量一样就证明方差相等、必须合并方差。"
+      ],
+      "recall": [
+        "闭卷区分单样本、独立两样本、配对结构，各自画一个简化示意。",
+        "闭卷写出σ未知时单样本t公式和自由度，解释它与z区别。",
+        "闭卷写出配对差值模型、t公式及其n的意义。",
+        "闭卷比较合并方差与Welch的适用前提，说明不可单凭t判断因果。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "同一人前后比较形成每人的差值。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "x̄14、μ0=12、s3、n9，SE1、t2、df8。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "d̄4、sd8、n16：SE2、t2、df15。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "方差假设影响两独立样本的检验选择。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-t-tests-paired-independent-foundation-g1",
+          "description": "区分独立样本与配对样本结构",
+          "successCriteria": "能按研究设计判定配对差值或无关样本",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-t-tests-paired-independent-foundation-b1",
+            "353-t-tests-paired-independent-foundation-a1",
+            "353-t-tests-paired-independent-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-g2",
+          "description": "理解单样本t检验与已知σ的z检验差异",
+          "successCriteria": "能按样本s和n计算t并解释df和p的不同",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-t-tests-paired-independent-foundation-b2",
+            "353-t-tests-paired-independent-foundation-a2",
+            "353-t-tests-paired-independent-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-g3",
+          "description": "掌握配对t检验的差值及自由度",
+          "successCriteria": "能用差值d和差值标准差计算t",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-t-tests-paired-independent-foundation-b3",
+            "353-t-tests-paired-independent-foundation-a3",
+            "353-t-tests-paired-independent-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-g4",
+          "description": "识别两独立样本等方差与Welch法条件",
+          "successCriteria": "按方差及独立性选择方法，避免因果过推断",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-t-tests-paired-independent-foundation-b4",
+            "353-t-tests-paired-independent-foundation-a4",
+            "353-t-tests-paired-independent-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "能按研究设计判定配对差值或无关样本",
+        "能按样本s和n计算t并解释df和p的不同",
+        "能用差值d和差值标准差计算t",
+        "按方差及独立性选择方法，避免因果过推断"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日更换设计例子、均值与标准差，闭卷判断配对/独立、计算t或df并解释假设边界。"
+      },
+      "reviewRecord": {
+        "internalCheck": "original-source-linked-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "仅按NIST与Penn State教学公式进行基础核对，未经独立统计专家审定",
+          "2028完整官方大纲未取得，2027来源暂作背景",
+          "虚构练习不能生成真实临床试验的统计决策",
+          "没有覆盖Welch自由度数值计算、非参数检验及多重检验策略"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-t-tests-paired-independent-foundation-b1",
+          "type": "single",
+          "stem": "某研究测量同一批参与者的干预前后指标，比较平均变化时最贴近的数据结构是？",
+          "options": [
+            "独立两样本",
+            "配对样本，以每人前后差值作为分析基础",
+            "两个样本均数都当成固定总体值"
+          ],
+          "answer": 1,
+          "explanation": "B：同一参与者的两个时间点是关联观测，配对t检验使用每对差值；不应直接当成两组无关人群。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-b2",
+          "type": "single",
+          "stem": "对来自正态总体的单样本、总体σ未知的均值检验，下列哪个统计量形式正确？",
+          "options": [
+            "t=(x̄−μ0)/(s/√n)",
+            "t=(x̄−μ0)/(s/n)",
+            "t=(x̄−μ0)×s×n"
+          ],
+          "answer": 0,
+          "explanation": "A是单样本均值t统计量，s为样本标准差；自由度通常n−1。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-b3",
+          "type": "single",
+          "stem": "配对t检验中，n=16对观测且差值符合正态假设，t分布自由度一般是多少？",
+          "options": [
+            "32",
+            "16",
+            "15"
+          ],
+          "answer": 2,
+          "explanation": "C：自由度为配对数−1=15，不是两次测量总数减一。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-b4",
+          "type": "single",
+          "stem": "对两组独立样本均值比较，下列关于方差不等时的选择哪项最合理？",
+          "options": [
+            "无论方差如何都使用等方差合并方法",
+            "考虑Welch t检验并核对独立性和分布等前提",
+            "必须使用配对t检验，因为有两组"
+          ],
+          "answer": 1,
+          "explanation": "B：Welch方法不要求总体方差相同，仍需要适当设计与统计假设；A、C忽略研究结构。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-t-tests-paired-independent-foundation-a1",
+          "type": "single",
+          "stem": "单样本均值检验中得到t=2，以下哪个解释最恰当？",
+          "options": [
+            "这等于p=0.02",
+            "说明H0为真的概率为2%",
+            "这是标准化检验统计量，p值还需要自由度及单/双侧信息"
+          ],
+          "answer": 2,
+          "explanation": "C：t值是统计量，不是p值。需要结合df和备择方向判断显著性，不能直接推临床重要性。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-a2",
+          "type": "number",
+          "stem": "虚构单样本正态模型：x̄=14、检验μ0=12、样本s=3、n=9。按t=(x̄−μ0)/(s/√n)计算t，输入无量纲数值。",
+          "answer": 2,
+          "explanation": "t=(14−12)/(3/√9)=2，自由度df=8；没有给出p值和真实研究结论。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-a3",
+          "type": "number",
+          "stem": "虚构配对研究：16对差值的均数d̄=4、差值标准差s_d=8、H0的平均差为0。求配对t统计量，输入无量纲数值。",
+          "answer": 2,
+          "explanation": "t=4/(8/√16)=2，自由度df=15。配对数n=16，不能写成32。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-a4",
+          "type": "subjective",
+          "stem": "同一人治疗前后测量与两组互不相关的人分别测量，如何选用配对或独立样本t检验？说明各自数据结构和至少两个不应过度推断的结论。",
+          "answer": "同一人的前后指标是配对观测，应分析每对差值；两组互不相关参与者属于独立两样本设计，可按方差与其他条件考虑合并方差或Welch等方法。统计显著不直接等于临床有益；前后变化不必然由治疗造成；未显著也不等于无效。需核对抽样与分布等假设。",
+          "explanation": "四项检查点：设计结构、方法、关键假设、因果与临床意义限制。主观题不自动打分。",
+          "difficulty": "application",
+          "rubric": [
+            "同一人前后比较以配对差值为单位",
+            "两组无关对象用独立样本方法并核对方差假设",
+            "明确独立性或差值分布等条件",
+            "不能由显著性直接断定因果或临床意义"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-t-tests-paired-independent-foundation-d1",
+          "type": "single",
+          "stem": "隔日：某次独立两样本比较的两组样本量相等。关于总体方差的结论正确的是？",
+          "options": [
+            "样本量相等不证明方差相等，需结合研究前提选择检验",
+            "两个样本量相等必然具有相同总体方差",
+            "只要均数不同就应忽略方差和样本设计"
+          ],
+          "answer": 0,
+          "explanation": "A：相同n与相同方差是不同命题；合并方差方法需假设，Welch可用于不等方差场景。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-d2",
+          "type": "number",
+          "stem": "隔日：一个独立随机样本量n=25、样本标准差s=10。求均数的样本标准误s/√n数值，单位仍与原变量相同，这里记为分。",
+          "answer": 2,
+          "explanation": "标准误SE=10/√25=2分。此为简单模型中的标准误，不会自动消除系统偏倚。",
+          "difficulty": "delayed-transfer",
+          "unit": "分",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-d3",
+          "type": "number",
+          "stem": "隔日：假设两独立样本的等方差合并t方法适用，n1=8、n2=12，求自由度n1+n2−2的数值。",
+          "answer": 18,
+          "explanation": "df=8+12−2=18。只有在研究设计与方差等前提适用时才选用该方法。",
+          "difficulty": "delayed-transfer",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-t-tests-paired-independent-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：逐一纠正“配对t的n是测量总数”“样本标准差未知仍永远用z检验”“两样本量相等必可用等方差合并法”“t=2直接等于p=0.02”四句话。",
+          "answer": "配对t的n为配对数，df=n−1；总体σ未知且条件适合时考虑使用样本s的t方法；等方差不能仅由样本量相同推出；t值需要结合df、单侧或双侧备择和分布求p，数值2不等于p=0.02。",
+          "explanation": "逐项纠正配对数、t与z、方差假设、检验统计量与p值，不自动评分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "配对的n按成对观察数计算",
+            "总体σ未知按假设考虑t而非一律z",
+            "相同样本量并不证明方差相同",
+            "t统计量不等于p值"
+          ]
+        }
+      ]
+    }
+  ]
+}
