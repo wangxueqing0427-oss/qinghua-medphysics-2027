@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-353-radiation-protection-draft",
+  "units": [
+    {
+      "id": "353-radiation-protection-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "辐射防护基础：剂量量纲、医学照射与时间距离屏蔽",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "applicableYear": 2028,
+      "writtenAt": "2026-11-13",
+      "authorship": "原创中文教学、数字计算例题与自编问题；资料用于科学概念核对，非临床规程、非官方真题或专业签字",
+      "mapping": [
+        "MP02"
+      ],
+      "prerequisites": [
+        "353-quantity-measurement",
+        "353-energy-power"
+      ],
+      "prerequisiteExplanation": "先修物理量和能量，辐射防护内容仍从Gy和Sv重新解释；要求实际闭卷与客观题证据，不因从业经历跳过。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1775_web.pdf",
+        "https://www.icrp.org/publication.asp?id=ICRP+Publication+105",
+        "https://www.nrc.gov/facilities-safety/radiation-protection/how-the-nrc-protects-you/minimize-your-exposure",
+        "https://www.osha.gov/ionizing-radiation/introduction/ionizing-radiation-equations",
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/TCS-01_4th_web.pdf"
+      ],
+      "explanation": "辐射防护先分清量的含义。吸收剂量D描述物质单位质量实际吸收的电离辐射能量，单位戈瑞（Gy），1 Gy=1 J/kg；它不能单独等同于一个人的健康风险。器官当量剂量H_T在本课单一种辐射的简化条件下为该器官平均吸收剂量乘辐射权重因子w_R，单位希沃特（Sv）；有效剂量E还需在防护模型中对各器官当量剂量按组织权重求和，单位同为Sv。不能仅从一处吸收剂量推出全身有效剂量，也不能把有效剂量当作特定患者治疗剂量或个体风险的精确诊断。\n\n防护基本原则包括实践正当性、防护最优化、剂量限值的应用，但不同暴露情境不能机械套用。患者为医学目的接受的正当医疗照射，不直接使用职业或公众照射的剂量限值；关键是由合适专业人员按临床目的作正当性判断，并进行与诊疗目标相称的最优化。职业照射与公众照射则按相应法律标准和防护方案管理。本课不提供中国现行数值限值、行政合规结论或现场作业指导；这些须另以当年度有效规范与持证专业机构为准。\n\n外照射控制常从时间、距离和屏蔽入手。对于同一恒定剂量率条件，累计量约为剂量率乘时间；例如假设均匀场为0.12 μSv/h、停留2.5 h，示例累计量为0.30 μSv。对理想各向同性小点源、介质衰减及散射可忽略的几何模型，强度随距离平方反比：在1 m处读数0.8 μSv/h，2 m处模型值为0.8×(1/2)²=0.2 μSv/h。真实放射设备、患者散射、近场、非点源及屏蔽情况可能使这种简式不适用，不能拿它替代真实机房检测或屏蔽设计。\n\n屏蔽衰减取决于辐射种类、能量、材料及几何条件。仅在题设理想窄束、无明显散射和额外增建因子的模型中，每一半值层（HVL）使所测强度约减半：假设初始8 μGy/h，通过两层相同HVL后为8×(1/2)²=2 μGy/h。实际复合能谱、散射与屏蔽累积效应不能直接套用。职业防护的时间、距离、屏蔽均用于控制不必要照射，但绝不是允许未经培训人员改变辐射装置、进入受控区、评估真实患者剂量或实施实际放疗工作的操作教程。",
+      "definition": "吸收剂量D以Gy表示吸收能量除质量；当量剂量H_T、有效剂量E以Sv表示防护权重后的量。患者医学照射强调正当性、最优化，不直接适用职业公众剂量限值。外照射时间、距离和屏蔽近似仅在指定条件下有效。",
+      "conditions": "仅为2027清华353大纲中医学物理方向的2028暂定基础课程。所有例子为虚构模型，不用于实际医院辐射安全、CT/放疗操作、患者剂量估计、许可或屏蔽工程，不提供中国当年度限值或现场防护指令；尚不覆盖辐射生物学完整模型、内照射、源项、剂量测量仪器或放疗质量保证。",
+      "example": "假想材料能量0.012 J/0.006 kg=2 Gy；恒定场0.12 μSv/h×2.5 h=0.3 μSv；点源模型1 m→2 m强度变四分之一；理想窄束两HVL强度变四分之一。上述四个例子分别有不同适用条件。",
+      "misconceptions": [
+        "Gy与Sv永远一样，可由任意材料吸收剂量直接得到人的有效剂量。",
+        "患者医学照射应机械套用同一职业年剂量限值，或者完全无需防护。",
+        "任何机房任意两点都严格遵循平方反比。",
+        "任意两块铅板都必然等于两个半值层，现场屏蔽只用一道公式即可。"
+      ],
+      "recall": [
+        "闭卷解释Gy、Sv、吸收剂量、当量剂量与有效剂量的差别。",
+        "闭卷区分患者医学照射和职业照射对正当性、最优化与剂量限值的应用。",
+        "闭卷写时间乘积与平方反比关系，指出至少两个不适用情况。",
+        "闭卷解释半值层、辐射权重与组织权重，以及不可直接开展临床推断的理由。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "1 Gy=1 J/kg；当量剂量需辐射权重，有效剂量还需组织权重。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "患者医学照射关注正当性与最优化，而非直接套用职业公众限值。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "0.12 μSv/h×2.5h=0.30μSv；点源2m相比1m强度四分之一。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "理想两HVL：8 μGy/h→2 μGy/h；不替代真实屏蔽设计。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-radiation-protection-foundation-g1",
+          "description": "说明吸收剂量、当量剂量和有效剂量的意义",
+          "successCriteria": "辨认Gy、Sv、权重与不可由单点数据推全身剂量",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-radiation-protection-foundation-b1",
+            "353-radiation-protection-foundation-a2",
+            "353-radiation-protection-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-radiation-protection-foundation-g2",
+          "description": "辨认不同照射情境的正当性、最优化与限值",
+          "successCriteria": "患者医学照射与职业照射不能无条件套用相同限值",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-radiation-protection-foundation-b2",
+            "353-radiation-protection-foundation-a4",
+            "353-radiation-protection-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-radiation-protection-foundation-g3",
+          "description": "在限定模型内计算时间、距离与外照射的关系",
+          "successCriteria": "按单位完成恒定场时间乘积和点源平方反比，说明边界",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-radiation-protection-foundation-b3",
+            "353-radiation-protection-foundation-a3",
+            "353-radiation-protection-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-radiation-protection-foundation-g4",
+          "description": "说明辐射权重与屏蔽半值层的适用条件",
+          "successCriteria": "避免Gy与Sv简单互换，按限定模型计算HVL衰减",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-radiation-protection-foundation-b4",
+            "353-radiation-protection-foundation-a1",
+            "353-radiation-protection-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "辨认Gy、Sv、权重与不可由单点数据推全身剂量",
+        "患者医学照射与职业照射不能无条件套用相同限值",
+        "按单位完成恒定场时间乘积和点源平方反比，说明边界",
+        "避免Gy与Sv简单互换，按限定模型计算HVL衰减"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日更换时间、距离、半值层模型及适用条件重新解释；所有主观答题只参考核对，不打专业自动分。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "本课与IAEA/ICRP/NRC/OSHA公开概念来源有对照，但未完成独立辐射防护专业审定",
+          "2028年度考纲尚未取得，2027范围为暂定参考",
+          "数字均属虚构模型，不替代辐安检测、职业和公众现行适用标准及医学判断",
+          "未审核中国辐射安全法律合规、临床操作、场地屏蔽工程或实际放疗治疗计划"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-radiation-protection-foundation-b1",
+          "type": "single",
+          "stem": "描述物质每千克吸收了多少电离辐射能量，首先对应什么物理量？",
+          "options": [
+            "吸收剂量，单位Gy",
+            "有效剂量，必然等于吸收剂量数值",
+            "放射性活度，单位Gy"
+          ],
+          "answer": 0,
+          "explanation": "A：吸收剂量D单位Gy=J/kg。有效剂量需要器官和辐射权重，不能由单一点吸收能量直接推出；活度的SI单位为Bq而非Gy。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-radiation-protection-foundation-b2",
+          "type": "single",
+          "stem": "对于经正当性评价的患者医学照射，如何理解“剂量限值”？",
+          "options": [
+            "一律直接套用公众职业年限值，哪怕妨碍诊断治疗",
+            "患者医学照射不直接适用职业公众剂量限值，应关注正当性和最优化",
+            "任何医学照射都无需防护最优化"
+          ],
+          "answer": 1,
+          "explanation": "B：ICRP/IAEA对医学患者照射强调正当性和最优化，而不直接适用公众职业剂量限值。A混淆情境，C错误取消最优化。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-radiation-protection-foundation-b3",
+          "type": "single",
+          "stem": "外照射防护的常用三种基本措施是？",
+          "options": [
+            "增加照射时间、靠近源、移除屏蔽",
+            "只要穿铅衣就不必考虑其他因素",
+            "减少不必要时间、增加适当距离、采用合适屏蔽"
+          ],
+          "answer": 2,
+          "explanation": "C概括时间、距离、屏蔽；具体执行需要按辐射种类、设备和现场规程制定。A方向相反，B忽略局限和辐射种类。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-radiation-protection-foundation-b4",
+          "type": "single",
+          "stem": "同一器官仅有一个辐射种类且已知权重w_R，器官当量剂量在本课简化模型如何求？",
+          "options": [
+            "吸收剂量乘组织权重因子即可无条件等于有效剂量",
+            "器官平均吸收剂量乘辐射权重因子，单位Sv",
+            "只数每秒核衰变次数，单位Gy"
+          ],
+          "answer": 1,
+          "explanation": "B：单一辐射种类的当量剂量H_T=w_R D_T。有效剂量还需要各器官组织权重求和；活度与剂量不是同一个量。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-radiation-protection-foundation-a1",
+          "type": "single",
+          "stem": "描述理论剂量率随距离平方反比时，哪一项前提最关键？",
+          "options": [
+            "近似点源几何，比较中忽略介质衰减与散射变化",
+            "任何临床机房和患者周围都严格平方反比",
+            "移动距离后能量和束形都可以任意变化"
+          ],
+          "answer": 0,
+          "explanation": "A说明理想点源简化模型及介质与散射条件。实际机房、加速器束形和患者散射可能不符合，因此不能用此式单独决定真实防护距离。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-radiation-protection-foundation-a2",
+          "type": "number",
+          "stem": "虚构均匀材料样本吸收电离辐射能量0.012 J，样本质量0.006 kg。按D=E/m计算吸收剂量，输入Gy数值。",
+          "answer": 2,
+          "explanation": "D=0.012 J÷0.006 kg=2 Gy。此为非临床材料的假设计算，不能当作患者安全剂量或职业照射判断。",
+          "difficulty": "application",
+          "unit": "Gy",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiation-protection-foundation-a3",
+          "type": "number",
+          "stem": "仅在理想小点源、无额外衰减和散射变化的模型中，距源1 m剂量率0.8 μSv/h。距源2 m时模型剂量率是多少？仅输入数值，单位μSv/h。",
+          "answer": 0.2,
+          "explanation": "平方反比近似：I₂=0.8×(1/2)²=0.2 μSv/h。本题假设不是机房或患者散射计算依据。",
+          "difficulty": "application",
+          "unit": "μSv/h",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiation-protection-foundation-a4",
+          "type": "subjective",
+          "stem": "说明患者医学照射与职业人员照射在正当性、最优化和剂量限值方面的区别，再指出为什么不能只用机房某一点读数推断患者有效剂量。",
+          "answer": "患者医学照射关注正当性和与临床目的相称的最优化，不直接应用职业和公众剂量限值；工作人员职业照射应遵守适用限值与防护方案。单一点剂量率未给出患者器官吸收剂量、照射条件、各器官和辐射种类权重等信息，无法据此推出有效剂量。真正临床防护和诊疗需相应专业人员评价。",
+          "explanation": "逐项参考核对情境区分、必要条件和禁止推断；不对主观题自动给分，也不形成临床辐射防护建议。",
+          "difficulty": "application",
+          "rubric": [
+            "医学照射强调正当性与最优化",
+            "患者医学照射不直接套用职业或公众限值",
+            "职业照射按适用标准和防护方案管理",
+            "单点读数不足以计算器官和全身有效剂量"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-radiation-protection-foundation-d1",
+          "type": "single",
+          "stem": "隔日：有人把“患者照射不直接用职业剂量限值”说成“患者检查不用做防护最优化”。最恰当评价？",
+          "options": [
+            "正确，因为医学照射可以无限制曝光",
+            "患者与职业照射完全同一套限值",
+            "错误，仍须正当性和与医学目的相适应的防护最优化"
+          ],
+          "answer": 2,
+          "explanation": "C正确，限值适用例外不等于可忽略医学照射优化；A、B均混淆防护情境。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-radiation-protection-foundation-d2",
+          "type": "number",
+          "stem": "隔日纯计算：假设某固定外照射场剂量率保持0.12 μSv/h，持续2.5 h，累计量是多少？仅输入数值，单位μSv。",
+          "answer": 0.3,
+          "explanation": "0.12 μSv/h×2.5 h=0.30 μSv。在恒定场的教学模型内成立，不能直接外推真实环境、个人监测或医疗诊断。",
+          "difficulty": "delayed-transfer",
+          "unit": "μSv",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiation-protection-foundation-d3",
+          "type": "number",
+          "stem": "隔日纯计算：理想窄束屏蔽模型，初始强度8 μGy/h，每穿过一个半值层恰减半。穿过2个半值层后是多少？仅输入数值，单位μGy/h。",
+          "answer": 2,
+          "explanation": "I=8×(1/2)²=2 μGy/h。本题假定理想窄束、忽略散射、谱变化和累积因子，不能据此设计真实放疗机房屏蔽。",
+          "difficulty": "delayed-transfer",
+          "unit": "μGy/h",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiation-protection-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：某人说“2米读数一定是1米的四分之一；穿两层任何铅板一定变四分之一；Gy和Sv总是可互换；医疗患者和工作人员都按同一剂量限值”。指出至少四处概念错误与必要条件。",
+          "answer": "第一，平方反比需要理想点源、距离定义一致、散射和衰减条件合适；第二，半值层必须与该能量、材料和几何条件匹配，任意厚度材料不保证一层HVL；第三，Gy是吸收剂量、Sv用于当量或有效剂量且涉及权重；第四，患者医学照射并非直接使用职业和公众剂量限值，仍须正当性和最优化。所有例子仅供教学，不是现场作业指导。",
+          "explanation": "要求指出四项不同的错误并给出各自适用边界；主观答案只供核对，不自动计分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "平方反比需点源及介质/散射等前提",
+            "HVL不是任意厚度或所有辐射通用常数",
+            "Gy与Sv描述的量和权重不同",
+            "患者医疗照射与职业公众照射的限值适用不同"
+          ]
+        }
+      ]
+    }
+  ]
+}
