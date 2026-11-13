@@ -46,6 +46,7 @@ function ensureCases(registry=cases){
   ids.add(row.id);
   requireValue(Array.isArray(row.clues)&&row.clues.length>=2&&row.clues.every(x=>typeof x==='string'&&x.trim()),'Missing stem anchors: '+row.id);
   requireValue(typeof row.unit==='string'&&row.unit.trim(),'Missing unit: '+row.id);
+  requireValue(typeof row.stemSnapshot==='string'&&row.stemSnapshot.length>5,'Missing pinned question wording: '+row.id);
   const s=registry.sourceDefinitions[row.source];
   requireValue(s&&/^https:\/\//.test(s.url)&&s.boundary,'Missing formula reference: '+row.id);
   requireValue(finite(compute(row)),'Nonfinite formula result: '+row.id);
@@ -72,6 +73,7 @@ function audit(pack,registry=cases){
   if(!fixture.clues.every(s=>row.q.stem.includes(s))){
    stats.stemDrift++;errors.push('stem-input-drift:'+id);continue;
   }
+  if(row.q.stem!==fixture.stemSnapshot){stats.stemDrift++;errors.push('stem-snapshot-drift:'+id);continue;}
   const calc=compute(fixture);
   const exactTolerance=Math.max(1e-12,Math.abs(calc)*1e-12);
   const diff=Math.abs(calc-row.q.answer);
