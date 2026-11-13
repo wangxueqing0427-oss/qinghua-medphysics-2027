@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-screening-foundation-draft-only",
+  "units": [
+    {
+      "id": "353-screening-test-foundation",
+      "version": "0.1",
+      "subject": "353",
+      "title": "筛检与诊断试验入门：四格表、敏感度和预测值",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创中文教学、虚构数字情境与自编练习；来源仅作概念和公式核对，非官方题或版权转载",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-2027-outline-partial",
+      "mapping": [
+        "EPI08"
+      ],
+      "prerequisites": [
+        "353-variable-types",
+        "353-study-design-foundation",
+        "353-ratio-rate-prevalence"
+      ],
+      "prerequisiteExplanation": "先修变量、研究设计和比例概念；现有课程覆盖不等于总体掌握，新内容从四格表和分母重新讲。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK98249/table/appendix.t1/",
+        "https://www.who.int/publications/i/item/9789289054782",
+        "https://www.who.int/europe/news/item/02-02-2022-when-is-screening-for-cancer-the-right-course-of-action"
+      ],
+      "explanation": "筛检（screening）面向尚未被确定有目标疾病、通常没有相关症状的目标人群，目的是识别需要进一步评价的可能风险，而不是直接作出诊断。筛检阳性可能是真阳性，也可能是假阳性；筛检阴性可能是真阴性，也可能是假阴性。必须预先规定目标人群、参考标准、判阳性阈值和时间范围。教学四格表以参考标准划分实际状态：真阳性TP=实际有病且检测阳性；假阴性FN=实际有病而检测阴性；假阳性FP=实际无病但检测阳性；真阴性TN=实际无病且检测阴性。本课数字都是自编练习，不用于任何真实患者判定。\n\n先按实际状态（分母）看敏感度与特异度：敏感度Se=TP/(TP+FN)，表示在本题参考标准认定有病者中筛检呈阳性的比例；特异度Sp=TN/(TN+FP)，表示在实际无病者中筛检呈阴性的比例。不能把分母写成全部测试阳性者或全部受试者。题设完整参考标准的假想A组：实际有病100人，其中TP=90、FN=10；实际无病900人，其中FP=45、TN=855。敏感度90/100=0.90，特异度855/900=0.95。这个样本是教学例子，不代表真实筛检技术性能。\n\n再按检测结果（分母）看预测值：阳性预测值PPV=TP/(TP+FP)，阴性预测值NPV=TN/(TN+FN)。在A组，全部筛检阳性为90+45=135，PPV=90/135≈0.667；全部筛检阴性为855+10=865，NPV=855/865≈0.988。假定另一B组实际有病40人，其中TP=36、FN=4，实际无病160人，其中FP=8、TN=152；Se仍为36/40=0.90，Sp仍为152/160=0.95，但PPV=36/44≈0.818。两个教学组中目标情况所占比例不同，预测值会受此影响。不能把PPV写作Se，也不能忽略人群差异直接说某一检测方法改进了。\n\n筛检的价值必须看完整路径与净效益：目标人群能否被覆盖，阳性者能否获得合适的进一步诊断、治疗或随访，以及假阳性引发的额外检查、焦虑和假阴性造成的误导等。提早发现或增加筛出数量本身，并不自动证明降低死亡或改善健康结局；需要质量可靠的比较证据。筛检效果也会受阈值、疾病频率、参考标准以及实施质量影响。本课只练四格表的入门计算、解释和风险边界；尚未覆盖联合试验、ROC、似然比、筛检策略经济学和全部诊断试验评价。主观题提供参考核对点，不自动给分。",
+      "definition": "筛检用于识别需进一步评价者而非直接确诊。以参考标准和检测结果构成TP、FN、FP、TN：Se=TP/(TP+FN)、Sp=TN/(TN+FP)、PPV=TP/(TP+FP)、NPV=TN/(TN+FN)。必须明确人群、参考标准和适用边界。",
+      "conditions": "全部题目为原创虚构完整二分参考标准教学数据，不适用于真实患者。筛检指标受参考标准、阈值、人群和实施质量影响。本课只教入门四格表，不等于覆盖2027清华EPI08全章，也不等于确认2028内容。",
+      "example": "A组TP90、FN10、FP45、TN855：Se=0.90、Sp=0.95、PPV≈0.667、NPV≈0.988。\nB组TP36、FN4、FP8、TN152：Se=0.90、Sp=0.95、PPV≈0.818。\n同样Se/Sp并不要求PPV相同；筛检阳性不是确诊。数据均为原创练习。",
+      "misconceptions": [
+        "筛检阳性就等于已经确诊。",
+        "把敏感度分母误写为所有筛检阳性者。",
+        "把PPV误当敏感度并认为只由检测技术决定。",
+        "筛出越多就一定能证明筛检计划有健康收益。"
+      ],
+      "recall": [
+        "不看答案用文字画出四格表，定义TP、FP、FN、TN。",
+        "写Se和Sp的分母及各自条件。",
+        "写PPV和NPV分母，并说明两个人群的预测值为何可不同。",
+        "列筛检阳性之后还需评价的至少三项条件及两种潜在损害。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "TP=实际有病且检测阳性；FN=实际有病但检测阴性。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "A组Se=90/100，Sp=855/900。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "A组PPV=90/135；B组PPV=36/44。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "阳性不能跳过相应诊断评价；筛检发现数不能证明净健康收益。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-screening-test-foundation-g1",
+          "description": "区分筛检、参考标准及四格状态",
+          "successCriteria": "正确解释阳性不等于确诊，识别FN和筛检流程条件",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-screening-test-foundation-b1",
+            "353-screening-test-foundation-a1",
+            "353-screening-test-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-screening-test-foundation-g2",
+          "description": "按参考状态计算Se和Sp",
+          "successCriteria": "正确选择有病/无病分母并完成0至1小数计算",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-screening-test-foundation-b2",
+            "353-screening-test-foundation-a2",
+            "353-screening-test-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-screening-test-foundation-g3",
+          "description": "按检测结果计算预测值",
+          "successCriteria": "用阳性分母计算PPV，并说明其受到人群情况影响",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-screening-test-foundation-b3",
+            "353-screening-test-foundation-a3",
+            "353-screening-test-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-screening-test-foundation-g4",
+          "description": "评价筛检路径的证据与不利影响",
+          "successCriteria": "说明假阳性/假阴性、后续诊断及净效益不能凭发现数证明",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-screening-test-foundation-b4",
+            "353-screening-test-foundation-a4",
+            "353-screening-test-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "正确解释阳性不等于确诊，识别FN和筛检流程条件",
+        "正确选择有病/无病分母并完成0至1小数计算",
+        "用阳性分母计算PPV，并说明其受到人群情况影响",
+        "说明假阳性/假阴性、后续诊断及净效益不能凭发现数证明"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换B组四格数据重新计算，并解释PPV与Se分母为何不同；主观题自查要点，不自动给分。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "尚未进行独立流行病学教师审查",
+          "来源支持部分定义和筛检路径，不代表整章已核实",
+          "2028正式考纲尚未发布",
+          "本课仅入门指标，未覆盖ROC、联合试验、似然比和完整诊断试验评价"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-screening-test-foundation-b1",
+          "type": "single",
+          "stem": "面向尚无明确目标诊断的人群做一次筛检，结果阳性时最合理的表述是？",
+          "options": [
+            "已百分之百确诊，不需进一步检查",
+            "可能需要后续诊断评价；阳性也可能是假阳性",
+            "筛检阳性必说明该疾病已经造成明显症状"
+          ],
+          "answer": 1,
+          "explanation": "B：筛检是识别需进一步评价者，阳性不是确诊。A取消了假阳性及诊断环节，C误将筛检等同于症状出现。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-screening-test-foundation-b2",
+          "type": "single",
+          "stem": "已用参考标准区分真实状态，敏感度Se的分母应是？",
+          "options": [
+            "TP+FN（实际有病者）",
+            "TP+FP（筛检阳性者）",
+            "TN+FP（实际无病者）"
+          ],
+          "answer": 0,
+          "explanation": "Se=TP/(TP+FN)，以参考标准认定有病者为分母。TP+FP是PPV分母，TN+FP是Sp分母。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-screening-test-foundation-b3",
+          "type": "single",
+          "stem": "阳性预测值PPV问的是什么？",
+          "options": [
+            "在有病者中筛检阳性的比例",
+            "在实际无病者中筛检阴性的比例",
+            "在筛检阳性者中按参考标准确有病的比例"
+          ],
+          "answer": 2,
+          "explanation": "PPV=TP/(TP+FP)。A对应敏感度，B对应特异度；PPV不能脱离实际筛检人群来解释。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-screening-test-foundation-b4",
+          "type": "single",
+          "stem": "哪项是判断是否开展筛检计划更完整的思路？",
+          "options": [
+            "只要仪器能发现异常就应普遍筛查",
+            "评估人群适用性、进一步诊断治疗能力及潜在利弊",
+            "只看筛出人数而忽略假阳性与假阴性"
+          ],
+          "answer": 1,
+          "explanation": "B重视目标人群、后续诊断和干预条件及净效益；A和C把技术发现能力误当临床或公卫效果证明。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-screening-test-foundation-a1",
+          "type": "single",
+          "stem": "A组参考标准确认有病100人，检测阳性90人、阴性10人。这10人应记为？",
+          "options": [
+            "假阴性FN",
+            "真阴性TN",
+            "假阳性FP"
+          ],
+          "answer": 0,
+          "explanation": "参考标准有病却筛检阴性，定义上是FN=10。TN需要实际无病且检测阴性，FP需要实际无病且检测阳性。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-screening-test-foundation-a2",
+          "type": "number",
+          "stem": "教学A组：TP=90、FN=10，敏感度Se是多少？输入0至1小数。",
+          "answer": 0.9,
+          "explanation": "Se=90/(90+10)=0.90；分母只包含参考标准有病的100人，而不是所有筛检者。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-screening-test-foundation-a3",
+          "type": "number",
+          "stem": "教学A组：TP=90、FP=45，阳性预测值PPV是多少？输入0至1小数，保留至少三位小数。",
+          "answer": 0.6666666666666666,
+          "explanation": "PPV=90/(90+45)=90/135≈0.667，不能误用TP/(TP+FN)=0.90。由于三位小数舍入，容许绝对误差0.001。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 0.001
+        },
+        {
+          "id": "353-screening-test-foundation-a4",
+          "type": "subjective",
+          "stem": "A组TP=90、FN=10、FP=45、TN=855。分别解释Se和PPV的分母，写出两个值，并说明为什么阳性不能自动确诊。",
+          "answer": "Se=TP/(TP+FN)=90/100=0.90，以参考标准实际有病者为分母；PPV=TP/(TP+FP)=90/135≈0.667，以筛检阳性者为分母。阳性有45个假阳性，筛检不是确诊，需结合相应的诊断评价路径。",
+          "explanation": "应核对分母、数值及筛检与诊断的界限；只写两个小数却不解释分母不构成完整回答。参考核对点未获专业教师审定，不自动计分。",
+          "difficulty": "application",
+          "rubric": [
+            "敏感度的实际有病分母100",
+            "敏感度0.90",
+            "PPV的检测阳性分母135且约0.667",
+            "识别假阳性及后续诊断需要"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-screening-test-foundation-d1",
+          "type": "single",
+          "stem": "隔日：一个无症状筛检项目发现部分人阳性，最不应直接做的结论是？",
+          "options": [
+            "需要结合参考标准和随后的诊断路径",
+            "应关注假阳性和假阴性可能造成的后果",
+            "仅凭阳性就认定人人患病并已得到健康收益"
+          ],
+          "answer": 2,
+          "explanation": "C取消了假阳性、后续评价及效益证据，不能成立。A、B保留必要条件和潜在不利影响。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-screening-test-foundation-d2",
+          "type": "number",
+          "stem": "隔日教学B组：实际无病者FP=8、TN=152。特异度Sp是多少？输入0至1小数。",
+          "answer": 0.95,
+          "explanation": "Sp=152/(8+152)=152/160=0.95。分母为参考标准无病者，不是全部检测阴性者。",
+          "difficulty": "delayed-transfer",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-screening-test-foundation-d3",
+          "type": "number",
+          "stem": "隔日教学B组：TP=36、FP=8，阳性预测值PPV是多少？输入0至1小数，保留至少三位小数。",
+          "answer": 0.8181818181818182,
+          "explanation": "PPV=36/(36+8)=36/44≈0.818。与A组约0.667不同，不意味着只根据两组数字便证明新筛检方法更好。",
+          "difficulty": "delayed-transfer",
+          "unit": "无量纲",
+          "tolerance": 0.001
+        },
+        {
+          "id": "353-screening-test-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：A组Se=0.90、Sp=0.95且PPV约0.667；B组Se=0.90、Sp=0.95且PPV约0.818。能否只靠这些数字说B组的检测技术更准确、筛检计划一定有益？解释两层边界。",
+          "answer": "不能。两组教学数据的Se和Sp相同，PPV受目标状态在人群中的比例变化影响；B组PPV更高不等于检测技术必然改进。筛检计划是否带来净健康收益，还应评估对目标人群的适用性、假阳性/假阴性后果、后续诊断治疗与实际结局的比较证据。",
+          "explanation": "核对预测值受人群分布影响和筛检净效益两层，不能仅依据PPV大小保证效果或个体诊断。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "区分Se/Sp和PPV，并指出两组Se/Sp相同",
+            "PPV会受患病情况在人群中所占比例影响",
+            "不能只以较高PPV宣称技术改善",
+            "筛检效益要考虑假结果、诊疗路径和结局证据"
+          ]
+        }
+      ]
+    }
+  ]
+}
