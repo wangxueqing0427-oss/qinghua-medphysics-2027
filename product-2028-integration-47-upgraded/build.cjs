@@ -119,3 +119,26 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-mobile-ux-v2'){
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('mobile-ux.js'));
   console.log('Isolated Pages preview uses mobile UX V2 assets; original branches unaffected');
 }
+
+
+// Select V3 only for its own independent Cloudflare Pages preview branch.
+// The Pages production branch, main and previously deployed V2 remain unchanged.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-mobile-reading-v3'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  const dirV3=path.join(__dirname,'../product-2028-mobile-reading-v3/.build');
+  const v3=require('../product-2028-mobile-reading-v3/build-receipt.json');
+  assert.equal(v3.edition,'qh2028-mobile-reading-v3');
+  assert.equal(v3.courses,47);
+  assert.equal(v3.questions,524);
+  assert.equal(v3.formalReleaseApproved,false);
+  for(const file of v3.files){
+    assert(!file.path.includes('..')&&!path.isAbsolute(file.path));
+    const input=fs.readFileSync(path.join(dirV3,file.path));
+    assert.equal(digest(input),file.sha256,'V3 output digest mismatch: '+file.path);
+    fs.writeFileSync(path.join(out,file.path),input);
+  }
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('mobile-reading.js'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('mobile-reading.js'));
+  console.log('Cloudflare Pages preview branch uses V3 reading and English speech assets; other branches unchanged');
+}
