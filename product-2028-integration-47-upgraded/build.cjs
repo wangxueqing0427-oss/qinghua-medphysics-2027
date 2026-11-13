@@ -390,3 +390,44 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v11-safe-progress-migrati
   assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
   console.log('Independent V11 explicit migration branch preview ready; V10 old learner data and all existing versions untouched');
 }
+
+
+// Independent V12 additive progress migration branch preview, never the production app.
+// The 52 inherited lessons are cryptographically pinned; one original draft t-test unit is added.
+// No old V11 learner profile is automatically imported, no prior site data is overwritten.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v12-additive-progress-t'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  require('../product-2028-stat-inference-52/build.cjs');
+  require('../product-2028-progress-v11/build.cjs');
+  require('../product-2028-v12-additive/build.cjs');
+  const r=require('../product-2028-v12-additive/build-receipt.json');
+  const folder=path.join(__dirname,'../product-2028-v12-additive/.build');
+  assert.equal(r.edition,'qh2028-t-additive-v12');
+  assert.equal(r.courses,53);
+  assert.equal(r.questions,596);
+  assert.equal(r.legacy52CourseContentIdentical,true);
+  assert.equal(r.newCourses,1);
+  assert.equal(r.migrationOptIn,true);
+  assert.equal(r.independentProfessionalApprovals,0);
+  assert.equal(r.formalReleaseApproved,false);
+  for(const file of r.files){
+    assert(!file.path.includes('..')&&!path.isAbsolute(file.path),'Unsafe V12 preview path');
+    const data=fs.readFileSync(path.join(folder,file.path));
+    assert.equal(digest(data),file.sha256,'V12 preview file checksum mismatch: '+file.path);
+    fs.writeFileSync(path.join(out,file.path),data);
+  }
+  const lessons=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(lessons.units.length,53);
+  assert.equal(lessons.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),596);
+  assert.equal(lessons.units[52].id,'353-t-tests-paired-independent-foundation');
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-t-additive-v12'));
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
+  console.log('V12 isolated 53-course additive migration preview ready; no historical V11 or main data changed');
+}
