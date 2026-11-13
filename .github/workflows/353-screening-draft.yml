@@ -1,0 +1,34 @@
+name: 353 Screening Test Foundation course draft contract
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-353-screening-foundation
+    paths:
+      - product-2028-screening-foundation/**
+      - .github/workflows/353-screening-draft.yml
+permissions:
+  contents: read
+jobs:
+  validate-screening:
+    name: Validate 48th isolated source-linked draft without publishing
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild original 47-course source without modification
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+      - name: Check all 47 previous course/524 question structural contracts
+        run: node --test product-2028-assurance-v1/test.cjs
+      - name: Validate original screening lesson 12-question draft and 2x2 arithmetic
+        run: node --test product-2028-screening-foundation/test.cjs
