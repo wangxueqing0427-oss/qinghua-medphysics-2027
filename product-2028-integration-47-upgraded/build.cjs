@@ -223,3 +223,35 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-screening-foundation'
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-screening-48-v6'));
   console.log('Independent V6 screening branch preview ready; all earlier branches and real profiles unchanged');
 }
+
+
+// V7 49-course radiation protection prototype: branch preview only.
+// This is a separately named Cloudflare Pages branch, never the 47-course default,
+// V5/V6 preview, R2/V59 or user learning database.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-radiation-protection-v7'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  const receipt=require('../product-2028-radiation-49/build-receipt.json');
+  const origin=path.join(__dirname,'../product-2028-radiation-49/.build');
+  assert.equal(receipt.edition,'qh2028-radiation-49-v7');
+  assert.equal(receipt.courses,49);
+  assert.equal(receipt.questions,548);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const file of receipt.files){
+    assert(!file.path.includes('..')&&!path.isAbsolute(file.path),'Unsafe output path');
+    const bytes=fs.readFileSync(path.join(origin,file.path));
+    assert.equal(digest(bytes),file.sha256,'V7 candidate asset changed: '+file.path);
+    fs.writeFileSync(path.join(out,file.path),bytes);
+  }
+  const pack=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(pack.units.length,49);
+  assert.equal(pack.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),548);
+  assert(pack.units.some(u=>u.id==='353-radiation-protection-foundation'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-radiation-49-v7'));
+  console.log('Independent V7 radiation branch preview ready; no existing course, prior branch or user data modified');
+}
