@@ -6,6 +6,7 @@ on:
     paths:
       - product-2028-outbreak-foundation/**
       - product-2028-v13-additive/**
+      - product-2028-assurance-v6/**
       - product-2028-integration-47-upgraded/build.cjs
       - .github/workflows/2028-additive-v13.yml
 permissions:
@@ -56,6 +57,10 @@ jobs:
         run: node product-2028-v13-additive/build.cjs
       - name: Reject tampered prior content, future content, wrong backup, and forged answer scores
         run: node --test product-2028-v13-additive/test.cjs
+      - name: Detect stale 2027 topic associations and reject false expert or 2028 syllabus labels
+        run: node --test product-2028-assurance-v6/test.cjs
+      - name: Produce refreshed 2027 outline 27-theme gap and next-learning priorities
+        run: node product-2028-assurance-v6/run.cjs
       - name: Simulate iPhone V12 to V13 consent, restore, reload and new EPI course unlock
         run: node product-2028-v13-additive/migration-browser.cjs
       - name: Archive internal synthetic verification evidence
@@ -66,5 +71,7 @@ jobs:
           path: |
             product-2028-v13-additive/build-receipt.json
             product-2028-v13-additive/migration-browser-results.json
+            product-2028-assurance-v6/results/v13-current-353-gap.json
+            product-2028-assurance-v6/results/v13-next-learning-priorities.md
           if-no-files-found: warn
           retention-days: 14
