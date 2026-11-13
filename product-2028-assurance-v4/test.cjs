@@ -1,0 +1,44 @@
+'use strict';
+const {test}=require('node:test'),assert=require('assert/strict');
+const {map}=require('./map.cjs');
+const outline=require('./2027-353-topic-map.json');
+const pack=require('../product-2028-diagnostic-v5/.build/representative-courses.json');
+const clone=x=>structuredClone(x);
+test('exact 2027 syllabus coarse group mapping is internally consistent but never claims real exam coverage',()=>{
+ const m=map(pack,outline);
+ assert.equal(m.passed,true,JSON.stringify(m.problems));
+ assert.equal(m.teachingTopicGroups,27);
+ assert.deepEqual(m.areas,{'public-health':6,'epidemiology':11,'statistics':3,'cross-disciplinary':1,'medical-physics':6});
+ assert.equal(m.groupsWithOnlyUnverifiedCandidateCourseLinks,11);
+ assert.equal(m.groupsWithoutDirectCandidateCourseLinks,16);
+ assert.equal(m.finalVerifiedTopicGroups,0);
+ assert.equal(m.actual2028SyllabusCoveragePercent,null);
+ assert.equal(m.expertApproved,0);
+ assert.equal(m.formalReleaseApproved,false);
+ assert(m.items.every(x=>x.final2028ExamCoverageConfirmed===false&&x.fullCourseTeachingValidated===false));
+ assert(m.suggestedPriority.some(x=>x.id==='MP02'&&x.courseIds.length===0));
+ assert(m.suggestedPriority.some(x=>x.id==='EPI08'&&x.courseIds.length===0));
+ assert(m.suggestedPriority.some(x=>x.id==='STAT03'&&x.courseIds.length===0));
+});
+test('unknown existing courses, invented expert approvals, and 2028 official claims are rejected',()=>{
+ const madeUp=clone(outline);
+ madeUp.topics.find(x=>x.id==='MP01').courseIds.push('353-not-created');
+ assert(map(pack,madeUp).problems.some(x=>x.startsWith('unknown-candidate-course:')));
+ const pretend=clone(outline);
+ pretend.topics.find(x=>x.id==='MP02').completeCoverageVerified=true;
+ assert(map(pack,pretend).problems.includes('unearned-exam-certification:MP02'));
+ const impossible=clone(outline);impossible.target2028OutlineObtained=true;
+ assert.throws(()=>map(pack,impossible),/Unreliable/);
+ const fakeExpert=clone(outline);fakeExpert.expertApprovals=1;
+ assert.throws(()=>map(pack,fakeExpert),/Unreliable/);
+});
+test('count mismatches, duplicated topics and forged full topic mappings fail',()=>{
+ const bad=clone(outline);
+ bad.topics[0].id=bad.topics[1].id;
+ assert(map(pack,bad).problems.some(x=>x.startsWith('duplicate-topic:')));
+ const forged=clone(outline);
+ forged.topics.find(x=>x.id==='MP03').mappingStatus='fully-verified';
+ assert(map(pack,forged).problems.includes('unearned-full-mapping:MP03'));
+ const removed=clone(outline);removed.topics.pop();
+ assert.throws(()=>map(pack,removed),/Expected 27/);
+});
