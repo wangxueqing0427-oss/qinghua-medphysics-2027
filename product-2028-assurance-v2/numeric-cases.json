@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-curated-numerical-recomputation",
+  "asOf": "2026-11-13",
+  "target": "353 current 18-course, 204-question isolated preview",
+  "scope": "39 numerical answer checks only; not a course-wide scientific/copyright review",
+  "numericQuestions": [
+    {
+      "id": "risk-2",
+      "kind": "incidencePct",
+      "input": {
+        "cases": 30,
+        "risk": 300
+      },
+      "unit": "%",
+      "clues": [
+        "300名",
+        "30名",
+        "一年"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "risk-delay-1",
+      "kind": "incidencePct",
+      "input": {
+        "cases": 12,
+        "risk": 200
+      },
+      "unit": "%",
+      "clues": [
+        "200名",
+        "12名",
+        "一年"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "epi-pt-2",
+      "kind": "incidenceRate",
+      "input": {
+        "cases": 40,
+        "personYears": 2000
+      },
+      "unit": "例/1000人年",
+      "clues": [
+        "40例",
+        "2000人年"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "epi-pt-4",
+      "kind": "incidenceRate",
+      "input": {
+        "cases": 1,
+        "personYears": [
+          0.5,
+          1,
+          0.5
+        ]
+      },
+      "unit": "例/1000人年",
+      "clues": [
+        "0.5年",
+        "1年",
+        "0.5年",
+        "首次事件"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "epi-pt-d1",
+      "kind": "incidenceRate",
+      "input": {
+        "cases": 15,
+        "personYears": 750
+      },
+      "unit": "例/1000人年",
+      "clues": [
+        "15个",
+        "750人年"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "var-b4",
+      "kind": "ratioPct",
+      "input": {
+        "cases": 20,
+        "denominator": 100
+      },
+      "unit": "%",
+      "clues": [
+        "100名",
+        "20人",
+        "超界"
+      ],
+      "source": "CDC_PROP"
+    },
+    {
+      "id": "var-d4",
+      "kind": "ratioPct",
+      "input": {
+        "cases": 8,
+        "denominator": 40
+      },
+      "unit": "%",
+      "clues": [
+        "50名",
+        "40人",
+        "8人",
+        "10人未测"
+      ],
+      "source": "CDC_PROP"
+    },
+    {
+      "id": "353-mean-median-a1",
+      "kind": "mean",
+      "input": {
+        "values": [
+          1,
+          3,
+          5
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "1、3、5分钟",
+        "缺失"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-mean-median-a2",
+      "kind": "median",
+      "input": {
+        "values": [
+          2,
+          4,
+          8,
+          10
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "2、4、8、10分钟",
+        "中位数"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-mean-median-d1",
+      "kind": "mean",
+      "input": {
+        "values": [
+          3,
+          5,
+          7
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "3、5、7分钟",
+        "均数"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-mean-median-d2",
+      "kind": "median",
+      "input": {
+        "values": [
+          9,
+          1,
+          11,
+          7,
+          3
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "9、1、11、7、3分钟",
+        "中位数"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-dispersion-foundation-b2",
+      "kind": "sampleVariance",
+      "input": {
+        "values": [
+          1,
+          3,
+          5
+        ]
+      },
+      "unit": "分钟²",
+      "clues": [
+        "1、3、5分钟",
+        "样本公式"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-dispersion-foundation-a1",
+      "kind": "range",
+      "input": {
+        "values": [
+          2,
+          3,
+          4
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "2、3、4分钟",
+        "极差"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-dispersion-foundation-a2",
+      "kind": "sampleSD",
+      "input": {
+        "values": [
+          2,
+          4,
+          6
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "2、4、6分钟",
+        "SD"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-dispersion-foundation-d1",
+      "kind": "range",
+      "input": {
+        "values": [
+          2,
+          5,
+          8
+        ]
+      },
+      "unit": "分钟",
+      "clues": [
+        "2、5、8分钟",
+        "极差"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-dispersion-foundation-d2",
+      "kind": "sampleVariance",
+      "input": {
+        "values": [
+          2,
+          5,
+          8
+        ]
+      },
+      "unit": "分钟²",
+      "clues": [
+        "2、5、8分钟",
+        "方差"
+      ],
+      "source": "NIST_SCALE"
+    },
+    {
+      "id": "353-normal-distribution-foundation-b2",
+      "kind": "zscore",
+      "input": {
+        "mu": 50,
+        "sd": 5,
+        "x": 55
+      },
+      "unit": "无量纲",
+      "clues": [
+        "μ=50",
+        "σ=5",
+        "x=55"
+      ],
+      "source": "NIST_NORMAL"
+    },
+    {
+      "id": "353-normal-distribution-foundation-a2",
+      "kind": "zscore",
+      "input": {
+        "mu": 80,
+        "sd": 10,
+        "x": 60
+      },
+      "unit": "无量纲",
+      "clues": [
+        "μ=80",
+        "σ=10",
+        "60秒"
+      ],
+      "source": "NIST_NORMAL"
+    },
+    {
+      "id": "353-normal-distribution-foundation-a3",
+      "kind": "cdfBetween",
+      "input": {
+        "lower": 0.5,
+        "upper": 0.8413
+      },
+      "unit": "无量纲",
+      "clues": [
+        "Φ(1)=.8413",
+        "Φ(0)=.5000"
+      ],
+      "source": "NIST_NORMAL"
+    },
+    {
+      "id": "353-normal-distribution-foundation-d2",
+      "kind": "zscore",
+      "input": {
+        "mu": 30,
+        "sd": 3,
+        "x": 24
+      },
+      "unit": "无量纲",
+      "clues": [
+        "μ=30",
+        "σ=3",
+        "x=24"
+      ],
+      "source": "NIST_NORMAL"
+    },
+    {
+      "id": "353-normal-distribution-foundation-d3",
+      "kind": "cdfTail",
+      "input": {
+        "cdf": 0.9772
+      },
+      "unit": "无量纲",
+      "clues": [
+        "Φ(2)=.9772",
+        "P(Z>2)"
+      ],
+      "source": "NIST_NORMAL"
+    },
+    {
+      "id": "353-probability-binomial-foundation-b2",
+      "kind": "complement",
+      "input": {
+        "p": 0.25
+      },
+      "unit": "无量纲",
+      "clues": [
+        "P(A)=0.25",
+        "补事件"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-probability-binomial-foundation-a1",
+      "kind": "equallyLikely",
+      "input": {
+        "favorable": 2,
+        "total": 8
+      },
+      "unit": "无量纲",
+      "clues": [
+        "1至8",
+        "不超过2"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-probability-binomial-foundation-a2",
+      "kind": "complement",
+      "input": {
+        "p": 0.4
+      },
+      "unit": "无量纲",
+      "clues": [
+        "0.4",
+        "不发生"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-probability-binomial-foundation-a3",
+      "kind": "exactOneTwoTrials",
+      "input": {
+        "p": 0.2
+      },
+      "unit": "无量纲",
+      "clues": [
+        "两次独立",
+        "p=0.2",
+        "恰一次"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-probability-binomial-foundation-d1",
+      "kind": "equallyLikely",
+      "input": {
+        "favorable": 2,
+        "total": 6
+      },
+      "unit": "无量纲",
+      "clues": [
+        "1至6",
+        "大于4"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-probability-binomial-foundation-d2",
+      "kind": "complement",
+      "input": {
+        "p": 0.15
+      },
+      "unit": "无量纲",
+      "clues": [
+        "P(B)=0.15",
+        "非B"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-probability-binomial-foundation-d3",
+      "kind": "exactOneTwoTrials",
+      "input": {
+        "p": 0.4
+      },
+      "unit": "无量纲",
+      "clues": [
+        "两次独立",
+        "p=0.4",
+        "恰一次"
+      ],
+      "source": "PSU_BINOM"
+    },
+    {
+      "id": "353-random-sampling-foundation-b2",
+      "kind": "srsInclusion",
+      "input": {
+        "n": 20,
+        "N": 200
+      },
+      "unit": "无量纲",
+      "clues": [
+        "N=200",
+        "n=20",
+        "不放回"
+      ],
+      "source": "VUW_SRS"
+    },
+    {
+      "id": "353-random-sampling-foundation-a2",
+      "kind": "srsInclusion",
+      "input": {
+        "n": 50,
+        "N": 500
+      },
+      "unit": "无量纲",
+      "clues": [
+        "N=500",
+        "抽50",
+        "不放回"
+      ],
+      "source": "VUW_SRS"
+    },
+    {
+      "id": "353-random-sampling-foundation-d2",
+      "kind": "srsInclusion",
+      "input": {
+        "n": 8,
+        "N": 80
+      },
+      "unit": "无量纲",
+      "clues": [
+        "N=80",
+        "抽8",
+        "不放回"
+      ],
+      "source": "VUW_SRS"
+    },
+    {
+      "id": "353-ratio-rate-prevalence-a2",
+      "kind": "ratio",
+      "input": {
+        "cases": 18,
+        "denominator": 120
+      },
+      "unit": "无量纲",
+      "clues": [
+        "120名",
+        "18人",
+        "时点"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "353-ratio-rate-prevalence-a3",
+      "kind": "ratio",
+      "input": {
+        "cases": 30,
+        "denominator": 200
+      },
+      "unit": "无量纲",
+      "clues": [
+        "200人",
+        "30名",
+        "期间"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "353-ratio-rate-prevalence-d2",
+      "kind": "ratio",
+      "input": {
+        "cases": [
+          6,
+          3
+        ],
+        "denominator": 75
+      },
+      "unit": "无量纲",
+      "clues": [
+        "75人",
+        "旧病例6",
+        "新病例3"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "353-ratio-rate-prevalence-d3",
+      "kind": "ratio",
+      "input": {
+        "cases": 6,
+        "denominator": 50
+      },
+      "unit": "无量纲",
+      "clues": [
+        "50人",
+        "6名",
+        "两人"
+      ],
+      "source": "CDC_EPI"
+    },
+    {
+      "id": "353-sampling-distribution-se-b2",
+      "kind": "sem",
+      "input": {
+        "sd": 8,
+        "n": 16
+      },
+      "unit": "分钟",
+      "clues": [
+        "SD=8",
+        "n=16",
+        "SE"
+      ],
+      "source": "PSU_SE"
+    },
+    {
+      "id": "353-sampling-distribution-se-a2",
+      "kind": "sem",
+      "input": {
+        "sd": 15,
+        "n": 25
+      },
+      "unit": "秒",
+      "clues": [
+        "n=25",
+        "s=15",
+        "SE"
+      ],
+      "source": "PSU_SE"
+    },
+    {
+      "id": "353-sampling-distribution-se-a3",
+      "kind": "sem",
+      "input": {
+        "sd": 12,
+        "n": 36
+      },
+      "unit": "秒",
+      "clues": [
+        "SD=12",
+        "n=36",
+        "SE"
+      ],
+      "source": "PSU_SE"
+    },
+    {
+      "id": "353-sampling-distribution-se-d2",
+      "kind": "sem",
+      "input": {
+        "sd": 6,
+        "n": 9
+      },
+      "unit": "分钟",
+      "clues": [
+        "n=9",
+        "s=6",
+        "SE"
+      ],
+      "source": "PSU_SE"
+    }
+  ],
+  "sourceDefinitions": {
+    "CDC_EPI": {
+      "name": "CDC Principles of Epidemiology, Lesson 3 Section 2",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html",
+      "boundary": "Population risk and person-time denominators must match the wording and observation interval."
+    },
+    "CDC_PROP": {
+      "name": "CDC Principles of Epidemiology, Lesson 3 Section 1",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+      "boundary": "Percentage of measured participants is a descriptive sample proportion, not automatically a disease risk."
+    },
+    "NIST_SCALE": {
+      "name": "NIST Engineering Statistics Handbook Measures of Scale",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+      "boundary": "Sample variance uses n-1; median and arithmetic mean rely on numeric sample data."
+    },
+    "NIST_NORMAL": {
+      "name": "NIST normal distribution definition",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm",
+      "boundary": "Table CDF probabilities are approximate values provided by the question, not a precision CDF computation."
+    },
+    "PSU_BINOM": {
+      "name": "Penn State STAT414 Binomial Distribution",
+      "url": "https://online.stat.psu.edu/stat414/Lesson10",
+      "boundary": "Exactly one success in two IID trials uses two symmetric success/failure sequences."
+    },
+    "VUW_SRS": {
+      "name": "Victoria University of Wellington Sample Surveys SRSWOR",
+      "url": "https://homepages.ecs.vuw.ac.nz/~rarnold/STAT392/SampleSurveysBook/_book/simple-random-sampling.html",
+      "boundary": "n/N refers to a particular person's inclusion under simple random sampling without replacement."
+    },
+    "PSU_SE": {
+      "name": "Penn State STAT500 Sampling Distributions",
+      "url": "https://online.stat.psu.edu/stat500/Lesson04",
+      "boundary": "Standard error formula assumes IID sampling or sampling fraction negligible; estimated SE uses sample SD."
+    }
+  },
+  "limitations": [
+    "Operands independently transcribed from stems, not from q.answer or q.explanation",
+    "Source pages support mathematical formulas, but per-question context remains subject to editorial review",
+    "2027 syllabus provisional for 2028; all 353 and medical-physics risk content not formally approved",
+    "Claims of independent professional sign-off remain zero"
+  ]
+}
