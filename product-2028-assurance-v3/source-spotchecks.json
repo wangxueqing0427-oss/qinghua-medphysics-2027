@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-13",
+  "scope": "Limited concept/parameter cross-checks only, not whole-question scientific review",
+  "reviewerType": "AI-assisted citation comparison, no human subject-matter reviewer",
+  "expertApprovals": 0,
+  "verifiedFullExamCoverage": null,
+  "contentApproval": false,
+  "checks": [
+    {
+      "id": "nist-pair-nuclear",
+      "questionIds": [
+        "wi-b4",
+        "wi-d4"
+      ],
+      "claim": "电子与正电子的静质量能对应核场电子对阈值约1.022 MeV；0.8 MeV低于这个能量条件。超过阈值不是发生保证。",
+      "source": "https://physics.nist.gov/PhysRefData/Xcom/Text/chap3.html",
+      "sourceSection": "3. Interpolation and Combination",
+      "status": "specific-claim-supported-by-primary-technical-source",
+      "limits": "只校对阈值及必要条件，不校验完整临床剂量学叙述；没有专家确认"
+    },
+    {
+      "id": "nist-pair-electron",
+      "questionIds": [
+        "wi-a4"
+      ],
+      "claim": "核场电子对产生阈值约1.022 MeV，电子场相关产生阈值约2.044 MeV，两个阈值不能混为一谈。",
+      "source": "https://physics.nist.gov/PhysRefData/Xcom/Text/chap3.html",
+      "sourceSection": "3. Interpolation and Combination",
+      "status": "specific-claim-supported-by-primary-technical-source",
+      "limits": "只核查一个区分点，不证明完整多选题每个干扰项无歧义"
+    },
+    {
+      "id": "nist-uncertainty-ab",
+      "questionIds": [
+        "unc-b3",
+        "unc-d3"
+      ],
+      "claim": "A类和B类不确定度按评价方法区分，而非与随机误差、系统误差作一一对应。",
+      "source": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology",
+      "sourceSection": "D.1.3",
+      "status": "specific-claim-supported-by-primary-technical-source",
+      "limits": "不覆盖课程所有校准与报告论断"
+    },
+    {
+      "id": "nist-uncertainty-standard-error",
+      "questionIds": [
+        "unc-a2"
+      ],
+      "claim": "在独立同条件重复读数均值模型下，以样本标准差s除以sqrt(n)估计均值标准不确定度A类分量；9.8、10、10.2给s=0.2、uA约0.115 cm。",
+      "source": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-law-propagation-uncertainty",
+      "sourceSection": "Appendix A, equation A-5",
+      "status": "formula-and-specific-inputs-crosschecked",
+      "limits": "没有验证每个测量系统独立性和系统误差等全部来源"
+    },
+    {
+      "id": "nist-uncertainty-coverage",
+      "questionIds": [
+        "unc-d4"
+      ],
+      "claim": "仅报告10±0.1cm不足以自动推出95%覆盖，需要说明不确定度类型、覆盖因子或所依据的置信概率解释。",
+      "source": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-7-reporting-uncertainty",
+      "sourceSection": "7. Reporting Uncertainty",
+      "status": "specific-claim-supported-by-primary-technical-source",
+      "limits": "这里只核对报告信息缺失的概念，未审核完整课程"
+    }
+  ]
+}
