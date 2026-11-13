@@ -41,6 +41,35 @@ async function testBrowser(which){
   await page.locator('#course-search').fill('筛检与诊断试验');
   await page.waitForFunction(()=>document.querySelector('#mobile-course-count')?.textContent?.includes('1 / 1'));
   const button=page.locator('#course-catalog [data-unit="353-screening-test-foundation"]');
+  assert.equal(await button.isDisabled(),true,'Unfinished prerequisites must block a new learner');
+  // Use the real controller to create valid learning evidence in this SYNTHETIC profile.
+  // No production prerequisite is bypassed and no genuine learner data is imported.
+  const completed=await page.evaluate(async()=>{
+    const done=new Set(),ordered=[];
+    async function earn(id){
+      if(done.has(id))return;
+      const unit=pack.units.find(u=>u.id===id);
+      if(!unit)throw Error('Synthetic prerequisite unit not found: '+id);
+      for(const before of unit.prerequisites||[])await earn(before);
+      let state=await controller.load(id);
+      if(state.stage!=='learn')throw Error('Unexpected existing synthetic unit session');
+      state=await controller.learned(state);
+      state=await controller.recall(state,'自动验收的独立闭卷回答：定义、条件、举例和局限。');
+      const q=controller.questions(state)[0];
+      if(q.type!=='single')throw Error('Expected first prerequisite question to be single');
+      state=await controller.answer(state,q.answer);
+      if(state.feedback.grade.correct!==true)throw Error('Synthetic objective evidence not correct');
+      done.add(id);ordered.push(id);
+    }
+    const target=pack.units.find(u=>u.id==='353-screening-test-foundation');
+    for(const id of target.prerequisites||[])await earn(id);
+    await overview();
+    return ordered;
+  });
+  assert(completed.length>=3,'Not all prerequisite lessons were really completed');
+  await page.locator('#course-search').fill('筛检与诊断试验');
+  await page.waitForFunction(()=>document.querySelector('#mobile-course-count')?.textContent?.includes('1 / 1'));
+  assert.equal(await button.isEnabled(),true,'Valid synthetic prerequisite evidence should unlock the new course');
   await button.click();
   await page.locator('.mobile-reading').waitFor({timeout:15000});
   assert.equal(await page.locator('.mobile-reading').textContent(),newUnit.explanation);
