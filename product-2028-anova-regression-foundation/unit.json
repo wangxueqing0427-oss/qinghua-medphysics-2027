@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-stat03-anova-regression-internal",
+  "units": [
+    {
+      "id": "353-anova-chi-regression-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "统计推断方法：方差分析、列联表与线性/Logistic回归",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "以公开统计方法资料为依据的原创中文零基础教学和虚构练习；非清华真题，非完整临床统计分析",
+      "mapping": [
+        "STAT03"
+      ],
+      "prerequisites": [
+        "353-inference-ci-hypothesis-foundation",
+        "353-t-tests-paired-independent-foundation"
+      ],
+      "prerequisiteExplanation": "先修置信区间与p值、t检验及独立/配对设计；需要真实闭卷复述与客观练习记录，不允许跳课。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://online.stat.psu.edu/stat500/Lesson10",
+        "https://online.stat.psu.edu/stat500/Lesson08",
+        "https://online.stat.psu.edu/stat501/Lesson01",
+        "https://online.stat.psu.edu/stat501/Lesson05",
+        "https://stats.oarc.ucla.edu/wp-content/uploads/2025/05/logistic_regression_stata.html"
+      ],
+      "explanation": "先按结局变量类型和研究设计选择模型：连续型数值结局、三组及以上互相独立的人群、希望比较总体均数且满足独立性、组内残差近似正态和方差齐性等条件，可学习单因素组间方差分析（one-way ANOVA）。它检验的零假设是所有组总体均数相等，备择是假设至少有一组均数不同，并不自动指出是哪两组差异；如果总体均数不全相同，事后比较还需要考虑多重检验。F=MS_between/MS_within，均方MS是相应平方和SS除以自由度df，组间df=k−1，组内df=N−k。纯虚构实验有三组，每组6人，总N=18，组间MS=12、组内MS=3，F=4；df_between=2、df_within=15。F值不等于p值，更不意味着某组干预有实际临床获益。配对重复测量不能不加判断地按组间独立ANOVA处理。\n\n当两个变量都是分类变量，例如某虚构问卷中是否参加健康教育（是/否）与答题是否正确（正确/错误），常用列联表总结计数，可按抽样与期望频数条件考虑Pearson卡方独立性检验。零假设是两个分类变量相互独立；某格在独立性假设下的期望人数E=(该格所在行的总人数×该格所在列的总人数)/总人数。在虚构N=100的2×2表里，一行合计40人、一列合计30人，则交叉格E=40×30/100=12人。卡方统计量为各格(O−E)^2/E求和，并需考虑独立观测与期望频数等适用条件；期望频数过小不能机械套用常规卡方近似，某些2×2表场景可考虑Fisher精确检验。这里的‘期望’是模型下计算值，不是实际观察到的病例数。\n\n当结局为连续变量且希望研究与一或多个预测变量的线性关系时，可用线性回归入门模型ŷ=b0+b1×x；b0为截距，b1表示x增加1单位时预测的平均结局变化量。完全虚构的健康行为评分预测模型为ŷ=5+2x，当x=3时预测评分为11分；真实观测值与预测值之差叫残差。多元线性回归中，一个系数的解释通常以模型其他预测变量保持不变为条件；要关注线性关系、残差结构、离群点与可能的混杂。R²描述模型对样本结局变异的解释程度，不代表结果一定可用于个人预测，更不能由回归关联直接证明因果。\n\n当结局为二分类（如某虚构结局出现/未出现）时，可以学习Logistic回归：log[p/(1−p)]=β0+β1x；β1每增加1单位的指数exp(β1)在模型条件下对应优势比OR，而非风险比RR。比如虚构模型β1=ln(2)，那么OR=exp(ln2)=2；不能直接解释为‘患病概率增加两倍’。多变量Logistic回归同样需谨慎解释调整后关联、样本与模型条件、事件发生率及混杂因素。总结选模顺序：明确研究设计、结局类型、解释变量、独立性、模型假设和估计目标，再讨论F、卡方、线性或Logistic；p值显著不保证结果在现实医疗中重要，也不能自动给出病因或治疗建议。本课只覆盖识别模型和基础计算，不涵盖完整诊断、模型检验、缺失数据、多重比较与临床研究方案。",
+      "definition": "组间独立单因素ANOVA：F=MS_between/MS_within；分类变量列联表独立性下E=行合计×列合计/N；线性回归ŷ=b0+b1x；Logistic回归logit(p)=β0+β1x，系数指数exp(β1)是OR，不是风险比。",
+      "conditions": "本课只针对统计入门的虚构数据解释与简单演算，不是独立专业统计审稿、真实患者诊断、临床疗效证明或医学试验方案。ANOVA需核查独立性、误差分布和方差齐性；卡方需核查独立观测与期望频数；回归模型需检查线性或链接函数、诊断与混杂。没有覆盖两因素/重复测量ANOVA、Welch ANOVA、多重比较校正、Fisher精确计算、回归诊断完整流程或2028正式大纲核验。",
+      "example": "完全虚构：独立三组的MS_between=12、MS_within=3，则F=4；列联表N=100、行40、列30，则独立性下期望格数12人；线性预测ŷ=5+2×3=11分；Logistic系数β=ln2则OR=2。",
+      "misconceptions": [
+        "ANOVA总体F显著就证明所有组两两差异显著。",
+        "列联表期望频数就是实际观察人数，任何期望值都可直接用卡方近似。",
+        "线性回归的R²高或斜率显著就说明预测变量直接造成结果变化。",
+        "Logistic回归中OR=2和风险比RR=2或个人发病概率翻倍完全相同。"
+      ],
+      "recall": [
+        "闭卷解释三组独立连续型结局应怎样考虑ANOVA和F比值。",
+        "闭卷写出分类变量列联表的期望频数，并说出低期望频数的限制。",
+        "闭卷写出线性预测式、斜率含义与回归不证明因果的原因。",
+        "闭卷解释Logistic模型中系数取指数得到OR，不是RR或绝对概率。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "假设独立三组：MS_between=12，MS_within=3，F=4。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "N100，某行40人某列30人，期望E=40×30/100=12人。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "ŷ=5+2×3=11分；实际观测与模型预测可能有差。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "β=ln(2)，exp(β)=2倍优势比，不是风险比。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-anova-chi-regression-foundation-g1",
+          "description": "辨别三组独立连续结局的单因素方差分析",
+          "successCriteria": "解释总体F假设及F=组间/组内均方，明白事后比较边界",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-anova-chi-regression-foundation-b1",
+            "353-anova-chi-regression-foundation-a2",
+            "353-anova-chi-regression-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-g2",
+          "description": "识别分类变量的列联表和卡方独立性检验",
+          "successCriteria": "计算独立性下期望频数，认识适用条件",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-anova-chi-regression-foundation-b2",
+            "353-anova-chi-regression-foundation-a3",
+            "353-anova-chi-regression-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-g3",
+          "description": "理解简单/多元线性回归预测和残差",
+          "successCriteria": "解释斜率及线性预测，避免把关联当因果",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-anova-chi-regression-foundation-b3",
+            "353-anova-chi-regression-foundation-a4",
+            "353-anova-chi-regression-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-g4",
+          "description": "解释Logistic回归的OR与RR差别",
+          "successCriteria": "知道exp(β)为优势比而非患病风险倍数",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-anova-chi-regression-foundation-b4",
+            "353-anova-chi-regression-foundation-a1",
+            "353-anova-chi-regression-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "解释总体F假设及F=组间/组内均方，明白事后比较边界",
+        "计算独立性下期望频数，认识适用条件",
+        "解释斜率及线性预测，避免把关联当因果",
+        "知道exp(β)为优势比而非患病风险倍数"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日更换虚构ANOVA均方、列联表行列边际及线性/Logistic系数，闭卷判断模型类型与因果解释边界。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "依据官方2027年353大纲的STAT03方向拟定基础概览；2028正式大纲未取得与逐条核对",
+          "公式和题目经过自动规则与算术复核，但未获得独立统计专家对全部解释文字的专业审阅",
+          "全部统计情境和数值均为虚构，不生成真实医疗研究建议或诊断",
+          "不包含方差分析、Logistic模型及回归的完整推断和实操流程，不代表全部STAT03内容已覆盖"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-anova-chi-regression-foundation-b1",
+          "type": "single",
+          "stem": "三组互相独立人群的连续型指标需要比较总体均数，在基础假设适用时，应优先考虑哪种入门方法？",
+          "options": [
+            "单因素组间方差分析（ANOVA）",
+            "配对t检验，把三组当成一对",
+            "只算各组最大值而不比较分布"
+          ],
+          "answer": 0,
+          "explanation": "A正确。独立三组连续结局的均数比较可考虑单因素组间ANOVA，但需核对独立性、组内分布及方差等假设。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-b2",
+          "type": "single",
+          "stem": "某虚构调查同时记录两个二分类变量，研究它们是否相关时，哪个分析思路最贴近数据类型？",
+          "options": [
+            "直接用一组均数的t检验",
+            "两类变量不可能分析关联",
+            "按独立观测等条件建立列联表并考虑卡方独立性检验"
+          ],
+          "answer": 2,
+          "explanation": "C正确。两个分类变量通常可先作列联表，在满足条件时考虑卡方独立性检验。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-b3",
+          "type": "single",
+          "stem": "在简单线性回归模型ŷ=b0+b1×x中，斜率b1最合理的含义是什么？",
+          "options": [
+            "x变化1单位一定导致y发生因果改变",
+            "x增加1单位时，模型预测的平均结局改变b1单位",
+            "b1就是所有个体的真实结局值"
+          ],
+          "answer": 1,
+          "explanation": "B正确。b1描述线性预测关联，不自动证明因果。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-b4",
+          "type": "single",
+          "stem": "在Logistic回归中一个自变量系数β1被取指数exp(β1)，得到的通常是什么？",
+          "options": [
+            "模型条件下与该变量单位变化对应的优势比OR",
+            "在所有人群中固定不变的绝对风险",
+            "患者未来肯定会发病的概率"
+          ],
+          "answer": 0,
+          "explanation": "A正确。exp(β1)对应优势比OR，不能直接等同风险比RR或绝对患病概率。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-anova-chi-regression-foundation-a1",
+          "type": "single",
+          "stem": "当二分类结局用Logistic回归建模时，下列哪种说法最严谨？",
+          "options": [
+            "OR=2意味着每个人的发病概率都正好翻倍",
+            "OR=2描述模型条件下优势（odds）的比值，未必是RR=2",
+            "有Logistic模型就不需要检查研究设计和混杂"
+          ],
+          "answer": 1,
+          "explanation": "B正确。OR比较优势，不直接等于风险或风险比，也不能替代研究设计的因果论证。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-a2",
+          "type": "number",
+          "stem": "虚构独立三组连续结局的方差分析表给出组间均方MS_between=12、组内均方MS_within=3。求F统计量（只输入数值）。",
+          "answer": 4,
+          "explanation": "F=MS_between/MS_within=12/3=4。F值需要相应自由度与分布才能得到p值。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-a3",
+          "type": "number",
+          "stem": "虚构N=100的两个分类变量列联表中，一行合计40人、一列合计30人。在独立性假设下该交叉格期望频数E为多少人？",
+          "answer": 12,
+          "explanation": "E=行合计×列合计/N=40×30÷100=12人。注意是独立性假设下期望频数，而非实际观测值。",
+          "difficulty": "application",
+          "unit": "人",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-a4",
+          "type": "subjective",
+          "stem": "虚构调查中健康行为评分是连续型结局，有两个预测变量（锻炼次数和睡眠时长）。说明为什么考虑多元线性回归、斜率应如何解释，并列出至少两个不能从相关性直接得出的结论。",
+          "answer": "连续型结局、多个预测变量且适合线性模型时可用多元线性回归。每个斜率描述在模型中保持其他预测变量不变时，该预测变量增加1单位与平均预测结局变化的关联。不能仅凭回归显著证明锻炼造成评分改善，不能保证对每个人预测准确，也不能推断模型没有遗漏混杂或测量偏倚。需核查残差、函数形式与研究设计。",
+          "explanation": "评分点为结局类型、保持其他因素条件下的系数含义、因果与个体预测边界；此题仅提供参考要点，不自动评分。",
+          "difficulty": "application",
+          "rubric": [
+            "连续型结局及多个预测变量可考虑多元线性回归",
+            "系数按控制模型其余变量不变的条件解释",
+            "显著关联不能自动等于因果干预效果",
+            "需检查残差、预测误差、混杂或模型条件"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-anova-chi-regression-foundation-d1",
+          "type": "single",
+          "stem": "隔日：三组ANOVA总体F检验达到统计显著，最合适的下一步解释是什么？",
+          "options": [
+            "可以确定全部三组之间两两都有显著差异",
+            "证明干预组在实际临床中效果最好",
+            "只能说明不是所有组的总体均数都相等；特定组间比较需适当事后分析"
+          ],
+          "answer": 2,
+          "explanation": "C正确。总体F检验不直接定位所有两两差异，也不证明因果或临床获益。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-d2",
+          "type": "number",
+          "stem": "隔日虚构模型ŷ=5+2×x，给定x=3，求模型预测的评分ŷ（仅输入数值）。",
+          "answer": 11,
+          "explanation": "预测评分=5+2×3=11分。模型预测不等于所有个体的真实值。",
+          "difficulty": "delayed-transfer",
+          "unit": "分",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-d3",
+          "type": "number",
+          "stem": "隔日虚构Logistic回归给出自变量系数β1=ln(2)，其优势比OR=exp(β1)等于多少倍？",
+          "answer": 2,
+          "explanation": "OR=exp(ln2)=2倍。OR不是同等意义的RR或个人发病概率倍数。",
+          "difficulty": "delayed-transfer",
+          "unit": "倍",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-anova-chi-regression-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：逐项纠正“四组连续指标均值直接用两次t检验且不用考虑多重比较；列联表某格期望值就是观测值；R²高证明因果；Logistic回归OR=2必然是风险翻倍”。",
+          "answer": "四组独立均数可在适合假设时考虑方差分析，多组两两比较需关注多重检验；列联表期望频数在独立性假设下按行列边际计算，与观察频数并非总相同；R²仅描述模型拟合或解释变异的程度，不能单独确认因果；Logistic回归指数系数为优势比OR，不能无条件解释为概率或风险比倍增。",
+          "explanation": "要求方法与设计匹配，准确区分期望/观察频数、回归拟合与因果、OR与RR。主观题不自动评分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "多组均数比较与多重检验边界",
+            "期望频数与观察频数区别",
+            "R²或显著回归不证明因果",
+            "OR与风险或RR不可任意等同"
+          ]
+        }
+      ]
+    }
+  ]
+}
