@@ -27,6 +27,7 @@ for(const item of prior.files){
     s=once(s,"const JOURNAL='qh2028_reading_fullpassage_v4_pending:';","const JOURNAL='"+journal+"';");
     s=once(s,"'qinghua-2028-reading-fullpassage-v4-backup.json'",
       "'qinghua-2028-diagnostic-mini-v5-backup.json'");
+    s=once(s,"x.disabled=x.hasAttribute?.('data-prerequisite-blocked')||false;","x.disabled=x.hasAttribute?.('data-prerequisite-blocked')||x.hasAttribute?.('data-stay-disabled')||false;");
     s=once(s,"MobileUX.enhance({app,pack,plan,act,openUnit});}",
       "MobileUX.enhance({app,pack,plan,act,openUnit});MockExamUI.mount({app,pack,profile,act,overview});}");
     s=once(s,'47课524题手机学习台 · 阅读 V4','47课524题手机学习台 · 诊断 V5');
