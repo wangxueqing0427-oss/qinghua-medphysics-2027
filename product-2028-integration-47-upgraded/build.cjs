@@ -287,3 +287,36 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-nuclear-imaging-v8'){
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-nuclear-50-v8'));
   console.log('Independent V8 nuclear imaging branch preview ready; no existing app, content branch or learner data modified');
 }
+
+
+// Independent 51-course RT V9 PREVIEW only; previous versions and local profiles untouched.
+// This branch is not main and has no relation to formal 2028 syllabus or expert sign-off.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-radiotherapy-v9'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  const receipt=require('../product-2028-radiotherapy-51/build-receipt.json');
+  const v9Dir=path.join(__dirname,'../product-2028-radiotherapy-51/.build');
+  assert.equal(receipt.edition,'qh2028-radiotherapy-51-v9');
+  assert.equal(receipt.courses,51);
+  assert.equal(receipt.questions,572);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const item of receipt.files){
+    assert(!item.path.includes('..')&&!path.isAbsolute(item.path));
+    const input=fs.readFileSync(path.join(v9Dir,item.path));
+    assert.equal(digest(input),item.sha256,'V9 asset checksum mismatch: '+item.path);
+    fs.writeFileSync(path.join(out,item.path),input);
+  }
+  const p=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(p.units.length,51);
+  assert.equal(p.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),572);
+  assert(p.units.some(u=>u.id==='353-radiotherapy-physics-foundation'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-radiotherapy-51-v9'));
+  console.log('Independent V9 radiotherapy branch preview ready; no previous site, official app or user data changed');
+}
