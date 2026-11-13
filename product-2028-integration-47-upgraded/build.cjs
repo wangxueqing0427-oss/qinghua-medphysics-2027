@@ -354,3 +354,39 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-stat-inference-v10'){
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-stat-inference-52-v10'));
   console.log('Independent V10 statistics inference branch preview ready; no prior app, branch or data modified');
 }
+
+
+// Independent V11 explicit progress migration branch preview: NO curriculum changes.
+// V10 source profile, V5–V9 previews, V59/R2 and main remain untouched.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v11-safe-progress-migration'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  require('../product-2028-stat-inference-52/build.cjs');
+  require('../product-2028-progress-v11/build.cjs');
+  const receipt=require('../product-2028-progress-v11/build-receipt.json');
+  const source=path.join(__dirname,'../product-2028-progress-v11/.build');
+  assert.equal(receipt.edition,'qh2028-progress-safe-v11');
+  assert.equal(receipt.courses,52);
+  assert.equal(receipt.questions,584);
+  assert.equal(receipt.noCurriculumChanges,true);
+  assert.equal(receipt.crossVersionMigrationOneHopOnly,true);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const file of receipt.files){
+    assert(!file.path.includes('..')&&!path.isAbsolute(file.path),'Unsafe migration file path');
+    const bytes=fs.readFileSync(path.join(source,file.path));
+    assert.equal(digest(bytes),file.sha256,'V11 preview asset checksum mismatch: '+file.path);
+    fs.writeFileSync(path.join(out,file.path),bytes);
+  }
+  const pack=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(pack.units.length,52);
+  assert.equal(pack.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),584);
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-progress-safe-v11'));
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
+  console.log('Independent V11 explicit migration branch preview ready; V10 old learner data and all existing versions untouched');
+}
