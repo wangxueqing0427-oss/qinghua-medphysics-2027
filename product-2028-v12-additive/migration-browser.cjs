@@ -27,7 +27,7 @@ async function check(browserName){
   page=await context.newPage();
   const browserErrors=[];page.on('pageerror',e=>browserErrors.push(e.message));
   await page.goto(root+'/source/');
-  assert.match(await page.locator('body').innerText(),/增量迁移内测 V12/);
+  assert.match(await page.locator('body').innerText(),/进度迁移内测 V11/);
   await page.locator('#name').fill('模拟V11历史数据');
   await page.locator('#create').click();
   await page.locator('.mobile-next-task').waitFor({timeout:15000});
