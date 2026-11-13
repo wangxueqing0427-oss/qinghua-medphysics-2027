@@ -1,0 +1,57 @@
+/* Mobile UX V2: scoped to the candidate overlay; does not alter older apps. */
+.mobile-next-task {
+  margin: 16px 0;
+  padding: 20px 16px;
+  background: #1b2430;
+  color: #fffaf2;
+  border-radius: 20px;
+}
+.mobile-next-task h2 { color: inherit; margin: 10px 0 6px; font-size: 20px; }
+.mobile-next-task p { color: #f6eede; line-height: 1.6; }
+.mobile-next-eyebrow { font-size: 13px; letter-spacing: .02em; opacity: .86; }
+.mobile-next-task .mobile-primary {
+  min-height: 52px;
+  background: #fffdf8;
+  color: #182535;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 12px;
+}
+.mobile-catalog-controls { margin-top: 24px; }
+.mobile-catalog-controls h2 { font-size: 19px; margin: 0 0 12px; }
+.mobile-course-search { display: block; font-size: 15px; font-weight: 600; }
+.mobile-course-search input {
+  display: block; width: 100%; min-height: 48px;
+  margin: 8px 0 12px; padding: 12px;
+  font-size: 16px;
+  background: #fffdf8; color: #1b2430;
+  border: 1px solid #a2a9b0; border-radius: 12px;
+}
+.mobile-subject-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
+.mobile-subject-tabs button {
+  min-height: 48px; padding: 8px 3px; background: #fffdf8; color: #1b2430;
+  border: 1px solid #b8b8b4; border-radius: 10px; font-size: 13px; font-weight: 600;
+}
+.mobile-subject-tabs button[aria-pressed="true"] { background: #1b2430; color: #fffdf8; border-color: #1b2430; }
+.mobile-subject-tabs button:focus-visible,
+.mobile-course-search input:focus-visible,
+.mobile-next-task button:focus-visible,
+#mobile-toggle-all:focus-visible { outline: 3px solid #c87a16; outline-offset: 2px; }
+.mobile-course-count { font-size: 13px !important; color: #47505b; margin: 12px 0 6px !important; }
+.mobile-course-catalog [hidden], .mobile-catalog-controls [hidden] { display: none !important; }
+.mobile-course-catalog .card { margin: 8px 0; padding: 14px; box-shadow: none; border-radius: 13px; }
+.mobile-course-catalog .card h2 { font-size: 16px; margin: 0 0 4px; }
+.mobile-course-catalog .card p { font-size: 13px !important; margin: 5px 0; }
+.mobile-course-catalog .card button[data-unit] { min-height: 47px; font-size: 15px; text-align: center; }
+#mobile-toggle-all { min-height: 48px; margin: 12px 0; font-size: 15px; }
+/* Native select remains available to accessibility/legacy browser flows without duplicating the visual navigation. */
+.mobile-legacy-filter { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 390px) {
+  .mobile-next-task { padding: 17px 14px; }
+  .mobile-subject-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mobile-subject-tabs button { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mobile-next-task, .mobile-course-catalog, .mobile-subject-tabs { scroll-behavior: auto; }
+}
