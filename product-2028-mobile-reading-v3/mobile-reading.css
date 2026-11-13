@@ -1,0 +1,48 @@
+/* Isolated read-aloud / mobile study improvements; no changes to other versions. */
+.mobile-reading { padding: 4px 0 10px; }
+.mobile-reading .reading-paragraph {
+  font-size: 17px !important;
+  line-height: 1.9 !important;
+  letter-spacing: .015em;
+  margin: 0 0 16px !important;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.mobile-reading[data-reader-size="small"] .reading-paragraph { font-size: 16px !important; line-height: 1.7 !important; }
+.mobile-reading[data-reader-size="large"] .reading-paragraph { font-size: 21px !important; line-height: 1.85 !important; }
+.reading-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 8px; flex-wrap: wrap; padding: 10px 0 14px;
+}
+.reading-toolbar span { font-size: 13px; font-weight: 600; color: #435266; }
+.reading-toolbar button {
+  min-height: 44px; min-width: 54px; border: 1px solid #8793a3; border-radius: 9px;
+  background: #fffdf8; color: #1b2430; font-size: 15px; padding: 8px;
+}
+.reading-toolbar button[aria-pressed="true"] {
+  background: #1b2430; color: #fffdf8; border-color: #1b2430;
+}
+.english-speech {
+  background: #f5f2e8; border: 1px solid #cfcbc0; border-radius: 14px;
+  padding: 16px; margin: 20px 0;
+}
+.english-speech h3 { margin: 0 0 10px; font-size: 17px; }
+.english-speech .speech-phrase {
+  font-size: 19px !important; line-height: 1.7 !important;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow-wrap: anywhere; margin: 0 0 12px !important;
+}
+.english-speech .speech-play, .english-speech .speech-stop {
+  min-height: 48px; font-size: 15px; margin: 0 8px 8px 0;
+}
+.english-speech .speech-hint { font-size: 13px !important; line-height: 1.5 !important; color: #465265; margin: 5px 0 !important; }
+.practice-progress { margin: 16px 0 10px; }
+.practice-progress p { margin: 0 0 6px !important; color: #39485b; font-size: 14px !important; font-weight: 700; }
+.practice-meter { height: 9px; border-radius: 99px; background: #e1ddd5; overflow: hidden; }
+.practice-meter-fill { height: 100%; background: #2f5d50; transition: width .15s ease-out; border-radius: 99px; }
+@media (prefers-reduced-motion: reduce) { .practice-meter-fill { transition: none; } }
+@media (max-width: 390px) {
+  .reading-toolbar { gap: 5px; }
+  .reading-toolbar button { min-width: 50px; font-size: 14px; }
+  .english-speech .speech-play, .english-speech .speech-stop { width: 100%; margin-right: 0; }
+}
