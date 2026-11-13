@@ -142,3 +142,28 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-mobile-reading-v3'){
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('mobile-reading.js'));
   console.log('Cloudflare Pages preview branch uses V3 reading and English speech assets; other branches unchanged');
 }
+
+
+// Publish ONLY the private-to-this-branch unapproved V4 Pages preview.
+// main, R2, V59, the production core47 and prior V2/V3 branches retain their outputs.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-reading-fullpassage-v4'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  const v4Source=path.join(__dirname,'../product-2028-reading-v4/.build');
+  const v4=require('../product-2028-reading-v4/build-receipt.json');
+  assert.equal(v4.edition,'qh2028-reading-fullpassage-v4');
+  assert.equal(v4.courses,47);
+  assert.equal(v4.questions,524);
+  assert.equal(v4.professionalApprovals,0);
+  assert.equal(v4.formalReleaseApproved,false);
+  for(const item of v4.files){
+    assert(!item.path.includes('..')&&!path.isAbsolute(item.path));
+    const input=fs.readFileSync(path.join(v4Source,item.path));
+    assert.equal(digest(input),item.sha256,'V4 output integrity failure: '+item.path);
+    fs.writeFileSync(path.join(out,item.path),input);
+  }
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('reading-passage.js'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('reading-passage.js'));
+  console.log('Cloudflare Pages V4 full passage branch preview assets ready; all previous branches unchanged');
+}
