@@ -5,6 +5,7 @@ on:
       - candidate/2026-11-13-mobile-ux-v2
     paths:
       - product-2028-mobile-ux-v2/**
+      - product-2028-integration-47-upgraded/build.cjs
       - .github/workflows/mobile-ux-v2.yml
 permissions:
   contents: read
