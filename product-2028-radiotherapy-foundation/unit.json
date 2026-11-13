@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-radiotherapy-original-internal-draft",
+  "units": [
+    {
+      "id": "353-radiotherapy-physics-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "放疗物理入门：靶区体积、分次剂量与DVH",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "原创中文基础教学、虚构剂量数值及自编题；不包含治疗处方、真实患者方案、设备操作或专业签字",
+      "mapping": [
+        "MP04"
+      ],
+      "prerequisites": [
+        "353-radiation-protection-foundation",
+        "353-quantity-measurement"
+      ],
+      "prerequisiteExplanation": "先修辐射剂量单位及物理测量，必须完成闭卷回答和客观训练；不能以设备维保商务经验跳过防护及测量基础。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3587083/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7437157/",
+        "https://academic.oup.com/jicru/article-abstract/7/2/83/811704",
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1462_web.pdf"
+      ],
+      "explanation": "放射治疗物理的入门核心是理解：目标区域需要达到由专业团队确定的治疗目的，同时尽可能减少对正常组织的不必要照射。体外放射治疗可借助外部束流传递能量，吸收剂量常用Gy表示（1 Gy=1 J/kg）。但某点或某靶区吸收剂量不能直接当成全身有效剂量Sv、治疗成功率、放疗设备安全合格结论。计划需要影像、人体解剖、肿瘤医学、剂量分布和设备质量保证等多方面证据，不能只靠几道算术题或设备品牌名称决定治疗策略。\n\n靶区相关体积词汇有不同含义。GTV（大体肿瘤体积）通常指可通过临床或影像确定的明显肿瘤病灶范围；CTV（临床靶体积）包含需要治疗的潜在亚临床病灶相关组织，不一定仅是可见GTV；PTV（计划靶体积）则是用于几何计划的概念，纳入定位、运动和治疗实施等不确定性，使CTV能够按预定意图获得照射。危及器官OAR是需要重点考虑正常组织受照情况的结构。PTV不是“实际肿瘤必定长大了的体积”，也不是随意扩大剂量区域的许可。具体轮廓和安全边界必须由有资质的治疗团队按实际病例确定。\n\n分次放疗描述将治疗过程分为若干次实施；处方、每次剂量、总剂量与整体时间均由临床团队依据真实病情决定。仅作算术示例：一个完全虚构的算式将18 Gy等分9次，每次平均2 Gy；另一个等分例子为1.5 Gy/次×8次=12 Gy。这些数字不是任何癌种的推荐方案，也不代表分次方式可随意互换。比较方案还须考虑放射生物效应、组织耐受、体位和运动、机器性能及其他因素，不能只用总Gy或分次数判断疗效和安全性。\n\n剂量体积直方图（DVH）描述结构体积受到不同剂量水平照射的情况。累计DVH的VxGy[%]表示该结构中受到至少x Gy剂量的相对体积比例；例如完全虚构的100 cm³几何结构中25 cm³达到至少5 Gy，V5Gy[%]=25%，这只是数据读法，不是某器官医学安全阈值。D95%[Gy]等指标有其特定体积分布含义，不等同于每个体素剂量完全相同。实际治疗还依赖模拟定位、影像引导、计划验证、患者身份和部位核对、设备QA及有资质团队审签。本课禁止用来设置治疗机参数、剂量约束、分次处方或现场操作。",
+      "definition": "体外放疗以专业团队制定的靶区剂量和正常组织保护为目标，吸收剂量通常以Gy表达。GTV为大体病灶体积，CTV为需治疗的临床靶区，PTV在CTV基础上处理计划与治疗实施中的几何不确定性，OAR为危及器官。累计DVH的VxGy[%]表示结构接受至少x Gy的体积百分比。",
+      "conditions": "本课是清华2027年353医学物理方向关联的2028暂行内测基础课，仅用于概念理解和完全虚构算术题。不用于患者靶区勾画、放射治疗处方、MU计算、束流校准、照射规划、机器控制、任何剂量约束判断或现场临床决定；不涵盖完整放射生物学、治疗计划系统质控及法规认证。",
+      "example": "纯算术：18 Gy/9分次=2 Gy/分次；累计DVH假想100 cm³中25 cm³至少5 Gy，则V5Gy[%]=25%；150 cGy=1.5 Gy；1.5 Gy/次×8次=12 Gy。全部为非临床计算，不代表真实推荐疗程。",
+      "misconceptions": [
+        "PTV就是大体肿瘤实际边界。",
+        "一个DVH体积百分比可以直接表示治愈率或健康风险。",
+        "只要总剂量Gy一样，不同分次方式在人体效果必相同。",
+        "有定位CT就自动满足全部QA和临床审签。"
+      ],
+      "recall": [
+        "闭卷解释Gy是什么，为什么不能由其直接推出治疗效果。",
+        "闭卷区分GTV、CTV、PTV和OAR，不看屏幕写出各自作用。",
+        "闭卷写剂量与分次数的纯数学关系，说明不能拿它制定处方。",
+        "闭卷解释VxGy[%]与成像/QA的作用，列举至少三类实际限制。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "1 Gy=1 J/kg，不能由某处Gy直接推疗效或患者Sv。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "GTV是可见或明确肿瘤；CTV为临床需照射范围；PTV考虑几何不确定性；OAR需保护。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "18 Gy均分9次的数学值2 Gy/次，不能用于实际处方。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "V5Gy[%]表示至少5Gy的体积比例，25/100=25%，不是临床阈值。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-radiotherapy-physics-foundation-g1",
+          "description": "理解治疗吸收剂量及其与其他剂量量的边界",
+          "successCriteria": "正确选择Gy，避免把Bq/Sv或总Gy当治愈率",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-radiotherapy-physics-foundation-b1",
+            "353-radiotherapy-physics-foundation-a2",
+            "353-radiotherapy-physics-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-g2",
+          "description": "掌握GTV、CTV、PTV和OAR的概念区别",
+          "successCriteria": "辨认大体、临床靶区和几何体积以及正常组织",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-radiotherapy-physics-foundation-b2",
+            "353-radiotherapy-physics-foundation-a1",
+            "353-radiotherapy-physics-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-g3",
+          "description": "理解分次的数学表示与生物学边界",
+          "successCriteria": "可以用给定数字计算但不能生成临床剂量方案",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-radiotherapy-physics-foundation-b3",
+            "353-radiotherapy-physics-foundation-a4",
+            "353-radiotherapy-physics-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-g4",
+          "description": "认识累计DVH和成像验证的限定作用",
+          "successCriteria": "按体积百分比解释VxGy并拒绝从单一指标推疗效",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-radiotherapy-physics-foundation-b4",
+            "353-radiotherapy-physics-foundation-a3",
+            "353-radiotherapy-physics-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "正确选择Gy，避免把Bq/Sv或总Gy当治愈率",
+        "辨认大体、临床靶区和几何体积以及正常组织",
+        "可以用给定数字计算但不能生成临床剂量方案",
+        "按体积百分比解释VxGy并拒绝从单一指标推疗效"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日更换DVH样本、cGy与Gy以及分次算术；主观回答对照参考要点，不自动给分或形成临床指令。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "IAEA/NCI/ICRU/AAPM原理资料仅作有限概念核对，未进行独立放疗物理师审定",
+          "2028年度正式考纲尚未取得，2027大纲只能作为暂行范围",
+          "所有剂量均为虚构数据，不得视作任何患者、器官或癌种的治疗处方与安全阈值",
+          "真实放疗设备调试、计划QA、辐射安全与临床操作需要资格和当地有效规范"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-radiotherapy-physics-foundation-b1",
+          "type": "single",
+          "stem": "体外放射治疗计划中描述单位质量吸收能量的物理量通常用什么单位？",
+          "options": [
+            "Bq，表示每秒核衰变次数",
+            "Gy，表示吸收剂量",
+            "Sv，必等于全身肿瘤治疗剂量"
+          ],
+          "answer": 1,
+          "explanation": "B：Gy是吸收剂量单位；Bq是放射性活度，Sv用于特定防护剂量量，不能直接作为治疗处方Gy的同义词。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-b2",
+          "type": "single",
+          "stem": "在放疗靶区概念中，PTV最直接用于处理什么问题？",
+          "options": [
+            "围绕CTV考虑定位、运动与实施等几何不确定性",
+            "仅统计肉眼可见肿瘤，不考虑实施误差",
+            "自动表示肿瘤已经向周围扩散"
+          ],
+          "answer": 0,
+          "explanation": "A：PTV是几何计划体积，旨在处理CTV在治疗实施中的位置与形状等不确定性；B对应GTV的一部分含义，C把计划体积误认作疾病进展。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-b3",
+          "type": "single",
+          "stem": "对分次放疗的理解，哪项更准确？",
+          "options": [
+            "只要总Gy相等，任何分次方式的生物效应都一样",
+            "分次数和每次剂量可以不经专业团队随意设置",
+            "分次、总量、治疗时间和组织反应共同影响临床计划"
+          ],
+          "answer": 2,
+          "explanation": "C保留分次的医学和生物学背景。A、B不当简化真实放疗，算术示例不代表临床处方。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-b4",
+          "type": "single",
+          "stem": "累计DVH中的V5Gy[%]最直接表示什么？",
+          "options": [
+            "该结构所有体素恰好受到5 Gy",
+            "结构中受到至少5 Gy的体积百分比",
+            "患者实际肿瘤治愈概率为5%"
+          ],
+          "answer": 1,
+          "explanation": "B：V5Gy[%]是结构累计体积分布指标；并非每点恰好等于5 Gy，也不能从DVH指标直接推断治愈率。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-radiotherapy-physics-foundation-a1",
+          "type": "single",
+          "stem": "关于GTV、CTV与OAR，下列哪项符合基本定义？",
+          "options": [
+            "OAR是应该忽略的正常结构，计划无须关注",
+            "GTV描述明显病灶，CTV可包含潜在亚临床相关组织，OAR须评估受照",
+            "CTV只包含空气，不与肿瘤有关"
+          ],
+          "answer": 1,
+          "explanation": "B较完整地对应基本概念。GTV/CTV由临床专业人员勾画，OAR的评价也是计划的重要部分。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-a2",
+          "type": "number",
+          "stem": "纯数学分次示例：虚构总剂量18 Gy均分为9个相同剂量的分次，每分次是多少？仅输入Gy数值。",
+          "answer": 2,
+          "explanation": "18÷9=2 Gy/分次。此题只检验除法与单位，不提供任何真实病人治疗剂量或分次建议。",
+          "difficulty": "application",
+          "unit": "Gy/分次",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-a3",
+          "type": "number",
+          "stem": "虚构累计DVH例子：某结构总体积100 cm³，其中25 cm³至少受5 Gy，V5Gy[%]数值是多少？仅输入百分数数值。",
+          "answer": 25,
+          "explanation": "V5Gy[%]=25/100×100=25%；代表达到至少5 Gy的相对体积，不是医学安全性、疗效或某器官限值。",
+          "difficulty": "application",
+          "unit": "%",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-a4",
+          "type": "subjective",
+          "stem": "比较GTV、CTV、PTV与OAR的作用，并解释为什么不能只凭一个总剂量和某一DVH数值批准真实放疗计划。",
+          "answer": "GTV为大体病灶，CTV还涉及需治疗的潜在亚临床病灶，PTV用于包含几何不确定性以利于实施，OAR代表必须关注的正常组织。总剂量和单个DVH指标不能替代完整剂量分布、不同组织耐受、处方背景、定位运动误差、设备QA及有资质团队审查。",
+          "explanation": "核对四个体积术语及拒绝非专业核准的边界，主观题参考核对而不机器给分。",
+          "difficulty": "application",
+          "rubric": [
+            "GTV大体病灶范围",
+            "CTV包含需照射的亚临床相关组织",
+            "PTV是考虑几何不确定性的计划体积",
+            "OAR受照及全部计划QA需要综合专业审查"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-radiotherapy-physics-foundation-d1",
+          "type": "single",
+          "stem": "隔日：图像引导和计划验证对放疗有什么作用？",
+          "options": [
+            "不必进行，因为计划一旦保存绝不可能有实施误差",
+            "只要有CT图像就可以跳过专业审签",
+            "帮助核实靶区位置与实施条件，但仍需团队QA和专门验证"
+          ],
+          "answer": 2,
+          "explanation": "C：影像引导和验证可帮助处理定位及实施差异，但不是无条件的治疗安全保证。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-d2",
+          "type": "number",
+          "stem": "隔日单位换算练习：假想吸收剂量150 cGy，换算为Gy是多少？仅输入数值，单位Gy。",
+          "answer": 1.5,
+          "explanation": "1 Gy=100 cGy，150 cGy=1.5 Gy。数字只用于量纲练习，不用于临床处方解释。",
+          "difficulty": "delayed-transfer",
+          "unit": "Gy",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-d3",
+          "type": "number",
+          "stem": "隔日纯数学示例：每分次1.5 Gy，假设8个分次各自完全相同，算术总和为多少Gy？仅输入数值。",
+          "answer": 12,
+          "explanation": "1.5×8=12 Gy；仅为抽象总和计算，不说明任何真实处方的有效性或安全性。",
+          "difficulty": "delayed-transfer",
+          "unit": "Gy",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-radiotherapy-physics-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：有人说“PTV就是肿瘤真实大小；DVH V5=25%说明疗效25%；总Gy相同就可随意换分次；有定位CT就可以跳过计划QA”。分别纠正。",
+          "answer": "PTV是考虑几何不确定性的计划靶体积，不等于实际肿瘤大小；DVH的V5Gy[%]是接受至少5 Gy的结构体积比例，并非疗效概率；分次方式影响生物学与临床因素，不可仅凭总Gy替换；影像定位只是多项安全措施之一，仍需完整QA和专业核准。",
+          "explanation": "四个论断需各自纠正并说明信息与责任边界，不产生治疗规划建议或主观自动成绩。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "PTV不等于真实肿瘤大小",
+            "V5Gy[%]是剂量体积分布不是疗效概率",
+            "分次有生物和临床因素不能凭总Gy替换",
+            "影像引导不能取代完整QA及团队审核"
+          ]
+        }
+      ]
+    }
+  ]
+}
