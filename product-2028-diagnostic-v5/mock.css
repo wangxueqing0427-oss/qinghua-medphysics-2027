@@ -1,0 +1,81 @@
+/* Experimental diagnostic mini-test (not official exam UI). Scoped to V5. */
+.exam-start-card{
+ margin:18px 0;padding:18px 16px;border:1px solid #c9ccc8;background:#fffdf8;
+ border-radius:18px;box-shadow:0 4px 18px rgba(27,36,48,.06);
+}
+.exam-kicker{font-size:13px;font-weight:700;letter-spacing:.025em;color:#3e6559}
+.exam-start-card h2{font-size:19px!important;margin:9px 0!important}
+.exam-start-card p{line-height:1.6;margin:10px 0}
+.exam-start-card label{display:block;font-weight:650;font-size:15px}
+.exam-start-card select{
+ display:block;width:100%;min-height:48px;margin:9px 0 10px;
+ background:#fff;color:#1b2430;border:1px solid #9da6b3;border-radius:11px;
+ padding:10px;font-size:16px
+}
+.exam-start-card .exam-launch{min-height:50px;font-size:16px;font-weight:700}
+.exam-history .btn{min-height:45px;margin:8px 0}
+.exam-notice{font-size:13px!important;color:#495665;line-height:1.65!important}
+.exam-screen{padding-bottom:calc(40px + env(safe-area-inset-bottom))}
+.exam-screen-head{
+ position:sticky;top:0;z-index:7;padding:12px 0 14px;
+ background:#f3efe6;border-bottom:1px solid #dcd7ce
+}
+.exam-screen-head h1{font-size:20px;margin:10px 0!important}
+.exam-screen-head p{font-size:14px!important;margin:6px 0!important}
+.exam-back{min-height:44px}
+.exam-progress{height:9px;background:#e2dcd1;border-radius:9px;overflow:hidden}
+.exam-progress > div{height:100%;background:#2f5d50}
+.exam-question{margin:16px 0}
+.exam-unit{font-size:13px!important;color:#465267}
+.exam-stem{font-size:18px!important;white-space:pre-wrap;line-height:1.7!important;margin:8px 0 16px!important}
+.exam-choices{border:0;padding:0;margin:6px 0}
+.exam-choices legend{font-size:14px;color:#465267;margin-bottom:8px}
+.exam-choice{
+ display:flex;align-items:flex-start;gap:12px;padding:12px 10px;
+ border:1px solid #c5c8c6;border-radius:12px;margin:9px 0;
+ font-size:16px;line-height:1.6;background:#fff
+}
+.exam-choice input{
+ width:22px;height:22px;flex-shrink:0;accent-color:#263b50;margin-top:2px
+}
+.exam-choice span{flex:1;overflow-wrap:anywhere}
+.exam-text-label{display:block;font-weight:650;line-height:1.65;font-size:15px}
+.exam-text-label textarea,.exam-text-label input{
+ display:block;width:100%;min-height:48px;margin:8px 0;
+ padding:12px;font:inherit;font-size:16px;line-height:1.65;
+ border:1px solid #a9b0b9;border-radius:12px;background:#fff;color:#1b2430
+}
+.exam-text-label textarea{min-height:168px;resize:vertical}
+.exam-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+.exam-nav .btn{min-height:49px;font-size:14px;line-height:1.5;white-space:normal;padding:10px}
+.exam-nav .exam-submit{grid-column:1 / -1;background:#274e43;font-weight:700;font-size:16px}
+.exam-nav button:disabled{opacity:.48;cursor:not-allowed}
+.exam-result-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+.exam-result-grid > div{background:#fffdf8;border:1px solid #e0dbd0;border-radius:14px;padding:15px 10px;min-width:0}
+.exam-result-grid b{display:block;font-size:24px;line-height:1.25;font-variant-numeric:tabular-nums}
+.exam-result-grid span{display:block;font-size:12px;color:#4d5b68;line-height:1.4;margin-top:7px}
+.exam-result-warning,.exam-review-warning{
+ border-left:3px solid #a36b17;padding:12px;background:#fcf3e6;
+ color:#4a392a;line-height:1.6;font-size:14px!important
+}
+.exam-review{
+ border:1px solid #d9d7cf;border-radius:12px;background:#fffdf8;
+ margin:10px 0;overflow:hidden
+}
+.exam-review summary{
+ min-height:48px;padding:14px;font-weight:650;font-size:15px;
+ line-height:1.5;cursor:pointer
+}
+.exam-review-body{padding:4px 14px 16px;border-top:1px solid #e8e4da}
+.exam-review-body h3{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px!important;line-height:1.65}
+.exam-review-body p,.exam-review-body li{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}
+.exam-review-body ul{padding-left:22px}
+.exam-screen button:focus-visible,.exam-screen input:focus-visible,
+.exam-start-card button:focus-visible,.exam-start-card select:focus-visible,
+.exam-screen textarea:focus-visible{outline:3px solid #b7751f;outline-offset:2px}
+@media(max-width:360px){
+ .exam-result-grid b{font-size:21px}
+ .exam-screen-head h1{font-size:18px}
+ .exam-nav{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion: reduce){.exam-progress>div{transition:none}}
