@@ -1,0 +1,70 @@
+name: V13 outbreak epidemiology additive 54-course preview
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-v13-outbreak-additive
+    paths:
+      - product-2028-outbreak-foundation/**
+      - product-2028-v13-additive/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/2028-additive-v13.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: V13 54-course outbreak curriculum and safe V12-to-V13 iPhone migration
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser testing dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild protected 47-53 courses through V12
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+          node product-2028-screening-48/build.cjs
+          node product-2028-radiation-49/build.cjs
+          node product-2028-nuclear-50/build.cjs
+          node product-2028-radiotherapy-51/build.cjs
+          node product-2028-stat-inference-52/build.cjs
+          node product-2028-progress-v11/build.cjs
+          node product-2028-v12-additive/build.cjs
+      - name: Recheck protected original and previous additive migration contracts
+        run: |
+          node --test product-2028-assurance-v1/test.cjs
+          node --test product-2028-v12-additive/test.cjs
+      - name: Verify outbreak lesson 12 questions and independent four risk arithmetic models
+        run: node --test product-2028-outbreak-foundation/test.cjs
+      - name: Build new 54-course 608-question V13 without rewriting legacy content
+        run: node product-2028-v13-additive/build.cjs
+      - name: Reject tampered prior content, future content, wrong backup, and forged answer scores
+        run: node --test product-2028-v13-additive/test.cjs
+      - name: Simulate iPhone V12 to V13 consent, restore, reload and new EPI course unlock
+        run: node product-2028-v13-additive/migration-browser.cjs
+      - name: Archive internal synthetic verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v13-outbreak-54-synthetic-qa
+          path: |
+            product-2028-v13-additive/build-receipt.json
+            product-2028-v13-additive/migration-browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
