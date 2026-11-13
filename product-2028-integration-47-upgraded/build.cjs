@@ -98,3 +98,24 @@ assert.deepEqual(fs.readdirSync(out).sort(),targetFiles.slice().sort());
 const receipt={purpose:'47-course engineering integration; no publication approval',courses:47,questions:524,addedSvoDelayedSubjective:1,unchangedOriginalUnits:46,edition,db,journal,cache,professionalApprovals:0,releaseApproved:false,usesRealLearningData:false,deployed:false,files:built};
 fs.writeFileSync(path.join(__dirname,'build-receipt.json'),JSON.stringify(receipt,null,2));
 console.log(JSON.stringify({built:true,courses:47,questions:524,changedAssets:built.filter(f=>f.changed).map(f=>f.path),released:false,deployed:false}));
+
+
+// Only for the explicitly isolated UX V2 branch preview. This project is NOT a
+// formal release: keep source/base outputs byte-for-byte unchanged on all
+// other branches (including the existing core47 production branch and main).
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-mobile-ux-v2'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  const sourceV2=path.join(__dirname,'../product-2028-mobile-ux-v2/.build');
+  const newReceipt=require('../product-2028-mobile-ux-v2/build-receipt.json');
+  assert.equal(newReceipt.edition,'qh2028-mobile-ux-v2');
+  assert.equal(newReceipt.courses,47);
+  assert.equal(newReceipt.questions,524);
+  for(const file of newReceipt.files){
+    const content=fs.readFileSync(path.join(sourceV2,file.path));
+    assert.equal(digest(content),file.sha256,'V2 source file changed after QA: '+file.path);
+    fs.writeFileSync(path.join(out,file.path),content);
+  }
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('mobile-ux.js'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('mobile-ux.js'));
+  console.log('Isolated Pages preview uses mobile UX V2 assets; original branches unaffected');
+}
