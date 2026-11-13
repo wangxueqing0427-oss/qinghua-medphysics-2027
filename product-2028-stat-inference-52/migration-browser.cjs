@@ -54,7 +54,7 @@ async function run(which){
   assert.equal(await page.locator('[data-profile]').count(),0,'V10 wrongly auto-imported earlier local records');
   const bad={...before,events:[...before.events,{...before.events[0],profileId:'other-person'}]};
   await page.locator('#restore').setInputFiles({name:'corrupt-v9-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(bad))});
-  await page.waitForFunction(()=>document.querySelector('#message')?.textContent?.length>0);
+  await page.waitForFunction(()=>{const input=document.querySelector('#restore');const msg=document.querySelector('#message')?.textContent||'';return input&&!input.disabled&&msg.includes('Mixed-profile backup rejected');},{timeout:12000});
   assert.equal(await page.evaluate(()=>repository.listProfiles().then(x=>x.length)),0,'Invalid profile must not be created');
   await page.locator('#restore').setInputFiles({name:'safe-v9-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(before))});
   await page.locator('.mobile-next-task').waitFor({timeout:15000});
