@@ -101,7 +101,7 @@ async function run(browserName){
   assert.equal(await page.locator('[data-unit="353-inference-ci-hypothesis-foundation"]').isDisabled(),true,
    'Unmet prerequisites must remain locked in restored V10 profile');
   await page.reload();
-  await page.getByRole('button',{name:/^继续 V10同版本备份验收/}).last().click();
+  await page.locator('[data-profile="'+restored.profileId+'"]').click();
   await page.locator('.mobile-next-task').waitFor({timeout:15000});
   assert.deepEqual(await page.evaluate(()=>profile.exportBackup()),restored,'Reload modified restored V10 evidence');
   await page.goto(origin+'/previous/');
