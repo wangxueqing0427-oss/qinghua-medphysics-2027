@@ -1,0 +1,69 @@
+name: V12 additive 53-course migration and t-test lesson
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-v12-additive-progress-t
+    paths:
+      - product-2028-t-tests-foundation/**
+      - product-2028-v12-additive/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/2028-additive-v12.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: V12 53-course 596-question incremental upgrade and WebKit migration
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned isolated browser dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild all protected 47-52 course versions and V11 migration preview
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+          node product-2028-screening-48/build.cjs
+          node product-2028-radiation-49/build.cjs
+          node product-2028-nuclear-50/build.cjs
+          node product-2028-radiotherapy-51/build.cjs
+          node product-2028-stat-inference-52/build.cjs
+          node product-2028-progress-v11/build.cjs
+      - name: Verify original 47-course QA and V11 migration safety controls
+        run: |
+          node --test product-2028-assurance-v1/test.cjs
+          node --test product-2028-progress-v11/test.cjs
+      - name: Verify new t-test foundations and independent sample arithmetic
+        run: node --test product-2028-t-tests-foundation/test.cjs
+      - name: Build 53-course 596-question V12 with protected old content hash
+        run: node product-2028-v12-additive/build.cjs
+      - name: Reject altered old questions while accepting appended course
+        run: node --test product-2028-v12-additive/test.cjs
+      - name: Simulate two-step V11 backup import and old profile protection on Chromium and WebKit
+        run: node product-2028-v12-additive/migration-browser.cjs
+      - name: Preserve synthetic evidence, not a formal release
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v12-additive-53-synthetic-acceptance
+          path: |
+            product-2028-v12-additive/build-receipt.json
+            product-2028-v12-additive/migration-browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
