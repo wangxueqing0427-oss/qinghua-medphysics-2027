@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-evidence-meta-original-draft",
+  "units": [
+    {
+      "id": "353-evidence-systematic-review-meta-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "循证医学入门：系统评价、PICO与Meta分析",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "使用Cochrane公开方法框架原创撰写的教学内容与虚构统计练习；非清华真题、临床指南或已发表研究",
+      "mapping": [
+        "EPI11"
+      ],
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-inference-ci-hypothesis-foundation"
+      ],
+      "prerequisiteExplanation": "先修研究设计与统计推断，完成独立闭卷回忆和客观题才能解锁；此课不代替完整研究方法训练。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-02",
+        "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-03",
+        "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+        "https://www.prisma-statement.org/prisma-2020"
+      ],
+      "explanation": "循证医学强调把适当研究证据与专业判断、受影响人群的价值和现实资源条件相结合，不能把某一篇论文的p值当成全部决策。系统评价是围绕预先明确的问题，按可复核的纳入排除标准系统检索、筛选、评价、综合相关研究的方法；它不等于‘随意看过多篇文章写一篇综述’。干预研究问题常用PICO定义：P（Population）人群，I（Intervention）干预，C（Comparator）对照，O（Outcome）结局。虚构问题为‘在指定成年人群中，健康教育相对通常宣教是否改变半年内某健康知识测验分数’；这里P、I、C、O各有对应信息，测验分数是否代表长期健康收益仍需要另外论证。\n\n系统评价通常需要事先确定研究问题、研究设计及纳入排除条件，形成并尽可能登记方案，系统检索不同来源，记录筛选原因，按可解释的方法提取数据、评价偏倚风险，并依证据特点做叙述性或统计学综合。Meta分析是适当条件下将多个研究结果进行统计合成的技术，可作为系统评价的一部分，但系统评价不一定必须做Meta分析，Meta分析也不能自动修复原始研究的偏倚。PRISMA是帮助透明报告系统评价的规范，不是研究本身的质量认证；偏倚风险与证据确定性也不是同一个概念。若不同研究的人群、干预、结局定义或设计差异很大，直接合并一个数字可能误导。\n\n在明确可比的相同效应尺度、独立研究及所用统计模型合理等教学前提下，固定效应逆方差加权可以用每项研究估计值θᵢ和标准误SEᵢ构造wᵢ=1/SEᵢ²，并求合并估计θ̄=Σ(wᵢθᵢ)/Σwᵢ。本课给出完全虚构的两项研究：甲研究θ₁=1、SE₁=0.5，则w₁=4；乙研究θ₂=3、SE₂=1，则w₂=1；相同无量纲效应尺度下，合并值=(4×1+1×3)/(4+1)=1.4。较小标准误的研究在此模型中权重更高，但权重不能被理解为‘研究本身一定正确’或‘样本量直接决定权重’；方法选择还要核对研究质量、效应尺度、临床和方法学可比性。这里没有实际病人、设备干预或治疗结论。\n\n森林图一般以点和水平线呈现各研究估计值及置信区间，可同时展示合并估计；图中无效值位置依效应尺度而异：均数差等差值型通常为0，RR和OR等比值型通常为1，不能混淆。研究间异质性可描述不同研究真实效应的差异。Cochran Q=Σwᵢ(θᵢ−θ̄)²，在上面纯教学例子里Q=4×(1−1.4)²+1×(3−1.4)²=3.2，两研究时df=k−1=1；由I²=max(0,(Q−df)/Q)×100%得到68.75%。I²不能解释为‘68.75%的研究有偏倚’或‘疗效有68.75%的概率不同’；尤其仅两项研究时统计不确定性很大，不能凭这一数值判定实际临床异质性。随机效应模型也不是异质性较高时的万能解决方案。发表偏倚、检索不全、偏倚风险以及证据的适用性仍需单独考虑。",
+      "definition": "循证医学综合适当研究证据、专业判断与患者价值和现实条件；系统评价按预设问题系统识别、评价、整合证据；Meta分析在适当可比条件下统计合并效应。PICO=人群、干预、比较对象、结局；逆方差固定效应模型w=1/SE²，合并θ=Σwθ/Σw；Q=Σw(θ−θ̄)²；I²=max(0,(Q−df)/Q)×100%。",
+      "conditions": "本课只用于353循证医学与Meta分析基础概念练习，数据和案例完全虚构；不得用于真实医学干预效果判断、患者诊断、临床用药、医学指南制定或科研发表。逆方差与Q、I²计算仅限相同效应尺度、独立研究及模型适当的教学示例；两项研究时I²极不稳定。随机效应并不自动解决研究偏倚。未涵盖Meta分析完整软件实践、发表偏倚定量诊断、网络Meta分析、GRADE评估流程和2028官方考纲确认。",
+      "example": "完全虚构：甲研究θ=1、SE=.5→权重4；乙研究θ=3、SE=1→权重1；合并θ=(4×1+1×3)/5=1.4；Q=4×(.4)²+1×(1.6)²=3.2；df=1，I²=68.75%。均是对统计公式的练习，不是任何真实研究结果。",
+      "misconceptions": [
+        "只要把多篇文章整理在一起便是系统评价，任何系统评价都必须做Meta分析。",
+        "逆方差权重更大就证明那篇原始研究绝对正确或完全无偏倚。",
+        "森林图中所有效应指标的无效值都是0。",
+        "I²就是存在偏倚的研究所占百分比；随机效应模型可以消除所有偏倚。"
+      ],
+      "recall": [
+        "闭卷写出PICO四要素与系统评价的预设问题、检索筛选、偏倚评价顺序。",
+        "闭卷区别系统评价、Meta分析、PRISMA报告和证据确定性，解释为何不能无条件合并。",
+        "闭卷解释逆方差权重1/SE²并在虚构两研究中计算加权估计。",
+        "闭卷区分RR无效线1与差值0，计算Q和I²并解释小研究数时的谨慎边界。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "健康教育对半年健康知识分数的影响：明确P/I/C/O四要素。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "先检索与按预设标准纳排，再提取数据与评价偏倚，不强行合并。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "SE甲=.5权重4，SE乙=1权重1；合并值为1.4。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "RR无效值1；Q=3.2、df=1、I²=68.75%，两个研究估计极不稳定。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-g1",
+          "description": "理解循证医学和PICO系统评价问题",
+          "successCriteria": "能区分人群干预比较结局并评估是否可合并",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-evidence-systematic-review-meta-foundation-b1",
+            "353-evidence-systematic-review-meta-foundation-a1",
+            "353-evidence-systematic-review-meta-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-g2",
+          "description": "描述系统评价完整流程及PRISMA、偏倚风险、证据确定性区别",
+          "successCriteria": "能回答方案、检索、筛选、偏倚评估的用途",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-evidence-systematic-review-meta-foundation-b2",
+            "353-evidence-systematic-review-meta-foundation-a4",
+            "353-evidence-systematic-review-meta-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-g3",
+          "description": "从标准误计算固定效应逆方差权重与合并效应",
+          "successCriteria": "掌握w=1/SE²和加权均数的条件",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-evidence-systematic-review-meta-foundation-b3",
+            "353-evidence-systematic-review-meta-foundation-a2",
+            "353-evidence-systematic-review-meta-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-g4",
+          "description": "识别森林图无效线及Q/I²异质性指标解释边界",
+          "successCriteria": "能在限定假设下计算I²并避免过度临床推断",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-evidence-systematic-review-meta-foundation-b4",
+            "353-evidence-systematic-review-meta-foundation-a3",
+            "353-evidence-systematic-review-meta-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "能区分人群干预比较结局并评估是否可合并",
+        "能回答方案、检索、筛选、偏倚评估的用途",
+        "掌握w=1/SE²和加权均数的条件",
+        "能在限定假设下计算I²并避免过度临床推断"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷构造PICO研究问题、区分系统评价与Meta、重新计算虚构逆方差加权与I²，并说明证据质量不等于统计显著。"
+      },
+      "reviewRecord": {
+        "internalCheck": "cochrane-source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "2027清华353公开大纲支持循证医学及Meta分析概念，2028完整考纲尚未逐条确认",
+          "来源公开可查但课程和所有例题尚未获得独立系统评价方法学专家逐段审定",
+          "逆方差、Q、I²仅在虚构两研究的限定模型里演算，不形成任何真实临床效应结论",
+          "系统评价完整方案、敏感性分析、证据确定性评价和真实资料合并不在这一课范围内"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-b1",
+          "type": "single",
+          "stem": "针对一种公共卫生干预开展系统评价，PICO中的C通常指哪一部分？",
+          "options": [
+            "数据录入后的计算机算法",
+            "与干预组比较的对照或替代措施",
+            "只收集病人的血压值"
+          ],
+          "answer": 1,
+          "explanation": "B正确。PICO为人群、干预、比较对象与结局，C明确比较干预的对照情境。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-b2",
+          "type": "single",
+          "stem": "以下关于系统评价和Meta分析的关系，哪种说法更准确？",
+          "options": [
+            "两者完全等同，每一项系统评价都必须统计合并",
+            "只做Meta分析就能自动消除原始研究偏倚",
+            "系统评价是透明的系统证据综合过程，适当时可包含Meta统计合并"
+          ],
+          "answer": 2,
+          "explanation": "C正确。系统评价不等于Meta；是否合并取决于问题与研究的可比性及方法学条件。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-b3",
+          "type": "single",
+          "stem": "在明确相同效应尺度、模型适用的逆方差加权中，权重通常和什么相关？",
+          "options": [
+            "研究效应估计的标准误平方的倒数1/SE²",
+            "论文标题长短",
+            "医院名气大小"
+          ],
+          "answer": 0,
+          "explanation": "A正确。此处权重等于标准误平方的倒数，不等于研究的整体可信度。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-b4",
+          "type": "single",
+          "stem": "森林图中效应尺度为RR时，表示没有相对效应的参考值通常是什么？",
+          "options": [
+            "0，与所有效应指标完全相同",
+            "1，差值型指标的无效值通常另为0",
+            "100%，因为风险比都是百分数"
+          ],
+          "answer": 1,
+          "explanation": "B正确。RR和OR的无效比值为1，均数差等差值型指标的无效值为0。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-a1",
+          "type": "single",
+          "stem": "一项系统评价纳入研究的人群、干预与结局定义差异很大，下一步最稳妥的判断是什么？",
+          "options": [
+            "先评估临床和方法学可比性，不宜仅为得到一个数字而强行合并",
+            "直接把所有效应简单相加即可",
+            "只要都发表在期刊就必然能合并"
+          ],
+          "answer": 0,
+          "explanation": "A正确。合并前须确认研究问题、效应尺度与临床和方法学可比性，Meta分析不能代替风险偏倚检查。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-a2",
+          "type": "number",
+          "stem": "虚构两项研究共用无量纲效应尺度。甲研究的标准误SE=0.5，固定效应逆方差权重w=1/SE²为多少？只输入数值。",
+          "answer": 4,
+          "explanation": "w=1/(0.5²)=1/0.25=4。此权重用于限定的逆方差模型，不是研究质量评分。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-a3",
+          "type": "number",
+          "stem": "虚构固定效应逆方差模型：甲效应估计1、权重4；乙效应估计3、权重1。求加权合并估计(4×1+1×3)/(4+1)，仅输入数值。",
+          "answer": 1.4,
+          "explanation": "合并效应=(4+3)/5=1.4。两项研究须处在相同效应尺度且满足合并前提，不代表真实医疗效果。",
+          "difficulty": "application",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-a4",
+          "type": "subjective",
+          "stem": "用四个步骤描述一个健康教育效果系统评价的基本路径，并解释PRISMA、偏倚风险和证据确定性为何不能互相替代。",
+          "answer": "先按PICO明确人群、干预、比较和结局，并事先确定方案及纳入标准；系统检索、筛选并记录排除理由；提取研究结果和评价偏倚风险；根据可比性选择叙述或统计合成，报告不确定性及适用性。PRISMA指导透明报告，偏倚风险评价研究内在系统偏差，证据确定性进一步综合偏倚、不一致、间接性、不精确等维度，三者不同。",
+          "explanation": "可自查PICO、预先方案、检索选择、偏倚和结果综合及三种工具区别，不自动判分。",
+          "difficulty": "application",
+          "rubric": [
+            "PICO明确人群干预对照结局并预设方案",
+            "系统检索、纳排筛选和资料提取可复核",
+            "按研究可比性决定合成并评价偏倚",
+            "PRISMA报告、偏倚风险与整体证据确定性分工不同"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-d1",
+          "type": "single",
+          "stem": "隔日：某系统评价只有两项研究并报告较高I²，最稳妥的解释是什么？",
+          "options": [
+            "I²就是这些研究中不合格研究的百分比",
+            "它提示估计结果存在超出抽样误差的变异比例，但仅两项研究时不确定性很高",
+            "I²高证明某治疗完全无效"
+          ],
+          "answer": 1,
+          "explanation": "B正确。I²用于描述不一致的统计指标，研究很少时估计不稳，不能当成偏倚研究占比或疗效判断。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-d2",
+          "type": "number",
+          "stem": "隔日虚构两个研究：效应分别是1和3，逆方差权重分别为4和1，合并估计已知为1.4。求Cochran Q=4×(1−1.4)²+1×(3−1.4)²的数值。",
+          "answer": 3.2,
+          "explanation": "Q=4×0.16+1×2.56=0.64+2.56=3.2。Q还需要结合自由度与方法学情境解释，不是p值。",
+          "difficulty": "delayed-transfer",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-d3",
+          "type": "number",
+          "stem": "隔日纯演算：虚构两项研究给出Q=3.2、df=k−1=1。按I²=max(0,(Q−df)/Q)×100%计算I²百分数（只输入数值）。",
+          "answer": 68.75,
+          "explanation": "I²=(3.2−1)/3.2×100%=68.75%。样本研究仅两项时该统计量不确定性很大，不能当作真实治疗异质性的精确程度。",
+          "difficulty": "delayed-transfer",
+          "unit": "%",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-evidence-systematic-review-meta-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日请纠正：“系统评价就是多读几篇论文；PRISMA认证论文质量；森林图RR无效值为0；I²=68.75%说明68.75%研究有偏倚；随机效应能消除偏倚。”",
+          "answer": "系统评价需预设问题、完整可复核的检索筛选和评价过程；PRISMA帮助透明报告，并不认证研究质量；RR等比值型效应无效线为1，差值型通常为0；I²描述部分统计变异指标，不是偏倚研究占比；随机效应模型允许研究间效应变异，但不消除原始研究的系统偏倚和临床差异。",
+          "explanation": "参考点覆盖系统评价、PRISMA、效应尺度、I²以及随机效应的边界，不自动判分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "系统评价需要系统纳排检索、评价和综合方法",
+            "PRISMA是报告规范，不是偏倚质量认证",
+            "RR与OR无效值1，差值型效应通常0",
+            "I²不是有偏倚研究的比例",
+            "随机效应不能消除研究偏倚"
+          ]
+        }
+      ]
+    }
+  ]
+}
