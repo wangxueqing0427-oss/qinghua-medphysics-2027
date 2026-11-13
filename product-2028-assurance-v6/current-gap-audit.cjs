@@ -73,7 +73,7 @@ function audit(pack){
   urgentMissingInternalThemes:without.filter(x=>
    original.topics.some(t=>t.id===x.id&&t.priority==='P0')).map(x=>({id:x.id,title:x.title})),
   safeguards:[
-   '2027 syllabus is official for the 2027 public-health master's 353 exam, not proven complete for target 2028',
+   '2027 syllabus is official for the 2027 public-health masters 353 exam, not proven complete for target 2028',
    '27 topics are internal planning groups and may overlap; their counts are NOT exam score or complete syllabus coverage',
    'Association means a related draft lesson exists, not that the whole exam topic is adequately taught',
    'Teaching accuracy and independent specialist audit remain incomplete; no inferred external expert approval',
