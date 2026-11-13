@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-nuclear-imaging-original-draft",
+  "units": [
+    {
+      "id": "353-nuclear-imaging-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "核医学影像入门：放射性活度、SPECT与PET原理",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "原创中文理论讲解和虚构数值题，不含真实核素或核医学药物剂量处方，不是官方试题或设备维修手册",
+      "mapping": [
+        "MP03"
+      ],
+      "prerequisites": [
+        "353-radiation-protection-foundation",
+        "353-waves-interactions"
+      ],
+      "prerequisiteExplanation": "先掌握活度与剂量、基本光子物理；要求真实闭卷回答和客观题成功证据，不允许跳过先修门禁。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.nibib.nih.gov/programs/nuclear-medicine",
+        "https://health.nih.gov/health-topics-a-z/pet",
+        "https://www.ncbi.nlm.nih.gov/books/NBK11471/?report=reader",
+        "https://www.radiologyinfo.org/en/info/pet",
+        "https://www.osha.gov/ionizing-radiation/introduction/ionizing-radiation-equations",
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1198_web.pdf"
+      ],
+      "explanation": "核医学影像以放射性示踪剂在体内的分布及相关生理过程为观察对象，检测从体内发出的辐射信号；它与常规X线CT主要利用外部X线穿过人体形成图像的原理不同。放射性活度A表示单位时间发生的核衰变次数，单位贝可勒尔（Bq），1 Bq=1次衰变每秒，1 MBq=10^6 Bq。活度不是人体吸收剂量Gy，也不能单凭活度数值判定健康风险。在无新补充、只考虑物理衰变的理想模型中，A(t)=A0×(1/2)^(t/T1/2)，T1/2为核素物理半衰期。物理半衰期不是生物排泄半衰期，也不是体内有效半衰期。\n\n单光子发射计算机断层显像SPECT通常通过适合的放射性药物发出的γ光子，用准直器限制检测方向，再收集多角度投影重建分布。准直器会过滤许多不符合方向要求的光子，不能理解为探头本身产生治疗射线。探测到的计数还受探测效率、衰减、散射、死时间、几何条件与时间窗等影响，不能把计数率直接当作真实Bq活度。教学题里假定40秒收到800个计数，平均计数率800÷40=20次/秒；它不是目标组织的活度，更不是患者吸收剂量。\n\n正电子发射断层显像PET检测正电子和电子湮灭产生的一对近似反向飞出的光子；在静止近似下每个约511 keV，共两份光子能量约1022 keV。PET通过符合时间窗内的成对检测构成响应线（LOR）进行重建，与SPECT依靠机械准直选择方向不同。现实中正电子射程、光子非完全共线、体内散射及随机符合会影响定位与图像质量；符合事件不能理解为百分百来自单一真实位置。PET与SPECT都不是凭某个热点就能直接确诊病因。\n\nPET/CT和SPECT/CT把功能性示踪剂分布信息与CT解剖信息结合；CT数据也可用于衰减校正，联合图像仍需考虑配准、运动、伪影等误差。增加检测计数或放射性活度不自动保证更优影像，也不能由一段简单物理公式决定患者用药、辐射剂量或设备检查方案。本课只教物理概念、单位换算、成像信号差异和简单计数，不教真实核素制备、药物选用、患者剂量决策、辐射作业或实际系统调试。",
+      "definition": "Bq为放射性活度单位(次衰变/秒)；纯物理半衰期模型A=A0×2^(-t/T1/2)。SPECT一般探测γ光子并借助准直器，PET探测正负电子湮灭产生的两枚约511 keV光子符合事件；PET/CT额外利用CT解剖信息和衰减校正。",
+      "conditions": "这是依据清华2027年353暂定方向编写的2028个人内部草稿，只用于基础物理认知、计数及单位换算。不用于药物选择、给药、放射性核素操作、实际病人诊断、剂量推算、设备调校或医疗安全决策；物理衰变不等于体内有效清除；未涵盖完整PET/SPECT校正算法或核医学规程。",
+      "example": "物理半衰期3h的虚构核素，初始64 MBq经过6h变16 MBq；每次湮灭两枚511 keV光子相加约1022 keV；假设800计数/40s为20次/s；0.75 MBq=750000 Bq。以上是教学数学模型，不是临床参数。",
+      "misconceptions": [
+        "放射性活度Bq就等于患者吸收剂量Gy。",
+        "PET通过仪器直接读出正电子行进的精确轨迹。",
+        "SPECT完全不需要准直器，依靠两枚511 keV符合来成像。",
+        "PET/CT只要叠加就不会有衰减、散射、运动、配准等误差。"
+      ],
+      "recall": [
+        "闭卷说明活度Bq的定义、物理半衰期及为什么它们不等于Gy。",
+        "闭卷写出SPECT从γ光子经准直到多角度投影重建的思路。",
+        "闭卷说明PET的正电子湮灭、两枚511 keV光子、符合事件和定位限制。",
+        "闭卷比较PET/CT与SPECT/CT中CT的作用，列至少三项图像解释限制。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "64 MBq、物理半衰期3h，6h后16 MBq。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "800次有效计数/40s=20次/s，不等于真实Bq。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "两枚各511 keV光子共1022 keV，不能写成一枚。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "CT提供解剖信息和衰减校正，融合仍有配准及运动误差。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-nuclear-imaging-foundation-g1",
+          "description": "区别活度、半衰期与剂量量纲",
+          "successCriteria": "能区分Bq与Gy，按给定物理半衰期正确计算变化",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-nuclear-imaging-foundation-b1",
+            "353-nuclear-imaging-foundation-a2",
+            "353-nuclear-imaging-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-g2",
+          "description": "识别SPECTγ光子准直成像与计数边界",
+          "successCriteria": "理解准直器的方向选择作用并区分记录计数与活度",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-nuclear-imaging-foundation-b2",
+            "353-nuclear-imaging-foundation-a4",
+            "353-nuclear-imaging-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-g3",
+          "description": "理解PET湮灭光子、符合与响应线",
+          "successCriteria": "明确两枚511 keV光子、成对探测及有限定位准确性",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-nuclear-imaging-foundation-b3",
+            "353-nuclear-imaging-foundation-a3",
+            "353-nuclear-imaging-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-g4",
+          "description": "判断PET/SPECT图像解释与混合成像限制",
+          "successCriteria": "了解CT解剖/衰减信息以及图像和计数不等于诊断",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-nuclear-imaging-foundation-b4",
+            "353-nuclear-imaging-foundation-a1",
+            "353-nuclear-imaging-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "能区分Bq与Gy，按给定物理半衰期正确计算变化",
+        "理解准直器的方向选择作用并区分记录计数与活度",
+        "明确两枚511 keV光子、成对探测及有限定位准确性",
+        "了解CT解剖/衰减信息以及图像和计数不等于诊断"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日使用新数值重算半衰期、光子总能量、计数率和单位，闭卷说明适用范围；主观题不自动给分。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "IAEA/NIH/NIBIB来源用于特定基础原理对照，未完成全部教材科学准确性或独立核医学物理专家审定",
+          "2028官方完整大纲尚未核实，本课只是2027大纲暂定教学关联",
+          "无实际患者药物方案、辐射安全操作或设备调试权限，数字均为非临床虚构场景",
+          "SPECT、PET的高阶探测物理、设备校正、质控流程与核医学治疗尚未纳入"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-nuclear-imaging-foundation-b1",
+          "type": "single",
+          "stem": "核医学图像中用于表示核素每秒衰变次数的物理量及SI单位是？",
+          "options": [
+            "吸收剂量，Gy",
+            "放射性活度，Bq",
+            "有效剂量，Bq"
+          ],
+          "answer": 1,
+          "explanation": "B：活度的SI单位Bq表示每秒衰变次数。Gy是吸收剂量，Sv用于部分辐射防护量；活度不等于患者剂量。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-b2",
+          "type": "single",
+          "stem": "SPECT成像最符合哪项描述？",
+          "options": [
+            "记录γ光子并借助准直器选择方向，再重建多角度投影",
+            "按湮灭成对511 keV符合事件定义响应线",
+            "只测X线透过率，完全不用示踪剂"
+          ],
+          "answer": 0,
+          "explanation": "A对应SPECT常用γ相机加准直器的成像方式；B概括PET典型符合检测，C描述外部X线透射而非SPECT。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-b3",
+          "type": "single",
+          "stem": "PET的一次正电子湮灭在静止近似下典型产生什么？",
+          "options": [
+            "一枚恰为1022 keV的单光子",
+            "两枚各约140 keV光子",
+            "一对近似反向、各约511 keV的光子"
+          ],
+          "answer": 2,
+          "explanation": "C正确。每个典型湮灭光子约511 keV，两枚相加约1022 keV；不能把总能量当成一枚光子的能量。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-b4",
+          "type": "single",
+          "stem": "为什么探测器记录的计数率不能直接视为示踪剂总活度Bq？",
+          "options": [
+            "因为所有探测器都有百分百探测效率",
+            "受几何、效率、散射、衰减和计数损失等影响",
+            "因为Bq的定义是每千克吸收的能量"
+          ],
+          "answer": 1,
+          "explanation": "B保留检测链及效率等因素。A无依据；C把活度与Gy混同。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-nuclear-imaging-foundation-a1",
+          "type": "single",
+          "stem": "PET的响应线（LOR）主要如何得到？",
+          "options": [
+            "通过SPECT准直孔直接决定",
+            "仅按CT的X线衰减图决定",
+            "记录时间窗内的成对符合事件，连接相应探测器"
+          ],
+          "answer": 2,
+          "explanation": "C符合PET符合探测的入门原理；散射及随机符合可引入误差，不能据此断定湮灭地点精确无误。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-a2",
+          "type": "number",
+          "stem": "纯物理衰变教学：某虚构核素初始活度64 MBq，物理半衰期3 h，无新补充，经过6 h后活度是多少？输入MBq数值。",
+          "answer": 16,
+          "explanation": "6 h相当于两次3 h半衰期，A=64×(1/2)²=16 MBq。现实体内变化还会涉及生物过程，不能把这个纯衰变模型当成实际患者剂量。",
+          "difficulty": "application",
+          "unit": "MBq",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-a3",
+          "type": "number",
+          "stem": "仅按正负电子近静止湮灭模型，产生两枚各511 keV光子，总光子能量约为多少？输入keV数值。",
+          "answer": 1022,
+          "explanation": "511+511=1022 keV。每枚光子仍约511 keV；这不是单枚1022 keV光子，也不代表患者吸收剂量。",
+          "difficulty": "application",
+          "unit": "keV",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-a4",
+          "type": "subjective",
+          "stem": "比较PET与SPECT信号来源和方向确定方式，并说明为什么不能凭单一成像热点或计数率就给出临床诊断。",
+          "answer": "SPECT一般检测示踪剂相关γ光子并使用准直器选择方向；PET典型利用正电子湮灭后两枚511 keV光子的符合事件构成LOR。图像与计数受散射、衰减、探测性能和示踪剂体内分布等因素影响，热点及计数率不足以独立确定具体疾病诊断，需要相应专业评价及其他证据。",
+          "explanation": "按两类成像物理机制、探测边界及不作诊断推断核对；主观题不自动计分。",
+          "difficulty": "application",
+          "rubric": [
+            "SPECT发射γ光子与机械准直",
+            "PET湮灭511 keV成对符合和响应线",
+            "说明效率、散射/衰减等影响",
+            "热点或计数率不能独立确诊"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-nuclear-imaging-foundation-d1",
+          "type": "single",
+          "stem": "隔日：有人说PET/CT里的CT只会显示示踪剂活度，与解剖结构无关。最合理的更正是？",
+          "options": [
+            "正确，CT和PET都只记录同一核素衰变",
+            "CT可提供解剖信息并用于衰减校正，仍需注意配准与误差",
+            "只要叠加两类图像就永远没有运动伪影"
+          ],
+          "answer": 1,
+          "explanation": "B符合PET/CT互补原理；A混淆外部X线与核医学示踪剂信号，C无条件保证图像准确。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-d2",
+          "type": "number",
+          "stem": "隔日纯计数模型：某探测器在40 s内记录800个有效计数，假设区间内平均计数率稳定。求平均计数率数值，单位次/s。",
+          "answer": 20,
+          "explanation": "800次÷40 s=20次/s。这是记录计数率，不等于真实衰变率Bq，不可直接推患者剂量。",
+          "difficulty": "delayed-transfer",
+          "unit": "次/s",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-d3",
+          "type": "number",
+          "stem": "隔日单位换算：某教学数值0.75 MBq，等于多少Bq？仅输入数值，单位Bq。",
+          "answer": 750000,
+          "explanation": "1 MBq=10^6 Bq，0.75×10^6=750000 Bq。数值换算不提供任何临床给药或剂量指导。",
+          "difficulty": "delayed-transfer",
+          "unit": "Bq",
+          "tolerance": 0.000001
+        },
+        {
+          "id": "353-nuclear-imaging-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：有人声称“活度等于患者吸收剂量；PET直接探测正电子走过的精确轨迹；SPECT不需要准直；PET/CT组合后不会出现任何图像误差”。逐一指出错误。",
+          "answer": "活度Bq为衰变率，不等于吸收剂量Gy；PET探测主要来自正负电子湮灭的符合光子，正电子射程与非共线等影响定位，不是直接测量粒子精确轨迹；SPECT通常借助准直器限制γ光子方向；PET/CT可能存在配准、运动、衰减校正及其他成像误差。",
+          "explanation": "需分别指出四个独立错误和基本依据，不能以“都是错的”代替解释；参考答案待审核，不自动评分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "区分Bq活度与Gy剂量",
+            "PET符合探测和射程/定位限制",
+            "SPECT通常需要准直器",
+            "CT融合仍有配准运动/校正误差"
+          ]
+        }
+      ]
+    }
+  ]
+}
