@@ -61,7 +61,9 @@ for(const f of prior.files){
  else fs.writeFileSync(dest,bytes,{flag:'wx'});
  files.push({path:f.path,sha256:sha(bytes),previousSha256:f.sha256,changed:sha(bytes)!==f.sha256});
 }
-const bridge=fs.readFileSync(path.join(__dirname,extra)),bridgeTarget=path.join(out,extra);
+const bridgeSource=fs.readFileSync(path.join(__dirname,extra),'utf8');
+const bridge=Buffer.from(once(bridgeSource,'__V10_CONTENT_SHA256__',prior.finalContentHash));
+const bridgeTarget=path.join(out,extra);
 if(fs.existsSync(bridgeTarget))assert.equal(sha(fs.readFileSync(bridgeTarget)),sha(bridge));
 else fs.writeFileSync(bridgeTarget,bridge,{flag:'wx'});
 files.push({path:extra,sha256:sha(bridge),changed:true});
