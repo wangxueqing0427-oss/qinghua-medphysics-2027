@@ -107,6 +107,7 @@
         await persist(next,history);
         renderExam();
       }));
+      launch.dataset.ready='true';
     }).catch(e=>{if(slot.isConnected)slot.querySelector('#exam-history').textContent='无法读取测评进度：'+e.message;});
     function currentQuestion(){
       const ref=current.questions[current.currentIndex];
