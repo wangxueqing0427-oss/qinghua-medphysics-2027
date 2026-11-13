@@ -55,7 +55,7 @@ test('mismatched source editions, course content and question inventory always s
  const future=fixture();future.profile.settings.candidateEdition=Bridge.TARGET;
  await assert.rejects(()=>Bridge.inspect(future,pack),/只支持上一版V10/);
  const changed=copy(pack);changed.units[0].explanation+='变化';
- await assert.rejects(()=>Bridge.inspect(fixture(),changed),/课程包不符合V10|课程|题目/);
+ await assert.rejects(()=>Bridge.inspect(fixture(),changed),/课程包不符合V10|课程|题目|内容指纹不一致/);
  const shorter=copy(pack);shorter.units.pop();
  await assert.rejects(()=>Bridge.inspect(fixture(),shorter),/当前课程包/);
 });
