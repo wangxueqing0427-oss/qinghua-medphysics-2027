@@ -1,0 +1,62 @@
+name: 353 radiotherapy V9 51-course independent candidate
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-353-radiotherapy-v9
+    paths:
+      - product-2028-radiotherapy-foundation/**
+      - product-2028-radiotherapy-51/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/353-radiotherapy51-v9.yml
+permissions:
+  contents: read
+jobs:
+  radiotherapy:
+    name: Verify 51-course RT theory in simulated iPhone Chromium/WebKit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser testing dependencies only
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild all protected V5-V8 content in order
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+          node product-2028-screening-48/build.cjs
+          node product-2028-radiation-49/build.cjs
+          node product-2028-nuclear-50/build.cjs
+      - name: Confirm original 47-course and 524-question quality controls remain green
+        run: node --test product-2028-assurance-v1/test.cjs
+      - name: Independently recalculate four RT sample equations and validate 12 question contracts
+        run: node --test product-2028-radiotherapy-foundation/test.cjs
+      - name: Produce new independent 51-course/572-question build
+        run: node product-2028-radiotherapy-51/build.cjs
+      - name: Verify RT prerequisites, learning persistence and diagnostic UI in Chromium and WebKit
+        run: node product-2028-radiotherapy-51/browser.cjs
+      - name: Archive synthetic proof only, never release to original app
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radiotherapy51-v9-synthetic-proof
+          path: |
+            product-2028-radiotherapy-51/build-receipt.json
+            product-2028-radiotherapy-51/browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
