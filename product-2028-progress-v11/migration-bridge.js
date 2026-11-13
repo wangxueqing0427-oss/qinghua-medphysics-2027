@@ -5,6 +5,7 @@ const SOURCE='qh2028-stat-inference-52-v10';
 const TARGET='qh2028-progress-safe-v11';
 const CONTRACT='qh2028-stat-inference-52-v10-internal-draft';
 const GROUPS=['basicQuestions','applicationQuestions','delayedQuestions'];
+const Engine=typeof module!=='undefined'&&module.exports ? require('../product-2028-svo-subjective-candidate/course-engine.cjs') : CourseEngine;
 const validId=x=>typeof x==='string'&&/^[-a-zA-Z0-9_:]{1,160}$/.test(x);
 const own=(o,k)=>o!==null&&typeof o==='object'&&Object.prototype.hasOwnProperty.call(o,k);
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -48,7 +49,7 @@ function inspect(backup,pack){
     if(!found||found.u.id!==e.unitId||data.questionVersion!==u.version||
        !same(data.questionSnapshot,found.q)||data.answerVisible!==false)
       fail('已答题目、题干或答案版本发生变化');
-    const scored=CourseEngine.grade(found.q,data.answer);
+    const scored=Engine.grade(found.q,data.answer);
     if(!same(scored,data.grade))fail('原客观或主观评分记录与冻结题目不一致');
     stats.answered++;
    }else if(e.action==='recalled'){
@@ -60,7 +61,7 @@ function inspect(backup,pack){
   }else if(e.kind==='attempt'){
    const found=questions.get(e.questionId);
    if(!found||e.questionVersion!==found.u.version||typeof e.correct!=='boolean'||
-      CourseEngine.grade(found.q,e.answer).correct!==e.correct)
+      Engine.grade(found.q,e.answer).correct!==e.correct)
     fail('独立题目作答证据与当前题库不一致');
   }else fail('发现未知类型的历史事件');
  }
