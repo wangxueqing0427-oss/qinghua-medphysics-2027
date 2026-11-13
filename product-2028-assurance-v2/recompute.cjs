@@ -107,7 +107,7 @@ function audit(pack,registry=cases){
  if(pack.units.some(u=>u.reviewRecord?.expertApproved===true))errors.push('fabricated-professional-approval');
  const report={
   kind:'independent-operand-recomputation-not-expert-review',target:'2028-entry',
-  353ProvisionalSourceYear:2027,
+  provisional353SourceYear:2027,
   scope:'353 current 18-course/204-question draft; 39 numerical items checked independently',
   ...stats,errors,passed:errors.length===0,rows,
   numericalCorrectnessForTheseStemsVerifiedByFormula:errors.length===0&&stats.verified===39,
