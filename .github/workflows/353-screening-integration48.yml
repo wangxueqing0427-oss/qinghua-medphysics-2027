@@ -1,0 +1,59 @@
+name: Screening lesson integrated 48-course mobile V6 prototype
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-353-screening-foundation
+    paths:
+      - product-2028-screening-foundation/**
+      - product-2028-screening-48/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/353-screening-integration48.yml
+permissions:
+  contents: read
+jobs:
+  integration:
+    name: 48-course learning and diagnostic on simulated iPhone browsers
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned local browser test dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild frozen 47-course V5 baseline
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+      - name: Validate all old 47 courses are unchanged
+        run: node --test product-2028-assurance-v1/test.cjs
+      - name: Validate source-grounded new EPI08 screening unit
+        run: node --test product-2028-screening-foundation/test.cjs
+      - name: Build isolated 48-course 536-question edition with new database
+        run: node product-2028-screening-48/build.cjs
+      - name: Mobile practice, reading and mini-test smoke on Chromium/WebKit
+        run: node product-2028-screening-48/browser.cjs
+      - name: Archive nonproduction mobile integration receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screening-48-v6-integration-proof
+          path: |
+            product-2028-screening-48/build-receipt.json
+            product-2028-screening-48/browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
