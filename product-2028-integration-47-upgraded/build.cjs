@@ -431,3 +431,44 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v12-additive-progress-t')
   assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
   console.log('V12 isolated 53-course additive migration preview ready; no historical V11 or main data changed');
 }
+
+
+// Independent V13 outbreak additive branch preview: 54 courses, consent-only V12 history.
+// No merges into main, no edits to original V59/R2, previous previews or learner records.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v13-outbreak-additive'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  require('../product-2028-stat-inference-52/build.cjs');
+  require('../product-2028-progress-v11/build.cjs');
+  require('../product-2028-v12-additive/build.cjs');
+  require('../product-2028-v13-additive/build.cjs');
+  const receipt=require('../product-2028-v13-additive/build-receipt.json');
+  const origin=path.join(__dirname,'../product-2028-v13-additive/.build');
+  assert.equal(receipt.edition,'qh2028-outbreak-54-v13');
+  assert.equal(receipt.courses,54);
+  assert.equal(receipt.questions,608);
+  assert.equal(receipt.legacy53CourseContentIdentical,true);
+  assert.equal(receipt.newCourses,1);
+  assert.equal(receipt.migrationOptIn,true);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const f of receipt.files){
+    assert(!f.path.includes('..')&&!path.isAbsolute(f.path),'Unsafe V13 candidate path');
+    const bytes=fs.readFileSync(path.join(origin,f.path));
+    assert.equal(digest(bytes),f.sha256,'V13 output integrity failed: '+f.path);
+    fs.writeFileSync(path.join(out,f.path),bytes);
+  }
+  const all=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(all.units.length,54);
+  assert.equal(all.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),608);
+  assert.equal(all.units[53].id,'353-outbreak-investigation-foundation');
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-outbreak-54-v13'));
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
+  console.log('Independent V13 outbreak 54-course preview ready; old V12 progress and official main unchanged');
+}
