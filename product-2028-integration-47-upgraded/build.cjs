@@ -320,3 +320,37 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-radiotherapy-v9'){
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-radiotherapy-51-v9'));
   console.log('Independent V9 radiotherapy branch preview ready; no previous site, official app or user data changed');
 }
+
+
+// Independent V10 statistics inference PREVIEW only: 52 courses, separate learner records.
+// Does not modify main, V5-V9 branches, V59/R2, official release or prior local data.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-stat-inference-v10'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  require('../product-2028-stat-inference-52/build.cjs');
+  const receipt=require('../product-2028-stat-inference-52/build-receipt.json');
+  const folder=path.join(__dirname,'../product-2028-stat-inference-52/.build');
+  assert.equal(receipt.edition,'qh2028-stat-inference-52-v10');
+  assert.equal(receipt.courses,52);
+  assert.equal(receipt.questions,584);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const f of receipt.files){
+    assert(!f.path.includes('..')&&!path.isAbsolute(f.path),'Unsafe V10 output path');
+    const bytes=fs.readFileSync(path.join(folder,f.path));
+    assert.equal(digest(bytes),f.sha256,'V10 asset drift: '+f.path);
+    fs.writeFileSync(path.join(out,f.path),bytes);
+  }
+  const p=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(p.units.length,52);
+  assert.equal(p.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),584);
+  assert(p.units.some(u=>u.id==='353-inference-ci-hypothesis-foundation'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-stat-inference-52-v10'));
+  console.log('Independent V10 statistics inference branch preview ready; no prior app, branch or data modified');
+}
