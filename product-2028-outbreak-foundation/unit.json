@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-outbreak-foundation-internal",
+  "units": [
+    {
+      "id": "353-outbreak-investigation-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "传染病暴发调查入门：病例定义、流行曲线与罹患比例",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "依据公开卫生流行病学教学原理编写的原创中文课程与虚构题，非清华真题，也不提供真实疾控应急操作指南",
+      "mapping": [
+        "EPI09"
+      ],
+      "prerequisites": [
+        "353-incidence-prevalence",
+        "353-cohort-risk-ratio"
+      ],
+      "prerequisiteExplanation": "先掌握发病指标和RR的分母含义；先修课需通过真实闭卷回忆和客观题，不能跳过。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/field-investigation.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/healthcare-settings.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/defining-field-epi.html",
+        "https://stacks.cdc.gov/view/cdc/13178"
+      ],
+      "explanation": "疾病暴发调查是流行病学将信息用于公共卫生应对的典型情境。“暴发”通常指在指定人群、地点和时间内观察到的病例数高于通常预期，不能仅因同一地点出现几名患者就不经比较宣布暴发。最初需核实报告信号、初步核对诊断信息和历史基线，并注意检测量增加、报告制度改变和重复计数等可能造成的假性增加。实际调查、采样、信息通报及防控行动必须由承担职责的公共卫生机构和有资质人员按照适用规范处理。本课只训练科研推理，不提供任何现场处置指令。\n\n病例定义通常依据临床或实验室特征，结合时间、地点及人群范围划定观察对象，使计数口径尽量一致。病例定义可有疑似、可能、确诊等不同层级，研究中的病例分类不等于单凭软件生成临床诊断。调查常用逐例资料清单（line list）整理发病日期、地点、人群及可能暴露信息，用相同定义开展病例搜索。应避免收集不必要的可识别个人资料并保护隐私。描述性流行病学按时间、地点、人群（三间分布）整理结果；流行曲线通常把发病时间列为横轴、对应新增病例数列为纵轴，可能提示传播或共同暴露线索，但曲线形状不能单独证明病原体、传播途径或因果关系。\n\n某个时间窗内的暴发罹患比例（attack rate，习惯称“罹患率”，本质常是短期累计发病比例）可以按期间新病例数除以该暴露或风险人群总数计算，通常乘100%表示百分数。它不是瞬时的单位人时发病密度，也不等于真实全体人群患病率。虚构聚餐情境，120名符合风险人群中有24人在指定观察窗内符合统一病例定义，罹患比例为24/120×100%=20%。对于某食品的特异罹患比例，分母应为实际食用该食品的人数：虚构60人食用、18人符合病例定义，比例18/60×100%=30%。研究中分母准确性、观察窗一致性及病例完整搜索很重要。\n\n在封闭人群的教学模型里，家庭或其他密切接触者的续发罹患比例（secondary attack proportion）需根据研究定义识别初发病例并从适当的易感接触者分母中排除初发病例；同时要注意病例代次、共源暴露和既有免疫等因素，不能机械套用同一分母。虚构9个初发病例所在若干家庭合计45人，除初发病例后有36名接触者，按限定时间发现9名续发病例，教学比例9/36×100%=25%。另外，两个暴露组的罹患比例之比可作为描述性风险比，例如40名暴露者中12名发病、40名未暴露者中4名发病，比例比值(12/40)/(4/40)=3；它不自动证明暴露因素致病。暴发调查还需要假设形成、进一步的分析性研究、连续监测、与相关机构沟通及评估，实际应急措施不能由教学题代替。",
+      "definition": "暴发通常意味着在特定时间、地点、人群中病例数高于预期。病例定义用于统一计数；逐例清单和发病时间曲线用于描述病例的时间、地点、人群分布。观察窗内罹患比例≈符合条件的新病例/对应风险人群×100%。续发比例分母须清楚界定初发病例与风险接触者。",
+      "conditions": "此课程只是353流行病学概念、分母选择和虚构数值训练。不用于实际疫情判定、患者诊断、疫点采样、隔离决定、公共卫生应急指挥或对外发布。实际病例定义与续发比例计算依病原、研究设计、法定职责和本地规范变化。本课程未独立核验2028正式考纲，也不覆盖传染病完整监测系统、病原学诊断和国际卫生法规。",
+      "example": "虚构聚餐：24例/120风险人群=20%；食品暴露组18/60=30%；9名初发所在家庭共45人、9续发/36接触者=25%；40暴露者中12例、40未暴露者中4例，RR=3。以上只用于分母理解。",
+      "misconceptions": [
+        "同一地点几名病例就一定是暴发，不需要预期基线。",
+        "流行曲线的高峰就能确定传播途径或唯一致病食品。",
+        "食品特异罹患比例的分母是所有聚餐者，而不是实际食用者。",
+        "初发病例应当无条件计入续发接触者分母，病例姓名应完全公开。"
+      ],
+      "recall": [
+        "闭卷说明暴发与通常预期病例水平、检测报告变化的关系。",
+        "闭卷列出病例定义要素、逐例清单与流行曲线坐标。",
+        "闭卷写出总体与特定食品罹患比例的分子和分母。",
+        "闭卷说明续发比例为何排除初发病例，并区分RR关联与因果。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "报告增加须考虑病例定义、检测口径、预期水平。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "发病时间为横轴、相应病例数为纵轴；仅提示传播线索。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "总体24/120=20%；食品暴露18/60=30%。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "续发9/(45−9)=25%；RR=(12/40)/(4/40)=3，均非因果证据。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-outbreak-investigation-foundation-g1",
+          "description": "识别暴发信号、病例定义与预期基线",
+          "successCriteria": "区分真实增加、报告改变和诊断依据",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-outbreak-investigation-foundation-b1",
+            "353-outbreak-investigation-foundation-a4",
+            "353-outbreak-investigation-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-g2",
+          "description": "使用逐例资料和三间分布描述流行过程",
+          "successCriteria": "识别病例定义与曲线的用途和因果边界",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-outbreak-investigation-foundation-b2",
+            "353-outbreak-investigation-foundation-a1",
+            "353-outbreak-investigation-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-g3",
+          "description": "计算指定时间窗内的总体与食品暴露组罹患比例",
+          "successCriteria": "按风险人群正确选择分母和百分数",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-outbreak-investigation-foundation-b3",
+            "353-outbreak-investigation-foundation-a2",
+            "353-outbreak-investigation-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-g4",
+          "description": "区分初发、续发病例与暴露风险比",
+          "successCriteria": "能在严格限定案例中计算续发比例与RR",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-outbreak-investigation-foundation-b4",
+            "353-outbreak-investigation-foundation-a3",
+            "353-outbreak-investigation-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "区分真实增加、报告改变和诊断依据",
+        "识别病例定义与曲线的用途和因果边界",
+        "按风险人群正确选择分母和百分数",
+        "能在严格限定案例中计算续发比例与RR"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日更换虚构病例数与风险人群，闭卷计算罹患比例、续发比例和RR，复述病例定义与流行曲线的解释限制。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "2027清华353大纲明确提及暴发调查；2028正式大纲尚未获得并匹配",
+          "CDC场景只提供普遍基础研究方法依据，不能代替中国法定疾控应急规范",
+          "全部病例及数据均为虚构，不构成现实疫情诊断或行动指导",
+          "未由独立流行病学或公共卫生专业专家审定；不覆盖完整疫情应对和法律流程"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-outbreak-investigation-foundation-b1",
+          "type": "single",
+          "stem": "同一地区短时间发现数起疑似疾病报告，判断是否构成暴发最应先比较什么？",
+          "options": [
+            "只检查是否同一天报告",
+            "同一病例定义下该人群、地点、时段的观察病例数与合理预期基线",
+            "只看某一病例是否症状严重"
+          ],
+          "answer": 1,
+          "explanation": "B正确。暴发判定需结合人群、时间地点、通常预期水平，并排除检测量/报告变化带来的假性上升。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-b2",
+          "type": "single",
+          "stem": "暴发调查的“病例定义”最合适的理解是哪项？",
+          "options": [
+            "结合疾病特征及时间、地点、人群等范围统一病例计数口径",
+            "研究者随时改变病例标准以符合假设",
+            "只凭一个软件字段就能给患者确定临床诊断"
+          ],
+          "answer": 0,
+          "explanation": "A正确。病例定义服务于可比较的流行病学计数，可有不同可信层次，不能取代真实临床诊断。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-b3",
+          "type": "single",
+          "stem": "常见流行曲线的横轴和纵轴分别代表什么？",
+          "options": [
+            "医院设备型号、药品费用",
+            "年龄与收入，不包含时间信息",
+            "发病时间区间、对应病例数"
+          ],
+          "answer": 2,
+          "explanation": "C正确。流行曲线用于观察病例随时间变化的形态，但不能单独证实传播途径。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-b4",
+          "type": "single",
+          "stem": "虚构短期暴发中按指定观察窗计算总体罹患比例，正确分母是什么？",
+          "options": [
+            "只选已经发病的人数",
+            "符合病例定义和观察范围的风险人群总数",
+            "任意挑选调查员人数"
+          ],
+          "answer": 1,
+          "explanation": "B：需要明确时间窗和风险人群。分母错误或重复计数会造成比例偏差。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-outbreak-investigation-foundation-a1",
+          "type": "single",
+          "stem": "逐例资料清单和按时间、地点、人群描述病例的主要价值是什么？",
+          "options": [
+            "统一信息、观察分布并形成可进一步检验的假设",
+            "只要画出曲线就能推定唯一病原",
+            "可以公开所有病例姓名便于分析"
+          ],
+          "answer": 0,
+          "explanation": "A正确。描述资料有助于产生假设、指导后续分析，不应泄露患者身份，也不能只凭曲线证明因果。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-a2",
+          "type": "number",
+          "stem": "完全虚构的聚餐观察窗内，120名风险人群有24人符合统一病例定义。求该时段罹患比例的百分数数值。",
+          "answer": 20,
+          "explanation": "短期罹患比例=24÷120×100%=20%，前提是分母确为对应风险人群，且观察期一致。",
+          "difficulty": "application",
+          "unit": "%",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-a3",
+          "type": "number",
+          "stem": "虚构食品暴露分组：60人确实吃过某食品，其中18人在观察窗内发病。仅计算该食品暴露组的罹患比例百分数。",
+          "answer": 30,
+          "explanation": "食品特异罹患比例=18÷60×100%=30%。不能用全场人数作食用组分母。该关联本身不能证明食物是唯一病因。",
+          "difficulty": "application",
+          "unit": "%",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-a4",
+          "type": "subjective",
+          "stem": "一个地区上报疑似病例增多，如何区分真实暴发与检测或报告方式改变造成的假性增加？写出病例定义、基线、逐例清单和后续验证的作用。",
+          "answer": "首先核对报告是否重复、检测范围与口径是否改变，确认诊断和统一的病例定义；按人群、地点、时间段将观察病例数与合理历史或同期预期基线比较。用适当权限和隐私保护建立逐例资料清单，按三间分布与流行曲线形成假设，再通过合适的分析和公共卫生专业程序验证。单凭曲线或上报总数不能确诊病因。",
+          "explanation": "参考要点涉及基线、病例定义、隐私、假性增加与进一步检验；主观题不自动判分。",
+          "difficulty": "application",
+          "rubric": [
+            "统一病例定义并核对临床及实验室信息",
+            "核对历史预期水平以及检测量和报告制度变化",
+            "保护隐私的逐例清单和时间地点人群描述",
+            "从假设生成到分析性验证，不能直接宣告因果"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-outbreak-investigation-foundation-d1",
+          "type": "single",
+          "stem": "隔日：下列哪一种陈述最符合流行曲线的解释边界？",
+          "options": [
+            "看到一个高峰就能证明某特定食品是病因",
+            "仅凭时间曲线就能给所有人开具处置建议",
+            "时间分布可提示暴露和传播模式线索，但需要其他证据验证"
+          ],
+          "answer": 2,
+          "explanation": "C：时间曲线提供分布和假设线索，不能单独确立致病原因或决定处置。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-d2",
+          "type": "number",
+          "stem": "隔日虚构家庭接触研究：9名初发病例所在家庭合计45人，其余均按题设可作为风险接触者，限定期内有9名续发病例。排除初发病例，求续发罹患比例百分数。",
+          "answer": 25,
+          "explanation": "适用本题限定分母=45−9=36名接触者，9÷36×100%=25%。现实体内免疫、共源暴露、病例代次等需另行核查。",
+          "difficulty": "delayed-transfer",
+          "unit": "%",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-d3",
+          "type": "number",
+          "stem": "隔日虚构队列比较：暴露组40人中12人发病，未暴露组40人中4人发病。求两组短期罹患比例之比RR的数值。",
+          "answer": 3,
+          "explanation": "RR=(12/40)/(4/40)=0.30/0.10=3。它只表示题设两组风险之比，不能直接证明因果关系。",
+          "difficulty": "delayed-transfer",
+          "unit": "倍",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-outbreak-investigation-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：某人说“罹患比例=所有报告数/全城人口；初发病例应始终计入续发接触者分母；病例曲线能证明唯一病因；所有病例姓名必须公开”。逐项纠正。",
+          "answer": "分母应为指定时间与病例定义对应的风险人群；续发比例需按合理病例代次和适当接触者分母，题设常需排除初发病例；流行曲线反映时间分布，只能提示而非单独证明因果；资料收集应遵循必要性与隐私保护，不能公开所有姓名。真实现场调查须由依法承担职责的团队进行。",
+          "explanation": "必须分别指出风险人群分母、续发接触者、流行曲线推断边界和个人信息保护。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "分母应对应病例定义、风险人群及观察窗",
+            "续发比例明确接触者与初发病例排除规则",
+            "流行曲线不能单独证实因果或传播路线",
+            "保密与最少必要数据原则，不公开病例名单"
+          ]
+        }
+      ]
+    }
+  ]
+}
