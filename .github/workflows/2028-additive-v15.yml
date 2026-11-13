@@ -1,0 +1,80 @@
+name: V15 56-course EPI11 evidence and safe mobile migration
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-v15-evidence-meta
+    paths:
+      - product-2028-evidence-meta-foundation/**
+      - product-2028-v15-additive/**
+      - product-2028-assurance-v8/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/2028-additive-v15.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: V15 56-course PICO/Meta and V14-to-V15 safe mobile migration
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing isolated browser testing dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild protected original 47 through V14 55-course candidates
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+          node product-2028-screening-48/build.cjs
+          node product-2028-radiation-49/build.cjs
+          node product-2028-nuclear-50/build.cjs
+          node product-2028-radiotherapy-51/build.cjs
+          node product-2028-stat-inference-52/build.cjs
+          node product-2028-progress-v11/build.cjs
+          node product-2028-v12-additive/build.cjs
+          node product-2028-v13-additive/build.cjs
+          node product-2028-v14-additive/build.cjs
+      - name: Verify original V14 curriculum, source boundaries and migration assumptions
+        run: |
+          node --test product-2028-assurance-v1/test.cjs
+          node --test product-2028-v14-additive/test.cjs
+          node --test product-2028-assurance-v7/test.cjs
+      - name: Verify EPI11 12 questions and four independently computed meta-analysis examples
+        run: node --test product-2028-evidence-meta-foundation/test.cjs
+      - name: Build isolated V15 56 courses and 632 questions with previous 55-course SHA256
+        run: node product-2028-v15-additive/build.cjs
+      - name: Reject forged results, altered study evidence or incompatible backups
+        run: node --test product-2028-v15-additive/test.cjs
+      - name: Validate tentative 2027 syllabus teaching gap and deny invented 2028 coverage labels
+        run: |
+          node --test product-2028-assurance-v8/test.cjs
+          node product-2028-assurance-v8/run.cjs
+      - name: Test opt-in V14 to V15 learning migration and EPI11 prerequisites on Chromium and WebKit
+        run: node product-2028-v15-additive/migration-browser.cjs
+      - name: Preserve synthetic acceptance evidence only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v15-evidence-meta-56-synthetic-audit
+          path: |
+            product-2028-v15-additive/build-receipt.json
+            product-2028-v15-additive/migration-browser-results.json
+            product-2028-assurance-v8/results/v15-current-353-gap.json
+            product-2028-assurance-v8/results/v15-next-course-priorities.md
+          if-no-files-found: warn
+          retention-days: 14
