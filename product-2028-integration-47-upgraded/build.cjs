@@ -514,3 +514,46 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v14-anova-regression'){
   assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
   console.log('Independent V14 55-course STAT03 branch preview ready; old V13 and main learner data untouched');
 }
+
+
+// Independent V15 EPI11 systematic review branch preview ONLY. No changes to main, V59/R2,
+// existing V2–V14 previews, stored real data or formal release decisions.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v15-evidence-meta'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  require('../product-2028-stat-inference-52/build.cjs');
+  require('../product-2028-progress-v11/build.cjs');
+  require('../product-2028-v12-additive/build.cjs');
+  require('../product-2028-v13-additive/build.cjs');
+  require('../product-2028-v14-additive/build.cjs');
+  require('../product-2028-v15-additive/build.cjs');
+  const receipt=require('../product-2028-v15-additive/build-receipt.json');
+  const folder=path.join(__dirname,'../product-2028-v15-additive/.build');
+  assert.equal(receipt.edition,'qh2028-evidence-meta-56-v15');
+  assert.equal(receipt.courses,56);
+  assert.equal(receipt.questions,632);
+  assert.equal(receipt.legacy55CourseContentIdentical,true);
+  assert.equal(receipt.newCourses,1);
+  assert.equal(receipt.migrationOptIn,true);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const f of receipt.files){
+    assert(!f.path.includes('..')&&!path.isAbsolute(f.path),'Unsafe V15 candidate preview path');
+    const bytes=fs.readFileSync(path.join(folder,f.path));
+    assert.equal(digest(bytes),f.sha256,'V15 preview checksum mismatch: '+f.path);
+    fs.writeFileSync(path.join(out,f.path),bytes);
+  }
+  const pack=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(pack.units.length,56);
+  assert.equal(pack.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),632);
+  assert.equal(pack.units[55].id,'353-evidence-systematic-review-meta-foundation');
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-evidence-meta-56-v15'));
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
+  console.log('Independent V15 EPI11 56-course candidate preview built; V14 and formal production unchanged');
+}
