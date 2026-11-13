@@ -53,6 +53,8 @@ jobs:
         run: node product-2028-stat-inference-52/build.cjs
       - name: Validate study, prerequisites, saved profile and diagnostic in mobile Chromium/WebKit
         run: node product-2028-stat-inference-52/browser.cjs
+      - name: Verify opt-in V9 to V10 backup import preserves real learning events and fails closed on mixed-profile data
+        run: node product-2028-stat-inference-52/migration-browser.cjs
       - name: Archive synthetic QA proof only with no formal release
         if: always()
         uses: actions/upload-artifact@v4
@@ -61,5 +63,6 @@ jobs:
           path: |
             product-2028-stat-inference-52/build-receipt.json
             product-2028-stat-inference-52/browser-results.json
+            product-2028-stat-inference-52/migration-browser-results.json
           if-no-files-found: warn
           retention-days: 14
