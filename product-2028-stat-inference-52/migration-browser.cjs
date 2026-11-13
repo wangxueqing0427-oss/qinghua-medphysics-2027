@@ -54,7 +54,14 @@ async function run(which){
   assert.equal(await page.locator('[data-profile]').count(),0,'V10 wrongly auto-imported earlier local records');
   const bad={...before,events:before.events.map((e,i)=>i===0?{...e,profileId:'other-person'}:e)};
   await page.locator('#restore').setInputFiles({name:'corrupt-v9-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(bad))});
-  await page.waitForFunction(()=>{const input=document.querySelector('#restore');const msg=document.querySelector('#message')?.textContent||'';return input&&!input.disabled&&msg.includes('Mixed-profile backup rejected');},{timeout:12000});
+  try{
+    await page.waitForFunction(()=>document.querySelector('#message')?.textContent?.startsWith('尚未完成保存或读取'),null,{timeout:8000});
+    await page.waitForFunction(()=>document.querySelector('#restore')&&!document.querySelector('#restore').disabled,null,{timeout:8000});
+  }catch(e){
+    throw Error('Mixed profile rejection UI state: '+JSON.stringify(await page.locator('#message').innerText())+
+      ', restoreDisabled='+await page.locator('#restore').isDisabled()+', '+e.message);
+  }
+  assert.match(await page.locator('#message').innerText(),/Mixed-profile backup rejected/);
   assert.equal(await page.evaluate(()=>repository.listProfiles().then(x=>x.length)),0,'Invalid profile must not be created');
   await page.locator('#restore').setInputFiles({name:'safe-v9-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(before))});
   await page.locator('.mobile-next-task').waitFor({timeout:15000});
