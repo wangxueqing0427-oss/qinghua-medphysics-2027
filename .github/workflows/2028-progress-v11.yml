@@ -1,0 +1,63 @@
+name: V11 explicit V10 progress migration candidate
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-v11-safe-progress-migration
+    paths:
+      - product-2028-progress-v11/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/2028-progress-v11.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: Verify V10-to-V11 progress migration, no overwrites and mobile WebKit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned browser testing tools
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Reconstruct immutable versions from original 47 through V10
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+          node product-2028-screening-48/build.cjs
+          node product-2028-radiation-49/build.cjs
+          node product-2028-nuclear-50/build.cjs
+          node product-2028-radiotherapy-51/build.cjs
+          node product-2028-stat-inference-52/build.cjs
+      - name: Revalidate all core content before progress work
+        run: |
+          node --test product-2028-assurance-v1/test.cjs
+          node --test product-2028-stat-inference-foundation/test.cjs
+      - name: Confirm V10-to-V11 validator rejects changed content and forged records
+        run: node --test product-2028-progress-v11/test.cjs
+      - name: Build strictly isolated V11 with exactly the same 52 courses and questions
+        run: node product-2028-progress-v11/build.cjs
+      - name: Export migration verification outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v11-progress-migration-synthetic-audit
+          path: |
+            product-2028-progress-v11/build-receipt.json
+            product-2028-progress-v11/migration-browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
