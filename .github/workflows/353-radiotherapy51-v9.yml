@@ -6,6 +6,7 @@ on:
     paths:
       - product-2028-radiotherapy-foundation/**
       - product-2028-radiotherapy-51/**
+      - product-2028-assurance-v5/**
       - product-2028-integration-47-upgraded/build.cjs
       - .github/workflows/353-radiotherapy51-v9.yml
 permissions:
@@ -48,6 +49,10 @@ jobs:
         run: node --test product-2028-radiotherapy-foundation/test.cjs
       - name: Produce new independent 51-course/572-question build
         run: node product-2028-radiotherapy-51/build.cjs
+      - name: Check updated 2027 syllabus topics and reject invented coverage claims
+        run: node --test product-2028-assurance-v5/test.cjs
+      - name: Export refreshed 51-course evidence and missing-topic roadmap
+        run: node product-2028-assurance-v5/run.cjs
       - name: Verify RT prerequisites, learning persistence and diagnostic UI in Chromium and WebKit
         run: node product-2028-radiotherapy-51/browser.cjs
       - name: Archive synthetic proof only, never release to original app
@@ -58,5 +63,7 @@ jobs:
           path: |
             product-2028-radiotherapy-51/build-receipt.json
             product-2028-radiotherapy-51/browser-results.json
+            product-2028-assurance-v5/results/v9-current-2027-outline-map.json
+            product-2028-assurance-v5/results/v9-next-course-priorities.md
           if-no-files-found: warn
           retention-days: 14
