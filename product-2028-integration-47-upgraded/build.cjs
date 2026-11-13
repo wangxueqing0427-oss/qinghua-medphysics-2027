@@ -195,3 +195,31 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-diagnostic-exam-v5'){
   assert(serviceWorker.includes('mock-engine.js')&&serviceWorker.includes('mock-ui.js'));
   console.log('Cloudflare Pages V5 internal diagnostic preview configured; all previous branches unchanged');
 }
+
+
+// New independent 48-course screening PREVIEW branch only. No production release.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-screening-foundation'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  const v6=require('../product-2028-screening-48/build-receipt.json');
+  const from=path.join(__dirname,'../product-2028-screening-48/.build');
+  assert.equal(v6.edition,'qh2028-screening-48-v6');
+  assert.equal(v6.courses,48);
+  assert.equal(v6.questions,536);
+  assert.equal(v6.independentProfessionalApprovals,0);
+  assert.equal(v6.formalReleaseApproved,false);
+  for(const item of v6.files){
+    assert(!item.path.includes('..')&&!path.isAbsolute(item.path));
+    const bytes=fs.readFileSync(path.join(from,item.path));
+    assert.equal(digest(bytes),item.sha256,'V6 byte mismatch: '+item.path);
+    fs.writeFileSync(path.join(out,item.path),bytes);
+  }
+  const p=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(p.units.length,48);
+  assert.equal(p.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),536);
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-screening-48-v6'));
+  console.log('Independent V6 screening branch preview ready; all earlier branches and real profiles unchanged');
+}
