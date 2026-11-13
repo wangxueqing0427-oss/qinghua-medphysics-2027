@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-13-stat-inference-original-draft",
+  "units": [
+    {
+      "id": "353-inference-ci-hypothesis-foundation",
+      "subject": "353",
+      "version": "0.1",
+      "title": "统计推断入门：95%置信区间与假设检验",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-13",
+      "applicableYear": 2028,
+      "authorship": "自编中文教学与虚构统计数值，不是清华真题、正式统计咨询报告或现成教材转载",
+      "mapping": [
+        "STAT02"
+      ],
+      "prerequisites": [
+        "353-normal-distribution-foundation",
+        "353-sampling-distribution-se",
+        "353-random-sampling-foundation"
+      ],
+      "prerequisiteExplanation": "先修正态分布、均数标准误及独立抽样，用真实闭卷证据解锁；本课从参数和假设条件解释z区间。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://online.stat.psu.edu/stat500/Lesson05",
+        "https://online.stat.psu.edu/stat500/Lesson06",
+        "https://online.stat.psu.edu/stat415/Lesson06",
+        "https://www.nist.gov/system/files/documents/2019/05/13/section-8-statistics-techniques-20190506.pdf"
+      ],
+      "explanation": "统计推断使用样本信息研究总体未知参数，前提是明确研究设计、抽样方式、随机变异及推断条件。样本均数x̄描述这次样本，总体均数μ是未知的总体参数；样本标准差s与总体标准差σ不是同一回事。样本量n增大时，在独立同分布等合适条件下，均数标准误随1/√n缩小，而不是随1/n缩小。选用统计方法前必须考虑数据独立性、分布、偏倚及缺失；偏倚不是单纯增加n就能消除。\n\n置信区间入门只讲一个明确限定的模型：随机独立样本来自均值未知、标准差σ已知的正态总体（或适用相应近似），双侧95%总体均数z区间为x̄±1.96×σ/√n。虚构测量情境中，x̄=20分钟、σ=4分钟、n=16，标准误SE=4/√16=1分钟，误差半宽1.96分钟，区间[18.04,21.96]分钟。若总体σ未知而用样本s估计，尤其小样本正态模型下通常需要t区间，不能把任何已知σ的z公式无条件套用。95%置信水平指在满足模型条件的反复抽样建区间程序中，长期约95%区间涵盖固定总体参数，而不是已经算出的这一个固定区间有95%后验概率包含μ。\n\n假设检验先写零假设H0与备择假设H1，并预先设定显著性水平α。在固定模型、H0成立前提下，p值是观察到当前或沿备择方向更极端统计量的概率，不是“H0成立的概率”，更不等于结论正确率。预先设α=0.05时，如按适当模型得到p=0.03，可拒绝H0，但统计显著不等于效应很大、临床有意义或因果关系已证实；如p=0.20则称“未能拒绝H0”，不能据此证明H0为真。第一类错误是H0真的时候却拒绝它，α控制其相应概率；第二类错误是H0假的时候未能拒绝它，其概率记β，在特定备择和模型下功效为1-β。\n\n计算检验统计量仍须和题设假设匹配：已知σ的均值z检验，z=(x̄-μ0)/(σ/√n)。虚构例子取x̄=20分钟、μ0=18分钟、σ=4分钟、n=16，z=(20-18)/1=2。这个值本身不等于p值；单侧还是双侧、统计分布和假设形式都会影响p值。置信区间与假设检验提供不确定性分析工具，不能替代研究设计、效应量判断及因果证据。本课不覆盖未知σ的t分布计算细节、比例推断、配对比较、方差分析、回归、复杂抽样或医学试验完整统计方案，也不会将教学结论包装成对真实患者或临床项目的统计判断。",
+      "definition": "在独立随机样本、正态总体、总体标准差σ已知的特定模型中，双侧95%均数z区间为x̄±1.96σ/√n。假设检验中p值是H0成立时观察当前或更极端统计量的概率；p≤预设α时拒绝H0，p>α时未能拒绝H0，不证明零假设为真。",
+      "conditions": "本课仅覆盖353统计推断初级概念与σ已知正态总体z区间/均值z检验的虚构计算，非真实医学统计建议。总体σ未知时需考虑t方法及其假设，不将z区间无条件推广。未覆盖比例区间、分布自由度细节、方差分析、回归、因果推断、复杂抽样或多重检验；2028官方大纲未核实。",
+      "example": "虚构总体正态、σ=4分钟、独立n=16、x̄=20分钟：SE=1分钟，双侧95%z区间[18.04,21.96]分钟。若设μ0=18分钟，则z=2。p值还需选择单侧或双侧检验并确定分布，不直接等于2。",
+      "misconceptions": [
+        "p=0.03说明零假设为真概率为3%。",
+        "95%置信区间代表真实总体参数有95%概率在这个已经计算的固定区间里。",
+        "p>0.05便证明没有效应或证明两个方法等效。",
+        "样本量更大必然纠正研究偏倚，总体σ未知时也总能直接套用已知σ的z区间。"
+      ],
+      "recall": [
+        "闭卷区分μ、x̄、σ、s、SE和偏倚，并列出独立随机抽样条件。",
+        "闭卷写出σ已知正态总体均数双侧95%z区间和频率学派覆盖率解释。",
+        "闭卷解释H0、H1、p值、α及第一类错误，说明不能推出什么。",
+        "闭卷计算z检验统计量并说出为什么它不是p值或医学效应大小。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "x̄会随着不同样本波动；μ为总体参数；抽样偏倚不是SE。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "x̄=20, σ=4, n=16, 1.96: 20±1.96=[18.04,21.96]分钟。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "预设α=0.05，适当模型下p=0.03拒绝H0，但不说明临床效果。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "μ0=18, x̄=20, σ=4, n=16: z=2，而不是p=2。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-inference-ci-hypothesis-foundation-g1",
+          "description": "区分总体参数、样本统计量与标准误",
+          "successCriteria": "知道总体μ未知且随机抽样误差与偏倚不同",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-inference-ci-hypothesis-foundation-b1",
+            "353-inference-ci-hypothesis-foundation-a1",
+            "353-inference-ci-hypothesis-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-g2",
+          "description": "构建总体σ已知正态均值的双侧95%z置信区间",
+          "successCriteria": "正确计算半宽及上下限并解释其条件",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-inference-ci-hypothesis-foundation-b2",
+            "353-inference-ci-hypothesis-foundation-a2",
+            "353-inference-ci-hypothesis-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-g3",
+          "description": "解释p值、H0、H1和第一类错误",
+          "successCriteria": "按事先确定的α作决定，拒绝把p当H0概率",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-inference-ci-hypothesis-foundation-b3",
+            "353-inference-ci-hypothesis-foundation-a4",
+            "353-inference-ci-hypothesis-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-g4",
+          "description": "识别z统计量与假设及研究解释的边界",
+          "successCriteria": "能算z值、区分检验统计量与p值并避免过度推断",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-inference-ci-hypothesis-foundation-b4",
+            "353-inference-ci-hypothesis-foundation-a3",
+            "353-inference-ci-hypothesis-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "知道总体μ未知且随机抽样误差与偏倚不同",
+        "正确计算半宽及上下限并解释其条件",
+        "按事先确定的α作决定，拒绝把p当H0概率",
+        "能算z值、区分检验统计量与p值并避免过度推断"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷重算均数z区间、z值，正确解释p>α及σ未知的限制，主观题不自动评分。"
+      },
+      "reviewRecord": {
+        "internalCheck": "source-linked-original-draft",
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "NIST与Penn State公式为特定统计模型提供依据，不代表全部题目有独立统计专家核验",
+          "2028官方考纲尚未确认，2027年大纲仅为暂定课程参考",
+          "全部数值为虚构练习，不形成任何真实医学研究统计结论",
+          "不含完整t检验、回归、方差分析、临床试验统计或多重比较内容"
+        ]
+      },
+      "basicQuestions": [
+        {
+          "id": "353-inference-ci-hypothesis-foundation-b1",
+          "type": "single",
+          "stem": "一份随机样本均数记为x̄，总体均数记为μ。最准确的说法是？",
+          "options": [
+            "x̄是样本统计量，μ是待推断的总体参数",
+            "x̄永远等于μ，抽样没有误差",
+            "μ是样本内每个人的均数"
+          ],
+          "answer": 0,
+          "explanation": "A正确。样本均数随随机抽样变化；总体参数在固定总体概念中不是一次样本统计量。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-b2",
+          "type": "single",
+          "stem": "在总体正态、独立随机抽样且总体标准差σ已知时，双侧95%总体均数z置信区间的形式是？",
+          "options": [
+            "x̄±1.96×σ/n",
+            "x̄±1.96×σ/√n",
+            "x̄±1.96×n/σ"
+          ],
+          "answer": 1,
+          "explanation": "B正确，区间半宽是1.96×σ/√n。其他选项把标准误与n或σ的关系写错。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-b3",
+          "type": "single",
+          "stem": "检验H0时，p值最准确的解释是什么？",
+          "options": [
+            "H0为真的概率",
+            "结论临床有效的概率",
+            "假定H0成立，得到观察值或沿备择方向更极端检验结果的概率"
+          ],
+          "answer": 2,
+          "explanation": "C符合频率学派p值定义；p值不是H0的后验概率，也不证明临床意义。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-b4",
+          "type": "single",
+          "stem": "在研究前设定显著性水平α=0.05，哪项是第一类错误？",
+          "options": [
+            "H0假却未能拒绝H0",
+            "H0真却拒绝H0",
+            "H0假且成功拒绝H0"
+          ],
+          "answer": 1,
+          "explanation": "B是第一类错误；A为第二类错误，C是作出正确拒绝。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-inference-ci-hypothesis-foundation-a1",
+          "type": "single",
+          "stem": "一份95%置信区间已经由样本算出，在常规频率学派解释中，下列哪种表述最严谨？",
+          "options": [
+            "构造区间的方法在模型成立、反复抽样下长期覆盖率约95%",
+            "固定总体均数每次有95%概率改变位置",
+            "这个已经算出的区间必然包含真实总体均数"
+          ],
+          "answer": 0,
+          "explanation": "A体现区间过程长期覆盖的意义；它不是把固定参数当随机变量，也不保证每个单次区间包含真值。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-a2",
+          "type": "number",
+          "stem": "虚构正态总体已知σ=4分钟，独立样本量n=16。双侧95%均数z区间采用1.96临界值，半宽1.96×σ/√n为多少分钟？仅输入数值。",
+          "answer": 1.96,
+          "explanation": "SE=4/√16=1分钟，半宽=1.96×1=1.96分钟。仅用于满足本题假设的统计教学。",
+          "difficulty": "application",
+          "unit": "分钟",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-a3",
+          "type": "number",
+          "stem": "虚构z区间：x̄=20分钟、总体σ=4分钟、n=16、双侧95%临界值1.96。求置信区间下限，输入分钟数值。",
+          "answer": 18.04,
+          "explanation": "下限=20−1.96×4/√16=20−1.96=18.04分钟。这里假设σ已知并满足z区间所需条件。",
+          "difficulty": "application",
+          "unit": "分钟",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-a4",
+          "type": "subjective",
+          "stem": "解释“p=0.03、预设α=0.05”时可作出的统计结论及至少三个不能直接推导的结论，并说明p值的条件。",
+          "answer": "若数据及模型假设满足，p=0.03≤α=0.05，则拒绝H0；p值是在H0成立且采用相应检验统计量与备择方向时，得到观察或更极端结果的概率。不能说H0为真的概率是3%，不能说发现因果关系，不能说效应大小或临床获益一定显著，也不能保证不发生第一类错误。",
+          "explanation": "参考点涵盖预设α、条件概率解释及科学推断边界，主观题只自查不自动评分。",
+          "difficulty": "application",
+          "rubric": [
+            "p=0.03≤α=0.05在适当假设下拒绝H0",
+            "p是H0假定成立的极端结果概率",
+            "不能把p当作H0为真概率或保证结论正确",
+            "统计显著不等于因果或临床效果大小"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-inference-ci-hypothesis-foundation-d1",
+          "type": "single",
+          "stem": "隔日：研究结果p=0.20，预设α=0.05。符合假设检验规则的结论是？",
+          "options": [
+            "证实H0一定为真，效应绝对为零",
+            "未能拒绝H0；不能把未显著当作H0已被证明",
+            "证明对照组和试验组完全等效"
+          ],
+          "answer": 1,
+          "explanation": "B正确，p>α说明对H0的反对证据不足，不等于等效性或零效应得到证明。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-d2",
+          "type": "number",
+          "stem": "隔日纯计算：已知总体σ=4分钟、n=16，样本均数x̄=20分钟，检验的零假设μ0=18分钟。求z=(x̄−μ0)/(σ/√n)，仅输入数值。",
+          "answer": 2,
+          "explanation": "z=(20−18)/(4/√16)=2。z值不是p值，单侧/双侧设定也会影响p值。",
+          "difficulty": "delayed-transfer",
+          "unit": "无量纲",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-d3",
+          "type": "number",
+          "stem": "隔日纯计算：x̄=20分钟、σ=4分钟、n=16、双侧95%z临界值1.96。求该均数置信区间上限，输入分钟数值。",
+          "answer": 21.96,
+          "explanation": "上限=20+1.96×4/√16=21.96分钟。不能把这一个已固定区间解释成真值有95%随机概率落入。",
+          "difficulty": "delayed-transfer",
+          "unit": "分钟",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-inference-ci-hypothesis-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：有人声称“σ未知仍必用z=1.96；95%区间代表总体均数有95%概率移动进区间；p>0.05证明H0为真；样本更大必能消除偏倚”。请逐项纠正。",
+          "answer": "总体σ未知时，正态小样本推断通常考虑以s构造t区间，须检查相应假设；95%表示按此方法反复抽样得到的区间长期约95%涵盖固定参数；p>0.05表示未能拒绝H0而非证明H0为真；样本增多可影响随机误差，不会自动消除选择偏倚、测量偏倚或混杂。",
+          "explanation": "参考点分别为σ未知时的t方法、区间覆盖解释、非显著结果边界及偏倚问题，不能机器判分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "σ未知时须考虑t区间及适用假设",
+            "95%置信是长期覆盖性质而非固定参数的后验概率",
+            "p>α只能未能拒绝H0",
+            "样本量变大不能自动消除系统偏倚"
+          ]
+        }
+      ]
+    }
+  ]
+}
