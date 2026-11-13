@@ -1,3 +1,4 @@
+(function(){
 'use strict';
 // Opt-in one-hop compatibility bridge V10 -> V11 for IDENTICAL 52-course content.
 // Does not edit the source backup, old IndexedDB, existing target profiles or course assessments.
@@ -111,3 +112,5 @@ async function prepare(backup,pack){
 }
 const MigrationBridge=Object.freeze({SOURCE,TARGET,inspect,prepare});
 if(typeof module!=='undefined')module.exports=MigrationBridge;else window.MigrationBridge=MigrationBridge;
+
+})();
