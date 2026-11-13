@@ -56,9 +56,17 @@ async function check(browserName){
   const answered=poisoned.events.find(x=>x.action==='answered');
   answered.payload.questionSnapshot.stem+='恶意修改';
   await page.locator('#migrate-v10').setInputFiles({name:'altered-v10.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(poisoned))});
-  await page.waitForFunction(()=>document.querySelector('#message')?.textContent?.includes('跨版本迁移已安全停止')&&
-    document.querySelector('#migrate-v10')&&!document.querySelector('#migrate-v10').disabled,
-    null,{timeout:15000});
+  try{
+    await page.waitForFunction(()=>document.querySelector('#message')?.textContent?.includes('跨版本迁移已安全停止')&&
+      document.querySelector('#migrate-v10')&&!document.querySelector('#migrate-v10').disabled,
+      null,{timeout:9000});
+  }catch(e){
+    const state=await page.evaluate(()=>({message:document.querySelector('#message')?.textContent,
+      inputDisabled:document.querySelector('#migrate-v10')?.disabled,
+      appError:document.querySelector('#app')?.textContent?.slice(0,500),
+      cryptoAvailable:!!crypto?.subtle,migrationBridge:typeof MigrationBridge}));
+    throw Error('Corrupted backup rejection UI diagnostic: '+JSON.stringify(state)+' / '+e.message);
+  }
   assert.equal(await page.locator('#confirm-migration').count(),0,'Corrupt snapshot produced migration consent button');
   assert.equal(await page.evaluate(()=>repository.listProfiles().then(x=>x.length)),0);
   // Exact same exported JSON can be previewed without writing any target records.
