@@ -4,17 +4,21 @@
 const SOURCE='qh2028-stat-inference-52-v10';
 const TARGET='qh2028-progress-safe-v11';
 const CONTRACT='qh2028-stat-inference-52-v10-internal-draft';
+const EXPECTED_CONTENT_SHA256='__V10_CONTENT_SHA256__';
 const GROUPS=['basicQuestions','applicationQuestions','delayedQuestions'];
-const Engine=typeof module!=='undefined'&&module.exports ? require('../product-2028-svo-subjective-candidate/course-engine.cjs') : CourseEngine;
+const Engine=typeof module!=='undefined'&&module.exports ? (globalThis.CourseEngine||require('../product-2028-svo-subjective-candidate/course-engine.cjs')) : CourseEngine;
 const validId=x=>typeof x==='string'&&/^[-a-zA-Z0-9_:]{1,160}$/.test(x);
 const own=(o,k)=>o!==null&&typeof o==='object'&&Object.prototype.hasOwnProperty.call(o,k);
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
 const fail=(what)=>{throw Error('跨版本迁移已安全停止：'+what+'。原V10记录和备份未被修改');};
-function inspect(backup,pack){
+async function inspect(backup,pack){
  if(!pack||pack.contentVersion!==CONTRACT||!Array.isArray(pack.units)||pack.units.length!==52)
   fail('当前课程包不符合V10的已冻结版本');
  if(pack.units.reduce((n,u)=>n+GROUPS.reduce((a,k)=>a+(u[k]?.length||0),0),0)!==584)
   fail('当前题目数并非584');
+ const bytes=new TextEncoder().encode(JSON.stringify(pack,null,2));
+ const actual=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
+ if(actual!==EXPECTED_CONTENT_SHA256)fail('冻结的52课584题内容指纹不一致');
  if(!backup||backup.schemaVersion!==1||backup.scope!=='local-draft'||
     !validId(backup.profileId)||!backup.profile||backup.profile.id!==backup.profileId||
     !backup.profile.settings||typeof backup.profile.settings!=='object')
@@ -93,8 +97,8 @@ function inspect(backup,pack){
  }
  return stats;
 }
-function prepare(backup,pack){
- const preview=inspect(backup,pack);
+async function prepare(backup,pack){
+ const preview=await inspect(backup,pack);
  const safe=structuredClone(backup);
  safe.profile.settings={...safe.profile.settings,
   candidateEdition:TARGET,
