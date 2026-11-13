@@ -142,6 +142,8 @@ async function check(browserName){
   const targetButton=page.locator('[data-unit="353-t-tests-paired-independent-foundation"]');
   assert.equal(await targetButton.isEnabled(),true,
     'New t-test lesson must unlock when required objective and closed-book evidence is present');
+  await page.locator('#course-search').fill('统计推断进阶');
+  await page.waitForFunction(()=>document.querySelector('#mobile-course-count')?.textContent?.includes('1 / 1'),null,{timeout:12000});
   await targetButton.click();
   assert.match(await page.locator('#app').innerText(),/单样本|配对|t检验/);
   const newEvidence=await page.evaluate(()=>profile.exportBackup());
