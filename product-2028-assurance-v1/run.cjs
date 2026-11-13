@@ -64,6 +64,6 @@ fs.writeFileSync(md,lines.join('\n')+'\n');
 console.log(JSON.stringify({
   passed:report.passedAutomaticContracts,courses:report.totals.courses,questions:report.totals.all,
   subjects:report.subjects,questionTypes:{objective:report.totals.objective,subjective:report.totals.subjective,numeric:report.totals.numeric},
-  duplicateStems:report.exactDuplicateStems.length,expertApprovals:0,2028FullSyllabusVerified:false,
+  duplicateStems:report.exactDuplicateStems.length,expertApprovals:0,full2028SyllabusVerified:false,
   machineCorrectnessCertified:false,releaseApproved:false,files:[json,md]
 }));
