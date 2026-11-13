@@ -1,0 +1,48 @@
+name: 2028 evidence-first personal study quality gate
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-source-evidence-gate
+    paths:
+      - product-2028-assurance-v1/**
+      - .github/workflows/evidence-first-gate.yml
+permissions:
+  contents: read
+jobs:
+  assurance:
+    name: Audit all current 524 questions without claiming expert certification
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild frozen 47-course catalog
+        run: node product-2028-integration-47/build.cjs
+      - name: Rebuild SVO6 source-preserving pack
+        run: node product-2028-integration-47-upgraded/build.cjs
+      - name: Rebuild V2 mobile learner
+        run: node product-2028-mobile-ux-v2/build.cjs
+      - name: Rebuild V3 reading
+        run: node product-2028-mobile-reading-v3/build.cjs
+      - name: Rebuild V4 full English passage
+        run: node product-2028-reading-v4/build.cjs
+      - name: Rebuild V5 diagnosis without changing content
+        run: node product-2028-diagnostic-v5/build.cjs
+      - name: Fail-closed evidence and QA tests
+        run: node --test product-2028-assurance-v1/test.cjs
+      - name: Generate full 47-course/524-question evidence queue
+        run: node product-2028-assurance-v1/run.cjs
+      - name: Archive audit proof without publishing lessons
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidence-first-2028-audit
+          path: |
+            product-2028-assurance-v1/results/machine-audit.json
+            product-2028-assurance-v1/results/review-queue.md
+          if-no-files-found: warn
+          retention-days: 14
