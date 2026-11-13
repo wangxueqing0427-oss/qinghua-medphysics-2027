@@ -101,12 +101,56 @@ async function check(browserName){
   await page.goto(root+'/source/');
   await page.locator('[data-profile="'+oldBackup.profileId+'"]').click();
   await page.locator('.mobile-next-task').waitFor({timeout:15000});
-  assert.deepEqual(await page.evaluate(()=>profile.exportBackup()),oldBackup,'Original V10 source was modified');
+  assert.deepEqual(await page.evaluate(()=>profile.exportBackup()),oldBackup,'Original V11 source was modified');
+  // Prove the new course remains locked until prerequisite recall AND objective evidence really exist.
+  await page.goto(root+'/target/');
+  await page.locator('[data-profile="'+newBackup.profileId+'"]').click();
+  await page.locator('.mobile-next-task').waitFor({timeout:15000});
+  const prerequisites=await page.evaluate(async()=>{
+    const target=pack.units.find(u=>u.id==='353-t-tests-paired-independent-foundation');
+    const passed=new Set(),completed=[];
+    async function earn(id){
+      if(passed.has(id))return;
+      const unit=pack.units.find(u=>u.id===id);
+      if(!unit)throw Error('Prerequisite absent: '+id);
+      for(const preceding of unit.prerequisites||[])await earn(preceding);
+      const before=await profile.exportBackup();
+      if(!LearningController.prerequisiteStatus(unit,before).ready)
+        throw Error('Prerequisite chain cannot unlock: '+id);
+      let st=await controller.load(id);
+      if(st.stage==='learn'){
+        st=await controller.learned(st);
+        st=await controller.recall(st,'自动验收的虚拟闭卷回答：解释假设条件和数据结构。');
+        const q=controller.questions(st)[0];
+        if(q.type!=='single')throw Error('Expected first single-choice question: '+id);
+        st=await controller.answer(st,q.answer);
+        if(st.feedback?.grade?.correct!==true)throw Error('Objective prerequisite evidence failed: '+id);
+        completed.push(id);
+      }else{
+        const evidence=await profile.exportBackup();
+        const okay=evidence.events.some(e=>e.unitId===id&&e.action==='recalled')&&
+          evidence.events.some(e=>e.unitId===id&&e.action==='answered'&&e.payload?.grade?.correct===true);
+        if(!okay)throw Error('Incomplete previously saved prerequisite evidence: '+id);
+      }
+      passed.add(id);
+    }
+    for(const id of target.prerequisites||[])await earn(id);
+    await overview();
+    return completed;
+  });
+  assert(prerequisites.length>=1,'Prerequisite chain must have real simulated learning events');
+  const targetButton=page.locator('[data-unit="353-t-tests-paired-independent-foundation"]');
+  assert.equal(await targetButton.isEnabled(),true,
+    'New t-test lesson must unlock when required objective and closed-book evidence is present');
+  await targetButton.click();
+  assert.match(await page.locator('#app').innerText(),/单样本|配对|t检验/);
+  const newEvidence=await page.evaluate(()=>profile.exportBackup());
+  assert(newEvidence.events.length>newBackup.events.length,'Prior learning events were not added to the migrated new profile');
   assert.deepEqual(browserErrors,[],'Browser JS exceptions');
   Object.assign(report,{passed:true,sourceEventsUnchanged:oldBackup.events.length,
    targetEventsPreserved:newBackup.events.length,targetSessionsPreserved:newBackup.sessions.length,
    corruptArchiveRejected:true,manualConsentRequired:true,previewWritesNothing:true,
-   existingProfilesUntouched:true,frozenSessionResumed:true,refreshPersistence:true});
+   existingProfilesUntouched:true,frozenSessionResumed:true,refreshPersistence:true,newCourseUnlockedOnlyAfterEvidence:true});
  }catch(error){report.error=error.stack||String(error);}
  finally{
   results.push(report);
