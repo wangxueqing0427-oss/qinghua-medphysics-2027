@@ -1,0 +1,65 @@
+name: 353 statistical inference V10 52-course isolated preview
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-353-stat-inference-v10
+    paths:
+      - product-2028-stat-inference-foundation/**
+      - product-2028-stat-inference-52/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/353-stat-inference52-v10.yml
+permissions:
+  contents: read
+jobs:
+  inference:
+    name: Verify 52-course confidence interval and hypothesis test in iPhone browsers
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing isolated browser testing dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild all protected 47-51 course versions in order
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+          node product-2028-screening-48/build.cjs
+          node product-2028-radiation-49/build.cjs
+          node product-2028-nuclear-50/build.cjs
+          node product-2028-radiotherapy-51/build.cjs
+      - name: Verify protected original 47-course/524-question source contracts
+        run: node --test product-2028-assurance-v1/test.cjs
+      - name: Verify protected V9 course gap map and no-fake-coverage claims
+        run: node --test product-2028-assurance-v5/test.cjs
+      - name: Check all statistics inference learning content and independent 95-percent calculations
+        run: node --test product-2028-stat-inference-foundation/test.cjs
+      - name: Build isolated V10 with exactly 52 courses and 584 questions
+        run: node product-2028-stat-inference-52/build.cjs
+      - name: Validate study, prerequisites, saved profile and diagnostic in mobile Chromium/WebKit
+        run: node product-2028-stat-inference-52/browser.cjs
+      - name: Archive synthetic QA proof only with no formal release
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stat-inference52-v10-synthetic-proof
+          path: |
+            product-2028-stat-inference-52/build-receipt.json
+            product-2028-stat-inference-52/browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
