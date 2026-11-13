@@ -47,10 +47,12 @@ jobs:
         run: |
           node --test product-2028-assurance-v1/test.cjs
           node --test product-2028-stat-inference-foundation/test.cjs
-      - name: Confirm V10-to-V11 validator rejects changed content and forged records
-        run: node --test product-2028-progress-v11/test.cjs
       - name: Build strictly isolated V11 with exactly the same 52 courses and questions
         run: node product-2028-progress-v11/build.cjs
+      - name: Confirm V10-to-V11 validator rejects changed content and forged records
+        run: node --test product-2028-progress-v11/test.cjs
+      - name: Verify manual-consent preview and data persistence in Chromium and WebKit
+        run: node product-2028-progress-v11/migration-browser.cjs
       - name: Export migration verification outputs
         if: always()
         uses: actions/upload-artifact@v4
