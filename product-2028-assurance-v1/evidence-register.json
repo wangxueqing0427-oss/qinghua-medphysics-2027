@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Personal study preview evidence; never label AI review as an independent expert review",
+  "asOf": "2026-11-13",
+  "examTarget": "2028-entry; expected initial examination late 2027; 2028 rules remain unconfirmed",
+  "program": "Tsinghua 105300 Public Health, 02 Medical Physics and Health",
+  "subjectCodes": ["101", "201", "353"],
+  "references": [
+    {
+      "id": "tsinghua-2027-catalog",
+      "kind": "official-admission-directory",
+      "year": 2027,
+      "subjects": ["en", "pol", "353"],
+      "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/1d58a1e4-dc87-49f9-be0a-d000c060763f?ksfs=&yxsdm=096",
+      "evidenceLevel": "official-published-program-and-subject-codes",
+      "limitations": "Not a course-by-course exam content or exam-year 2028 approval"
+    },
+    {
+      "id": "tsinghua-2027-353-syllabus",
+      "kind": "official-exam-outline",
+      "year": 2027,
+      "subjects": ["353"],
+      "publishedOn": "2026-09-30",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "evidenceLevel": "official-outline-for-2027-only",
+      "sections": [
+        "公共卫生：定义、三级预防、卫生体系、应急、全球健康、健康教育",
+        "流行病学：研究设计、病因推断、描述性研究、病例对照、队列、试验、诊断与筛检、监测、循证",
+        "统计学：数据和变量、概率与区间估计、假设检验、方差分析、分类资料、回归",
+        "基础与交叉：医学与健康、环境、法律伦理、数据、人工智能应用",
+        "医学物理与健康方向：物理量测量、辐射防护、核医学影像、放疗物理、物理环境与医工交叉"
+      ],
+      "limitations": "Do not convert the five broad descriptions to syllabus coverage percentages; not the 2028 outline"
+    },
+    {
+      "id": "english-one-2027-publication",
+      "kind": "official-publisher-book-record-only",
+      "year": 2027,
+      "subjects": ["en"],
+      "isbn": "978-7-04-068403-2",
+      "evidenceLevel": "publication-catalog-not-full-syllabus",
+      "limitations": "Full exam outline text not independently obtained; do not claim topic-level mapping"
+    },
+    {
+      "id": "politics-2027-publication",
+      "kind": "official-publisher-book-record-only",
+      "year": 2027,
+      "subjects": ["pol"],
+      "isbn": "978-7-04-068500-8",
+      "evidenceLevel": "publication-catalog-not-full-syllabus",
+      "limitations": "Full exam outline text not independently obtained; sensitive to annual revisions"
+    }
+  ],
+  "formal2028SyllabusAvailable": false,
+  "fullEnglishAndPoliticsOutlineVerified": false,
+  "hasIndependentExpert": false,
+  "policy": {
+    "personalPractice": "Allowed only as explicitly labeled unapproved draft with question/source limitations and a backed-up local profile",
+    "automaticQA": "May confirm structural integrity, stable numeric contracts, duplicate detection, grading boundaries and content hashes only",
+    "subjectMatterReview": "Must be source-by-source and calculation-by-calculation; uncertain medical, radiation, imaging and public health claims remain flagged",
+    "fullOfficialRelease": "Blocked until content evidence, scope, copyright, technical and accessibility reviews are demonstrably completed; cannot claim expert reviewed without expert evidence"
+  }
+}
