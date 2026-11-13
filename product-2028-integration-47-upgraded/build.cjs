@@ -472,3 +472,45 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v13-outbreak-additive'){
   assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
   console.log('Independent V13 outbreak 54-course preview ready; old V12 progress and official main unchanged');
 }
+
+
+// Independent V14 STAT03 additive branch preview: 55 lessons, V13 -> V14 manual opt-in only.
+// This preview never releases main, overwrites V59/R2 or touches existing learner profiles.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v14-anova-regression'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  require('../product-2028-radiotherapy-51/build.cjs');
+  require('../product-2028-stat-inference-52/build.cjs');
+  require('../product-2028-progress-v11/build.cjs');
+  require('../product-2028-v12-additive/build.cjs');
+  require('../product-2028-v13-additive/build.cjs');
+  require('../product-2028-v14-additive/build.cjs');
+  const receipt=require('../product-2028-v14-additive/build-receipt.json');
+  const source=path.join(__dirname,'../product-2028-v14-additive/.build');
+  assert.equal(receipt.edition,'qh2028-stat03-55-v14');
+  assert.equal(receipt.courses,55);
+  assert.equal(receipt.questions,620);
+  assert.equal(receipt.legacy54CourseContentIdentical,true);
+  assert.equal(receipt.newCourses,1);
+  assert.equal(receipt.migrationOptIn,true);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const f of receipt.files){
+    assert(!f.path.includes('..')&&!path.isAbsolute(f.path),'Unsafe V14 candidate preview path');
+    const bytes=fs.readFileSync(path.join(source,f.path));
+    assert.equal(digest(bytes),f.sha256,'V14 preview asset digest drift: '+f.path);
+    fs.writeFileSync(path.join(out,f.path),bytes);
+  }
+  const pack=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(pack.units.length,55);
+  assert.equal(pack.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),620);
+  assert.equal(pack.units[54].id,'353-anova-chi-regression-foundation');
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-stat03-55-v14'));
+  assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
+  console.log('Independent V14 55-course STAT03 branch preview ready; old V13 and main learner data untouched');
+}
