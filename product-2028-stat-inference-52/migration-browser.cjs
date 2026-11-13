@@ -52,7 +52,7 @@ async function run(which){
   await page.goto(origin+'/next/');
   assert.match(await page.locator('body').innerText(),/统计推断内测 V10/);
   assert.equal(await page.locator('[data-profile]').count(),0,'V10 wrongly auto-imported earlier local records');
-  const bad={...before,events:[...before.events,{...before.events[0],profileId:'other-person'}]};
+  const bad={...before,events:before.events.map((e,i)=>i===0?{...e,profileId:'other-person'}:e)};
   await page.locator('#restore').setInputFiles({name:'corrupt-v9-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(bad))});
   await page.waitForFunction(()=>{const input=document.querySelector('#restore');const msg=document.querySelector('#message')?.textContent||'';return input&&!input.disabled&&msg.includes('Mixed-profile backup rejected');},{timeout:12000});
   assert.equal(await page.evaluate(()=>repository.listProfiles().then(x=>x.length)),0,'Invalid profile must not be created');
