@@ -1,0 +1,54 @@
+/* V4: read exactly the existing English passages with local voice, no cloud API. */
+.english-passage-reader {
+  margin: 14px 0 18px;
+  border: 1px solid #c3c8cb;
+  border-radius: 16px;
+  background: #fffdf8;
+  overflow: hidden;
+}
+.english-passage-reader summary {
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #192534;
+  cursor: pointer;
+  min-height: 48px;
+}
+.english-passage-reader[open] summary { border-bottom: 1px solid #e1dfd8; }
+.passage-reader-body { padding: 12px 15px 16px; }
+.passage-caption, .passage-audio-status {
+  font-size: 13px !important; color: #4f5865; line-height: 1.6 !important;
+}
+.passage-controls {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: 8px; margin: 12px 0;
+}
+.passage-controls label { font-size: 15px; font-weight: 600; }
+.passage-rate {
+  min-height: 44px; padding: 8px;
+  border: 1px solid #a6a9ab; border-radius: 10px;
+  background: #fff; color: #1b2430; font-size: 16px;
+}
+.passage-controls .btn { min-height: 46px; font-size: 15px; }
+.passage-lines { list-style: none; padding: 0; margin: 12px 0 0; }
+.passage-lines li {
+  display: grid; grid-template-columns: 34px minmax(0,1fr) 48px;
+  gap: 8px; align-items: start; padding: 13px 0;
+  border-top: 1px solid #e7e4db;
+}
+.passage-line-id { font-size: 13px; font-weight: 700; color: #34465f; padding-top: 3px; }
+.passage-line-text {
+  font-family: system-ui, -apple-system, sans-serif; font-size: 17px;
+  line-height: 1.75; color: #20272f; white-space: pre-wrap; overflow-wrap: anywhere;
+}
+.passage-play-line { min-height: 44px; min-width: 44px; padding: 7px; font-size: 15px; }
+.passage-lines .passage-speaking { border-radius: 8px; background: #e5f0ec; }
+.passage-audio-status { min-height: 22px; }
+.passage-controls button:focus-visible,.passage-lines button:focus-visible,
+.passage-rate:focus-visible { outline: 3px solid #ae6a16; outline-offset: 3px; }
+@media (max-width: 380px) {
+  .passage-controls .btn { flex: 1 1 40%; }
+  .passage-lines li { grid-template-columns: 30px minmax(0,1fr) 46px; gap: 6px; }
+  .passage-line-text { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .passage-lines .passage-speaking { transition: none; } }
