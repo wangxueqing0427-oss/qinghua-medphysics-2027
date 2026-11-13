@@ -6,6 +6,7 @@ on:
     paths:
       - product-2028-assurance-v2/**
       - product-2028-assurance-v3/**
+      - product-2028-assurance-v4/**
       - .github/workflows/353-independent-numeric-v2.yml
 permissions:
   contents: read
@@ -42,6 +43,10 @@ jobs:
         run: node product-2028-assurance-v2/run.cjs
       - name: Produce prioritized 353 qualitative review packet
         run: node product-2028-assurance-v3/run.cjs
+      - name: Check the 2027 official syllabus topic map without claiming 2028 coverage
+        run: node --test product-2028-assurance-v4/test.cjs
+      - name: Export no-fake-coverage 353 course-development roadmap
+        run: node product-2028-assurance-v4/run.cjs
       - name: Archive immutable synthetic proof without any release/deployment
         if: always()
         uses: actions/upload-artifact@v4
@@ -52,5 +57,7 @@ jobs:
             product-2028-assurance-v2/results/353-quality-next-queue.md
             product-2028-assurance-v3/results/353-qualitative-triage.json
             product-2028-assurance-v3/results/353-qualitative-165-review.md
+            product-2028-assurance-v4/results/2027-outline-map.json
+            product-2028-assurance-v4/results/2027-outline-development-plan.md
           if-no-files-found: warn
           retention-days: 14
