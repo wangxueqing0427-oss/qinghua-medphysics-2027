@@ -1,0 +1,52 @@
+name: Mobile V3 reading and English speech candidate
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-mobile-reading-v3
+    paths:
+      - product-2028-mobile-reading-v3/**
+      - .github/workflows/mobile-reading-v3.yml
+      - product-2028-integration-47-upgraded/build.cjs
+permissions:
+  contents: read
+jobs:
+  reading:
+    name: Verify lesson integrity and reading UX in simulated iPhone browsers
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Reconstruct existing frozen course catalog
+        run: node product-2028-integration-47/build.cjs
+      - name: Build existing SVO6 candidate
+        run: node product-2028-integration-47-upgraded/build.cjs
+      - name: Build existing mobile UX V2 candidate
+        run: node product-2028-mobile-ux-v2/build.cjs
+      - name: Build isolated V3 without changing question content
+        run: node product-2028-mobile-reading-v3/build.cjs
+      - name: Check mobile reading and pronunciation in Chromium and WebKit
+        run: node product-2028-mobile-reading-v3/browser.cjs
+      - name: Save synthetic evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-reading-v3-evidence
+          path: |
+            product-2028-mobile-reading-v3/build-receipt.json
+            product-2028-mobile-reading-v3/browser-results.json
+          if-no-files-found: warn
+          retention-days: 7
