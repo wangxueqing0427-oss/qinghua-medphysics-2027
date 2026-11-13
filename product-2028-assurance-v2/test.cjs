@@ -42,7 +42,7 @@ test('independent operand evaluator covers every curated arithmetic family witho
  }
  assert.equal(compute(cases.numericQuestions.find(x=>x.id==='epi-pt-4')),500);
  assert.equal(compute(cases.numericQuestions.find(x=>x.id==='353-probability-binomial-foundation-d1')),2/6);
- assert.equal(compute(cases.numericQuestions.find(x=>x.id==='353-normal-distribution-foundation-d3')),.0228);
+ assert(Math.abs(compute(cases.numericQuestions.find(x=>x.id==='353-normal-distribution-foundation-d3'))-.0228)<1e-12);
  assert.equal(compute(cases.numericQuestions.find(x=>x.id==='353-mean-median-d2')),7);
  assert.equal(compute(cases.numericQuestions.find(x=>x.id==='353-dispersion-foundation-d2')),9);
 });
