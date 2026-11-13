@@ -5,6 +5,7 @@ on:
       - candidate/2026-11-13-353-independent-numeric
     paths:
       - product-2028-assurance-v2/**
+      - product-2028-assurance-v3/**
       - .github/workflows/353-independent-numeric-v2.yml
 permissions:
   contents: read
@@ -35,8 +36,12 @@ jobs:
         run: node --test product-2028-assurance-v1/test.cjs
       - name: Recalculate every current 353 numerical question and reject tampering
         run: node --test product-2028-assurance-v2/test.cjs
+      - name: Validate 165 qualitative questions and limited NIST concept crosschecks
+        run: node --test product-2028-assurance-v3/test.cjs
       - name: Produce 39 item numerical proof and 165 question pending review queue
         run: node product-2028-assurance-v2/run.cjs
+      - name: Produce prioritized 353 qualitative review packet
+        run: node product-2028-assurance-v3/run.cjs
       - name: Archive immutable synthetic proof without any release/deployment
         if: always()
         uses: actions/upload-artifact@v4
@@ -45,5 +50,7 @@ jobs:
           path: |
             product-2028-assurance-v2/results/353-numeric-recheck.json
             product-2028-assurance-v2/results/353-quality-next-queue.md
+            product-2028-assurance-v3/results/353-qualitative-triage.json
+            product-2028-assurance-v3/results/353-qualitative-165-review.md
           if-no-files-found: warn
           retention-days: 14
