@@ -182,7 +182,7 @@
         {
           "id": "353-nuclear-imaging-foundation-b2",
           "type": "single",
-          "stem": "SPECT成像最符合哪项描述？",
+          "stem": "对于典型SPECT核医学断层成像，下列哪项描述最准确？",
           "options": [
             "记录γ光子并借助准直器选择方向，再重建多角度投影",
             "按湮灭成对511 keV符合事件定义响应线",
