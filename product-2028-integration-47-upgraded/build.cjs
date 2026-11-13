@@ -167,3 +167,31 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-reading-fullpassage-v4'){
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('reading-passage.js'));
   console.log('Cloudflare Pages V4 full passage branch preview assets ready; all previous branches unchanged');
 }
+
+
+// Isolated V5 diagnostic mini-test Pages preview only.
+// Never change the core47 production branch, earlier previews, main or real learner data.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-diagnostic-exam-v5'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  const v5Dir=path.join(__dirname,'../product-2028-diagnostic-v5/.build');
+  const v5=require('../product-2028-diagnostic-v5/build-receipt.json');
+  assert.equal(v5.edition,'qh2028-diagnostic-mini-v5');
+  assert.equal(v5.courses,47);
+  assert.equal(v5.questions,524);
+  assert.equal(v5.formalReleaseApproved,false);
+  assert.equal(v5.expertApprovals,0);
+  for(const file of v5.files){
+    assert(!file.path.includes('..')&&!path.isAbsolute(file.path),'Unsafe candidate asset path');
+    const bytes=fs.readFileSync(path.join(v5Dir,file.path));
+    assert.equal(digest(bytes),file.sha256,'V5 candidate asset mismatch: '+file.path);
+    fs.writeFileSync(path.join(out,file.path),bytes);
+  }
+  const html=fs.readFileSync(path.join(out,'index.html'),'utf8');
+  const serviceWorker=fs.readFileSync(path.join(out,'sw.js'),'utf8');
+  assert(html.includes('mock-engine.js')&&html.includes('mock-ui.js'));
+  assert(serviceWorker.includes('mock-engine.js')&&serviceWorker.includes('mock-ui.js'));
+  console.log('Cloudflare Pages V5 internal diagnostic preview configured; all previous branches unchanged');
+}
