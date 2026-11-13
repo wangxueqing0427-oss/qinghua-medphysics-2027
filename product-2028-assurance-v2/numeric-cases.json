@@ -18,7 +18,8 @@
         "30名",
         "一年"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "300名期初有风险者完整随访一年，30名新病例，风险百分数是多少？"
     },
     {
       "id": "risk-delay-1",
@@ -33,7 +34,8 @@
         "12名",
         "一年"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "200名期初有风险者完整随访一年，12名新病例。累计风险百分数？"
     },
     {
       "id": "epi-pt-2",
@@ -47,7 +49,8 @@
         "40例",
         "2000人年"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "40例新发病例、2000人年，求每1000人年的发病密度。"
     },
     {
       "id": "epi-pt-4",
@@ -67,7 +70,8 @@
         "0.5年",
         "首次事件"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "首次事件：甲0.5年发病，乙未发病随访1年，丙未发病随访0.5年。求每1000人年发病密度。"
     },
     {
       "id": "epi-pt-d1",
@@ -81,7 +85,8 @@
         "15个",
         "750人年"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "隔日：15个新病例、750人年，求每1000人年发病密度。"
     },
     {
       "id": "var-b4",
@@ -96,7 +101,8 @@
         "20人",
         "超界"
       ],
-      "source": "CDC_PROP"
+      "source": "CDC_PROP",
+      "stemSnapshot": "100名参加者均有有效测量，其中20人读数超过题目指定界值。求这100名已测者的超界百分比（不是发病率）。"
     },
     {
       "id": "var-d4",
@@ -112,7 +118,8 @@
         "8人",
         "10人未测"
       ],
-      "source": "CDC_PROP"
+      "source": "CDC_PROP",
+      "stemSnapshot": "隔日：50名受邀者中40人有有效读数，其中8人超指定界值；其余10人未测且状态未知。求有有效读数者中的超界百分比。"
     },
     {
       "id": "353-mean-median-a1",
@@ -129,7 +136,8 @@
         "1、3、5分钟",
         "缺失"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "有效时间1、3、5分钟，一条缺失不计入。均数是多少？输入分钟。"
     },
     {
       "id": "353-mean-median-a2",
@@ -147,7 +155,8 @@
         "2、4、8、10分钟",
         "中位数"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "已排序2、4、8、10分钟，按本课规则中位数是多少？"
     },
     {
       "id": "353-mean-median-d1",
@@ -164,7 +173,8 @@
         "3、5、7分钟",
         "均数"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "隔日新数据3、5、7分钟的均数，输入分钟。"
     },
     {
       "id": "353-mean-median-d2",
@@ -183,7 +193,8 @@
         "9、1、11、7、3分钟",
         "中位数"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "隔日新顺序9、1、11、7、3分钟的中位数，输入分钟。"
     },
     {
       "id": "353-dispersion-foundation-b2",
@@ -200,7 +211,8 @@
         "1、3、5分钟",
         "样本公式"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "数据1、3、5分钟，均数3，按样本公式求方差s²。"
     },
     {
       "id": "353-dispersion-foundation-a1",
@@ -217,7 +229,8 @@
         "2、3、4分钟",
         "极差"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "数据2、3、4分钟的极差是多少？"
     },
     {
       "id": "353-dispersion-foundation-a2",
@@ -234,7 +247,8 @@
         "2、4、6分钟",
         "SD"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "数据2、4、6分钟，平方偏差和8，按样本SD公式求s。"
     },
     {
       "id": "353-dispersion-foundation-d1",
@@ -251,7 +265,8 @@
         "2、5、8分钟",
         "极差"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "隔日数据2、5、8分钟的极差，输入分钟。"
     },
     {
       "id": "353-dispersion-foundation-d2",
@@ -268,7 +283,8 @@
         "2、5、8分钟",
         "方差"
       ],
-      "source": "NIST_SCALE"
+      "source": "NIST_SCALE",
+      "stemSnapshot": "隔日数据2、5、8分钟，均数5，样本方差是多少？"
     },
     {
       "id": "353-normal-distribution-foundation-b2",
@@ -284,7 +300,8 @@
         "σ=5",
         "x=55"
       ],
-      "source": "NIST_NORMAL"
+      "source": "NIST_NORMAL",
+      "stemSnapshot": "题设μ=50分钟、σ=5分钟、x=55分钟。按正态标准化求z。"
     },
     {
       "id": "353-normal-distribution-foundation-a2",
@@ -300,7 +317,8 @@
         "σ=10",
         "60秒"
       ],
-      "source": "NIST_NORMAL"
+      "source": "NIST_NORMAL",
+      "stemSnapshot": "假定μ=80秒、σ=10秒，观测60秒，求z。"
     },
     {
       "id": "353-normal-distribution-foundation-a3",
@@ -314,7 +332,8 @@
         "Φ(1)=.8413",
         "Φ(0)=.5000"
       ],
-      "source": "NIST_NORMAL"
+      "source": "NIST_NORMAL",
+      "stemSnapshot": "给Φ(1)=.8413、Φ(0)=.5000。按该舍入表求P(0<Z≤1)。"
     },
     {
       "id": "353-normal-distribution-foundation-d2",
@@ -330,7 +349,8 @@
         "σ=3",
         "x=24"
       ],
-      "source": "NIST_NORMAL"
+      "source": "NIST_NORMAL",
+      "stemSnapshot": "隔日假定μ=30分钟、σ=3分钟，x=24分钟。求z。"
     },
     {
       "id": "353-normal-distribution-foundation-d3",
@@ -343,7 +363,8 @@
         "Φ(2)=.9772",
         "P(Z>2)"
       ],
-      "source": "NIST_NORMAL"
+      "source": "NIST_NORMAL",
+      "stemSnapshot": "给Φ(2)=.9772。按四位近似表求P(Z>2)。"
     },
     {
       "id": "353-probability-binomial-foundation-b2",
@@ -356,7 +377,8 @@
         "P(A)=0.25",
         "补事件"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "教学事件P(A)=0.25，补事件概率为多少？输入0至1小数。"
     },
     {
       "id": "353-probability-binomial-foundation-a1",
@@ -370,7 +392,8 @@
         "1至8",
         "不超过2"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "等可能抽取编号1至8的一张卡，事件为编号不超过2，求小数概率。"
     },
     {
       "id": "353-probability-binomial-foundation-a2",
@@ -383,7 +406,8 @@
         "0.4",
         "不发生"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "假定某事件概率0.4，其不发生概率是多少？输入小数。"
     },
     {
       "id": "353-probability-binomial-foundation-a3",
@@ -397,7 +421,8 @@
         "p=0.2",
         "恰一次"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "两次独立试验、每次p=0.2，恰一次成功的概率是多少？输入小数。"
     },
     {
       "id": "353-probability-binomial-foundation-d1",
@@ -411,7 +436,8 @@
         "1至6",
         "大于4"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "隔日：六个等可能编号1至6，事件为编号大于4，求概率小数，允许小数近似误差1e-10。"
     },
     {
       "id": "353-probability-binomial-foundation-d2",
@@ -424,7 +450,8 @@
         "P(B)=0.15",
         "非B"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "隔日：P(B)=0.15，求非B的小数概率。"
     },
     {
       "id": "353-probability-binomial-foundation-d3",
@@ -438,7 +465,8 @@
         "p=0.4",
         "恰一次"
       ],
-      "source": "PSU_BINOM"
+      "source": "PSU_BINOM",
+      "stemSnapshot": "隔日：两次独立且每次p=0.4，恰一次成功的小数概率是？"
     },
     {
       "id": "353-random-sampling-foundation-b2",
@@ -453,7 +481,8 @@
         "n=20",
         "不放回"
       ],
-      "source": "VUW_SRS"
+      "source": "VUW_SRS",
+      "stemSnapshot": "完整N=200名单不放回简单随机抽n=20，某人的入样概率是多少？输入小数。"
     },
     {
       "id": "353-random-sampling-foundation-a2",
@@ -468,7 +497,8 @@
         "抽50",
         "不放回"
       ],
-      "source": "VUW_SRS"
+      "source": "VUW_SRS",
+      "stemSnapshot": "完整N=500名册，简单随机不放回抽50，某人的入样概率？"
     },
     {
       "id": "353-random-sampling-foundation-d2",
@@ -483,7 +513,8 @@
         "抽8",
         "不放回"
       ],
-      "source": "VUW_SRS"
+      "source": "VUW_SRS",
+      "stemSnapshot": "完整N=80名单，不放回简单随机抽8，每人入样概率小数？"
     },
     {
       "id": "353-ratio-rate-prevalence-a2",
@@ -498,7 +529,8 @@
         "18人",
         "时点"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "某时刻120名在册者中18人正在患病，含旧病例。填时点患病率小数，不填百分数。"
     },
     {
       "id": "353-ratio-rate-prevalence-a3",
@@ -513,7 +545,8 @@
         "30名",
         "期间"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "固定200人全季完整记录，共30名不同者曾患病，有人多次发作。填本例期间患病比例小数。"
     },
     {
       "id": "353-ratio-rate-prevalence-d2",
@@ -531,7 +564,8 @@
         "旧病例6",
         "新病例3"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "隔日某日全体75人，当前旧病例6、新病例3均仍病。时点患病率填小数。"
     },
     {
       "id": "353-ratio-rate-prevalence-d3",
@@ -546,7 +580,8 @@
         "6名",
         "两人"
       ],
-      "source": "CDC_EPI"
+      "source": "CDC_EPI",
+      "stemSnapshot": "固定50人全月完整记录，6名独立者曾患病，其中两人各发作两次。期间患病比例填小数。"
     },
     {
       "id": "353-sampling-distribution-se-b2",
@@ -561,7 +596,8 @@
         "n=16",
         "SE"
       ],
-      "source": "PSU_SE"
+      "source": "PSU_SE",
+      "stemSnapshot": "给独立同分布且总体SD=8分钟，n=16。求均数SE。"
     },
     {
       "id": "353-sampling-distribution-se-a2",
@@ -576,7 +612,8 @@
         "s=15",
         "SE"
       ],
-      "source": "PSU_SE"
+      "source": "PSU_SE",
+      "stemSnapshot": "某独立同分布样本n=25，样本SD s=15秒。用本课公式估计均数SE。"
     },
     {
       "id": "353-sampling-distribution-se-a3",
@@ -591,7 +628,8 @@
         "n=36",
         "SE"
       ],
-      "source": "PSU_SE"
+      "source": "PSU_SE",
+      "stemSnapshot": "固定总体SD=12秒、独立抽样。从n=9增到n=36，后者均数SE是多少秒？"
     },
     {
       "id": "353-sampling-distribution-se-d2",
@@ -606,7 +644,8 @@
         "s=6",
         "SE"
       ],
-      "source": "PSU_SE"
+      "source": "PSU_SE",
+      "stemSnapshot": "隔日新样本IID，n=9且s=6分钟，估计均数SE是多少？"
     }
   ],
   "sourceDefinitions": {
