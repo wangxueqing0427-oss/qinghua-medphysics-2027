@@ -1,0 +1,63 @@
+name: Radiation protection foundation V7 isolated 49-course preview
+on:
+  push:
+    branches:
+      - candidate/2026-11-13-353-radiation-protection-v7
+    paths:
+      - product-2028-radiation-foundation/**
+      - product-2028-radiation-49/**
+      - product-2028-integration-47-upgraded/build.cjs
+      - .github/workflows/353-radiation49-v7.yml
+permissions:
+  contents: read
+jobs:
+  radiation:
+    name: 49-course source contracts and mobile Chromium/WebKit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing browser testing dependencies
+        working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Restore old 47-course V5 baseline exactly
+        run: |
+          node product-2028-integration-47/build.cjs
+          node product-2028-integration-47-upgraded/build.cjs
+          node product-2028-mobile-ux-v2/build.cjs
+          node product-2028-mobile-reading-v3/build.cjs
+          node product-2028-reading-v4/build.cjs
+          node product-2028-diagnostic-v5/build.cjs
+      - name: Revalidate previous 47-course and 524-question QA contracts
+        run: node --test product-2028-assurance-v1/test.cjs
+      - name: Revalidate source-grounded 48th screening course
+        run: node --test product-2028-screening-foundation/test.cjs
+      - name: Restore isolated 48-course V6 learning site
+        run: node product-2028-screening-48/build.cjs
+      - name: Validate new 49th radiation course and independently calculate four answers
+        run: node --test product-2028-radiation-foundation/test.cjs
+      - name: Build isolated V7 and verify all 48 old courses remain byte-consistent
+        run: node product-2028-radiation-49/build.cjs
+      - name: Run iPhone viewport study and mini-exam verification in Chromium/WebKit
+        run: node product-2028-radiation-49/browser.cjs
+      - name: Upload only private preview verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radiation49-v7-synthetic-proof
+          path: |
+            product-2028-radiation-49/build-receipt.json
+            product-2028-radiation-49/browser-results.json
+          if-no-files-found: warn
+          retention-days: 14
