@@ -17,10 +17,10 @@
         "EPI09"
       ],
       "prerequisites": [
-        "353-incidence-prevalence",
-        "353-cohort-risk-ratio"
+        "353-incidence-risk",
+        "353-study-design-foundation"
       ],
-      "prerequisiteExplanation": "先掌握发病指标和RR的分母含义；先修课需通过真实闭卷回忆和客观题，不能跳过。",
+      "prerequisiteExplanation": "先修新发病例风险的分子分母和观察性研究设计；必须通过闭卷回忆与客观练习，不能直接跳过。",
       "sources": [
         "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
         "https://www.cdc.gov/field-epi-manual/php/chapters/field-investigation.html",
