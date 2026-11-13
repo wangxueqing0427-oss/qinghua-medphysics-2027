@@ -255,3 +255,35 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-radiation-protection-
   assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-radiation-49-v7'));
   console.log('Independent V7 radiation branch preview ready; no existing course, prior branch or user data modified');
 }
+
+
+// Independent V8 nuclear imaging branch preview only, with separate learner data.
+// No change to main, default 47-course preview, older V5-V7 branches, or V59/R2.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-353-nuclear-imaging-v8'){
+  require('../product-2028-mobile-ux-v2/build.cjs');
+  require('../product-2028-mobile-reading-v3/build.cjs');
+  require('../product-2028-reading-v4/build.cjs');
+  require('../product-2028-diagnostic-v5/build.cjs');
+  require('../product-2028-screening-48/build.cjs');
+  require('../product-2028-radiation-49/build.cjs');
+  require('../product-2028-nuclear-50/build.cjs');
+  const receipt=require('../product-2028-nuclear-50/build-receipt.json');
+  const v8Dir=path.join(__dirname,'../product-2028-nuclear-50/.build');
+  assert.equal(receipt.edition,'qh2028-nuclear-50-v8');
+  assert.equal(receipt.courses,50);
+  assert.equal(receipt.questions,560);
+  assert.equal(receipt.independentProfessionalApprovals,0);
+  assert.equal(receipt.formalReleaseApproved,false);
+  for(const f of receipt.files){
+    assert(!f.path.includes('..')&&!path.isAbsolute(f.path),'Unsafe V8 file path');
+    const bytes=fs.readFileSync(path.join(v8Dir,f.path));
+    assert.equal(digest(bytes),f.sha256,'V8 asset integrity mismatch: '+f.path);
+    fs.writeFileSync(path.join(out,f.path),bytes);
+  }
+  const p=JSON.parse(fs.readFileSync(path.join(out,'representative-courses.json'),'utf8'));
+  assert.equal(p.units.length,50);
+  assert.equal(p.units.reduce((n,u)=>n+u.basicQuestions.length+u.applicationQuestions.length+u.delayedQuestions.length,0),560);
+  assert(p.units.some(u=>u.id==='353-nuclear-imaging-foundation'));
+  assert(fs.readFileSync(path.join(out,'sw.js'),'utf8').includes('qh2028-nuclear-50-v8'));
+  console.log('Independent V8 nuclear imaging branch preview ready; no existing app, content branch or learner data modified');
+}
