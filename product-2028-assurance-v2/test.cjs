@@ -59,6 +59,9 @@ test('stem operand changes, missing case fixtures and fabricated expert approval
  const stem=clone(pack);
  firstMatching(stem,'353-sampling-distribution-se-b2').stem='给独立同分布且总体SD=10分钟，n=16。求均数SE。';
  assert(audit(stem).errors.includes('stem-input-drift:353-sampling-distribution-se-b2'));
+ const stealth=clone(pack);
+ firstMatching(stealth,'353-mean-median-a1').stem+=' 请说明是否能代表总体。';
+ assert(audit(stealth).errors.includes('stem-snapshot-drift:353-mean-median-a1'),'Subtle stem drift must not pass');
  const unknown=clone(cases);
  unknown.numericQuestions.splice(0,1);
  assert.throws(()=>audit(pack,unknown),/Curated 39-case manifest required/);
