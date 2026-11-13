@@ -178,8 +178,8 @@
         '<h2 class="exam-stem">'+escape(q.stem)+'</h2>'+form+
         '<p class="exam-notice">点击下方导航后保存本题；未提交前不公开答案。离开或刷新后可从本机档案继续。</p>'+
         '</section><div class="exam-nav">'+
-        '<button class="btn ghost" id="exam-prev" type="button" '+(i===0?'disabled':'')+'>上一题并保存</button>'+
-        '<button class="btn" id="exam-next" type="button" '+(i===count-1?'disabled':'')+'>下一题并保存</button>'+
+        '<button class="btn ghost" id="exam-prev" type="button" '+(i===0?'disabled data-stay-disabled="true"':'')+'>上一题并保存</button>'+
+        '<button class="btn" id="exam-next" type="button" '+(i===count-1?'disabled data-stay-disabled="true"':'')+'>下一题并保存</button>'+
         '<button class="btn ghost" id="exam-skip" type="button">跳过本题</button>'+
         '<button class="btn exam-submit" id="exam-submit" type="button">交卷并查看结果</button>'+
         '</div><p id="exam-tip" class="exam-notice" role="status"></p></section>';
