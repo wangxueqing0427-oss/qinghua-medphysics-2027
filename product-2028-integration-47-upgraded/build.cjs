@@ -576,3 +576,21 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-15-ph03-health-system'){
     console.log(JSON.stringify({ph03Preview:true,sourceSHA:process.env.CF_PAGES_COMMIT_SHA,ci:proof,courses:57,questions:644,assets:r.files.length,old56Unchanged:true,production:false}));
   })().catch(e=>{console.error('PH03 preview refused:',e);process.exitCode=1;});
 }
+
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-15-ph04-emergency-ihr'){
+  (async()=>{
+    assert.equal(process.env.CF_PAGES,'1','PH04 preview hook requires Cloudflare Pages');
+    const proof=await require('../product-2028-ph04-candidate/ci-gate.cjs').wait({sha:process.env.CF_PAGES_COMMIT_SHA,branch:process.env.CF_PAGES_BRANCH});
+    assert.equal(proof.ready,true,'No successful exact-SHA PH04 CI proof');
+    require('../product-2028-ph04-candidate/build-upstream.cjs');
+    require('../product-2028-ph04-candidate/build.cjs');
+    const r=require('../product-2028-ph04-candidate/build-receipt.json');
+    assert.equal(r.courses,58);assert.equal(r.questions,656);assert.equal(r.legacy57CourseContentIdentical,true);
+    assert.equal(r.formalReleaseApproved,false);assert.equal(r.independentProfessionalApprovals,0);
+    const folder=path.join(__dirname,'../product-2028-ph04-candidate/.build');
+    assert(fs.readdirSync(out).every(name=>r.files.some(f=>f.path===name)),'Unexpected public output file');
+    for(const f of r.files){assert(!f.path.includes('..')&&!path.isAbsolute(f.path));const b=fs.readFileSync(path.join(folder,f.path));assert.equal(digest(b),f.sha256,'PH04 preview hash drift');fs.writeFileSync(path.join(out,f.path),b);}
+    assert.deepEqual(fs.readdirSync(out).sort(),r.files.map(f=>f.path).sort(),'PH04 output must contain exactly the approved assets');
+    console.log(JSON.stringify({ph04Preview:true,sourceSHA:process.env.CF_PAGES_COMMIT_SHA,ci:proof,courses:58,questions:656,assets:r.files.length,old57Unchanged:true,production:false}));
+  })().catch(e=>{console.error('PH04 preview refused:',e);process.exitCode=1;});
+}

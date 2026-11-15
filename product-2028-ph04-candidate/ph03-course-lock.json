@@ -1,0 +1,290 @@
+{
+  "baseline": "ab6722925216de8bbdb944d9ffe12b5ae0dc88cf",
+  "units": [
+    {
+      "id": "en-foundation-svo",
+      "version": "0.3-svo-delay-candidate1",
+      "contentHash": "405abc01073b5d2fc614a433c9e89765fde2a99860428442728a01b2c7a26500"
+    },
+    {
+      "id": "353-incidence-risk",
+      "version": "0.1",
+      "contentHash": "79d4f4247114e939dbebc0e833db977bb0258b5eed85d47fff43b0e44300e74c"
+    },
+    {
+      "id": "pol-practice-verification",
+      "version": "0.1",
+      "contentHash": "b2c5a9a1e2d9d67c4893c49fa49711eb84fdc5acbc4523464eabfa72e9aecc63"
+    },
+    {
+      "id": "en-present-negative",
+      "version": "0.1",
+      "contentHash": "7b0645d71ab10da74a3a324ae8014c8503c6d63d84b591675721eae8649f740e"
+    },
+    {
+      "id": "pol-common-particular",
+      "version": "0.1",
+      "contentHash": "e4edf230cb749a51361f3b5e954f54ee87ca11e431017a4a11c94148adad7ac4"
+    },
+    {
+      "id": "353-person-time",
+      "version": "0.1",
+      "contentHash": "c401fd30ab6ec3e4eaea19e84f2a148ed2e9503d2f9ca88b4cdd9c7c616790bd"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "version": "0.1",
+      "contentHash": "80524a439e13576f1c0db3a469720fea433e3d8bb2a27e687cffc3448feb8aa5"
+    },
+    {
+      "id": "353-variable-types",
+      "version": "0.1",
+      "contentHash": "6b0a1003fe20bfeb66ae00a68c0b30702eb52b8c086d1945144e97f72442b30f"
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "version": "0.1",
+      "contentHash": "b247e9e2027bd71a9d2c1e9de4e1809c6c68fc90a729bd1ea41a728a04178e60"
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "version": "0.1",
+      "contentHash": "aa5fd858ff627ff3a79e7667a45ddb1eee2ffd9c6d8ef36aebe1d4b93b80ca39"
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "version": "0.2",
+      "contentHash": "3be59304127c8e4124023a642f75869659e7e659bf6807b9af53ce297304ceba"
+    },
+    {
+      "id": "pol-connections-foundation",
+      "version": "0.2",
+      "contentHash": "7ce307a992bc2c2f71fc0e441e54ec0594af0598f42a4e6c60fd480f676eb5b4"
+    },
+    {
+      "id": "353-frequency-denominator",
+      "version": "0.2",
+      "contentHash": "4152fd696ad1bf5844780ad3061547b2cb2612519e485ef341523c04bd30e76f"
+    },
+    {
+      "id": "353-quantity-measurement",
+      "version": "0.1",
+      "contentHash": "74c98ac7fadf7ba01ad4578a9111c2cba297670142f46db28f92fd71038d21bf"
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "version": "0.1",
+      "contentHash": "45b5e38f9c512d7c21242c7415bd83218c6797c841bd7bdf976415d893d6b51d"
+    },
+    {
+      "id": "353-energy-power",
+      "version": "0.1",
+      "contentHash": "38569c6ec49bc92028eea53cac6b2ed232d941038e90896e94c22e2e208c5c7f"
+    },
+    {
+      "id": "353-waves-interactions",
+      "version": "0.1",
+      "contentHash": "d5be53cc858ee9308d7d9a17e281e6b382dd74b5bb5a5531ba79627a9a89b17b"
+    },
+    {
+      "id": "en-present-questions",
+      "version": "0.1",
+      "contentHash": "407ed07de30aa804201c12033db9173ef51cb28406f0b1c7cdb0f708330e195b"
+    },
+    {
+      "id": "pol-quantity-quality",
+      "version": "0.1",
+      "contentHash": "944cf22fcbd600cf9d4c6afad0e835d700d4daf6540b22e21a6f83fffa0c46cb"
+    },
+    {
+      "id": "353-public-health-prevention",
+      "version": "0.1",
+      "contentHash": "0806a0e634ed6ff1afa8b40de3824e87e784ac401eb8fbc48a53a3897b530d4c"
+    },
+    {
+      "id": "en-nouns-countability",
+      "version": "0.1",
+      "contentHash": "83ab8a8d12591e50a4db70ad21a68e5c33d1b1cd8b6d3d0b1ca9d4e20e3edcfb"
+    },
+    {
+      "id": "en-pronoun-reference",
+      "version": "0.1",
+      "contentHash": "0a476919176592ecb67c255be3022a7ed09908a29c14464fa27184b9693fbf26"
+    },
+    {
+      "id": "en-articles-foundation",
+      "version": "0.1",
+      "contentHash": "50ae1d223644da9b91a36eb51a3dba08586bfbcb14e3557cb808f021e6d8ea3a"
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "version": "0.1",
+      "contentHash": "e9aca8d55f09b5a49040676dae1ee7bf44f771b4d45b5b2a3cc3623a5a2d88cd"
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "version": "0.1",
+      "contentHash": "e4c9833877632ebfcbc0284dda8ed3b4f8424ca02664175f2a8c4d24ae631f67"
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "version": "0.1",
+      "contentHash": "5a6697afa9999f48a9c267cd3cab73d1f80023aced6b0c81248f307d3cb03778"
+    },
+    {
+      "id": "353-mean-median",
+      "version": "0.1",
+      "contentHash": "c07c00dd3ecea681384dc9c7e058db273cedb61febab5f52a38ff3dfdd7ad6f0"
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "version": "0.1",
+      "contentHash": "bf9f4c065dbe82bfe09a420c2e69790aeb0bcc2eb8cc0f42441ccb2d8cf9c872"
+    },
+    {
+      "id": "353-study-design-foundation",
+      "version": "0.1",
+      "contentHash": "5f6ac230b95977b9b514a39384846a36738b288b735a4199df9c11a94cac810e"
+    },
+    {
+      "id": "en-present-continuous-foundation",
+      "version": "0.1",
+      "contentHash": "3d9bf780a2645bf6b536b1bf2faf3ae1c01f7405ce2e13dcb2503950b6b262c0"
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "version": "0.1",
+      "contentHash": "78015dc59bf56f0169de299228bdb7338453f054dfcc0db572cd1afc7b72dbee"
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "version": "0.1",
+      "contentHash": "c156a13874cd62cf9d96a8b1ecc54f2d7b79ea5a5fbf44635836a9583d0d960d"
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "version": "0.1",
+      "contentHash": "b185b063e5a4e732460fb7d06a149259089ce83afa514acf6f0433afd83a8839"
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "contentHash": "4815109ebb8a56c23441b1c74a5777bf417dadc16b262e8e1b50c7a42568ef9e"
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "version": "0.1",
+      "contentHash": "9c1ef76cc3e999aa04610ab2e6cb3e05acd3f52ab27d24818b0246c505cc2eb2"
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "contentHash": "4c783cc25dc30302cdae105db4458055e8a055be6df77c56c2200e7f60c0068d"
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "version": "0.1",
+      "contentHash": "b4aecee60f65129246c8a108dccb330ce77e5b779dbb36180e2686d1f817c8af"
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "version": "0.1",
+      "contentHash": "fb255225ecb24f3740f77ab897b30ccfe882a0a1ed00095214d1bb7791390bb4"
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation",
+      "version": "0.1",
+      "contentHash": "e747b0260b89571561a7b827d587ec7d97d1332c5ac379ad4a2f34022552c24f"
+    },
+    {
+      "id": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "contentHash": "3c6f3523ccdc4a35f54b4627128459b00adab0c2dfc298a506b098bd14bdd787"
+    },
+    {
+      "id": "en-present-perfect-foundation",
+      "version": "0.1",
+      "contentHash": "5762057aa95636a16f4a7782e20a8cd87b2f4cf723be5f7d20a9e31968d4ec92"
+    },
+    {
+      "id": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "contentHash": "8e6873571961d9d03586ece70b82cada5a34c56f443e1cc5e27a37dd53605765"
+    },
+    {
+      "id": "pol-people-individual-history",
+      "version": "0.1",
+      "contentHash": "4c4c2acba85a370cd96fe325eee3a5a9b5a3851bb111ec4ffa72f0c6c46827cb"
+    },
+    {
+      "id": "pol-modern-history-entry",
+      "version": "0.1",
+      "contentHash": "1217a26202dbb24b2b283394dcd0175abe1b4a8a51393727e995bc9803e4b2e3"
+    },
+    {
+      "id": "353-ratio-rate-prevalence",
+      "version": "0.1",
+      "contentHash": "fba44bbbf8e6011d97d5987da5a868fb69c20cdb3f98f933127d7fbaea7b8b62"
+    },
+    {
+      "id": "353-normal-distribution-foundation",
+      "version": "0.1",
+      "contentHash": "f577b459226d78d97481adffea4cf2b075a7b5727f9379ae80483c6de8c37921"
+    },
+    {
+      "id": "353-sampling-distribution-se",
+      "version": "0.1",
+      "contentHash": "0766fa3b330654ee56c2e415d09bd9d98d110276d7c30ba5e3bdfe7141dbbb09"
+    },
+    {
+      "id": "353-screening-test-foundation",
+      "version": "0.1",
+      "contentHash": "8ec54a40b8a7b4121cbd99a2f0613280a0dbafbfab6506528f666b0a257f83d6"
+    },
+    {
+      "id": "353-radiation-protection-foundation",
+      "version": "0.1",
+      "contentHash": "32b19f64b7df276928858097a33c47a5e6466da50ca806955453becc938f12ae"
+    },
+    {
+      "id": "353-nuclear-imaging-foundation",
+      "version": "0.1",
+      "contentHash": "b5ecee19dd75adbc77cefd3c9872568c5fcb7d184afcd108124ca7cd338ff0cf"
+    },
+    {
+      "id": "353-radiotherapy-physics-foundation",
+      "version": "0.1",
+      "contentHash": "a86583ff8b139e9d8318e215b30a6f97e6cc7390968d3022b27d533118606d00"
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "contentHash": "f8d5b39c80a6ccfd489fe790a0485fd5ab32eb68a77599baf3228da9d4b3d26e"
+    },
+    {
+      "id": "353-t-tests-paired-independent-foundation",
+      "version": "0.1",
+      "contentHash": "d527253759181c6a7f56f72701ab9c4d8b74eceacdd43eebb78bbae761c87df8"
+    },
+    {
+      "id": "353-outbreak-investigation-foundation",
+      "version": "0.1",
+      "contentHash": "f997190a491a8aeac7237bd91a6723741479c9f731a66717814b86a659f9440e"
+    },
+    {
+      "id": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "contentHash": "81215bf0717108af1da046d874948699f1db8f0545e9a49c01576f19c1733c7c"
+    },
+    {
+      "id": "353-evidence-systematic-review-meta-foundation",
+      "version": "0.1",
+      "contentHash": "4f1a5a24eff6c78462ebe0043ebb77147a993ca9a2c04e32aade1bd8930c31a3"
+    },
+    {
+      "id": "353-health-system-financing-policy-foundation",
+      "version": "0.1-ph03",
+      "contentHash": "a6eb79a2a858f1610d3c42fedf1e874cd139f35567e644563782944b51e187e6"
+    }
+  ]
+}

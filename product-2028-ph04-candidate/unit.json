@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "ph04-2026-11-15-original-draft",
+  "units": [
+    {
+      "id": "353-public-health-emergency-ihr-foundation",
+      "subject": "353",
+      "version": "0.1-ph04",
+      "title": "PH04入门：公共卫生应急与国际卫生条例",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "项目原创讲解、虚构学校地区与时间计算；非清华真题、法律意见或现实应急操作指令",
+      "mapping": [
+        "PH04"
+      ],
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "先理解群体健康及三级预防；PH03是并列主题而非理解法定报告的必要前置，本课从零解释程序。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_e8dee9361eaa4d83a63f0c603dbf2df1.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_397cd55d710842979494a429d02fa2be.html",
+        "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=100335",
+        "https://www3.xinhuanet.com/politics/20261106/061c7a805f644c5b9ab080b726fafd9e/c.html",
+        "https://apps.who.int/gb/bd/pdf_files/IHR_2014-2022-2024-en.pdf",
+        "https://www.who.int/health-topics/international-health-regulations"
+      ],
+      "explanation": "从一条异常信息开始，而不是从宣布重大事件开始。虚构“松湾学校”在短时间出现多名原因不明的相似症状，说明需要及时报告、核实和控制风险，不能仅凭人数就判定病原、法律级别或国际状态。突发公共卫生事件强调突然发生、造成或可能造成公众生命健康严重损害、需要应急措施；不只包括已确诊传染病，也可能涉及群体性不明原因疾病、中毒等。突然性、不确定性、群体影响和跨部门协作是本课理解特征的教学归纳，不是另造法定分级标准。风险是可能造成损害的情况，异常信号是需要核实的线索，已核实事实与尚待判断的推测必须分开。没有实验室确诊不等于没有报告义务，也不等于可以公开断言已发生某种疫情。\n我国法源需分层阅读：2025年9月12日通过、11月1日施行的《突发公共卫生事件应对法》第2条规定适用关系；重大传染病疫情有《传染病防治法》专门规定时适用其规定，相关法律未规定时再看《突发事件应对法》。2025年修订《传染病防治法》自9月1日施行。2024年《突发事件应对法》不是可不加说明地称为最新的文本：2026年11月6日已公布修改决定，涉及第29条。本课不讲该条的具体规划权限，也不把旧条文作为现行答案。港口检疫、食品药品安全另有专门法衔接，本课不提供所有场景的完整法律清单。做材料题先写“适用对象—已知事实—对应法源—权限程序”，不要背一条万能处置顺序。\n\n把报告、核实、预警、响应、救治和信息公开分开。以《突发公共卫生事件应对法》为依据，政府承担组织应对责任，疾控机构承担监测、调查核实等专业工作，卫生健康和疾病预防控制部门依法履职，医疗机构承担救治等任务。部门与机构不是同一个概念；疾控中心调查不等于可以代替政府发布所有决定。第13条说明县级政府的属地责任及上级支持，第30—35条说明报告、核实、预警的不同环节。医疗卫生机构及执行职务人员发现第30条所列应报情形或发生、可能发生突发公共卫生事件，应于两小时内网络直报；不具备条件时向所在地疾控机构电话、传真等报告。检验检测机构按该条于两小时内向所在地疾控机构报告；有关单位应立即采取防扩散措施并立即向所在地疾控机构和行业主管部门报告。公众发现可能事件的报告规则见第31条，不能把所有人都套成“两小时后再报”。这是最长时限约束，不是等待时间。\n演示：虚构医疗机构09:10发现符合该条应报情形且能直报，应及时报告，最迟11:10；不能先等一天看是否扩散。疾控接报立即调查核实，依第33条报告；预警需按第35条提出建议、组织研判、政府决定等程序，不能由学生或医院自行宣布。若已知是适用传染病专门规定的情形，还要核对2025年《传染病防治法》有关报告、预警规则，不能把这段简化流程当作替代。第8—9条还要求保护个人信息、依法按权限程序采取与危害相适应的措施。可先做职责内的救护和风险防范，不等于可无限制封控或公开患者身份。报告给主管机关、对外公布疫情和公开个人资料是三个不同问题。\n\n国际层面先理解“核心能力”和“通报”。IHR是约束缔约国的国际规则；名称保留《国际卫生条例（2005）》，不表示内容从未修订。本课使用WHO公开的合并英文文本，纳入2014、2022、2024修订，通常2025年9月19日起适用2024修订；各缔约国仍要核对附录所列拒绝、保留及生效情况，不能说所有国家同日无例外适用。中国2025年8月4日声明（该PDF印刷97—98页）接受修订并指定国家疾病预防控制局为国家IHR主管机构和国家IHR联络点；不能把历史声明中的旧机关名称直接当现行答案。联络点承担国际沟通，不是每家医院自行给WHO作国家正式通报。\n附件1的核心能力不是买一台仪器或报一次数据，而是在基层、中间、国家及指定口岸等相应层面保持发现、评估、报告、应对与支持能力。用“能发现—能核实—能沟通—能应对”帮助记忆是教学概括，不替代完整清单。松湾学校案例中，信息收集、检验转介、跨部门协调、风险沟通和救治资源都是能力链的一部分。第6条要求国家按附件2评估，并通过国家IHR联络点在对公共卫生信息作出评估后24小时内向WHO通报可能构成PHEIC的事件；不是在首个患者出现后机械计24小时，更不是只有已经宣布PHEIC才通报。附件1另有国家层面对紧急事件报告48小时内评估的要求，不能与第6条24小时相混，也不能将两者简单相加成所有情形都可等待72小时。不足以完成判断时，第8条还设咨询安排。示例：题目明确评估于周二14:00完成且符合第6条应通报条件，截止点为周三14:00；这是教学时间计算，实际应及时通报并持续更新信息。\n\n最后区分“需要评估/通报”与“已被确定为PHEIC”。PHEIC即国际关注的突发公共卫生事件，按IHR第1条，需要考虑异常事件是否通过疾病国际传播对其他国家形成公共卫生风险，并可能需要协调的国际应对；不能由死亡人数、跨境旅行记录或国内响应级别单独自动推出。附件2引导考察严重性、异常或意外性、国际传播风险、对国际旅行或贸易造成限制的风险，并有特定事件路径。本课只训练识别需要的信息和程序，不把四个教学问题当成全部判定算法，也不把其中两项成立直接等同于正式宣布PHEIC。\n第12、48、49条中，WHO总干事依规定综合有关国家信息、附件2、突发事件委员会意见、科学证据及相关风险作最终判定；委员会是提出意见，不是最终宣布主体。与有关国家协商是程序的一部分；未达一致也有后续程序，不意味着某国可无限期阻断判定。2024修订加入“大流行紧急状态”等内容，是PHEIC中的进一步判断，不等于所有PHEIC都属于大流行。本课不替代完整新增定义训练。虚构港城出现异常严重病例且有国际联系，只能提出需核实暴露史、严重性、传播证据和跨境风险，依法报告并由国家渠道评估通报；学生不能宣称已达到PHEIC。复盘改进应对应材料，例如修补报告延误、检验转介和风险沟通，同时保护隐私并评估措施影响；“越严越好”不是依法科学应对。2027官方大纲是2028备考暂定依据，考试前须再次核对招生文件和法源更新。",
+      "conditions": [
+        "2027官方大纲作为2028暂定依据；2028最终要求未确认",
+        "法律版本核对截至2026-11-15；实例只适用题干所给主体、触发条件及文本",
+        "国内报告、国家国际通报与WHO判定不混用；不提供现实处置授权"
+      ],
+      "misconceptions": [
+        "等确诊、等国际宣布才报告",
+        "把两小时、评估后24小时和48小时评估当同一个时钟",
+        "把委员会建议、学生分析或国内响应等同WHO最终判定",
+        "把IHR2005视为无修订，或把历史机关名称当现行名称"
+      ],
+      "recall": [
+        "闭卷区分异常信号、公共卫生风险和突发公共卫生事件，写出我国法源衔接。",
+        "闭卷对材料中的医疗机构、疾控机构、主管部门与政府分工，说明及时报告和隐私边界。",
+        "闭卷解释核心能力、国家联络点以及第6条24小时的起算条件，与国内报告区别。",
+        "闭卷说明PHEIC需哪些信息、谁提供意见、谁最终判定，以及现行修订的边界。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "松湾学校异常信号不自动等于确诊或国际状态"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "医疗机构09:10发现法定情形，及时报，最迟11:10"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "明确评估周二14:00完成后的第6条截止点"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "港城异常病例和国际联系：信息不足不自行宣布"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-public-health-emergency-ihr-foundation-g1",
+          "description": "识别异常事件和我国法源衔接",
+          "successCriteria": "不以确诊、人数或传染性单一标签替代风险判断，能匹配专门法与一般法",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-public-health-emergency-ihr-foundation-b1",
+            "353-public-health-emergency-ihr-foundation-a1",
+            "353-public-health-emergency-ihr-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-g2",
+          "description": "区分国内报告、核实、预警与权限",
+          "successCriteria": "能按材料确定主体、及时性、隐私和比例边界",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-public-health-emergency-ihr-foundation-b2",
+            "353-public-health-emergency-ihr-foundation-a2",
+            "353-public-health-emergency-ihr-foundation-d2",
+            "353-public-health-emergency-ihr-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-g3",
+          "description": "解释核心能力与国际通报时钟",
+          "successCriteria": "能解释持续能力、国家联络点并正确计算评估后24小时",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-public-health-emergency-ihr-foundation-b3",
+            "353-public-health-emergency-ihr-foundation-a3",
+            "353-public-health-emergency-ihr-foundation-d3",
+            "353-public-health-emergency-ihr-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-g4",
+          "description": "分析PHEIC程序及修订适用范围",
+          "successCriteria": "能区分建议、最终判定与进一步大流行判断，纠正旧版本机关和生效误读",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-public-health-emergency-ihr-foundation-b4",
+            "353-public-health-emergency-ihr-foundation-a4",
+            "353-public-health-emergency-ihr-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据真实回答与延迟测试；主观题待核对不冒充答错或自动分数"
+      },
+      "rubric": [
+        "说明事实、法源与适用条件",
+        "区分主体职责和程序",
+        "结论保留信息不足与版本边界"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部来源与独立解题核查；非真人专业审定",
+        "scope": "PH04入门部分；不声称全部法律与考纲覆盖",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "id": "353-public-health-emergency-ihr-foundation-b1",
+          "type": "single",
+          "stem": "虚构松湾学校短时间出现多名原因不明的相似症状。哪项最合理？",
+          "answer": 1,
+          "explanation": "B把异常线索作为及时报告与核实的起点；A把未确诊当作免责，C仅凭人数推断国际状态，均不成立。须结合严重危害和应急需要等条件。",
+          "difficulty": "basic",
+          "options": [
+            "只有查出病原才能报告",
+            "需要及时报告核实，尚不能仅凭人数确定病原、级别或PHEIC",
+            "人数超过十人自动就是PHEIC"
+          ],
+          "sourceRefs": [
+            "cn",
+            "infect"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-b2",
+          "type": "single",
+          "stem": "按课内核实法源，重大传染病疫情有专门规定时，法律衔接应怎样理解？",
+          "answer": 0,
+          "explanation": "A符合2025年《突发公共卫生事件应对法》第2条的衔接：有专门规定适用其规定，未规定再适用相关一般法；B、C否定专门规则或法定权限。",
+          "difficulty": "basic",
+          "options": [
+            "核对传染病防治法专门规定，未规定事项再依法衔接",
+            "所有情况只用2024年一般法旧文本",
+            "医院可以自行代替政府决定所有预警措施"
+          ],
+          "sourceRefs": [
+            "cn",
+            "infect"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-b3",
+          "type": "multi",
+          "stem": "关于IHR核心能力与国际通报，选出有课内依据的表述。",
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A对应附件1的持续能力要求；C对应第6条评估后24小时和国家联络点渠道。B把仪器等同能力，D把发现时间错当第6条唯一时钟。",
+          "difficulty": "basic",
+          "options": [
+            "核心能力包括持续发现、评估、报告和应对等能力链",
+            "有一台检验仪器就满足全部核心能力",
+            "符合第6条条件的事件经国家IHR联络点在评估后24小时内通报",
+            "第6条一律从首名患者发病计24小时"
+          ],
+          "sourceRefs": [
+            "ihr"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-b4",
+          "type": "single",
+          "stem": "在IHR规定程序中，谁对PHEIC作最终判定？",
+          "answer": 2,
+          "explanation": "C对应第12条与第49条第5款；委员会提供意见，有关国家信息和科学证据应被考虑。A把建议当决定，B混同国内行政决定与国际程序。",
+          "difficulty": "basic",
+          "options": [
+            "突发事件委员会单独投票就是最终宣布",
+            "发生地任一家医院",
+            "WHO总干事依条例程序综合相关信息和意见判定"
+          ],
+          "sourceRefs": [
+            "ihr"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-public-health-emergency-ihr-foundation-a1",
+          "type": "subjective",
+          "stem": "虚构学校报告多名学生呕吐，原因未明，工作人员提议等检验结果再报告并公开学生姓名。请用事实、法源和边界给出简要分析，不作病原诊断。",
+          "answer": "应把异常信号与已确诊事实分开，不因未明原因而等待；学校等有关单位应按适用规则及时报告并采取职责内防危害措施，疾控机构调查核实，政府和主管部门依法履职。公开姓名不等于合法疫情报告，应保护个人信息，不无条件公开身份；后续措施需与风险相适应。",
+          "explanation": "接受不同表述，但不能把本例直接断言为某种疾病、固定级别或PHEIC；按2025年应对法第2、8—9、30—35条核对。",
+          "difficulty": "application",
+          "rubric": [
+            "区分原因未明与无需报告，拒绝等待检验才报告",
+            "区分单位报告、疾控核实和依法决策的主体",
+            "说明个人身份信息保护而非公开姓名",
+            "保留病原、级别及国际状态待核边界"
+          ],
+          "sourceRefs": [
+            "cn",
+            "infect"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-a2",
+          "type": "multi",
+          "stem": "某医疗机构提出：“应报情形先等两小时；疾控一接报就可自行宣布政府预警；不具备直报条件时先通过电话等向所在地疾控机构报告。”哪些纠正或表述正确？",
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A正确理解第30条的及时性：两小时是上限而非等待许可；C保留备用报告途径。B把专业调查与政府预警决定混同；D忽视信息保护与权限程序。",
+          "difficulty": "application",
+          "options": [
+            "应及时报告，两小时内不是鼓励等满两小时",
+            "疾控接报自动等于政府已发布预警",
+            "不具备网络直报条件时可按该条电话等报告",
+            "为了应急可不受限制公开患者个人资料"
+          ],
+          "sourceRefs": [
+            "cn",
+            "infect"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-a3",
+          "type": "number",
+          "stem": "教学计时：某国周二14:00完成公共卫生信息评估，题设明确事件符合IHR第6条应通报条件。周三14:00相距多少小时，作为该条通报上限？仅填小时数。",
+          "answer": 24,
+          "explanation": "周二14:00到周三14:00为24小时。起算点在题中明确为评估完成，不是发病；通报走国家联络点，不把24小时上限误作应等待的时间，也不替代其他立即义务。",
+          "difficulty": "application",
+          "unit": "小时",
+          "tolerance": 0,
+          "sourceRefs": [
+            "ihr"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-a4",
+          "type": "subjective",
+          "stem": "虚构港城发生异常严重健康事件，有国际旅行联系。媒体称：“委员会建议就是正式PHEIC；只要跨境就自动是大流行紧急状态。”请纠正，并说明还需哪些信息。",
+          "answer": "国际联系提示评估跨境风险，但不能自动宣布。需核对事件严重性、异常性、国际传播及交通影响等，区分可能需通报与已正式判定。突发事件委员会提供意见，WHO总干事依条例程序作最终判定；大流行紧急状态是现行修订下PHEIC的进一步判断，不是所有PHEIC或所有跨境事件都满足。",
+          "explanation": "接受先列事实再讲程序等组织方式；不要求背未教的完整大流行定义，不虚构委员会或国家已给出决定。",
+          "difficulty": "application",
+          "rubric": [
+            "指出国际联系不足以自动判定",
+            "至少补充两类相关风险或事实信息",
+            "区分委员会意见与总干事最终判定",
+            "区分通报、PHEIC和大流行紧急状态",
+            "保留题目未提供的实际决定和条件"
+          ],
+          "sourceRefs": [
+            "ihr"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-public-health-emergency-ihr-foundation-d1",
+          "type": "single",
+          "stem": "隔日新情境：虚构工厂出现可能严重损害健康的群体性中毒，负责人说“不是传染病，不属于公共卫生应急”。哪项合理？",
+          "answer": 1,
+          "explanation": "B回应应对法第2条包含群体性中毒等情形及必要条件；A把公共卫生事件缩成传染病，C把国内疑似风险直接升级国际状态，均不对。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "只要不是传染病就不可能涉及公共卫生应急",
+            "应结合危害及应急需要核实并依法报告，不能仅以非传染病排除",
+            "任何中毒都已经是WHO宣布的PHEIC"
+          ],
+          "sourceRefs": [
+            "cn",
+            "infect"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-d2",
+          "type": "subjective",
+          "stem": "隔日迁移：一位医师把“本机构两小时内报告”“国家评估后24小时内向WHO通报”“总干事判定PHEIC”写成同一件事。请分别解释主体、触发条件和关系。",
+          "answer": "医疗机构及执行职务人员按2025应对法第30条所列情形及时在两小时内依法报告；传染病专门规则需另核对。第6条是国家依附件2评估后对可能构成PHEIC事件，经国家联络点24小时内通报。总干事依第12、49条综合资料与委员会意见最终判定。通报在可能构成时已可有义务，不等宣布；不能把三个环节当同一时钟或单一机构的操作。",
+          "explanation": "以分别说明主体和触发条件为核心，合理同义表述接受；不要求虚构真实病例或现实机构联系方式。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "国内报告写明特定主体和应报触发，不套用于所有公众",
+            "国家通报写明评估后24小时及国家联络点",
+            "最终判定写明总干事与委员会意见的区别",
+            "说明可能构成的通报不以正式宣布为前提"
+          ],
+          "sourceRefs": [
+            "cn",
+            "infect",
+            "ihr"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-d3",
+          "type": "number",
+          "stem": "隔日计算：虚构医疗机构周一09:10发现符合2025应对法第30条的应报情形且可网络直报。到最迟11:10的间隔是多少小时？不表示可以等待满此时长。",
+          "answer": 2,
+          "explanation": "同日11:10−09:10=2小时，须及时报告。主体、触发和可直报条件均已给出；不将此题上限套到所有公众、所有传染病规则或WHO通报。",
+          "difficulty": "delayed-transfer",
+          "unit": "小时",
+          "tolerance": 0,
+          "sourceRefs": [
+            "cn",
+            "infect"
+          ]
+        },
+        {
+          "id": "353-public-health-emergency-ihr-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日纠错：笔记称“IHR2005从未修订；中国现行国家联络点仍只能照历史卫生部声明背；所有国家在同一天无例外生效；所有PHEIC都是大流行”。请按本课范围改写。",
+          "answer": "名称仍是2005，但使用含2014、2022、2024修订的合并文本；2024修订通常2025年9月19日起适用，具体缔约国需核对附录例外。中国2025年声明接受修订，并指定国家疾病预防控制局为国家IHR主管机构和国家IHR联络点。PHEIC不自动等同大流行紧急状态，后者需进一步按现行规则判断；本课不声称覆盖所有修订。",
+          "explanation": "参考WHO合并文本说明及附录中国声明，避免把历史记录自动当成现行机关名称。无需背全体国家名单或未教的新增定义。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "指出2005名称与后续修订并存",
+            "区分一般生效日期与各国例外",
+            "依据2025年声明识别国家疾病预防控制局",
+            "区分PHEIC与进一步大流行判断",
+            "保留2028考试依据和完整修订内容仍需核对的范围"
+          ],
+          "sourceRefs": [
+            "ihr"
+          ]
+        }
+      ],
+      "definition": "突发公共卫生事件是突然发生、造成或可能造成公众生命健康严重损害且需应急处置的事件；PHEIC是依IHR程序确定、对其他国家有国际传播风险且可能需协调国际应对的异常事件，两者不是同一标签。",
+      "example": "虚构松湾学校出现原因未明的聚集症状：先区分线索与确诊事实，依法及时报告并采取职责内措施，疾控调查核实，相关部门和政府依法履职。不能等WHO宣布才行动，也不能从病例数直接推出PHEIC。若题设某国周二14:00评估完成且符合第6条，则其24小时通报上限对应周三14:00；主体是国家经联络点通报，不是学校自行作国家通报。"
+    }
+  ]
+}

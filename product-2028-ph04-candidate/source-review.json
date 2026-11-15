@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-15",
+  "baseline": "ab6722925216de8bbdb944d9ffe12b5ae0dc88cf",
+  "unitId": "353-public-health-emergency-ihr-foundation",
+  "unitHash": "ad709c3c16049d1a7e3a8d48bd138a5eef101fa43530b65931d0d790f073e3af",
+  "status": "internal-source-screened-pending-independent-review",
+  "expertApprovals": 0,
+  "sources": [
+    {
+      "id": "outline",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "title": "2027年353卫生综合考试大纲",
+      "published": "2026-09-30",
+      "version": "2027招生年度",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "actualRead": "specified-body",
+      "locator": "第一部分第四项，网页第131—132行",
+      "supports": "公共卫生应急、我国法律制度、IHR核心能力和PHEIC程序为暂定教学范围",
+      "limits": "内部PH04不是官方权重；不确认2028目录或全部题型"
+    },
+    {
+      "id": "cn",
+      "publisher": "全国人大常委会；市场监管总局公开全文",
+      "title": "中华人民共和国突发公共卫生事件应对法",
+      "published": "2025-09-12",
+      "effective": "2025-11-01",
+      "version": "2025年通过文本",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_e8dee9361eaa4d83a63f0c603dbf2df1.html",
+      "actualRead": "specified-body",
+      "locator": "第2、8—9、12—14、22—25、27—35、41—42、62—65条",
+      "supports": "定义、法律衔接、职责、两小时内报告特定主体与触发、公众立即报告、核实预警、比例与隐私边界",
+      "limits": "不据此穷尽口岸、食品药品或地方操作规范；不用法律条文给现实个案作诊断"
+    },
+    {
+      "id": "infect",
+      "publisher": "全国人大常委会；市场监管总局公开全文",
+      "title": "中华人民共和国传染病防治法",
+      "published": "2025-04-30",
+      "effective": "2025-09-01",
+      "version": "2025年第二次修订",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_397cd55d710842979494a429d02fa2be.html",
+      "actualRead": "specified-body",
+      "locator": "第8—9、45—54、57—62、114—115条",
+      "supports": "重大传染病疫情专门规则、报告核实预警与公布分开，疾控机构与行政部门有别",
+      "limits": "未核对全部病种最新目录、地方报告规范；不把本课两小时规则推广到所有情形"
+    },
+    {
+      "id": "general",
+      "publisher": "全国人大常委会；商务部法规库转自中国政府网",
+      "title": "中华人民共和国突发事件应对法（2024）",
+      "published": "2024-06-28",
+      "effective": "2024-11-01",
+      "version": "2024修订基础文本，不是无条件最新合并文本",
+      "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=100335",
+      "actualRead": "specified-body",
+      "locator": "第2、5、10条及发布元数据",
+      "supports": "一般法的应急周期、衔接及比例思想",
+      "limits": "该页仍标现行但须与2026修改决定合读，本课不使用旧第29条"
+    },
+    {
+      "id": "amend",
+      "publisher": "全国人大常委会；新华社受权发布",
+      "title": "关于修改突发事件应对法等十五部法律的决定",
+      "published": "2026-11-06",
+      "effective": "2026-11-06",
+      "version": "2026修改决定",
+      "url": "https://www3.xinhuanet.com/politics/20261106/061c7a805f644c5b9ab080b726fafd9e/c.html",
+      "actualRead": "specified-body",
+      "locator": "第一项及末尾施行、重新公布段；网页第29—31、108—109行",
+      "supports": "第29条修改及自公布之日起施行，2024页不能笼统当最新完整文本",
+      "limits": "未取得整合后重公布全文，不教授第29条具体权限"
+    },
+    {
+      "id": "ihr",
+      "publisher": "WHO",
+      "title": "International Health Regulations (2005), as amended in 2014, 2022 and 2024",
+      "published": null,
+      "effective": "2025-09-19 generally, subject to party-specific exceptions",
+      "version": "WHO在线合并英文文本；发布日未标明，以实际说明和访问日登记",
+      "url": "https://apps.who.int/gb/bd/pdf_files/IHR_2014-2022-2024-en.pdf",
+      "actualRead": "specified-body",
+      "locator": "PDF物理页1（说明）；印刷5—6/PDF5—6（定义）；印刷8—9/PDF8—9（第4—8条）；印刷11—12/PDF11—12（第12条）；印刷33—34/PDF33—34（第48—49条）；印刷43—46/PDF43—46（附件1）；印刷48—49/PDF48—49（附件2说明）；印刷97—98/PDF97—98（中国2025-08-04声明）。PDF页码从1开始。",
+      "supports": "PHEIC定义、国家联络点、评估后24小时、48小时评估不同起算、总干事最终判定与委员会建议、能力链、2024修订一般生效及中国新指定机构",
+      "limits": "仅阅读列明正文；附件2图示未作为图像核验通过，不把四项提示当完整算法；未核验各国全部保留或全部修订规则，不教授未核对的大流行完整定义"
+    },
+    {
+      "id": "who",
+      "publisher": "WHO",
+      "title": "International health regulations topic page",
+      "published": null,
+      "version": "访问日页面指向含2014/2022/2024修订合并文本",
+      "url": "https://www.who.int/health-topics/international-health-regulations",
+      "actualRead": "specified-body",
+      "locator": "Overview及Current since 19 September 2025合并文本入口",
+      "supports": "官方合并文本入口与一般适用日期",
+      "limits": "网页概述不替代条文；未标网页发布日期"
+    }
+  ],
+  "questionChecks": [
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-b1",
+      "independentSolution": "异常病例聚集需核实，不由十人阈值自动定义PHEIC；选B。",
+      "sourceRefs": [
+        "cn",
+        "infect"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-b2",
+      "independentSolution": "专门法规定优先衔接而非只用旧一般法；选A。",
+      "sourceRefs": [
+        "cn",
+        "infect"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-b3",
+      "independentSolution": "持续能力与评估后国家通报均有依据；选A/C；仪器和首发计时说法不成立。",
+      "sourceRefs": [
+        "ihr"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-b4",
+      "independentSolution": "最终判定主体是总干事，不是医院或委员会；选C。",
+      "sourceRefs": [
+        "ihr"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-a1",
+      "independentSolution": "未明原因不消灭及时报告义务，报告/调查/决定主体分开，个人身份不可无条件公开。",
+      "sourceRefs": [
+        "cn",
+        "infect"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-a2",
+      "independentSolution": "及时报告和备用报告途径正确；选A/C。核实不等同预警决定，不能无条件公开身份。",
+      "sourceRefs": [
+        "cn",
+        "infect"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-a3",
+      "independentSolution": "同一时刻次日相差24h；题设满足第6条且时钟从评估完成起，不从发病起。",
+      "sourceRefs": [
+        "ihr"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-a4",
+      "independentSolution": "跨境联系不足以自动判定；需风险信息、委员会意见和总干事程序，大流行需额外判断。",
+      "sourceRefs": [
+        "ihr"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-d1",
+      "independentSolution": "群体中毒可属于应急法范围，仍核对严重危害及应急条件；选B。",
+      "sourceRefs": [
+        "cn",
+        "infect"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-d2",
+      "independentSolution": "医疗特定触发两小时、国家评估后24小时、WHO最终判定各有主体条件，不是同一操作。",
+      "sourceRefs": [
+        "cn",
+        "infect",
+        "ihr"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-d3",
+      "independentSolution": "11:10减09:10=120分钟=2小时，为题设特定主体上限而非等待许可。",
+      "sourceRefs": [
+        "cn",
+        "infect"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    },
+    {
+      "questionId": "353-public-health-emergency-ihr-foundation-d4",
+      "independentSolution": "2005名称下包含多次修订；中国2025声明指定国家疾控局；各国适用有例外，PHEIC不必然大流行。",
+      "sourceRefs": [
+        "ihr"
+      ],
+      "limitations": "原创教学情境；主观要点仅参考核对，非专业自动评分。接受合理同义与等价论证，不据此提供现实处置授权。"
+    }
+  ],
+  "failuresAndLimits": [
+    {
+      "operation": "WHO PDF screenshot tool request pages 47,9,98 (1-based)",
+      "result": "工具仅返回引用，无可见图像块；未声称图示视觉核验",
+      "action": "本课不按图示算法出判定题；只使用已读正文条款和附件2文字提示"
+    },
+    {
+      "operation": "2026修法版本核查",
+      "result": "取得受权发布修改决定，未取得重新公布的整合全文",
+      "action": "只说明存在修改；不引用旧第29条为现行权限"
+    }
+  ],
+  "gaps": [
+    "PH04未覆盖全部国内实施细则、口岸及食品药品专门法、现实机构协议",
+    "IHR全部2024新增机制及各国保留表尚未逐项教学",
+    "PH03原未覆盖中国体系演变、健康中国2030完整内容、完整国家比较、复杂经济评价等继续保持缺口",
+    "2028最终考试要求未确认；其他353节点不因本课而完成"
+  ],
+  "nextExpertQuestions": [
+    "法学/公共卫生教师复核法源衔接、报告时钟条件和教学案例适用边界",
+    "核对IHR修订译名、国家联络点声明及PHEIC与大流行区别的教学深度",
+    "复核主观题参考要点是否接纳等价合理答案、是否有未教要求"
+  ],
+  "originality": "原创讲解与虚构情境；仅存链接和定位，不上传WHO原PDF或全部法源缓存"
+}
