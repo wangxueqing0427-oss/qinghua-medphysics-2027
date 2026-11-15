@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "issue8-a-original-draft",
+  "units": [
+    {
+      "id": "353-medical-ai-validation",
+      "subject": "353",
+      "version": "0.1-issue8-a",
+      "title": "MP05：医学影像AI的独立验证与安全边界",
+      "mapping": [
+        "MP05"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构案例与练习；非真题、临床批准或工程设计依据",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "已有群体健康与预防视角；本课从零解释单位、GBD及预算术语，率/比例、PH03和CROSS01可深化但不视作已掌握。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.imdrf.org/sites/default/files/2025-02/IMDRF_AIML%20WG_GMLP_N88%20Final.pdf"
+      ],
+      "definition": "医学AI需以预期用途、患者独立的评价资料、可靠参考标准和人机工作流证据评价；诊断指标不能替代放疗剂量学或患者获益验证。",
+      "explanation": "从一张胸部影像开始。输入是影像及必要背景，标签是专家或其他适用参考方法给出的目标状态，模型学习输入与标签的联系，并不自动理解疾病因果。训练集用于拟合；开发验证集用于挑选阈值和模型；锁定测试集用于最后评价。反复看测试成绩再改模型会让测试也参与选择。相同患者的多张图像必须考虑相互依赖，随机分图而不分患者容易泄漏；外院资料也要检查患者、设备、采集与时间依赖，并非换院名就保证独立。\n虚构青岚影像项目有100位患者，每人两张图。若第一张训练、第二张测试，模型可能记住患者特征；应先按患者划分，并记录来源、时间、设备与排除理由。标注分歧应由合适专家按预先方案处理，报告参考标准局限；不能以模型自身输出当真值。与CROSS01一般证据论证不同，本课要求明确图像—患者层级、阈值选择和工程验证链。\n\n独立案例：锁定阈值的辅助读片工具，在外部测试100人中参考阳性20人、阴性80人。模型阳性包含真阳性18、假阳性8，其余为假阴性2、真阴性72。先画四格表再算：敏感度18/20=90%，特异度72/80=90%，阳性预测值18/(18+8)约69.23%。三者分母不同；90%敏感度不能说90%的阳性提示都患病，也不是治疗获益。原题数字固定，不外推不同患病比例或阈值。假设亚组甲参考阳性10漏1，乙阳性10漏1，不能仅凭两组都90%就证明公平，阴性误报、样本量、病谱、可及性和不确定性仍需检查。统计区间和正式样本量设计在此留作后续。\n\n从诊断走到工程安全。若改成放疗轮廓生成，敏感度高不意味着靶区、危及器官边界或剂量分布安全；需要对应任务的轮廓、剂量学、人机复核和失败处置证据，不能套用胸片四格表宣布获批。部署前明确允许人群、输入设备、人工复核与拒用条件；部署后监测漂移，软件更新重新验证。只收必要数据，分权访问、去标识化并核对重识别风险及合法用途，去掉姓名不等于完全匿名。IMDRF 2025原则为国际专业参考，不是中国自动准入或本课设备认证。\n分步书面分析示范：青岚只能说明题设100人、锁定阈值的指标；补充独立患者外部验证、标签复核、亚组误差和人机工作流，再讨论限定试用。若新设备产生输入漂移，先触发复核/暂停相关用途，不直接自动重新训练上线。实际部署决策需机构与专业人员判断；本课没有实际患者数据。",
+      "example": "独立案例：锁定阈值的辅助读片工具，在外部测试100人中参考阳性20人、阴性80人。模型阳性包含真阳性18、假阳性8，其余为假阴性2、真阴性72。先画四格表再算：敏感度18/20=90%，特异度72/80=90%，阳性预测值18/(18+8)约69.23%。三者分母不同；90%敏感度不能说90%的阳性提示都患病，也不是治疗获益。原题数字固定，不外推不同患病比例或阈值。假设亚组甲参考阳性10漏1，乙阳性10漏1，不能仅凭两组都90%就证明公平，阴性误报、样本量、病谱、可及性和不确定性仍需检查。统计区间和正式样本量设计在此留作后续。",
+      "conditions": [
+        "2027大纲仅作2028暂定依据，非最终招生确认",
+        "虚构数据用于分析训练，不是临床验证或工程建议",
+        "主观题仅参考自评，不产生自动专业分数"
+      ],
+      "misconceptions": [
+        "图像多等于患者独立",
+        "高敏感度等于高阳性预测值或剂量安全",
+        "总体平均表现证明每个亚组公平"
+      ],
+      "recall": [
+        "闭卷解释同一患者两图为何不能随意分训练测试。",
+        "重画青岚四格表，解释18/20与18/26各问什么。",
+        "为放疗轮廓工具列出三类额外证据和停止条件。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷解释同一患者两图为何不能随意分训练测试。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "重画青岚四格表，解释18/20与18/26各问什么。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "为放疗轮廓工具列出三类额外证据和停止条件。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-medical-ai-validation-g1",
+          "description": "设计独立测试",
+          "successCriteria": "能区分训练、阈值调参与锁定测试，指出患者层泄漏",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-medical-ai-validation-b1",
+            "353-medical-ai-validation-a1",
+            "353-medical-ai-validation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-medical-ai-validation-g2",
+          "description": "计算并解释诊断指标",
+          "successCriteria": "能复算敏感度并指出PPV分母与适用人群",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-medical-ai-validation-b2",
+            "353-medical-ai-validation-a2",
+            "353-medical-ai-validation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-medical-ai-validation-g3",
+          "description": "形成任务特异安全论证",
+          "successCriteria": "能将诊断指标与放疗安全区分并提出亚组、隐私和漂移限制",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-medical-ai-validation-b3",
+            "353-medical-ai-validation-a3",
+            "353-medical-ai-validation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部核查，非独立专业审定",
+        "scope": "入门与材料应用，尚不完整",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "青岚项目每人两张片，哪种测试设计更可靠？",
+          "options": [
+            "随机把同一人的两片分到训练和测试",
+            "先按患者划分并核查机构、采集和时间依赖",
+            "用测试成绩不断选阈值后称完全独立"
+          ],
+          "answer": 1,
+          "explanation": "B控制患者层泄漏并核查其他依赖；A同一人的信息可能重复，C把测试用于选择后破坏独立评价。",
+          "id": "353-medical-ai-validation-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "青岚真阳性18、假阴性2，敏感度分母是什么？",
+          "options": [
+            "所有模型阳性26人",
+            "参考阳性的20人",
+            "全体100人"
+          ],
+          "answer": 1,
+          "explanation": "敏感度问参考阳性中检出多少，因此18/(18+2)；26是PPV的分母，100对应其他总体指标。",
+          "id": "353-medical-ai-validation-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "青岚辅助读片敏感度90%，能否据此批准放疗自动轮廓？",
+          "answer": 1,
+          "explanation": "读片检出指标不等于放疗任务的安全证据；应有任务特异的轮廓/剂量与人机复核，不能由90%或影像数量直接批准。",
+          "id": "353-medical-ai-validation-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "gmlp"
+          ],
+          "options": [
+            "能，所有AI指标可通用",
+            "不能，需任务特异的轮廓、剂量及人机证据",
+            "只需增加影像张数即可"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "青岚100人每人两片；开发者分片训练测试，再以测试选择阈值。请写最小纠正方案。",
+          "answer": "先按患者划分并核查机构/时间/采集依赖；开发验证集调阈值，锁定测试不再参与选择；复核标签和目标人群，报告局限。",
+          "rubric": [
+            "指出患者信息泄漏",
+            "将调阈值与锁定测试分离",
+            "说明标签或设备依赖",
+            "不宣称仅换划分即临床安全"
+          ],
+          "explanation": "接受等价分层或独立验证方案；不强制某固定切分比例，不以关键词自动判分。",
+          "id": "353-medical-ai-validation-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "青岚参考阳性20、检出18，敏感度为多少%？",
+          "answer": 90,
+          "unit": "%",
+          "tolerance": 0,
+          "explanation": "18÷20×100=90%。不是18÷26；此数只描述题设检出能力，不证明治疗效果或跨设备泛化。",
+          "id": "353-medical-ai-validation-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "青岚拟从辅助读片扩到放疗轮廓。请评价“敏感度90%足以保证放疗安全”。",
+          "answer": "不能保证；任务、参考标准与结局不同，需要轮廓和剂量学、人机复核、失败处置、独立设备人群验证；同时管理隐私、亚组和漂移。",
+          "rubric": [
+            "区分读片与放疗任务",
+            "提出轮廓或剂量学证据",
+            "提出人工复核和失败处置",
+            "说明适用人群/设备或隐私边界"
+          ],
+          "explanation": "不要求特定临床容差，本课没有依据设定统一阈值；合理同义论证接受，专业安全仍待专家审核。",
+          "id": "353-medical-ai-validation-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：新医院仅改了站点名称，但影像仍来自训练患者，能称独立外部测试吗？",
+          "options": [
+            "可以，名字不同即可",
+            "不能，仍需患者和数据来源独立性核查",
+            "病例越多必然独立"
+          ],
+          "answer": 1,
+          "explanation": "独立性由资料来源与依赖决定，不能由站点名称或图像数量保证；还应检查设备、时间及参考标签。",
+          "id": "353-medical-ai-validation-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "隔日新数据：参考阳性40人、检出32人，敏感度多少%？",
+          "answer": 80,
+          "unit": "%",
+          "tolerance": 0,
+          "explanation": "32÷40×100=80%。分母是参考阳性；不可把另一人群的该结果直接与青岚作临床优劣因果比较。",
+          "id": "353-medical-ai-validation-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日出现新扫描设备和某亚组误报增加。请写包含数据、工作流、隐私与更新控制的复核建议。",
+          "answer": "检查设备和病谱漂移、独立亚组误差与标签，评估人机配合；限制或暂停相关用途，按受控方案验证更新；最小必要数据及访问保护。",
+          "rubric": [
+            "识别漂移/亚组风险",
+            "明确人工复核或停止条件",
+            "更新后独立验证而非直接上线",
+            "保护必要数据并承认未证实临床获益"
+          ],
+          "explanation": "可提出多种合理监测与暂停策略；没有通用自动批准规则，未勾选要点不是机器认定错误。",
+          "id": "353-medical-ai-validation-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "gmlp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "353-space-air-ventilation",
+      "subject": "353",
+      "version": "0.1-issue8-a",
+      "title": "MP06：空间、通风与暴露的数量分析",
+      "mapping": [
+        "MP06"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构案例与练习；非真题、临床批准或工程设计依据",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "已有群体健康与预防视角；本课从零解释单位、GBD及预算术语，率/比例、PH03和CROSS01可深化但不视作已掌握。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/niosh/ventilation/about/"
+      ],
+      "definition": "环境干预应区分污染源、传播路径、个体暴露；充分混合稳态模型只给定条件下的浓度增量，不能直接给出个人剂量或感染概率。",
+      "explanation": "先分清量。房间体积V用m³，室外空气体积流量Q用m³/h，换气次数n=Q/V用h⁻¹。通风口风速乘有效面积可估流量但要核对测量条件；循环送风不全是室外风。窗开着不说明各时刻风量稳定。空间布局可能改变近场气流、死角和人群停留；同样Q不保证每个位置相同暴露。\n虚构柳湾教室V=150m³，题给稳定室外风Q=300m³/h，n=300/150=2h⁻¹；若Q为600，n=4h⁻¹。这里数字是练习输入，不是合格标准或感染控制阈值。室外污染上升时，增加室外风并不对所有污染物必然更好，需要识别污染源、过滤对象及现场条件。\n\n用守恒推导，不背无条件公式。假设室内充分混合、定常、单一恒定源G、进排流量Q平衡、背景Cin恒定、无沉积/反应/其他去除，则G+Q·Cin−Q·C=0，因此ΔC=C−Cin=G/Q。G为mg/h，Q为m³/h，结果mg/m³。柳湾另设非感染性示踪污染物源G=60mg/h，Cin=0.10mg/m³，Q=300，则ΔC=0.20，C=0.30mg/m³；Q升600且其他假设不变，ΔC=0.10、C=0.20。说明浓度减半的是增量，不是总浓度。没有吸入率和停留时间，不能算个人吸入质量；没有病原活性与剂量反应，更不能算感染概率。模型为本课独立质量守恒推导，未冒称WHO给定算例。\n\n干预先找源和路径。减排、隔离污染源、组织人流、适当稀释和适用净化可组合；颗粒过滤的效率与风量决定其对特定颗粒的去除，不可当成所有气体净化。隔板可能挡飞沫，也可能改变气流，不能保证所有座位获益；近场和未稳态条件需要更合适评价。\n柳湾计划只放隔板并宣称零风险，应改为：核查污染物、人员密度、室外条件和实际送排风，选与污染物匹配的干预，关注弱势人群与可用性，复测代表位置和时间。CDC/NIOSH页面讨论呼吸道气溶胶和等效洁净空气；其等效通风不替代适用规范的最低室外风要求。本课不指定建筑统一换气标准、不作临床或工程验收。延迟练习换体积与源强，必须再次说明假设。\n\n再做一个单位检查：若Q写成5m³/min，先乘60得到300m³/h再与60mg/h配合；直接60/5会错成12mg/m³。对照上例，风量加倍后的总浓度0.20相对0.30仅减少约三分之一，而不是一半。错因应分别记录单位未换算、忘加背景和把浓度当风险，复习时用新数字检查是否真正纠正。",
+      "example": "用守恒推导，不背无条件公式。假设室内充分混合、定常、单一恒定源G、进排流量Q平衡、背景Cin恒定、无沉积/反应/其他去除，则G+Q·Cin−Q·C=0，因此ΔC=C−Cin=G/Q。G为mg/h，Q为m³/h，结果mg/m³。柳湾另设非感染性示踪污染物源G=60mg/h，Cin=0.10mg/m³，Q=300，则ΔC=0.20，C=0.30mg/m³；Q升600且其他假设不变，ΔC=0.10、C=0.20。说明浓度减半的是增量，不是总浓度。没有吸入率和停留时间，不能算个人吸入质量；没有病原活性与剂量反应，更不能算感染概率。模型为本课独立质量守恒推导，未冒称WHO给定算例。",
+      "conditions": [
+        "2027大纲仅作2028暂定依据，非最终招生确认",
+        "虚构数据用于分析训练，不是临床验证或工程建议",
+        "主观题仅参考自评，不产生自动专业分数"
+      ],
+      "misconceptions": [
+        "总循环风量等于室外稀释风量",
+        "稳态充分混合适用于所有位置和时刻",
+        "颗粒过滤可无条件去除气体"
+      ],
+      "recall": [
+        "闭卷写出Q、V、n单位及柳湾2h⁻¹的计算。",
+        "推导G+QCin−QC=0并求总浓度0.30mg/m³。",
+        "为什么隔板或过滤器不能保证所有污染物零风险？"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷写出Q、V、n单位及柳湾2h⁻¹的计算。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "推导G+QCin−QC=0并求总浓度0.30mg/m³。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "为什么隔板或过滤器不能保证所有污染物零风险？"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-space-air-ventilation-g1",
+          "description": "区分体积流量与换气次数",
+          "successCriteria": "能用一致单位算Q/V并区分室外风和总循环风",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-space-air-ventilation-b1",
+            "353-space-air-ventilation-a1",
+            "353-space-air-ventilation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-space-air-ventilation-g2",
+          "description": "推导并应用稳态守恒",
+          "successCriteria": "能计算G/Q及总浓度，解释假设和单位",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-space-air-ventilation-b2",
+            "353-space-air-ventilation-a2",
+            "353-space-air-ventilation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-space-air-ventilation-g3",
+          "description": "比较环境干预与暴露边界",
+          "successCriteria": "能区分颗粒/气体、近场/均匀、浓度/剂量与风险",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-space-air-ventilation-b3",
+            "353-space-air-ventilation-a3",
+            "353-space-air-ventilation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部核查，非独立专业审定",
+        "scope": "入门与材料应用，尚不完整",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "柳湾房间150m³，室外风300m³/h，Q/V的单位是什么？",
+          "options": [
+            "m³",
+            "h⁻¹",
+            "mg/m³"
+          ],
+          "answer": 1,
+          "explanation": "体积流量除体积留下每小时，表示名义换气次数；不是污染浓度，也不证明实际混合均匀。",
+          "id": "353-space-air-ventilation-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "稳态无其他去除模型ΔC=G/Q，哪个假设不可省？",
+          "options": [
+            "允许未知反应但公式总不变",
+            "恒定源、平衡流量及充分混合",
+            "室外背景必为零"
+          ],
+          "answer": 1,
+          "explanation": "B属于推导条件；背景可为非零但必须给定且稳定，额外去除会改变平衡方程。",
+          "id": "353-space-air-ventilation-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "柳湾颗粒过滤器可以无条件消除所有气态污染物吗？",
+          "answer": 1,
+          "explanation": "颗粒去除不等于气体去除，且浓度、个人剂量和风险不同；应核查源、介质、空间与适用净化方式，不能保证零风险。",
+          "id": "353-space-air-ventilation-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "ventilation"
+          ],
+          "options": [
+            "可以，空气净化都一样",
+            "不能，需污染物与去除机制匹配",
+            "只看房间体积即可决定"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "请区分柳湾总循环送风与室外稀释风，并解释2h⁻¹为什么不是所有位置安全的证据。",
+          "answer": "总送风可能含回风；Q需按题设室外风核实。Q/V不代表局部流场、源强、人员密度和停留时间；需现场测量和污染物评价。",
+          "rubric": [
+            "区分回风与室外风",
+            "正确描述Q/V单位",
+            "指出近场或混合限制",
+            "不把练习值当规范"
+          ],
+          "explanation": "接受不同测量与现场核查方案；不要求未教授的流体仿真公式或建筑容差。",
+          "id": "353-space-air-ventilation-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "柳湾题设G=60mg/h、Q=300m³/h、Cin=0.10mg/m³，充分混合稳态且无其他去除，总浓度多少mg/m³？",
+          "answer": 0.3,
+          "unit": "mg/m³",
+          "tolerance": 0,
+          "explanation": "先算ΔC=60/300=0.20mg/m³，再加背景0.10得C=0.30。输入数字只有练习意义，不对应健康限值。",
+          "id": "353-space-air-ventilation-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "有人建议柳湾只加隔板和颗粒过滤就能对所有气体和感染实现零风险。请依据路径和模型纠正。",
+          "answer": "隔板可改变气流不能普遍保证；颗粒过滤不等于气体去除，应识别源、污染物和暴露条件，组合减排/合适通风净化并现场复测；不推断感染概率。",
+          "rubric": [
+            "区分颗粒与气体",
+            "说明隔板和气流的条件性",
+            "提出源与路径组合干预",
+            "不从浓度直接给感染概率或零风险"
+          ],
+          "explanation": "无需指定滤网等级或换气统一阈值，实际建筑和医疗环境仍需专业评价。",
+          "id": "353-space-air-ventilation-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：风量加倍但室外背景不变，稳态模型下哪项一定成立于题设？",
+          "options": [
+            "总浓度必减半",
+            "源增量G/Q减半，总浓度未必减半",
+            "感染概率必减半"
+          ],
+          "answer": 1,
+          "explanation": "只在源与模型条件保持时增量减半，背景加回后总量不同；感染概率还需要未给模型。",
+          "id": "353-space-air-ventilation-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "隔日新房间G=90mg/h、Q=300m³/h、Cin=0.20mg/m³，在同样稳态条件下总浓度多少mg/m³？",
+          "answer": 0.5,
+          "unit": "mg/m³",
+          "tolerance": 0,
+          "explanation": "90/300=0.30增量，加0.20背景=0.50mg/m³。再次核对单位；这是模拟守恒练习，不是监测实测。",
+          "id": "353-space-air-ventilation-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日：新教室人员增多、气流分层，老师用上一间的0.30mg/m³断言每人吸入剂量相同。请作条件性评价。",
+          "answer": "原模型和房间条件不同，不能套值；浓度非吸入剂量，需停留时间、吸入率及空间差异。核实源强、室外风、背景和布局，采用合适评估与干预。",
+          "rubric": [
+            "指出原房间值不可迁移",
+            "指出不充分混合/近场限制",
+            "区分浓度与吸入剂量",
+            "提出可执行核查而非风险保证"
+          ],
+          "explanation": "接受合理论证；未给个体呼吸量与时间不能虚构剂量，独立专业审定仍待完成。",
+          "id": "353-space-air-ventilation-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "ventilation"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "issue": 8,
+  "batch": "A",
+  "date": "2026-11-15",
+  "baseline": "f276e1e7690f15be022ea2e282411d8f3bbc7367",
+  "expertApprovals": 0,
+  "scope2028": "provisional",
+  "skills": [
+    "qinghua-syllabus-mapping",
+    "qinghua-course-authoring",
+    "qinghua-content-audit",
+    "qinghua-question-validation",
+    "qinghua-learning-loop",
+    "qinghua-release-safety"
+  ],
+  "skillsExecution": "explicit reading; reuse candidate engine and incremental tests; no historical mutating workflow rerun",
+  "sources": [
+    {
+      "id": "outline",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "published": "2026-09-30",
+      "applicableYear": 2027,
+      "actualRead": "specified-body",
+      "locator": "第三部分末段/网页行202—208",
+      "supports": "医学物理与公共卫生AI、环境因素的基础材料分析",
+      "notSupported": "2028最终范围、权重、临床/工程实施标准"
+    },
+    {
+      "id": "gmlp",
+      "url": "https://www.imdrf.org/sites/default/files/2025-02/IMDRF_AIML%20WG_GMLP_N88%20Final.pdf",
+      "publisher": "IMDRF",
+      "title": "Good machine learning practice for medical device development: Guiding principles",
+      "version": "N88 FINAL:2025",
+      "published": "2025-01-27",
+      "actualRead": "specified-body",
+      "locator": "印刷页6—8 / PDF索引5—7；原则1—10文本；未核查页面图像",
+      "supports": "用途、训练测试独立、参考标准、亚组、人机与持续监测",
+      "notSupported": "中国准入、通用临床阈值、青岚虚构数据或所有AI算法证明"
+    },
+    {
+      "id": "ventilation",
+      "url": "https://www.cdc.gov/niosh/ventilation/about/",
+      "publisher": "CDC/NIOSH",
+      "title": "Ventilation and Respiratory Viruses",
+      "published": "2024-10-09",
+      "updated": "2026-10-28",
+      "actualRead": "specified-body",
+      "locator": "Why it is important / Terms to know，网页行26—52、64—69",
+      "supports": "气溶胶、稀释、等效通风和场景适用限制",
+      "notSupported": "G/Q原文公式、统一ACH阈值、气体过滤规范；守恒为本课单独推导"
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://iris.who.int/server/api/core/bitstreams/24c939b5-25b8-4159-a279-6aaff0985b6c/content",
+      "status": 403,
+      "actualRead": "not-obtained",
+      "effect": "WHO报告全文不作为已读证据"
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/ventilation/prevention/air-changes-per-hour.html",
+      "status": 404,
+      "actualRead": "not-obtained",
+      "effect": "Q/V为单位定义与本课推导，不伪称该页支持"
+    }
+  ],
+  "units": [
+    {
+      "id": "353-medical-ai-validation",
+      "version": "0.1-issue8-a",
+      "hash": "b1ed70ff4e63c1b5e0846dbe640ff4920f979c9709b5cab89674682fbbd11139",
+      "mapping": [
+        "MP05"
+      ],
+      "scope": "partial introductory draft, not expert-approved",
+      "independentSolutions": [
+        {
+          "id": "353-medical-ai-validation-b1",
+          "answer": 1,
+          "reason": "B控制患者层泄漏并核查其他依赖；A同一人的信息可能重复，C把测试用于选择后破坏独立评价。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-b2",
+          "answer": 1,
+          "reason": "敏感度问参考阳性中检出多少，因此18/(18+2)；26是PPV的分母，100对应其他总体指标。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-b3",
+          "answer": 1,
+          "reason": "读片检出指标不等于放疗任务的安全证据；应有任务特异的轮廓/剂量与人机复核，不能由90%或影像数量直接批准。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-a1",
+          "answer": "先按患者划分并核查机构/时间/采集依赖；开发验证集调阈值，锁定测试不再参与选择；复核标签和目标人群，报告局限。",
+          "reason": "接受等价分层或独立验证方案；不强制某固定切分比例，不以关键词自动判分。",
+          "rubric": [
+            "指出患者信息泄漏",
+            "将调阈值与锁定测试分离",
+            "说明标签或设备依赖",
+            "不宣称仅换划分即临床安全"
+          ],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-a2",
+          "answer": 90,
+          "reason": "18÷20×100=90%。不是18÷26；此数只描述题设检出能力，不证明治疗效果或跨设备泛化。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-a3",
+          "answer": "不能保证；任务、参考标准与结局不同，需要轮廓和剂量学、人机复核、失败处置、独立设备人群验证；同时管理隐私、亚组和漂移。",
+          "reason": "不要求特定临床容差，本课没有依据设定统一阈值；合理同义论证接受，专业安全仍待专家审核。",
+          "rubric": [
+            "区分读片与放疗任务",
+            "提出轮廓或剂量学证据",
+            "提出人工复核和失败处置",
+            "说明适用人群/设备或隐私边界"
+          ],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-d1",
+          "answer": 1,
+          "reason": "独立性由资料来源与依赖决定，不能由站点名称或图像数量保证；还应检查设备、时间及参考标签。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-d2",
+          "answer": 80,
+          "reason": "32÷40×100=80%。分母是参考阳性；不可把另一人群的该结果直接与青岚作临床优劣因果比较。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-medical-ai-validation-d3",
+          "answer": "检查设备和病谱漂移、独立亚组误差与标签，评估人机配合；限制或暂停相关用途，按受控方案验证更新；最小必要数据及访问保护。",
+          "reason": "可提出多种合理监测与暂停策略；没有通用自动批准规则，未勾选要点不是机器认定错误。",
+          "rubric": [
+            "识别漂移/亚组风险",
+            "明确人工复核或停止条件",
+            "更新后独立验证而非直接上线",
+            "保护必要数据并承认未证实临床获益"
+          ],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        }
+      ]
+    },
+    {
+      "id": "353-space-air-ventilation",
+      "version": "0.1-issue8-a",
+      "hash": "5d9c86919feb3959a516a1ef3016073bdc497f4adb32192900fa7e9dee8b1730",
+      "mapping": [
+        "MP06"
+      ],
+      "scope": "partial introductory draft, not expert-approved",
+      "independentSolutions": [
+        {
+          "id": "353-space-air-ventilation-b1",
+          "answer": 1,
+          "reason": "体积流量除体积留下每小时，表示名义换气次数；不是污染浓度，也不证明实际混合均匀。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-b2",
+          "answer": 1,
+          "reason": "B属于推导条件；背景可为非零但必须给定且稳定，额外去除会改变平衡方程。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-b3",
+          "answer": 1,
+          "reason": "颗粒去除不等于气体去除，且浓度、个人剂量和风险不同；应核查源、介质、空间与适用净化方式，不能保证零风险。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-a1",
+          "answer": "总送风可能含回风；Q需按题设室外风核实。Q/V不代表局部流场、源强、人员密度和停留时间；需现场测量和污染物评价。",
+          "reason": "接受不同测量与现场核查方案；不要求未教授的流体仿真公式或建筑容差。",
+          "rubric": [
+            "区分回风与室外风",
+            "正确描述Q/V单位",
+            "指出近场或混合限制",
+            "不把练习值当规范"
+          ],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-a2",
+          "answer": 0.3,
+          "reason": "先算ΔC=60/300=0.20mg/m³，再加背景0.10得C=0.30。输入数字只有练习意义，不对应健康限值。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-a3",
+          "answer": "隔板可改变气流不能普遍保证；颗粒过滤不等于气体去除，应识别源、污染物和暴露条件，组合减排/合适通风净化并现场复测；不推断感染概率。",
+          "reason": "无需指定滤网等级或换气统一阈值，实际建筑和医疗环境仍需专业评价。",
+          "rubric": [
+            "区分颗粒与气体",
+            "说明隔板和气流的条件性",
+            "提出源与路径组合干预",
+            "不从浓度直接给感染概率或零风险"
+          ],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-d1",
+          "answer": 1,
+          "reason": "只在源与模型条件保持时增量减半，背景加回后总量不同；感染概率还需要未给模型。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-d2",
+          "answer": 0.5,
+          "reason": "90/300=0.30增量，加0.20背景=0.50mg/m³。再次核对单位；这是模拟守恒练习，不是监测实测。",
+          "rubric": [],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        },
+        {
+          "id": "353-space-air-ventilation-d3",
+          "answer": "原模型和房间条件不同，不能套值；浓度非吸入剂量，需停留时间、吸入率及空间差异。核实源强、室外风、背景和布局，采用合适评估与干预。",
+          "reason": "接受合理论证；未给个体呼吸量与时间不能虚构剂量，独立专业审定仍待完成。",
+          "rubric": [
+            "指出原房间值不可迁移",
+            "指出不充分混合/近场限制",
+            "区分浓度与吸入剂量",
+            "提出可执行核查而非风险保证"
+          ],
+          "status": "AI internal independent arithmetic/logic check; not expert review"
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "MP05样本量、统计区间、实际轮廓与剂量学需专业评价",
+    "MP06现场测量、近场、建筑/医疗规范未完整覆盖",
+    "全科考试能力未由本批证明"
+  ],
+  "firstFailures": [
+    {
+      "type": "build",
+      "cause": "scaffold changed upstream assertion683 to701",
+      "fix": "upstream restored683; output701 stays guarded"
+    },
+    {
+      "type": "content",
+      "cause": "MP06 explanation failed900-character completeness floor",
+      "fix": "added necessary minute/hour conversion, background and error-remediation example; threshold not reduced"
+    },
+    {
+      "type": "environment",
+      "cause": "Windows absolute-path node test glob EPERM",
+      "fix": "run same tests with relative filename in isolated folder"
+    }
+  ]
+}

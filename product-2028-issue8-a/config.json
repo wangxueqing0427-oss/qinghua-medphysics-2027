@@ -1,0 +1,10 @@
+{
+  "repository": "wangxueqing0427-oss/qinghua-medphysics-2027",
+  "workflowPath": ".github/workflows/2028-issue8-a.yml",
+  "verifyJobName": "Verify ISSUE8 A candidate",
+  "previewBranches": [
+    "candidate/2026-11-15-issue8-a"
+  ],
+  "project": "qh2028-core47-preview",
+  "productionAllowed": false
+}
