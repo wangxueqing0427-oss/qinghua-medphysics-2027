@@ -1,0 +1,28 @@
+{
+  "firstCI": 43726665047,
+  "sha": "008bb67f1f3d44738c32d229ea4f939ee032b18c",
+  "targetedTests": "7/7 passed",
+  "chromium": "failed at teaching text immediate read",
+  "webkit": "7 flow groups passed",
+  "rootCause": "Missing visible teaching render wait after asynchronous navigation",
+  "fix": "Wait for actual definition text, retain identical includes assertion",
+  "productionTouched": false,
+  "assertionsRemoved": false,
+  "otherFailures": [
+    {
+      "type": "build",
+      "cause": "scaffold changed upstream assertion683 to701",
+      "fix": "upstream restored683; output701 stays guarded"
+    },
+    {
+      "type": "content",
+      "cause": "MP06 explanation failed900-character completeness floor",
+      "fix": "added necessary minute/hour conversion, background and error-remediation example; threshold not reduced"
+    },
+    {
+      "type": "environment",
+      "cause": "Windows absolute-path node test glob EPERM",
+      "fix": "run same tests with relative filename in isolated folder"
+    }
+  ]
+}
