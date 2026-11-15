@@ -1,0 +1,12 @@
+{
+  "baseline": "fa408e351c196a6171998d28847d353aefb44833",
+  "risk": "diagnostic input not saved until navigation in original C",
+  "baselineBrowserReproduction": "results/browser-attempt-3.json: original C failed bounded observed-profile predicate before any navigation",
+  "earlierHarnessObservation": "results/browser-attempt-1.json retained: missing explicit stored-answer assertion delayed detection until reopen; strengthened polling awaits browser IndexedDB result and explicit raw equality",
+  "repair": "candidate-only synchronous scoped journal, ordered debounced profile writer, revisions, visible failure/timeout and retry; pre-navigation flush",
+  "candidateBrowser": "results/browser-attempt-4.json: Chromium all8 groups passed; Linux Chromium/WebKit pending CI",
+  "limits": "ordinary browser process close/restart, not guarantee of abrupt OS kill or browser storage deletion; simultaneous multi-tab editing not certified",
+  "historicalCoursesChanged": false,
+  "realDataTouched": false,
+  "expertApprovals": 0
+}

@@ -1,0 +1,23 @@
+{
+  "repository": "wangxueqing0427-oss/qinghua-medphysics-2027",
+  "workflowPath": ".github/workflows/2028-issue9-0.yml",
+  "verifyJobName": "Verify ISSUE9 batch0 candidate",
+  "previewBranches": [
+    "candidate/2026-11-15-issue9-0"
+  ],
+  "project": "qh2028-core47-preview",
+  "productionAllowed": false,
+  "priorDir": "product-2028-issue8-c",
+  "sourceBaseline": "fa408e351c196a6171998d28847d353aefb44833",
+  "priorCount": 65,
+  "priorQuestions": 728,
+  "courses": 65,
+  "questions": 728,
+  "edition": "qh2028-issue9-0-65",
+  "db": "qh2028_issue9_0_local",
+  "journal": "qh2028_issue9_0_pending:",
+  "cache": "qh2028-issue9-0-65",
+  "label": "批次0",
+  "preserveMockRaw": false,
+  "patchDiagnostic": true
+}

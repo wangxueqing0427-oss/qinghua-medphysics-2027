@@ -1,0 +1,78 @@
+name: ISSUE9 batch0 isolated CROSS01 continuation
+on:
+  push:
+    branches: [candidate/2026-11-15-issue9-0]
+    paths: [product-2028-issue9-0/**, product-2028-integration-47-upgraded/build.cjs, .github/workflows/2028-issue9-0.yml]
+permissions:
+  contents: read
+  actions: read
+  checks: read
+jobs:
+  verify:
+    name: Verify ISSUE9 batch0 candidate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      SOURCE_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Rebuild required PH03 inputs, not historical test suites
+        run: node product-2028-issue9-0/build-upstream.cjs
+      - name: Build ISSUE9 batch0 and preserve all original65 courses
+        run: node product-2028-issue9-0/build.cjs
+      - name: Content answers conditions, learning storage backup and isolation
+        run: node --test product-2028-issue9-0/test.cjs
+      - name: Actual Chromium and mobile WebKit incremental path and TCP outage
+        run: node product-2028-issue9-0/browser-all.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: issue9-0-local-${{ github.sha }}
+          path: |
+            product-2028-issue9-0/results/*.json
+            product-2028-issue9-0/results/*.png
+            product-2028-issue9-0/results/*.zip
+            product-2028-issue9-0/build-receipt.json
+          retention-days: 7
+  online:
+    name: Verify ISSUE9 batch0 HTTPS preview
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      SOURCE_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - run: node product-2028-issue9-0/build-upstream.cjs
+      - run: node product-2028-issue9-0/build.cjs
+      - name: Exact SHA HTTPS asset hashes and both real browser learning paths
+        run: node product-2028-issue9-0/online.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: issue9-0-https-${{ github.sha }}
+          path: |
+            product-2028-issue9-0/results/*.json
+            product-2028-issue9-0/results/*.png
+            product-2028-issue9-0/results/*.zip
+          retention-days: 7
