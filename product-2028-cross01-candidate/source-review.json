@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-15",
+  "baseline": "633d9096219dd77bcf34b79afab915775a6f0adf",
+  "unitId": "353-cross-disciplinary-evidence-writing",
+  "unitHash": "6660ac58b3870132e36f36fb02c7274a14bef7fa53be0ddd3e55336ddd14b21d",
+  "expertApprovals": 0,
+  "status": "internal-source-screened-pending-independent-review",
+  "sources": [
+    {
+      "id": "outline",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "title": "2027年353卫生综合考试大纲",
+      "published": "2026-09-30",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "actualRead": "specified-body",
+      "locator": "第三部分基础与交叉学科，第202—208行；辅助对照第二部分筛检与诊断试验、认识数据",
+      "supports": "材料背景、信息理解整合、逻辑与数量、科学分析、书面表达，健康数据与AI/伦理情境",
+      "limits": "2027用于2028暂定；CROSS01为内部映射，无题型分值权重或全覆盖百分比"
+    },
+    {
+      "id": "fda",
+      "publisher": "US FDA CDRH",
+      "title": "Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests",
+      "published": "2007-03-13",
+      "version": "官网2007 final guidance正文；历史非约束性统计方法参考，不是中国临床或监管规则",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda",
+      "actualRead": "specified-body",
+      "locator": "第3节敏感度/特异度、偏倚及非参考比较；第4.1—4.2节比较基准与人群；第7.1—7.2节四格表/符合评价；第8节PPV及相关定义（网页175—241、249—272、430—494、695—729行）",
+      "supports": "四格状态、分母、PPV、样本/参考标准/选择偏倚边界；非参考标签不作真实诊断性能解释",
+      "limits": "只使用所列方法内容，不采用网页中未用的其他公式或现实临床阈值；未读取付费CLSI文本；计算数字均为自编"
+    },
+    {
+      "id": "who",
+      "publisher": "WHO",
+      "title": "WHO issues first global report on AI in health and six guiding principles for its design and use",
+      "published": "2021-06-28",
+      "version": "WHO原始官方发布页，历史治理原则，非国内强制法律或模型批准",
+      "url": "https://www.who.int/news/item/28-06-2021-who-issues-first-global-report-on-ai-in-health-and-six-guiding-principles-for-its-design-and-use",
+      "actualRead": "specified-body",
+      "locator": "正文第86—108行，风险与人群适用、six principles自主、安全、透明、问责、公平及持续评价",
+      "supports": "人类控制、隐私、透明、独立适用评价、公平与问责方向",
+      "limits": "未宣称已读取整份WHO报告PDF或核验全部现行AI法规；不给特定模型合规或安全批准"
+    }
+  ],
+  "questionChecks": [
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-b1",
+      "independentSolution": "40/400只描述参加者；600人未知，单月无死亡结局，选B。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-b2",
+      "independentSolution": "问题条件为筛检阳性，分母TP+FP，选A。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-b3",
+      "independentSolution": "乙10/20=50%，标签非诊断真值，选A/C；没有患者结局和因果/显著性证据。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-b4",
+      "independentSolution": "有限论点、证据、局限和条件性结论构成论证，选C，不限定唯一组织形式。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-a1",
+      "independentSolution": "用400/1000与600未知、32/104及无长期结局反驳超范围推断；承认偏倚方向不明；建议补资料和随访。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-a2",
+      "independentSolution": "独立重算32/(32+72)*100=30.769230…，两位小数30.77%。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-a3",
+      "independentSolution": "独立重算(10/20−4/20)*100=30个百分点，非30%相对变化。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-a4",
+      "independentSolution": "40至10分钟只说明排序效率；甲乙标签漏标20/50%不证明诊断、公平或可替代；提出验证、人工复核及治理。",
+      "sourceRefs": [
+        "fda",
+        "who"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-d1",
+      "independentSolution": "只描述参加者并指出总体及结局缺口，选B。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-d2",
+      "independentSolution": "24/(24+27)*100=47.058823…，两位小数47.06%，不是柳桥的纵向改进。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-d3",
+      "independentSolution": "新院新场景需核查用途、标签与各组表现，选B；不得用改标签制造符合。",
+      "sourceRefs": [
+        "fda",
+        "outline"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    },
+    {
+      "questionId": "353-cross-disciplinary-evidence-writing-d4",
+      "independentSolution": "旧设备提速、乙院组成不同/未测仅支持有限结论；条件反例、独立验证、人工复核及隐私治理合理，不要求虚构数值。",
+      "sourceRefs": [
+        "fda",
+        "who"
+      ],
+      "limitations": "所有数字和场景自编，不是实际试验或真题。主观答案接纳同义和等价论证，未勾选仅为未确认，不计专业自动分数。"
+    }
+  ],
+  "similarityReview": {
+    "method": "Only related prior58 catalog and targeted course objects; exact new-stem comparison with prior656 handled in test.cjs, not a claim of exhaustive semantic expert review",
+    "relatedUnits": [
+      "353-public-health-prevention",
+      "353-screening-test-foundation",
+      "353-bias-control-foundation",
+      "353-random-sampling-foundation",
+      "353-evidence-systematic-review-meta-foundation"
+    ],
+    "reuse": "沿用预防、四格表与偏倚概念，不修改旧课或重复建立引擎；新课增加两套独立虚构材料及跨领域短文论证训练。相似概念是先修复用，不计新增考点覆盖率。",
+    "questionsReused": 0,
+    "reason": "既有概念可复用，但未发现可直接构成两套独立材料全文论证的现成题组；本课仅新编必要迁移题，不重复制作旧专题。"
+  },
+  "coverage": [
+    {
+      "element": "信息理解整合",
+      "status": "direct-foundation-practice",
+      "evidence": "两案例已知/未知、分母和比较基准"
+    },
+    {
+      "element": "逻辑推理与科学问题分析",
+      "status": "partial",
+      "evidence": "总体外推、选择机制、临床结局与符合标签边界；不含全部因果推断方法"
+    },
+    {
+      "element": "基本数量分析",
+      "status": "partial",
+      "evidence": "四格表、PPV及百分点，未含全部物理量或复杂推断"
+    },
+    {
+      "element": "书面表达",
+      "status": "direct-foundation-practice",
+      "evidence": "a1/a4/d4要求完整短文；参考自评非自动专业评分"
+    },
+    {
+      "element": "医学物理方向AI与数据应用",
+      "status": "partial",
+      "evidence": "影像人工复核排序的虚构离线评价，不涉及模型开发、诊断批准"
+    },
+    {
+      "element": "物理核心、测量、辐射防护、核医学、放疗、环境机制",
+      "status": "not-covered-by-this-unit",
+      "evidence": "保留既有专项课程和缺口，本单元不代替完整教学"
+    }
+  ],
+  "remaining": [
+    "2028目录考纲未确认；不推断分值或350+成绩",
+    "独立Safari/PWA后台恢复尚未证实；本轮仅浏览器自动化与合成档案",
+    "独立专业审定0；需统计与公共卫生/AI伦理专业复核应用边界",
+    "PH03、PH04及其他既有完整范围缺口继续保留；不修改V15历史56/632和18/9静态记录"
+  ],
+  "accessFailures": [],
+  "privacyCopyright": "仅原创合成数据及来源链接/定位，不上传教材、WHO报告、真实影像或用户学习数据",
+  "internalRevisions": [
+    {
+      "date": "2026-11-15",
+      "fromHash": "0b9afc04e649fe1f30230a8d5cf461a07c5844b5ae9a315603de4658ab4608c6",
+      "toHash": "6660ac58b3870132e36f36fb02c7274a14bef7fa53be0ddd3e55336ddd14b21d",
+      "fields": [
+        "a2.tolerance",
+        "d2.tolerance"
+      ],
+      "before": 0.01,
+      "after": 0.005,
+      "reason": "Adjacent hundredth (47.05 vs 47.06) was accepted under 0.01 tolerance; independent rounding-boundary test caught this. Standard answers unchanged, old courses untouched.",
+      "expertApproval": false
+    }
+  ]
+}

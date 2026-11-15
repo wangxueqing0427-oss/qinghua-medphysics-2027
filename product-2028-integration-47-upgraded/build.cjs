@@ -594,3 +594,21 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-15-ph04-emergency-ihr'){
     console.log(JSON.stringify({ph04Preview:true,sourceSHA:process.env.CF_PAGES_COMMIT_SHA,ci:proof,courses:58,questions:656,assets:r.files.length,old57Unchanged:true,production:false}));
   })().catch(e=>{console.error('PH04 preview refused:',e);process.exitCode=1;});
 }
+
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-15-cross01-evidence-writing'){
+  (async()=>{
+    assert.equal(process.env.CF_PAGES,'1','CROSS01 preview hook requires Cloudflare Pages');
+    const proof=await require('../product-2028-cross01-candidate/ci-gate.cjs').wait({sha:process.env.CF_PAGES_COMMIT_SHA,branch:process.env.CF_PAGES_BRANCH});
+    assert.equal(proof.ready,true,'No successful exact-SHA CROSS01 CI proof');
+    require('../product-2028-cross01-candidate/build-upstream.cjs');
+    require('../product-2028-cross01-candidate/build.cjs');
+    const r=require('../product-2028-cross01-candidate/build-receipt.json');
+    assert.equal(r.courses,59);assert.equal(r.questions,668);assert.equal(r.legacy58CourseContentIdentical,true);
+    assert.equal(r.formalReleaseApproved,false);assert.equal(r.independentProfessionalApprovals,0);
+    const folder=path.join(__dirname,'../product-2028-cross01-candidate/.build');
+    assert(fs.readdirSync(out).every(name=>r.files.some(f=>f.path===name)),'Unexpected public output file');
+    for(const f of r.files){assert(!f.path.includes('..')&&!path.isAbsolute(f.path));const b=fs.readFileSync(path.join(folder,f.path));assert.equal(digest(b),f.sha256,'CROSS01 preview hash drift');fs.writeFileSync(path.join(out,f.path),b);}
+    assert.deepEqual(fs.readdirSync(out).sort(),r.files.map(f=>f.path).sort(),'CROSS01 output must contain exactly the approved assets');
+    console.log(JSON.stringify({cross01Preview:true,sourceSHA:process.env.CF_PAGES_COMMIT_SHA,ci:proof,courses:59,questions:668,assets:r.files.length,old58Unchanged:true,production:false}));
+  })().catch(e=>{console.error('CROSS01 preview refused:',e);process.exitCode=1;});
+}

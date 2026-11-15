@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "cross01-2026-11-15-original-draft",
+  "units": [
+    {
+      "id": "353-cross-disciplinary-evidence-writing",
+      "subject": "353",
+      "version": "0.1-cross01",
+      "title": "CROSS01：跨学科材料理解、数量推理与书面表达",
+      "mapping": [
+        "CROSS01"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial-capability",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创柳桥社区与澄河影像两套独立虚构案例、数字与参考作答；不是清华真题、真实病例、临床建议或监管批准",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "先有群体健康与预防视角。本课重新解释四格表和写作术语；已有筛检、偏倚课可作深化，不设未学课程为已满足条件。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda",
+        "https://www.who.int/news/item/28-06-2021-who-issues-first-global-report-on-ai-in-health-and-six-guiding-principles-for-its-design-and-use"
+      ],
+      "definition": "材料推理是把给定对象、比较基准、数据和条件转换为有限且可检验的结论；书面论证须说明证据及其不能支持的扩展，不能把点估计、符合标签或流程提速冒充临床获益。",
+      "explanation": "材料作答先做三栏：已给事实、可以推出的结论、尚不能确认的内容。事实要保留对象、时间、比较方法和单位；“可能有偏倚”不是已证明偏倚方向，“结果更快”也不是已证明更健康。遇到专门知识先用题设定义，不用熟悉的术语代替论证。本课复用筛检、偏倚、预防的已有基础，但把重点移到跨学科材料组织，不要求先修复杂推断公式。\n【独立案例A：柳桥社区筛检试点，全部为虚构】某月向1000名登记居民发邀请，400人自愿参加，600人未参加。参加者中240人自报高风险、160人自报较低风险；未参加者健康状态、风险构成均未知。题设说明400名参加者均独立接受同一预先约定且适用的参考标准评价，不由筛检结果决定是否验证；为本题计算，将参考标准判定作为目标状态依据。40人有目标状态、360人无目标状态。筛检在有状态者中阳性32、阴性8，在无状态者中阳性72、阴性288。参加者获得筛检结果、必要的专业复核转介及一般健康教育；试点只记录当月流程，没有长期结局和未参加者参考状态。管理者宣传“参加者有40人有状态，故全社区患病率10%；筛检已证明降低死亡，应该立即强制全体使用”。\n逐步拆解：①分清受邀1000、实际400与参考状态40的分母，400/1000=40%是参与比例，40/400=10%只描述本题参加者。②自愿参加与未参加信息缺失使总体外推受限；高风险人数多不能证明偏倚方向或大小，必须补充受邀总体与未参加资料。③筛检寻找需进一步评价的人，不能把阳性直接诊断；健康教育和筛检可在同一项目并存，但预防层级应按各自目标和疾病阶段判断。④仅有本月流程不能证明降低死亡或净获益；还要考虑漏检、误报、进一步检查负担、可及性及随访。\n\n【案例A的数量分析】先在纸上排四格表，行是筛检阳性/阴性，列是参考有/无目标状态。真阳性TP=32、假阴性FN=8、假阳性FP=72、真阴性TN=288，单位都是人；总和400，与材料核对。敏感度在“参考有状态”40人中看筛检阳性，32/(32+8)=80%；特异度在“参考无状态”360人中看阴性，288/(72+288)=80%。阳性预测值PPV在“筛检阳性”104人中看参考有状态，32/(32+72)≈30.77%。问谁就先定分母，不能看到32就任意除以40、104或400。比例乘100用百分数报告；两个百分数直接相减得到百分点，不等于相对变化百分比。\n反例与边界：80%的敏感度不等于每个阳性者有80%的目标状态概率，也不证明降低了80%的死亡。更不能把筛检阴性当作保证健康。本题已给所有参加者独立参考评价，现实若只验证筛检阳性者，就不能按同样完整表无条件计算和外推；参考标准本身也需说明适用性与误差。换一个独立延迟练习，若题设有TP=24、FN=6、FP=27、TN=243，总人数300，则PPV=24/51≈47.06%。这是新材料的计算结果，不是上一社区的追踪结果，不能把它的差异都归因为筛检工具改善。实际试验估计还应考虑抽样误差、适用人群和阈值，点估计不是永恒性能。\n\n【独立案例B：澄河影像复核排序AI，全部为虚构】与案例A没有共同居民、设备或结局。医院只用去标识化的离线历史影像测试一个“优先人工复核”排序工具，不让模型直接诊断或决定治疗。按设备来源分甲、乙两组，各100例。两名复核者预先按同一规则独立作“需优先/不需优先”标签，分歧再讨论；标签未验证为诊断金标准，也可能有误。甲组标签需优先20例，其中模型标出16、未标出4；标签不需优先80例中，模型仍标出10、未标出70。乙组标签需优先20例中标出10、未标出10；标签不需优先80例中标出8、未标出72。报告只给总体结果并称：排序步骤从40分钟降至10分钟，因此模型已安全、公平且能取代人工。患者等待、健康结局、部署后表现及其他医院数据均未记录。\n先把比较基准说清：这里是模型与复核标签的符合情况，不把标签自动当疾病真值。甲组标签需优先者未被模型标出的比例=4/20=20%，乙组=10/20=50%，乙比甲高30个百分点（50%−20%），不是高30%相对变化。总体标签需优先40例、被标出26例，26/40=65%会掩盖组间差异；它是对该标签的检出符合比例，不在此直接称临床敏感度。组间差异不能仅凭这200例断言由设备、年龄或歧视造成，也不能声称有统计显著性。复核标签的可靠性、两组病例构成、模型训练来源和新场景适用性都要核查。40到10分钟只支持该离线排序步骤用时减少，不等于完整诊疗时间或健康结局改善。\n\n【把案例写成完整短文】用“有限结论—具体证据—局限/反例—有条件的建议”组织，不是罗列术语。案例A示范：当前数据能描述参加者的筛检表现，但不足以证明全社区风险或死亡获益；因为仅400人参加，600人状态未知，且没有长期结局。阳性104人中参考有状态32人，PPV约30.77%，说明阳性仍需适当复核而非直接诊断。应补充未参加者特征、合理取样和随访，评价收益与误报、漏检及可及性，再决定是否扩大项目，而非仅用参加者比例支持强制使用。可用其他合理组织方式，只要事实、推理和条件对应。\n案例B示范：现有离线材料支持排序提速及需要进一步核查的组间符合差异，尚不支持自动替代人工或保证公平。证据是40降至10分钟，而标签需优先者漏标比例甲20%、乙50%；标签不是已验证诊断真值，且未记录真实患者结局。应在独立新场景核查标签和性能，设置人工复核、错误申诉和持续监测，按适用法律处理隐私与数据使用问题；去标识化本身不等于所有隐私风险归零。WHO的2021年公开原则提供自主、安全、透明、问责和公平等治理方向，不是本题的中国强制法规或某个模型批准证。对具体工具的临床安全和合规性仍需专业评价。\n闭卷练习要留下自己的论点、至少两项材料证据、一项局限及有条件结论。反馈页仅显示参考答案和可自选要点，未勾选表示未确认，不自动判定遗漏；主观题无机器专业分数。复习时换数字或换场景，检查能否重新确定分母与结论边界。本课部分涉及2027大纲第三部分的理解、数量、科学分析和书面表达；不是物理量测量、辐射防护、核医学及放疗全部课程，2028正式要求仍待核实。",
+      "example": "柳桥案例的PPV=32/(32+72)×100≈30.77%，分母是筛检阳性104人。澄河案例的标签需优先者漏标比例，乙50%减甲20%=30个百分点；两套数据独立，不混用分母，也不将后者称已验证临床敏感度。",
+      "conditions": [
+        "2027官方大纲作为2028暂定依据；2028最终要求未确认",
+        "案例A参考状态仅按题设计算；案例B非参考标签只支持明确的符合与漏标描述",
+        "所有情境与数值虚构；不确定偏倚方向，不推出因果、安全或临床批准",
+        "主观题仅参考自评；未勾选不是自动判错，无AI专业分数"
+      ],
+      "misconceptions": [
+        "把参加者分母400换成全体1000而不说明",
+        "混用敏感度、PPV、符合比例和百分点",
+        "把自愿参加或组间差异直接证明偏倚方向或原因",
+        "把速度、去标识化或自评勾选当安全保证、免责或真实掌握"
+      ],
+      "recall": [
+        "闭卷重建柳桥案例的已知与未知，解释不能推出全社区风险或死亡获益。",
+        "闭卷画四格表，说明敏感度与PPV的不同分母并重算。",
+        "闭卷重建澄河两组漏标分母与百分点，解释复核标签边界。",
+        "闭卷分别用论点、材料证据、局限和有条件建议写案例短文。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "柳桥：参加400，未知600，不能仅凭10%代表总体"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "柳桥：32/104与32/40回答不同问题"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "澄河：10/20−4/20=30个百分点，基准是复核标签"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "柳桥和澄河两段完整原创示范短文"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-cross-disciplinary-evidence-writing-g1",
+          "description": "区分材料事实与超范围推断",
+          "successCriteria": "能识别总体外推、选择机制与未测量结局，并写出完整案例A论证",
+          "teachingSectionIds": [
+            "section-1",
+            "section-4"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-cross-disciplinary-evidence-writing-b1",
+            "353-cross-disciplinary-evidence-writing-a1",
+            "353-cross-disciplinary-evidence-writing-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-g2",
+          "description": "用正确分母和单位复算筛检指标",
+          "successCriteria": "能从四格表算PPV，说明参考条件并迁移到新数字",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-cross-disciplinary-evidence-writing-b2",
+            "353-cross-disciplinary-evidence-writing-a2",
+            "353-cross-disciplinary-evidence-writing-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-g3",
+          "description": "分析AI分组表现与比较基准",
+          "successCriteria": "能计算组间漏标百分点，区分参考标签与诊断真值并解释外部验证",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-cross-disciplinary-evidence-writing-b3",
+            "353-cross-disciplinary-evidence-writing-a3",
+            "353-cross-disciplinary-evidence-writing-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-g4",
+          "description": "组织完整的证据化短文",
+          "successCriteria": "能写论点、至少两项事实、局限/反例和有条件建议，保留伦理与治理边界",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-cross-disciplinary-evidence-writing-b4",
+            "353-cross-disciplinary-evidence-writing-a4",
+            "353-cross-disciplinary-evidence-writing-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "实际独立回答与延迟题构成证据；主观待核对不冒充自动答错或持续掌握"
+      },
+      "rubric": [
+        "提出有边界论点",
+        "引用明确数据与分母",
+        "说明反例、局限或未测量结局",
+        "提出有条件改进而非保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部来源核对与独立复算；非真人专业审定",
+        "scope": "CROSS01部分能力训练，不证明全部纲目覆盖或350分能力",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "caseData": {
+        "A": {
+          "invited": 1000,
+          "participants": 400,
+          "nonparticipants": 600,
+          "tp": 32,
+          "fn": 8,
+          "fp": 72,
+          "tn": 288,
+          "referenceStandardGiven": true
+        },
+        "B": {
+          "groupA": {
+            "taggedNeed": 20,
+            "missed": 4,
+            "notNeed": 80,
+            "flaggedNotNeed": 10
+          },
+          "groupB": {
+            "taggedNeed": 20,
+            "missed": 10,
+            "notNeed": 80,
+            "flaggedNotNeed": 8
+          },
+          "beforeMinutes": 40,
+          "afterMinutes": 10,
+          "referenceStandardGiven": false
+        }
+      },
+      "basicQuestions": [
+        {
+          "id": "353-cross-disciplinary-evidence-writing-b1",
+          "type": "single",
+          "stem": "柳桥邀请1000人，仅400人参加且其中40人参考有目标状态，600人状态未知。哪项结论有材料支持？",
+          "answer": 1,
+          "explanation": "B只描述实际参加者；A外推到未知600人，C用当月流程推断死亡因果，均超出材料。需说明对象、分母及未测量内容。",
+          "difficulty": "basic",
+          "options": [
+            "全社区目标状态比例已证实为10%",
+            "参加者参考有目标状态比例为40/400=10%",
+            "试点已证明全社区死亡下降"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-b2",
+          "type": "single",
+          "stem": "题设有适用参考标准时，PPV回答“筛检阳性者中有多少参考有状态”，应选哪个分母？",
+          "answer": 0,
+          "explanation": "A分母为所有筛检阳性TP+FP；B分母TP+FN用于敏感度，C为总体比例，都不回答题目条件。定义以本题参考标准与人群为限。",
+          "difficulty": "basic",
+          "options": [
+            "TP+FP",
+            "TP+FN",
+            "所有受邀居民"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-b3",
+          "type": "multi",
+          "stem": "澄河只给模型与复核标签的离线比较。哪些表述成立？",
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A按材料为10/20；C保留标签而非诊断真值边界。B把时间变化升级成健康因果，D把小样本差异升级成显著及特定原因。",
+          "difficulty": "basic",
+          "options": [
+            "乙组标签需优先者漏标比例为50%",
+            "排序提速已证明降低死亡",
+            "复核标签不是自动等于已验证诊断金标准",
+            "两组不同已经证明设备导致显著歧视"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-b4",
+          "type": "single",
+          "stem": "以下哪种短文结构最符合本课材料论证要求？",
+          "answer": 2,
+          "explanation": "C包含论点、可定位证据、局限及条件；A没有证据链，B要求虚构资料。格式本身不算掌握，仍需写出实际内容。",
+          "difficulty": "basic",
+          "options": [
+            "罗列越多专业名词越好",
+            "补造没有给出的患者结局以增强说服力",
+            "有限结论—具体证据—局限或反例—有条件建议"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-cross-disciplinary-evidence-writing-a1",
+          "type": "subjective",
+          "stem": "柳桥当月邀请1000人，400人自愿参加，600人状态未知；参加者参考有状态40人，筛检阳性104人中32人参考有状态，无长期结局。管理者主张“全社区风险10%，已降低死亡，应强制推广”。请写完整短文，包含论点、至少两项材料证据、局限/反例和有条件结论。",
+          "answer": "现有资料只支持参加者的描述和当月筛检表现，不能证实全社区10%或死亡获益。证据是400人参加而600人状态未知，且104名阳性中32名参考有状态，PPV约30.77%；还未记录长期健康结局。自愿参加限制外推，但不能凭材料确定偏倚方向。应先补充总体及未参加者资料、随访与复核路径，比较误报漏检、负担及可及性，再审慎评估扩大项目，不能从这些材料推出强制推广合理。",
+          "explanation": "接受先列局限再论证等合理结构与同义表述，不要求背诵示范句或额外病理知识。单纯贴“选择偏倚”标签、不说明400和600的关系不等于完整论证。",
+          "difficulty": "application",
+          "rubric": [
+            "提出参加者描述不足以证明总体风险和死亡因果的论点",
+            "正确引用至少两项给定数据或未测量结局",
+            "说明选择/不应答或参考评价适用边界，不编造方向",
+            "提出合理复核、随访或总体资料改进",
+            "给出有条件结论而非强制推广保证"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-a2",
+          "type": "number",
+          "stem": "柳桥题设适用参考标准，TP32人、FN8人、FP72人、TN288人。筛检阳性者中参考有目标状态的百分比PPV是多少？填百分数数值，保留两位小数。",
+          "answer": 30.77,
+          "explanation": "PPV=32/(32+72)×100=30.7692…%，约30.77%。分母104是阳性者，不是有状态40或全部400。阳性不是直接诊断；这个样本点估计不等于全社区表现。",
+          "difficulty": "application",
+          "unit": "%",
+          "tolerance": 0.005,
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-a3",
+          "type": "number",
+          "stem": "澄河甲组标签需优先20例中漏标4例，乙组标签需优先20例中漏标10例。乙组比甲组的该漏标比例高多少个百分点？仅填数值。",
+          "answer": 30,
+          "explanation": "(10/20−4/20)×100=30个百分点。甲20%、乙50%；若算相对变化会是另一个量，不能写30%。基准为复核标签，未证明诊断真值、显著性或原因。",
+          "difficulty": "application",
+          "unit": "个百分点",
+          "tolerance": 0,
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-a4",
+          "type": "subjective",
+          "stem": "澄河离线甲、乙各100例，标签需优先各20例，漏标分别4和10例；排序步骤40分钟降至10分钟。标签尚未验证为诊断金标准，无部署后或患者结局资料。请写完整短文评价“安全公平且可取代人工”的主张，提出有边界改进。",
+          "answer": "材料支持离线排序步骤提速，以及标签需优先者漏标比例甲20%、乙50%的描述性差异，但不足以证明安全、公平或取代人工。标签并非验证金标准，两组组成、标签可靠性和新场景表现不清；没有患者结局，不能用速度证明健康获益。建议在独立人群和场景检验标签与性能、报告各组误差及不确定性，保留人工复核、纠错申诉与持续监测，并依法保护隐私和说明用途。去标识化不保证所有风险消除。",
+          "explanation": "接受其他合理治理措施，但需与材料风险对应；不要求引入具体监管阈值或证明设备造成差异。参考要点和自评不是专业自动分数。",
+          "difficulty": "application",
+          "rubric": [
+            "提出有限结论，不认定已安全公平或可取代人工",
+            "引用时间及至少一个组别数量指标作为证据",
+            "说明标签非真值、外部验证或病例构成限制",
+            "提出与风险对应的人工复核和独立验证措施",
+            "考虑透明、隐私、问责或可及性的适用边界"
+          ],
+          "sourceRefs": [
+            "fda",
+            "who"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-cross-disciplinary-evidence-writing-d1",
+          "type": "single",
+          "stem": "延迟迁移：另一虚构社区只有自愿参加者的单月筛检数据，未收集未参加者和长期结局。怎样组织结论？",
+          "answer": 1,
+          "explanation": "B维持对象与证据边界；A用人数或比例代替代表性，C用流程代替死亡结局。新场景不能自动继承柳桥的数值或方向。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "参加者再多也可直接认定总体风险相同",
+            "描述参加者结果，同时指出总体外推和长期获益未证实",
+            "已有筛检流程就可认定降低死亡"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-d2",
+          "type": "number",
+          "stem": "延迟新材料，非柳桥随访：题设独立参考标准评价300人，TP24、FN6、FP27、TN243。PPV百分数是多少？保留两位小数。",
+          "answer": 47.06,
+          "explanation": "24/(24+27)×100=47.0588…%，约47.06%。300=24+6+27+243。新材料不是前一社区同条件追踪，不能据差值宣布工具性能提升。",
+          "difficulty": "delayed-transfer",
+          "unit": "%",
+          "tolerance": 0.005,
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-d3",
+          "type": "single",
+          "stem": "延迟：澄河拟把模型用于另一医院。哪项最合理？",
+          "answer": 1,
+          "explanation": "B要求核查新用途、人群和比较基准，且不把验证当保证；A忽略外部适用性，C把人为改标签制造符合而不是独立评价。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "旧离线平均速度快，所以新院无需检验",
+            "核查用途、标签和新场景各组表现，保留人工监督并持续评价",
+            "只修改与模型不一致的标签即可证明模型更正确"
+          ],
+          "sourceRefs": [
+            "fda",
+            "outline"
+          ]
+        },
+        {
+          "id": "353-cross-disciplinary-evidence-writing-d4",
+          "type": "subjective",
+          "stem": "延迟新材料：某影像排序模型只在甲院旧设备数据上测试，工作步骤加快；乙院新设备患者组成不同，未测试，拟直接自动决定谁无需人工复核。请写一段包含论点、给定证据、反例/局限和有条件建议的短文，不虚构性能数字。",
+          "answer": "旧设备离线流程加快只支持该步骤的效率观察，不能证明新设备、新人群的安全或免于人工复核。给定证据是测试局限甲院旧数据，乙院组成不同且未验证；即便平均符合较高也可能掩盖亚组差异，比较标签还需独立核查。应明确用途、开展独立新场景与分组评价、监测错误和患者后果，保留人工复核与申诉、透明沟通及隐私保护，再有条件决定使用范围，不补造准确率或批准结论。",
+          "explanation": "反例可用“平均指标可能掩盖亚组差异”等条件性解释，不要求断言乙院一定更差。合理同义论证接受，未勾选只表示尚未确认。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "提出旧场景提速不能证明新场景安全的有限论点",
+            "准确使用旧设备、患者组成不同及未测试等至少两项事实",
+            "说明至少一个条件性反例或标签/外部适用性限制",
+            "给出独立验证与人工复核等对应建议",
+            "不虚构准确率、因果、专家批准或自动专业分数"
+          ],
+          "sourceRefs": [
+            "fda",
+            "who"
+          ]
+        }
+      ]
+    }
+  ]
+}

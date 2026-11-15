@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "scope": "new CROSS01 only",
+  "test": "two-decimal percentage answer rejects adjacent hundredth rather than accepting rounding errors",
+  "initialResult": {
+    "passed": 10,
+    "failed": 1
+  },
+  "observed": "353-cross-disciplinary-evidence-writing-d2 accepted adjacent hundredth with 0.01 tolerance",
+  "fix": "a2 and d2 tolerance 0.005; correct answers 30.77 and 47.06 unchanged; all old58 unchanged",
+  "beforeUnitHash": "0b9afc04e649fe1f30230a8d5cf461a07c5844b5ae9a315603de4658ab4608c6",
+  "afterUnitHash": "6660ac58b3870132e36f36fb02c7274a14bef7fa53be0ddd3e55336ddd14b21d",
+  "assertionsRemoved": false,
+  "expertApproval": false
+}

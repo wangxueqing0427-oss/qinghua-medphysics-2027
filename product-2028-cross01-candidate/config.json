@@ -1,0 +1,10 @@
+{
+  "repository": "wangxueqing0427-oss/qinghua-medphysics-2027",
+  "workflowPath": ".github/workflows/2028-cross01-candidate.yml",
+  "verifyJobName": "Verify CROSS01 candidate",
+  "previewBranches": [
+    "candidate/2026-11-15-cross01-evidence-writing"
+  ],
+  "project": "qh2028-core47-preview",
+  "productionAllowed": false
+}

@@ -1,0 +1,14 @@
+{
+  "date":"2026-11-15",
+  "baseline":"633d9096219dd77bcf34b79afab915775a6f0adf",
+  "logic":{"command":"node --test product-2028-cross01-candidate/test.cjs","passed":11,"failed":0,"syntheticIndexedDB":true},
+  "browser":{"engine":"Installed Edge Chromium","mobileViewport":"iPhone13","checksPassed":7,"checksFailed":0,"longSubjectiveAnswerCharacters":">1000","selfReviewSaved":true,"actualTabCloseAndReopen":true,"actualLocalTCPInterruption":true,"syntheticClockForDueTest":true,"physicalIPhone":false},
+  "initialFailure":{"file":"first-failure.json","passed":10,"failed":1,"fix":"Only new percentage questions tolerance tightened; answers and old58 unchanged; assertions retained"},
+  "old58CoursesAnd656QuestionsUnchanged":true,
+  "oldPH04SeventeenAssetsUnchanged":true,
+  "historicalSuitesRerun":false,
+  "linuxChromiumAndWebKitCI":"pending",
+  "independentProfessionalApprovals":0,
+  "actualLearningDataTouched":false,
+  "productionRelease":false
+}
