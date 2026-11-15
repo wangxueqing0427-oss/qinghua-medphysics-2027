@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "issue8-b-original-draft",
+  "units": [
+    {
+      "id": "353-surveillance-evaluation",
+      "subject": "353",
+      "version": "0.1-issue8-b",
+      "title": "EPI10：监测系统、信号与行动评价",
+      "mapping": [
+        "EPI10"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构案例与练习；非真题、临床批准或工程设计依据",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "已有群体健康与预防视角；本课从零解释单位、GBD及预算术语，率/比例、PH03和CROSS01可深化但不视作已掌握。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5013a1.htm"
+      ],
+      "definition": "疾病监测是持续收集、分析、解释和反馈以支持公共卫生行动的过程；系统表现需按目的评价，报告数不能直接当真实发病数。",
+      "explanation": "先画一条信息链：某诊所发现符合定义的病例→按约定报告→去重核实→按人群、地点、时间分析→向行动者反馈→处置并再评价。单次调查可估某时点情况，但持续监测还须有重复资料和行动反馈。被动监测依靠常规报告；主动监测由工作人员主动联系来源；哨点监测可在选定地点持续观察，不自动代表所有地区。综合征信号可更快但未必病因明确，实验室结果也需核对采样与覆盖。\n虚构竹溪系统目标是尽早识别社区事件并安排核实，不是凭一条短信确诊暴发。第一周报告50、第二周100，同时新增报告机构且病例定义放宽；只能先判断信号变化，核对报告覆盖和定义，再判断是否真实上升。与暴发调查课不同，本课评价产生信号的整个系统，不再重复计算同一暴发的罹患比例。\n\n评价先问目的，再选分母。竹溪在明确的同一地区、同一周、同一定义下，独立且题设完整的调查找到100名真实病例，其中监测捕获80名；系统同时报告100名，经核实80真病例、20非病例。病例报告层敏感度=80/100=80%；阳性预测值=80/100=80%，数值相同但一个分母是真病例、另一个是系统报告。若系统仅报告50名其中40真病例，PVP仍80%，捕获100名真实病例的敏感度却40%。不能以一项替代另一项。\n及时性也要定起止点：本课定义从识别到系统收到，100条报告中60条不超过题设2天，则及时比例60%。2天只是练习评价口径，不是中国法定时限。缺失率要注明字段与有效记录；报告量增加不必然代表完整或准确，外部核实方法本身也需可靠。\n\n系统属性有取舍：表格简单可能减轻负担；更复杂标签也许增加质量但拖慢报告。代表性关注人群地点时间分布，接受性关注参与意愿，稳定性关注持续运行，灵活性关注需求变化。它们需证据，不能由软件界面漂亮决定。竹溪若只覆盖有手机的城市就诊者，即使及时性高，也可能漏农村与未就医者；可增加适合的补充来源、反馈与培训，再评估成本、隐私和效果。\n书面答题示范：报告数翻倍是需核查的信号，先核对定义和机构变化；在题给独立调查下敏感度80%、PVP80%，60%在2天内，只支持这一口径。建议定期核查漏报和误报、完善反馈及代表性，不保证任何单一措施解决全部问题。CDC 2001评价框架是历史专业参考，不称2026中国现行法规；我国具体传染/慢病系统和法定报告时限仍列缺口，不编造当前名单。闭卷时先写系统目的与资料链，延迟题换分母检验理解。",
+      "example": "评价先问目的，再选分母。竹溪在明确的同一地区、同一周、同一定义下，独立且题设完整的调查找到100名真实病例，其中监测捕获80名；系统同时报告100名，经核实80真病例、20非病例。病例报告层敏感度=80/100=80%；阳性预测值=80/100=80%，数值相同但一个分母是真病例、另一个是系统报告。若系统仅报告50名其中40真病例，PVP仍80%，捕获100名真实病例的敏感度却40%。不能以一项替代另一项。\n及时性也要定起止点：本课定义从识别到系统收到，100条报告中60条不超过题设2天，则及时比例60%。2天只是练习评价口径，不是中国法定时限。缺失率要注明字段与有效记录；报告量增加不必然代表完整或准确，外部核实方法本身也需可靠。",
+      "conditions": [
+        "2027大纲仅作2028暂定依据，非最终招生确认",
+        "虚构数据用于分析训练，不是临床验证或工程建议",
+        "主观题仅参考自评，不产生自动专业分数"
+      ],
+      "misconceptions": [
+        "把报告增加直接当发病翻倍",
+        "混淆敏感度、PVP与报告及时性",
+        "以界面或单项属性代替系统效用"
+      ],
+      "recall": [
+        "闭卷画竹溪报告到行动反馈链。",
+        "分别解释80/100两种分母与60%及时比例。",
+        "说明城市手机覆盖的局限并提出可检验改进。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷画竹溪报告到行动反馈链。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "分别解释80/100两种分母与60%及时比例。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "说明城市手机覆盖的局限并提出可检验改进。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-surveillance-evaluation-g1",
+          "description": "描述监测资料链与信号",
+          "successCriteria": "能区分监测、调查与预警，并解释报告数变化的替代原因",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-surveillance-evaluation-b1",
+            "353-surveillance-evaluation-a1",
+            "353-surveillance-evaluation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-surveillance-evaluation-g2",
+          "description": "分别评价捕获、误报和及时性",
+          "successCriteria": "能按给定真实病例、报告病例和时间定义复算指标",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-surveillance-evaluation-b2",
+            "353-surveillance-evaluation-a2",
+            "353-surveillance-evaluation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-surveillance-evaluation-g3",
+          "description": "提出目的相符的改进",
+          "successCriteria": "能用代表性、隐私、成本与反馈证据作有限建议",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-surveillance-evaluation-b3",
+            "353-surveillance-evaluation-a3",
+            "353-surveillance-evaluation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部核查，非独立专业审定",
+        "scope": "EPI10部分入门与材料应用，未独立审定",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "竹溪报告数翻倍且增加机构、放宽定义，首先应怎样判断？",
+          "options": [
+            "已证明发病翻倍",
+            "先核对定义、覆盖和资料质量，再评价信号",
+            "软件报告均为真实病例"
+          ],
+          "answer": 1,
+          "explanation": "报告变化可能来自真实变化，也可能来自定义、覆盖或报告行为；需要核实，不能从系统计数直接得到因果结论。",
+          "id": "353-surveillance-evaluation-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "竹溪监测敏感度的分母是哪组？",
+          "options": [
+            "系统全部报告",
+            "同范围同定义下真实病例",
+            "全地区人口"
+          ],
+          "answer": 1,
+          "explanation": "病例捕获比例以真实病例为分母；报告病例是PVP的分母，人口不能直接用来评价病例捕获敏感度。",
+          "id": "353-surveillance-evaluation-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "竹溪只覆盖城市手机就诊者，最需关注什么？",
+          "options": [
+            "代表性与漏报，不仅是速度",
+            "高速度已证明全面代表",
+            "没有电子记录就排除所有人"
+          ],
+          "answer": 0,
+          "explanation": "题设人群覆盖有选择，需要核对未就诊、偏远和数字可及性；及时性高也不能自动保证代表性。",
+          "id": "353-surveillance-evaluation-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "竹溪信号变多，拟立即宣布所有社区暴发。请按资料链写核查方案。",
+          "answer": "核对定义、机构、去重、检测与就诊变化，分析人地时并安排核实和反馈，再作行动决策；信号非确诊。",
+          "rubric": [
+            "说明信号非确诊",
+            "核对定义或覆盖变化",
+            "补充核实和人地时分析",
+            "反馈到行动并保持不确定性"
+          ],
+          "explanation": "接受合理并行核实与预防建议，不要求无依据的统一法定时限或自动暴发阈值。",
+          "id": "353-surveillance-evaluation-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "竹溪独立完整调查100真实病例，监测捕获80，病例报告敏感度多少%？",
+          "answer": 80,
+          "unit": "%",
+          "tolerance": 0,
+          "explanation": "80/100×100=80%。独立完整调查是题设，不是监测系统自己证明自己，实际真病例总数往往存在估计误差。",
+          "id": "353-surveillance-evaluation-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "竹溪100条报告中60条两天内收到，只覆盖城市。请综合评价并提出两项改进。",
+          "answer": "本课及时比例60%，需保持起止点和阈值口径；城市覆盖限制代表性。可补充偏远来源和反馈培训、核实漏误报、评估隐私成本与行动效果。",
+          "rubric": [
+            "计算或引用60%及时性",
+            "说明练习2天非法定时限",
+            "指出城市覆盖限制",
+            "提出可检验改进及成本隐私边界"
+          ],
+          "explanation": "可采用多种合理方案；不能仅按改进名称机械打分，不保证加速即可控制疾病。",
+          "id": "353-surveillance-evaluation-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日某系统PVP高但病例捕获敏感度低，哪种解释可能？",
+          "options": [
+            "只报告少数很确定病例，漏掉许多真实病例",
+            "PVP高说明绝无漏报",
+            "两指标定义完全相同"
+          ],
+          "answer": 0,
+          "explanation": "严格选择报告可能让误报少却漏报多；两指标分母不同，可同升同降或有取舍，需核对系统目的。",
+          "id": "353-surveillance-evaluation-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "隔日新情境：真实病例200、系统捕获120，病例报告敏感度多少%？",
+          "answer": 60,
+          "unit": "%",
+          "tolerance": 0,
+          "explanation": "120/200×100=60%，并非用报告总数代替真实病例；这一计算不说明误报比例或对暴发检测的全部能力。",
+          "id": "353-surveillance-evaluation-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日机构拟删除较慢的农村报告源以提高及时性。请作有条件的系统评价。",
+          "answer": "可能提速但损害覆盖和代表性，先评估农村病例、漏报、行动价值及资源，探索简化和支持；不能只优化一个比例。",
+          "rubric": [
+            "识别速度与覆盖取舍",
+            "提出农村漏报或代表性证据",
+            "给出替代改进或比较方案",
+            "说明隐私成本和行动目标"
+          ],
+          "explanation": "支持保留或调整均可有理，但应说明证据、对象和条件，不按唯一政策选择给自动分。",
+          "id": "353-surveillance-evaluation-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "EPI10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "353-health-indicators-ethics",
+      "subject": "353",
+      "version": "0.1-issue8-b",
+      "title": "PH01：健康、群体指标与公共卫生伦理",
+      "mapping": [
+        "PH01"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构案例与练习；非真题、临床批准或工程设计依据",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "已有群体健康与预防视角；本课从零解释单位、GBD及预算术语，率/比例、PH03和CROSS01可深化但不视作已掌握。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.who.int/about/governance/constitution",
+        "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/26",
+        "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/1",
+        "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2977",
+        "https://www.who.int/health-topics/ethics-and-health"
+      ],
+      "definition": "健康不只是没有疾病；公共卫生以群体和有组织行动改善健康，指标与伦理均需明确对象、定义和分配影响。",
+      "explanation": "从个体到群体。医生为一个人诊治，公共卫生还问哪些人没有获得预防机会、环境和制度如何改变风险。两者可以协同，不是有了公共卫生就不需临床。WHO组织法的健康观包含身体、精神与社会状态；这是规范性理解，不是凭一次化验判定一个人完美健康。旧三级预防课已讲干预层级，本课补群体指标如何选和伦理如何推理，不重复三级预防题。\n虚构荷浦区筹划母婴项目：总人口、活产、孕产妇死亡各是不同量。若为母婴健康问题，不能只看门诊总量；还需死亡与生存、功能/生活质量、可及性和不同群体分布。指标用来回答问题，不能只选看起来最好的一项。\n\n先固定分子分母与时间。题设荷浦区某年有符合定义的孕产妇死亡2例、同年活产4000，孕产妇死亡比MMR=2/4000×100000=50/10万活产。分母不是总人口或孕产妇人数。国际定义涉及妊娠相关或加重原因及妊娠终止42天内，排除意外/偶然原因；本课题设已符合，不让学生自行诊断死因。死亡漏报、分类和小样本波动会影响比较，50不等于任一具体孕妇精确风险。\n婴儿死亡率的正式指标反映给定时期年龄别死亡条件下活到一岁前的死亡概率，常以每千活产表达，不能将任意一年的婴儿死亡数除另一年活产就冒称完整生命表估计。出生时预期寿命是按该期年龄别死亡水平推算的生命表量，不是当年死亡者年龄的简单平均，也不是个人寿命保证。完整生命表计算未在本入门教授。\n\n伦理不是背一句“对大多数好”。要问谁获益、谁承担风险、谁未被看见，信息是否充分，是否有更少侵扰的替代方案，隐私如何保护，理由和申诉如何透明。WHO伦理资料支持权利、福祉、弱势处境和资源公平的讨论，但不同法律和机构程序仍需核实，不能把这里的分析框架当中国法定审批。\n荷浦计划公开每名孕产妇姓名和病史来监督项目；公开原始身份并非评价效果所必需，可优先用适当聚合、最小必要资料、受控访问并核查小单元重识别风险。若偏远村服务不足，平均指标改善也可能掩盖差距；需分组并核查误差。书面示范：以同年活产计算50/10万，注明符合病例定义与漏报局限；结合服务可及性和群体分布评价，不由单年变化证明项目因果；披露透明的汇总结果并保护个人。合理不同政策可讨论，不能因为总量改善就无条件牺牲个体权利。",
+      "example": "先固定分子分母与时间。题设荷浦区某年有符合定义的孕产妇死亡2例、同年活产4000，孕产妇死亡比MMR=2/4000×100000=50/10万活产。分母不是总人口或孕产妇人数。国际定义涉及妊娠相关或加重原因及妊娠终止42天内，排除意外/偶然原因；本课题设已符合，不让学生自行诊断死因。死亡漏报、分类和小样本波动会影响比较，50不等于任一具体孕妇精确风险。\n婴儿死亡率的正式指标反映给定时期年龄别死亡条件下活到一岁前的死亡概率，常以每千活产表达，不能将任意一年的婴儿死亡数除另一年活产就冒称完整生命表估计。出生时预期寿命是按该期年龄别死亡水平推算的生命表量，不是当年死亡者年龄的简单平均，也不是个人寿命保证。完整生命表计算未在本入门教授。",
+      "conditions": [
+        "2027大纲仅作2028暂定依据，非最终招生确认",
+        "虚构数据用于分析训练，不是临床验证或工程建议",
+        "主观题仅参考自评，不产生自动专业分数"
+      ],
+      "misconceptions": [
+        "没有诊断等于完整健康",
+        "MMR分母是总人口或当年孕妇",
+        "群体利益可无条件覆盖个体权利"
+      ],
+      "recall": [
+        "闭卷区分个体诊疗与群体健康指标。",
+        "荷浦2/4000为何乘10万？预期寿命为何非死亡平均年龄？",
+        "为公开母婴档案提最小必要的替代方案。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷区分个体诊疗与群体健康指标。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "荷浦2/4000为何乘10万？预期寿命为何非死亡平均年龄？"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "为公开母婴档案提最小必要的替代方案。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-health-indicators-ethics-g1",
+          "description": "区分健康与公共卫生视角",
+          "successCriteria": "能解释非疾病维度并选择群体问题而非仅门诊量",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-health-indicators-ethics-b1",
+            "353-health-indicators-ethics-a1",
+            "353-health-indicators-ethics-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-indicators-ethics-g2",
+          "description": "正确使用母婴与寿命指标",
+          "successCriteria": "能计算MMR并解释同年活产、生命表与概率边界",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-health-indicators-ethics-b2",
+            "353-health-indicators-ethics-a2",
+            "353-health-indicators-ethics-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-indicators-ethics-g3",
+          "description": "组织公共卫生伦理论证",
+          "successCriteria": "能以公平、隐私与比例性核查材料并给替代方案",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-health-indicators-ethics-b3",
+            "353-health-indicators-ethics-a3",
+            "353-health-indicators-ethics-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部核查，非独立专业审定",
+        "scope": "PH01部分入门与材料应用，未独立审定",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "荷浦只有化验正常就能证明身体、精神和社会状态均完整健康吗？",
+          "options": [
+            "可以，一项结果足够",
+            "不能，健康维度与评价资料不止化验",
+            "公共卫生只关心医院营业量"
+          ],
+          "answer": 1,
+          "explanation": "单项化验不是所有健康维度的证据；健康观包含多方面，群体评价还需目的、资料和分布条件。",
+          "id": "353-health-indicators-ethics-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "PH01"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "荷浦同年2例符合定义孕产妇死亡、4000活产，MMR分母是什么？",
+          "options": [
+            "全区人口",
+            "同年活产数4000",
+            "所有就诊人次"
+          ],
+          "answer": 1,
+          "explanation": "MMR采用同一时期活产数；不能换成总人口、人次或任意另一个年份而仍用相同解释。",
+          "id": "353-health-indicators-ethics-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "PH01"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "荷浦拟公开实名病史，哪项更符合本课伦理分析？",
+          "options": [
+            "为群体好就不需隐私",
+            "先核对必要性，考虑聚合与受控访问等替代",
+            "删除所有数据以免评价"
+          ],
+          "answer": 1,
+          "explanation": "应兼顾可评价性与隐私，采用必要且较少侵扰的方法并核对规则；不是绝不使用资料，也不是不受限制公开。",
+          "id": "353-health-indicators-ethics-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "PH01"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "荷浦区只公布门诊量增加就称群体健康全面改善。请补一段评价框架。",
+          "answer": "门诊量为服务使用而非全面健康，可结合死亡/生存、功能、可及性和分组差距，核对资料质量和需求，不能据单项变化断言因果。",
+          "rubric": [
+            "区分服务量与健康结果",
+            "提出适合母婴问题的指标",
+            "关注群体分布与数据质量",
+            "不作单项因果保证"
+          ],
+          "explanation": "允许合理不同指标，不要求本课未讲的复杂寿命表公式或臆造地区数据。",
+          "id": "353-health-indicators-ethics-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "PH01"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "荷浦同年孕产妇死亡2例且符合定义、活产4000，MMR多少/10万活产？",
+          "answer": 50,
+          "unit": "/10万活产",
+          "tolerance": 0,
+          "explanation": "2/4000×100000=50/10万活产。分子定义和同年条件不可省，不能把该值当个人精确死亡概率。",
+          "id": "353-health-indicators-ethics-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "PH01"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "荷浦拟把孕产妇实名病史放网上，理由是方便监督。请提出可评价又保护权利的方案。",
+          "answer": "先说明监督目标和必要资料，优先适当汇总、受控访问与最小必要使用，评估小单元识别与弱势影响，透明解释和核对适用规则。",
+          "rubric": [
+            "说明目标与必要性",
+            "提出聚合/受控访问替代",
+            "关注弱势与重识别风险",
+            "兼顾监督效果并核对规则"
+          ],
+          "explanation": "无需背特定法律条文或认定全部资料都不能使用；合理权衡接受，不产生自动专业分。",
+          "id": "353-health-indicators-ethics-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "PH01"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日某人把当年死亡者平均年龄称出生预期寿命，哪项正确？",
+          "options": [
+            "两者永远相同",
+            "预期寿命基于年龄别死亡水平和生命表，两者不同",
+            "平均年龄能保证每个新生儿寿命"
+          ],
+          "answer": 1,
+          "explanation": "生命表推算量不等于当年死亡者简单平均，后者受年龄结构等影响；也不保证个人寿命。",
+          "id": "353-health-indicators-ethics-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "PH01"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "隔日新地区同年符合定义死亡3例、活产6000，MMR多少/10万活产？",
+          "answer": 50,
+          "unit": "/10万活产",
+          "tolerance": 0,
+          "explanation": "3/6000×100000=50/10万活产；与荷浦数值相同不意味着风险、资料质量和服务条件均相同。",
+          "id": "353-health-indicators-ethics-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "PH01"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日荷浦总体指标改善，但偏远村恶化且小样本漏报未知。如何写公平与证据边界？",
+          "answer": "总体均值可掩盖分布，核查村级可及性、漏报与不确定性；兼顾小样本隐私，必要时补资料和定向服务，不由前后变化证明因果。",
+          "rubric": [
+            "区分总体与分组",
+            "核查漏报与不确定性",
+            "保护小样本隐私",
+            "给有条件改进并不保证因果"
+          ],
+          "explanation": "总体改善不能消除偏远村恶化，且漏报未知会改变分组比较。合理方案包括核对完整性、补充可及性资料并保护小样本隐私；不要求固定政策，也不能伪造村级数量、统计显著性或因果效果。",
+          "id": "353-health-indicators-ethics-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "PH01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "353-health-promotion-behaviour",
+      "subject": "353",
+      "version": "0.1-issue8-b",
+      "title": "PH06：健康教育、行为与支持性环境",
+      "mapping": [
+        "PH06"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构案例与练习；非真题、临床批准或工程设计依据",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "已有群体健康与预防视角；本课从零解释单位、GBD及预算术语，率/比例、PH03和CROSS01可深化但不视作已掌握。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.who.int/teams/health-promotion/enhanced-wellbeing/first-global-conference",
+        "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases"
+      ],
+      "definition": "健康教育帮助理解与技能，健康促进还关注人们作选择所需的环境和资源；行为危险因素不是对个人的道德评判。",
+      "explanation": "先把“知道”和“做得到”分开。吸烟、不健康饮食、有害饮酒和缺乏身体活动可增加慢病风险；行为还受收入、工作时段、食品环境、文化和商业影响，不是只由意志决定。空气污染是环境风险，血压和血糖等是代谢风险，不能统称个人坏习惯。健康教育可用对话、技能演示和可理解资料帮助选择；健康促进进一步改善控制健康条件的能力和资源，不仅发宣传单。WHO渥太华1986资料强调促进行动与环境及多部门支持，本课不把历史宣言当现行中国法规。\n虚构松岭工厂夜班员工很少运动：调查显示他们理解建议，但下班无安全步道、休息时段不足。单独再讲一遍知识可能无效；应和员工讨论可行目标、安排休息机会与安全场地，必要时联系相关服务，而非责备“不自律”。\n\n评价干预先定对象、时间与指标。松岭原创试点邀请200人，120参加一次说明会，触达比例120/200=60%；实际持续活动行为改善不能用到场替代。另一份有明确题设的同一100人匿名配对调查，干预前30人达到本项目约定行为目标，后50人达到，变化50%−30%=20个百分点，相对基线增加20/30约66.67%。百分点和相对百分比不同。目标只是项目自定并已说明，不冒称临床推荐阈值。\n这是无对照前后观察，不能排除季节、工作量、参与者变化、报告偏差或同期措施；即使人数匹配也不能单凭前后差作因果结论。若缺访要说明分母、原因和失访群体。可规划比较、持续随访和受益分布，分清实施指标、行为指标、长期健康结果；发了多少手册不是减少了多少疾病。\n\n把方案写成可执行链：目标人群与障碍→员工参与确定目标→教育技能和环境支持组合→过程、行为与公平指标→反馈修订。松岭可试行短时可选活动、改善安全通道并提供易懂资料，评估工伤、负担、残障者可及性与夜班参与，而非强制排名公开健康记录。个体差异和行动能力需尊重；不适合的活动由本人和专业服务评价，本课不处方运动或治疗。\n参考论证：说明会60%说明触达，不是行为成功；配对样本目标达标增加20个百分点，但无对照仅支持观察变化。建议先核查未参与者障碍和资料质量，再组合参与式教育与环境支持，监测长期行为和权益；可接受不同合理组合。延迟题换邀请人数与基线，要求重新算并说明限制。错因分别记分母、百分点/百分比、过程/结局和单一归因；自评未勾选表示待核对，不由系统判定为专业错误。完整健康促进理论与全部慢病干预仍需后续扩展。",
+      "example": "评价干预先定对象、时间与指标。松岭原创试点邀请200人，120参加一次说明会，触达比例120/200=60%；实际持续活动行为改善不能用到场替代。另一份有明确题设的同一100人匿名配对调查，干预前30人达到本项目约定行为目标，后50人达到，变化50%−30%=20个百分点，相对基线增加20/30约66.67%。百分点和相对百分比不同。目标只是项目自定并已说明，不冒称临床推荐阈值。\n这是无对照前后观察，不能排除季节、工作量、参与者变化、报告偏差或同期措施；即使人数匹配也不能单凭前后差作因果结论。若缺访要说明分母、原因和失访群体。可规划比较、持续随访和受益分布，分清实施指标、行为指标、长期健康结果；发了多少手册不是减少了多少疾病。",
+      "conditions": [
+        "2027大纲仅作2028暂定依据，非最终招生确认",
+        "虚构数据用于分析训练，不是临床验证或工程建议",
+        "主观题仅参考自评，不产生自动专业分数"
+      ],
+      "misconceptions": [
+        "知道建议就一定能改变行为",
+        "到场人数等于健康改善",
+        "强制公开排名是所有情境最佳干预"
+      ],
+      "recall": [
+        "闭卷解释夜班员工知情但缺乏行动机会。",
+        "计算120/200与50%−30%，解释两种指标。",
+        "为松岭写参与式教育与环境干预和评价链。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷解释夜班员工知情但缺乏行动机会。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "计算120/200与50%−30%，解释两种指标。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "为松岭写参与式教育与环境干预和评价链。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-health-promotion-behaviour-g1",
+          "description": "区分教育与促进及行为风险",
+          "successCriteria": "能将知识、机会和环境障碍分开，不责备个人",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-health-promotion-behaviour-b1",
+            "353-health-promotion-behaviour-a1",
+            "353-health-promotion-behaviour-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-promotion-behaviour-g2",
+          "description": "选择并计算评价指标",
+          "successCriteria": "能计算触达及百分点并区分观察变化与因果",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-health-promotion-behaviour-b2",
+            "353-health-promotion-behaviour-a2",
+            "353-health-promotion-behaviour-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-promotion-behaviour-g3",
+          "description": "提出参与式组合干预",
+          "successCriteria": "能结合障碍、资源、权益和延迟评价形成条件建议",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-health-promotion-behaviour-b3",
+            "353-health-promotion-behaviour-a3",
+            "353-health-promotion-behaviour-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部核查，非独立专业审定",
+        "scope": "PH06部分入门与材料应用，未独立审定",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "松岭员工理解活动建议但没有安全场地，哪项判断合理？",
+          "options": [
+            "再次背知识就必然解决",
+            "需同时分析时间、环境与资源机会",
+            "全部是个人道德问题"
+          ],
+          "answer": 1,
+          "explanation": "健康行为受多种条件影响，教育可帮助但不能代替机会与环境支持；需与员工讨论可行方案。",
+          "id": "353-health-promotion-behaviour-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "PH06"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "说明会到场120人可以直接作为哪项证据？",
+          "options": [
+            "长期慢病已减少",
+            "一次活动触达情况",
+            "因果效果已确定"
+          ],
+          "answer": 1,
+          "explanation": "到场属于过程或触达指标，不自动代表持续行为、健康结局或干预因果效果。",
+          "id": "353-health-promotion-behaviour-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "PH06"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "松岭公开每人健康排名并强制同一活动，哪项最合理？",
+          "options": [
+            "总是最佳促进措施",
+            "应评估参与、自主、隐私、可及性与风险",
+            "健康促进从不需要任何评价"
+          ],
+          "answer": 1,
+          "explanation": "应结合人群需求、权益和支持条件设计参与式方案，不能用强制排名替代证据与合理选择。",
+          "id": "353-health-promotion-behaviour-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "PH06"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "松岭夜班工人知晓建议却难行动。请区分教育、行为障碍和促进方案。",
+          "answer": "教育补理解与技能；时间和安全场地为机会约束，可与员工参与制定可行目标，提供休息与场地支持并评价公平，不能简单责备。",
+          "rubric": [
+            "区分知识与机会",
+            "指出材料具体障碍",
+            "提出教育加环境支持",
+            "尊重参与和个体差异"
+          ],
+          "explanation": "不要求某理论缩写或处方阈值，合理可执行方案接受；不是所有场景必须采用同一措施。",
+          "id": "353-health-promotion-behaviour-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "PH06"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "松岭邀请200人，120人参加一次说明会，触达比例多少%？",
+          "answer": 60,
+          "unit": "%",
+          "tolerance": 0,
+          "explanation": "120/200×100=60%，分母为被邀请者，不代表所有工厂员工、行为持续成功或疾病风险下降。",
+          "id": "353-health-promotion-behaviour-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "PH06"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "同一100人前30后50达到项目目标，无对照。请报告变化及结论边界。",
+          "answer": "30%至50%，增20个百分点，相对基线增约66.67%；没有对照，需核对同期变化、自报、失访等，不能认定全由项目造成或疾病已减少。",
+          "rubric": [
+            "正确区分20个百分点",
+            "不把20当相对百分比",
+            "说明无对照混杂或测量偏差",
+            "区分行为和健康结局"
+          ],
+          "explanation": "写20个百分点且说明限制即可，不强求未设精度的相对值；接受合理同义分析，不自动专业评分。",
+          "id": "353-health-promotion-behaviour-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "PH06"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日项目只增加了海报数量，能否说明健康促进成功？",
+          "options": [
+            "能，投入越多结果必好",
+            "不能，仍需触达、行为、环境和权益结果",
+            "不能评价任何健康干预"
+          ],
+          "answer": 1,
+          "explanation": "海报是活动投入/产出，需与实际目标和受益情况相联系；既不保证成功，也不意味着无法评价。",
+          "id": "353-health-promotion-behaviour-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "PH06"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "隔日新项目邀请150人，90到场，其一次触达比例多少%？",
+          "answer": 60,
+          "unit": "%",
+          "tolerance": 0,
+          "explanation": "90/150×100=60%，与松岭比例相同不表示两项目长期行为或公平结果相同，仍要看对象与指标。",
+          "id": "353-health-promotion-behaviour-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "PH06"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日项目达标率提高但残障夜班工人难参与。请提出下一轮评价和调整。",
+          "answer": "分组核查可及性、未参与原因及资源，和员工协商适配方案；保留教育与支持环境，监测过程、行为和长期结局，保护隐私且不由总体变化认定因果。",
+          "rubric": [
+            "识别总体与公平缺口",
+            "参与式核查具体障碍",
+            "提出可执行适配而非强迫",
+            "区分指标、因果与隐私边界"
+          ],
+          "explanation": "无需对具体残障者开处方；合理适配和评估方案接受，实际医学适宜性由专业服务确认。",
+          "id": "353-health-promotion-behaviour-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "PH06"
+          ]
+        }
+      ]
+    }
+  ]
+}

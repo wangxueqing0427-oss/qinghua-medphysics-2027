@@ -1,0 +1,6 @@
+{
+  "test": "structure objectives sources and no exact duplicate question stems",
+  "firstResult": "7/8 passed,1 failed",
+  "cause": "PH01 delayed3 explanation omitted material-based reasoning",
+  "fix": "Added group inequality/data completeness reasoning, same answer/rubric and assertions retained"
+}

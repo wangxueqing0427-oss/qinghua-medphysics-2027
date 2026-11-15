@@ -1,0 +1,1 @@
+'use strict';const cp=require('child_process'),path=require('path');for(const u of require('./units.json').units)cp.execFileSync(process.execPath,[...process.execArgv,path.join(__dirname,'browser.cjs')],{stdio:'inherit',env:{...process.env,ISSUE8_UNIT:u.id}});

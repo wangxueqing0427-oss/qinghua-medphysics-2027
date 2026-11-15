@@ -1,0 +1,379 @@
+{
+  "issue": 8,
+  "batch": "B",
+  "baseline": "b7d3a3b03d230c80dc99086a39f71917a6261850",
+  "expertApprovals": 0,
+  "scope2028": "2027 provisional partial only",
+  "gapInspection": {
+    "priorPartial": [
+      "三级预防",
+      "暴发调查",
+      "PH05负担/分配"
+    ],
+    "newDepth": [
+      "持续监测系统评价",
+      "母婴/寿命指标与伦理",
+      "参与式健康促进和过程/结果评价"
+    ],
+    "notDuplicated": true
+  },
+  "sources": [
+    {
+      "id": "outline",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "published": "2026-09-30",
+      "actualRead": "specified-body",
+      "locator": "第一部分一/六，第二部分A十",
+      "supports": "PH01/PH06/EPI10标题要求",
+      "limits": "2028最终要求未确认"
+    },
+    {
+      "id": "EPI10",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5013a1.htm",
+      "publisher": "CDC/German et al.",
+      "title": "Updated Guidelines for Evaluating Public Health Surveillance Systems",
+      "version": "MMWR 50(RR13), 2001",
+      "actualRead": "specified-body",
+      "locator": "Tasks B,C,D；D2e敏感度、D2f PVP、D2g代表性；网页行143—267",
+      "supports": "持续系统、目的和属性、病例捕获/PVP、及时性与取舍",
+      "limits": "历史方法参考，非2026中国法律；中国系统具体名单仍待核"
+    },
+    {
+      "id": "PH01",
+      "publisher": "WHO",
+      "urls": [
+        "https://www.who.int/about/governance/constitution",
+        "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/26",
+        "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/1",
+        "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2977",
+        "https://www.who.int/health-topics/ethics-and-health"
+      ],
+      "actualRead": "specified-body",
+      "locator": "Constitution Principles网页行84—105；GHO26 Definition127—138；GHO1 Definition124—137；GHO2977 Definition130—146；Ethics Overview84—100",
+      "dates": {
+        "constitution": "1946 adopted/1948 force",
+        "otherWebPublicationDate": "not displayed; accessed2026-11-15"
+      },
+      "supports": "健康维度、MMR同年活产/42天定义、婴儿死亡概率、寿命表、伦理权益",
+      "limits": "未读取全部生命表算法；无现实地区数据和法律批准"
+    },
+    {
+      "id": "PH06",
+      "publisher": "WHO",
+      "urls": [
+        "https://www.who.int/teams/health-promotion/enhanced-wellbeing/first-global-conference",
+        "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases"
+      ],
+      "actualRead": "specified-body",
+      "locator": "Ottawa Health Promotion/Prerequisites/Enable网页行82—113；NCD Behavioural risk factors104—113",
+      "dates": {
+        "ottawa": "1986-11-21",
+        "ncd": "2025-09-25"
+      },
+      "supports": "健康促进、环境机会与行为风险、参与/公平",
+      "limits": "非运动处方、当前中国法规、所有促进理论或实际项目效果"
+    }
+  ],
+  "units": [
+    {
+      "id": "353-surveillance-evaluation",
+      "hash": "93b11b34e02640fddf569ceaa915ba0ad0d4f12c406765ad62a1446a0e2702e2",
+      "reviewStatus": "AI internal source/independent answer screening only",
+      "questions": [
+        {
+          "id": "353-surveillance-evaluation-b1",
+          "independentSolution": 1,
+          "reason": "报告变化可能来自真实变化，也可能来自定义、覆盖或报告行为；需要核实，不能从系统计数直接得到因果结论。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-b2",
+          "independentSolution": 1,
+          "reason": "病例捕获比例以真实病例为分母；报告病例是PVP的分母，人口不能直接用来评价病例捕获敏感度。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-b3",
+          "independentSolution": 0,
+          "reason": "题设人群覆盖有选择，需要核对未就诊、偏远和数字可及性；及时性高也不能自动保证代表性。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-a1",
+          "independentSolution": "核对定义、机构、去重、检测与就诊变化，分析人地时并安排核实和反馈，再作行动决策；信号非确诊。",
+          "reason": "接受合理并行核实与预防建议，不要求无依据的统一法定时限或自动暴发阈值。",
+          "rubric": [
+            "说明信号非确诊",
+            "核对定义或覆盖变化",
+            "补充核实和人地时分析",
+            "反馈到行动并保持不确定性"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-a2",
+          "independentSolution": 80,
+          "reason": "80/100×100=80%。独立完整调查是题设，不是监测系统自己证明自己，实际真病例总数往往存在估计误差。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-a3",
+          "independentSolution": "本课及时比例60%，需保持起止点和阈值口径；城市覆盖限制代表性。可补充偏远来源和反馈培训、核实漏误报、评估隐私成本与行动效果。",
+          "reason": "可采用多种合理方案；不能仅按改进名称机械打分，不保证加速即可控制疾病。",
+          "rubric": [
+            "计算或引用60%及时性",
+            "说明练习2天非法定时限",
+            "指出城市覆盖限制",
+            "提出可检验改进及成本隐私边界"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-d1",
+          "independentSolution": 0,
+          "reason": "严格选择报告可能让误报少却漏报多；两指标分母不同，可同升同降或有取舍，需核对系统目的。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-d2",
+          "independentSolution": 60,
+          "reason": "120/200×100=60%，并非用报告总数代替真实病例；这一计算不说明误报比例或对暴发检测的全部能力。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-surveillance-evaluation-d3",
+          "independentSolution": "可能提速但损害覆盖和代表性，先评估农村病例、漏报、行动价值及资源，探索简化和支持；不能只优化一个比例。",
+          "reason": "支持保留或调整均可有理，但应说明证据、对象和条件，不按唯一政策选择给自动分。",
+          "rubric": [
+            "识别速度与覆盖取舍",
+            "提出农村漏报或代表性证据",
+            "给出替代改进或比较方案",
+            "说明隐私成本和行动目标"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        }
+      ]
+    },
+    {
+      "id": "353-health-indicators-ethics",
+      "hash": "f0fd716bffab082d03111045850767c0bbc065491e8466fca983e93b01b4c9e1",
+      "reviewStatus": "AI internal source/independent answer screening only",
+      "questions": [
+        {
+          "id": "353-health-indicators-ethics-b1",
+          "independentSolution": 1,
+          "reason": "单项化验不是所有健康维度的证据；健康观包含多方面，群体评价还需目的、资料和分布条件。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-b2",
+          "independentSolution": 1,
+          "reason": "MMR采用同一时期活产数；不能换成总人口、人次或任意另一个年份而仍用相同解释。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-b3",
+          "independentSolution": 1,
+          "reason": "应兼顾可评价性与隐私，采用必要且较少侵扰的方法并核对规则；不是绝不使用资料，也不是不受限制公开。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-a1",
+          "independentSolution": "门诊量为服务使用而非全面健康，可结合死亡/生存、功能、可及性和分组差距，核对资料质量和需求，不能据单项变化断言因果。",
+          "reason": "允许合理不同指标，不要求本课未讲的复杂寿命表公式或臆造地区数据。",
+          "rubric": [
+            "区分服务量与健康结果",
+            "提出适合母婴问题的指标",
+            "关注群体分布与数据质量",
+            "不作单项因果保证"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-a2",
+          "independentSolution": 50,
+          "reason": "2/4000×100000=50/10万活产。分子定义和同年条件不可省，不能把该值当个人精确死亡概率。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-a3",
+          "independentSolution": "先说明监督目标和必要资料，优先适当汇总、受控访问与最小必要使用，评估小单元识别与弱势影响，透明解释和核对适用规则。",
+          "reason": "无需背特定法律条文或认定全部资料都不能使用；合理权衡接受，不产生自动专业分。",
+          "rubric": [
+            "说明目标与必要性",
+            "提出聚合/受控访问替代",
+            "关注弱势与重识别风险",
+            "兼顾监督效果并核对规则"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-d1",
+          "independentSolution": 1,
+          "reason": "生命表推算量不等于当年死亡者简单平均，后者受年龄结构等影响；也不保证个人寿命。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-d2",
+          "independentSolution": 50,
+          "reason": "3/6000×100000=50/10万活产；与荷浦数值相同不意味着风险、资料质量和服务条件均相同。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-indicators-ethics-d3",
+          "independentSolution": "总体均值可掩盖分布，核查村级可及性、漏报与不确定性；兼顾小样本隐私，必要时补资料和定向服务，不由前后变化证明因果。",
+          "reason": "总体改善不能消除偏远村恶化，且漏报未知会改变分组比较。合理方案包括核对完整性、补充可及性资料并保护小样本隐私；不要求固定政策，也不能伪造村级数量、统计显著性或因果效果。",
+          "rubric": [
+            "区分总体与分组",
+            "核查漏报与不确定性",
+            "保护小样本隐私",
+            "给有条件改进并不保证因果"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        }
+      ]
+    },
+    {
+      "id": "353-health-promotion-behaviour",
+      "hash": "efb3a65eee7189462aea53a07680b650081a701da619c63286dccc18a91436b6",
+      "reviewStatus": "AI internal source/independent answer screening only",
+      "questions": [
+        {
+          "id": "353-health-promotion-behaviour-b1",
+          "independentSolution": 1,
+          "reason": "健康行为受多种条件影响，教育可帮助但不能代替机会与环境支持；需与员工讨论可行方案。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-b2",
+          "independentSolution": 1,
+          "reason": "到场属于过程或触达指标，不自动代表持续行为、健康结局或干预因果效果。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-b3",
+          "independentSolution": 1,
+          "reason": "应结合人群需求、权益和支持条件设计参与式方案，不能用强制排名替代证据与合理选择。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-a1",
+          "independentSolution": "教育补理解与技能；时间和安全场地为机会约束，可与员工参与制定可行目标，提供休息与场地支持并评价公平，不能简单责备。",
+          "reason": "不要求某理论缩写或处方阈值，合理可执行方案接受；不是所有场景必须采用同一措施。",
+          "rubric": [
+            "区分知识与机会",
+            "指出材料具体障碍",
+            "提出教育加环境支持",
+            "尊重参与和个体差异"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-a2",
+          "independentSolution": 60,
+          "reason": "120/200×100=60%，分母为被邀请者，不代表所有工厂员工、行为持续成功或疾病风险下降。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-a3",
+          "independentSolution": "30%至50%，增20个百分点，相对基线增约66.67%；没有对照，需核对同期变化、自报、失访等，不能认定全由项目造成或疾病已减少。",
+          "reason": "写20个百分点且说明限制即可，不强求未设精度的相对值；接受合理同义分析，不自动专业评分。",
+          "rubric": [
+            "正确区分20个百分点",
+            "不把20当相对百分比",
+            "说明无对照混杂或测量偏差",
+            "区分行为和健康结局"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-d1",
+          "independentSolution": 1,
+          "reason": "海报是活动投入/产出，需与实际目标和受益情况相联系；既不保证成功，也不意味着无法评价。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-d2",
+          "independentSolution": 60,
+          "reason": "90/150×100=60%，与松岭比例相同不表示两项目长期行为或公平结果相同，仍要看对象与指标。",
+          "rubric": [],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        },
+        {
+          "id": "353-health-promotion-behaviour-d3",
+          "independentSolution": "分组核查可及性、未参与原因及资源，和员工协商适配方案；保留教育与支持环境，监测过程、行为和长期结局，保护隐私且不由总体变化认定因果。",
+          "reason": "无需对具体残障者开处方；合理适配和评估方案接受，实际医学适宜性由专业服务确认。",
+          "rubric": [
+            "识别总体与公平缺口",
+            "参与式核查具体障碍",
+            "提出可执行适配而非强迫",
+            "区分指标、因果与隐私边界"
+          ],
+          "ambiguity": "conditional policy responses accept equivalent reasoning; no professional automatic score"
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "中国现行监测系统与法定报告流程尚未逐项核实",
+    "完整健康指标估计/健康促进理论仍缺",
+    "独立专业审核0，真实iPhone未验收"
+  ],
+  "revisions": [
+    {
+      "id": "353-health-indicators-ethics-d3",
+      "before": {
+        "type": "subjective",
+        "stem": "隔日荷浦总体指标改善，但偏远村恶化且小样本漏报未知。如何写公平与证据边界？",
+        "answer": "总体均值可掩盖分布，核查村级可及性、漏报与不确定性；兼顾小样本隐私，必要时补资料和定向服务，不由前后变化证明因果。",
+        "rubric": [
+          "区分总体与分组",
+          "核查漏报与不确定性",
+          "保护小样本隐私",
+          "给有条件改进并不保证因果"
+        ],
+        "explanation": "可提出合理不同补充方案；不伪造村级数量或统计显著性。",
+        "id": "353-health-indicators-ethics-d3",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "PH01"
+        ]
+      },
+      "after": {
+        "type": "subjective",
+        "stem": "隔日荷浦总体指标改善，但偏远村恶化且小样本漏报未知。如何写公平与证据边界？",
+        "answer": "总体均值可掩盖分布，核查村级可及性、漏报与不确定性；兼顾小样本隐私，必要时补资料和定向服务，不由前后变化证明因果。",
+        "rubric": [
+          "区分总体与分组",
+          "核查漏报与不确定性",
+          "保护小样本隐私",
+          "给有条件改进并不保证因果"
+        ],
+        "explanation": "总体改善不能消除偏远村恶化，且漏报未知会改变分组比较。合理方案包括核对完整性、补充可及性资料并保护小样本隐私；不要求固定政策，也不能伪造村级数量、统计显著性或因果效果。",
+        "id": "353-health-indicators-ethics-d3",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "PH01"
+        ]
+      },
+      "reason": "First local test: explanation too short to show material-to-reasoning link; supplied explicit reasoning, no answer/rubric change"
+    }
+  ]
+}
