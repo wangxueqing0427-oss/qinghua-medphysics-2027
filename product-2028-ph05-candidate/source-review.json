@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-15",
+  "baseline": "a6adba87f53330d5489cbbc127f166d09ced2e75",
+  "unitId": "353-global-health-burden-priorities",
+  "unitHash": "9a09b65f4757f481b09ae4658974d14e57e03740d3caa74f11f42378d9491144",
+  "status": "internal-source-screened-pending-independent-review",
+  "expertApprovals": 0,
+  "sources": [
+    {
+      "id": "outline",
+      "publisher": "清华大学万科公共卫生与健康学院",
+      "title": "2027年353卫生综合考试大纲",
+      "published": "2026-09-30",
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "actualRead": "specified-body",
+      "locator": "第一部分第五项全球健康，网页134—136行",
+      "supports": "全球健康、跨学科、MDG/SDG、GBD及指标/比较局限、优先事项和援助利弊",
+      "limits": "2027仅暂定用于2028，内部PH05不是官方权重，不计算完整覆盖率"
+    },
+    {
+      "id": "methods",
+      "publisher": "WHO Department of Data and Analytics",
+      "title": "WHO methods and data sources for global burden of disease estimates 2000–2021",
+      "published": "2024-05 (封面标月，无日)",
+      "version": "GHE2021方法，2024发布；封面列GHE/2024.3而页眉仍见GHE/2020.3，保留原来源标识不一致，不自行编造勘误",
+      "url": "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2021_daly_methods.pdf",
+      "actualRead": "specified-body",
+      "locator": "封面PDF1；§1印刷3—5/PDF4—6；§2印刷6/PDF7；§2.1—2.4印刷7—9/PDF8—10；§2.5印刷11/PDF12；§4印刷14/PDF15；§4.2印刷15/PDF16；§5.5印刷19/PDF20。PDF从1起算。",
+      "supports": "DALY=YLL+YLD；YLL按分层死亡N×标准剩余L；区分旧发病口径和现行文内流行口径/共病；GHE与GBD输入区别及资料/模型不确定性",
+      "limits": "仅读取列明方法正文，不宣称全文图表视觉核验或2026最新数据；未使用实际国家排名、寿命表数字或具体健康状态DW；案例L/DW由题目虚构给定，非WHO推荐真实数值"
+    },
+    {
+      "id": "agenda",
+      "publisher": "United Nations DESA",
+      "title": "Transforming our world: the 2030 Agenda for Sustainable Development",
+      "published": null,
+      "adoptionYear": 2015,
+      "version": "2030议程原文，网页发布日期未列明",
+      "url": "https://sdgs.un.org/2030agenda",
+      "actualRead": "specified-body",
+      "locator": "Preamble；Declaration第1—5、16—18段；目标3、6、10、17相关标题",
+      "supports": "17目标169具体目标、普遍适用、MDGs承接关系、相互联系与不让任何人掉队",
+      "limits": "不证明各国达标或最新2026进展；不背全部169项，也不等同中国法律"
+    },
+    {
+      "id": "history",
+      "publisher": "United Nations DESA",
+      "title": "The 17 Goals: History",
+      "published": null,
+      "version": "官方SDGs历史说明网页，无页面发布日期",
+      "url": "https://sdgs.un.org/goals",
+      "actualRead": "specified-body",
+      "locator": "History第59—65行，2000千年宣言、8项MDGs、2015期限与17项SDGs",
+      "supports": "MDGs8项目标及时间范围；SDGs2015制定、适用于所有国家",
+      "limits": "不是2015/2026各国实际完成度报告"
+    },
+    {
+      "id": "hta",
+      "publisher": "WHO",
+      "title": "Health technology assessment and benefit package design",
+      "published": null,
+      "version": "官方团队网页，发布日期未显示，访问2026-11-15",
+      "url": "https://www.who.int/teams/health-systems-governance-and-financing/economic-analysis/health-technology-assessment-and-benefit-package-design",
+      "actualRead": "specified-body",
+      "locator": "正文HTA/HBP概述、OneHealth及WHO-CHOICE条目（网页85—107行）",
+      "supports": "考虑有限资源、经济评价、健康体系投资、预算及特定情境",
+      "limits": "没有给本课虚构方案效益、监管阈值或临床批准；本课成本效果为独立算术而非实际研究数据"
+    },
+    {
+      "id": "architecture",
+      "publisher": "WHO",
+      "title": "Reforming the global health architecture",
+      "published": null,
+      "version": "官方动态网页，访问2026-11-15；只使用概念段而不教授改革程序现状",
+      "url": "https://www.who.int/about/governance/global-health-architecture",
+      "actualRead": "specified-body",
+      "locator": "Why it matters / Problem statement / Principles / What is GHA，第80—111行",
+      "supports": "多种主体、国家主导、公平协作、资金和协调安排；碎片化、重复和优先错配风险",
+      "limits": "不能由此推断援助必然有效/有害；不引用未逐项核实的全球进展数值，也不当唯一全球健康定义或国内强制规定"
+    }
+  ],
+  "questionChecks": [
+    {
+      "questionId": "353-global-health-burden-priorities-b1",
+      "independentSolution": "联合国History核实MDG8/2015与SDG17/普遍适用，选B。",
+      "sourceRefs": [
+        "agenda",
+        "history",
+        "architecture"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-b2",
+      "independentSolution": "DALY为健康生命年损失合成指标，不是患者数或死亡概率，选A。",
+      "sourceRefs": [
+        "methods"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-b3",
+      "independentSolution": "总量与粗率回答不同问题，年龄与资料仍需核对，选A/C。",
+      "sourceRefs": [
+        "methods"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-b4",
+      "independentSolution": "枚举预算50内可行组合：A80、B45、C30、B+C75，A单独最大，选C；A+B70和A+C60不可行。",
+      "sourceRefs": [
+        "hta",
+        "agenda"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-b5",
+      "independentSolution": "5万元/年×3年=15万元，跨年维护支出，非健康收益。",
+      "sourceRefs": [
+        "architecture",
+        "hta"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-a1",
+      "independentSolution": "两国比较需统计/流行病学，澜岛需经济/公平/治理；区分MDG/SDG，合理跨部门方向接受。",
+      "sourceRefs": [
+        "agenda",
+        "history",
+        "architecture"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-a2",
+      "independentSolution": "4×30=120；100×1×0.2=20；120+20=140健康生命年。",
+      "sourceRefs": [
+        "methods"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-a3",
+      "independentSolution": "总量乙220>甲140，但粗率甲140与乙110每10万人；未给年龄、资料等不足以排医疗与援助优先级。",
+      "sourceRefs": [
+        "methods"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-a4",
+      "independentSolution": "30×10000/45=6666.666…，两位小数6666.67元/避免DALY；邻近0.01错误末位应拒绝。",
+      "sourceRefs": [
+        "hta",
+        "agenda"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-a5",
+      "independentSolution": "20万受限赠款不能自由加到50万；本地维护15万及能力需求、协调与结果需核对，可有条件接受或暂缓。",
+      "sourceRefs": [
+        "architecture",
+        "hta"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-d1",
+      "independentSolution": "SDGs普遍适用且与非卫生目标关联，选B。",
+      "sourceRefs": [
+        "agenda",
+        "history",
+        "architecture"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-d2",
+      "independentSolution": "3×20+80×1×0.25=80健康生命年，单年简化且非真实国别数据。",
+      "sourceRefs": [
+        "methods"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-d3",
+      "independentSolution": "先核对方法、分类、数据及版本，不把点估计差异自动归因为真实改善，选B。",
+      "sourceRefs": [
+        "methods"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-d4",
+      "independentSolution": "A预计80与B+C75均是模型；给出预算、公平分布、价值取舍与执行局限，选任一可合理论证，不虚构唯一答案。",
+      "sourceRefs": [
+        "hta",
+        "agenda"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    },
+    {
+      "questionId": "353-global-health-burden-priorities-d5",
+      "independentSolution": "设备不等于零本地成本，维护15万；援助投入不保证结局，负担总量/粗率不同且资料有限，优先分配需多维证据。",
+      "sourceRefs": [
+        "architecture",
+        "hta"
+      ],
+      "limitations": "全部数字、国家和方案虚构；只在给定单位/参考期/共病/可加性条件下算术成立，不能推出临床或政策保证。主观等价合理论证接受，仅参考自评。"
+    }
+  ],
+  "coverage": [
+    {
+      "element": "全球健康和跨学科",
+      "status": "foundation-candidate",
+      "evidence": "§1工作视角及a1跨部门分析；非唯一标准定义"
+    },
+    {
+      "element": "MDGs与SDGs",
+      "status": "foundation-candidate",
+      "evidence": "官方History与2030议程；b1/a1/d1"
+    },
+    {
+      "element": "YLL/YLD/DALY",
+      "status": "partial",
+      "evidence": "WHO2024方法版本与病例/人年/健康生命年，单状态算术；不实现完整共病/分层估计模型"
+    },
+    {
+      "element": "跨国资料与模型局限",
+      "status": "partial",
+      "evidence": "总量/粗率、版本、年龄与缺失；不计算标化率或实际国家排名"
+    },
+    {
+      "element": "资源优先序",
+      "status": "partial",
+      "evidence": "预算内整包枚举、平均成本效果、公平与模型条件；非完整卫生经济评价"
+    },
+    {
+      "element": "卫生援助",
+      "status": "foundation-candidate",
+      "evidence": "专项与本地维护的条件性利弊；无真实因果效果评价"
+    }
+  ],
+  "similarityReview": {
+    "relatedUnits": [
+      "353-ratio-rate-prevalence",
+      "353-health-system-financing-policy-foundation",
+      "353-cross-disciplinary-evidence-writing"
+    ],
+    "method": "对已构建59课相关正文关键词及目标检查，未发现独立全球健康/GBD完整单元；确切题干重复在测试中对668题校验，不声称全量语义专家审核",
+    "reuse": "复用分母、政策经济和证据化短文方法；新课新增GBD版本化概念和两套独立材料，不重写相关旧课。",
+    "questionsReused": 0
+  },
+  "accessFailures": [
+    {
+      "url": "https://www.un.org/millenniumgoals/",
+      "status": "403",
+      "actualRead": "not-obtained",
+      "action": "不重试，以可读UN DESA History核对MDG基本事实"
+    },
+    {
+      "url": "https://www.un.org/sustainabledevelopment/development-agenda/",
+      "status": "403",
+      "actualRead": "not-obtained",
+      "action": "停止该入口尝试，使用可读sdgs.un.org原文"
+    },
+    {
+      "url": "https://www.healthdata.org/research-analysis/gbd",
+      "status": "403",
+      "actualRead": "not-obtained",
+      "action": "不冒称读取IHME原页；本课明确采用WHO2024可读方法中GBD2021与GHE关系说明"
+    }
+  ],
+  "remaining": [
+    "2028官方目录与大纲未确认",
+    "完整全球健康历史、所有MDG/SDG目标、实际国别资料与最新排名未教",
+    "全疾病共病/年龄标化/不确定性传播、真实优先序伦理与援助因果仍需后续教学与专业判断",
+    "WHO原PDF页眉编号与封面不一致保留，引用具体标题/月份与原页定位；不编造勘误",
+    "旧PH03/PH04/CROSS01及其他专项覆盖缺口继续保留；不更改V15历史统计",
+    "独立专业审定0，独立Safari/PWA后台恢复待最终集中验收"
+  ],
+  "copyrightPrivacy": "仅原创教学和链接/定位，不提交下载的PDF或实际用户/患者数据"
+}

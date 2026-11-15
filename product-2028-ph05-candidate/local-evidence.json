@@ -1,0 +1,15 @@
+{
+  "date":"2026-11-15",
+  "baseline":"a6adba87f53330d5489cbbc127f166d09ced2e75",
+  "logic":{"command":"node --test product-2028-ph05-candidate/test.cjs","passed":11,"failed":0,"syntheticIndexedDB":true},
+  "browser":{"engine":"Installed Edge Chromium","mobileViewport":"iPhone13","checksPassed":7,"checksFailed":0,"newQuestionCount":15,"longSubjectiveAnswerCharacters":">1000","selfReviewSaved":true,"actualTabCloseAndNewTab":true,"actualLocalTCPInterruption":true,"syntheticClockForDueTest":true,"physicalIPhone":false},
+  "initialSoftwareFailures":[],
+  "sourceAccessFailures":"Three actual 403 responses retained in source-review.json, never treated as read sources",
+  "old59Courses668QuestionsUnchanged":true,
+  "oldCROSS01SeventeenAssetHashesUnchanged":true,
+  "historicalSuitesRerun":false,
+  "linuxChromiumAndWebKitCI":"pending",
+  "independentProfessionalApprovals":0,
+  "actualLearningDataTouched":false,
+  "productionRelease":false
+}

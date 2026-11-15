@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "ph05-2026-11-15-original-draft",
+  "units": [
+    {
+      "id": "353-global-health-burden-priorities",
+      "subject": "353",
+      "version": "0.1-ph05",
+      "title": "PH05：全球健康、疾病负担与有限资源决策",
+      "mapping": [
+        "PH05"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构两国与澜岛预算材料、数字及参考论证；不是清华真题、国家真实统计、临床建议或政策批准",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "已有群体健康与预防视角；本课从零解释单位、GBD及预算术语，率/比例、PH03和CROSS01可深化但不视作已掌握。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2021_daly_methods.pdf",
+        "https://sdgs.un.org/2030agenda",
+        "https://sdgs.un.org/goals",
+        "https://www.who.int/teams/health-systems-governance-and-financing/economic-analysis/health-technology-assessment-and-benefit-package-design",
+        "https://www.who.int/about/governance/global-health-architecture"
+      ],
+      "definition": "全球健康关注人群健康、公平与需要跨地区跨部门理解的决定因素；GBD研究描述死亡与非致死健康损失。DALY=YLL+YLD，表示健康生命年损失，不能替代所有价值判断、预算与公平评价。",
+      "explanation": "全球健康先问：哪些健康问题及其决定因素需要跨地区、跨国家、跨部门共同理解和应对，怎样减少不公平。它不是“只研究外国疾病”或“只有传染病”。本课将全球健康作为以人群健康与公平为目标、整合医学、流行病学、统计、经济、环境与治理等方法的工作视角；这是入门教学归纳，不冒称WHO唯一逐字定义。国际合作可涉及疾病预防、卫生体系、资料与技术支持；服务是否贴近当地需要，不能只看捐款金额。\nMDGs是千年发展目标：联合国2000年千年宣言推动形成8项目标，目标期限至2015年。SDGs是可持续发展目标：2015年通过的2030议程提出17项目标和169项具体目标，面向所有国家，不只低收入国家，健康与贫困、教育、水与卫生、环境等相联系。SDG3关注各年龄健康与福祉，但其他目标也影响健康。SDGs承接MDGs未竟工作并扩展可持续发展的经济、社会与环境维度；不是换了缩写，也不是2015年所有健康问题已经解决。本课不要求背全部169项，不声称某国2026最新达标率。看两国疾病负担，需要统计方法也需理解资料与社会条件；看援助项目，需要经济与治理方法，不只医学效果。\n\n【独立案例A：两国健康损失，全部虚构】同一年度、同一健康状态H、相同定义和简化计算口径：甲国人口100000，因H死亡4人；乙国人口200000，因H死亡6人。题给每名死亡者对应的标准剩余期望寿命L均为30年（教学假设，不是现实国家寿命表）。甲有100名、乙有200名存活者全年处于同一非致死健康状态，每人1年，题给伤残权重DW=0.20。为本题，死亡者与上述存活者不重叠，无其他状态与共病，资料完整性先按题设处理，不作折现或额外年龄加权。\nGBD即全球疾病负担研究，整合死亡和非致死健康损失等资料，帮助比较健康损失；它不只是病例登记表。WHO全球健康估计GHE与IHME等GBD研究相互借鉴，但不是同一发布物、版本或可随意拼接的数据。本课依据WHO于2024年5月发布、覆盖2000—2021年的方法正文讲概念，不宣称这是2026最新数据库。YLL是早死所致生命年损失：在给定年龄等分层内，死亡人数N×对应标准剩余期望寿命L；真实计算需分层求和，不是简单拿本国平均寿命减每人年龄。YLD是非致死健康状态的健康损失；本课按流行口径，在单一状态、全年不变、无共病假设下，用该年健康状态人年×DW。DW是健康损失权重，不是死亡概率，也不是人的价值或“身体残缺百分比”。\n逐步算甲：YLL=4×30=120生命年；YLD=100人×1年×0.20=20健康生命年；DALY=YLL+YLD=140健康生命年损失。1 DALY表示1个健康生命年的损失，不是1名患者；数值越大表示该口径下损失越多。登记在该年的死亡对应的YLL包含未来损失，不能把140解释成所有人都在当年失去140个实际日历年。乙同理：6×30+200×1×0.20=220。历史发病口径会涉及新发病例及未来病程，但不能把那套人数/病程直接带入本课流行口径，或给单年YLD再乘一遍未来患病年数。\n\n【案例A：从计算走到比较】甲总量140、乙220，乙总量更大；换成每10万人粗DALY：甲140/100000×100000=140，乙220/200000×100000=110，次序反过来。这不是算术矛盾，总量反映健康损失规模，率结合人口规模回答另一个问题。140和110是每10万人中的健康生命年损失，不是140%或110%的患病率，也不是年龄标化率。虽然死亡组L在题中被固定，两国整体人口年龄结构、暴露和医疗等仍未给出。不能据粗率较低就宣称乙国医疗更好，或据总量大就确定应援助乙更多。\n跨国比较要核对同一年、健康状态/病因分类、标准寿命表、伤残权重及共病处理、总量/粗率/标化率口径，再核对死亡登记、调查覆盖、缺失和错分、模型与不确定性。模型填补资料不等于实际测量，区间可能只覆盖部分不确定性；换版本出现差异也不必然是真实健康变化。先按题设独立复算，再清楚写出未给的信息。示范结论：在给定简化口径，乙总损失220大于甲140，但粗率110低于甲140每10万人；不足以排名卫生体系或证明干预因果，需要年龄结构、资料质量和可比模型等资料。资料缺失不证明一个固定方向的偏差。延迟练习若给3人死亡、每人L=20年，80名存活者全年DW=0.25，则单年简化DALY=3×20+80×1×0.25=80健康生命年；不能与上述两国直接拼成真实排名。\n\n【独立案例B：澜岛卫生预算，全部虚构】与案例A没有共同人群或数据。某地本年度可支配预算50万元，有三项必须整包选择的方案，不能拆包：A城市服务40万元，模型预计相对不做该方案避免80 DALY；B偏远地区服务30万元，预计避免45 DALY；C连续照护20万元，预计避免30 DALY，覆盖包括偏远及脆弱人群。题设三方案成本口径和时间范围一致，模型假设可选组合收益不重叠、可相加，无其他成本与相互作用；这些只是练习假设，不是现实规律，效益尚非观察到的真实结果。\n先核预算：A+B=70、A+C=60都超50；B+C=50，预计避免45+30=75；A单独40、预计避免80，剩余10不能购买一个完整B或C。若题目唯一目标是给定预算内最大化模型预计避免DALY，枚举可行组合后A为本题答案；不能因此把A称为所有价值目标下唯一正确政策。平均每避免1 DALY成本：A为400000元/80=5000元，B为300000/45≈6666.67元，C约6666.67元。这个比值是题设相对不做方案的平均成本效果，不是任意两方案的增量比，也不是全国统一报销阈值。\n效率是用有限资源取得更多健康改善；公平还关注谁获益、谁被排除、最弱势群体和负担。可有理由选择B+C，明确接受75而非80的模型健康收益以重视偏远和脆弱人群；也可支持A并说明公平局限与后续补救，不能偷偷增加预算或虚构A覆盖全部偏远居民。现实还要核查效果不确定性、执行能力、预算影响、可持续成本及公开讨论。WHO关于卫生技术评估和全球卫生治理提供考虑情境、透明与国家主导等方向，不是这个虚构选择的临床批准。\n\n【案例B：卫生援助反例与完整作答】援助可补充资金、技术、培训和应急资源，支持当地服务能力；但如果用途与当地优先事项不符、项目重复、资金突然停止或维护依赖外部资源，也可能挤占本地人力预算。利弊取决于条件，不是“援助必然有害”或“捐得越多健康必然更好”。澜岛另获20万元设备专项赠款，只能购买指定设备，不能支付A/B/C；设备培训与维护需本地另付每年5万元，连续3年，题设不折现。维护合计5×3=15万元，是额外的跨年支出，不把它偷偷并入已给的本年度50万元再选原套餐；若接受设备需另做分年度可负担性与预算审批评估。20万元设备赠款不等于本地可自由支配预算立刻变成70万元，也不能直接减去15就称“净健康收益5万元”。货币和DALY是不同量。\n完整短文示范：当前材料不能只用捐款金额或最低成本比确定所有政策。A在给定预算和模型假设下预计避免80 DALY；B+C预计75但覆盖偏远与脆弱人群，体现效率与公平的取舍。应核对模型效果、服务可及性和执行成本，公开说明价值选择，再决定组合。设备援助可能带来能力支持，但专项用途不匹配且3年本地维护15万元，需核实实际需求、人员、备件和长期资金，协调本地主导与援助方安排并评价真实结果，不能推断援助已提高健康。\n作答按论点—数字/材料—公平及局限—有条件结论组织，接受等价合理论证，不要求逐字背诵或专业自动分数。闭卷和延迟题使用不同数字或追问未知条件；错因应区分单位、分母、版本、模型与价值取舍。2027官方大纲仅为2028暂定依据，完整国家比较、具体GBD软件和全部援助评价不因本单元而完成，独立专业审定仍为0。",
+      "example": "按案例A假设，甲YLL120+YLD20=140，乙180+40=220健康生命年，粗率为140和110每10万人。按独立案例B的50万元整包预算，A预计避免80 DALY，B+C为75；公平目标与专项援助的15万元维护成本还需分别讨论。",
+      "conditions": [
+        "2027官方大纲作为2028暂定依据；2028最终要求未确认",
+        "WHO 2024方法/2000—2021数据期为本课方法参考，不称2026最新数据库",
+        "YLD为单状态、单年、全年不变且无共病的人年乘权重；不外推为完整模型",
+        "预算组合仅按给定可加性、成本与效果模型；不是现实最优政策或临床建议",
+        "主观仅参考自评，未勾选不等于自动遗漏，不生成专业分数"
+      ],
+      "misconceptions": [
+        "把GBD、WHO GHE和不同版本数字无条件拼接",
+        "把DALY当患者数或把DW当死亡概率/人的价值",
+        "总量、粗率和年龄标化率混用，把模型输出当实测因果",
+        "把平均成本效果当唯一政策阈值，或把专项赠款当自由预算"
+      ],
+      "recall": [
+        "闭卷区分全球健康的跨学科视角、MDGs与SDGs及时间和对象。",
+        "闭卷解释YLL、流行口径YLD、DALY的单位并重算甲国。",
+        "闭卷解释两国总量和粗率排序不同，列出三项比较限制。",
+        "闭卷列出澜岛可行套餐，区分效率最大与公平取舍及成本比。",
+        "闭卷分析设备援助的可能帮助、限制、维护支出及不能推出的结论。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "两国资料与澜岛预算需要统计、经济与治理共同分析"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "甲国4×30+100×1×0.20=140健康生命年"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "总量140/220，粗率140/110每10万人，不能直接排医疗优劣"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "50万元内A80、B+C75，B平均6666.67元/避免DALY"
+        },
+        {
+          "id": "section-5",
+          "explanationParagraph": 4,
+          "workedExample": "20万元专项设备不能当自由预算；3年维护5×3=15万元"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-global-health-burden-priorities-g1",
+          "description": "理解全球健康与MDGs/SDGs",
+          "successCriteria": "能解释多学科与普遍适用，区分目标框架与已实现结果",
+          "teachingSectionIds": [
+            "section-1",
+            "section-2",
+            "section-4"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-global-health-burden-priorities-b1",
+            "353-global-health-burden-priorities-a1",
+            "353-global-health-burden-priorities-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-global-health-burden-priorities-g2",
+          "description": "计算和解释YLL、YLD与DALY",
+          "successCriteria": "能在给定单年条件独立复算，说明时间口径、单位及权重边界",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-global-health-burden-priorities-b2",
+            "353-global-health-burden-priorities-a2",
+            "353-global-health-burden-priorities-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-global-health-burden-priorities-g3",
+          "description": "有边界地比较国家疾病负担",
+          "successCriteria": "能区分总量/粗率/标化，核对资料质量、分类、模型和不确定性",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-global-health-burden-priorities-b3",
+            "353-global-health-burden-priorities-a3",
+            "353-global-health-burden-priorities-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-global-health-burden-priorities-g4",
+          "description": "分析有限预算中的效率与公平",
+          "successCriteria": "能比较可行整包及成本效果，说明不同价值目标和模型限制",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-global-health-burden-priorities-b4",
+            "353-global-health-burden-priorities-a4",
+            "353-global-health-burden-priorities-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-global-health-burden-priorities-g5",
+          "description": "评价卫生援助与可持续性",
+          "successCriteria": "能区分专项投入、本地跨年成本与真实结局，提出核查与协调建议",
+          "teachingSectionIds": [
+            "section-5"
+          ],
+          "recallIndexes": [
+            4
+          ],
+          "questionIds": [
+            "353-global-health-burden-priorities-b5",
+            "353-global-health-burden-priorities-a5",
+            "353-global-health-burden-priorities-d5"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部来源核查与独立复算；非真人专业审定",
+        "scope": "PH05基础与材料应用；非全部范围覆盖",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "caseData": {
+        "A": {
+          "countryA": {
+            "population": 100000,
+            "deaths": 4,
+            "standardRemainingYears": 30,
+            "prevalentFullYearPeople": 100
+          },
+          "countryB": {
+            "population": 200000,
+            "deaths": 6,
+            "standardRemainingYears": 30,
+            "prevalentFullYearPeople": 200
+          },
+          "yearsPerPerson": 1,
+          "disabilityWeight": 0.2,
+          "comorbidity": false,
+          "ageStandardized": false
+        },
+        "B": {
+          "budgetWan": 50,
+          "options": [
+            {
+              "id": "A",
+              "costWan": 40,
+              "avertedDALY": 80
+            },
+            {
+              "id": "B",
+              "costWan": 30,
+              "avertedDALY": 45
+            },
+            {
+              "id": "C",
+              "costWan": 20,
+              "avertedDALY": 30
+            }
+          ],
+          "wholePackages": true,
+          "additiveNonOverlappingBenefit": true,
+          "restrictedEquipmentGrantWan": 20,
+          "maintenanceWanPerYear": 5,
+          "maintenanceYears": 3
+        }
+      },
+      "basicQuestions": [
+        {
+          "id": "353-global-health-burden-priorities-b1",
+          "type": "single",
+          "stem": "哪项符合本课核实的全球健康与发展目标框架？",
+          "answer": 1,
+          "explanation": "B区分8项MDGs与17项SDGs，并保留跨学科、普遍适用视角；A缩窄全球健康，C错误宣称2015全部任务已完成。",
+          "difficulty": "basic",
+          "options": [
+            "全球健康只研究外国传染病",
+            "MDGs有8项目标、期限至2015；SDGs有17项目标并面向所有国家",
+            "SDGs只是更名，意味着2015年所有MDGs任务均已完成"
+          ],
+          "sourceRefs": [
+            "agenda",
+            "history",
+            "architecture"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-b2",
+          "type": "single",
+          "stem": "本课DALY最准确的基本含义是什么？",
+          "answer": 0,
+          "explanation": "A对应健康损失的合成指标；B把时间损失错当人数，C把健康损失权重错当死亡概率。须注明YLL及YLD方法和适用口径。",
+          "difficulty": "basic",
+          "options": [
+            "YLL与YLD之和，单位为健康生命年损失",
+            "患有疾病的患者总人数",
+            "伤残权重就是死亡概率"
+          ],
+          "sourceRefs": [
+            "methods"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-b3",
+          "type": "multi",
+          "stem": "对案例A的甲140、乙220健康生命年总量及不同人口规模，哪些说法成立？",
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A区分规模和按人口标准化的粗指标；C说明年龄结构和资料等仍需核对。B把总量升级医疗体系优劣，D把粗率冒称年龄标化。",
+          "difficulty": "basic",
+          "options": [
+            "总量和每10万人粗率可能给出不同次序",
+            "乙总量大就已证明乙医疗更差",
+            "还需核对人口年龄结构、资料和方法可比性",
+            "除以总人口后的结果自动成为年龄标化率"
+          ],
+          "sourceRefs": [
+            "methods"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-b4",
+          "type": "single",
+          "stem": "澜岛预算50万元，整包A花40预计避免80 DALY；B花30避免45；C花20避免30，可加且不重复。若唯一目标是最大化给定预算内预计避免DALY，选什么？",
+          "answer": 2,
+          "explanation": "A+B70和A+C60超预算；B+C50预计75，A单独40预计80，其他可行组合更少，因此本题选A。只在给定模型及单一目标下成立，不否定公平取舍。",
+          "difficulty": "basic",
+          "options": [
+            "A+B",
+            "A+C",
+            "A单独"
+          ],
+          "sourceRefs": [
+            "hta",
+            "agenda"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-b5",
+          "type": "number",
+          "stem": "案例B设备专项援助另需本地维护，每年5万元连续3年，题设不折现。三年维护合计多少万元？",
+          "answer": 15,
+          "explanation": "5万元/年×3年=15万元。它是额外跨年支出，不能混成设备价格或已给50万元套餐预算，也不能把货币余额当健康收益。",
+          "difficulty": "basic",
+          "unit": "万元",
+          "tolerance": 0,
+          "sourceRefs": [
+            "architecture",
+            "hta"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-global-health-burden-priorities-a1",
+          "type": "subjective",
+          "stem": "结合两国健康资料比较与澜岛资源分配两个虚构案例，说明为何全球健康需要多学科；并区分MDGs与SDGs，写出一个健康与非卫生部门协作的合理方向。",
+          "answer": "两国比较需流行病学与统计明确死亡、非致死损失、人口和资料可比性；澜岛需医学效果、卫生经济、预算治理与公平分析，不只看临床或捐款。MDGs为8项目标、至2015年；SDGs为2015年提出、面向2030的17项目标，适用于所有国家并承接未竟任务。可举健康服务与教育、水卫生、社会保障或环境协作等合理方向，说明如何作用，不虚构效果数字。",
+          "explanation": "接受不同合理跨学科例子和同义组织；无需背全部169项或把工作定义当唯一国际法条。",
+          "difficulty": "application",
+          "rubric": [
+            "用两国比较对应统计/流行病学方法",
+            "用澜岛对应经济、预算或治理与公平",
+            "区分MDGs/SDGs的目标数、时间与普遍适用",
+            "举合理非卫生部门协作并解释联系",
+            "不声称全部目标已实现或编造国家数据"
+          ],
+          "sourceRefs": [
+            "agenda",
+            "history",
+            "architecture"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-a2",
+          "type": "number",
+          "stem": "案例A甲国：因H死亡4人，每人题给标准剩余寿命30年；另有100名存活者全年同一状态DW=0.20，每人1年、无共病。简化DALY为多少健康生命年？",
+          "answer": 140,
+          "explanation": "YLL=4×30=120，YLD=100×1×0.20=20，DALY=140。权重无量纲；人数不是新发人数，不能再乘未来病程，也不把结果当140名患者。",
+          "difficulty": "application",
+          "unit": "健康生命年",
+          "tolerance": 0,
+          "sourceRefs": [
+            "methods"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-a3",
+          "type": "subjective",
+          "stem": "案例A同年同H口径：甲人口10万、DALY140；乙人口20万、DALY220。写完整短文比较总量与每10万人粗率，并说明能否据此给医疗体系或援助优先级排名。",
+          "answer": "给定口径乙总量220大于甲140，但粗率甲140/10万×10万=140、乙220/20万×10万=110，描述不同问题。粗率不是年龄标化率；未给整体年龄结构、资料质量、风险暴露及服务效果，不足以排名医疗优劣或决定援助。需核对病因分类、寿命表、权重、共病、版本与不确定性，并结合公平、可干预性和预算判断。",
+          "explanation": "接受分段/对照等论证方式；不要求计算未给的标化率或推断偏差固定方向。至少引用两项数字并说明局限。",
+          "difficulty": "application",
+          "rubric": [
+            "正确引用甲乙总量和人口对象",
+            "独立得到每10万人140与110",
+            "区分粗率、总量和年龄标化率",
+            "列出至少两项资料或方法比较限制",
+            "不从描述性差异直接作因果、医疗或援助排名"
+          ],
+          "sourceRefs": [
+            "methods"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-a4",
+          "type": "number",
+          "stem": "案例B方案B成本30万元，模型预计相对不做方案避免45 DALY。平均每避免1 DALY成本是多少元？保留两位小数，题设不折现。",
+          "answer": 6666.67,
+          "explanation": "30万元=300000元；300000/45=6666.666…元/避免DALY，约6666.67。不是30/45元，也不是两方案增量比，不据此宣布唯一政策阈值。",
+          "difficulty": "application",
+          "unit": "元/避免DALY",
+          "tolerance": 0.005,
+          "sourceRefs": [
+            "hta",
+            "agenda"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-a5",
+          "type": "subjective",
+          "stem": "澜岛另获20万元指定设备赠款，不能用于A/B/C，本地维护5万元/年共3年。请写短文分析援助可能帮助、限制与可持续性；能否把预算直接改为70万元或断言健康已改善？",
+          "answer": "设备可能补充能力或技术，但应先核对当地需求、培训、人员、备件和协调，不能由金额保证效果。20万元为专项设备，不是自由预算；本地跨年维护共15万元，需另做分年度可负担性评估，不能无条件改成70万元选套餐。援助可能带来额外负担、重复或依赖，也可能有益，需本地主导和结果评价。材料未给真实健康结局，不能声称已经改善。",
+          "explanation": "可支持或暂缓接受赠款，只要说明条件、数字和当地优先事项；不要求认定援助必然有害。",
+          "difficulty": "application",
+          "rubric": [
+            "说明至少一种可能能力或服务帮助",
+            "正确识别专项20万元不可任意挪用",
+            "计算或引用本地三年维护15万元并区分跨年预算",
+            "讨论需求、协调、重复或可持续风险",
+            "以核查和评价作条件结论，不保证因果或净健康收益"
+          ],
+          "sourceRefs": [
+            "architecture",
+            "hta"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-global-health-burden-priorities-d1",
+          "type": "single",
+          "stem": "隔日辨析：有人称SDGs只适用于低收入国家，健康只涉及SDG3。哪项纠正合理？",
+          "answer": 1,
+          "explanation": "B对应联合国普遍性和目标相互关联；A、C忽视其他国家或教育、水卫生等决定因素。不把目标框架当作已实现的结果。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "该说法完全正确",
+            "SDGs面向所有国家，健康也与其他目标和部门相关",
+            "全球健康只靠医院，不需其他部门"
+          ],
+          "sourceRefs": [
+            "agenda",
+            "history",
+            "architecture"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-d2",
+          "type": "number",
+          "stem": "隔日新数字，非现实国别数据：同一状态死亡3人、每人题给L=20年；80名存活者全年DW=0.25，每人1年、无共病。简化DALY多少健康生命年？",
+          "answer": 80,
+          "explanation": "YLL=3×20=60，YLD=80×1×0.25=20，合计80健康生命年。只适用于给定单年简化条件，不能用来制造真实国家排名。",
+          "difficulty": "delayed-transfer",
+          "unit": "健康生命年",
+          "tolerance": 0,
+          "sourceRefs": [
+            "methods"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-d3",
+          "type": "single",
+          "stem": "隔日看到某国疾病负担新版估计下降，分类和模型也调整了。哪项最合理？",
+          "answer": 1,
+          "explanation": "B先查数据、分类、方法与区间；A把版本差异直接当因果，C把模型误作零误差。需要可比证据才讨论真实变化。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "数值下降已经证明治疗改善",
+            "先核对版本、定义和资料，不能只据差值断言真实改善",
+            "模型估计必定比登记数据无误"
+          ],
+          "sourceRefs": [
+            "methods"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-d4",
+          "type": "subjective",
+          "stem": "隔日：澜岛50万元预算，A40万预计避免80 DALY主要城市受益；B+C50万预计75且覆盖偏远/脆弱人群，均为模型值。请给一段有数字、有公平理由和局限的选择分析；不得增加预算。",
+          "answer": "按单一健康总量目标A在题设内预计80高于B+C75；若重视偏远与脆弱人群，可透明说明接受较少模型收益而选择B+C。支持A也需承认受益分布及公平局限，不能虚构城市方案覆盖所有人。模型效果与成本有不确定性，应核查可及性、执行能力、长期预算与监测，不把某一平均成本比当所有情形唯一阈值。",
+          "explanation": "选择A或B+C均可有理；需明确价值取舍和材料依据，不按是否与示范选择相同自动判错。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "正确比较80与75及两种预算支出",
+            "区分效率目标和公平受益分布",
+            "说明自身选择的条件或取舍，不声称唯一政策正确",
+            "至少提出一项模型、成本或执行限制",
+            "保持预算与整包条件，不补造收益或覆盖"
+          ],
+          "sourceRefs": [
+            "hta",
+            "agenda"
+          ]
+        },
+        {
+          "id": "353-global-health-burden-priorities-d5",
+          "type": "subjective",
+          "stem": "隔日新说法：“设备是捐赠的，所以没有本地成本；只要收到援助，健康必然改善；全球DALY排名就是拨款顺序。”请用本课两套材料逐项纠正并给出核查建议。",
+          "answer": "澜岛设备仍需本地维护5万元/年三年15万元和可能人力等条件，专项价值不等于自由预算或零成本。援助效果需需求匹配、本地主导、协调及健康结局评价，不由收款本身证明。两国总量和粗率排序不同，资料与模型还有边界；拨款需结合公平、可干预性、预算和证据，而非单一排名。建议核对成本、资料口径和结果，给有条件决策。",
+          "explanation": "不要求反对所有援助或否定DALY用途；合理同义论证接受，参考自评不提供专业自动分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "反驳零成本并准确引用维护数字",
+            "区分援助投入和真实健康结局",
+            "用两国总量/粗率或数据限制说明排名边界",
+            "加入公平、预算或可干预性等优先序因素",
+            "给具体核查建议而非无条件因果保证"
+          ],
+          "sourceRefs": [
+            "architecture",
+            "hta"
+          ]
+        }
+      ]
+    }
+  ]
+}
