@@ -1,0 +1,10 @@
+{
+  "scope":"Issue9 batch3 affected tests only; previous suites not rerun",
+  "initialNode":{"passed":8,"failed":2,"failures":[{"reason":"Two subjective explanations did not unpack their conceptual reason","fix":"Added denominator/scale and causality explanation; answers unchanged"},{"reason":"strict floating RR intermediate gave2.9999999999999996 instead of3","fix":"Independent exact rational cross-product plus1e-12 floating error bound; no answer change or grading-tolerance relaxation"}]},
+  "finalLocal":{"node":{"passed":10,"failed":0},"browser":{"engine":"Edge Chromium","mobileViewport":"iPhone13","courses":3,"groupsPerCourse":7,"passed":3,"failed":0,"actualTCPOutage":true,"physicalIPhone":false}},
+  "original68CourseObjectsUnchanged":true,
+  "assets":17,
+  "expertApprovals":0,
+  "linuxAndHTTPS":"pending exact-SHA CI; no claim based on local tests",
+  "upstream":{"sha":"6dfb5005ec71c7371389df30b0a9676772c2d82d","ci":43774912133,"bothJobs":"success","url":"https://059a7270.qh2028-core47-preview.pages.dev/","hashes":17}
+}

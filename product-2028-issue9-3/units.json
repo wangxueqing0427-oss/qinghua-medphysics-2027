@@ -1,0 +1,1170 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "issue9-3-epi05-06-07-original",
+  "units": [
+    {
+      "id": "353-case-control-or-matched",
+      "subject": "353",
+      "version": "0.1-issue9-3",
+      "title": "EPI05深化：病例对照OR与一对一配对分析",
+      "mapping": [
+        "EPI05"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-16",
+      "applicableYear": 2028,
+      "authorship": "原创虚构研究、数据和题目；非真题、真实研究结果或临床建议",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-bias-control-foundation"
+      ],
+      "prerequisiteExplanation": "先完成研究设计、风险分母与偏倚相关基础，再计算并解释研究效应；先修作答只是进入资格，非专业掌握认证。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+      ],
+      "definition": "病例对照研究按结局抽样；OR比较暴露优势。无配对人员表ad/bc与一对一配对不一致对f/g必须按设计区分。",
+      "explanation": "先复习设计差别：队列从暴露组起步观察结局，传统累计病例对照按是否患病选人，再比较既往暴露。这里的对照应反映产生病例的来源人群的相关暴露情况，而不是随便找最健康的人。选择与回忆/测量差异可能扭曲关联，混杂仍需设计和分析处理。病例对照不等于必须一对一配对，配对也不自动消除全部混杂。\n优势odds不同于风险probability。例如暴露比例2/3时，暴露优势=(2/3)/(1/3)=2，是暴露与未暴露人数之比。OR在本课比较病例的暴露优势和对照的暴露优势。先写行列，不能凭记忆将任意四个格子交叉。OR无量纲，输入框“倍”仅为数值表达习惯，不把它解释为发病风险倍数。\n\n【原创虚构EPI05·澄溪研究】按结局抽取病例与对照：暴露者中病例40人、对照20人；未暴露者中病例20人、对照40人。对照来自同一来源人群的期末非病例，题设无配对，结局与暴露均按同一定义判定。所抽病例/对照人数不是原来源人群风险分母。\n把行定为暴露/未暴露，列定为病例/对照，a=40、b=20、c=20、d=40。病例暴露优势=a/c=2，对照暴露优势=b/d=0.5，所以OR=2/0.5=ad/(bc)=4。它说明该抽样与偏倚条件下暴露优势的关联，不说明4倍的人一定患病。病例列60人由研究抽样决定，不能用40/(40+20)冒充来源人群的暴露组发病风险。\nOR=1为本指标无关联的点值；大于1/小于1的方向还要说明哪一组暴露、哪一结局。传统累计设计在来源人群结局较少见等适当条件下OR可近似RR，绝不无条件写OR=RR。不同病例对照抽样方案有各自解释，本课不泛化到所有风险集抽样。未计算可信区间时不能声称统计显著，OR很大也不能排除偏倚、混杂和随机误差。\n\n【另一独立原创虚构配对资料】40对一病例一对照：两人均暴露18对、仅病例暴露12对、仅对照暴露4对、两人均未暴露6对。每对为预先匹配的独立配对，分析须保留配对信息；该资料不是上一无配对表的同一批人。\n配对表的每格单位是“对”，不是一个人。只把暴露不一致对用于简单一对一配对OR：仅病例暴露f=12、仅对照暴露g=4，OR=f/g=3。18与6这两类一致对不进入这个比值，不能因此说它们在整个研究中毫无价值。若拆散成病例/对照边际人数，会得到30名病例暴露、10名未暴露；22名对照暴露、18名未暴露，粗OR约2.455，不是保留配对的方法。\n适用边界：这是简单一对一匹配的暴露二分类分析；多对照、可变匹配集、分层调整和条件Logistic有各自方法，不能套同一f/g。若g=0，不能把除零硬写成有限数或0/1，应报告零格并采用合适方法评估不确定性。匹配应在方案中说明，不能事后挑对使OR变大。\n\n材料答题示范：澄溪无配对资料的OR=4，依据ad/bc并说明行列；病例对照抽样不能直接给出累计风险。另一个40对配对研究保留配对得到OR=3，不能混用两表。应审查对照来源、暴露回忆及混杂，在缺少区间与因果论证时仅报告关联及局限。\n闭卷先画两种不同表，再计算，再写一句不会误导的解释。延迟时换数字、保留设计条件检验迁移，不背4或3。正式大纲还要求OR95%区间及更完整设计实施等，本单元未完成这些内容，不因12题通过称EPI05完整覆盖。主观题多种合理表达，仅给参考要点；不会自动专业评分。",
+      "example": "【原创虚构EPI05·澄溪研究】按结局抽取病例与对照：暴露者中病例40人、对照20人；未暴露者中病例20人、对照40人。对照来自同一来源人群的期末非病例，题设无配对，结局与暴露均按同一定义判定。所抽病例/对照人数不是原来源人群风险分母。\n把行定为暴露/未暴露，列定为病例/对照，a=40、b=20、c=20、d=40。病例暴露优势=a/c=2，对照暴露优势=b/d=0.5，所以OR=2/0.5=ad/(bc)=4。它说明该抽样与偏倚条件下暴露优势的关联，不说明4倍的人一定患病。病例列60人由研究抽样决定，不能用40/(40+20)冒充来源人群的暴露组发病风险。\nOR=1为本指标无关联的点值；大于1/小于1的方向还要说明哪一组暴露、哪一结局。传统累计设计在来源人群结局较少见等适当条件下OR可近似RR，绝不无条件写OR=RR。不同病例对照抽样方案有各自解释，本课不泛化到所有风险集抽样。未计算可信区间时不能声称统计显著，OR很大也不能排除偏倚、混杂和随机误差。",
+      "conditions": [
+        "2027清华353大纲原文2026-09-30发布，仅作2028暂定依据",
+        "全部数据为完整题设的原创虚构资料；缺失结局不能擅自填零",
+        "主观题参考自核不自动专业评分；区间估计/更复杂分析另列缺口"
+      ],
+      "misconceptions": [
+        "忽略表格行列与分母",
+        "混淆比值和风险差",
+        "关联或点估计当作已证实因果/统计显著",
+        "把待核主观题当答错或长期掌握"
+      ],
+      "recall": [
+        "闭卷说明病例对照抽样与风险分母。",
+        "画澄溪四格表并独立计算。",
+        "画配对四格表，说明每格单位与f/g。",
+        "写关联、偏倚及区间缺口的完整说明。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷说明病例对照抽样与风险分母。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "画澄溪四格表并独立计算。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "画配对四格表，说明每格单位与f/g。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "写关联、偏倚及区间缺口的完整说明。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-case-control-or-matched-g1",
+          "description": "识别设计与odds",
+          "successCriteria": "能解释病例对照不能直接算来源风险",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-case-control-or-matched-b1",
+            "353-case-control-or-matched-b4",
+            "353-case-control-or-matched-a3",
+            "353-case-control-or-matched-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-case-control-or-matched-g2",
+          "description": "计算无配对OR",
+          "successCriteria": "能写行列并独立算ad/bc",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-case-control-or-matched-b2",
+            "353-case-control-or-matched-a1",
+            "353-case-control-or-matched-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-case-control-or-matched-g3",
+          "description": "保留配对关系",
+          "successCriteria": "能用不一致对算OR而非套粗表",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-case-control-or-matched-b3",
+            "353-case-control-or-matched-a2",
+            "353-case-control-or-matched-a4",
+            "353-case-control-or-matched-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-case-control-or-matched-g4",
+          "description": "解释关联与局限",
+          "successCriteria": "能给材料论证及合理下一步，不伪造显著性",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-case-control-or-matched-b4",
+            "353-case-control-or-matched-a4",
+            "353-case-control-or-matched-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-16",
+        "reviewer": "Codex AI内部来源核对与独立复算",
+        "scope": "EPI深化隔离草稿，非完整章节审定",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "【原创虚构EPI05·澄溪研究】按结局抽取病例与对照：暴露者中病例40人、对照20人；未暴露者中病例20人、对照40人。对照来自同一来源人群的期末非病例，题设无配对，结局与暴露均按同一定义判定。所抽病例/对照人数不是原来源人群风险分母。\n研究按什么选人？",
+          "options": [
+            "是否暴露决定所有抽样",
+            "是否为病例/对照，再比较暴露",
+            "随机决定暴露"
+          ],
+          "answer": 1,
+          "explanation": "病例对照的抽样起点是结局；不是随机试验，也不是直接按暴露分组随访的队列。",
+          "id": "353-case-control-or-matched-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "【原创虚构EPI05·澄溪研究】按结局抽取病例与对照：暴露者中病例40人、对照20人；未暴露者中病例20人、对照40人。对照来自同一来源人群的期末非病例，题设无配对，结局与暴露均按同一定义判定。所抽病例/对照人数不是原来源人群风险分母。\n按题设行列计算无配对OR。",
+          "answer": 4,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "病例暴露优势40/20=2，对照20/40=0.5，OR=4；该倍数不是来源人群发病风险。",
+          "id": "353-case-control-or-matched-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "【另一独立原创虚构配对资料】40对一病例一对照：两人均暴露18对、仅病例暴露12对、仅对照暴露4对、两人均未暴露6对。每对为预先匹配的独立配对，分析须保留配对信息；该资料不是上一无配对表的同一批人。\n简单配对OR使用哪两格？",
+          "options": [
+            "仅病例暴露与仅对照暴露的不一致对",
+            "所有人数不看配对",
+            "只用两人都暴露的对"
+          ],
+          "answer": 0,
+          "explanation": "f=12、g=4代表不一致对；与一般未配对人员四格表的单位不同。",
+          "id": "353-case-control-or-matched-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "为什么不能由病例对照抽样人数直接算来源人群累计发病风险？",
+          "answer": "病例和对照数由按结局的抽样决定，未提供来源人群暴露组完整有风险分母及随访；可算OR但不可凭样本列总数制造风险。",
+          "rubric": [
+            "按结局抽样",
+            "分母不是来源有风险人群",
+            "区分OR与风险",
+            "说明需要的资料"
+          ],
+          "explanation": "不要求置信区间公式或未教的复杂抽样；合理同义解释均接受。",
+          "id": "353-case-control-or-matched-b4",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "【原创虚构EPI05·澄溪研究】按结局抽取病例与对照：暴露者中病例40人、对照20人；未暴露者中病例20人、对照40人。对照来自同一来源人群的期末非病例，题设无配对，结局与暴露均按同一定义判定。所抽病例/对照人数不是原来源人群风险分母。\n画行列，推导OR并写有限解释。",
+          "answer": "暴露行40/20，未暴露行20/40，列为病例/对照；40×40/(20×20)=4，只作条件性暴露优势关联，不证明因果或显著。",
+          "rubric": [
+            "行列与a/b/c/d正确",
+            "独立计算4",
+            "不当成4倍来源风险",
+            "保留偏倚/混杂/区间边界"
+          ],
+          "explanation": "支持多种排列表，只要相应推导和参照方向一致；不能机械因字母不同扣分。",
+          "id": "353-case-control-or-matched-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "【另一独立原创虚构配对资料】40对一病例一对照：两人均暴露18对、仅病例暴露12对、仅对照暴露4对、两人均未暴露6对。每对为预先匹配的独立配对，分析须保留配对信息；该资料不是上一无配对表的同一批人。\n保留配对信息计算OR。",
+          "answer": 3,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "仅病例暴露12对/仅对照暴露4对=3，不能把一致对乘进去或拆散成粗表。",
+          "id": "353-case-control-or-matched-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "multi",
+          "stem": "哪些表述符合本课边界？",
+          "options": [
+            "OR点估计不自动证明因果",
+            "所有OR在任何结局下都等于RR",
+            "应核查对照来源与回忆偏倚"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A/C保留设计和证据限制；B缺少抽样与低风险等条件，不能作通则。",
+          "id": "353-case-control-or-matched-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "【另一独立原创虚构配对资料】40对一病例一对照：两人均暴露18对、仅病例暴露12对、仅对照暴露4对、两人均未暴露6对。每对为预先匹配的独立配对，分析须保留配对信息；该资料不是上一无配对表的同一批人。\n有人拆散配对后报告粗OR约2.455并称与3可随意互换。如何回应？",
+          "answer": "配对表单位为对，简单配对分析用12/4=3。拆散失去设计信息；应说明匹配方式和分析依据，不因数值接近而无理由替换。",
+          "rubric": [
+            "区别人员表与配对表",
+            "给出不一致对3",
+            "指出不能任意替换",
+            "说明设计与不确定性/偏倚"
+          ],
+          "explanation": "无需条件Logistic运算；可提出合适进一步分析，不能编造专家或临床批准。",
+          "id": "353-case-control-or-matched-a4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日独立无配对病例对照表：暴露行病例80、对照40；未暴露行病例20、对照30。计算OR。",
+          "answer": 3,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "病例暴露优势80/20=4，对照40/30=4/3，OR=3；不能用配对不一致对公式或当作来源风险。",
+          "id": "353-case-control-or-matched-d1",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日不看公式：比较病例暴露优势与风险，说清本课OR解释边界。",
+          "answer": "优势是暴露与未暴露之比；风险是规定随访内新病例/期初有风险人群。病例对照样本支持条件性OR，不直接提供来源风险。",
+          "rubric": [
+            "区分两个分母",
+            "保留时间条件",
+            "OR非无条件RR",
+            "不声称已排除混杂"
+          ],
+          "explanation": "病例暴露优势用病例中的暴露/未暴露人数，风险须有来源人群有风险分母和规定随访；两者不能互换。接受同义解释，不能只凭术语出现自动专业评分。",
+          "id": "353-case-control-or-matched-d2",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "隔日配对表g=0，f>0，哪项安全？",
+          "options": [
+            "OR必须记0",
+            "OR必须记1",
+            "不能给普通有限f/g，应说明零格并用适当方法"
+          ],
+          "answer": 2,
+          "explanation": "分母为零使常规有限比值失效；不能随意加数掩盖，也不在本课造区间公式。",
+          "id": "353-case-control-or-matched-d3",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日新病例对照样本OR较大，无区间且对照来源不清。写结论与核查计划。",
+          "answer": "目前有较强点关联的线索，但不能定因果或显著。核查来源人群、对照抽样、暴露测量和混杂，并补合适区间及分析。",
+          "rubric": [
+            "关联点值不等于因果",
+            "明确对照来源风险",
+            "检查测量/混杂",
+            "提出分析/区间下一步"
+          ],
+          "explanation": "可有其他合理偏倚，须连到研究设计；机器只保存原文与自评要点。",
+          "id": "353-case-control-or-matched-d4",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI05",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "353-cohort-risk-smr-followup",
+      "subject": "353",
+      "version": "0.1-issue9-3",
+      "title": "EPI06深化：RR、风险差、SMR与随访边界",
+      "mapping": [
+        "EPI06"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-16",
+      "applicableYear": 2028,
+      "authorship": "原创虚构研究、数据和题目；非真题、真实研究结果或临床建议",
+      "prerequisites": [
+        "353-incidence-risk",
+        "353-person-time",
+        "353-bias-control-foundation"
+      ],
+      "prerequisiteExplanation": "先完成研究设计、风险分母与偏倚相关基础，再计算并解释研究效应；先修作答只是进入资格，非专业掌握认证。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+        "https://stacks.cdc.gov/view/cdc/6914/cdc_6914_DS1.pdf",
+        "https://www.cdc.gov/nchs/data/nvsr/nvsr47/nvs47_03.pdf",
+        "https://ibis.doh.nm.gov/resource/SMR_ISR.html"
+      ],
+      "definition": "队列效应量必须匹配风险分母与随访时间：RR相对比、RD绝对差；SMR为实死/分层预期死数；失访未知不当作无病。",
+      "explanation": "从已学风险和人时继续。队列按暴露状态或相应人群起点收集结局，可前瞻也可利用既有记录；研究起点、纳入标准、暴露与结局定义要对齐。本课先假定无病且有风险、同一观察期、完整随访。风险=新病例/期初有风险人数，发病密度=新病例/人时，不能把两者分母互换。研究者不随机分配暴露时，组间既有差别可能混杂。\nRR用暴露风险/未暴露风险，回答相对几倍；风险差RD=暴露风险−未暴露风险，回答绝对多多少。以百分数报告时差用“百分点”，不是相对增加百分比。归因危险度AR常用于解释这种差，但因果归因需要额外条件，不能把观察差自动全算成暴露造成。\n\n【原创虚构EPI06·青禾队列】期初无该病且有风险者：暴露600人、未暴露600人，全部完成同一12个月随访；新发分别60与30人。暴露不是随机分配。\n先写风险I1=60/600=0.10=10%，I0=30/600=0.05=5%；RR=0.10/0.05=2。RD=0.10−0.05=0.05，即12个月多5个百分点，或每100名多5个新病例。相对增加为(2−1)×100%=100%，不是5%。\n暴露组归因比例ARP=(I1−I0)/I1=50%，仅在有充分因果解释及其他条件时用于归因，本题观察点估计不足以保证去掉暴露就减少一半。PARP还涉及总体暴露分布与额外假设，本单元不凭两组任意抽样量编造总体数。风险的时间一致重要：12个月10%不能直接除以另一组3个月5%当同口径RR。\n\n【独立原创标化例】同一年研究人群按两年龄层为2000与1000人；参照人群同层年死亡率为2/1000与8/1000；研究人群该年实死18人。年龄层一致，率的时间及死因定义一致，仅作间接标化描述。\n间接标化：将参照人群各层率应用于研究人群相应层，预期死数E=2000×2/1000+1000×8/1000=4+8=12。SMR=实死O/E=18/12=1.5，无量纲；有文献以150表示，本课数值框要求1.5，不混两种尺度。说明观察死亡是按参照层别率预期的1.5倍，不是死亡风险150%、不是年龄完全消除、不是已证明暴露原因。不能随意用两地粗率之比代替SMR；不同参照率或结构的SMR也不能机械直接排行。此例为同年人口层别率，长队列人年计预期时须匹配层别人时率，不能把人口和人年随意替换。\n失访是未知结局，不是没发病。若有退出者，完整风险公式的假定被破坏；应记录组别、原因、时间和已知结局，按合适方法分析并做缺失敏感性评价。失访多或少不能单凭比例断言偏倚方向；与暴露/结局相关的缺失尤其需重视。\n\n完整材料答题示范：青禾12个月RR=2、RD=5个百分点，组间观察有关联；未随机暴露、混杂及测量仍需评估。独立标化例E=12、SMR=1.5，参照定义与时间须一致，只能在这些条件下解释相对预期。若后续有失访，不可把未知当阴性，须报告并使用适合结局时间和缺失机制的分析。\n延迟练习换分母、RR和SMR再做。数值题必须给本课要求的单位/尺度，主观题先解释再下有限结论。正式EPI06还包括样本量、PARP、剂量反应及完整设计等；本课并未完成全部，不生成无依据得分预测。",
+      "example": "【原创虚构EPI06·青禾队列】期初无该病且有风险者：暴露600人、未暴露600人，全部完成同一12个月随访；新发分别60与30人。暴露不是随机分配。\n先写风险I1=60/600=0.10=10%，I0=30/600=0.05=5%；RR=0.10/0.05=2。RD=0.10−0.05=0.05，即12个月多5个百分点，或每100名多5个新病例。相对增加为(2−1)×100%=100%，不是5%。\n暴露组归因比例ARP=(I1−I0)/I1=50%，仅在有充分因果解释及其他条件时用于归因，本题观察点估计不足以保证去掉暴露就减少一半。PARP还涉及总体暴露分布与额外假设，本单元不凭两组任意抽样量编造总体数。风险的时间一致重要：12个月10%不能直接除以另一组3个月5%当同口径RR。",
+      "conditions": [
+        "2027清华353大纲原文2026-09-30发布，仅作2028暂定依据",
+        "全部数据为完整题设的原创虚构资料；缺失结局不能擅自填零",
+        "主观题参考自核不自动专业评分；区间估计/更复杂分析另列缺口"
+      ],
+      "misconceptions": [
+        "忽略表格行列与分母",
+        "混淆比值和风险差",
+        "关联或点估计当作已证实因果/统计显著",
+        "把待核主观题当答错或长期掌握"
+      ],
+      "recall": [
+        "闭卷画队列四格表并说明风险分母。",
+        "不用范文算RR和RD，解释百分点。",
+        "推导两层预期死亡与SMR。",
+        "说明未知结局为何不能填0，并写材料结论。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷画队列四格表并说明风险分母。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "不用范文算RR和RD，解释百分点。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "推导两层预期死亡与SMR。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "说明未知结局为何不能填0，并写材料结论。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-cohort-risk-smr-followup-g1",
+          "description": "区别队列风险与关联",
+          "successCriteria": "能说明分母/时间和非随机暴露",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-cohort-risk-smr-followup-b1",
+            "353-cohort-risk-smr-followup-b4",
+            "353-cohort-risk-smr-followup-a1",
+            "353-cohort-risk-smr-followup-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-cohort-risk-smr-followup-g2",
+          "description": "计算RR与绝对差",
+          "successCriteria": "能独立算两风险、RR及百分点",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-cohort-risk-smr-followup-b2",
+            "353-cohort-risk-smr-followup-b4",
+            "353-cohort-risk-smr-followup-a1",
+            "353-cohort-risk-smr-followup-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-cohort-risk-smr-followup-g3",
+          "description": "计算并限制SMR",
+          "successCriteria": "能按层求预期死数并解释无量纲比",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-cohort-risk-smr-followup-b3",
+            "353-cohort-risk-smr-followup-a2",
+            "353-cohort-risk-smr-followup-a4",
+            "353-cohort-risk-smr-followup-d2",
+            "353-cohort-risk-smr-followup-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-cohort-risk-smr-followup-g4",
+          "description": "处理失访与推论",
+          "successCriteria": "能写未知结局处理及关联局限",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-cohort-risk-smr-followup-b4",
+            "353-cohort-risk-smr-followup-a3",
+            "353-cohort-risk-smr-followup-a4",
+            "353-cohort-risk-smr-followup-d3",
+            "353-cohort-risk-smr-followup-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-16",
+        "reviewer": "Codex AI内部来源核对与独立复算",
+        "scope": "EPI深化隔离草稿，非完整章节审定",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "【原创虚构EPI06·青禾队列】期初无该病且有风险者：暴露600人、未暴露600人，全部完成同一12个月随访；新发分别60与30人。暴露不是随机分配。\n研究设计最准确的是？",
+          "options": [
+            "随机试验",
+            "按暴露观察结局的队列，仍可能混杂",
+            "按是否发病抽病例对照"
+          ],
+          "answer": 1,
+          "explanation": "起点为暴露组且有完整随访，暴露非随机；不能因有两个组就认定随机试验。",
+          "id": "353-cohort-risk-smr-followup-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "【原创虚构EPI06·青禾队列】期初无该病且有风险者：暴露600人、未暴露600人，全部完成同一12个月随访；新发分别60与30人。暴露不是随机分配。\n12个月RD为多少个百分点？",
+          "answer": 5,
+          "unit": "百分点",
+          "tolerance": 0.001,
+          "explanation": "60/600−30/600=0.05，等于5个百分点，不是5倍或相对增加5%。",
+          "id": "353-cohort-risk-smr-followup-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "【独立原创标化例】同一年研究人群按两年龄层为2000与1000人；参照人群同层年死亡率为2/1000与8/1000；研究人群该年实死18人。年龄层一致，率的时间及死因定义一致，仅作间接标化描述。\n求预期死亡需要什么？",
+          "options": [
+            "相应层参照率乘研究层人数再求和",
+            "用研究粗死亡率除参照粗率即可",
+            "直接把18当预期"
+          ],
+          "answer": 0,
+          "explanation": "间接标化保持相同分层、时间与结局定义；粗率受结构影响，实际数不等于预期数。",
+          "id": "353-cohort-risk-smr-followup-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "解释RR=2与RD=5个百分点分别回答什么，不自动作因果承诺。",
+          "answer": "在相同12个月条件下风险比2；绝对差0.05即5个百分点。观察比较还需控制混杂等，不能承诺消除暴露必消全部差。",
+          "rubric": [
+            "相对与绝对区别",
+            "12个月条件",
+            "百分点尺度",
+            "保留因果局限"
+          ],
+          "explanation": "接受每100人差5例的等价表达，不因语言不同硬判错。",
+          "id": "353-cohort-risk-smr-followup-b4",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "【原创虚构EPI06·青禾队列】期初无该病且有风险者：暴露600人、未暴露600人，全部完成同一12个月随访；新发分别60与30人。暴露不是随机分配。\n推导两个风险、RR、RD与ARP并说明归因限制。",
+          "answer": "10%与5%，RR2，RD5个百分点，ARP50%；ARP的归因解释需因果条件，不能凭观察点值保证效果。",
+          "rubric": [
+            "两风险与时间",
+            "RR2及RD5百分点",
+            "ARP50%的分母为暴露风险",
+            "非随机暴露/混杂和因果限制"
+          ],
+          "explanation": "算术与解释分开核对；ARP不是总体PARP，接受清晰等价写法。",
+          "id": "353-cohort-risk-smr-followup-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "【独立原创标化例】同一年研究人群按两年龄层为2000与1000人；参照人群同层年死亡率为2/1000与8/1000；研究人群该年实死18人。年龄层一致，率的时间及死因定义一致，仅作间接标化描述。\n计算以1为无超额基准的SMR。",
+          "answer": 1.5,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "E=4+8=12，18/12=1.5；不是1.5%或150倍，150只是在100基准表达。",
+          "id": "353-cohort-risk-smr-followup-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "multi",
+          "stem": "出现未知结局失访时哪些合理？",
+          "options": [
+            "记录组别原因与已知信息",
+            "所有失访都填作未发病",
+            "选择合适分析并检查缺失影响"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "未知不能默认无病，分析须结合随访时间及机制；也不能凭失访比例保证无偏。",
+          "id": "353-cohort-risk-smr-followup-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "比较两地SMR前应核对什么？是否等于各地实际死亡风险？",
+          "answer": "核对参照率、分层、时间、死因与研究结构。SMR是观察/预期的相对指数，不是绝对死亡风险，不宜不问条件机械排行。",
+          "rubric": [
+            "核对参照及分层",
+            "时间/结局定义",
+            "相对指数非绝对风险",
+            "可比性有限"
+          ],
+          "explanation": "不要求计算置信区间；可指出仍有残余混杂或随机误差，不能伪造统计显著。",
+          "id": "353-cohort-risk-smr-followup-a4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日独立完整12个月队列：暴露300人新发45，未暴露300人新发15。RR为多少？",
+          "answer": 3,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "两个风险15%和5%，比值3；不能直接把差10个百分点当RR。",
+          "id": "353-cohort-risk-smr-followup-d1",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日回忆：如何按年龄层计算SMR？为何不能用所有死亡除总人数代替？",
+          "answer": "相应参照层率×研究层人数求预期，实死/预期。死亡/人数是粗率，未做预期标化且量的定义不同。",
+          "rubric": [
+            "预期按层计算",
+            "实死/预期",
+            "相同时间及尺度",
+            "区别粗率"
+          ],
+          "explanation": "可采用清楚公式或文字；不假定任何参照人群都与研究人群完全可比。",
+          "id": "353-cohort-risk-smr-followup-d2",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "隔日一组比另一组失访更多，可直接得出什么？",
+          "options": [
+            "必须说明缺失并评估影响，不能直接断言方向或全部阴性",
+            "偏倚必为零",
+            "所有失访必为病例"
+          ],
+          "answer": 0,
+          "explanation": "缺失机制和结局未知，比例差是需分析的信号；不能自行决定未知结局。",
+          "id": "353-cohort-risk-smr-followup-d3",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日新报告称RR=3所以消除暴露必降低三分之二发病，且SMR=1.5代表死亡率150%。指出问题。",
+          "answer": "RR关联不足以保证因果干预效果；要核查设计混杂。SMR是观察/预期比，不是150%的死亡风险，应说明参照和时间。",
+          "rubric": [
+            "关联非效果承诺",
+            "设计/混杂依据",
+            "SMR无量纲及参照",
+            "给最小修订表述"
+          ],
+          "explanation": "观察RR可受混杂等影响，因果干预效果需更多条件；SMR的1.5是实死与分层预期之比，不是某人有150%死亡风险。可用不同谨慎措辞解释，不要求未教授生存模型。",
+          "id": "353-cohort-risk-smr-followup-d4",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI06",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "353-trial-design-effects",
+      "subject": "353",
+      "version": "0.1-issue9-3",
+      "title": "EPI07深化：随机分配、效果尺度与缺失结局",
+      "mapping": [
+        "EPI07"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-16",
+      "applicableYear": 2028,
+      "authorship": "原创虚构研究、数据和题目；非真题、真实研究结果或临床建议",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-cohort-risk-smr-followup"
+      ],
+      "prerequisiteExplanation": "先完成研究设计、风险分母与偏倚相关基础，再计算并解释研究效应；先修作答只是进入资格，非专业掌握认证。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7331429/",
+        "https://stacks.cdc.gov/view/cdc/6914/cdc_6914_DS1.pdf"
+      ],
+      "definition": "实验流行病学把分配设计、偏倚控制和效应解释连接；相对降低与绝对降低需注明方向、参照、观察期，未知结局不能自行填造。",
+      "explanation": "在已学研究设计基础上，这一课把设计和效果连接。随机抽样决定“谁进入样本”，随机分配决定“入组者接受哪一方案”，两者不能互替。试验应先说明对象、干预、对照、主要结局和观察期，在有伦理依据与知情同意的条件下实施。不能为教学比较而人为安排有害暴露。随机分配能在概率意义上平衡已知与未知预后因素，不保证某次样本每项特征绝对相同，也不自动修复随访丢失或测量偏差。\n分配隐藏发生在分组实施前，避免招募者预知下一人进哪组而选择入组；盲法发生在分组后，尽量减少行为和结局测量受组别认知影响。不是说所有教育干预都能让参与者盲，更不是“不能双盲就全无价值”；应说明实际谁盲、哪些不可能及替代控制。\n\n【原创虚构EPI07·晨星试验】符合标准且同意参加者，按预先生成的不可预测序列随机分为教育方案组与常规方案组，各1000人。结局评价者不知道组别，全部完整随访12个月，新发分别60与100人。没有给置信区间或实际临床批准。\n先排表：方案组60新发、940未发；常规组100新发、900未发。方案风险6%，对照风险10%，RR=0.06/0.10=0.6；绝对风险降低ARR=0.10−0.06=0.04=4个百分点；相对风险降低RRR=1−0.6=40%。注意观察方向：若称RD为方案−对照则是−4个百分点，而ARR以对照−方案表示获益。本课数值框明确问哪一方向，不能把40%说成每100人少40例。\n试验样本的点估计不是总体确定效果。没有区间/检验不能宣称统计显著，不知道成本和不良后果不能保证推广划算。相对效应相近而对照风险不同，绝对影响可明显不同；解释必须带观察期、对象、结局与对照方案。\n\n完整性决定分析可信度。意向性分析通常按原随机分组比较，是避免任意重新分组的重要原则；退出干预不等于退出随访，应在合适伦理和程序下尽可能获知结局。依从性不佳、交叉用方案、同时接受不同护理及失访都需报告。意向性原则不是把全部未知结局补0，也不保证任何缺失处理都无偏；完整的估计目标和缺失数据方法还要专门方案。\n独立虚构反例：如果教育组200人结局未知，只用剩余800人中的40例，与对照1000人100例比较，会混入失访选择问题。不能据此把200人当健康，也不能把他们凭空算病例；应报告流向与原因，尽量补随访，按方案处理并做适当敏感性分析。盲法、隐藏与随机的功能不同，彼此不能替代。\n\n完整材料论证示范：晨星随机分配及盲态结局评价有助于控制不同偏倚；12个月观察风险6%对10%，RR0.6、ARR4个百分点、RRR40%，只对应题设人群与对照。仍应核查分配实施、结局定义、完整随访及不利结果，补不确定性资料后评价推广。不能把一次试验、一个相对数或自报满意率作为保证。\n闭卷画表并说明正负方向，延迟题换对照风险和数字。正式大纲还提生存曲线等；本课不假装已建设完整生存分析、非劣效、样本量或临床试验方案，也不宣称符合所有现行法规。来源为教学方法参考，不是新临床许可；主观答案接受合理解释，以要点自核不虚构自动专业分。",
+      "example": "【原创虚构EPI07·晨星试验】符合标准且同意参加者，按预先生成的不可预测序列随机分为教育方案组与常规方案组，各1000人。结局评价者不知道组别，全部完整随访12个月，新发分别60与100人。没有给置信区间或实际临床批准。\n先排表：方案组60新发、940未发；常规组100新发、900未发。方案风险6%，对照风险10%，RR=0.06/0.10=0.6；绝对风险降低ARR=0.10−0.06=0.04=4个百分点；相对风险降低RRR=1−0.6=40%。注意观察方向：若称RD为方案−对照则是−4个百分点，而ARR以对照−方案表示获益。本课数值框明确问哪一方向，不能把40%说成每100人少40例。\n试验样本的点估计不是总体确定效果。没有区间/检验不能宣称统计显著，不知道成本和不良后果不能保证推广划算。相对效应相近而对照风险不同，绝对影响可明显不同；解释必须带观察期、对象、结局与对照方案。",
+      "conditions": [
+        "2027清华353大纲原文2026-09-30发布，仅作2028暂定依据",
+        "全部数据为完整题设的原创虚构资料；缺失结局不能擅自填零",
+        "主观题参考自核不自动专业评分；区间估计/更复杂分析另列缺口"
+      ],
+      "misconceptions": [
+        "忽略表格行列与分母",
+        "混淆比值和风险差",
+        "关联或点估计当作已证实因果/统计显著",
+        "把待核主观题当答错或长期掌握"
+      ],
+      "recall": [
+        "区分随机抽样、分配、隐藏和盲法。",
+        "从晨星四格表推导相对与绝对效应。",
+        "解释退出干预、失访与意向性原则。",
+        "写观察效果、偏倚和推广边界。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "区分随机抽样、分配、隐藏和盲法。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "从晨星四格表推导相对与绝对效应。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "解释退出干预、失访与意向性原则。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "写观察效果、偏倚和推广边界。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-trial-design-effects-g1",
+          "description": "区分随机/隐藏/盲法",
+          "successCriteria": "能说明三个环节而非随机保证绝对相同",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-trial-design-effects-b1",
+            "353-trial-design-effects-a4",
+            "353-trial-design-effects-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-trial-design-effects-g2",
+          "description": "计算效应及方向",
+          "successCriteria": "能算RR及ARR/RRR并说明人群时间",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-trial-design-effects-b2",
+            "353-trial-design-effects-b4",
+            "353-trial-design-effects-a1",
+            "353-trial-design-effects-a2",
+            "353-trial-design-effects-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-trial-design-effects-g3",
+          "description": "评价缺失及分析原则",
+          "successCriteria": "能区别原分组分析与任意填补结局",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-trial-design-effects-b3",
+            "353-trial-design-effects-a3",
+            "353-trial-design-effects-d2",
+            "353-trial-design-effects-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-trial-design-effects-g4",
+          "description": "形成完整试验判断",
+          "successCriteria": "能联系偏倚、效应和不确定性提出有限结论",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-trial-design-effects-b4",
+            "353-trial-design-effects-a1",
+            "353-trial-design-effects-d3",
+            "353-trial-design-effects-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-16",
+        "reviewer": "Codex AI内部来源核对与独立复算",
+        "scope": "EPI深化隔离草稿，非完整章节审定",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "哪项正确区分随机分配与随机抽样？",
+          "options": [
+            "两者始终等价",
+            "抽样选入组对象，分配决定入组后干预组别",
+            "随机分配保证每项基线值完全相同"
+          ],
+          "answer": 1,
+          "explanation": "选择样本与指定干预是不同环节；随机只在概率意义上实现平衡，不能保证每次样本完全相同。",
+          "id": "353-trial-design-effects-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "【原创虚构EPI07·晨星试验】符合标准且同意参加者，按预先生成的不可预测序列随机分为教育方案组与常规方案组，各1000人。结局评价者不知道组别，全部完整随访12个月，新发分别60与100人。没有给置信区间或实际临床批准。\n方案/对照的12个月RR为多少？",
+          "answer": 0.6,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "6%/10%=0.6，无量纲；不是40或4，不能遗漏参照方向。",
+          "id": "353-trial-design-effects-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "试验一位参加者停止干预且结局仍未知，哪项正确？",
+          "options": [
+            "未知不自动等于未发病，应报告并尽量取得结局",
+            "停止干预立即证明没有结局",
+            "可以随意改到另一组以放大效果"
+          ],
+          "answer": 0,
+          "explanation": "退出干预与未知结局是不同问题，原分组原则不授权伪造结局；按可行伦理程序补随访和适当方案处理。",
+          "id": "353-trial-design-effects-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "解释方案风险6%、对照10%时，40%相对降低为何不等于每100人少40例。",
+          "answer": "RR0.6，相对降低40%以对照风险为分母；绝对降低10%−6%=4个百分点，对应每100人少4例的观察差。",
+          "rubric": [
+            "两风险",
+            "相对40%与分母",
+            "绝对4个百分点",
+            "同一12个月与有限点估计"
+          ],
+          "explanation": "可用人数或百分数清晰解释，不要求未教的临床样本量公式。",
+          "id": "353-trial-design-effects-b4",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "【原创虚构EPI07·晨星试验】符合标准且同意参加者，按预先生成的不可预测序列随机分为教育方案组与常规方案组，各1000人。结局评价者不知道组别，全部完整随访12个月，新发分别60与100人。没有给置信区间或实际临床批准。\n给出四格表与三项效果，并写一项不能从材料推出的结论。",
+          "answer": "60/940对100/900；RR0.6，ARR4个百分点，RRR40%。无区间不能认定显著，也不能保证所有人群推广有效。",
+          "rubric": [
+            "正确四格人数",
+            "相对与绝对计算",
+            "方向时间与对照",
+            "明确不确定/推广边界"
+          ],
+          "explanation": "可指出成本/伤害未给等其他合理限制；不能把主观参考清单当专业分数。",
+          "id": "353-trial-design-effects-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "number",
+          "stem": "【原创虚构EPI07·晨星试验】符合标准且同意参加者，按预先生成的不可预测序列随机分为教育方案组与常规方案组，各1000人。结局评价者不知道组别，全部完整随访12个月，新发分别60与100人。没有给置信区间或实际临床批准。\n以对照−方案定义ARR，结果是多少个百分点？",
+          "answer": 4,
+          "unit": "百分点",
+          "tolerance": 0.001,
+          "explanation": "10%−6%=4个百分点；若题问方案−对照RD则−4，本题明确方向不接受把40%当绝对差。",
+          "id": "353-trial-design-effects-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "multi",
+          "stem": "出现失访和不依从时哪些合理？",
+          "options": [
+            "尽量保留原随机分组并补结局",
+            "全部未知结局按未发病填0",
+            "报告流向并依据方案评价缺失影响"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A/C保留设计与缺失问题；意向性原则不授权随意插补未知结局，也不自动保证无偏。",
+          "id": "353-trial-design-effects-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "比较分配隐藏与结局评价盲法，说明教育试验可能无法让参与者盲时怎么办。",
+          "answer": "隐藏使入组实施者不能预见下一组；评价盲法使测量者不知组别。参与者可能无法盲，应如实说明并尽量标准化测量/盲态评价，不冒称双盲或直接否定全部研究。",
+          "rubric": [
+            "分组前隐藏目的",
+            "分组后评价盲法",
+            "可行性与如实报告",
+            "合理替代控制"
+          ],
+          "explanation": "不要求所有研究唯一流程，接受其他适当偏倚控制；不是临床执行建议。",
+          "id": "353-trial-design-effects-a4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "number",
+          "stem": "隔日独立完整12个月试验，方案400人20新发，对照400人40新发。方案/对照RR为多少？",
+          "answer": 0.5,
+          "unit": "倍",
+          "tolerance": 0.001,
+          "explanation": "风险5%与10%，RR=0.5；绝对降低5个百分点，不能用人数差20作比值。",
+          "id": "353-trial-design-effects-d1",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日回忆：随机分配与原分组分析为何都不能自动消除失访影响？",
+          "answer": "随机有助初始可比，原分组分析保留设计，但未知结局仍可能选择性缺失。应获取、报告并按适当方案处理，不填造结果。",
+          "rubric": [
+            "初始平衡与后续不同",
+            "原分组原则",
+            "未知结局不填造",
+            "合理随访/敏感性下一步"
+          ],
+          "explanation": "接受简明解释，不要求掌握未教的多重插补运算或估计目标术语。",
+          "id": "353-trial-design-effects-d2",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "隔日有人称RR0.5无区间，所以已证实统计显著且所有医院适用。正确回应是？",
+          "options": [
+            "RR低于1即可保证所有推广",
+            "点估计需不确定性与适用条件，不自动等于显著/通用",
+            "必须把RR改成1"
+          ],
+          "answer": 1,
+          "explanation": "点值描述样本结果，显著性和可推广性需要相应资料；不能因不充分就篡改原观察值。",
+          "id": "353-trial-design-effects-d3",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日新试验一组大量结局未知，只报告完成者相对降低很大。写材料评价及下一步。",
+          "answer": "完成者结果有选择性缺失风险；先报各组流向原因与结局，尽量补随访，按原设计与适当缺失分析评估，区分相对/绝对影响及时间，不能承诺真实推广效果。",
+          "rubric": [
+            "指出完成者选择/缺失",
+            "保留原分组与实际结局",
+            "效应尺度/观察期",
+            "适当分析和有限结论"
+          ],
+          "explanation": "接受多种合理方案，不要求猜测失访结局；机器保存原文和参考反馈。",
+          "id": "353-trial-design-effects-d4",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-EPI07",
+            "cdc-methods",
+            "tsinghua-2027"
+          ]
+        }
+      ]
+    }
+  ]
+}

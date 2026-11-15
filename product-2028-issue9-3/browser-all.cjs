@@ -1,0 +1,1 @@
+'use strict';const {spawnSync}=require('child_process'),units=require('./units.json').units;for(const u of units){const r=spawnSync(process.execPath,[...process.execArgv,require('path').join(__dirname,'browser.cjs')],{stdio:'inherit',env:{...process.env,ISSUE8_UNIT:u.id}});if(r.status!==0)process.exit(r.status||1);}

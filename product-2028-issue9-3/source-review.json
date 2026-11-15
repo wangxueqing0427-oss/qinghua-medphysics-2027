@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-16",
+  "kind": "AI internal text verification and independent calculation only",
+  "expertApprovals": 0,
+  "officialBasis": {
+    "year": 2027,
+    "scope": "provisional for2028",
+    "index": "https://yz.tsinghua.edu.cn/zsxx/sszs/jzml.htm",
+    "published": "2026-10-08",
+    "read": "Official index entry →2027 directory →096 万科公共卫生与健康学院 →105300/02非全日制医学物理与健康:101/201/353",
+    "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/c0fb8664-255f-4d6f-bf40-a5893e3343ec?ksfs=&yxsdm=096",
+    "final2028Confirmed": false
+  },
+  "official353": {
+    "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+    "title": "清华大学2027年公共卫生硕士研究生入学考试卫生综合（代码353）考试大纲",
+    "published": "2026-09-30",
+    "read": "第二部分A五病例对照、六队列、七实验流行病学；原文HTML164/167/171附近",
+    "applicableYear": 2027,
+    "provisionalFor": 2028,
+    "final2028Confirmed": false
+  },
+  "sources": [
+    {
+      "id": "cdc-methods",
+      "url": "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+      "author": "Richard C.Dicker",
+      "published": "2025-01-06",
+      "read": "Ch8 RR/OR；Handout8.10 matched pairs f/g及单配对边界；Measures of Public Health Impact因果解释限制",
+      "supports": "人员OR、配对OR、风险关联与因果限制",
+      "notSupported": "本课未建立完整OR95%CI、条件Logistic或任何病例对照抽样通则"
+    },
+    {
+      "id": "cdc-principles",
+      "url": "https://stacks.cdc.gov/view/cdc/6914/cdc_6914_DS1.pdf",
+      "version": "3rd edition",
+      "read": "PDF0基227/印刷3-48：风险差与VE=1-RR；PDF0基496/Glossary8 excess risk定义；PDF0基226/印刷3-47归因比例条件",
+      "supports": "风险差/相对效果、归因比例前提",
+      "notSupported": "未知结局可随意插补、任何效应均为因果"
+    },
+    {
+      "id": "nchs-smr",
+      "url": "https://www.cdc.gov/nchs/data/nvsr/nvsr47/nvs47_03.pdf",
+      "author": "Robert N.Anderson; Harry M.Rosenberg",
+      "published": "1998-10-07",
+      "version": "NVSR47(3)",
+      "read": "Technical notes PDF0基12/印刷13，间接标化Eq5文本O/ΣRsiPi；文本可读，截图未回传可见图像，不声称图像已核",
+      "supports": "SMR实死/分层预期及率和人口定义",
+      "notSupported": "任意SMR直接排序或绝对风险；不采用未复核的CI公式"
+    },
+    {
+      "id": "nm-smr",
+      "url": "https://ibis.doh.nm.gov/resource/SMR_ISR.html",
+      "publisher": "New Mexico Department of Health",
+      "read": "Using SMR/Calculating SMR：分层率乘人口、O/E与1/100两尺度、相对指数边界",
+      "supports": "教学换算与解释边界",
+      "notSupported": "不移植其近似置信区间公式"
+    },
+    {
+      "id": "rct-methods",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7331429/",
+      "title": "Critical components for designing and implementing randomized controlled trials",
+      "author": "Xiaolu Nie et al.",
+      "published": "2018-07-16",
+      "doi": "10.1002/ped4.12042",
+      "read": "Principles / How to conduct a high quality RCT：分配隐藏、盲法、依从性、随访及ITT",
+      "supports": "一般方法教学；文中绝对均衡表述未照搬",
+      "notSupported": "不是现行完整CONSORT、临床批准或缺失处理操作规范"
+    }
+  ],
+  "gaps": [
+    "EPI05完整OR95%区间、样本量与多匹配集分析",
+    "EPI06 PARP、剂量反应和更完整随访分析",
+    "EPI07生存曲线、样本量、效应不确定性与完整方案",
+    "独立专业核对所有解释、公式适用边界及主观评分接受范围"
+  ],
+  "units": [
+    {
+      "id": "353-case-control-or-matched",
+      "hash": "30f697c61d5ed4422d20a132d5470b8c95350cd786c6c695994218f6646a24aa",
+      "questions": 12,
+      "independentProfessionalApproved": false,
+      "pending": [
+        "专业人员复核设计边界、单位与多种合理主观解释；内部复算不替代审定"
+      ]
+    },
+    {
+      "id": "353-cohort-risk-smr-followup",
+      "hash": "18e0567d7263fbc260d0a14a324afb5da8adf95765bb68fa611bc01d99bd6590",
+      "questions": 12,
+      "independentProfessionalApproved": false,
+      "pending": [
+        "专业人员复核设计边界、单位与多种合理主观解释；内部复算不替代审定"
+      ]
+    },
+    {
+      "id": "353-trial-design-effects",
+      "hash": "dbc5a41b9270a76010db4d3df4832170721b5fc64c4a7978607eafa1791f1f94",
+      "questions": 12,
+      "independentProfessionalApproved": false,
+      "pending": [
+        "专业人员复核设计边界、单位与多种合理主观解释；内部复算不替代审定"
+      ]
+    }
+  ]
+}
