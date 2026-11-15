@@ -1,0 +1,8 @@
+{
+  "repository": "wangxueqing0427-oss/qinghua-medphysics-2027",
+  "workflowPath": ".github/workflows/2028-ph03-candidate.yml",
+  "verifyJobName": "Verify PH03 candidate",
+  "previewBranches": ["candidate/2026-11-15-ph03-health-system"],
+  "project": "qh2028-core47-preview",
+  "productionAllowed": false
+}

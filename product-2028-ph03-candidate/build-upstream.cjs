@@ -1,0 +1,3 @@
+'use strict';
+// Rebuild only required immutable inputs in the current isolated checkout; no old tests rerun.
+for(const dir of ['product-2028-integration-47','product-2028-integration-47-upgraded','product-2028-mobile-ux-v2','product-2028-mobile-reading-v3','product-2028-reading-v4','product-2028-diagnostic-v5','product-2028-screening-48','product-2028-radiation-49','product-2028-nuclear-50','product-2028-radiotherapy-51','product-2028-stat-inference-52','product-2028-progress-v11','product-2028-v12-additive','product-2028-v13-additive','product-2028-v14-additive','product-2028-v15-additive'])require('../'+dir+'/build.cjs');

@@ -1,0 +1,28 @@
+{
+  "scope": "AI internal source and answer review for Issue4 PH03 minimal unit; not expert approval",
+  "verifiedAt": "2026-11-15",
+  "officialYear": 2027,
+  "provisionalForYear": 2028,
+  "officialSource": {"url":"https://vsph.tsinghua.edu.cn/info/1025/2775.htm","published":"2026-09-30","read":"Original webpage, first part section3: medical/health system, policy and economics","matching":"PH03 is an internal teaching group, not an official weighted question category","confirmedFor2028":false},
+  "sources": [
+    {"id":"governance","url":"https://www.who.int/health-topics/health-systems-governance","published":null,"read":"Overview and Impact paragraphs","supports":"Actors, oversight, governance and quality/equity/access; original course uses an explicitly simplified teaching framework, not an unverified complete WHO six-block list"},
+    {"id":"financing","url":"https://www.who.int/health-topics/health-financing","published":null,"read":"Overview core functions and In practice","supports":"Revenue raising, pooling, purchasing; system labels insufficient for performance comparison","limits":"No China reimbursement rates, DRG coding rules or current local execution certified"},
+    {"id":"cea","url":"https://www.cdc.gov/polaris/php/economics/cost-effectiveness.html","published":"2024-09-20","read":"What is CEA and What inputs; costs per incremental health outcome","supports":"Comparative health units and original positive-delta example","limits":"No willingness-to-pay threshold, QALY valuation or Chinese official exam scoring inferred"},
+    {"id":"cba","url":"https://www.cdc.gov/polaris/php/economics/cost-benefit.html","published":"2024-09-20","read":"Definition and net-benefit output","supports":"Both benefits and costs monetary; benefits minus costs; course examples entirely original"},
+    {"id":"triangle","url":"https://www.emro.who.int/images/stories/evidence-data/Introduction-to-policy-making-processes-policy-brief-workshop.pdf","author":"Arash Rashidian / WHO EMRO","published":"2021-10-25/26 workshop","read":"PDF pages7-11 policy process and PDF page16 policy triangle, text including Context Content Process Actors; no separate printed page numbers asserted","supports":"Walt & Gilson framework and non-mechanical policy processes","limits":"Presentation is methodological teaching, not a Chinese binding regulation"},
+    {"id":"china3-release","url":"https://www.nhsa.gov.cn/art/2026/9/2/art_14_21978.html","published":"2026-09-02","publisher":"National Healthcare Security Administration","read":"Opening Huang Xinyu statement: 2.0 history and formal3.0 release; introduction and implementation discussion","supports":"3.0 publicly released; old2.0 must not be called latest","limits":"Not full formal circular/annex, not all regions' effective status; course excludes concrete quotas, codes, entitlement rates and national implementation deadlines"},
+    {"id":"china3-config","url":"https://www.nhsa.gov.cn/art/2026/9/9/art_14_22070.html","published":"2026-09-09","publisher":"National Healthcare Security Administration","read":"Full short public webpage describing3.0 configuration publication","supports":"Official3.0 materials exist and are versioned","limits":"Excel attachments not downloaded or read; clinical classifications/local transition and amendment completeness unverified"}
+  ],
+  "accessFailures": [
+    {"url":"https://www.who.int/publications/i/item/9789241564052","result":"404","countedAsOriginalRead":false},
+    {"url":"https://www.who.int/publications/b/31426","result":"Publications generic shell; book overview not returned on actual open","countedAsOriginalBookRead":false},
+    {"url":"https://iris.who.int/bitstream/handle/10665/258734/9789241564052-eng.pdf","result":"403","countedAsOriginalRead":false},
+    {"url":"https://www.cdc.gov/polaris/php/economics/cost-benefit-analysis.html","result":"404; successfully read the linked cost-benefit.html page instead","countedAsRead":false}
+  ],
+  "sourceLinksByQuestionSuffix": {"b1":["governance"],"b2":["financing"],"b3":["cea","cba"],"b4":["triangle"],"a1":["governance","financing"],"a2":["financing"],"a3":["cea"],"a4":["triangle","governance"],"d1":["financing","governance"],"d2":["china3-release","china3-config","financing"],"d3":["cba"],"d4":["triangle","governance"]},
+  "independentArithmetic": {"a3":{"deltaCost":6000,"deltaEffect":4,"ratio":1500,"unit":"元/例"},"d3":{"monetizedBenefit":50000,"cost":30000,"netBenefit":20000,"unit":"元"}},
+  "currentPolicyBoundary": "Only release/publication facts directly confirmed, not certification that all3.0 provisions are currently effective in every locality.2.0 documents remain historical evidence, not latest-rule substitutes.",
+  "remainingPH03Gaps": ["Chinese health/insurance system history and full current benefit rules", "Healthy China2030 original full policy study", "Complete named-country high/low-income system comparison", "Full economic evaluation including discounting, QALY and uncertainty", "Complete professional validation of incentive models and material-answer rubrics"],
+  "expertApprovals": 0,
+  "formalReleaseApproved": false
+}

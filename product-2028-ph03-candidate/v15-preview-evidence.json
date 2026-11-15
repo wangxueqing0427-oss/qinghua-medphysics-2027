@@ -1,0 +1,103 @@
+{
+  "sourceSHA": "2cbeee7961f3682ce5ab2bb593f1dec77f9ecc94",
+  "url": "https://60ec933c.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "60ec933c-e02f-4094-b014-38cc6b40c810",
+  "assets": [
+    {
+      "path": "index.html",
+      "sha256": "11577507dcc4a10e03e2852b3a62802f7f77f88008f596b4a8fddd1835691e54",
+      "status": 200
+    },
+    {
+      "path": "app.css",
+      "sha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e",
+      "status": 200
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "status": 200
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "bbc7519d45fb67bae0ec21d0540772ba61d5199c2be5b0f769252f06db7408ff",
+      "status": 200
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "status": 200
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "8118e23f3beea5bad12de9ad6c051598096851ff023a377d20ee951f3bc04dd9",
+      "status": 200
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "status": 200
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "4e066682f0a36028be035342627596dc7e33ad445d236aaf3e5ce335f3cda3af",
+      "status": 200
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "e101ba15f4421b320c6678f61ff217a40cf7c38f89f0d5d456494d989d416c93",
+      "status": 200
+    },
+    {
+      "path": "sw.js",
+      "sha256": "9f0199e19ac58dbadeba01bc36ae41467cd19f02696c57ecee668a963b9746b4",
+      "status": 200
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "status": 200
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "status": 200
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "status": 200
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "3d21503ebd14f550e7adca8717a2cbf16520af7aa3fed64e256330e98f3e27c6",
+      "status": 200
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "8c9170938ff81bfd66980adc9685ae32167a1e59e84d81b36196a27206e6df6a",
+      "status": 200
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "8c8413f576403a5f51cc7bef6fcefebf3363e20d57dbd3ff5e3c0e80a16df7f7",
+      "status": 200
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "df8faf6f03e306af57d11c046c4f51eaa0d4eae2d0997ac80d4a4b5753acfdb7",
+      "status": 200
+    }
+  ],
+  "browser": {
+    "engine": "Edge Chromium",
+    "viewport": "iPhone13",
+    "online": true,
+    "draftCloseReopen": true,
+    "realRecallSubmission": true,
+    "syntheticOnly": true
+  },
+  "physicalIPhone": false,
+  "actualLearningDataTouched": false,
+  "passed": true
+}

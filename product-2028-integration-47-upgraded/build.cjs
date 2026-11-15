@@ -557,3 +557,22 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-13-v15-evidence-meta'){
   assert(fs.readFileSync(path.join(out,'index.html'),'utf8').includes('migration-bridge.js'));
   console.log('Independent V15 EPI11 56-course candidate preview built; V14 and formal production unchanged');
 }
+
+// Issue #4: exact isolated PH03 branch only; immutable prior V15 build is retained.
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-15-ph03-health-system'){
+  (async()=>{
+    assert.equal(process.env.CF_PAGES,'1','PH03 preview hook requires Cloudflare Pages');
+    const proof=await require('../product-2028-ph03-candidate/ci-gate.cjs').wait({sha:process.env.CF_PAGES_COMMIT_SHA,branch:process.env.CF_PAGES_BRANCH});
+    assert.equal(proof.ready,true,'No successful exact-SHA PH03 CI proof');
+    require('../product-2028-ph03-candidate/build-upstream.cjs');
+    require('../product-2028-ph03-candidate/build.cjs');
+    const r=require('../product-2028-ph03-candidate/build-receipt.json');
+    assert.equal(r.courses,57);assert.equal(r.questions,644);assert.equal(r.legacy56CourseContentIdentical,true);
+    assert.equal(r.formalReleaseApproved,false);assert.equal(r.independentProfessionalApprovals,0);
+    const folder=path.join(__dirname,'../product-2028-ph03-candidate/.build');
+    assert(fs.readdirSync(out).every(name=>r.files.some(f=>f.path===name)),'Unexpected public output file');
+    for(const f of r.files){assert(!f.path.includes('..')&&!path.isAbsolute(f.path));const b=fs.readFileSync(path.join(folder,f.path));assert.equal(digest(b),f.sha256,'PH03 preview hash drift');fs.writeFileSync(path.join(out,f.path),b);}
+    assert.deepEqual(fs.readdirSync(out).sort(),r.files.map(f=>f.path).sort(),'PH03 output must contain exactly the approved assets');
+    console.log(JSON.stringify({ph03Preview:true,sourceSHA:process.env.CF_PAGES_COMMIT_SHA,ci:proof,courses:57,questions:644,assets:r.files.length,old56Unchanged:true,production:false}));
+  })().catch(e=>{console.error('PH03 preview refused:',e);process.exitCode=1;});
+}

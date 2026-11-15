@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "ph03-2026-11-15-original-draft",
+  "units": [
+    {
+      "id": "353-health-system-financing-policy-foundation",
+      "subject": "353",
+      "version": "0.1-ph03",
+      "title": "PH03入门：卫生体系、筹资支付与政策经济分析",
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "本项目原创讲解、虚构地区材料、例题及参考核对点；不是清华真题、医保操作手册或临床建议",
+      "mapping": [
+        "PH03"
+      ],
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "prerequisiteExplanation": "先理解公共卫生和预防的群体视角；本课重新解释支付与经济术语，不假定学过卫生经济学。",
+      "sources": [
+        "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+        "https://www.who.int/health-topics/health-systems-governance",
+        "https://www.who.int/health-topics/health-financing",
+        "https://www.cdc.gov/polaris/php/economics/cost-effectiveness.html",
+        "https://www.cdc.gov/polaris/php/economics/cost-benefit.html",
+        "https://www.emro.who.int/images/stories/evidence-data/Introduction-to-policy-making-processes-policy-brief-workshop.pdf",
+        "https://www.nhsa.gov.cn/art/2026/9/9/art_14_22070.html",
+        "https://www.nhsa.gov.cn/art/2026/9/2/art_14_21978.html"
+      ],
+      "explanation": "先分清三个问题：谁提供服务、钱从哪里来并如何购买服务、谁制定规则并监督。医疗卫生体系不是医院名单，而是为改善健康而相互联系的机构、人员、资源和制度安排。医院、基层服务机构、公共卫生机构是服务链条中的不同参与者；政府、购买方、专业人员和居民也有不同作用。本课用“服务提供—筹资支付—治理与信息”作入门梳理，不把这三个教学问题冒称唯一或完整的官方模块。例：虚构海桥县的社区站提供随访，县医院接收必要转诊，购买方向机构支付服务费用，协调方用质量与覆盖数据改进规则。新建一栋医院不等于人员、药品、信息和转诊自动衔接。以人为本的整合，重点看居民需求和连续照护，而非把所有机构物理合并。对两个虚构地区进行比较时，应比较服务可及性、筹资与风险分担、购买安排、质量和公平；不能只凭“税收型”或“保险型”标签判断哪一个一定更好。\n\n筹资回答钱从哪里来；资金汇集回答哪些预付资金放在一起、怎样分担人群支出风险；购买回答把钱付给谁、购买什么服务。税收、预付保险缴费、就医时自付属于不同资金来源，不能把汇集等同于再收一次费，也不能把医院收款方式当作居民筹资方式。按项目付费按提供的项目及规则支付，可能形成增加项目数量的激励；按人头付费在约定期间、服务范围和风险调整条件下按登记人数支付，可能激励预防和成本控制，也要防止少供服务或挑选低风险对象；按病组/病种支付围绕符合规则的病例结算，不能简化成“每个患者病情和资源需要完全一样”。这些是简化激励分析，不是必然行为或各地实际费率。中国医保政策有版本和地方条件：2024年的2.0文件是历史依据，不能说它仍是最新版本；本次实际读取医保局2026年9月2日发布会正文及9月9日3.0配置信息公开页，确认已发布3.0资料。本课不据此推断所有地方已经完成切换，不教授未核对的分组编码、报销比例或限额。支付给机构的结算规则与个人待遇、临床必要性是不同层面，不能仅凭一个支付标准就推断患者应停止治疗。\n\n经济评价先写比较对象、评价视角、时间范围、成本项目和结局定义。成本效果分析CEA的成本用货币，效果用相同健康单位，例如一年避免的病例数；这里仅在新增成本ΔC>0、新增效果ΔE>0时演算增量成本效果比ΔC/ΔE。完全虚构、同一人群同一年、同一成本口径：甲方案成本20000元、避免10例；乙方案成本26000元、避免14例。第一步ΔC=6000元；第二步ΔE=4例；第三步6000/4=1500元/额外避免1例。不能用乙的总成本直接除以甲的效果，不同时间或结局不宜硬比；ΔE=0不可照除，负数情形不能只凭比值大小排序。本课不提供现实决策阈值。成本效益分析CBA则把成本与收益都用货币表达；本课只练同一期、同一价格口径下的净效益=货币化收益−成本。虚构收益50000元、成本30000元，净效益20000元；若换成多年度需另外处理折现，不在本课计算。经济评价不是医保报销公式，成本效果较好也不保证预算负担得起或公平；还需看质量、可及性和分配影响。\n\n政策分析不能只复述通知标题。用Walt与Gilson政策三角作入门：内容是改变什么；背景是人口需求、资源约束与制度环境；参与者包括居民、服务提供者、购买方及管理者，需问其利益、资源和影响；过程是如何提出、协商、实施并反馈修订。四者相互影响，并非保证按固定顺序成功的算法。虚构海桥县要改善偏远地区随访，拟将部分随访服务按人头购买：内容是服务包与支付安排；背景是交通不便和人员不足；参与者要包括居民代表与一线人员；过程可先试点、记录覆盖和质量、再调整。费用下降不能单独证明健康改善或因果效果；至少同时看随访覆盖、必要服务是否减少、质量、居民自付与弱势人群可及性，并说明观察期和比较方法。材料题先摘取事实，再用框架解释机制、指出风险，最后提出可测改进。此课仅是2027大纲第一部分第三项的部分基础草稿，2028要求待核；未完成中国制度史、健康中国2030全文、完整国家比较或全面卫生经济学，不得把PH03整体记为已覆盖。",
+      "definition": "本课入门框架区分服务组织、筹资汇集购买、经济比较和政策过程。CEA在限定可比模型下用ΔC/ΔE；CBA同口径净效益=货币化收益−成本。政策三角为内容、背景、参与者与过程。",
+      "conditions": "仅为PH03部分基础草稿；2027大纲暂供2028备考，2028最终要求未确认。地区、案例和数值完全虚构；不设真实报销、支付费率、统一成本效果阈值或治疗上限。3.0公开资料仅支持已发布事实，不代表已核实所有地方执行及完整现行法律。多年度折现、成本效用QALY、制度史、健康中国2030全文及完整跨国比较未在本课教完。",
+      "example": "虚构甲20000元避免10例、乙26000元避免14例：增量6000元/4例=1500元/例。另一同年CBA收益50000元−成本30000元=净效益20000元。两题口径不同，不混算。",
+      "misconceptions": [
+        "把医院规模等同卫生体系质量，或只凭税收/保险标签定优劣",
+        "把筹资、资金汇集、购买和患者个人待遇混为一谈",
+        "把支付激励当作必然结果，把历史2.0文件当最新统一规则",
+        "混用货币和病例单位，或只凭费用下降推断公平和因果改善"
+      ],
+      "recall": [
+        "闭卷区分提供服务、购买支付与治理信息，并解释为何医院不等于体系。",
+        "闭卷分别解释筹资、汇集、购买，以及机构结算为什么不等于个人待遇。",
+        "闭卷写出本课CEA与CBA的单位、比较对象和限定计算条件。",
+        "闭卷用内容、背景、参与者和过程分析材料，写出两项监测指标。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "虚构海桥县的社区站、医院、购买方和协调方分工。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "虚构一年服务包按人头支付，注意质量和高风险人群。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "同口径增量1500元/例；另题净效益20000元。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "海桥县随访试点：四方面分析与多维评价。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-health-system-financing-policy-foundation-g1",
+          "description": "区分卫生体系的服务、支付与治理问题",
+          "successCriteria": "能对材料中的角色和连续照护缺口分别归类，并提出可测改进",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-health-system-financing-policy-foundation-b1",
+            "353-health-system-financing-policy-foundation-a1",
+            "353-health-system-financing-policy-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-g2",
+          "description": "区分筹资汇集购买与机构支付、个人待遇",
+          "successCriteria": "能识别资金功能和支付激励，说明政策版本与适用边界",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-health-system-financing-policy-foundation-b2",
+            "353-health-system-financing-policy-foundation-a2",
+            "353-health-system-financing-policy-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-g3",
+          "description": "在可比条件下区分CEA和CBA并完成数量分析",
+          "successCriteria": "能计算1500元/例的增量比值及20000元净效益，拒绝混用单位",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-health-system-financing-policy-foundation-b3",
+            "353-health-system-financing-policy-foundation-a3",
+            "353-health-system-financing-policy-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-g4",
+          "description": "运用政策分析框架进行有边界的书面论证",
+          "successCriteria": "能把内容背景参与者过程与材料对应，提出质量公平指标而不作因果保证",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-health-system-financing-policy-foundation-b4",
+            "353-health-system-financing-policy-foundation-a4",
+            "353-health-system-financing-policy-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "rubric": [
+        "能对材料中的角色和连续照护缺口分别归类，并提出可测改进",
+        "能识别资金功能和支付激励，说明政策版本与适用边界",
+        "能计算1500元/例的增量比值及20000元净效益，拒绝混用单位",
+        "能把内容背景参与者过程与材料对应，提出质量公平指标而不作因果保证"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日先闭卷重述四个框架，再完成南湾区新材料与不同口径的数量题；不要照抄海桥县例子。"
+      },
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部来源与独立解题核查；非真人专业审定",
+        "scope": "PH03入门部分；不声称全范围覆盖",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "id": "353-health-system-financing-policy-foundation-b1",
+          "type": "single",
+          "stem": "虚构县域中，哪项判断能体现“体系”而非只看单个医院？",
+          "answer": 1,
+          "explanation": "B把服务联系、支付和监督一起考虑；A只看房屋，C把不同职能混为一谈。",
+          "difficulty": "basic",
+          "options": [
+            "只比较医院建筑面积",
+            "同时查看基层随访、必要转诊、购买安排和质量监督",
+            "只要由同一机构管理，服务一定连续"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-b2",
+          "type": "single",
+          "stem": "虚构安排：先按制度筹集预付资金，再汇集分担支出风险，最后向服务机构支付。这三个环节依次是？",
+          "answer": 0,
+          "explanation": "A对应筹资来源、资金汇集和购买；B、C颠倒或混淆功能。该流程是分析划分，不等于唯一组织结构。",
+          "difficulty": "basic",
+          "options": [
+            "筹资—汇集—购买",
+            "购买—筹资—汇集",
+            "医院建设—临床诊断—居民缴费"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-b3",
+          "type": "multi",
+          "stem": "关于本课两种经济评价，哪些表述准确？",
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A是CEA比较健康结局单位的特点；C是CBA的同口径净效益。B混淆收益计量，D忽略预算和公平。",
+          "difficulty": "basic",
+          "options": [
+            "CEA可以用元/额外避免1例表示增量比值",
+            "CBA中健康收益不需要货币化也可直接与元相减",
+            "本课CBA净效益为货币化收益减成本",
+            "成本效果比低就证明所有预算和公平问题已解决"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-b4",
+          "type": "single",
+          "stem": "居民希望参与服务包讨论，但设计者只复制通知标题。政策三角首先提醒补充什么？",
+          "answer": 2,
+          "explanation": "C补足内容、背景、参与者与过程；A、B误把政策分析变成口号或必然顺序。",
+          "difficulty": "basic",
+          "options": [
+            "不必了解居民和一线人员意见",
+            "任何政策都必须完全按同一个顺序实施",
+            "明确改变内容、背景、参与者及形成实施过程"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-health-system-financing-policy-foundation-a1",
+          "type": "subjective",
+          "stem": "虚构海桥县：社区站随访，医院转诊接诊，购买方按约定结算；偏远居民交通不便，转诊记录不互通。请区分服务提供、支付、治理/信息问题，并给一项以居民为中心的改进，不许只回答“多建医院”。",
+          "answer": "社区站与医院提供不同环节的服务；购买方结算属于购买支付；交通和记录衔接涉及可及性、协调和信息治理。可提出共同转诊记录、明确转诊责任与回转随访等具体改进，并用连续随访覆盖或转诊完成情况评价。扩大建筑本身不保证衔接。",
+          "explanation": "参考点要求角色、问题和可测改进相互对应；合理的人员配置或交通支持方案也可，不要求唯一措辞，不自动评分。",
+          "difficulty": "application",
+          "rubric": [
+            "区分社区/医院服务与购买方支付功能",
+            "指出交通或记录不互通会影响连续照护",
+            "给出针对材料的协调、信息或可及性改进",
+            "用合理指标评价改进，不把建房等同体系完善"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-a2",
+          "type": "multi",
+          "stem": "虚构合同按登记人群、约定一年和基本服务包支付基层机构，复杂个案另按合同处理。哪些判断成立？",
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A符合有限范围的按人头购买；C把可能的少供服务风险与质量监测联系。B把机构支付误当患者待遇，D把可能激励说成必然。",
+          "difficulty": "application",
+          "options": [
+            "这是本题限定条件下的按人头支付例子",
+            "可直接据此确定每个患者的报销比例",
+            "需监测必要服务和高风险人群是否被排斥",
+            "按人头支付必然使所有机构不提供服务"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-a3",
+          "type": "number",
+          "stem": "虚构同一人群同一年同一成本口径：甲成本20000元、避免10例；乙成本26000元、避免14例。求新增成本/新增避免例数。单位元/例，仅输入数值。",
+          "answer": 1500,
+          "explanation": "新增成本26000−20000=6000元；新增效果14−10=4例；6000/4=1500元/例。仅在本题口径可比、两项增量均为正的条件下计算，不能据此自动决定真实医保政策。",
+          "difficulty": "application",
+          "unit": "元/例",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-a4",
+          "type": "subjective",
+          "stem": "虚构海桥县拟按人头购买偏远居民随访。材料只有“试点后支出减少”，没有服务覆盖或结局对照。按政策三角提出分析，并说明为何不能立即宣布改革提高健康且更公平。",
+          "answer": "内容看服务包和支付；背景看交通及人员不足；参与者看居民、一线服务者、购买方和协调者；过程看协商、试点、实施反馈。费用下降可能有多种原因，不能单凭前后变化确认健康因果收益。还应收集覆盖、必要服务、质量、自付与弱势群体可及性，并设定观察期和适当比较。",
+          "explanation": "不要求补造真实调查数据或套用未教的复杂因果估计。允许不同有效指标，但要对应材料风险；主观题仅供核对。",
+          "difficulty": "application",
+          "rubric": [
+            "说明内容和背景，避免只有支付名称",
+            "识别材料中的参与者及可能利益",
+            "给出试点、实施、监测反馈的过程分析",
+            "支出变化不能单独证明健康改善或公平/因果",
+            "至少提出两个对应质量、覆盖或分配的指标"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-health-system-financing-policy-foundation-d1",
+          "type": "single",
+          "stem": "隔日迁移：虚构甲地区靠税收预付为主，乙地区靠保险缴费预付为主。哪项比较最合理？",
+          "answer": 1,
+          "explanation": "B避免用制度标签代替功能评价；A、C都无条件推断优劣或服务质量。两个地区均为虚构，不代表任何国家。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "只凭税收型标签可判甲一定更公平",
+            "还需比较汇集分担、服务可及性、质量、购买和居民负担",
+            "只要居民缴了保险，所有服务都自动可得"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-d2",
+          "type": "subjective",
+          "stem": "隔日纠错：“中国DRG/DIP只有2024年2.0版；按病例支付金额就是患者治疗上限；某地采用这种支付就必然改善质量。”请逐项纠正，只使用课内已核实范围。",
+          "answer": "2024年2.0是历史文件；本课实际核实医保局2026年9月公开的3.0资料已发布，但未核实所有地方切换和具体编码。机构结算与患者待遇及临床必要性不同，不能仅由支付额推出停止治疗。激励可能影响行为，实际质量和公平需以资料评价，不能断言必然改善。",
+          "explanation": "版本以课内注明的官方发布页和访问范围为限，不要求背分组数量、报销比例或当地执行时间，也不把公开页当作完整现行法律核验。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "明确2.0不是可无条件称最新的版本，已核实3.0发布",
+            "保留地方切换、编码和待遇范围未核实的边界",
+            "区分机构支付、个人待遇和临床必要性",
+            "用可能激励与评价证据替代必然质量改善"
+          ]
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-d3",
+          "type": "number",
+          "stem": "隔日虚构CBA：同一年、同一价格口径，货币化总收益50000元、总成本30000元。净效益是多少元？只输入数值。",
+          "answer": 20000,
+          "explanation": "50000−30000=20000元。这里效益已货币化，不可把“避免病例数”直接与元相减；未加入多年度折现和现实决策结论。",
+          "difficulty": "delayed-transfer",
+          "unit": "元",
+          "tolerance": 1e-9
+        },
+        {
+          "id": "353-health-system-financing-policy-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日新材料：虚构南湾区拟减少不必要住院。医院希望稳定收入，居民担忧必要服务不足，管理者只报告平均费用下降。请写一段有事实依据、机制、边界和改进指标的政策分析。",
+          "answer": "可按内容（支付及服务范围）、背景（资源和需求）、参与者（医院、居民、购买/管理方）和实施过程分析。支付激励可能改变服务行为，但费用下降不能单独证明住院均不必要或改革有效。应核对必要服务、质量、可及性、自付及不同风险群体结果，开展透明协商与持续反馈；指标及对照需按材料和资源确定。",
+          "explanation": "接受其他合理框架组织，但需覆盖参与者和实施证据，不要求虚构资料、固定答案模板或专业自动评分。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "把材料中的医院与居民不同关切写入分析",
+            "区分降低费用与减少不必要服务/改善健康",
+            "说明至少一个可能机制并保留条件",
+            "提出至少两个有针对性的质量或公平指标",
+            "说明试点或反馈评估安排，不凭单项前后变化作因果保证"
+          ]
+        }
+      ]
+    }
+  ]
+}

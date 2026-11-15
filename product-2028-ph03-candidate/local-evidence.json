@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-15",
+  "baseline": "2cbeee7961f3682ce5ab2bb593f1dec77f9ecc94",
+  "scope": "Isolated source snapshot; no Git initialization or production changes",
+  "targetedLogic": {"command":"node --test product-2028-ph03-candidate/test.cjs","passed":9,"failed":0,"fakeIndexedDB":true},
+  "browser": {"command":"node product-2028-ph03-candidate/browser.cjs","engine":"Installed Edge Chromium","mobileViewport":"iPhone13","passed":true,"checks":6,"physicalIPhone":false,"syntheticClockForDelayedTest":true,"actualLocalTCPInterruption":true},
+  "initialFailuresPreserved": [
+    {"attempt":1,"type":"test harness","observed":"create click completed, navigation wait timed out; screenshot showed correct profile created","fix":"Wait for actual course catalog and state rather than unrelated navigation; use normal searchable course menu; no assertions removed"},
+    {"attempt":2,"type":"candidate product","observed":"Subjective answer lost leading/trailing whitespace in copied V15 UI","fix":"Only PH03 builder patches UI submit to test trimmed emptiness while retaining full original answer; V15 source/build unchanged"},
+    {"attempt":3,"type":"test harness","observed":"Next-question unit assertion raced previous feedback before asynchronous save/render","fix":"Await actual next question ID and practice stage, retain unit and answer assertions"}
+  ],
+  "finalBrowserAttempt":4,
+  "historicalReportsAndTraces": "Retained in isolated local product-2028-ph03-candidate/results; not uploaded as private workspace archive",
+  "old56CourseObjectsAnd632QuestionsUnchanged": true,
+  "oldV15AssetHashesUnchanged": true,
+  "fullOldTestSuitesRerun": false,
+  "mobileWebKitLocalTest": false,
+  "mobileWebKitCIPending": true,
+  "expertApprovals": 0,
+  "actualLearningDataTouched": false,
+  "productionApproved": false
+}
