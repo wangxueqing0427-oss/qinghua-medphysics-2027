@@ -1,0 +1,10 @@
+{
+  "baseline": "8122325ac84ce6d0b8b2b93f25b1f36d352f8ef7",
+  "firstResult": "confirmed failed literal equality against unmodified batchB mock engine",
+  "input": "  First paragraph.\n\nSecond paragraph.  ",
+  "actual": "First paragraph.\n\nSecond paragraph.",
+  "expected": "  First paragraph.\n\nSecond paragraph.  ",
+  "rootCause": "mock-engine normalize returned answer.trim()",
+  "minimalFix": "candidate-only return answer after existing nonblank/length validation; objective normalization unchanged",
+  "expertApprovals": 0
+}

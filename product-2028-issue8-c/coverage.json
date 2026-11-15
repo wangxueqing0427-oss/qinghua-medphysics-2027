@@ -1,0 +1,445 @@
+{
+  "sourceSHA": "local-uncommitted",
+  "internalTopicCount": 27,
+  "associated": 27,
+  "official2028FullCoverageVerified": false,
+  "independentProfessionalApprovals": 0,
+  "subjects": [
+    {
+      "subject": "en",
+      "courses": 15,
+      "questions": 164
+    },
+    {
+      "subject": "pol",
+      "courses": 14,
+      "questions": 156
+    },
+    {
+      "subject": "353",
+      "courses": 36,
+      "questions": 408
+    }
+  ],
+  "rows": [
+    {
+      "id": "PH01",
+      "title": "公共卫生定义、健康指标及伦理",
+      "courseIds": [
+        "353-health-indicators-ethics"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "PH02",
+      "title": "三级预防、疾病负担与防控",
+      "courseIds": [
+        "353-public-health-prevention"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "PH03",
+      "title": "卫生体系、筹资支付、经济与政策",
+      "courseIds": [
+        "353-health-system-financing-policy-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "PH04",
+      "title": "公共卫生应急、法律与国际规则",
+      "courseIds": [
+        "353-public-health-emergency-ihr-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "PH05",
+      "title": "全球健康、GBD及资源分配",
+      "courseIds": [
+        "353-global-health-burden-priorities"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "PH06",
+      "title": "健康教育与健康促进",
+      "courseIds": [
+        "353-health-promotion-behaviour"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI01",
+      "title": "流行病学基础、方法与应用",
+      "courseIds": [
+        "353-study-design-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI02",
+      "title": "疾病分布、发病死亡指标与三间分布",
+      "courseIds": [
+        "353-incidence-risk",
+        "353-person-time",
+        "353-frequency-denominator",
+        "353-ratio-rate-prevalence"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI03",
+      "title": "病因与因果推断",
+      "courseIds": [
+        "353-bias-control-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI04",
+      "title": "描述性、现况与生态学研究",
+      "courseIds": [
+        "353-study-design-foundation",
+        "353-random-sampling-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI05",
+      "title": "病例对照与OR、配对分析、偏倚",
+      "courseIds": [
+        "353-study-design-foundation",
+        "353-bias-control-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅研究设计/偏倚等前置，尚缺完整病例对照OR/队列RR与随访/试验设计应用，不可当完整课程"
+    },
+    {
+      "id": "EPI06",
+      "title": "队列研究、RR、AR与SMR",
+      "courseIds": [
+        "353-study-design-foundation",
+        "353-incidence-risk",
+        "353-person-time",
+        "353-bias-control-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅研究设计/偏倚等前置，尚缺完整病例对照OR/队列RR与随访/试验设计应用，不可当完整课程"
+    },
+    {
+      "id": "EPI07",
+      "title": "实验流行病学及试验评价",
+      "courseIds": [
+        "353-study-design-foundation",
+        "353-bias-control-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅研究设计/偏倚等前置，尚缺完整病例对照OR/队列RR与随访/试验设计应用，不可当完整课程"
+    },
+    {
+      "id": "EPI08",
+      "title": "筛检和诊断试验评价",
+      "courseIds": [
+        "353-screening-test-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI09",
+      "title": "传染病传播与暴发调查",
+      "courseIds": [
+        "353-outbreak-investigation-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "EPI10",
+      "title": "疾病监测与监测系统评价",
+      "courseIds": [
+        "353-surveillance-evaluation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "监测评价入门，中国现行系统/报告程序未完整核对"
+    },
+    {
+      "id": "EPI11",
+      "title": "循证医学与系统评价、Meta分析",
+      "courseIds": [
+        "353-evidence-systematic-review-meta-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "STAT01",
+      "title": "数据类型、描述指标、抽样与相关",
+      "courseIds": [
+        "353-variable-types",
+        "353-mean-median",
+        "353-dispersion-foundation",
+        "353-random-sampling-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "STAT02",
+      "title": "概率、抽样分布、区间估计与假设检验",
+      "courseIds": [
+        "353-probability-binomial-foundation",
+        "353-normal-distribution-foundation",
+        "353-sampling-distribution-se",
+        "353-inference-ci-hypothesis-foundation",
+        "353-t-tests-paired-independent-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "STAT03",
+      "title": "方差分析、分类数据检验与各类回归",
+      "courseIds": [
+        "353-anova-chi-regression-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "入门方法，不含全部实验设计、诊断与建模深度"
+    },
+    {
+      "id": "CROSS01",
+      "title": "公共卫生情境跨学科理解、推理、AI与伦理",
+      "courseIds": [
+        "353-cross-disciplinary-evidence-writing"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "MP01",
+      "title": "物理量与医学物理核心测量评价",
+      "courseIds": [
+        "353-quantity-measurement",
+        "353-uncertainty-foundation",
+        "353-energy-power",
+        "353-waves-interactions"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅基础/部分材料应用；临床剂量学、QA与专业边界仍待复核"
+    },
+    {
+      "id": "MP02",
+      "title": "辐射防护原理",
+      "courseIds": [
+        "353-radiation-protection-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅基础/部分材料应用；临床剂量学、QA与专业边界仍待复核"
+    },
+    {
+      "id": "MP03",
+      "title": "核医学影像原理",
+      "courseIds": [
+        "353-nuclear-imaging-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅基础/部分材料应用；临床剂量学、QA与专业边界仍待复核"
+    },
+    {
+      "id": "MP04",
+      "title": "放射治疗物理原理",
+      "courseIds": [
+        "353-radiotherapy-physics-foundation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅基础/部分材料应用；临床剂量学、QA与专业边界仍待复核"
+    },
+    {
+      "id": "MP05",
+      "title": "AI与大数据在医学物理及公卫中的应用",
+      "courseIds": [
+        "353-medical-ai-validation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    },
+    {
+      "id": "MP06",
+      "title": "建筑空间、空气环境与通风健康影响",
+      "courseIds": [
+        "353-space-air-ventilation"
+      ],
+      "association": "partial-draft-association",
+      "officialYear": 2027,
+      "targetYear": 2028,
+      "confirmed2028": false,
+      "officialCoverage": null,
+      "expertApproved": false,
+      "depthGap": "仅入门/部分；需继续逐条目标和考试能力审核"
+    }
+  ],
+  "skills": "Explicit routed reading; reuse existing engine/verification mechanisms without historical rebuild tests",
+  "exam": {
+    "diagnosticAvailable": true,
+    "singleSubjectQuestions": 8,
+    "mixedQuestions": 12,
+    "durations": "20/30 minutes are practice settings only",
+    "fullLengthOfficialMock": false,
+    "formalExamScore": null,
+    "subjectiveProfessionalAutoScore": false,
+    "diagnosticTyping": "Save on navigation/back/submit; not each keystroke. Unsaved typing before navigation remains a limitation."
+  },
+  "phone": {
+    "automated": "Chromium and mobile WebKit candidate checks only",
+    "physicalIPhone": false,
+    "keyboard": "focus/viewport checks only, not physical iOS keyboard",
+    "backgroundPWA": "await physical final acceptance"
+  },
+  "data": {
+    "newNamespace": true,
+    "automaticMigration": false,
+    "oldArchivesUnmodified": true
+  }
+}

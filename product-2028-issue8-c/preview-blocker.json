@@ -1,0 +1,16 @@
+{
+  "batch": "B",
+  "sourceSHA": "8122325ac84ce6d0b8b2b93f25b1f36d352f8ef7",
+  "runId": 43727784893,
+  "candidateVerification": "passed",
+  "httpsVerification": "blocked-failed",
+  "deploymentId": "3fc25f1c-b20a-414e-b758-285e65c96cf9",
+  "actualRead": "Cloudflare UI build code log",
+  "httpStatus": 403,
+  "remaining": 0,
+  "resetUTC": "2026-11-15T15:43:45Z",
+  "gateAttempts": 3,
+  "proofGranted": false,
+  "next": "Retry same SHA only after reset, preserve initial failure; do not rerun passed candidate tests",
+  "CDevelopment": "Safe local convergence proceeds from verified B source; B HTTPS is not claimed passed"
+}
