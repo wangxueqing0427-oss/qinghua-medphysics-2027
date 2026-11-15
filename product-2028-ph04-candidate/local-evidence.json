@@ -1,18 +1,41 @@
 {
-  "date":"2026-11-15",
-  "baseline":"ab6722925216de8bbdb944d9ffe12b5ae0dc88cf",
-  "logic":{"command":"node --test product-2028-ph04-candidate/test.cjs","passed":9,"failed":0,"fakeIndexedDB":true},
-  "browser":{"engine":"Installed Edge Chromium","mobileViewport":"iPhone13","checksPassed":6,"checksFailed":0,"actualTCPServerCut":true,"syntheticClockForDueTest":true,"physicalIPhone":false},
-  "failuresPreserved":[
-    {"attempt":1,"type":"content schema","observed":"definition and example fields missing","fix":"Added substantive definition and worked case fields; retained validator"},
-    {"attempt":2,"type":"local command path","observed":"evidence generator invoked relative to source instead of task root; 8/9 tests passed, source-review absent","fix":"Used existing generator at correct absolute path, then 9/9 passed; no assertions removed"}
+  "date": "2026-11-15",
+  "baseline": "ab6722925216de8bbdb944d9ffe12b5ae0dc88cf",
+  "logic": {
+    "command": "node --test product-2028-ph04-candidate/test.cjs",
+    "passed": 10,
+    "failed": 0,
+    "fakeIndexedDB": true
+  },
+  "browser": {
+    "engine": "Installed Edge Chromium",
+    "mobileViewport": "iPhone13",
+    "checksPassed": 6,
+    "checksFailed": 0,
+    "actualTCPServerCut": true,
+    "syntheticClockForDueTest": true,
+    "physicalIPhone": false
+  },
+  "failuresPreserved": [
+    {
+      "attempt": 1,
+      "type": "content schema",
+      "observed": "definition and example fields missing",
+      "fix": "Added substantive definition and worked case fields; retained validator"
+    },
+    {
+      "attempt": 2,
+      "type": "local command path",
+      "observed": "evidence generator invoked relative to source instead of task root; 8/9 tests passed, source-review absent",
+      "fix": "Used existing generator at correct absolute path, then 9/9 passed; no assertions removed"
+    }
   ],
-  "old57Courses644QuestionsUnchanged":true,
-  "oldPH03SeventeenAssetHashesUnchanged":true,
-  "historicalTestSuitesRerun":false,
-  "linuxChromiumAndWebKitCI":"pending",
-  "expertApprovals":0,
-  "actualLearningDataTouched":false,
-  "formalReleaseApproved":false,
-  "skills":"Explicitly read six relevant repository skills; reuse their existing engine/objective/ledger principles with candidate-targeted checks. Legacy skill runner targets old catalog, not proof of this new course."
+  "old57Courses644QuestionsUnchanged": true,
+  "oldPH03SeventeenAssetHashesUnchanged": true,
+  "historicalTestSuitesRerun": false,
+  "linuxChromiumAndWebKitCI": "pending",
+  "expertApprovals": 0,
+  "actualLearningDataTouched": false,
+  "formalReleaseApproved": false,
+  "skills": "Explicitly read six relevant repository skills; reuse their existing engine/objective/ledger principles with candidate-targeted checks. Legacy skill runner targets old catalog, not proof of this new course."
 }

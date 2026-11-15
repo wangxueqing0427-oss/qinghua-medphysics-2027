@@ -1,0 +1,19 @@
+{
+  "sourceSHA":"dd55b2c3635f9725bfdc28f7633f6dfcf6316e5a",
+  "ciRun":43701334193,
+  "verifyJob":132772910869,
+  "verifyResult":"success",
+  "onlineJob":132773149548,
+  "onlineResult":"failed because Cloudflare preview build failed; no URL delivered",
+  "cloudflareProject":"qh2028-core47-preview",
+  "deploymentId":"670541f9-0bfc-40d3-beb8-c411d646dfe6",
+  "actualLogRead":"Cloudflare Dashboard code element, read-only; no settings or deployment changes",
+  "timestamp":"2026-11-15T09:52:37.029856Z",
+  "error":"PH04 preview refused: AssertionError [ERR_ASSERTION]: GitHub gate API failed: 403",
+  "observedCommand":"node product-2028-integration-47/build.cjs && node product-2028-integration-47-upgraded/build.cjs",
+  "diagnosis":"Public GitHub gate read returned 403 before course build; original gate immediately rejected. Response rate-limit headers were not logged, so rate-limit cause is NOT confirmed.",
+  "fix":"Only new PH04 gate logs status/rate-limit headers and retries at most three failed public reads with 30s pauses; only actual trusted exact-SHA successful verification can grant proof. Persistent error still fails closed.",
+  "tests":"Transient 403 then real fixture success; persistent 403 bounded rejection; failed CI cannot retry or grant proof. 10/10 local tests passed.",
+  "bypassed":false,
+  "productionChanged":false
+}
