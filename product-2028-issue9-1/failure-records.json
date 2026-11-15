@@ -1,0 +1,13 @@
+{
+  "scope": "Issue9 batch1 incremental tests; no old suite rerun",
+  "expertApprovals": 0,
+  "initialFailures": [
+    {"kind":"node attempt1","passed":4,"failed":3,"error":"older root courses legitimately have no prerequisites field","fix":"test iterates prerequisites || []; new courses still require exact prerequisites"},
+    {"kind":"node attempt2","passed":5,"failed":2,"error":"SvaPrerequisite global missing in Node harness","fix":"load existing real SVA checker and complete all prerequisite initial and delayed answers; do not bypass preflight"},
+    {"kind":"Chromium library attempt1","error":"full stem string differs from DOM line layout after existing sentence reader enhancement","fix":"assert every complete stem line and all12 exact sentence elements instead of exact whitespace concatenation"},
+    {"kind":"Chromium library attempt2","error":"synthetic prerequisite future timestamps sort after target course answer","fix":"prerequisite synthetic clock starts90 days earlier; target answers still independently asserted"}
+  ],
+  "finalLocal": {"node":{"passed":7,"failed":0},"Chromium":{"courses":2,"passed":2,"groupsPerCourse":7,"actualTCPOutage":true,"physicalIPhone":false}},
+  "linuxWebKit": "pending exact-SHA CI",
+  "notes": ["First browser JSON/PNG/trace retained under ignored results; CI artifacts retain future attempts.","No assertions deleted, no production content answers changed to pass tests."]
+}

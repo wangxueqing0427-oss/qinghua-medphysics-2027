@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-16",
+  "kind": "AI internal source and answer check only",
+  "expertApprovals": 0,
+  "officialBasis": {
+    "year": 2027,
+    "scope": "provisional for2028",
+    "index": "https://yz.tsinghua.edu.cn/zsxx/sszs/jzml.htm",
+    "published": "2026-10-08",
+    "read": "Official index entry →2027 directory →096 万科公共卫生与健康学院 →105300/02非全日制医学物理与健康:101/201/353",
+    "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/c0fb8664-255f-4d6f-bf40-a5893e3343ec?ksfs=&yxsdm=096",
+    "final2028Confirmed": false
+  },
+  "sources": [
+    {
+      "id": "bc-relative",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses",
+      "read": "Teaching body: subject/object relative pronouns, omission constraints, non-defining clause; no publication date displayed",
+      "supports": "clause parsing; not an official postgraduate syllabus"
+    },
+    {
+      "id": "mw-although",
+      "url": "https://www.merriam-webster.com/dictionary/although",
+      "read": "Definition section lines31–42",
+      "supports": "concessive conjunction; no copied examples"
+    }
+  ],
+  "failed": [
+    {
+      "source": "British Council contrasting ideas pages",
+      "status": "body unavailable; not verified"
+    },
+    {
+      "source": "Cambridge although grammar",
+      "status": "403; not verified"
+    },
+    {
+      "source": "Merriam reopen/maintenance",
+      "status": "combined output truncated; no claimed actual reading"
+    }
+  ],
+  "units": [
+    {
+      "id": "en-reading-library-evidence",
+      "hash": "f4e99fef7ca310e667a7d3b08f87f378d3aefba6be75b23b587127876d8dc60e",
+      "originalPassage": true,
+      "questions": 12,
+      "independentProfessionalApproved": false,
+      "pending": [
+        "Independent teacher review of translation equivalence and writing rubric",
+        "Authentic iPhone TTS and final learning experience; not inferred from browser tests"
+      ]
+    },
+    {
+      "id": "en-reading-garden-writing",
+      "hash": "9d24d147611b52f716f41ba555491a89746e45bc69e51297c825070d1f88abdd",
+      "originalPassage": true,
+      "questions": 12,
+      "independentProfessionalApproved": false,
+      "pending": [
+        "Independent teacher review of translation equivalence and writing rubric",
+        "Authentic iPhone TTS and final learning experience; not inferred from browser tests"
+      ]
+    }
+  ],
+  "firstCorrections": [
+    {
+      "issue": "Chinese scaffolding initially paraphrased rather than tracked G1–G12 exactly",
+      "resolution": "Re-read all12 original sentences; replaced with aligned Chinese interpretation before tests; no prior published unit changed"
+    }
+  ]
+}

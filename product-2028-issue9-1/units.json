@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "issue9-1-original-reading-writing",
+  "units": [
+    {
+      "id": "en-reading-library-evidence",
+      "subject": "en",
+      "version": "0.1-issue9-1",
+      "title": "阅读与表达进阶Ⅰ：图书馆开放时间的证据链",
+      "mapping": [
+        "en-integrated-reading-writing"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构公共服务阅读、例句和练习；非真题或真实研究。",
+      "prerequisites": [
+        "en-reading-evidence-foundation"
+      ],
+      "prerequisiteExplanation": "继承已存在的基础阅读链；本课逐步拆解新增让步、非限定插入和推断，不能把做过SVO等同完整长句能力。",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses",
+        "https://www.merriam-webster.com/dictionary/although"
+      ],
+      "definition": "从已有句子骨架与基础阅读进阶：保留主句、逻辑和证据边界，用语境理解词汇，再以准确英文表达与翻译重组信息。",
+      "explanation": "先读完整原创文章，再拆句，不重复背SVO术语。段1 L1—L4提出期待与落差；段2 L5—L8介绍试行及测量局限；段3 L9—L12给未解决障碍和有条件下一步。主旨不是“修楼无用”或“一律晚开”，而是服务设计要了解使用者。长句L3先抽出A survey suggested that its opening hours were a problem，主语是survey、谓语suggested、that从句为其内容；which included...补充survey，内部people who...限定被纳入的人。删除插入信息是分析步骤，不是说原文信息无价值。L2 Although先让步承认楼更安全，后述来客少于预期，不能翻成“因为楼安全所以来客少”。\n原创全文：\nL1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n逐句中文理解提示（作答仍需回到英文证据）：\nL1 修缮后镇图书馆重开，员工期待读者立即回来。\nL2 楼更安全，但首月到访比预期少。\nL3 调查纳入未到馆者，提示开放时间对晚间工作者构成问题。\nL4 不少受访者信任图书馆，却赶不上五点关门。\nL5 每周试行两晚延时，总开放小时不变。\nL6 把清闲早间时段移到晚间，而非加员工工时。\nL7 八周试行晚间到访增加，未区分独立人数与重复到访。\nL8 所以难判断吸引新人还是改变常客习惯。\nL9 有家长说末班车太早，晚开不能解决全部障碍。\nL10 经理建议先谈交通并重做调查，再定长期时刻表。\nL11 并非每馆都应晚开；要了解服务对象。\nL12 更好时刻表值得研究，不保证修楼解决所有可及问题。\n\n词汇从词形到语境。reopen在此是重新开放，repair是修缮；词首re并不总能机械拆，必须核对全词。distinct people指不同的人，repeat visits指重复到访次数；visits increased不等于new users increased。barrier在L9不是实体路障而是妨碍到访的条件。permanent timetable与trial相对，表示长期采用而不是证明永远不变。主动回忆时遮住释义，自己用reopen、barrier或distinct写一句与原文不同的通顺句，再核对是否保留语境；只认得中文不等于能表达。例：A narrow entrance can be a barrier for some visitors.\n定位示范：问为什么不能认定吸引新用户，先找L7没有区分人和次数，再联系L8。This limitation指未区分独立人数与重复到访，不是问卷完全无用；L3包含未使用者可用于讨论纳入范围，但不能据此保证无偏。\n\n推断要标强度：L9可支持“延时没有消除全部障碍”，不能支持“所有父母都无车”或“晚开必定有害”。L5总开放小时不变，L6说明移动时段而非增加员工工时；选项若把移时段改成加总时长就是反向干扰。用论点—句号证据—限定组织答案：The trial suggests a possible benefit, but it does not establish how many new users were reached. 这里possible、does not establish保留证据强度，不是回避作答。对话式复述时先说计划目标，再说资料能和不能说明什么；不能加不存在的百分比或现实城市效果。\n\n从原句改写到翻译再写完整短文。L8可译为“这一局限使人难以判断，这一改变是吸引了新使用者，还是仅仅改变了常来者的习惯。”语序可调整，must保留difficult而非impossible、whether的两种可能，不逐字卡译法。改写Evening visits rose, but the records did not identify how many visitors were new，意义与L7—L8相符，不可改成The policy proved successful for everyone。\n写作练习为给负责人一封约80—120词建议信，字数是本课练习约定，不是官方考试分值标准。完整原创示范：\nDear Library Manager,\nThank you for testing a new timetable. The survey suggests that early closing was a barrier for some evening workers. I support a limited extension on selected days, provided that the library also checks staff workload and transport needs. The rise in evening visits is encouraging, but repeat visits were not separated from distinct users. A further survey could show who benefited and who still could not attend. Please include non-users in that review before making the timetable permanent. This would make the decision more responsive without claiming that one change solves every access problem.\nYours sincerely,\nA resident\n核对四点：回应目的；准确引用一项观察及一项局限；提出可执行下一步并照顾人群；组织连贯、语法与词语可理解。可支持继续有限试验或暂缓长期采用，只要论据条件一致。机器只保存原文和参考要点，不准确自动判分。闭卷重构逻辑后，隔日用新场景迁移，TTS仅为设备辅助。",
+      "example": "A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.",
+      "conditions": [
+        "2027可核目录列201英语一，2028未确认；本课训练共享能力，不宣称真题题型或分值",
+        "两篇全文与题目均为原创虚构材料，非现实研究、真题或临床建议",
+        "翻译与写作接受意义准确的多种表达；参考自评而非专业自动分",
+        "本机TTS音色及离线可用性依赖设备已安装语音，不请求付费API"
+      ],
+      "misconceptions": [
+        "删修饰时丢失主句或让步逻辑",
+        "词缀机械拆分即可取代语境",
+        "把限定观察扩为所有场景的因果保证",
+        "写作只堆高级词而改变材料事实"
+      ],
+      "recall": [
+        "闭卷写出L3主句与which、who各指什么。",
+        "不用看释义，用barrier写自己的例句，说明visits与people区别。",
+        "用L7—L9证明什么仍未知。",
+        "翻译L8，再给经理写一段有条件建议。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷写出L3主句与which、who各指什么。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "不用看释义，用barrier写自己的例句，说明visits与people区别。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "用L7—L9证明什么仍未知。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "翻译L8，再给经理写一段有条件建议。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-reading-library-evidence-g1",
+          "description": "拆分复杂句和让步",
+          "successCriteria": "能识别L3主句/两层修饰并保留L2让步关系",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-reading-library-evidence-b1",
+            "en-reading-library-evidence-a1",
+            "en-reading-library-evidence-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-library-evidence-g2",
+          "description": "在语境中主动用词",
+          "successCriteria": "能区分人数/次数并独立使用词汇而非只选释义",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-reading-library-evidence-b2",
+            "en-reading-library-evidence-a2",
+            "en-reading-library-evidence-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-library-evidence-g3",
+          "description": "用句号证据限制推断",
+          "successCriteria": "能用L5—L9反驳不受支持的全称或因果断言",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-reading-library-evidence-b3",
+            "en-reading-library-evidence-a3",
+            "en-reading-library-evidence-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-library-evidence-g4",
+          "description": "重组信息并完成表达",
+          "successCriteria": "能准确翻译关键句并写有依据有边界的短建议信",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-reading-library-evidence-b4",
+            "en-reading-library-evidence-a4",
+            "en-reading-library-evidence-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部逐句与独立解题核查，非独立教师",
+        "scope": "原创阅读/表达进阶，非完整英语一体系",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\nL2中Although的作用是什么？",
+          "options": [
+            "说明楼更安全导致来客减少",
+            "承认改善，同时引出与期待相反的观察",
+            "说明楼仍不安全"
+          ],
+          "answer": 1,
+          "explanation": "L2先承认safer，再对照fewer visitors；不是因果，也没有否认安全改善。干扰项把让步改成因果或反向事实。",
+          "evidenceIds": [
+            "L2"
+          ],
+          "id": "en-reading-library-evidence-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\nL7的distinct people与repeat visits区别最合理的是？",
+          "options": [
+            "都是独立新用户人数",
+            "前者是不同的人，后者可能由同一人多次形成",
+            "两者都是员工工时"
+          ],
+          "answer": 1,
+          "explanation": "同一人可多次到访，次数上升不必带来独立人数上升；工时见L6，不是L7的计数对象。",
+          "evidenceIds": [
+            "L7",
+            "L8"
+          ],
+          "id": "en-reading-library-evidence-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\nL8的This limitation主要指什么？",
+          "options": [
+            "未分别统计不同访客与重复到访",
+            "建筑未维修",
+            "不允许访客填写问卷"
+          ],
+          "answer": 0,
+          "explanation": "L8紧接L7，限制是计数口径；L1说明已修缮，L3有问卷，后两项与原文不符。",
+          "evidenceIds": [
+            "L7",
+            "L8"
+          ],
+          "id": "en-reading-library-evidence-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n请将L8译成通顺中文，保留两种可能与不确定程度。",
+          "answer": "这一局限使人难以判断，这一改变吸引了新使用者，还是仅改变常来者的习惯。",
+          "rubric": [
+            "保留未分人次/人数的语境",
+            "difficult不是完全不可能",
+            "保留whether两种可能",
+            "中文通顺且不补造因果"
+          ],
+          "explanation": "可用不同语序或同义词，不要求逐字一致；不能把“难以判断”译成“已证明”。",
+          "evidenceIds": [
+            "L7",
+            "L8"
+          ],
+          "id": "en-reading-library-evidence-b4",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n请分步拆解L3，并解释which与who各修饰什么，不能丢掉suggested的主句内容。",
+          "answer": "主句A survey suggested that its opening hours were a problem for evening workers；which...补充survey，who...限定people。问卷包含未到访者并建议关注时段，但不保证无偏。",
+          "rubric": [
+            "找出主句survey/suggested",
+            "which指survey",
+            "who修饰people",
+            "保留报告内容与推断边界"
+          ],
+          "explanation": "接受结构图或等价文字，不因术语名称不同自动判错；原句完整才可确认关系。",
+          "evidenceIds": [
+            "L3"
+          ],
+          "id": "en-reading-library-evidence-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n根据L5—L6，试行如何安排员工时间？",
+          "options": [
+            "增加每周总工时",
+            "把部分清闲上午时段移至晚间，非增加总开放小时",
+            "取消所有上午开放"
+          ],
+          "answer": 1,
+          "explanation": "keeping the same total与moved some明确限制；A/C将局部时段调整夸为增加工时或全部取消。",
+          "evidenceIds": [
+            "L5",
+            "L6"
+          ],
+          "id": "en-reading-library-evidence-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "multi",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n哪些判断获得文章直接支持或谨慎推断？",
+          "options": [
+            "后续调查应关注仍无法到访的人",
+            "所有人都更喜欢晚间且无成本",
+            "仅延时未消除所有障碍"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "L9交通限制和L10进一步调查支持A/C；B添加所有人、零成本的全称保证，原文无此证据。",
+          "evidenceIds": [
+            "L9",
+            "L10"
+          ],
+          "id": "en-reading-library-evidence-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n给图书馆负责人写约80—120词英文建议：准确提一项观察、一项限制与下一步。可支持或暂缓永久调整。",
+          "answer": "Dear Library Manager,\nThank you for testing a new timetable. The survey suggests that early closing was a barrier for some evening workers. I support a limited extension on selected days, provided that the library also checks staff workload and transport needs. The rise in evening visits is encouraging, but repeat visits were not separated from distinct users. A further survey could show who benefited and who still could not attend. Please include non-users in that review before making the timetable permanent. This would make the decision more responsive without claiming that one change solves every access problem.\nYours sincerely,\nA resident",
+          "rubric": [
+            "回应收信人与试行问题",
+            "准确写观察且不编造新用户数",
+            "写清计数/交通等局限",
+            "给可执行有条件建议",
+            "段落连贯、语法可理解，接受同义表达"
+          ],
+          "explanation": "示范不是唯一答案；80—120仅练习目标，机器不按关键词或字数生成专业分数。",
+          "evidenceIds": [
+            "L5",
+            "L7",
+            "L9",
+            "L10"
+          ],
+          "id": "en-reading-library-evidence-a4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n隔日新句Although the rooms were repaired, attendance remained low because transport was limited. 哪项逻辑正确？",
+          "options": [
+            "维修导致所有交通问题",
+            "维修已完成但到访仍少，后者有交通受限的解释",
+            "到访增加证明维修有效"
+          ],
+          "answer": 1,
+          "explanation": "Although为让步，because解释attendance remained low；不能把两个连接关系倒置或补造增加。",
+          "evidenceIds": [
+            "L2",
+            "L9"
+          ],
+          "id": "en-reading-library-evidence-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n隔日不用抄文：分别用reopen与barrier造一句英文，再解释为什么more visits未必是more people。",
+          "answer": "The shop will reopen on Monday. Cost can be a barrier to study. 同一个人可能多次到访，因此次数和不同人数不等价。",
+          "rubric": [
+            "reopen语义恰当",
+            "barrier有合理语境",
+            "句子基本通顺且非只列中文",
+            "解释人次与人数不同"
+          ],
+          "explanation": "造句内容可不同，词形和时态可合理变化；不要求复用示范，也不认定单次表达代表长期掌握。",
+          "evidenceIds": [
+            "L7",
+            "L8",
+            "L9"
+          ],
+          "id": "en-reading-library-evidence-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n隔日有人把文章主旨写为“所有图书馆都必须延时”。应怎样纠正？",
+          "options": [
+            "文章强调根据人群证据评价方案，而非通用命令",
+            "原文已证明全体人群健康提升",
+            "只要问卷就能证明因果"
+          ],
+          "answer": 0,
+          "explanation": "L11明确拒绝普遍套用，L7—L10保留口径和障碍；B/C扩大为原文未测的健康或因果效果。",
+          "evidenceIds": [
+            "L7",
+            "L10",
+            "L11"
+          ],
+          "id": "en-reading-library-evidence-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n隔日新场景：社区服务点延时后到访次数增加，但未数不同人数且未访谈非使用者。写约60—100词英文评价与下一步。",
+          "answer": "More visits may be encouraging, but the records do not show how many new people were reached. I would ask non-users about remaining barriers and compare the results before making the change permanent. The decision should consider staff time as well as access.",
+          "rubric": [
+            "保留观察而非保证",
+            "明确人数/次数限制",
+            "提出询问非使用者等下一步",
+            "表达连贯且不伪造数据"
+          ],
+          "explanation": "接受合理支持或暂缓建议；练习字数非官方题型规则，延迟题检验迁移而非背写示范。",
+          "evidenceIds": [
+            "L7",
+            "L10",
+            "L11"
+          ],
+          "id": "en-reading-library-evidence-d4",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-L",
+            "bc-relative"
+          ]
+        }
+      ],
+      "readingPassages": [
+        {
+          "id": "L",
+          "title": "阅读与表达进阶Ⅰ：图书馆开放时间的证据链",
+          "original": true,
+          "lines": [
+            {
+              "id": "L1",
+              "text": "When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked."
+            },
+            {
+              "id": "L2",
+              "text": "Although the building was safer than before, the first month brought fewer visitors than the staff had expected."
+            },
+            {
+              "id": "L3",
+              "text": "A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers."
+            },
+            {
+              "id": "L4",
+              "text": "Many respondents said that they trusted the library but could not arrive before it closed at five."
+            },
+            {
+              "id": "L5",
+              "text": "The staff therefore tested two late evenings each week, while keeping the same total number of opening hours."
+            },
+            {
+              "id": "L6",
+              "text": "They moved some quiet morning hours to the evening rather than asking staff to work longer."
+            },
+            {
+              "id": "L7",
+              "text": "During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits."
+            },
+            {
+              "id": "L8",
+              "text": "This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors."
+            },
+            {
+              "id": "L9",
+              "text": "Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier."
+            },
+            {
+              "id": "L10",
+              "text": "The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable."
+            },
+            {
+              "id": "L11",
+              "text": "The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach."
+            },
+            {
+              "id": "L12",
+              "text": "A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem."
+            }
+          ],
+          "paragraphGroups": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              9,
+              10,
+              11,
+              12
+            ]
+          ]
+        }
+      ],
+      "writingModel": "Dear Library Manager,\nThank you for testing a new timetable. The survey suggests that early closing was a barrier for some evening workers. I support a limited extension on selected days, provided that the library also checks staff workload and transport needs. The rise in evening visits is encouraging, but repeat visits were not separated from distinct users. A further survey could show who benefited and who still could not attend. Please include non-users in that review before making the timetable permanent. This would make the decision more responsive without claiming that one change solves every access problem.\nYours sincerely,\nA resident"
+    },
+    {
+      "id": "en-reading-garden-writing",
+      "subject": "en",
+      "version": "0.1-issue9-1",
+      "title": "阅读与表达进阶Ⅱ：社区花园的比较、翻译与短写",
+      "mapping": [
+        "en-integrated-reading-writing"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-15",
+      "applicableYear": 2028,
+      "authorship": "原创虚构公共服务阅读、例句和练习；非真题或真实研究。",
+      "prerequisites": [
+        "en-reading-library-evidence"
+      ],
+      "prerequisiteExplanation": "先完成图书馆课的证据边界、翻译和有条件建议，再迁移到花园公共价值与不同群体的短论证。",
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses",
+        "https://www.merriam-webster.com/dictionary/although"
+      ],
+      "definition": "从已有句子骨架与基础阅读进阶：保留主句、逻辑和证据边界，用语境理解词汇，再以准确英文表达与翻译重组信息。",
+      "explanation": "第二篇换成社区空间与资源选择，检验是否能迁移。G1—G4介绍目标、参与和修改；G5—G8给价值分歧与资料边界；G9—G12给非使用者、成本和结论。不能把花园作为医学研究来读：没有健康测量，不能自己补血压或发病数字。句G6先抽出Another replied that a garden might be valuable；which more neighbours could use修饰garden，even if引出让步条件“即使产菜较少”。它允许讨论不同价值，不证明产菜减少必然提高健康。原创完整文章：\nG1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n逐句中文理解提示（作答仍需回到英文证据）：\nG1 邻里小组想把闲院变为可种菜、见面的共享花园。\nG2 组织者先征求租户意见，包含未参加首会的人，而非直接宣布定案。\nG3 一些老年居民赞成，却担心窄路和离家距离。\nG4 增宽路径、添休息处，但留给种植的面积变少。\nG5 一名志愿者因种植床减少，称新设计生产性较低。\nG6 另一人认为更多邻居能用的花园，即便少产菜也可能有价值。\nG7 一季后记录到访次数和收成重量，没有测健康变化。\nG8 这些记录描述空间如何使用，未证明居民更健康。\nG9 不能以未到访断定不喜欢园艺，工作时间与交通也可能影响。\nG10 扩项目前拟问未使用者的障碍，并检查维护成本能否公平分担。\nG11 证据与价值不是二选一：准确记录比较方案，居民仍须决定哪些收益重要。\nG12 这是谨慎规划的例子，不是各地可不加改变照搬的通用模式。\n\n构词与语境合用。unused是未使用的，revised在文中是经过修改的，maintenance是维护，不要把词尾见到-ance就猜成相同意思。productive在G5按床位和产量评价；valuable在G6包含可及性等价值，二者不是简单同义替换。fairly在G10联系shared，是成本如何公平分担，不能仅译为“相当”。先用段落关系给暂定释义，再回句子检查搭配；主动回忆可用unused space、a revised plan和maintenance costs各造一小句。例：The revised plan includes maintenance costs. 单词发音可用已安装系统语音辅助，离线音色取决于设备，不假称提供完整音标/词汇体系。\n\n证据链不是看到熟词就选。G7只给访问和收成记录，G8明确不能证明健康改善；G9给缺席的多种可能，不等于“不来者都讨厌种菜”。G10提出了解障碍、检查成本，G11区分准确记录与价值选择：事实资料能帮助比较，但何种利益值得重视仍需讨论。反向干扰包括把less planting space写成more space、把did not measure写成proved、把might写成must、把a small garden写成all neighbourhoods。主旨要同时涵盖证据、价值和有限结论，不只概括某句“种更多菜”。\n书面推理示范：Wider paths reduce planting space, but they may improve access. The records describe use, not a demonstrated health effect. 这两句用but与not保留取舍和证据边界，允许不同价值判断但不允许改写事实。\n\n从翻译到完整表达。G11可译为“这场争论不是在证据与价值之间二选一：比较方案需要准确记录，而居民仍要决定哪些收益更重要。”not a choice between...并非否认证据；while在这里表示对照，不一定是同时动作。改写可用Accurate data can inform the decision, but they do not determine every value choice，不应译成“既然有数据，就无需讨论价值”。\n写作任务是约80—120词短论述，练习约定非官方分值或真题。完整原创示范：\nThe garden proposal should be judged by more than the weight of vegetables. Wider paths may reduce planting space, but they can make the garden easier for more neighbours to use. The visit and harvest records are useful, yet they do not establish a health benefit. I would support a small further trial with clear maintenance costs and opportunities for non-users to explain their concerns. This approach would connect evidence with an open discussion of values. It would not treat one local design as a solution for every neighbourhood.\n自评按五点：回应方案；引用真实材料的取舍；区分记录与健康因果；写一项可行且关注非使用者/成本的建议；结构连贯、语法可理解。可以支持更宽路径，也可提出其他合理可及方案，不能要求跟示范立场相同。闭卷重建后隔日换到社区维修工具共享，考察迁移，不以一次答案自动外推考试成绩。",
+      "example": "Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.",
+      "conditions": [
+        "2027可核目录列201英语一，2028未确认；本课训练共享能力，不宣称真题题型或分值",
+        "两篇全文与题目均为原创虚构材料，非现实研究、真题或临床建议",
+        "翻译与写作接受意义准确的多种表达；参考自评而非专业自动分",
+        "本机TTS音色及离线可用性依赖设备已安装语音，不请求付费API"
+      ],
+      "misconceptions": [
+        "删修饰时丢失主句或让步逻辑",
+        "词缀机械拆分即可取代语境",
+        "把限定观察扩为所有场景的因果保证",
+        "写作只堆高级词而改变材料事实"
+      ],
+      "recall": [
+        "拆G6，区分which与even if的作用。",
+        "用revised、maintenance或unused造句，解释productive不等于valuable。",
+        "定位G7—G11，哪些结论不能推出？",
+        "翻译G11，并写一段有证据和有条件建议的英文短文。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "拆G6，区分which与even if的作用。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "用revised、maintenance或unused造句，解释productive不等于valuable。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "定位G7—G11，哪些结论不能推出？"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "翻译G11，并写一段有证据和有条件建议的英文短文。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-reading-garden-writing-g1",
+          "description": "识别嵌套与条件逻辑",
+          "successCriteria": "能拆G6主句/定语/让步并保持可能性",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-reading-garden-writing-b1",
+            "en-reading-garden-writing-a1",
+            "en-reading-garden-writing-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-garden-writing-g2",
+          "description": "利用词形与语境表达",
+          "successCriteria": "能区分productive/valuable并独立表达维护、修订和可及性",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-reading-garden-writing-b2",
+            "en-reading-garden-writing-a2",
+            "en-reading-garden-writing-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-garden-writing-g3",
+          "description": "判别主旨与证据边界",
+          "successCriteria": "能用G7—G11排除因果/全称/反向干扰",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-reading-garden-writing-b3",
+            "en-reading-garden-writing-a3",
+            "en-reading-garden-writing-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-reading-garden-writing-g4",
+          "description": "完成翻译和论证短写",
+          "successCriteria": "能正确翻译G11并写事实与价值分开的短论述",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-reading-garden-writing-b4",
+            "en-reading-garden-writing-a4",
+            "en-reading-garden-writing-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-15",
+        "reviewer": "Codex AI内部逐句与独立解题核查，非独立教师",
+        "scope": "原创阅读/表达进阶，非完整英语一体系",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\nG6的even if说明什么？",
+          "options": [
+            "菜越少所有人必越健康",
+            "即使产菜少仍可能因可及性等而有价值",
+            "产量和价值必须完全相等"
+          ],
+          "answer": 1,
+          "explanation": "even if引入让步条件，might保留可能性；A/C把可能的价值取舍改成健康因果或恒等。",
+          "evidenceIds": [
+            "G5",
+            "G6"
+          ],
+          "id": "en-reading-garden-writing-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\nG10的maintenance costs在语境中是什么？",
+          "options": [
+            "项目维护所需成本",
+            "首次收成的重量",
+            "与长期运行无关的访问次数"
+          ],
+          "answer": 0,
+          "explanation": "maintenance联系项目运行和costs，不能换成harvest或visits；准确理解后还需核查谁承担。",
+          "evidenceIds": [
+            "G7",
+            "G10"
+          ],
+          "id": "en-reading-garden-writing-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\nG8中These records主要指什么？",
+          "options": [
+            "访问次数和收成重量记录",
+            "已测量的健康改善",
+            "所有居民投票结果"
+          ],
+          "answer": 0,
+          "explanation": "G8承接G7的两类记录；原文明说未量健康，也没有全体投票资料，干扰项补造信息。",
+          "evidenceIds": [
+            "G7",
+            "G8"
+          ],
+          "id": "en-reading-garden-writing-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n把G11译成通顺中文，保留证据和价值的区别及联系。",
+          "answer": "争论不是在证据与价值之间二选一；准确记录帮助比较，而居民仍需判断哪些收益重要。",
+          "rubric": [
+            "不是否定证据价值",
+            "保留数据帮助比较",
+            "保留居民的价值选择",
+            "中文连贯且不补因果"
+          ],
+          "explanation": "可采用不同语序；不要求术语逐字对应，不接受“数据能自动决定所有价值”。",
+          "evidenceIds": [
+            "G11"
+          ],
+          "id": "en-reading-garden-writing-b4",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n分步拆解G6，指出主句、which从句和even if的逻辑，并说明might为何不能译成必然。",
+          "answer": "Another replied...是叙述框架，that内容主干a garden might be valuable；which修饰garden，even if...为让步；might表示可能。",
+          "rubric": [
+            "找到叙述框架及内容主干",
+            "which修饰garden",
+            "even if为让步",
+            "保留might可能性而非保证"
+          ],
+          "explanation": "可用结构图与等价术语；不能把定语从句当主句结论或删掉条件。",
+          "evidenceIds": [
+            "G6"
+          ],
+          "id": "en-reading-garden-writing-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\nG5与G6对productive和valuable的使用说明什么？",
+          "options": [
+            "两词在这里一定完全同义",
+            "产量较少与可及性价值可以发生取舍",
+            "认为valuable就已证明健康改善"
+          ],
+          "answer": 1,
+          "explanation": "G5关注种植床和产量，G6关注更多人使用的价值；G7—G8未测健康，不能从价值判断补造健康结局。",
+          "evidenceIds": [
+            "G5",
+            "G6",
+            "G8"
+          ],
+          "id": "en-reading-garden-writing-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "multi",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n依据G7—G10，哪些表述合理？",
+          "options": [
+            "应询问非使用者面临的障碍",
+            "未参加的人一定讨厌园艺",
+            "收成记录不能单独证明健康改善"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "G9—G10支持询问而非猜测动机，G7—G8明确健康未测。B把未参加的多种可能压成单一确定原因。",
+          "evidenceIds": [
+            "G7",
+            "G8",
+            "G9",
+            "G10"
+          ],
+          "id": "en-reading-garden-writing-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n写约80—120词英文评价花园方案，可支持或提出替代：须含一项取舍、一项证据限制和下一步。",
+          "answer": "The garden proposal should be judged by more than the weight of vegetables. Wider paths may reduce planting space, but they can make the garden easier for more neighbours to use. The visit and harvest records are useful, yet they do not establish a health benefit. I would support a small further trial with clear maintenance costs and opportunities for non-users to explain their concerns. This approach would connect evidence with an open discussion of values. It would not treat one local design as a solution for every neighbourhood.",
+          "rubric": [
+            "准确说明空间与可及性取舍",
+            "区分使用记录与未测健康",
+            "提出可检验的下一步",
+            "关注非使用者或维护公平",
+            "英文连贯清楚，允许合理不同立场"
+          ],
+          "explanation": "字数只是练习目标；不要求高级词堆积或复制示范，主观题只参考自评不伪给分。",
+          "evidenceIds": [
+            "G4",
+            "G7",
+            "G8",
+            "G10"
+          ],
+          "id": "en-reading-garden-writing-a4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新句A service that more people can reach may be useful even if it earns less money. 哪项正确？",
+          "options": [
+            "that修饰service，may与even if保留可能和让步",
+            "收入少必证明所有人受益",
+            "that引出所有服务的通用命令"
+          ],
+          "answer": 0,
+          "explanation": "先认定语从句与主干，再看可能和让步；原句没有全体受益、因果证明或普适命令。",
+          "evidenceIds": [
+            "G6",
+            "G12"
+          ],
+          "id": "en-reading-garden-writing-d1",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日主动回忆：不用抄文，用a revised plan与maintenance各写一句，并解释productive和valuable在本文不完全相同。",
+          "answer": "A revised plan includes a wider path. Maintenance needs a clear budget. 本文productive偏产量，valuable可包含可及性等价值。",
+          "rubric": [
+            "两句有实际语境",
+            "词语使用可理解",
+            "区分产量与更广价值",
+            "不补造健康效果"
+          ],
+          "explanation": "可写其他通顺原创句；不因同义表达或合理时态变化判错，也不凭选对释义认定会写。",
+          "evidenceIds": [
+            "G5",
+            "G6",
+            "G10"
+          ],
+          "id": "en-reading-garden-writing-d2",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日有人总结“园艺提高了居民健康，所以所有社区复制”。哪项纠正最充分？",
+          "options": [
+            "未测健康且本地方案需按条件评价，不能因果或普遍外推",
+            "这句话就是全文结论",
+            "没有健康数据说明项目一定无价值"
+          ],
+          "answer": 0,
+          "explanation": "G7—G8与G12分别限制健康推论和通用模型；C又把证据不足误成无价值，不是合理纠正。",
+          "evidenceIds": [
+            "G7",
+            "G8",
+            "G12"
+          ],
+          "id": "en-reading-garden-writing-d3",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新场景：共享维修工具计划有借用次数增加，但没数不同家庭、没测节省费用。写60—100词英文评价与下一步。",
+          "answer": "More loans may suggest interest, but they do not show how many households benefited or how much money was saved. I would ask users and non-users about access, record distinct households, and check maintenance costs before expanding the scheme. Different benefits should be discussed openly.",
+          "rubric": [
+            "保留观察与未测指标区别",
+            "不把次数当不同家庭",
+            "给具体资料/维护/参与建议",
+            "语言连贯并保留有限结论"
+          ],
+          "explanation": "可支持有限试验或暂缓扩展，只要材料一致。不是官方写作题，参考自评不能代替教师批改。",
+          "evidenceIds": [
+            "G7",
+            "G8",
+            "G10",
+            "G11"
+          ],
+          "id": "en-reading-garden-writing-d4",
+          "difficulty": "delayed-transfer",
+          "sourceRefs": [
+            "original-G",
+            "bc-relative"
+          ]
+        }
+      ],
+      "readingPassages": [
+        {
+          "id": "G",
+          "title": "阅读与表达进阶Ⅱ：社区花园的比较、翻译与短写",
+          "original": true,
+          "lines": [
+            {
+              "id": "G1",
+              "text": "A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another."
+            },
+            {
+              "id": "G2",
+              "text": "Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting."
+            },
+            {
+              "id": "G3",
+              "text": "Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes."
+            },
+            {
+              "id": "G4",
+              "text": "The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting."
+            },
+            {
+              "id": "G5",
+              "text": "A volunteer called the revised design less productive because it contained fewer planting beds."
+            },
+            {
+              "id": "G6",
+              "text": "Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables."
+            },
+            {
+              "id": "G7",
+              "text": "After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health."
+            },
+            {
+              "id": "G8",
+              "text": "These records described how the space was used; they did not prove that the garden had made residents healthier."
+            },
+            {
+              "id": "G9",
+              "text": "Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter."
+            },
+            {
+              "id": "G10",
+              "text": "Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly."
+            },
+            {
+              "id": "G11",
+              "text": "The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered."
+            },
+            {
+              "id": "G12",
+              "text": "The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change."
+            }
+          ],
+          "paragraphGroups": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              9,
+              10,
+              11,
+              12
+            ]
+          ]
+        }
+      ],
+      "writingModel": "The garden proposal should be judged by more than the weight of vegetables. Wider paths may reduce planting space, but they can make the garden easier for more neighbours to use. The visit and harvest records are useful, yet they do not establish a health benefit. I would support a small further trial with clear maintenance costs and opportunities for non-users to explain their concerns. This approach would connect evidence with an open discussion of values. It would not treat one local design as a solution for every neighbourhood."
+    }
+  ]
+}
