@@ -2,7 +2,7 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict'),crypto=require('crypto'),cp=require('child_process'),cfg=require('./config.json');
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
 (async()=>{const sha=process.env.SOURCE_SHA;assert(/^[a-f0-9]{40}$/.test(sha||''));let found;
-for(let i=0;i<20;i++){const r=await fetch('https://api.github.com/repos/'+cfg.repository+'/commits/'+sha+'/check-runs?per_page=100',{headers:{Accept:'application/vnd.github+json'},signal:AbortSignal.timeout(15000)});assert(r.ok,'Cannot read exact SHA checks');const checks=(await r.json()).check_runs||[];
+for(let i=0;i<20;i++){const data=await require('./github-checks-read.cjs').readChecks('https://api.github.com/repos/'+cfg.repository+'/commits/'+sha+'/check-runs?per_page=100');const checks=data.check_runs||[];
 const c=checks.find(c=>c.head_sha===sha&&/^cloudflare/.test(c.app?.slug||'')&&c.details_url?.includes('/pages/view/'+cfg.project+'/'));
 if(c?.status==='completed'){assert.equal(c.conclusion,'success','Authorized Cloudflare Pages build failed');const match=(c.output?.summary||'').match(/https:\/\/([a-f0-9]+)\.qh2028-core47-preview\.pages\.dev/);assert(match,'No verified versioned preview URL');const deployment=c.details_url.match(/\/qh2028-core47-preview\/([a-f0-9-]{36})/)?.[1];assert(deployment?.startsWith(match[1]),'Deployment ID and URL mismatch');found={url:match[0]+'/',deploymentId:deployment};break;}await new Promise(r=>setTimeout(r,30000));}
 assert(found,'No exact SHA preview found; do not invent URL');const receipt=require('./build-receipt.json'),files=[];

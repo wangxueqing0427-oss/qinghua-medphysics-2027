@@ -1,0 +1,29 @@
+{
+  "run": 43734403362,
+  "sha": "db75ee99ebfef183ee0925a5e04760e3069c432c",
+  "verifyJob": 132873699566,
+  "verify": "success",
+  "node": {
+    "passed": 7,
+    "failed": 0
+  },
+  "browsers": {
+    "courses": 2,
+    "browsers": [
+      "chromium",
+      "webkit"
+    ],
+    "groupsPerCoursePerBrowser": 7,
+    "actualTCPOutage": true,
+    "physicalIPhone": false
+  },
+  "onlineJob": 132874095558,
+  "online": "failed before reading checks; HTTP status not emitted by original online helper",
+  "cloudflare": {
+    "project": "qh2028-core47-preview",
+    "deploymentId": "d32caf22-1609-4e5f-8b42-0336fb8ea873",
+    "result": "build failed; no verified candidate URL"
+  },
+  "fix": "read-only checks diagnostics emit HTTP status and public rate headers; denial stops once, only5xx bounded3attempts; no tokens or gates bypassed",
+  "assetChanges": false
+}
