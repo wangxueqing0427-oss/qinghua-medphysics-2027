@@ -1,0 +1,35 @@
+{
+  "sha": "32802b47dceb5c7efe772244f0db2d0b43f76c8c",
+  "ci": 43775931037,
+  "verifyJob": 133002108134,
+  "verify": "success",
+  "targetedNode": {
+    "passed": 10,
+    "failed": 0
+  },
+  "browsers": {
+    "courses": 3,
+    "browsers": [
+      "chromium",
+      "webkit"
+    ],
+    "groupsPerCoursePerBrowser": 7,
+    "actualTCPOutage": true,
+    "physicalIPhone": false
+  },
+  "online": {
+    "job": 133002494601,
+    "status": "failure",
+    "httpStatus": 403,
+    "remaining": 0,
+    "resetEpoch": 1794786605,
+    "proofGranted": false
+  },
+  "cloudflare": {
+    "project": "qh2028-core47-preview",
+    "deploymentId": "04346df7-ea65-49e2-b277-6b742127fe32",
+    "status": "failed; own log unavailable; no verified URL",
+    "rootCause": "not independently confirmed"
+  },
+  "next": "After rate reset, one receipt-only Git Integration trigger; no asset/course/answer changes, no bypass. Stop if same external failure recurs."
+}
