@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-16",
+  "kind": "AI internal source/independent solution check only",
+  "expertApprovals": 0,
+  "officialBasis": {
+    "year": 2027,
+    "scope": "provisional for2028",
+    "index": "https://yz.tsinghua.edu.cn/zsxx/sszs/jzml.htm",
+    "published": "2026-10-08",
+    "read": "Official index entry →2027 directory →096 万科公共卫生与健康学院 →105300/02非全日制医学物理与健康:101/201/353",
+    "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/c0fb8664-255f-4d6f-bf40-a5893e3343ec?ksfs=&yxsdm=096",
+    "final2028Confirmed": false
+  },
+  "syllabusBoundary": "2014稳定理论教学辅助，不是已核实2028政治完整考纲或真题",
+  "sources": [
+    {
+      "id": "theory-2014",
+      "url": "https://fuwu.12371.cn/2014/02/17/ARTI1392608713922156_all.shtml",
+      "publisher": "共产党员网，来源中国共产党新闻网",
+      "published": "2014-02-17 11:46",
+      "read": "正文二、核心价值观选择的客观依据：1价值与真理、2自我与社会价值；段落116–122",
+      "supports": "尊重客观规律、主体需要，真理与价值实践统一；不以满意/多数票替代真理",
+      "notSupported": "2028考试题型分值、现实机构服务规范或该虚构案例实际效果"
+    }
+  ],
+  "failed": [
+    {
+      "source": "人民网2019/0319及2014讲义两页",
+      "result": "Timeout/502，未作为正文依据"
+    },
+    {
+      "source": "RUC newera链接",
+      "result": "redirect loop，未作为正文依据"
+    }
+  ],
+  "units": [
+    {
+      "id": "pol-truth-value-material-bridge",
+      "hash": "cdad4d2c9401840702dd967e073604bb8eacef0a9d9f1314a0ab90e6d4c10e3e",
+      "questions": 12,
+      "independentProfessionalApproved": false,
+      "pending": [
+        "教师复核理论表述边界及多种合理材料论证的评分接受范围"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "issue9-2-original-theory-material",
+  "units": [
+    {
+      "id": "pol-truth-value-material-bridge",
+      "subject": "pol",
+      "version": "0.1-issue9-2",
+      "title": "真理与价值：从事实核对到公共服务材料论证",
+      "mapping": [
+        "pol-truth-value-practice"
+      ],
+      "scopeStatus": "2027-outline-provisional-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "writtenAt": "2026-11-16",
+      "applicableYear": 2028,
+      "authorship": "本项目原创虚构情境与题目，非真题、现实政策评价或官方评分标准",
+      "prerequisites": [
+        "pol-knowledge-practice-development",
+        "pol-people-individual-history"
+      ],
+      "prerequisiteExplanation": "先有实践检验和人民群众历史作用的基础，再区分事实认识、价值关系与材料论证；不重复已有主次矛盾入门。",
+      "sources": [
+        "https://fuwu.12371.cn/2014/02/17/ARTI1392608713922156_all.shtml"
+      ],
+      "definition": "真理关注认识是否符合客观实际及规律；价值关注客体对主体需要的意义。实践中应同时尊重规律、考察人的合理需要，不能把有用或满意直接当真理标准。",
+      "explanation": "从已学的实践观出发，先分清三个问题。事实问题是“发生了什么”，例如统计口径内等候时间改变；对客观实际的判断还要核查资料和推理。价值问题是“对谁有何意义”，例如便利、可及、公平和成本的取舍。行动问题是“按哪些条件改进”。价值关系含主体需要，但不是任何个人愿望都天然合理，也不是没有客观基础的任意喜好。真理的客观性不等于每份统计都是真理；价值有主体维度也不等于真理因人而异。成功实践要把握客观条件，并回应合理需要。满意度可以成为调查材料，不能取代实践检验认识的标准。\n先示范一句分析：“方案只记录已完成业务者”，这是可核查的口径事实；“必须兼顾无法使用手机者”，说明评价涉及何种群体需要；“先补访再试行”，是基于事实和价值的行动建议。三者相连而不能相互替代。\n\n【原创虚构材料A·北桥服务大厅】大厅把预约改为仅手机应用办理。试点月完成业务者的平均等候由45分钟降至20分钟，但统计未纳入因不会用手机而放弃办理的人。负责人说“平均更快，所以方案对所有人都更好”。居民建议保留人工辅助并跟踪未能办理者，试点工作人员担心成本上升。材料未给出全体服务对象完成率、额外人员成本或长期效果。\n分步读材料：①标对象，平均值只对应已完成业务者；②标变化，45到20属于这个口径，未自动覆盖全部人；③标缺口，漏了放弃者与新增成本；④写理论，尊重客观事实、群众实际需要并统一于实践；⑤提有限建议，保留辅助渠道小范围试行，记录完成率、放弃者原因和成本。不能因为有价值追求就否认效率改善，也不能因为平均改善就取消对可及性的评价。\n完整论证示范：预约试点显示已办结者等候缩短，具有进一步评价的意义。但这不足以断言所有人受益，因为未办成者不在平均值中。真理尺度要求核查覆盖口径及实际效果，价值尺度要求关注不同群众的合理办事需要。可在条件允许下保留人工辅助，跟踪完成与放弃情况并核算成本，再决定如何调整。该建议仍须实践检验，并不保证一项措施消除所有困难。\n\n【原创虚构材料B·河湾公交】村镇讨论调整公交。方案甲更多停靠学校，方案乙更贴近工业园。现有调查仅访问白天在车站的人，得到甲支持者较多；晚班工人和行动不便者未纳入。有人说“多数支持甲，说明甲在任何时候都是唯一正确方案”；另有人说“既然需要不同，事实调查毫无意义”。委员会拟补访遗漏人群，再做限定时段试行，记录到达学校和工作地的可及性、成本与安全反馈。没有真实投票、法律要求或效果数据。\n这不是用多数票决定客观事实，也不是拒绝群众参与。意见用于了解需要，代表性和约束条件仍需调查。人民群众是历史主体，不能缩成只问最易接触的一组人；同时不同需求并不意味着任何方案都同样合理。应核对线路、时段、安全等条件，在有限资源下公开说明比较依据。\n完整论证示范：白天站点调查只反映被访问者意见，不能直接代表全体居民，更不能给出任何时段的唯一最优路线。真理与价值统一要求取得可靠事实，也要求说明方案服务谁、牺牲什么和如何减轻不利影响。建议补访晚班及行动不便者，比较分时方案与成本，以试行后的可及性和反馈再评价。支持甲或乙都须有符合材料的条件与理由；把调查与价值选择对立起来同样错误。\n\n闭卷材料答题用四步，但不机械套话。先作有限观点，再引用题给事实和未给信息，再用适用理论说明关系，最后给条件性结论与行动。比如不要只写“坚持人民立场”，应指出材料漏了哪些人、如何补足信息；也不要自编法规或“全部人满意”。合理答案可以选择不同方案，参考要点评价的是理论和材料是否真正连接，不要求唯一政策结论。\n常见错误：把多数意见当作真理票决；把“有价值”当作“已证实有效”；把价值主体性推成真理相对主义；用一句群众口号代替对具体人的分析；看见成本就认定服务价值不存在。反例练习：人工渠道可能增加成本，这是需要核算的事实问题，不足以单独否定其可及价值；但也不能以公平名义编出无限预算。\n延迟复习换成公共体育场预约、夜间公交等新材料。先不看范文写清对象、口径、受影响者和下一步，再对照要点补遗漏。机器保存原文并给参考清单，不按关键词产生专业分数；内部自检不等于教师审定。本课属稳定理论的原创训练，2014理论文章不冒充2028考纲或现行操作规范。",
+      "example": "【原创虚构材料A·北桥服务大厅】大厅把预约改为仅手机应用办理。试点月完成业务者的平均等候由45分钟降至20分钟，但统计未纳入因不会用手机而放弃办理的人。负责人说“平均更快，所以方案对所有人都更好”。居民建议保留人工辅助并跟踪未能办理者，试点工作人员担心成本上升。材料未给出全体服务对象完成率、额外人员成本或长期效果。\n【原创虚构材料B·河湾公交】村镇讨论调整公交。方案甲更多停靠学校，方案乙更贴近工业园。现有调查仅访问白天在车站的人，得到甲支持者较多；晚班工人和行动不便者未纳入。有人说“多数支持甲，说明甲在任何时候都是唯一正确方案”；另有人说“既然需要不同，事实调查毫无意义”。委员会拟补访遗漏人群，再做限定时段试行，记录到达学校和工作地的可及性、成本与安全反馈。没有真实投票、法律要求或效果数据。",
+      "conditions": [
+        "2027目录为2028暂定参考；本课理论关联不代表2028完整政治大纲已核实",
+        "材料全为虚构；不提供现实政策、法律或机构审批结论",
+        "主观答案多种合理表达，参考自评不产生专业自动分数"
+      ],
+      "misconceptions": [
+        "满意等于真理",
+        "多数票决定客观事实",
+        "价值多样等于所有方案都合理",
+        "脱离具体群众只背口号"
+      ],
+      "recall": [
+        "闭卷区分事实认识、价值关系和行动建议。",
+        "不用范文指出A的对象、口径和遗漏。",
+        "解释B两种极端观点为何均不足。",
+        "独立按观点—材料—理论—结论组织新场景答案。"
+      ],
+      "teachingSections": [
+        {
+          "id": "section-1",
+          "explanationParagraph": 0,
+          "workedExample": "闭卷区分事实认识、价值关系和行动建议。"
+        },
+        {
+          "id": "section-2",
+          "explanationParagraph": 1,
+          "workedExample": "不用范文指出A的对象、口径和遗漏。"
+        },
+        {
+          "id": "section-3",
+          "explanationParagraph": 2,
+          "workedExample": "解释B两种极端观点为何均不足。"
+        },
+        {
+          "id": "section-4",
+          "explanationParagraph": 3,
+          "workedExample": "独立按观点—材料—理论—结论组织新场景答案。"
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-truth-value-material-bridge-g1",
+          "description": "区分真理价值和行动",
+          "successCriteria": "能独立举例而非用满意度代替真理",
+          "teachingSectionIds": [
+            "section-1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-truth-value-material-bridge-b1",
+            "pol-truth-value-material-bridge-a1",
+            "pol-truth-value-material-bridge-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-truth-value-material-bridge-g2",
+          "description": "读懂材料口径与群体",
+          "successCriteria": "能在A和新情境指出未纳入者",
+          "teachingSectionIds": [
+            "section-2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-truth-value-material-bridge-b2",
+            "pol-truth-value-material-bridge-a2",
+            "pol-truth-value-material-bridge-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-truth-value-material-bridge-g3",
+          "description": "分析评价中的错误外推",
+          "successCriteria": "能解释B两种极端并保留条件",
+          "teachingSectionIds": [
+            "section-3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-truth-value-material-bridge-b3",
+            "pol-truth-value-material-bridge-a3",
+            "pol-truth-value-material-bridge-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-truth-value-material-bridge-g4",
+          "description": "完成书面材料论证",
+          "successCriteria": "能连接观点、事实、理论、建议而非只抄口号",
+          "teachingSectionIds": [
+            "section-4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-truth-value-material-bridge-b4",
+            "pol-truth-value-material-bridge-a4",
+            "pol-truth-value-material-bridge-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "rule": "依据独立回答、错因和延期题；主观待核对不当作自动答错或已掌握"
+      },
+      "rubric": [
+        "明确给定对象与模型条件",
+        "数字、单位及比较基准对应",
+        "讨论公平、资料缺口或不确定性",
+        "给有条件结论，不作因果/批准保证"
+      ],
+      "reviewRecord": {
+        "date": "2026-11-16",
+        "reviewer": "Codex AI内部理论边界与独立解题核对",
+        "scope": "稳定理论材料桥梁，非全政治课程审核",
+        "expertApproved": false,
+        "publicRelease": false
+      },
+      "licenseStatus": "project-original-with-source-links",
+      "syllabusStatus": "2027-official-provisional-for-2028",
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "哪项最准确地区分真理与价值？",
+          "options": [
+            "真理由赞成人数决定",
+            "真理关注认识符合客观实际，价值关注客体对主体需要的意义",
+            "价值只指价格，真理只指数字"
+          ],
+          "answer": 1,
+          "explanation": "客观符合与主体需要关系不可互换；人数、价格、数字均不能单独定义这两个哲学范畴。",
+          "id": "pol-truth-value-material-bridge-b1",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "【原创虚构材料A·北桥服务大厅】大厅把预约改为仅手机应用办理。试点月完成业务者的平均等候由45分钟降至20分钟，但统计未纳入因不会用手机而放弃办理的人。负责人说“平均更快，所以方案对所有人都更好”。居民建议保留人工辅助并跟踪未能办理者，试点工作人员担心成本上升。材料未给出全体服务对象完成率、额外人员成本或长期效果。\n哪些人进入45到20分钟的比较？",
+          "options": [
+            "所有潜在居民",
+            "只包括未使用手机者",
+            "题设口径内已完成业务者"
+          ],
+          "answer": 2,
+          "explanation": "材料明确只统计已办结者，未包括放弃者；不能把这一平均值扩展到全体服务对象。",
+          "id": "pol-truth-value-material-bridge-b2",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "【原创虚构材料B·河湾公交】村镇讨论调整公交。方案甲更多停靠学校，方案乙更贴近工业园。现有调查仅访问白天在车站的人，得到甲支持者较多；晚班工人和行动不便者未纳入。有人说“多数支持甲，说明甲在任何时候都是唯一正确方案”；另有人说“既然需要不同，事实调查毫无意义”。委员会拟补访遗漏人群，再做限定时段试行，记录到达学校和工作地的可及性、成本与安全反馈。没有真实投票、法律要求或效果数据。\n对白天调查最合理的判断是什么？",
+          "options": [
+            "可了解受访者意见，但代表性与方案条件还需核查",
+            "多数支持可证明任何时段唯一正确",
+            "调查不全所以事实永远无法认识"
+          ],
+          "answer": 0,
+          "explanation": "不完善资料仍有有限信息价值，但不能超出抽样覆盖和具体时段推成通用结论。",
+          "id": "pol-truth-value-material-bridge-b3",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "用自己的话举例区分一个事实判断、一个价值判断和一个行动建议。",
+          "answer": "如只统计办结者是口径事实；关注不会用手机者的可及需要是价值维度；补访并有限试行是行动。",
+          "rubric": [
+            "三种判断能区分",
+            "事实不靠满意度直接证明",
+            "价值有具体主体及合理需要",
+            "行动与条件相连，例子可不同"
+          ],
+          "explanation": "可用其他原创情境，不要求抄例句；不能把三者都写成“只要喜欢就正确”。",
+          "id": "pol-truth-value-material-bridge-b4",
+          "difficulty": "basic",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "【原创虚构材料A·北桥服务大厅】大厅把预约改为仅手机应用办理。试点月完成业务者的平均等候由45分钟降至20分钟，但统计未纳入因不会用手机而放弃办理的人。负责人说“平均更快，所以方案对所有人都更好”。居民建议保留人工辅助并跟踪未能办理者，试点工作人员担心成本上升。材料未给出全体服务对象完成率、额外人员成本或长期效果。\n逐步批评“平均更快所以所有人都更好”，给一项有条件的改进。",
+          "answer": "已办结者变快有局部依据，但漏了放弃者。核查覆盖与成本并关注不同群众需要，可保留人工辅助后试行评价，不保证人人改善。",
+          "rubric": [
+            "承认局部效率事实",
+            "指出放弃者与口径边界",
+            "联系真理和价值/具体群众需要",
+            "改进有条件且可检验"
+          ],
+          "explanation": "支持手机预约或建议调整均可，只要不抹去事实、不编保证；无需未教授的政策法律条款。",
+          "id": "pol-truth-value-material-bridge-a1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "【原创虚构材料B·河湾公交】村镇讨论调整公交。方案甲更多停靠学校，方案乙更贴近工业园。现有调查仅访问白天在车站的人，得到甲支持者较多；晚班工人和行动不便者未纳入。有人说“多数支持甲，说明甲在任何时候都是唯一正确方案”；另有人说“既然需要不同，事实调查毫无意义”。委员会拟补访遗漏人群，再做限定时段试行，记录到达学校和工作地的可及性、成本与安全反馈。没有真实投票、法律要求或效果数据。\n“多数支持甲所以任何时候甲都唯一正确”的主要问题是？",
+          "options": [
+            "把群众需要全部排除",
+            "把有条件意见扩大为不受条件影响的客观结论",
+            "正确因为有数据"
+          ],
+          "answer": 1,
+          "explanation": "意见可帮助了解需要，但时段、对象和现实条件不能被多数数量替代；并非否定群众参与。",
+          "id": "pol-truth-value-material-bridge-a2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "multi",
+          "stem": "【原创虚构材料A·北桥服务大厅】大厅把预约改为仅手机应用办理。试点月完成业务者的平均等候由45分钟降至20分钟，但统计未纳入因不会用手机而放弃办理的人。负责人说“平均更快，所以方案对所有人都更好”。居民建议保留人工辅助并跟踪未能办理者，试点工作人员担心成本上升。材料未给出全体服务对象完成率、额外人员成本或长期效果。\n哪些下一步符合材料与理论？",
+          "options": [
+            "补访放弃者并核查成本",
+            "编造全员满意证明已成功",
+            "比较不同群体实际办理情况后评价"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "explanation": "A/C把客观核查与实际需要相连；B伪造事实，不能因目标有价值就跳过检验。",
+          "id": "pol-truth-value-material-bridge-a3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "【原创虚构材料B·河湾公交】村镇讨论调整公交。方案甲更多停靠学校，方案乙更贴近工业园。现有调查仅访问白天在车站的人，得到甲支持者较多；晚班工人和行动不便者未纳入。有人说“多数支持甲，说明甲在任何时候都是唯一正确方案”；另有人说“既然需要不同，事实调查毫无意义”。委员会拟补访遗漏人群，再做限定时段试行，记录到达学校和工作地的可及性、成本与安全反馈。没有真实投票、法律要求或效果数据。\n写完整材料论证，反驳“需要不同所以调查毫无意义”。",
+          "answer": "不同需要要求澄清主体与评价尺度，不取消客观事实作用。白天调查有覆盖限制，应补访、比较分时线路与成本，并以试行反馈再判断。",
+          "rubric": [
+            "有限观点而非全称保证",
+            "引用白天样本与遗漏群体",
+            "说明尊重事实和合理需要的统一",
+            "提出补访/试行/成本等有依据建议",
+            "表达成段，接受合理不同方案"
+          ],
+          "explanation": "不按选择甲乙机械给分；评分要点看论证链，机器只记录回答及自查项。",
+          "id": "pol-truth-value-material-bridge-a4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "single",
+          "stem": "隔日：体育场已预约用户满意率高，未问被预约系统挡住者。哪项正确？",
+          "options": [
+            "满意率证明所有居民都满意",
+            "不应再收集任何数据",
+            "满意反映已访问用户，仍需补足未能使用者资料"
+          ],
+          "answer": 2,
+          "explanation": "延迟场景仍应区分被测人群与服务对象，价值追求不能把局部结果变成全部人的事实。",
+          "id": "pol-truth-value-material-bridge-d1",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日不抄范文：为什么“人人需求不同”不等于“所有认识同样正确”？",
+          "answer": "需要差异涉及价值主体；认识是否符合客观实际仍须实践检验。可有不同合理方案，但事实与约束不能任意改写。",
+          "rubric": [
+            "区分价值需要与事实符合",
+            "保留实践检验",
+            "允许合理方案差别但非任意主义",
+            "给一个通顺例子或解释"
+          ],
+          "explanation": "接受不同术语，只要不把主体差异混作客观事实随意变；不要求哲学史知识。",
+          "id": "pol-truth-value-material-bridge-d2",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "single",
+          "stem": "隔日：增加人工窗口可能提高成本。这说明什么？",
+          "options": [
+            "必须核算取舍，不能单凭成本否认可及价值",
+            "成本上升必证明不公平",
+            "公平一定不需要资源"
+          ],
+          "answer": 0,
+          "explanation": "成本是约束之一，价值评价还需考虑服务对象和实际效果；两个极端选项均无材料依据。",
+          "id": "pol-truth-value-material-bridge-d3",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日原创情境：社区预约运动场仅公布线上成功者满意率，未计失败者且预算有限。写观点—材料—理论—结论。",
+          "answer": "线上成功者满意是局部观察，不代表全体。应补问失败者原因、说明可及性与成本取舍，试行适合的辅助方式并复核效果；不能保证方案唯一或人人改善。",
+          "rubric": [
+            "明确被测对象与遗漏",
+            "事实与价值区分并联系",
+            "回应预算和具体人群",
+            "可检验建议与有限结论"
+          ],
+          "explanation": "接受支持继续试行或暂缓推广，须有材料理由；不以关键词、自评勾选或单次作答虚构专业得分。",
+          "id": "pol-truth-value-material-bridge-d4",
+          "difficulty": "delayed",
+          "sourceRefs": [
+            "original-material-A-B",
+            "theory-2014"
+          ]
+        }
+      ]
+    }
+  ]
+}
