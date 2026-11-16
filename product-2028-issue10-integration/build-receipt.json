@@ -1,0 +1,233 @@
+{
+  "edition": "qh2028-issue10-q0fix1-71",
+  "db": "qh2028_issue10_q0fix1_local",
+  "journal": "qh2028_issue10_q0fix1_pending:",
+  "cache": "qh2028-issue10-q0fix1-71",
+  "courses": 71,
+  "questions": 800,
+  "sourceBaseline": "8eee0c1e09838675d1e640f5dd0a63d89d1ef0d2",
+  "sourceContentSHA256": "ba239d6c493f94d4f8b5483d843c3f0eabe3ece7856cc9e58298801353ac5572",
+  "localBranch": "candidate/2026-11-16-issue10-q0-content-fix",
+  "publicDeploymentAuthorized": false,
+  "automaticMigration": false,
+  "crossVersionImportEnabled": false,
+  "label": "Q0修订隔离候选",
+  "baseGitSHA": "8eee0c1e09838675d1e640f5dd0a63d89d1ef0d2",
+  "buildGitSHA": null,
+  "uncommittedLocalBuild": true,
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e",
+      "bytes": 21937,
+      "sourceSha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e",
+      "changed": false
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "bytes": 5686,
+      "sourceSha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "changed": false
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253,
+      "sourceSha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "changed": false
+    },
+    {
+      "path": "index.html",
+      "sha256": "17ab0b995b2da45e92eace67218a5b867064b00282294858881a5d3396083851",
+      "bytes": 1544,
+      "sourceSha256": "c0b698a721370b684ce0c15baf1e2ca371d8262deddd021a6fd263578596176d",
+      "changed": true
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "bytes": 16360,
+      "sourceSha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "changed": false
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "35b098f45957ee5ad2ab67123e6c279a2ee7b9cf95d1e85f242dc0fdaf2897ae",
+      "bytes": 305,
+      "sourceSha256": "f57580aa50143b0dd89fc783c5158a6312ad6044ca1e4521b325e8ef78cd0bc6",
+      "changed": true
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "bytes": 343,
+      "sourceSha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "changed": false
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "bytes": 7132,
+      "sourceSha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "changed": false
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "bytes": 6279,
+      "sourceSha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "changed": false
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "bcc033ea6adc2e2dc0c7fba22c6a2f3c812c48d2f9116a9e38f45193327bc0a0",
+      "bytes": 8748,
+      "sourceSha256": "bcc033ea6adc2e2dc0c7fba22c6a2f3c812c48d2f9116a9e38f45193327bc0a0",
+      "changed": false
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "34a3ab80c51899b910c9cc104c265a4c39930f7ddf6936aa4c527ce74b6a6e14",
+      "bytes": 21043,
+      "sourceSha256": "34a3ab80c51899b910c9cc104c265a4c39930f7ddf6936aa4c527ce74b6a6e14",
+      "changed": false
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "ca117e98d07a90f54affe40b4d84179d5e613fef63d92f38c5534b9ce011dd1a",
+      "bytes": 20923,
+      "sourceSha256": "c60ba9a5127635514cb7e4b3a62f7150fadb41b31d4da21759e650a9296a5a69",
+      "changed": true
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "fe535103faeffa117222c046400c722c959f484b63b014550f3119a5b85a5086",
+      "bytes": 7077,
+      "sourceSha256": "f99b340b0dd89360884720f8b5b2d4011d198918868659c7de4def6be330baa8",
+      "changed": true
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "bytes": 6752,
+      "sourceSha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "changed": false
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "ba239d6c493f94d4f8b5483d843c3f0eabe3ece7856cc9e58298801353ac5572",
+      "bytes": 1267508,
+      "sourceSha256": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+      "changed": true
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "bytes": 3806,
+      "sourceSha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "changed": false
+    },
+    {
+      "path": "sw.js",
+      "sha256": "0687b3544b9ddd1a89381f6c6823a949965ce39ae5fea42cb44fc05cbd429be8",
+      "bytes": 1490,
+      "sourceSha256": "8d94ae0f963d7f6f4a20dfc0415185ec77445cc685d62d70558612909f0a6bea",
+      "changed": true
+    }
+  ],
+  "assetCount": 17,
+  "buildBytes": 1397186,
+  "priorRuntimeReceiptSHA256": "81332fe8910fa8d6d0838ff416f22997128d09a19927716fed46df6140f220db",
+  "priorSourceAssetsProtected": [
+    {
+      "path": "index.html",
+      "sha256": "c0b698a721370b684ce0c15baf1e2ca371d8262deddd021a6fd263578596176d",
+      "priorSha256": "1037f275cb7dc33cad652c4ef0daa89267327a17c257c9eedffb0d7f4165b799"
+    },
+    {
+      "path": "app.css",
+      "sha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e",
+      "priorSha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "priorSha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "f57580aa50143b0dd89fc783c5158a6312ad6044ca1e4521b325e8ef78cd0bc6",
+      "priorSha256": "86f71ee91834519b6e5c3e483b71775489969289607347ed44f034d751d015f9"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "priorSha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "f99b340b0dd89360884720f8b5b2d4011d198918868659c7de4def6be330baa8",
+      "priorSha256": "dd41cc43a7422d8d75d4c6cabb1726c5c997a574ac5f649a1ec381d88a79ece0"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "priorSha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "c60ba9a5127635514cb7e4b3a62f7150fadb41b31d4da21759e650a9296a5a69",
+      "priorSha256": "9a713d6adb6708aac9e58e61be939db5153fb83363c204d6bb29e742717d479f"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+      "priorSha256": "2371160e367c87f6a06e57ce2663ac0c568d4dc5afea3e99222174fba1904d21"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "8d94ae0f963d7f6f4a20dfc0415185ec77445cc685d62d70558612909f0a6bea",
+      "priorSha256": "f14f9cb7238ee9c3bfc7f185c037a99a523fb8cc3ce2b7275f6cad8f26d9b06d"
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "priorSha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9"
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "priorSha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6"
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "priorSha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be"
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "priorSha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a"
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "bcc033ea6adc2e2dc0c7fba22c6a2f3c812c48d2f9116a9e38f45193327bc0a0",
+      "priorSha256": "57fa43485857a4eb1564034d5033d5413f50b2024d9357fb06a6372ed25c1e4d"
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "34a3ab80c51899b910c9cc104c265a4c39930f7ddf6936aa4c527ce74b6a6e14",
+      "priorSha256": "a27b81c002e1d4e2688047321ace5d8e7b4e33d74fd77be11f6c2acab75baf34"
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "priorSha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3"
+    }
+  ],
+  "rollback": "旧issue9-3候选及所有源资产未改；新构建使用独立DB/journal/cache；停止新构建即可回退旧入口，不清理浏览器数据",
+  "professionalApprovals": 0,
+  "physicalIPhoneAccepted": false,
+  "deployableGatePassed": false
+}

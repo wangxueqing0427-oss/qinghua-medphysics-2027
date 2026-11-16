@@ -1,0 +1,184 @@
+{
+  "scope": "本地内容增量断言及真实现有控制器/仓储＋fake-indexeddb合成数据；非浏览器/网络离线/真实iPhone",
+  "results": [
+    {
+      "name": "existing schema and objective mapping accept isolated revised71 courses800 questions",
+      "passed": true
+    },
+    {
+      "name": "24 actual edits match original snapshots and preserve all IDs/answer keys/numeric questions",
+      "passed": true
+    },
+    {
+      "name": "54 untouched courses byte-equivalent as JSON;17 revised courses versioned and not professionally approved",
+      "passed": true
+    },
+    {
+      "name": "both original impossible Compton events fail, both revised events conserve energy and momentum",
+      "passed": true
+    },
+    {
+      "name": "new attack-proportion stem keeps all at-risk people in denominator, not only cases",
+      "passed": true
+    },
+    {
+      "name": "all11 Q0 P1 task-specific rubric boundaries and t/z terminology corrected",
+      "passed": true
+    },
+    {
+      "name": "four prior P2 issues resolved including both60–100 word model answers",
+      "passed": true
+    },
+    {
+      "name": "505 choice-review IDs exact, no question omitted or duplicate and no professional pass fabricated",
+      "passed": true
+    },
+    {
+      "name": "wi-a3 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence-a4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-ratio-rate-prevalence-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-normal-distribution-foundation-a4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-normal-distribution-foundation-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-sampling-distribution-se-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-t-tests-paired-independent-foundation-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation-a4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-vocabulary-retrieval-foundation-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-present-perfect-foundation-a4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-present-perfect-foundation-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "pol-modern-history-entry-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "wi-d3 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-outbreak-investigation-foundation-b4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-evidence-systematic-review-meta-foundation-b3 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-link-2 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-articles-foundation-d2 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-reading-garden-writing-d1 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-screening-test-foundation-b1 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-space-air-ventilation-d1 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "353-sampling-distribution-se-a4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "sva-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-reading-library-evidence-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "en-reading-garden-writing-d4 revised answer/feedback raw save, reload, wrong cause and scoped backup",
+      "passed": true
+    },
+    {
+      "name": "revised closed recall preserves actual raw text and cannot use visible answer",
+      "passed": true
+    },
+    {
+      "name": "injected save failure rolls back and successful retry stores one answer",
+      "passed": true
+    },
+    {
+      "name": "old synthetic answers preserved; revised version blocks mixed scoring; unchanged course resumes",
+      "passed": true
+    },
+    {
+      "name": "subjective pending is not false; delayed review scheduling keeps pending and objective mistakes distinct",
+      "passed": true
+    },
+    {
+      "name": "original8 protected inputs and original-source runtime hashes unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 37,
+  "failed": 0,
+  "baseSHA": "8eee0c1e09838675d1e640f5dd0a63d89d1ef0d2",
+  "candidateContentSHA256": "ba239d6c493f94d4f8b5483d843c3f0eabe3ece7856cc9e58298801353ac5572",
+  "runtimeHashes": [
+    {
+      "file": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5"
+    },
+    {
+      "file": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f"
+    },
+    {
+      "file": "profile-repository.js",
+      "sha256": "f99b340b0dd89360884720f8b5b2d4011d198918868659c7de4def6be330baa8"
+    },
+    {
+      "file": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9"
+    }
+  ],
+  "numeric77Recomputed": false,
+  "subjective190Reaudited": false,
+  "ci": false,
+  "physicalIPhone": false,
+  "realLearningDataAccess": false,
+  "professionalApprovals": 0,
+  "commit": false,
+  "push": false,
+  "deploy": false
+}

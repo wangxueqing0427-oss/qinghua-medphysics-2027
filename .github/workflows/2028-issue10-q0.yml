@@ -1,0 +1,39 @@
+name: ISSUE10 isolated Q0 mobile WebKit
+on:
+  push:
+    branches: [candidate/2026-11-16-issue10-q0-content-fix]
+    paths: [product-2028-issue10-integration/**, product-2028-issue10-q0-revision/**, .github/workflows/2028-issue10-q0.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: Verify ISSUE10 Q0 mobile WebKit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Verify immutable 17 asset delivery, not rebuild old courses
+        run: node product-2028-issue10-integration/verify-delivery.cjs
+      - name: Actual mobile WebKit revised courses, backup and TCP outage
+        run: node product-2028-issue10-integration/browser-linux.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: issue10-q0-webkit-${{ github.sha }}
+          path: |
+            product-2028-issue10-integration/browser-attempt-*.json
+            product-2028-issue10-integration/browser-failure-*.png
+            product-2028-issue10-integration/browser-trace-*.zip
+            product-2028-issue10-integration/delivery-verified.json
+          retention-days: 7

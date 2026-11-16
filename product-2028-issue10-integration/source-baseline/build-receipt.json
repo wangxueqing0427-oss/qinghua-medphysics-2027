@@ -1,0 +1,120 @@
+{
+  "sourceBaseline": "6dfb5005ec71c7371389df30b0a9676772c2d82d",
+  "edition": "qh2028-issue9-3-71",
+  "db": "qh2028_issue9_3_local",
+  "journal": "qh2028_issue9_3_pending:",
+  "cache": "qh2028-issue9-3-71",
+  "courses": 71,
+  "questions": 800,
+  "newCourses": 3,
+  "newQuestions": 36,
+  "priorContentHash": "2371160e367c87f6a06e57ce2663ac0c568d4dc5afea3e99222174fba1904d21",
+  "originalUnitsSHA256": "a664dc5810b37127e9159c6e11715f165969497934a08f76dd747b4d800be955",
+  "newContentHash": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+  "unitContentHashes": [
+    {
+      "id": "353-case-control-or-matched",
+      "hash": "30f697c61d5ed4422d20a132d5470b8c95350cd786c6c695994218f6646a24aa"
+    },
+    {
+      "id": "353-cohort-risk-smr-followup",
+      "hash": "18e0567d7263fbc260d0a14a324afb5da8adf95765bb68fa611bc01d99bd6590"
+    },
+    {
+      "id": "353-trial-design-effects",
+      "hash": "dbc5a41b9270a76010db4d3df4832170721b5fc64c4a7978607eafa1791f1f94"
+    }
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "c0b698a721370b684ce0c15baf1e2ca371d8262deddd021a6fd263578596176d",
+      "priorSha256": "1037f275cb7dc33cad652c4ef0daa89267327a17c257c9eedffb0d7f4165b799"
+    },
+    {
+      "path": "app.css",
+      "sha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e",
+      "priorSha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "priorSha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "f57580aa50143b0dd89fc783c5158a6312ad6044ca1e4521b325e8ef78cd0bc6",
+      "priorSha256": "86f71ee91834519b6e5c3e483b71775489969289607347ed44f034d751d015f9"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "priorSha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "f99b340b0dd89360884720f8b5b2d4011d198918868659c7de4def6be330baa8",
+      "priorSha256": "dd41cc43a7422d8d75d4c6cabb1726c5c997a574ac5f649a1ec381d88a79ece0"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "priorSha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "c60ba9a5127635514cb7e4b3a62f7150fadb41b31d4da21759e650a9296a5a69",
+      "priorSha256": "9a713d6adb6708aac9e58e61be939db5153fb83363c204d6bb29e742717d479f"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+      "priorSha256": "2371160e367c87f6a06e57ce2663ac0c568d4dc5afea3e99222174fba1904d21"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "8d94ae0f963d7f6f4a20dfc0415185ec77445cc685d62d70558612909f0a6bea",
+      "priorSha256": "f14f9cb7238ee9c3bfc7f185c037a99a523fb8cc3ce2b7275f6cad8f26d9b06d"
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "priorSha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9"
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "priorSha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6"
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "priorSha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be"
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "priorSha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a"
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "bcc033ea6adc2e2dc0c7fba22c6a2f3c812c48d2f9116a9e38f45193327bc0a0",
+      "priorSha256": "57fa43485857a4eb1564034d5033d5413f50b2024d9357fb06a6372ed25c1e4d"
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "34a3ab80c51899b910c9cc104c265a4c39930f7ddf6936aa4c527ce74b6a6e14",
+      "priorSha256": "a27b81c002e1d4e2688047321ace5d8e7b4e33d74fd77be11f6c2acab75baf34"
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "priorSha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3"
+    }
+  ],
+  "priorCoursesUnchanged": true,
+  "automaticMigration": false,
+  "crossVersionImportEnabled": false,
+  "independentProfessionalApprovals": 0,
+  "formalReleaseApproved": false
+}

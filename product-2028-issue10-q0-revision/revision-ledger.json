@@ -1,0 +1,991 @@
+{
+  "baseSHA": "8eee0c1e09838675d1e640f5dd0a63d89d1ef0d2",
+  "mode": "local-isolated-uncommitted",
+  "changes": [
+    {
+      "id": "wi-a3",
+      "severity": "P0",
+      "courseId": "353-waves-interactions",
+      "old": {
+        "id": "wi-a3",
+        "type": "subjective",
+        "difficulty": "application",
+        "stem": "忽略原子反冲：40 keV光子光电吸收，电子结合能10 keV，求光电子动能。另给一次康普顿事件100 keV入射、70 keV散射，求反冲电子动能，并说明两次30 keV有何不同。",
+        "answer": "光电子约30 keV，余下结合能相关原子退激需另记账，原光子吸收。给定自由静止电子近似的康普顿事件电子30 keV，仍有70 keV散射光子；不能把相同电子动能误作机制相同或局部总沉积相同。",
+        "explanation": "给定散射能量才可相减，未要求只靠入射能量预测散射能量。",
+        "rubric": [
+          "40−10=30 keV",
+          "100−70=30 keV",
+          "光电吸收及原子退激",
+          "康普顿有散射光子，不等同局部全沉积"
+        ]
+      },
+      "new": {
+        "id": "wi-a3",
+        "type": "subjective",
+        "difficulty": "application",
+        "stem": "忽略原子反冲：40 keV光子光电吸收，电子结合能10 keV，求光电子动能。另给自由初始静止电子的一次康普顿事件200 keV入射、170 keV散射，求反冲电子动能，并说明两次30 keV有何不同。",
+        "answer": "光电子约30 keV，原光子吸收，结合能相关原子退激需另记账。康普顿反冲电子动能200−170=30 keV，另有170 keV散射光子；两次电子动能相同不意味着机制或局部总沉积相同。",
+        "explanation": "自由初始静止电子模型满足1/E′−1/E=(1−cosθ)/(m_ec²)。取m_ec²≈511 keV，200→170 keV对应cosθ≈0.5491，在[−1,1]内；给定本次散射光子能量后由能量守恒得电子30 keV。不要求只靠入射能量预测散射分配。",
+        "rubric": [
+          "40−10=30 keV，光电吸收后的原子退激另记账",
+          "200−170=30 keV，有170 keV散射光子",
+          "区分原光子吸收与光子散射",
+          "相同电子动能不等于相同机制或局部总沉积"
+        ],
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "1f4518336bfcde2907ff80dc7690922b2118b351a6c8d4322346d43b48563c72",
+      "newHash": "2bc9860964e548106824e3ad4df09a8abf4dc47e4a0a27e72e4ac5a5996953ec",
+      "basis": "Q0 Compton原始证据与独立运动学复算；OpenStax 6.3及NIST CODATA2022。",
+      "expertApproved": false,
+      "teaching": {
+        "old": {
+          "explanation": "先把三个常混的量拆开。波动是扰动的传播；想象绳上一列规则波峰向前移动，某处每秒经过多少个完整周期叫频率f，单位Hz，即每秒周期数；相邻同相位位置的间距叫波长λ，单位m；波形向前传播的速度v用m/s表示。对于这里讨论的周期行波，在一个周期T内波形前进一个波长，因此v=λ/T=fλ。假设某周期波每秒2个周期、波长3 m，速度为6 m/s，而不是把2和3相除。波速是传播速度，不是介质微小振动的速度；电磁波可在真空传播，不能因绳波需要绳子就认定所有波都需要物质介质。本课只用给定传播条件，不把任何波的速度都写成光速。\n\n上一课的能量和功率还需要区分到单个光子层次。光子是电磁辐射的量子，单个光子能量E=hf；对于真空中的波长λ0，有E=hc/λ0，其中h是普朗克常量，c是真空光速。本课给出常量或直接给hc，不要求凭空记忆数值。若题给hc≈1240 eV·nm，真空波长620 nm的光子能量约为2 eV，先用1240除620，再检查nm约去。相同条件下频率加倍，单个光子能量加倍；这不意味着束流总功率必加倍，因为还需知道单位时间光子数。也不能把E=hf套给任意机械波，或把介质中的波长直接代入hc/λ0。区分单个粒子能量与整束总能量，是衔接影像与剂量的第一步。\n\n当光子进入物质，需跟踪‘原光子是否还在、电子是否被带出、能量往哪里去’。光电效应中光子被吸收并释放一个束缚电子；在简化忽略原子反冲的记账下，光电子动能约为光子能量减该电子结合能，随后原子退激也要记账。例如题给40 keV光子和10 keV结合能，得到约30 keV光电子，不能说40 keV立即全在原地沉积。康普顿散射的入门模型把相互作用电子近似看作自由、静止电子，结果有反冲电子和散射光子，光子仍携带部分能量。例如题明确一次事件100 keV入射、70 keV散射，则电子获得30 keV；不能只给入射能量就擅定同样分配。两机制都可能间接造成电离，但吸收与散射不能混称同一件事，也不能把相互作用位置等同于全部吸收位置。\n\n第三类重点是电子对产生：光子在原子核场中转为电子与正电子，需要至少约2m_ec²≈1.022 MeV来提供两者静质量能；这里是常用重核反冲忽略的入门阈值表述，严格反冲修正不在本课。电子场中的三重产生阈值不同，约为4m_ec²，不混为1.022 MeV。达到阈值只说明能量允许，不代表必然发生或占主导。各机制概率还取决于光子能量、材料组成以及相应截面，不能用一个固定能量把所有材料分成绝对三区。光电、康普顿、电子对也不是所有过程的穷举，还有相干散射和特定条件的光核过程。影像需要分析被记录的透射或散射等信号，治疗需分析能量传递和后续沉积；本课不从机制名称直接推患者剂量、疗效或屏蔽厚度。比较医学应用前先明确能量、材料、几何及研究问题。",
+          "example": "周期波f=2 Hz、λ=3 m：v=6 m/s。\n题给hc≈1240 eV·nm、λ0=620 nm：E≈2 eV。\n光电简化记账40−10=30 keV；给定康普顿事件100−70=30 keV。\n0.8 MeV低于核场电子对产生常用阈值；2 MeV虽高于阈值，也不能仅据能量断言必发生。"
+        },
+        "new": {
+          "explanation": "先把三个常混的量拆开。波动是扰动的传播；想象绳上一列规则波峰向前移动，某处每秒经过多少个完整周期叫频率f，单位Hz，即每秒周期数；相邻同相位位置的间距叫波长λ，单位m；波形向前传播的速度v用m/s表示。对于这里讨论的周期行波，在一个周期T内波形前进一个波长，因此v=λ/T=fλ。假设某周期波每秒2个周期、波长3 m，速度为6 m/s，而不是把2和3相除。波速是传播速度，不是介质微小振动的速度；电磁波可在真空传播，不能因绳波需要绳子就认定所有波都需要物质介质。本课只用给定传播条件，不把任何波的速度都写成光速。\n\n上一课的能量和功率还需要区分到单个光子层次。光子是电磁辐射的量子，单个光子能量E=hf；对于真空中的波长λ0，有E=hc/λ0，其中h是普朗克常量，c是真空光速。本课给出常量或直接给hc，不要求凭空记忆数值。若题给hc≈1240 eV·nm，真空波长620 nm的光子能量约为2 eV，先用1240除620，再检查nm约去。相同条件下频率加倍，单个光子能量加倍；这不意味着束流总功率必加倍，因为还需知道单位时间光子数。也不能把E=hf套给任意机械波，或把介质中的波长直接代入hc/λ0。区分单个粒子能量与整束总能量，是衔接影像与剂量的第一步。\n\n当光子进入物质，需跟踪‘原光子是否还在、电子是否被带出、能量往哪里去’。光电效应中光子被吸收并释放一个束缚电子；在简化忽略原子反冲的记账下，光电子动能约为光子能量减该电子结合能，随后原子退激也要记账。例如题给40 keV光子和10 keV结合能，得到约30 keV光电子，不能说40 keV立即全在原地沉积。康普顿散射的入门模型把相互作用电子近似看作自由、静止电子，结果有反冲电子和散射光子，光子仍携带部分能量。例如题明确一次事件200 keV入射、170 keV散射，则电子获得30 keV；不能只给入射能量就擅定同样分配。两机制都可能间接造成电离，但吸收与散射不能混称同一件事，也不能把相互作用位置等同于全部吸收位置。\n\n第三类重点是电子对产生：光子在原子核场中转为电子与正电子，需要至少约2m_ec²≈1.022 MeV来提供两者静质量能；这里是常用重核反冲忽略的入门阈值表述，严格反冲修正不在本课。电子场中的三重产生阈值不同，约为4m_ec²，不混为1.022 MeV。达到阈值只说明能量允许，不代表必然发生或占主导。各机制概率还取决于光子能量、材料组成以及相应截面，不能用一个固定能量把所有材料分成绝对三区。光电、康普顿、电子对也不是所有过程的穷举，还有相干散射和特定条件的光核过程。影像需要分析被记录的透射或散射等信号，治疗需分析能量传递和后续沉积；本课不从机制名称直接推患者剂量、疗效或屏蔽厚度。比较医学应用前先明确能量、材料、几何及研究问题。",
+          "example": "周期波f=2 Hz、λ=3 m：v=6 m/s。\n题给hc≈1240 eV·nm、λ0=620 nm：E≈2 eV。\n光电简化记账40−10=30 keV；给定康普顿事件200−170=30 keV。\n0.8 MeV低于核场电子对产生常用阈值；2 MeV虽高于阈值，也不能仅据能量断言必发生。"
+        }
+      }
+    },
+    {
+      "id": "353-ratio-rate-prevalence-a4",
+      "severity": "P1",
+      "courseId": "353-ratio-rate-prevalence",
+      "old": {
+        "id": "353-ratio-rate-prevalence-a4",
+        "type": "subjective",
+        "stem": "A地区现患比例较高，能否据此断言新发风险一定更高？说明需要区分的分母、时间及至少一个影响因素。",
+        "answer": "不能；现患用指定时点/期间全体，新发风险用起初未病且可发病者及观察期。病程、生存等也影响现患，需相应发生数据，不能仅由现患推因果。",
+        "rubric": [
+          "对象时间病例定义一致。",
+          "分母包含现患病例，不只健康者。",
+          "期间按独立人去重，明确固定完整人群特例。",
+          "区分现患、新发与人时，不作无依据因果解释。"
+        ],
+        "explanation": "核对指标对象、时间分母和至少一个病程/生存等因素；不要求临床推断。参考要点待专业复核，不给关键词分数。",
+        "difficulty": "application",
+        "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+      },
+      "new": {
+        "id": "353-ratio-rate-prevalence-a4",
+        "type": "subjective",
+        "stem": "A地区现患比例较高，能否据此断言新发风险一定更高？说明需要区分的分母、时间及至少一个影响因素。",
+        "answer": "不能；现患用指定时点/期间全体，新发风险用起初未病且可发病者及观察期。病程、生存等也影响现患，需相应发生数据，不能仅由现患推因果。",
+        "rubric": [
+          "不能仅由较高患病率推出较高发病风险",
+          "区分现患病例与新发病例，说明相应分母和观察时点/期间",
+          "至少解释一种合理影响因素，如病程延长、存活变化或病例发现变化",
+          "需要合适的新发病例、风险人群和时间资料；接受有依据的等义说明，不强制期间患病去重特例"
+        ],
+        "explanation": "核对指标对象、时间分母和至少一个病程/生存等因素；不要求临床推断。参考要点待专业复核，不给关键词分数。",
+        "difficulty": "application",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "d7bb11f1c218eebf6f65c04e3b903921dab88a31bb197ac01d44dc556274cd7b",
+      "newHash": "012b2400657b769940a9a87f6ba0beefe48f91110af8d021b2f6caea9fefe1a1",
+      "basis": "本题要求与既有参考答案、Q0台账；保留CDC定义来源及病程边界。",
+      "expertApproved": false
+    },
+    {
+      "id": "353-ratio-rate-prevalence-d4",
+      "severity": "P1",
+      "courseId": "353-ratio-rate-prevalence",
+      "old": {
+        "id": "353-ratio-rate-prevalence-d4",
+        "type": "subjective",
+        "stem": "新报告只写“患病率20%”没有对象和时间。提出三个需补充的信息，并解释为什么不能当未来新发概率。",
+        "answer": "补充人群范围、指定时点或期间、病例定义及分子分母构造（任三合理项）。现患混合新旧及病程，不是起初健康者未来新发概率。",
+        "rubric": [
+          "对象时间病例定义一致。",
+          "分母包含现患病例，不只健康者。",
+          "期间按独立人去重，明确固定完整人群特例。",
+          "区分现患、新发与人时，不作无依据因果解释。"
+        ],
+        "explanation": "核对问题是否针对定义缺口，以及现患与新发风险的边界；可列去重或开放人群分母条件。保存原文待核对，不编后续风险。",
+        "difficulty": "delayed",
+        "errorCauseHint": "从高患病率直接推出高新发风险或因果。"
+      },
+      "new": {
+        "id": "353-ratio-rate-prevalence-d4",
+        "type": "subjective",
+        "stem": "新报告只写“患病率20%”没有对象和时间。提出三个需补充的信息，并解释为什么不能当未来新发概率。",
+        "answer": "补充人群范围、指定时点或期间、病例定义及分子分母构造（任三合理项）。现患混合新旧及病程，不是起初健康者未来新发概率。",
+        "rubric": [
+          "补充人群范围、观察时点/期间、病例定义、分子构成、分母构造中的任三项合理信息；允许等价项目",
+          "说明患病资料反映现存病例，不等于未来新发病例",
+          "说明病程/生存或新旧病例混合会影响现患水平",
+          "不能直接解释成未来新发概率；固定人群或期间去重可作补充，不是必答"
+        ],
+        "explanation": "核对问题是否针对定义缺口，以及现患与新发风险的边界；可列去重或开放人群分母条件。保存原文待核对，不编后续风险。",
+        "difficulty": "delayed",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "07d9838a875ad9d7ced3540c2a104b2a0b521c0f47f2ebe172db11014deb6017",
+      "newHash": "8b261c55dfeda1327ab53b799775fb500238eea790769ff7502186033f71a809",
+      "basis": "Q0逐题对照；不把未给定的期间患病率特例强制化。",
+      "expertApproved": false
+    },
+    {
+      "id": "353-normal-distribution-foundation-a4",
+      "severity": "P1",
+      "courseId": "353-normal-distribution-foundation",
+      "old": {
+        "id": "353-normal-distribution-foundation-a4",
+        "type": "subjective",
+        "stem": "某等待时间资料多数近0、少数极长。有人只因n=500说原始数据必正态。指出两项问题并说明应补什么检查。",
+        "answer": "明显偏斜与钟形模型可能不符；n大不改变个体分布，均值抽样分布是另一对象。应看分布、数据生成与异常/混合因素，不能仅凭样本数套模型。",
+        "rubric": [
+          "概率用区间面积解释，区分密度和舍入。",
+          "z减均数除SD，参数单位一致且σ>0。",
+          "累计值之差或补集正确，承认近似。",
+          "模型条件与个体/均值区分，非临床结论。"
+        ],
+        "explanation": "核对模型与数据、个体与均值两个区分；可提出图形和背景检查，不要求本课未教的正式检验，主观待专业核对。",
+        "difficulty": "application",
+        "errorCauseHint": "样本变大就宣称原始数据必正态。"
+      },
+      "new": {
+        "id": "353-normal-distribution-foundation-a4",
+        "type": "subjective",
+        "stem": "某等待时间资料多数近0、少数极长。有人只因n=500说原始数据必正态。指出两项问题并说明应补什么检查。",
+        "answer": "明显偏斜与钟形模型可能不符；n大不改变个体分布，均值抽样分布是另一对象。应看分布、数据生成与异常/混合因素，不能仅凭样本数套模型。",
+        "rubric": [
+          "多数近0、少数极长提示偏斜，不能直接套对称钟形模型",
+          "n=500不使原始个体分布自动正态",
+          "区分个体分布和重复抽样均数的分布",
+          "建议查看分布图、异常值、混合人群或数据生成背景等合理检查；不要求未教的正式检验或z数值"
+        ],
+        "explanation": "核对模型与数据、个体与均值两个区分；可提出图形和背景检查，不要求本课未教的正式检验，主观待专业核对。",
+        "difficulty": "application",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "6fb4dcec2790721c06e4297bf9cc1cfd73e7f9b75e23b347d286752b9fea9347",
+      "newHash": "0598b9fcbeefa4e07ad675517b58bfd15885adaab5186d455c1bde8f6f820b73",
+      "basis": "题干、原参考答案及Q0；去掉未问的Phi面积计算。",
+      "expertApproved": false
+    },
+    {
+      "id": "353-normal-distribution-foundation-d4",
+      "severity": "P1",
+      "courseId": "353-normal-distribution-foundation",
+      "old": {
+        "id": "353-normal-distribution-foundation-d4",
+        "type": "subjective",
+        "stem": "新资料混合两类人群出现两个峰。写出为何不能未经核验套单一正态，并区分增加样本和研究均值抽样分布。",
+        "answer": "混合两峰不自然符合单峰正态，需分析分组和生成过程。增加样本不把原始个体变正态；均值抽样分布是重复抽样统计量的分布，须另审条件。",
+        "rubric": [
+          "概率用区间面积解释，区分密度和舍入。",
+          "z减均数除SD，参数单位一致且σ>0。",
+          "累计值之差或补集正确，承认近似。",
+          "模型条件与个体/均值区分，非临床结论。"
+        ],
+        "explanation": "核对多峰的模型风险和两个分布对象，不把图形检查说成已证明所有分布；参考要点待核对，不生成专业评分。",
+        "difficulty": "delayed",
+        "errorCauseHint": "样本变大就宣称原始数据必正态。"
+      },
+      "new": {
+        "id": "353-normal-distribution-foundation-d4",
+        "type": "subjective",
+        "stem": "新资料混合两类人群出现两个峰。写出为何不能未经核验套单一正态，并区分增加样本和研究均值抽样分布。",
+        "answer": "混合两峰不自然符合单峰正态，需分析分组和生成过程。增加样本不把原始个体变正态；均值抽样分布是重复抽样统计量的分布，须另审条件。",
+        "rubric": [
+          "混合两峰需要检查分组和生成过程，不能未经核验套单一正态",
+          "样本量增加不自动改变原始个体分布形态",
+          "均数抽样分布描述重复抽样所得均数，不等于个体分布",
+          "讨论均数近似需另审抽样和矩条件；允许合理等义说明，不强制z或面积计算"
+        ],
+        "explanation": "核对多峰的模型风险和两个分布对象，不把图形检查说成已证明所有分布；参考要点待核对，不生成专业评分。",
+        "difficulty": "delayed",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "af68145efade610305952bf8757712b7e4044e8bc9676f83f397b39d5e510124",
+      "newHash": "96258892e19188564baad3344fe8cb22e3d0c804328dba19ae745f63adc58a0b",
+      "basis": "题干与原参考答案对应；区别模型假设与抽样近似。",
+      "expertApproved": false
+    },
+    {
+      "id": "353-sampling-distribution-se-d4",
+      "severity": "P1",
+      "courseId": "353-sampling-distribution-se",
+      "old": {
+        "id": "353-sampling-distribution-se-d4",
+        "type": "subjective",
+        "stem": "新总体明显偏斜，抽取样本均数。说明何时可讨论CLT近似、何时是精确正态，并说明原始数据是否随n自动变正态。",
+        "answer": "IID有限方差等经典条件下随n增加可讨论均数近似；总体正态且独立取样时均数精确正态。无任意n30保证，原始个体分布不因n改变。",
+        "rubric": [
+          "统计对象和每份n准确，非重复次数。",
+          "公式、量纲、SD与SE的解释一致。",
+          "样本量缩放条件固定且不宣称消除偏倚。",
+          "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+        ],
+        "explanation": "核对精确与近似、必要条件和分布对象。允许说明重尾收敛慢等补充但不强制，本课主观原文待教师核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+      },
+      "new": {
+        "id": "353-sampling-distribution-se-d4",
+        "type": "subjective",
+        "stem": "新总体明显偏斜，抽取样本均数。说明何时可讨论CLT近似、何时是精确正态，并说明原始数据是否随n自动变正态。",
+        "answer": "IID有限方差等经典条件下随n增加可讨论均数近似；总体正态且独立取样时均数精确正态。无任意n30保证，原始个体分布不因n改变。",
+        "rubric": [
+          "经典CLT近似需独立同分布、有限方差等条件；不能把n≥30作为普遍保证",
+          "正态总体的独立抽样均数可精确服从正态，不必诉诸大样本近似",
+          "个体原始分布与均数抽样分布不同，n增加不使原始个体自动正态",
+          "依赖抽样、重尾或复杂设计需另审；不强制本题未问的SE数值、单位或每份n"
+        ],
+        "explanation": "核对精确与近似、必要条件和分布对象。允许说明重尾收敛慢等补充但不强制，本课主观原文待教师核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "5f0de7341dbd71a4f64e47ba29e56632475c8d556e91596efbc7e47fcc4b2e3f",
+      "newHash": "4c1651e8fa655a021de87c00219775e7e9e578e6d20cf9d3dbe921a7d8387356",
+      "basis": "Q0与原答案的精确/近似模型边界；主观待核对。",
+      "expertApproved": false
+    },
+    {
+      "id": "353-t-tests-paired-independent-foundation-d4",
+      "severity": "P1",
+      "courseId": "353-t-tests-paired-independent-foundation",
+      "old": {
+        "id": "353-t-tests-paired-independent-foundation-d4",
+        "type": "subjective",
+        "stem": "隔日：逐一纠正“配对t的n是测量总数”“样本标准差未知仍永远用z检验”“两样本量相等必可用等方差合并法”“t=2直接等于p=0.02”四句话。",
+        "answer": "配对t的n为配对数，df=n−1；总体σ未知且条件适合时考虑使用样本s的t方法；等方差不能仅由样本量相同推出；t值需要结合df、单侧或双侧备择和分布求p，数值2不等于p=0.02。",
+        "explanation": "逐项纠正配对数、t与z、方差假设、检验统计量与p值，不自动评分。",
+        "difficulty": "delayed-transfer",
+        "rubric": [
+          "配对的n按成对观察数计算",
+          "总体σ未知按假设考虑t而非一律z",
+          "相同样本量并不证明方差相同",
+          "t统计量不等于p值"
+        ]
+      },
+      "new": {
+        "id": "353-t-tests-paired-independent-foundation-d4",
+        "type": "subjective",
+        "stem": "隔日：逐一纠正“配对t的n是测量总数”“总体标准差未知仍永远用z检验”“两样本量相等必可用等方差合并法”“t=2直接等于p=0.02”四句话。",
+        "answer": "配对t的n为配对数，df=n−1；总体σ未知且条件适合时考虑使用样本s的t方法；等方差不能仅由样本量相同推出；t值需要结合df、单侧或双侧备择和分布求p，数值2不等于p=0.02。",
+        "explanation": "逐项纠正配对数、t与z、方差假设、检验统计量与p值，不自动评分。",
+        "difficulty": "delayed-transfer",
+        "rubric": [
+          "配对的n按成对观察数计算",
+          "总体σ未知按假设考虑t而非一律z",
+          "相同样本量并不证明方差相同",
+          "t统计量不等于p值"
+        ],
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "e0a5f01c75c4ba9278fb8923164893bf555b82cfeecf7eea967dac2a6738fe99",
+      "newHash": "33cc14addac75955c54876df8bd093d4a594ed91945d38eb477e87286fd85aab",
+      "basis": "总体σ与样本s是不同量；最小题干修订使其与既有参考答案一致，不改数值答案。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-a4",
+      "severity": "P1",
+      "courseId": "en-vocabulary-retrieval-foundation",
+      "old": {
+        "id": "en-vocabulary-retrieval-foundation-a4",
+        "type": "subjective",
+        "stem": "遮住课文，不看英文提示：写“我学英语”和“读这条笔记”两句英文；再用中文说明哪一步是在主动提取。",
+        "answer": "I study English. / Read the note. 先遮住英文独立写，再核对词义、拼写和人称；仅抄范句不算主动回忆。",
+        "rubric": [
+          "保留独立英文原文，不以选择答案替代生成。",
+          "主体与动词人称一致，study/reads等词形符合句子。",
+          "note与evidence在当前句义和可数性上适当。",
+          "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+        ],
+        "explanation": "参考句不是唯一合法表达；核对I后study原形、read作指令、note作对象及独立生成过程。保留原答案，待逐项核对，不给虚构专业分数。",
+        "difficulty": "application",
+        "errorCauseHint": "没遮答案就声称闭卷掌握。"
+      },
+      "new": {
+        "id": "en-vocabulary-retrieval-foundation-a4",
+        "type": "subjective",
+        "stem": "遮住课文，不看英文提示：写“我学英语”和“读这条笔记”两句英文；再用中文说明哪一步是在主动提取。",
+        "answer": "例如：I study English. / Read this note. I learn English.及Read the note.等保留意思且语法合理的表达也可接受。主动提取是先遮住英文独立生成，再核对；抄范句不能替代回忆。",
+        "rubric": [
+          "独立生成“我学英语”的合理英文，如I study/learn English.",
+          "独立生成“读这条笔记”的命令句，如Read this/the note.",
+          "主体、人称、词形与句义一致，接受合理等义表达",
+          "说明先遮住英文生成再核对的主动提取过程；不要求使用evidence"
+        ],
+        "explanation": "按本题两句含义、语法与主动回忆步骤核对。reference不是唯一合法措辞，evidence可数性不属于本题必答。",
+        "difficulty": "application",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "adb32e11c2d218ae456f0f4d408b3df26d98028f8ad8dc989b71ca21ea4799c9",
+      "newHash": "9d5a75c66bc94fdb57b00e131be489ad9cb3954843861c7ef840a26b39609883",
+      "basis": "Q0任务对齐；去除未在题干出现的evidence评分要求。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d4",
+      "severity": "P1",
+      "courseId": "en-vocabulary-retrieval-foundation",
+      "old": {
+        "id": "en-vocabulary-retrieval-foundation-d4",
+        "type": "subjective",
+        "stem": "不看英文范句：写“她学习英语”和“两条笔记很短”两句英文；指出你与上次相比是否仍漏第三人称或复数。",
+        "answer": "She studies English. / Two notes are short. 对照studies、notes、are及原始作答，记录实际遗漏。",
+        "rubric": [
+          "保留独立英文原文，不以选择答案替代生成。",
+          "主体与动词人称一致，study/reads等词形符合句子。",
+          "note与evidence在当前句义和可数性上适当。",
+          "解释词义并记录不会的词或词形；主观待核对，不虚构分数。"
+        ],
+        "explanation": "延迟生成用新主语和复数情境检验词形迁移；允许合理等义句。只有原文和逐项核对能说明本次表现，不外推长期掌握。",
+        "difficulty": "delayed",
+        "errorCauseHint": "没遮答案就声称闭卷掌握。"
+      },
+      "new": {
+        "id": "en-vocabulary-retrieval-foundation-d4",
+        "type": "subjective",
+        "stem": "不看英文范句：写“她学习英语”和“两条笔记很短”两句英文；指出你与上次相比是否仍漏第三人称或复数。",
+        "answer": "She studies English. / Two notes are short. 对照studies、notes、are及原始作答，记录实际遗漏。",
+        "rubric": [
+          "独立生成她学习英语，如She studies/learns English.，合理语境中的等义表达可核对接受",
+          "独立生成两条笔记很短，如Two notes are short.",
+          "核对第三人称词形以及notes、are的复数一致；不要求使用evidence",
+          "对照自己的原始回答指出是否仍有遗漏；不能代替用户编造上次表现"
+        ],
+        "explanation": "延迟生成用新主语和复数情境检验词形迁移；允许合理等义句。只有原文和逐项核对能说明本次表现，不外推长期掌握。",
+        "difficulty": "delayed",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "f34f35be5abd2468c45a252da1926a510fab53768259470dd61031a4da417ef6",
+      "newHash": "61b235570fa716b5e033c6c57ebd67cd47d399be4d93d4ad3868832e860deb42",
+      "basis": "Q0任务对齐；保留原文与本人反思，不虚构自动得分。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-present-perfect-foundation-a4",
+      "severity": "P1",
+      "courseId": "en-present-perfect-foundation",
+      "old": {
+        "id": "en-present-perfect-foundation-a4",
+        "type": "subjective",
+        "stem": "把She has written a note.改成否定句和一般疑问句；说明为什么不加does。",
+        "answer": "She has not written a note. / Has she written a note? have/has承担完成助动词功能，否定或前置即可，不另加does，written保留。",
+        "rubric": [
+          "have/has与主语一致。",
+          "过去分词正确，否定疑问不用多余does。",
+          "for/since与时间点/时长匹配，持续状态合理。",
+          "说明明确过去时间限制，允许符合语境的等义答案。"
+        ],
+        "explanation": "核对has位置、not、written及主体；合理缩写hasn't可接受。参考要点供待核对，不因出现has关键词就自动判专业分数。",
+        "difficulty": "application",
+        "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+      },
+      "new": {
+        "id": "en-present-perfect-foundation-a4",
+        "type": "subjective",
+        "stem": "把She has written a note.改成否定句和一般疑问句；说明为什么不加does。",
+        "answer": "She has not written a note. / Has she written a note? have/has承担完成助动词功能，否定或前置即可，不另加does，written保留。",
+        "rubric": [
+          "否定句She has not/hasn’t written a note.，主体与written保留",
+          "一般疑问句Has she written a note?，has前置",
+          "说明has已承担完成助动词功能，否定或前置即可，不再加does",
+          "接受合理缩写与等义解释；本题不要求for/since或明确过去时间讨论"
+        ],
+        "explanation": "核对has位置、not、written及主体；合理缩写hasn't可接受。参考要点供待核对，不因出现has关键词就自动判专业分数。",
+        "difficulty": "application",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "22c6fae173020f31c99b9869577d1ba0486a67d2bb61e07af39f5a4c9a5f3d7b",
+      "newHash": "2a2692359098f3eec0e20cb51b6786c6017935768be3ee743462617cbea5bd61",
+      "basis": "Q0与题给转换任务；去掉无关模板要点。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-present-perfect-foundation-d4",
+      "severity": "P1",
+      "courseId": "en-present-perfect-foundation",
+      "old": {
+        "id": "en-present-perfect-foundation-d4",
+        "type": "subjective",
+        "stem": "给定live=居住。写“他们已在此居住三年（仍居住）”并改为疑问句；解释为何不用arrived持续三年。",
+        "answer": "They have lived here for three years. / Have they lived here for three years? lived表示持续居住，arrived表示到达瞬间不能直接代替。",
+        "rubric": [
+          "have/has与主语一致。",
+          "过去分词正确，否定疑问不用多余does。",
+          "for/since与时间点/时长匹配，持续状态合理。",
+          "说明明确过去时间限制，允许符合语境的等义答案。"
+        ],
+        "explanation": "核对They-have、lived、for+时长及疑问前置；内容检验新主语迁移，保留原文和遗漏，主观待核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "加does后仍保留has，或把written误退原形。"
+      },
+      "new": {
+        "id": "en-present-perfect-foundation-d4",
+        "type": "subjective",
+        "stem": "给定live=居住。写“他们已在此居住三年（仍居住）”并改为疑问句；解释为何不用arrived持续三年。",
+        "answer": "They have lived here for three years. / Have they lived here for three years? lived表示持续居住，arrived表示到达瞬间不能直接代替。",
+        "rubric": [
+          "表达仍持续居住：They have lived here for three years.，保留三年、此地、仍居住含义",
+          "疑问句Have they lived here for three years?，have前置且lived保留",
+          "for搭配时长；若使用since必须提供等义且可确定的起点，不能凭空改成任意年份",
+          "区分持续居住状态与arrived所指到达事件；arrived不能直接表达持续居住三年。合理等义表达可人工核对，不强制额外否定句"
+        ],
+        "explanation": "核对They-have、lived、for+时长及疑问前置；内容检验新主语迁移，保留原文和遗漏，主观待核对。",
+        "difficulty": "delayed",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "86d4b54729366894dabb8f0fb6adc7acba0d45c16691d97f3bae050852744309",
+      "newHash": "c2859a62b911a440b58eadeffbb48e7e4f1a395c87bf1243dd2b281b3a795e37",
+      "basis": "Q0：补齐lived/arrived核心边界，不要求无关模板。",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-d4",
+      "severity": "P1",
+      "courseId": "pol-modern-history-entry",
+      "old": {
+        "id": "pol-modern-history-entry-d4",
+        "type": "subjective",
+        "stem": "闭卷写本课两件事件的时间，再说明现代展签与1939理论电子文本各能支持什么、不能证明什么。",
+        "answer": "1840鸦片战争爆发；1842-08-29南京条约签订。展签支持馆方所记日期但不等于原手稿；1939文本支持当时理论分析，不证明2028政策或所有阶段不变。",
+        "rubric": [
+          "时间与事件对应准确。",
+          "原作年代、网页资料和读取形态分清。",
+          "社会性质用关系和过程解释，无50%误读。",
+          "矛盾分析限定历史背景，不虚构原话或官方评分。"
+        ],
+        "explanation": "核对日期对应、来源层次和历史边界三个方面。独立原文保留，参考要点不等于专家审定或官方分值。",
+        "difficulty": "delayed",
+        "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+      },
+      "new": {
+        "id": "pol-modern-history-entry-d4",
+        "type": "subjective",
+        "stem": "闭卷写本课两件事件的时间，再说明现代展签与1939理论电子文本各能支持什么、不能证明什么。",
+        "answer": "1840鸦片战争爆发；1842-08-29南京条约签订。展签支持馆方所记日期但不等于原手稿；1939文本支持当时理论分析，不证明2028政策或所有阶段不变。",
+        "rubric": [
+          "1840年与鸦片战争爆发对应",
+          "1842年8月29日与南京条约签订对应",
+          "现代展签可支持馆方陈述，不能等同已读取1842原手稿",
+          "1939原作的电子转录可支持当时理论论述，不能直接证明2028政策或所有阶段不变；分清原作、网页和读取形态"
+        ],
+        "explanation": "核对日期对应、来源层次和历史边界三个方面。独立原文保留，参考要点不等于专家审定或官方分值。",
+        "difficulty": "delayed",
+        "errorCauseHint": "对照本题任务逐项核对；参考要点不是自动专业评分。"
+      },
+      "oldHash": "833119dea4fc7730a0e28aacf11fe3c4fc315a18122a38d0fffe04728adbfca6",
+      "newHash": "a45af12cfa630511cb4ee432e3e507ae77ef3bedbbe083ad905787dbae2c6c32",
+      "basis": "本课既有外交/馆方/1939文献来源与Q0；去除题未问的50%社会性质要求。",
+      "expertApproved": false
+    },
+    {
+      "id": "wi-d3",
+      "severity": "P0",
+      "courseId": "353-waves-interactions",
+      "old": {
+        "id": "wi-d3",
+        "type": "single",
+        "difficulty": "application",
+        "stem": "隔日给定自由静止电子近似的康普顿事件：入射80 keV、散射50 keV。哪项正确？",
+        "options": [
+          "电子得80 keV，散射光子能量不需记账",
+          "电子得30 keV，仍有50 keV散射光子",
+          "原光子光电吸收，所以不存在散射光子"
+        ],
+        "answer": 1,
+        "explanation": "B按能量守恒80−50=30 keV。A重复分配能量；C把康普顿混为光电。不能凭此认定全部30 keV在相互作用点沉积。"
+      },
+      "new": {
+        "id": "wi-d3",
+        "type": "single",
+        "difficulty": "application",
+        "stem": "隔日给定自由初始静止电子的一次康普顿事件：入射180 keV、散射150 keV。哪项正确？",
+        "options": [
+          "电子得180 keV，散射光子能量不需记账",
+          "电子得30 keV，仍有150 keV散射光子",
+          "原光子光电吸收，所以不存在散射光子"
+        ],
+        "answer": 1,
+        "explanation": "B按能量守恒180−150=30 keV；运动学还要求cosθ=1−m_ec²(1/E′−1/E)在[−1,1]内，本题约0.4322，符合。A重复分配能量；C把康普顿混为光电。不能凭此认定全部30 keV在相互作用点沉积。"
+      },
+      "oldHash": "fc3b6a0f062f3274c99db58b0db3785d598a7e3cb36f35f210d35ac8ad9679c9",
+      "newHash": "0e9ef4fc2e53a28337882d2c9bca30306b43041307e6913ba6dcdc2094ee52df",
+      "basis": "新发现：原80→50 keV要求cosθ≈−2.8325，不可能；OpenStax 6.3式6.24–6.30、例6.8。选择索引仍为1，修题设/对应选项/解析而非篡改正确性门槛。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "353-outbreak-investigation-foundation-b4",
+      "severity": "P1",
+      "courseId": "353-outbreak-investigation-foundation",
+      "old": {
+        "id": "353-outbreak-investigation-foundation-b4",
+        "type": "single",
+        "stem": "虚构短期暴发中按指定观察窗计算总体罹患比例，正确分母是什么？",
+        "options": [
+          "只选已经发病的人数",
+          "符合病例定义和观察范围的风险人群总数",
+          "任意挑选调查员人数"
+        ],
+        "answer": 1,
+        "explanation": "B：需要明确时间窗和风险人群。分母错误或重复计数会造成比例偏差。",
+        "difficulty": "foundation"
+      },
+      "new": {
+        "id": "353-outbreak-investigation-foundation-b4",
+        "type": "single",
+        "stem": "虚构封闭人群的短期暴发，期初对该结局有风险者完整随访指定观察窗，计算总体罹患比例，正确分母是什么？",
+        "options": [
+          "只选已经发病的人数",
+          "该观察窗期初符合规定人群范围、对该结局有风险的全体人数，包括随后发病者和未发病者",
+          "任意挑选调查员人数"
+        ],
+        "answer": 1,
+        "explanation": "B：本题固定完整风险人群的分母为期初有风险的全体；分子才是观察窗内满足病例定义的新发病例。不能要求分母中的每个人也满足患病的病例定义，更不能仅用病例数作分母。需保留观察窗、纳入范围和随访条件。",
+        "difficulty": "foundation"
+      },
+      "oldHash": "7babbc8d853a694d647afaab0bbb815881777d3b27a01bdbea17aaaf17f706c7",
+      "newHash": "c3d7f5d30ccb135aa9d4631b9afc00677074cfffb9376b940c69a9d7e12fbb33",
+      "basis": "CDC Principles of Epidemiology Lesson3 Section2：Incidence proportion及More About Denominators；原B把“符合病例定义”放入风险人群分母限定，可能误使分母只剩病例。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "353-evidence-systematic-review-meta-foundation-b3",
+      "severity": "P2",
+      "courseId": "353-evidence-systematic-review-meta-foundation",
+      "old": {
+        "id": "353-evidence-systematic-review-meta-foundation-b3",
+        "type": "single",
+        "stem": "在明确相同效应尺度、模型适用的逆方差加权中，权重通常和什么相关？",
+        "options": [
+          "研究效应估计的标准误平方的倒数1/SE²",
+          "论文标题长短",
+          "医院名气大小"
+        ],
+        "answer": 0,
+        "explanation": "A正确。此处权重等于标准误平方的倒数，不等于研究的整体可信度。",
+        "difficulty": "foundation"
+      },
+      "new": {
+        "id": "353-evidence-systematic-review-meta-foundation-b3",
+        "type": "single",
+        "stem": "在本课固定效应逆方差加权模型、相同效应尺度及独立研究等前提下，权重是什么？",
+        "options": [
+          "研究效应估计的标准误平方的倒数1/SE²",
+          "论文标题长短",
+          "医院名气大小"
+        ],
+        "answer": 0,
+        "explanation": "A正确，本题固定效应模型取1/SE²；不把它无条件推广为所有随机效应权重，也不等于研究整体可信度。",
+        "difficulty": "foundation"
+      },
+      "oldHash": "a66393eb6061e13ac65b403e64423b0c682a8c7050f64279600a63fda3ca839b",
+      "newHash": "a399f59f927cb4bb08a78ecf566414574d72dd87fac0c838500d68a84c704415",
+      "basis": "Cochrane 10.3.1与10.3.2；正文已限定固定效应，将题干补齐条件，不改答案。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "en-link-2",
+      "severity": "P2",
+      "courseId": "en-linking-and-verb-phrase",
+      "old": {
+        "id": "en-link-2",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "The assistant is checking the list. 的谓语动词短语是？",
+        "options": [
+          "assistant",
+          "checking the list的全部都是可删修饰语",
+          "is checking"
+        ],
+        "answer": 2,
+        "explanation": "is checking共同表示进行动作。the list是该动作的对象，不属于谓语动词短语本身。"
+      },
+      "new": {
+        "id": "en-link-2",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "The assistant is checking the list. 的谓语动词组合（本题仅指助动词和主要动词，不含宾语）是？",
+        "options": [
+          "assistant",
+          "checking the list的全部都是可删修饰语",
+          "is checking"
+        ],
+        "answer": 2,
+        "explanation": "本题按课堂限定找助动词is与主要动词checking，答案为is checking；the list是其宾语。某些句法体系把宾语也纳入广义verb phrase，本题不采用该术语范围，不能说所有句法分析都排除宾语。"
+      },
+      "oldHash": "ccf63f85485d8c0d5da89c133e5bd7e49080cc014825d9af25131f170caeccf5",
+      "newHash": "d26c3431b38b884120dd6dc6845b7621cc82869a4413cceca93e26942d53b6af",
+      "basis": "题内术语边界澄清；不把入门谓语动词组合冒充所有语法体系的广义VP定义。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "en-articles-foundation-d2",
+      "severity": "P2",
+      "courseId": "en-articles-foundation",
+      "old": {
+        "type": "single",
+        "stem": "隔日water为不可数信息中的物质义，哪项不能直接成立？",
+        "options": [
+          "some water",
+          "the water in this bottle",
+          "a water（未给份量或商品义）"
+        ],
+        "answer": 2,
+        "explanation": "本题明确无份量或商品转义，不能直接a water；A可表示一些水，B可特指，均在本课范围内成立。",
+        "id": "en-articles-foundation-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "new": {
+        "type": "single",
+        "stem": "隔日：water在本题为不可数的物质义，哪项不能直接成立？",
+        "options": [
+          "some water",
+          "the water in this bottle",
+          "a water（未给份量或商品义）"
+        ],
+        "answer": 2,
+        "explanation": "本题明确无份量或商品转义，不能直接a water；A可表示一些水，B可特指，均在本课范围内成立。",
+        "id": "en-articles-foundation-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "oldHash": "8bdb65ee588e022dd7ee7b4b63f3f5ebec67e75dea49f0ab4a8c27ca64d28180",
+      "newHash": "48e0793a21fbb95aeccdf28ca8a790e356a366abbcb6f05b5f590d14a7cbee4b",
+      "basis": "修复“不可数信息中的物质义”的误写；选项和答案不变。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "en-reading-garden-writing-d1",
+      "severity": "P2",
+      "courseId": "en-reading-garden-writing",
+      "old": {
+        "type": "single",
+        "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新句A service that more people can reach may be useful even if it earns less money. 哪项正确？",
+        "options": [
+          "that修饰service，may与even if保留可能和让步",
+          "收入少必证明所有人受益",
+          "that引出所有服务的通用命令"
+        ],
+        "answer": 0,
+        "explanation": "先认定语从句与主干，再看可能和让步；原句没有全体受益、因果证明或普适命令。",
+        "evidenceIds": [
+          "G6",
+          "G12"
+        ],
+        "id": "en-reading-garden-writing-d1",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "original-G",
+          "bc-relative"
+        ]
+      },
+      "new": {
+        "type": "single",
+        "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新句A service that more people can reach may be useful even if it earns less money. 哪项正确？",
+        "options": [
+          "that修饰service，may与even if保留可能和让步",
+          "收入少必证明所有人受益",
+          "that引出所有服务的通用命令"
+        ],
+        "answer": 0,
+        "explanation": "先识别定语从句与主干，再看可能和让步；原句没有全体受益、因果证明或普适命令。",
+        "evidenceIds": [
+          "G6",
+          "G12"
+        ],
+        "id": "en-reading-garden-writing-d1",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "original-G",
+          "bc-relative"
+        ]
+      },
+      "oldHash": "8241b31441d2046406984caf0497f371ba1eba7eb8f9c46be4f9c784cf2f1c0f",
+      "newHash": "b1110833baa479e7de5ba5c5f775e7b043d4e41b6266dd79fb5fc5ea47a10d26",
+      "basis": "修复解析漏字；保留that修饰service、may可能性及even if让步条件。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "353-screening-test-foundation-b1",
+      "severity": "P2",
+      "courseId": "353-screening-test-foundation",
+      "old": {
+        "id": "353-screening-test-foundation-b1",
+        "type": "single",
+        "stem": "面向尚无明确目标诊断的人群做一次筛检，结果阳性时最合理的表述是？",
+        "options": [
+          "已百分之百确诊，不需进一步检查",
+          "可能需要后续诊断评价；阳性也可能是假阳性",
+          "筛检阳性必说明该疾病已经造成明显症状"
+        ],
+        "answer": 1,
+        "explanation": "B：筛检是识别需进一步评价者，阳性不是确诊。A取消了假阳性及诊断环节，C误将筛检等同于症状出现。",
+        "difficulty": "foundation"
+      },
+      "new": {
+        "id": "353-screening-test-foundation-b1",
+        "type": "single",
+        "stem": "面向尚无目标疾病相关症状、无明确目标诊断的人群做一次适当筛检，结果阳性时最合理的表述是？",
+        "options": [
+          "已百分之百确诊，不需进一步检查",
+          "可能需要后续诊断评价；阳性也可能是假阳性",
+          "筛检阳性必说明该疾病已经造成明显症状"
+        ],
+        "answer": 1,
+        "explanation": "B：筛检是识别需进一步评价者，阳性不是确诊。A取消了假阳性及诊断环节，C误将筛检等同于症状出现。",
+        "difficulty": "foundation"
+      },
+      "oldHash": "7d93644d3e13e0768baea91b225d90e9498f7ee6e044a805c0eccee6292a09e5",
+      "newHash": "4a8cb4ca679753b206d0f60450f9a8e0a48b1b39fb2ee5977815f37e3ee31693",
+      "basis": "用明确的无症状筛查情景替代单纯未诊断情景，避免把有症状诊断评价也归为筛查；不改阳性需进一步评价的答案。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "353-space-air-ventilation-d1",
+      "severity": "P2",
+      "courseId": "353-space-air-ventilation",
+      "old": {
+        "type": "single",
+        "stem": "隔日：风量加倍但室外背景不变，稳态模型下哪项一定成立于题设？",
+        "options": [
+          "总浓度必减半",
+          "源增量G/Q减半，总浓度未必减半",
+          "感染概率必减半"
+        ],
+        "answer": 1,
+        "explanation": "只在源与模型条件保持时增量减半，背景加回后总量不同；感染概率还需要未给模型。",
+        "id": "353-space-air-ventilation-d1",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "ventilation"
+        ]
+      },
+      "new": {
+        "type": "single",
+        "stem": "隔日：同一房间风量加倍、恒定源强G与室外背景均保持不变，在稳态充分混合且无其他去除的模型下，哪项成立？",
+        "options": [
+          "总浓度必减半",
+          "源增量G/Q减半，总浓度未必减半",
+          "感染概率必减半"
+        ],
+        "answer": 1,
+        "explanation": "只在源与模型条件保持时增量减半，背景加回后总量不同；感染概率还需要未给模型。",
+        "id": "353-space-air-ventilation-d1",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "ventilation"
+        ]
+      },
+      "oldHash": "88142770664fa18c27ef7e27dcc5f90dbd2c6640926b6b415a3e77fcf376c9f3",
+      "newHash": "54b48e847c2c81c51b5b1d4c4699c7bf44a89bdb8764afadb25762ff2d225169",
+      "basis": "将课文中固定源/模型条件带回题干；背景浓度不变不代表总浓度必减半。",
+      "expertApproved": false,
+      "fromChoiceReview": true
+    },
+    {
+      "id": "353-sampling-distribution-se-a4",
+      "severity": "P2",
+      "courseId": "353-sampling-distribution-se",
+      "old": {
+        "id": "353-sampling-distribution-se-a4",
+        "type": "subjective",
+        "stem": "研究把同一人多次记录当独立样本，称n大于30所以s/√n一定正确且没有偏倚。指出至少三处问题。",
+        "answer": "同人记录可能相关，不能直接当IID；n30不保证精确正态或公式设计适用；SE小不排除系统偏倚，需考虑依赖结构和研究设计。",
+        "rubric": [
+          "统计对象和每份n准确，非重复次数。",
+          "公式、量纲、SD与SE的解释一致。",
+          "样本量缩放条件固定且不宣称消除偏倚。",
+          "IID/有限方差、近似与相关设计边界齐备，主观待核对。"
+        ],
+        "explanation": "核对相关性、近似门槛和偏倚区别，不要求给复杂修正式。参考要点待专业核对，不自动评分。",
+        "difficulty": "application",
+        "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+      },
+      "new": {
+        "id": "353-sampling-distribution-se-a4",
+        "type": "subjective",
+        "stem": "研究把同一人多次记录当独立样本，称n大于30所以s/√n一定正确且没有偏倚。指出至少三处问题。",
+        "answer": "同人记录可能相关，不能直接当IID；n30不保证精确正态或公式设计适用；SE小不排除系统偏倚，需考虑依赖结构和研究设计。",
+        "rubric": [
+          "同一人重复测量可能相关，不能机械当成独立个体增大n",
+          "n≥30不是任意分布下近似正态的普遍保证，需核对IID、有限方差等条件",
+          "小SE只描述相应模型下均数抽样波动，不保证选择偏倚消失或测量准确",
+          "按实际题给三项错误解释；不强制本题未要求的数值计算或量纲演算"
+        ],
+        "explanation": "核对相关性、近似门槛和偏倚区别，不要求给复杂修正式。参考要点待专业核对，不自动评分。",
+        "difficulty": "application",
+        "errorCauseHint": "n30万能保证正态，忽略相关或有限总体设计。"
+      },
+      "oldHash": "e79210e77f9ee60b92bea279dbe909e620d99f9c04a67e1733ae24a5bae09d12",
+      "newHash": "201e57d43bbba2836a77e628ef9ba712506c647fc81fa16e56ba060756063348",
+      "basis": "复用Q0已发现P2的明确建议，未重新审查190题。",
+      "expertApproved": false,
+      "fromChoiceReview": false
+    },
+    {
+      "id": "sva-d4",
+      "severity": "P2",
+      "courseId": "en-subject-verb-agreement",
+      "old": {
+        "id": "sva-d4",
+        "type": "subjective",
+        "difficulty": "application",
+        "stem": "隔日：The messages from the visitor is short. 找出主语核心，改错并说明原因。（message=消息，from=来自，short=简短）",
+        "answer": "核心为复数messages，应改为The messages from the visitor are short. 来自访客的消息很简短。from the visitor只是补充来源，不使主语变单数。",
+        "explanation": "迁移时干扰方向与label on jars相反：这次主语复数、修饰短语单数。核对核心、are和理由，不根据最近名词套答案。",
+        "rubric": [
+          "指出messages为核心复数",
+          "is改are",
+          "说明from the visitor为修饰语",
+          "句义为来自访客的消息简短"
+        ]
+      },
+      "new": {
+        "id": "sva-d4",
+        "type": "subjective",
+        "difficulty": "application",
+        "stem": "隔日：The messages from the visitor is short. 找出主语核心，改错并说明原因。（message=消息，from=来自，short=简短）",
+        "answer": "核心为复数messages，应改为The messages from the visitor are short. 来自访客的消息很简短。from the visitor只是补充来源，不使主语变单数。",
+        "explanation": "迁移时干扰方向与label on jars相反：这次主语复数、修饰短语单数。核对核心、are和理由，不根据最近名词套答案。",
+        "rubric": [
+          "指出messages为核心复数",
+          "is改are",
+          "说明from the visitor为修饰语",
+          "能保留原句意思；整句中文翻译仅供辅助，不是本题额外必答"
+        ]
+      },
+      "oldHash": "5a862c9f1383d9d1caaf94472aed84a4bc61b304ca0e6970e1199a905073507c",
+      "newHash": "1e1376fc100a856b3d6799cfc92386308611e5984b25d15d406c23ff0a80bc69",
+      "basis": "Q0原P2：题干未要求整句翻译；保留核心/订正/理由，翻译可选。",
+      "expertApproved": false,
+      "fromChoiceReview": false
+    },
+    {
+      "id": "en-reading-library-evidence-d4",
+      "severity": "P2",
+      "courseId": "en-reading-library-evidence",
+      "old": {
+        "type": "subjective",
+        "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n隔日新场景：社区服务点延时后到访次数增加，但未数不同人数且未访谈非使用者。写约60—100词英文评价与下一步。",
+        "answer": "More visits may be encouraging, but the records do not show how many new people were reached. I would ask non-users about remaining barriers and compare the results before making the change permanent. The decision should consider staff time as well as access.",
+        "rubric": [
+          "保留观察而非保证",
+          "明确人数/次数限制",
+          "提出询问非使用者等下一步",
+          "表达连贯且不伪造数据"
+        ],
+        "explanation": "接受合理支持或暂缓建议；练习字数非官方题型规则，延迟题检验迁移而非背写示范。",
+        "evidenceIds": [
+          "L7",
+          "L10",
+          "L11"
+        ],
+        "id": "en-reading-library-evidence-d4",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "original-L",
+          "bc-relative"
+        ]
+      },
+      "new": {
+        "type": "subjective",
+        "stem": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.\n\n隔日新场景：社区服务点延时后到访次数增加，但未数不同人数且未访谈非使用者。写约60—100词英文评价与下一步。",
+        "answer": "The library should keep testing its timetable before making a permanent change. Evening visits increased during the trial, but the records did not distinguish new visitors from repeat visits. Some families also faced transport barriers. The staff could ask people who still cannot attend about their needs and discuss bus times with local partners. These steps would provide better evidence about access without assuming that later opening will help every library.",
+        "rubric": [
+          "保留观察而非保证",
+          "明确人数/次数限制",
+          "提出询问非使用者等下一步",
+          "表达连贯且不伪造数据"
+        ],
+        "explanation": "接受合理支持或暂缓建议；练习字数非官方题型规则，延迟题检验迁移而非背写示范。",
+        "evidenceIds": [
+          "L7",
+          "L10",
+          "L11"
+        ],
+        "id": "en-reading-library-evidence-d4",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "original-L",
+          "bc-relative"
+        ]
+      },
+      "oldHash": "3cc5c93b191b1455a03e8820f069a7a916ff43e80831af59a922542e883bf6b2",
+      "newHash": "bb14b87ddabf497f44dead9d8606d4bd79d8eb17b940124df412571e25712961",
+      "basis": "Q0原P2：原范文43词低于题给60–100；扩展原创参考示例，保留L7–L11证据和限制，不设官方分值。",
+      "expertApproved": false,
+      "fromChoiceReview": false
+    },
+    {
+      "id": "en-reading-garden-writing-d4",
+      "severity": "P2",
+      "courseId": "en-reading-garden-writing",
+      "old": {
+        "type": "subjective",
+        "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新场景：共享维修工具计划有借用次数增加，但没数不同家庭、没测节省费用。写60—100词英文评价与下一步。",
+        "answer": "More loans may suggest interest, but they do not show how many households benefited or how much money was saved. I would ask users and non-users about access, record distinct households, and check maintenance costs before expanding the scheme. Different benefits should be discussed openly.",
+        "rubric": [
+          "保留观察与未测指标区别",
+          "不把次数当不同家庭",
+          "给具体资料/维护/参与建议",
+          "语言连贯并保留有限结论"
+        ],
+        "explanation": "可支持有限试验或暂缓扩展，只要材料一致。不是官方写作题，参考自评不能代替教师批改。",
+        "evidenceIds": [
+          "G7",
+          "G8",
+          "G10",
+          "G11"
+        ],
+        "id": "en-reading-garden-writing-d4",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "original-G",
+          "bc-relative"
+        ]
+      },
+      "new": {
+        "type": "subjective",
+        "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新场景：共享维修工具计划有借用次数增加，但没数不同家庭、没测节省费用。写60—100词英文评价与下一步。",
+        "answer": "The group should investigate whether residents can use the garden before expanding it. Wider paths and a resting place may improve access, although they leave less room for planting. The visit and harvest records do not show that health improved. Organisers could ask non-users about barriers and discuss maintenance costs fairly. A decision should combine accurate evidence with residents’ priorities, rather than assume that higher vegetable production is the only valuable outcome.",
+        "rubric": [
+          "保留观察与未测指标区别",
+          "不把次数当不同家庭",
+          "给具体资料/维护/参与建议",
+          "语言连贯并保留有限结论"
+        ],
+        "explanation": "可支持有限试验或暂缓扩展，只要材料一致。不是官方写作题，参考自评不能代替教师批改。",
+        "evidenceIds": [
+          "G7",
+          "G8",
+          "G10",
+          "G11"
+        ],
+        "id": "en-reading-garden-writing-d4",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "original-G",
+          "bc-relative"
+        ]
+      },
+      "oldHash": "565758a275e84169ab420bf0987e8fabd3d08ad08cd14741cbdc590f1546a0cc",
+      "newHash": "b33d372d01ee68d406d115ec88b3073bd20663abdd667247a1fafa8cf9495986",
+      "basis": "Q0原P2：原范文45词低于题给60–100；扩展原创示例，保留G4、G7–G11证据，不冒充真题范文。",
+      "expertApproved": false,
+      "fromChoiceReview": false
+    }
+  ],
+  "changedCourses": 17,
+  "professionalApprovals": 0,
+  "oldAuditRetained": true,
+  "originalDataUntouched": true,
+  "rollback": "删除/停用此隔离候选即可；原始包与Q0证据未改动，不对真实档案执行回退或迁移。"
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "assetsMatched": 17,
+  "scope": "fresh directory, portable baseline snapshot, no original absolute source dependency used for asset reads",
+  "output": "{\"assets\":17,\"courses\":71,\"questions\":800,\"newNamespace\":\"qh2028_issue10_q0fix1_local\",\"contentHash\":\"ba239d6c493f94d4f8b5483d843c3f0eabe3ece7856cc9e58298801353ac5572\",\"newGitSHA\":null}\n",
+  "sourceRoot": "C:\\Users\\王学庆\\Desktop\\清华大学\\outputs\\issue10-q0-revision-2026-11-16\\candidate\\product-2028-issue10-integration\\repro-WaITQH"
+}

@@ -1,0 +1,91 @@
+{
+  "branch": "candidate/2026-11-16-issue10-q0-content-fix",
+  "baseSHA": "8eee0c1e09838675d1e640f5dd0a63d89d1ef0d2",
+  "newCommit": null,
+  "candidateContentSHA256": "ba239d6c493f94d4f8b5483d843c3f0eabe3ece7856cc9e58298801353ac5572",
+  "courses": 71,
+  "questions": 800,
+  "changedCourses": 17,
+  "changedQuestions": 24,
+  "findingsAndFixes": {
+    "P0": 2,
+    "P1": 12,
+    "P2": 10
+  },
+  "oldQ0Fixes": 16,
+  "newChoiceFindings": 8,
+  "choicesTextReviewed": 505,
+  "choiceAnswerIndicesChanged": 0,
+  "numericQuestionsChanged": 0,
+  "untouchedCourses": 54,
+  "untouchedQuestions": 776,
+  "tests": {
+    "type": "Node＋既有引擎/控制器/内存IndexedDB合成测试",
+    "passed": 37,
+    "failed": 0,
+    "skipped": 0,
+    "receipt": "targeted-test-receipt-2.json",
+    "ci": false,
+    "browser": false,
+    "physicalIPhone": false
+  },
+  "allProtectedHashesUnchanged": true,
+  "checks": [
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\product-2028-issue9-3\\.build\\representative-courses.json",
+      "sha256": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+      "actualSHA256": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\audit.cjs",
+      "sha256": "e7c180ca13e036ea588f44242c289a5cf1071fac215354aa2c481965eb99bb50",
+      "actualSHA256": "e7c180ca13e036ea588f44242c289a5cf1071fac215354aa2c481965eb99bb50",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\inventory.json",
+      "sha256": "579dec0989173a8925c80321d6e7d04aa6ebb6b80b7ce4028ebac04c7bc0d6a9",
+      "actualSHA256": "579dec0989173a8925c80321d6e7d04aa6ebb6b80b7ce4028ebac04c7bc0d6a9",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\numeric-review.json",
+      "sha256": "b9ce6e73d1a1af4e6e1a44e8b50ffb79ec3a3e31299d0540c6ea179ec4693d11",
+      "actualSHA256": "b9ce6e73d1a1af4e6e1a44e8b50ffb79ec3a3e31299d0540c6ea179ec4693d11",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\coverage.json",
+      "sha256": "200e73458ce47f6b42d9d9faf407fc81089747cf81bf16f5bec7371529558788",
+      "actualSHA256": "200e73458ce47f6b42d9d9faf407fc81089747cf81bf16f5bec7371529558788",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\353审查.md",
+      "sha256": "af02974638a70a68b550059c1ad81dae8bf450afc3df321b210f3de40d940dd8",
+      "actualSHA256": "af02974638a70a68b550059c1ad81dae8bf450afc3df321b210f3de40d940dd8",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\product-2028-issue8-c\\学习可用性与缺口.md",
+      "sha256": "6f72d454e28b52a5fe35865f29ae401822b7ac8866d1c6a379a44b1838ab7cb3",
+      "actualSHA256": "6f72d454e28b52a5fe35865f29ae401822b7ac8866d1c6a379a44b1838ab7cb3",
+      "unchanged": true
+    },
+    {
+      "file": "C:/Users/王学庆/Documents/Codex/2026-11-16/referenced-chatgpt-conversation-this-is-an-3/outputs/接管审计证据包.zip",
+      "sha256": "a018bbab69eb75f8d2ad38a67b68900359a18451ab21f02af924eed46c6df7df",
+      "actualSHA256": "a018bbab69eb75f8d2ad38a67b68900359a18451ab21f02af924eed46c6df7df",
+      "unchanged": true
+    }
+  ],
+  "sourceRepoHead": "8eee0c1e09838675d1e640f5dd0a63d89d1ef0d2",
+  "sourceRepoTrackedStatus": "M \"product-2028-issue8-c/\\345\\255\\246\\344\\271\\240\\345\\217\\257\\347\\224\\250\\346\\200\\247\\344\\270\\216\\347\\274\\272\\345\\217\\243.md\"",
+  "sourceVerificationComplete": false,
+  "expertApprovals": 0,
+  "realLearningDataAccess": false,
+  "pushed": false,
+  "deployed": false,
+  "realPhoneApproved": false
+}
