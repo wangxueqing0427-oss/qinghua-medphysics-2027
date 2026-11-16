@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scope": "sixIDs, source locators, hashes and queue arithmetic; no repeated numerical Q0 test",
+  "newAnchors": 6,
+  "remaining": 261,
+  "professionalApprovals": 0,
+  "partialOnly": true
+}

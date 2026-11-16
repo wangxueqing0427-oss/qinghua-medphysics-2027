@@ -44,7 +44,7 @@
       const objective=pool.filter(r=>r.q.type!=='subjective');
       // Always include one human-review answer where available; never invent a score for it.
       const selected=subjective.length?choose(subjective,Math.min(4,subjective.length),used):[];
-      selected.push(...choose(objective,size-selected.length,used));
+      if(s==='353')selected.push(...choose(objective.filter(x=>x.q.type==='number'),4,used));if(s==='en')selected.push(...choose(objective.filter(x=>/reading/.test(x.unit.id)),3,used));const remaining=objective.filter(x=>!selected.some(y=>y.q.id===x.q.id));selected.push(...choose(remaining,size-selected.length,used));
       result.push(...selected.map(({unit,q})=>({
         unitId:unit.id,unitVersion:unit.version,questionId:q.id,
         questionVersion:q.version||null,subject:s,type:q.type

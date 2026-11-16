@@ -1,8 +1,8 @@
 {
-  "edition": "qh2028-issue10-examloop-v3-72",
-  "db": "qh2028_issue10_examloop_v3_local",
-  "journal": "qh2028_issue10_examloop_v3_pending:",
-  "cache": "qh2028-issue10-examloop-v3-72",
+  "edition": "qh2028-issue10-examloop-v4-72",
+  "db": "qh2028_issue10_examloop_v4_local",
+  "journal": "qh2028_issue10_examloop_v4_pending:",
+  "cache": "qh2028-issue10-examloop-v4-72",
   "courses": 72,
   "questions": 812,
   "files": [
@@ -33,7 +33,7 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "43d8edf7df6bb82e5ca5c718e1e48d4e6f0d9ab70cd994a5cf43f180dced82d3",
+      "sha256": "7106809ffef98cfedd6f638f5d46f8965b68de59e20f79fc03715ab62a1889d8",
       "bytes": 318
     },
     {
@@ -53,22 +53,22 @@
     },
     {
       "path": "mock-engine.js",
-      "sha256": "ff4ddff53c0c07e952781dd5375dffc1f9dde65235b0eb6eb6c14b7743359ec9",
-      "bytes": 12087
+      "sha256": "f47b04c4f71f3ff026190f1e88dbb5a16a058cea90fd3ab3e6a7cc40a70dc134",
+      "bytes": 12338
     },
     {
       "path": "mock-ui.js",
-      "sha256": "1d4baeb6d8b545c331ed7f571dde2ef6008498c4c7c1326dec4ff1831d5e49dd",
-      "bytes": 26446
+      "sha256": "e1a731582c24e9358fbef63dfb1a34b919a9343e8ad010d798220087ec1fa0df",
+      "bytes": 26670
     },
     {
       "path": "pilot-ui.js",
-      "sha256": "835fbbc80e7c1f55714b373d72093486e0f8146b2f11d071121e969d92514b92",
+      "sha256": "94c6dfa9a2473861ff4b7532ef74bd2c0980d0d7f6a1248822957b47787972c0",
       "bytes": 20947
     },
     {
       "path": "profile-repository.js",
-      "sha256": "c24f21876c5daa02aefaae937939b241df1ea1cb278724196af528ab5bd75981",
+      "sha256": "a2dd4ebda808bfb050adbb8b8d6ae80eddacb0b90ca0891c5ba7ae4d3f7c4d3e",
       "bytes": 7091
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "path": "representative-courses.json",
-      "sha256": "28f5f2746cabbc66e8d1c943377f861e087adb3c807e0bf646fc891704bd6779",
+      "sha256": "c67649800ca0ee40c3a58aa31845ba074df2d2536ec5d0b0acfc3511333c47f3",
       "bytes": 1292806
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "path": "sw.js",
-      "sha256": "a019c84b0aa13df4728b2338edbd630bb70aa795818eeeface901d28f224d5af",
+      "sha256": "5509a38fbde5d65f0f1667d45f9a2c2f3e2114de680c3acc69448f9fbfffdad2",
       "bytes": 1495
     }
   ],

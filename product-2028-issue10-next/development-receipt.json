@@ -1,0 +1,35 @@
+{
+  "sourceBaseline": "1854d46cccf20bcb6b7a3f6098ce6c49d6232f2d",
+  "localEngineTests": {
+    "passed": 10,
+    "failed": 0,
+    "note": "new paper composition assertion will execute in Linux CI"
+  },
+  "localChromium": {
+    "file": "browser-chromium-4.json",
+    "checks": 10,
+    "passed": true
+  },
+  "newCourse": {
+    "units": 1,
+    "questions": 12,
+    "version": "0.1.1",
+    "previousVersionSnapshot": "content/en-cloze-cohesion-0.1.snapshot.json",
+    "mappingCorrected": true
+  },
+  "sourceAudit": {
+    "initialPending": 278,
+    "newSubclaimAnchors": 17,
+    "remaining": 261,
+    "expertApprovals": 0
+  },
+  "fullMock": false,
+  "physicalIPhone": false,
+  "knownGaps": [
+    "full subject breadth incomplete",
+    "official2028 paper blueprints unverified",
+    "no independent professional approval",
+    "181minute timeout tested with injected test clock, not actual three-hour device endurance"
+  ],
+  "rollback": "https://403b3769.qh2028-core47-preview.pages.dev/"
+}

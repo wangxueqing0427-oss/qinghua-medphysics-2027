@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "qh2028-issue10-examloop-v3-72-internal-draft",
+  "contentVersion": "qh2028-issue10-examloop-v4-72-internal-draft",
   "readinessPolicy": "先修课有真实闭卷回答和至少一次客观答对才安排后续；仅表示可开始后续，不代表掌握。",
   "units": [
     {

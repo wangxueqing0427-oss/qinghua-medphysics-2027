@@ -2,6 +2,7 @@
 const fs=require('fs'),p=require('path');const D=__dirname,prev=p.join(D,'../product-2028-issue10-exam');
 let engine=fs.readFileSync(p.join(prev,'engine.cjs'),'utf8').replaceAll('issue10-provisional-exam-1','issue10-examloop-2');
 engine=engine.replaceAll('pack?.units?.length===71','pack?.units?.length>=71').replace('const selected=subjective.length?choose(subjective,1,used):[];','const selected=subjective.length?choose(subjective,Math.min(4,subjective.length),used):[];');
+engine=engine.replace('selected.push(...choose(objective,size-selected.length,used));',"if(s==='353')selected.push(...choose(objective.filter(x=>x.q.type==='number'),4,used));if(s==='en')selected.push(...choose(objective.filter(x=>/reading/.test(x.unit.id)),3,used));const remaining=objective.filter(x=>!selected.some(y=>y.q.id===x.q.id));selected.push(...choose(remaining,size-selected.length,used));");
 engine=engine.replace('const API=Object.freeze({SUBJECTS,','const API=Object.freeze({selfAssess,reviewQueue,answerReview,diagnose,SUBJECTS,');
 const extra=fs.readFileSync(p.join(D,'exam-extensions.txt'),'utf8');engine=engine.replace('  const API=Object.freeze',extra+'\n  const API=Object.freeze');
 fs.writeFileSync(p.join(D,'mock-engine.js'),engine);
