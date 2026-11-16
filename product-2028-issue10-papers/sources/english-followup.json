@@ -1,0 +1,357 @@
+{
+  "date": "2026-11-17",
+  "module": "en-past-simple-foundation",
+  "queueConstruction": "radiotherapy-followup.remainingQueue minus protection-filter-followup.removedIds; verified against previous254IDdigest",
+  "previousQueue": 254,
+  "newDirectSubclaimAnchors": 9,
+  "remainingQueueCount": 245,
+  "sources": [
+    {
+      "id": "BC-REGULAR-PAST",
+      "agency": "British Council LearnEnglish Teens",
+      "title": "Past simple – regular verbs",
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/past-simple-regular-verbs",
+      "published": null,
+      "accessed": "2026-11-17",
+      "actualRead": "Grammar body paragraphs after transcript: past events/states and repeated past events; regular-ed, final-e/-d, consonant-y/-ied, vowel-y/-ed; unchanged past form across subjects; did+infinitive for questions and negatives. Web body lines28-97, noPDFpageclaim.",
+      "supports": "Explicit basic grammar rules used by the nine items; language forms limited to the stated simple-past factual context",
+      "limits": "Not2028exam scope/score evidence; examples are not copied into courses; doubling consonant rule not used as a universal unstressed/multisyllabic rule"
+    },
+    {
+      "id": "BC-IRREGULAR-PAST",
+      "agency": "British Council LearnEnglish Teens",
+      "title": "Past simple – irregular verbs",
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/past-simple-irregular-verbs",
+      "published": null,
+      "accessed": "2026-11-17",
+      "actualRead": "Grammar body after transcript: unchanged irregular past forms; did+not+bare infinitive; did+subject+bare infinitive questions; be exception; present/past table go/went,have/had,see/saw. Web body lines49-116.",
+      "supports": "go/went,have/had,see/saw; ordinary did-question/negative construction and was/were agreement",
+      "limits": "Does not make a past-form statement automatically a past fact in hypothetical or polite contexts; present-time continuation cannot be inferred from form alone"
+    },
+    {
+      "id": "BC-KIDS-BE-PAST",
+      "agency": "British Council LearnEnglish Kids",
+      "title": "Past simple – verb 'to be'",
+      "url": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-practice/past-simple-verb-be",
+      "published": null,
+      "accessed": "2026-11-17",
+      "actualRead": "How to use it body: was forI/he/she/it; were foryou/we/they; be+not negatives; inversion forquestions. Web body lines14-37; user comments not used.",
+      "supports": "be past agreement and negation, includingyou/were andwas not",
+      "limits": "This is the basic past-state teaching rule; no claim every hypothetical dialect/usage was adjudicated"
+    },
+    {
+      "id": "BC-PAST-SCOPE",
+      "agency": "British Council LearnEnglish",
+      "title": "Past tense",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-tense",
+      "published": null,
+      "accessed": "2026-11-17",
+      "actualRead": "Introductory grammar body only, web lines9-51: past reference, hypotheses and politeness; comments not treated as source evidence.",
+      "supports": "Boundary: past morphological forms have non-past uses as well; tasks must remain in their specified factual context",
+      "limits": "No claim the entire909-line comments section was read as authoritative teaching; no2028scopeclaim"
+    }
+  ],
+  "rows": [
+    {
+      "id": "pst-b1",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-b1",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "In 2020, she walked here every day. 这句话描述什么？",
+        "options": [
+          "2020年那段时间的习惯",
+          "保证她现在每天来",
+          "因为every day所以不可能是过去"
+        ],
+        "answer": 0,
+        "explanation": "A符合过去时期与walked。B把过去外推现在；C把频率词当唯一时态决定因素。每一天也可以属于过去时期。"
+      },
+      "questionSHA256": "5ae7513a2c9470530d0959dfb312c434efdc81280aa5d79149fe640d79dddfbb",
+      "sourceIds": [
+        "BC-REGULAR-PAST"
+      ],
+      "supports": "Repeated past actions may be described in simple past; explicitIn2020sets the reference period. Every day does not force present tense.",
+      "limits": "Does not establish whether she still comes now.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-b2",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-b2",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "昨天的简单肯定句：She ___ the hall.（open=打开）",
+        "options": [
+          "openeds",
+          "opened",
+          "opens"
+        ],
+        "answer": 1,
+        "explanation": "B为规则过去式。A错误地再加人称s；C为本题不需要的现在时形式。主语she不要求在opened之后再加s。"
+      },
+      "questionSHA256": "737913125abee5f323bc4e6193faa0aa9c30fe84808d0433c75724f243dde06f",
+      "sourceIds": [
+        "BC-REGULAR-PAST"
+      ],
+      "supports": "Regular past is base+ed, unchanged acrossshe/other subjects; open→opened is direct application of that rule.",
+      "limits": "No claim that everyEnglishverb takesed; the task explicitly suppliesregularopen.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-b3",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-b3",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "Yesterday they ___ to the hall.（go=去）",
+        "options": [
+          "goed",
+          "goes",
+          "went"
+        ],
+        "answer": 2,
+        "explanation": "C是go的不规则过去式。A机械加ed，B为第三人称单数现在形式且不匹配they。需同时核对时间和词形。"
+      },
+      "questionSHA256": "2dd32d5f3fdb380cdca83ab19bf04048fd57c42221abe7fe985a7651bb28f1c1",
+      "sourceIds": [
+        "BC-IRREGULAR-PAST"
+      ],
+      "supports": "Official table directly listsgo→went; subjectthey andyesterdayexcludegoes.",
+      "limits": "No claimgoisregular or allirregular forms can be generated byone algorithm.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-b4",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-b4",
+        "type": "single",
+        "difficulty": "standard",
+        "stem": "过去否定：Nia did not ___ a ticket.（buy=买）",
+        "options": [
+          "bought",
+          "buy",
+          "buys"
+        ],
+        "answer": 1,
+        "explanation": "B正确，did not已构成过去否定，后用原形buy。A重复过去形式，C误加现在时第三人称单数s。"
+      },
+      "questionSHA256": "27c397ab200395ae37be3f953156adc22dfbe5aa6da4cb465fc15d22ea4e4a59",
+      "sourceIds": [
+        "BC-REGULAR-PAST",
+        "BC-IRREGULAR-PAST"
+      ],
+      "supports": "did not is followed bybare infinitive; buyistherequired form afterdid not.",
+      "limits": "This verifies the stated ordinary negative construction, not dialectal or elliptical alternatives.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-a2",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-a2",
+        "type": "multi",
+        "difficulty": "application",
+        "stem": "哪些过去词形符合本课词例？",
+        "options": [
+          "live—lived",
+          "study—studyed",
+          "play—played"
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A原有e加d；B应studied；C元音+y保留y加ed。不能仅凭都有y就同样改写。"
+      },
+      "questionSHA256": "ab85bd7faeea95937793f58ade830072794d2a2968bb58450ce72c1e552e1d96",
+      "sourceIds": [
+        "BC-REGULAR-PAST"
+      ],
+      "supports": "Finale takesd, consonant+y takesied, vowel+y takesed; applying these explicit rules giveslived,studied,played.",
+      "limits": "The exactstudied token is an application of the read rule, not a claim that the source literally prints that example.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-a4",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-a4",
+        "type": "multi",
+        "difficulty": "application",
+        "stem": "哪些过去事实句正确？",
+        "options": [
+          "Did Nia go?",
+          "Nia did not went.",
+          "The guide was not late."
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A中did后原形；B应did not go；C中be用was not，不用did not was。限定过去事实，不讨论假设语气。"
+      },
+      "questionSHA256": "61e8353af96cbbd769305d21d8179bd54ff2cc03f4e81e83cd5eeb6706e86286",
+      "sourceIds": [
+        "BC-IRREGULAR-PAST",
+        "BC-KIDS-BE-PAST"
+      ],
+      "supports": "did+subject+bare infinitive givesDid Nia go;did not went violates this structure;was notisvalidbe negation.",
+      "limits": "Task wording过去事实句 includes aquestion, so建议P2clarify as一般过去时句子（可含疑问）; not a confirmed answer error.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "Optional wording clarification only; no answer or explanation change made.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-d1",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-d1",
+        "type": "single",
+        "difficulty": "standard",
+        "stem": "隔日：Last winter, we played here on Sundays. 可据此确认什么？",
+        "options": [
+          "去年冬天曾在周日来玩",
+          "现在每周日必来",
+          "play绝不是过去动作"
+        ],
+        "answer": 0,
+        "explanation": "A对应明确过去时期；B越出材料；C忽视played。是否现在还来，需要新证据。"
+      },
+      "questionSHA256": "8bce6b9cc5210108b7e1f16423d12ec1f45dda8a4e730950032e1382d6cc04fd",
+      "sourceIds": [
+        "BC-REGULAR-PAST"
+      ],
+      "supports": "The source explicitly allows repeated actions within a finished past period;Last winter+played+onSundaysmatches it.",
+      "limits": "CurrentSundayhabit remains unestablished; do not assert it stopped forever either.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-d2",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-d2",
+        "type": "single",
+        "difficulty": "standard",
+        "stem": "隔日：The pupils ___ maps yesterday.（study=学习/研究）",
+        "options": [
+          "studys",
+          "studied",
+          "studies"
+        ],
+        "answer": 1,
+        "explanation": "B为study的本课过去式；A不是正确词形，C为现在时第三人称单数。复数主语不把过去式改回现在。"
+      },
+      "questionSHA256": "4d833207326aca7f55c6345d0f8fb9eeae74519252a7da22754056e7dadb8944",
+      "sourceIds": [
+        "BC-REGULAR-PAST"
+      ],
+      "supports": "Consonant+y→ied givesstudied; finite simple-past lexical form does not vary withpupils.",
+      "limits": "Exactform is rule application, not a copied source example; no claim allverbs endingybehave identically.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pst-d3",
+      "course": "en-past-simple-foundation",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "pst-d3",
+        "type": "multi",
+        "difficulty": "application",
+        "stem": "隔日：哪些词形适合本课简单过去事实？",
+        "options": [
+          "They had a map.",
+          "You was early.",
+          "She saw a poster."
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A和C分别用had、saw；B中you应were。不能把you只有一个人当作was的理由。"
+      },
+      "questionSHA256": "e49a317e90c29d90cb6c3cb6f5ae278004490667d3f7c92c22f4439644c6e99a",
+      "sourceIds": [
+        "BC-IRREGULAR-PAST",
+        "BC-KIDS-BE-PAST"
+      ],
+      "supports": "The table explicitly lists have→had and see→saw; be agreement requires you were.",
+      "limits": "Boundary limited to given simple-past factual task, not counterfactualwas/were variation.",
+      "status": "specific grammar subclaim supported in stated teaching context; not independent professional approval",
+      "minimalRevision": "No answer change supported as necessary by these sources.",
+      "confirmedError": false,
+      "expertApproved": false
+    }
+  ],
+  "removedIds": [
+    "pst-b1",
+    "pst-b2",
+    "pst-b3",
+    "pst-b4",
+    "pst-a2",
+    "pst-a4",
+    "pst-d1",
+    "pst-d2",
+    "pst-d3"
+  ],
+  "remainingIdDigest": "89a593c230825665d44a66f3f9598c5c10a151bc7f06fd207faf5dfd6c6b6657",
+  "remainingQueueReconstruction": "Do not duplicate254rows; subtractthisremovedIds afterprotection-filterremovedIds fromradiotherapy.remainingQueue inoriginalorder",
+  "failures": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-simple",
+      "result": "webtimeout; no body used"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/node/1391",
+      "result": "officialinternal past-simple link timedout; no retry loop"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-simple-i-worked",
+      "result": "403Forbidden; no bypass/no body used"
+    }
+  ],
+  "confirmedP0P1": 0,
+  "optionalP2": [
+    {
+      "id": "pst-a4",
+      "issue": "疑问句不陈述既定事实；题干过去事实句可改为一般过去时句子（可含疑问），答案A/C本身有依据",
+      "applied": false
+    }
+  ],
+  "professionalApprovals": 0,
+  "oldCourseChanged": false
+}

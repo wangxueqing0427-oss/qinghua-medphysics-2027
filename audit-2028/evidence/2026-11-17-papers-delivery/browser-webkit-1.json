@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "browser": "webkit",
+  "physicalIPhone": false,
+  "checks": [
+    "en-paragraph-heading-matching full teaching/recall/practice/delayed learning loop",
+    "pol-rule-of-law-foundation full teaching/recall/practice/delayed learning loop",
+    "enmid-paper tab-close and exact continuation",
+    "enall52items, actual material, objective points, raw subjective and learner self-evaluation",
+    "polmid-paper tab-close and exact continuation",
+    "polall38items, actual material, objective points, raw subjective and learner self-evaluation",
+    "353mid-paper tab-close and exact continuation",
+    "353all35items, actual material, objective points, raw subjective and learner self-evaluation",
+    "three paper history and separate objective-wrong/subjective-pending review queue",
+    "full125responses and self-checks survive backup restore into separate profile",
+    "real TCP outage new navigation, exact history restore and offline full-paper start"
+  ],
+  "passed": true
+}

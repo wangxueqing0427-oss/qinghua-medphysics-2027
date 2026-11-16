@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": 5,
+  "scope": "IDmembership, snapshots, hashes, source locators,256-2arithmetic; not expert review",
+  "newAnchors": 2,
+  "remaining": 254
+}

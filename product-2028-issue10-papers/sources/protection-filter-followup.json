@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 256,
+  "newDirectSubclaimAnchors": 2,
+  "remainingQueueCount": 254,
+  "sources": [
+    {
+      "id": "IAEA-GSR3-EQUIV",
+      "agency": "IAEA",
+      "title": "Radiation Protection and Safety of Radiation Sources: International Basic Safety Standards, GSRPart3",
+      "version": "IAEAofficialonlinecollection; underlyingGSRPart3(2014); no2026revision assertion",
+      "url": "https://nucleus.iaea.org/sites/nss-oui/Published%20Collections/m_3761d926-c16f-4477-a63b-741a9db1c16c/m_3761d926-c16f-4477-a63b-741a9db1c16c__50_0.Html",
+      "actualRead": "Glossary equivalent dose definition, webbody lines3817-3830; formulaH_T,R=w_R D_T,R, mixed-field sum and unitSv; HTML noPDFpageclaim"
+    },
+    {
+      "id": "EPA-AIR-CLEANERS",
+      "agency": "USEPA",
+      "title": "Will air cleaners reduce health risks?",
+      "updated": "2026-02-18",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/will-air-cleaners-reduce-health-risks",
+      "actualRead": "Webbody paragraphs5-9, specifically particle/gas distinctions and health-effect uncertainty; noPDFpageclaim"
+    }
+  ],
+  "rows": [
+    {
+      "id": "353-radiation-protection-foundation-b4",
+      "source": "IAEA-GSR3-EQUIV",
+      "supports": "Organ-averaged absorbed dose multiplied by radiation weighting factor; for multiple radiation types sum contributions; unitSv",
+      "limits": "Radiation weighting is not tissue weighting, not a clinical absorbed-dose prescription or a deterministic injury assessment",
+      "course": "353-radiation-protection-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-radiation-protection-foundation-b4",
+        "type": "single",
+        "stem": "同一器官仅有一个辐射种类且已知权重w_R，器官当量剂量在本课简化模型如何求？",
+        "options": [
+          "吸收剂量乘组织权重因子即可无条件等于有效剂量",
+          "器官平均吸收剂量乘辐射权重因子，单位Sv",
+          "只数每秒核衰变次数，单位Gy"
+        ],
+        "answer": 1,
+        "explanation": "B：单一辐射种类的当量剂量H_T=w_R D_T。有效剂量还需要各器官组织权重求和；活度与剂量不是同一个量。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "07fd9d2f870054446d8c08bdf883ad1d770636237a7b0fb3a979fb4bd367232c",
+      "status": "specific-subclaim-supported; remaining professional boundaries retained",
+      "confirmedError": false,
+      "minimalRevision": "No answer change; retain scope and limitations in further teaching",
+      "expertApproved": false
+    },
+    {
+      "id": "353-space-air-ventilation-b3",
+      "source": "EPA-AIR-CLEANERS",
+      "supports": "Particle cleaning is not unconditional gas removal; special sorbent media and pollutant-specific conditions differ",
+      "limits": "Residential FAQ and its underlying historical references do not establish hospital ventilation standards, universal health benefits or all-gas removal",
+      "course": "353-space-air-ventilation",
+      "version": "0.1-issue8-a-q0fix1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "柳湾颗粒过滤器可以无条件消除所有气态污染物吗？",
+        "answer": 1,
+        "explanation": "颗粒去除不等于气体去除，且浓度、个人剂量和风险不同；应核查源、介质、空间与适用净化方式，不能保证零风险。",
+        "id": "353-space-air-ventilation-b3",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "ventilation"
+        ],
+        "options": [
+          "可以，空气净化都一样",
+          "不能，需污染物与去除机制匹配",
+          "只看房间体积即可决定"
+        ]
+      },
+      "questionSHA256": "3511c97015e8a4edad5f9afc54313159c1551d8371f174336bedf07ef5346e1e",
+      "status": "specific-subclaim-supported; remaining professional boundaries retained",
+      "confirmedError": false,
+      "minimalRevision": "No answer change; retain scope and limitations in further teaching",
+      "expertApproved": false
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "353-radiation-protection-foundation-a1",
+      "source": "https://www.osha.gov/ionizing-radiation/introduction/ionizing-radiation-equations",
+      "read": "InverseSquareLaw formulaI2=I1(d1/d2)^2 and symbol definitions actually read",
+      "limit": "No explicit point-source/attenuation conditions on page; not enough for full original claim; remains in unanchored queue"
+    },
+    {
+      "id": "353-radiation-protection-foundation-a1",
+      "url": "https://stacks.cdc.gov/view/cdc/217897/cdc_217897_DS1.pdf",
+      "result": "webtool rejected content length13945806bytes; source not read, not downloaded"
+    },
+    {
+      "id": "353-radiation-protection-foundation-a1",
+      "url": "https://met.reading.ac.uk/pplato2/h-flap/phys6_1.html",
+      "result": "timeout; no body read, no status promotion"
+    }
+  ],
+  "removedIds": [
+    "353-radiation-protection-foundation-b4",
+    "353-space-air-ventilation-b3"
+  ],
+  "remainingIdDigest": "1edbc578adc54f8757f296abffc285fbfdcfb71ba69b950a4be8899add843337",
+  "note": "No full256row duplication due low disk; reconstruct fromradiotherapy-followup.remainingQueue minusremovedIds",
+  "professionalApprovals": 0,
+  "originalCourseChanged": false
+}

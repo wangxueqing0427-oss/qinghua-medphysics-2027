@@ -1,0 +1,71 @@
+{
+  "minutesRequested": 10,
+  "clock": "real wall clock",
+  "simulatedClock": false,
+  "physicalIPhone": false,
+  "checkpoints": [
+    {
+      "minute": 1,
+      "at": "2026-11-16T16:07:51.976Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 2,
+      "at": "2026-11-16T16:08:52.226Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 3,
+      "at": "2026-11-16T16:09:52.234Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 4,
+      "at": "2026-11-16T16:10:52.491Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 5,
+      "at": "2026-11-16T16:11:52.500Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 6,
+      "at": "2026-11-16T16:12:52.699Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 7,
+      "at": "2026-11-16T16:13:52.708Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 8,
+      "at": "2026-11-16T16:14:52.960Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 9,
+      "at": "2026-11-16T16:15:52.968Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    },
+    {
+      "minute": 10,
+      "at": "2026-11-16T16:16:53.222Z",
+      "answers": 1,
+      "deadlineUnchanged": true
+    }
+  ],
+  "elapsedMs": 601823,
+  "passed": true,
+  "notClaimed": "Not a full180minute endurance test; no physical iPhone background/airplane-mode test"
+}

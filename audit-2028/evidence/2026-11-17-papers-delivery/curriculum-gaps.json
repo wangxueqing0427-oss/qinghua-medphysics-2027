@@ -1,0 +1,4631 @@
+{
+  "baseline": "product-2028-issue10-next/coverage-current.json",
+  "date": "2026-11-17",
+  "nodeCount": 149,
+  "partialLinkedNodes": 32,
+  "fullVerifiedCoverage": null,
+  "expertApprovals": 0,
+  "subjects": [
+    {
+      "subject": "en",
+      "units": 19,
+      "courseQuestions": 212
+    },
+    {
+      "subject": "pol",
+      "units": 16,
+      "courseQuestions": 180
+    },
+    {
+      "subject": "353",
+      "units": 39,
+      "courseQuestions": 444
+    }
+  ],
+  "rows": [
+    {
+      "id": "en-plan-1",
+      "name": "词音和词汇",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "en-vocabulary-retrieval-foundation",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "en-vocabulary-retrieval-foundation-b1",
+            "en-vocabulary-retrieval-foundation-b2",
+            "en-vocabulary-retrieval-foundation-b3",
+            "en-vocabulary-retrieval-foundation-b4",
+            "en-vocabulary-retrieval-foundation-a1",
+            "en-vocabulary-retrieval-foundation-a2",
+            "en-vocabulary-retrieval-foundation-a3",
+            "en-vocabulary-retrieval-foundation-a4",
+            "en-vocabulary-retrieval-foundation-d1",
+            "en-vocabulary-retrieval-foundation-d2",
+            "en-vocabulary-retrieval-foundation-d3",
+            "en-vocabulary-retrieval-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-foundation-svo"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-2",
+      "name": "基础句法",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "en-foundation-svo",
+          "version": "0.3-svo-delay-candidate1",
+          "questionIds": [
+            "en-svo-1",
+            "en-svo-2",
+            "en-svo-3",
+            "en-svo-delay-1",
+            "en-svo-delay-2",
+            "en-svo-delay-3"
+          ],
+          "reviewStatus": "internally-reviewed-for-pilot",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-present-negative",
+          "version": "0.1",
+          "questionIds": [
+            "en-neg-1",
+            "en-neg-2",
+            "en-neg-3",
+            "en-neg-4",
+            "en-neg-5",
+            "en-neg-d1",
+            "en-neg-d2"
+          ],
+          "prerequisites": [
+            "en-foundation-svo"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-linking-and-verb-phrase",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "en-link-1",
+            "en-link-2",
+            "en-link-3",
+            "en-link-4",
+            "en-link-5",
+            "en-link-d1",
+            "en-link-d2"
+          ],
+          "prerequisites": [
+            "en-foundation-svo"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-subject-verb-agreement",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "sva-b1",
+            "sva-b2",
+            "sva-b3",
+            "sva-b4",
+            "sva-a1",
+            "sva-a2",
+            "sva-a3",
+            "sva-a4",
+            "sva-d1",
+            "sva-d2",
+            "sva-d3",
+            "sva-d4"
+          ],
+          "prerequisites": [
+            "en-foundation-svo"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-past-simple-foundation",
+          "version": "0.2",
+          "questionIds": [
+            "pst-b1",
+            "pst-b2",
+            "pst-b3",
+            "pst-b4",
+            "pst-a1",
+            "pst-a2",
+            "pst-a3",
+            "pst-a4",
+            "pst-d1",
+            "pst-d2",
+            "pst-d3",
+            "pst-d4"
+          ],
+          "prerequisites": [
+            "en-subject-verb-agreement"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-present-questions",
+          "version": "0.1",
+          "questionIds": [
+            "en-present-questions-b1",
+            "en-present-questions-b2",
+            "en-present-questions-b3",
+            "en-present-questions-b4",
+            "en-present-questions-a1",
+            "en-present-questions-a2",
+            "en-present-questions-a3",
+            "en-present-questions-a4",
+            "en-present-questions-d1",
+            "en-present-questions-d2",
+            "en-present-questions-d3",
+            "en-present-questions-d4"
+          ],
+          "prerequisites": [
+            "en-linking-and-verb-phrase",
+            "en-subject-verb-agreement"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-nouns-countability",
+          "version": "0.1",
+          "questionIds": [
+            "en-nouns-countability-b1",
+            "en-nouns-countability-b2",
+            "en-nouns-countability-b3",
+            "en-nouns-countability-b4",
+            "en-nouns-countability-a1",
+            "en-nouns-countability-a2",
+            "en-nouns-countability-a3",
+            "en-nouns-countability-a4",
+            "en-nouns-countability-d1",
+            "en-nouns-countability-d2",
+            "en-nouns-countability-d3",
+            "en-nouns-countability-d4"
+          ],
+          "prerequisites": [
+            "en-foundation-svo"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-pronoun-reference",
+          "version": "0.1",
+          "questionIds": [
+            "en-pronoun-reference-b1",
+            "en-pronoun-reference-b2",
+            "en-pronoun-reference-b3",
+            "en-pronoun-reference-b4",
+            "en-pronoun-reference-a1",
+            "en-pronoun-reference-a2",
+            "en-pronoun-reference-a3",
+            "en-pronoun-reference-a4",
+            "en-pronoun-reference-d1",
+            "en-pronoun-reference-d2",
+            "en-pronoun-reference-d3",
+            "en-pronoun-reference-d4"
+          ],
+          "prerequisites": [
+            "en-nouns-countability",
+            "en-linking-and-verb-phrase"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-articles-foundation",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "en-articles-foundation-b1",
+            "en-articles-foundation-b2",
+            "en-articles-foundation-b3",
+            "en-articles-foundation-b4",
+            "en-articles-foundation-a1",
+            "en-articles-foundation-a2",
+            "en-articles-foundation-a3",
+            "en-articles-foundation-a4",
+            "en-articles-foundation-d1",
+            "en-articles-foundation-d2",
+            "en-articles-foundation-d3",
+            "en-articles-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-nouns-countability",
+            "en-pronoun-reference"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-present-continuous-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "en-present-continuous-foundation-b1",
+            "en-present-continuous-foundation-b2",
+            "en-present-continuous-foundation-b3",
+            "en-present-continuous-foundation-b4",
+            "en-present-continuous-foundation-a1",
+            "en-present-continuous-foundation-a2",
+            "en-present-continuous-foundation-a3",
+            "en-present-continuous-foundation-a4",
+            "en-present-continuous-foundation-d1",
+            "en-present-continuous-foundation-d2",
+            "en-present-continuous-foundation-d3",
+            "en-present-continuous-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-present-questions",
+            "en-present-negative"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-passive-simple-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "en-passive-simple-foundation-b1",
+            "en-passive-simple-foundation-b2",
+            "en-passive-simple-foundation-b3",
+            "en-passive-simple-foundation-b4",
+            "en-passive-simple-foundation-a1",
+            "en-passive-simple-foundation-a2",
+            "en-passive-simple-foundation-a3",
+            "en-passive-simple-foundation-a4",
+            "en-passive-simple-foundation-d1",
+            "en-passive-simple-foundation-d2",
+            "en-passive-simple-foundation-d3",
+            "en-passive-simple-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-past-simple-foundation",
+            "en-linking-and-verb-phrase",
+            "en-pronoun-reference"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-present-perfect-foundation",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "en-present-perfect-foundation-b1",
+            "en-present-perfect-foundation-b2",
+            "en-present-perfect-foundation-b3",
+            "en-present-perfect-foundation-b4",
+            "en-present-perfect-foundation-a1",
+            "en-present-perfect-foundation-a2",
+            "en-present-perfect-foundation-a3",
+            "en-present-perfect-foundation-a4",
+            "en-present-perfect-foundation-d1",
+            "en-present-perfect-foundation-d2",
+            "en-present-perfect-foundation-d3",
+            "en-present-perfect-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-past-simple-foundation",
+            "en-passive-simple-foundation",
+            "en-subject-verb-agreement"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-3",
+      "name": "复杂句分析",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "en-defining-relative-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "en-defining-relative-foundation-b1",
+            "en-defining-relative-foundation-b2",
+            "en-defining-relative-foundation-b3",
+            "en-defining-relative-foundation-b4",
+            "en-defining-relative-foundation-a1",
+            "en-defining-relative-foundation-a2",
+            "en-defining-relative-foundation-a3",
+            "en-defining-relative-foundation-a4",
+            "en-defining-relative-foundation-d1",
+            "en-defining-relative-foundation-d2",
+            "en-defining-relative-foundation-d3",
+            "en-defining-relative-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-foundation-svo",
+            "en-pronoun-reference",
+            "en-subject-verb-agreement"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-reading-evidence-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "en-reading-evidence-foundation-b1",
+            "en-reading-evidence-foundation-b2",
+            "en-reading-evidence-foundation-b3",
+            "en-reading-evidence-foundation-b4",
+            "en-reading-evidence-foundation-a1",
+            "en-reading-evidence-foundation-a2",
+            "en-reading-evidence-foundation-a3",
+            "en-reading-evidence-foundation-a4",
+            "en-reading-evidence-foundation-d1",
+            "en-reading-evidence-foundation-d2",
+            "en-reading-evidence-foundation-d3",
+            "en-reading-evidence-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-foundation-svo",
+            "en-pronoun-reference",
+            "en-defining-relative-foundation",
+            "en-vocabulary-retrieval-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-4",
+      "name": "阅读",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "en-reading-evidence-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "en-reading-evidence-foundation-b1",
+            "en-reading-evidence-foundation-b2",
+            "en-reading-evidence-foundation-b3",
+            "en-reading-evidence-foundation-b4",
+            "en-reading-evidence-foundation-a1",
+            "en-reading-evidence-foundation-a2",
+            "en-reading-evidence-foundation-a3",
+            "en-reading-evidence-foundation-a4",
+            "en-reading-evidence-foundation-d1",
+            "en-reading-evidence-foundation-d2",
+            "en-reading-evidence-foundation-d3",
+            "en-reading-evidence-foundation-d4"
+          ],
+          "prerequisites": [
+            "en-foundation-svo",
+            "en-pronoun-reference",
+            "en-defining-relative-foundation",
+            "en-vocabulary-retrieval-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-cloze-cohesion",
+          "version": "0.1.1",
+          "questionIds": [
+            "en-cloze-cohesion-b1",
+            "en-cloze-cohesion-b2",
+            "en-cloze-cohesion-b3",
+            "en-cloze-cohesion-b4",
+            "en-cloze-cohesion-a1",
+            "en-cloze-cohesion-a2",
+            "en-cloze-cohesion-a3",
+            "en-cloze-cohesion-a4",
+            "en-cloze-cohesion-d1",
+            "en-cloze-cohesion-d2",
+            "en-cloze-cohesion-d3",
+            "en-cloze-cohesion-d4"
+          ],
+          "prerequisites": [
+            "en-reading-evidence-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "en-paragraph-heading-matching",
+          "version": "0.1",
+          "questionIds": [
+            "en-paragraph-heading-matching-b1",
+            "en-paragraph-heading-matching-b2",
+            "en-paragraph-heading-matching-b3",
+            "en-paragraph-heading-matching-b4",
+            "en-paragraph-heading-matching-a1",
+            "en-paragraph-heading-matching-a2",
+            "en-paragraph-heading-matching-a3",
+            "en-paragraph-heading-matching-a4",
+            "en-paragraph-heading-matching-d1",
+            "en-paragraph-heading-matching-d2",
+            "en-paragraph-heading-matching-d3",
+            "en-paragraph-heading-matching-d4"
+          ],
+          "prerequisites": [
+            "en-reading-evidence-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial authored subskill, not complete syllabus node"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-5",
+      "name": "完形",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "en-cloze-cohesion",
+          "version": "0.1.1",
+          "questionIds": [
+            "en-cloze-cohesion-b1",
+            "en-cloze-cohesion-b2",
+            "en-cloze-cohesion-b3",
+            "en-cloze-cohesion-b4",
+            "en-cloze-cohesion-a1",
+            "en-cloze-cohesion-a2",
+            "en-cloze-cohesion-a3",
+            "en-cloze-cohesion-a4",
+            "en-cloze-cohesion-d1",
+            "en-cloze-cohesion-d2",
+            "en-cloze-cohesion-d3",
+            "en-cloze-cohesion-d4"
+          ],
+          "prerequisites": [
+            "en-reading-evidence-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-6",
+      "name": "新题型",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "en-paragraph-heading-matching",
+          "version": "0.1",
+          "questionIds": [
+            "en-paragraph-heading-matching-b1",
+            "en-paragraph-heading-matching-b2",
+            "en-paragraph-heading-matching-b3",
+            "en-paragraph-heading-matching-b4",
+            "en-paragraph-heading-matching-a1",
+            "en-paragraph-heading-matching-a2",
+            "en-paragraph-heading-matching-a3",
+            "en-paragraph-heading-matching-a4",
+            "en-paragraph-heading-matching-d1",
+            "en-paragraph-heading-matching-d2",
+            "en-paragraph-heading-matching-d3",
+            "en-paragraph-heading-matching-d4"
+          ],
+          "prerequisites": [
+            "en-reading-evidence-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial authored subskill, not complete syllabus node"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-7",
+      "name": "翻译",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-8",
+      "name": "小作文",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-9",
+      "name": "大作文",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-plan-10",
+      "name": "核验真题与模拟",
+      "subject": "en",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-1",
+      "name": "基本理论",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "pol-practice-verification",
+          "version": "0.1",
+          "questionIds": [
+            "pol-practice-1",
+            "pol-practice-2",
+            "pol-practice-3",
+            "pol-delay-1",
+            "pol-delay-2"
+          ],
+          "reviewStatus": "internally-reviewed-for-pilot",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-common-particular",
+          "version": "0.1",
+          "questionIds": [
+            "pol-cp-1",
+            "pol-cp-2",
+            "pol-cp-3",
+            "pol-cp-4",
+            "pol-cp-5",
+            "pol-cp-d1",
+            "pol-cp-d2"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-knowledge-practice-development",
+          "version": "0.1",
+          "questionIds": [
+            "kpd-b1",
+            "kpd-b2",
+            "kpd-b3",
+            "kpd-b4",
+            "kpd-a1",
+            "kpd-a2",
+            "kpd-a3",
+            "kpd-a4",
+            "kpd-d1",
+            "kpd-d2",
+            "kpd-d3",
+            "kpd-d4"
+          ],
+          "prerequisites": [
+            "pol-practice-verification"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-connections-foundation",
+          "version": "0.2",
+          "questionIds": [
+            "con-b1",
+            "con-b2",
+            "con-b3",
+            "con-b4",
+            "con-a1",
+            "con-a2",
+            "con-a3",
+            "con-a4",
+            "con-d1",
+            "con-d2",
+            "con-d3",
+            "con-d4"
+          ],
+          "prerequisites": [
+            "pol-common-particular"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-quantity-quality",
+          "version": "0.1",
+          "questionIds": [
+            "pol-quantity-quality-b1",
+            "pol-quantity-quality-b2",
+            "pol-quantity-quality-b3",
+            "pol-quantity-quality-b4",
+            "pol-quantity-quality-a1",
+            "pol-quantity-quality-a2",
+            "pol-quantity-quality-a3",
+            "pol-quantity-quality-a4",
+            "pol-quantity-quality-d1",
+            "pol-quantity-quality-d2",
+            "pol-quantity-quality-d3",
+            "pol-quantity-quality-d4"
+          ],
+          "prerequisites": [
+            "pol-connections-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-matter-consciousness",
+          "version": "0.1",
+          "questionIds": [
+            "pol-matter-consciousness-b1",
+            "pol-matter-consciousness-b2",
+            "pol-matter-consciousness-b3",
+            "pol-matter-consciousness-b4",
+            "pol-matter-consciousness-a1",
+            "pol-matter-consciousness-a2",
+            "pol-matter-consciousness-a3",
+            "pol-matter-consciousness-a4",
+            "pol-matter-consciousness-d1",
+            "pol-matter-consciousness-d2",
+            "pol-matter-consciousness-d3",
+            "pol-matter-consciousness-d4"
+          ],
+          "prerequisites": [
+            "pol-practice-verification"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-contradiction-unity",
+          "version": "0.1",
+          "questionIds": [
+            "pol-contradiction-unity-b1",
+            "pol-contradiction-unity-b2",
+            "pol-contradiction-unity-b3",
+            "pol-contradiction-unity-b4",
+            "pol-contradiction-unity-a1",
+            "pol-contradiction-unity-a2",
+            "pol-contradiction-unity-a3",
+            "pol-contradiction-unity-a4",
+            "pol-contradiction-unity-d1",
+            "pol-contradiction-unity-d2",
+            "pol-contradiction-unity-d3",
+            "pol-contradiction-unity-d4"
+          ],
+          "prerequisites": [
+            "pol-common-particular",
+            "pol-connections-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-primary-contradictions",
+          "version": "0.1",
+          "questionIds": [
+            "pol-primary-contradictions-b1",
+            "pol-primary-contradictions-b2",
+            "pol-primary-contradictions-b3",
+            "pol-primary-contradictions-b4",
+            "pol-primary-contradictions-a1",
+            "pol-primary-contradictions-a2",
+            "pol-primary-contradictions-a3",
+            "pol-primary-contradictions-a4",
+            "pol-primary-contradictions-d1",
+            "pol-primary-contradictions-d2",
+            "pol-primary-contradictions-d3",
+            "pol-primary-contradictions-d4"
+          ],
+          "prerequisites": [
+            "pol-contradiction-unity",
+            "pol-common-particular"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-social-being-consciousness",
+          "version": "0.1",
+          "questionIds": [
+            "pol-social-being-consciousness-b1",
+            "pol-social-being-consciousness-b2",
+            "pol-social-being-consciousness-b3",
+            "pol-social-being-consciousness-b4",
+            "pol-social-being-consciousness-a1",
+            "pol-social-being-consciousness-a2",
+            "pol-social-being-consciousness-a3",
+            "pol-social-being-consciousness-a4",
+            "pol-social-being-consciousness-d1",
+            "pol-social-being-consciousness-d2",
+            "pol-social-being-consciousness-d3",
+            "pol-social-being-consciousness-d4"
+          ],
+          "prerequisites": [
+            "pol-matter-consciousness",
+            "pol-connections-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-epistemology-case-analysis",
+          "version": "0.1",
+          "questionIds": [
+            "pol-epistemology-case-analysis-b1",
+            "pol-epistemology-case-analysis-b2",
+            "pol-epistemology-case-analysis-b3",
+            "pol-epistemology-case-analysis-b4",
+            "pol-epistemology-case-analysis-a1",
+            "pol-epistemology-case-analysis-a2",
+            "pol-epistemology-case-analysis-a3",
+            "pol-epistemology-case-analysis-a4",
+            "pol-epistemology-case-analysis-d1",
+            "pol-epistemology-case-analysis-d2",
+            "pol-epistemology-case-analysis-d3",
+            "pol-epistemology-case-analysis-d4"
+          ],
+          "prerequisites": [
+            "pol-knowledge-practice-development",
+            "pol-common-particular"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-productive-forces-relations",
+          "version": "0.1",
+          "questionIds": [
+            "pol-productive-forces-relations-b1",
+            "pol-productive-forces-relations-b2",
+            "pol-productive-forces-relations-b3",
+            "pol-productive-forces-relations-b4",
+            "pol-productive-forces-relations-a1",
+            "pol-productive-forces-relations-a2",
+            "pol-productive-forces-relations-a3",
+            "pol-productive-forces-relations-a4",
+            "pol-productive-forces-relations-d1",
+            "pol-productive-forces-relations-d2",
+            "pol-productive-forces-relations-d3",
+            "pol-productive-forces-relations-d4"
+          ],
+          "prerequisites": [
+            "pol-social-being-consciousness",
+            "pol-contradiction-unity"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-base-superstructure-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "pol-base-superstructure-foundation-b1",
+            "pol-base-superstructure-foundation-b2",
+            "pol-base-superstructure-foundation-b3",
+            "pol-base-superstructure-foundation-b4",
+            "pol-base-superstructure-foundation-a1",
+            "pol-base-superstructure-foundation-a2",
+            "pol-base-superstructure-foundation-a3",
+            "pol-base-superstructure-foundation-a4",
+            "pol-base-superstructure-foundation-d1",
+            "pol-base-superstructure-foundation-d2",
+            "pol-base-superstructure-foundation-d3",
+            "pol-base-superstructure-foundation-d4"
+          ],
+          "prerequisites": [
+            "pol-productive-forces-relations",
+            "pol-social-being-consciousness"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "pol-people-individual-history",
+          "version": "0.1",
+          "questionIds": [
+            "pol-people-individual-history-b1",
+            "pol-people-individual-history-b2",
+            "pol-people-individual-history-b3",
+            "pol-people-individual-history-b4",
+            "pol-people-individual-history-a1",
+            "pol-people-individual-history-a2",
+            "pol-people-individual-history-a3",
+            "pol-people-individual-history-a4",
+            "pol-people-individual-history-d1",
+            "pol-people-individual-history-d2",
+            "pol-people-individual-history-d3",
+            "pol-people-individual-history-d4"
+          ],
+          "prerequisites": [
+            "pol-social-being-consciousness",
+            "pol-productive-forces-relations",
+            "pol-epistemology-case-analysis"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-2",
+      "name": "理论体系",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-3",
+      "name": "中国近现代史",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "pol-modern-history-entry",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "pol-modern-history-entry-b1",
+            "pol-modern-history-entry-b2",
+            "pol-modern-history-entry-b3",
+            "pol-modern-history-entry-b4",
+            "pol-modern-history-entry-a1",
+            "pol-modern-history-entry-a2",
+            "pol-modern-history-entry-a3",
+            "pol-modern-history-entry-a4",
+            "pol-modern-history-entry-d1",
+            "pol-modern-history-entry-d2",
+            "pol-modern-history-entry-d3",
+            "pol-modern-history-entry-d4"
+          ],
+          "prerequisites": [
+            "pol-social-being-consciousness",
+            "pol-primary-contradictions"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-4",
+      "name": "思想道德与法治",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "pol-rule-of-law-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "pol-rule-of-law-foundation-b1",
+            "pol-rule-of-law-foundation-b2",
+            "pol-rule-of-law-foundation-b3",
+            "pol-rule-of-law-foundation-b4",
+            "pol-rule-of-law-foundation-a1",
+            "pol-rule-of-law-foundation-a2",
+            "pol-rule-of-law-foundation-a3",
+            "pol-rule-of-law-foundation-a4",
+            "pol-rule-of-law-foundation-d1",
+            "pol-rule-of-law-foundation-d2",
+            "pol-rule-of-law-foundation-d3",
+            "pol-rule-of-law-foundation-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial authored subskill, not complete syllabus node"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-5",
+      "name": "年度时政",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-6",
+      "name": "选择训练",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-7",
+      "name": "主观表达",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-plan-8",
+      "name": "核验真题与模拟",
+      "subject": "pol",
+      "source": "user_requirements",
+      "sourceYear": null,
+      "scopeStatus": "teaching_plan_exam_spec_pending",
+      "requiredDepth": "教学规划；年度考试细则待核",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-1-1",
+      "name": "发展史",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-1-2",
+      "name": "定义与学科联系",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-public-health-prevention",
+          "version": "0.1",
+          "questionIds": [
+            "353-public-health-prevention-b1",
+            "353-public-health-prevention-b2",
+            "353-public-health-prevention-b3",
+            "353-public-health-prevention-b4",
+            "353-public-health-prevention-a1",
+            "353-public-health-prevention-a2",
+            "353-public-health-prevention-a3",
+            "353-public-health-prevention-a4",
+            "353-public-health-prevention-d1",
+            "353-public-health-prevention-d2",
+            "353-public-health-prevention-d3",
+            "353-public-health-prevention-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-1-3",
+      "name": "健康维度和人群指标",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-1-4",
+      "name": "伦理原则",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-2-1",
+      "name": "国内外疾病负担",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-2-2",
+      "name": "三级预防",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-public-health-prevention",
+          "version": "0.1",
+          "questionIds": [
+            "353-public-health-prevention-b1",
+            "353-public-health-prevention-b2",
+            "353-public-health-prevention-b3",
+            "353-public-health-prevention-b4",
+            "353-public-health-prevention-a1",
+            "353-public-health-prevention-a2",
+            "353-public-health-prevention-a3",
+            "353-public-health-prevention-a4",
+            "353-public-health-prevention-d1",
+            "353-public-health-prevention-d2",
+            "353-public-health-prevention-d3",
+            "353-public-health-prevention-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-2-3",
+      "name": "感染性疾病防控",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-2-4",
+      "name": "慢性病风险与防控",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-1",
+      "name": "体系框架",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-2",
+      "name": "成本与决策",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-3",
+      "name": "国家体系比较",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-4",
+      "name": "中国医保与筹资支付",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-5",
+      "name": "整合服务",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-6",
+      "name": "健康战略",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-3-7",
+      "name": "政策分析",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-4-1",
+      "name": "事件特点",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-4-2",
+      "name": "应急体制",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-4-3",
+      "name": "国内卫生法律",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-4-4",
+      "name": "国际卫生规则与能力",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-4-5",
+      "name": "国际紧急事件判断",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-4-6",
+      "name": "应对评价",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-5-1",
+      "name": "全球健康与发展目标",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-5-2",
+      "name": "负担指标",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-5-3",
+      "name": "估计不确定性",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-5-4",
+      "name": "资源优先决策",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-5-5",
+      "name": "援助效果与风险",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-6-1",
+      "name": "行为风险",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-6-2",
+      "name": "行为改变",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-6-3",
+      "name": "教育与促进",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-6-4",
+      "name": "干预评价",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-1-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-7-1",
+      "name": "定义与对象",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-study-design-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-study-design-foundation-b1",
+            "353-study-design-foundation-b2",
+            "353-study-design-foundation-b3",
+            "353-study-design-foundation-b4",
+            "353-study-design-foundation-a1",
+            "353-study-design-foundation-a2",
+            "353-study-design-foundation-a3",
+            "353-study-design-foundation-a4",
+            "353-study-design-foundation-d1",
+            "353-study-design-foundation-d2",
+            "353-study-design-foundation-d3",
+            "353-study-design-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-public-health-prevention"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-7-2",
+      "name": "观察和实验",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-study-design-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-study-design-foundation-b1",
+            "353-study-design-foundation-b2",
+            "353-study-design-foundation-b3",
+            "353-study-design-foundation-b4",
+            "353-study-design-foundation-a1",
+            "353-study-design-foundation-a2",
+            "353-study-design-foundation-a3",
+            "353-study-design-foundation-a4",
+            "353-study-design-foundation-d1",
+            "353-study-design-foundation-d2",
+            "353-study-design-foundation-d3",
+            "353-study-design-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-public-health-prevention"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-7-3",
+      "name": "研究用途",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-7-4",
+      "name": "疾病自然史",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-8-1",
+      "name": "率与比",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-ratio-rate-prevalence",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "353-ratio-rate-prevalence-b1",
+            "353-ratio-rate-prevalence-b2",
+            "353-ratio-rate-prevalence-b3",
+            "353-ratio-rate-prevalence-b4",
+            "353-ratio-rate-prevalence-a1",
+            "353-ratio-rate-prevalence-a2",
+            "353-ratio-rate-prevalence-a3",
+            "353-ratio-rate-prevalence-a4",
+            "353-ratio-rate-prevalence-d1",
+            "353-ratio-rate-prevalence-d2",
+            "353-ratio-rate-prevalence-d3",
+            "353-ratio-rate-prevalence-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-study-design-foundation",
+            "353-frequency-denominator",
+            "353-incidence-risk",
+            "353-person-time"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-8-2",
+      "name": "发病测量",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-incidence-risk",
+          "version": "0.1",
+          "questionIds": [
+            "risk-1",
+            "risk-2",
+            "risk-3",
+            "risk-delay-1",
+            "risk-delay-2"
+          ],
+          "reviewStatus": "internally-reviewed-for-pilot",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "353-person-time",
+          "version": "0.1",
+          "questionIds": [
+            "epi-pt-1",
+            "epi-pt-2",
+            "epi-pt-3",
+            "epi-pt-4",
+            "epi-pt-5",
+            "epi-pt-d1",
+            "epi-pt-d2"
+          ],
+          "prerequisites": [
+            "353-incidence-risk"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "353-ratio-rate-prevalence",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "353-ratio-rate-prevalence-b1",
+            "353-ratio-rate-prevalence-b2",
+            "353-ratio-rate-prevalence-b3",
+            "353-ratio-rate-prevalence-b4",
+            "353-ratio-rate-prevalence-a1",
+            "353-ratio-rate-prevalence-a2",
+            "353-ratio-rate-prevalence-a3",
+            "353-ratio-rate-prevalence-a4",
+            "353-ratio-rate-prevalence-d1",
+            "353-ratio-rate-prevalence-d2",
+            "353-ratio-rate-prevalence-d3",
+            "353-ratio-rate-prevalence-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-study-design-foundation",
+            "353-frequency-denominator",
+            "353-incidence-risk",
+            "353-person-time"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-8-3",
+      "name": "死亡测量",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-8-4",
+      "name": "流行强度",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-8-5",
+      "name": "人时地分析",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-18-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-9-1",
+      "name": "病因概念分类",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-9-2",
+      "name": "因果判断",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-9-3",
+      "name": "病因研究设计",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-10-1",
+      "name": "现况与普查",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-10-2",
+      "name": "抽样方法与误差",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-random-sampling-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-random-sampling-foundation-b1",
+            "353-random-sampling-foundation-b2",
+            "353-random-sampling-foundation-b3",
+            "353-random-sampling-foundation-b4",
+            "353-random-sampling-foundation-a1",
+            "353-random-sampling-foundation-a2",
+            "353-random-sampling-foundation-a3",
+            "353-random-sampling-foundation-a4",
+            "353-random-sampling-foundation-d1",
+            "353-random-sampling-foundation-d2",
+            "353-random-sampling-foundation-d3",
+            "353-random-sampling-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-probability-binomial-foundation",
+            "353-study-design-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-10-3",
+      "name": "偏倚控制",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-bias-control-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d1",
+            "353-bias-control-foundation-d2",
+            "353-bias-control-foundation-d3",
+            "353-bias-control-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-study-design-foundation",
+            "353-random-sampling-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-10-4",
+      "name": "生态学研究",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-10-5",
+      "name": "设计优缺点",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-11-1",
+      "name": "设计与类型",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-11-2",
+      "name": "样本和因素",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-11-3",
+      "name": "OR及区间",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-11-4",
+      "name": "配对资料",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-11-5",
+      "name": "偏倚和局限",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-bias-control-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d1",
+            "353-bias-control-foundation-d2",
+            "353-bias-control-foundation-d3",
+            "353-bias-control-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-study-design-foundation",
+            "353-random-sampling-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-12-1",
+      "name": "设计与随访",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-12-2",
+      "name": "样本量",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-12-3",
+      "name": "累计发病与标化",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-12-4",
+      "name": "RR与归因指标",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-12-5",
+      "name": "剂量反应",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-12-6",
+      "name": "偏倚与局限",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-bias-control-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d1",
+            "353-bias-control-foundation-d2",
+            "353-bias-control-foundation-d3",
+            "353-bias-control-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-study-design-foundation",
+            "353-random-sampling-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-13-1",
+      "name": "试验原则",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-13-2",
+      "name": "绝对与相对效应",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-13-3",
+      "name": "生存资料",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-13-4",
+      "name": "偏倚控制",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-bias-control-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d1",
+            "353-bias-control-foundation-d2",
+            "353-bias-control-foundation-d3",
+            "353-bias-control-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-study-design-foundation",
+            "353-random-sampling-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-14-1",
+      "name": "基本概念",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-14-2",
+      "name": "真实性",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-14-3",
+      "name": "可靠性",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-14-4",
+      "name": "收益",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-14-5",
+      "name": "联合方法",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-15-1",
+      "name": "流行过程",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-15-2",
+      "name": "传播环节",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-15-3",
+      "name": "影响因素",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-15-4",
+      "name": "暴发调查",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-16-1",
+      "name": "目的",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-16-2",
+      "name": "系统评价",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-16-3",
+      "name": "传染预警",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-16-4",
+      "name": "慢性病系统",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-16-5",
+      "name": "新技术",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-17-1",
+      "name": "循证概念",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-17-2",
+      "name": "系统评价",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-17-3",
+      "name": "Meta基本思路",
+      "subject": "epi",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-7-1",
+        "s27-8-1"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-18-1",
+      "name": "变量类型",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-variable-types",
+          "version": "0.1",
+          "questionIds": [
+            "var-b1",
+            "var-b2",
+            "var-b3",
+            "var-b4",
+            "var-a1",
+            "var-a2",
+            "var-a3",
+            "var-a4",
+            "var-d1",
+            "var-d2",
+            "var-d3",
+            "var-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-18-2",
+      "name": "描述指标",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-frequency-denominator",
+          "version": "0.2",
+          "questionIds": [
+            "frq-b1",
+            "frq-b2",
+            "frq-b3",
+            "frq-b4",
+            "frq-a1",
+            "frq-a2",
+            "frq-a3",
+            "frq-a4",
+            "frq-d1",
+            "frq-d2",
+            "frq-d3",
+            "frq-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "353-mean-median",
+          "version": "0.1",
+          "questionIds": [
+            "353-mean-median-b1",
+            "353-mean-median-b2",
+            "353-mean-median-b3",
+            "353-mean-median-b4",
+            "353-mean-median-a1",
+            "353-mean-median-a2",
+            "353-mean-median-a3",
+            "353-mean-median-a4",
+            "353-mean-median-d1",
+            "353-mean-median-d2",
+            "353-mean-median-d3",
+            "353-mean-median-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-frequency-denominator"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "353-dispersion-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-dispersion-foundation-b1",
+            "353-dispersion-foundation-b2",
+            "353-dispersion-foundation-b3",
+            "353-dispersion-foundation-b4",
+            "353-dispersion-foundation-a1",
+            "353-dispersion-foundation-a2",
+            "353-dispersion-foundation-a3",
+            "353-dispersion-foundation-a4",
+            "353-dispersion-foundation-d1",
+            "353-dispersion-foundation-d2",
+            "353-dispersion-foundation-d3",
+            "353-dispersion-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-mean-median"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-18-3",
+      "name": "散点与相关",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-18-4",
+      "name": "数据产生",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-18-5",
+      "name": "随机抽样",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-random-sampling-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-random-sampling-foundation-b1",
+            "353-random-sampling-foundation-b2",
+            "353-random-sampling-foundation-b3",
+            "353-random-sampling-foundation-b4",
+            "353-random-sampling-foundation-a1",
+            "353-random-sampling-foundation-a2",
+            "353-random-sampling-foundation-a3",
+            "353-random-sampling-foundation-a4",
+            "353-random-sampling-foundation-d1",
+            "353-random-sampling-foundation-d2",
+            "353-random-sampling-foundation-d3",
+            "353-random-sampling-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-probability-binomial-foundation",
+            "353-study-design-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-18-6",
+      "name": "采集偏差",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-bias-control-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-bias-control-foundation-b1",
+            "353-bias-control-foundation-b2",
+            "353-bias-control-foundation-b3",
+            "353-bias-control-foundation-b4",
+            "353-bias-control-foundation-a1",
+            "353-bias-control-foundation-a2",
+            "353-bias-control-foundation-a3",
+            "353-bias-control-foundation-a4",
+            "353-bias-control-foundation-d1",
+            "353-bias-control-foundation-d2",
+            "353-bias-control-foundation-d3",
+            "353-bias-control-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-study-design-foundation",
+            "353-random-sampling-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-19-1",
+      "name": "概率",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-probability-binomial-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-probability-binomial-foundation-b1",
+            "353-probability-binomial-foundation-b2",
+            "353-probability-binomial-foundation-b3",
+            "353-probability-binomial-foundation-b4",
+            "353-probability-binomial-foundation-a1",
+            "353-probability-binomial-foundation-a2",
+            "353-probability-binomial-foundation-a3",
+            "353-probability-binomial-foundation-a4",
+            "353-probability-binomial-foundation-d1",
+            "353-probability-binomial-foundation-d2",
+            "353-probability-binomial-foundation-d3",
+            "353-probability-binomial-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-frequency-denominator"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-19-2",
+      "name": "概率模型",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-probability-binomial-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "353-probability-binomial-foundation-b1",
+            "353-probability-binomial-foundation-b2",
+            "353-probability-binomial-foundation-b3",
+            "353-probability-binomial-foundation-b4",
+            "353-probability-binomial-foundation-a1",
+            "353-probability-binomial-foundation-a2",
+            "353-probability-binomial-foundation-a3",
+            "353-probability-binomial-foundation-a4",
+            "353-probability-binomial-foundation-d1",
+            "353-probability-binomial-foundation-d2",
+            "353-probability-binomial-foundation-d3",
+            "353-probability-binomial-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-variable-types",
+            "353-frequency-denominator"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "353-normal-distribution-foundation",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "353-normal-distribution-foundation-b1",
+            "353-normal-distribution-foundation-b2",
+            "353-normal-distribution-foundation-b3",
+            "353-normal-distribution-foundation-b4",
+            "353-normal-distribution-foundation-a1",
+            "353-normal-distribution-foundation-a2",
+            "353-normal-distribution-foundation-a3",
+            "353-normal-distribution-foundation-a4",
+            "353-normal-distribution-foundation-d1",
+            "353-normal-distribution-foundation-d2",
+            "353-normal-distribution-foundation-d3",
+            "353-normal-distribution-foundation-d4"
+          ],
+          "prerequisites": [
+            "353-probability-binomial-foundation",
+            "353-mean-median",
+            "353-dispersion-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-19-3",
+      "name": "抽样分布",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-sampling-distribution-se",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "353-sampling-distribution-se-b1",
+            "353-sampling-distribution-se-b2",
+            "353-sampling-distribution-se-b3",
+            "353-sampling-distribution-se-b4",
+            "353-sampling-distribution-se-a1",
+            "353-sampling-distribution-se-a2",
+            "353-sampling-distribution-se-a3",
+            "353-sampling-distribution-se-a4",
+            "353-sampling-distribution-se-d1",
+            "353-sampling-distribution-se-d2",
+            "353-sampling-distribution-se-d3",
+            "353-sampling-distribution-se-d4"
+          ],
+          "prerequisites": [
+            "353-random-sampling-foundation",
+            "353-mean-median",
+            "353-dispersion-foundation",
+            "353-normal-distribution-foundation"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-19-4",
+      "name": "点估计",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-19-5",
+      "name": "区间含义",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-19-6",
+      "name": "检验与决策",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-18-1",
+        "s27-18-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-1",
+      "name": "参数方法选择",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-2",
+      "name": "多组比较",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-3",
+      "name": "不同设计方差分析",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-4",
+      "name": "分类检验",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-5",
+      "name": "线性回归",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-6",
+      "name": "Logistic回归",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-20-7",
+      "name": "多重回归",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [
+        "s27-19-3",
+        "s27-19-6"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-21-1",
+      "name": "材料信息整合",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-21-2",
+      "name": "逻辑与数量分析",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-21-3",
+      "name": "健康和行为",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-21-4",
+      "name": "营养与环境",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-21-5",
+      "name": "法律伦理治理",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27-21-6",
+      "name": "健康数据和AI",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "以本行原文动词为上限；逐个概念解释、条件与材料应用，不推断官方分值",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-core-quantity",
+      "name": "物理量、单位与量纲",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "掌握概念；单位换算与结果解释是教学分解",
+      "prerequisiteNodeIds": [],
+      "courseSupport": [
+        {
+          "id": "353-quantity-measurement",
+          "version": "0.1",
+          "questionIds": [
+            "qm-b1",
+            "qm-b2",
+            "qm-b3",
+            "qm-b4",
+            "qm-a1",
+            "qm-a2",
+            "qm-a3",
+            "qm-a4",
+            "qm-d1",
+            "qm-d2",
+            "qm-d3",
+            "qm-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-core-energy",
+      "name": "能量、功率与守恒的基本数量关系",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "基础关系在题给条件下计算应用；具体公式清单非官方列举",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-quantity"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-energy-power",
+          "version": "0.1",
+          "questionIds": [
+            "ep-b1",
+            "ep-b2",
+            "ep-b3",
+            "ep-b4",
+            "ep-a1",
+            "ep-a2",
+            "ep-a3",
+            "ep-a4",
+            "ep-d1",
+            "ep-d2",
+            "ep-d3",
+            "ep-d4"
+          ],
+          "prerequisites": [
+            "353-quantity-measurement"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-core-waves",
+      "name": "波、光子与物质相互作用的概念桥梁",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "为影像/放疗理解建立前置；深度待专家确认",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-energy"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-waves-interactions",
+          "version": "0.1-q0fix1",
+          "questionIds": [
+            "wi-b1",
+            "wi-b2",
+            "wi-b3",
+            "wi-b4",
+            "wi-a1",
+            "wi-a2",
+            "wi-a3",
+            "wi-a4",
+            "wi-d1",
+            "wi-d2",
+            "wi-d3",
+            "wi-d4"
+          ],
+          "prerequisites": [
+            "353-energy-power"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-measure-definition",
+      "name": "被测量、测量条件与结果表达",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "掌握测什么、如何描述结果和条件",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-quantity"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-quantity-measurement",
+          "version": "0.1",
+          "questionIds": [
+            "qm-b1",
+            "qm-b2",
+            "qm-b3",
+            "qm-b4",
+            "qm-a1",
+            "qm-a2",
+            "qm-a3",
+            "qm-a4",
+            "qm-d1",
+            "qm-d2",
+            "qm-d3",
+            "qm-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-measure-uncertainty",
+      "name": "重复测量、误差、校正与不确定性的区别",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "掌握评价基本方法；不把重复一致当准确",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "courseSupport": [
+        {
+          "id": "353-quantity-measurement",
+          "version": "0.1",
+          "questionIds": [
+            "qm-b1",
+            "qm-b2",
+            "qm-b3",
+            "qm-b4",
+            "qm-a1",
+            "qm-a2",
+            "qm-a3",
+            "qm-a4",
+            "qm-d1",
+            "qm-d2",
+            "qm-d3",
+            "qm-d4"
+          ],
+          "prerequisites": [],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        },
+        {
+          "id": "353-uncertainty-foundation",
+          "version": "0.1",
+          "questionIds": [
+            "unc-b1",
+            "unc-b2",
+            "unc-b3",
+            "unc-b4",
+            "unc-a1",
+            "unc-a2",
+            "unc-a3",
+            "unc-a4",
+            "unc-d1",
+            "unc-d2",
+            "unc-d3",
+            "unc-d4"
+          ],
+          "prerequisites": [
+            "353-quantity-measurement"
+          ],
+          "reviewStatus": "draft-internal-check",
+          "support": "partial teaching link, not whole-node mastery"
+        }
+      ],
+      "status": "partial-unverified",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-measure-comparison",
+      "name": "测量比较、相对变化与评价边界",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "单位一致后比较；不确定性与因果边界",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-uncertainty"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-protection-quantity",
+      "name": "剂量物理量及防护量的区别",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "理解量的含义；不混用Gy与Sv",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-energy",
+        "s27v2-mp-measure-definition"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-protection-principle",
+      "name": "辐射防护原则及情境判断",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "理解正当性、优化与适用边界；不是操作规程培训",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-protection-quantity"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-protection-scenario",
+      "name": "时间距离屏蔽的条件化数量推理",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "题给模型下分析；不代替临床屏蔽设计",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-protection-principle"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-nuclear-chain",
+      "name": "核医学衰变、示踪与探测成像链路",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "理解基本原理和信息来源",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-waves"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-nuclear-pet-spect",
+      "name": "PET与SPECT的物理信息与成像差异",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "理解原理；不机械记部件清单",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-nuclear-chain"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-nuclear-evaluation",
+      "name": "计数、分辨率、校正及影像评价",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "理解评价权衡；结合题给信息分析",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-nuclear-chain",
+        "s27v2-mp-measure-comparison"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-therapy-energy",
+      "name": "放疗能量沉积与剂量分布",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "理解物理原理及模型条件",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-core-waves",
+        "s27v2-mp-protection-quantity"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-therapy-evaluation",
+      "name": "靶区正常组织、分次与计划评价",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "解释物理评价与临床结论的边界",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-therapy-energy",
+        "s27v2-mp-measure-comparison"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-ai-data",
+      "name": "数据质量、抽样、标签及信息泄漏",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "基本认知；数据来源影响评价",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-ai-validation",
+      "name": "算法评价、外部验证与泛化",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "基本认知与评价材料分析；不以准确率替代全部性能",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-ai-data"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-ai-governance",
+      "name": "隐私、公平、伦理与应用边界",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "跨学科教学展开，具体治理细则需另核来源",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-ai-validation"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-environment-space",
+      "name": "物理空间、暴露路径及健康",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "适度了解影响机制及干预；不作个人健康推断",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-definition"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-environment-air",
+      "name": "大气环境、暴露测量与干预评价",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "适度了解机制及干预策略",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-environment-space",
+        "s27v2-mp-measure-comparison"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-environment-ventilation",
+      "name": "室内通风、浓度与模型条件",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "适度了解机制；基本数量分析依题给模型",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-environment-space",
+        "s27v2-mp-core-quantity"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-integration-model",
+      "name": "物理与工程模型的假设、输入输出及限制",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "跨学科问题分析；设备维修不是课程目标",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-measure-comparison"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-mp-integration-evidence",
+      "name": "复杂健康问题的证据整合与书面论证",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "分析、应用并说明不确定性；非放疗影像背诵专考",
+      "prerequisiteNodeIds": [
+        "s27v2-mp-integration-model",
+        "s27v2-mp-ai-validation",
+        "s27v2-mp-environment-air"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-detail-health-measures",
+      "name": "寿命、孕产妇与婴幼儿死亡指标的对象和分母",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "依原文动词教学，比较、解释并完成适用的材料题；不设官方题量权重",
+      "prerequisiteNodeIds": [
+        "s27-1-3"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-detail-system-evolution",
+      "name": "中国卫生体系演变",
+      "subject": "ph",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "依原文动词教学，比较、解释并完成适用的材料题；不设官方题量权重",
+      "prerequisiteNodeIds": [
+        "s27-3-4"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-detail-correlation-causation",
+      "name": "相关与因果的区别",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "依原文动词教学，比较、解释并完成适用的材料题；不设官方题量权重",
+      "prerequisiteNodeIds": [
+        "s27-18-3"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-detail-relationships",
+      "name": "变量关系评价原理",
+      "subject": "stats",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "依原文动词教学，比较、解释并完成适用的材料题；不设官方题量权重",
+      "prerequisiteNodeIds": [
+        "s27-20-4"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "s27v2-detail-written-reasoning",
+      "name": "科学问题分析及书面表达",
+      "subject": "mp",
+      "source": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "sourceYear": 2027,
+      "scopeStatus": "provisional_previous_year",
+      "requiredDepth": "依原文动词教学，比较、解释并完成适用的材料题；不设官方题量权重",
+      "prerequisiteNodeIds": [
+        "s27-21-2"
+      ],
+      "courseSupport": [],
+      "status": "no-current-linked-unit",
+      "fullCoverageVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "learningRoutes": [
+    {
+      "id": "en-foundation-svo",
+      "title": "先找句子骨架：谁做了什么",
+      "subject": "en",
+      "reviewStatus": "internally-reviewed-for-pilot"
+    },
+    {
+      "id": "353-incidence-risk",
+      "title": "累计发病风险：分母先找有风险的人",
+      "subject": "353",
+      "reviewStatus": "internally-reviewed-for-pilot"
+    },
+    {
+      "id": "pol-practice-verification",
+      "title": "判断是否正确：把认识放回实践检验",
+      "subject": "pol",
+      "reviewStatus": "internally-reviewed-for-pilot"
+    },
+    {
+      "id": "en-present-negative",
+      "title": "一般现在时否定：别把动作词再加一次s",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-common-particular",
+      "title": "共性与个性：有共同原则也要分析具体条件",
+      "subject": "pol",
+      "prerequisites": [],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-person-time",
+      "title": "人时发病率：随访长短不同怎样比较",
+      "subject": "353",
+      "prerequisites": [
+        "353-incidence-risk"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "title": "句子骨架补课：状态、动作与不能删的成分",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-variable-types",
+      "title": "变量类型与指标选择：先问每一行、每一列代表什么",
+      "subject": "353",
+      "prerequisites": [],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "title": "主谓一致基础：先找谁，再决定动词形式",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "title": "认识与实践发展：从看到现象到行动检验，再继续认识",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-practice-verification"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "title": "一般过去时基础：在叙事中找到已经发生的事",
+      "subject": "en",
+      "prerequisites": [
+        "en-subject-verb-agreement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-connections-foundation",
+      "title": "联系观点基础：看见关系，也核对关系成立的条件",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-common-particular"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-frequency-denominator",
+      "title": "频数、比例与缺失数据：先把人数和分母说明白",
+      "subject": "353",
+      "prerequisites": [
+        "353-variable-types"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-quantity-measurement",
+      "title": "物理量、单位与测量：先说明测什么，再解释数字",
+      "subject": "353",
+      "prerequisites": [],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "title": "测量误差与不确定度：读数接近，还缺哪些证据？",
+      "subject": "353",
+      "prerequisites": [
+        "353-quantity-measurement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-energy-power",
+      "title": "能量与功率：同样的能量，为什么快慢不同？",
+      "subject": "353",
+      "prerequisites": [
+        "353-quantity-measurement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-waves-interactions",
+      "title": "波动与光子相互作用：从频率到能量去向",
+      "subject": "353",
+      "prerequisites": [
+        "353-energy-power"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-present-questions",
+      "title": "一般现在时疑问句：怎样问、问什么、谁是主语",
+      "subject": "en",
+      "prerequisites": [
+        "en-linking-and-verb-phrase",
+        "en-subject-verb-agreement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-quantity-quality",
+      "title": "量变与质变：看清积累、界限和性质变化",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-connections-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-public-health-prevention",
+      "title": "公共卫生与三级预防：先定人群、疾病和干预目标",
+      "subject": "353",
+      "prerequisites": [],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-nouns-countability",
+      "title": "名词数与可数性：一个、多个与怎样计量",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-pronoun-reference",
+      "title": "人称代词与指代：谁做事、动作落到谁",
+      "subject": "en",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-linking-and-verb-phrase"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-articles-foundation",
+      "title": "冠词入门：a、an、the与不加冠词",
+      "subject": "en",
+      "prerequisites": [
+        "en-nouns-countability",
+        "en-pronoun-reference"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "title": "物质与意识：从实际出发，怎样发挥主动性",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-practice-verification"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "title": "矛盾的同一性与斗争性：相互依存不等于没有差异",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-common-particular",
+        "pol-connections-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "title": "主要矛盾与主要方面：先分清比较的是哪一层",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-contradiction-unity",
+        "pol-common-particular"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-mean-median",
+      "title": "均数与中位数：数据中心不等于每个人都一样",
+      "subject": "353",
+      "prerequisites": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "title": "离散程度：极差、样本标准差与四分位距",
+      "subject": "353",
+      "prerequisites": [
+        "353-mean-median"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-study-design-foundation",
+      "title": "观察性与实验性研究：谁决定暴露，怎样设置比较",
+      "subject": "353",
+      "prerequisites": [
+        "353-variable-types",
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-present-continuous-foundation",
+      "title": "现在进行时：正在做与通常做怎样分开",
+      "subject": "en",
+      "prerequisites": [
+        "en-present-questions",
+        "en-present-negative"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "title": "一般时被动语态：句子先说承受动作的事物",
+      "subject": "en",
+      "prerequisites": [
+        "en-past-simple-foundation",
+        "en-linking-and-verb-phrase",
+        "en-pronoun-reference"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "title": "限定性定语从句：在长句中认出是哪一个人或物",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-subject-verb-agreement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "title": "社会存在与社会意识：从生活条件理解观念变化",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-matter-consciousness",
+        "pol-connections-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "title": "认识论材料分析：把判断、证据和行动连成一段答案",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-knowledge-practice-development",
+        "pol-common-particular"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "title": "生产力与生产关系：分清生产能力和人与人的关系",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-social-being-consciousness",
+        "pol-contradiction-unity"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "title": "概率与二项分布入门：先说结果和条件，再计算",
+      "subject": "353",
+      "prerequisites": [
+        "353-variable-types",
+        "353-frequency-denominator"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "title": "随机抽样基础：抽谁、从哪张名单抽、能推到谁",
+      "subject": "353",
+      "prerequisites": [
+        "353-probability-binomial-foundation",
+        "353-study-design-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "title": "研究设计中的偏倚控制：先找错误怎样产生",
+      "subject": "353",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-random-sampling-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation",
+      "title": "词汇入门：词音、词形、语境与主动回忆",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-reading-evidence-foundation",
+      "title": "基础短文阅读：定位信息、辨认指代与区分推断",
+      "subject": "en",
+      "prerequisites": [
+        "en-foundation-svo",
+        "en-pronoun-reference",
+        "en-defining-relative-foundation",
+        "en-vocabulary-retrieval-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-present-perfect-foundation",
+      "title": "现在完成时入门：过去事件与当前关联",
+      "subject": "en",
+      "prerequisites": [
+        "en-past-simple-foundation",
+        "en-passive-simple-foundation",
+        "en-subject-verb-agreement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-base-superstructure-foundation",
+      "title": "经济基础与上层建筑：区分社会结构的两个层次",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-productive-forces-relations",
+        "pol-social-being-consciousness"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-people-individual-history",
+      "title": "人民群众与个人的历史作用：主体、条件与合力",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-social-being-consciousness",
+        "pol-productive-forces-relations",
+        "pol-epistemology-case-analysis"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-modern-history-entry",
+      "title": "史纲起步：时间线、史料与近代中国社会性质",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-social-being-consciousness",
+        "pol-primary-contradictions"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-ratio-rate-prevalence",
+      "title": "率、比例、比与患病率：按对象、时间和分母辨析",
+      "subject": "353",
+      "prerequisites": [
+        "353-variable-types",
+        "353-study-design-foundation",
+        "353-frequency-denominator",
+        "353-incidence-risk",
+        "353-person-time"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-normal-distribution-foundation",
+      "title": "连续变量与正态分布入门：面积、位置与适用条件",
+      "subject": "353",
+      "prerequisites": [
+        "353-probability-binomial-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-sampling-distribution-se",
+      "title": "抽样分布与标准误：区分个体差异和估计波动",
+      "subject": "353",
+      "prerequisites": [
+        "353-random-sampling-foundation",
+        "353-mean-median",
+        "353-dispersion-foundation",
+        "353-normal-distribution-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-screening-test-foundation",
+      "title": "筛检与诊断试验入门：四格表、敏感度和预测值",
+      "subject": "353",
+      "prerequisites": [
+        "353-variable-types",
+        "353-study-design-foundation",
+        "353-ratio-rate-prevalence"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-radiation-protection-foundation",
+      "title": "辐射防护基础：剂量量纲、医学照射与时间距离屏蔽",
+      "subject": "353",
+      "prerequisites": [
+        "353-quantity-measurement",
+        "353-energy-power"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-nuclear-imaging-foundation",
+      "title": "核医学影像入门：放射性活度、SPECT与PET原理",
+      "subject": "353",
+      "prerequisites": [
+        "353-radiation-protection-foundation",
+        "353-waves-interactions"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-radiotherapy-physics-foundation",
+      "title": "放疗物理入门：靶区体积、分次剂量与DVH",
+      "subject": "353",
+      "prerequisites": [
+        "353-radiation-protection-foundation",
+        "353-quantity-measurement"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation",
+      "title": "统计推断入门：95%置信区间与假设检验",
+      "subject": "353",
+      "prerequisites": [
+        "353-normal-distribution-foundation",
+        "353-sampling-distribution-se",
+        "353-random-sampling-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-t-tests-paired-independent-foundation",
+      "title": "统计推断进阶：单样本、配对与独立两样本t检验",
+      "subject": "353",
+      "prerequisites": [
+        "353-inference-ci-hypothesis-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-outbreak-investigation-foundation",
+      "title": "传染病暴发调查入门：病例定义、流行曲线与罹患比例",
+      "subject": "353",
+      "prerequisites": [
+        "353-incidence-risk",
+        "353-study-design-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-anova-chi-regression-foundation",
+      "title": "统计推断方法：方差分析、列联表与线性/Logistic回归",
+      "subject": "353",
+      "prerequisites": [
+        "353-inference-ci-hypothesis-foundation",
+        "353-t-tests-paired-independent-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-evidence-systematic-review-meta-foundation",
+      "title": "循证医学入门：系统评价、PICO与Meta分析",
+      "subject": "353",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-inference-ci-hypothesis-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-health-system-financing-policy-foundation",
+      "title": "PH03入门：卫生体系、筹资支付与政策经济分析",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-public-health-emergency-ihr-foundation",
+      "title": "PH04入门：公共卫生应急与国际卫生条例",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-cross-disciplinary-evidence-writing",
+      "title": "CROSS01：跨学科材料理解、数量推理与书面表达",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-global-health-burden-priorities",
+      "title": "PH05：全球健康、疾病负担与有限资源决策",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-medical-ai-validation",
+      "title": "MP05：医学影像AI的独立验证与安全边界",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-space-air-ventilation",
+      "title": "MP06：空间、通风与暴露的数量分析",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-surveillance-evaluation",
+      "title": "EPI10：监测系统、信号与行动评价",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-health-indicators-ethics",
+      "title": "PH01：健康、群体指标与公共卫生伦理",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-health-promotion-behaviour",
+      "title": "PH06：健康教育、行为与支持性环境",
+      "subject": "353",
+      "prerequisites": [
+        "353-public-health-prevention"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-reading-library-evidence",
+      "title": "阅读与表达进阶Ⅰ：图书馆开放时间的证据链",
+      "subject": "en",
+      "prerequisites": [
+        "en-reading-evidence-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-reading-garden-writing",
+      "title": "阅读与表达进阶Ⅱ：社区花园的比较、翻译与短写",
+      "subject": "en",
+      "prerequisites": [
+        "en-reading-library-evidence"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-truth-value-material-bridge",
+      "title": "真理与价值：从事实核对到公共服务材料论证",
+      "subject": "pol",
+      "prerequisites": [
+        "pol-knowledge-practice-development",
+        "pol-people-individual-history"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-case-control-or-matched",
+      "title": "EPI05深化：病例对照OR与一对一配对分析",
+      "subject": "353",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-bias-control-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-cohort-risk-smr-followup",
+      "title": "EPI06深化：RR、风险差、SMR与随访边界",
+      "subject": "353",
+      "prerequisites": [
+        "353-incidence-risk",
+        "353-person-time",
+        "353-bias-control-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "353-trial-design-effects",
+      "title": "EPI07深化：随机分配、效果尺度与缺失结局",
+      "subject": "353",
+      "prerequisites": [
+        "353-study-design-foundation",
+        "353-cohort-risk-smr-followup"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-cloze-cohesion",
+      "title": "完形衔接入门：先读关系，再选连词",
+      "subject": "en",
+      "prerequisites": [
+        "en-reading-evidence-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "en-paragraph-heading-matching",
+      "title": "新题型起步：段落主旨与标题匹配",
+      "subject": "en",
+      "prerequisites": [
+        "en-reading-evidence-foundation"
+      ],
+      "reviewStatus": "draft-internal-check"
+    },
+    {
+      "id": "pol-rule-of-law-foundation",
+      "title": "法治入门：权利、义务与依法表达",
+      "subject": "pol",
+      "prerequisites": [],
+      "reviewStatus": "draft-internal-check"
+    }
+  ],
+  "papers": [
+    {
+      "id": "en-paper-01",
+      "subject": "en",
+      "items": 52,
+      "trainingPoints": 100,
+      "officialEquivalent": false
+    },
+    {
+      "id": "pol-paper-01",
+      "subject": "pol",
+      "items": 38,
+      "trainingPoints": 100,
+      "officialEquivalent": false
+    },
+    {
+      "id": "353-paper-01",
+      "subject": "353",
+      "items": 35,
+      "trainingPoints": 300,
+      "officialEquivalent": false
+    }
+  ],
+  "essentialGaps": [
+    {
+      "subject": "en",
+      "gap": "系统词汇、语法例外与复杂句全路径、更多跨主题阅读/翻译/写作训练尚不完整",
+      "closedThisRound": "段落标题匹配零基础课，以及一套完整原创语言能力组合训练卷",
+      "next": "词汇语境与长句分析先修串联；扩展不同篇章而非复用同卷提分"
+    },
+    {
+      "subject": "pol",
+      "gap": "政治经济学、理论体系与年度时政系统课程仍欠缺；现有主体为马克思主义基础",
+      "closedThisRound": "法治、权利义务基础课与原创材料分析组合卷",
+      "next": "补政治经济学关键概念及历史/理论系统学习，再扩整卷覆盖；年度材料核验"
+    },
+    {
+      "subject": "353",
+      "gap": "39个教学单元并非149节点的完整专业教学；完整章级推导与综合题梯度仍欠缺",
+      "closedThisRound": "完整原创综合卷，五案例连接调查、筛检、推断、物理剂量与环境模型",
+      "next": "按现有考纲矩阵补充分支深度；不得把做过一套卷当整科掌握"
+    }
+  ]
+}

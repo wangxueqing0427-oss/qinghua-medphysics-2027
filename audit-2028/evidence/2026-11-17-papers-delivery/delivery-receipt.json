@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-17",
+  "testedSHA": "763d388794cddb31c8b846be45909ca1d3d77ff5",
+  "preview": "https://0281ec38.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "0281ec38-1fc3-4654-a857-91bc5bb19d26",
+  "rollback": "https://ddb5c5f1.qh2028-core47-preview.pages.dev/",
+  "assetManifest": "build-receipt.json",
+  "onlineHashesMatched": 17,
+  "ci": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43903361475",
+  "onlineCI": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43903950608",
+  "tests": {
+    "logic": 7,
+    "chromiumScenarios": 11,
+    "mobileWebKitScenarios": 11,
+    "questionsPerBrowser": 125,
+    "newCourseFullLoopsPerBrowser": 2,
+    "realWallClock": {
+      "elapsedMs": 601823,
+      "checkpoints": 10,
+      "passed": true,
+      "simulated": false,
+      "notFull180minuteOrPhysicalIPhone": true
+    },
+    "onlineBothBrowsers": true,
+    "actualTCPOutage": true
+  },
+  "courses": {
+    "count": 74,
+    "questions": 836,
+    "newUnits": [
+      "en-paragraph-heading-matching",
+      "pol-rule-of-law-foundation"
+    ],
+    "old72Unchanged": true
+  },
+  "papers": [
+    {
+      "subject": "en",
+      "questions": 52,
+      "trainingPoints": 100,
+      "content": "20cloze;20reading across4original passages;5heading-match;5translation;2writing"
+    },
+    {
+      "subject": "pol",
+      "questions": 38,
+      "trainingPoints": 100,
+      "content": "16single;17multi;5original material analysis"
+    },
+    {
+      "subject": "353",
+      "questions": 35,
+      "trainingPoints": 300,
+      "content": "20single;10short answer;5integrated cases"
+    }
+  ],
+  "assessment": {
+    "officialEquivalent": false,
+    "subjectiveScore": "Reference rubric plus explicitly learner-entered self points; no automatic professional score",
+    "objectiveScore": "Training points under current exact-set grader; not asserted official partial-credit rule",
+    "forecast350": null
+  },
+  "sources": {
+    "before": 261,
+    "newDirectSubclaimAnchors": 16,
+    "remaining": 245,
+    "entireQuestionProfessionalApproval": 0
+  },
+  "protection": {
+    "originalFiles": [
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\product-2028-issue9-3\\.build\\representative-courses.json",
+        "sha256": "1bcd79e8aa6b8bb533930bff833469a128849187f9a11470826a8700c0a53f44",
+        "unchanged": true
+      },
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\audit.cjs",
+        "sha256": "e7c180ca13e036ea588f44242c289a5cf1071fac215354aa2c481965eb99bb50",
+        "unchanged": true
+      },
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\inventory.json",
+        "sha256": "579dec0989173a8925c80321d6e7d04aa6ebb6b80b7ce4028ebac04c7bc0d6a9",
+        "unchanged": true
+      },
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\numeric-review.json",
+        "sha256": "b9ce6e73d1a1af4e6e1a44e8b50ffb79ec3a3e31299d0540c6ea179ec4693d11",
+        "unchanged": true
+      },
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\coverage.json",
+        "sha256": "200e73458ce47f6b42d9d9faf407fc81089747cf81bf16f5bec7371529558788",
+        "unchanged": true
+      },
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\audit-2028\\issue10-2026-11-16\\353审查.md",
+        "sha256": "af02974638a70a68b550059c1ad81dae8bf450afc3df321b210f3de40d940dd8",
+        "unchanged": true
+      },
+      {
+        "file": "C:\\Users\\王学庆\\Documents\\Codex\\2026-11-16\\referenced-chatgpt-conversation-this-is-an-3\\work\\qinghua\\product-2028-issue8-c\\学习可用性与缺口.md",
+        "sha256": "6f72d454e28b52a5fe35865f29ae401822b7ac8866d1c6a379a44b1838ab7cb3",
+        "unchanged": true
+      },
+      {
+        "file": "C:/Users/王学庆/Documents/Codex/2026-11-16/referenced-chatgpt-conversation-this-is-an-3/outputs/接管审计证据包.zip",
+        "sha256": "a018bbab69eb75f8d2ad38a67b68900359a18451ab21f02af924eed46c6df7df",
+        "unchanged": true
+      }
+    ],
+    "mainModified": false,
+    "V59Modified": false,
+    "productionModified": false,
+    "realLearningDataAccess": false,
+    "automaticMigration": false,
+    "database": "qh2028_issue10_papers_v1_local",
+    "cache": "qh2028-issue10-papers-v1"
+  },
+  "failedAttempts": [
+    "local6pass1failure material completeness;case clarification preserves original snapshot and answers",
+    "local Chromium all125responses passed then ENOSPC canceled backup; not called pass",
+    "firstLinux fixture clock lost across tab; prior failure run43902769293 kept, fixed without runtime/answer changes",
+    "online verifier initial relative module path failure run43903814311; corrected; successful run43903950608"
+  ],
+  "environment": {
+    "localFreeBytesApprox": 29425664,
+    "ENOSPCObserved": true,
+    "rawSourceJSONRecoveredAndParsed": true,
+    "onlyUntrackedReproDuplicateRemovedBytes": 6644935,
+    "originalsDeleted": false,
+    "nextLocalLargeBuildUnsafeWithoutSpace": true
+  },
+  "professionalApprovals": 0,
+  "physicalIPhoneAccepted": false,
+  "formalLaunchReady": false,
+  "knownRemaining": [
+    "full vocabulary/grammar and additional reading/writing progression",
+    "political economy and complete theory/history/current-affairs curriculum",
+    "353full node-level depth and audit; one composite paper does not certify scope",
+    "2028official exam structure/time/marks verification",
+    "245source anchors pending plus professional review",
+    "physical iPhone and actual180minute endurance pending"
+  ],
+  "knownP2": [
+    "Some reused exam explanatory copy still refers to the former71course bank; actual paper layout and counts are displayed correctly. Clean this copy in next affected UI change.",
+    "pst-a4 uses wording past factual sentence for a question that also includes interrogatives; answer unchanged, wording suggestion retained"
+  ],
+  "continuation": [
+    "Use testedSHA763d388 not evidenceHEAD to identify deployment",
+    "Do not repeat Q0, numeric77, subjective190, choice505or carbon reviews",
+    "Resume245queue from remaining-sources-245.json",
+    "Retain raw CI JSON receipts and all original snapshots",
+    "Before further local browser/build work address disk-space risk; do not delete source or historical evidence without authorization",
+    "Continue real curriculum gaps from curriculum-gaps.json, preserve completed125paper machinery"
+  ]
+}

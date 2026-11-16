@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": 7,
+  "scope": "254queue reconstruction digest,9newIDs,original question hashes,source locator membership,254-9arithmetic,unchanged expert flags,no course write",
+  "newAnchors": 9,
+  "remaining": 245,
+  "professionalApprovals": 0
+}
