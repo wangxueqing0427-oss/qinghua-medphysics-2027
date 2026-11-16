@@ -1,0 +1,11 @@
+{
+  "run": 43902769293,
+  "job": 133423498188,
+  "sha": "1cac8e76c00e6ad9f4212697118e820fb15d95a7",
+  "newCoursePathsPassed": 2,
+  "error": "Mid-paper new tab reset synthetic prerequisite Date offset, causing draft-at before start-at and stalled navigation",
+  "fix": "Persist only test fixture clock across tabs. Real-wall-clock soak remains separate with no Date hook",
+  "runtimeAssetsChanged": false,
+  "assertionsRemoved": false,
+  "productionDeployed": false
+}
