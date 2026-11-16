@@ -1,0 +1,73 @@
+{
+  "preview": {
+    "url": "https://403b3769.qh2028-core47-preview.pages.dev/",
+    "deploymentId": "403b3769-53f6-46c1-a57a-b09d0417f6ad",
+    "sha": "f22770e86012ac8f1420c447bfe30440dc8e74ba",
+    "files": 17,
+    "allOnlineHashesMatch": true,
+    "db": "qh2028_issue10_q0fix1_local",
+    "cache": "qh2028-issue10-q0fix1-71",
+    "journal": "qh2028_issue10_q0fix1_pending:",
+    "rollback": "https://558d5bb3.qh2028-core47-preview.pages.dev/",
+    "rollbackMethod": "Return to previous isolated URL; leave both databases and caches intact; no deletion or migration"
+  },
+  "ci": {
+    "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43866886503",
+    "sha": "f22770e86012ac8f1420c447bfe30440dc8e74ba",
+    "browser": "Linux mobile WebKit iPhone13 viewport; not physical iPhone",
+    "passed": 39,
+    "failed": 0,
+    "revisedCourses": 17,
+    "actualTCPOutage": true,
+    "artifact": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43866886503/artifacts/14226061853",
+    "priorFailureRun": 43866011764,
+    "priorFailureArtifact": 14226250805
+  },
+  "online": {
+    "browser": "Chromium Edge, fresh synthetic context",
+    "passed": true,
+    "hashes": 17,
+    "checks": [
+      "HTTPS origin and assets",
+      "Actual closed-recall answer and closed-tab restore",
+      "SW registration, control and17cache entries"
+    ],
+    "notClaimed": "No physical iPhone or real-device airplane-mode acceptance"
+  },
+  "exam": {
+    "directory": "product-2028-issue10-exam",
+    "localNodeChecks": 6,
+    "localChromiumChecks": 4,
+    "deployed": false,
+    "fullMock": false,
+    "subjectiveScores": null,
+    "predicted350Score": null,
+    "remaining": [
+      "Official2028 programme subject selection and full paper blueprint unconfirmed",
+      "English reading/cloze/translation/writing and politics breadth insufficient for full mock",
+      "353 full outcome coverage and item allocations missing",
+      "Expert grading and physical iPhone acceptance unfinished"
+    ],
+    "note": "Functional provisional long training engine and reused UI only; no substitution into tested17assets"
+  },
+  "sources": {
+    "pendingBefore": 284,
+    "newDirectSubclaimAnchors": 6,
+    "pendingAfter": 278,
+    "totalPartial": 155,
+    "fullQuestionExpertApproval": 0
+  },
+  "protection": {
+    "checkedOriginalFiles": 8,
+    "matched": 8,
+    "productionWrites": false,
+    "mainMerged": false,
+    "realLearningDataAccess": false
+  },
+  "continuation": [
+    "Use pinned preview SHA for concentrated iPhone acceptance, not repository evidence HEAD",
+    "Complete and verify official exam blueprint before marking any full mock available",
+    "Continue278sourcequeue, prioritize IHR/reporting-law and remaining medical physics boundaries"
+  ],
+  "expertApprovals": 0
+}

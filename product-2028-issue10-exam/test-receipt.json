@@ -1,0 +1,8 @@
+{
+  "command": "node --test product-2028-issue10-exam/test.cjs",
+  "passed": 6,
+  "failed": 0,
+  "type": "local Node engine and UI contract checks, not browser or iPhone",
+  "fullMock": false,
+  "contentExpertApproved": 0
+}

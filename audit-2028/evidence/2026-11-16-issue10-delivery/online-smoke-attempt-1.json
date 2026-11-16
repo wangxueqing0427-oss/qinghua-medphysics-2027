@@ -1,0 +1,28 @@
+{
+  "sha": "f22770e86012ac8f1420c447bfe30440dc8e74ba",
+  "url": "https://403b3769.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "403b3769-53f6-46c1-a57a-b09d0417f6ad",
+  "ci": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43866886503",
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "dc8e84c79868f1a8dd6e966a73a2e5cd45bcad907cec2327c3dded3f9cbdc68e",
+      "bytes": 21937
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "bytes": 5686
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253
+    }
+  ],
+  "checks": [],
+  "physicalIPhone": false,
+  "realLearningData": false,
+  "passed": false,
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13502:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\王学庆\\Desktop\\清华大学\\outputs\\issue10-q0-revision-2026-11-16\\candidate\\product-2028-issue10-integration\\online-smoke.cjs:6:54"
+}

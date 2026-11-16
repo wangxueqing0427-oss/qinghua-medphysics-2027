@@ -1,0 +1,45 @@
+{
+  "version": "issue10-provisional-exam-1",
+  "status": "internal-provisional-not-full-mock",
+  "subjects": [
+    "en",
+    "pol",
+    "353"
+  ],
+  "questionsPerSubject": 24,
+  "mixedQuestions": 36,
+  "minutes": 180,
+  "minutesStatus": "internal practice setting; official 2028 duration not verified",
+  "scores": {
+    "353": 300,
+    "en": 100,
+    "pol": 100
+  },
+  "scoreStatus": "2027 national three-unit medical/public health structure reference; specific 2028 programme and item allocations unconfirmed; no assigned question points yet",
+  "sources": [
+    {
+      "url": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+      "published": "2026-09-30",
+      "read": "whole syllabus body",
+      "supports": "2027 subject353 content scope; does not specify item counts or duration"
+    },
+    {
+      "url": "https://yzst.chsi.com.cn/kyzx/jybzc/202609/20260924/2293971511.html",
+      "published": "2026-09-24",
+      "documentDate": "2026-09-21",
+      "read": "2027 management regulation body",
+      "supports": "medical/public-health three units 100/100/300, not 2028 programme item allocations"
+    }
+  ],
+  "fullMockBlockedBy": [
+    "2028 programme catalogue not confirmed",
+    "official English I and political paper sections and item allocations not verified",
+    "353 item allocations and duration not verified in retrieved syllabus",
+    "71 draft courses do not cover all syllabus outcomes",
+    "subjective professional grading unavailable"
+  ],
+  "storageKey": "issue10ProvisionalExamV1",
+  "separateFromExistingExamKey": "diagnosticExamV5",
+  "production": false,
+  "expertApproved": 0
+}

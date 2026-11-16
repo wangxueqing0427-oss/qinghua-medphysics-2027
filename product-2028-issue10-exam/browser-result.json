@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "24question provisional blueprint, actual long subjective auto-save",
+    "Close and reopen preserves raw subjective response and deadline",
+    "Manual confirmed submit, objective feedback, original response and pending rubric",
+    "New exam archives exact prior answers; old diagnostic storage key untouched"
+  ],
+  "browser": "Chromium Edge with iPhone13 viewport",
+  "physicalIPhone": false,
+  "officialFullMock": false,
+  "syntheticOnly": true
+}
