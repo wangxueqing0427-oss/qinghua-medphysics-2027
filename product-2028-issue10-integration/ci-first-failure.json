@@ -1,0 +1,10 @@
+{
+  "sha": "079aeea264e0841f40dabf8f619666a146004caa",
+  "run": 43866011764,
+  "job": 133294624866,
+  "artifact": 14226250805,
+  "checksPassedBeforeFailure": 36,
+  "failure": "Wrong book text assertion immediately after asynchronous navigation",
+  "fix": "Wait for actual rendered wrong cause; preserve existing exact assertions; no course or runtime edits",
+  "independentProfessionalApproved": 0
+}

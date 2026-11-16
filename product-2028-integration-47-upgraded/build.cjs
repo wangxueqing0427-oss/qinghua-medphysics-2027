@@ -1,4 +1,8 @@
 'use strict';
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-16-issue10-q0-content-fix'){
+require('../product-2028-issue10-integration/pages-build.cjs');
+}else{
+'use strict';
 // ENGINEERING ONLY: package existing 47 drafts plus the six-question SVO update.
 // No modifications to SET47, active SVO, R2, V59 or real learner data.
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert/strict');
@@ -759,3 +763,5 @@ if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-15-issue9-3'){
   })().catch(e=>{console.error('ISSUE9 batch3 preview refused:',e);process.exitCode=1;});
 }
 
+
+}
