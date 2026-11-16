@@ -1,0 +1,109 @@
+{
+  "preview": {
+    "url": "https://ddb5c5f1.qh2028-core47-preview.pages.dev/",
+    "sha": "c429bc96f5d24be221c4337ed3e450501679fc14",
+    "deploymentId": "ddb5c5f1-e321-4042-af75-9c63acabfd72",
+    "assetManifest": "product-2028-issue10-next/build-receipt.json",
+    "assets": 17,
+    "online17SHA256Match": true,
+    "rollback": "https://403b3769.qh2028-core47-preview.pages.dev/",
+    "rollbackRequiresDeletion": false
+  },
+  "ci": {
+    "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43898179699",
+    "job": 133407314936,
+    "sha": "c429bc96f5d24be221c4337ed3e450501679fc14",
+    "logicPassed": 11,
+    "mobileWebKitScenariosPassed": 10,
+    "artifact": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43898179699/artifacts/14239413329",
+    "type": "Linux actual mobile WebKit; iPhone13 viewport; NOT physical iPhone"
+  },
+  "chromium": {
+    "file": "product-2028-issue10-next/browser-chromium-4.json",
+    "scenarios": 10,
+    "note": "Incremental new course and changed exam paths, not historical39 tests"
+  },
+  "content": {
+    "353": {
+      "courses": 39,
+      "questions": 444
+    },
+    "courses": 72,
+    "questions": 812,
+    "en": {
+      "courses": 18,
+      "questions": 200
+    },
+    "pol": {
+      "courses": 15,
+      "questions": 168
+    },
+    "old71Units800QuestionsUnchanged": true,
+    "newUnit": "en-cloze-cohesion/0.1.1",
+    "newQuestions": 12,
+    "internalOnly": true,
+    "expertApprovals": 0,
+    "coverage": "149nodes tracked;30have partial links, not full verified coverage"
+  },
+  "sources": {
+    "start": 278,
+    "newSubclaimAnchors": 17,
+    "remaining": 261,
+    "completeQuestionProfessionalApproval": 0,
+    "newModules": [
+      "public-health-emergency-ihr",
+      "nuclear-imaging",
+      "global-health"
+    ]
+  },
+  "features": [
+    "three independent provisional24question papers with4subjective items each",
+    "353minimum4calculation items; English minimum3reading items",
+    "180minute practice deadline continues across page closure, no pause",
+    "raw subjective auto-save, reopen, manual/timeout submit",
+    "reference-only grading and saved learner rubric self-check",
+    "objective wrong vs subjective pending separate review queues",
+    "due independent re-answer, 1/3/7/14/30 day objective evidence progression",
+    "saved exam history and per-module next-study advice",
+    "backup clones exam/history/review state; true TCP server outage fresh navigation",
+    "mobile safe-area, legibility, keyboard room and wrapped exam navigation"
+  ],
+  "limitations": {
+    "officialFullMock": false,
+    "forecast350": null,
+    "realThreeHourEnduranceTested": false,
+    "deadlineTest": "Injected clock+181minutes, real browser, not real-time three-hour soak",
+    "physicalIPhoneAccepted": false,
+    "onlineAccounts": false,
+    "sourceReviewRemaining": 261,
+    "professionalApprovals": 0
+  },
+  "formalLaunchReady": false,
+  "finalIPhoneProductAcceptanceReady": false,
+  "notYetComplete": [
+    "full English vocabulary and complete cloze/new types/translation/writing papers",
+    "politics theory areas beyond current predominantly Marxist content and current-year material",
+    "353whole-node teaching coverage and full integrated examination blueprint",
+    "2028official catalogue/syllabus, item count/time/points update verification",
+    "remaining source risks and external professional review",
+    "physical Safari/PWA background, keyboard, real airplane-mode and long-session acceptance"
+  ],
+  "protection": {
+    "originalFileHashesChecked": 8,
+    "unchanged": 8,
+    "mainModified": false,
+    "V59Modified": false,
+    "R5Modified": false,
+    "realLearningDataAccess": false,
+    "newDatabase": "qh2028_issue10_examloop_v4_local",
+    "newCache": "qh2028-issue10-examloop-v4-72",
+    "migrationEnabled": false
+  },
+  "nextExecution": [
+    "Read this receipt and existing149node coverage-current.json; no repeat Q0 or passed39 historical browser tests",
+    "Keep tested preview SHA c429bc9 distinct from later evidence-only HEAD",
+    "Prioritize complete exam blueprint and a real English cloze/reading-paper module; current24question training is not full mock",
+    "Resume source queue from remaining-sources-261.json, prioritize remaining clinical/radiotherapy boundaries",
+    "Add new content only in isolated next candidate and rerun affected gates before preview update"
+  ]
+}

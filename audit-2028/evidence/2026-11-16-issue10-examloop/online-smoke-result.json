@@ -1,0 +1,110 @@
+{
+  "sha": "c429bc96f5d24be221c4337ed3e450501679fc14",
+  "url": "https://ddb5c5f1.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "ddb5c5f1-e321-4042-af75-9c63acabfd72",
+  "ci": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/43898179699",
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "e32c4ee33ac18877ae55aaecb5724c9b29c922add2b97beaa64a422e5300f98c",
+      "bytes": 22520
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "bytes": 5686
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253
+    },
+    {
+      "path": "index.html",
+      "sha256": "d7c79903fda1a81c64e0cee5212664c136723831e8ff7715a946bcd7671a5aff",
+      "bytes": 1548
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "bytes": 16360
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "7106809ffef98cfedd6f638f5d46f8965b68de59e20f79fc03715ab62a1889d8",
+      "bytes": 318
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "bytes": 343
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "bytes": 7132
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "bytes": 6279
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "f47b04c4f71f3ff026190f1e88dbb5a16a058cea90fd3ab3e6a7cc40a70dc134",
+      "bytes": 12338
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "e1a731582c24e9358fbef63dfb1a34b919a9343e8ad010d798220087ec1fa0df",
+      "bytes": 26670
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "94c6dfa9a2473861ff4b7532ef74bd2c0980d0d7f6a1248822957b47787972c0",
+      "bytes": 20947
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "a2dd4ebda808bfb050adbb8b8d6ae80eddacb0b90ca0891c5ba7ae4d3f7c4d3e",
+      "bytes": 7091
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "bytes": 6752
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "c67649800ca0ee40c3a58aa31845ba074df2d2536ec5d0b0acfc3511333c47f3",
+      "bytes": 1292806
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "bytes": 3806
+    },
+    {
+      "path": "sw.js",
+      "sha256": "5509a38fbde5d65f0f1667d45f9a2c2f3e2114de680c3acc69448f9fbfffdad2",
+      "bytes": 1495
+    }
+  ],
+  "checks": [
+    "HTTPS17files exact committed hashes",
+    "Actual online recall and closed-tab profile restore",
+    "Online exam raw draft, manual submit and subjective-pending feedback",
+    "Online SW active/control, isolated database and17cached assets"
+  ],
+  "physicalIPhone": false,
+  "realLearningData": false,
+  "cache": {
+    "scope": "https://ddb5c5f1.qh2028-core47-preview.pages.dev/",
+    "keys": [
+      "qh2028-issue10-examloop-v4-72"
+    ],
+    "assets": 17,
+    "db": "qh2028_issue10_examloop_v4_local"
+  },
+  "passed": true
+}
