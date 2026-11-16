@@ -1,0 +1,68 @@
+{
+  "paperId": "en-paper-01",
+  "version": "0.1",
+  "questions": 52,
+  "points": 100,
+  "objective": 45,
+  "subjective": 7,
+  "sections": [
+    {
+      "id": "cloze",
+      "questions": 20,
+      "points": 10
+    },
+    {
+      "id": "reading",
+      "questions": 20,
+      "points": 40
+    },
+    {
+      "id": "matching",
+      "questions": 5,
+      "points": 10
+    },
+    {
+      "id": "translation",
+      "questions": 5,
+      "points": 10
+    },
+    {
+      "id": "writing",
+      "questions": 2,
+      "points": 30
+    }
+  ],
+  "passageWords": [
+    {
+      "id": "A",
+      "words": 359
+    },
+    {
+      "id": "B",
+      "words": 369
+    },
+    {
+      "id": "C",
+      "words": 357
+    },
+    {
+      "id": "D",
+      "words": 379
+    }
+  ],
+  "writingWords": [
+    93,
+    171
+  ],
+  "checks": {
+    "questionIdsUnique": true,
+    "positivePointsAndSum": true,
+    "choiceIndexesAndUniqueOptions": true,
+    "allQuestionEvidenceLocators": true,
+    "subjectiveRubricsAndReference": true,
+    "originalMaterial": true
+  },
+  "internalSemanticReview": "逐题按原创材料重解；选择题干扰项为明确不支持或否定性外推，保持来源与官方布局边界。未做独立专家审定。",
+  "sha256": "29dd5bb4a9001d893525f12a8052216486d33df5c05e49030648f52863a77ff5",
+  "professionalApprovals": 0
+}

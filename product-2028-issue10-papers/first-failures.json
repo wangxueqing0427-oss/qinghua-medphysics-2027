@@ -1,0 +1,22 @@
+{
+  "failures": [
+    {
+      "file": "initial Node test output",
+      "passed": 6,
+      "failed": 1,
+      "reason": "353 case materials shorter than completeness threshold; added explicit conditions in case-clarification-receipt.json; answers not changed"
+    },
+    {
+      "file": "browser-chromium-1.json",
+      "passedScenarios": 7,
+      "failure": "download.saveAs canceled during ENOSPC; full three paper UI paths passed, backup/offline remain unverified"
+    }
+  ],
+  "environment": {
+    "diskFreeBytesAtFailure": 25346048,
+    "untrackedDerivedReproductionRemovedBytes": 6644935,
+    "originalsDeleted": false,
+    "realLearningDataAccess": false
+  },
+  "resolution": "Use Linux CI for final backup/offline and real-wall-clock soak. Do not call first local browser a full pass."
+}

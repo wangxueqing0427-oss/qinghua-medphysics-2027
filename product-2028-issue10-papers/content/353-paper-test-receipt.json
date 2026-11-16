@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "questions": 35,
+  "trainingPoints": 300,
+  "objective": 20,
+  "subjective": 15,
+  "checks": [
+    "unique IDs",
+    "section points",
+    "four options and answer index",
+    "subjective rubric coverage",
+    "independent case arithmetic"
+  ],
+  "calculations": {
+    "cohort": {
+      "exposed": 0.3,
+      "unexposed": 0.1,
+      "rr": 2.9999999999999996,
+      "rd": 0.19999999999999998
+    },
+    "screen": {
+      "sensitivity": 0.9,
+      "specificity": 0.95,
+      "ppv": 0.6666666666666666
+    },
+    "sample": {
+      "mean": 14,
+      "squares": 40,
+      "sd": 3.1622776601683795,
+      "se": 1.4142135623730951,
+      "margin": 3.9258568491477117
+    },
+    "physics": {
+      "dose": 2,
+      "total": 10
+    },
+    "ventilation": {
+      "ach": 3,
+      "increment": 0.05,
+      "total": 0.060000000000000005,
+      "newTotal": 0.035
+    }
+  },
+  "sha256": "241f9009532c3dd39b8ace6209047641ae0048b1e14f8c3b77c58f1aec4bf736",
+  "expertApprovals": 0,
+  "officialEquivalent": false
+}

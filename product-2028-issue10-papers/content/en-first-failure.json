@@ -1,0 +1,8 @@
+{
+  "command": "node content/build-english.cjs",
+  "firstFailure": "AssertionError: q.stem && q.explanation && q.evidence && q.passage",
+  "cause": "Subjective question generator omitted the explanation field although it already contained a reference answer and rubric.",
+  "fix": "Add a substantive explanation linking rubric requirements to accepted semantic equivalents; preserve the original assertion.",
+  "finalResult": "52 questions, 100 points, all required fields and section totals passed",
+  "professionalApprovals": 0
+}

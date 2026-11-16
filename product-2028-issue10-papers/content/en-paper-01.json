@@ -1,0 +1,1171 @@
+{
+  "id": "en-paper-01",
+  "subject": "en",
+  "version": "0.1",
+  "title": "英语原创整卷01：证据、服务与学习",
+  "status": "provisional-original-practice",
+  "minutes": 180,
+  "officialEquivalent": false,
+  "layoutBasis": "内部暂定52题100训练分；未在本任务核实2028官方试卷布局/时长/难度，不称官方全真。",
+  "sources": [
+    {
+      "id": "bc-reading-b1",
+      "publisher": "British Council",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b1",
+      "accessed": "2026-11-16",
+      "read": "网页正文开头：日常/工作场景文本；准备、阅读、理解任务。未复制其文章和试题。",
+      "supports": "使用日常与工作场景的阅读教学补充",
+      "doesNotSupport": "2028考研官方布局、分值、难度等值、原创答案效度",
+      "published": null
+    }
+  ],
+  "authorship": "所有文章、题目、答案和范文为本项目原创虚构；来源只支持教学形式，不复制其课文或题目。",
+  "professionalApprovals": 0,
+  "scorePolicy": "客观题可按给定训练分判分；主观题只给参考和人工自评，未核对不能合成可信整卷总分；不预测350分。",
+  "sections": [
+    {
+      "id": "cloze",
+      "title": "第一部分：英语知识运用（原创）",
+      "points": 10,
+      "questions": [
+        {
+          "id": "en-paper01-01",
+          "type": "single",
+          "stem": "选择空格[1]的最佳选项。",
+          "options": [
+            "why",
+            "where",
+            "whose",
+            "whether"
+          ],
+          "answer": 0,
+          "explanation": "P1：提问停工原因，why引出原因；其余不符合所给内容。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-02",
+          "type": "single",
+          "stem": "选择空格[2]的最佳选项。",
+          "options": [
+            "which",
+            "whose",
+            "what",
+            "where"
+          ],
+          "answer": 3,
+          "explanation": "P1：a space where people...，where在从句中表达地点。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-03",
+          "type": "single",
+          "stem": "选择空格[3]的最佳选项。",
+          "options": [
+            "privately",
+            "carelessly",
+            "quickly",
+            "rarely"
+          ],
+          "answer": 2,
+          "explanation": "P2：后句reduced waiting time说明最初追求快；不是少修、保密或粗心。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-04",
+          "type": "single",
+          "stem": "选择空格[4]的最佳选项。",
+          "options": [
+            "until",
+            "but",
+            "because",
+            "unless"
+          ],
+          "answer": 1,
+          "explanation": "P2：缩短等待与缺少理解形成反差。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-05",
+          "type": "single",
+          "stem": "选择空格[5]的最佳选项。",
+          "options": [
+            "remember",
+            "remove",
+            "borrow",
+            "invent"
+          ],
+          "answer": 0,
+          "explanation": "P2：看过仍不会第一步，缺的是记住；不是发明步骤。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-06",
+          "type": "single",
+          "stem": "选择空格[6]的最佳选项。",
+          "options": [
+            "price",
+            "visitor",
+            "tool",
+            "goal"
+          ],
+          "answer": 3,
+          "explanation": "P2：理解也重要，说明速度不是唯一目标。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-07",
+          "type": "single",
+          "stem": "选择空格[7]的最佳选项。",
+          "options": [
+            "among",
+            "throughout",
+            "behind",
+            "during"
+          ],
+          "answer": 2,
+          "explanation": "P3：standing behind a table是位置；其余不能修饰a table形成此意。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-08",
+          "type": "single",
+          "stem": "选择空格[8]的最佳选项。",
+          "options": [
+            "replace",
+            "describe",
+            "hide",
+            "purchase"
+          ],
+          "answer": 1,
+          "explanation": "P3：用日常语言描述问题，以获取信息。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-09",
+          "type": "single",
+          "stem": "选择空格[9]的最佳选项。",
+          "options": [
+            "miss",
+            "repair",
+            "lend",
+            "weigh"
+          ],
+          "answer": 0,
+          "explanation": "P3：快速外观检查可能遗漏信息，插座例子说明此点。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-10",
+          "type": "single",
+          "stem": "选择空格[10]的最佳选项。",
+          "options": [
+            "in",
+            "at",
+            "by",
+            "on"
+          ],
+          "answer": 3,
+          "explanation": "P4：on their own意为独自；注意by themselves是另一结构，不是by their own。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-11",
+          "type": "single",
+          "stem": "选择空格[11]的最佳选项。",
+          "options": [
+            "colours",
+            "owners",
+            "limits",
+            "profits"
+          ],
+          "answer": 2,
+          "explanation": "P4：需要专门设备而拒修，说明能力边界。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-12",
+          "type": "single",
+          "stem": "选择空格[12]的最佳选项。",
+          "options": [
+            "predict",
+            "protect",
+            "charge",
+            "separate"
+          ],
+          "answer": 1,
+          "explanation": "P4：protect...from harm是保护免受伤害。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-13",
+          "type": "single",
+          "stem": "选择空格[13]的最佳选项。",
+          "options": [
+            "agreed",
+            "forgot",
+            "failed",
+            "pretended"
+          ],
+          "answer": 0,
+          "explanation": "P4：除非同意联系，否则不收姓名；其他词改变同意条件。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-14",
+          "type": "single",
+          "stem": "选择空格[14]的最佳选项。",
+          "options": [
+            "arrival",
+            "purpose",
+            "sale",
+            "average"
+          ],
+          "answer": 3,
+          "explanation": "P5：on average为平均而言，与记录比较相符。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-15",
+          "type": "single",
+          "stem": "选择空格[15]的最佳选项。",
+          "options": [
+            "hide",
+            "repeat",
+            "prove",
+            "deny"
+          ],
+          "answer": 2,
+          "explanation": "P5：没有比较组，不能证明所有城镇适用；不是否认该命题。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-16",
+          "type": "single",
+          "stem": "选择空格[16]的最佳选项。",
+          "options": [
+            "Instead",
+            "Nevertheless",
+            "Otherwise",
+            "Similarly"
+          ],
+          "answer": 1,
+          "explanation": "P5：不能普遍证明，仍给继续学习理由，构成让步转折。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-17",
+          "type": "single",
+          "stem": "选择空格[17]的最佳选项。",
+          "options": [
+            "clear",
+            "costly",
+            "silent",
+            "distant"
+          ],
+          "answer": 0,
+          "explanation": "P5：改进解释语言，问解释是否清楚。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-18",
+          "type": "single",
+          "stem": "选择空格[18]的最佳选项。",
+          "options": [
+            "expensive",
+            "broken",
+            "absent",
+            "able"
+          ],
+          "answer": 3,
+          "explanation": "P5：more able to understand表达能力提高。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-19",
+          "type": "single",
+          "stem": "选择空格[19]的最佳选项。",
+          "options": [
+            "only",
+            "instead",
+            "too",
+            "never"
+          ],
+          "answer": 2,
+          "explanation": "P5：信心也有价值，too表示添加。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-20",
+          "type": "single",
+          "stem": "选择空格[20]的最佳选项。",
+          "options": [
+            "yet",
+            "but",
+            "nor",
+            "for"
+          ],
+          "answer": 1,
+          "explanation": "P5：not to replace..., but to make...，平行目标对照。",
+          "points": 0.5,
+          "passage": "[P1] When a small town opened a repair room, the organisers expected people to bring broken objects. They soon discovered that visitors brought questions as well. Some wanted to know [1] a lamp had stopped working; others simply wished to watch a neighbour repair a chair. The room was therefore more than a place for fixing things. It became a space [2] people could exchange practical knowledge.\n[P2] At first, volunteers tried to finish every repair as [3] as possible. That approach reduced waiting time, [4] it also left visitors with little understanding of the work. One visitor returned the following week with the same problem. She had watched the repair, yet she could not [5] the first step. The team decided that speed was not its only [6]. Helping people understand a process mattered too.\n[P3] The volunteers then changed the arrangement. Instead of standing [7] a table and observing silently, visitors were invited to sit beside a volunteer. Before touching an object, the volunteer asked its owner to [8] the problem in everyday language. This question often revealed useful information that a quick look could [9]. A radio that seemed completely dead, for example, worked when it was moved to another socket.\n[P4] Safety remained important. Visitors were not allowed to work on dangerous electrical parts [10] their own. When a repair required specialist equipment, the team explained its [11] and suggested another service. Refusing a task was not treated as failure. It was a way to [12] people from avoidable harm. The room also kept simple records, but it collected no names unless visitors [13] to be contacted.\n[P5] After three months, the organisers compared their records. Repairs took longer on [14], while fewer visitors returned with the same question. These results did not [15] that the new arrangement would suit every town. There was no comparison group, and the people who attended might have changed. [16], the records gave the team a reason to continue learning from its work. It asked visitors which explanations were [17] and which needed improvement. The answers helped volunteers adjust their language, not judge visitors' intelligence. Gradually, the team came to see a successful session as one that left an owner more [18] to understand an object. A repaired chair was valuable; the confidence to ask the next question could be valuable [19]. The room's purpose was not to replace professional services, [20] to make practical learning easier to share.",
+          "evidence": "P5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "第二部分A：四篇原创阅读",
+      "points": 40,
+      "questions": [
+        {
+          "id": "en-paper01-21",
+          "type": "single",
+          "stem": "What did the librarian question in A1?",
+          "options": [
+            "Whether more books alone would improve access",
+            "Whether books had any value",
+            "Whether all residents disliked reading",
+            "Whether the library should stop lending"
+          ],
+          "answer": 0,
+          "explanation": "A1 distinguishes a larger collection from residents being able to reach it. The other options are not stated.",
+          "points": 2,
+          "passage": "[A1] A district library wanted more residents to use its collection. Its first proposal was to buy several thousand new books. That sounded sensible: a larger collection might offer something for everyone. Yet a librarian asked the team to examine a less visible problem. A person who could not reach the building during opening hours would gain little from an extra shelf of books.\n[A2] The team spoke with residents at a bus stop, a market and a workplace canteen. These conversations were not a representative survey, and the team did not present them as one. They did, however, reveal situations worth investigating. Some residents worked when the library was open. Others could reach the building but found the registration instructions difficult. A few did not know that membership was free. The common problem was not simply a shortage of books.\n[A3] Rather than abandon its collection plan, the library tried a limited change. For eight weeks, it opened two hours later on one evening and used a shorter registration form. Staff wrote down attendance by hour and invited anonymous comments. Evening visits increased. Several comments mentioned that the new time allowed people to come after work. The records did not show whether the same visitors had merely changed their visiting time, however, so the team could not calculate the number of entirely new users.\n[A4] The trial also had costs. Later opening required a different staff schedule, and an employee pointed out that a bus service ended before the building closed. Keeping the doors open was not enough if some residents could no longer travel home. The team therefore checked transport times before deciding on a permanent timetable. It also kept paper forms for residents who preferred not to register online.\n[A5] At the next budget meeting, the director described access and collection quality as connected goals, not competing slogans. Better books remained useful, but their value depended partly on whether people could actually use them. The team had not found a single solution for all residents. It had learned to ask whose difficulty a change addressed, what evidence supported it and what new difficulty it might create.",
+          "evidence": "A1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-22",
+          "type": "single",
+          "stem": "How were the conversations in A2 used?",
+          "options": [
+            "As a representative population estimate",
+            "As proof that books were unnecessary",
+            "As a test of residents’ reading ability",
+            "As clues for further investigation"
+          ],
+          "answer": 3,
+          "explanation": "A2 explicitly denies representativeness and treats conversations as revealing situations worth investigating.",
+          "points": 2,
+          "passage": "[A1] A district library wanted more residents to use its collection. Its first proposal was to buy several thousand new books. That sounded sensible: a larger collection might offer something for everyone. Yet a librarian asked the team to examine a less visible problem. A person who could not reach the building during opening hours would gain little from an extra shelf of books.\n[A2] The team spoke with residents at a bus stop, a market and a workplace canteen. These conversations were not a representative survey, and the team did not present them as one. They did, however, reveal situations worth investigating. Some residents worked when the library was open. Others could reach the building but found the registration instructions difficult. A few did not know that membership was free. The common problem was not simply a shortage of books.\n[A3] Rather than abandon its collection plan, the library tried a limited change. For eight weeks, it opened two hours later on one evening and used a shorter registration form. Staff wrote down attendance by hour and invited anonymous comments. Evening visits increased. Several comments mentioned that the new time allowed people to come after work. The records did not show whether the same visitors had merely changed their visiting time, however, so the team could not calculate the number of entirely new users.\n[A4] The trial also had costs. Later opening required a different staff schedule, and an employee pointed out that a bus service ended before the building closed. Keeping the doors open was not enough if some residents could no longer travel home. The team therefore checked transport times before deciding on a permanent timetable. It also kept paper forms for residents who preferred not to register online.\n[A5] At the next budget meeting, the director described access and collection quality as connected goals, not competing slogans. Better books remained useful, but their value depended partly on whether people could actually use them. The team had not found a single solution for all residents. It had learned to ask whose difficulty a change addressed, what evidence supported it and what new difficulty it might create.",
+          "evidence": "A2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-23",
+          "type": "single",
+          "stem": "Why could the team not count entirely new users?",
+          "options": [
+            "Membership was no longer free",
+            "Only staff could enter in the evening",
+            "It could not distinguish new visits from changes in visiting time",
+            "It had lost all attendance records"
+          ],
+          "answer": 2,
+          "explanation": "A3 says records did not show whether the same visitors had changed time.",
+          "points": 2,
+          "passage": "[A1] A district library wanted more residents to use its collection. Its first proposal was to buy several thousand new books. That sounded sensible: a larger collection might offer something for everyone. Yet a librarian asked the team to examine a less visible problem. A person who could not reach the building during opening hours would gain little from an extra shelf of books.\n[A2] The team spoke with residents at a bus stop, a market and a workplace canteen. These conversations were not a representative survey, and the team did not present them as one. They did, however, reveal situations worth investigating. Some residents worked when the library was open. Others could reach the building but found the registration instructions difficult. A few did not know that membership was free. The common problem was not simply a shortage of books.\n[A3] Rather than abandon its collection plan, the library tried a limited change. For eight weeks, it opened two hours later on one evening and used a shorter registration form. Staff wrote down attendance by hour and invited anonymous comments. Evening visits increased. Several comments mentioned that the new time allowed people to come after work. The records did not show whether the same visitors had merely changed their visiting time, however, so the team could not calculate the number of entirely new users.\n[A4] The trial also had costs. Later opening required a different staff schedule, and an employee pointed out that a bus service ended before the building closed. Keeping the doors open was not enough if some residents could no longer travel home. The team therefore checked transport times before deciding on a permanent timetable. It also kept paper forms for residents who preferred not to register online.\n[A5] At the next budget meeting, the director described access and collection quality as connected goals, not competing slogans. Better books remained useful, but their value depended partly on whether people could actually use them. The team had not found a single solution for all residents. It had learned to ask whose difficulty a change addressed, what evidence supported it and what new difficulty it might create.",
+          "evidence": "A3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-24",
+          "type": "single",
+          "stem": "What does the transport example show?",
+          "options": [
+            "Library staff should set bus prices",
+            "One access improvement may leave another barrier unresolved",
+            "Longer hours always reduce attendance",
+            "Every resident travels by bus"
+          ],
+          "answer": 1,
+          "explanation": "A4 notes that doors staying open does not guarantee a journey home; not every resident or all attendance is discussed.",
+          "points": 2,
+          "passage": "[A1] A district library wanted more residents to use its collection. Its first proposal was to buy several thousand new books. That sounded sensible: a larger collection might offer something for everyone. Yet a librarian asked the team to examine a less visible problem. A person who could not reach the building during opening hours would gain little from an extra shelf of books.\n[A2] The team spoke with residents at a bus stop, a market and a workplace canteen. These conversations were not a representative survey, and the team did not present them as one. They did, however, reveal situations worth investigating. Some residents worked when the library was open. Others could reach the building but found the registration instructions difficult. A few did not know that membership was free. The common problem was not simply a shortage of books.\n[A3] Rather than abandon its collection plan, the library tried a limited change. For eight weeks, it opened two hours later on one evening and used a shorter registration form. Staff wrote down attendance by hour and invited anonymous comments. Evening visits increased. Several comments mentioned that the new time allowed people to come after work. The records did not show whether the same visitors had merely changed their visiting time, however, so the team could not calculate the number of entirely new users.\n[A4] The trial also had costs. Later opening required a different staff schedule, and an employee pointed out that a bus service ended before the building closed. Keeping the doors open was not enough if some residents could no longer travel home. The team therefore checked transport times before deciding on a permanent timetable. It also kept paper forms for residents who preferred not to register online.\n[A5] At the next budget meeting, the director described access and collection quality as connected goals, not competing slogans. Better books remained useful, but their value depended partly on whether people could actually use them. The team had not found a single solution for all residents. It had learned to ask whose difficulty a change addressed, what evidence supported it and what new difficulty it might create.",
+          "evidence": "A4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-25",
+          "type": "single",
+          "stem": "Which title best represents the article?",
+          "options": [
+            "Making a collection genuinely usable",
+            "Why libraries no longer need books",
+            "A proven timetable for every district",
+            "Replacing staff with registration software"
+          ],
+          "answer": 0,
+          "explanation": "A1–A5 connect resources with practical access; the article rejects a universal solution.",
+          "points": 2,
+          "passage": "[A1] A district library wanted more residents to use its collection. Its first proposal was to buy several thousand new books. That sounded sensible: a larger collection might offer something for everyone. Yet a librarian asked the team to examine a less visible problem. A person who could not reach the building during opening hours would gain little from an extra shelf of books.\n[A2] The team spoke with residents at a bus stop, a market and a workplace canteen. These conversations were not a representative survey, and the team did not present them as one. They did, however, reveal situations worth investigating. Some residents worked when the library was open. Others could reach the building but found the registration instructions difficult. A few did not know that membership was free. The common problem was not simply a shortage of books.\n[A3] Rather than abandon its collection plan, the library tried a limited change. For eight weeks, it opened two hours later on one evening and used a shorter registration form. Staff wrote down attendance by hour and invited anonymous comments. Evening visits increased. Several comments mentioned that the new time allowed people to come after work. The records did not show whether the same visitors had merely changed their visiting time, however, so the team could not calculate the number of entirely new users.\n[A4] The trial also had costs. Later opening required a different staff schedule, and an employee pointed out that a bus service ended before the building closed. Keeping the doors open was not enough if some residents could no longer travel home. The team therefore checked transport times before deciding on a permanent timetable. It also kept paper forms for residents who preferred not to register online.\n[A5] At the next budget meeting, the director described access and collection quality as connected goals, not competing slogans. Better books remained useful, but their value depended partly on whether people could actually use them. The team had not found a single solution for all residents. It had learned to ask whose difficulty a change addressed, what evidence supported it and what new difficulty it might create.",
+          "evidence": "A1–A5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-26",
+          "type": "single",
+          "stem": "What was wrong with the original Monday–Friday comparison?",
+          "options": [
+            "Both readings had to be identical",
+            "The square could not be measured",
+            "Only Friday temperatures were meaningful",
+            "Weather could differ as well as location"
+          ],
+          "answer": 3,
+          "explanation": "B2 identifies day-to-day weather as an alternative explanation.",
+          "points": 2,
+          "passage": "[B1] On a hot week, a group of students noticed that two routes to their college felt different. One crossed a large open square; the other passed several trees. They proposed that the second route might provide a more comfortable walk. Their teacher encouraged them to turn that impression into a question they could examine, while warning that a small class project could not establish a citywide rule.\n[B2] The students first planned to compare a measurement from the square on Monday with one from the tree-lined road on Friday. A classmate objected that weather might differ between the days. The group revised its plan: pairs of students would measure at both locations at nearly the same time, using the same kind of instrument. They also recorded whether a sensor was in shade. These decisions reduced some obvious differences between the measurements; they did not remove every source of uncertainty.\n[B3] Over four afternoons, readings under the trees were lower than those in the open square at the selected times. The group described exactly where and when it had measured. It avoided saying that trees would lower every person's heat exposure by the measured difference. A walk involves changing shade, wind, clothing and time outdoors. A point reading is useful information, but it is not a complete description of a person's experience.\n[B4] When the students asked classmates about their routes, they heard an unexpected concern. Some found the tree-lined road inconvenient because a crossing was far from the college gate. Others preferred the square because it was well lit after evening classes. The students began to understand that an environmental proposal could be attractive in one respect and difficult in another. Their final presentation included both the measurements and the comments, clearly labelling them as different kinds of evidence.\n[B5] The college did not immediately designate an official “best route”. Instead, it agreed to check the crossing and discuss lighting with local services. The class recommended repeating the measurements during another period before generalising. Its most valuable result was not a dramatic claim about temperature. It was a method: define the comparison, record the conditions, listen for overlooked needs and keep conclusions within what the evidence can support.",
+          "evidence": "B2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-27",
+          "type": "single",
+          "stem": "What did simultaneous measurement achieve?",
+          "options": [
+            "It measured each person’s total heat exposure",
+            "It proved which route every student should choose",
+            "It reduced some differences without eliminating all uncertainty",
+            "It removed every possible measurement error"
+          ],
+          "answer": 2,
+          "explanation": "B2 explicitly limits what the revised design accomplished.",
+          "points": 2,
+          "passage": "[B1] On a hot week, a group of students noticed that two routes to their college felt different. One crossed a large open square; the other passed several trees. They proposed that the second route might provide a more comfortable walk. Their teacher encouraged them to turn that impression into a question they could examine, while warning that a small class project could not establish a citywide rule.\n[B2] The students first planned to compare a measurement from the square on Monday with one from the tree-lined road on Friday. A classmate objected that weather might differ between the days. The group revised its plan: pairs of students would measure at both locations at nearly the same time, using the same kind of instrument. They also recorded whether a sensor was in shade. These decisions reduced some obvious differences between the measurements; they did not remove every source of uncertainty.\n[B3] Over four afternoons, readings under the trees were lower than those in the open square at the selected times. The group described exactly where and when it had measured. It avoided saying that trees would lower every person's heat exposure by the measured difference. A walk involves changing shade, wind, clothing and time outdoors. A point reading is useful information, but it is not a complete description of a person's experience.\n[B4] When the students asked classmates about their routes, they heard an unexpected concern. Some found the tree-lined road inconvenient because a crossing was far from the college gate. Others preferred the square because it was well lit after evening classes. The students began to understand that an environmental proposal could be attractive in one respect and difficult in another. Their final presentation included both the measurements and the comments, clearly labelling them as different kinds of evidence.\n[B5] The college did not immediately designate an official “best route”. Instead, it agreed to check the crossing and discuss lighting with local services. The class recommended repeating the measurements during another period before generalising. Its most valuable result was not a dramatic claim about temperature. It was a method: define the comparison, record the conditions, listen for overlooked needs and keep conclusions within what the evidence can support.",
+          "evidence": "B2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-28",
+          "type": "single",
+          "stem": "Why did the group avoid a claim about every person’s exposure?",
+          "options": [
+            "Comments were more accurate than all measurements",
+            "A fixed-point reading does not include all conditions during a walk",
+            "Their instruments could not show any number",
+            "All walkers wore identical clothing"
+          ],
+          "answer": 1,
+          "explanation": "B3 distinguishes a point reading from changing exposure conditions.",
+          "points": 2,
+          "passage": "[B1] On a hot week, a group of students noticed that two routes to their college felt different. One crossed a large open square; the other passed several trees. They proposed that the second route might provide a more comfortable walk. Their teacher encouraged them to turn that impression into a question they could examine, while warning that a small class project could not establish a citywide rule.\n[B2] The students first planned to compare a measurement from the square on Monday with one from the tree-lined road on Friday. A classmate objected that weather might differ between the days. The group revised its plan: pairs of students would measure at both locations at nearly the same time, using the same kind of instrument. They also recorded whether a sensor was in shade. These decisions reduced some obvious differences between the measurements; they did not remove every source of uncertainty.\n[B3] Over four afternoons, readings under the trees were lower than those in the open square at the selected times. The group described exactly where and when it had measured. It avoided saying that trees would lower every person's heat exposure by the measured difference. A walk involves changing shade, wind, clothing and time outdoors. A point reading is useful information, but it is not a complete description of a person's experience.\n[B4] When the students asked classmates about their routes, they heard an unexpected concern. Some found the tree-lined road inconvenient because a crossing was far from the college gate. Others preferred the square because it was well lit after evening classes. The students began to understand that an environmental proposal could be attractive in one respect and difficult in another. Their final presentation included both the measurements and the comments, clearly labelling them as different kinds of evidence.\n[B5] The college did not immediately designate an official “best route”. Instead, it agreed to check the crossing and discuss lighting with local services. The class recommended repeating the measurements during another period before generalising. Its most valuable result was not a dramatic claim about temperature. It was a method: define the comparison, record the conditions, listen for overlooked needs and keep conclusions within what the evidence can support.",
+          "evidence": "B3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-29",
+          "type": "single",
+          "stem": "The comments in B4 mainly broadened the project by adding concerns about",
+          "options": [
+            "convenience and evening safety",
+            "the purchase price of sensors",
+            "the students’ examination grades",
+            "the number of trees in every city"
+          ],
+          "answer": 0,
+          "explanation": "B4 mentions crossing distance and lighting, not the other proposed concerns.",
+          "points": 2,
+          "passage": "[B1] On a hot week, a group of students noticed that two routes to their college felt different. One crossed a large open square; the other passed several trees. They proposed that the second route might provide a more comfortable walk. Their teacher encouraged them to turn that impression into a question they could examine, while warning that a small class project could not establish a citywide rule.\n[B2] The students first planned to compare a measurement from the square on Monday with one from the tree-lined road on Friday. A classmate objected that weather might differ between the days. The group revised its plan: pairs of students would measure at both locations at nearly the same time, using the same kind of instrument. They also recorded whether a sensor was in shade. These decisions reduced some obvious differences between the measurements; they did not remove every source of uncertainty.\n[B3] Over four afternoons, readings under the trees were lower than those in the open square at the selected times. The group described exactly where and when it had measured. It avoided saying that trees would lower every person's heat exposure by the measured difference. A walk involves changing shade, wind, clothing and time outdoors. A point reading is useful information, but it is not a complete description of a person's experience.\n[B4] When the students asked classmates about their routes, they heard an unexpected concern. Some found the tree-lined road inconvenient because a crossing was far from the college gate. Others preferred the square because it was well lit after evening classes. The students began to understand that an environmental proposal could be attractive in one respect and difficult in another. Their final presentation included both the measurements and the comments, clearly labelling them as different kinds of evidence.\n[B5] The college did not immediately designate an official “best route”. Instead, it agreed to check the crossing and discuss lighting with local services. The class recommended repeating the measurements during another period before generalising. Its most valuable result was not a dramatic claim about temperature. It was a method: define the comparison, record the conditions, listen for overlooked needs and keep conclusions within what the evidence can support.",
+          "evidence": "B4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-30",
+          "type": "single",
+          "stem": "What attitude toward evidence does B5 recommend?",
+          "options": [
+            "A dramatic claim is always more valuable",
+            "One class project should replace local decisions",
+            "Repeated measurements are unnecessary",
+            "Conclusions should remain limited by the conditions studied"
+          ],
+          "answer": 3,
+          "explanation": "B5 recommends repetition and conclusions within evidence.",
+          "points": 2,
+          "passage": "[B1] On a hot week, a group of students noticed that two routes to their college felt different. One crossed a large open square; the other passed several trees. They proposed that the second route might provide a more comfortable walk. Their teacher encouraged them to turn that impression into a question they could examine, while warning that a small class project could not establish a citywide rule.\n[B2] The students first planned to compare a measurement from the square on Monday with one from the tree-lined road on Friday. A classmate objected that weather might differ between the days. The group revised its plan: pairs of students would measure at both locations at nearly the same time, using the same kind of instrument. They also recorded whether a sensor was in shade. These decisions reduced some obvious differences between the measurements; they did not remove every source of uncertainty.\n[B3] Over four afternoons, readings under the trees were lower than those in the open square at the selected times. The group described exactly where and when it had measured. It avoided saying that trees would lower every person's heat exposure by the measured difference. A walk involves changing shade, wind, clothing and time outdoors. A point reading is useful information, but it is not a complete description of a person's experience.\n[B4] When the students asked classmates about their routes, they heard an unexpected concern. Some found the tree-lined road inconvenient because a crossing was far from the college gate. Others preferred the square because it was well lit after evening classes. The students began to understand that an environmental proposal could be attractive in one respect and difficult in another. Their final presentation included both the measurements and the comments, clearly labelling them as different kinds of evidence.\n[B5] The college did not immediately designate an official “best route”. Instead, it agreed to check the crossing and discuss lighting with local services. The class recommended repeating the measurements during another period before generalising. Its most valuable result was not a dramatic claim about temperature. It was a method: define the comparison, record the conditions, listen for overlooked needs and keep conclusions within what the evidence can support.",
+          "evidence": "B5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-31",
+          "type": "single",
+          "stem": "What distinction does the editor make in C1?",
+          "options": [
+            "Customers never ask about orders",
+            "Staff cannot write fluent sentences",
+            "Fluency is not the same as factual correctness",
+            "A quick reply must be correct"
+          ],
+          "answer": 2,
+          "explanation": "C1 contrasts well-written wording with wrong order information.",
+          "points": 2,
+          "passage": "[C1] A small publishing office tested software that suggested replies to common customer questions. The manager hoped it would save staff time. During the first demonstration, the software produced fluent sentences almost immediately. Several employees were impressed. One editor, however, noted that a reply could be well written and still give the wrong information about a particular order.\n[C2] The office began with a narrow task. The tool could draft responses about opening hours and general delivery procedures, using a set of documents that staff had checked. It could not approve refunds, change an address or access private payment details. These restrictions made the trial less exciting to some observers, but the editor argued that a clear boundary was more useful than a vague promise of intelligence.\n[C3] Staff reviewed every proposed reply before sending it. They recorded the question category, whether a suggestion needed correction and the time spent on review. They did not enter customer names into the trial log. In one category, the software often repeated an outdated instruction. The team corrected the source document and tested the same kind of question again. Better wording alone would not have fixed the underlying information problem.\n[C4] At the end of the trial, simple questions usually took less time to answer, including review. Complex cases sometimes took longer because staff had to recognise what was missing and write a new response. The manager therefore reported results separately for the two categories. Combining all questions into one attractive average could have hidden a cost that mattered to the people doing the work. The trial also provided no evidence that similar software would perform equally well in a different organisation.\n[C5] The office kept the tool for its limited purpose. Training sessions taught employees how to question a suggestion rather than accept it because it sounded confident. The editor described the aim as informed assistance: a system should make a human task easier without concealing the reasons for human judgment. For the office, the decision to use software remained a decision about responsibilities, information quality and actual working conditions, not a contest to remove people from every step.",
+          "evidence": "C1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-32",
+          "type": "single",
+          "stem": "Which action was outside the trial’s permitted task?",
+          "options": [
+            "Using checked general documents",
+            "Approving a refund",
+            "Drafting general opening hours",
+            "Suggesting delivery information"
+          ],
+          "answer": 1,
+          "explanation": "C2 explicitly excludes approving refunds and permits the other tasks.",
+          "points": 2,
+          "passage": "[C1] A small publishing office tested software that suggested replies to common customer questions. The manager hoped it would save staff time. During the first demonstration, the software produced fluent sentences almost immediately. Several employees were impressed. One editor, however, noted that a reply could be well written and still give the wrong information about a particular order.\n[C2] The office began with a narrow task. The tool could draft responses about opening hours and general delivery procedures, using a set of documents that staff had checked. It could not approve refunds, change an address or access private payment details. These restrictions made the trial less exciting to some observers, but the editor argued that a clear boundary was more useful than a vague promise of intelligence.\n[C3] Staff reviewed every proposed reply before sending it. They recorded the question category, whether a suggestion needed correction and the time spent on review. They did not enter customer names into the trial log. In one category, the software often repeated an outdated instruction. The team corrected the source document and tested the same kind of question again. Better wording alone would not have fixed the underlying information problem.\n[C4] At the end of the trial, simple questions usually took less time to answer, including review. Complex cases sometimes took longer because staff had to recognise what was missing and write a new response. The manager therefore reported results separately for the two categories. Combining all questions into one attractive average could have hidden a cost that mattered to the people doing the work. The trial also provided no evidence that similar software would perform equally well in a different organisation.\n[C5] The office kept the tool for its limited purpose. Training sessions taught employees how to question a suggestion rather than accept it because it sounded confident. The editor described the aim as informed assistance: a system should make a human task easier without concealing the reasons for human judgment. For the office, the decision to use software remained a decision about responsibilities, information quality and actual working conditions, not a contest to remove people from every step.",
+          "evidence": "C2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-33",
+          "type": "single",
+          "stem": "Why was the source document corrected?",
+          "options": [
+            "An outdated instruction was causing inaccurate suggestions",
+            "The tool had disclosed every customer name",
+            "Review time had become exactly zero",
+            "The office wanted more confident wording only"
+          ],
+          "answer": 0,
+          "explanation": "C3 traces a recurring error to outdated information, not wording.",
+          "points": 2,
+          "passage": "[C1] A small publishing office tested software that suggested replies to common customer questions. The manager hoped it would save staff time. During the first demonstration, the software produced fluent sentences almost immediately. Several employees were impressed. One editor, however, noted that a reply could be well written and still give the wrong information about a particular order.\n[C2] The office began with a narrow task. The tool could draft responses about opening hours and general delivery procedures, using a set of documents that staff had checked. It could not approve refunds, change an address or access private payment details. These restrictions made the trial less exciting to some observers, but the editor argued that a clear boundary was more useful than a vague promise of intelligence.\n[C3] Staff reviewed every proposed reply before sending it. They recorded the question category, whether a suggestion needed correction and the time spent on review. They did not enter customer names into the trial log. In one category, the software often repeated an outdated instruction. The team corrected the source document and tested the same kind of question again. Better wording alone would not have fixed the underlying information problem.\n[C4] At the end of the trial, simple questions usually took less time to answer, including review. Complex cases sometimes took longer because staff had to recognise what was missing and write a new response. The manager therefore reported results separately for the two categories. Combining all questions into one attractive average could have hidden a cost that mattered to the people doing the work. The trial also provided no evidence that similar software would perform equally well in a different organisation.\n[C5] The office kept the tool for its limited purpose. Training sessions taught employees how to question a suggestion rather than accept it because it sounded confident. The editor described the aim as informed assistance: a system should make a human task easier without concealing the reasons for human judgment. For the office, the decision to use software remained a decision about responsibilities, information quality and actual working conditions, not a contest to remove people from every step.",
+          "evidence": "C3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-34",
+          "type": "single",
+          "stem": "Why were results reported separately?",
+          "options": [
+            "There were no simple questions",
+            "An overall average was legally forbidden",
+            "All questions required exactly the same time",
+            "The tool affected simple and complex work differently"
+          ],
+          "answer": 3,
+          "explanation": "C4 explains that one average could conceal complex-case costs.",
+          "points": 2,
+          "passage": "[C1] A small publishing office tested software that suggested replies to common customer questions. The manager hoped it would save staff time. During the first demonstration, the software produced fluent sentences almost immediately. Several employees were impressed. One editor, however, noted that a reply could be well written and still give the wrong information about a particular order.\n[C2] The office began with a narrow task. The tool could draft responses about opening hours and general delivery procedures, using a set of documents that staff had checked. It could not approve refunds, change an address or access private payment details. These restrictions made the trial less exciting to some observers, but the editor argued that a clear boundary was more useful than a vague promise of intelligence.\n[C3] Staff reviewed every proposed reply before sending it. They recorded the question category, whether a suggestion needed correction and the time spent on review. They did not enter customer names into the trial log. In one category, the software often repeated an outdated instruction. The team corrected the source document and tested the same kind of question again. Better wording alone would not have fixed the underlying information problem.\n[C4] At the end of the trial, simple questions usually took less time to answer, including review. Complex cases sometimes took longer because staff had to recognise what was missing and write a new response. The manager therefore reported results separately for the two categories. Combining all questions into one attractive average could have hidden a cost that mattered to the people doing the work. The trial also provided no evidence that similar software would perform equally well in a different organisation.\n[C5] The office kept the tool for its limited purpose. Training sessions taught employees how to question a suggestion rather than accept it because it sounded confident. The editor described the aim as informed assistance: a system should make a human task easier without concealing the reasons for human judgment. For the office, the decision to use software remained a decision about responsibilities, information quality and actual working conditions, not a contest to remove people from every step.",
+          "evidence": "C4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-35",
+          "type": "single",
+          "stem": "“Informed assistance” most nearly means",
+          "options": [
+            "removing every employee from the process",
+            "using software without clear limits",
+            "support that preserves responsible human judgment",
+            "automatic acceptance of confident suggestions"
+          ],
+          "answer": 2,
+          "explanation": "C5 defines support without hiding reasons for human judgment.",
+          "points": 2,
+          "passage": "[C1] A small publishing office tested software that suggested replies to common customer questions. The manager hoped it would save staff time. During the first demonstration, the software produced fluent sentences almost immediately. Several employees were impressed. One editor, however, noted that a reply could be well written and still give the wrong information about a particular order.\n[C2] The office began with a narrow task. The tool could draft responses about opening hours and general delivery procedures, using a set of documents that staff had checked. It could not approve refunds, change an address or access private payment details. These restrictions made the trial less exciting to some observers, but the editor argued that a clear boundary was more useful than a vague promise of intelligence.\n[C3] Staff reviewed every proposed reply before sending it. They recorded the question category, whether a suggestion needed correction and the time spent on review. They did not enter customer names into the trial log. In one category, the software often repeated an outdated instruction. The team corrected the source document and tested the same kind of question again. Better wording alone would not have fixed the underlying information problem.\n[C4] At the end of the trial, simple questions usually took less time to answer, including review. Complex cases sometimes took longer because staff had to recognise what was missing and write a new response. The manager therefore reported results separately for the two categories. Combining all questions into one attractive average could have hidden a cost that mattered to the people doing the work. The trial also provided no evidence that similar software would perform equally well in a different organisation.\n[C5] The office kept the tool for its limited purpose. Training sessions taught employees how to question a suggestion rather than accept it because it sounded confident. The editor described the aim as informed assistance: a system should make a human task easier without concealing the reasons for human judgment. For the office, the decision to use software remained a decision about responsibilities, information quality and actual working conditions, not a contest to remove people from every step.",
+          "evidence": "C5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-36",
+          "type": "single",
+          "stem": "How did the new project differ from previous exhibitions?",
+          "options": [
+            "Only expensive paintings were included",
+            "Students helped before the labels were finalised",
+            "The museum stopped displaying objects",
+            "Curators accepted every story as fact"
+          ],
+          "answer": 1,
+          "explanation": "D1 says students were involved earlier rather than invited after selection and labelling.",
+          "points": 2,
+          "passage": "[D1] A local museum invited a school class to help design an exhibition about everyday life. In previous years, curators had selected objects and written labels before asking students to visit. This time, students were involved earlier. They brought photographs of ordinary items and explained why those items mattered to their families. A cooking pot and a bus ticket led to conversations that an expensive painting might not have started.\n[D2] The curators did not accept every proposed story as established history. They asked students to distinguish what a family member remembered from what a dated document could show. Memory could offer a valuable perspective, but the date of an event sometimes needed another source. The aim was not to embarrass families for remembering differently. It was to make the relationship between a claim and its evidence visible.\n[D3] One group wanted to label a tool as “used in every home”. The students had found it in three households, all connected to the same workplace. After discussing the sample, they replaced the phrase with a narrower description. The new label was less dramatic, but it said more accurately what they knew. Another group disagreed about the meaning of a photograph. Instead of forcing a single confident explanation, the exhibition presented two interpretations and explained why the available evidence did not settle the question.\n[D4] Practical decisions mattered as well. Labels had to be readable from a reasonable distance. Audio descriptions were offered, but printed versions remained available. Some students enjoyed recording their voices; others preferred checking dates or arranging images. The teacher did not treat one kind of contribution as the only sign of learning. Different tasks could develop different skills, and students were asked to describe what they had learned rather than simply count the objects they had handled.\n[D5] After the exhibition opened, visitors added comments about what was clear and what was confusing. The students revised several labels. For the teacher, this was not a sign that the first version had been worthless. It showed that public work could improve through attention to its audience. The project did not turn every student into a historian, but it gave the class practice in asking questions, checking support and communicating uncertainty without giving up the attempt to explain.",
+          "evidence": "D1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-37",
+          "type": "single",
+          "stem": "What role did memories play in D2?",
+          "options": [
+            "They offered perspectives while some factual claims needed other evidence",
+            "They were always rejected as useless",
+            "They automatically proved every date",
+            "They replaced all dated documents"
+          ],
+          "answer": 0,
+          "explanation": "D2 values memory but separates it from evidence for dates.",
+          "points": 2,
+          "passage": "[D1] A local museum invited a school class to help design an exhibition about everyday life. In previous years, curators had selected objects and written labels before asking students to visit. This time, students were involved earlier. They brought photographs of ordinary items and explained why those items mattered to their families. A cooking pot and a bus ticket led to conversations that an expensive painting might not have started.\n[D2] The curators did not accept every proposed story as established history. They asked students to distinguish what a family member remembered from what a dated document could show. Memory could offer a valuable perspective, but the date of an event sometimes needed another source. The aim was not to embarrass families for remembering differently. It was to make the relationship between a claim and its evidence visible.\n[D3] One group wanted to label a tool as “used in every home”. The students had found it in three households, all connected to the same workplace. After discussing the sample, they replaced the phrase with a narrower description. The new label was less dramatic, but it said more accurately what they knew. Another group disagreed about the meaning of a photograph. Instead of forcing a single confident explanation, the exhibition presented two interpretations and explained why the available evidence did not settle the question.\n[D4] Practical decisions mattered as well. Labels had to be readable from a reasonable distance. Audio descriptions were offered, but printed versions remained available. Some students enjoyed recording their voices; others preferred checking dates or arranging images. The teacher did not treat one kind of contribution as the only sign of learning. Different tasks could develop different skills, and students were asked to describe what they had learned rather than simply count the objects they had handled.\n[D5] After the exhibition opened, visitors added comments about what was clear and what was confusing. The students revised several labels. For the teacher, this was not a sign that the first version had been worthless. It showed that public work could improve through attention to its audience. The project did not turn every student into a historian, but it gave the class practice in asking questions, checking support and communicating uncertainty without giving up the attempt to explain.",
+          "evidence": "D2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-38",
+          "type": "single",
+          "stem": "Why was “used in every home” changed?",
+          "options": [
+            "The tool was proved never to have existed",
+            "A dramatic label was always illegal",
+            "Visitors had not paid enough",
+            "Three connected households did not justify a universal claim"
+          ],
+          "answer": 3,
+          "explanation": "D3 identifies a small, connected sample and narrows the claim.",
+          "points": 2,
+          "passage": "[D1] A local museum invited a school class to help design an exhibition about everyday life. In previous years, curators had selected objects and written labels before asking students to visit. This time, students were involved earlier. They brought photographs of ordinary items and explained why those items mattered to their families. A cooking pot and a bus ticket led to conversations that an expensive painting might not have started.\n[D2] The curators did not accept every proposed story as established history. They asked students to distinguish what a family member remembered from what a dated document could show. Memory could offer a valuable perspective, but the date of an event sometimes needed another source. The aim was not to embarrass families for remembering differently. It was to make the relationship between a claim and its evidence visible.\n[D3] One group wanted to label a tool as “used in every home”. The students had found it in three households, all connected to the same workplace. After discussing the sample, they replaced the phrase with a narrower description. The new label was less dramatic, but it said more accurately what they knew. Another group disagreed about the meaning of a photograph. Instead of forcing a single confident explanation, the exhibition presented two interpretations and explained why the available evidence did not settle the question.\n[D4] Practical decisions mattered as well. Labels had to be readable from a reasonable distance. Audio descriptions were offered, but printed versions remained available. Some students enjoyed recording their voices; others preferred checking dates or arranging images. The teacher did not treat one kind of contribution as the only sign of learning. Different tasks could develop different skills, and students were asked to describe what they had learned rather than simply count the objects they had handled.\n[D5] After the exhibition opened, visitors added comments about what was clear and what was confusing. The students revised several labels. For the teacher, this was not a sign that the first version had been worthless. It showed that public work could improve through attention to its audience. The project did not turn every student into a historian, but it gave the class practice in asking questions, checking support and communicating uncertainty without giving up the attempt to explain.",
+          "evidence": "D3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-39",
+          "type": "single",
+          "stem": "Why were printed descriptions retained?",
+          "options": [
+            "No student enjoyed recording",
+            "The museum wanted visitors to avoid information",
+            "Audio was an additional route, not a replacement suitable for everyone",
+            "All recordings contained false dates"
+          ],
+          "answer": 2,
+          "explanation": "D4 offers audio while retaining print, supporting multiple routes.",
+          "points": 2,
+          "passage": "[D1] A local museum invited a school class to help design an exhibition about everyday life. In previous years, curators had selected objects and written labels before asking students to visit. This time, students were involved earlier. They brought photographs of ordinary items and explained why those items mattered to their families. A cooking pot and a bus ticket led to conversations that an expensive painting might not have started.\n[D2] The curators did not accept every proposed story as established history. They asked students to distinguish what a family member remembered from what a dated document could show. Memory could offer a valuable perspective, but the date of an event sometimes needed another source. The aim was not to embarrass families for remembering differently. It was to make the relationship between a claim and its evidence visible.\n[D3] One group wanted to label a tool as “used in every home”. The students had found it in three households, all connected to the same workplace. After discussing the sample, they replaced the phrase with a narrower description. The new label was less dramatic, but it said more accurately what they knew. Another group disagreed about the meaning of a photograph. Instead of forcing a single confident explanation, the exhibition presented two interpretations and explained why the available evidence did not settle the question.\n[D4] Practical decisions mattered as well. Labels had to be readable from a reasonable distance. Audio descriptions were offered, but printed versions remained available. Some students enjoyed recording their voices; others preferred checking dates or arranging images. The teacher did not treat one kind of contribution as the only sign of learning. Different tasks could develop different skills, and students were asked to describe what they had learned rather than simply count the objects they had handled.\n[D5] After the exhibition opened, visitors added comments about what was clear and what was confusing. The students revised several labels. For the teacher, this was not a sign that the first version had been worthless. It showed that public work could improve through attention to its audience. The project did not turn every student into a historian, but it gave the class practice in asking questions, checking support and communicating uncertainty without giving up the attempt to explain.",
+          "evidence": "D4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-40",
+          "type": "single",
+          "stem": "How does the teacher interpret later revisions?",
+          "options": [
+            "As evidence that every student was now a historian",
+            "As an opportunity to improve communication with an audience",
+            "As proof the entire first project was worthless",
+            "As a reason never to explain uncertainty"
+          ],
+          "answer": 1,
+          "explanation": "D5 explicitly rejects the worthless interpretation and stresses audience feedback.",
+          "points": 2,
+          "passage": "[D1] A local museum invited a school class to help design an exhibition about everyday life. In previous years, curators had selected objects and written labels before asking students to visit. This time, students were involved earlier. They brought photographs of ordinary items and explained why those items mattered to their families. A cooking pot and a bus ticket led to conversations that an expensive painting might not have started.\n[D2] The curators did not accept every proposed story as established history. They asked students to distinguish what a family member remembered from what a dated document could show. Memory could offer a valuable perspective, but the date of an event sometimes needed another source. The aim was not to embarrass families for remembering differently. It was to make the relationship between a claim and its evidence visible.\n[D3] One group wanted to label a tool as “used in every home”. The students had found it in three households, all connected to the same workplace. After discussing the sample, they replaced the phrase with a narrower description. The new label was less dramatic, but it said more accurately what they knew. Another group disagreed about the meaning of a photograph. Instead of forcing a single confident explanation, the exhibition presented two interpretations and explained why the available evidence did not settle the question.\n[D4] Practical decisions mattered as well. Labels had to be readable from a reasonable distance. Audio descriptions were offered, but printed versions remained available. Some students enjoyed recording their voices; others preferred checking dates or arranging images. The teacher did not treat one kind of contribution as the only sign of learning. Different tasks could develop different skills, and students were asked to describe what they had learned rather than simply count the objects they had handled.\n[D5] After the exhibition opened, visitors added comments about what was clear and what was confusing. The students revised several labels. For the teacher, this was not a sign that the first version had been worthless. It showed that public work could improve through attention to its audience. The project did not turn every student into a historian, but it gave the class practice in asking questions, checking support and communicating uncertainty without giving up the attempt to explain.",
+          "evidence": "D5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        }
+      ]
+    },
+    {
+      "id": "matching",
+      "title": "第二部分B：段落标题匹配（原创）",
+      "points": 10,
+      "questions": [
+        {
+          "id": "en-paper01-41",
+          "type": "single",
+          "stem": "为段落H1选择最恰当标题。每题独立选择；两项多余。",
+          "options": [
+            "Guaranteeing the same result everywhere",
+            "Replacing evidence with confidence",
+            "Setting a precise goal",
+            "Keeping comparison conditions visible",
+            "Separating observation from explanation",
+            "Including people who face barriers",
+            "Revising after feedback"
+          ],
+          "answer": 2,
+          "explanation": "H1的中心依次为明确目标、比较条件、观察与解释、覆盖障碍人群和反馈修订。不能选择无条件保证或用信心代替证据。",
+          "points": 2,
+          "passage": "[H1] Before starting a community project, the team wrote down one change it hoped to make: residents should find it easier to obtain information about a local service. This was more useful than the broad instruction to “do something good”. It helped the team decide which activities belonged in the project and what questions to ask later.\n[H2] The team wanted to compare two versions of a notice. It kept the service details and distribution locations the same, and changed only the organisation of the text. It recorded when each version was displayed. Differences outside the design could still affect the result, so the record of conditions remained part of the report.\n[H3] More enquiries followed the second notice, but the team did not immediately claim that layout was the cause. A local event had also taken place that week. The team reported the increase as an observation and listed more than one possible explanation, rather than allowing a preferred story to stand in for a test.\n[H4] Online responses were easy to collect, yet they excluded some residents who did not use the website. Volunteers therefore offered a paper response route and spoke with a local support group. The additional work did not make the sample perfect, but it made one previously overlooked access problem visible.\n[H5] Several residents found an instruction unclear. The team rewrote it and asked new readers to explain what they thought it meant. A revised notice was not presented as a universal final answer. It was another version that could be examined and improved when circumstances or needs changed.",
+          "evidence": "H1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-42",
+          "type": "single",
+          "stem": "为段落H2选择最恰当标题。每题独立选择；两项多余。",
+          "options": [
+            "Replacing evidence with confidence",
+            "Setting a precise goal",
+            "Keeping comparison conditions visible",
+            "Separating observation from explanation",
+            "Including people who face barriers",
+            "Revising after feedback",
+            "Guaranteeing the same result everywhere"
+          ],
+          "answer": 2,
+          "explanation": "H2的中心依次为明确目标、比较条件、观察与解释、覆盖障碍人群和反馈修订。不能选择无条件保证或用信心代替证据。",
+          "points": 2,
+          "passage": "[H1] Before starting a community project, the team wrote down one change it hoped to make: residents should find it easier to obtain information about a local service. This was more useful than the broad instruction to “do something good”. It helped the team decide which activities belonged in the project and what questions to ask later.\n[H2] The team wanted to compare two versions of a notice. It kept the service details and distribution locations the same, and changed only the organisation of the text. It recorded when each version was displayed. Differences outside the design could still affect the result, so the record of conditions remained part of the report.\n[H3] More enquiries followed the second notice, but the team did not immediately claim that layout was the cause. A local event had also taken place that week. The team reported the increase as an observation and listed more than one possible explanation, rather than allowing a preferred story to stand in for a test.\n[H4] Online responses were easy to collect, yet they excluded some residents who did not use the website. Volunteers therefore offered a paper response route and spoke with a local support group. The additional work did not make the sample perfect, but it made one previously overlooked access problem visible.\n[H5] Several residents found an instruction unclear. The team rewrote it and asked new readers to explain what they thought it meant. A revised notice was not presented as a universal final answer. It was another version that could be examined and improved when circumstances or needs changed.",
+          "evidence": "H2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-43",
+          "type": "single",
+          "stem": "为段落H3选择最恰当标题。每题独立选择；两项多余。",
+          "options": [
+            "Setting a precise goal",
+            "Keeping comparison conditions visible",
+            "Separating observation from explanation",
+            "Including people who face barriers",
+            "Revising after feedback",
+            "Guaranteeing the same result everywhere",
+            "Replacing evidence with confidence"
+          ],
+          "answer": 2,
+          "explanation": "H3的中心依次为明确目标、比较条件、观察与解释、覆盖障碍人群和反馈修订。不能选择无条件保证或用信心代替证据。",
+          "points": 2,
+          "passage": "[H1] Before starting a community project, the team wrote down one change it hoped to make: residents should find it easier to obtain information about a local service. This was more useful than the broad instruction to “do something good”. It helped the team decide which activities belonged in the project and what questions to ask later.\n[H2] The team wanted to compare two versions of a notice. It kept the service details and distribution locations the same, and changed only the organisation of the text. It recorded when each version was displayed. Differences outside the design could still affect the result, so the record of conditions remained part of the report.\n[H3] More enquiries followed the second notice, but the team did not immediately claim that layout was the cause. A local event had also taken place that week. The team reported the increase as an observation and listed more than one possible explanation, rather than allowing a preferred story to stand in for a test.\n[H4] Online responses were easy to collect, yet they excluded some residents who did not use the website. Volunteers therefore offered a paper response route and spoke with a local support group. The additional work did not make the sample perfect, but it made one previously overlooked access problem visible.\n[H5] Several residents found an instruction unclear. The team rewrote it and asked new readers to explain what they thought it meant. A revised notice was not presented as a universal final answer. It was another version that could be examined and improved when circumstances or needs changed.",
+          "evidence": "H3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-44",
+          "type": "single",
+          "stem": "为段落H4选择最恰当标题。每题独立选择；两项多余。",
+          "options": [
+            "Keeping comparison conditions visible",
+            "Separating observation from explanation",
+            "Including people who face barriers",
+            "Revising after feedback",
+            "Guaranteeing the same result everywhere",
+            "Replacing evidence with confidence",
+            "Setting a precise goal"
+          ],
+          "answer": 2,
+          "explanation": "H4的中心依次为明确目标、比较条件、观察与解释、覆盖障碍人群和反馈修订。不能选择无条件保证或用信心代替证据。",
+          "points": 2,
+          "passage": "[H1] Before starting a community project, the team wrote down one change it hoped to make: residents should find it easier to obtain information about a local service. This was more useful than the broad instruction to “do something good”. It helped the team decide which activities belonged in the project and what questions to ask later.\n[H2] The team wanted to compare two versions of a notice. It kept the service details and distribution locations the same, and changed only the organisation of the text. It recorded when each version was displayed. Differences outside the design could still affect the result, so the record of conditions remained part of the report.\n[H3] More enquiries followed the second notice, but the team did not immediately claim that layout was the cause. A local event had also taken place that week. The team reported the increase as an observation and listed more than one possible explanation, rather than allowing a preferred story to stand in for a test.\n[H4] Online responses were easy to collect, yet they excluded some residents who did not use the website. Volunteers therefore offered a paper response route and spoke with a local support group. The additional work did not make the sample perfect, but it made one previously overlooked access problem visible.\n[H5] Several residents found an instruction unclear. The team rewrote it and asked new readers to explain what they thought it meant. A revised notice was not presented as a universal final answer. It was another version that could be examined and improved when circumstances or needs changed.",
+          "evidence": "H4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        },
+        {
+          "id": "en-paper01-45",
+          "type": "single",
+          "stem": "为段落H5选择最恰当标题。每题独立选择；两项多余。",
+          "options": [
+            "Separating observation from explanation",
+            "Including people who face barriers",
+            "Revising after feedback",
+            "Guaranteeing the same result everywhere",
+            "Replacing evidence with confidence",
+            "Setting a precise goal",
+            "Keeping comparison conditions visible"
+          ],
+          "answer": 2,
+          "explanation": "H5的中心依次为明确目标、比较条件、观察与解释、覆盖障碍人群和反馈修订。不能选择无条件保证或用信心代替证据。",
+          "points": 2,
+          "passage": "[H1] Before starting a community project, the team wrote down one change it hoped to make: residents should find it easier to obtain information about a local service. This was more useful than the broad instruction to “do something good”. It helped the team decide which activities belonged in the project and what questions to ask later.\n[H2] The team wanted to compare two versions of a notice. It kept the service details and distribution locations the same, and changed only the organisation of the text. It recorded when each version was displayed. Differences outside the design could still affect the result, so the record of conditions remained part of the report.\n[H3] More enquiries followed the second notice, but the team did not immediately claim that layout was the cause. A local event had also taken place that week. The team reported the increase as an observation and listed more than one possible explanation, rather than allowing a preferred story to stand in for a test.\n[H4] Online responses were easy to collect, yet they excluded some residents who did not use the website. Volunteers therefore offered a paper response route and spoke with a local support group. The additional work did not make the sample perfect, but it made one previously overlooked access problem visible.\n[H5] Several residents found an instruction unclear. The team rewrote it and asked new readers to explain what they thought it meant. A revised notice was not presented as a universal final answer. It was another version that could be examined and improved when circumstances or needs changed.",
+          "evidence": "H5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "errorFeedback": "回原文核对人物、时间、数量和限定词；不能用常识替代句证据。"
+        }
+      ]
+    },
+    {
+      "id": "translation",
+      "title": "第二部分C：五句英译汉（原创）",
+      "points": 10,
+      "questions": [
+        {
+          "id": "en-paper01-46",
+          "type": "subjective",
+          "stem": "将T1译成通顺、忠实的中文。",
+          "answer": "有用的解释不仅重复一个数字，还告诉读者测量了什么以及是在什么条件下测量的。",
+          "rubric": [
+            "does not merely...还包括后半句",
+            "what was measured为被动含义",
+            "under which conditions为测量条件"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：does not merely...还包括后半句；what was measured为被动含义；under which conditions为测量条件。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 2,
+          "passage": "[T1] A useful explanation does not merely repeat a number; it tells readers what was measured and under which conditions.\n[T2] People who cannot attend a meeting may still have information that the organisers need to hear.\n[T3] Although a shorter form can reduce the effort required to register, it does not remove every barrier to using a service.\n[T4] When two groups are compared, differences that existed before the project began must not be ignored.\n[T5] The purpose of reporting uncertainty is not to avoid a decision, but to make clear what that decision can and cannot rely on.",
+          "evidence": "T1",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        },
+        {
+          "id": "en-paper01-47",
+          "type": "subjective",
+          "stem": "将T2译成通顺、忠实的中文。",
+          "answer": "不能参加会议的人，仍可能掌握组织者需要听到的信息。",
+          "rubric": [
+            "who修饰people",
+            "may still保留可能性",
+            "that修饰information而非people"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：who修饰people；may still保留可能性；that修饰information而非people。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 2,
+          "passage": "[T1] A useful explanation does not merely repeat a number; it tells readers what was measured and under which conditions.\n[T2] People who cannot attend a meeting may still have information that the organisers need to hear.\n[T3] Although a shorter form can reduce the effort required to register, it does not remove every barrier to using a service.\n[T4] When two groups are compared, differences that existed before the project began must not be ignored.\n[T5] The purpose of reporting uncertainty is not to avoid a decision, but to make clear what that decision can and cannot rely on.",
+          "evidence": "T2",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        },
+        {
+          "id": "en-paper01-48",
+          "type": "subjective",
+          "stem": "将T3译成通顺、忠实的中文。",
+          "answer": "虽然较短的表格可以减少注册所需的精力，但它并不能消除使用服务的所有障碍。",
+          "rubric": [
+            "Although让步",
+            "required to register修饰effort",
+            "not every不是一个也没有"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：Although让步；required to register修饰effort；not every不是一个也没有。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 2,
+          "passage": "[T1] A useful explanation does not merely repeat a number; it tells readers what was measured and under which conditions.\n[T2] People who cannot attend a meeting may still have information that the organisers need to hear.\n[T3] Although a shorter form can reduce the effort required to register, it does not remove every barrier to using a service.\n[T4] When two groups are compared, differences that existed before the project began must not be ignored.\n[T5] The purpose of reporting uncertainty is not to avoid a decision, but to make clear what that decision can and cannot rely on.",
+          "evidence": "T3",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        },
+        {
+          "id": "en-paper01-49",
+          "type": "subjective",
+          "stem": "将T4译成通顺、忠实的中文。",
+          "answer": "比较两个群体时，不得忽略项目开始之前已经存在的差异。",
+          "rubric": [
+            "When为比较情境",
+            "before项目开始前",
+            "must not为不得，不是没有必要"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：When为比较情境；before项目开始前；must not为不得，不是没有必要。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 2,
+          "passage": "[T1] A useful explanation does not merely repeat a number; it tells readers what was measured and under which conditions.\n[T2] People who cannot attend a meeting may still have information that the organisers need to hear.\n[T3] Although a shorter form can reduce the effort required to register, it does not remove every barrier to using a service.\n[T4] When two groups are compared, differences that existed before the project began must not be ignored.\n[T5] The purpose of reporting uncertainty is not to avoid a decision, but to make clear what that decision can and cannot rely on.",
+          "evidence": "T4",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        },
+        {
+          "id": "en-paper01-50",
+          "type": "subjective",
+          "stem": "将T5译成通顺、忠实的中文。",
+          "answer": "报告不确定性的目的不是回避决策，而是明确该决策能够和不能够依靠哪些依据。",
+          "rubric": [
+            "not...but...目的对照",
+            "make clear说明白",
+            "can and cannot两方面都保留"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：not...but...目的对照；make clear说明白；can and cannot两方面都保留。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 2,
+          "passage": "[T1] A useful explanation does not merely repeat a number; it tells readers what was measured and under which conditions.\n[T2] People who cannot attend a meeting may still have information that the organisers need to hear.\n[T3] Although a shorter form can reduce the effort required to register, it does not remove every barrier to using a service.\n[T4] When two groups are compared, differences that existed before the project began must not be ignored.\n[T5] The purpose of reporting uncertainty is not to avoid a decision, but to make clear what that decision can and cannot rely on.",
+          "evidence": "T5",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title": "第三部分：原创应用文与图表短文",
+      "points": 30,
+      "questions": [
+        {
+          "id": "en-paper01-51",
+          "type": "subjective",
+          "stem": "小作文：以Li Ming署名给虚构阅读俱乐部负责人写约100词英文邮件，说明想做志愿者、可用时间和能提供的帮助，并提出两个与安排有关的问题。不要编造个人地址。",
+          "answer": "Dear Coordinator,\nI would like to help with the reading club next month. I am available on Saturday afternoons, and I can help new members find suitable books. I can also prepare simple notes for the discussion, although I have not led a large group before. Could you tell me how long each meeting lasts and whether volunteers receive any preparation? If training is offered, I would be glad to attend it before my first session. Thank you for considering my offer. I look forward to hearing from you.\nYours sincerely,\nLi Ming",
+          "rubric": [
+            "完成申请志愿者的交际任务，说明时间与具体帮助",
+            "提出两个相关安排问题；允许不同于参考答案的合理问题",
+            "邮件称呼、结尾及语气得体",
+            "语言基本可理解；语法小错不应抹除已完成的任务，按实际表达人工判断"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：完成申请志愿者的交际任务，说明时间与具体帮助；提出两个相关安排问题；允许不同于参考答案的合理问题；邮件称呼、结尾及语气得体；语言基本可理解；语法小错不应抹除已完成的任务，按实际表达人工判断。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 10,
+          "passage": "虚构任务：社区阅读俱乐部招募志愿者。以上是全部给定信息。",
+          "evidence": "Writing task instructions",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        },
+        {
+          "id": "en-paper01-52",
+          "type": "subjective",
+          "stem": "大作文：用约160–200词英文概述虚构图表并讨论服务决策。图表：每周网络咨询40→70、电话50→35、服务台30→32。须区分观察与因果推断，提出一条合理建议；不得编造调查结论。",
+          "answer": "The chart shows a change in the ways members contacted a fictional community centre. Online enquiries rose from 40 to 70 per week, while telephone enquiries fell from 50 to 35. Visits to the desk changed only slightly, from 30 to 32. These figures describe the recorded contacts; they do not tell us how many different people used each route.\nOne possible explanation is that the centre made its website easier to use. However, the chart alone cannot establish this cause. Opening hours, publicity and changes in the people seeking help may also matter. It would therefore be unwise to close the telephone service simply because its recorded use declined. Some residents may depend on it even when the online total is higher.\nThe centre could ask users what difficulties they experience and compare the quality of responses across routes. A sensible decision would combine the counts with evidence about access and service needs. Progress should mean making useful help easier to obtain, not merely moving more activity onto a screen.",
+          "rubric": [
+            "准确概述三个渠道的变化，不把咨询次数当独立人数",
+            "解释至少一种可能原因，同时声明图表不能单独证明因果",
+            "提出有理由的服务建议；允许与参考不同的合理方案",
+            "结构连贯、语言清楚；不以关键词出现次数自动计分"
+          ],
+          "explanation": "按题干交际任务或句法含义逐项核对：准确概述三个渠道的变化，不把咨询次数当独立人数；解释至少一种可能原因，同时声明图表不能单独证明因果；提出有理由的服务建议；允许与参考不同的合理方案；结构连贯、语言清楚；不以关键词出现次数自动计分。参考文本只是一种可接受表达，不要求逐字一致。",
+          "points": 20,
+          "passage": "虚构图表：第一期/第二期每周咨询次数。网络40/70，电话50/35，服务台30/32。无误差条、独立用户数或干预分配资料。",
+          "evidence": "Writing chart and instructions",
+          "difficulty": "application",
+          "sourceRefs": [
+            "bc-reading-b1"
+          ],
+          "acceptedAnswerBoundary": "允许意思准确的同义表达；不得要求与参考答案逐字一致。主观题仅提供评分参考和自评，不自动生成专业得分。",
+          "errorFeedback": "检查是否漏掉转折、条件、范围或交际任务；记录待核对点，不把关键词数量当分数。"
+        }
+      ]
+    }
+  ]
+}

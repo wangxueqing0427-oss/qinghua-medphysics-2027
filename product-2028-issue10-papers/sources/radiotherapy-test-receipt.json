@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "all5IDs in baseline261",
+    "no previous nuclear/IHR/global items repeated",
+    "original snapshots andSHA256",
+    "261-5=256queue",
+    "partial/expert0 flags retained"
+  ],
+  "scientificExpertReview": false,
+  "newAnchors": 5,
+  "remaining": 256
+}

@@ -1,0 +1,74 @@
+name: Independent original composite papers
+on:
+  push:
+    branches: [candidate/2026-11-16-issue10-q0-content-fix]
+    paths: [product-2028-issue10-papers/**, product-2028-integration-47-upgraded/build.cjs, .github/workflows/2028-issue10-papers.yml]
+permissions:
+  contents: read
+jobs:
+  functional:
+    name: Actual papers functional tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      PW_MODULE: ../product-2028-ci/node_modules/playwright
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - run: node product-2028-issue10-papers/verify.cjs
+      - run: node --test product-2028-issue10-papers/test.cjs
+      - name: Chromium all125items, new lessons and backup/offline
+        run: BROWSER=chromium node product-2028-issue10-papers/browser.cjs
+      - name: Mobile WebKit all125items, new lessons and backup/offline
+        run: BROWSER=webkit node product-2028-issue10-papers/browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: papers-functional-${{ github.sha }}
+          path: |
+            product-2028-issue10-papers/browser-*.json
+            product-2028-issue10-papers/failure-*.png
+            product-2028-issue10-papers/build-receipt.json
+          retention-days: 7
+  real_soak:
+    name: Real ten minute wall clock session
+    needs: functional
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
+      options: --init --shm-size=1g
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      PW_MODULE: ../product-2028-ci/node_modules/playwright
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - working-directory: product-2028-ci
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: No clock acceleration, autosave and repeated tab-close recovery
+        run: SOAK_MINUTES=10 node product-2028-issue10-papers/soak.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: papers-real-soak-${{ github.sha }}
+          path: product-2028-issue10-papers/soak-*.json
+          retention-days: 7
+  verify:
+    name: Verify PAPER candidate
+    needs: [functional, real_soak]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Functional and actual wall-clock gates passed; not physical iPhone or180minute endurance acceptance.'

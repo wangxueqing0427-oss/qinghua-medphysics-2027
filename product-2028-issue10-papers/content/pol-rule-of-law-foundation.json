@@ -1,0 +1,329 @@
+{
+  "id": "pol-rule-of-law-foundation",
+  "version": "0.1",
+  "subject": "pol",
+  "title": "法治入门：权利、义务与依法表达",
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "authorship": "原创教学、示例及题目；不冒充真题或官方评分",
+  "writtenAt": "2026-11-16",
+  "applicableYear": 2028,
+  "scopeStatus": "teaching-supplement-exam-spec-pending",
+  "mapping": [
+    "pol-plan-4"
+  ],
+  "prerequisites": [],
+  "prerequisiteExplanation": "本课从术语讲起，不要求已学哲学或专业法律。",
+  "sources": [
+    "https://www.sara.gov.cn/static/content/xxgk/flfg/2018-03-22/1306305917016342528.html"
+  ],
+  "explanation": "先把三个词分清：权利是宪法和法律确认并保障人能够享有或实施的利益与自由；义务是依法应履行的责任；法治不是“谁嗓门大谁说了算”，而要求国家治理和社会活动受到宪法法律约束。初学者先学会问“谁、什么事项、依据哪条、有什么条件”，不要把愿望直接写成法律结论。我国宪法是根本法，具有最高法律效力；第5条规定依法治国，并要求相关法律法规不得同宪法抵触。例：某人称职位高便可任意不受法律约束，这不符合不得有超越宪法法律特权的要求。此例只训练基本原则，不替代法院或其他有权机关的个案判断。\n\n权利与义务不是随意交换。宪法第33条同时确认公民享有规定权利、应履行规定义务。不能说“我有权利，所以所有义务都消失”，也不能说“只要求义务，不保护合法权利”。有的事项具有双重属性：第42条规定劳动的权利和义务，第46条规定受教育的权利和义务。不是每项权利都自动变成每个人必须做同一件事，具体义务仍要看法律规定。例：小安可以依法主张受教育权，同时不能据“权利”两个字概括取消法定教育义务；成年人选择何种继续教育的个案不能仅由这句话决定。\n\n权利应受保障，行使也有边界。第51条要求行使自由和权利时不得损害相关公共利益和其他公民合法自由权利。边界不等于可以随意取消权利；同样，享有权利也不等于任何手段都合法。例：对公共服务提出批评与捏造事实陷害别人不是同一回事。应先核对表达内容、事实、对象、行为方式及适用法律，而非仅凭“我有自由”或“他让我不舒服”就定性。课堂不提供案件处置意见，也不把某个假想情境直接判为犯罪。\n\n监督与依法履责可以相互促进。第41条保障对国家机关和工作人员提出批评建议，以及依法就违法失职向有关机关提出相关申诉控告检举；同时禁止捏造歪曲事实进行诬告陷害，要求有关机关查清事实、负责处理，不得压制打击报复。第53条列明遵守宪法法律、爱护公共财产、遵守公共秩序等义务。遇到服务问题，可保存真实材料、理清事实与推测、向有关渠道依法反映；不能靠编造细节“增强说服力”。答题以“确认权利—说明义务和边界—联系事实—保留具体程序条件”的顺序组织，接受等义表达，不要求背整条原文。",
+  "definition": "依法保障权利、履行义务，并按法定条件行使权利；宪法是根本法。",
+  "conditions": "仅以已读2018年修正宪法相关条文讲基本原则；具体案件、程序和责任另核；不确认2028考纲。",
+  "example": "特殊身份不能成为超法律特权；受教育兼有权利和义务；真实投诉与捏造陷害有区别；程序期限须另查适用规定。",
+  "misconceptions": [
+    "把法治等同个人意志或一句口号",
+    "把权利义务理解为任意交换或相互取消",
+    "把权利说成无限手段，或以边界为由取消全部权利",
+    "捏造事实以加强投诉，或凭原则直接决定个案责任"
+  ],
+  "recall": [
+    "闭卷解释法治与根本法，并举无超法律特权的例子。",
+    "闭卷解释权利义务关系，以受教育或劳动说明。",
+    "闭卷说明行使权利为何有边界及边界不等于取消权利。",
+    "闭卷给出真实、依法反映问题的路径和一项待核程序。"
+  ],
+  "teachingSections": [
+    {
+      "id": "section-1",
+      "explanationParagraph": 0,
+      "workedExample": "职位高不产生超法律特权"
+    },
+    {
+      "id": "section-2",
+      "explanationParagraph": 1,
+      "workedExample": "受教育兼有权利和义务，不代表所有具体选择相同"
+    },
+    {
+      "id": "section-3",
+      "explanationParagraph": 2,
+      "workedExample": "真实意见不同于捏造陷害，不能任意取消表达权"
+    },
+    {
+      "id": "section-4",
+      "explanationParagraph": 3,
+      "workedExample": "先整理事实、依法反映，具体程序还须核实"
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "pol-rule-of-law-foundation-g1",
+      "description": "解释根本法与依法治理",
+      "successCriteria": "能够以不设超法律特权校正任意个人意志说法",
+      "teachingSectionIds": [
+        "section-1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "pol-rule-of-law-foundation-b1",
+        "pol-rule-of-law-foundation-a1",
+        "pol-rule-of-law-foundation-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-g2",
+      "description": "区分权利义务及双重属性",
+      "successCriteria": "用劳动或受教育举例，避免任意交换或相互取消",
+      "teachingSectionIds": [
+        "section-2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "pol-rule-of-law-foundation-b2",
+        "pol-rule-of-law-foundation-a2",
+        "pol-rule-of-law-foundation-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-g3",
+      "description": "说明行使权利的边界",
+      "successCriteria": "同时维护合法权利和法定边界，不走任一极端",
+      "teachingSectionIds": [
+        "section-3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "pol-rule-of-law-foundation-b3",
+        "pol-rule-of-law-foundation-a3",
+        "pol-rule-of-law-foundation-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-g4",
+      "description": "提出依法反映问题的路径",
+      "successCriteria": "区分事实与推测、合法监督与捏造陷害，并指出待核程序",
+      "teachingSectionIds": [
+        "section-4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "pol-rule-of-law-foundation-b4",
+        "pol-rule-of-law-foundation-a4",
+        "pol-rule-of-law-foundation-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "rubric": [
+    "先指出所涉权利或义务",
+    "解释依法行使的边界",
+    "联系真实材料，不捏造法律结论",
+    "说明具体程序、责任仍需适用法律核实"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "隔日先闭卷说明四项目标，再作新情境题；客观答对不等于长期掌握，主观保持参考核对。"
+  },
+  "reviewRecord": {
+    "internalCheck": "source-linked-draft",
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "法律专业教师需核对概念教学边界及个案示例",
+      "2018宪法文本的当前适用性应在正式发布前复查",
+      "不覆盖完整思政法治模块或2028政治考试要求"
+    ]
+  },
+  "basicQuestions": [
+    {
+      "id": "pol-rule-of-law-foundation-b1",
+      "type": "single",
+      "stem": "小白说“法治就是负责人想怎样就怎样”。最恰当的纠正是？",
+      "options": [
+        "负责人个人意志自动高于宪法",
+        "应依宪法法律治理，不得有超法律特权",
+        "只需口头说依法即可不看规则"
+      ],
+      "answer": 1,
+      "explanation": "B说明法治的约束。A把个人置于法律之上；C用口号代替制度。",
+      "difficulty": "foundation",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-b2",
+      "type": "single",
+      "stem": "关于权利义务，何者符合本课？",
+      "options": [
+        "享有法定权利，同时履行法定义务",
+        "有权利就不用承担任何义务",
+        "履行义务就必须永久放弃权利"
+      ],
+      "answer": 0,
+      "explanation": "A保留两方面。B取消义务，C取消权利，均错误。",
+      "difficulty": "foundation",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-b3",
+      "type": "single",
+      "stem": "行使自由权利时，哪项表述合适？",
+      "options": [
+        "任何自称自由的行为都不受限制",
+        "不论事实如何都应取消表达权",
+        "应尊重他人合法权利及法定边界"
+      ],
+      "answer": 2,
+      "explanation": "C依据第51条。A无限扩大，B全盘取消，均未正确处理边界。",
+      "difficulty": "foundation",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-b4",
+      "type": "single",
+      "stem": "依法反映工作人员违法失职问题，首先应怎样做？",
+      "options": [
+        "为引起重视编造细节",
+        "整理真实事实，向有关机关依法反映",
+        "把所有猜测都称为已证事实"
+      ],
+      "answer": 1,
+      "explanation": "B同时维护监督权与真实边界。A、C会损害事实核查。",
+      "difficulty": "foundation",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "pol-rule-of-law-foundation-a1",
+      "type": "single",
+      "stem": "某人称“任何单位内部通知都可随意抵触宪法”。怎样分析？",
+      "options": [
+        "可由发布人职位决定是否高于宪法",
+        "不符合宪法最高法律效力与依法治理要求",
+        "只要文件长就一定有效"
+      ],
+      "answer": 1,
+      "explanation": "B联系根本法地位。A以职位代替规则，C以篇幅代替效力。",
+      "difficulty": "application",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-a2",
+      "type": "single",
+      "stem": "小青把受教育称为“只有权利而无法定义务”，应怎样校正？",
+      "options": [
+        "第46条同时规定权利和义务，个案内容还须依法核实",
+        "所有人必须同一年就读同一专业",
+        "既然有义务就完全没有权利"
+      ],
+      "answer": 0,
+      "explanation": "A准确保留双重属性与范围。B无文本依据，C只留义务一面。",
+      "difficulty": "application",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-a3",
+      "type": "single",
+      "stem": "有人为投诉服务问题而捏造他人违法事实。最准确评价是？",
+      "options": [
+        "只要目的是监督，编造均合法",
+        "监督权不包括捏造歪曲事实陷害；真实投诉应受保障",
+        "为防止编造，应永久禁止所有投诉"
+      ],
+      "answer": 1,
+      "explanation": "B既说明边界又保留合法权利。A取消边界，C因个别越界全盘取消监督。",
+      "difficulty": "application",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-a4",
+      "type": "subjective",
+      "stem": "虚构窗口拒绝收取任何意见，称“群众只能服从，不能建议”。用两三句分析，并说明本课不能直接决定的事项。",
+      "answer": "第41条保障公民批评建议及相关监督权，不能一概拒绝。有关事实应依法查清、负责处理；不得捏造事实或打击报复。本课不能仅凭材料决定具体责任、程序或处罚。",
+      "rubric": [
+        "确认合法批评建议权，反对一概拒绝",
+        "说明真实事实、依法处理及不得打击报复的要求",
+        "保留具体法律程序和责任需进一步核实的边界"
+      ],
+      "explanation": "针对窗口的绝对化说法作答，不强求引用条号或政治术语；合理等义表达可接受。",
+      "difficulty": "application",
+      "errorCauseHint": "确认权利、法定义务、行使边界与程序条件，不以口号替代事实。"
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "pol-rule-of-law-foundation-d1",
+      "type": "single",
+      "stem": "隔日看到“某个人可以因身份特殊而超越宪法法律”，应如何判断？",
+      "options": [
+        "不符合本课依法治理与无超法律特权原则",
+        "符合，因为身份足够特殊",
+        "无法律文本也可由个人任意授权"
+      ],
+      "answer": 0,
+      "explanation": "A对应第5条。B、C均以身份或个人意志架空规则。",
+      "difficulty": "delayed",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-d2",
+      "type": "single",
+      "stem": "隔日辨析：劳动和受教育在本课已核条文中的共同点是？",
+      "options": [
+        "都只是一种不能主张的义务",
+        "均有权利与义务属性",
+        "都表示人人做完全相同的职业或专业"
+      ],
+      "answer": 1,
+      "explanation": "B对应第42、46条。A删去权利，C把法定属性误作所有具体选择相同。",
+      "difficulty": "delayed",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-d3",
+      "type": "single",
+      "stem": "隔日新情境：有人以“维护秩序”为由主张取消全部合法批评。最合理评价是？",
+      "options": [
+        "理由一出现就可取消全部权利",
+        "合法权利与边界应同时理解，不能一概取消",
+        "表达意见者一概无需尊重他人"
+      ],
+      "answer": 1,
+      "explanation": "B避免两种极端。A由公共目的推出无限手段，C取消边界。",
+      "difficulty": "delayed",
+      "errorCauseHint": "检查是否只保留权利或义务一面，或把行使边界说成取消权利。"
+    },
+    {
+      "id": "pol-rule-of-law-foundation-d4",
+      "type": "subjective",
+      "stem": "闭卷写一个依法反映公共服务问题的可行路径，并分别说明权利、义务、行使边界；指出一项需要进一步核实的具体程序。",
+      "answer": "先整理真实事实并区分推测，依法向有关渠道提出批评建议或相关反映。公民享有合法监督权，也须尊重事实、不得捏造陷害、遵守宪法法律及他人合法权利。受理机关、材料形式、期限或具体责任等须按实际事项适用法律核实。",
+      "rubric": [
+        "路径包含整理真实材料和依法向有关渠道反映",
+        "明确监督等合法权利与依法履责的联系",
+        "不捏造事实、不侵犯他人合法权益；不主张无限手段",
+        "提出至少一项尚需核实的程序问题；不强制某个具体期限"
+      ],
+      "explanation": "接受不同合理渠道和示例。不能凭本课直接给个案定罪或保证特定处置结果。",
+      "difficulty": "delayed",
+      "errorCauseHint": "确认权利、法定义务、行使边界与程序条件，不以口号替代事实。"
+    }
+  ]
+}

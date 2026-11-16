@@ -1,0 +1,13 @@
+{
+  "reason": "Initial material completeness assertion failed; add explicit denominators, test assumptions and interpretation boundaries, not filler",
+  "originalSnapshot": "content/353-paper-01-original.snapshot.json",
+  "ids": [
+    "hp01-c1",
+    "hp01-c2",
+    "hp01-c3",
+    "hp01-c4",
+    "hp01-c5"
+  ],
+  "answersUnchanged": true,
+  "professionalApproval": 0
+}

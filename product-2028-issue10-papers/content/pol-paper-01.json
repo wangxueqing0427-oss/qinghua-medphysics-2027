@@ -1,0 +1,842 @@
+{
+  "id": "pol-paper-01",
+  "subject": "pol",
+  "version": "0.1",
+  "title": "政治基础综合原创训练卷01（暂定结构）",
+  "status": "provisional-original-practice",
+  "minutes": 180,
+  "officialEquivalent": false,
+  "expertApproved": false,
+  "scoring": "Objective points are internal practice points; subjective reference-only, learner self-check not professional mark; no complete exam total until reliable review",
+  "coverageLimitations": [
+    "覆盖现有理论基础并补法治/制度/历史起步，不声称等同2028完整政治考试范围",
+    "政治经济学深度、科学社会主义完整体系、毛中特/新时代思想系统教学及年度时政仍须补齐；不得据本卷表现推断真实考研分数",
+    "单选16、多选17、分析5及100训练分是本轮内部暂定配置，尚无本轮直接核实的2028官方题型分值证明"
+  ],
+  "sources": [
+    {
+      "id": "cn-constitution",
+      "url": "https://www.sara.gov.cn/static/content/xxgk/flfg/2018-03-22/1306305917016342528.html",
+      "title": "中华人民共和国宪法（2018年修正文本，官方机构转载）",
+      "published": "2018-03-22",
+      "read": "序言、第一章第1—7、14、19、24、26—27条；第二章第33、35、38、40—46、51—56条的网页正文",
+      "scope": "支持本卷列明的法治、权利义务、社会主义制度和历史锚点；不是2028考研题型、分值或完整思政教材证明",
+      "status": "body-read"
+    },
+    {
+      "id": "practice-guide",
+      "url": "https://fuwu.12371.cn/2012/08/27/ARTI1346050084856146_12.shtml",
+      "title": "《实践论》《矛盾论》导读：第二章《实践论》解读",
+      "published": "2012-08-27",
+      "read": "《实践论》概说，认识来源及感性—理性—再实践的辩证发展段落",
+      "scope": "导读而非1937手稿；仅支持实践与认识训练，不证明本卷覆盖全部马克思主义理论",
+      "status": "specified-body-read"
+    }
+  ],
+  "sections": [
+    {
+      "id": "pol-single",
+      "title": "单项选择：概念与边界",
+      "points": 16,
+      "questions": [
+        {
+          "id": "paper-pol01-s1",
+          "type": "single",
+          "stem": "社区试行预约规则后，使用记录显示部分老人反而更难预约。根据实践与认识的关系，最合理做法是？",
+          "options": [
+            "以原方案写得漂亮为由拒绝修改",
+            "分析实际效果和原因，改进规则后继续检验",
+            "认为一次受挫说明任何理论都无用",
+            "把个人想象当作已经实施的结果"
+          ],
+          "answer": 1,
+          "explanation": "B把方案放回实际活动中检验和发展。A使文本脱离效果；C由一次问题否定全部理论；D混淆设想与实践证据。",
+          "points": 1,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s2",
+          "type": "single",
+          "stem": "把几次访谈的具体印象整理为“预约困难主要集中在缺少智能手机的人群”，这一过程最接近？",
+          "options": [
+            "从感性材料形成有概括的认识",
+            "无需资料而先验决定结论",
+            "已经证明所有地区都如此",
+            "理论从此不再需要检验"
+          ],
+          "answer": 0,
+          "explanation": "A表现从具体材料向概括上升；概括仍有样本和条件边界。B忽略材料，C不当外推，D中断进一步实践检验。",
+          "points": 1,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s3",
+          "type": "single",
+          "stem": "关于认识运动，下列何者更合适？",
+          "options": [
+            "只调查一次即可永远停止",
+            "理性分析没有任何作用",
+            "实践与认识反复发展，每轮可获得新内容",
+            "先有口号就能自动产生实际效果"
+          ],
+          "answer": 2,
+          "explanation": "C体现认识在实践中继续发展。A把有限认识绝对化；B片面否定理性；D把认识当成自动实现的现实。",
+          "points": 1,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s4",
+          "type": "single",
+          "stem": "研究团队照搬外地流程，既不看本地条件也不读反馈。问题首先在于？",
+          "options": [
+            "具体调查太多",
+            "把理论与具体实际割裂",
+            "重视实际检验",
+            "允许群众参与"
+          ],
+          "answer": 1,
+          "explanation": "B符合本题把一般做法绝对化的错误。A与材料相反，C、D是改进方向而不是现有错误。",
+          "points": 1,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s5",
+          "type": "single",
+          "stem": "某人在谈权利时说“只要我愿意，法律规定的义务可一律不履行”。最准确判断是？",
+          "options": [
+            "正确，权利排除义务",
+            "正确，只要不被发现即可",
+            "错误，享有规定权利同时应履行规定义务",
+            "必须先放弃全部权利才有义务"
+          ],
+          "answer": 2,
+          "explanation": "宪法第33条同时规定权利与义务，支持C。A、B取消义务，D把二者设成任意先后交易。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s6",
+          "type": "single",
+          "stem": "依据本卷所读宪法第5条，依法治国与特权的关系应怎样理解？",
+          "options": [
+            "所有组织和个人都不得享有超越宪法法律的特权",
+            "只有普通人应遵守法律",
+            "机关内部规定可以任意抵触宪法",
+            "职位越高越可以免除法律约束"
+          ],
+          "answer": 0,
+          "explanation": "A对应第5条的基本要求；B、D设立超法律身份，C否定宪法的最高效力。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s7",
+          "type": "single",
+          "stem": "小林向有关国家机关反映工作人员违法失职行为，哪种方式符合第41条的边界？",
+          "options": [
+            "凭空捏造事实施压",
+            "如实陈述事实、依法提出检举",
+            "用威胁迫使承办人立即接受任何结论",
+            "公开任何无关个人秘密都不受限制"
+          ],
+          "answer": 1,
+          "explanation": "B同时保留监督权与不得捏造歪曲事实的限制。A违法失实，C、D把权利扩大为无限制行动。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s8",
+          "type": "single",
+          "stem": "宪法第46条对受教育的规定最准确的是？",
+          "options": [
+            "只有权利，没有义务",
+            "只有义务，没有权利",
+            "教育可替代一切其他义务",
+            "同时具有权利和义务属性"
+          ],
+          "answer": 3,
+          "explanation": "D是第46条的明确安排。A、B只保留一面；C把一种义务不当代替其他义务。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s9",
+          "type": "single",
+          "stem": "“在法律面前一律平等”最不应被解释为？",
+          "options": [
+            "任何人不得有超法律特权",
+            "应依法保障合法权利",
+            "每个人的职业、收入和需要都必须完全相同",
+            "法律规则不得被任意身份特权架空"
+          ],
+          "answer": 2,
+          "explanation": "C把法律地位平等误成所有社会事实相同。A、B、D与本题的平等原则可以相容。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s10",
+          "type": "single",
+          "stem": "某人以表达意见为由侮辱他人、损害其合法权利。依第51条，恰当理解是？",
+          "options": [
+            "行使自由权利也须尊重法定边界",
+            "只要称为表达就不受任何限制",
+            "必须取消所有人的表达权",
+            "是否越界只看发言人身份"
+          ],
+          "answer": 0,
+          "explanation": "A同时维护权利与边界。B取消限制，C因越界而全盘取消权利，D以身份代替事实与法律判断。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s11",
+          "type": "single",
+          "stem": "宪法第2条规定的国家权力归属是？",
+          "options": [
+            "仅属于某一职业群体",
+            "属于人民",
+            "属于任何自称代表者个人",
+            "属于公共设施所有管理人员"
+          ],
+          "answer": 1,
+          "explanation": "B对应第2条。人民行使权力还须通过宪法法律规定的机关、途径和形式，不能把原则解释为任何人可任意代行国家权力。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s12",
+          "type": "single",
+          "stem": "依据宪法第6条，我国社会主义经济制度的基础是？",
+          "options": [
+            "任何形式的私人占有均应成为唯一基础",
+            "只按个人好恶确定所有制",
+            "生产资料的社会主义公有制",
+            "所有单位必须使用相同经营方法"
+          ],
+          "answer": 2,
+          "explanation": "C是第6条的制度表述。A误置基础，B否认制度，D把所有制问题混成管理手段完全相同。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s13",
+          "type": "single",
+          "stem": "“公有制为主体、多种所有制经济共同发展”与“只允许一种所有制存在”之间的关系是？",
+          "options": [
+            "二者完全相同",
+            "后一说法不符合前一表述所含的多种所有制共同发展",
+            "前一表述否认公有制主体地位",
+            "由此能推出所有企业收入完全相等"
+          ],
+          "answer": 1,
+          "explanation": "B保留公有制主体与多种所有制共同发展的关系，并指出“只允许一种”不成立。A偷换，C删去主体，D无依据。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s14",
+          "type": "single",
+          "stem": "宪法序言记述的辛亥革命所直接废除的是？",
+          "options": [
+            "封建帝制",
+            "所有社会矛盾",
+            "全部外国影响",
+            "此后的一切历史任务"
+          ],
+          "answer": 0,
+          "explanation": "A对应宪法序言的历史锚点。序言同时说明反帝反封建的历史任务尚未完成，不能推出B、C、D。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s15",
+          "type": "single",
+          "stem": "对1949年中华人民共和国成立的叙述，依据序言可作哪一判断？",
+          "options": [
+            "它与新民主主义革命胜利无关",
+            "之后所有发展问题已自动解决",
+            "此事件完全不改变国家政治地位",
+            "它是新民主主义革命胜利并建立新国家的重要历史节点"
+          ],
+          "answer": 3,
+          "explanation": "D保留序言中的历史联系。A否认联系；B把成立节点夸大为所有任务完成；C否认政治变化。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        },
+        {
+          "id": "paper-pol01-s16",
+          "type": "single",
+          "stem": "“将长期处于社会主义初级阶段”这一表述，首先要求学习者避免？",
+          "options": [
+            "结合实际条件理解发展任务",
+            "把社会主义建设理解为不需长期努力的瞬间完成",
+            "分析现实生产生活条件",
+            "区分目标与已经实现的事实"
+          ],
+          "answer": 1,
+          "explanation": "B是应避免的误读。A、C、D均有助于把制度、阶段、目标与现实条件联系起来。",
+          "points": 1,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "foundation-to-application"
+        }
+      ]
+    },
+    {
+      "id": "pol-multi",
+      "title": "多项选择：选出全部正确项",
+      "points": 34,
+      "questions": [
+        {
+          "id": "paper-pol01-m1",
+          "type": "multi",
+          "stem": "对试行政策进行实践检验，哪些材料或步骤有助于形成可靠认识？",
+          "options": [
+            "收集实施过程与结果",
+            "分析不同群体受到的影响",
+            "只保留支持原方案的反馈",
+            "根据发现的问题改进并再检验"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A提供事实，B防止只看平均效果，D延续认识发展；C选择性取材削弱检验。",
+          "points": 2,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m2",
+          "type": "multi",
+          "stem": "关于感性认识与理性认识，选出符合本卷导读的说法。",
+          "options": [
+            "具体材料是形成概括的重要基础",
+            "概括和推理可帮助理解规律",
+            "任一印象都等于已把握本质",
+            "理性认识仍应回到实践中检验"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A、B、D把认识环节联系起来；C把具体印象直接当作本质。",
+          "points": 2,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m3",
+          "type": "multi",
+          "stem": "避免教条化运用理论，应当怎样做？",
+          "options": [
+            "分析理论适用的条件",
+            "以结论是否出自熟人替代检验",
+            "将一般认识与本地实际结合",
+            "保留修正认识的可能"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A、C、D体现理论与实际的联系；B用身份代替证据。",
+          "points": 2,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m4",
+          "type": "multi",
+          "stem": "根据本卷的实践认识框架，下列判断哪些成立？",
+          "options": [
+            "理论可以指导实际活动",
+            "理论一经写成就无需再发展",
+            "现实结果可提出新的认识问题",
+            "修订认识需要尊重材料而非任意改词"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A肯定指导作用，C说明新问题，D强调依据；B把认识绝对化。",
+          "points": 2,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m5",
+          "type": "multi",
+          "stem": "依宪法第33条，以下哪些表述成立？",
+          "options": [
+            "具有中华人民共和国国籍的人是中国公民",
+            "公民在法律面前一律平等",
+            "国家尊重和保障人权",
+            "仅享有权利者不必履行法定义务"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A、B、C分别对应第33条；D与该条权利义务统一要求不符。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m6",
+          "type": "multi",
+          "stem": "依宪法第41条，正确的监督权理解包括哪些？",
+          "options": [
+            "可提出批评建议",
+            "可就违法失职向有关国家机关检举",
+            "可捏造事实陷害被检举人",
+            "有关机关须查清事实并负责处理"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A、B是权利形式，D是处理要求；C是条文明确排除的做法。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m7",
+          "type": "multi",
+          "stem": "公民行使自由和权利时，哪些说法与第51条相容？",
+          "options": [
+            "不得损害其他公民合法权利",
+            "任何诉求都可通过任意手段实现",
+            "应顾及国家、社会、集体的利益",
+            "承认边界不等于取消合法权利"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A、C对应边界，D避免全盘取消权利；B把目的当任意手段的通行证。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m8",
+          "type": "multi",
+          "stem": "下列哪些事项在本卷所读宪法中同时具有权利和义务属性？",
+          "options": [
+            "劳动",
+            "受教育",
+            "休息一律是公民强制义务",
+            "所有文化创作均是必须完成的个人义务"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "第42条规定劳动权利义务，第46条规定受教育权利义务。C、D不符合这里列明的条文表述。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m9",
+          "type": "multi",
+          "stem": "关于依法治国，哪些判断有文本依据？",
+          "options": [
+            "建设社会主义法治国家",
+            "行政机关可以自行取得超宪法特权",
+            "维护社会主义法制统一和尊严",
+            "法律和有关法规不得同宪法抵触"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A、C、D对应第5条；B与不得有超法律特权相反。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m10",
+          "type": "multi",
+          "stem": "宪法第53条列明的公民义务包括哪些？",
+          "options": [
+            "遵守宪法和法律",
+            "爱护公共财产",
+            "遵守公共秩序",
+            "可为方便而任意泄露国家秘密"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A、B、C属于第53条列明内容；D与保守国家秘密义务相反。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m11",
+          "type": "multi",
+          "stem": "关于人民与国家权力的关系，选出正确表述。",
+          "options": [
+            "国家一切权力属于人民",
+            "人民通过法律规定的途径和形式参与管理",
+            "任何个人可不经法定程序替代国家机关行使一切职权",
+            "人民代表大会是人民行使国家权力的机关"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A、B、D对应第2条；C将权力归属原则误解为个人无程序的无限职权。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m12",
+          "type": "multi",
+          "stem": "依据宪法第6条的初级阶段制度表述，可以确认哪些内容？",
+          "options": [
+            "公有制为主体",
+            "多种所有制经济共同发展",
+            "按劳分配为主体、多种分配方式并存",
+            "公有制主体地位意味着其他所有制一概不得存在"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A、B、C是条文所列框架；D将主体偷换为唯一。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m13",
+          "type": "multi",
+          "stem": "关于发展社会主义事业，哪些判断受到本卷宪法序言的支持？",
+          "options": [
+            "要进行社会主义现代化建设",
+            "初级阶段不需要任何具体建设",
+            "注重多方面文明协调发展",
+            "长期任务不能被误当作已经全部完成"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A、C是序言的发展方向，D区分任务与结果；B从阶段概念推出停滞，不成立。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m14",
+          "type": "multi",
+          "stem": "对宪法中的历史叙述，哪些阅读方法适当？",
+          "options": [
+            "把事件放在时间顺序中理解",
+            "1840以后的社会性质变化不能解释为机械一半领土",
+            "可把辛亥革命直接写成已完成此后一切革命任务",
+            "区分新国家成立与后来持续发展的任务"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A、B、D保留历史过程和概念边界；C与序言“任务还没有完成”的叙述冲突。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m15",
+          "type": "multi",
+          "stem": "公共机构回应群众意见时，哪些做法符合本卷相关条文精神？",
+          "options": [
+            "听取人民意见建议",
+            "压制和打击报复一切提出意见者",
+            "查清涉及申诉控告检举的事实",
+            "依法负责处理，不仅凭权势定结论"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A联系第27条，C、D联系第41条及法治原则；B违背监督权保障。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m16",
+          "type": "multi",
+          "stem": "关于科学文化教育与生态建设，以下哪些表述在本卷所读宪法中有依据？",
+          "options": [
+            "发展教育事业",
+            "保护和改善生活环境、生态环境",
+            "科学文化建设可完全替代依法治国",
+            "鼓励有益于人民的创造性工作"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "A联系第19条，B联系第26条，D联系第47条；C在不同任务间设置无依据的替代关系。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        },
+        {
+          "id": "paper-pol01-m17",
+          "type": "multi",
+          "stem": "关于宪法对公民合法权利的保障，哪些表述有本卷已读条文依据？",
+          "options": [
+            "公民的人格尊严不受侵犯",
+            "任何主体均可任意检查他人的通信秘密",
+            "劳动者有休息的权利",
+            "公民的合法权利不能因提出批评建议而一概取消"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A对应第38条，C对应第43条；D联系第41条的监督权保障。B取消第40条的法定条件和程序限制。",
+          "points": 2,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "application",
+          "gradingBoundary": "All selected options must match; no invented partial-credit rule"
+        }
+      ]
+    },
+    {
+      "id": "pol-analysis",
+      "title": "材料分析：独立作答后对照要点",
+      "points": 50,
+      "questions": [
+        {
+          "id": "paper-pol01-a1",
+          "type": "subjective",
+          "passage": "某社区先认为“预约人数增加就说明服务改善”。试行后总预约量上升，但无智能手机老人到诊率下降。工作人员重新访谈、增设电话预约，再比较不同人群的实际使用情况。",
+          "stem": "运用实践与认识的关系分析：原判断有什么局限，新的认识怎样形成，还应怎样检验？",
+          "answer": "原判断把一个数量指标当作全部服务效果，遗漏群体差异和使用条件。访谈与实施资料可推动从具体感受形成更全面认识，电话预约是新的实践措施。还应预先说明评价指标、对象和条件，继续收集结果并修正，不能因提出了改法就说问题全部解决。",
+          "rubric": [
+            "指出预约总量不能独自证明各群体服务改善，联系材料中的老人到诊率",
+            "说明实践提供认识材料，概括分析有作用但仍可不完整",
+            "说明修改方案后须再次实施和检验，理论指导与实际效果相联系",
+            "提出至少一项与情境相符的后续核对，如分组使用率、等待时间或实际障碍；不强制特定统计术语"
+          ],
+          "explanation": "先回应材料中的具体判断，再解释概念与边界。接受合理等义表述和不同有依据的例子；不得强制背诵本参考答案，不因未使用某个关键词就判错。原判断把一个数量指标当作全部服务效果，遗漏群体差异和使用条件。访谈与实施资料可推动从具体感受形成更全面认识，电话预约是新的实践措施。还应预先说明评价指标、对象和条件，继续收集结果并修正，不能因提出了改法就说问题全部解决。",
+          "points": 10,
+          "sourceRefs": [
+            "practice-guide"
+          ],
+          "difficulty": "integrated-application",
+          "score": null,
+          "acceptance": "要点自评不能自动转换为专业分数；法律个案结论和2028官方题型均不在本题已核范围。"
+        },
+        {
+          "id": "paper-pol01-a2",
+          "type": "subjective",
+          "passage": "一名居民据实向有关国家机关举报工作人员违法失职。有人建议“为引起注意先夸大事实”；另有人主张“任何投诉都应处罚，免得麻烦”。",
+          "stem": "结合宪法权利义务与监督权边界，分别评价两种建议并提出合适处理路径。",
+          "answer": "公民依法有批评建议和就违法失职提出有关申诉控告检举的权利，不能一概处罚。捏造或歪曲事实陷害他人不在权利保护范围内，应如实反映。有关国家机关应查清事实、负责处理，不得压制打击报复。具体程序和个案责任仍须依适用法律核实，不能凭本材料代替法律裁判。",
+          "rubric": [
+            "指出真实监督的合法权利及不能一概压制",
+            "指出不得捏造歪曲事实进行诬告陷害，不将权利理解为无限手段",
+            "指出有关国家机关查清事实、负责处理及不得打击报复",
+            "提出如实整理材料、向有关机关依法反映等路径，并保留具体法律程序边界"
+          ],
+          "explanation": "先回应材料中的具体判断，再解释概念与边界。接受合理等义表述和不同有依据的例子；不得强制背诵本参考答案，不因未使用某个关键词就判错。公民依法有批评建议和就违法失职提出有关申诉控告检举的权利，不能一概处罚。捏造或歪曲事实陷害他人不在权利保护范围内，应如实反映。有关国家机关应查清事实、负责处理，不得压制打击报复。具体程序和个案责任仍须依适用法律核实，不能凭本材料代替法律裁判。",
+          "points": 10,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "integrated-application",
+          "score": null,
+          "acceptance": "要点自评不能自动转换为专业分数；法律个案结论和2028官方题型均不在本题已核范围。"
+        },
+        {
+          "id": "paper-pol01-a3",
+          "type": "subjective",
+          "passage": "学生小夏说：“受教育是我的权利，所以我没有与之相关的义务；表达意见是自由，因此即使侮辱他人也不受限制。”同学指出应分别理解权利、义务与行使边界。",
+          "stem": "解释小夏两处推理的问题，并用一个原创日常例子说明正确理解。",
+          "answer": "第46条把受教育同时规定为权利和义务，不能只留权利一面。第51条对行使自由权利规定不得损害相关利益及他人合法权利；合法表达不能等同任意侮辱。可例举依法提出学习安排建议，同时不捏造事实或侵犯他人合法权益。具体是否违法及责任不能只由一句材料决定。",
+          "rubric": [
+            "准确说明受教育具有权利与义务属性",
+            "说明自由权利并非无边界，尊重他人合法权利",
+            "给出与上述原则一致的具体例子，允许不同合理情境",
+            "不以存在边界为由取消全部权利，不臆断个案刑事或行政责任"
+          ],
+          "explanation": "先回应材料中的具体判断，再解释概念与边界。接受合理等义表述和不同有依据的例子；不得强制背诵本参考答案，不因未使用某个关键词就判错。第46条把受教育同时规定为权利和义务，不能只留权利一面。第51条对行使自由权利规定不得损害相关利益及他人合法权利；合法表达不能等同任意侮辱。可例举依法提出学习安排建议，同时不捏造事实或侵犯他人合法权益。具体是否违法及责任不能只由一句材料决定。",
+          "points": 10,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "integrated-application",
+          "score": null,
+          "acceptance": "要点自评不能自动转换为专业分数；法律个案结论和2028官方题型均不在本题已核范围。"
+        },
+        {
+          "id": "paper-pol01-a4",
+          "type": "subjective",
+          "passage": "某历史展览依次陈列：1840年以后近代社会变化的介绍；1911年辛亥革命与封建帝制终结的介绍；1949年中华人民共和国成立的介绍。讲解员强调，这些事件不能被压成“同一天完成了全部历史任务”。",
+          "stem": "根据本卷已核史实与历史过程的理解，说明如何组织一段准确的历史分析。",
+          "answer": "先把三个历史锚点及其不同含义分别说明：近代社会关系变化、封建帝制终结、新民主主义革命胜利与新国家建立。再说明事件之间存在历史联系，但前一个节点不等于后来所有任务完成。宪法序言的概括可作为本卷来源，不能将展览虚构介绍称为亲读当年原始档案，也不能补造未给出的史料引文。",
+          "rubric": [
+            "三个锚点和不同事件含义正确对应",
+            "明确废除帝制不等于全部反帝反封建历史任务在1911年完成",
+            "区分新国家建立与此后持续发展的过程",
+            "注明本卷材料为原创，来源为宪法序言等已列文本，不虚构原始档案或人物原话"
+          ],
+          "explanation": "先回应材料中的具体判断，再解释概念与边界。接受合理等义表述和不同有依据的例子；不得强制背诵本参考答案，不因未使用某个关键词就判错。先把三个历史锚点及其不同含义分别说明：近代社会关系变化、封建帝制终结、新民主主义革命胜利与新国家建立。再说明事件之间存在历史联系，但前一个节点不等于后来所有任务完成。宪法序言的概括可作为本卷来源，不能将展览虚构介绍称为亲读当年原始档案，也不能补造未给出的史料引文。",
+          "points": 10,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "integrated-application",
+          "score": null,
+          "acceptance": "要点自评不能自动转换为专业分数；法律个案结论和2028官方题型均不在本题已核范围。"
+        },
+        {
+          "id": "paper-pol01-a5",
+          "type": "subjective",
+          "passage": "某地讨论公共服务建设：甲主张“只要收入增加，教育、法治与环境问题可一概不管”；乙主张“只写宏大目标，不必分析现有条件”；丙建议结合实际，统筹多方面建设并持续核对结果。",
+          "stem": "结合宪法序言的发展方向和实践认识关系，评价三种主张。",
+          "answer": "甲把发展缩减为单一收入指标，不能据此排除教育、法治、环境等建设任务。乙把目标文本当成已经实现的事实，割裂目标与现实条件。丙较合理，但仍要说明具体对象、条件、措施和检验方法。多方面协调发展是方向，不能只凭“统筹”一词就宣布所有矛盾消失或所有目标已经实现。",
+          "rubric": [
+            "指出单一收入指标不足以替代多方面发展任务",
+            "指出目标与实现目标的实际条件和过程不同",
+            "把理论方向、现实调查、具体行动和检验联系起来",
+            "允许合理不同方案；不要求未经教授的特定政策年份、原句或官方评分术语"
+          ],
+          "explanation": "先回应材料中的具体判断，再解释概念与边界。接受合理等义表述和不同有依据的例子；不得强制背诵本参考答案，不因未使用某个关键词就判错。甲把发展缩减为单一收入指标，不能据此排除教育、法治、环境等建设任务。乙把目标文本当成已经实现的事实，割裂目标与现实条件。丙较合理，但仍要说明具体对象、条件、措施和检验方法。多方面协调发展是方向，不能只凭“统筹”一词就宣布所有矛盾消失或所有目标已经实现。",
+          "points": 10,
+          "sourceRefs": [
+            "cn-constitution"
+          ],
+          "difficulty": "integrated-application",
+          "score": null,
+          "acceptance": "要点自评不能自动转换为专业分数；法律个案结论和2028官方题型均不在本题已核范围。"
+        }
+      ]
+    }
+  ]
+}

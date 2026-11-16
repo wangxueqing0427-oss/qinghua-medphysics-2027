@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "paperQuestions": 38,
+  "paperPoints": 100,
+  "objectiveQuestions": 33,
+  "subjectiveQuestions": 5,
+  "unitQuestions": 12,
+  "unitObjectives": 4,
+  "paperSHA256": "1248079ac4dca8b74ca70baeb2c54d8b67c36eba89f87212c33d7a6c71a65ec9",
+  "unitSHA256": "de0117f155f03d76dc94b19a75cf4df4be67ea9c81f0e931991c1f9a77bc3a54",
+  "actualChecks": [
+    "paper count/points/IDs",
+    "answer index/set shape",
+    "source reference metadata",
+    "subjective material and rubric presence",
+    "existing course engine structure",
+    "existing objective mapping",
+    "unit answer grading/pending subjective contract"
+  ],
+  "notValidated": [
+    "2028official exam equivalence",
+    "independent professional accuracy",
+    "live mobile operation"
+  ],
+  "professionalApprovals": 0
+}

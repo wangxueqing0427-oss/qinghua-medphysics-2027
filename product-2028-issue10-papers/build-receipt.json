@@ -1,0 +1,128 @@
+{
+  "edition": "qh2028-issue10-papers-v1",
+  "db": "qh2028_issue10_papers_v1_local",
+  "journal": "qh2028_issue10_papers_v1_pending:",
+  "cache": "qh2028-issue10-papers-v1",
+  "courses": 74,
+  "questions": 836,
+  "papers": [
+    {
+      "id": "en-paper-01",
+      "subject": "en",
+      "version": "0.1",
+      "contentHash": "e94c81f9b1120725264d3831be92474f4978bd423b18578eaa7f18203cdb183f",
+      "questions": 52,
+      "trainingPoints": 100,
+      "officialEquivalent": false
+    },
+    {
+      "id": "pol-paper-01",
+      "subject": "pol",
+      "version": "0.1",
+      "contentHash": "bf0737a0c27adac92244cd1ec5433e36faac34efffd519556c1bdd3f4a3b4aac",
+      "questions": 38,
+      "trainingPoints": 100,
+      "officialEquivalent": false
+    },
+    {
+      "id": "353-paper-01",
+      "subject": "353",
+      "version": "0.1-original-conditions1",
+      "contentHash": "9dc5b7b2021a7dd853091f8395859401aa959c81bc639360032c15b25552ed4f",
+      "questions": 35,
+      "trainingPoints": 300,
+      "officialEquivalent": false
+    }
+  ],
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "ffcf9e71426fe60cb7f70b084d1d1051593ed76953505e0be6752e89aec156cd",
+      "bytes": 22788
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "bytes": 5686
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253
+    },
+    {
+      "path": "index.html",
+      "sha256": "cca02b6ef026609e6f608c74d45e0cc6bcc69dd04ab4ce65811dd2010576240b",
+      "bytes": 1548
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "bytes": 16360
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "fec64a58f02eea799f146624aa1fd16ad07ade36a1cfc08769ce4b9d64931614",
+      "bytes": 313
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "bytes": 343
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "bytes": 7132
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "bytes": 6279
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "c21392ce846bdf15595d0ee29974c475fc6c5a37b5736f82307f92b4c1273970",
+      "bytes": 11901
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "95f8f59b3c907508c2788787d1ac4448466b3a9a6cd4b05894266ac335ccc169",
+      "bytes": 27589
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "325df572dec0a80f4e0654df6ef5d9ca145b45212fea84441287b6f9052b8465",
+      "bytes": 20940
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "d4a69251d56223553688f489feeece428cd15af2560439852c661ac5278c5f51",
+      "bytes": 7084
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "bytes": 6752
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+      "bytes": 1575962
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "bytes": 3806
+    },
+    {
+      "path": "sw.js",
+      "sha256": "bec31429e65ba3fc0bdf36885657c075411ab1ae470b83606977711fc04be524",
+      "bytes": 1490
+    }
+  ],
+  "sourceSHA": "c429bc96f5d24be221c4337ed3e450501679fc14",
+  "professionalApprovals": 0,
+  "rollback": "https://ddb5c5f1.qh2028-core47-preview.pages.dev/",
+  "migration": false
+}
