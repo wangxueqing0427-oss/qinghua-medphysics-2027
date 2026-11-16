@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-16",
+  "targetYear": 2028,
+  "targetYearConfirmed": false,
+  "referenceYear": 2027,
+  "catalog": {
+    "url": "https://yzbm.tsinghua.edu.cn/publish/s02/s0203/detail/1d58a1e4-dc87-49f9-be0a-d000c060763f?ksfs=&yxsdm=096",
+    "read": "096 /105300 /02non-full-time 医学物理与健康 row",
+    "subjects": [
+      "101思想政治理论",
+      "201英语（一）",
+      "353卫生综合"
+    ],
+    "mode": "非全日制；定向就业、原单位定向生、在职培养",
+    "publishedOnPage": null
+  },
+  "scopeSource": "https://vsph.tsinghua.edu.cn/info/1025/2775.htm",
+  "scopePublished": "2026-09-30",
+  "confirmedOfficialItemCounts": null,
+  "confirmedOfficialItemPoints": null,
+  "confirmedOfficialDuration": null,
+  "training": {
+    "singleSubject": 24,
+    "subjectivePerSubject": 4,
+    "minutes": 180,
+    "pausePolicy": "No pause while backgrounded or closed; deadline continues; practice setting, not verified official rule"
+  },
+  "notClaimed": [
+    "full mock",
+    "350 prediction",
+    "expert approval"
+  ]
+}

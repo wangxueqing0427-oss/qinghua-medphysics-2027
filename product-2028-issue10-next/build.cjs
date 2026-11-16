@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('fs'),p=require('path'),a=require('assert/strict'),crypto=require('crypto');const D=__dirname,base=p.join(D,'../product-2028-issue10-integration'),r=require(p.join(base,'build-receipt.json')),out=p.join(D,'.build'),pack=JSON.parse(fs.readFileSync(p.join(base,'.build/representative-courses.json'))),added=p.join(D,'content/en-cloze-cohesion.json');
 if(fs.existsSync(added)){const u=JSON.parse(fs.readFileSync(added));a(!pack.units.some(x=>x.id===u.id));a((u.prerequisites||[]).every(id=>pack.units.some(x=>x.id===id)));pack.units.push(u);}const count=pack.units.length,questions=pack.units.flatMap(u=>[...u.basicQuestions,...u.applicationQuestions,...u.delayedQuestions]).length;
-const cfg={edition:'qh2028-issue10-examloop-v2-'+count,db:'qh2028_issue10_examloop_v2_local',journal:'qh2028_issue10_examloop_v2_pending:',cache:'qh2028-issue10-examloop-v2-'+count};pack.contentVersion=cfg.edition+'-internal-draft';a.equal(pack.units.filter(u=>u.id==='en-foundation-svo').length,1);
+const cfg={edition:'qh2028-issue10-examloop-v3-'+count,db:'qh2028_issue10_examloop_v3_local',journal:'qh2028_issue10_examloop_v3_pending:',cache:'qh2028-issue10-examloop-v3-'+count};pack.contentVersion=cfg.edition+'-internal-draft';a.equal(pack.units.filter(u=>u.id==='en-foundation-svo').length,1);
 fs.mkdirSync(out,{recursive:true});const H=b=>crypto.createHash('sha256').update(b).digest('hex'),files=[];
 for(const f of r.files){let bytes=fs.readFileSync(p.join(base,'.build',f.path));a.equal(H(bytes),f.sha256,'frozen previous asset '+f.path);let s=bytes.toString('utf8');
 if(f.path==='mock-engine.js'||f.path==='mock-ui.js')s=fs.readFileSync(p.join(D,f.path),'utf8');

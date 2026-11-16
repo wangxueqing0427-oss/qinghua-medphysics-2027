@@ -1,7 +1,7 @@
 'use strict';
-const EDITION='qh2028-issue10-examloop-v2-72';
+const EDITION='qh2028-issue10-examloop-v3-72';
 const app=document.getElementById('app'),message=document.getElementById('message'),repository=ProfileRepository.createRepository(indexedDB);let pack,profile,controller,session,busy=false,draftWrite=Promise.resolve(),pendingDraft=null;
-const JOURNAL='qh2028_issue10_examloop_v2_pending:';
+const JOURNAL='qh2028_issue10_examloop_v3_pending:';
 const journalKey=s=>JOURNAL+profile.id+':'+s.unitId;
 function journalWrite(s,text){if(typeof localStorage!=='undefined')localStorage.setItem(journalKey(s),JSON.stringify({revision:s.revision||0,stage:s.stage,text}));}
 function journalClear(s){if(typeof localStorage!=='undefined')localStorage.removeItem(journalKey(s));}

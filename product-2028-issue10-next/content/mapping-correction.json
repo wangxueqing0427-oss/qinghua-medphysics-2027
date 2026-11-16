@@ -1,0 +1,21 @@
+{
+  "reason": "149-node source defines en-plan-3 as complex sentence analysis, en-plan-5 as cloze; this unit teaches cloze/cohesion, not complex sentence analysis",
+  "old": {
+    "version": "0.1",
+    "mapping": [
+      "en-plan-4",
+      "en-plan-3"
+    ],
+    "sha256": "4c2e625ad43560d8f3e418b5608af0976f4742889e2cc818e3297e47afe2c129"
+  },
+  "next": {
+    "version": "0.1.1",
+    "mapping": [
+      "en-plan-5",
+      "en-plan-4"
+    ],
+    "sha256": "2ec6a73054b81b25b8f5dcec09645a0b8cdfc58f2ca058f9fab3aa1c24cb3ca8"
+  },
+  "questionIdsAnswersAndTeachingUnchanged": true,
+  "expertApprovals": 0
+}

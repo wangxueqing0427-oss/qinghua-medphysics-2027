@@ -1,8 +1,8 @@
 {
-  "edition": "qh2028-issue10-examloop-v2-72",
-  "db": "qh2028_issue10_examloop_v2_local",
-  "journal": "qh2028_issue10_examloop_v2_pending:",
-  "cache": "qh2028-issue10-examloop-v2-72",
+  "edition": "qh2028-issue10-examloop-v3-72",
+  "db": "qh2028_issue10_examloop_v3_local",
+  "journal": "qh2028_issue10_examloop_v3_pending:",
+  "cache": "qh2028-issue10-examloop-v3-72",
   "courses": 72,
   "questions": 812,
   "files": [
@@ -33,7 +33,7 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "1a5587fb408117850dfff52912c71f1c330ac5a22b8a413e8310574f3860083b",
+      "sha256": "43d8edf7df6bb82e5ca5c718e1e48d4e6f0d9ab70cd994a5cf43f180dced82d3",
       "bytes": 318
     },
     {
@@ -63,12 +63,12 @@
     },
     {
       "path": "pilot-ui.js",
-      "sha256": "86233396e1e83305d9ae37828f7ba6151dc688b609ade49ef1cc9dce05bfbad8",
+      "sha256": "835fbbc80e7c1f55714b373d72093486e0f8146b2f11d071121e969d92514b92",
       "bytes": 20947
     },
     {
       "path": "profile-repository.js",
-      "sha256": "32362a106cf0e613d25c053e942eaf43ee949130c353859d911e51cee5a7f1d7",
+      "sha256": "c24f21876c5daa02aefaae937939b241df1ea1cb278724196af528ab5bd75981",
       "bytes": 7091
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "path": "representative-courses.json",
-      "sha256": "1489d2351cd3e66e95337e06b558d105fef155b7e530c49a88d60419d6933857",
-      "bytes": 1292804
+      "sha256": "28f5f2746cabbc66e8d1c943377f861e087adb3c807e0bf646fc891704bd6779",
+      "bytes": 1292806
     },
     {
       "path": "sva-prerequisite.js",
@@ -88,7 +88,7 @@
     },
     {
       "path": "sw.js",
-      "sha256": "72c499d35bb0ae974597d27bee2b83dc8e384b4380a994c96c2154fa2a277167",
+      "sha256": "a019c84b0aa13df4728b2338edbd630bb70aa795818eeeface901d28f224d5af",
       "bytes": 1495
     }
   ],

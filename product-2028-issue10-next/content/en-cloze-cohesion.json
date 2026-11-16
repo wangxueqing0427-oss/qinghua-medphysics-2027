@@ -1,6 +1,6 @@
 {
   "id": "en-cloze-cohesion",
-  "version": "0.1",
+  "version": "0.1.1",
   "subject": "en",
   "title": "完形衔接入门：先读关系，再选连词",
   "reviewStatus": "draft-internal-check",
@@ -10,8 +10,8 @@
   "applicableYear": 2028,
   "scopeStatus": "teaching-supplement-exam-spec-pending",
   "mapping": [
-    "en-plan-4",
-    "en-plan-3"
+    "en-plan-5",
+    "en-plan-4"
   ],
   "prerequisites": [
     "en-reading-evidence-foundation"
