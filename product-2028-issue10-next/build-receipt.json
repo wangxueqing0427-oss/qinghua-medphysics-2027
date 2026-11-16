@@ -1,0 +1,101 @@
+{
+  "edition": "qh2028-issue10-examloop-v2-72",
+  "db": "qh2028_issue10_examloop_v2_local",
+  "journal": "qh2028_issue10_examloop_v2_pending:",
+  "cache": "qh2028-issue10-examloop-v2-72",
+  "courses": 72,
+  "questions": 812,
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "e32c4ee33ac18877ae55aaecb5724c9b29c922add2b97beaa64a422e5300f98c",
+      "bytes": 22520
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "bytes": 5686
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253
+    },
+    {
+      "path": "index.html",
+      "sha256": "d7c79903fda1a81c64e0cee5212664c136723831e8ff7715a946bcd7671a5aff",
+      "bytes": 1548
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "bytes": 16360
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "1a5587fb408117850dfff52912c71f1c330ac5a22b8a413e8310574f3860083b",
+      "bytes": 318
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "bytes": 343
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "bytes": 7132
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "bytes": 6279
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "ff4ddff53c0c07e952781dd5375dffc1f9dde65235b0eb6eb6c14b7743359ec9",
+      "bytes": 12087
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "1d4baeb6d8b545c331ed7f571dde2ef6008498c4c7c1326dec4ff1831d5e49dd",
+      "bytes": 26446
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "86233396e1e83305d9ae37828f7ba6151dc688b609ade49ef1cc9dce05bfbad8",
+      "bytes": 20947
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "32362a106cf0e613d25c053e942eaf43ee949130c353859d911e51cee5a7f1d7",
+      "bytes": 7091
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "bytes": 6752
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "1489d2351cd3e66e95337e06b558d105fef155b7e530c49a88d60419d6933857",
+      "bytes": 1292804
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "bytes": 3806
+    },
+    {
+      "path": "sw.js",
+      "sha256": "72c499d35bb0ae974597d27bee2b83dc8e384b4380a994c96c2154fa2a277167",
+      "bytes": 1495
+    }
+  ],
+  "sourceSHA": "f22770e86012ac8f1420c447bfe30440dc8e74ba",
+  "previousAssetsUnmodified": true,
+  "automaticMigration": false,
+  "expertApprovals": 0,
+  "officialFullMock": false,
+  "rollback": "https://403b3769.qh2028-core47-preview.pages.dev/"
+}

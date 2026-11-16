@@ -1,0 +1,41 @@
+{
+  "unitId": "en-cloze-cohesion",
+  "version": "0.1",
+  "sha256": "4c2e625ad43560d8f3e418b5608af0976f4742889e2cc818e3297e47afe2c129",
+  "questions": 12,
+  "objectives": 4,
+  "checks": [
+    {
+      "name": "existing engine structure/prerequisite/cycle contract",
+      "passed": true
+    },
+    {
+      "name": "existing objective/recall/question mapping",
+      "passed": true
+    },
+    {
+      "name": "12questions four per stage and unique IDs against old800",
+      "passed": true
+    },
+    {
+      "name": "each objective taught, recalled, practiced and independently retested",
+      "passed": true
+    },
+    {
+      "name": "objective grade contract, wrong-option rejection and subjective pending",
+      "passed": true
+    },
+    {
+      "name": "source, draft gate, actual original reading evidence",
+      "passed": true
+    },
+    {
+      "name": "no exact stem duplicates against existing800",
+      "passed": true
+    }
+  ],
+  "passed": 7,
+  "failed": 0,
+  "testType": "targeted local content/engine checks; not browser or expert review",
+  "independentProfessionalApprovals": 0
+}

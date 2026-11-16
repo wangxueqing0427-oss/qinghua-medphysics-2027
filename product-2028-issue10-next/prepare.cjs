@@ -1,0 +1,21 @@
+'use strict';
+const fs=require('fs'),p=require('path');const D=__dirname,prev=p.join(D,'../product-2028-issue10-exam');
+let engine=fs.readFileSync(p.join(prev,'engine.cjs'),'utf8').replaceAll('issue10-provisional-exam-1','issue10-examloop-2');
+engine=engine.replaceAll('pack?.units?.length===71','pack?.units?.length>=71').replace('const selected=subjective.length?choose(subjective,1,used):[];','const selected=subjective.length?choose(subjective,Math.min(4,subjective.length),used):[];');
+engine=engine.replace('const API=Object.freeze({SUBJECTS,','const API=Object.freeze({selfAssess,reviewQueue,answerReview,diagnose,SUBJECTS,');
+const extra=fs.readFileSync(p.join(D,'exam-extensions.txt'),'utf8');engine=engine.replace('  const API=Object.freeze',extra+'\n  const API=Object.freeze');
+fs.writeFileSync(p.join(D,'mock-engine.js'),engine);
+let ui=fs.readFileSync(p.join(prev,'mock-ui.candidate.js'),'utf8');
+ui=ui.replaceAll('issue10ProvisionalExamV1','issue10ExamLoopV2');
+ui=ui.replace('await profile.updateSettings({[KEY]:{history,current:next}});','const reviewQueue=next.submittedAt?M.reviewQueue(next,pack,global.CourseEngine,store.reviewQueue||[],new Date().toISOString()):store.reviewQueue||[];await profile.updateSettings({[KEY]:{history,current:next,reviewQueue}});');
+ui=ui.replace('store={history,current:next};current=next;','store={history,current:next,reviewQueue};current=next;');
+ui=ui.replace("const slot=mountButton();","const slot=mountButton();" );
+ui=ui.replace("const count=store.history?.length||0;","renderReviewLinks(slot);const count=store.history?.length||0;");
+ui=ui.replace("const report=M.report(current,pack,global.CourseEngine);","const report=M.report(current,pack,global.CourseEngine);const diagnosis=M.diagnose(current,pack,global.CourseEngine);");
+ui=ui.replace("'<h2>逐题核对</h2>'+rows+","'<p>严格计时：退出、后台或关闭页面均不暂停；到期后恢复时自动交卷。</p><h2>薄弱模块与下一步</h2>'+diagnosis.map(x=>'<p>'+escape(x.title)+'：客观题'+x.correct+'/'+x.objective+'；待核对'+x.pending+'。'+escape(x.next)+'</p>').join('')+'<h2>逐题核对</h2>'+rows+'<h2>主观题人工自评</h2><div id=\"exam-self-review\"></div>'+" );
+ui=ui.replace("app.querySelector('#exam-to-home').addEventListener", "renderSelfReview();app.querySelector('#exam-to-home').addEventListener");
+ui=ui.replace('  global.MockExamUI=Object.freeze',fs.readFileSync(p.join(D,'ui-extensions.txt'),'utf8')+'\n  global.MockExamUI=Object.freeze');
+// The extensions need the existing mount closure, not the outer browser module.
+ui=ui.replace('    function renderResult(){',fs.readFileSync(p.join(D,'mount-extensions.txt'),'utf8')+'\n    function renderResult(){');
+fs.writeFileSync(p.join(D,'mock-ui.js'),ui);
+console.log('Prepared exam review loop on existing engine and UI; no source payload changed');

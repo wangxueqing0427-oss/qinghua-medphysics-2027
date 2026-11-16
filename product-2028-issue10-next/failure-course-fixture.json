@@ -1,0 +1,6 @@
+{
+  "source": "browser-chromium-2.json",
+  "reason": "Synthetic prerequisites did not exercise SVO delayed subjective evidence required by SVA gate",
+  "fix": "Exercise actual delayed prerequisite responses, not bypass prerequisite or insert fake completion",
+  "runtimeChanged": false
+}

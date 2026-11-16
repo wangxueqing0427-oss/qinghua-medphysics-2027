@@ -1,0 +1,23 @@
+  function selfAssess(state,pack,questionId,points,note,now){
+    check(state,pack);invariant(state.submittedAt,'Submit before self assessment');
+    const ref=state.questions.find(q=>q.questionId===questionId);invariant(ref,'Question outside exam');const {question:q}=lookup(pack,ref);
+    invariant(q.type==='subjective'&&Object.hasOwn(state.answers,questionId),'Only an answered subjective question may be self reviewed');
+    invariant(Array.isArray(points)&&new Set(points).size===points.length&&points.every(n=>Number.isInteger(n)&&n>=0&&n<q.rubric.length),'Invalid rubric points');invariant(typeof note==='string'&&note.length<=10000&&Number.isFinite(Date.parse(now)),'Invalid self assessment');
+    const next=structuredClone(state);next.selfAssessments={...next.selfAssessments,[questionId]:{points:[...points],note,at:now,method:'learner-self-check',score:null,expertApproved:false}};return next;
+  }
+  function reviewQueue(state,pack,engine,existing,now){
+    const r=report(state,pack,engine),rows=new Map(existing.map(x=>[x.id,x]));
+    for(const row of r.rows){if(row.answer===null||row.grade?.correct===true)continue;const id=state.id+':'+row.ref.questionId;if(rows.has(id))continue;
+      rows.set(id,{id,examId:state.id,ref:row.ref,kind:row.type==='subjective'?'subjective-pending':'objective-wrong',originalAnswer:row.answer,history:[],due:new Date(Date.parse(now)+86400000).toISOString(),successes:0});}
+    return [...rows.values()];
+  }
+  function answerReview(queue,id,pack,engine,answer,now,cause='unclassified'){
+    const time=Date.parse(now);invariant(Number.isFinite(time),'Invalid review time');const row=queue.find(x=>x.id===id);invariant(row,'Review not found');invariant(time>=Date.parse(row.due),'Review not due; keep delayed test independent');
+    const {question:q}=lookup(pack,row.ref),value=normalize(q,answer);invariant(value!==null,'Independent answer required');const grade=engine.grade(q,value),next=structuredClone(queue),target=next.find(x=>x.id===id);
+    invariant(!row.history.some(h=>h.at===now),'Duplicate review submission');target.history.push({answer:value,at:now,grade,cause});target.successes=grade.correct===true?row.successes+1:0;
+    const days=grade.correct===true?[1,3,7,14,30][Math.min(target.successes-1,4)]:1;target.due=new Date(time+days*86400000).toISOString();target.kind=grade.correct===null?'subjective-pending':grade.correct?'objective-retested':'objective-wrong';return next;
+  }
+  function diagnose(state,pack,engine){
+    const r=report(state,pack,engine),groups=new Map();for(const row of r.rows){let g=groups.get(row.ref.unitId);if(!g){g={unitId:row.ref.unitId,title:row.unitTitle,objective:0,correct:0,pending:0,unanswered:0};groups.set(row.ref.unitId,g);}if(row.answer===null)g.unanswered++;else if(row.type==='subjective')g.pending++;if(row.type!=='subjective'){g.objective++;if(row.grade?.correct)g.correct++;}}
+    return [...groups.values()].map(g=>({...g,next:g.correct<g.objective?'重学本课概念，完成错题到期独立重答。':g.pending?'对照评分要点自评，主观题仍待专业核对。':g.unanswered?'补做未答题。':'后续延迟测试验证，不等同持续掌握。'}));
+  }

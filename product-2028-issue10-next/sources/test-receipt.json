@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "checks": 10,
+  "scope": "six source-row IDs and hashes, queue arithmetic, source locators, expert flags; not scientific expert review",
+  "professionalApprovals": 0
+}

@@ -1,0 +1,11 @@
+{
+  "browser": "chromium",
+  "attempt": 2,
+  "checks": [
+    "new namespace does not load old profile"
+  ],
+  "passed": false,
+  "physicalIPhone": false,
+  "syntheticOnly": true,
+  "error": "page.evaluate: Error: 请先完成先修课程的闭卷回忆和客观练习，再开始本课\n    at Object.load (http://127.0.0.1:55876/next/learning-controller.js:7:247)\n    at async ready (eval at evaluate (:311:30), <anonymous>:1:189)\n    at async ready (eval at evaluate (:311:30), <anonymous>:1:167)\n    at async ready (eval at evaluate (:311:30), <anonymous>:1:167)\n    at async eval (eval at evaluate (:311:30), <anonymous>:1:708)\n    at async <anonymous>:337:30\n    at C:\\Users\\王学庆\\Desktop\\清华大学\\outputs\\issue10-q0-revision-2026-11-16\\candidate\\product-2028-issue10-next\\browser.cjs:6:12"
+}

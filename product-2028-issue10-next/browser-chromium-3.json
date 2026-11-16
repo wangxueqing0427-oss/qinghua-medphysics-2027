@@ -1,0 +1,19 @@
+{
+  "browser": "chromium",
+  "attempt": 3,
+  "checks": [
+    "new namespace does not load old profile",
+    "new cloze course original teaching, closed recall and all12practice/delayed questions through actual UI",
+    "353actual24question paper, subjective raw text, objective error, rubric self-check and review archive",
+    "polactual24question paper, subjective raw text, objective error, rubric self-check and review archive",
+    "enactual24question paper, subjective raw text, objective error, rubric self-check and review archive",
+    "closed tab restores exams, raw text, self assessments and history",
+    "due exam error independent answer updates evidence and next due",
+    "181minute test-clock deadline auto-submits while retaining pre-deadline draft",
+    "backup restore clones exact exam history and review queue",
+    "real TCP outage fresh navigation restores exam and old isolated profile untouched"
+  ],
+  "passed": true,
+  "physicalIPhone": false,
+  "syntheticOnly": true
+}

@@ -1,6 +1,6 @@
 'use strict';
 if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-16-issue10-q0-content-fix'){
-require('../product-2028-issue10-integration/pages-build.cjs');
+require('../product-2028-issue10-next/pages-build.cjs');
 }else{
 'use strict';
 // ENGINEERING ONLY: package existing 47 drafts plus the six-question SVO update.
