@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-17",
+  "checks": [
+    {
+      "name": "new exact queue entries with traceable current hashes",
+      "passed": true
+    },
+    {
+      "name": "independent answer agreement",
+      "passed": true
+    },
+    {
+      "name": "241 minus7 unique entries equals234",
+      "passed": true
+    },
+    {
+      "name": "draft and failure boundaries retained",
+      "passed": true
+    },
+    {
+      "name": "all protected course bytes unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "514b8826e21a4c46c29d0ba99d989dbe3fabedf7cb89e49051c768a614c56dd4"
+}

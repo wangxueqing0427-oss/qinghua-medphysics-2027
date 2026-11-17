@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-17",
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "load into existing pack without duplicate or missing prerequisite",
+      "passed": true
+    },
+    {
+      "name": "measurable targets and all phase mappings",
+      "passed": true
+    },
+    {
+      "name": "exactly12unique new questions, no old stem duplication",
+      "passed": true
+    },
+    {
+      "name": "every objective distractor grades false, reference grades true",
+      "passed": true
+    },
+    {
+      "name": "subjective alternative boundaries remain reference-only",
+      "passed": true
+    },
+    {
+      "name": "actual recall and long answers survive event serialization",
+      "passed": true
+    },
+    {
+      "name": "subjective pending not wrong; delayed evidence no score prediction",
+      "passed": true
+    },
+    {
+      "name": "released pack remains unchanged and new draft withheld",
+      "passed": true
+    }
+  ],
+  "courseHash": "78518f5be52b9cffc23626028fbbff8fd2eec134861ab603e415df1de2e9af2d",
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "questions": 12,
+  "objectives": 4,
+  "browserVerified": false,
+  "expertApproved": false,
+  "scope": "isolated content and existing engine simulation, not browser persistence or iPhone"
+}

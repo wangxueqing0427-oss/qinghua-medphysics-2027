@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-17",
+  "command": "node product-2028-issue10-papers/sources/screening-payment-followup.cjs",
+  "exitCode": 1,
+  "id": "353-screening-test-foundation-b1",
+  "error": "original question SHA assertion failed",
+  "historicalQueueHash": "7d93644d3e13e0768baea91b225d90e9498f7ee6e044a805c0eccee6292a09e5",
+  "currentQuestionHash": "4a8cb4ca679753b206d0f60450f9a8e0a48b1b39fb2ee5977815f37e3ee31693",
+  "cause": "queue retained pre-revision stem; prior Q0 ledger explicitly contains exact old and new hashes and both texts",
+  "repair": "verify complete 241-question queue against exact prior ledger transitions, retaining old hashes and originals; no course or answer edit and no bypass of hash assertions"
+}

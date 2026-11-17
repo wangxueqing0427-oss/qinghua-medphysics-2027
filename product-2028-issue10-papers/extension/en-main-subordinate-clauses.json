@@ -1,0 +1,333 @@
+{
+  "id": "en-main-subordinate-clauses",
+  "version": "0.1",
+  "subject": "en",
+  "title": "长句起步：主句、原因从句与让步从句",
+  "writtenAt": "2026-11-17",
+  "applicableYear": 2028,
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "scopeStatus": "teaching-supplement-exam-spec-pending",
+  "authorship": "原创中文说明、例句及题目；来源用于核对语法，不复制教材练习。",
+  "mapping": [
+    "en-plan-3"
+  ],
+  "prerequisites": [
+    "en-linking-and-verb-phrase",
+    "en-cloze-cohesion"
+  ],
+  "sources": [
+    "https://africa.teachingenglish.org.uk/classroom/grammar/subordinating-conjunctions",
+    "https://our-languages.canada.ca/en/writing-tips-plus/subordinating-conjunctions"
+  ],
+  "sourceEvidence": [
+    {
+      "url": "https://africa.teachingenglish.org.uk/classroom/grammar/subordinating-conjunctions",
+      "published": "2023-01-02",
+      "accessed": "2026-11-17",
+      "status": "body-read",
+      "locator": "Stage2 body, lines32–36",
+      "supports": "主从连接与关系；不作2028考试规范依据"
+    },
+    {
+      "url": "https://our-languages.canada.ca/en/writing-tips-plus/subordinating-conjunctions",
+      "published": null,
+      "modified": "2021-08-30",
+      "accessed": "2026-11-17",
+      "status": "body-read",
+      "locator": "Definitions and joining clauses sections, lines31–65; cause/contrast categories",
+      "supports": "依附从句与正式书面残句的基础解释；不推广到省略和所有语用环境"
+    }
+  ],
+  "explanation": "一条长句里可以有不止一组“谁＋做什么”。先复习：Mia reads the note（米娅读便条）中Mia是主语，reads是谓语动词，the note是宾语。现在看Mia reads the note because the room is noisy（米娅读便条，因为房间很吵）。前半仍是完整陈述；because后面另有主语the room与谓语is。noisy表示状态，不能把is删掉。读长句先找两组主谓，再判断各组怎样连接，不要把所有名词都塞进同一个SVO。\n\n本课用基础语法术语：主句是能独立作完整陈述的部分；从句依附主句，由连接成分引入，提供原因、让步等信息。because the room is noisy单独作为正式说明文中的完整句子不足，需要接上主句。注意日常对话回答Why?时可以只说Because…；本课“残句”判断限定为独立的正式书面陈述，不把对话省略一概判错。一个从句有主谓，不代表它就能独立成句；连接词也决定结构。\n\nbecause说明给出的原因；although先承认一种情况，再说与通常预期相反的事实。例如Although the hall is small, the group holds meetings there（虽然大厅小，小组仍在那里开会）。主句是the group holds meetings there：小组做什么？在那里开会。although从句为the hall is small：大厅处于什么状态？小。small前的is不能删。小不等于不能开会，句子承认条件而非断言因果。先译“虽然……，仍……”帮助理解，但英文这一基础结构不在同一句同时用although与but连接同一对分句。\n\n先后位置不等于主从身份。The group holds meetings there although the hall is small与上一例保持主从关系。这里把让步从句放前时通常用逗号隔开；放后时本课例句不加逗号，但不要把所有修辞语境的标点说成唯一规则。读句四步：圈连接词→标每组主谓→找不含该从属连接词的主句→说明从句关系。本课仅处理because/although引导的完整基础分句；非限定从句、非谓语省略和嵌套另学。\n\n分步例题：Because the printer is broken, Omar writes a note. 词汇printer打印机、broken坏了的、writes写、note便条。①连接词because在开头；②原因组the printer/is/broken，主句组Omar/writes/a note；③抽掉原因信息后Omar writes a note仍成立；④原句说明写便条的原因，不是便条导致打印机坏。重组为Omar writes a note because the printer is broken仍保留这里的原因关系。不能改成Because the printer is broken. Omar writes a note.再把前一句当正式完整陈述。\n\n从读到写：给定事实“The desk is old. It is still useful.”若要表达“虽然旧但仍好用”，可写Although the desk is old, it is still useful. 注意it指the desk，每组状态都有is。主观回答允许用中文解释或用括号标边界，标注格式不是考点；必须保留两个事实及让步关系。复习时换句再拆，写出自己的主句、从句和理由；仅背连接词译法不算完成。本课不自动给主观专业分数；错因可记“只按先后找主句”“漏掉系动词”“把原因当让步”“书面残句”。",
+  "definition": "本课主句可独立陈述；because/although从句给出原因/让步，依附主句。",
+  "conditions": "限定基础完整分句和正式书面陈述；不评价对话省略或高级嵌套。2028考试细则未确认。",
+  "example": "分步例题：Because the printer is broken, Omar writes a note. 词汇printer打印机、broken坏了的、writes写、note便条。①连接词because在开头；②原因组the printer/is/broken，主句组Omar/writes/a note；③抽掉原因信息后Omar writes a note仍成立；④原句说明写便条的原因，不是便条导致打印机坏。重组为Omar writes a note because the printer is broken仍保留这里的原因关系。不能改成Because the printer is broken. Omar writes a note.再把前一句当正式完整陈述。",
+  "misconceptions": [
+    "把首组主谓必当主句",
+    "有主谓就必能独立成句",
+    "although和but重复连接同一对分句",
+    "把原因当让步或把地点当宾语"
+  ],
+  "recall": [
+    "闭卷画出两组主谓，并说明连接词不等于谓语。",
+    "闭卷解释because从句在独立正式书面说明中为何需要主句。",
+    "闭卷区别because原因与although让步，给原创例句。",
+    "闭卷复述找长句骨架的四步及地点信息的定位。"
+  ],
+  "rubric": [
+    "主从边界",
+    "完整主谓",
+    "关系与范围",
+    "允许多种合理表达"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "换新句独立标主从、关系与地点；主观待核不自动判错。"
+  },
+  "reviewRecord": {
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "待教师核查语法自然度及答案接受边界",
+      "尚未接入已发布候选或完成新课移动浏览器验收"
+    ]
+  },
+  "teachingSections": [
+    {
+      "id": "s1",
+      "explanationParagraph": 0
+    },
+    {
+      "id": "s2",
+      "explanationParagraph": 1
+    },
+    {
+      "id": "s3",
+      "explanationParagraph": 2
+    },
+    {
+      "id": "s4",
+      "explanationParagraph": 3
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "en-main-subordinate-clauses-g1",
+      "description": "识别两组主谓",
+      "successCriteria": "能在新句中分别标出每组主语和谓语",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "en-main-subordinate-clauses-b1",
+        "en-main-subordinate-clauses-a1",
+        "en-main-subordinate-clauses-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "en-main-subordinate-clauses-g2",
+      "description": "发现并修复书面从句残句",
+      "successCriteria": "保留事实并补出主句，说明语用限定",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "en-main-subordinate-clauses-b2",
+        "en-main-subordinate-clauses-a2",
+        "en-main-subordinate-clauses-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "en-main-subordinate-clauses-g3",
+      "description": "区分原因与让步",
+      "successCriteria": "选择或写出与给定关系一致的because/although合句",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "en-main-subordinate-clauses-b3",
+        "en-main-subordinate-clauses-a3",
+        "en-main-subordinate-clauses-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "en-main-subordinate-clauses-g4",
+      "description": "按结构找主句而非按顺序猜",
+      "successCriteria": "标出主从及地点，并解释连接结构",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "en-main-subordinate-clauses-b4",
+        "en-main-subordinate-clauses-a4",
+        "en-main-subordinate-clauses-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "basicQuestions": [
+    {
+      "id": "en-main-subordinate-clauses-b1",
+      "type": "single",
+      "stem": "Mia reads the note because the room is noisy. 哪项正确划分两组主谓？",
+      "options": [
+        "Mia/reads；the room/is",
+        "the note/because；noisy/reads",
+        "Mia/noisy；room/note"
+      ],
+      "answer": 0,
+      "explanation": "前组动作reads，后组状态is noisy；the note是reads的宾语，because不是谓语。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "en-main-subordinate-clauses-b2",
+      "type": "single",
+      "stem": "独立正式书面陈述中，哪项结构完整？",
+      "options": [
+        "Because the door is heavy.",
+        "Because the door is heavy, Ada pushes it slowly.",
+        "Although the door heavy."
+      ],
+      "answer": 1,
+      "explanation": "B有原因从句及主句；A缺主句，C还缺状态动词is。本题不评价对话中Because…省略回答。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "en-main-subordinate-clauses-b3",
+      "type": "single",
+      "stem": "Although the box is old, it is useful. although在此表达什么？",
+      "options": [
+        "直接原因",
+        "把两个句子变成疑问",
+        "让步：承认旧，仍说明有用"
+      ],
+      "answer": 2,
+      "explanation": "old与useful并不逻辑矛盾；句子承认旧而指出仍有用，不说旧导致有用。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "en-main-subordinate-clauses-b4",
+      "type": "single",
+      "stem": "The team waits because the gate is closed. 哪项为主句？",
+      "options": [
+        "because the gate is closed",
+        "The team waits",
+        "the gate is"
+      ],
+      "answer": 1,
+      "explanation": "The team waits可独立陈述，原因从句在后；不是看到最后一组主谓就认作主句。",
+      "difficulty": "foundation"
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "en-main-subordinate-clauses-a1",
+      "type": "subjective",
+      "stem": "Because the lamp is broken, Noor reads the paper near the window. 标出两组主谓、主句和原因从句；词汇lamp灯、broken坏了的、near在附近。",
+      "answer": "主句Noor reads the paper near the window，主语Noor、谓语reads；原因从句Because the lamp is broken，主语the lamp、谓语is，broken为状态。near the window为地点信息。",
+      "rubric": [
+        "正确给出主句和从句边界",
+        "识别Noor/reads及the lamp/is",
+        "说明because引出原因，地点不是宾语"
+      ],
+      "explanation": "可用中文或括号标注，不要求固定标注格式；把is broken视作谓语整体也接受，但不能把broken单独当有限谓语。",
+      "difficulty": "application"
+    },
+    {
+      "id": "en-main-subordinate-clauses-a2",
+      "type": "subjective",
+      "stem": "独立正式书面说明：Because the road is wet. The driver moves slowly. 在不增添事实的前提下修成一句，并解释理由。",
+      "answer": "Because the road is wet, the driver moves slowly. 或The driver moves slowly because the road is wet. 原来的because从句不能独立作为本题要求的正式完整陈述。",
+      "rubric": [
+        "保留路湿与司机慢行两个事实",
+        "用because从句连接主句",
+        "解释修复书面残句，不否定对话省略"
+      ],
+      "explanation": "两种顺序均收；不以大小写之外的格式差异拒收，不能增添事故、必然安全等事实。",
+      "difficulty": "application"
+    },
+    {
+      "id": "en-main-subordinate-clauses-a3",
+      "type": "single",
+      "stem": "给定事实：The bag is small. It holds many books. 哪项用基础让步结构准确合句？",
+      "options": [
+        "Although the bag is small, but it holds many books.",
+        "Because the bag is small, it holds many books.",
+        "Although the bag is small, it holds many books."
+      ],
+      "answer": 2,
+      "explanation": "C承认包小但能装许多书。A在本课单一主从结构重复although/but；B强加原因，原事实未支持。",
+      "difficulty": "application"
+    },
+    {
+      "id": "en-main-subordinate-clauses-a4",
+      "type": "subjective",
+      "stem": "The shop stays open although the street is quiet. 指出主句及从句，解释为什么不能只凭出现顺序判断；词汇stays open保持营业、quiet安静的。",
+      "answer": "主句The shop stays open；让步从句although the street is quiet。主从由连接结构决定，虽然让步从句在后，仍不是主句。",
+      "rubric": [
+        "主句识别正确",
+        "让步从句边界正确",
+        "用连接结构解释而非位置"
+      ],
+      "explanation": "stays open可整体标为谓语结构；不要求把open误认宾语。不接受推断所有安静街道店铺必然开门。",
+      "difficulty": "application"
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "en-main-subordinate-clauses-d1",
+      "type": "single",
+      "stem": "隔日新句：Although the path is narrow, Leo carries the basket carefully. 哪项给出主句主语与谓语动词？词汇narrow窄、carries携带。",
+      "options": [
+        "the path/is",
+        "Leo/carries",
+        "the basket/carefully"
+      ],
+      "answer": 1,
+      "explanation": "主句Leo carries the basket carefully；前面although从句描述路窄，不能把首组主谓当主句。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "en-main-subordinate-clauses-d2",
+      "type": "subjective",
+      "stem": "隔日：Because the screen is dark. 作为独立正式书面陈述有什么问题？补一条不自称真实事件的原创主句，并解释。",
+      "answer": "此为because引导的原因从句，缺主句。假设例：Because the screen is dark, Eva turns on a lamp. 其他合理主句也接受，须保留完整主谓和原因关系。",
+      "rubric": [
+        "识别从句而非断言dark不是词",
+        "补出合理完整主句",
+        "说明为原创假设，接受多种主句"
+      ],
+      "explanation": "不限定参考中的人名或动作；如I check the cable也可，不对原因真实性、设备故障诊断作断言。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "en-main-subordinate-clauses-d3",
+      "type": "subjective",
+      "stem": "隔日：The room is noisy. The students continue reading. 用although合句，译出关系，不添加考试成绩等结论。",
+      "answer": "Although the room is noisy, the students continue reading. 或The students continue reading although the room is noisy. 虽然房间吵，学生仍继续阅读。",
+      "rubric": [
+        "保留两组主谓",
+        "使用让步关系且不重复but",
+        "不额外推断成绩或所有学生能力"
+      ],
+      "explanation": "允许合理语序及中文措辞；continue reading整体为动作结构，不将reading误作第二主语。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "en-main-subordinate-clauses-d4",
+      "type": "subjective",
+      "stem": "隔日新句：Although the library is busy, Lin writes a letter at a small table. 标出主句、让步从句和地点信息，并说明主句为何不是最先出现的部分。",
+      "answer": "主句Lin writes a letter at a small table；从句Although the library is busy；地点at a small table。although引导依附信息，先后不是主从标准。",
+      "rubric": [
+        "主从边界与关系正确",
+        "Lin/writes识别正确",
+        "地点短语不是新的主谓组",
+        "解释连接结构决定主从"
+      ],
+      "explanation": "主句只写Lin writes a letter并另标地点也接受；is busy整体谓语标注可收。",
+      "difficulty": "delayed-transfer"
+    }
+  ]
+}
