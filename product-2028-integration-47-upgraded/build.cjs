@@ -1,5 +1,7 @@
 'use strict';
-if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-16-issue10-q0-content-fix'){
+if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-17-clause-continuation'){
+require('../product-2028-issue10-papers/extension/pages-build.cjs');
+}else if(process.env.CF_PAGES_BRANCH==='candidate/2026-11-16-issue10-q0-content-fix'){
 require('../product-2028-issue10-papers/pages-build.cjs');
 }else{
 'use strict';

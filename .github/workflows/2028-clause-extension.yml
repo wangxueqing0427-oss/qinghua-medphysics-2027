@@ -2,7 +2,7 @@ name: Scoped clause course continuation
 on:
   push:
     branches: [candidate/2026-11-17-clause-continuation]
-    paths: [product-2028-issue10-papers/extension/**, .github/workflows/2028-clause-extension.yml]
+    paths: [product-2028-issue10-papers/extension/.build/**, product-2028-issue10-papers/extension/browser.cjs, product-2028-issue10-papers/extension/clause-course-test.cjs, product-2028-issue10-papers/extension/en-main-subordinate-clauses.json, product-2028-issue10-papers/extension/verify.cjs]
 permissions:
   contents: read
 jobs:

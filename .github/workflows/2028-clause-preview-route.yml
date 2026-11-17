@@ -1,0 +1,17 @@
+name: Clause preview routing safety
+on:
+  push:
+    branches: [candidate/2026-11-17-clause-continuation]
+    paths: [product-2028-issue10-papers/ci-gate.cjs, product-2028-issue10-papers/extension/pages-build.cjs, product-2028-issue10-papers/extension/preview-config.json, product-2028-issue10-papers/extension/route-test.cjs, product-2028-integration-47-upgraded/build.cjs, .github/workflows/2028-clause-preview-route.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: node product-2028-issue10-papers/extension/route-test.cjs
+      - run: node product-2028-issue10-papers/extension/verify.cjs
