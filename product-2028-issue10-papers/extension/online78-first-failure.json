@@ -1,0 +1,13 @@
+{
+  "run": 44031217333,
+  "job": 133863352425,
+  "sha": "4e2fa60df645b8fcd5103ce5abde63c8c690d44a",
+  "url": "https://9d82d56a.qh2028-core47-preview.pages.dev/",
+  "assetsMatched": 17,
+  "browsersCompleted": 0,
+  "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading 'units')",
+  "rootCause": "New count assertion ran after navigation but before async course fetch/home rendering. Existing #name fill had waited implicitly; count assertion newly preceded it.",
+  "minimalFix": "Wait for actual #create visible after app course fetch; keep78count,17hash, both browser and erratum assertions unchanged.",
+  "runtimeAssetsChanged": false,
+  "firstFailureRetained": true
+}
