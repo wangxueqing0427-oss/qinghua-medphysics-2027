@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17",
+  "runId": 44013739755,
+  "jobId": 133806583594,
+  "testedSHA": "d6e86aa7b9df445e9a1399c18ac67c1ce09fcd13",
+  "successfulScope": "8 content checks; both new lessons each Chromium and WebKit full answer/backup/offline paths passed",
+  "failedScope": "Chromium actual75-to77 SW upgrade",
+  "error": "new SW did not control page within30s",
+  "rootCause": "prior edition and cache identifiers were the same string; replacing edition first consumed the cache token. Manifest claimed cachev2 while actual sw.js still named cachev1, byte-identical to old worker.",
+  "repair": "set generated SW CACHE explicitly from manifest cache, preserve data edition and DB; add direct manifest-to-SW contract assertion and rerun actual upgrade only",
+  "originalRecordsModified": false,
+  "assertionsRemoved": false
+}
