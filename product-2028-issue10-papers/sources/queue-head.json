@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "practice-epistemology-followup.json",
-  "activeEvidenceSHA256": "3e8d2ee2c8da7a3517f7cd8a8028ea391431b88223fbd3bec810b68840ea9c50",
-  "remainingCount": 126,
-  "remainingIdsSHA256": "123f32053bd39a408b1d97644b727d36539ef45babe9c59c46b718d3af885b7b",
+  "activeEvidenceFile": "pronoun-relative-followup.json",
+  "activeEvidenceSHA256": "490436a1c241289698efe5925c19364d9f6a8eb7557dd1a0dfdd538e9acf34b6",
+  "remainingCount": 108,
+  "remainingIdsSHA256": "06d0825c295f9545723361908b7c63a543917620e72440417c31c85a67ef6183",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "126 active IDs; limited conceptual sources do not equal full question or independent approval.",
+  "warning": "108 active IDs; bounded source anchors are not full question or independent approval.",
   "expertApprovals": 0
 }

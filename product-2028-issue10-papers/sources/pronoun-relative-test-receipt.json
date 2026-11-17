@@ -1,0 +1,12 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    "18 exact hashes",
+    "independent answer selections agree",
+    "126 minus18 exact108 IDs",
+    "protected original pack unchanged"
+  ],
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "490436a1c241289698efe5925c19364d9f6a8eb7557dd1a0dfdd538e9acf34b6"
+}

@@ -1,0 +1,658 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 126,
+  "newDirectSubclaimAnchors": 18,
+  "remainingQueueCount": 108,
+  "rows": [
+    {
+      "id": "en-pronoun-reference-b1",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "题给The bags are blue.用代词替换bags，选？",
+        "options": [
+          "They are blue.",
+          "It are blue.",
+          "Them are blue."
+        ],
+        "answer": 0,
+        "explanation": "bags复数作主语需they；B数不符，C把宾格作本课主语。blue意为蓝色，bags是包。",
+        "id": "en-pronoun-reference-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "52788ec2aa5a31e159878ac8f517afa28db27b753ca2e61c3fe8bdb2f763da89",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-b2",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "She helps ___，题给对象是一个男孩Omar。",
+        "options": [
+          "he",
+          "him",
+          "his"
+        ],
+        "answer": 1,
+        "explanation": "helps的对象作宾语，him合适；he为主格，his为所属形式，不符合本题角色。",
+        "id": "en-pronoun-reference-b2",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "8c2bb70b43fd7241ee15978223e255033c0a2e0f145d706d4fba0d0c768c0566",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-b4",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "题给Lena helps Omar且Omar用he/him，替换宾语正确？",
+        "options": [
+          "Lena helps him.",
+          "He helps Lena.",
+          "Lena helps he."
+        ],
+        "answer": 0,
+        "explanation": "A保留主体和动作对象；B调换角色，C未用宾格。不能因词语相同就认定意义保持。",
+        "id": "en-pronoun-reference-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "18ca25aa1b152cf92e36899bf8ad187fb42bd738d7246d9e388c986e54ae1857",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-a1",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "明确指向两本书，___ are new.应选？",
+        "options": [
+          "It",
+          "They",
+          "Them"
+        ],
+        "answer": 1,
+        "explanation": "两本书是复数主体，选They；It单数，Them为宾格。new是新的，不影响代词格。",
+        "id": "en-pronoun-reference-a1",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "a18418b0845bf7b77112ab97df661f4c5b44fd42d1347e9db9165bf3c80080ad",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-a2",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "I go with ___，题给对象为复数they所指的人。",
+        "options": [
+          "they",
+          "their",
+          "them"
+        ],
+        "answer": 2,
+        "explanation": "介词with后用宾格them；they为主格，their为所有格限定形式，二者不适用于本题位置。",
+        "id": "en-pronoun-reference-a2",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "71a2085328591ac6bffdce6af3d9f29656665c2a05d587d019dbbfe268a99a7d",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-a3",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "题给The pupils carried the boxes. They were tired.且明确疲倦的是学生，they指？",
+        "options": [
+          "pupils",
+          "boxes",
+          "一定无法确定"
+        ],
+        "answer": 0,
+        "explanation": "题干已给疲倦对象为学生，A有依据；B只抓最近名词，C忽略额外语境。pupils为学生。",
+        "id": "en-pronoun-reference-a3",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "d59c51cc60fc514e6f4bafb0998d7217704016dea25a2ee4abae7a505fbe0542",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-d1",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：已知两名同学为主体，___ study here。",
+        "options": [
+          "Them",
+          "They",
+          "Him"
+        ],
+        "answer": 1,
+        "explanation": "两人作主语需They；Them宾格，Him单数宾格。不能因中文他们就任意选同义形式。",
+        "id": "en-pronoun-reference-d1",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "1486933d791ffd274cc35ac870acd2cbd989925677100107401ee664d1be5711",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-d2",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：Please call ___，指说话者我。",
+        "options": [
+          "I",
+          "my",
+          "me"
+        ],
+        "answer": 2,
+        "explanation": "call后说话者作对象，用me；I为主格，my为限定所属，均不能替换本题宾语。",
+        "id": "en-pronoun-reference-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "815fb61eed66d7fd0e8ef826c04e756a9d86fbe22ab5b2d5de9980b518bc163a",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "personal",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-b1",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "The girl who carries a map is our guide的主句骨架是？",
+        "options": [
+          "The girl is our guide.",
+          "who carries a map",
+          "The map is our guide."
+        ],
+        "answer": 0,
+        "explanation": "修饰段who carries a map限定girl；主句girl is guide。B只是从句，C换了主体，不能按最近名词猜。",
+        "id": "en-defining-relative-foundation-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "9319fd4048d2bb1a2d51778f860c0ea86fb0cf2d0f6d59ea99f8f45db893816e",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-b2",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "本课限定性从句指物：The tool ___ helps us is new，给定选项哪项正确？",
+        "options": [
+          "who",
+          "which",
+          "he"
+        ],
+        "answer": 1,
+        "explanation": "tool是物，which在从句作主语。A按本课不指该物，C不是此处关系词；that也可用但未设为竞争选项。",
+        "id": "en-defining-relative-foundation-b2",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "eb1617ac4b2287f5f57e54857cfcf660eca6876cd5e179c322029d3deb6373a8",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-b3",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "The man who helps us is kind中who的角色是？",
+        "options": [
+          "主句宾语",
+          "从句宾语",
+          "从句主语"
+        ],
+        "answer": 2,
+        "explanation": "who对应man，执行helps的动作，是从句主语。A把句层混淆，B误判helps前主体；此位置本课不能省略。",
+        "id": "en-defining-relative-foundation-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "b367c5034966d2b3f46eb5f5b1cbc99ed0edec8d40fbf32f75e8739a01cc0acd",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-b4",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "The books that she reads ___ useful，主句谓语应选？",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 0,
+        "explanation": "主句主体books为复数，选are；she只是从句主体，不能因离空格近而控制主句一致关系。",
+        "id": "en-defining-relative-foundation-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "9baa9bbca3c6304740735be4742c4d1a8c16eeb4b9b2c33e923f16d5d921f107",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-a1",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "The doctor who works here is friendly里限定doctor的部分是？",
+        "options": [
+          "is friendly",
+          "who works here",
+          "The doctor"
+        ],
+        "answer": 1,
+        "explanation": "who works here说明哪位医生；A是主句述语，C是被修饰名词，不是修饰从句本身。",
+        "id": "en-defining-relative-foundation-a1",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "703ad488f8c6fb5ee3217507b8bd0932bc53847b29f3ba0fd0ac1def5cd8a683",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-a2",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "本课限定性从句指人：The teacher ___ helps me is patient，选？",
+        "options": [
+          "which",
+          "it",
+          "who"
+        ],
+        "answer": 2,
+        "explanation": "teacher是人，用who作从句主语；which不用于本题给定人，it会造成两个普通句硬接，不是关系引导。",
+        "id": "en-defining-relative-foundation-a2",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "a310ecd9dc8b373051a24e83bfc0e506b6c2e0eb732f5033b5aafdbd45d3cf25",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-a3",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "哪句符合本课宾语关系词省略规则？",
+        "options": [
+          "The book I read is short.",
+          "The student helps me is kind.",
+          "The book that I read it is short."
+        ],
+        "answer": 0,
+        "explanation": "A中I是从句主语，book对应宾语可省that。B删掉本应充当从句主语的who，C重复宾语it。",
+        "id": "en-defining-relative-foundation-a3",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "23df08c5c7e125a5af2e3f70bb96a6e584da8b0a6781740b95f234f053da9f89",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "object-omission",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-d1",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：The report that we need is ready的主句是？",
+        "options": [
+          "we need the report",
+          "The report is ready.",
+          "that we need"
+        ],
+        "answer": 1,
+        "explanation": "主句report is ready，从句that we need限定report。A是恢复的从句意思，C只修饰片段，不等于全句骨架。",
+        "id": "en-defining-relative-foundation-d1",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "26a91daedd4d5bd763714ef6ceedb513d17164a636441ad5389e6a70480742d8",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-d2",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "指定物、限定性从句：The bag ___ is on the chair is mine，选？",
+        "options": [
+          "who",
+          "she",
+          "that"
+        ],
+        "answer": 2,
+        "explanation": "that指bag并在从句作主语；A按本课不指物，B是普通代词。that在这里不等于可以任意省略。",
+        "id": "en-defining-relative-foundation-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "b0bb628a9aba0c3225fd99b0db1b9330cac5a4ab415dae2c34f7bfbada530967",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "relative",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-defining-relative-foundation-d3",
+      "course": "en-defining-relative-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "The letter that Tom wrote is long中，哪项正确？",
+        "options": [
+          "that作从句宾语，本课可省略。",
+          "that作从句主语，必须省略。",
+          "省略that后必须补it。"
+        ],
+        "answer": 0,
+        "explanation": "Tom是wrote的主语，letter对应宾语，故可省that；B角色倒置，C会重复宾语，破坏结构。",
+        "id": "en-defining-relative-foundation-d3",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "a52adcbf9f44e3ff0156575739a54b407707a47b3e4dbcb2ea46c624fe923124",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "object-omission",
+      "limits": "Bounded elementary examples; no claim that nearest noun always controls reference, that all subordinate clauses are relative clauses, or all relatives allow omission.",
+      "minimalRevision": "No confirmed answer change; keep defining-clause and subject/object conditions.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "personal": {
+      "sourceId": "BC_PERSONAL",
+      "support": "Subject/object forms are distinguished; object form follows the verb or preposition. Referent judgments here retain explicit information supplied by the question.",
+      "locator": "HTML7–28,45–59,72–77"
+    },
+    "relative": {
+      "sourceId": "BC_RELATIVE",
+      "support": "Defining clauses identify the noun; who/that can refer to people and which/that to things. Separating the modifying clause leaves the stated main clause; plural agreement reuses previously read BC be table.",
+      "locator": "HTML25–45 and original examples9–13"
+    },
+    "object-omission": {
+      "sourceId": "BC_RELATIVE",
+      "support": "In the stated defining clauses the object relative pronoun may be omitted; a subject gap cannot be replaced by simply dropping the linker, nor duplicated with it.",
+      "locator": "HTML59–69 and examples12–13"
+    }
+  },
+  "sources": [
+    {
+      "id": "BC_PERSONAL",
+      "publisher": "British Council LearnEnglish",
+      "title": "Personal pronouns",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/personal-pronouns",
+      "actualRead": "Main body7–28,45–59,72–77. Lower user/teacher comment discussion not used to discharge unresolved ambiguous-reference b3/d3.",
+      "version": "Live educational body accessed2026-11-17; exact publication/revision date not re-established."
+    },
+    {
+      "id": "BC_RELATIVE",
+      "publisher": "British Council LearnEnglish",
+      "title": "Relative clauses: defining relative clauses",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/relative-clauses-defining-relative-clauses",
+      "actualRead": "Main body9–13,23–69, including defining function, who/which/that and object omission. Not search excerpt or lower comments.",
+      "version": "Live educational body accessed2026-11-17; exact publication/revision date not re-established."
+    }
+  ],
+  "reusedEvidence": {
+    "file": "tense-passive-followup.json",
+    "id": "BC_BE",
+    "scope": "Already actually read present be agreement table; no duplicate download."
+  },
+  "accessFailures": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses",
+      "result": "400 Timeout; switched to distinct defining-clause teaching page and actually read body."
+    }
+  ],
+  "retainedGaps": [
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b1",
+    "frq-b2",
+    "frq-b3",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d2",
+    "frq-d4",
+    "ep-b4",
+    "ep-a4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "removedIds": [
+    "en-pronoun-reference-b1",
+    "en-pronoun-reference-b2",
+    "en-pronoun-reference-b4",
+    "en-pronoun-reference-a1",
+    "en-pronoun-reference-a2",
+    "en-pronoun-reference-a3",
+    "en-pronoun-reference-d1",
+    "en-pronoun-reference-d2",
+    "en-defining-relative-foundation-b1",
+    "en-defining-relative-foundation-b2",
+    "en-defining-relative-foundation-b3",
+    "en-defining-relative-foundation-b4",
+    "en-defining-relative-foundation-a1",
+    "en-defining-relative-foundation-a2",
+    "en-defining-relative-foundation-a3",
+    "en-defining-relative-foundation-d1",
+    "en-defining-relative-foundation-d2",
+    "en-defining-relative-foundation-d3"
+  ],
+  "remainingIdsSHA256": "06d0825c295f9545723361908b7c63a543917620e72440417c31c85a67ef6183",
+  "independentProfessionalApprovals": 0
+}
