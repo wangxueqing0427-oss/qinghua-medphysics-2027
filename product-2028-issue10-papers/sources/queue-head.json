@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "metrology-followup.json",
-  "activeEvidenceSHA256": "000148a46d864110fe185cc89adce0ad52a4fb61fbc8434f745ac396014771b5",
-  "remainingCount": 207,
-  "remainingIdsSHA256": "37d6d427c60f97c797d7a7741a3fe73abd754d35b06c25f2a35678194227f2d5",
+  "activeEvidenceFile": "historical-materialism-followup.json",
+  "activeEvidenceSHA256": "1fe4a90300194616b81dfa8efd4763a6db1b2299b7c01872e2d24b5d3b4f4ebf",
+  "remainingCount": 184,
+  "remainingIdsSHA256": "48b7c6fbcd49453c70fdad4ef68488a39cc945805851171b05dd2efb49c56447",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "Use active207 IDs. Source subclaim anchor is not whole-question expert approval.",
+  "warning": "Active184 IDs. Subclaim anchors do not mean complete professional approval.",
   "expertApprovals": 0
 }

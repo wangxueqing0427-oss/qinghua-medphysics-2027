@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17",
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    "23 exact current hashes traced",
+    "independent option decisions agree",
+    "207 minus23 unique remaining184",
+    "protected original pack unchanged"
+  ],
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "1fe4a90300194616b81dfa8efd4763a6db1b2299b7c01872e2d24b5d3b4f4ebf"
+}

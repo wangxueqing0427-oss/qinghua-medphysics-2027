@@ -1,0 +1,983 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 207,
+  "newDirectSubclaimAnchors": 23,
+  "remainingQueueCount": 184,
+  "rows": [
+    {
+      "id": "pol-social-being-consciousness-b1",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "材料中的“工厂劳动组织方式发生改变”首先属于哪类分析对象？",
+        "options": [
+          "社会存在的物质生活条件",
+          "仅是个人幻想",
+          "完全无关社会生活"
+        ],
+        "answer": 0,
+        "explanation": "劳动组织涉及实际生产方式，应从社会存在分析。B把实际关系误当幻想，C忽略生产生活的社会性质；不是因它被文字描述就变成观念本身。",
+        "id": "pol-social-being-consciousness-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "cf12cec3e6abb96c3433658b2a3d61319285510c841b7d4f23b6b5841582d7af",
+      "historicalQuestionHash": "cf12cec3e6abb96c3433658b2a3d61319285510c841b7d4f23b6b5841582d7af",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "materialBasis",
+      "sourceIds": [
+        "MARX1859"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-b2",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "解释某观念形成的唯物史观基本取向是？",
+        "options": [
+          "只问最先说这句话的人是否聪明",
+          "考察相关社会生活和生产条件",
+          "认为观念无须现实来源"
+        ],
+        "answer": 1,
+        "explanation": "从实际社会条件理解观念，符合存在决定意识。A用个人特质替代历史基础，C否认现实来源；并非否认个人思考活动。",
+        "id": "pol-social-being-consciousness-b2",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "fd7511ce08d58ec62e83fab7666e4cafee9fbac8e88f36a5d6a651ed67dce0df",
+      "historicalQuestionHash": "fd7511ce08d58ec62e83fab7666e4cafee9fbac8e88f36a5d6a651ed67dce0df",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "materialBasis",
+      "sourceIds": [
+        "MARX1859"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-b3",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "旧观念在条件改变后仍延续，最合理判断是？",
+        "options": [
+          "决定关系被彻底推翻",
+          "观念不受任何现实条件影响",
+          "需分析观念继承和变化时滞"
+        ],
+        "answer": 2,
+        "explanation": "不同步提示分析相对独立性，不能否认存在的基础作用。A把决定误成瞬时同步，B把相对独立绝对化。",
+        "id": "pol-social-being-consciousness-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "0f10b5b2c8019b44306a36a5d333e6506df05077abbcfb3a3e38838272c55ad5",
+      "historicalQuestionHash": "0f10b5b2c8019b44306a36a5d333e6506df05077abbcfb3a3e38838272c55ad5",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-b4",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "材料分析中哪一步最能防止空喊概念？",
+        "options": [
+          "用具体事实说明条件与观念的关系",
+          "只重复概念十遍",
+          "替材料补造成功数据"
+        ],
+        "answer": 0,
+        "explanation": "应连接题内事实与关系并说明条件。B没有分析，C虚构结果；理论可以指导分析，但不能替代证据。",
+        "id": "pol-social-being-consciousness-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "07f95ff121ac7d66aa3032b8689e5c29b82ca16afbabe732f69b00c7b7d77f14",
+      "historicalQuestionHash": "07f95ff121ac7d66aa3032b8689e5c29b82ca16afbabe732f69b00c7b7d77f14",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "materialBasis",
+      "sourceIds": [
+        "MARX1859"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-a1",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "社区公共交通改善与居民出行看法变化，哪组分类正确？",
+        "options": [
+          "两者都是纯个人幻想",
+          "交通条件属物质方面，看法属精神方面",
+          "交通条件就是看法，两者无需区分"
+        ],
+        "answer": 1,
+        "explanation": "交通设施和使用条件属于实际生活条件，看法属于观念。A否认现实，C混淆对象；两者联系不等于概念同一。",
+        "id": "pol-social-being-consciousness-a1",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "36b1a313662245ae84108ce1d145a249202400846187427788649499d1c0a458",
+      "historicalQuestionHash": "36b1a313662245ae84108ce1d145a249202400846187427788649499d1c0a458",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "materialBasis",
+      "sourceIds": [
+        "MARX1859"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-a2",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "有人说同一城市的人观念不同，所以存在不决定意识。主要错误是？",
+        "options": [
+          "注意到了观念差异",
+          "承认观念有历史",
+          "把决定理解为人人同步同样"
+        ],
+        "answer": 2,
+        "explanation": "决定并非一对一机械复制，个人经历和继承条件会造成差异。A和B本身不是此推理的错误，关键是关系被过度简化。",
+        "id": "pol-social-being-consciousness-a2",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "4cdad2c79e515fde9786d7a068ee0e774c2f452cdf20c6be66fafaa6c14b7d6b",
+      "historicalQuestionHash": "4cdad2c79e515fde9786d7a068ee0e774c2f452cdf20c6be66fafaa6c14b7d6b",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-a3",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "要使合理观念作用于实际生活，较适当的是？",
+        "options": [
+          "结合条件转化为实际行动并检验",
+          "只宣称观念已替代物质条件",
+          "认为观念永远没有作用"
+        ],
+        "answer": 0,
+        "explanation": "反作用要通过人的实践和具体条件实现。B颠倒基础关系，C否认能动作用；不承诺任何观念必然带来成功。",
+        "id": "pol-social-being-consciousness-a3",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "f0d5f7509562286d0eefd65ae9f8d239e6f5e3119f1c531220eceafa400a3da1",
+      "historicalQuestionHash": "f0d5f7509562286d0eefd65ae9f8d239e6f5e3119f1c531220eceafa400a3da1",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-d1",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：居民对新劳动安排的评价首先属于？",
+        "options": [
+          "劳动机器本身",
+          "社会意识方面",
+          "与社会毫无联系的物理量"
+        ],
+        "answer": 1,
+        "explanation": "评价是精神方面，劳动安排本身是现实关系。A混淆对象与认识，C把社会评价当孤立物理量，均不能代替分类。",
+        "id": "pol-social-being-consciousness-d1",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "540e22888c4274b36498fc248989929217ed888a6147d495365723cbfd9c2974",
+      "historicalQuestionHash": "540e22888c4274b36498fc248989929217ed888a6147d495365723cbfd9c2974",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "materialBasis",
+      "sourceIds": [
+        "MARX1859"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-d2",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "某人把相对独立性解释为观念无现实基础，应怎样纠正？",
+        "options": [
+          "这种绝对独立解释完全正确",
+          "观念只有物质形状没有内容",
+          "相对独立不取消存在的基础作用"
+        ],
+        "answer": 2,
+        "explanation": "相对独立描述发展方式与作用，不是否认现实基础。A将其绝对化，B换成不相关的物理形状判断。",
+        "id": "pol-social-being-consciousness-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "8dc77612cdec3446dbd66938140f91fad1d14d26f7179e83ac4e1dcaf7591bd6",
+      "historicalQuestionHash": "8dc77612cdec3446dbd66938140f91fad1d14d26f7179e83ac4e1dcaf7591bd6",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-social-being-consciousness-d3",
+      "course": "pol-social-being-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "分析观念的促进或阻碍作用，需要？",
+        "options": [
+          "结合内容、实际条件和人的行动",
+          "假定所有观念都有同一效果",
+          "只看口号声音大小"
+        ],
+        "answer": 0,
+        "explanation": "反作用方向与实现依赖内容和条件。B抹平正确错误和条件差异，C无法说明社会效果，不构成理论分析。",
+        "id": "pol-social-being-consciousness-d3",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "197c03d824c1c47334a765aee5ed69d8485e76668330ca28e4c4baf478e0a2c0",
+      "historicalQuestionHash": "197c03d824c1c47334a765aee5ed69d8485e76668330ca28e4c4baf478e0a2c0",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-b1",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-b1",
+        "type": "single",
+        "stem": "历史唯物主义中的经济基础主要指？",
+        "options": [
+          "一定阶段生产关系的总和",
+          "全部机器数量",
+          "房屋地基"
+        ],
+        "answer": 0,
+        "explanation": "范畴落在人与人的生产关系及其总和，不等于工具这一生产力因素，也不是字面建筑术语。",
+        "difficulty": "foundation",
+        "errorCauseHint": "经济基础等于机器、GDP或建筑基础。"
+      },
+      "questionSHA256": "18978d1d4640c04a1765c5ed842469c136a7c26b36bb0bdd7240d411beca16e9",
+      "historicalQuestionHash": "18978d1d4640c04a1765c5ed842469c136a7c26b36bb0bdd7240d411beca16e9",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-b2",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-b2",
+        "type": "single",
+        "stem": "给定材料中，政治法律制度与相应社会意识形式属于哪一分析层次？",
+        "options": [
+          "仅机器设备",
+          "上层建筑",
+          "仅自然气候"
+        ],
+        "answer": 1,
+        "explanation": "制度和相应意识形式属于上层建筑的两个方面，不能用自然或工具概念替代社会结构范畴。",
+        "difficulty": "foundation",
+        "errorCauseHint": "上层建筑是所有实物建筑或所有私人想法。"
+      },
+      "questionSHA256": "a16a5970334d059352224f3f572711eca24e6a1a33ba9fa4f372665542a6fdfb",
+      "historicalQuestionHash": "a16a5970334d059352224f3f572711eca24e6a1a33ba9fa4f372665542a6fdfb",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-b3",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-b3",
+        "type": "single",
+        "stem": "对经济基础与上层建筑关系，哪项较准确？",
+        "options": [
+          "经济是唯一发生作用的因素",
+          "经济一变所有制度立即同变",
+          "基础根本制约，同时存在反作用和具体条件"
+        ],
+        "answer": 2,
+        "explanation": "恩格斯反对唯一经济因素的歪曲；根本制约不取消政治法律思想的作用，也不推出变化时点和形式唯一。",
+        "difficulty": "foundation",
+        "errorCauseHint": "经济一变制度必同时按唯一方式改变。"
+      },
+      "questionSHA256": "a891463a26b400d9e3cd47583ca374abb498dbfd7f9f9aee44668d2b4d94ec3e",
+      "historicalQuestionHash": "a891463a26b400d9e3cd47583ca374abb498dbfd7f9f9aee44668d2b4d94ec3e",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-b4",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-b4",
+        "type": "single",
+        "stem": "分析虚构工坊案例时哪种结论更合适？",
+        "options": [
+          "按占有分配和制度线索说明，不外推全社会已转型",
+          "一台新机器证明社会形态已更替",
+          "规则毫无实际作用"
+        ],
+        "answer": 0,
+        "explanation": "材料能支持局部关系分析，不能凭一台工具或个别规则推导全社会历史结论，也不能抹去反作用。",
+        "difficulty": "foundation",
+        "errorCauseHint": "拿一个虚构小组织代表完整社会变革。"
+      },
+      "questionSHA256": "bbddea5ed6913f0e870394d66b4dcd818d601900a9eff3d00f320c03e681ffe0",
+      "historicalQuestionHash": "bbddea5ed6913f0e870394d66b4dcd818d601900a9eff3d00f320c03e681ffe0",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-a1",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-a1",
+        "type": "single",
+        "stem": "工坊仅更换效率更高的工具，首先属于何种变化？",
+        "options": [
+          "经济基础定义本身就是机器",
+          "生产力中的工具变化",
+          "完整政治制度更替"
+        ],
+        "answer": 1,
+        "explanation": "工具首先是生产力线索；是否连带生产关系与制度变化须有进一步材料，不可把不同层次直接等同。",
+        "difficulty": "application",
+        "errorCauseHint": "经济基础等于机器、GDP或建筑基础。"
+      },
+      "questionSHA256": "9e2a980a4fc944ac967fc3ada85e8f5d548b2d70f813145c61d411a5f6eef3c5",
+      "historicalQuestionHash": "9e2a980a4fc944ac967fc3ada85e8f5d548b2d70f813145c61d411a5f6eef3c5",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-a2",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-a2",
+        "type": "single",
+        "stem": "虚构社会材料分别讨论权责制度和维护制度的观念，恰当方法是？",
+        "options": [
+          "都当楼房结构",
+          "全部排除出社会分析",
+          "区分制度与意识形式，再看与基础的关系"
+        ],
+        "answer": 2,
+        "explanation": "制度和观念属于不同分析面向，需结合社会关系判断，不能按日常字面或简单排除代替概念。",
+        "difficulty": "application",
+        "errorCauseHint": "上层建筑是所有实物建筑或所有私人想法。"
+      },
+      "questionSHA256": "e371e71bdfd475f84ca15fbbd79cceb5867c59f2fb5530c56aed5794f4471e16",
+      "historicalQuestionHash": "e371e71bdfd475f84ca15fbbd79cceb5867c59f2fb5530c56aed5794f4471e16",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-a3",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-a3",
+        "type": "single",
+        "stem": "新制度帮助落实分配规则，这说明什么？",
+        "options": [
+          "上层建筑具有反作用，但效果仍需条件和证据",
+          "制度是唯一原因且无经济条件",
+          "基础制约不存在"
+        ],
+        "answer": 0,
+        "explanation": "制度的实施能影响社会实践，说明反作用；这并不否定基础制约，也不保证所有制度具有相同效果。",
+        "difficulty": "application",
+        "errorCauseHint": "经济一变制度必同时按唯一方式改变。"
+      },
+      "questionSHA256": "2381e56d32154a5c88124a00677ba8503481207db8406a1a86fa6aee90a9001a",
+      "historicalQuestionHash": "2381e56d32154a5c88124a00677ba8503481207db8406a1a86fa6aee90a9001a",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-d1",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-d1",
+        "type": "single",
+        "stem": "隔日新材料：研究者统计机器台数后直接称之为经济基础，主要错在哪里？",
+        "options": [
+          "机器不可数",
+          "把生产工具与生产关系总和混同",
+          "统计一定不科学"
+        ],
+        "answer": 1,
+        "explanation": "问题是范畴层次混淆，机器可统计但其数量不就是生产关系总和；不能反过来否定所有统计方法。",
+        "difficulty": "delayed",
+        "errorCauseHint": "经济基础等于机器、GDP或建筑基础。"
+      },
+      "questionSHA256": "92fda36ee39ae818046614284acb924e5aaaabae6608d10514a3ae0bed68f293",
+      "historicalQuestionHash": "92fda36ee39ae818046614284acb924e5aaaabae6608d10514a3ae0bed68f293",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-d2",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-d2",
+        "type": "single",
+        "stem": "下列哪项最需要作为上层建筑意识层面的候选再结合历史条件分析？",
+        "options": [
+          "自然降雨量",
+          "车间螺钉数量",
+          "维护特定社会制度的思想论证"
+        ],
+        "answer": 2,
+        "explanation": "思想论证提供意识层面的线索；具体归属仍结合历史社会关系，而自然和工具计数不能直接代替。",
+        "difficulty": "delayed",
+        "errorCauseHint": "上层建筑是所有实物建筑或所有私人想法。"
+      },
+      "questionSHA256": "6f78bd0667ca18b4e6b254249b0fbfbe8ab5b868782972a1b97f685368df8e85",
+      "historicalQuestionHash": "6f78bd0667ca18b4e6b254249b0fbfbe8ab5b868782972a1b97f685368df8e85",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-base-superstructure-foundation-d3",
+      "course": "pol-base-superstructure-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-base-superstructure-foundation-d3",
+        "type": "single",
+        "stem": "经济关系变化后制度调整方式不同，哪种解释合适？",
+        "options": [
+          "根本制约不排除传统、政治行动等条件的相互作用",
+          "这证明经济因素从来无作用",
+          "所有差异都是偶然且不必研究"
+        ],
+        "answer": 0,
+        "explanation": "非机械决定允许具体过程存在条件差异，须研究相互作用；不能从形式不同推出根本制约不存在。",
+        "difficulty": "delayed",
+        "errorCauseHint": "经济一变制度必同时按唯一方式改变。"
+      },
+      "questionSHA256": "f8df4ec9cfc3ef0a6471514ba1f07936e9319c3cd6446e14257e4eb6154d90ae",
+      "historicalQuestionHash": "f8df4ec9cfc3ef0a6471514ba1f07936e9319c3cd6446e14257e4eb6154d90ae",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-b3",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "生产关系是否适合生产力，主要影响应怎样表述？",
+        "options": [
+          "与发展完全无关",
+          "一切安排均自动促进",
+          "可能促进，也可能成为障碍"
+        ],
+        "answer": 2,
+        "explanation": "需考察具体适合状况，不能先验认定所有安排同效。A取消反作用，B把促进无条件化，均片面。",
+        "id": "pol-productive-forces-relations-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "ad4109ae7f3b7b2d18e10342bd3482c11ffe42fe934b5e38d053dbbeb2c196d4",
+      "historicalQuestionHash": "ad4109ae7f3b7b2d18e10342bd3482c11ffe42fe934b5e38d053dbbeb2c196d4",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "relations",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-a3",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "新工艺被旧协作方式阻碍，较合理分析是？",
+        "options": [
+          "核对具体协调条件并考察适应性改进",
+          "所有制必定在当天自动更替",
+          "只要喊口号就无需人员技术"
+        ],
+        "answer": 0,
+        "explanation": "具体分析技术与关系衔接，A保留条件。B机械即时化，C用意愿替代能力，均超出材料证据。",
+        "id": "pol-productive-forces-relations-a3",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "abcf7da6addc2570b33c3cbd56e46f15db714e207b1aee7a966faf7ffb392ad1",
+      "historicalQuestionHash": "abcf7da6addc2570b33c3cbd56e46f15db714e207b1aee7a966faf7ffb392ad1",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "relations",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-d3",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "“关系调整可不顾任何技术条件无限增产”应如何评价？",
+        "options": [
+          "夸大反作用并取消现实能力条件",
+          "正确说明一切生产规律",
+          "只说明机器颜色"
+        ],
+        "answer": 0,
+        "explanation": "反作用受现实条件限制，不能无条件无限增产。B把夸张当规律，C回避了错误方向，均不成立。",
+        "id": "pol-productive-forces-relations-d3",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "b956280a8759dc61d9a795faa73acff62a51ae7a16a480a91422b8ba960ee98a",
+      "historicalQuestionHash": "b956280a8759dc61d9a795faa73acff62a51ae7a16a480a91422b8ba960ee98a",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "relations",
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "readingSupport": "See shared concept and precise source locator; teaching application remains conditional.",
+      "minimalRevision": "No confirmed P0/P1. Keep bounded fictional examples and avoid guaranteeing effects.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "materialBasis": {
+      "sourceIds": [
+        "MARX1859"
+      ],
+      "support": "物质生产、现实社会关系与社会意识不能混为同一对象；从物质生活条件解释社会意识。",
+      "limits": "不证明任何虚构城市或工厂的现实效果、个人观念形成的单一因果。"
+    },
+    "interaction": {
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "support": "经济基础与上层建筑不同；根本制约不排除政治法律思想及传统等条件的相互作用。",
+      "limits": "不把经济因素变成唯一因素或即时机械同步，不保证任一具体制度成功。"
+    },
+    "relations": {
+      "sourceIds": [
+        "MARX1859",
+        "ENGELS1890"
+      ],
+      "support": "生产关系可成为生产力发展的形式或桎梏；理论应用需具体物质条件。",
+      "limits": "不能从一个工坊推出完整社会形态变革；劳动资料和劳动对象的完整定义未由本轮资料补齐。"
+    }
+  },
+  "sources": [
+    {
+      "id": "MARX1859",
+      "author": "卡尔·马克思",
+      "title": "《政治经济学批判》序言",
+      "written": "1859-01",
+      "originalPublished": "1859-06",
+      "publisher": "高等教育出版社二维码服务平台所载中文原文",
+      "url": "https://2d.hep.com.cn/13384041111111/3",
+      "actualRead": "公开HTML原文核心论述段落（检索line17），及作者日期、翻译说明lines24–36；无需登录即可读正文。非搜索摘要，非只读编者导言。",
+      "version": "网页注明据历史考证版第2部分第2卷并参考德文第13卷翻译；网页未确定数字版本发布日期，不捏造印刷页码。",
+      "limits": "理论原文及其教学应用，不是2028考纲、具体经验调查或全部细分术语的独立审定。"
+    },
+    {
+      "id": "ENGELS1890",
+      "author": "弗里德里希·恩格斯",
+      "title": "恩格斯致约瑟夫·布洛赫",
+      "written": "1890-09-21/22",
+      "publisher": "中文马克思主义文库所载《马克思恩格斯文集》第十卷第240项",
+      "url": "https://www.marxists.org/chinese/marx-engels2/10/240.htm",
+      "actualRead": "实际书信正文首三段，HTML lines9–13，根本经济条件、上层建筑/传统相互作用、合力；非二手概述。",
+      "version": "公开中文转录，具体纸本页与校勘版未独立核实。",
+      "limits": "不声称转录取得独立教师校勘，不从理论文字推出任何具体政策必然效果。"
+    }
+  ],
+  "excludedLocator": {
+    "url": "https://djyj.12371.cn/2026/03/21/ARTI1774060427124705.shtml",
+    "actualRead": "只可靠取得题目、作者与期刊信息及登录提示；未将检索摘要当成全文证据。"
+  },
+  "removedIds": [
+    "pol-social-being-consciousness-b1",
+    "pol-social-being-consciousness-b2",
+    "pol-social-being-consciousness-b3",
+    "pol-social-being-consciousness-b4",
+    "pol-social-being-consciousness-a1",
+    "pol-social-being-consciousness-a2",
+    "pol-social-being-consciousness-a3",
+    "pol-social-being-consciousness-d1",
+    "pol-social-being-consciousness-d2",
+    "pol-social-being-consciousness-d3",
+    "pol-base-superstructure-foundation-b1",
+    "pol-base-superstructure-foundation-b2",
+    "pol-base-superstructure-foundation-b3",
+    "pol-base-superstructure-foundation-b4",
+    "pol-base-superstructure-foundation-a1",
+    "pol-base-superstructure-foundation-a2",
+    "pol-base-superstructure-foundation-a3",
+    "pol-base-superstructure-foundation-d1",
+    "pol-base-superstructure-foundation-d2",
+    "pol-base-superstructure-foundation-d3",
+    "pol-productive-forces-relations-b3",
+    "pol-productive-forces-relations-a3",
+    "pol-productive-forces-relations-d3"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "pol-practice-1",
+    "pol-practice-2",
+    "pol-delay-1",
+    "pol-delay-2",
+    "frq-b1",
+    "frq-b2",
+    "frq-b3",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d2",
+    "frq-d4",
+    "ep-b4",
+    "ep-a4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-epistemology-case-analysis-b1",
+    "pol-epistemology-case-analysis-b2",
+    "pol-epistemology-case-analysis-b3",
+    "pol-epistemology-case-analysis-b4",
+    "pol-epistemology-case-analysis-a1",
+    "pol-epistemology-case-analysis-a2",
+    "pol-epistemology-case-analysis-a3",
+    "pol-epistemology-case-analysis-d1",
+    "pol-epistemology-case-analysis-d2",
+    "pol-epistemology-case-analysis-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "353-probability-binomial-foundation-b4",
+    "353-random-sampling-foundation-b1",
+    "353-random-sampling-foundation-b3",
+    "353-random-sampling-foundation-b4",
+    "353-random-sampling-foundation-a1",
+    "353-random-sampling-foundation-a3",
+    "353-random-sampling-foundation-d1",
+    "353-random-sampling-foundation-d3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3",
+    "353-inference-ci-hypothesis-foundation-b1",
+    "353-inference-ci-hypothesis-foundation-b2",
+    "353-inference-ci-hypothesis-foundation-b3",
+    "353-inference-ci-hypothesis-foundation-b4",
+    "353-inference-ci-hypothesis-foundation-a1",
+    "353-inference-ci-hypothesis-foundation-d1",
+    "353-anova-chi-regression-foundation-b1",
+    "353-anova-chi-regression-foundation-b2",
+    "353-anova-chi-regression-foundation-b3",
+    "353-anova-chi-regression-foundation-b4",
+    "353-anova-chi-regression-foundation-a1",
+    "353-anova-chi-regression-foundation-d1",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "353-trial-design-effects-b1",
+    "353-trial-design-effects-b3",
+    "353-trial-design-effects-a3",
+    "353-trial-design-effects-d3",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b1",
+    "en-pronoun-reference-b2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-b4",
+    "en-pronoun-reference-a1",
+    "en-pronoun-reference-a2",
+    "en-pronoun-reference-a3",
+    "en-pronoun-reference-d1",
+    "en-pronoun-reference-d2",
+    "en-pronoun-reference-d3",
+    "en-present-continuous-foundation-b1",
+    "en-present-continuous-foundation-b2",
+    "en-present-continuous-foundation-b3",
+    "en-present-continuous-foundation-b4",
+    "en-present-continuous-foundation-a1",
+    "en-present-continuous-foundation-a2",
+    "en-present-continuous-foundation-a3",
+    "en-present-continuous-foundation-d1",
+    "en-present-continuous-foundation-d2",
+    "en-present-continuous-foundation-d3",
+    "en-passive-simple-foundation-b1",
+    "en-passive-simple-foundation-b2",
+    "en-passive-simple-foundation-b3",
+    "en-passive-simple-foundation-b4",
+    "en-passive-simple-foundation-a1",
+    "en-passive-simple-foundation-a2",
+    "en-passive-simple-foundation-a3",
+    "en-passive-simple-foundation-d1",
+    "en-passive-simple-foundation-d2",
+    "en-passive-simple-foundation-d3",
+    "en-defining-relative-foundation-b1",
+    "en-defining-relative-foundation-b2",
+    "en-defining-relative-foundation-b3",
+    "en-defining-relative-foundation-b4",
+    "en-defining-relative-foundation-a1",
+    "en-defining-relative-foundation-a2",
+    "en-defining-relative-foundation-a3",
+    "en-defining-relative-foundation-d1",
+    "en-defining-relative-foundation-d2",
+    "en-defining-relative-foundation-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "48b7c6fbcd49453c70fdad4ef68488a39cc945805851171b05dd2efb49c56447",
+  "independentProfessionalApprovals": 0
+}
