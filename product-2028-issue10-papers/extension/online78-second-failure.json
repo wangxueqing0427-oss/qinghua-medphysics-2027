@@ -1,0 +1,11 @@
+{
+  "run": 44031759724,
+  "sha": "5688780a77b500f6c37ac1d3c5f066d2abfa4284",
+  "job": 133865115271,
+  "error": "Cannot read properties of undefined (reading 'saveSession')",
+  "assetsMatched": 17,
+  "firstReadinessFixPassed": true,
+  "rootCause": "After SW control reload, page returns to profile-selection home; newly added erratum fixture assumed profile remained selected. Existing SW-only smoke did not require a selected profile.",
+  "minimalFix": "Reopen exact synthetic id after reload and await actual exam launcher before saving fixture. All count/hash/answer/erratum assertions retained.",
+  "runtimeAssetsChanged": false
+}
