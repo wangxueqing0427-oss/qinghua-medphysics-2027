@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "verb-forms-followup.json",
-  "activeEvidenceSHA256": "8609769ebcd83a7894d47184b6c0a100f8f4a37b085c043089f620466e6d1865",
-  "remainingCount": 140,
-  "remainingIdsSHA256": "611d2bf7243f5711cbce6f50fd5099a32499e06933523e219b2136251ac0519a",
+  "activeEvidenceFile": "practice-epistemology-followup.json",
+  "activeEvidenceSHA256": "3e8d2ee2c8da7a3517f7cd8a8028ea391431b88223fbd3bec810b68840ea9c50",
+  "remainingCount": 126,
+  "remainingIdsSHA256": "123f32053bd39a408b1d97644b727d36539ef45babe9c59c46b718d3af885b7b",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "140 active IDs; scoped source anchors do not equal complete question or professional approval.",
+  "warning": "126 active IDs; limited conceptual sources do not equal full question or independent approval.",
   "expertApprovals": 0
 }

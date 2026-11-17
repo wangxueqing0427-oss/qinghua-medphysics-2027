@@ -1,0 +1,565 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 140,
+  "newDirectSubclaimAnchors": 14,
+  "remainingQueueCount": 126,
+  "rows": [
+    {
+      "id": "pol-practice-1",
+      "course": "pol-practice-verification",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-practice-1",
+        "type": "single",
+        "stem": "检验一种认识是否符合客观实际，根本标准是？",
+        "options": [
+          "赞同人数",
+          "表达是否流畅",
+          "实践"
+        ],
+        "answer": 2,
+        "explanation": "实践中的客观结果是检验依据，而不是赞同或表达。"
+      },
+      "questionSHA256": "46279d59df6defd9deff38991b562c3b7c7a8042d78073ecbe8815e9ac0f7c49",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "criterion",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-practice-2",
+      "course": "pol-practice-verification",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-practice-2",
+        "type": "multi",
+        "stem": "材料分析应包含哪些环节？",
+        "options": [
+          "对应原理",
+          "结合实际行动与结果",
+          "仅抄题干",
+          "说明后续检验修正"
+        ],
+        "answer": [
+          0,
+          1,
+          3
+        ],
+        "explanation": "原理与材料相联系，并交代继续检验修正；抄题干不能代替分析。"
+      },
+      "questionSHA256": "18ca49fc047f6058b15740b84dbcb00766deca11d8dac9f6d48887ee987b442a",
+      "independentlyReasonedAnswer": [
+        0,
+        1,
+        3
+      ],
+      "conceptId": "criterion",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-delay-1",
+      "course": "pol-practice-verification",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-delay-1",
+        "type": "single",
+        "stem": "某方案获得广泛赞同，但尚未实施。能据此认定其正确吗？",
+        "options": [
+          "能，人数决定真理",
+          "不能，需要实践检验",
+          "能，只要语言严谨"
+        ],
+        "answer": 1,
+        "explanation": "赞同人数与表达质量不能代替客观实践检验。"
+      },
+      "questionSHA256": "6d009ede4f55ea31e9319a7af835711a091c1578bc3ece4b55cb4cf356449757",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "criterion",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-delay-2",
+      "course": "pol-practice-verification",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-delay-2",
+        "type": "multi",
+        "stem": "试点结果与预期不符后，哪些做法符合本单元原理？",
+        "options": [
+          "核对实施条件",
+          "根据结果修正并继续验证",
+          "因权威支持而不再检查"
+        ],
+        "answer": [
+          0,
+          1
+        ],
+        "explanation": "在具体实践中分析和发展认识；不能用权威替代检验。"
+      },
+      "questionSHA256": "d45157da3ec06be896c7e1dc223b3d8855dc8da4a18b0919d4691f64605e20da",
+      "independentlyReasonedAnswer": [
+        0,
+        1
+      ],
+      "conceptId": "development",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-b1",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "“两天晚间排队较长；因此原因一定只有开放时间”中后半句属于？",
+        "options": [
+          "超出有限观察的原因推断",
+          "题内已经直接测量的唯一原因",
+          "完全没有推论成分"
+        ],
+        "answer": 0,
+        "explanation": "两天记录不能直接排除其他原因，后半句是过强推断。B和C把解释冒充观察；不是否认排队事实本身。",
+        "id": "pol-epistemology-case-analysis-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "2bd78b7edc0916eeaa47ad9dc8b6312a195b14929d625dbb1170e8ce0bb9b068",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "analysis",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-b2",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "把零散观察整理成概念和判断，较恰当的理解是？",
+        "options": [
+          "材料数量一多就必然正确",
+          "需核对材料并通过分析形成解释",
+          "只要不看现实逻辑就会正确"
+        ],
+        "answer": 1,
+        "explanation": "材料真实性和分析过程都重要。A把积累自动化，C切断现实基础；理性认识不等于随意猜测。",
+        "id": "pol-epistemology-case-analysis-b2",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "a1e0b3647b3a8ed94c576ee7264eac3c03c0329eafa94c972649e9c5ff653501",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "analysis",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-b3",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "判断试行方案有效后，最应避免哪种说法？",
+        "options": [
+          "记录实施条件",
+          "继续关注需求变化",
+          "此方案在所有地点永久有效"
+        ],
+        "answer": 2,
+        "explanation": "局部实践证据有范围，C越界外推。A和B是保留条件的合理步骤，不是对实践作用的否定。",
+        "id": "pol-epistemology-case-analysis-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "6710d36953d6f3fb5f7b10ca54bbd90d833b2d3474b90c7a473767544f231ede",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "development",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-b4",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "材料题中连接原理与事实的合适方式是？",
+        "options": [
+          "指出题内哪些事实体现何种关系",
+          "只抄全部哲学术语",
+          "补写题目没有的成功比例"
+        ],
+        "answer": 0,
+        "explanation": "要解释原理为何适用，而不只是名称对应。B缺论证，C虚构数据，均不能说明真实认识过程。",
+        "id": "pol-epistemology-case-analysis-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "1dac439a5a37713c0da12ed6f3805b75f42c6ce6d05d5c6089dfc2445ab63dbf",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "analysis",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-a1",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "“下周拟试行新排期”在尚未执行时应归为？",
+        "options": [
+          "已得到的实践结果",
+          "待检验行动建议",
+          "已证实普遍规律"
+        ],
+        "answer": 1,
+        "explanation": "拟试行说明未来方案而非既成结果。A混淆计划与执行，C从提议跃到普遍结论，没有实践支持。",
+        "id": "pol-epistemology-case-analysis-a1",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "458bdf24928e8bfa70d7a29f368309673e410058080e6ad539137e6d7220c33c",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "criterion",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-a2",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "只凭一次亲历否定所有研究和理论，主要问题是？",
+        "options": [
+          "重视真实材料本身",
+          "注意实践条件",
+          "把局部经验绝对化"
+        ],
+        "answer": 2,
+        "explanation": "局部经验不能替代全部理论和他人实践知识。A和B并无错，C才是经验主义式片面化，应结合分析和更广材料。",
+        "id": "pol-epistemology-case-analysis-a2",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "4047be0ea6024214c45e8822bfbc2c8f7b2016782d0fc67b87c4107d98e4f098",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "analysis",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-a3",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "不同地点直接照搬排期效果不佳，较合理处理是？",
+        "options": [
+          "调查条件差异后调整并检验",
+          "宣布实践完全不能检验认识",
+          "坚持所有地点必须同一排期"
+        ],
+        "answer": 0,
+        "explanation": "适用条件可能不同，应比较并修正。B否定检验作用，C拒绝现实差异；不能仅凭失败次数得出所有理论无效。",
+        "id": "pol-epistemology-case-analysis-a3",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "e6a5bdf2c712f988c813e62a9558f975cd8722c1dc2976b4484ba276b0c38883",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "development",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-d1",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：一场活动满意度较高，“一切活动都应同样举办”属于？",
+        "options": [
+          "无需边界的直接事实",
+          "超出单次材料的推广",
+          "题内提供的长期验证"
+        ],
+        "answer": 1,
+        "explanation": "单次满意不能代表所有活动及条件，B指出推论范围。A和C都把局部结果扩大，需继续比较和实践检验。",
+        "id": "pol-epistemology-case-analysis-d1",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "78f21bf3e6e6182155b23667dcbb377c59838c6ecb8577d2b7b3b8e010952635",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "development",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-d2",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "对已有解释进行核对时，最合理的是？",
+        "options": [
+          "拒绝任何反例",
+          "只累计赞同意见",
+          "同时查真实材料、逻辑和适用条件"
+        ],
+        "answer": 2,
+        "explanation": "认识深化需要面对反例与条件，A拒绝修正，B选择性收集；条理和赞同人数不自动证明真理。",
+        "id": "pol-epistemology-case-analysis-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "6ac54968ebf3707c4de4652717101503fec55b950f3b14e57331838cdd7704f9",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "analysis",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-epistemology-case-analysis-d3",
+      "course": "pol-epistemology-case-analysis",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "某阶段方案有效，而条件变化后需调整，这说明？",
+        "options": [
+          "认识应随实践和对象变化发展",
+          "过去证据必定全部伪造",
+          "不存在任何可认识的事实"
+        ],
+        "answer": 0,
+        "explanation": "阶段适用与后续发展可以同时成立。B和C是无根据绝对化；新变化不自动否认过去条件下的结论。",
+        "id": "pol-epistemology-case-analysis-d3",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "133da53eb5a6702c6483ccaaaa2e97a3f187e8639da0ef08d2918c34cb9e2fa9",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "development",
+      "sourceId": "MAO1937",
+      "limits": "Conceptual interpretation of bounded fictional cases, not empirical proof of a scheduling intervention, a causal-design rule, or an official examination marking scheme.",
+      "minimalRevision": "No confirmed answer defect; keep conditions and application scope.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "criterion": {
+      "locator": "HTML15,29–30",
+      "support": "在该理论中，以社会实践检验认识，不以赞同或权威替代；实践中的条件与结果需具体分析。"
+    },
+    "analysis": {
+      "locator": "HTML17–19,24–28",
+      "support": "感性材料须核对、整理和分析；不把片面亲历或材料堆积等同于全面正确认识。"
+    },
+    "development": {
+      "locator": "HTML30–36",
+      "support": "认识与实践反复发展，方案须适应条件变化，不从局部结果推出永恒普适结论。"
+    }
+  },
+  "sources": [
+    {
+      "id": "MAO1937",
+      "author": "毛泽东",
+      "title": "实践论：论认识和实践的关系——知和行的关系",
+      "written": "1937-07",
+      "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+      "actualRead": "Actual main essay HTML15,17–19,24–36; footer notes not treated as independently read cited books. Public original-essay transcription, not search summary.",
+      "version": "Chinese Marxists Internet Archive transcription accessed2026-11-17; source notes variant translations, printed edition/page collation not independently verified.",
+      "limits": "Primary theoretical text supporting listed concepts; not official2028 syllabus, exact exam scoring rubric, or evidence for fictional empirical outcomes. Independent theory-teacher review remains pending."
+    }
+  ],
+  "removedIds": [
+    "pol-practice-1",
+    "pol-practice-2",
+    "pol-delay-1",
+    "pol-delay-2",
+    "pol-epistemology-case-analysis-b1",
+    "pol-epistemology-case-analysis-b2",
+    "pol-epistemology-case-analysis-b3",
+    "pol-epistemology-case-analysis-b4",
+    "pol-epistemology-case-analysis-a1",
+    "pol-epistemology-case-analysis-a2",
+    "pol-epistemology-case-analysis-a3",
+    "pol-epistemology-case-analysis-d1",
+    "pol-epistemology-case-analysis-d2",
+    "pol-epistemology-case-analysis-d3"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b1",
+    "frq-b2",
+    "frq-b3",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d2",
+    "frq-d4",
+    "ep-b4",
+    "ep-a4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b1",
+    "en-pronoun-reference-b2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-b4",
+    "en-pronoun-reference-a1",
+    "en-pronoun-reference-a2",
+    "en-pronoun-reference-a3",
+    "en-pronoun-reference-d1",
+    "en-pronoun-reference-d2",
+    "en-pronoun-reference-d3",
+    "en-defining-relative-foundation-b1",
+    "en-defining-relative-foundation-b2",
+    "en-defining-relative-foundation-b3",
+    "en-defining-relative-foundation-b4",
+    "en-defining-relative-foundation-a1",
+    "en-defining-relative-foundation-a2",
+    "en-defining-relative-foundation-a3",
+    "en-defining-relative-foundation-d1",
+    "en-defining-relative-foundation-d2",
+    "en-defining-relative-foundation-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "123f32053bd39a408b1d97644b727d36539ef45babe9c59c46b718d3af885b7b",
+  "independentProfessionalApprovals": 0
+}
