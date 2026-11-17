@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17",
+  "testedSHA": "ab3f6983b10ea4c6c80ca36e849e6f3eae133316",
+  "runId": 44006870501,
+  "jobId": 133784238732,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44006870501",
+  "conclusion": "success",
+  "browserScope": "Chromium and mobile WebKit each6 scenarios: new lesson12 actual responses, delayed UI, close/reopen, backup clone exact response payloads, English52 paper open/save, actual TCP outage fresh offline restore",
+  "contentChecks": 8,
+  "physicalIPhone": false,
+  "wallClockEndurance": false,
+  "newPreviewDeployed": false,
+  "logExtract": [
+    "2026-11-17T02:59:32.5583974Z PASS:17 asset hashes,75/848,74 original units and3 papers exact,independent namespace, no migration",
+    "2026-11-17T02:59:32.6676251Z { passed: 8 }",
+    "2026-11-17T02:59:36.7290582Z     'new lesson teaching, actual closed recall, eight answers and reference-only feedback',",
+    "2026-11-17T02:59:36.7291470Z     'four new delayed questions via actual UI; accelerated scheduling fixture, not wall-clock endurance',",
+    "2026-11-17T02:59:36.7292214Z     'new tab reopening preserves exact synthetic profile',",
+    "2026-11-17T02:59:36.7292996Z     'new namespace backup restored into separate profile with exact recall and answer payloads',",
+    "2026-11-17T02:59:36.7293868Z     'existing original English52-item paper opens and saves in new namespace',",
+    "2026-11-17T02:59:36.7294812Z     'TCP server stopped, fresh offline navigation and identical profile restore'",
+    "2026-11-17T02:59:36.7295587Z   passed: true",
+    "2026-11-17T02:59:44.9250202Z     'new lesson teaching, actual closed recall, eight answers and reference-only feedback',",
+    "2026-11-17T02:59:44.9251144Z     'four new delayed questions via actual UI; accelerated scheduling fixture, not wall-clock endurance',",
+    "2026-11-17T02:59:44.9251903Z     'new tab reopening preserves exact synthetic profile',",
+    "2026-11-17T02:59:44.9252681Z     'new namespace backup restored into separate profile with exact recall and answer payloads',",
+    "2026-11-17T02:59:44.9253509Z     'existing original English52-item paper opens and saves in new namespace',",
+    "2026-11-17T02:59:44.9254489Z     'TCP server stopped, fresh offline navigation and identical profile restore'",
+    "2026-11-17T02:59:44.9255248Z   passed: true"
+  ]
+}
