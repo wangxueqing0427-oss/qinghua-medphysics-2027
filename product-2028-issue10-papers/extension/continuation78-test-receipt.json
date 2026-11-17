@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-17",
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    "active59 source queue matches exact evidence and ordered-ID hashes",
+    "8 new source batches retain exact current hashes and protected original pack",
+    "17 verified online assets unchanged after evidence work",
+    "source-grounded display correction keeps original74 units and all125 paper items exact",
+    "actual180 original failure retained without relabeling",
+    "online deployment, functional browser SHA and expert status separated"
+  ],
+  "activeQueue": {
+    "date": "2026-11-17",
+    "activeEvidenceFile": "practice-labour-people-followup.json",
+    "activeEvidenceSHA256": "697cff2c9841d9fcdd3d8c6540138832901bbd7ee23dd372fad52d68cf520eb7",
+    "remainingCount": 59,
+    "remainingIdsSHA256": "c994d6689f3d69e22f71c76459a04c02e4e01ddd5a16ad6988a811eba2b203f6",
+    "continuationBase": "queue-reconciled-241.json",
+    "warning": "59 active IDs; limited source anchors do not equal whole question or independent approval.",
+    "expertApprovals": 0
+  },
+  "assets": [
+    {
+      "path": "app.css",
+      "sha256": "ffcf9e71426fe60cb7f70b084d1d1051593ed76953505e0be6752e89aec156cd",
+      "bytes": 22788
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+      "bytes": 5686
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+      "bytes": 253
+    },
+    {
+      "path": "index.html",
+      "sha256": "04880585f02b36deec9851bfd850bc6eb8387906703b7bfa8e7942b64134aa0e",
+      "bytes": 1548
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+      "bytes": 16360
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "d7aef0d0e7c7f1741240200a828de7dea7bfa43bb354dd4dec1d67e1e17729f7",
+      "bytes": 313
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+      "bytes": 343
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+      "bytes": 7132
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+      "bytes": 6279
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "c21392ce846bdf15595d0ee29974c475fc6c5a37b5736f82307f92b4c1273970",
+      "bytes": 11901
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "70d27c579572743da1388792c0d80a6d375c5de9fc9c4468855817c12b63f6eb",
+      "bytes": 27663
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "67631a6e2b613894e36c9d9000abcd957938fe2bcff0c81973b02b6b42c94976",
+      "bytes": 21157
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "60b49dd8321c78570e85d204114c5c20e5b028b944b24659c460a13594bf25e5",
+      "bytes": 7084
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+      "bytes": 6752
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "596aa1ed1cf0fe0657fd3eddf72e1a840c66e845581d1d4996551665a8ec5d76",
+      "bytes": 1649065
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+      "bytes": 3806
+    },
+    {
+      "path": "sw.js",
+      "sha256": "14b51f0a19fdb9965b39e982a73ed61c8d8e79d43e0582aaa05988bec5ea92f1",
+      "bytes": 1490
+    }
+  ],
+  "expertApprovals": 0,
+  "physicalIPhone": false
+}

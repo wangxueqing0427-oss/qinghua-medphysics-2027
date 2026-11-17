@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-17",
+  "papers": [
+    {
+      "id": "en-paper-01",
+      "version": "0.1",
+      "paperContentHash": "e94c81f9b1120725264d3831be92474f4978bd423b18578eaa7f18203cdb183f",
+      "snapshotSHA256": "30164ab86de2d80becd21897209461367ca8bb5ed02548f38643f06a98e972f2",
+      "questionCount": 52,
+      "minutes": 180,
+      "officialEquivalent": false
+    },
+    {
+      "id": "pol-paper-01",
+      "version": "0.1",
+      "paperContentHash": "bf0737a0c27adac92244cd1ec5433e36faac34efffd519556c1bdd3f4a3b4aac",
+      "snapshotSHA256": "a0307399d4cdd98654b771c081cac41bc5acec4d7b982db825dc12e0e145b58e",
+      "questionCount": 38,
+      "minutes": 180,
+      "officialEquivalent": false
+    },
+    {
+      "id": "353-paper-01",
+      "version": "0.1-original-conditions1",
+      "paperContentHash": "9dc5b7b2021a7dd853091f8395859401aa959c81bc639360032c15b25552ed4f",
+      "snapshotSHA256": "214fe700b214186e5eda5783afe0cac274963ca2b0e6da7dc7741a8d18d67ab8",
+      "questionCount": 35,
+      "minutes": 180,
+      "officialEquivalent": false
+    }
+  ],
+  "totalItems": 125,
+  "newSubjectiveBoundariesRead": 27,
+  "objectiveItemsNotReauditedThisRound": 98,
+  "rows": [
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-46",
+      "questionSHA256": "37470e95a553f7223cc5bf86a8d4acdad4413662cb97b2b41b6792ce4a0db11a",
+      "rubricItems": 3,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "T1 retains not merely contrast, measurement and conditions; multiple fluent translations accepted.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-47",
+      "questionSHA256": "578df0552ef7764b2550593cac60019020d78156ddbb2b78447abb1ce5db1256",
+      "rubricItems": 3,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "T2 retains cannot/may still and reference relations; does not force exact word order.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-48",
+      "questionSHA256": "3ca5d69a1263fbb6cc84cc344907367ef30438d4ce9ba25302b77927beb06062",
+      "rubricItems": 3,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "T3 preserves concession and not every; reference does not turn partial negation into no barriers removed.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-49",
+      "questionSHA256": "e7971ca689c080e53cc51a23f4409bbfd9ae72a8d771d454ac12d90d05561602",
+      "rubricItems": 3,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "T4 preserves before and must not; does not switch to absence of obligation.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-50",
+      "questionSHA256": "b7eef4bb5cddbbdaa707b09166510bf666bd477233fd2b1eb813de4835142fed",
+      "rubricItems": 3,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "T5 preserves not/but purpose and both can/cannot; alternative faithful Chinese accepted.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-51",
+      "questionSHA256": "9f630fafbe689ca7e489f770951afe5520fbe6220ab1b92a6f9fe16f220e561c",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Rubric explicitly requires two arrangement questions and task completion; reference is not unique. New request email lesson is partial prerequisite support, not complete volunteer-letter training.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "en-paper-01",
+      "questionId": "en-paper01-52",
+      "questionSHA256": "0af9a97a6abd1ca228a912900837e43176ec728c6e1629b1699aaa752fa6cd23",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Provided counts are contacts rather than independent persons; hypotheses are conditional, not proven website causality. No official word count asserted beyond this original task.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "pol-paper-01",
+      "questionId": "paper-pol01-a1",
+      "questionSHA256": "6b89c55f1ec8437f8776ae5ddef9a3f489b8af996086b53831d561997a0e75ec",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Practice/understanding and renewed verification are linked to material; no required statistical jargon. New primary Practice essay anchor corroborates concepts, not actual fictional effectiveness.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "pol-paper-01",
+      "questionId": "paper-pol01-a2",
+      "questionSHA256": "f71e2aea5e6367ade426d26250462d1cef975e45d37fdb3b2a44e4fae8b4dfde",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Rights and false accusation boundaries retain case/procedure qualification; Constitution source was read in prior paper evidence, not reread or treated as legal adjudication.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "pol-paper-01",
+      "questionId": "paper-pol01-a3",
+      "questionSHA256": "f2a1c9ceb85614337d80134676be938fe4e0d3412e3caa4d63bd9cc93f0d995e",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Education rights/duties and rights limitations are distinguished; no automatic criminal liability assigned.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "pol-paper-01",
+      "questionId": "paper-pol01-a4",
+      "questionSHA256": "b7e7abc7670b1e7d261ff51a306559420f72a2ae79672b8cb38e22e8e69302b6",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Different historical milestones and incomplete historical tasks distinguished. Source remains Constitution preamble, not fabricated contemporary archive.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "pol-paper-01",
+      "questionId": "paper-pol01-a5",
+      "questionSHA256": "08aad6c7aa0b0547b643329532549b6375d4b5c6119e93cdf880432f69823b81",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Direction/goal is separated from accomplished fact; no requirement for untaught policy-year quotations.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a1",
+      "questionSHA256": "167663944acd2b9e36402da25ce4c920d502b2ae9d9360a3444d76a4b8d96b63",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Prevention levels tied to disease, population and stage; reasonable alternate disease examples accepted.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a2",
+      "questionSHA256": "a4d579f280c2acb5e88c077a11fa9eebb310afc5e14f53e8e6dc84fc393176ae",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Risk, person-time rate and point prevalence use different denominators/time; source anchors do not prove arbitrary loss-to-follow-up handling.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a3",
+      "questionSHA256": "291de6417d66a4b9340cbea50a63cd3557fd17a492ef7ea78510434a67bbdb0b",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Source population/control selection and bias controls specified; matched design requires corresponding analysis, not automatic risk inference from case-control sampling.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a4",
+      "questionSHA256": "2396c90b08c643e73005692fd9cd9429374b140d8551bb3bbf20fc9e86dcab09",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Positive screening is not diagnosis; project effectiveness/harms distinct from predictive value. Population transport remains conditional.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a5",
+      "questionSHA256": "c98e6eed2ce454b4ca03d90257f0c431e82a3b8b429a48079b9154885eb88a0f",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Confounding/mediation/effect modification distinguished; collider adjustment mentioned but full causal-graph teaching absent, retained as curricular risk, not new expert-approved answer.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a6",
+      "questionSHA256": "9e2d1e89c6da65c8a42fac0d18362faf49f4505427cc7d52083fce0f9e18bf89",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Small p not clinical importance or causal/unbiased guarantee; effect size, interval and design required.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a7",
+      "questionSHA256": "5befb5f058d6a155f625cf1e3187dac156456f74cdf7f545f30c8a44424418c4",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Descriptive spread, mean CI and individual prediction target separated; assumptions require checking, not automatic normality from five numbers.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a8",
+      "questionSHA256": "6ab0efc217dfac187c75d624f865554e3e050473da38928bdfba15c674fb1ac0",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Medical patient exposure not conflated with worker/public limits; current local regulatory implementation remains outside this source review.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a9",
+      "questionSHA256": "84fc6e37655ad7aa48ceef42945e9a0569668e1396af21e17927ec3f7791b21d",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Independent test/development/postdeployment roles and leakage boundaries explicit; full real AI validation teaching not established by rubric alone.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-a10",
+      "questionSHA256": "11073c57621bb1bb6ef1f455e849054b5bc2b4dae5c77b482b8ad84d815aae79",
+      "rubricItems": 4,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Incremental comparison and equity/budget tradeoffs not reduced to a single ratio; no uniquely mandatory policy decision.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-c1",
+      "questionSHA256": "d2eaba175f6ca3a79d81089c55dd16541d9409f0388021f531fb428514442631",
+      "rubricItems": 5,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Training-point rubric respects time-specific denominators, risk difference units and noncausal bounds; prior arithmetic evidence reused.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-c2",
+      "questionSHA256": "c57fb9d3cbc9b7cc5aeaa33033e6aa5756175649a36b90db1c2a049f61cbb062",
+      "rubricItems": 5,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Reference standard, denominators and transport restrictions retained; prior arithmetic evidence reused, no independent clinical validation.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-c3",
+      "questionSHA256": "ac06aa1d71634e9ded5694b698253ed59928771a7d21d768e02e07837039d3fa",
+      "rubricItems": 5,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Sample n−1 SD, SE and mean-CI target remain distinct; prior original computation reused, no new77-question recomputation.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-c4",
+      "questionSHA256": "2b1d84ca53687833a57951e76132d16aec4bf86a66222439bb8fc01913f6068a",
+      "rubricItems": 5,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Absorbed-dose arithmetic, physical total and cumulative DVH volume not conflated with cure or biological equivalence; prior arithmetic reused.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    },
+    {
+      "paperId": "353-paper-01",
+      "questionId": "hp01-c5",
+      "questionSHA256": "c3ef2426234dbbaaa71a3129e6e220d9ec331fc3dbffedfb144493ba10f654fb",
+      "rubricItems": 5,
+      "actualRead": "stem,reference answer,rubric,explanation; English T1–T5 original passage also read",
+      "reviewNote": "Increment versus background-inclusive concentration and contaminant-specific controls distinguished; no infection-risk or individual-dose prediction.",
+      "result": "No new confirmed answer edit from this bounded internal review; remaining source/professional checks retained.",
+      "scope": "answer-boundary internal review, not complete independent question correctness approval",
+      "professionalApproved": false
+    }
+  ],
+  "confirmedNewPaperAnswerErrors": 0,
+  "ruleEvidence": "exam-rule-evidence-2026-11-17.json retained;2027 only provisional2028 reference",
+  "reusedPriorEvidence": [
+    "test.cjs existing engine/paper checks, not rerun",
+    "content/en-paper-test-receipt.json",
+    "content/353-paper-test-receipt.json"
+  ],
+  "remaining": [
+    "98 objective items have previous internal checks, not newly acquired external primary source approval.",
+    "Complete cross-topic/difficulty validation and subject-specific official paper rules still unconfirmed.",
+    "Causal diagrams, full AI appraisal and broad politics/writing paths still need full teaching depth.",
+    "Subjective rubrics support self-check only; no trusted professional aggregate or350 prediction."
+  ],
+  "independentProfessionalApprovals": 0
+}

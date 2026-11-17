@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 91,
+  "newDirectSubclaimAnchors": 10,
+  "remainingQueueCount": 81,
+  "rows": [
+    {
+      "id": "en-svo-1",
+      "course": "en-foundation-svo",
+      "version": "0.3-svo-delay-candidate1",
+      "originalQuestion": {
+        "id": "en-svo-1",
+        "type": "single",
+        "stem": "Children water the flowers. 的动作词是？",
+        "options": [
+          "Children",
+          "water",
+          "flowers"
+        ],
+        "answer": 1,
+        "explanation": "water在此表示浇水，承担动作谓语。"
+      },
+      "questionSHA256": "6c1aad5fedf969f9c3057e1bd74101b222dd736aab2d2b77059ca38fc1e0249a",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "action",
+      "sourceIds": [
+        "MLA_PREDICATE",
+        "MLA_OBJECT"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-svo-2",
+      "course": "en-foundation-svo",
+      "version": "0.3-svo-delay-candidate1",
+      "originalQuestion": {
+        "id": "en-svo-2",
+        "type": "single",
+        "stem": "Birds fly. 中的直接宾语是？",
+        "options": [
+          "Birds",
+          "fly",
+          "没有直接宾语"
+        ],
+        "answer": 2,
+        "explanation": "Birds是主体，fly是不带宾语的动作。"
+      },
+      "questionSHA256": "5e07a0b657ee229865042d9f63b70cd2ec3f0ffcccc5c5e5a9b6abbddafbfcf8",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "object",
+      "sourceIds": [
+        "MLA_PREDICATE",
+        "MLA_OBJECT"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-svo-delay-1",
+      "course": "en-foundation-svo",
+      "version": "0.3-svo-delay-candidate1",
+      "originalQuestion": {
+        "id": "en-svo-delay-1",
+        "type": "single",
+        "stem": "People read books in the library. 主干中的动作是？",
+        "options": [
+          "People",
+          "read",
+          "library"
+        ],
+        "answer": 1,
+        "explanation": "read表达动作；People是主体，books是宾语。"
+      },
+      "questionSHA256": "afa88da9c67791059d790b7d4690ef5c036f9be05bc9acd961d8050cd4d79a97",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "action",
+      "sourceIds": [
+        "MLA_PREDICATE",
+        "MLA_OBJECT"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-svo-delay-2",
+      "course": "en-foundation-svo",
+      "version": "0.3-svo-delay-candidate1",
+      "originalQuestion": {
+        "id": "en-svo-delay-2",
+        "type": "multi",
+        "stem": "Birds fly over the lake. 哪些判断正确？",
+        "options": [
+          "Birds是主语",
+          "fly是动作动词",
+          "lake是fly的直接宾语"
+        ],
+        "answer": [
+          0,
+          1
+        ],
+        "explanation": "over the lake补充地点，lake是介词over的宾语，不是fly的直接宾语。"
+      },
+      "questionSHA256": "996d77036ee23279d9a6125c126515c5562ef375ff87cbd8172a6fcded7bc3a1",
+      "independentlyReasonedAnswer": [
+        0,
+        1
+      ],
+      "conceptId": "preposition",
+      "sourceIds": [
+        "MLA_OBJECT",
+        "MLA_PREPOSITION"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-link-1",
+      "course": "en-linking-and-verb-phrase",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-link-1",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "The room is quiet. 中quiet的作用是？",
+        "options": [
+          "承受动作的宾语",
+          "说明room状态的表语",
+          "表示正在进行的动作"
+        ],
+        "answer": 1,
+        "explanation": "quiet说明主语room的状态，is在此连接主语与表语。"
+      },
+      "questionSHA256": "0fcfb1b2a3bef2f492febad8d7116be1a20d50ae1ac7bcbd56fc76fe6702a5c5",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "link",
+      "sourceIds": [
+        "BC_LINK"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-link-2",
+      "course": "en-linking-and-verb-phrase",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-link-2",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "The assistant is checking the list. 的谓语动词组合（本题仅指助动词和主要动词，不含宾语）是？",
+        "options": [
+          "assistant",
+          "checking the list的全部都是可删修饰语",
+          "is checking"
+        ],
+        "answer": 2,
+        "explanation": "本题按课堂限定找助动词is与主要动词checking，答案为is checking；the list是其宾语。某些句法体系把宾语也纳入广义verb phrase，本题不采用该术语范围，不能说所有句法分析都排除宾语。"
+      },
+      "questionSHA256": "d26c3431b38b884120dd6dc6845b7621cc82869a4413cceca93e26942d53b6af",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "progressive",
+      "sourceIds": [
+        "BC_CONT_REUSED",
+        "MLA_PREDICATE"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-link-3",
+      "course": "en-linking-and-verb-phrase",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-link-3",
+        "type": "multi",
+        "difficulty": "standard",
+        "stem": "哪些判断符合本课的三个例句？",
+        "options": [
+          "系表句不必强找动作宾语",
+          "任何-ing都可以删掉",
+          "Reading helps.中Reading作主语"
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "词的句法作用要结合整句判断，不能只靠-ing词尾决定可否删除。"
+      },
+      "questionSHA256": "b66491b5944fbad564c3414fec56173edd5430593403785313efe878b8c88f3a",
+      "independentlyReasonedAnswer": [
+        0,
+        2
+      ],
+      "conceptId": "nominal",
+      "sourceIds": [
+        "BC_LINK",
+        "BC_ING_REUSED"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-link-4",
+      "course": "en-linking-and-verb-phrase",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-link-4",
+        "type": "single",
+        "difficulty": "application",
+        "stem": "有人将The assistant is checking the list.简化为The assistant is.并说意思没有变化。怎样评价？",
+        "options": [
+          "没有变化，因为所有-ing都是修饰",
+          "丢失了核对清单这一动作和对象信息",
+          "原句没有主语"
+        ],
+        "answer": 1,
+        "explanation": "原句is checking为进行结构；机械删去checking the list不能保留原句意思。"
+      },
+      "questionSHA256": "0b93aac6c45815abf10b2bf81d117fc9263d7dc48f066301ca26e70f10631874",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "progressive",
+      "sourceIds": [
+        "BC_CONT_REUSED",
+        "MLA_PREDICATE"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-link-d1",
+      "course": "en-linking-and-verb-phrase",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-link-d1",
+        "type": "single",
+        "difficulty": "standard",
+        "stem": "隔日：The answer seems clear.中clear补充说明谁？",
+        "options": [
+          "answer",
+          "一个未出现的动作对象",
+          "句外的某个人"
+        ],
+        "answer": 0,
+        "explanation": "seems在此为连系动词，clear说明主语answer。补充词seem意为显得。"
+      },
+      "questionSHA256": "e7b0e398d0514afeef962fa2eb50365f705e86400cf3a41f208dec88980ccfa1",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "link",
+      "sourceIds": [
+        "BC_LINK"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-link-d2",
+      "course": "en-linking-and-verb-phrase",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-link-d2",
+        "type": "single",
+        "difficulty": "application",
+        "stem": "隔日迁移：The students are reading.中are reading应该怎样处理？",
+        "options": [
+          "删掉reading，意思完全相同",
+          "把reading必定当作主语",
+          "合起来识别正在阅读的动作"
+        ],
+        "answer": 2,
+        "explanation": "这个具体例句为进行结构，are reading共同表示动作。不要把Reading helps.的分析机械移到所有句子。"
+      },
+      "questionSHA256": "3207ee1c8783e80c86428ff43e9c03c63a12c57ef2427c91cbceb6c4167c9eba",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "progressive",
+      "sourceIds": [
+        "BC_CONT_REUSED",
+        "MLA_PREDICATE"
+      ],
+      "minimalRevision": "No confirmed answer edit; keep simple active/action or link-verb scope and full-predicate distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "action": {
+      "sourceIds": [
+        "MLA_PREDICATE",
+        "MLA_OBJECT"
+      ],
+      "support": "本课简单动作句中识别动作动词；不把完整谓语与谓语动词强行等同。"
+    },
+    "object": {
+      "sourceIds": [
+        "MLA_PREDICATE",
+        "MLA_OBJECT"
+      ],
+      "support": "谓语可以只有动词，句子不必强添直接宾语。"
+    },
+    "preposition": {
+      "sourceIds": [
+        "MLA_OBJECT",
+        "MLA_PREPOSITION"
+      ],
+      "support": "介词的宾语不同于主句动词的直接宾语，地点短语按本句作用分析。"
+    },
+    "link": {
+      "sourceIds": [
+        "BC_LINK"
+      ],
+      "support": "be/seem可连接说明主语状态的补足成分，不强解释为动作宾语。"
+    },
+    "progressive": {
+      "sourceIds": [
+        "BC_CONT_REUSED",
+        "MLA_PREDICATE"
+      ],
+      "support": "be与ing形式共同表达当前动作；去掉主要动作词会改变本课指定句意。"
+    },
+    "nominal": {
+      "sourceIds": [
+        "BC_LINK",
+        "BC_ING_REUSED"
+      ],
+      "support": "系表不强找动作宾语；ing形式也可作名词性主语，不能见ing就删。"
+    }
+  },
+  "sources": [
+    {
+      "id": "MLA_OBJECT",
+      "publisher": "MLA Style Center",
+      "title": "Objects",
+      "published": "2020-07-22",
+      "url": "https://style.mla.org/objects/",
+      "actualRead": "Main HTML3–17 direct object description and examples; no implication that all sentence types have one."
+    },
+    {
+      "id": "MLA_PREDICATE",
+      "publisher": "MLA Style Center",
+      "title": "Predicate",
+      "published": "2020-07-22",
+      "url": "https://style.mla.org/predicate/",
+      "actualRead": "Main3–19 verb-only or more extensive predicate examples;21–26 compound verbs. Does not redefine whole predicate as verb alone."
+    },
+    {
+      "id": "MLA_PREPOSITION",
+      "publisher": "MLA Style Center",
+      "title": "Prepositions",
+      "published": "2020-07-22",
+      "url": "https://style.mla.org/prepositions/",
+      "actualRead": "Main3–16 preposition-object phrases and modifier roles."
+    },
+    {
+      "id": "BC_LINK",
+      "publisher": "British Council LearnEnglish",
+      "title": "Link verbs",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/link-verbs",
+      "actualRead": "Main7–32 linking be/seem with noun/adjective complements; no lower comments used."
+    },
+    {
+      "id": "BC_CONT_REUSED",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous",
+      "actualRead": "Reused actual main7–22 recorded in tense-passive-followup.json."
+    },
+    {
+      "id": "BC_ING_REUSED",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/ing-forms",
+      "actualRead": "Reused actual main8–31 noun/subject use read during tense-passive follow-up; that earlier page lacked spelling rules, not noun-use text."
+    }
+  ],
+  "versionBoundary": "Web grammar teaching sources accessed2026-11-17; not official2028 scoring or independent review of our courses.",
+  "accessFailures": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/clause-structure-verb-patterns",
+      "result": "400 Timeout; no newly read body claimed. Used actually read MLA/link-verb pages instead."
+    }
+  ],
+  "removedIds": [
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b1",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "5aadc7b53ac044ecfff90f39269474485f21cb9c85d9d1b688787e819ad2cedf",
+  "independentProfessionalApprovals": 0
+}

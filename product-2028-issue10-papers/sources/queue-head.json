@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "pronoun-relative-followup.json",
-  "activeEvidenceSHA256": "490436a1c241289698efe5925c19364d9f6a8eb7557dd1a0dfdd538e9acf34b6",
-  "remainingCount": 108,
-  "remainingIdsSHA256": "06d0825c295f9545723361908b7c63a543917620e72440417c31c85a67ef6183",
+  "activeEvidenceFile": "practice-labour-people-followup.json",
+  "activeEvidenceSHA256": "697cff2c9841d9fcdd3d8c6540138832901bbd7ee23dd372fad52d68cf520eb7",
+  "remainingCount": 59,
+  "remainingIdsSHA256": "c994d6689f3d69e22f71c76459a04c02e4e01ddd5a16ad6988a811eba2b203f6",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "108 active IDs; bounded source anchors are not full question or independent approval.",
+  "warning": "59 active IDs; limited source anchors do not equal whole question or independent approval.",
   "expertApprovals": 0
 }

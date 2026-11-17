@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 108,
+  "newDirectSubclaimAnchors": 7,
+  "remainingQueueCount": 101,
+  "rows": [
+    {
+      "id": "frq-b2",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "frq-b2",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "步行4人/有效回答10人，对应百分比是？",
+        "options": [
+          "4%",
+          "40%",
+          "400%"
+        ],
+        "answer": 1,
+        "explanation": "B来自4÷10×100%=40%。A把人数直接加百分号，C数量级错误；该比例仅描述有效回答者。"
+      },
+      "questionSHA256": "1c8b4dc25bbf1b483cced5b09d408fbbd39bd627c7e0cf40d63712e816b3cdd0",
+      "independentlyReasonedAnswer": 1,
+      "sourceId": "CDC_PROPORTION",
+      "directSupport": "Part/whole proportions may be expressed as percentages; the original fictional calculation is retained, not a new repeat77 numeric audit.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "frq-b3",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "frq-b3",
+        "type": "single",
+        "difficulty": "standard",
+        "stem": "12名受邀者中10人回答，4名回答者步行。有效回答者中的步行比例分母是什么？",
+        "options": [
+          "12名受邀者",
+          "4名步行者",
+          "10名有效回答者"
+        ],
+        "answer": 2,
+        "explanation": "C与题目对象对应。A回答的是另一个分母问题且未答状态未知；B把部分自身当总体。"
+      },
+      "questionSHA256": "93260966cc592e9ee957062f9829decf6a6d9498d8834736db74dacc18c76ac2",
+      "independentlyReasonedAnswer": 2,
+      "sourceId": "CDC_PROPORTION",
+      "directSupport": "The specified whole is valid respondents; invitees with unknown responses are not automatically added to that denominator.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "frq-d2",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "frq-d2",
+        "type": "single",
+        "difficulty": "application",
+        "stem": "隔日：甲6/20、乙9/60，哪项比较正确？",
+        "options": [
+          "乙人数多，所以比例必高",
+          "甲30%，乙15%，甲样本比例更高",
+          "甲6%乙9%"
+        ],
+        "answer": 1,
+        "explanation": "B分别计算6/20和9/60。A把绝对数排序当比例排序；C错误地直接加百分号。"
+      },
+      "questionSHA256": "e0af953568a1e3e20677e2329c7c6a42d4802adfa2d83bb3bcc6d13f3cb19ace",
+      "independentlyReasonedAnswer": 1,
+      "sourceId": "CDC_PROPORTION",
+      "directSupport": "Proportion compares part with its own whole, not just two numerators.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "ep-b4",
+      "course": "353-energy-power",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "ep-b4",
+        "type": "single",
+        "difficulty": "basic",
+        "stem": "同一时段100 J输入、60 J指定有用输出，哪项合理？",
+        "options": [
+          "效率60%，另40 J进入其他路径",
+          "另40 J凭空消失",
+          "效率与任务边界无关"
+        ],
+        "answer": 0,
+        "explanation": "A符合该系统定义。B违背能量记账；C忽略有用输出及边界定义。"
+      },
+      "questionSHA256": "e03a30be697bf4dbdc0078a1e398a28a2ad83863d733bb6b89ade5fa318afae4",
+      "independentlyReasonedAnswer": 0,
+      "sourceId": "EIA_ENERGY",
+      "directSupport": "Energy conservation supports accounting for the remainder in other forms or paths, with matched system/time and the taught useful-output definition.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "ep-a4",
+      "course": "353-energy-power",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "ep-a4",
+        "type": "multi",
+        "difficulty": "application",
+        "stem": "关于能量记账和效率，哪些说法有依据？",
+        "options": [
+          "先说明输入输出的系统和时段",
+          "效率60%说明患者获益60%",
+          "其他路径的能量不代表消失",
+          "铭牌功率总等于每时刻实际功率"
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A/C符合定义和守恒。B把物理效率当临床获益；D把标称参数作无条件实测值，均缺依据。"
+      },
+      "questionSHA256": "b288d260dd1839d6db52f9c1f45144b1a41fced9f1efa48a58d2a5b8f8143cd9",
+      "independentlyReasonedAnswer": [
+        0,
+        2
+      ],
+      "sourceId": "EIA_ENERGY",
+      "directSupport": "Track specified input/output and other forms or storage; physical efficiency is not clinical benefit, and nameplate power does not establish instant actual input.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-indicators-ethics-b1",
+      "course": "353-health-indicators-ethics",
+      "version": "0.1-issue8-b",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "荷浦只有化验正常就能证明身体、精神和社会状态均完整健康吗？",
+        "options": [
+          "可以，一项结果足够",
+          "不能，健康维度与评价资料不止化验",
+          "公共卫生只关心医院营业量"
+        ],
+        "answer": 1,
+        "explanation": "单项化验不是所有健康维度的证据；健康观包含多方面，群体评价还需目的、资料和分布条件。",
+        "id": "353-health-indicators-ethics-b1",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "PH01"
+        ]
+      },
+      "questionSHA256": "7d3f976bc59394f58a4f527e29103162f4a140cfc21930f02eaac4579df2d341",
+      "independentlyReasonedAnswer": 1,
+      "sourceId": "WHO_CONSTITUTION",
+      "directSupport": "WHO health definition includes physical, mental and social well-being, not solely a laboratory result.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-promotion-behaviour-b1",
+      "course": "353-health-promotion-behaviour",
+      "version": "0.1-issue8-b",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "松岭员工理解活动建议但没有安全场地，哪项判断合理？",
+        "options": [
+          "再次背知识就必然解决",
+          "需同时分析时间、环境与资源机会",
+          "全部是个人道德问题"
+        ],
+        "answer": 1,
+        "explanation": "健康行为受多种条件影响，教育可帮助但不能代替机会与环境支持；需与员工讨论可行方案。",
+        "id": "353-health-promotion-behaviour-b1",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "PH06"
+        ]
+      },
+      "questionSHA256": "f1942964a17cec47a0682cd66de8505d1d6246752e187f9354105aa7f41816aa",
+      "independentlyReasonedAnswer": 1,
+      "sourceId": "WHO_OTTAWA",
+      "directSupport": "Supportive environments, resources and opportunities matter in health promotion, not simply repeating information.",
+      "limitations": "Only stated conceptual subclaim. No empirical fictional-case validation, clinical efficacy prediction or complete expert review.",
+      "minimalRevision": "No confirmed answer edit; preserve specified denominator, system boundaries and multidimensional health interpretation.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "CDC_PROPORTION",
+      "publisher": "CDC archived educational text",
+      "title": "Principles of Epidemiology Lesson3 Section1 Frequency Measures",
+      "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+      "version": "Last Reviewed2012-05-18; not current regulatory guidance",
+      "actualRead": "Main HTML80–93,117–130 part/whole and percentages;157–165 read for terminology caveat. Did not adopt every illustrative disease claim or infer a true rate from any percent."
+    },
+    {
+      "id": "EIA_ENERGY",
+      "publisher": "U.S. Energy Information Administration",
+      "title": "Laws of energy",
+      "url": "https://www.eia.gov/energyexplained/what-is-energy/laws-of-energy.php",
+      "version": "Live public educational body accessed2026-11-17; exact revision not verified",
+      "actualRead": "HTML287–294 conservation/conversion/usefulness. Did not adopt the adjacent blanket human-body efficiency percentage, which is not needed or independently checked.",
+      "limits": "Does not contain our hypothetical100J/60J numbers or prove device nameplate equals real instantaneous power; only fundamental conservation/conversion anchor."
+    },
+    {
+      "id": "WHO_CONSTITUTION",
+      "publisher": "WHO",
+      "title": "Constitution of the World Health Organization",
+      "url": "https://www.who.int/about/governance/constitution",
+      "version": "Founding text adopted1946-07-22, in force1948-04-07 per actual page85; live access2026-11-17",
+      "actualRead": "Actual official main body85–105, especially principle92; not a download of full treaty."
+    },
+    {
+      "id": "WHO_OTTAWA",
+      "publisher": "WHO",
+      "title": "Ottawa Charter for Health Promotion",
+      "url": "https://www.who.int/teams/health-promotion/enhanced-wellbeing/first-global-conference",
+      "version": "1986-11-21 charter reproduced on official public page",
+      "actualRead": "Previously actually read main HTML87–113 in this ongoing task: enable/supportive environment/resources/local conditions. Reused exact reading, no duplicate download."
+    }
+  ],
+  "retainedGaps": [
+    "Multiple-response and rounding items remain pending dedicated sources; CDC proportion definition alone does not settle them.",
+    "Health privacy and life-table claims not discharged by general health definition."
+  ],
+  "accessFailures": [
+    {
+      "url": "https://www.eia.gov/energyexplained/what-is-energy/what-is-energy/laws-of-energy.php",
+      "result": "Official link resolved with duplicated path and404; normalized same public canonical path read successfully, no access control bypass."
+    }
+  ],
+  "removedIds": [
+    "frq-b2",
+    "frq-b3",
+    "frq-d2",
+    "ep-b4",
+    "ep-a4",
+    "353-health-indicators-ethics-b1",
+    "353-health-promotion-behaviour-b1"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b1",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "d7c571f7379e53101d0d6d4352b253418487063b50b5bdbdb62767ca53488f1a",
+  "independentProfessionalApprovals": 0
+}

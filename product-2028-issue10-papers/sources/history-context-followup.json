@@ -1,0 +1,465 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 101,
+  "newDirectSubclaimAnchors": 10,
+  "remainingQueueCount": 91,
+  "rows": [
+    {
+      "id": "pol-modern-history-entry-b1",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-b1",
+        "type": "single",
+        "stem": "本课两个锚点的顺序正确的是？",
+        "options": [
+          "1840鸦片战争爆发，1842-08-29南京条约签订",
+          "1842战争爆发，1840条约签订",
+          "两件均在1939发生"
+        ],
+        "answer": 0,
+        "explanation": "外交机构概览与馆方说明分别支持1840战争和1842年8月29日条约；1939是本课理论文本的原作年代。",
+        "difficulty": "foundation",
+        "errorCauseHint": "将1840战争爆发与1842条约签订当同一时点。"
+      },
+      "questionSHA256": "ed1bb017260d2dae3194a1d984b88c0cd5cc2440f0c5d9a8ad47b8c62f71d77d",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "dates",
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-b2",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-b2",
+        "type": "single",
+        "stem": "读取馆方对复制品的说明后，哪种记录诚实准确？",
+        "options": [
+          "已看过1842条约原手稿",
+          "读取现代馆方复制品说明，未读原手稿",
+          "馆方网页就是当年签约过程录像"
+        ],
+        "answer": 1,
+        "explanation": "必须区分载体和资料层次；复制品介绍可提供馆方所记日期，但不能升级成已读原件或亲历证据。",
+        "difficulty": "foundation",
+        "errorCauseHint": "把复制品介绍或网页访问当已读原始手稿。"
+      },
+      "questionSHA256": "2e211ed432968843edab5d8b79e42425025d00feca2482040de9b426e3ca5105",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "provenance",
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM",
+        "ESSAY1939"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-b3",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-b3",
+        "type": "single",
+        "stem": "半殖民地半封建在本课中怎样理解？",
+        "options": [
+          "两块领土各占50%",
+          "两个词可直接计算人口比例",
+          "外国势力影响与封建关系等交织的历史社会性质"
+        ],
+        "answer": 2,
+        "explanation": "该术语概括特定历史社会关系，不是领土或人口的机械半数，且须结合资本主义成分等复杂过程。",
+        "difficulty": "foundation",
+        "errorCauseHint": "把半殖民地半封建解释成各占一半领土。"
+      },
+      "questionSHA256": "840dd80467f4ea3b21165c435625c9f083db18793c5ccc43035d6f381cae0f9b",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "context",
+      "sourceIds": [
+        "ESSAY1939",
+        "OVERVIEW2004"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-b4",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-b4",
+        "type": "single",
+        "stem": "读1939原著电子文本中的现在，首先应怎样处理？",
+        "options": [
+          "放回1939原作语境",
+          "当作2028最新政策",
+          "解释为所有时代永不变化"
+        ],
+        "answer": 0,
+        "explanation": "原作中的时间指示应放回文献形成背景，不因今天访问网页就变成今天的社会性质或考试要求。",
+        "difficulty": "foundation",
+        "errorCauseHint": "将1939的现在和矛盾分析无条件搬到今天。"
+      },
+      "questionSHA256": "40f6b49d03f206d94c9cb320c927337c00075a80b1e61f0082a85772f0b0c24d",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "context",
+      "sourceIds": [
+        "ESSAY1939",
+        "OVERVIEW2004"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-a1",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-a1",
+        "type": "single",
+        "stem": "学生把“1840年8月29日签南京条约”写入笔记，最小校正是？",
+        "options": [
+          "只把事件换为1939写作",
+          "条约签订日期改1842年8月29日，1840留作战争爆发年",
+          "保留日期并称从原手稿读到"
+        ],
+        "answer": 1,
+        "explanation": "校正需匹配已核对事件与年月日，馆方说明支持1842-08-29；不可为了修正一个数字再虚构读取原手稿。",
+        "difficulty": "application",
+        "errorCauseHint": "将1840战争爆发与1842条约签订当同一时点。"
+      },
+      "questionSHA256": "5b0df9c1a8ce7e0e0aa41e89ad1c23b7d8c0c35b3e6fac3cdf5921c6dcd9ee1d",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "dates",
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-a2",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-a2",
+        "type": "single",
+        "stem": "2004历史概览和1939理论文献电子版，正确区分是？",
+        "options": [
+          "都必是1840同时代日记",
+          "网页访问日就是原作日",
+          "分别为后世概览与历史原作转录，仍需说明读取形态"
+        ],
+        "answer": 2,
+        "explanation": "资料各有作者、形成时间和目的；电子载体不抹去原作年份，也不等于已查看原始手迹或档案。",
+        "difficulty": "application",
+        "errorCauseHint": "把复制品介绍或网页访问当已读原始手稿。"
+      },
+      "questionSHA256": "70c1cf32bbfa09d884835a300229d8430f0bf221dbfbd5d91272584efc4ed927",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "provenance",
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM",
+        "ESSAY1939"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-a3",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-a3",
+        "type": "single",
+        "stem": "有人说战争爆发当天全部关系瞬间改为机械各半，主要问题是？",
+        "options": [
+          "忽略渐变过程，把社会关系术语误作50%算术",
+          "日期越早概念越一定正确",
+          "只需多写两个年份即可"
+        ],
+        "answer": 0,
+        "explanation": "本课概念涉及多种关系交织与渐进变化，不能以单一时点取代过程，更不能把半字当精确数量比例。",
+        "difficulty": "application",
+        "errorCauseHint": "把半殖民地半封建解释成各占一半领土。"
+      },
+      "questionSHA256": "484b6d2085bc8af3d94d809059b277bfb633cb38bc4347a9cf016ee5c34b685f",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "context",
+      "sourceIds": [
+        "ESSAY1939",
+        "OVERVIEW2004"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-d1",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-d1",
+        "type": "single",
+        "stem": "隔日：南京条约签订这个锚点应写哪一天？",
+        "options": [
+          "1840-08-29",
+          "1842-08-29",
+          "1939-12-29"
+        ],
+        "answer": 1,
+        "explanation": "馆方说明记1842年8月29日；1840用于本课战争爆发年份，1939年12月用于理论文献背景，不可交叉。",
+        "difficulty": "delayed",
+        "errorCauseHint": "将1840战争爆发与1842条约签订当同一时点。"
+      },
+      "questionSHA256": "75127a37ab83f106b530db5f010e361c84ec37252e8897c63038e0a0c69087f4",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "dates",
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-d2",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-d2",
+        "type": "single",
+        "stem": "要写来源读取回执，哪项合格？",
+        "options": [
+          "只见链接就称原件全文已核验",
+          "把网页页脚年份当签约年份",
+          "记录馆方复制品介绍及原著电子转录，分别注明未见手稿"
+        ],
+        "answer": 2,
+        "explanation": "回执应如实标记载体和实际读到的内容，链接或页脚不能代替全文读取，也不能充当历史事件日期。",
+        "difficulty": "delayed",
+        "errorCauseHint": "把复制品介绍或网页访问当已读原始手稿。"
+      },
+      "questionSHA256": "e71e966b17365dbd01c3d05c01e1bf21bfea33a8f659430125ac9673f55d57c1",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "provenance",
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM",
+        "ESSAY1939"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-modern-history-entry-d3",
+      "course": "pol-modern-history-entry",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "pol-modern-history-entry-d3",
+        "type": "single",
+        "stem": "解释近代社会性质变化，哪种表述符合本课？",
+        "options": [
+          "在具体历史中逐步形成的关系格局，不能按半字作比例计算",
+          "所有旧关系当日全消失",
+          "只有领土平均分割才适用该词"
+        ],
+        "answer": 0,
+        "explanation": "理论概念要联系真实历史关系与变化过程，不以字面数量替代，也不假设旧关系在一个时点全部消失。",
+        "difficulty": "delayed",
+        "errorCauseHint": "把半殖民地半封建解释成各占一半领土。"
+      },
+      "questionSHA256": "977ee4d537aa2035d8551ccd694233b7df8dcec3a74351dadd1fc0d0b964d974",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "context",
+      "sourceIds": [
+        "ESSAY1939",
+        "OVERVIEW2004"
+      ],
+      "minimalRevision": "No confirmed answer edit; retain historical date/context and explicit source-form limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "dates": {
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM"
+      ],
+      "support": "1840战争爆发与1842-08-29条约签订是不同锚点，不混为同一天。"
+    },
+    "provenance": {
+      "sourceIds": [
+        "OVERVIEW2004",
+        "MUSEUM",
+        "ESSAY1939"
+      ],
+      "support": "分别读取后世概览、馆方复制件说明和原著电子转录；网页访问时间不等于历史事件或原作时间。"
+    },
+    "context": {
+      "sourceIds": [
+        "ESSAY1939",
+        "OVERVIEW2004"
+      ],
+      "support": "社会性质描述须结合历史语境与关系变化，不能把半字直接化为领土或人口50%的算术。"
+    }
+  },
+  "sources": [
+    {
+      "id": "OVERVIEW2004",
+      "publisher": "中华人民共和国驻立陶宛共和国代办处网站",
+      "title": "近代(1840—1919年)",
+      "published": "2004-05-28",
+      "url": "https://lt.china-office.gov.cn/ljzg/zgjk/lsgk/200405/t20040528_2910327.htm",
+      "actualRead": "Actual short official webpage body line3 and date2; later overview, not1840 diary or original treaty."
+    },
+    {
+      "id": "MUSEUM",
+      "publisher": "南京静海寺纪念馆/南京条约史料陈列馆",
+      "title": "《南京条约》复制件",
+      "url": "https://njjhs.cn/Collection/54.html",
+      "actualRead": "Actual page title plus collection description123–131: signing date1842-08-29. No readable original treaty manuscript examined.",
+      "version": "Live collection page accessed2026-11-17; webpage publication date not established."
+    },
+    {
+      "id": "ESSAY1939",
+      "author": "毛泽东及合作编写者（页面编者说明区分章节起草）",
+      "title": "中国革命和中国共产党",
+      "written": "1939-12",
+      "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193912.htm",
+      "actualRead": "Actual title/date4–8 and first chapter section3 HTML29–38,49–53: historical framework and progressive change. Not a reading of1939 manuscript or modern2028 requirements.",
+      "version": "Public electronic transcription, printed edition collation not independently verified."
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://www.sara.gov.cn/static/content/xxgk/flfg/2018-03-22/1306305917016342528.html",
+      "result": "400 Timeout; no new constitutional text read in this attempt, not needed to replace the historical sources above."
+    }
+  ],
+  "removedIds": [
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b1",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "5f69f45272387a954ab1c9b6b9edfa84d23c04b976a5f3215308389fa71c37b8",
+  "independentProfessionalApprovals": 0
+}

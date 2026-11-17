@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17",
+  "testedSHA": "816e4b7ef441a13877b92920b83342d281f50df7",
+  "run": 44030420568,
+  "conclusion": "success",
+  "contentChecks": 6,
+  "newCourse": "en-request-email-foundation",
+  "newItems": 12,
+  "realBrowser": [
+    "Chromium",
+    "mobile WebKit"
+  ],
+  "checks": [
+    "new unit12answers/recall/delayed reference-only rubric",
+    "long raw answer/tab close/backup clone",
+    "real TCP outage offline reopen",
+    "77→78 SW update and exact old answer/session preservation",
+    "corrected teaching overlay does not rewrite old unit or content contract"
+  ],
+  "additional75CompatibilityRun": 44030420579,
+  "additionalResult": "success",
+  "expertApprovals": 0,
+  "physicalIPhone": false
+}

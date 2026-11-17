@@ -1,0 +1,797 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 81,
+  "newDirectSubclaimAnchors": 22,
+  "remainingQueueCount": 59,
+  "rows": [
+    {
+      "id": "pol-matter-consciousness-b1",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "题给实际20座位，希望30人同时坐下，最符合从实际出发的是？",
+        "options": [
+          "先调查容量并调整安排",
+          "宣布愿望自动增加座位",
+          "不必核对数据"
+        ],
+        "answer": 0,
+        "explanation": "A区分愿望与客观条件；B把主观愿望当事实，C省略调查。题给数字不是任何场所的法定标准。",
+        "id": "pol-matter-consciousness-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "60942d0267e341cb3b6baf7d1106fbbce708e8be2f433094aebf2a1f3bd42a22",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-b2",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "有证据显示条件变化，认识和方案应？",
+        "options": [
+          "永远沿用旧表",
+          "依据新事实修订",
+          "只看愿望是否强烈"
+        ],
+        "answer": 1,
+        "explanation": "实际会发展，认识需跟随证据修订；A守旧，C用愿望取代事实，不是发挥正确能动性。",
+        "id": "pol-matter-consciousness-b2",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "571401c07b42d86e1f176f83bcef29623c606151001854320a516102c0f95bd3",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-b3",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "意识对实际工作产生能动影响的合适说明？",
+        "options": [
+          "想法自动变资源",
+          "承认客观条件就无需行动",
+          "认识通过实践指导行动"
+        ],
+        "answer": 2,
+        "explanation": "C保留实践中介和条件；A是意志万能，B消极化物质决定意识，均不完整。",
+        "id": "pol-matter-consciousness-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "63faaf49cd02c69b08796a8dd886d8dc574587fb62abaf25e40d118ef984e84d",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-b4",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "尊重规律与发挥主动性应如何？",
+        "options": [
+          "结合具体条件采取行动并检验",
+          "任意宣布规律失效",
+          "只要积极就保证成功"
+        ],
+        "answer": 0,
+        "explanation": "A同时保留条件、行动和检验；B否定客观性，C混淆主动实践与无条件结果承诺。",
+        "id": "pol-matter-consciousness-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "7d0b3248cc13478dab6960a1d55d13eec4af6f99513c2f3f0d00835e6f9e95bc",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-a1",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "组织者没调查便认定已有足够资源，主要错误是？",
+        "options": [
+          "过分核对证据",
+          "以主观设想代替实际",
+          "认识随实际更新"
+        ],
+        "answer": 1,
+        "explanation": "B指出缺证据的主观化判断；A与题意相反，C恰是应采取的方法，不是题给错误。",
+        "id": "pol-matter-consciousness-a1",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "c6fc3e2f514ea74f3c5231c78aa7a7caf1165a6780579c7bd9ef2ad14a0caadf",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-a2",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔壁新增房间已经核实，但继续照旧限制方案，最应改进？",
+        "options": [
+          "否定所有旧经验",
+          "宣称事实随意变化",
+          "根据新条件更新判断"
+        ],
+        "answer": 2,
+        "explanation": "C保留旧经验的适用边界并使用新证据；A全盘否定，B误读事实变化为随意性。",
+        "id": "pol-matter-consciousness-a2",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "51e3fa1a64773107e69a14489bad73b542476cd761fba47a1274e706b81969cc",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-a3",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "有困难时哪种行动最符合本课？",
+        "options": [
+          "分析资源、改进安排、检查效果",
+          "因客观困难放弃所有行动",
+          "只喊口号不实施"
+        ],
+        "answer": 0,
+        "explanation": "A是有条件的主动实践；B消极等待，C缺实践，均不能体现有效能动作用。",
+        "id": "pol-matter-consciousness-a3",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "d910788964ecbc0ee99b5aa62501000e54639dab68290d62dab291c948165e2c",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-d1",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：现实资源与对资源的期望不同，制定方案应优先依据？",
+        "options": [
+          "期望值本身",
+          "查明的实际条件",
+          "想象中的条件"
+        ],
+        "answer": 1,
+        "explanation": "B给认识提供事实依据；A、C若未经证实都不能替代实际资源，并不否认合理目标的作用。",
+        "id": "pol-matter-consciousness-d1",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "0bb8078fbd33dc365194d64b6acb5ea08094297bd0835d9c51f16786165588ea",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-d2",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日材料给出条件已改变，哪项不妥？",
+        "options": [
+          "重新调查",
+          "修订计划",
+          "旧认识永不需变"
+        ],
+        "answer": 2,
+        "explanation": "C使认识脱离发展中的实际；A、B可使主观更符合客观，但修订仍要证据。",
+        "id": "pol-matter-consciousness-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "5aeae79c51be1fac35ecca37906c6367b52d8fcf09282668e42bc3d9ea63bec0",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-matter-consciousness-d3",
+      "course": "pol-matter-consciousness",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日认识的能动作用不意味着？",
+        "options": [
+          "脱离条件的想法自动实现",
+          "行动可由计划指导",
+          "实践结果可反过来修订认识"
+        ],
+        "answer": 0,
+        "explanation": "A把主观活动绝对化；B、C保留实践和反馈，都是本课合理联系。",
+        "id": "pol-matter-consciousness-d3",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "495cae368c69037552a50940e5abd2c1be7ae94fa230c59db17c9c7af063cb49",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "conditions",
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-b1",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-b1",
+        "type": "single",
+        "stem": "本课判断历史主体作用首先看什么？",
+        "options": [
+          "实际社会实践与创造活动",
+          "新闻出现次数",
+          "个人名气"
+        ],
+        "answer": 0,
+        "explanation": "主体作用应联系生产创造和社会变革的现实活动，知名度与报道数量不能代替历史实践依据。",
+        "difficulty": "foundation",
+        "errorCauseHint": "英雄一个人创造一切历史。"
+      },
+      "questionSHA256": "cada2ef06c75534585143371084683603dd5460555e5bb53b2f0cb2399608b85",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-b2",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-b2",
+        "type": "single",
+        "stem": "承认群众主体作用是否意味着个人毫无作用？",
+        "options": [
+          "是，个人一概无贡献",
+          "否，须在条件与实践中评价个人具体作用",
+          "个人作用可脱离社会条件"
+        ],
+        "answer": 1,
+        "explanation": "个人能推动或阻碍实践，但受社会条件并通过群体活动发挥作用；两个绝对化判断都不完整。",
+        "difficulty": "foundation",
+        "errorCauseHint": "承认群众就必须否认个人贡献。"
+      },
+      "questionSHA256": "576c5aa5e95f441715ea994778f1d68df740da51067e72f2c31d26bf1e1c5fc6",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-b3",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-b3",
+        "type": "single",
+        "stem": "合力论述最不应被解释为何种规则？",
+        "options": [
+          "多种行动相互作用",
+          "条件影响结果",
+          "所有愿望必然原样相加实现"
+        ],
+        "answer": 2,
+        "explanation": "合力并不保证每个人原初目标都实现，结果由相互作用形成，不能把理论变成愿望票数的机械求和。",
+        "difficulty": "foundation",
+        "errorCauseHint": "合力就是所有人目标原样相加。"
+      },
+      "questionSHA256": "08c703f9d3d948c6218f165505390853b2c548256ec136c6cccc15c1d79c5c20",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-b4",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-b4",
+        "type": "single",
+        "stem": "材料分析哪种回答较完整？",
+        "options": [
+          "列群体实践、个人贡献和条件限制",
+          "只写群众两个字",
+          "只列一个名人"
+        ],
+        "answer": 0,
+        "explanation": "完整回答需要把范畴落到材料行动和条件上；单个词或名字既不能展示理解，也不足以构成评分依据。",
+        "difficulty": "foundation",
+        "errorCauseHint": "只写群众关键词，不解释材料中的实践。"
+      },
+      "questionSHA256": "e95fe6c10ba290ce72ba5b340c5587fec0c23241cbaff41b573d163e715780a4",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-a1",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-a1",
+        "type": "single",
+        "stem": "某馆员提方案，多人分类实施并反馈。对个人贡献如何评价？",
+        "options": [
+          "方案人独自完成所有工作",
+          "提出者有贡献，实施仍依赖多人和资源",
+          "所有人都没有作用"
+        ],
+        "answer": 1,
+        "explanation": "材料同时有倡议、实施、反馈和条件，须兼顾不同贡献；不能把方案的提出等同全部实践结果。",
+        "difficulty": "application",
+        "errorCauseHint": "英雄一个人创造一切历史。"
+      },
+      "questionSHA256": "78fe8b74b3fa7ba9c04ccd6cb85364ca250d701d5b4656c73e5d7426d15f55e0",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-a2",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-a2",
+        "type": "single",
+        "stem": "众人希望不同，最终规则经过试行调整。这最能说明？",
+        "options": [
+          "个体目标完全一致",
+          "物质条件不存在",
+          "结果受多方行动与条件相互作用"
+        ],
+        "answer": 2,
+        "explanation": "不同目标与试行反馈形成新安排，不是单一愿望直接决定。相互作用并不意味着无需分析具体条件。",
+        "difficulty": "application",
+        "errorCauseHint": "承认群众就必须否认个人贡献。"
+      },
+      "questionSHA256": "565cbdc925a119dc07fd73a1ef6a7f5a4d3d4dd7197943bc1c9352bc84cc8b43",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-a3",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-a3",
+        "type": "single",
+        "stem": "有人据一次志愿活动成功断言组织者可改变任意历史，问题是？",
+        "options": [
+          "从有限案例外推个人万能，忽略条件和集体实践",
+          "个人确实完全不能有作用",
+          "志愿者不算实际行动"
+        ],
+        "answer": 0,
+        "explanation": "单例不能证明任意社会环境中的无限能力；指出夸大并不等于否认组织者的实际贡献或他人实践。",
+        "difficulty": "application",
+        "errorCauseHint": "合力就是所有人目标原样相加。"
+      },
+      "questionSHA256": "3774dd8782a30bb773a7d9a118736cbc5f09a6461d496aceb6d3216cb0fd433a",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-d1",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-d1",
+        "type": "single",
+        "stem": "隔日：只研究著名人物名字而不看生产与社会行动，主要缺什么？",
+        "options": [
+          "更多姓名拼写",
+          "群众实践与条件的依据",
+          "所有个人贡献都须删除"
+        ],
+        "answer": 1,
+        "explanation": "缺少现实社会活动与条件的分析，不是单纯姓名数量问题，也不必删除有证据的个人贡献。",
+        "difficulty": "delayed",
+        "errorCauseHint": "英雄一个人创造一切历史。"
+      },
+      "questionSHA256": "56683441fa59355a794a81884d5278a5507f431963495fe48741ef704dcfbf84",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-d2",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-d2",
+        "type": "single",
+        "stem": "评价一位倡议者的历史作用，哪种方法适当？",
+        "options": [
+          "只按其自述愿望",
+          "先认定作用永远为零",
+          "考察具体贡献、实践结果及社会条件"
+        ],
+        "answer": 2,
+        "explanation": "实际作用须由行动结果及条件评价，既不能把愿望当全部历史，也不能预先否定所有个人作用。",
+        "difficulty": "delayed",
+        "errorCauseHint": "承认群众就必须否认个人贡献。"
+      },
+      "questionSHA256": "ae6684cdaf261d1d1b6504412b360b727ff8743df6ebb5d4b48f97d5c80ece0c",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "people",
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-people-individual-history-d3",
+      "course": "pol-people-individual-history",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "pol-people-individual-history-d3",
+        "type": "single",
+        "stem": "多人行动后出现并非任何一人完整预定的结果，这与合力分析？",
+        "options": [
+          "相容，结果可以由条件中的相互作用形成",
+          "矛盾，结果必须等于某个人全部愿望",
+          "证明人不可能行动"
+        ],
+        "answer": 0,
+        "explanation": "合力分析允许结果不同于单一意图，仍需研究各行动如何受条件制约；不能跳成宿命或无行动。",
+        "difficulty": "delayed",
+        "errorCauseHint": "合力就是所有人目标原样相加。"
+      },
+      "questionSHA256": "6658e3040ef9508d369b926fddf67c0c7b70f0ea8f2b090c304149fa59f6539d",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "interaction",
+      "sourceIds": [
+        "ENGELS1890_REUSED"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-b1",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "面包坊用于烘烤的烤炉，在给定生产过程首先属于？",
+        "options": [
+          "劳动资料",
+          "劳动对象面粉",
+          "个人情绪本身"
+        ],
+        "answer": 0,
+        "explanation": "烤炉作为劳动手段是劳动资料；面粉才是本题被加工对象，个人情绪不能替代该要素分类。",
+        "id": "pol-productive-forces-relations-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "7d602cd016f37ad8e57fa511e018a46644a6f84704cf1e5518b24011a0ccf157",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "instruments",
+      "sourceIds": [
+        "CAPITAL1_7"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-d1",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日：印刷时被加工的纸张，在此首先是？",
+        "options": [
+          "劳动资料印刷机",
+          "劳动对象",
+          "所有制关系"
+        ],
+        "answer": 1,
+        "explanation": "题设纸张是被作用材料，为劳动对象；印刷机是劳动资料。C是人与人的经济关系，不能与纸张本身混同。",
+        "id": "pol-productive-forces-relations-d1",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "f972dd9b7e15a6aeb21a42f5e09a984f9f341cf888ca8917fd601425a77daa5c",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "instruments",
+      "sourceIds": [
+        "CAPITAL1_7"
+      ],
+      "limitations": "Original fictional teaching application, not empirical proof of a particular organization or an official exam rubric. Source-form/edition limitations remain.",
+      "minimalRevision": "No confirmed option-answer change; retain objective conditions, concrete historical scope and instrument/subject distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "conditions": {
+      "sourceIds": [
+        "MAO1937_REUSED"
+      ],
+      "support": "Specific objective conditions constrain plans; recognition guides action through practice and changes with facts. This anchors application questions, not a full philosophical definition of matter."
+    },
+    "people": {
+      "sourceIds": [
+        "PEOPLE2014",
+        "ENGELS1890_REUSED"
+      ],
+      "support": "Mass social practice is not fame alone; individual contribution is evaluated with collective action and conditions, not declared universally zero or omnipotent."
+    },
+    "interaction": {
+      "sourceIds": [
+        "ENGELS1890_REUSED"
+      ],
+      "support": "Historical results involve interacting actions and conditions; they need not reproduce any one wish or all wishes unchanged."
+    },
+    "instruments": {
+      "sourceIds": [
+        "CAPITAL1_7"
+      ],
+      "support": "Labour instruments mediate action on the labour subject; an oven is an instrument in baking and paper is the processed subject in printing."
+    }
+  },
+  "sources": [
+    {
+      "id": "PEOPLE2014",
+      "publisher": "共产党员网；标注来源人民日报出版社",
+      "title": "党的群众路线学习问答，第6问",
+      "published": "2014-04-08",
+      "url": "https://fuwu.12371.cn/2014/04/08/ARTI1396920690906651_7.shtml",
+      "actualRead": "Actual public main text102–107 and publication line112. Page has a login widget, but these body paragraphs were accessible without login; not only title or search snippets.",
+      "limits": "Historical published theory teaching, not2028 official exam syllabus or source for present-tense political-year counts in adjacent historical prose."
+    },
+    {
+      "id": "CAPITAL1_7",
+      "author": "Karl Marx",
+      "title": "Capital Volume1, Chapter7, Section1 The Labour-Process",
+      "originalYear": 1867,
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch07.htm",
+      "actualRead": "Actual English transcription paragraphs25–33, especially30 three factors and31–33 subject/raw material/instrument. No printed page or exact translation edition independently collated.",
+      "limits": "Does not independently settle every productive-force/production-relation taxonomy item;5 other course items remain pending."
+    },
+    {
+      "id": "MAO1937_REUSED",
+      "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+      "actualRead": "Reused actual essay24–36 recorded in practice-epistemology-followup.json; no new download or claim that every ontology statement is covered."
+    },
+    {
+      "id": "ENGELS1890_REUSED",
+      "url": "https://www.marxists.org/chinese/marx-engels2/10/240.htm",
+      "actualRead": "Reused actual letter first3 paragraphs, recorded in historical-materialism-followup.json; economic conditions, reciprocal effects and resultant interaction. Not independent printed-edition collation."
+    }
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b1",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d4",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "removedIds": [
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-d1"
+  ],
+  "remainingIdsSHA256": "c994d6689f3d69e22f71c76459a04c02e4e01ddd5a16ad6988a811eba2b203f6",
+  "independentProfessionalApprovals": 0
+}

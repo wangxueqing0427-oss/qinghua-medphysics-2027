@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-17",
+  "deploymentSHA": "d3c213afce9bd3e6b9525187190c42ef3bc6106f",
+  "runtimeTestedSHA": "816e4b7ef441a13877b92920b83342d281f50df7",
+  "deploymentId": "9d82d56a-aaa2-4eb0-98c0-f6845f2ea16d",
+  "url": "https://9d82d56a.qh2028-core47-preview.pages.dev/",
+  "onlineRun": 44032472042,
+  "onlineVerifierSHA": "0f7389c10dd768288bc4b8195fcc93b42bd4f614",
+  "passed": true,
+  "assets": 17,
+  "browsers": [
+    "chromium",
+    "webkit"
+  ],
+  "checks": [
+    "17 HTTPS SHA256 exact",
+    "78-unit real home count",
+    "original52-question paper/passage and answer save/tab restore",
+    "SW control/cache17/isolatedDB",
+    "actual erratum display with unchanged course contract"
+  ],
+  "firstFailures": [
+    44031217333,
+    44031759724
+  ],
+  "rollback": "https://1c936aee.qh2028-core47-preview.pages.dev/",
+  "physicalIPhone": false,
+  "expertApprovals": 0,
+  "logExtract": [
+    "2026-11-17T06:37:11.4118157Z   passed: true,",
+    "2026-11-17T06:37:11.4118599Z   url: 'https://9d82d56a.qh2028-core47-preview.pages.dev/',",
+    "2026-11-17T06:37:11.4119077Z   files: 17,",
+    "2026-11-17T06:37:11.4119966Z       name: 'chromium',",
+    "2026-11-17T06:37:11.4120172Z       passed: true,",
+    "2026-11-17T06:37:11.4121194Z     { name: 'webkit', passed: true, checks: [Array], state: [Object] }",
+    "2026-11-17T06:37:11.4351206Z   include-hidden-files: false"
+  ]
+}
