@@ -25,8 +25,9 @@ jobs:
         run: npm install --ignore-scripts --no-audit --no-fund
       - run: node product-2028-issue10-papers/extension/verify.cjs
       - run: node product-2028-issue10-papers/parallel/integration-test.cjs
+      - run: node product-2028-issue10-papers/parallel/reference-erratum-test.cjs
       - run: |
-          for subject in en-opinion-reason-example-foundation pol-money-price-value-foundation 353-independent-means-welch-deepening; do
+          for subject in en-reading-garden-writing 353-independent-means-welch-deepening; do
             TARGET_UNIT=$subject BROWSER=chromium node product-2028-issue10-papers/extension/browser.cjs
             TARGET_UNIT=$subject BROWSER=webkit node product-2028-issue10-papers/extension/browser.cjs
           done

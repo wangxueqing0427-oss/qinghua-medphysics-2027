@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17",
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "old unit and question remain bitwise-equivalent JSON contracts",
+      "passed": true
+    },
+    {
+      "name": "display applies new tools reference and exact acceptance points only",
+      "passed": true
+    },
+    {
+      "name": "narrow guard refuses unrelated or already revised snapshot",
+      "passed": true
+    },
+    {
+      "name": "grading still pending and raw answers/events not rewritten",
+      "passed": true
+    },
+    {
+      "name": "feedback rubric and wrong-list use same guarded presentation",
+      "passed": true
+    }
+  ],
+  "originalQuestionSHA256": "b33d372d01ee68d406d115ec88b3073bd20663abdd667247a1fafa8cf9495986",
+  "expertApprovals": 0,
+  "storageMigration": false,
+  "realIPhoneVerified": false
+}

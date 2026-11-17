@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-17",
+  "id": "en-reading-garden-writing-d4",
+  "course": "en-reading-garden-writing",
+  "courseVersion": "0.1-issue9-1-q0fix1",
+  "originalQuestion": {
+    "type": "subjective",
+    "stem": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.\n\n隔日新场景：共享维修工具计划有借用次数增加，但没数不同家庭、没测节省费用。写60—100词英文评价与下一步。",
+    "answer": "The group should investigate whether residents can use the garden before expanding it. Wider paths and a resting place may improve access, although they leave less room for planting. The visit and harvest records do not show that health improved. Organisers could ask non-users about barriers and discuss maintenance costs fairly. A decision should combine accurate evidence with residents’ priorities, rather than assume that higher vegetable production is the only valuable outcome.",
+    "rubric": [
+      "保留观察与未测指标区别",
+      "不把次数当不同家庭",
+      "给具体资料/维护/参与建议",
+      "语言连贯并保留有限结论"
+    ],
+    "explanation": "可支持有限试验或暂缓扩展，只要材料一致。不是官方写作题，参考自评不能代替教师批改。",
+    "evidenceIds": [
+      "G7",
+      "G8",
+      "G10",
+      "G11"
+    ],
+    "id": "en-reading-garden-writing-d4",
+    "difficulty": "delayed-transfer",
+    "sourceRefs": [
+      "original-G",
+      "bc-relative"
+    ]
+  },
+  "originalQuestionSHA256": "b33d372d01ee68d406d115ec88b3073bd20663abdd667247a1fafa8cf9495986",
+  "questionHashMethod": "SHA256(JSON.stringify(originalQuestion)) in current key order",
+  "classification": "confirmed-reference-feedback-context-mismatch",
+  "conflictEvidence": [
+    {
+      "location": "题干末尾新情景",
+      "text": "隔日新场景：共享维修工具计划有借用次数增加，但没数不同家庭、没测节省费用。写60—100词英文评价与下一步。",
+      "analysis": "要求共享维修工具计划；只观测借用次数增加，没有不同家庭数量及节省费用。"
+    },
+    {
+      "location": "现有answer",
+      "text": "The group should investigate whether residents can use the garden before expanding it. Wider paths and a resting place may improve access, although they leave less room for planting. The visit and harvest records do not show that health improved. Organisers could ask non-users about barriers and discuss maintenance costs fairly. A decision should combine accurate evidence with residents’ priorities, rather than assume that higher vegetable production is the only valuable outcome.",
+      "analysis": "实际讨论花园、较宽道路、种植面积、健康及非使用者；未完成维修工具的新情景任务。"
+    },
+    {
+      "location": "现有rubric",
+      "text": [
+        "保留观察与未测指标区别",
+        "不把次数当不同家庭",
+        "给具体资料/维护/参与建议",
+        "语言连贯并保留有限结论"
+      ],
+      "analysis": "现有要点中的次数/不同家庭与新情景一致，证明答案文本错配；不应因此重写用户历史作答。"
+    },
+    {
+      "location": "evidenceIds",
+      "text": [
+        "G7",
+        "G8",
+        "G10",
+        "G11"
+      ],
+      "analysis": "G7/G8/G10/G11仅可作为观察与未测指标方法的迁移背景，不是维修计划发生事实的来源。"
+    }
+  ],
+  "minimalProposal": {
+    "mode": "display-only-reference-erratum",
+    "changeScope": "显示此题参考答案、要点及解析的勘误；不改题干、题ID、课程资产、原始内容契约或既有作答。",
+    "answer": "The increase in tool loans suggests that the shared repair tools are being used more often. However, the same family may borrow several times, so the total does not tell us how many different families use the service. The group has not measured money saved either. Before expanding, it could count distinct participating families, ask users about repair costs, and record maintenance expenses. I would support a limited trial while these questions are investigated, rather than promise savings for every household.",
+    "rubric": [
+      "明确借用次数增加是使用频次观察，不等同于不同家庭数量增加",
+      "明确没有测量节省费用，不能保证已经省钱或所有家庭受益",
+      "提出与缺口相连的下一步，例如区分不同家庭并调查实际修理/替代支出",
+      "可讨论维护成本、公平或非使用者，允许有据的有限试验、暂缓或其他立场",
+      "英文连贯可理解；60—100词为练习目标，不是2028官方要求或自动评分规则"
+    ],
+    "explanation": "参考仅展示一种有条件支持的短写。接受主张先补资料再决定是否扩展，或提出其他与材料一致的安排；必须保留借用次数/不同家庭和观察/未测节省的区别。可建议收集支出与维护成本，但不能把建议收集的数据写成已有结果；若声称真实净节省，还需明确比较基准和费用范围。不要机械要求抄本例句或用关键词自动给分。",
+    "referenceWordCount": 81,
+    "sourceClassification": "原创新情景参考表达；不需为虚构借用记录伪造外部事实来源。",
+    "acceptanceBoundary": "相反立场可接受；不要求提到花园、健康或路径；维护/公平建议可替换，不强制全部出现。"
+  },
+  "review": {
+    "internalAIReview": true,
+    "independentExpertApprovals": 0,
+    "status": "proposal-for-root-controlled-display-erratum"
+  },
+  "assetsChanged": false,
+  "sharedQueueChanged": false,
+  "learnerDataChanged": false
+}
