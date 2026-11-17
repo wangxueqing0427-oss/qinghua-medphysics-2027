@@ -24715,6 +24715,663 @@
           "difficulty": "delayed-transfer"
         }
       ]
+    },
+    {
+      "id": "pol-commodity-value-foundation",
+      "version": "0.1",
+      "subject": "pol",
+      "title": "商品与价值入门：用途、劳动二重性和必要工时",
+      "writtenAt": "2026-11-17",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-foundation-exam-spec-pending",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创例题和解释；来源用于概念核对，不冒官方考纲或真题。",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-productive-forces-relations"
+      ],
+      "sources": [
+        "https://www.qstheory.cn/dukan/hqwg/2024-05/29/c_1130153464.htm"
+      ],
+      "sourceEvidence": [
+        {
+          "publisher": "求是网/红旗文稿",
+          "authors": "杨静、刘影",
+          "title": "坚持和发展劳动价值论",
+          "published": "2024-05-29",
+          "edition": "红旗文稿2024/10",
+          "accessed": "2026-11-17",
+          "actualRead": "第一节正文第商品二因素、劳动二重性、商品价值量、价值规律各段，HTML lines15–21",
+          "limits": "仅基础概念，不采用后文新技术争议讨论；不表示2028考试最终要求。研招网2008文章注明新浪转载，仅辅助对照，不作官方考纲依据。"
+        }
+      ],
+      "explanation": "先把讨论对象说清楚。这里学习马克思主义政治经济学的商品概念，商品是为交换而生产的劳动产品。桌子能放东西，面包可供食用，这些具体用途帮助理解使用价值；“有用”不等于“必然是商品”。自然空气有用，却不能仅因有用就说它是凝结劳动的商品。某人仅为自己食用做的面包，与为交换而生产的面包，在本课设定中也不能不加区分。本课不讨论医疗服务、数字产品或复杂产权的分类争议。\n\n商品二因素指使用价值和价值。使用价值回答“能满足什么需要”；价值在本理论中回答商品中凝结的一般人类劳动及相应社会关系，不是日常语言里“我很珍惜它”的意思。假设一个作坊为交换制作杯子：杯子可盛水，是具体用途；制作作为商品的杯子所包含的一般人类劳动，是价值讨论的方面。不能把两方面简单说成“杯子大小”和“标价高低”。价格是货币表达层面的概念，市场供求可影响实际价格，看到价格变动不能直接断言单位商品价值量按同幅度改变。\n\n劳动二重性不是做了两次劳动。做同一个商品杯子时，成形、烧制等特定形式的劳动可从具体劳动方面理解，它与形成有用产品有关；撇开这些具体形式，作为一般人类劳动的耗费，则从抽象劳动方面理解。两者是同一生产商品劳动的不同方面，不是先做具体劳动、再额外做一次抽象劳动。这里的抽象是理论分析方法，不是说劳动者只在头脑里想而没有劳动。\n\n价值量不能由任意一个人的低效率决定。本课用简化同类商品、同等质量与正常生产条件的情境说明：社会必要劳动时间由社会正常条件及平均熟练程度、劳动强度等限定。若甲熟练，乙缓慢，乙在同样产品上多花一倍时间，不能据此说乙的同类商品社会价值量就自动加倍。必须先核对社会必要条件，而非只看个别工时。不要把社会必要劳动时间随意理解为任意几个工人的算术平均，更不能直接据此计算实际工资、利润或市场报价。\n\n分步例题：纯教学模型假设同类商品、质量、劳动复杂程度与强度均不变，原来8小时社会正常劳动生产4件，后来相应社会生产条件使8小时生产8件。①原单位必要工时8÷4=2小时/件；②新单位必要工时8÷8=1小时/件；③模型中单位商品必要工时减半，对应单位价值量降低。不能说“一个企业改进设备”就必然让全社会必要工时立刻减半；也不能说商品数加倍就必然使当天货币收入加倍。以上是说明条件关系的虚构模型，不是经验价格预测。\n\n材料分析的答题顺序：先识别事实描述哪一层——产品的用途、同一劳动的两个方面、个别效率还是社会正常条件；再写相应概念；最后说明推论边界。例如“店里杯子涨价，所以每个杯子凝结的社会必要劳动必增加”，缺少生产条件证据，还混淆价格变化与价值量决定。可回答“需要核对社会必要劳动条件；单一价格现象不足以作该推断”。闭卷复习要换产品与数字，解释理由，不靠背固定人物或选项位置。主观题仅提供参考与自评，不自动给专业分数。",
+      "definition": "本课商品为交换而生产的劳动产品，二因素为使用价值和价值；价值量由社会必要劳动时间决定。",
+      "conditions": "限定马克思主义政治经济学基础与题设模型，非现实价格、投资、工资或临床服务政策判断。",
+      "example": "分步例题：纯教学模型假设同类商品、质量、劳动复杂程度与强度均不变，原来8小时社会正常劳动生产4件，后来相应社会生产条件使8小时生产8件。①原单位必要工时8÷4=2小时/件；②新单位必要工时8÷8=1小时/件；③模型中单位商品必要工时减半，对应单位价值量降低。不能说“一个企业改进设备”就必然让全社会必要工时立刻减半；也不能说商品数加倍就必然使当天货币收入加倍。以上是说明条件关系的虚构模型，不是经验价格预测。",
+      "misconceptions": [
+        "把有用等同商品",
+        "把价值直接等同标价",
+        "把劳动二重性当两次劳动",
+        "用个别慢工决定社会价值量"
+      ],
+      "recall": [
+        "闭卷写商品条件及用途为何不足。",
+        "闭卷区分使用价值、价值与日常标价。",
+        "闭卷说明劳动二重性为何不是两次劳动。",
+        "闭卷说明社会必要与个别工时，并写出价格推论边界。"
+      ],
+      "rubric": [
+        "定义与条件",
+        "概念层次",
+        "同一劳动两方面",
+        "计算模型与推断边界"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换产品与情境独立解释；主观题待核对。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "待理论教师核对术语、模型与答案范围",
+          "隔离草稿未接入已发布候选"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 1
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 2
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 3
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-commodity-value-foundation-g1",
+          "description": "核对商品概念",
+          "successCriteria": "能区分有用性与商品定义条件",
+          "teachingSectionIds": [
+            "s1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-commodity-value-foundation-b1",
+            "pol-commodity-value-foundation-a1",
+            "pol-commodity-value-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-commodity-value-foundation-g2",
+          "description": "区分商品二因素",
+          "successCriteria": "用新产品说明用途与价值，不以标价代替",
+          "teachingSectionIds": [
+            "s2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-commodity-value-foundation-b2",
+            "pol-commodity-value-foundation-a1",
+            "pol-commodity-value-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-commodity-value-foundation-g3",
+          "description": "解释劳动二重性",
+          "successCriteria": "明确同一劳动两个方面而非次数",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-commodity-value-foundation-b3",
+            "pol-commodity-value-foundation-a2",
+            "pol-commodity-value-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-commodity-value-foundation-g4",
+          "description": "理解价值量条件",
+          "successCriteria": "区分个别与社会必要工时并限制价格推断",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-commodity-value-foundation-b4",
+            "pol-commodity-value-foundation-a3",
+            "pol-commodity-value-foundation-a4",
+            "pol-commodity-value-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-commodity-value-foundation-b1",
+          "type": "single",
+          "stem": "本课商品概念中，仅凭哪一点不足以认定某物是商品？",
+          "options": [
+            "它对人有用",
+            "它是为交换生产的劳动产品",
+            "题设明确其是用于交换的产品"
+          ],
+          "answer": 0,
+          "explanation": "A只说明用途，尚未给出劳动产品和交换条件；本题不对复杂公共服务作分类。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "pol-commodity-value-foundation-b2",
+          "type": "single",
+          "stem": "为交换制作的水杯能盛水，首先说明哪一方面？",
+          "options": [
+            "价格必高",
+            "使用价值",
+            "生产者一定盈利"
+          ],
+          "answer": 1,
+          "explanation": "用途对应使用价值；价格和利润还需额外条件。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "pol-commodity-value-foundation-b3",
+          "type": "single",
+          "stem": "具体劳动和抽象劳动最准确的关系？",
+          "options": [
+            "两次先后独立劳动",
+            "只在脑中想象与实际劳动",
+            "同一生产商品劳动的两个方面"
+          ],
+          "answer": 2,
+          "explanation": "两重性不是次数，抽象是分析方面，不能把它理解成没有实际耗费。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "pol-commodity-value-foundation-b4",
+          "type": "single",
+          "stem": "决定同类商品价值量时应优先核对什么？",
+          "options": [
+            "某个人任意多花的时间",
+            "店主希望标多高的价格",
+            "社会正常条件下的必要劳动时间"
+          ],
+          "answer": 2,
+          "explanation": "C保留社会条件与必要工时；个别工时和标价不能单独决定社会价值量。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-commodity-value-foundation-a1",
+          "type": "subjective",
+          "stem": "小林为交换制作一张桌子。请区分桌子的使用价值与价值，不把“有用”直接等同于价格。",
+          "answer": "能支撑物品等用途属使用价值；价值在本理论中是凝结的一般人类劳动，体现商品交换的社会关系。价格不能只由有用程度直接推定。",
+          "rubric": [
+            "分别说明用途与价值概念",
+            "说明本题交换劳动产品条件",
+            "避免用途直接决定价格"
+          ],
+          "explanation": "允许用自己的话解释，不强求逐字术语；只写“桌子值钱”不足。",
+          "difficulty": "application"
+        },
+        {
+          "id": "pol-commodity-value-foundation-a2",
+          "type": "subjective",
+          "stem": "有人说“做一批商品先花一天具体劳动，第二天再花一天抽象劳动”。指出混淆。",
+          "answer": "具体与抽象是同一商品生产劳动的两个方面，不是按日期分配的两次劳动。具体方面看特殊形式，抽象方面看一般人类劳动耗费。",
+          "rubric": [
+            "说明不是两次劳动",
+            "说明特定形式与一般耗费两个方面",
+            "不把抽象劳动说成纯思考"
+          ],
+          "explanation": "可用同一工时的两种分析视角解释，不要求额外劳动史知识。",
+          "difficulty": "application"
+        },
+        {
+          "id": "pol-commodity-value-foundation-a3",
+          "type": "single",
+          "stem": "甲乙在相同质量下制作同类商品，乙个别效率较低、耗时更长。可直接推出什么？",
+          "options": [
+            "乙社会价值量必按个别工时加倍",
+            "不能仅用乙个别耗时推出同类商品价值加倍",
+            "乙一定卖出更高市场价格"
+          ],
+          "answer": 1,
+          "explanation": "社会必要劳动条件与个别耗时不同，题设不支持A或C。",
+          "difficulty": "application"
+        },
+        {
+          "id": "pol-commodity-value-foundation-a4",
+          "type": "subjective",
+          "stem": "模型：同类质量、强度与劳动复杂程度不变，社会正常条件从12小时生产3件变为12小时生产6件。说明单位必要工时变化及不能直接推出的价格结论。",
+          "answer": "原4小时/件，新2小时/件；该模型单位必要工时减半。不能据此断言市场价格或工资必同比改变，因为题设没有这些形成条件。",
+          "rubric": [
+            "正确给出4与2小时每件",
+            "保留社会正常条件和同类质量假设",
+            "不把价值量关系直接等于实际价格工资"
+          ],
+          "explanation": "接受分数或等价单位表达；不要求背具体价格理论公式。",
+          "difficulty": "application"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-commodity-value-foundation-d1",
+          "type": "single",
+          "stem": "隔日：自然阳光有用，是否仅凭此就能认定它是本课商品？",
+          "options": [
+            "能，有用就有商品价值",
+            "不能，尚缺劳动产品和交换条件",
+            "能，价值就是受欢迎程度"
+          ],
+          "answer": 1,
+          "explanation": "用途并不能独自满足本课商品定义，不讨论经过加工的能源服务。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "pol-commodity-value-foundation-d2",
+          "type": "subjective",
+          "stem": "隔日：一双为交换生产的鞋适合行走，又凝结一般人类劳动。用商品二因素解释，不用标价代替价值定义。",
+          "answer": "行走用途是使用价值；价值是凝结的一般人类劳动，是商品的社会属性，不能仅写标价。",
+          "rubric": [
+            "用途解释准确",
+            "价值概念准确",
+            "区分价值定义与标价"
+          ],
+          "explanation": "允许从生产者交换劳动的社会关系解释；不要求鞋的技术参数。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "pol-commodity-value-foundation-d3",
+          "type": "subjective",
+          "stem": "隔日：一个制杯工改进手法后更熟练，能否说他先消灭了具体劳动、只剩抽象劳动？为什么？",
+          "answer": "不能。仍有制作杯子的特定形式，也仍可从一般人类劳动耗费方面分析。劳动二重性不是两种可分别删除的劳动。",
+          "rubric": [
+            "否定分别删除两种劳动的理解",
+            "说明同一劳动的两方面",
+            "不从效率改变推出概念消失"
+          ],
+          "explanation": "合理同义表述接受；不要求评价企业财务成效。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "pol-commodity-value-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：某商品市场售价上升，有人断定该商品社会必要劳动时间一定增加。请说明证据缺口和应核对的条件。",
+          "answer": "仅有售价变化不能证明社会必要劳动时间变化；需核对社会正常生产条件、质量及平均熟练程度/强度等。价格还受供求等影响，不应从单一售价直接决定价值量。",
+          "rubric": [
+            "指出价格证据不足",
+            "给出生产条件核对方向",
+            "避免任意个别耗时决定论"
+          ],
+          "explanation": "至少说明价格与价值量决定不能直接等同；无需推测实际涨价原因。",
+          "difficulty": "delayed-transfer"
+        }
+      ]
+    },
+    {
+      "id": "353-survival-censoring-foundation",
+      "version": "0.1",
+      "subject": "353",
+      "title": "生存资料起步：时间、删失与KM曲线",
+      "writtenAt": "2026-11-17",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创虚构随访资料、讲解与练习，非临床结论或真题。",
+      "mapping": [
+        "s27-13-3"
+      ],
+      "prerequisites": [
+        "353-person-time",
+        "353-probability-binomial-foundation"
+      ],
+      "sources": [
+        "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kaplan.htm",
+        "https://www.gov.uk/government/publications/ncras-statistical-publications-quality-and-methodology-information/cancer-survival-methodology"
+      ],
+      "sourceEvidence": [
+        {
+          "publisher": "NIST Dataplot",
+          "title": "Kaplan Meier Plot",
+          "accessed": "2026-11-17",
+          "version": "page displays Last updated12/04/2023; ambiguous date format retained",
+          "actualRead": "Description original unmodified product-limit formula and tag variable; HTML lines16–17,20–25",
+          "limits": "Reliability context transferred only for elementary product calculation. Adjacent last-failure-zero and asymptotic wording not adopted; potential source wording issues remain explicitly flagged. Modified estimator not used."
+        },
+        {
+          "publisher": "PHE/NCRAS GOV.UK",
+          "title": "Cancer survival methodology",
+          "published": "2021-08-25",
+          "accessed": "2026-11-17",
+          "actualRead": "Patient follow-up, censor date, lost-to-follow-up, crude/overall survival definitions, HTML lines243–263",
+          "limits": "Historical England methodology reference, not current China protocol; does not establish unbiasedness under arbitrary informative censoring."
+        }
+      ],
+      "explanation": "生存资料不只是“最后有几个人发生事件”。它同时记录时间和事件状态。先约定同一起算规则，例如从入组到首次发生指定事件，时间单位月；本课虚构示例的事件为任何原因死亡。每人至少要有随访长度t和状态δ：δ=1表示已观察到目标事件，δ=0表示到最后已知观察时点尚未观察到该事件，即本课的右删失。这里的0不是“此人以后永远没有事件”。若研究复发而不是死亡，就必须重新定义事件；不同结局不能混算。\n\n删失不是删除一整行。一个人在第2月最后确认存活、以后情况未知，前2个月仍提供观察信息；既不能当成第2月死亡，也不能当成一直存活到第5月。行政随访结束而尚未发生事件，也可能形成右删失。若失访与疾病严重程度有关，则可能产生信息性删失；普通方法不会自动修复这种偏倚。本课限定同一起点、每人首次事件、普通右删失与适当独立性条件，不处理竞争风险、延迟入组或反复事件。\n\n风险集不是所有入组者永远不变的总人数。每个事件时点之前，仍被观察且尚未发生事件的人才在该时点风险集中。设该时点风险集人数n_i，发生事件人数d_i，则这一时点条件存活比例为1−d_i/n_i。Kaplan–Meier（KM，乘积极限）估计将截至t的这些条件比例相乘：Ŝ(t)=∏(1−d_i/n_i)。只在事件时点乘一个因子；单纯删失时曲线不因删失本身下降，但其后风险集减少。它不是把每一个时点的死亡百分比直接相加，也不是让删失者永久留在风险集。\n\n逐步虚构例题：5人同在0月入组。甲1月事件，乙2月删失，丙3月事件，丁4月删失，戊5月行政删失。①1月前有5人，1人事件，Ŝ=4/5=0.8；②2月乙删失，Ŝ仍0.8，此后可观察且未发生事件者剩丙丁戊3人；③3月前n=3、d=1，乘2/3，Ŝ=4/5×2/3=8/15≈0.533；④4月与5月无事件，仅更新可用观察人数，不再使曲线下降。单位：时间为月，Ŝ为无量纲比例。表中每人结局互异，无事件和删失并列同一时刻的排序问题。\n\n解释比计算更重要。示例第3月的0.533是样本与假设下到该时点的存活函数估计，不是保证每一个人有完全相同的未来命运，更不是某项治疗造成的效果。这个例子的曲线在已有观察范围内没有下降到0.5；按首次降到不高于0.5的常用曲线中位数读法，中位生存时间尚不能从该段曲线确定，不能把最后一个观察月当作中位数，也不能随意延长曲线猜一个值。\n\n做题顺序：先定起点、目标事件及时间单位；核查δ编码；按时点列风险集与事件人数；仅在事件时点更新乘积；最后解释删失及推断边界。比较两条曲线时，还需要考虑人群构成、随访、删失和不确定性，不能凭一条曲线更高就断言治疗因果优势。本课为生存资料入门，尚未覆盖log-rank检验、Cox模型或因果推断；它们不是通过本课就已经掌握的内容。",
+      "definition": "生存资料包括到目标事件或删失的时间和状态；普通KM在事件时点连乘条件存活比例。",
+      "conditions": "普通右删失、同一起点、首次事件、适当独立性；不处理竞争风险或临床个体预测。",
+      "example": "逐步虚构例题：5人同在0月入组。甲1月事件，乙2月删失，丙3月事件，丁4月删失，戊5月行政删失。①1月前有5人，1人事件，Ŝ=4/5=0.8；②2月乙删失，Ŝ仍0.8，此后可观察且未发生事件者剩丙丁戊3人；③3月前n=3、d=1，乘2/3，Ŝ=4/5×2/3=8/15≈0.533；④4月与5月无事件，仅更新可用观察人数，不再使曲线下降。单位：时间为月，Ŝ为无量纲比例。表中每人结局互异，无事件和删失并列同一时刻的排序问题。",
+      "misconceptions": [
+        "把删失当事件或永不事件",
+        "把删失前信息全部删除",
+        "一直用最初人数作所有分母",
+        "把末次观察当中位数或曲线差当因果"
+      ],
+      "recall": [
+        "闭卷定义起点、目标事件、时间和状态。",
+        "闭卷说明删失前信息与之后风险集。",
+        "闭卷用风险集与事件数写KM更新并解释乘积。",
+        "闭卷说明曲线解释、中位数与因果边界。"
+      ],
+      "rubric": [
+        "资料定义",
+        "删失与风险集",
+        "条件乘积",
+        "解释边界"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "用新随访表独立判断删失、风险集及曲线意义；主观待核对。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "待统计/流行病学教师核对模型假设与题目",
+          "NIST页面相邻表述存在疑点，未采用",
+          "草稿不代表生存分析全范围覆盖"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 1
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 2
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 4
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-survival-censoring-foundation-g1",
+          "description": "识别生存资料信息",
+          "successCriteria": "能依据目标事件给出时间和状态",
+          "teachingSectionIds": [
+            "s1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-survival-censoring-foundation-b1",
+            "353-survival-censoring-foundation-a1",
+            "353-survival-censoring-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-survival-censoring-foundation-g2",
+          "description": "解释删失与风险集",
+          "successCriteria": "保留已知时间且排除之后未知观察",
+          "teachingSectionIds": [
+            "s2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-survival-censoring-foundation-b2",
+            "353-survival-censoring-foundation-a2",
+            "353-survival-censoring-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-survival-censoring-foundation-g3",
+          "description": "计算基础KM乘积",
+          "successCriteria": "使用事件前风险集且不把删失当事件",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-survival-censoring-foundation-b3",
+            "353-survival-censoring-foundation-b4",
+            "353-survival-censoring-foundation-a3",
+            "353-survival-censoring-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-survival-censoring-foundation-g4",
+          "description": "限制曲线解释",
+          "successCriteria": "识别中位未达到及非因果/非个人预测边界",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-survival-censoring-foundation-b4",
+            "353-survival-censoring-foundation-a4",
+            "353-survival-censoring-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "353-survival-censoring-foundation-b1",
+          "type": "single",
+          "stem": "本课δ=0表示哪种信息？",
+          "options": [
+            "以后绝不会发生事件",
+            "到最后已知观察时点尚未观察到事件，之后可未知",
+            "已确认在此时发生事件"
+          ],
+          "answer": 1,
+          "explanation": "右删失保留到该时点的已知信息，不把未来未知当成永不发生。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-survival-censoring-foundation-b2",
+          "type": "single",
+          "stem": "某人第2月右删失，哪项处理符合本课？",
+          "options": [
+            "删除所有观察时间",
+            "当成第2月已死亡",
+            "保留前2个月信息，之后不继续计入其未知的风险观察"
+          ],
+          "answer": 2,
+          "explanation": "C保留可用信息；A丢失已知随访，B捏造事件。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-survival-censoring-foundation-b3",
+          "type": "single",
+          "stem": "某事件时点前风险集有10人，观察到1次事件，该时点乘积因子是？",
+          "options": [
+            "1−1/10=0.9",
+            "1/10=0.1就是累积存活率",
+            "从此永久用最初人数作所有分母"
+          ],
+          "answer": 0,
+          "explanation": "条件因子为0.9，整个Ŝ还需乘以前时点累计值，不能把因子与最终存活率混为一谈。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-survival-censoring-foundation-b4",
+          "type": "single",
+          "stem": "只有删失、没有事件的某个时点，普通KM曲线怎样更新？",
+          "options": [
+            "因删失自动下降",
+            "Ŝ不因删失本身下降，随后风险集减少",
+            "删失者等同永久存活"
+          ],
+          "answer": 1,
+          "explanation": "B区分曲线高度与后续分母；A把删失当事件，C扩大已知信息。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-survival-censoring-foundation-a1",
+          "type": "subjective",
+          "stem": "6人同起点随访，目标为首次复发。某人随访4个月未观察到复发后失访。写出本课时间、状态与未知部分。",
+          "answer": "t=4个月，δ=0；只知道前4个月未观察到首次复发，之后复发时间未知。不能把它当全因死亡事件或无限期未复发。",
+          "rubric": [
+            "时间4个月",
+            "状态右删失0",
+            "区分目标事件与之后未知"
+          ],
+          "explanation": "允许用文字而不使用δ；不因其他研究采用不同编码而混用本课约定。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-survival-censoring-foundation-a2",
+          "type": "subjective",
+          "stem": "在讲解的5人例中，说明乙2月删失后，3月事件前为何风险集为3人而非4或5。",
+          "answer": "甲1月已事件，不再在首次事件风险集中；乙2月已删失，之后不再被观察；丙丁戊仍被观察且未事件，所以3人。",
+          "rubric": [
+            "排除已事件甲",
+            "排除已删失乙之后的观察",
+            "明确剩丙丁戊3人"
+          ],
+          "explanation": "只报3而不解释不足以验证理解；允许先画时间线再说明。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-survival-censoring-foundation-a3",
+          "type": "single",
+          "stem": "5人例中，1月后Ŝ=0.8，3月前风险集3人且发生1次事件。3月后的Ŝ为？",
+          "options": [
+            "0.8−1/3",
+            "0.8×(1−1/3)=8/15",
+            "无论删失如何都用1−2/5"
+          ],
+          "answer": 1,
+          "explanation": "B按条件概率乘积；A错误直接减，C忽略事件前风险集变化。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-survival-censoring-foundation-a4",
+          "type": "subjective",
+          "stem": "5人例的末段Ŝ=8/15，未降至0.5。能直接报告中位生存为5个月吗？解释。",
+          "answer": "不能。5个月是本例最后观察时间；曲线在观察范围未达到不高于0.5，中位生存时间未达到/尚不能从该曲线确定，不应任意外推。",
+          "rubric": [
+            "否定最后观察时间等于中位数",
+            "说明0.5界限未达到",
+            "保留观察范围不外推"
+          ],
+          "explanation": "“未达到”“无法估计”在说明范围时均收；不得说人人至少活5个月。",
+          "difficulty": "application"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-survival-censoring-foundation-d1",
+          "type": "single",
+          "stem": "隔日：研究目标为全因死亡，一人第6月最后确认存活后失访。δ应为？",
+          "options": [
+            "0，右删失",
+            "1，已死亡",
+            "可随意改为任何值"
+          ],
+          "answer": 0,
+          "explanation": "本课编码0对应最后已知未事件，不能从失访捏造死亡。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-survival-censoring-foundation-d2",
+          "type": "subjective",
+          "stem": "隔日：一个研究把全部失访者从原始数据表删除，只分析剩余随访完整者。指出可能丢失的信息和偏倚风险。",
+          "answer": "删除会丢失失访前已知的存活/未事件时间；若失访与预后相关，还可能造成选择或信息性删失问题。普通KM也不能自动保证纠正信息性失访。",
+          "rubric": [
+            "保留失访前已知时间",
+            "说明失访机制关系重要",
+            "不宣称用KM就自动无偏"
+          ],
+          "explanation": "不要求证明偏倚方向；不能凭题设确定失访者一定更重或一定更轻。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-survival-censoring-foundation-d3",
+          "type": "single",
+          "stem": "隔日虚构新表：8人入组，1月前8人、1人事件；随后2人删失，2月前剩5人、1人事件。2月后估计Ŝ为？",
+          "options": [
+            "(7/8)×(4/5)=0.7",
+            "1−2/8=0.75且忽略删失",
+            "7/8+4/5"
+          ],
+          "answer": 0,
+          "explanation": "A乘前后条件存活比例；已明确分母，勿另把删失当事件或相加。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-survival-censoring-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：A组KM曲线高于B组，能仅凭曲线说A治疗一定有效吗？至少指出两个需要核对的方面。",
+          "answer": "不能单凭曲线推出因果效应；需核对分组/人群构成、混杂、结局定义、随访与删失、样本和不确定性等。至少给出两个不同方面并说明关系。",
+          "rubric": [
+            "否定单凭曲线保证疗效",
+            "至少两个不同的核对方面",
+            "不捏造统计显著性或个人预后"
+          ],
+          "explanation": "接受设计、可比性、随访、删失与不确定性中的合理组合，不要求未教Cox公式。",
+          "difficulty": "delayed-transfer"
+        }
+      ]
     }
   ],
   "examPapers": [

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-17",
+  "deploymentSHA": "681527480a95b5835beeda9c513773af58375764",
+  "runtimeTestedSHA": "ab3f6983b10ea4c6c80ca36e849e6f3eae133316",
+  "deploymentId": "65e79c71-082c-4b19-9895-1585c76e2fe5",
+  "url": "https://65e79c71.qh2028-core47-preview.pages.dev/",
+  "onlineRunId": 44011582102,
+  "onlineRunUrl": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44011582102",
+  "assets": 17,
+  "assetHashesMatched": true,
+  "browsers": [
+    "chromium",
+    "webkit"
+  ],
+  "checks": [
+    "HTTPS17 exact hashes",
+    "52-item original English paper/material",
+    "answer save and tab-close restore",
+    "SW control/cache17 and independent database"
+  ],
+  "physicalIPhone": false,
+  "expertApprovals": 0,
+  "rollback": "https://0281ec38.qh2028-core47-preview.pages.dev/",
+  "unrelatedWorkerChecks": "Three legacy Workers build checks failed; no successful Worker publication shown. Do not modify those services.",
+  "logExtract": [
+    "2026-11-17T03:38:46.5932893Z   passed: true,",
+    "2026-11-17T03:38:46.5933328Z   url: 'https://65e79c71.qh2028-core47-preview.pages.dev/',",
+    "2026-11-17T03:38:46.5933686Z   files: 17,",
+    "2026-11-17T03:38:46.5934226Z       name: 'chromium',",
+    "2026-11-17T03:38:46.5934420Z       passed: true,",
+    "2026-11-17T03:38:46.5935563Z     { name: 'webkit', passed: true, checks: [Array], state: [Object] }"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-17",
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "two nonduplicate units with real existing prerequisites",
+      "passed": true
+    },
+    {
+      "name": "measurable objectives with teaching,recall and each phase",
+      "passed": true
+    },
+    {
+      "name": "24 unique new items and no old exact stem duplication",
+      "passed": true
+    },
+    {
+      "name": "every choice option graded and subjective remains unscored",
+      "passed": true
+    },
+    {
+      "name": "independent survival risk-set calculation includes censoring",
+      "passed": true
+    },
+    {
+      "name": "independent necessary-time model arithmetic and units",
+      "passed": true
+    },
+    {
+      "name": "actual recall and raw subjective event serialization",
+      "passed": true
+    },
+    {
+      "name": "drafts explicitly not independently approved or published",
+      "passed": true
+    }
+  ],
+  "courses": [
+    {
+      "id": "pol-commodity-value-foundation",
+      "sha256": "f8b11a893558fd789dbd921c32a582bbdd4e100a671c60d8465f3bc318c4a3c9",
+      "questions": 12
+    },
+    {
+      "id": "353-survival-censoring-foundation",
+      "sha256": "bee716fe9cc129d33d70b8e1c2f187487f2738c9b2b81c48e2e966addcfaf126",
+      "questions": 12
+    }
+  ],
+  "browserVerified": false,
+  "expertApprovals": 0
+}

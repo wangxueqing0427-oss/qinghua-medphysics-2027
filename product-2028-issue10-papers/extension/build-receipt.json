@@ -2,9 +2,9 @@
   "edition": "qh2028-issue10-clause-v1",
   "db": "qh2028_issue10_clause_v1_local",
   "journal": "qh2028_issue10_clause_v1_pending:",
-  "cache": "qh2028-issue10-clause-v1",
-  "courses": 75,
-  "questions": 848,
+  "cache": "qh2028-issue10-clause-v2",
+  "courses": 77,
+  "questions": 872,
   "files": [
     {
       "path": "app.css",
@@ -23,7 +23,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "d4ebc2fd7df11b9abc0c936bbfa49bd22bc893d034c7b0795e2b5d02653e0694",
+      "sha256": "eafadec6a49e7148cb6537dd0e1ba7e02c05303a9edacaae7e7df342815ef361",
       "bytes": 1548
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "path": "representative-courses.json",
-      "sha256": "1c3359947d3b057f04960ce9a51500f277707c3d9b912c684657f3effa4f86b2",
-      "bytes": 1594169
+      "sha256": "798376b5202d16cdee317b11f70fcc0f8bc697a3fe4f41441d202837ce77c6de",
+      "bytes": 1629562
     },
     {
       "path": "sva-prerequisite.js",

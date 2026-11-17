@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17",
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    "ten exact current question hashes traced",
+    "independent answers agree with original",
+    "229 minus10 unique remaining IDs",
+    "protected original course bytes unchanged"
+  ],
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "2f0e053a4dbcf4df41cf7a5bcadd26848cf3ad7878a0c5b1d31f02f9cddfea39"
+}

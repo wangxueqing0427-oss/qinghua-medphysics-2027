@@ -1,24 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "person-time-followup.json",
-  "activeEvidenceSHA256": "41a7a3d0e3f24a34aadc5f18a2ef5c39df51dbde88da002e6fb0c2172cd18342",
-  "remainingCount": 229,
-  "remainingIdsSHA256": "a3b01a7a34cd57f0680099503069c2cc00a2f3f421d8b4821e249b4df5763512",
+  "activeEvidenceFile": "prevention-followup.json",
+  "activeEvidenceSHA256": "2f0e053a4dbcf4df41cf7a5bcadd26848cf3ad7878a0c5b1d31f02f9cddfea39",
+  "remainingCount": 219,
+  "remainingIdsSHA256": "a1844c3b9b642f03d497571bfab3f728a16629fa1b33f8d9732e42d8fb87d09b",
   "continuationBase": "queue-reconciled-241.json",
-  "removedSince241": [
-    "353-screening-test-foundation-b1",
-    "353-screening-test-foundation-b2",
-    "353-screening-test-foundation-b3",
-    "353-screening-test-foundation-b4",
-    "353-screening-test-foundation-a1",
-    "353-screening-test-foundation-d1",
-    "353-health-system-financing-policy-foundation-a2",
-    "risk-1",
-    "risk-delay-2",
-    "epi-pt-1",
-    "epi-pt-3",
-    "epi-pt-d2"
-  ],
-  "warning": "Use activeEvidenceFile.remainingIds.245/241 files are preserved historical inputs, not the active queue.",
+  "warning": "Active219 IDs only;245/241/229 are historical. Source anchor is not whole-question expert approval.",
   "expertApprovals": 0
 }

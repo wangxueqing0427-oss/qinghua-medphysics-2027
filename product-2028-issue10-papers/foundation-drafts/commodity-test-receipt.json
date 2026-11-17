@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-17",
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    "existing engine structure and prerequisites",
+    "objective teaching/phase references",
+    "12 unique new questions and no exact old duplicates",
+    "all choice options and reference-only subjective grading",
+    "semantic labor duality goal mapped to a2",
+    "social-time calculation goal mapped to a4"
+  ],
+  "sha256": "f8b11a893558fd789dbd921c32a582bbdd4e100a671c60d8465f3bc318c4a3c9",
+  "browserVerified": false,
+  "expertApproved": false
+}

@@ -1,0 +1,333 @@
+{
+  "id": "353-survival-censoring-foundation",
+  "version": "0.1",
+  "subject": "353",
+  "title": "生存资料起步：时间、删失与KM曲线",
+  "writtenAt": "2026-11-17",
+  "applicableYear": 2028,
+  "scopeStatus": "provisional-2027-outline-partial",
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "authorship": "原创虚构随访资料、讲解与练习，非临床结论或真题。",
+  "mapping": [
+    "s27-13-3"
+  ],
+  "prerequisites": [
+    "353-person-time",
+    "353-probability-binomial-foundation"
+  ],
+  "sources": [
+    "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kaplan.htm",
+    "https://www.gov.uk/government/publications/ncras-statistical-publications-quality-and-methodology-information/cancer-survival-methodology"
+  ],
+  "sourceEvidence": [
+    {
+      "publisher": "NIST Dataplot",
+      "title": "Kaplan Meier Plot",
+      "accessed": "2026-11-17",
+      "version": "page displays Last updated12/04/2023; ambiguous date format retained",
+      "actualRead": "Description original unmodified product-limit formula and tag variable; HTML lines16–17,20–25",
+      "limits": "Reliability context transferred only for elementary product calculation. Adjacent last-failure-zero and asymptotic wording not adopted; potential source wording issues remain explicitly flagged. Modified estimator not used."
+    },
+    {
+      "publisher": "PHE/NCRAS GOV.UK",
+      "title": "Cancer survival methodology",
+      "published": "2021-08-25",
+      "accessed": "2026-11-17",
+      "actualRead": "Patient follow-up, censor date, lost-to-follow-up, crude/overall survival definitions, HTML lines243–263",
+      "limits": "Historical England methodology reference, not current China protocol; does not establish unbiasedness under arbitrary informative censoring."
+    }
+  ],
+  "explanation": "生存资料不只是“最后有几个人发生事件”。它同时记录时间和事件状态。先约定同一起算规则，例如从入组到首次发生指定事件，时间单位月；本课虚构示例的事件为任何原因死亡。每人至少要有随访长度t和状态δ：δ=1表示已观察到目标事件，δ=0表示到最后已知观察时点尚未观察到该事件，即本课的右删失。这里的0不是“此人以后永远没有事件”。若研究复发而不是死亡，就必须重新定义事件；不同结局不能混算。\n\n删失不是删除一整行。一个人在第2月最后确认存活、以后情况未知，前2个月仍提供观察信息；既不能当成第2月死亡，也不能当成一直存活到第5月。行政随访结束而尚未发生事件，也可能形成右删失。若失访与疾病严重程度有关，则可能产生信息性删失；普通方法不会自动修复这种偏倚。本课限定同一起点、每人首次事件、普通右删失与适当独立性条件，不处理竞争风险、延迟入组或反复事件。\n\n风险集不是所有入组者永远不变的总人数。每个事件时点之前，仍被观察且尚未发生事件的人才在该时点风险集中。设该时点风险集人数n_i，发生事件人数d_i，则这一时点条件存活比例为1−d_i/n_i。Kaplan–Meier（KM，乘积极限）估计将截至t的这些条件比例相乘：Ŝ(t)=∏(1−d_i/n_i)。只在事件时点乘一个因子；单纯删失时曲线不因删失本身下降，但其后风险集减少。它不是把每一个时点的死亡百分比直接相加，也不是让删失者永久留在风险集。\n\n逐步虚构例题：5人同在0月入组。甲1月事件，乙2月删失，丙3月事件，丁4月删失，戊5月行政删失。①1月前有5人，1人事件，Ŝ=4/5=0.8；②2月乙删失，Ŝ仍0.8，此后可观察且未发生事件者剩丙丁戊3人；③3月前n=3、d=1，乘2/3，Ŝ=4/5×2/3=8/15≈0.533；④4月与5月无事件，仅更新可用观察人数，不再使曲线下降。单位：时间为月，Ŝ为无量纲比例。表中每人结局互异，无事件和删失并列同一时刻的排序问题。\n\n解释比计算更重要。示例第3月的0.533是样本与假设下到该时点的存活函数估计，不是保证每一个人有完全相同的未来命运，更不是某项治疗造成的效果。这个例子的曲线在已有观察范围内没有下降到0.5；按首次降到不高于0.5的常用曲线中位数读法，中位生存时间尚不能从该段曲线确定，不能把最后一个观察月当作中位数，也不能随意延长曲线猜一个值。\n\n做题顺序：先定起点、目标事件及时间单位；核查δ编码；按时点列风险集与事件人数；仅在事件时点更新乘积；最后解释删失及推断边界。比较两条曲线时，还需要考虑人群构成、随访、删失和不确定性，不能凭一条曲线更高就断言治疗因果优势。本课为生存资料入门，尚未覆盖log-rank检验、Cox模型或因果推断；它们不是通过本课就已经掌握的内容。",
+  "definition": "生存资料包括到目标事件或删失的时间和状态；普通KM在事件时点连乘条件存活比例。",
+  "conditions": "普通右删失、同一起点、首次事件、适当独立性；不处理竞争风险或临床个体预测。",
+  "example": "逐步虚构例题：5人同在0月入组。甲1月事件，乙2月删失，丙3月事件，丁4月删失，戊5月行政删失。①1月前有5人，1人事件，Ŝ=4/5=0.8；②2月乙删失，Ŝ仍0.8，此后可观察且未发生事件者剩丙丁戊3人；③3月前n=3、d=1，乘2/3，Ŝ=4/5×2/3=8/15≈0.533；④4月与5月无事件，仅更新可用观察人数，不再使曲线下降。单位：时间为月，Ŝ为无量纲比例。表中每人结局互异，无事件和删失并列同一时刻的排序问题。",
+  "misconceptions": [
+    "把删失当事件或永不事件",
+    "把删失前信息全部删除",
+    "一直用最初人数作所有分母",
+    "把末次观察当中位数或曲线差当因果"
+  ],
+  "recall": [
+    "闭卷定义起点、目标事件、时间和状态。",
+    "闭卷说明删失前信息与之后风险集。",
+    "闭卷用风险集与事件数写KM更新并解释乘积。",
+    "闭卷说明曲线解释、中位数与因果边界。"
+  ],
+  "rubric": [
+    "资料定义",
+    "删失与风险集",
+    "条件乘积",
+    "解释边界"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "用新随访表独立判断删失、风险集及曲线意义；主观待核对。"
+  },
+  "reviewRecord": {
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "待统计/流行病学教师核对模型假设与题目",
+      "NIST页面相邻表述存在疑点，未采用",
+      "草稿不代表生存分析全范围覆盖"
+    ]
+  },
+  "teachingSections": [
+    {
+      "id": "s1",
+      "explanationParagraph": 0
+    },
+    {
+      "id": "s2",
+      "explanationParagraph": 1
+    },
+    {
+      "id": "s3",
+      "explanationParagraph": 2
+    },
+    {
+      "id": "s4",
+      "explanationParagraph": 4
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "353-survival-censoring-foundation-g1",
+      "description": "识别生存资料信息",
+      "successCriteria": "能依据目标事件给出时间和状态",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "353-survival-censoring-foundation-b1",
+        "353-survival-censoring-foundation-a1",
+        "353-survival-censoring-foundation-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-survival-censoring-foundation-g2",
+      "description": "解释删失与风险集",
+      "successCriteria": "保留已知时间且排除之后未知观察",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "353-survival-censoring-foundation-b2",
+        "353-survival-censoring-foundation-a2",
+        "353-survival-censoring-foundation-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-survival-censoring-foundation-g3",
+      "description": "计算基础KM乘积",
+      "successCriteria": "使用事件前风险集且不把删失当事件",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "353-survival-censoring-foundation-b3",
+        "353-survival-censoring-foundation-b4",
+        "353-survival-censoring-foundation-a3",
+        "353-survival-censoring-foundation-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-survival-censoring-foundation-g4",
+      "description": "限制曲线解释",
+      "successCriteria": "识别中位未达到及非因果/非个人预测边界",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "353-survival-censoring-foundation-b4",
+        "353-survival-censoring-foundation-a4",
+        "353-survival-censoring-foundation-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "basicQuestions": [
+    {
+      "id": "353-survival-censoring-foundation-b1",
+      "type": "single",
+      "stem": "本课δ=0表示哪种信息？",
+      "options": [
+        "以后绝不会发生事件",
+        "到最后已知观察时点尚未观察到事件，之后可未知",
+        "已确认在此时发生事件"
+      ],
+      "answer": 1,
+      "explanation": "右删失保留到该时点的已知信息，不把未来未知当成永不发生。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-survival-censoring-foundation-b2",
+      "type": "single",
+      "stem": "某人第2月右删失，哪项处理符合本课？",
+      "options": [
+        "删除所有观察时间",
+        "当成第2月已死亡",
+        "保留前2个月信息，之后不继续计入其未知的风险观察"
+      ],
+      "answer": 2,
+      "explanation": "C保留可用信息；A丢失已知随访，B捏造事件。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-survival-censoring-foundation-b3",
+      "type": "single",
+      "stem": "某事件时点前风险集有10人，观察到1次事件，该时点乘积因子是？",
+      "options": [
+        "1−1/10=0.9",
+        "1/10=0.1就是累积存活率",
+        "从此永久用最初人数作所有分母"
+      ],
+      "answer": 0,
+      "explanation": "条件因子为0.9，整个Ŝ还需乘以前时点累计值，不能把因子与最终存活率混为一谈。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-survival-censoring-foundation-b4",
+      "type": "single",
+      "stem": "只有删失、没有事件的某个时点，普通KM曲线怎样更新？",
+      "options": [
+        "因删失自动下降",
+        "Ŝ不因删失本身下降，随后风险集减少",
+        "删失者等同永久存活"
+      ],
+      "answer": 1,
+      "explanation": "B区分曲线高度与后续分母；A把删失当事件，C扩大已知信息。",
+      "difficulty": "foundation"
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "353-survival-censoring-foundation-a1",
+      "type": "subjective",
+      "stem": "6人同起点随访，目标为首次复发。某人随访4个月未观察到复发后失访。写出本课时间、状态与未知部分。",
+      "answer": "t=4个月，δ=0；只知道前4个月未观察到首次复发，之后复发时间未知。不能把它当全因死亡事件或无限期未复发。",
+      "rubric": [
+        "时间4个月",
+        "状态右删失0",
+        "区分目标事件与之后未知"
+      ],
+      "explanation": "允许用文字而不使用δ；不因其他研究采用不同编码而混用本课约定。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-survival-censoring-foundation-a2",
+      "type": "subjective",
+      "stem": "在讲解的5人例中，说明乙2月删失后，3月事件前为何风险集为3人而非4或5。",
+      "answer": "甲1月已事件，不再在首次事件风险集中；乙2月已删失，之后不再被观察；丙丁戊仍被观察且未事件，所以3人。",
+      "rubric": [
+        "排除已事件甲",
+        "排除已删失乙之后的观察",
+        "明确剩丙丁戊3人"
+      ],
+      "explanation": "只报3而不解释不足以验证理解；允许先画时间线再说明。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-survival-censoring-foundation-a3",
+      "type": "single",
+      "stem": "5人例中，1月后Ŝ=0.8，3月前风险集3人且发生1次事件。3月后的Ŝ为？",
+      "options": [
+        "0.8−1/3",
+        "0.8×(1−1/3)=8/15",
+        "无论删失如何都用1−2/5"
+      ],
+      "answer": 1,
+      "explanation": "B按条件概率乘积；A错误直接减，C忽略事件前风险集变化。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-survival-censoring-foundation-a4",
+      "type": "subjective",
+      "stem": "5人例的末段Ŝ=8/15，未降至0.5。能直接报告中位生存为5个月吗？解释。",
+      "answer": "不能。5个月是本例最后观察时间；曲线在观察范围未达到不高于0.5，中位生存时间未达到/尚不能从该曲线确定，不应任意外推。",
+      "rubric": [
+        "否定最后观察时间等于中位数",
+        "说明0.5界限未达到",
+        "保留观察范围不外推"
+      ],
+      "explanation": "“未达到”“无法估计”在说明范围时均收；不得说人人至少活5个月。",
+      "difficulty": "application"
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "353-survival-censoring-foundation-d1",
+      "type": "single",
+      "stem": "隔日：研究目标为全因死亡，一人第6月最后确认存活后失访。δ应为？",
+      "options": [
+        "0，右删失",
+        "1，已死亡",
+        "可随意改为任何值"
+      ],
+      "answer": 0,
+      "explanation": "本课编码0对应最后已知未事件，不能从失访捏造死亡。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-survival-censoring-foundation-d2",
+      "type": "subjective",
+      "stem": "隔日：一个研究把全部失访者从原始数据表删除，只分析剩余随访完整者。指出可能丢失的信息和偏倚风险。",
+      "answer": "删除会丢失失访前已知的存活/未事件时间；若失访与预后相关，还可能造成选择或信息性删失问题。普通KM也不能自动保证纠正信息性失访。",
+      "rubric": [
+        "保留失访前已知时间",
+        "说明失访机制关系重要",
+        "不宣称用KM就自动无偏"
+      ],
+      "explanation": "不要求证明偏倚方向；不能凭题设确定失访者一定更重或一定更轻。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-survival-censoring-foundation-d3",
+      "type": "single",
+      "stem": "隔日虚构新表：8人入组，1月前8人、1人事件；随后2人删失，2月前剩5人、1人事件。2月后估计Ŝ为？",
+      "options": [
+        "(7/8)×(4/5)=0.7",
+        "1−2/8=0.75且忽略删失",
+        "7/8+4/5"
+      ],
+      "answer": 0,
+      "explanation": "A乘前后条件存活比例；已明确分母，勿另把删失当事件或相加。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-survival-censoring-foundation-d4",
+      "type": "subjective",
+      "stem": "隔日：A组KM曲线高于B组，能仅凭曲线说A治疗一定有效吗？至少指出两个需要核对的方面。",
+      "answer": "不能单凭曲线推出因果效应；需核对分组/人群构成、混杂、结局定义、随访与删失、样本和不确定性等。至少给出两个不同方面并说明关系。",
+      "rubric": [
+        "否定单凭曲线保证疗效",
+        "至少两个不同的核对方面",
+        "不捏造统计显著性或个人预后"
+      ],
+      "explanation": "接受设计、可比性、随访、删失与不确定性中的合理组合，不要求未教Cox公式。",
+      "difficulty": "delayed-transfer"
+    }
+  ]
+}
