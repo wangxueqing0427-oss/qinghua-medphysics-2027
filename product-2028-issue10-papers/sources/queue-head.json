@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "prevention-followup.json",
-  "activeEvidenceSHA256": "2f0e053a4dbcf4df41cf7a5bcadd26848cf3ad7878a0c5b1d31f02f9cddfea39",
-  "remainingCount": 219,
-  "remainingIdsSHA256": "a1844c3b9b642f03d497571bfab3f728a16629fa1b33f8d9732e42d8fb87d09b",
+  "activeEvidenceFile": "metrology-followup.json",
+  "activeEvidenceSHA256": "000148a46d864110fe185cc89adce0ad52a4fb61fbc8434f745ac396014771b5",
+  "remainingCount": 207,
+  "remainingIdsSHA256": "37d6d427c60f97c797d7a7741a3fe73abd754d35b06c25f2a35678194227f2d5",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "Active219 IDs only;245/241/229 are historical. Source anchor is not whole-question expert approval.",
+  "warning": "Use active207 IDs. Source subclaim anchor is not whole-question expert approval.",
   "expertApprovals": 0
 }

@@ -1,4 +1,5 @@
 const fs=require('fs'),path=require('path'),a=require('assert/strict'),crypto=require('crypto'),H=b=>crypto.createHash('sha256').update(b).digest('hex'),r=require('./build-receipt.json'),prior=require('../build-receipt.json'),pack=require('./.build/representative-courses.json'),old=require('../.build/representative-courses.json'),E=require('./.build/course-engine.js');
+require('./cache-contract-test.cjs');
 a.equal(r.files.length,17);for(const f of r.files)a.equal(H(fs.readFileSync(path.join(__dirname,'.build',f.path))),f.sha256);
 a.equal(pack.units.length,77);a.equal(pack.units.flatMap(u=>[...u.basicQuestions,...u.applicationQuestions,...u.delayedQuestions]).length,872);a.deepEqual(pack.units.slice(0,74),old.units);a.deepEqual(pack.examPapers,old.examPapers);a.deepEqual(E.validate(pack),[]);
 for(const k of ['edition','db','journal','cache'])a.notEqual(r[k],prior[k]);for(const f of prior.files)a.equal(H(fs.readFileSync(path.join(__dirname,'../.build',f.path))),f.sha256);
