@@ -1,0 +1,560 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 171,
+  "newDirectSubclaimAnchors": 10,
+  "remainingQueueCount": 161,
+  "rows": [
+    {
+      "id": "353-inference-ci-hypothesis-foundation-b1",
+      "course": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-inference-ci-hypothesis-foundation-b1",
+        "type": "single",
+        "stem": "一份随机样本均数记为x̄，总体均数记为μ。最准确的说法是？",
+        "options": [
+          "x̄是样本统计量，μ是待推断的总体参数",
+          "x̄永远等于μ，抽样没有误差",
+          "μ是样本内每个人的均数"
+        ],
+        "answer": 0,
+        "explanation": "A正确。样本均数随随机抽样变化；总体参数在固定总体概念中不是一次样本统计量。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "32f17e6353e6add8a14af7385cc23a6f88ad0f62dda01b3c394a133f3be225dc",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "parameter",
+      "sourceIds": [
+        "NIST_CI",
+        "NIST_MEAN"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation-b2",
+      "course": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-inference-ci-hypothesis-foundation-b2",
+        "type": "single",
+        "stem": "在总体正态、独立随机抽样且总体标准差σ已知时，双侧95%总体均数z置信区间的形式是？",
+        "options": [
+          "x̄±1.96×σ/n",
+          "x̄±1.96×σ/√n",
+          "x̄±1.96×n/σ"
+        ],
+        "answer": 1,
+        "explanation": "B正确，区间半宽是1.96×σ/√n。其他选项把标准误与n或σ的关系写错。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "df828a1f271e20fcaf9d01d04458d6520061a39af601c1c3415dd8809ccff5a9",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "z",
+      "sourceIds": [
+        "NIST_MEAN"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation-b3",
+      "course": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-inference-ci-hypothesis-foundation-b3",
+        "type": "single",
+        "stem": "检验H0时，p值最准确的解释是什么？",
+        "options": [
+          "H0为真的概率",
+          "结论临床有效的概率",
+          "假定H0成立，得到观察值或沿备择方向更极端检验结果的概率"
+        ],
+        "answer": 2,
+        "explanation": "C符合频率学派p值定义；p值不是H0的后验概率，也不证明临床意义。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "20a8635de057c7d457634aea6cf2d6815000b812a9732197a015a8e7e2649d71",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "p",
+      "sourceIds": [
+        "NIST_P"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation-b4",
+      "course": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-inference-ci-hypothesis-foundation-b4",
+        "type": "single",
+        "stem": "在研究前设定显著性水平α=0.05，哪项是第一类错误？",
+        "options": [
+          "H0假却未能拒绝H0",
+          "H0真却拒绝H0",
+          "H0假且成功拒绝H0"
+        ],
+        "answer": 1,
+        "explanation": "B是第一类错误；A为第二类错误，C是作出正确拒绝。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "acdbcf6b2acf89b5502f1871f83163d4e710af15656c76713b1995a923cb3490",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "p",
+      "sourceIds": [
+        "NIST_P"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation-a1",
+      "course": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-inference-ci-hypothesis-foundation-a1",
+        "type": "single",
+        "stem": "一份95%置信区间已经由样本算出，在常规频率学派解释中，下列哪种表述最严谨？",
+        "options": [
+          "构造区间的方法在模型成立、反复抽样下长期覆盖率约95%",
+          "固定总体均数每次有95%概率改变位置",
+          "这个已经算出的区间必然包含真实总体均数"
+        ],
+        "answer": 0,
+        "explanation": "A体现区间过程长期覆盖的意义；它不是把固定参数当随机变量，也不保证每个单次区间包含真值。",
+        "difficulty": "application"
+      },
+      "questionSHA256": "dd162ae1562724320d7f22f3bf6bd235317cab655ca95dc066b784c50f83a530",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "coverage",
+      "sourceIds": [
+        "NIST_CI"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation-d1",
+      "course": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-inference-ci-hypothesis-foundation-d1",
+        "type": "single",
+        "stem": "隔日：研究结果p=0.20，预设α=0.05。符合假设检验规则的结论是？",
+        "options": [
+          "证实H0一定为真，效应绝对为零",
+          "未能拒绝H0；不能把未显著当作H0已被证明",
+          "证明对照组和试验组完全等效"
+        ],
+        "answer": 1,
+        "explanation": "B正确，p>α说明对H0的反对证据不足，不等于等效性或零效应得到证明。",
+        "difficulty": "delayed-transfer"
+      },
+      "questionSHA256": "ca216a68e790664968a04097f79b6987f10484f8d0507a42deafc84dfcc6a2db",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "p",
+      "sourceIds": [
+        "NIST_P"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-anova-chi-regression-foundation-b1",
+      "course": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-anova-chi-regression-foundation-b1",
+        "type": "single",
+        "stem": "三组互相独立人群的连续型指标需要比较总体均数，在基础假设适用时，应优先考虑哪种入门方法？",
+        "options": [
+          "单因素组间方差分析（ANOVA）",
+          "配对t检验，把三组当成一对",
+          "只算各组最大值而不比较分布"
+        ],
+        "answer": 0,
+        "explanation": "A正确。独立三组连续结局的均数比较可考虑单因素组间ANOVA，但需核对独立性、组内分布及方差等假设。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "0ee827ac93513e1e0775248be5cd74da226b6688f2be21c2fb0c240515145298",
+      "independentlyReasonedAnswer": 0,
+      "conceptId": "anova",
+      "sourceIds": [
+        "NIST_ANOVA"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-anova-chi-regression-foundation-b2",
+      "course": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-anova-chi-regression-foundation-b2",
+        "type": "single",
+        "stem": "某虚构调查同时记录两个二分类变量，研究它们是否相关时，哪个分析思路最贴近数据类型？",
+        "options": [
+          "直接用一组均数的t检验",
+          "两类变量不可能分析关联",
+          "按独立观测等条件建立列联表并考虑卡方独立性检验"
+        ],
+        "answer": 2,
+        "explanation": "C正确。两个分类变量通常可先作列联表，在满足条件时考虑卡方独立性检验。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "08d7f9a727101d7e1ad2e9e782ca9cd0013986dca93809b600f30aaac83a85d1",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "contingency",
+      "sourceIds": [
+        "NIST_TABLE"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-anova-chi-regression-foundation-b3",
+      "course": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-anova-chi-regression-foundation-b3",
+        "type": "single",
+        "stem": "在简单线性回归模型ŷ=b0+b1×x中，斜率b1最合理的含义是什么？",
+        "options": [
+          "x变化1单位一定导致y发生因果改变",
+          "x增加1单位时，模型预测的平均结局改变b1单位",
+          "b1就是所有个体的真实结局值"
+        ],
+        "answer": 1,
+        "explanation": "B正确。b1描述线性预测关联，不自动证明因果。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "1ad0fab4e254a5524936accd661c53a8d71d5f8e650586c6d2f3425abaa4ba81",
+      "independentlyReasonedAnswer": 1,
+      "conceptId": "linear",
+      "sourceIds": [
+        "NIST_LINEAR"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-anova-chi-regression-foundation-d1",
+      "course": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-anova-chi-regression-foundation-d1",
+        "type": "single",
+        "stem": "隔日：三组ANOVA总体F检验达到统计显著，最合适的下一步解释是什么？",
+        "options": [
+          "可以确定全部三组之间两两都有显著差异",
+          "证明干预组在实际临床中效果最好",
+          "只能说明不是所有组的总体均数都相等；特定组间比较需适当事后分析"
+        ],
+        "answer": 2,
+        "explanation": "C正确。总体F检验不直接定位所有两两差异，也不证明因果或临床获益。",
+        "difficulty": "delayed-transfer"
+      },
+      "questionSHA256": "159c765ef6a799c93220d5f0416560c72a5773fecb7a9f1231b2e0330530da58",
+      "independentlyReasonedAnswer": 2,
+      "conceptId": "anova",
+      "sourceIds": [
+        "NIST_ANOVA"
+      ],
+      "minimalRevision": "No confirmed answer change. Preserve model assumptions and inference/causality distinction.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "concepts": {
+    "parameter": {
+      "support": "The sample mean estimates a population mean and varies across samples.",
+      "sources": [
+        "NIST_CI",
+        "NIST_MEAN"
+      ]
+    },
+    "z": {
+      "support": "For independent normal observations and known sigma, invert the two-sided z test to get mean ± z_quantile sigma/sqrt(n);95% normal quantile approximately1.96.",
+      "sources": [
+        "NIST_MEAN"
+      ],
+      "boundary": "This is an explicit algebraic inversion of the read test formula, not a claim the page directly prints the CI formula or that unknown sigma is known."
+    },
+    "p": {
+      "support": "p is a tail probability conditional on H0; alpha controls rejection when H0 is true. p=.20 exceeds .05 and does not establish H0 or equivalence.",
+      "sources": [
+        "NIST_P"
+      ],
+      "boundary": "Last statement follows from rejection logic, not proof of no effect; prespecified model and sidedness retained."
+    },
+    "coverage": {
+      "support": "Frequentist confidence concerns repeated-method coverage, not a moving probability assigned to the fixed computed interval.",
+      "sources": [
+        "NIST_CI"
+      ]
+    },
+    "anova": {
+      "support": "One-way F tests equality of group means; rejection alone does not identify which pairs differ.",
+      "sources": [
+        "NIST_ANOVA"
+      ],
+      "boundary": "Independent groups and appropriate residual assumptions remain necessary; no automatic clinical superiority."
+    },
+    "contingency": {
+      "support": "Cross-classification and chi-square test address independence of categorical variables.",
+      "sources": [
+        "NIST_TABLE"
+      ],
+      "boundary": "Independence/expected-frequency validity must be checked; no unconditional small-cell recommendation."
+    },
+    "linear": {
+      "support": "From yhat=b0+b1*x, changing x by1 changes model prediction by b1.",
+      "sources": [
+        "NIST_LINEAR"
+      ],
+      "boundary": "Algebraic prediction statement only, not causal proof or all individual outcomes."
+    }
+  },
+  "sources": [
+    {
+      "id": "NIST_CI",
+      "title": "1.3.5.2 Confidence Limits for the Mean",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+      "actualRead": "HTML lines8–20: repeated-coverage interpretation, t interval and sample definitions. Formula visible in text; not falsely using t interval as known-sigma z interval.",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "version": "Public live handbook accessed2026-11-17; no specific revision date or printed page verified."
+    },
+    {
+      "id": "NIST_P",
+      "title": "7.1.3.1 Critical values and p values",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section1/prc131.htm",
+      "actualRead": "Complete14-line page, especially7–11: alpha, tail probability, prespecified rejection rule.",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "version": "Public live handbook accessed2026-11-17; no specific revision date or printed page verified."
+    },
+    {
+      "id": "NIST_MEAN",
+      "title": "7.2.2 Are the data consistent with the assumed process mean?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc22.htm",
+      "actualRead": "Main body7–23, including known-sigma z formula22 and caution23; examples not re-audited as new course calculations.",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "version": "Public live handbook accessed2026-11-17; no specific revision date or printed page verified."
+    },
+    {
+      "id": "NIST_ANOVA",
+      "title": "7.4.3.3 The ANOVA table and tests of hypotheses about means",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc433.htm",
+      "actualRead": "Body7–10 F/means and59–63 interpretation and post-comparison limitation.",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "version": "Public live handbook accessed2026-11-17; no specific revision date or printed page verified."
+    },
+    {
+      "id": "NIST_TABLE",
+      "title": "7.4.5 How can we compare the results of classifying according to several categories?",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc45.htm",
+      "actualRead": "Body6–8 cross-classification,33–44 independence, expected counts and statistic. Industrial numerical example not copied into course or certified.",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "version": "Public live handbook accessed2026-11-17; no specific revision date or printed page verified."
+    },
+    {
+      "id": "NIST_LINEAR",
+      "title": "4.1.4.1 Linear Least Squares Regression",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+      "actualRead": "Body9–14 model definition;26–29 extrapolation/outlier limits. No causal identification asserted.",
+      "publisher": "NIST/SEMATECH e-Handbook",
+      "version": "Public live handbook accessed2026-11-17; no specific revision date or printed page verified."
+    }
+  ],
+  "retainedGaps": [
+    "Logistic OR and RR subclaims require direct model-specific source; b4/a1 not removed.",
+    "Sampling frame/cluster/systematic sampling7 remain pending."
+  ],
+  "removedIds": [
+    "353-inference-ci-hypothesis-foundation-b1",
+    "353-inference-ci-hypothesis-foundation-b2",
+    "353-inference-ci-hypothesis-foundation-b3",
+    "353-inference-ci-hypothesis-foundation-b4",
+    "353-inference-ci-hypothesis-foundation-a1",
+    "353-inference-ci-hypothesis-foundation-d1",
+    "353-anova-chi-regression-foundation-b1",
+    "353-anova-chi-regression-foundation-b2",
+    "353-anova-chi-regression-foundation-b3",
+    "353-anova-chi-regression-foundation-d1"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "pol-practice-1",
+    "pol-practice-2",
+    "pol-delay-1",
+    "pol-delay-2",
+    "frq-b1",
+    "frq-b2",
+    "frq-b3",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d2",
+    "frq-d4",
+    "ep-b4",
+    "ep-a4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-epistemology-case-analysis-b1",
+    "pol-epistemology-case-analysis-b2",
+    "pol-epistemology-case-analysis-b3",
+    "pol-epistemology-case-analysis-b4",
+    "pol-epistemology-case-analysis-a1",
+    "pol-epistemology-case-analysis-a2",
+    "pol-epistemology-case-analysis-a3",
+    "pol-epistemology-case-analysis-d1",
+    "pol-epistemology-case-analysis-d2",
+    "pol-epistemology-case-analysis-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "353-probability-binomial-foundation-b4",
+    "353-random-sampling-foundation-b1",
+    "353-random-sampling-foundation-b3",
+    "353-random-sampling-foundation-b4",
+    "353-random-sampling-foundation-a1",
+    "353-random-sampling-foundation-a3",
+    "353-random-sampling-foundation-d1",
+    "353-random-sampling-foundation-d3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3",
+    "353-anova-chi-regression-foundation-b4",
+    "353-anova-chi-regression-foundation-a1",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "353-trial-design-effects-b1",
+    "353-trial-design-effects-b3",
+    "353-trial-design-effects-a3",
+    "353-trial-design-effects-d3",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b1",
+    "en-pronoun-reference-b2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-b4",
+    "en-pronoun-reference-a1",
+    "en-pronoun-reference-a2",
+    "en-pronoun-reference-a3",
+    "en-pronoun-reference-d1",
+    "en-pronoun-reference-d2",
+    "en-pronoun-reference-d3",
+    "en-present-continuous-foundation-b3",
+    "en-present-continuous-foundation-a3",
+    "en-present-continuous-foundation-d3",
+    "en-passive-simple-foundation-b3",
+    "en-passive-simple-foundation-b4",
+    "en-passive-simple-foundation-a2",
+    "en-passive-simple-foundation-d3",
+    "en-defining-relative-foundation-b1",
+    "en-defining-relative-foundation-b2",
+    "en-defining-relative-foundation-b3",
+    "en-defining-relative-foundation-b4",
+    "en-defining-relative-foundation-a1",
+    "en-defining-relative-foundation-a2",
+    "en-defining-relative-foundation-a3",
+    "en-defining-relative-foundation-d1",
+    "en-defining-relative-foundation-d2",
+    "en-defining-relative-foundation-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "3a1a51440b75febf106601bc614762817295a4dfc0b0bc50dbac19ea8beb5dce",
+  "independentProfessionalApprovals": 0
+}

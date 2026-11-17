@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-17",
+  "deploymentSHA": "837ed07421c3b3784f1a2067008c1761ba778212",
+  "runtimeTestedSHA": "16c4e540a86ceab8c2faca25426f7efd24ca2dbb",
+  "deploymentId": "1c936aee-febc-4008-8413-2e4463772708",
+  "url": "https://1c936aee.qh2028-core47-preview.pages.dev/",
+  "onlineRunId": 44016422257,
+  "onlineVerifierSHA": "79088c624b726206c2735aa3782313486324068a",
+  "assets": 17,
+  "assetHashesMatched": true,
+  "browsers": [
+    "chromium",
+    "webkit"
+  ],
+  "checks": [
+    "HTTPS17 exact SHA256",
+    "52-question original paper/passage",
+    "answer save/tab-close restore",
+    "SWcontrol/cache17/new DB"
+  ],
+  "physicalIPhone": false,
+  "expertApprovals": 0,
+  "rollback": "https://65e79c71.qh2028-core47-preview.pages.dev/",
+  "logExtract": [
+    "2026-11-17T04:20:44.5024688Z   passed: true,",
+    "2026-11-17T04:20:44.5025169Z   url: 'https://1c936aee.qh2028-core47-preview.pages.dev/',",
+    "2026-11-17T04:20:44.5025596Z   files: 17,",
+    "2026-11-17T04:20:44.5026287Z       name: 'chromium',",
+    "2026-11-17T04:20:44.5026531Z       passed: true,",
+    "2026-11-17T04:20:44.5027684Z     { name: 'webkit', passed: true, checks: [Array], state: [Object] }"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-17",
+  "testedSHA": "16c4e540a86ceab8c2faca25426f7efd24ca2dbb",
+  "runId": 44015017236,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44015017236",
+  "conclusion": "success",
+  "contentChecks": 8,
+  "newLessons": 2,
+  "newQuestions": 24,
+  "browserLearningRuns": 4,
+  "browsers": [
+    "chromium",
+    "webkit"
+  ],
+  "checks": [
+    "both new lessons12 actual answer/feedback/long subjective text/backup/offline paths",
+    "75→77 actual SW update retains synthetic prior answers",
+    "new cache offline reopen after TCP shutdown"
+  ],
+  "firstFailedRun": 44013739755,
+  "rootCauseRecord": "cache-first-failure.json",
+  "fixSHA": "e2b5dad1be18b79b4201fd5c8270d8e63561f491",
+  "focusedFixRun": 44014447945,
+  "physicalIPhone": false,
+  "logExtract": [
+    "2026-11-17T04:08:28.0218373Z { passed: 8, courses: 2, questions: 24 }",
+    "2026-11-17T04:08:32.4602371Z   browser: 'chromium',",
+    "2026-11-17T04:08:32.4614045Z   passed: true",
+    "2026-11-17T04:08:42.7336517Z   browser: 'webkit',",
+    "2026-11-17T04:08:42.7344484Z   passed: true",
+    "2026-11-17T04:08:46.9042493Z   browser: 'chromium',",
+    "2026-11-17T04:08:46.9050175Z   passed: true",
+    "2026-11-17T04:08:54.2849330Z   browser: 'webkit',",
+    "2026-11-17T04:08:54.2861605Z   passed: true",
+    "2026-11-17T04:08:57.8424612Z   browser: 'chromium',",
+    "2026-11-17T04:08:57.8425183Z   passed: true,",
+    "2026-11-17T04:09:00.6432964Z   browser: 'webkit',",
+    "2026-11-17T04:09:00.6433780Z   passed: true,"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "historical-materialism-followup.json",
-  "activeEvidenceSHA256": "1fe4a90300194616b81dfa8efd4763a6db1b2299b7c01872e2d24b5d3b4f4ebf",
-  "remainingCount": 184,
-  "remainingIdsSHA256": "48b7c6fbcd49453c70fdad4ef68488a39cc945805851171b05dd2efb49c56447",
+  "activeEvidenceFile": "sampling-followup.json",
+  "activeEvidenceSHA256": "7d64cd668189946f1121bc2a678e49f0f8143d8746f156f3aa4f2c1cc8d0c4e3",
+  "remainingCount": 154,
+  "remainingIdsSHA256": "ed97c4e2cabc6f6e522b03d735ad0aafa8b9b3e27f0045f24a8b1a2dc63ae523",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "Active184 IDs. Subclaim anchors do not mean complete professional approval.",
+  "warning": "154 active IDs; subclaim anchors do not mean complete question or professional approval.",
   "expertApprovals": 0
 }
