@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "testedSHA": "e1f5ab81e3b256672ae982481024495d32290c58",
+  "runId": 44006241304,
+  "jobId": 133782189711,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44006241304",
+  "conclusion": "success",
+  "browserScope": [
+    "Chromium new course12 actual answers, feedback, delayed UI, tabclose and real TCPoffline",
+    "mobile WebKit same scope"
+  ],
+  "contentChecks": 8,
+  "physicalIPhone": false,
+  "realLongDurationTest": false,
+  "professionalApprovals": 0,
+  "logExtract": [
+    "2026-11-17T02:54:06.0824363Z PASS:17 asset hashes,75/848,74 original units and3 papers exact,independent namespace, no migration",
+    "2026-11-17T02:54:06.1891070Z { passed: 8 }",
+    "2026-11-17T02:54:10.1028905Z     'new lesson teaching, actual closed recall, eight answers and reference-only feedback',",
+    "2026-11-17T02:54:10.1029509Z     'four new delayed questions via actual UI; accelerated scheduling fixture, not wall-clock endurance',",
+    "2026-11-17T02:54:10.1030005Z     'new tab reopening preserves exact synthetic profile',",
+    "2026-11-17T02:54:10.1030435Z     'TCP server stopped, fresh offline navigation and identical profile restore'",
+    "2026-11-17T02:54:10.1031105Z   passed: true",
+    "2026-11-17T02:54:18.0146818Z     'new lesson teaching, actual closed recall, eight answers and reference-only feedback',",
+    "2026-11-17T02:54:18.0147410Z     'four new delayed questions via actual UI; accelerated scheduling fixture, not wall-clock endurance',",
+    "2026-11-17T02:54:18.0147914Z     'new tab reopening preserves exact synthetic profile',",
+    "2026-11-17T02:54:18.0148323Z     'TCP server stopped, fresh offline navigation and identical profile restore'",
+    "2026-11-17T02:54:18.0148847Z   passed: true"
+  ]
+}

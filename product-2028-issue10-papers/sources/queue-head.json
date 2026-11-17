@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17",
+  "activeEvidenceFile": "person-time-followup.json",
+  "activeEvidenceSHA256": "41a7a3d0e3f24a34aadc5f18a2ef5c39df51dbde88da002e6fb0c2172cd18342",
+  "remainingCount": 229,
+  "remainingIdsSHA256": "a3b01a7a34cd57f0680099503069c2cc00a2f3f421d8b4821e249b4df5763512",
+  "continuationBase": "queue-reconciled-241.json",
+  "removedSince241": [
+    "353-screening-test-foundation-b1",
+    "353-screening-test-foundation-b2",
+    "353-screening-test-foundation-b3",
+    "353-screening-test-foundation-b4",
+    "353-screening-test-foundation-a1",
+    "353-screening-test-foundation-d1",
+    "353-health-system-financing-policy-foundation-a2",
+    "risk-1",
+    "risk-delay-2",
+    "epi-pt-1",
+    "epi-pt-3",
+    "epi-pt-d2"
+  ],
+  "warning": "Use activeEvidenceFile.remainingIds.245/241 files are preserved historical inputs, not the active queue.",
+  "expertApprovals": 0
+}
