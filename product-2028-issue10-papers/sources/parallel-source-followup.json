@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 53,
+  "newDirectSubclaimAnchors": 22,
+  "remainingQueueCount": 31,
+  "evidenceFiles": [
+    {
+      "path": "../parallel/en/source-followup.json",
+      "sha256": "a22ba72c0fe6db9e241b878ed489430f44fc2d67c61d9bd75536b763a53f3ffa"
+    },
+    {
+      "path": "../parallel/pol/productive-forces-five-evidence.json",
+      "sha256": "a9a44de5e0f1800c235a5e78e19eab2f5af1c2b3e198d851cc6e607faaac88da"
+    },
+    {
+      "path": "../parallel/health/source-followup.json",
+      "sha256": "6fb59cff4a2de4bc9da6d2cb7361ac411cc87d3e3bbfb4ee871c10fdd2c20f64"
+    }
+  ],
+  "rows": [
+    {
+      "id": "en-vocabulary-retrieval-foundation-b1",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "cd0061600f8a3355196cecee382703718b456fa2e613d6e5aae83f2280e77c95",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-b2",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "8e1602c92566d699144428d7985ef565904e22126a2e334241ecd875b8d81137",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-b3",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "b3a4ee26abf20cfef24b56d77387d08cc581f6654ea462cc27d7b6616f22a0b1",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-b4",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "41b980ec88af87b4dffb193a16aa19697ad3d68044f339e76332bc1a3cf728bc",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-a1",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "735ae1c3e9d3a1d8b2256264ec49abaefcc4f9ca11d52e92fbc3fbce5f4cc83d",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-a3",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "610f7d0929b81f451d2420f8770163a0f3ad55d36ff7f51eb70f2e7b0081eb03",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d1",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "1279817a9563cf475c4d594bf1249bcf5da4ccd4158d0001d547897fba5eaafb",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d2",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "1245a28be77015f1900ea87a3067e5c54d128da07d963cb09d9dea76514fb652",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d3",
+      "evidenceFile": "../parallel/en/source-followup.json",
+      "questionSHA256": "0882b5181bc18cdf2e951b220d31b2a67abc8c793a9f42d4f99eddf76b47bbe5",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-b2",
+      "evidenceFile": "../parallel/pol/productive-forces-five-evidence.json",
+      "questionSHA256": "d1fca9ac9590b0a58e6f8a8599685ba232c8ae1a3b38c4a5de24fdfca4c0193c",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-b4",
+      "evidenceFile": "../parallel/pol/productive-forces-five-evidence.json",
+      "questionSHA256": "5a9a3f31ce8ce056a8fbd5d1c63ef95d8f5ff8776c8cc43acebcc58b121f1ccf",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-a1",
+      "evidenceFile": "../parallel/pol/productive-forces-five-evidence.json",
+      "questionSHA256": "51967d2ab0dfedf881b09a0d06c8dfbd1828964b9f2e358e91262964e75d2d24",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-a2",
+      "evidenceFile": "../parallel/pol/productive-forces-five-evidence.json",
+      "questionSHA256": "06ca856bcce341b7041f2cfadeeb5ce790e627f48b19d6e465af063f6918225b",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-productive-forces-relations-d2",
+      "evidenceFile": "../parallel/pol/productive-forces-five-evidence.json",
+      "questionSHA256": "173038d7daeef5c623ca0f14c10dc103e04d264146b28b760f0d134428873def",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "frq-b4",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "130c7edaa010263117aeeb0a2c519615bea7c3bd36413b87e0bc5419fbcb843e",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "frq-a4",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "25bebfb7e5ead9bfc3d55c7f7294884145386dfa14c06ace9047d3089c09b6af",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "frq-d4",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "801feb6cd82b493632d0397d0604b0197b5e1557cfc8a27c97deae274e8d9704",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-indicators-ethics-d1",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "3cbe3990fce8ffc08b3e62a302fe0d6c6926b842d9c9deb62232e3bef012b524",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-promotion-behaviour-b2",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "cb43e97ec2cdbf678dfeac4ea504e4f9792462100574ed1281f46041f0fc2ba8",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-promotion-behaviour-d1",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "601c1678ea05db9e74934877439e59d0f44ca300a296cf3a34829cde232000c0",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-promotion-behaviour-b3",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "835bc933864a8793325a1c14d5d7a5d2466cd34011d3263bac54d3f3e3d53d44",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-health-indicators-ethics-b3",
+      "evidenceFile": "../parallel/health/source-followup.json",
+      "questionSHA256": "4d1ad56e3a08db4de5b0a36a1834add895295441f359521652a25e8c0550498b",
+      "supportStatus": "specific-subclaim-supported",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "f9cfc2639df3abb9c803f7c32aad282ea61b6262b1cce4bf98e9196beebdcb24",
+  "note": "Parallel files retain their historical starting counts; only this ordered, hash-checked reconciliation changes the active queue. Specific subclaim support does not equal whole-question approval.",
+  "independentProfessionalApprovals": 0
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-17",
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "81 units920 items and unchanged original78 contracts",
+      "passed": true
+    },
+    {
+      "name": "whole-pack engine and objective structure",
+      "passed": true
+    },
+    {
+      "name": "new prerequisites exist earlier and ids/stems do not collide",
+      "passed": true
+    },
+    {
+      "name": "36 new questions preserve subjective unscored boundary and raw text",
+      "passed": true
+    },
+    {
+      "name": "protected storage identity and changed cache",
+      "passed": true
+    }
+  ],
+  "courses": 81,
+  "courseQuestions": 920,
+  "paperQuestions": 125,
+  "expertApprovals": 0,
+  "realIPhoneVerified": false
+}

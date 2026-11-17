@@ -1,0 +1,11 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    "3 source evidence file hashes",
+    "22 exact original question hashes and independent answers",
+    "53 minus22 exact31 IDs without duplication",
+    "all rows remain below independent professional approval"
+  ],
+  "evidenceSHA256": "9ebf74d0437e1c4c67ec92abd2bda9edea405335b013a8e441de14c610875fb8"
+}

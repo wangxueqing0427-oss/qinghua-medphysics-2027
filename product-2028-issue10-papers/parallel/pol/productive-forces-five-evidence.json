@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-17",
+  "authorityEntry": "sources/queue-head.json",
+  "activeQueue": {
+    "date": "2026-11-17",
+    "activeEvidenceFile": "frequency-binomial-reference-followup.json",
+    "activeEvidenceSHA256": "91fe01367e0dddda9e05863bcbbbe18c690d0ce383bbb5a0cfd5754a6c2b8b0c",
+    "remainingCount": 53,
+    "remainingIdsSHA256": "930562f50592c3bb38ef883a9b1cde72b3c8f953ab65bbc1b67ba36e588af2e3",
+    "continuationBase": "queue-reconciled-241.json",
+    "warning": "Specific source anchors only; not whole question or independent professional approval.",
+    "expertApprovals": 0
+  },
+  "baselineRemaining": 59,
+  "proposedNewDirectSubclaimAnchors": 5,
+  "projectedRemainingAfterRootIntegration": 54,
+  "sharedQueueChanged": false,
+  "source": {
+    "id": "TUP2019_PEE5",
+    "url": "https://www.tup.com.cn/upload/books/yz/082613-01.pdf",
+    "title": "政治经济学（第5版）",
+    "authors": "罗清和、鲁志国主编",
+    "publisher": "清华大学出版社",
+    "edition": "2019年5月第5版",
+    "isbn": "978-7-302-52688-9",
+    "actualRead": "出版信息PDF零基1；第二节生产力和生产关系PDF零基16–18，网页行471–569",
+    "accessed": "2026-11-17",
+    "supportScope": "仅上述基础概念子主张，不采用序言政策年份、社会形态史简化或考试安排。",
+    "qualityCaveat": "该版序言存在特朗普上台年份表述错误；未采用该时间论断。基础理论段逐条核对，不以出版社域名概括整本正确。"
+  },
+  "reusedSource": {
+    "url": "https://www.12371.cn/2024/03/21/ARTI1711014349115386.shtml",
+    "actualRead": "根代理本轮已读正文107–109，沿用其记录",
+    "supports": "劳动者技能与生产资料条件",
+    "independentlyReopenedHere": false
+  },
+  "rejectedOrLimitedCandidates": [
+    {
+      "url": "https://www.tup.com.cn/upload/books/yz/079025-01.pdf",
+      "reason": "实际打开2018初级经济基础辅导书试读未找到搜索摘要声称的直接段落；不作依据。"
+    },
+    {
+      "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/082613-01.pdf",
+      "reason": "旧域名抓取超时；改用出版社当前tup.com.cn同产品编号正文。"
+    },
+    {
+      "url": "https://www.cppcc.gov.cn/zxww/2024/02/19/ARTI1708311793440192.shtml",
+      "reason": "正文抓取超时，未以摘要冒充已读。"
+    }
+  ],
+  "rows": [
+    {
+      "id": "pol-productive-forces-relations-b2",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "currentQuestionHash": "d1fca9ac9590b0a58e6f8a8599685ba232c8ae1a3b38c4a5de24fdfca4c0193c",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "下列哪项最直接涉及生产关系？",
+        "options": [
+          "烤炉最高温度",
+          "生产资料归谁所有及产品怎样分配",
+          "面粉颗粒直径"
+        ],
+        "answer": 1,
+        "explanation": "所有与分配涉及生产中人与人的物质经济关系。A和C是技术物性，不能因此直接判为同一经济关系。",
+        "id": "pol-productive-forces-relations-b2",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "independentlyReasonedAnswer": 1,
+      "answerText": "生产资料归谁所有及产品怎样分配",
+      "sourceIds": [
+        "TUP2019_PEE5"
+      ],
+      "sourceAnchor": {
+        "lines": "518–535",
+        "pages": "正文9页；PDF零基17",
+        "claim": "生产关系属于生产中的经济关系，所有制及分配在其范围内；技术温度和颗粒直径本身不是该经济关系。"
+      },
+      "sourceSubclaimSupported": true,
+      "applicationBoundary": "原创题设的分类与排除为内部推理，来源不是对面包坊或同学实际事件的经验验证，也不是官方答案。",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "未发现需要改动原题及答案；保留原文与历史哈希。"
+    },
+    {
+      "id": "pol-productive-forces-relations-b4",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "currentQuestionHash": "5a9a3f31ce8ce056a8fbd5d1c63ef95d8f5ff8776c8cc43acebcc58b121f1ccf",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "生产方式在本课应怎样理解？",
+        "options": [
+          "生产力与生产关系的统一",
+          "只有机器型号",
+          "仅个人喜好"
+        ],
+        "answer": 0,
+        "explanation": "本课以两者统一理解生产方式，不把其缩为技术目录或主观偏好。统一不抹平能力与关系的区别。",
+        "id": "pol-productive-forces-relations-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "independentlyReasonedAnswer": 0,
+      "answerText": "生产力与生产关系的统一",
+      "sourceIds": [
+        "TUP2019_PEE5"
+      ],
+      "sourceAnchor": {
+        "lines": "545–549",
+        "pages": "正文10页；PDF零基18",
+        "claim": "生产力和生产关系的统一构成社会生产方式。"
+      },
+      "sourceSubclaimSupported": true,
+      "applicationBoundary": "原创题设的分类与排除为内部推理，来源不是对面包坊或同学实际事件的经验验证，也不是官方答案。",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "未发现需要改动原题及答案；保留原文与历史哈希。"
+    },
+    {
+      "id": "pol-productive-forces-relations-a1",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "currentQuestionHash": "51967d2ab0dfedf881b09a0d06c8dfbd1828964b9f2e358e91262964e75d2d24",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "提高劳动者技能与增加适合的工具，主要改善哪类条件？",
+        "options": [
+          "只有消费评价",
+          "生产力条件",
+          "与生产完全无关的词语"
+        ],
+        "answer": 1,
+        "explanation": "技能与劳动资料结合影响生产能力。A把生产与评价混淆，C否认事实联系；不据此保证任意条件下产出必增。",
+        "id": "pol-productive-forces-relations-a1",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "independentlyReasonedAnswer": 1,
+      "answerText": "生产力条件",
+      "sourceIds": [
+        "TUP2019_PEE5"
+      ],
+      "sourceAnchor": {
+        "lines": "497–517",
+        "pages": "正文8–9页；PDF零基16–17",
+        "claim": "生产力含具有知识技能的劳动者与劳动对象、劳动资料；技能与合适工具属于能力条件。"
+      },
+      "sourceSubclaimSupported": true,
+      "applicationBoundary": "原创题设的分类与排除为内部推理，来源不是对面包坊或同学实际事件的经验验证，也不是官方答案。",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "未发现需要改动原题及答案；保留原文与历史哈希。"
+    },
+    {
+      "id": "pol-productive-forces-relations-a2",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "currentQuestionHash": "06ca856bcce341b7041f2cfadeeb5ce790e627f48b19d6e465af063f6918225b",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "哪项不宜仅因“人与人”就判成生产关系？",
+        "options": [
+          "生产资料所有关系",
+          "生产中产品分配关系",
+          "两位同学课外音乐偏好相同"
+        ],
+        "answer": 2,
+        "explanation": "课外共同爱好并非题定生产中的经济关系；A和B在范围内。需要看关系发生的领域和性质，不只是是否有两个人。",
+        "id": "pol-productive-forces-relations-a2",
+        "difficulty": "application",
+        "errorCauseHint": "concept"
+      },
+      "independentlyReasonedAnswer": 2,
+      "answerText": "两位同学课外音乐偏好相同",
+      "sourceIds": [
+        "TUP2019_PEE5"
+      ],
+      "sourceAnchor": {
+        "lines": "518–524、532–535",
+        "pages": "正文9页；PDF零基17",
+        "claim": "生产关系讨论物质资料生产或社会再生产中的经济关系；非仅因出现人与人就归类。"
+      },
+      "sourceSubclaimSupported": true,
+      "applicationBoundary": "原创题设的分类与排除为内部推理，来源不是对面包坊或同学实际事件的经验验证，也不是官方答案。",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "未发现需要改动原题及答案；保留原文与历史哈希。"
+    },
+    {
+      "id": "pol-productive-forces-relations-d2",
+      "course": "pol-productive-forces-relations",
+      "version": "0.1",
+      "currentQuestionHash": "173038d7daeef5c623ca0f14c10dc103e04d264146b28b760f0d134428873def",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "将生产力概括为机器数量，遗漏了什么关键内容？",
+        "options": [
+          "机器的颜色",
+          "一切私人偏好",
+          "有知识技能劳动者与生产资料的结合"
+        ],
+        "answer": 2,
+        "explanation": "生产能力不只机器台数，还包括人的技能及其与资料的结合。A无关核心，B把任意偏好都并入能力，范围过宽。",
+        "id": "pol-productive-forces-relations-d2",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "independentlyReasonedAnswer": 2,
+      "answerText": "有知识技能劳动者与生产资料的结合",
+      "sourceIds": [
+        "TUP2019_PEE5"
+      ],
+      "sourceAnchor": {
+        "lines": "497–517",
+        "pages": "正文8–9页；PDF零基16–17",
+        "claim": "生产力含人的因素与物的因素，人的因素包括生产经验、劳动技能与科学知识，不能仅计机器台数。"
+      },
+      "sourceSubclaimSupported": true,
+      "applicationBoundary": "原创题设的分类与排除为内部推理，来源不是对面包坊或同学实际事件的经验验证，也不是官方答案。",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "未发现需要改动原题及答案；保留原文与历史哈希。"
+    }
+  ],
+  "expertApprovals": 0
+}

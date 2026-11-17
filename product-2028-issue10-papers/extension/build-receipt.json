@@ -2,9 +2,9 @@
   "edition": "qh2028-issue10-clause-v1",
   "db": "qh2028_issue10_clause_v1_local",
   "journal": "qh2028_issue10_clause_v1_pending:",
-  "cache": "qh2028-issue10-clause-v3",
-  "courses": 78,
-  "questions": 884,
+  "cache": "qh2028-issue10-clause-v4",
+  "courses": 81,
+  "questions": 920,
   "files": [
     {
       "path": "app.css",
@@ -23,7 +23,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "04880585f02b36deec9851bfd850bc6eb8387906703b7bfa8e7942b64134aa0e",
+      "sha256": "02e77eb38637eaf7de3551531722378357f8daabc8c16183afc9ebcf9d0ad729",
       "bytes": 1548
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "path": "pilot-ui.js",
-      "sha256": "67631a6e2b613894e36c9d9000abcd957938fe2bcff0c81973b02b6b42c94976",
+      "sha256": "7a16194c3a112067f481967ce865a067f7e612f0735eb247367cf8a37cf5f81d",
       "bytes": 21157
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "path": "representative-courses.json",
-      "sha256": "596aa1ed1cf0fe0657fd3eddf72e1a840c66e845581d1d4996551665a8ec5d76",
-      "bytes": 1649065
+      "sha256": "7c5eafba27221b64585550a23dcf1f25f15443c770b68dbf8c0d7107cd4a5b31",
+      "bytes": 1709120
     },
     {
       "path": "sva-prerequisite.js",
@@ -88,7 +88,7 @@
     },
     {
       "path": "sw.js",
-      "sha256": "14b51f0a19fdb9965b39e982a73ed61c8d8e79d43e0582aaa05988bec5ea92f1",
+      "sha256": "ed2ddb39b5d7decb51cfd6d87fc886c98180cd41f9f4f8f4d7cd787295ddfa44",
       "bytes": 1490
     }
   ],

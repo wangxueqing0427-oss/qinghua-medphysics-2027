@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": 48,
+  "courseId": "pol-money-price-value-foundation",
+  "courseSHA256": "17fa0b7de99fa3c76120e86531b51aab11d06e329eb1ec94b458018234ff72ad",
+  "baselineSHA256": "21c813e1620ab3c87f649f30e59d52535551e2cdaa9f0986ebe1ea038e8b60ba",
+  "baselineCourses": 78,
+  "incrementCourses": 1,
+  "incrementQuestions": 12,
+  "mergedProjection": {
+    "courses": 79,
+    "questions": 896,
+    "politicalCourses": 18,
+    "politicalQuestions": 204
+  },
+  "engine": "extension/.build/course-engine.js read-only",
+  "expertApprovals": 0,
+  "browserTest": false,
+  "realIPhoneAcceptance": false,
+  "deployed": false,
+  "workflowLimitation": "隔离候选无audit-2028/skill-workflow.cjs；根工作流写共享报告且组装不同旧目录，未擅自执行。复用现有引擎与objective-quality定向测试，不冒充四技能全工作流。"
+}

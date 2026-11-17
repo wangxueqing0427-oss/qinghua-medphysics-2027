@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-17",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "existing English baseline and missing independent en-plan-9",
+      "passed": true
+    },
+    {
+      "name": "existing prerequisites and CourseEngine full-pack validation",
+      "passed": true
+    },
+    {
+      "name": "four objectives linked to teaching recall and each phase",
+      "passed": true
+    },
+    {
+      "name": "12 unique original questions without baseline exact duplicates",
+      "passed": true
+    },
+    {
+      "name": "all choice branches graded and writing remains unscored",
+      "passed": true
+    },
+    {
+      "name": "raw subjective response survives ordinary event serialization",
+      "passed": true
+    },
+    {
+      "name": "held draft without expert or exam-scope overclaim",
+      "passed": true
+    }
+  ],
+  "course": {
+    "id": "en-opinion-reason-example-foundation",
+    "sha256": "f7cdfd6624b4e8babd5a1716eae7c0ee4a32f81f8b8a4c3754f1c80f715ba0a5",
+    "questions": 12
+  },
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false,
+  "limits": "定向内容/引擎验证；未执行共享工作流以避免写入限制外目录。不是浏览器、专家或正式覆盖验收。"
+}

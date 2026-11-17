@@ -1,0 +1,332 @@
+{
+  "id": "pol-money-price-value-foundation",
+  "version": "0.1-parallel-pol-1",
+  "subject": "pol",
+  "title": "货币与价格入门：共同等价物、标价和交换",
+  "writtenAt": "2026-11-17",
+  "applicableYear": 2028,
+  "scopeStatus": "teaching-foundation-exam-spec-pending",
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "authorship": "原创教学情境与题目；原始理论用于概念核对，不冒官方考纲或真题。",
+  "mapping": [
+    "pol-plan-1"
+  ],
+  "prerequisites": [
+    "pol-commodity-value-foundation"
+  ],
+  "sources": [
+    "https://www.marxists.org/chinese/marx/capital/03.htm",
+    "https://www.qstheory.cn/dukan/hqwg/2024-05/29/c_1130153464.htm"
+  ],
+  "sourceEvidence": [
+    {
+      "title": "资本论第一卷第三章：货币或商品流通",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文文本",
+      "accessed": "2026-11-17",
+      "actualRead": "正文价值尺度与流通手段，网页行16–40、44–59",
+      "limits": "原始理论公开转录，非官方考纲；金为货币商品的明确模型前提，不外推现代信用货币制度。"
+    },
+    {
+      "title": "坚持和发展劳动价值论",
+      "authors": "杨静、刘影",
+      "publisher": "求是网/红旗文稿2024/10",
+      "published": "2024-05-29",
+      "accessed": "2026-11-17",
+      "actualRead": "正文第一节行15–21货币、价值量、价值规律",
+      "limits": "只支持基础概念；不涉及后文数字经济争议，不构成2028考试范围。"
+    }
+  ],
+  "explanation": "先接上上一课：商品的用途与价值是两个方面，价值量由社会必要劳动时间决定。本课追问：不同商品的价值怎样取得共同表现？一般等价物是其他商品共同用来表现价值、并可与它交换的商品。在理论的历史分析中，当这一角色固定在某种特殊商品上，便形成货币。这里的“一般”说的是共同交换关系，不能理解为某人喜爱某个物品。金银有自然属性，但自然属性本身不足以说明货币这种社会角色。本课用货币商品模型理解概念，不把现代纸币或手机支付直接说成有同量金属内在价值。\n\n价格是商品价值的货币表现。先分清三个问题：杯子能盛水，讲用途；商品中凝结的一般人类劳动，讲价值；杯子标出某个货币金额，讲价格。货币作为价值尺度，为商品价值提供共同的表达形式。标价时可以使用观念上的货币，不必把同额现金放在每件货旁边；但标价尚未证明成交。理论中劳动时间是内在尺度，货币是其表现形式，不能倒过来说“有标价才有劳动价值”。本课不把“元”和“小时”直接相等，二者必须经过明确模型条件联系。\n\n买卖中货币还可以充当流通手段，即商品交换的媒介。设小周卖出自己制作的篮子取得货币，再用货币买米，过程可记作商品—货币—商品。第一步是卖篮子，第二步是买米。只给篮子标价，是价值尺度层面的表现；完成即时买卖时货币实际在交换中作媒介，是流通手段。这里比较的是两个职能，不是说一笔交易永远只能涉及一种职能。赊购后还款、信用创造、数字货币制度不在本课范围，不能据本课把所有付款情形都判作流通手段。\n\n价格与价值有联系，但一次实际成交价不必与价值量的货币表现完全一致。在所学商品经济基础模型中，供求变化可使价格围绕价值波动。讨论供求时须明确“其他条件不变”，尤其不能把价值变化、货币条件变化和供求变化混在一起。某日价格上涨，不足以证明生产同一商品所需社会必要劳动时间增加；也不能把任何现实市场都压缩成单一供求原因。模型描述的是理论关系，不保证每一天、每家店或有限几次价格的算术平均恰好等于价值。\n\n分步例题一：在货币商品模型中，假设一把同类椅子所需社会必要劳动为6小时，1个虚构货币单位对应的货币商品需要2小时，先忽略供求偏离并保持质量、强度等条件一致。第一步明确两个量分别是6小时/把与2小时/货币单位；第二步相除，6÷2=3货币单位/把，得到模型中的价值货币表现；第三步若实际成交4单位，只能说这一成交高于设定基准，不能说椅子突然凝结8小时必要劳动。该比率是教学设定，不能拿现实人民币工资或金价代入。\n\n分步例题二：摊主先给布匹写10个虚构货币单位的标签，尚未卖出；随后买者用货币完成即时购买。第一步找“写标签”，识别价值尺度；第二步找“交换已发生”，识别流通手段；第三步说明标签不是收入。再换一情境：同类同质商品的社会生产条件和货币条件固定，短期需求增加而供给不变。可说明存在价格上行压力，但不能仅凭需求材料推出价值量同步增加。答材料题先写已知条件，再判概念，最后写不允许推出的结论。闭卷时换物品和数值解释，避免只记选项。",
+  "definition": "在货币商品模型中，货币是固定充当一般等价物的特殊商品；价格是商品价值的货币表现。",
+  "conditions": "限定马克思主义政治经济学入门货币商品模型；数值皆虚构，非现实定价、金本位制度或金融建议。",
+  "example": "分步例题一：在货币商品模型中，假设一把同类椅子所需社会必要劳动为6小时，1个虚构货币单位对应的货币商品需要2小时，先忽略供求偏离并保持质量、强度等条件一致。第一步明确两个量分别是6小时/把与2小时/货币单位；第二步相除，6÷2=3货币单位/把，得到模型中的价值货币表现；第三步若实际成交4单位，只能说这一成交高于设定基准，不能说椅子突然凝结8小时必要劳动。该比率是教学设定，不能拿现实人民币工资或金价代入。\n\n分步例题二：摊主先给布匹写10个虚构货币单位的标签，尚未卖出；随后买者用货币完成即时购买。第一步找“写标签”，识别价值尺度；第二步找“交换已发生”，识别流通手段；第三步说明标签不是收入。再换一情境：同类同质商品的社会生产条件和货币条件固定，短期需求增加而供给不变。可说明存在价格上行压力，但不能仅凭需求材料推出价值量同步增加。答材料题先写已知条件，再判概念，最后写不允许推出的结论。闭卷时换物品和数值解释，避免只记选项。",
+  "misconceptions": [
+    "把自然贵重性直接当货币社会关系",
+    "把标价当成交收入",
+    "把价值尺度和流通手段混同",
+    "从一次涨价反推必要劳动时间必增加",
+    "把有限几次价格均值当理论必然"
+  ],
+  "recall": [
+    "闭卷说明一般等价物成为货币所需社会条件。",
+    "闭卷用新商品区分价值、价格与标价未成交。",
+    "闭卷画商品—货币—商品，区分标价和交换媒介。",
+    "闭卷重算虚构比率，并说明供求价格变化不能直接反推价值量。"
+  ],
+  "rubric": [
+    "货币社会角色",
+    "价值尺度与成交界限",
+    "交换媒介",
+    "模型计算与推断条件"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "隔日换商品、数值与场景；先闭卷再核对。"
+  },
+  "reviewRecord": {
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "专业审核0，待独立理论教师核对",
+      "2028官方范围未确认",
+      "未接入构建或部署，真实iPhone未验收"
+    ]
+  },
+  "teachingSections": [
+    {
+      "id": "s1",
+      "explanationParagraph": 0
+    },
+    {
+      "id": "s2",
+      "explanationParagraph": 1
+    },
+    {
+      "id": "s3",
+      "explanationParagraph": 2
+    },
+    {
+      "id": "s4",
+      "explanationParagraph": 3
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "pol-money-price-value-foundation-g1",
+      "description": "识别货币形成的社会条件",
+      "successCriteria": "能以共同等价物及固定角色解释，拒绝自然贵重即货币",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "pol-money-price-value-foundation-b1",
+        "pol-money-price-value-foundation-a1",
+        "pol-money-price-value-foundation-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-money-price-value-foundation-g2",
+      "description": "区分价格表达与已完成成交",
+      "successCriteria": "能以价值尺度说明标价，且不把标签当收入",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "pol-money-price-value-foundation-b2",
+        "pol-money-price-value-foundation-a2",
+        "pol-money-price-value-foundation-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-money-price-value-foundation-g3",
+      "description": "说明商品交换中的货币媒介",
+      "successCriteria": "能画出商品货币商品并识别流通手段",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "pol-money-price-value-foundation-b3",
+        "pol-money-price-value-foundation-d3",
+        "pol-money-price-value-foundation-a2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-money-price-value-foundation-g4",
+      "description": "计算价值货币表现并限制价格推断",
+      "successCriteria": "按题设单位求比率，并拒绝从成交价反推必要劳动",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "pol-money-price-value-foundation-b4",
+        "pol-money-price-value-foundation-a3",
+        "pol-money-price-value-foundation-a4",
+        "pol-money-price-value-foundation-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "basicQuestions": [
+    {
+      "id": "pol-money-price-value-foundation-b1",
+      "type": "single",
+      "stem": "在本课货币商品模型中，某种商品取得货币地位的关键是什么？",
+      "answer": 1,
+      "explanation": "B说明一般等价物的社会角色固定；喜爱或色泽不能单独构成货币关系。",
+      "difficulty": "foundation",
+      "options": [
+        "每个人都喜欢它的颜色",
+        "一般等价物的角色固定在它上面",
+        "任何物品一经标价都成为货币"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-b2",
+      "type": "single",
+      "stem": "店主给尚未售出的桌子标出货币金额，首先体现什么职能？",
+      "answer": 0,
+      "explanation": "标价把商品价值表现为货币量，属于价值尺度；题设没有即时交换或赊账清偿。",
+      "difficulty": "foundation",
+      "options": [
+        "价值尺度",
+        "流通手段",
+        "到期债务清偿"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-b3",
+      "type": "single",
+      "stem": "小周卖篮子取得货币，再用货币即时买米，货币在交换中作为媒介体现什么？",
+      "answer": 2,
+      "explanation": "完整过程是商品—货币—商品，强调交换媒介即流通手段。",
+      "difficulty": "foundation",
+      "options": [
+        "只要有货币就创造额外劳动价值",
+        "只是在纸上想象价格",
+        "流通手段"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-b4",
+      "type": "single",
+      "stem": "已知某店同种商品今日涨价，可以直接断定什么？",
+      "answer": 1,
+      "explanation": "一次价格信息不足以确定社会必要劳动时间变化；必须补生产与货币等条件。",
+      "difficulty": "foundation",
+      "options": [
+        "单位商品价值量必同幅增加",
+        "不能单凭涨价断定必要劳动时间增加",
+        "该商品用途必增加相同百分比"
+      ]
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "pol-money-price-value-foundation-a1",
+      "type": "subjective",
+      "stem": "一块金属具有耐保存的特点。有人据此说“它天然就是货币”。请指出缺少的社会关系条件。",
+      "answer": "自然特点不足以证明货币地位；在本课模型中，须说明一般等价物的角色在交换发展中固定在该特殊商品上。",
+      "explanation": "可说“被其他商品共同作为价值表现和交换的等价物且角色固定”。只写贵重或受欢迎不足；不要求金属货币史。",
+      "difficulty": "application",
+      "rubric": [
+        "区分自然属性与社会角色",
+        "说明共同等价物",
+        "说明角色固定"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-a2",
+      "type": "subjective",
+      "stem": "书店给书贴价签时，是否必须给每本书旁放同额现金？价签能否证明书款已经收入？随后买者用货币完成即时买卖，货币作为交换媒介又是什么职能？",
+      "answer": "表现价格时可用观念货币，不必旁放等额现金；价签只是货币表现，不证明交易完成和收入到账。随后即时买卖中货币作为媒介是流通手段。",
+      "explanation": "接受“标价表达金额，成交另须证据”的通俗解释；并说明即时交换媒介。若说标价等于已收款或否认两种职能可以在同一交易过程中出现，不接受。",
+      "difficulty": "application",
+      "rubric": [
+        "价值尺度可用观念货币",
+        "不必旁放同额现金",
+        "区分标价与成交",
+        "识别即时交换媒介为流通手段"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-a3",
+      "type": "number",
+      "stem": "虚构货币商品模型：一件同类商品必要劳动9小时，每个货币单位对应3小时；忽略价格偏离。单位商品价值的货币表现为多少？",
+      "answer": 3,
+      "explanation": "9小时/件÷3小时/货币单位=3货币单位/件；仅适用于题设，不是实际售价预测。",
+      "difficulty": "application",
+      "unit": "货币单位/件",
+      "tolerance": 0
+    },
+    {
+      "id": "pol-money-price-value-foundation-a4",
+      "type": "subjective",
+      "stem": "同类同质商品的社会生产条件、货币条件不变，短期需求增加、供给不变。说明价格可能的方向，并评价“所以必要劳动时间也必增加”。",
+      "answer": "在该简化条件下，需求相对供给增加带来价格上行压力；不能因此推断必要劳动时间增加，题设社会生产条件不变。",
+      "explanation": "允许说价格趋升或有上涨压力，不接受无条件预言所有现实价格必涨；不能把供求变化当作价值量决定条件。",
+      "difficulty": "application",
+      "rubric": [
+        "写清其他条件不变",
+        "说明供求的价格影响",
+        "拒绝劳动时间必增推论"
+      ]
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "pol-money-price-value-foundation-d1",
+      "type": "subjective",
+      "stem": "隔日闭卷：为什么“某人收藏的石头很珍贵”还不足以说明石头充当货币？",
+      "answer": "个人珍视不能证明一般等价物的社会角色，须考察其是否在交换中成为共同等价物且该角色固定。",
+      "explanation": "接受从共同社会关系说明，不要求认定现实石头能否货币化。",
+      "difficulty": "delayed-transfer",
+      "rubric": [
+        "个人偏好不足",
+        "共同一般等价物关系",
+        "角色固定"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-d2",
+      "type": "single",
+      "stem": "隔日：商店关门时更新鞋的价签，没有发生交易。下列判断最恰当的是？",
+      "answer": 2,
+      "explanation": "可有价格表达而无成交；这里只发生标价，不能认定货币已实际充当交换媒介。",
+      "difficulty": "delayed-transfer",
+      "options": [
+        "价签更新就证明已收货款",
+        "每次标价都需真实现金紧贴商品",
+        "存在货币价格表现，但尚未证明成交"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-d3",
+      "type": "subjective",
+      "stem": "隔日：农户卖出一袋豆取得货币，又立即用这笔货币买盐。用三个环节表示并解释货币的角色；若仅给豆标价，还缺哪一步？",
+      "answer": "豆（商品）—货币—盐（商品）；货币在实际交换中作流通手段。仅标价还未完成豆换货币的出售。",
+      "explanation": "接受W—G—W或中文顺序；只写货币而遗漏两端商品或把标签当已卖出不足。",
+      "difficulty": "delayed-transfer",
+      "rubric": [
+        "商品货币商品顺序",
+        "说明交换媒介",
+        "区分标价与出售"
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation-d4",
+      "type": "subjective",
+      "stem": "隔日新模型：一件商品必要劳动8小时，每货币单位对应2小时，忽略偏离时基准为多少？若某次成交5单位，能否据此把该件必要劳动改写为10小时？",
+      "answer": "基准8÷2=4货币单位/件；不能仅据5单位成交改写为10小时，成交价格可能偏离基准，必要劳动时间仍须生产条件证据。",
+      "explanation": "接受算式与等价单位。必须写出4与推断边界；只算成交价乘2得10并当作必要劳动不接受。",
+      "difficulty": "delayed-transfer",
+      "rubric": [
+        "得4货币单位每件",
+        "区分基准与成交",
+        "必要劳动需生产证据"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    "6 exact current question hashes",
+    "6 independently reasoned option decisions",
+    "59 minus6 exact53 IDs",
+    "original course pack unchanged"
+  ],
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "91fe01367e0dddda9e05863bcbbbe18c690d0ce383bbb5a0cfd5754a6c2b8b0c"
+}

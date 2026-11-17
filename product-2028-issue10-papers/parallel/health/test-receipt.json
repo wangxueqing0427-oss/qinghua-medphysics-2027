@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-17",
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "existing engine accepts isolated unit with real prerequisite",
+      "passed": true
+    },
+    {
+      "name": "four measurable targets with teaching recall and three phases",
+      "passed": true
+    },
+    {
+      "name": "12 original unique questions with complete explanations and subjective boundaries",
+      "passed": true
+    },
+    {
+      "name": "all distractors false; number tolerances and units; subjective pending",
+      "passed": true
+    },
+    {
+      "name": "raw-data independent reconstruction of example A and critical decision",
+      "passed": true
+    },
+    {
+      "name": "Welch B, comparator and new delayed values recalculated",
+      "passed": true
+    },
+    {
+      "name": "equal n can equalize SE without equalizing degrees of freedom",
+      "passed": true
+    },
+    {
+      "name": "recall and subjective retain raw answers without professional auto grading",
+      "passed": true
+    },
+    {
+      "name": "protected pack unchanged and no expert or release claim",
+      "passed": true
+    }
+  ],
+  "courseHash": "510cb86ec044e0cddfb8d8fcd2e07d0d3331e81e4ad707c5db01f211e6a8c8f2",
+  "protectedPackHash": "596aa1ed1cf0fe0657fd3eddf72e1a840c66e845581d1d4996551665a8ec5d76",
+  "questions": 12,
+  "objectives": 4,
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false,
+  "scope": "isolated draft validation, arithmetic reconstruction and existing engine simulation; no browser persistence or deploy validation"
+}

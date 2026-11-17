@@ -1,0 +1,16 @@
+const fs=require('fs'),p=require('path'),a=require('assert/strict'),crypto=require('crypto');
+require('./build-draft.cjs');
+const file=p.join(__dirname,'en-opinion-reason-example-foundation.json');
+const u=JSON.parse(fs.readFileSync(file));
+const E=require('../../extension/.build/course-engine.js'),O=require('../../../product-2028-draft/content/objective-quality.cjs'),pack=require('../../extension/.build/representative-courses.json'),coverage=require('../../extension/coverage-78.json'),checks=[];
+function check(name,f){f();checks.push({name,passed:true});}
+check('existing English baseline and missing independent en-plan-9',()=>{a.equal(pack.units.filter(x=>x.subject==='en').length,21);a.equal(coverage.subjects.find(x=>x.subject==='en').courseQuestions,236);a(!pack.units.some(x=>(x.mapping||[]).includes('en-plan-9')));});
+check('existing prerequisites and CourseEngine full-pack validation',()=>{a(u.prerequisites.every(id=>pack.units.some(x=>x.id===id)));a.deepEqual(E.validate({...pack,units:[...pack.units,u]}),[]);});
+check('four objectives linked to teaching recall and each phase',()=>{a.equal(u.learningObjectives.length,4);a.deepEqual(O.validateObjectives({units:[u]}),[]);for(const o of u.learningObjectives){a(o.teachingSectionIds.every(id=>u.teachingSections.some(s=>s.id===id)));for(const k of ['-b','-a','-d'])a(o.questionIds.some(id=>id.includes(k)));}});
+const qs=[...u.basicQuestions,...u.applicationQuestions,...u.delayedQuestions],old=pack.units.flatMap(x=>[...x.basicQuestions,...x.applicationQuestions,...x.delayedQuestions]);
+check('12 unique original questions without baseline exact duplicates',()=>{a.equal(qs.length,12);a.equal(new Set(qs.map(x=>x.id)).size,12);a(qs.every(q=>!old.some(o=>q.id===o.id||q.stem===o.stem)));});
+check('all choice branches graded and writing remains unscored',()=>{for(const q of qs)if(q.type==='single')q.options.forEach((_,i)=>a.equal(E.grade(q,i).correct,i===q.answer));else{a(q.rubric.length>=2);a(q.explanation.length>25);a.equal(E.grade(q,q.answer).correct,null);a.equal(E.grade(q,q.answer).score,null);}});
+check('raw subjective response survives ordinary event serialization',()=>{const raw='  我的不同立场\nI disagree.  ';let s={stage:'learn',events:[]};s=E.advance(s,'learned');s=E.advance(s,'recalled',{answer:'我的提纲',answerVisible:false});s=E.advance(s,'answered',{questionId:u.delayedQuestions[3].id,questionVersion:u.version,answer:raw});a.equal(JSON.parse(JSON.stringify(s)).events.at(-1).payload.answer,raw);});
+check('held draft without expert or exam-scope overclaim',()=>{a.equal(u.reviewRecord.expertApproved,false);a.equal(u.distribution,'held-pending-review');a.equal(u.scopeStatus,'teaching-foundation-exam-spec-pending');});
+fs.writeFileSync(p.join(__dirname,'test-receipt.json'),JSON.stringify({date:'2026-11-17',passed:checks.length,failed:0,checks,course:{id:u.id,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),questions:qs.length},expertApprovals:0,browserVerified:false,realIPhoneVerified:false,limits:'定向内容/引擎验证；未执行共享工作流以避免写入限制外目录。不是浏览器、专家或正式覆盖验收。'},null,2)+'\n');console.log({passed:checks.length,questions:qs.length});
+

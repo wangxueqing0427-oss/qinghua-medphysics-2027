@@ -1,0 +1,343 @@
+{
+  "id": "353-independent-means-welch-deepening",
+  "version": "0.1",
+  "subject": "353",
+  "title": "两独立均数比较：合并方差与Welch的计算和解释",
+  "writtenAt": "2026-11-17",
+  "applicableYear": 2028,
+  "scopeStatus": "provisional-2027-outline-partial",
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "authorship": "原创虚构教学数据、讲解及题目；非真题、非真实医学研究结论。",
+  "mapping": [
+    "STAT02"
+  ],
+  "prerequisites": [
+    "353-t-tests-paired-independent-foundation"
+  ],
+  "prerequisiteExplanation": "先会区分配对与独立、均数差标准误、t与p及自由度；本课深化原有t课未展开的两种独立样本计算。",
+  "sources": [
+    "https://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm",
+    "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/t_test.htm",
+    "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm",
+    "https://openstax.org/books/introductory-statistics-2e/pages/10-4-matched-or-paired-samples",
+    "https://openstax.org/books/introductory-statistics-2e/pages/10-1-two-population-means-with-unknown-standard-deviations"
+  ],
+  "sourceEvidence": [
+    {
+      "publisher": "NIST/SEMATECH",
+      "title": "Two-Sample t-Test for Equal Means",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML10–29：配对、方差版本、两种SE、合并方差及Welch-Satterthwaite自由度。",
+      "limits": "公式核对；页面工业案例及等效提问不能当作均值检验已证明等效。"
+    },
+    {
+      "publisher": "NIST Dataplot",
+      "title": "T TEST",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML24–39：独立等/不等方差公式与df；配对差值标准差及配对数。",
+      "limits": "仅采用公式区；不采用程序输出示例或其ACCEPT标签。"
+    },
+    {
+      "publisher": "NIST/SEMATECH",
+      "title": "Analysis of paired observations",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML7–11：自然对应关系、差值、差值样本标准差及t公式。",
+      "limits": "仅作配对边界，不复用工业示例。"
+    },
+    {
+      "publisher": "OpenStax / Rice University",
+      "title": "Introductory Statistics 2e §10.4",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML23–34：差值才是样本，小样本差值正态或适当大样本近似；df为差值个数减1。",
+      "limits": "只核对通用事实，不复用原书案例、数字、题干或临床因果表述。"
+    },
+    {
+      "publisher": "OpenStax / Rice University",
+      "title": "Introductory Statistics 2e §10.1",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML23–44：两独立随机样本、小样本总体正态条件、Welch标准误及小数自由度。",
+      "limits": "只核对通用定义和公式。不采用“大样本分布不重要”或固定n阈值的宽泛说法，不复制其案例。"
+    }
+  ],
+  "explanation": "先把数据表读成研究设计。假设每行是一个人的一次连续数值测量，单位为分。A、B两组由不同且无匹配关系的人组成，组内各人和组间观测独立，才进入本课的两独立样本路径。两组人数相等不产生配对关系；把两列按大小排序后硬凑成对也不成立。同一人的前后测量或预先匹配的对象应走配对路径。独立性来自抽样和设计，不能用一个正态检验的p值证明。本课先修均数、样本标准差、标准误和H0。\n\n先约定要估计的方向：Δ=μA−μB，样本估计为x̄A−x̄B。μ是总体均数，x̄是样本均数；s是样本标准差，s²是样本方差，n是人数。H0:Δ=0表示总体均数相等，双侧H1:Δ≠0预先规定后不能见到数据再改方向。均数和标准差的单位为分，方差为分²。标准误SE衡量均数差估计的抽样波动，仍是分；t=(估计差−H0差)/SE是无量纲，既不是分值差本身，也不是p值。\n\n先看共同条件，再选方差版本。普通两独立样本t方法需要适当随机抽样或可辩护的抽样模型、组内及组间独立观测；小样本模型通常假定各组总体近似正态。严重离群、强偏态、聚类或选择偏倚不能靠更换Welch公式自动消除。合并方差t额外假定两总体方差相等；Welch不要求这一相等条件。样本s相近不证明总体方差严格相等，n相等也不证明。不要为了得到显著结果来回试方法；实际分析应预先说明方法和依据。\n\n合并方差不是把两组标准差直接平均。若等方差模型适用，先用各组自由度n−1加权方差：sp²=[(nA−1)sA²+(nB−1)sB²]/(nA+nB−2)，再开根得到sp。均数差标准误SEp=sp√(1/nA+1/nB)，tp=(x̄A−x̄B)/SEp，df=nA+nB−2。虚构例甲：A组n=5、均数12分、s=2分；B组n=5、均数10分、s=2分，题设等方差与正态独立模型适用。①均数差2分；②sp²=(4×4+4×4)/8=4分²；③SEp=√[4×(1/5+1/5)]=√1.6≈1.265分；④tp=2/√1.6≈1.581，df=8。给定双侧α=0.05临界值2.306，则|t|小于临界值，不拒绝H0。这不证明两总体完全相等。\n\nWelch分别保留两组方差，不估计一个共同方差。记a=sA²/nA、b=sB²/nB，则SEW=√(a+b)，tW=(x̄A−x̄B)/SEW，近似自由度ν=(a+b)²/[a²/(nA−1)+b²/(nB−1)]。ν可为小数，不直接套nA+nB−2，也不要先把a、b或ν粗略取整。虚构例乙：A组n=5、均数12分、s=√5分；B组n=10、均数10分、s=√30分，独立及分布条件题设适用，不作等方差假定。①差2分；②a=5/5=1分²，b=30/10=3分²；③SEW=√4=2分，tW=1；④ν=16/(1/4+9/9)=16/1.25=12.8。保留12.8并交由支持小数自由度的软件求临界值或p；本题未提供该p，不能将t=1写成p=0.01。\n\n同一份乙例若为了比较公式而临时套等方差版本，会得到sp²=(4×5+9×30)/13=290/13分²，SEp=√[(290/13)×(1/5+1/10)]=√(87/13)≈2.587分，tp≈0.773，df=13。这是演示公式差异，不是认可乙例的等方差假定。不同n与不同方差的组合会让两种标准误明显不同，不能用同一个t配另一个版本的自由度。即使n相等使两种SE恰好相同，两种df也未必相同。\n\n配对边界用来防止方法误用：每对先按固定顺序求di，再把这些差值当一个样本。配对t的小样本正态模型针对差值总体，不要求两列原始测量各自都正态；各对之间应独立，一对内部允许相关。n为完整配对数，SE=sd/√n、df=n−1。缺一侧的记录不能自行补零。无论哪一种t检验，未拒绝H0都不等于证明等效；拒绝H0也不自动证明因果或实际重要。若要评估“差异小到可接受”，需预先定义等效界值和相应设计，本课尚不教授等效检验。最后报告估计方向、单位、方法、t和df以及条件和限制，不能只报一个显著性标签。",
+  "definition": "两独立样本均数差的t为差/标准误；合并方差法额外要求等方差；Welch分别保留方差并用近似自由度。",
+  "conditions": "先看共同条件，再选方差版本。普通两独立样本t方法需要适当随机抽样或可辩护的抽样模型、组内及组间独立观测；小样本模型通常假定各组总体近似正态。严重离群、强偏态、聚类或选择偏倚不能靠更换Welch公式自动消除。合并方差t额外假定两总体方差相等；Welch不要求这一相等条件。样本s相近不证明总体方差严格相等，n相等也不证明。不要为了得到显著结果来回试方法；实际分析应预先说明方法和依据。",
+  "example": "合并方差不是把两组标准差直接平均。若等方差模型适用，先用各组自由度n−1加权方差：sp²=[(nA−1)sA²+(nB−1)sB²]/(nA+nB−2)，再开根得到sp。均数差标准误SEp=sp√(1/nA+1/nB)，tp=(x̄A−x̄B)/SEp，df=nA+nB−2。虚构例甲：A组n=5、均数12分、s=2分；B组n=5、均数10分、s=2分，题设等方差与正态独立模型适用。①均数差2分；②sp²=(4×4+4×4)/8=4分²；③SEp=√[4×(1/5+1/5)]=√1.6≈1.265分；④tp=2/√1.6≈1.581，df=8。给定双侧α=0.05临界值2.306，则|t|小于临界值，不拒绝H0。这不证明两总体完全相等。\n\nWelch分别保留两组方差，不估计一个共同方差。记a=sA²/nA、b=sB²/nB，则SEW=√(a+b)，tW=(x̄A−x̄B)/SEW，近似自由度ν=(a+b)²/[a²/(nA−1)+b²/(nB−1)]。ν可为小数，不直接套nA+nB−2，也不要先把a、b或ν粗略取整。虚构例乙：A组n=5、均数12分、s=√5分；B组n=10、均数10分、s=√30分，独立及分布条件题设适用，不作等方差假定。①差2分；②a=5/5=1分²，b=30/10=3分²；③SEW=√4=2分，tW=1；④ν=16/(1/4+9/9)=16/1.25=12.8。保留12.8并交由支持小数自由度的软件求临界值或p；本题未提供该p，不能将t=1写成p=0.01。",
+  "misconceptions": [
+    "把标准差直接平均代替加权方差",
+    "Welch仍必须等方差",
+    "把Welch自由度强行写nA+nB−2",
+    "把不拒绝当证明相等或把t当p",
+    "配对要求两原始列都正态而忽略差值"
+  ],
+  "recall": [
+    "闭卷从研究结构解释独立与配对，写出检验方向和单位。",
+    "闭卷写合并方差的权重、SE和自由度，并分步算例甲。",
+    "闭卷写Welch的a、b、SE及近似自由度，分步算例乙。",
+    "闭卷解释未拒绝、显著、配对差值正态及独立性的边界。"
+  ],
+  "rubric": [
+    "结构与单位",
+    "合并方差分步计算",
+    "Welch及自由度",
+    "推断与配对边界"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "换设计和方差重新选择方法，计算SE和df并解释未拒绝的边界；主观待核对。"
+  },
+  "reviewRecord": {
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "独立专业审定0；待统计教师审核模型、方法选择和全部题目",
+      "2027范围仅暂定参考，2028最终考纲未确认",
+      "不覆盖聚类、稳健方法、秩检验及等效检验"
+    ]
+  },
+  "teachingSections": [
+    {
+      "id": "s1",
+      "explanationParagraph": 0
+    },
+    {
+      "id": "s2",
+      "explanationParagraph": 3
+    },
+    {
+      "id": "s3",
+      "explanationParagraph": 4
+    },
+    {
+      "id": "s4",
+      "explanationParagraph": 6
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "353-independent-means-welch-deepening-g1",
+      "description": "按设计辨别独立与配对并核对共同条件",
+      "successCriteria": "能说明等n不创造配对或等方差并写正确单位",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "353-independent-means-welch-deepening-b1",
+        "353-independent-means-welch-deepening-a1",
+        "353-independent-means-welch-deepening-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-g2",
+      "description": "分步计算合并方差、标准误与t",
+      "successCriteria": "能按n−1加权方差再开根并计算t及df",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "353-independent-means-welch-deepening-b2",
+        "353-independent-means-welch-deepening-a2",
+        "353-independent-means-welch-deepening-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-g3",
+      "description": "计算Welch标准误、t与小数自由度",
+      "successCriteria": "能分别代入两组方差并求SE、t和近似df",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "353-independent-means-welch-deepening-b3",
+        "353-independent-means-welch-deepening-a3",
+        "353-independent-means-welch-deepening-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-g4",
+      "description": "解释决策和配对差值模型的适用边界",
+      "successCriteria": "能纠正不拒绝即相等、Welch万能及t=p三类误读",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "353-independent-means-welch-deepening-b4",
+        "353-independent-means-welch-deepening-a4",
+        "353-independent-means-welch-deepening-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "basicQuestions": [
+    {
+      "id": "353-independent-means-welch-deepening-b1",
+      "type": "single",
+      "stem": "两组各8人，均为不同且无匹配关系的人。哪项判断正确？",
+      "options": [
+        "人数相等就自动构成8对",
+        "应按两独立样本设计核对条件，等n不能证明等方差",
+        "按均数接近程度把人凑成对"
+      ],
+      "answer": 1,
+      "explanation": "设计中的对应关系决定配对，不由样本量决定；总体等方差另需依据。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-b2",
+      "type": "single",
+      "stem": "等方差合并法中，需要合并的量和权重是？",
+      "options": [
+        "标准差按n加权",
+        "方差按各自n−1加权，再除以总自由度",
+        "两组均数简单相加"
+      ],
+      "answer": 1,
+      "explanation": "sp²估计共同方差，以每组方差的自由度n−1加权；之后开根得到sp。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-b3",
+      "type": "single",
+      "stem": "Welch法中a=sA²/nA、b=sB²/nB，均数差标准误为？",
+      "options": [
+        "a+b",
+        "√(a+b)",
+        "(sA+sB)/2"
+      ],
+      "answer": 1,
+      "explanation": "a、b为分²，开根后为分；a+b本身是方差估计，不是标准误。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-b4",
+      "type": "single",
+      "stem": "小样本配对t的正态模型主要针对什么？",
+      "options": [
+        "两列原始测量都必须正态，差值无所谓",
+        "成对差值总体；各对间应独立",
+        "每对内两次测量必须独立"
+      ],
+      "answer": 1,
+      "explanation": "分析对象是差值；一对内可相关，不把两原始列都正态作为必要条件。",
+      "difficulty": "foundation"
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "353-independent-means-welch-deepening-a1",
+      "type": "subjective",
+      "stem": "虚构：把同一5人前后测量硬拆成两独立组，再因两组n相同而选合并方差t。指出两处错误并说配对应检查哪个分布。",
+      "answer": "同一人的前后数据有关联，应固定方向求5个差值；n相等不证明总体等方差；小样本配对t检查差值总体的正态条件与各对之间独立性，不要求两列原始值都正态。",
+      "rubric": [
+        "识别同一人前后应配对",
+        "否定相同n证明等方差",
+        "明确差值正态和各对独立"
+      ],
+      "explanation": "三项各为独立核对点；只说“改Welch”未纠正设计。可用文字说明分布，不要求符号。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-a2",
+      "type": "number",
+      "stem": "例甲条件成立：nA=nB=5，均数12和10分，sA=sB=2分。求合并方差t，保留三位小数。",
+      "answer": 1.5811388300841895,
+      "unit": "无量纲",
+      "tolerance": 0.001,
+      "explanation": "sp²=4分²，SE=√1.6分，t=2/√1.6≈1.581，df=8；容差0.001接收三位小数。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-a3",
+      "type": "number",
+      "stem": "例乙条件成立：nA=5、nB=10，均数12和10分，sA²=5、sB²=30分²，用Welch。求近似自由度，不取整。",
+      "answer": 12.8,
+      "unit": "无量纲",
+      "tolerance": 1e-8,
+      "explanation": "a=1，b=3，ν=16/[1/4+9/9]=12.8；SE=2分、t=1，不能套13。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-a4",
+      "type": "subjective",
+      "stem": "例甲t≈1.581、df8；题给双侧α=0.05临界值2.306。给出决策，并纠正“已证明两总体相等，且A干预没效果”。",
+      "answer": "|t|<2.306，不拒绝均数相等的H0；证据不足以拒绝不等于证明相等或等效，也不证明干预无效；因果判断还需设计、混杂和不确定性等依据。",
+      "rubric": [
+        "按给定临界值不拒绝H0",
+        "不把不拒绝解释为证明相等",
+        "不据此宣称干预因果或无效"
+      ],
+      "explanation": "允许“未发现足够差异证据”；不接受“接受H0为真”。不要求未提供的p值。",
+      "difficulty": "application"
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "353-independent-means-welch-deepening-d1",
+      "type": "single",
+      "stem": "隔日：两独立组都为6人，s分别为2和8分。可仅凭n相同断言必须用合并方差法吗？",
+      "options": [
+        "可以，等n就是等方差",
+        "不可以；需核对方差和设计，Welch无需总体等方差",
+        "必须改成配对t"
+      ],
+      "answer": 1,
+      "explanation": "等n没有确定总体方差的逻辑；两组各自数据结构未改变，不能因此配对。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-d2",
+      "type": "number",
+      "stem": "隔日虚构：等方差正态独立模型成立，nA=4、nB=6，两组样本s都为3分。求合并方差sp²的数值。",
+      "answer": 9,
+      "unit": "分²",
+      "tolerance": 1e-8,
+      "explanation": "sp²=(3×9+5×9)/(4+6−2)=72/8=9分²；sp才是3分。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-d3",
+      "type": "number",
+      "stem": "隔日新数据：两独立组条件适用Welch，nA=4、nB=9，sA²=4、sB²=9分²，均数分别15、12分。求t，保留三位小数。",
+      "answer": 2.1213203435596424,
+      "unit": "无量纲",
+      "tolerance": 0.001,
+      "explanation": "a=b=1分²，SE=√2分，t=3/√2≈2.121；df=4/(1/3+1/8)=96/11≈8.727，并非11。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-independent-means-welch-deepening-d4",
+      "type": "subjective",
+      "stem": "隔日：有人说“配对t要两列原始值都正态；Welch不要求等方差所以聚类和离群也都不用管；t=1就是p=0.01”。逐条纠正。",
+      "answer": "配对小样本模型看差值总体正态，并检查各对独立；Welch放宽等方差要求，但仍需核对独立性、抽样、分布及离群，不能自动处理聚类；t为统计量，p还依赖自由度及单/双侧等信息。",
+      "rubric": [
+        "差值正态与各对独立",
+        "Welch未免除设计及分布核对",
+        "t不等于p且需df和方向"
+      ],
+      "explanation": "每条独立核对；只写“都错”不足。接受合理同义表述，不凭关键字自动专业评分。",
+      "difficulty": "delayed-transfer"
+    }
+  ]
+}

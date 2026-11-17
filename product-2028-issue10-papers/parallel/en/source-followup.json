@@ -1,0 +1,492 @@
+{
+  "date": "2026-11-17",
+  "scope": "English vocabulary 10 queued choice items; isolated evidence for root merge only",
+  "baselineRemainingCount": 59,
+  "baselineRemainingIdsSHA256": "c994d6689f3d69e22f71c76459a04c02e4e01ddd5a16ad6988a811eba2b203f6",
+  "course": "en-vocabulary-retrieval-foundation",
+  "courseVersion": "0.1-q0fix1",
+  "courseSHA256": "bcfef867a698c03170e989d49b9df488a835b6c7b9f8e2bb152e624e2d939c56",
+  "questionHashMethod": "SHA256(JSON.stringify(originalQuestion)) in current key order",
+  "sources": [
+    {
+      "id": "MW-STUDY",
+      "publisher": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/study",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Verb body lines129–174: studied/studying and learning/studying a subject; no automatically collected news examples used.",
+      "limits": "词义与studied词形，不证明整句或学习成效。"
+    },
+    {
+      "id": "MW-NOTE",
+      "publisher": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/note",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Noun body lines114–157; editorial usage examples224–225 show note/notes.",
+      "limits": "本课使用书面简短记录义；非全部词义。"
+    },
+    {
+      "id": "MW-READ",
+      "publisher": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/read",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Verb body44–81: receiving meaning from writing and looking over contents; inflection36–38.",
+      "limits": "词义不单独裁定原创整句翻译。"
+    },
+    {
+      "id": "BC-PRESENT",
+      "publisher": "British Council LearnEnglish Teens",
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/present-simple",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Grammar body37–79, especially third-person64–70 and other forms.",
+      "limits": "结合MW词条独立推导给定句；未称本文直接给出study→studies。"
+    },
+    {
+      "id": "BC-PAST",
+      "publisher": "British Council LearnEnglish Teens",
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/past-simple-regular-verbs",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Grammar body28–73, especially consonant+y→ied62–64.",
+      "limits": "只支持本题study词形，不把重读/双写规则扩大使用。"
+    },
+    {
+      "id": "BC-COUNT",
+      "publisher": "British Council LearnEnglish",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/count-nouns",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Main teaching body6–19,30–36,86–92: plural >one, usual-s, numerals with plural nouns.",
+      "limits": "不是note所有义项可数性的保证；本题note义由词条限定。"
+    },
+    {
+      "id": "BC-UNCOUNT",
+      "publisher": "British Council LearnEnglish",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Main teaching body7–16 and39–46: no indefinite a/an with uncount nouns; piece/item constructions.",
+      "limits": "本页未列evidence，须和Collins具体词条组合，未用评论作权威依据。"
+    },
+    {
+      "id": "COLLINS-EVIDENCE",
+      "publisher": "Collins COBUILD / HarperCollins",
+      "url": "https://www.collinsdictionary.com/dictionary/english/evidence",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "COBUILD body51–69 explicitly labels general evidence sense uncountable; British definition99–109 and American definition179–208 distinguish support/indication/proof.",
+      "limits": "只据一般支持依据义，不否认特殊可数/古旧义；单个成功结果不可推断人人有效是本题逻辑边界，不是词典实证结论。"
+    },
+    {
+      "id": "CORNELL-RETRIEVAL",
+      "publisher": "Cornell University Learning Strategies Center",
+      "url": "https://lsc.cornell.edu/how-to-study/studying-for-and-taking-exams/effective-study-strategies/",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Main body70–74 defines retrieval as actively recalling from memory onto blank paper and identifying gaps;79–81 spaced practice also read.",
+      "limits": "支持主动提取策略；不证明本APP按钮、原始事件或特定复习间隔的效果。"
+    },
+    {
+      "id": "IPA-PARTIAL",
+      "publisher": "International Phonetic Association",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "accessed": "2026-11-17",
+      "published": null,
+      "actualRead": "Official chart page43–68 and official PDF page1 text labels Primary stress/Long; PDF text symbols were corrupted. Screenshot requested and PNG opened but no usable symbol image became available in this tool result.",
+      "limits": "a2符号与标签配对仍留待可视核对；不将仅有标签文字当作完整图表核验。"
+    }
+  ],
+  "failures": [
+    {
+      "target": "Cambridge study/note/evidence/phonetics",
+      "error": "403 Forbidden",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "BC LearnEnglish present-simple two paths",
+      "error": "400 Timeout fetching",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "BC LearnEnglish /grammar/a1-a2-grammar/past-simple",
+      "error": "404",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "Oxford evidence",
+      "error": "403",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "Oxford pronunciation help",
+      "error": "UnexpectedStatusCode",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "TeachingEnglish phonemic-symbols/phonemic-chart",
+      "error": "not accessible",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "Longman evidence",
+      "error": "502",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "Britannica dictionary evidence",
+      "error": "non-retryable inaccessible",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "Cambridge grammar evidence",
+      "error": "not accessible",
+      "date": "2026-11-17"
+    },
+    {
+      "target": "Official IPA PNG local download",
+      "error": "Windows socket access denied; no escalation attempted",
+      "date": "2026-11-17"
+    }
+  ],
+  "rows": [
+    {
+      "id": "en-vocabulary-retrieval-foundation-b1",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-b1",
+        "type": "single",
+        "stem": "在I study English.中，study最合适的本课意思是？",
+        "options": [
+          "学习",
+          "笔记",
+          "依据"
+        ],
+        "answer": 0,
+        "explanation": "句中study位于I后作动词，表示学习，English是所学对象；不能把另外两个名词的意义移过来。",
+        "difficulty": "foundation",
+        "errorCauseHint": "把眼熟当会主动写出。"
+      },
+      "questionSHA256": "cd0061600f8a3355196cecee382703718b456fa2e613d6e5aae83f2280e77c95",
+      "independentAnswer": 0,
+      "independentAnswerText": "学习",
+      "sourceIds": [
+        "MW-STUDY"
+      ],
+      "supports": "study作学习某学科的动词；在原创I study English语境中选学习。",
+      "status": "source-supported-contextual-application",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-b2",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-b2",
+        "type": "single",
+        "stem": "She ___ English every day.给定study原形，通常填哪一种？",
+        "options": [
+          "study",
+          "studies",
+          "studying"
+        ],
+        "answer": 1,
+        "explanation": "本课一般现在时肯定句中She为第三人称单数，study变studies；studying单独不构成这里的限定谓语。",
+        "difficulty": "foundation",
+        "errorCauseHint": "把IPA符号当字母或把所有s当复数。"
+      },
+      "questionSHA256": "8e1602c92566d699144428d7985ef565904e22126a2e334241ecd875b8d81137",
+      "independentAnswer": 1,
+      "independentAnswerText": "studies",
+      "sourceIds": [
+        "BC-PRESENT",
+        "MW-STUDY"
+      ],
+      "supports": "She一般现在时肯定句需第三人称单数形式；正确词形studies。",
+      "status": "source-supported-grammar-application",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-b3",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-b3",
+        "type": "single",
+        "stem": "This result is evidence.对evidence的解释哪项适当？",
+        "options": [
+          "一条笔记的复数",
+          "已经绝对证明所有人有效",
+          "这个结果提供依据，本课该义通常不可数"
+        ],
+        "answer": 2,
+        "explanation": "evidence指支持说法的事实或观察，一份结果不保证普遍结论；本课一般意义通常不可数，与notes无关。",
+        "difficulty": "foundation",
+        "errorCauseHint": "脱离语境照搬唯一词义或写an evidence。"
+      },
+      "questionSHA256": "b3a4ee26abf20cfef24b56d77387d08cc581f6654ea462cc27d7b6616f22a0b1",
+      "independentAnswer": 2,
+      "independentAnswerText": "这个结果提供依据，本课该义通常不可数",
+      "sourceIds": [
+        "COLLINS-EVIDENCE",
+        "BC-UNCOUNT"
+      ],
+      "supports": "一般依据义evidence不可数；一个结果是支持，题设没有普遍效果证据。",
+      "status": "source-supported-with-original-inference-boundary",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-b4",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-b4",
+        "type": "single",
+        "stem": "哪种做法真正产生主动回忆证据？",
+        "options": [
+          "盖住英文，从中文独立写出再核对",
+          "反复看范句后点完成",
+          "只把词标成绿色"
+        ],
+        "answer": 0,
+        "explanation": "主动提取须在答案遮蔽时实际生成，原文及核对漏项才是证据；颜色和完成按钮不能替代答题。",
+        "difficulty": "foundation",
+        "errorCauseHint": "没遮答案就声称闭卷掌握。"
+      },
+      "questionSHA256": "41b980ec88af87b4dffb193a16aa19697ad3d68044f339e76332bc1a3cf728bc",
+      "independentAnswer": 0,
+      "independentAnswerText": "盖住英文，从中文独立写出再核对",
+      "sourceIds": [
+        "CORNELL-RETRIEVAL"
+      ],
+      "supports": "主动回忆要求从记忆生成；盖住答案独立写比只看范句/改颜色更符合该定义。",
+      "status": "teaching-strategy-not-platform-efficacy-proof",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-a1",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-a1",
+        "type": "single",
+        "stem": "Read the note.整句最合适的意思是？",
+        "options": [
+          "这个结果是依据",
+          "读这条笔记",
+          "她每天学习"
+        ],
+        "answer": 1,
+        "explanation": "Read在此是阅读指令，the note是阅读对象；不能把其他词的零散词义拼成并不存在的句意。",
+        "difficulty": "application",
+        "errorCauseHint": "把眼熟当会主动写出。"
+      },
+      "questionSHA256": "735ae1c3e9d3a1d8b2256264ec49abaefcc4f9ca11d52e92fbc3fbce5f4cc83d",
+      "independentAnswer": 1,
+      "independentAnswerText": "读这条笔记",
+      "sourceIds": [
+        "MW-READ",
+        "MW-NOTE"
+      ],
+      "supports": "read是阅读动作、note是书面记录；原创命令句译为读这条笔记。",
+      "status": "source-supported-original-context",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-a2",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-a2",
+        "type": "single",
+        "stem": "词典study /ˈstʌd.i/与read /ɹiːd/中，两个符号的解释哪项正确？",
+        "options": [
+          "ˈ是字母，ː表示复数",
+          "两者都表示过去时",
+          "ˈ标重音位置，ː标较长元音"
+        ],
+        "answer": 2,
+        "explanation": "音标符号指导发音，重音标在音节前，长音号属于元音发音信息；它们不承担时态和复数功能。",
+        "difficulty": "application",
+        "errorCauseHint": "把IPA符号当字母或把所有s当复数。"
+      },
+      "questionSHA256": "52e9932ba9e66dce64943be5cdb38a06580302b387fda08a889321eaf6066f59",
+      "independentAnswer": 2,
+      "independentAnswerText": "ˈ标重音位置，ː标较长元音",
+      "sourceIds": [
+        "IPA-PARTIAL"
+      ],
+      "supports": "独立答案为重音位置/较长元音；官方图表仅取得标签文字，符号配对视觉证据未完成。",
+      "status": "partial-source-pending-symbol-verification",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": false
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-a3",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-a3",
+        "type": "single",
+        "stem": "哪句在本课给定词义下最合适？",
+        "options": [
+          "Two notes are short.",
+          "I studies English.",
+          "This result is an evidence."
+        ],
+        "answer": 0,
+        "explanation": "notes为可数名词复数，Two与are对应；I后不用studies，本课一般意义的evidence不机械加an。",
+        "difficulty": "application",
+        "errorCauseHint": "脱离语境照搬唯一词义或写an evidence。"
+      },
+      "questionSHA256": "610f7d0929b81f451d2420f8770163a0f3ad55d36ff7f51eb70f2e7b0081eb03",
+      "independentAnswer": 0,
+      "independentAnswerText": "Two notes are short.",
+      "sourceIds": [
+        "MW-NOTE",
+        "BC-COUNT",
+        "BC-PRESENT",
+        "COLLINS-EVIDENCE",
+        "BC-UNCOUNT"
+      ],
+      "supports": "Two notes为复数名词；I studies人称不符；一般evidence不加an。",
+      "status": "source-supported-multiple-subclaims",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d1",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-d1",
+        "type": "single",
+        "stem": "隔日新句：They read two notes.这里notes表示什么？",
+        "options": [
+          "第三人称动词",
+          "两条笔记",
+          "学习的过去式"
+        ],
+        "answer": 1,
+        "explanation": "two明确修饰复数名词notes；read才是动作。用新句区分词类，不能靠词尾s一律判成动词。",
+        "difficulty": "delayed",
+        "errorCauseHint": "把眼熟当会主动写出。"
+      },
+      "questionSHA256": "1279817a9563cf475c4d594bf1249bcf5da4ccd4158d0001d547897fba5eaafb",
+      "independentAnswer": 1,
+      "independentAnswerText": "两条笔记",
+      "sourceIds": [
+        "MW-NOTE",
+        "BC-COUNT"
+      ],
+      "supports": "two限定复数名词notes，意思两条笔记；不能按s一律判为动词。",
+      "status": "source-supported-original-context",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d2",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-d2",
+        "type": "single",
+        "stem": "隔日不看表：study的过去形式是哪项？",
+        "options": [
+          "studys",
+          "studyed",
+          "studied"
+        ],
+        "answer": 2,
+        "explanation": "study以辅音字母+y结尾，本课给定过去形式studied；须结合已教过去时，不能随意拼studyed。",
+        "difficulty": "delayed",
+        "errorCauseHint": "把IPA符号当字母或把所有s当复数。"
+      },
+      "questionSHA256": "1245a28be77015f1900ea87a3067e5c54d128da07d963cb09d9dea76514fb652",
+      "independentAnswer": 2,
+      "independentAnswerText": "studied",
+      "sourceIds": [
+        "BC-PAST",
+        "MW-STUDY"
+      ],
+      "supports": "study辅音+y过去形为studied，MW直接列studied。",
+      "status": "source-supported-direct-inflection",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation-d3",
+      "course": "en-vocabulary-retrieval-foundation",
+      "version": "0.1-q0fix1",
+      "originalQuestion": {
+        "id": "en-vocabulary-retrieval-foundation-d3",
+        "type": "single",
+        "stem": "一位学习者只记住一例成功结果。哪种英文表达最符合本课证据边界？",
+        "options": [
+          "This result is evidence.但不因此证明所有人有效",
+          "This result is an evidence.且证明所有人有效",
+          "evidence只能指笔记"
+        ],
+        "answer": 0,
+        "explanation": "evidence可提供支持，但证据范围受对象和情境限制；可数性及普遍性都不能由单个结果随意扩展。",
+        "difficulty": "delayed",
+        "errorCauseHint": "脱离语境照搬唯一词义或写an evidence。"
+      },
+      "questionSHA256": "0882b5181bc18cdf2e951b220d31b2a67abc8c793a9f42d4f99eddf76b47bbe5",
+      "independentAnswer": 0,
+      "independentAnswerText": "This result is evidence.但不因此证明所有人有效",
+      "sourceIds": [
+        "COLLINS-EVIDENCE",
+        "BC-UNCOUNT"
+      ],
+      "supports": "一般evidence是依据且不可数；单个成功观察不蕴涵所有对象有效。",
+      "status": "source-supported-with-original-inference-boundary",
+      "wholeQuestionProfessionalApproved": false,
+      "expertApproved": false,
+      "limits": "原创题干/选项由本轮内部逐项推理核对，外部来源只锚定指定子主张；不是独立专家审定、2028范围或长期掌握证据。",
+      "eligibleForRootQueueReconciliation": true
+    }
+  ],
+  "eligibleForRootQueueReconciliation": [
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3"
+  ],
+  "stillPending": [
+    "en-vocabulary-retrieval-foundation-a2"
+  ],
+  "sharedQueueModified": false,
+  "independentProfessionalApprovals": 0
+}

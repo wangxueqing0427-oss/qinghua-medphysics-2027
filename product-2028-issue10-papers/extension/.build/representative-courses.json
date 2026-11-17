@@ -25706,6 +25706,1017 @@
           "difficulty": "delayed-transfer"
         }
       ]
+    },
+    {
+      "id": "en-opinion-reason-example-foundation",
+      "version": "0.1",
+      "subject": "en",
+      "title": "议论写作起步：观点、理由、例证与回应异议",
+      "writtenAt": "2026-11-17",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-foundation-exam-spec-pending",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "全部情境、示范与题目为原创虚构教学材料，不是真题或互联网范文改写。",
+      "mapping": [
+        "en-plan-9"
+      ],
+      "prerequisites": [
+        "en-main-subordinate-clauses",
+        "en-cloze-cohesion"
+      ],
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/writing/b2/opinion-essay"
+      ],
+      "sourceEvidence": [
+        {
+          "publisher": "British Council LearnEnglish",
+          "title": "An opinion essay",
+          "accessed": "2026-11-17",
+          "actualRead": "根代理本轮实际读取main lines17–32；本子任务继承该实际来源记录，没有另称独立访问。",
+          "claims": [
+            "先回应题目并列提纲",
+            "理解两方并用连词组织",
+            "结尾不加全新观点"
+          ],
+          "limits": "教学指导，不是2028官方规则；发布日期未核实；未复制范文。"
+        }
+      ],
+      "explanation": "议论是对一个问题表达判断，并解释为什么。本课从日常小问题开始：Should a study room have a quiet hour?（自习室应设一段安静时间吗？）先看任务是在问是否赞成，不能写成预约房间的邮件。opinion是观点，reason是理由，example是例子，objection是不同意见。观点回答“你主张什么”，理由回答“为什么值得这样做”，例子把理由落到具体情境。它们有不同工作，重复三遍I agree并没有给出三个理由。本课是英语写作基础教学，不规定2028考试题型、字数或固定段数。\n\n先用能理解的短句表达观点：I think a quiet hour is useful. 意思是我认为安静时间有用。I think后面接一个完整判断a quiet hour is useful。也可写A study room should have a quiet hour. should在这里表达建议，不是说现实中已经有这条规定。useful是有用的，focus是专心，noise是噪声。理由可以写：Students can focus better in a quiet room.（学生在安静房间里可以更专心。）这说明安静时间的用途；I like blue chairs.（我喜欢蓝椅子。）与这个决定的关系没有交代，不能直接当作有效理由。\n\n再把理由具体化：For example, a student can read a difficult page without loud conversations nearby.（例如，一个学生可以在附近没有高声交谈时阅读难懂的一页。）for example表示下面是例子，不表示一定有科学调查。这里是设想情境，不是发生率证据；不要编造“研究证明所有学生成绩都提高50%”。一个例子帮助理解某个机制，不能证明对所有人永远有效。先写理由，再问：读者能想象它怎样发生吗？能写出谁、做什么、在何种情境，就比空写It is good更具体。\n\n回应异议不是嘲笑别人。有人需要讨论，可以写：Some students need to discuss their work.（一些学生需要讨论功课。）先准确承认这个需要，再提出有限建议：They can use another room during the quiet hour.（在安静时间，他们可以使用另一间房。）但如果题设明确没有另一间房，就不能当作可用事实；可改为安排不同时间讨论。Another room是另一间房，during是“在……期间”。回应要针对讨论需要，不能换成“蓝椅子很好”。Although some students need to talk, a short quiet hour can help readers.（虽然有些学生需要交谈，一段短的安静时间能帮助阅读者。）although引出让步，本句不再用but重复连接；也可拆成两个短句，用However（然而）表转折。\n\n分步例题：题设为“某自习室只有一个房间，讨论和安静阅读都有人需要。你是否赞成每天安排一段安静时间？说明理由并回应一个异议。”①圈出only one room，不能凭空添加讨论室。②表态赞成短时段，而非全天禁声。③理由是帮助专心阅读。④例子明确为设想，不伪造统计。⑤承认讨论需要，建议在其他时段讨论。⑥结尾回到平衡安排，不突然引入收费政策。原创示范：I think a short quiet hour is useful. Students can focus on reading. For example, a student can read a difficult page without loud conversations nearby. Some students need to discuss their work. They can talk at other times. A short quiet hour can support both needs. 这不是唯一答案；也可以反对固定安静时间，只要理由、例子与回应相符，且没有违反题设。\n\n独立写前先列四格：我的观点—支持理由—具体例子—对方顾虑和回应。写后检查每句是否服务于问题，连词是否符合关系，例子是否被当作万能证明，结尾是否只收束已有内容。结尾可重述中心，但不必逐字重复开头；不应只在结尾首次提出一项需论证的新主张。初学者可以先写几句短句再分段，不必把本课示例的句数当作官方模板。主观题保留原回答，给参考要点和接受边界；不按关键词或参考答案自动计算可靠写作分。延迟练习换到新日常场景，检验能否独立组织理由，而不是默写例文。",
+      "definition": "议论通过观点、相关理由和具体例子解释判断，并可回应不同意见。",
+      "conditions": "零基础短议论入门；2028题型、字数、评分细则暂未确认，不推定英语一固定题型。",
+      "example": "分步例题：题设为“某自习室只有一个房间，讨论和安静阅读都有人需要。你是否赞成每天安排一段安静时间？说明理由并回应一个异议。”①圈出only one room，不能凭空添加讨论室。②表态赞成短时段，而非全天禁声。③理由是帮助专心阅读。④例子明确为设想，不伪造统计。⑤承认讨论需要，建议在其他时段讨论。⑥结尾回到平衡安排，不突然引入收费政策。原创示范：I think a short quiet hour is useful. Students can focus on reading. For example, a student can read a difficult page without loud conversations nearby. Some students need to discuss their work. They can talk at other times. A short quiet hour can support both needs. 这不是唯一答案；也可以反对固定安静时间，只要理由、例子与回应相符，且没有违反题设。",
+      "misconceptions": [
+        "重复观点冒充理由",
+        "设想例子冒充统计证明",
+        "忽略题设凭空增加资源",
+        "回应异议只说对方错",
+        "结尾突然增加新主张"
+      ],
+      "recall": [
+        "闭卷区分观点与理由并各写一句。",
+        "闭卷写具体例子并说明不能据此证明什么。",
+        "闭卷说明如何准确承认和回应顾虑。",
+        "闭卷列短议论信息清单和结尾检查项。"
+      ],
+      "rubric": [
+        "对题观点",
+        "相关理由与具体例子",
+        "回应异议与事实边界",
+        "组织清楚及参考自评"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换日常议论主题，独立列提纲和短写，不默写原例。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "待英语教师独立审核教学梯度、语法及接受边界",
+          "非完整议论文课程或官方评分器"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 1
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 2
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 3
+        },
+        {
+          "id": "s5",
+          "explanationParagraph": 4
+        },
+        {
+          "id": "s6",
+          "explanationParagraph": 5
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-opinion-reason-example-foundation-g1",
+          "description": "识别观点与理由",
+          "successCriteria": "能选出对题的观点，并写一个相关理由",
+          "teachingSectionIds": [
+            "s1",
+            "s2"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-opinion-reason-example-foundation-b1",
+            "en-opinion-reason-example-foundation-b2",
+            "en-opinion-reason-example-foundation-b4",
+            "en-opinion-reason-example-foundation-a1",
+            "en-opinion-reason-example-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-opinion-reason-example-foundation-g2",
+          "description": "用具体例子支持理由",
+          "successCriteria": "写一个具体设想例子并说明其证据边界",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-opinion-reason-example-foundation-b3",
+            "en-opinion-reason-example-foundation-a2",
+            "en-opinion-reason-example-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-opinion-reason-example-foundation-g3",
+          "description": "回应不同意见",
+          "successCriteria": "准确指出顾虑并提出不违反题设的回应",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-opinion-reason-example-foundation-b4",
+            "en-opinion-reason-example-foundation-a3",
+            "en-opinion-reason-example-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-opinion-reason-example-foundation-g4",
+          "description": "独立组织短议论",
+          "successCriteria": "完成观点、理由、例子、回应与收束，并检查新主张",
+          "teachingSectionIds": [
+            "s5",
+            "s6"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-opinion-reason-example-foundation-b4",
+            "en-opinion-reason-example-foundation-a4",
+            "en-opinion-reason-example-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "问题是自习室是否应设安静时间。哪句直接表达观点？",
+          "options": [
+            "I think a quiet hour is useful.",
+            "The chairs are blue.",
+            "Please send me the schedule."
+          ],
+          "answer": 0,
+          "explanation": "A回答是否支持安静时间；B只有无关描述；C是请求安排，没有回答议论问题。",
+          "id": "en-opinion-reason-example-foundation-b1",
+          "difficulty": "foundation"
+        },
+        {
+          "type": "single",
+          "stem": "哪一句主要充当“理由”，而不是具体例子或重申观点？",
+          "options": [
+            "For example, Lin reads a difficult page quietly.",
+            "Students can focus better in a quiet room.",
+            "I support a quiet hour."
+          ],
+          "answer": 1,
+          "explanation": "B说明支持的原因；A以具体阅读情境举例；C只是表态。",
+          "id": "en-opinion-reason-example-foundation-b2",
+          "difficulty": "foundation"
+        },
+        {
+          "type": "single",
+          "stem": "一个设想的阅读例子能支持哪项判断？",
+          "options": [
+            "所有学生成绩必定提升50%。",
+            "永远禁止讨论才有效。",
+            "它说明安静如何可能帮助阅读，但不证明人人都受益。"
+          ],
+          "answer": 2,
+          "explanation": "设想例子帮助理解理由，不提供总体效果或必然性的统计证据。",
+          "id": "en-opinion-reason-example-foundation-b3",
+          "difficulty": "foundation"
+        },
+        {
+          "type": "subjective",
+          "stem": "闭卷：用中文区分观点、理由、例子、异议回应，并指出回应异议为什么不能只重复观点。",
+          "answer": "观点是主张，理由解释为什么，例子具体说明理由；异议回应先理解顾虑再作有针对性的解释或调整。",
+          "rubric": [
+            "四项功能区分清楚",
+            "说明回应须处理对方顾虑"
+          ],
+          "explanation": "接受日常同义表述；不要求背英文术语。只列四个英文词而没有功能说明，不算完成。",
+          "id": "en-opinion-reason-example-foundation-b4",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "自习室只有一间房。赞成短时间安静阅读，独立写一个观点句和一个理由句。",
+          "answer": "I think a short quiet hour is useful. Students can focus on reading.",
+          "rubric": [
+            "清楚支持短时安静阅读",
+            "理由与阅读专心相关"
+          ],
+          "explanation": "接受其他合理理由及同义英文；不强制I think。若写全天禁声则改变限定，需要修正。",
+          "id": "en-opinion-reason-example-foundation-a1",
+          "difficulty": "application"
+        },
+        {
+          "type": "subjective",
+          "stem": "为“安静有助专心阅读”写一个英文具体例子。必须作为设想，不编统计或研究。",
+          "answer": "For example, a student can read a difficult page without loud conversations nearby.",
+          "rubric": [
+            "有具体人物或活动和情境",
+            "支持专心阅读",
+            "不伪造实证事实"
+          ],
+          "explanation": "接受其他日常阅读情境；不要求原句。只说It is good缺具体性；虚构研究数字须删改。",
+          "id": "en-opinion-reason-example-foundation-a2",
+          "difficulty": "application"
+        },
+        {
+          "type": "subjective",
+          "stem": "同一自习室只有一间房。有人需要讨论。用两句英文承认需要并提出与条件相容的回应。",
+          "answer": "Some students need to discuss their work. They can talk at other times.",
+          "rubric": [
+            "准确承认讨论需要",
+            "提出其他时段等相容回应"
+          ],
+          "explanation": "接受协商短时段或轮流安排；不能断言有另一间房。回应可反对固定安静时间，但应解释怎样兼顾阅读。",
+          "id": "en-opinion-reason-example-foundation-a3",
+          "difficulty": "application"
+        },
+        {
+          "type": "single",
+          "stem": "一篇讨论安静时间的短文已论述阅读和讨论。哪个结尾最合适？",
+          "options": [
+            "The room should also charge a new fee, for reasons not discussed here.",
+            "A short quiet hour can balance reading and discussion.",
+            "For example means every person must agree."
+          ],
+          "answer": 1,
+          "explanation": "B收束已有平衡论点；A突然引入未论证收费主张；C错误理解举例且未收束内容。",
+          "id": "en-opinion-reason-example-foundation-a4",
+          "difficulty": "application"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "subjective",
+          "stem": "隔日新题：社区读书会是否应在开始前留五分钟自由选书？写出英文观点及相关理由，可以支持或反对。",
+          "answer": "I support five minutes of free choice. Readers can find books they enjoy.",
+          "rubric": [
+            "明确回应是否留选书时间",
+            "理由与选书安排相连"
+          ],
+          "explanation": "接受反对意见，例如活动短而需保留讨论时间。立场不与参考相同不扣错；语言意思不明须人工反馈。",
+          "id": "en-opinion-reason-example-foundation-d1",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：为“自由选书能照顾兴趣差异”选择最具体且不夸大的例子。",
+          "options": [
+            "Everyone always learns twice as fast.",
+            "Choice is choice.",
+            "For example, one reader can choose a history book and another can choose a story."
+          ],
+          "answer": 2,
+          "explanation": "C具体展示不同兴趣；A无依据夸大效果；B同义重复，没有情境。",
+          "id": "en-opinion-reason-example-foundation-d2",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日：有人认为五分钟选书会占用讨论时间。用中文列一个回应，再用简单英文表达，不编活动实际总时长。",
+          "answer": "可缩短选书时间。We can make the choice time shorter.",
+          "rubric": [
+            "回应讨论时间被占用的顾虑",
+            "提出有条件的安排",
+            "不捏造活动时长"
+          ],
+          "explanation": "接受反对自由选书并解释理由，或允许事先选择。不是只写I disagree；中文思路清楚但英文未完成时分别反馈。",
+          "id": "en-opinion-reason-example-foundation-d3",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日独立短写：读书会只有一个房间，是否应先留一段安静阅读时间再讨论？写英文短文，含观点、理由、设想例子、一个顾虑和回应、收束句。立场自选，不规定官方字数。",
+          "answer": "I support a short reading time before discussion. It can help readers prepare. For example, a reader can look at a difficult page again. Some people want to talk at once. They can write down their ideas first. A short reading time can help the discussion.",
+          "rubric": [
+            "明确回应先阅读再讨论",
+            "相关理由和具体设想例子",
+            "准确顾虑及针对性回应",
+            "结尾收束且不编统计或房间"
+          ],
+          "explanation": "接受反对或有条件支持，也接受不同句式和段落。参考只是一种组织；错误影响理解、漏项或自相矛盾需具体指出。不得以关键词自动判总分。",
+          "id": "en-opinion-reason-example-foundation-d4",
+          "difficulty": "delayed-transfer"
+        }
+      ]
+    },
+    {
+      "id": "pol-money-price-value-foundation",
+      "version": "0.1-parallel-pol-1",
+      "subject": "pol",
+      "title": "货币与价格入门：共同等价物、标价和交换",
+      "writtenAt": "2026-11-17",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-foundation-exam-spec-pending",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创教学情境与题目；原始理论用于概念核对，不冒官方考纲或真题。",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-commodity-value-foundation"
+      ],
+      "sources": [
+        "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "https://www.qstheory.cn/dukan/hqwg/2024-05/29/c_1130153464.htm"
+      ],
+      "sourceEvidence": [
+        {
+          "title": "资本论第一卷第三章：货币或商品流通",
+          "author": "卡尔·马克思",
+          "publisher": "中文马克思主义文库原始理论中文文本",
+          "accessed": "2026-11-17",
+          "actualRead": "正文价值尺度与流通手段，网页行16–40、44–59",
+          "limits": "原始理论公开转录，非官方考纲；金为货币商品的明确模型前提，不外推现代信用货币制度。"
+        },
+        {
+          "title": "坚持和发展劳动价值论",
+          "authors": "杨静、刘影",
+          "publisher": "求是网/红旗文稿2024/10",
+          "published": "2024-05-29",
+          "accessed": "2026-11-17",
+          "actualRead": "正文第一节行15–21货币、价值量、价值规律",
+          "limits": "只支持基础概念；不涉及后文数字经济争议，不构成2028考试范围。"
+        }
+      ],
+      "explanation": "先接上上一课：商品的用途与价值是两个方面，价值量由社会必要劳动时间决定。本课追问：不同商品的价值怎样取得共同表现？一般等价物是其他商品共同用来表现价值、并可与它交换的商品。在理论的历史分析中，当这一角色固定在某种特殊商品上，便形成货币。这里的“一般”说的是共同交换关系，不能理解为某人喜爱某个物品。金银有自然属性，但自然属性本身不足以说明货币这种社会角色。本课用货币商品模型理解概念，不把现代纸币或手机支付直接说成有同量金属内在价值。\n\n价格是商品价值的货币表现。先分清三个问题：杯子能盛水，讲用途；商品中凝结的一般人类劳动，讲价值；杯子标出某个货币金额，讲价格。货币作为价值尺度，为商品价值提供共同的表达形式。标价时可以使用观念上的货币，不必把同额现金放在每件货旁边；但标价尚未证明成交。理论中劳动时间是内在尺度，货币是其表现形式，不能倒过来说“有标价才有劳动价值”。本课不把“元”和“小时”直接相等，二者必须经过明确模型条件联系。\n\n买卖中货币还可以充当流通手段，即商品交换的媒介。设小周卖出自己制作的篮子取得货币，再用货币买米，过程可记作商品—货币—商品。第一步是卖篮子，第二步是买米。只给篮子标价，是价值尺度层面的表现；完成即时买卖时货币实际在交换中作媒介，是流通手段。这里比较的是两个职能，不是说一笔交易永远只能涉及一种职能。赊购后还款、信用创造、数字货币制度不在本课范围，不能据本课把所有付款情形都判作流通手段。\n\n价格与价值有联系，但一次实际成交价不必与价值量的货币表现完全一致。在所学商品经济基础模型中，供求变化可使价格围绕价值波动。讨论供求时须明确“其他条件不变”，尤其不能把价值变化、货币条件变化和供求变化混在一起。某日价格上涨，不足以证明生产同一商品所需社会必要劳动时间增加；也不能把任何现实市场都压缩成单一供求原因。模型描述的是理论关系，不保证每一天、每家店或有限几次价格的算术平均恰好等于价值。\n\n分步例题一：在货币商品模型中，假设一把同类椅子所需社会必要劳动为6小时，1个虚构货币单位对应的货币商品需要2小时，先忽略供求偏离并保持质量、强度等条件一致。第一步明确两个量分别是6小时/把与2小时/货币单位；第二步相除，6÷2=3货币单位/把，得到模型中的价值货币表现；第三步若实际成交4单位，只能说这一成交高于设定基准，不能说椅子突然凝结8小时必要劳动。该比率是教学设定，不能拿现实人民币工资或金价代入。\n\n分步例题二：摊主先给布匹写10个虚构货币单位的标签，尚未卖出；随后买者用货币完成即时购买。第一步找“写标签”，识别价值尺度；第二步找“交换已发生”，识别流通手段；第三步说明标签不是收入。再换一情境：同类同质商品的社会生产条件和货币条件固定，短期需求增加而供给不变。可说明存在价格上行压力，但不能仅凭需求材料推出价值量同步增加。答材料题先写已知条件，再判概念，最后写不允许推出的结论。闭卷时换物品和数值解释，避免只记选项。",
+      "definition": "在货币商品模型中，货币是固定充当一般等价物的特殊商品；价格是商品价值的货币表现。",
+      "conditions": "限定马克思主义政治经济学入门货币商品模型；数值皆虚构，非现实定价、金本位制度或金融建议。",
+      "example": "分步例题一：在货币商品模型中，假设一把同类椅子所需社会必要劳动为6小时，1个虚构货币单位对应的货币商品需要2小时，先忽略供求偏离并保持质量、强度等条件一致。第一步明确两个量分别是6小时/把与2小时/货币单位；第二步相除，6÷2=3货币单位/把，得到模型中的价值货币表现；第三步若实际成交4单位，只能说这一成交高于设定基准，不能说椅子突然凝结8小时必要劳动。该比率是教学设定，不能拿现实人民币工资或金价代入。\n\n分步例题二：摊主先给布匹写10个虚构货币单位的标签，尚未卖出；随后买者用货币完成即时购买。第一步找“写标签”，识别价值尺度；第二步找“交换已发生”，识别流通手段；第三步说明标签不是收入。再换一情境：同类同质商品的社会生产条件和货币条件固定，短期需求增加而供给不变。可说明存在价格上行压力，但不能仅凭需求材料推出价值量同步增加。答材料题先写已知条件，再判概念，最后写不允许推出的结论。闭卷时换物品和数值解释，避免只记选项。",
+      "misconceptions": [
+        "把自然贵重性直接当货币社会关系",
+        "把标价当成交收入",
+        "把价值尺度和流通手段混同",
+        "从一次涨价反推必要劳动时间必增加",
+        "把有限几次价格均值当理论必然"
+      ],
+      "recall": [
+        "闭卷说明一般等价物成为货币所需社会条件。",
+        "闭卷用新商品区分价值、价格与标价未成交。",
+        "闭卷画商品—货币—商品，区分标价和交换媒介。",
+        "闭卷重算虚构比率，并说明供求价格变化不能直接反推价值量。"
+      ],
+      "rubric": [
+        "货币社会角色",
+        "价值尺度与成交界限",
+        "交换媒介",
+        "模型计算与推断条件"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日换商品、数值与场景；先闭卷再核对。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "专业审核0，待独立理论教师核对",
+          "2028官方范围未确认",
+          "未接入构建或部署，真实iPhone未验收"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 1
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 2
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 3
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-money-price-value-foundation-g1",
+          "description": "识别货币形成的社会条件",
+          "successCriteria": "能以共同等价物及固定角色解释，拒绝自然贵重即货币",
+          "teachingSectionIds": [
+            "s1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-money-price-value-foundation-b1",
+            "pol-money-price-value-foundation-a1",
+            "pol-money-price-value-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-money-price-value-foundation-g2",
+          "description": "区分价格表达与已完成成交",
+          "successCriteria": "能以价值尺度说明标价，且不把标签当收入",
+          "teachingSectionIds": [
+            "s2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-money-price-value-foundation-b2",
+            "pol-money-price-value-foundation-a2",
+            "pol-money-price-value-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-money-price-value-foundation-g3",
+          "description": "说明商品交换中的货币媒介",
+          "successCriteria": "能画出商品货币商品并识别流通手段",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-money-price-value-foundation-b3",
+            "pol-money-price-value-foundation-d3",
+            "pol-money-price-value-foundation-a2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-money-price-value-foundation-g4",
+          "description": "计算价值货币表现并限制价格推断",
+          "successCriteria": "按题设单位求比率，并拒绝从成交价反推必要劳动",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-money-price-value-foundation-b4",
+            "pol-money-price-value-foundation-a3",
+            "pol-money-price-value-foundation-a4",
+            "pol-money-price-value-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-money-price-value-foundation-b1",
+          "type": "single",
+          "stem": "在本课货币商品模型中，某种商品取得货币地位的关键是什么？",
+          "answer": 1,
+          "explanation": "B说明一般等价物的社会角色固定；喜爱或色泽不能单独构成货币关系。",
+          "difficulty": "foundation",
+          "options": [
+            "每个人都喜欢它的颜色",
+            "一般等价物的角色固定在它上面",
+            "任何物品一经标价都成为货币"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-b2",
+          "type": "single",
+          "stem": "店主给尚未售出的桌子标出货币金额，首先体现什么职能？",
+          "answer": 0,
+          "explanation": "标价把商品价值表现为货币量，属于价值尺度；题设没有即时交换或赊账清偿。",
+          "difficulty": "foundation",
+          "options": [
+            "价值尺度",
+            "流通手段",
+            "到期债务清偿"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-b3",
+          "type": "single",
+          "stem": "小周卖篮子取得货币，再用货币即时买米，货币在交换中作为媒介体现什么？",
+          "answer": 2,
+          "explanation": "完整过程是商品—货币—商品，强调交换媒介即流通手段。",
+          "difficulty": "foundation",
+          "options": [
+            "只要有货币就创造额外劳动价值",
+            "只是在纸上想象价格",
+            "流通手段"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-b4",
+          "type": "single",
+          "stem": "已知某店同种商品今日涨价，可以直接断定什么？",
+          "answer": 1,
+          "explanation": "一次价格信息不足以确定社会必要劳动时间变化；必须补生产与货币等条件。",
+          "difficulty": "foundation",
+          "options": [
+            "单位商品价值量必同幅增加",
+            "不能单凭涨价断定必要劳动时间增加",
+            "该商品用途必增加相同百分比"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-money-price-value-foundation-a1",
+          "type": "subjective",
+          "stem": "一块金属具有耐保存的特点。有人据此说“它天然就是货币”。请指出缺少的社会关系条件。",
+          "answer": "自然特点不足以证明货币地位；在本课模型中，须说明一般等价物的角色在交换发展中固定在该特殊商品上。",
+          "explanation": "可说“被其他商品共同作为价值表现和交换的等价物且角色固定”。只写贵重或受欢迎不足；不要求金属货币史。",
+          "difficulty": "application",
+          "rubric": [
+            "区分自然属性与社会角色",
+            "说明共同等价物",
+            "说明角色固定"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-a2",
+          "type": "subjective",
+          "stem": "书店给书贴价签时，是否必须给每本书旁放同额现金？价签能否证明书款已经收入？随后买者用货币完成即时买卖，货币作为交换媒介又是什么职能？",
+          "answer": "表现价格时可用观念货币，不必旁放等额现金；价签只是货币表现，不证明交易完成和收入到账。随后即时买卖中货币作为媒介是流通手段。",
+          "explanation": "接受“标价表达金额，成交另须证据”的通俗解释；并说明即时交换媒介。若说标价等于已收款或否认两种职能可以在同一交易过程中出现，不接受。",
+          "difficulty": "application",
+          "rubric": [
+            "价值尺度可用观念货币",
+            "不必旁放同额现金",
+            "区分标价与成交",
+            "识别即时交换媒介为流通手段"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-a3",
+          "type": "number",
+          "stem": "虚构货币商品模型：一件同类商品必要劳动9小时，每个货币单位对应3小时；忽略价格偏离。单位商品价值的货币表现为多少？",
+          "answer": 3,
+          "explanation": "9小时/件÷3小时/货币单位=3货币单位/件；仅适用于题设，不是实际售价预测。",
+          "difficulty": "application",
+          "unit": "货币单位/件",
+          "tolerance": 0
+        },
+        {
+          "id": "pol-money-price-value-foundation-a4",
+          "type": "subjective",
+          "stem": "同类同质商品的社会生产条件、货币条件不变，短期需求增加、供给不变。说明价格可能的方向，并评价“所以必要劳动时间也必增加”。",
+          "answer": "在该简化条件下，需求相对供给增加带来价格上行压力；不能因此推断必要劳动时间增加，题设社会生产条件不变。",
+          "explanation": "允许说价格趋升或有上涨压力，不接受无条件预言所有现实价格必涨；不能把供求变化当作价值量决定条件。",
+          "difficulty": "application",
+          "rubric": [
+            "写清其他条件不变",
+            "说明供求的价格影响",
+            "拒绝劳动时间必增推论"
+          ]
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-money-price-value-foundation-d1",
+          "type": "subjective",
+          "stem": "隔日闭卷：为什么“某人收藏的石头很珍贵”还不足以说明石头充当货币？",
+          "answer": "个人珍视不能证明一般等价物的社会角色，须考察其是否在交换中成为共同等价物且该角色固定。",
+          "explanation": "接受从共同社会关系说明，不要求认定现实石头能否货币化。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "个人偏好不足",
+            "共同一般等价物关系",
+            "角色固定"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-d2",
+          "type": "single",
+          "stem": "隔日：商店关门时更新鞋的价签，没有发生交易。下列判断最恰当的是？",
+          "answer": 2,
+          "explanation": "可有价格表达而无成交；这里只发生标价，不能认定货币已实际充当交换媒介。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "价签更新就证明已收货款",
+            "每次标价都需真实现金紧贴商品",
+            "存在货币价格表现，但尚未证明成交"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-d3",
+          "type": "subjective",
+          "stem": "隔日：农户卖出一袋豆取得货币，又立即用这笔货币买盐。用三个环节表示并解释货币的角色；若仅给豆标价，还缺哪一步？",
+          "answer": "豆（商品）—货币—盐（商品）；货币在实际交换中作流通手段。仅标价还未完成豆换货币的出售。",
+          "explanation": "接受W—G—W或中文顺序；只写货币而遗漏两端商品或把标签当已卖出不足。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "商品货币商品顺序",
+            "说明交换媒介",
+            "区分标价与出售"
+          ]
+        },
+        {
+          "id": "pol-money-price-value-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日新模型：一件商品必要劳动8小时，每货币单位对应2小时，忽略偏离时基准为多少？若某次成交5单位，能否据此把该件必要劳动改写为10小时？",
+          "answer": "基准8÷2=4货币单位/件；不能仅据5单位成交改写为10小时，成交价格可能偏离基准，必要劳动时间仍须生产条件证据。",
+          "explanation": "接受算式与等价单位。必须写出4与推断边界；只算成交价乘2得10并当作必要劳动不接受。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "得4货币单位每件",
+            "区分基准与成交",
+            "必要劳动需生产证据"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "353-independent-means-welch-deepening",
+      "version": "0.1",
+      "subject": "353",
+      "title": "两独立均数比较：合并方差与Welch的计算和解释",
+      "writtenAt": "2026-11-17",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创虚构教学数据、讲解及题目；非真题、非真实医学研究结论。",
+      "mapping": [
+        "STAT02"
+      ],
+      "prerequisites": [
+        "353-t-tests-paired-independent-foundation"
+      ],
+      "prerequisiteExplanation": "先会区分配对与独立、均数差标准误、t与p及自由度；本课深化原有t课未展开的两种独立样本计算。",
+      "sources": [
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm",
+        "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/t_test.htm",
+        "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm",
+        "https://openstax.org/books/introductory-statistics-2e/pages/10-4-matched-or-paired-samples",
+        "https://openstax.org/books/introductory-statistics-2e/pages/10-1-two-population-means-with-unknown-standard-deviations"
+      ],
+      "sourceEvidence": [
+        {
+          "publisher": "NIST/SEMATECH",
+          "title": "Two-Sample t-Test for Equal Means",
+          "accessed": "2026-11-17",
+          "actualRead": "HTML10–29：配对、方差版本、两种SE、合并方差及Welch-Satterthwaite自由度。",
+          "limits": "公式核对；页面工业案例及等效提问不能当作均值检验已证明等效。"
+        },
+        {
+          "publisher": "NIST Dataplot",
+          "title": "T TEST",
+          "accessed": "2026-11-17",
+          "actualRead": "HTML24–39：独立等/不等方差公式与df；配对差值标准差及配对数。",
+          "limits": "仅采用公式区；不采用程序输出示例或其ACCEPT标签。"
+        },
+        {
+          "publisher": "NIST/SEMATECH",
+          "title": "Analysis of paired observations",
+          "accessed": "2026-11-17",
+          "actualRead": "HTML7–11：自然对应关系、差值、差值样本标准差及t公式。",
+          "limits": "仅作配对边界，不复用工业示例。"
+        },
+        {
+          "publisher": "OpenStax / Rice University",
+          "title": "Introductory Statistics 2e §10.4",
+          "accessed": "2026-11-17",
+          "actualRead": "HTML23–34：差值才是样本，小样本差值正态或适当大样本近似；df为差值个数减1。",
+          "limits": "只核对通用事实，不复用原书案例、数字、题干或临床因果表述。"
+        },
+        {
+          "publisher": "OpenStax / Rice University",
+          "title": "Introductory Statistics 2e §10.1",
+          "accessed": "2026-11-17",
+          "actualRead": "HTML23–44：两独立随机样本、小样本总体正态条件、Welch标准误及小数自由度。",
+          "limits": "只核对通用定义和公式。不采用“大样本分布不重要”或固定n阈值的宽泛说法，不复制其案例。"
+        }
+      ],
+      "explanation": "先把数据表读成研究设计。假设每行是一个人的一次连续数值测量，单位为分。A、B两组由不同且无匹配关系的人组成，组内各人和组间观测独立，才进入本课的两独立样本路径。两组人数相等不产生配对关系；把两列按大小排序后硬凑成对也不成立。同一人的前后测量或预先匹配的对象应走配对路径。独立性来自抽样和设计，不能用一个正态检验的p值证明。本课先修均数、样本标准差、标准误和H0。\n\n先约定要估计的方向：Δ=μA−μB，样本估计为x̄A−x̄B。μ是总体均数，x̄是样本均数；s是样本标准差，s²是样本方差，n是人数。H0:Δ=0表示总体均数相等，双侧H1:Δ≠0预先规定后不能见到数据再改方向。均数和标准差的单位为分，方差为分²。标准误SE衡量均数差估计的抽样波动，仍是分；t=(估计差−H0差)/SE是无量纲，既不是分值差本身，也不是p值。\n\n先看共同条件，再选方差版本。普通两独立样本t方法需要适当随机抽样或可辩护的抽样模型、组内及组间独立观测；小样本模型通常假定各组总体近似正态。严重离群、强偏态、聚类或选择偏倚不能靠更换Welch公式自动消除。合并方差t额外假定两总体方差相等；Welch不要求这一相等条件。样本s相近不证明总体方差严格相等，n相等也不证明。不要为了得到显著结果来回试方法；实际分析应预先说明方法和依据。\n\n合并方差不是把两组标准差直接平均。若等方差模型适用，先用各组自由度n−1加权方差：sp²=[(nA−1)sA²+(nB−1)sB²]/(nA+nB−2)，再开根得到sp。均数差标准误SEp=sp√(1/nA+1/nB)，tp=(x̄A−x̄B)/SEp，df=nA+nB−2。虚构例甲：A组n=5、均数12分、s=2分；B组n=5、均数10分、s=2分，题设等方差与正态独立模型适用。①均数差2分；②sp²=(4×4+4×4)/8=4分²；③SEp=√[4×(1/5+1/5)]=√1.6≈1.265分；④tp=2/√1.6≈1.581，df=8。给定双侧α=0.05临界值2.306，则|t|小于临界值，不拒绝H0。这不证明两总体完全相等。\n\nWelch分别保留两组方差，不估计一个共同方差。记a=sA²/nA、b=sB²/nB，则SEW=√(a+b)，tW=(x̄A−x̄B)/SEW，近似自由度ν=(a+b)²/[a²/(nA−1)+b²/(nB−1)]。ν可为小数，不直接套nA+nB−2，也不要先把a、b或ν粗略取整。虚构例乙：A组n=5、均数12分、s=√5分；B组n=10、均数10分、s=√30分，独立及分布条件题设适用，不作等方差假定。①差2分；②a=5/5=1分²，b=30/10=3分²；③SEW=√4=2分，tW=1；④ν=16/(1/4+9/9)=16/1.25=12.8。保留12.8并交由支持小数自由度的软件求临界值或p；本题未提供该p，不能将t=1写成p=0.01。\n\n同一份乙例若为了比较公式而临时套等方差版本，会得到sp²=(4×5+9×30)/13=290/13分²，SEp=√[(290/13)×(1/5+1/10)]=√(87/13)≈2.587分，tp≈0.773，df=13。这是演示公式差异，不是认可乙例的等方差假定。不同n与不同方差的组合会让两种标准误明显不同，不能用同一个t配另一个版本的自由度。即使n相等使两种SE恰好相同，两种df也未必相同。\n\n配对边界用来防止方法误用：每对先按固定顺序求di，再把这些差值当一个样本。配对t的小样本正态模型针对差值总体，不要求两列原始测量各自都正态；各对之间应独立，一对内部允许相关。n为完整配对数，SE=sd/√n、df=n−1。缺一侧的记录不能自行补零。无论哪一种t检验，未拒绝H0都不等于证明等效；拒绝H0也不自动证明因果或实际重要。若要评估“差异小到可接受”，需预先定义等效界值和相应设计，本课尚不教授等效检验。最后报告估计方向、单位、方法、t和df以及条件和限制，不能只报一个显著性标签。",
+      "definition": "两独立样本均数差的t为差/标准误；合并方差法额外要求等方差；Welch分别保留方差并用近似自由度。",
+      "conditions": "先看共同条件，再选方差版本。普通两独立样本t方法需要适当随机抽样或可辩护的抽样模型、组内及组间独立观测；小样本模型通常假定各组总体近似正态。严重离群、强偏态、聚类或选择偏倚不能靠更换Welch公式自动消除。合并方差t额外假定两总体方差相等；Welch不要求这一相等条件。样本s相近不证明总体方差严格相等，n相等也不证明。不要为了得到显著结果来回试方法；实际分析应预先说明方法和依据。",
+      "example": "合并方差不是把两组标准差直接平均。若等方差模型适用，先用各组自由度n−1加权方差：sp²=[(nA−1)sA²+(nB−1)sB²]/(nA+nB−2)，再开根得到sp。均数差标准误SEp=sp√(1/nA+1/nB)，tp=(x̄A−x̄B)/SEp，df=nA+nB−2。虚构例甲：A组n=5、均数12分、s=2分；B组n=5、均数10分、s=2分，题设等方差与正态独立模型适用。①均数差2分；②sp²=(4×4+4×4)/8=4分²；③SEp=√[4×(1/5+1/5)]=√1.6≈1.265分；④tp=2/√1.6≈1.581，df=8。给定双侧α=0.05临界值2.306，则|t|小于临界值，不拒绝H0。这不证明两总体完全相等。\n\nWelch分别保留两组方差，不估计一个共同方差。记a=sA²/nA、b=sB²/nB，则SEW=√(a+b)，tW=(x̄A−x̄B)/SEW，近似自由度ν=(a+b)²/[a²/(nA−1)+b²/(nB−1)]。ν可为小数，不直接套nA+nB−2，也不要先把a、b或ν粗略取整。虚构例乙：A组n=5、均数12分、s=√5分；B组n=10、均数10分、s=√30分，独立及分布条件题设适用，不作等方差假定。①差2分；②a=5/5=1分²，b=30/10=3分²；③SEW=√4=2分，tW=1；④ν=16/(1/4+9/9)=16/1.25=12.8。保留12.8并交由支持小数自由度的软件求临界值或p；本题未提供该p，不能将t=1写成p=0.01。",
+      "misconceptions": [
+        "把标准差直接平均代替加权方差",
+        "Welch仍必须等方差",
+        "把Welch自由度强行写nA+nB−2",
+        "把不拒绝当证明相等或把t当p",
+        "配对要求两原始列都正态而忽略差值"
+      ],
+      "recall": [
+        "闭卷从研究结构解释独立与配对，写出检验方向和单位。",
+        "闭卷写合并方差的权重、SE和自由度，并分步算例甲。",
+        "闭卷写Welch的a、b、SE及近似自由度，分步算例乙。",
+        "闭卷解释未拒绝、显著、配对差值正态及独立性的边界。"
+      ],
+      "rubric": [
+        "结构与单位",
+        "合并方差分步计算",
+        "Welch及自由度",
+        "推断与配对边界"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换设计和方差重新选择方法，计算SE和df并解释未拒绝的边界；主观待核对。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "独立专业审定0；待统计教师审核模型、方法选择和全部题目",
+          "2027范围仅暂定参考，2028最终考纲未确认",
+          "不覆盖聚类、稳健方法、秩检验及等效检验"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 3
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 4
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 6
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-independent-means-welch-deepening-g1",
+          "description": "按设计辨别独立与配对并核对共同条件",
+          "successCriteria": "能说明等n不创造配对或等方差并写正确单位",
+          "teachingSectionIds": [
+            "s1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-independent-means-welch-deepening-b1",
+            "353-independent-means-welch-deepening-a1",
+            "353-independent-means-welch-deepening-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-g2",
+          "description": "分步计算合并方差、标准误与t",
+          "successCriteria": "能按n−1加权方差再开根并计算t及df",
+          "teachingSectionIds": [
+            "s2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-independent-means-welch-deepening-b2",
+            "353-independent-means-welch-deepening-a2",
+            "353-independent-means-welch-deepening-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-g3",
+          "description": "计算Welch标准误、t与小数自由度",
+          "successCriteria": "能分别代入两组方差并求SE、t和近似df",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-independent-means-welch-deepening-b3",
+            "353-independent-means-welch-deepening-a3",
+            "353-independent-means-welch-deepening-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-g4",
+          "description": "解释决策和配对差值模型的适用边界",
+          "successCriteria": "能纠正不拒绝即相等、Welch万能及t=p三类误读",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-independent-means-welch-deepening-b4",
+            "353-independent-means-welch-deepening-a4",
+            "353-independent-means-welch-deepening-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "353-independent-means-welch-deepening-b1",
+          "type": "single",
+          "stem": "两组各8人，均为不同且无匹配关系的人。哪项判断正确？",
+          "options": [
+            "人数相等就自动构成8对",
+            "应按两独立样本设计核对条件，等n不能证明等方差",
+            "按均数接近程度把人凑成对"
+          ],
+          "answer": 1,
+          "explanation": "设计中的对应关系决定配对，不由样本量决定；总体等方差另需依据。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-b2",
+          "type": "single",
+          "stem": "等方差合并法中，需要合并的量和权重是？",
+          "options": [
+            "标准差按n加权",
+            "方差按各自n−1加权，再除以总自由度",
+            "两组均数简单相加"
+          ],
+          "answer": 1,
+          "explanation": "sp²估计共同方差，以每组方差的自由度n−1加权；之后开根得到sp。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-b3",
+          "type": "single",
+          "stem": "Welch法中a=sA²/nA、b=sB²/nB，均数差标准误为？",
+          "options": [
+            "a+b",
+            "√(a+b)",
+            "(sA+sB)/2"
+          ],
+          "answer": 1,
+          "explanation": "a、b为分²，开根后为分；a+b本身是方差估计，不是标准误。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-b4",
+          "type": "single",
+          "stem": "小样本配对t的正态模型主要针对什么？",
+          "options": [
+            "两列原始测量都必须正态，差值无所谓",
+            "成对差值总体；各对间应独立",
+            "每对内两次测量必须独立"
+          ],
+          "answer": 1,
+          "explanation": "分析对象是差值；一对内可相关，不把两原始列都正态作为必要条件。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-independent-means-welch-deepening-a1",
+          "type": "subjective",
+          "stem": "虚构：把同一5人前后测量硬拆成两独立组，再因两组n相同而选合并方差t。指出两处错误并说配对应检查哪个分布。",
+          "answer": "同一人的前后数据有关联，应固定方向求5个差值；n相等不证明总体等方差；小样本配对t检查差值总体的正态条件与各对之间独立性，不要求两列原始值都正态。",
+          "rubric": [
+            "识别同一人前后应配对",
+            "否定相同n证明等方差",
+            "明确差值正态和各对独立"
+          ],
+          "explanation": "三项各为独立核对点；只说“改Welch”未纠正设计。可用文字说明分布，不要求符号。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-a2",
+          "type": "number",
+          "stem": "例甲条件成立：nA=nB=5，均数12和10分，sA=sB=2分。求合并方差t，保留三位小数。",
+          "answer": 1.5811388300841895,
+          "unit": "无量纲",
+          "tolerance": 0.001,
+          "explanation": "sp²=4分²，SE=√1.6分，t=2/√1.6≈1.581，df=8；容差0.001接收三位小数。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-a3",
+          "type": "number",
+          "stem": "例乙条件成立：nA=5、nB=10，均数12和10分，sA²=5、sB²=30分²，用Welch。求近似自由度，不取整。",
+          "answer": 12.8,
+          "unit": "无量纲",
+          "tolerance": 1e-8,
+          "explanation": "a=1，b=3，ν=16/[1/4+9/9]=12.8；SE=2分、t=1，不能套13。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-a4",
+          "type": "subjective",
+          "stem": "例甲t≈1.581、df8；题给双侧α=0.05临界值2.306。给出决策，并纠正“已证明两总体相等，且A干预没效果”。",
+          "answer": "|t|<2.306，不拒绝均数相等的H0；证据不足以拒绝不等于证明相等或等效，也不证明干预无效；因果判断还需设计、混杂和不确定性等依据。",
+          "rubric": [
+            "按给定临界值不拒绝H0",
+            "不把不拒绝解释为证明相等",
+            "不据此宣称干预因果或无效"
+          ],
+          "explanation": "允许“未发现足够差异证据”；不接受“接受H0为真”。不要求未提供的p值。",
+          "difficulty": "application"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-independent-means-welch-deepening-d1",
+          "type": "single",
+          "stem": "隔日：两独立组都为6人，s分别为2和8分。可仅凭n相同断言必须用合并方差法吗？",
+          "options": [
+            "可以，等n就是等方差",
+            "不可以；需核对方差和设计，Welch无需总体等方差",
+            "必须改成配对t"
+          ],
+          "answer": 1,
+          "explanation": "等n没有确定总体方差的逻辑；两组各自数据结构未改变，不能因此配对。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-d2",
+          "type": "number",
+          "stem": "隔日虚构：等方差正态独立模型成立，nA=4、nB=6，两组样本s都为3分。求合并方差sp²的数值。",
+          "answer": 9,
+          "unit": "分²",
+          "tolerance": 1e-8,
+          "explanation": "sp²=(3×9+5×9)/(4+6−2)=72/8=9分²；sp才是3分。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-d3",
+          "type": "number",
+          "stem": "隔日新数据：两独立组条件适用Welch，nA=4、nB=9，sA²=4、sB²=9分²，均数分别15、12分。求t，保留三位小数。",
+          "answer": 2.1213203435596424,
+          "unit": "无量纲",
+          "tolerance": 0.001,
+          "explanation": "a=b=1分²，SE=√2分，t=3/√2≈2.121；df=4/(1/3+1/8)=96/11≈8.727，并非11。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-independent-means-welch-deepening-d4",
+          "type": "subjective",
+          "stem": "隔日：有人说“配对t要两列原始值都正态；Welch不要求等方差所以聚类和离群也都不用管；t=1就是p=0.01”。逐条纠正。",
+          "answer": "配对小样本模型看差值总体正态，并检查各对独立；Welch放宽等方差要求，但仍需核对独立性、抽样、分布及离群，不能自动处理聚类；t为统计量，p还依赖自由度及单/双侧等信息。",
+          "rubric": [
+            "差值正态与各对独立",
+            "Welch未免除设计及分布核对",
+            "t不等于p且需df和方向"
+          ],
+          "explanation": "每条独立核对；只写“都错”不足。接受合理同义表述，不凭关键字自动专业评分。",
+          "difficulty": "delayed-transfer"
+        }
+      ]
     }
   ],
   "examPapers": [

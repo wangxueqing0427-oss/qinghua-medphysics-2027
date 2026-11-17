@@ -1,0 +1,159 @@
+[
+  {
+    "id": "pol-money-price-value-foundation-b1",
+    "type": "single",
+    "stem": "在本课货币商品模型中，某种商品取得货币地位的关键是什么？",
+    "answer": "一般等价物的角色固定在它上面",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "QST2024"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-b2",
+    "type": "single",
+    "stem": "店主给尚未售出的桌子标出货币金额，首先体现什么职能？",
+    "answer": "价值尺度",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-b3",
+    "type": "single",
+    "stem": "小周卖篮子取得货币，再用货币即时买米，货币在交换中作为媒介体现什么？",
+    "answer": "流通手段",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-b4",
+    "type": "single",
+    "stem": "已知某店同种商品今日涨价，可以直接断定什么？",
+    "answer": "不能单凭涨价断定必要劳动时间增加",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-a1",
+    "type": "subjective",
+    "stem": "一块金属具有耐保存的特点。有人据此说“它天然就是货币”。请指出缺少的社会关系条件。",
+    "answer": "自然特点不足以证明货币地位；在本课模型中，须说明一般等价物的角色在交换发展中固定在该特殊商品上。",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "QST2024"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-a2",
+    "type": "subjective",
+    "stem": "书店给书贴价签时，是否必须给每本书旁放同额现金？价签能否证明书款已经收入？随后买者用货币完成即时买卖，货币作为交换媒介又是什么职能？",
+    "answer": "表现价格时可用观念货币，不必旁放等额现金；价签只是货币表现，不证明交易完成和收入到账。随后即时买卖中货币作为媒介是流通手段。",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-a3",
+    "type": "number",
+    "stem": "虚构货币商品模型：一件同类商品必要劳动9小时，每个货币单位对应3小时；忽略价格偏离。单位商品价值的货币表现为多少？",
+    "answer": 3,
+    "unit": "货币单位/件",
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-a4",
+    "type": "subjective",
+    "stem": "同类同质商品的社会生产条件、货币条件不变，短期需求增加、供给不变。说明价格可能的方向，并评价“所以必要劳动时间也必增加”。",
+    "answer": "在该简化条件下，需求相对供给增加带来价格上行压力；不能因此推断必要劳动时间增加，题设社会生产条件不变。",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "QST2024",
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-d1",
+    "type": "subjective",
+    "stem": "隔日闭卷：为什么“某人收藏的石头很珍贵”还不足以说明石头充当货币？",
+    "answer": "个人珍视不能证明一般等价物的社会角色，须考察其是否在交换中成为共同等价物且该角色固定。",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "QST2024"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-d2",
+    "type": "single",
+    "stem": "隔日：商店关门时更新鞋的价签，没有发生交易。下列判断最恰当的是？",
+    "answer": "存在货币价格表现，但尚未证明成交",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-d3",
+    "type": "subjective",
+    "stem": "隔日：农户卖出一袋豆取得货币，又立即用这笔货币买盐。用三个环节表示并解释货币的角色；若仅给豆标价，还缺哪一步？",
+    "answer": "豆（商品）—货币—盐（商品）；货币在实际交换中作流通手段。仅标价还未完成豆换货币的出售。",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  },
+  {
+    "id": "pol-money-price-value-foundation-d4",
+    "type": "subjective",
+    "stem": "隔日新模型：一件商品必要劳动8小时，每货币单位对应2小时，忽略偏离时基准为多少？若某次成交5单位，能否据此把该件必要劳动改写为10小时？",
+    "answer": "基准8÷2=4货币单位/件；不能仅据5单位成交改写为10小时，成交价格可能偏离基准，必要劳动时间仍须生产条件证据。",
+    "unit": null,
+    "internalReview": "concept and boundary checked by authoring AI; not independent expert",
+    "sourceIds": [
+      "CAPITAL-I-3"
+    ],
+    "fullQuestionVerified": false,
+    "expertApproved": false
+  }
+]

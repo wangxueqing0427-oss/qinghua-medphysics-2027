@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 59,
+  "newDirectSubclaimAnchors": 6,
+  "remainingQueueCount": 53,
+  "sources": [
+    {
+      "id": "STATCAN_FREQ",
+      "publisher": "Statistics Canada",
+      "title": "Frequency distribution",
+      "url": "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214814-eng.htm",
+      "actualRead": "2026-11-17 public body: frequency/count and percentage distinction, main text35–36; tally example48–67; percentage definition85–88. Web extraction positions, not printed pages.",
+      "support": "Single-response exhaustive categories count observations; relative frequency divides each count by the valid total.",
+      "limits": "Does not settle multiple-response denominators, percentage-rounding policy, or population representativeness."
+    },
+    {
+      "id": "OPENSTAX_PROB",
+      "publisher": "OpenStax",
+      "title": "Introductory Statistics2e,3.1 Terminology",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+      "actualRead": "2026-11-17 actual body23–29: sample space, event and equally likely outcomes/favourable outcomes divided by total. HTML section, no printed page claimed.",
+      "support": "Two eligible cards in five equally likely outcomes give2/5; numerical application is separately reasoned here.",
+      "limits": "Only equally likely elementary outcomes; not a general count-ratio rule for unequal probabilities."
+    },
+    {
+      "id": "OPENSTAX_BINOMIAL",
+      "publisher": "OpenStax",
+      "title": "Introductory Statistics2e,4.3 Binomial Distribution",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution",
+      "actualRead": "2026-11-17 actual body23–30: fixed trials, two outcomes, independent trials and same probability; not adjacent worked examples.",
+      "support": "Binomial teaching assumptions require fixed n, binary trial results, independence and constant success probability together.",
+      "limits": "Constant marginal probability alone does not imply independence. Do not generalise to changing probabilities or dependent sampling."
+    },
+    {
+      "id": "PURDUE_REFERENCE",
+      "publisher": "Purdue University OWL",
+      "title": "Using Pronouns Clearly",
+      "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/index.html",
+      "actualRead": "2026-11-17 actual section3, main text50–70: refer clearly to a specific noun, ambiguity examples with two plausible antecedents. HTML positions only.",
+      "support": "When two antecedents remain possible and context cannot decide, clarify the noun/context rather than asserting an invariant nearest-noun rule.",
+      "limits": "Writing clarity advice, not a complete syntactic/pragmatic theory. Gender/number agreement does not alone resolve these fictional examples."
+    }
+  ],
+  "rows": [
+    {
+      "id": "frq-b1",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "frq-b1",
+        "type": "single",
+        "difficulty": "foundation",
+        "stem": "10份单选有效记录，三类频数4、3、3。哪项正确？",
+        "options": [
+          "频数和为10，与有效人数一致",
+          "编码相加可替代人数",
+          "任何表都必须三类"
+        ],
+        "answer": 0,
+        "explanation": "A核对本题互斥单选条件；B混淆编码与频数；C把示例类别数当普遍规定。"
+      },
+      "questionSHA256": "a16d8623edb628c4ecd099e3eeb49f2567371d66a8c50d47468354efaa00cd0a",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "STATCAN_FREQ"
+      ],
+      "supportStatus": "specific-subclaim-supported",
+      "minimalRevision": "No confirmed answer change; retain source applicability limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "frq-d1",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "originalQuestion": {
+        "id": "frq-d1",
+        "type": "single",
+        "difficulty": "standard",
+        "stem": "隔日：某单选表有效总数20，三类频数8、7、5。哪项核对成立？",
+        "options": [
+          "三类频数相加20",
+          "代码总和替代样本量",
+          "一定代表全城市分布"
+        ],
+        "answer": 0,
+        "explanation": "A是本题计数一致性；B混淆编码；C越出样本代表性证据。"
+      },
+      "questionSHA256": "e54105cddc8ccbcf12e385bc2887e3a3daf79985bbb2dfc29ede5f3c14f75c73",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "STATCAN_FREQ"
+      ],
+      "supportStatus": "specific-subclaim-supported",
+      "minimalRevision": "No confirmed answer change; retain source applicability limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-probability-binomial-foundation-b1",
+      "course": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "等可能抽取编号1至5的一张卡，编号大于3的概率是？",
+        "options": [
+          "2/5",
+          "3/5",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "事件包含4和5两种结果，总计五种等可能结果，概率2/5。B数的是补事件，C漏分母，不能把成功张数直接当概率。",
+        "id": "353-probability-binomial-foundation-b1",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "31fdcc9e16350a79cd9235d802439978ed20d68aa78c88bb6bc73d823fd3f2fe",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "OPENSTAX_PROB"
+      ],
+      "supportStatus": "specific-subclaim-supported",
+      "minimalRevision": "No confirmed answer change; retain source applicability limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-probability-binomial-foundation-b3",
+      "course": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "哪种情况符合题定二项模型？",
+        "options": [
+          "不固定次数且每次风险变化",
+          "只要记录有病无病，无须其他条件",
+          "固定n次、两类、独立且p恒定"
+        ],
+        "answer": 2,
+        "explanation": "完整条件需同时满足，C正确。A违背固定与恒定条件，B只满足两类分类，未保证独立和相同概率。",
+        "id": "353-probability-binomial-foundation-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "22fe814f2e51b99c600a9772df22a42143a016fe778b62a883819875eb87247e",
+      "independentlyReasonedAnswer": 2,
+      "sourceIds": [
+        "OPENSTAX_BINOMIAL"
+      ],
+      "supportStatus": "specific-subclaim-supported",
+      "minimalRevision": "No confirmed answer change; retain source applicability limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-b3",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "Nora与Mira均为女性，随后只写she left，无其他线索。最恰当？",
+        "options": [
+          "必指最近的Mira",
+          "必指Nora",
+          "可能歧义，应澄清"
+        ],
+        "answer": 2,
+        "explanation": "两个同样可行候选不能只靠距离确定；A、B都把缺失语境当成确定证据。left意为离开了。",
+        "id": "en-pronoun-reference-b3",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "d3357421221db69fdc6c86b43e9883316d50bb260fe48438d20bbbdb6d4cb282",
+      "independentlyReasonedAnswer": 2,
+      "sourceIds": [
+        "PURDUE_REFERENCE"
+      ],
+      "supportStatus": "specific-subclaim-supported",
+      "minimalRevision": "No confirmed answer change; retain source applicability limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-pronoun-reference-d3",
+      "course": "en-pronoun-reference",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "两名同样可能的指代对象后出现he，无其他条件，应如何？",
+        "options": [
+          "保留歧义并请求或补充语境",
+          "永远取最近人名",
+          "随意选一个"
+        ],
+        "answer": 0,
+        "explanation": "证据不足需澄清，不能把近邻偏好当绝对语法法则，也不能随机填真实身份。",
+        "id": "en-pronoun-reference-d3",
+        "difficulty": "delayed-transfer",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "13100b9358564541fec1cf00f6d9b495e1dcd9bcf183ccd6fc7fa3aabe28339d",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "PURDUE_REFERENCE"
+      ],
+      "supportStatus": "specific-subclaim-supported",
+      "minimalRevision": "No confirmed answer change; retain source applicability limits.",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "removedIds": [
+    "frq-b1",
+    "frq-d1",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-d3"
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "frq-b4",
+    "frq-a4",
+    "frq-d4",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d2",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "remainingIdsSHA256": "930562f50592c3bb38ef883a9b1cde72b3c8f953ab65bbc1b67ba36e588af2e3",
+  "failures": [
+    {
+      "url": "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/pronoun_clarity.html",
+      "status": "Tool could not access guessed path; actual official index located by search and body read. No repeated attempt or evidence credited to failed URL."
+    },
+    {
+      "url": "https://our-languages.canada.ca/en/writing-tips-plus/pronouns-clarity",
+      "status": "Not accessible through read tool; not used as evidence."
+    }
+  ],
+  "independentProfessionalApprovals": 0
+}

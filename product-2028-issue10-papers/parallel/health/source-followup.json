@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-17",
+  "scope": "source subclaim follow-up only; no repeated course test",
+  "authorityEntry": "sources/queue-head.json",
+  "observedQueueHead": {
+    "date": "2026-11-17",
+    "activeEvidenceFile": "frequency-binomial-reference-followup.json",
+    "activeEvidenceSHA256": "91fe01367e0dddda9e05863bcbbbe18c690d0ce383bbb5a0cfd5754a6c2b8b0c",
+    "remainingCount": 53,
+    "remainingIdsSHA256": "930562f50592c3bb38ef883a9b1cde72b3c8f953ab65bbc1b67ba36e588af2e3",
+    "continuationBase": "queue-reconciled-241.json",
+    "warning": "Specific source anchors only; not whole question or independent professional approval.",
+    "expertApprovals": 0
+  },
+  "baselineRemainingAtAssignment": 53,
+  "newDirectSubclaimAnchors": 8,
+  "remainingCountDecision": "根代理按当前队列去重后统一决定，本文件不自行修改剩余数",
+  "sharedQueueChanged": false,
+  "sources": [
+    {
+      "id": "SCOT_SHS2015_TABLES",
+      "publisher": "Scottish Government",
+      "title": "Scottish household survey 2015: annual report, Annex 1",
+      "url": "https://www.gov.scot/publications/scotlands-people-results-2015-scottish-household-survey/pages/15/",
+      "published": "2016-09-27",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML81–92，尤其84分母、87多选/舍入/省略回答、91缺失与base变化。",
+      "limits": "历史调查的报告约定；不把其加权方法、10人舍入或<50抑制规则移植到原创课堂小例。"
+    },
+    {
+      "id": "OFQUAL_ROUNDING2026",
+      "publisher": "Ofqual / GOV.UK",
+      "title": "Rounding policy for statistical publications",
+      "url": "https://www.gov.uk/government/publications/ofquals-statistics-policies-and-procedures/rounding-policy",
+      "updated": "2026-11-10",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML79–87：原始未舍入值计算总计与百分比，显示精度可造成合计非100%。",
+      "limits": "只采用显示与原始数据区别；不移用其保密舍入到5、<5标签。"
+    },
+    {
+      "id": "ONS_LIFETABLE_GUIDE2019",
+      "publisher": "Office for National Statistics",
+      "title": "Guide to calculating national life tables",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/methodologies/guidetocalculatingnationallifetables",
+      "revised": "2019-01-21",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML73–82生命表和时期寿命定义；99–122假想队列、ex与人年；164–192人年累加及ex=Tx/lx。",
+      "limits": "英国历史方法说明，不声称中国现行标准；原文区分对象足以支持生命表量定义，死亡者简单平均的反例为内部推理；不采用页面排版含混的I/l符号作教学公式。"
+    },
+    {
+      "id": "CDC_LOGICMODEL2024",
+      "publisher": "US CDC",
+      "title": "Developing a Logic Model",
+      "url": "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html",
+      "published": "2024-11-04",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML28–63资源、活动、产出和短中长期结果；65–82示例提醒与触达/培训人数所属产出。",
+      "limits": "仅采用一般评价区分；结核项目示例不直接移植到健康促进，不以逻辑箭头当因果证明。"
+    },
+    {
+      "id": "CDC_EVALUATION_FRAMEWORK2024",
+      "publisher": "US CDC / MMWR",
+      "title": "CDC Program Evaluation Framework, 2024",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+      "published": "2024-09-26",
+      "accessed": "2026-11-17",
+      "actualRead": "HTML142–146伦理/权利/隐私/公平；255–258过程/结果/影响评价；359–361资料权利风险与保密；735–759过程触达和结果问题；825–827限制披露与防止识别。",
+      "limits": "评价实践伦理与概念框架，不是中国法律或具体雇主权限；不从一般原则推出任何具体干预绝对合法或有效。"
+    }
+  ],
+  "rows": [
+    {
+      "id": "frq-b4",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "currentQuestionHash": "130c7edaa010263117aeeb0a2c519615bea7c3bd36413b87e0bc5419fbcb843e",
+      "originalQuestion": {
+        "id": "frq-b4",
+        "type": "multi",
+        "difficulty": "standard",
+        "stem": "10人可同时选阅读和运动，6人选阅读、5人选运动，哪些正确？",
+        "options": [
+          "60%和50%可以合计110%",
+          "必须把5改成4使总和100%",
+          "应注明可多选和分母为10人"
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A和C与多选定义一致。B篡改原始数据来凑合计，不能这样纠错。"
+      },
+      "sourceIds": [
+        "SCOT_SHS2015_TABLES"
+      ],
+      "sourceAnchor": {
+        "position": "HTML84、87",
+        "claim": "多选允许同一人进入多类，不能用100%总和强行校验；需交代分母。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": [
+        0,
+        2
+      ],
+      "answerText": [
+        "60%和50%可以合计110%",
+        "应注明可多选和分母为10人"
+      ],
+      "applicationBoundary": "原创10人中6人/5人的60%+50%=110%由题设集合计数独立推理；来源不含这些人数。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "frq-a4",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "currentQuestionHash": "25bebfb7e5ead9bfc3d55c7f7294884145386dfa14c06ace9047d3089c09b6af",
+      "originalQuestion": {
+        "id": "frq-a4",
+        "type": "single",
+        "difficulty": "application",
+        "stem": "三个单选类别真实计数各1人，总数3，显示百分比各33.3%。如何处理99.9%合计？",
+        "options": [
+          "改其中一个原始人数为2",
+          "说明显示舍入，不任意改频数",
+          "宣布一定有失访"
+        ],
+        "answer": 1,
+        "explanation": "B解释1/3的舍入显示。A篡改人数；C没有数据依据。应保留原始计数和所用精度。"
+      },
+      "sourceIds": [
+        "OFQUAL_ROUNDING2026",
+        "SCOT_SHS2015_TABLES"
+      ],
+      "sourceAnchor": {
+        "position": "Ofqual85–87；SHS87",
+        "claim": "显示舍入可使百分比合计不等于100%，保留未舍入原始基础。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": 1,
+      "answerText": "说明显示舍入，不任意改频数",
+      "applicationBoundary": "1/3显示33.3%，三项99.9%是课堂算术，不是该官方调查实测结果；不改原始计数的选择为内部方法推理。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "frq-d4",
+      "course": "353-frequency-denominator",
+      "version": "0.2",
+      "currentQuestionHash": "801feb6cd82b493632d0397d0604b0197b5e1557cfc8a27c97deae274e8d9704",
+      "originalQuestion": {
+        "id": "frq-d4",
+        "type": "multi",
+        "difficulty": "application",
+        "stem": "隔日：看到几项百分比总和超过100%，先查什么？",
+        "options": [
+          "是否允许多选以及分母定义",
+          "不用看说明，直接改小某项频数",
+          "数据对象、缺失及舍入精度"
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A与C都是解释合计的必要信息。B在未核对前篡改数据。本题不保证所有超100%的表都正确，仍需逐项核对。"
+      },
+      "sourceIds": [
+        "SCOT_SHS2015_TABLES",
+        "OFQUAL_ROUNDING2026"
+      ],
+      "sourceAnchor": {
+        "position": "SHS84、87、91；Ofqual85–87",
+        "claim": "检查多选、分母、缺失和显示精度，有直接报告方法依据。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": [
+        0,
+        2
+      ],
+      "answerText": [
+        "是否允许多选以及分母定义",
+        "数据对象、缺失及舍入精度"
+      ],
+      "applicationBoundary": "并非全部超过100%的表都正确；来源只列可能原因，仍需看题设，不能借此免除错误核查。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "353-health-indicators-ethics-d1",
+      "course": "353-health-indicators-ethics",
+      "version": "0.1-issue8-b",
+      "currentQuestionHash": "3cbe3990fce8ffc08b3e62a302fe0d6c6926b842d9c9deb62232e3bef012b524",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日某人把当年死亡者平均年龄称出生预期寿命，哪项正确？",
+        "options": [
+          "两者永远相同",
+          "预期寿命基于年龄别死亡水平和生命表，两者不同",
+          "平均年龄能保证每个新生儿寿命"
+        ],
+        "answer": 1,
+        "explanation": "生命表推算量不等于当年死亡者简单平均，后者受年龄结构等影响；也不保证个人寿命。",
+        "id": "353-health-indicators-ethics-d1",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "PH01"
+        ]
+      },
+      "sourceIds": [
+        "ONS_LIFETABLE_GUIDE2019"
+      ],
+      "sourceAnchor": {
+        "position": "HTML75–82、101–122、164–192",
+        "claim": "时期预期寿命由年龄别死亡水平和假想生命表生存/人年构建。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": 1,
+      "answerText": "预期寿命基于年龄别死亡水平和生命表，两者不同",
+      "applicationBoundary": "所以其定义不是对当年实死者年龄直接求均值；这一排除与个体寿命不保证为内部解释，未由此审定原课所有生命表内容。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "353-health-promotion-behaviour-b2",
+      "course": "353-health-promotion-behaviour",
+      "version": "0.1-issue8-b",
+      "currentQuestionHash": "cb43e97ec2cdbf678dfeac4ea504e4f9792462100574ed1281f46041f0fc2ba8",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "说明会到场120人可以直接作为哪项证据？",
+        "options": [
+          "长期慢病已减少",
+          "一次活动触达情况",
+          "因果效果已确定"
+        ],
+        "answer": 1,
+        "explanation": "到场属于过程或触达指标，不自动代表持续行为、健康结局或干预因果效果。",
+        "id": "353-health-promotion-behaviour-b2",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "PH06"
+        ]
+      },
+      "sourceIds": [
+        "CDC_LOGICMODEL2024",
+        "CDC_EVALUATION_FRAMEWORK2024"
+      ],
+      "sourceAnchor": {
+        "position": "Logic Model49–63、72–82；Framework255–258、739–754",
+        "claim": "活动的直接产出与长期健康结果、因果影响不是同一种指标；触达属于过程问题。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": 1,
+      "answerText": "一次活动触达情况",
+      "applicationBoundary": "120人到场的题设只允许作一次到场/触达记录，没有长期慢病或对照因果测量。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "353-health-promotion-behaviour-d1",
+      "course": "353-health-promotion-behaviour",
+      "version": "0.1-issue8-b",
+      "currentQuestionHash": "601c1678ea05db9e74934877439e59d0f44ca300a296cf3a34829cde232000c0",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日项目只增加了海报数量，能否说明健康促进成功？",
+        "options": [
+          "能，投入越多结果必好",
+          "不能，仍需触达、行为、环境和权益结果",
+          "不能评价任何健康干预"
+        ],
+        "answer": 1,
+        "explanation": "海报是活动投入/产出，需与实际目标和受益情况相联系；既不保证成功，也不意味着无法评价。",
+        "id": "353-health-promotion-behaviour-d1",
+        "difficulty": "delayed-transfer",
+        "sourceRefs": [
+          "PH06"
+        ]
+      },
+      "sourceIds": [
+        "CDC_LOGICMODEL2024",
+        "CDC_EVALUATION_FRAMEWORK2024"
+      ],
+      "sourceAnchor": {
+        "position": "Logic Model49–63；Framework255–258、739–754",
+        "claim": "资源/活动/产出不自动等同已达到的结果，还需按目标评估。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": 1,
+      "answerText": "不能，仍需触达、行为、环境和权益结果",
+      "applicationBoundary": "海报数量按记录方式可属材料投入或制作产出；本题答案不要求唯一归类，仅否定其单独证明健康促进成功。环境和权益为本题评价扩展，非来源保证全部指标必备。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "353-health-promotion-behaviour-b3",
+      "course": "353-health-promotion-behaviour",
+      "version": "0.1-issue8-b",
+      "currentQuestionHash": "835bc933864a8793325a1c14d5d7a5d2466cd34011d3263bac54d3f3e3d53d44",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "松岭公开每人健康排名并强制同一活动，哪项最合理？",
+        "options": [
+          "总是最佳促进措施",
+          "应评估参与、自主、隐私、可及性与风险",
+          "健康促进从不需要任何评价"
+        ],
+        "answer": 1,
+        "explanation": "应结合人群需求、权益和支持条件设计参与式方案，不能用强制排名替代证据与合理选择。",
+        "id": "353-health-promotion-behaviour-b3",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "PH06"
+        ]
+      },
+      "sourceIds": [
+        "CDC_EVALUATION_FRAMEWORK2024"
+      ],
+      "sourceAnchor": {
+        "position": "HTML142–146、359–361、745–754、827",
+        "claim": "评价应保护尊严、权利、隐私与公平，并检查触达/适配及意外后果。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": 1,
+      "answerText": "应评估参与、自主、隐私、可及性与风险",
+      "applicationBoundary": "一般评价伦理支持先评估方案，未证明强制排名一定违法或某活动一定不适合；自主和可及性的具体实施仍待专业/适用规则复核。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    },
+    {
+      "id": "353-health-indicators-ethics-b3",
+      "course": "353-health-indicators-ethics",
+      "version": "0.1-issue8-b",
+      "currentQuestionHash": "4d1ad56e3a08db4de5b0a36a1834add895295441f359521652a25e8c0550498b",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "荷浦拟公开实名病史，哪项更符合本课伦理分析？",
+        "options": [
+          "为群体好就不需隐私",
+          "先核对必要性，考虑聚合与受控访问等替代",
+          "删除所有数据以免评价"
+        ],
+        "answer": 1,
+        "explanation": "应兼顾可评价性与隐私，采用必要且较少侵扰的方法并核对规则；不是绝不使用资料，也不是不受限制公开。",
+        "id": "353-health-indicators-ethics-b3",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "PH01"
+        ]
+      },
+      "sourceIds": [
+        "CDC_EVALUATION_FRAMEWORK2024"
+      ],
+      "sourceAnchor": {
+        "position": "HTML143、359–361、827",
+        "claim": "评价数据使用及呈现应保护隐私和保密，避免公布可识别人信息。"
+      },
+      "sourceSubclaimSupported": true,
+      "independentlyReasonedAnswer": 1,
+      "answerText": "先核对必要性，考虑聚合与受控访问等替代",
+      "applicationBoundary": "核对必要性、聚合与受控访问是据保护原则提出的替代方案，原文不为该虚构实名病史项目给出特定合法性或发布批准；仅隐私子主张直接支持。",
+      "fullQuestionVerified": false,
+      "independentProfessionalApproved": false,
+      "minimalRevision": "本轮未发现需改原题/答案的确定性错误；原题及公共队列保持不变。"
+    }
+  ],
+  "notClosed": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1"
+  ],
+  "notClosedReason": "本次有界补核未逐题读到对应直接证据；不以相邻评价原则移除这些ID。",
+  "unusedCandidate": {
+    "url": "https://explore-education-statistics.service.gov.uk/methodology/childcare-and-early-years-survey-of-parents",
+    "status": "已打开2026方法页，但仅回显到表述章节开头，未定位百分比段；不用搜索摘要作第三依据。"
+  },
+  "hashValidation": {
+    "checked": 8,
+    "matchedCurrentReconciledHash": 8,
+    "questionContentChanged": 0
+  },
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false
+}
