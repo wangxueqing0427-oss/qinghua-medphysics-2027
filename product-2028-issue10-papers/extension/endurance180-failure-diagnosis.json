@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-17",
+  "originalRun": 44011759231,
+  "originalSHA": "6d5f1f0e1e5d26f235d3783c187a640fbf0aa5bb",
+  "originalConclusion": "failure",
+  "actualDurationMs": 10802465,
+  "checkpoints": 180,
+  "answersAndDeadlinePreserved": true,
+  "finalFailure": "null !== 'timeout'",
+  "rootCause": "Async predicate in page.waitForFunction returned Promise(false), which polling treated as truthy and returned before the1-second UI ticker persisted timeout.",
+  "diagnosticRun": 44033797027,
+  "diagnosticSHA": "8c932ef84afe1c544c91455710eec06f0251a91f",
+  "diagnosticJob": 133871713791,
+  "diagnosticConclusion": "success",
+  "asyncFalseWaiter": {
+    "returned": false,
+    "elapsedMs": 19
+  },
+  "realShortTimeout": {
+    "deadline": "2026-11-17T06:48:02.008Z",
+    "submitted": "2026-11-17T06:48:02.548Z",
+    "lagMs": 540,
+    "answersPreserved": true
+  },
+  "boundaryIs180MinuteEvidence": false,
+  "physicalIPhone": false,
+  "originalScriptUntouched": true,
+  "correctedScript": "endurance180-corrected.cjs",
+  "new180RunStarted": false,
+  "overall180GatePassed": false,
+  "diagnosticFixtureFailure": {
+    "run": 44033712372,
+    "sha": "3480382920e4917554a8aa4569f040f0ce4455a0",
+    "reason": "Fixture initially referenced MockExam rather than actual global MockExamEngine; fixed to actual export in8c932ef. No runtime change."
+  }
+}

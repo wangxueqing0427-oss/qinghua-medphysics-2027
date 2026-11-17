@@ -1,8 +1,8 @@
-name: Real180minute mobile WebKit endurance
+name: Real180minute corrected mobile WebKit endurance
 on:
   push:
     branches: [candidate/2026-11-17-clause-continuation]
-    paths: [product-2028-issue10-papers/extension/endurance180.cjs, .github/workflows/2028-clause-endurance180.yml]
+    paths: [product-2028-issue10-papers/extension/endurance180-corrected.cjs, .github/workflows/2028-clause-endurance180.yml]
 permissions:
   contents: read
 jobs:
@@ -23,7 +23,7 @@ jobs:
       - working-directory: product-2028-ci
         run: npm install --ignore-scripts --no-audit --no-fund
       - run: node product-2028-issue10-papers/extension/verify.cjs
-      - run: node product-2028-issue10-papers/extension/endurance180.cjs
+      - run: node product-2028-issue10-papers/extension/endurance180-corrected.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
