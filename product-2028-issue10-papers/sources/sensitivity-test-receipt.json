@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "queue exact and disjoint",
+      "passed": true
+    },
+    {
+      "name": "original question provenance",
+      "passed": true
+    },
+    {
+      "name": "independent denominator answer",
+      "passed": true
+    },
+    {
+      "name": "explicit source and interpretation boundaries",
+      "passed": true
+    },
+    {
+      "name": "candidate content unchanged",
+      "passed": true
+    }
+  ],
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "5b85c72eb4bf0d45963399641be089ada690466a48dc8c38d52b845c74f6570e",
+  "scope": "evidence consistency; not clinical validation or expert approval"
+}

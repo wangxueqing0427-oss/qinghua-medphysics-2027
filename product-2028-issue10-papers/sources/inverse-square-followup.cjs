@@ -1,0 +1,27 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../..');
+const queueFile=path.join(root,'audit-2028/evidence/2026-11-17-papers-delivery/remaining-sources-245.json');
+const packFile=path.join(root,'product-2028-issue10-papers/.build/representative-courses.json');
+const hash=x=>crypto.createHash('sha256').update(x).digest('hex');
+const packHash=hash(fs.readFileSync(packFile)),queueHash=hash(fs.readFileSync(queueFile));
+const queue=JSON.parse(fs.readFileSync(queueFile)),pack=JSON.parse(fs.readFileSync(packFile));
+const id='353-radiation-protection-foundation-a1';
+const u=pack.units.find(x=>x.id==='353-radiation-protection-foundation');
+const q=u.applicationQuestions.find(x=>x.id===id);
+assert.equal(queue.count,245);assert.equal(queue.rows.filter(x=>x.id===id).length,1);
+assert.equal(hash(JSON.stringify(q)),queue.rows.find(x=>x.id===id).questionHash);
+const evidence={date:'2026-11-17',kind:'AI internal source follow-up; not independent professional approval',previousQueue:245,newDirectSubclaimAnchors:1,remainingQueueCount:244,
+ sources:[{id:'DOE1122-99-POINT',agency:'US Department of Energy',title:'DOE-HDBK-1122-99 Module 1.11 External Exposure Control Study Guide',version:'1999 historical training handbook; not claimed current Chinese regulation',url:'https://www.energy.gov/sites/prod/files/2013/07/f2/hdbk-1122-04_sg111_0.pdf',readStatus:'specified PDF text sections actually read',actualRead:'PDF pages 10–13 (one-based), printed 1.11-10–1.11-13: point-source geometry, isotropic spreading, inverse-square equation, negligible intervening attenuation and small source/detector dimensions. Formula extracted as text, not screenshot verification.',limits:'Do not adopt historical operational limits, source-distance heuristics or clinical protocols as current requirements.'},
+ {id:'MOE-EXTERNAL-DOSE',agency:'Ministry of the Environment, Japan',title:'Characteristics of External Exposure Doses',version:'Booklet fourth edition; page states updated 2019-03-31, hosted under 2023 path; no inferred 2023 revision',url:'https://www.env.go.jp/en/chemi/rhm/basic-info/2023/02-04-07.html',readStatus:'actual HTML body',actualRead:'Chapter 2.4 body paragraphs on point-source inverse square, distributed sources, air attenuation; HTML lines14–19 in retrieval',limits:'Supports elementary geometry limitations; not medical shielding design or patient risk calculation.'}],
+ rows:[{id,course:u.id,version:u.version,originalQuestion:q,questionSHA256:hash(JSON.stringify(q)),sources:['DOE1122-99-POINT','MOE-EXTERNAL-DOSE'],directSupport:['Point-like source/detector geometry relative to separation','Inverse-square scaling requires negligible intervening attenuation','Extended source geometry and air attenuation can invalidate a direct inverse-square dose-rate prediction'],conditionalSupport:'Negligible change in scattered contribution is a limitation of applying the ideal primary-field model; the cited text does not provide a numerical scatter threshold.',independentlyReasonedAnswer:0,answerReason:'A states ideal geometry and transport limitations. B asserts universality contradicted by distributed geometry and attenuation; C permits arbitrary energy/beam changes, violating comparable-source conditions.',minimalRevision:'No answer or course edit. Retain ideal-model wording; do not infer clinical safe distance or universal scatter tolerance.',confirmedP0P1:false,fullQuestionVerified:false,expertApproved:false}],
+ failedSources:[{url:'https://goldbook.iupac.org/terms/view/I03145',result:'403 Forbidden from actual open; search excerpt not treated as body evidence'}],removedIds:[id],remainingIds:queue.rows.filter(x=>x.id!==id).map(x=>x.id),independentProfessionalApprovals:0};
+fs.writeFileSync(path.join(__dirname,'inverse-square-followup.json'),JSON.stringify(evidence,null,2)+'\n');
+const checks=[];function check(name,f){f();checks.push({name,passed:true});}
+check('original question hash matches exact queue',()=>assert.equal(evidence.rows[0].questionSHA256,queue.rows.find(x=>x.id===id).questionHash));
+check('queue arithmetic and uniqueness',()=>{assert.equal(evidence.remainingIds.length,244);assert.equal(new Set(evidence.remainingIds).size,244);assert(!evidence.remainingIds.includes(id));});
+check('independent answer agrees without changing content',()=>assert.equal(evidence.rows[0].independentlyReasonedAnswer,q.answer));
+check('actual reading versus failed source distinguished',()=>{assert(evidence.sources.every(x=>x.actualRead&&x.limits));assert.equal(evidence.failedSources.length,1);});
+check('no professional approval or full-question overclaim',()=>{assert.equal(evidence.independentProfessionalApprovals,0);assert.equal(evidence.rows[0].expertApproved,false);assert.equal(evidence.rows[0].fullQuestionVerified,false);});
+check('protected inputs unchanged',()=>{assert.equal(hash(fs.readFileSync(queueFile)),queueHash);assert.equal(hash(fs.readFileSync(packFile)),packHash);});
+fs.writeFileSync(path.join(__dirname,'inverse-square-test-receipt.json'),JSON.stringify({date:'2026-11-17',checks,passed:checks.length,failed:0,packHash,queueHash,evidenceSHA256:hash(fs.readFileSync(path.join(__dirname,'inverse-square-followup.json'))),scope:'record consistency and original preservation, not scientific approval'},null,2)+'\n');
+console.log(JSON.stringify({passed:checks.length,remaining:244}));

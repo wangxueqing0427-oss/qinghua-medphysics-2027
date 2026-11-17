@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-17",
+  "checks": [
+    {
+      "name": "original question hash matches exact queue",
+      "passed": true
+    },
+    {
+      "name": "queue arithmetic and uniqueness",
+      "passed": true
+    },
+    {
+      "name": "independent answer agrees without changing content",
+      "passed": true
+    },
+    {
+      "name": "actual reading versus failed source distinguished",
+      "passed": true
+    },
+    {
+      "name": "no professional approval or full-question overclaim",
+      "passed": true
+    },
+    {
+      "name": "protected inputs unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "packHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "queueHash": "c83886dac0131a233b0750f84c8cf0aeb2c8e88ec7e83134a7aa19f6800a20da",
+  "evidenceSHA256": "b4f93070104f93a1bc43dacba7b301d33ab474b73cf8cc302d5b42dec42a014f",
+  "scope": "record consistency and original preservation, not scientific approval"
+}

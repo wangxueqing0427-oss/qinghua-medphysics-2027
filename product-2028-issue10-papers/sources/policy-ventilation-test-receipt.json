@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-17",
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "two exact new queue members",
+      "passed": true
+    },
+    {
+      "name": "all original question hashes preserved",
+      "passed": true
+    },
+    {
+      "name": "answers independently checked unchanged",
+      "passed": true
+    },
+    {
+      "name": "version and reading limits present",
+      "passed": true
+    },
+    {
+      "name": "no whole-question or expert approval",
+      "passed": true
+    },
+    {
+      "name": "candidate content byte-identical",
+      "passed": true
+    }
+  ],
+  "protectedPackHash": "6f88d4bef21133f53d13ce28a4eab45e0b9f1eeac3d68bc1a9f6cbf32b8924a6",
+  "evidenceSHA256": "0c97b52dd3e43b1a320dd80e920ea0d0c36a4576704ddd3eeb396d7d35afac21"
+}
