@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "parallel-source-followup.json",
-  "activeEvidenceSHA256": "9ebf74d0437e1c4c67ec92abd2bda9edea405335b013a8e441de14c610875fb8",
-  "remainingCount": 31,
-  "remainingIdsSHA256": "f9cfc2639df3abb9c803f7c32aad282ea61b6262b1cce4bf98e9196beebdcb24",
+  "activeEvidenceFile": "text-and-diagnostic-followup.json",
+  "activeEvidenceSHA256": "a94abf5e1997204be95e55050a7164d9808bfbb6ef8963752eeb03d1465b2376",
+  "remainingCount": 4,
+  "remainingIdsSHA256": "693143e2f041dfaf7dca2f434f0a50fef83bd886ecb3198b4212f7f5430be3d1",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "Specific source anchors only; not whole question or independent professional approval.",
+  "warning": "31 external subclaim anchors and24 original-text evidence checks this sprint; none imply whole-question expert approval. Four source/classification gaps retained.",
   "expertApprovals": 0
 }

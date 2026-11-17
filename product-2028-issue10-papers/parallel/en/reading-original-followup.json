@@ -1,0 +1,1120 @@
+{
+  "date": "2026-11-17",
+  "scope": "仅24道原创阅读选择/多选题，不包含主观题或课程修改",
+  "actualRead": "本轮完整读取原创A(7句)、B(6句)、L(12句)、G(12句)，再输出无答案的24个题干及选项独立推理；现有答案仅最后比对，不作为证据。",
+  "sourcesClassification": "原创虚构教学文本为题内证据；不机械给虚构故事套外部权威来源",
+  "passages": [
+    {
+      "course": "en-reading-evidence-foundation",
+      "passageId": "A",
+      "classification": "original-fictional-teaching-text",
+      "text": "A1 Rui studied six new words on Monday.\nA2 He read his note once.\nA3 On Tuesday, he remembered two words.\nA4 Leah shared a new plan: cover the note, recall the words, and then check them.\nA5 They tried this plan for three days.\nA6 On Friday, Rui remembered five words.\nA7 This small result is evidence about Rui's learning, not a rule for everyone.",
+      "textSHA256": "578f2e8a87575e0154b685070cbca547b005a1bcde7fd066f6d341366c0f7e02",
+      "hashEncoding": "UTF-8 sentence id + space + text, joined by LF; no terminal newline",
+      "paragraphGroups": null,
+      "paragraphBoundaryNote": "原课程无自然段分组，按A/B篇及句号定位，不编段落号。",
+      "externalAuthorityVerified": false
+    },
+    {
+      "course": "en-reading-evidence-foundation",
+      "passageId": "B",
+      "classification": "original-fictional-teaching-text",
+      "text": "B1 Nora studied four new words on Saturday.\nB2 She read a note twice.\nB3 On Sunday, she remembered one word.\nB4 Then she covered the note, recalled the words and checked them.\nB5 On Monday, she remembered three words.\nB6 This result describes Nora, not every learner.",
+      "textSHA256": "11602a4479ee8e2b85cb5480d8c527bd5dfa8a2adfc9c81238d52bbdb7667300",
+      "hashEncoding": "UTF-8 sentence id + space + text, joined by LF; no terminal newline",
+      "paragraphGroups": null,
+      "paragraphBoundaryNote": "原课程无自然段分组，按A/B篇及句号定位，不编段落号。",
+      "externalAuthorityVerified": false
+    },
+    {
+      "course": "en-reading-library-evidence",
+      "passageId": "L",
+      "classification": "original-fictional-teaching-text",
+      "text": "L1 When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked.\nL2 Although the building was safer than before, the first month brought fewer visitors than the staff had expected.\nL3 A survey, which included people who had not visited the library, suggested that its opening hours were a problem for evening workers.\nL4 Many respondents said that they trusted the library but could not arrive before it closed at five.\nL5 The staff therefore tested two late evenings each week, while keeping the same total number of opening hours.\nL6 They moved some quiet morning hours to the evening rather than asking staff to work longer.\nL7 During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits.\nL8 This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors.\nL9 Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier.\nL10 The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable.\nL11 The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach.\nL12 A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem.",
+      "textSHA256": "f9861475093eacdd146b9ea6ce9842f4c92659288b8da586019f8cae6d5717fa",
+      "hashEncoding": "UTF-8 sentence id + space + text, joined by LF; no terminal newline",
+      "paragraphGroups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          9,
+          10,
+          11,
+          12
+        ]
+      ],
+      "paragraphBoundaryNote": "按课程明示三段分组",
+      "externalAuthorityVerified": false
+    },
+    {
+      "course": "en-reading-garden-writing",
+      "passageId": "G",
+      "classification": "original-fictional-teaching-text",
+      "text": "G1 A neighbourhood group wanted to turn an unused yard into a shared garden where residents could grow vegetables and meet one another.\nG2 Instead of announcing a final plan, the organisers invited comments from tenants, including those who could not attend the first meeting.\nG3 Several older residents welcomed the idea, but they worried about narrow paths and the distance from their homes.\nG4 The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting.\nG5 A volunteer called the revised design less productive because it contained fewer planting beds.\nG6 Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables.\nG7 After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health.\nG8 These records described how the space was used; they did not prove that the garden had made residents healthier.\nG9 Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter.\nG10 Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly.\nG11 The debate was not a choice between evidence and values: accurate records were needed to compare options, while residents still had to decide what benefits mattered.\nG12 The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change.",
+      "textSHA256": "c8b6f3b9c0e1fa6c09c9735811f9bebc75431152030e1db4a1e738f5981a033d",
+      "hashEncoding": "UTF-8 sentence id + space + text, joined by LF; no terminal newline",
+      "paragraphGroups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          9,
+          10,
+          11,
+          12
+        ]
+      ],
+      "paragraphBoundaryNote": "按课程明示三段分组",
+      "externalAuthorityVerified": false
+    }
+  ],
+  "rows": [
+    {
+      "id": "en-reading-evidence-foundation-b1",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "b778a667632e4f1a9d6a8c00e25f46feab6e267c510f61d720dadd79d22ce3d0",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "周二Rui记住多少词？",
+      "options": [
+        "two",
+        "six",
+        "five"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "two",
+      "classification": "direct-location",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A3",
+          "paragraph": null,
+          "text": "On Tuesday, he remembered two words."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "周二 remembered two；six是周一所学，five是周五所忆。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-b2",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "b4bd5c76362fbb17254d678079eb2c05a679aa801582b3a244ede73d4f850028",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "A2的He最明确指谁？",
+      "options": [
+        "Leah",
+        "Rui",
+        "所有学生"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "Rui",
+      "classification": "contextual-reference",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A1",
+          "paragraph": null,
+          "text": "Rui studied six new words on Monday."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A2",
+          "paragraph": null,
+          "text": "He read his note once."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "A1仅引入Rui，紧接He延续该人物；Leah尚未出现，也无全体学生。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-b3",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "88a0ac0ffce3cf4987e7e61eede3b0e695f14edd4497a2e84ea7ef980b7ffbe9",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "哪项结论最受短文支持？",
+      "options": [
+        "方案对任何人必然有效",
+        "五个词都是新学而从未学过的",
+        "Rui这次的记忆记录改善，但不能保证所有人有效"
+      ],
+      "type": "single",
+      "independentAnswer": 2,
+      "independentAnswerText": "Rui这次的记忆记录改善，但不能保证所有人有效",
+      "classification": "bounded-inference",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A3",
+          "paragraph": null,
+          "text": "On Tuesday, he remembered two words."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A6",
+          "paragraph": null,
+          "text": "On Friday, Rui remembered five words."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A7",
+          "paragraph": null,
+          "text": "This small result is evidence about Rui's learning, not a rule for everyone."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "同一人物回忆记录two到five，末句明确只关于Rui；不能保证普遍效果或五词全新。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-b4",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "d9a9fd0ae247a9340cf32d508f629189c8d904a881d549cae39545d8c6b0889a",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "哪种简答最符合证据要求？",
+      "options": [
+        "依据A3和A6说两词到五词，并保留A7限制",
+        "只写这个方法神奇",
+        "只说我也喜欢笔记"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "依据A3和A6说两词到五词，并保留A7限制",
+      "classification": "textual-evidence-response-strategy",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A3",
+          "paragraph": null,
+          "text": "On Tuesday, he remembered two words."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A6",
+          "paragraph": null,
+          "text": "On Friday, Rui remembered five words."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A7",
+          "paragraph": null,
+          "text": "This small result is evidence about Rui's learning, not a rule for everyone."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "第一选项同时给出变化、原句和范围；其余是夸赞或个人喜好，未给相关证据。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-a1",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "631574e717d74a384a9f63430a302415caf474d583eafe59dfc5be4bb66e96a0",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "从周一所学到周五记住，正确对应是哪项？",
+      "options": [
+        "周一五、周五六",
+        "周一六、周五五",
+        "两天都是二"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "周一六、周五五",
+      "classification": "direct-location",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A1",
+          "paragraph": null,
+          "text": "Rui studied six new words on Monday."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A6",
+          "paragraph": null,
+          "text": "On Friday, Rui remembered five words."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "Monday studied six与Friday remembered five分别是学习数和回忆数，不是同一测量。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-a2",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "a6c23deebd7da1317232952517758cd448675df4f4b04e76baffe7e76094db7d",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "A4中check them的them指什么？",
+      "options": [
+        "所有人",
+        "笔记",
+        "词"
+      ],
+      "type": "single",
+      "independentAnswer": 2,
+      "independentAnswerText": "词",
+      "classification": "contextual-reference",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A4",
+          "paragraph": null,
+          "text": "Leah shared a new plan: cover the note, recall the words, and then check them."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "recall the words再check them，复数words在数量和动作语义上同时匹配them；note单数，人群未出现。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-a3",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "b915fd8267d013933dcbbc75f46e00ac3ff22a79aceef17409a7aef7e5ebfc8e",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "A5和A6先后出现，能否证明方案单独导致改善？",
+      "options": [
+        "不能；只是该次先后记录，其他因素未控制",
+        "能；只要写then就是因果",
+        "能；有三天就足够普遍"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "不能；只是该次先后记录，其他因素未控制",
+      "classification": "bounded-inference",
+      "evidence": [
+        {
+          "passageId": "A",
+          "sentenceId": "A5",
+          "paragraph": null,
+          "text": "They tried this plan for three days."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A6",
+          "paragraph": null,
+          "text": "On Friday, Rui remembered five words."
+        },
+        {
+          "passageId": "A",
+          "sentenceId": "A7",
+          "paragraph": null,
+          "text": "This small result is evidence about Rui's learning, not a rule for everyone."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "尝试方案后记录改变，文本没有对照或排除其他因素，A7又拒绝普遍规则；先后和三天均不足以独立证明因果。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-d1",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "1fdbfaaf5104542607fde20195c728b6e46a11a833b1992a2aa20aeded16c9d1",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "隔日新文中，Nora周日记住多少词？",
+      "options": [
+        "four",
+        "one",
+        "three"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "one",
+      "classification": "direct-location",
+      "evidence": [
+        {
+          "passageId": "B",
+          "sentenceId": "B3",
+          "paragraph": null,
+          "text": "On Sunday, she remembered one word."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "Sunday remembered one，four是Saturday所学，three是Monday回忆。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-d2",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "4b1bf5f5a19715ce4f40f062728c9953dc98b95b4d8972823479255e83e2489b",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "B4末尾checked them中的them指什么？",
+      "options": [
+        "Nora",
+        "那条笔记",
+        "词"
+      ],
+      "type": "single",
+      "independentAnswer": 2,
+      "independentAnswerText": "词",
+      "classification": "contextual-reference",
+      "evidence": [
+        {
+          "passageId": "B",
+          "sentenceId": "B4",
+          "paragraph": null,
+          "text": "Then she covered the note, recalled the words and checked them."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "recalled the words后checked them回接复数words；Nora与note均单数且语义不合。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-evidence-foundation-d3",
+      "course": "en-reading-evidence-foundation",
+      "version": "0.1",
+      "questionSHA256": "caa3e590529a6213559be3d8129147ea63420441f16759668609ac8824a2f3cb",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "新文哪种结论适当？",
+      "options": [
+        "Nora周日到周一回忆记录变好，但不代表每个人",
+        "每个人一定三天学会全部单词",
+        "Nora再也不会遗忘"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "Nora周日到周一回忆记录变好，但不代表每个人",
+      "classification": "bounded-inference",
+      "evidence": [
+        {
+          "passageId": "B",
+          "sentenceId": "B3",
+          "paragraph": null,
+          "text": "On Sunday, she remembered one word."
+        },
+        {
+          "passageId": "B",
+          "sentenceId": "B5",
+          "paragraph": null,
+          "text": "On Monday, she remembered three words."
+        },
+        {
+          "passageId": "B",
+          "sentenceId": "B6",
+          "paragraph": null,
+          "text": "This result describes Nora, not every learner."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "one到three描述Nora的记录改善，B6拒绝每位学习者外推；没有永不遗忘或人人全部掌握。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-b1",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "fc93807380121f7b47c98695fdca92d6e1de5c92b82e1d1574d71788f32e0d48",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "L2中Although的作用是什么？",
+      "options": [
+        "说明楼更安全导致来客减少",
+        "承认改善，同时引出与期待相反的观察",
+        "说明楼仍不安全"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "承认改善，同时引出与期待相反的观察",
+      "classification": "local-discourse-relation",
+      "evidence": [
+        {
+          "passageId": "L",
+          "sentenceId": "L1",
+          "paragraph": 1,
+          "text": "When a small town library reopened after repairs, its staff expected visitors to return as soon as the doors were unlocked."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L2",
+          "paragraph": 1,
+          "text": "Although the building was safer than before, the first month brought fewer visitors than the staff had expected."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "although承认建筑更安全，主句却是人数低于期待；未断言安全改善导致来客减少，也未说仍不安全。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-b2",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "d6657275d33f34a7da2400138468f65ff4884ca8fb3b06eec0a7d0db213bb116",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "L7的distinct people与repeat visits区别最合理的是？",
+      "options": [
+        "都是独立新用户人数",
+        "前者是不同的人，后者可能由同一人多次形成",
+        "两者都是员工工时"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "前者是不同的人，后者可能由同一人多次形成",
+      "classification": "contextual-vocabulary-and-reference",
+      "evidence": [
+        {
+          "passageId": "L",
+          "sentenceId": "L7",
+          "paragraph": 2,
+          "text": "During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L8",
+          "paragraph": 2,
+          "text": "This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "原文明分distinct people与repeat visits，L8说明可能是旧访客习惯变化，故重复到访不能当独立新人数。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-b3",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "dfd0e5607e85236d345886c8b47ea94dc892b7408dc49ba0d81c97b1e80cdd96",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "L8的This limitation主要指什么？",
+      "options": [
+        "未分别统计不同访客与重复到访",
+        "建筑未维修",
+        "不允许访客填写问卷"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "未分别统计不同访客与重复到访",
+      "classification": "contextual-reference",
+      "evidence": [
+        {
+          "passageId": "L",
+          "sentenceId": "L7",
+          "paragraph": 2,
+          "text": "During the eight-week trial, evening visits increased, but the library did not count distinct people separately from repeat visits."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L8",
+          "paragraph": 2,
+          "text": "This limitation made it difficult to decide whether the change had attracted new users or simply changed the habits of regular visitors."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "This limitation紧承未将不同人和重复来访分开统计；维修在L1已完成且问卷确已实行。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-a2",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "a5cc785735fd9b8d3ca0dea64bd556d935a46c028e0a38c27eb16ae593923747",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "根据L5—L6，试行如何安排员工时间？",
+      "options": [
+        "增加每周总工时",
+        "把部分清闲上午时段移至晚间，非增加总开放小时",
+        "取消所有上午开放"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "把部分清闲上午时段移至晚间，非增加总开放小时",
+      "classification": "direct-location",
+      "evidence": [
+        {
+          "passageId": "L",
+          "sentenceId": "L5",
+          "paragraph": 2,
+          "text": "The staff therefore tested two late evenings each week, while keeping the same total number of opening hours."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L6",
+          "paragraph": 2,
+          "text": "They moved some quiet morning hours to the evening rather than asking staff to work longer."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "保持总开放小时并把部分清闲上午移到晚上；rather than排除延长员工工作，some排除取消全部上午。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-a3",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "dda1aeb39dfeeaa1d8854f93872b3a8504d30768de03a4b107ce7655abb79282",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "哪些判断获得文章直接支持或谨慎推断？",
+      "options": [
+        "后续调查应关注仍无法到访的人",
+        "所有人都更喜欢晚间且无成本",
+        "仅延时未消除所有障碍"
+      ],
+      "type": "multi",
+      "independentAnswer": [
+        0,
+        2
+      ],
+      "independentAnswerText": [
+        "后续调查应关注仍无法到访的人",
+        "仅延时未消除所有障碍"
+      ],
+      "classification": "direct-plus-bounded-inference",
+      "evidence": [
+        {
+          "passageId": "L",
+          "sentenceId": "L9",
+          "paragraph": 3,
+          "text": "Some parents also reported that the last bus left too early, so later opening alone did not remove every barrier."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L10",
+          "paragraph": 3,
+          "text": "The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L11",
+          "paragraph": 3,
+          "text": "The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "L9说末班车太早且延时未移除全部障碍；L10再调查与讨论交通，支持关注仍无法到访者；无人人偏好和零成本。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-d1",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "b8b227f0afc5f192c3fb74f21d4f69f97cc5ebd1fbde68e0ce392a36039bf5a0",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "隔日新句Although the rooms were repaired, attendance remained low because transport was limited. 哪项逻辑正确？",
+      "options": [
+        "维修导致所有交通问题",
+        "维修已完成但到访仍少，后者有交通受限的解释",
+        "到访增加证明维修有效"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "维修已完成但到访仍少，后者有交通受限的解释",
+      "classification": "original-transfer-sentence-interpretation",
+      "evidence": [],
+      "transferSentence": "Although the rooms were repaired, attendance remained low because transport was limited.",
+      "transferTextSHA256": "a45a346cc08f04c32fc840168c6c87d7775e13c85dda2a258177db001b032e7d",
+      "reasoning": "题干新句although承认房间修复，主句attendance remained low；because给出transport limited的解释。不写维修导致全部交通问题，也没说到访上升。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-library-evidence-d3",
+      "course": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "f614cad0ae73d6b9832b791c0cebbf6fee1639ba9d32aa558316dd993e0b7526",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "隔日有人把文章主旨写为“所有图书馆都必须延时”。应怎样纠正？",
+      "options": [
+        "文章强调根据人群证据评价方案，而非通用命令",
+        "原文已证明全体人群健康提升",
+        "只要问卷就能证明因果"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "文章强调根据人群证据评价方案，而非通用命令",
+      "classification": "main-idea-boundary",
+      "evidence": [
+        {
+          "passageId": "L",
+          "sentenceId": "L10",
+          "paragraph": 3,
+          "text": "The manager proposed discussing transport with local partners and repeating the survey before deciding on a permanent timetable."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L11",
+          "paragraph": 3,
+          "text": "The experiment did not show that every library should stay open later; it showed why a useful service needs evidence about the people it hopes to reach."
+        },
+        {
+          "passageId": "L",
+          "sentenceId": "L12",
+          "paragraph": 3,
+          "text": "A better timetable was a possibility to investigate, not a promise that repairing a building would solve every access problem."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "末两句明示非每馆通用延时命令，而是调查服务对象、评价可及性；未测健康，问卷不自动构成因果证明。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-b1",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "678124d4e353d292c10e57ce548566b898fc27932d2bbdeab478c40650733e28",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "G6的even if说明什么？",
+      "options": [
+        "菜越少所有人必越健康",
+        "即使产菜少仍可能因可及性等而有价值",
+        "产量和价值必须完全相等"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "即使产菜少仍可能因可及性等而有价值",
+      "classification": "local-discourse-relation",
+      "evidence": [
+        {
+          "passageId": "G",
+          "sentenceId": "G5",
+          "paragraph": 2,
+          "text": "A volunteer called the revised design less productive because it contained fewer planting beds."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G6",
+          "paragraph": 2,
+          "text": "Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "may/might是可能，even if引入产量更少的让步；仍可因更多人可用而有价值，不是健康保证或产值恒等。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-b2",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "712af52e8fc5c53ffb38711d2144e8a5d7352320d0894e1b9033b5ad59c4242d",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "G10的maintenance costs在语境中是什么？",
+      "options": [
+        "项目维护所需成本",
+        "首次收成的重量",
+        "与长期运行无关的访问次数"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "项目维护所需成本",
+      "classification": "contextual-vocabulary",
+      "evidence": [
+        {
+          "passageId": "G",
+          "sentenceId": "G10",
+          "paragraph": 3,
+          "text": "Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "costs of maintenance与扩大项目、分担公平相连，是维护花园的成本；不是重量或访问次数。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-b3",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "eb48c6a9a324b8f6a4891e068ea17b0f592f1509bc06f5e8f27e84ed02a7a180",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "G8中These records主要指什么？",
+      "options": [
+        "访问次数和收成重量记录",
+        "已测量的健康改善",
+        "所有居民投票结果"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "访问次数和收成重量记录",
+      "classification": "contextual-reference",
+      "evidence": [
+        {
+          "passageId": "G",
+          "sentenceId": "G7",
+          "paragraph": 2,
+          "text": "After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G8",
+          "paragraph": 2,
+          "text": "These records described how the space was used; they did not prove that the garden had made residents healthier."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "G7只记录visits和harvest weight，未量健康；These records紧承这两类记录，不存在居民投票记录。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-a2",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "4a9fc0081bc1e5824ffc93bebb43ab1994fa3be50b99c2a685b3a9661c121910",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "G5与G6对productive和valuable的使用说明什么？",
+      "options": [
+        "两词在这里一定完全同义",
+        "产量较少与可及性价值可以发生取舍",
+        "认为valuable就已证明健康改善"
+      ],
+      "type": "single",
+      "independentAnswer": 1,
+      "independentAnswerText": "产量较少与可及性价值可以发生取舍",
+      "classification": "comparison-and-bounded-inference",
+      "evidence": [
+        {
+          "passageId": "G",
+          "sentenceId": "G4",
+          "paragraph": 1,
+          "text": "The group revised its design by adding wider paths and a place to rest, although these changes left less space for planting."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G5",
+          "paragraph": 2,
+          "text": "A volunteer called the revised design less productive because it contained fewer planting beds."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G6",
+          "paragraph": 2,
+          "text": "Another replied that a garden which more neighbours could use might be valuable even if it produced fewer vegetables."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G7",
+          "paragraph": 2,
+          "text": "After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G8",
+          "paragraph": 2,
+          "text": "These records described how the space was used; they did not prove that the garden had made residents healthier."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "床数/产量减少是productive判断，更多人能使用是更广价值；G4明示空间取舍，G7—8不支持已证健康收益。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-a3",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "77062c44a8f468cecd5ac8e1a01bf2fa7a6c34f4736e4d2da1ad7ca6c9e3d711",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "依据G7—G10，哪些表述合理？",
+      "options": [
+        "应询问非使用者面临的障碍",
+        "未参加的人一定讨厌园艺",
+        "收成记录不能单独证明健康改善"
+      ],
+      "type": "multi",
+      "independentAnswer": [
+        0,
+        2
+      ],
+      "independentAnswerText": [
+        "应询问非使用者面临的障碍",
+        "收成记录不能单独证明健康改善"
+      ],
+      "classification": "direct-plus-bounded-inference",
+      "evidence": [
+        {
+          "passageId": "G",
+          "sentenceId": "G7",
+          "paragraph": 2,
+          "text": "After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G8",
+          "paragraph": 2,
+          "text": "These records described how the space was used; they did not prove that the garden had made residents healthier."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G9",
+          "paragraph": 3,
+          "text": "Nor could the organisers assume that people who stayed away disliked gardening, since work schedules and transport might also matter."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G10",
+          "paragraph": 3,
+          "text": "Before expanding the project, they planned to ask non-users about barriers and to check whether the costs of maintenance could be shared fairly."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "计划问未用者障碍，未测健康所以收成不能单独证明健康改善；G9明确禁止把不来等于讨厌。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-d1",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "b1110833baa479e7de5ba5c5f775e7b043d4e41b6266dd79fb5fc5ea47a10d26",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "隔日新句A service that more people can reach may be useful even if it earns less money. 哪项正确？",
+      "options": [
+        "that修饰service，may与even if保留可能和让步",
+        "收入少必证明所有人受益",
+        "that引出所有服务的通用命令"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "that修饰service，may与even if保留可能和让步",
+      "classification": "original-transfer-sentence-interpretation",
+      "evidence": [],
+      "transferSentence": "A service that more people can reach may be useful even if it earns less money.",
+      "transferTextSHA256": "7e0cf93afbed558a550ca3b81cf4e800e759ecacd784b92a16883262e32e10cf",
+      "reasoning": "题干新句that more people can reach修饰a service，may保留可能，even if引出收入少的让步；无人人受益或通用命令。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    },
+    {
+      "id": "en-reading-garden-writing-d3",
+      "course": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "questionSHA256": "7bb9ad2b6d4f17baacd12bfde740365913c654bf4f096f23d75129824bd25346",
+      "questionHashMethod": "SHA256(JSON.stringify(full original question)) in current key order",
+      "prompt": "隔日有人总结“园艺提高了居民健康，所以所有社区复制”。哪项纠正最充分？",
+      "options": [
+        "未测健康且本地方案需按条件评价，不能因果或普遍外推",
+        "这句话就是全文结论",
+        "没有健康数据说明项目一定无价值"
+      ],
+      "type": "single",
+      "independentAnswer": 0,
+      "independentAnswerText": "未测健康且本地方案需按条件评价，不能因果或普遍外推",
+      "classification": "main-idea-boundary",
+      "evidence": [
+        {
+          "passageId": "G",
+          "sentenceId": "G7",
+          "paragraph": 2,
+          "text": "After one season, the group recorded the number of visits and the weight of the harvest, but it did not measure changes in health."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G8",
+          "paragraph": 2,
+          "text": "These records described how the space was used; they did not prove that the garden had made residents healthier."
+        },
+        {
+          "passageId": "G",
+          "sentenceId": "G12",
+          "paragraph": 3,
+          "text": "The small garden offered a lesson in careful planning, not a universal model that every neighbourhood could copy without change."
+        }
+      ],
+      "transferSentence": null,
+      "transferTextSHA256": null,
+      "reasoning": "健康未测且末句明确不是可无条件复制的通用模型；数据缺少健康指标也不能推出毫无价值。",
+      "inferenceLimits": "仅判定此原创文本或题设新句中的含义；不能当作真实人物、项目效果、因果、健康结局或所有场景通用规则。",
+      "suggestedRootCategory": "原创文本证据核对",
+      "status": "internally-checked-original-text-evidence",
+      "authorityMaterialApproved": false,
+      "expertApproved": false,
+      "pending": false,
+      "answerComparisonAfterIndependentReasoning": "matches-existing-answer"
+    }
+  ],
+  "counts": {
+    "questions": 24,
+    "single": 22,
+    "multi": 2,
+    "matchedExistingAnswer": 24,
+    "pending": 0
+  },
+  "suggestion": "仅建议根归入原创文本证据核对；是否从外部来源待核队列迁移须由根按现有队列规则决定。",
+  "sharedQueueModified": false,
+  "courseAssetsModified": false,
+  "expertApprovals": 0,
+  "additionalObservedDefect": {
+    "id": "en-reading-garden-writing-d4",
+    "outsideThisBatch": true,
+    "observation": "题设是共享维修工具新场景，当前参考answer仍为花园；已告知根，不在本文件中修改或审定该主观题。"
+  }
+}

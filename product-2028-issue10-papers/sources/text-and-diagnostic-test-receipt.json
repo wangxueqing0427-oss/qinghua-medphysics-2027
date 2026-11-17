@@ -1,0 +1,11 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "checks": [
+    "24 original-text hashes and exact queue membership",
+    "3 diagnostic question hashes and independent decisions",
+    "31 minus27 exact4 IDs",
+    "external support and original-text classification kept separate"
+  ],
+  "evidenceSHA256": "a94abf5e1997204be95e55050a7164d9808bfbb6ef8963752eeb03d1465b2376"
+}

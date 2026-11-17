@@ -1,0 +1,21 @@
+{
+  "run": 44034339713,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44034339713",
+  "testedSHA": "9ee4cfe807933ca699378de14329284f6594d9f9",
+  "artifact": 14316468761,
+  "resultSHA256": "aa318a036145a8808d82861afe6d0dbb8f9c891d2da83a4780c5e4e943438fed",
+  "passed": true,
+  "realElapsedMs": 10800170,
+  "checkpoints": 180,
+  "autoSubmitted": true,
+  "protectedFilesUnchangedIn81": [
+    "mock-engine.js",
+    "mock-ui.js",
+    "profile-repository.js",
+    "learning-controller.js"
+  ],
+  "physicalIPhone": false,
+  "limitations": "Actual Linux WebKit foreground/reopen endurance; not physical iPhone screen-lock, OS eviction or clinical exam equivalence.",
+  "originalFailedRun": 44011759231,
+  "originalFailureRetained": true
+}

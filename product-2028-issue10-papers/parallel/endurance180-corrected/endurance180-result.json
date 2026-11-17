@@ -1,0 +1,1278 @@
+{
+  "requestedMinutes": 180,
+  "clock": "real wall clock",
+  "simulatedClock": false,
+  "physicalIPhone": false,
+  "browser": "mobile WebKit",
+  "checkpoints": [
+    {
+      "minute": 1,
+      "wallTime": "2026-11-17T06:53:21.261Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 2,
+      "wallTime": "2026-11-17T06:54:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 3,
+      "wallTime": "2026-11-17T06:55:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 4,
+      "wallTime": "2026-11-17T06:56:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 5,
+      "wallTime": "2026-11-17T06:57:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 6,
+      "wallTime": "2026-11-17T06:58:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 7,
+      "wallTime": "2026-11-17T06:59:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 8,
+      "wallTime": "2026-11-17T07:00:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 9,
+      "wallTime": "2026-11-17T07:01:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 10,
+      "wallTime": "2026-11-17T07:02:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 11,
+      "wallTime": "2026-11-17T07:03:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 12,
+      "wallTime": "2026-11-17T07:04:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 13,
+      "wallTime": "2026-11-17T07:05:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 14,
+      "wallTime": "2026-11-17T07:06:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 15,
+      "wallTime": "2026-11-17T07:07:21.854Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 16,
+      "wallTime": "2026-11-17T07:08:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 17,
+      "wallTime": "2026-11-17T07:09:21.264Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 18,
+      "wallTime": "2026-11-17T07:10:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 19,
+      "wallTime": "2026-11-17T07:11:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 20,
+      "wallTime": "2026-11-17T07:12:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 21,
+      "wallTime": "2026-11-17T07:13:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 22,
+      "wallTime": "2026-11-17T07:14:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 23,
+      "wallTime": "2026-11-17T07:15:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 24,
+      "wallTime": "2026-11-17T07:16:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 25,
+      "wallTime": "2026-11-17T07:17:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 26,
+      "wallTime": "2026-11-17T07:18:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 27,
+      "wallTime": "2026-11-17T07:19:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 28,
+      "wallTime": "2026-11-17T07:20:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 29,
+      "wallTime": "2026-11-17T07:21:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 30,
+      "wallTime": "2026-11-17T07:22:21.867Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 31,
+      "wallTime": "2026-11-17T07:23:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 32,
+      "wallTime": "2026-11-17T07:24:21.259Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 33,
+      "wallTime": "2026-11-17T07:25:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 34,
+      "wallTime": "2026-11-17T07:26:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 35,
+      "wallTime": "2026-11-17T07:27:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 36,
+      "wallTime": "2026-11-17T07:28:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 37,
+      "wallTime": "2026-11-17T07:29:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 38,
+      "wallTime": "2026-11-17T07:30:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 39,
+      "wallTime": "2026-11-17T07:31:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 40,
+      "wallTime": "2026-11-17T07:32:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 41,
+      "wallTime": "2026-11-17T07:33:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 42,
+      "wallTime": "2026-11-17T07:34:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 43,
+      "wallTime": "2026-11-17T07:35:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 44,
+      "wallTime": "2026-11-17T07:36:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 45,
+      "wallTime": "2026-11-17T07:37:21.823Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 46,
+      "wallTime": "2026-11-17T07:38:21.260Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 47,
+      "wallTime": "2026-11-17T07:39:21.261Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 48,
+      "wallTime": "2026-11-17T07:40:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 49,
+      "wallTime": "2026-11-17T07:41:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 50,
+      "wallTime": "2026-11-17T07:42:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 51,
+      "wallTime": "2026-11-17T07:43:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 52,
+      "wallTime": "2026-11-17T07:44:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 53,
+      "wallTime": "2026-11-17T07:45:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 54,
+      "wallTime": "2026-11-17T07:46:21.255Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 55,
+      "wallTime": "2026-11-17T07:47:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 56,
+      "wallTime": "2026-11-17T07:48:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 57,
+      "wallTime": "2026-11-17T07:49:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 58,
+      "wallTime": "2026-11-17T07:50:21.256Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 59,
+      "wallTime": "2026-11-17T07:51:21.281Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 60,
+      "wallTime": "2026-11-17T07:52:21.852Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 61,
+      "wallTime": "2026-11-17T07:53:21.287Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 62,
+      "wallTime": "2026-11-17T07:54:21.260Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 63,
+      "wallTime": "2026-11-17T07:55:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 64,
+      "wallTime": "2026-11-17T07:56:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 65,
+      "wallTime": "2026-11-17T07:57:21.286Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 66,
+      "wallTime": "2026-11-17T07:58:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 67,
+      "wallTime": "2026-11-17T07:59:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 68,
+      "wallTime": "2026-11-17T08:00:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 69,
+      "wallTime": "2026-11-17T08:01:21.286Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 70,
+      "wallTime": "2026-11-17T08:02:21.269Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 71,
+      "wallTime": "2026-11-17T08:03:21.286Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 72,
+      "wallTime": "2026-11-17T08:04:21.281Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 73,
+      "wallTime": "2026-11-17T08:05:21.278Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 74,
+      "wallTime": "2026-11-17T08:06:21.278Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 75,
+      "wallTime": "2026-11-17T08:07:21.863Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 76,
+      "wallTime": "2026-11-17T08:08:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 77,
+      "wallTime": "2026-11-17T08:09:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 78,
+      "wallTime": "2026-11-17T08:10:21.270Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 79,
+      "wallTime": "2026-11-17T08:11:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 80,
+      "wallTime": "2026-11-17T08:12:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 81,
+      "wallTime": "2026-11-17T08:13:21.282Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 82,
+      "wallTime": "2026-11-17T08:14:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 83,
+      "wallTime": "2026-11-17T08:15:21.275Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 84,
+      "wallTime": "2026-11-17T08:16:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 85,
+      "wallTime": "2026-11-17T08:17:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 86,
+      "wallTime": "2026-11-17T08:18:21.278Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 87,
+      "wallTime": "2026-11-17T08:19:21.278Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 88,
+      "wallTime": "2026-11-17T08:20:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 89,
+      "wallTime": "2026-11-17T08:21:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 90,
+      "wallTime": "2026-11-17T08:22:21.855Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 91,
+      "wallTime": "2026-11-17T08:23:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 92,
+      "wallTime": "2026-11-17T08:24:21.272Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 93,
+      "wallTime": "2026-11-17T08:25:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 94,
+      "wallTime": "2026-11-17T08:26:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 95,
+      "wallTime": "2026-11-17T08:27:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 96,
+      "wallTime": "2026-11-17T08:28:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 97,
+      "wallTime": "2026-11-17T08:29:21.268Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 98,
+      "wallTime": "2026-11-17T08:30:21.274Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 99,
+      "wallTime": "2026-11-17T08:31:21.277Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 100,
+      "wallTime": "2026-11-17T08:32:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 101,
+      "wallTime": "2026-11-17T08:33:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 102,
+      "wallTime": "2026-11-17T08:34:21.282Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 103,
+      "wallTime": "2026-11-17T08:35:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 104,
+      "wallTime": "2026-11-17T08:36:21.275Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 105,
+      "wallTime": "2026-11-17T08:37:21.889Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 106,
+      "wallTime": "2026-11-17T08:38:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 107,
+      "wallTime": "2026-11-17T08:39:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 108,
+      "wallTime": "2026-11-17T08:40:21.258Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 109,
+      "wallTime": "2026-11-17T08:41:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 110,
+      "wallTime": "2026-11-17T08:42:21.275Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 111,
+      "wallTime": "2026-11-17T08:43:21.281Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 112,
+      "wallTime": "2026-11-17T08:44:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 113,
+      "wallTime": "2026-11-17T08:45:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 114,
+      "wallTime": "2026-11-17T08:46:21.280Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 115,
+      "wallTime": "2026-11-17T08:47:21.266Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 116,
+      "wallTime": "2026-11-17T08:48:21.280Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 117,
+      "wallTime": "2026-11-17T08:49:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 118,
+      "wallTime": "2026-11-17T08:50:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 119,
+      "wallTime": "2026-11-17T08:51:21.281Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 120,
+      "wallTime": "2026-11-17T08:52:21.832Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 121,
+      "wallTime": "2026-11-17T08:53:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 122,
+      "wallTime": "2026-11-17T08:54:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 123,
+      "wallTime": "2026-11-17T08:55:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 124,
+      "wallTime": "2026-11-17T08:56:21.281Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 125,
+      "wallTime": "2026-11-17T08:57:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 126,
+      "wallTime": "2026-11-17T08:58:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 127,
+      "wallTime": "2026-11-17T08:59:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 128,
+      "wallTime": "2026-11-17T09:00:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 129,
+      "wallTime": "2026-11-17T09:01:21.280Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 130,
+      "wallTime": "2026-11-17T09:02:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 131,
+      "wallTime": "2026-11-17T09:03:21.260Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 132,
+      "wallTime": "2026-11-17T09:04:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 133,
+      "wallTime": "2026-11-17T09:05:21.280Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 134,
+      "wallTime": "2026-11-17T09:06:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 135,
+      "wallTime": "2026-11-17T09:07:21.868Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 136,
+      "wallTime": "2026-11-17T09:08:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 137,
+      "wallTime": "2026-11-17T09:09:21.285Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 138,
+      "wallTime": "2026-11-17T09:10:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 139,
+      "wallTime": "2026-11-17T09:11:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 140,
+      "wallTime": "2026-11-17T09:12:21.270Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 141,
+      "wallTime": "2026-11-17T09:13:21.282Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 142,
+      "wallTime": "2026-11-17T09:14:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 143,
+      "wallTime": "2026-11-17T09:15:21.278Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 144,
+      "wallTime": "2026-11-17T09:16:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 145,
+      "wallTime": "2026-11-17T09:17:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 146,
+      "wallTime": "2026-11-17T09:18:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 147,
+      "wallTime": "2026-11-17T09:19:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 148,
+      "wallTime": "2026-11-17T09:20:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 149,
+      "wallTime": "2026-11-17T09:21:21.264Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 150,
+      "wallTime": "2026-11-17T09:22:21.863Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 151,
+      "wallTime": "2026-11-17T09:23:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 152,
+      "wallTime": "2026-11-17T09:24:21.276Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 153,
+      "wallTime": "2026-11-17T09:25:21.270Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 154,
+      "wallTime": "2026-11-17T09:26:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 155,
+      "wallTime": "2026-11-17T09:27:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 156,
+      "wallTime": "2026-11-17T09:28:21.280Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 157,
+      "wallTime": "2026-11-17T09:29:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 158,
+      "wallTime": "2026-11-17T09:30:21.257Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 159,
+      "wallTime": "2026-11-17T09:31:21.269Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 160,
+      "wallTime": "2026-11-17T09:32:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 161,
+      "wallTime": "2026-11-17T09:33:21.273Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 162,
+      "wallTime": "2026-11-17T09:34:21.269Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 163,
+      "wallTime": "2026-11-17T09:35:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 164,
+      "wallTime": "2026-11-17T09:36:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 165,
+      "wallTime": "2026-11-17T09:37:21.850Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 166,
+      "wallTime": "2026-11-17T09:38:21.282Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 167,
+      "wallTime": "2026-11-17T09:39:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 168,
+      "wallTime": "2026-11-17T09:40:21.280Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 169,
+      "wallTime": "2026-11-17T09:41:21.271Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 170,
+      "wallTime": "2026-11-17T09:42:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 171,
+      "wallTime": "2026-11-17T09:43:21.268Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 172,
+      "wallTime": "2026-11-17T09:44:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 173,
+      "wallTime": "2026-11-17T09:45:21.278Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 174,
+      "wallTime": "2026-11-17T09:46:21.279Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 175,
+      "wallTime": "2026-11-17T09:47:21.269Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 176,
+      "wallTime": "2026-11-17T09:48:21.283Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 177,
+      "wallTime": "2026-11-17T09:49:21.284Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 178,
+      "wallTime": "2026-11-17T09:50:21.262Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 179,
+      "wallTime": "2026-11-17T09:51:21.277Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    },
+    {
+      "minute": 180,
+      "wallTime": "2026-11-17T09:52:21.275Z",
+      "answersPreserved": true,
+      "deadlineUnchanged": true,
+      "submitted": false
+    }
+  ],
+  "passed": true,
+  "examStartedAt": "2026-11-17T06:52:21.250Z",
+  "deadlineAt": "2026-11-17T09:52:21.250Z",
+  "examId": "fbd7e8a5-1231-4e1f-80cf-89498f824999",
+  "examElapsedMs": 10800170,
+  "autoSubmitted": true,
+  "limitations": "Actual Linux WebKit foreground/reopen endurance; not physical iPhone screen-lock, OS eviction or clinical exam equivalence.",
+  "totalElapsedMs": 10802556,
+  "actualObservedExamElapsedMs": 10800170
+}

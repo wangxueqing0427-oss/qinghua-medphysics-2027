@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 31,
+  "newExternalSubclaimAnchors": 3,
+  "originalTextEvidenceReclassified": 24,
+  "remainingQueueCount": 4,
+  "evidenceFiles": [
+    {
+      "path": "../parallel/en/reading-original-followup.json",
+      "sha256": "1d9d0a81cb163922e7926293f2cb340b84e4c1c2aae3fb1c8c79cc11c12fbcc9"
+    }
+  ],
+  "sources": [
+    {
+      "id": "FDA2007_DIAGNOSTIC",
+      "publisher": "US FDA CDRH",
+      "title": "Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests",
+      "issued": "2007-03-13",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda",
+      "actualRead": "2026-11-17 actual HTML sections3–5 and glossary: reference standard167–168, bias183–187, population258–273, reporting284–319, PPV714. These are extracted HTML positions, not printed pages.",
+      "support": "PPV conditional denominator and population/selection reporting limits only.",
+      "limits": "Nonbinding US diagnostic-device guidance, not Chinese regulation,2028 exam rule, proof of screening mortality benefit or a mandatory essay structure. No reliance on adjacent likelihood-ratio labels."
+    }
+  ],
+  "rows": [
+    {
+      "id": "en-reading-evidence-foundation-b1",
+      "questionSHA256": "b778a667632e4f1a9d6a8c00e25f46feab6e267c510f61d720dadd79d22ce3d0",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-b2",
+      "questionSHA256": "b4bd5c76362fbb17254d678079eb2c05a679aa801582b3a244ede73d4f850028",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-b3",
+      "questionSHA256": "88a0ac0ffce3cf4987e7e61eede3b0e695f14edd4497a2e84ea7ef980b7ffbe9",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-b4",
+      "questionSHA256": "d9a9fd0ae247a9340cf32d508f629189c8d904a881d549cae39545d8c6b0889a",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-a1",
+      "questionSHA256": "631574e717d74a384a9f63430a302415caf474d583eafe59dfc5be4bb66e96a0",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-a2",
+      "questionSHA256": "a6c23deebd7da1317232952517758cd448675df4f4b04e76baffe7e76094db7d",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-a3",
+      "questionSHA256": "b915fd8267d013933dcbbc75f46e00ac3ff22a79aceef17409a7aef7e5ebfc8e",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-d1",
+      "questionSHA256": "1fdbfaaf5104542607fde20195c728b6e46a11a833b1992a2aa20aeded16c9d1",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-d2",
+      "questionSHA256": "4b1bf5f5a19715ce4f40f062728c9953dc98b95b4d8972823479255e83e2489b",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-evidence-foundation-d3",
+      "questionSHA256": "caa3e590529a6213559be3d8129147ea63420441f16759668609ac8824a2f3cb",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-b1",
+      "questionSHA256": "fc93807380121f7b47c98695fdca92d6e1de5c92b82e1d1574d71788f32e0d48",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-b2",
+      "questionSHA256": "d6657275d33f34a7da2400138468f65ff4884ca8fb3b06eec0a7d0db213bb116",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-b3",
+      "questionSHA256": "dfd0e5607e85236d345886c8b47ea94dc892b7408dc49ba0d81c97b1e80cdd96",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-a2",
+      "questionSHA256": "a5cc785735fd9b8d3ca0dea64bd556d935a46c028e0a38c27eb16ae593923747",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-a3",
+      "questionSHA256": "dda1aeb39dfeeaa1d8854f93872b3a8504d30768de03a4b107ce7655abb79282",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-d1",
+      "questionSHA256": "b8b227f0afc5f192c3fb74f21d4f69f97cc5ebd1fbde68e0ce392a36039bf5a0",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-library-evidence-d3",
+      "questionSHA256": "f614cad0ae73d6b9832b791c0cebbf6fee1639ba9d32aa558316dd993e0b7526",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-b1",
+      "questionSHA256": "678124d4e353d292c10e57ce548566b898fc27932d2bbdeab478c40650733e28",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-b2",
+      "questionSHA256": "712af52e8fc5c53ffb38711d2144e8a5d7352320d0894e1b9033b5ad59c4242d",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-b3",
+      "questionSHA256": "eb48c6a9a324b8f6a4891e068ea17b0f592f1509bc06f5e8f27e84ed02a7a180",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-a2",
+      "questionSHA256": "4a9fc0081bc1e5824ffc93bebb43ab1994fa3be50b99c2a685b3a9661c121910",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-a3",
+      "questionSHA256": "77062c44a8f468cecd5ac8e1a01bf2fa7a6c34f4736e4d2da1ad7ca6c9e3d711",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-d1",
+      "questionSHA256": "b1110833baa479e7de5ba5c5f775e7b043d4e41b6266dd79fb5fc5ea47a10d26",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "en-reading-garden-writing-d3",
+      "questionSHA256": "7bb9ad2b6d4f17baacd12bfde740365913c654bf4f096f23d75129824bd25346",
+      "evidenceFile": "../parallel/en/reading-original-followup.json",
+      "classification": "original-teaching-text-evidence-not-external-factual-claim",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-cross-disciplinary-evidence-writing-b1",
+      "originalQuestion": {
+        "id": "353-cross-disciplinary-evidence-writing-b1",
+        "type": "single",
+        "stem": "柳桥邀请1000人，仅400人参加且其中40人参考有目标状态，600人状态未知。哪项结论有材料支持？",
+        "answer": 1,
+        "explanation": "B只描述实际参加者；A外推到未知600人，C用当月流程推断死亡因果，均超出材料。需说明对象、分母及未测量内容。",
+        "difficulty": "basic",
+        "options": [
+          "全社区目标状态比例已证实为10%",
+          "参加者参考有目标状态比例为40/400=10%",
+          "试点已证明全社区死亡下降"
+        ],
+        "sourceRefs": [
+          "fda",
+          "outline"
+        ]
+      },
+      "questionSHA256": "612ad95d96144bd3c52fce728a3cf4bf691c7b98be150eeee4bc34888eccaa03",
+      "independentlyReasonedAnswer": 1,
+      "support": "Population limits and denominators:40/400 describes participants, not the600 unmeasured nonparticipants.",
+      "sourceIds": [
+        "FDA2007_DIAGNOSTIC"
+      ],
+      "classification": "specific-source-subclaim-anchor",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-cross-disciplinary-evidence-writing-b2",
+      "originalQuestion": {
+        "id": "353-cross-disciplinary-evidence-writing-b2",
+        "type": "single",
+        "stem": "题设有适用参考标准时，PPV回答“筛检阳性者中有多少参考有状态”，应选哪个分母？",
+        "answer": 0,
+        "explanation": "A分母为所有筛检阳性TP+FP；B分母TP+FN用于敏感度，C为总体比例，都不回答题目条件。定义以本题参考标准与人群为限。",
+        "difficulty": "basic",
+        "options": [
+          "TP+FP",
+          "TP+FN",
+          "所有受邀居民"
+        ],
+        "sourceRefs": [
+          "fda",
+          "outline"
+        ]
+      },
+      "questionSHA256": "28c8f35051436f2166bae386b9f5b24fd58881933ee67c39c13a053ecc0be23f",
+      "independentlyReasonedAnswer": 0,
+      "support": "Glossary defines PPV among test-positive people with a valid reference standard: denominatorTP+FP.",
+      "sourceIds": [
+        "FDA2007_DIAGNOSTIC"
+      ],
+      "classification": "specific-source-subclaim-anchor",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "353-cross-disciplinary-evidence-writing-d1",
+      "originalQuestion": {
+        "id": "353-cross-disciplinary-evidence-writing-d1",
+        "type": "single",
+        "stem": "延迟迁移：另一虚构社区只有自愿参加者的单月筛检数据，未收集未参加者和长期结局。怎样组织结论？",
+        "answer": 1,
+        "explanation": "B维持对象与证据边界；A用人数或比例代替代表性，C用流程代替死亡结局。新场景不能自动继承柳桥的数值或方向。",
+        "difficulty": "delayed-transfer",
+        "options": [
+          "参加者再多也可直接认定总体风险相同",
+          "描述参加者结果，同时指出总体外推和长期获益未证实",
+          "已有筛检流程就可认定降低死亡"
+        ],
+        "sourceRefs": [
+          "fda",
+          "outline"
+        ]
+      },
+      "questionSHA256": "54d29b2d93305013b1fd55ca4dbef3f949113099d0216faaec7926038bebc47a",
+      "independentlyReasonedAnswer": 1,
+      "support": "Selection and external-validity limits remain; study counts alone do not establish long-term mortality benefit.",
+      "sourceIds": [
+        "FDA2007_DIAGNOSTIC"
+      ],
+      "classification": "specific-source-subclaim-anchor",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "en-vocabulary-retrieval-foundation-a2"
+  ],
+  "remainingIdsSHA256": "693143e2f041dfaf7dca2f434f0a50fef83bd886ecb3198b4212f7f5430be3d1",
+  "remainingReasons": {
+    "en-vocabulary-retrieval-foundation-a2": "IPA symbol image not yet legibly checked; retain despite known teaching convention.",
+    "353-space-air-ventilation-b2": "General ventilation page is not direct evidence of this exact steady-state equation; derivation and historical evidence need separate bounded reconciliation.",
+    "353-space-air-ventilation-d1": "Same formula/source boundary; relative increment is not absolute concentration or infection probability.",
+    "353-cross-disciplinary-evidence-writing-b4": "Original instructional argument structure, not an FDA prescribed rule; classification/teaching review remains."
+  },
+  "independentProfessionalApprovals": 0
+}
