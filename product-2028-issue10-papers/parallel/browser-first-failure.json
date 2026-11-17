@@ -1,0 +1,15 @@
+{
+  "run": 44058657413,
+  "job": 133954451175,
+  "sha": "4f37ffe78cb567cf3f585ce230ab84856ae0b772",
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44058657413",
+  "englishChromium": "passed all six groups",
+  "englishMobileWebKit": "passed all six groups",
+  "firstFailure": "Political numeric input: locator #next timed out because shared test helper supplied subjective prose instead of a number. UI correctly rejected nonnumeric input.",
+  "rootCause": "Legacy helper only distinguished single-choice from text; new courses exercise numeric questions.",
+  "minimalFix": "Input numeric standard value for numeric cases, support each selected option for multi-choice, additionally assert objective correctness and exact raw subjective preservation.",
+  "assetChangesForFix": 0,
+  "assertionsRemoved": 0,
+  "artifact": 14317920281,
+  "next": "Run corrected shared helper against three added course types and affected upgrade scenarios. Not physical iPhone or professional approval."
+}
