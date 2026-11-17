@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "activeEvidenceFile": "sampling-followup.json",
-  "activeEvidenceSHA256": "7d64cd668189946f1121bc2a678e49f0f8143d8746f156f3aa4f2c1cc8d0c4e3",
-  "remainingCount": 154,
-  "remainingIdsSHA256": "ed97c4e2cabc6f6e522b03d735ad0aafa8b9b3e27f0045f24a8b1a2dc63ae523",
+  "activeEvidenceFile": "model-trial-followup.json",
+  "activeEvidenceSHA256": "e9eef5a462e42369b3466b24ff4bda24895908a2f4fa22741c3ce154bfa3f7a3",
+  "remainingCount": 147,
+  "remainingIdsSHA256": "729eb0ba30ab7b88c4b06bf814d8ca402b5e1182a17a7a7cbf0fe8b223b235ca",
   "continuationBase": "queue-reconciled-241.json",
-  "warning": "154 active IDs; subclaim anchors do not mean complete question or professional approval.",
+  "warning": "147 active IDs; partial source anchors do not equal full question or professional approval.",
   "expertApprovals": 0
 }

@@ -1,0 +1,445 @@
+{
+  "date": "2026-11-17",
+  "previousQueue": 154,
+  "newDirectSubclaimAnchors": 7,
+  "remainingQueueCount": 147,
+  "rows": [
+    {
+      "id": "353-probability-binomial-foundation-b4",
+      "course": "353-probability-binomial-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "n=10、p=0.2时E(X)=2的正确解释？",
+        "options": [
+          "反复同类整组试验的平均计数为2",
+          "每一组必定恰好2",
+          "单次成功概率为2"
+        ],
+        "answer": 0,
+        "explanation": "期望是模型下的平均计数，可不是每组保证。B混淆随机结果与均值，C把计数和概率混用且概率超过1。",
+        "id": "353-probability-binomial-foundation-b4",
+        "difficulty": "foundation",
+        "errorCauseHint": "concept"
+      },
+      "questionSHA256": "2b864dece845ce27c0d20c1b991a734201622642dc4b28425a7dbccb9ebfa2eb",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "NIST_BIN"
+      ],
+      "directSupport": "E(X)=np=2 is a model expectation, not a guaranteed realized count.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Retain model/research-question scope; no answer change."
+    },
+    {
+      "id": "353-anova-chi-regression-foundation-b4",
+      "course": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-anova-chi-regression-foundation-b4",
+        "type": "single",
+        "stem": "在Logistic回归中一个自变量系数β1被取指数exp(β1)，得到的通常是什么？",
+        "options": [
+          "模型条件下与该变量单位变化对应的优势比OR",
+          "在所有人群中固定不变的绝对风险",
+          "患者未来肯定会发病的概率"
+        ],
+        "answer": 0,
+        "explanation": "A正确。exp(β1)对应优势比OR，不能直接等同风险比RR或绝对患病概率。",
+        "difficulty": "foundation"
+      },
+      "questionSHA256": "c4e9d68f08bbd08e8d15d4e3d1709ac56575aaf866e1bb81c7315667ef064037",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "UCLA_OR"
+      ],
+      "directSupport": "In the taught linear-logit model without interactions, unit increase in x has conditional odds ratio exp(beta). Interaction/polynomial coding requires the appropriate contrast, not a universal coefficient shortcut.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Keep no-interaction model boundary; associated beta-vs-x teaching wording correction is held separately, not silently applied to old sessions."
+    },
+    {
+      "id": "353-anova-chi-regression-foundation-a1",
+      "course": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "originalQuestion": {
+        "id": "353-anova-chi-regression-foundation-a1",
+        "type": "single",
+        "stem": "当二分类结局用Logistic回归建模时，下列哪种说法最严谨？",
+        "options": [
+          "OR=2意味着每个人的发病概率都正好翻倍",
+          "OR=2描述模型条件下优势（odds）的比值，未必是RR=2",
+          "有Logistic模型就不需要检查研究设计和混杂"
+        ],
+        "answer": 1,
+        "explanation": "B正确。OR比较优势，不直接等于风险或风险比，也不能替代研究设计的因果论证。",
+        "difficulty": "application"
+      },
+      "questionSHA256": "bae54883e470096a3ff887e2885b94a25d64d94589095ebee99d65ec64d5059e",
+      "independentlyReasonedAnswer": 1,
+      "sourceIds": [
+        "UCLA_OR"
+      ],
+      "directSupport": "Odds p/(1-p) is not probability; an odds ratio2 need not be a risk ratio2.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Keep no-interaction model boundary; associated beta-vs-x teaching wording correction is held separately, not silently applied to old sessions."
+    },
+    {
+      "id": "353-trial-design-effects-b1",
+      "course": "353-trial-design-effects",
+      "version": "0.1-issue9-3",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "哪项正确区分随机分配与随机抽样？",
+        "options": [
+          "两者始终等价",
+          "抽样选入组对象，分配决定入组后干预组别",
+          "随机分配保证每项基线值完全相同"
+        ],
+        "answer": 1,
+        "explanation": "选择样本与指定干预是不同环节；随机只在概率意义上实现平衡，不能保证每次样本完全相同。",
+        "id": "353-trial-design-effects-b1",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "original-EPI07",
+          "cdc-methods",
+          "tsinghua-2027"
+        ]
+      },
+      "questionSHA256": "c7b55df93a998808f612249cb6561be3d5752032c7bd404a584a819248715629",
+      "independentlyReasonedAnswer": 1,
+      "sourceIds": [
+        "CONSORT2010",
+        "STATCAN_SAMPLING"
+      ],
+      "directSupport": "Random sampling selects survey units; random allocation assigns enrolled participants to interventions. Neither guarantees identical realized baseline values.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Retain model/research-question scope; no answer change."
+    },
+    {
+      "id": "353-trial-design-effects-b3",
+      "course": "353-trial-design-effects",
+      "version": "0.1-issue9-3",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "试验一位参加者停止干预且结局仍未知，哪项正确？",
+        "options": [
+          "未知不自动等于未发病，应报告并尽量取得结局",
+          "停止干预立即证明没有结局",
+          "可以随意改到另一组以放大效果"
+        ],
+        "answer": 0,
+        "explanation": "退出干预与未知结局是不同问题，原分组原则不授权伪造结局；按可行伦理程序补随访和适当方案处理。",
+        "id": "353-trial-design-effects-b3",
+        "difficulty": "basic",
+        "sourceRefs": [
+          "original-EPI07",
+          "cdc-methods",
+          "tsinghua-2027"
+        ]
+      },
+      "questionSHA256": "946cb3427363f7ac50d9f5081d27f154436e6ef10c36c8c257cefd54c32dfe09",
+      "independentlyReasonedAnswer": 0,
+      "sourceIds": [
+        "ICH_E9R1"
+      ],
+      "directSupport": "Stopping treatment is distinct from study withdrawal; unknown outcomes cannot be invented as no events, and follow-up should address the estimand.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Retain model/research-question scope; no answer change."
+    },
+    {
+      "id": "353-trial-design-effects-a3",
+      "course": "353-trial-design-effects",
+      "version": "0.1-issue9-3",
+      "originalQuestion": {
+        "type": "multi",
+        "stem": "出现失访和不依从时哪些合理？",
+        "options": [
+          "尽量保留原随机分组并补结局",
+          "全部未知结局按未发病填0",
+          "报告流向并依据方案评价缺失影响"
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explanation": "A/C保留设计与缺失问题；意向性原则不授权随意插补未知结局，也不自动保证无偏。",
+        "id": "353-trial-design-effects-a3",
+        "difficulty": "application",
+        "sourceRefs": [
+          "original-EPI07",
+          "cdc-methods",
+          "tsinghua-2027"
+        ]
+      },
+      "questionSHA256": "68bd77712759ea69cd3b40b522bc6950078ebfc1262fd565e11a47894c0b5ff1",
+      "independentlyReasonedAnswer": [
+        0,
+        2
+      ],
+      "sourceIds": [
+        "ICH_E9R1",
+        "CONSORT2010"
+      ],
+      "directSupport": "Preserve randomization and seek relevant follow-up; report flow/losses and assess assumptions. Missing outcomes are not automatically zeros.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Retain model/research-question scope; no answer change."
+    },
+    {
+      "id": "353-trial-design-effects-d3",
+      "course": "353-trial-design-effects",
+      "version": "0.1-issue9-3",
+      "originalQuestion": {
+        "type": "single",
+        "stem": "隔日有人称RR0.5无区间，所以已证实统计显著且所有医院适用。正确回应是？",
+        "options": [
+          "RR低于1即可保证所有推广",
+          "点估计需不确定性与适用条件，不自动等于显著/通用",
+          "必须把RR改成1"
+        ],
+        "answer": 1,
+        "explanation": "点值描述样本结果，显著性和可推广性需要相应资料；不能因不充分就篡改原观察值。",
+        "id": "353-trial-design-effects-d3",
+        "difficulty": "delayed",
+        "sourceRefs": [
+          "original-EPI07",
+          "cdc-methods",
+          "tsinghua-2027"
+        ]
+      },
+      "questionSHA256": "73bb2f4cf4144ad9217188bfd3cfaaf8194a20e4d842b54f8e69de67bd63b656",
+      "independentlyReasonedAnswer": 1,
+      "sourceIds": [
+        "CONSORT2010"
+      ],
+      "directSupport": "Effect estimate requires precision and applicability assessment; RR0.5 alone is not proof of significance or universal clinical benefit.",
+      "fullQuestionVerified": false,
+      "expertApproved": false,
+      "minimalRevision": "Retain model/research-question scope; no answer change."
+    }
+  ],
+  "sources": [
+    {
+      "id": "NIST_BIN",
+      "publisher": "NIST/SEMATECH",
+      "title": "1.3.6.6.18 Binomial Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366i.htm",
+      "actualRead": "HTML8–17 two outcomes, fixed p, PMF and mean np. Independence not explicit in read paragraph, so b3 remains pending and no broader model-condition discharge."
+    },
+    {
+      "id": "UCLA_OR",
+      "publisher": "UCLA OARC Statistical Consulting",
+      "title": "How do I interpret odds ratios in logistic regression?",
+      "url": "https://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/",
+      "actualRead": "Main body10–11 odds,62–79 model,149–164 dichotomy,204–256 unit-x and adjusted coefficient interpretation,281–334 interaction exception. Live access2026-11-17, specific publication date not established."
+    },
+    {
+      "id": "CONSORT2010",
+      "authors": "K F Schulz,D G Altman,D Moher; CONSORT Group",
+      "title": "CONSORT2010 Statement: updated guidelines for reporting parallel group randomised trials",
+      "published": "2010-03-23",
+      "doi": "10.1136/bmj.c332",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2844940/",
+      "actualRead": "Full main checklist HTML129–152 items8–22;162–164 explains reporting scope. Historical reporting guideline, not claimed current2026 trial conduct protocol; original BMJ c869 request403, not treated as this c332 source."
+    },
+    {
+      "id": "ICH_E9R1",
+      "publisher": "ICH",
+      "title": "Addendum on Estimands and Sensitivity Analysis in Clinical Trials",
+      "version": "Final adopted2019-11-20, E9(R1)",
+      "url": "https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf",
+      "actualRead": "Actual PDF text pages4–5 (zero-based P3/P4), printed2–3, A.1: ITT and follow-up, treatment discontinuation versus withdrawal, estimand alignment and missingness. Not whole22 pages and not asserted as China regulation.",
+      "boundary": "Does not mandate one missing-data imputation or ignore estimand-specific intercurrent-event strategies."
+    },
+    {
+      "id": "STATCAN_SAMPLING",
+      "publisher": "Statistics Canada",
+      "title": "3.2.2 Probability sampling",
+      "url": "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch13/prob/5214899-eng.htm",
+      "actualRead": "Reused actual body reading from sampling-followup.json,32–46 probability/SRS. No repeated download."
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://online.stat.psu.edu/stat414/lesson/10/10.1",
+      "result": "502 Bad Gateway; no body read"
+    },
+    {
+      "url": "https://online.stat.psu.edu/stat200/lesson/4/4.3/4.3.1",
+      "result": "502 Bad Gateway; no body read"
+    },
+    {
+      "url": "https://www.bmj.com/content/340/bmj.c869",
+      "result": "403 Forbidden; not read"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2844943/",
+      "result": "Only browser/reCAPTCHA challenge; not read or bypassed"
+    }
+  ],
+  "remainingIds": [
+    "353-space-air-ventilation-b2",
+    "353-space-air-ventilation-d1",
+    "pol-practice-1",
+    "pol-practice-2",
+    "pol-delay-1",
+    "pol-delay-2",
+    "frq-b1",
+    "frq-b2",
+    "frq-b3",
+    "frq-b4",
+    "frq-a4",
+    "frq-d1",
+    "frq-d2",
+    "frq-d4",
+    "ep-b4",
+    "ep-a4",
+    "pol-matter-consciousness-b1",
+    "pol-matter-consciousness-b2",
+    "pol-matter-consciousness-b3",
+    "pol-matter-consciousness-b4",
+    "pol-matter-consciousness-a1",
+    "pol-matter-consciousness-a2",
+    "pol-matter-consciousness-a3",
+    "pol-matter-consciousness-d1",
+    "pol-matter-consciousness-d2",
+    "pol-matter-consciousness-d3",
+    "pol-epistemology-case-analysis-b1",
+    "pol-epistemology-case-analysis-b2",
+    "pol-epistemology-case-analysis-b3",
+    "pol-epistemology-case-analysis-b4",
+    "pol-epistemology-case-analysis-a1",
+    "pol-epistemology-case-analysis-a2",
+    "pol-epistemology-case-analysis-a3",
+    "pol-epistemology-case-analysis-d1",
+    "pol-epistemology-case-analysis-d2",
+    "pol-epistemology-case-analysis-d3",
+    "pol-productive-forces-relations-b1",
+    "pol-productive-forces-relations-b2",
+    "pol-productive-forces-relations-b4",
+    "pol-productive-forces-relations-a1",
+    "pol-productive-forces-relations-a2",
+    "pol-productive-forces-relations-d1",
+    "pol-productive-forces-relations-d2",
+    "353-probability-binomial-foundation-b1",
+    "353-probability-binomial-foundation-b3",
+    "pol-people-individual-history-b1",
+    "pol-people-individual-history-b2",
+    "pol-people-individual-history-b3",
+    "pol-people-individual-history-b4",
+    "pol-people-individual-history-a1",
+    "pol-people-individual-history-a2",
+    "pol-people-individual-history-a3",
+    "pol-people-individual-history-d1",
+    "pol-people-individual-history-d2",
+    "pol-people-individual-history-d3",
+    "pol-modern-history-entry-b1",
+    "pol-modern-history-entry-b2",
+    "pol-modern-history-entry-b3",
+    "pol-modern-history-entry-b4",
+    "pol-modern-history-entry-a1",
+    "pol-modern-history-entry-a2",
+    "pol-modern-history-entry-a3",
+    "pol-modern-history-entry-d1",
+    "pol-modern-history-entry-d2",
+    "pol-modern-history-entry-d3",
+    "353-cross-disciplinary-evidence-writing-b1",
+    "353-cross-disciplinary-evidence-writing-b2",
+    "353-cross-disciplinary-evidence-writing-b4",
+    "353-cross-disciplinary-evidence-writing-d1",
+    "353-health-indicators-ethics-b1",
+    "353-health-indicators-ethics-b3",
+    "353-health-indicators-ethics-d1",
+    "353-health-promotion-behaviour-b1",
+    "353-health-promotion-behaviour-b2",
+    "353-health-promotion-behaviour-b3",
+    "353-health-promotion-behaviour-d1",
+    "en-svo-1",
+    "en-svo-2",
+    "en-svo-delay-1",
+    "en-svo-delay-2",
+    "en-link-1",
+    "en-link-2",
+    "en-link-3",
+    "en-link-4",
+    "en-link-d1",
+    "en-link-d2",
+    "en-pronoun-reference-b1",
+    "en-pronoun-reference-b2",
+    "en-pronoun-reference-b3",
+    "en-pronoun-reference-b4",
+    "en-pronoun-reference-a1",
+    "en-pronoun-reference-a2",
+    "en-pronoun-reference-a3",
+    "en-pronoun-reference-d1",
+    "en-pronoun-reference-d2",
+    "en-pronoun-reference-d3",
+    "en-present-continuous-foundation-b3",
+    "en-present-continuous-foundation-a3",
+    "en-present-continuous-foundation-d3",
+    "en-passive-simple-foundation-b3",
+    "en-passive-simple-foundation-b4",
+    "en-passive-simple-foundation-a2",
+    "en-passive-simple-foundation-d3",
+    "en-defining-relative-foundation-b1",
+    "en-defining-relative-foundation-b2",
+    "en-defining-relative-foundation-b3",
+    "en-defining-relative-foundation-b4",
+    "en-defining-relative-foundation-a1",
+    "en-defining-relative-foundation-a2",
+    "en-defining-relative-foundation-a3",
+    "en-defining-relative-foundation-d1",
+    "en-defining-relative-foundation-d2",
+    "en-defining-relative-foundation-d3",
+    "en-vocabulary-retrieval-foundation-b1",
+    "en-vocabulary-retrieval-foundation-b2",
+    "en-vocabulary-retrieval-foundation-b3",
+    "en-vocabulary-retrieval-foundation-b4",
+    "en-vocabulary-retrieval-foundation-a1",
+    "en-vocabulary-retrieval-foundation-a2",
+    "en-vocabulary-retrieval-foundation-a3",
+    "en-vocabulary-retrieval-foundation-d1",
+    "en-vocabulary-retrieval-foundation-d2",
+    "en-vocabulary-retrieval-foundation-d3",
+    "en-reading-evidence-foundation-b1",
+    "en-reading-evidence-foundation-b2",
+    "en-reading-evidence-foundation-b3",
+    "en-reading-evidence-foundation-b4",
+    "en-reading-evidence-foundation-a1",
+    "en-reading-evidence-foundation-a2",
+    "en-reading-evidence-foundation-a3",
+    "en-reading-evidence-foundation-d1",
+    "en-reading-evidence-foundation-d2",
+    "en-reading-evidence-foundation-d3",
+    "en-reading-library-evidence-b1",
+    "en-reading-library-evidence-b2",
+    "en-reading-library-evidence-b3",
+    "en-reading-library-evidence-a2",
+    "en-reading-library-evidence-a3",
+    "en-reading-library-evidence-d1",
+    "en-reading-library-evidence-d3",
+    "en-reading-garden-writing-b1",
+    "en-reading-garden-writing-b2",
+    "en-reading-garden-writing-b3",
+    "en-reading-garden-writing-a2",
+    "en-reading-garden-writing-a3",
+    "en-reading-garden-writing-d1",
+    "en-reading-garden-writing-d3"
+  ],
+  "removedIds": [
+    "353-probability-binomial-foundation-b4",
+    "353-anova-chi-regression-foundation-b4",
+    "353-anova-chi-regression-foundation-a1",
+    "353-trial-design-effects-b1",
+    "353-trial-design-effects-b3",
+    "353-trial-design-effects-a3",
+    "353-trial-design-effects-d3"
+  ],
+  "remainingIdsSHA256": "729eb0ba30ab7b88c4b06bf814d8ca402b5e1182a17a7a7cbf0fe8b223b235ca",
+  "independentProfessionalApprovals": 0
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-17",
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    "new writing unit closes explicit small-essay node without duplicate/prerequisite gap",
+    "12 original questions mapped to actual teaching and all three phases",
+    "independent choice decisions and every distractor",
+    "seven task-specific writing rubrics remain unscored and accept alternatives",
+    "erratum fixes variable wording without touching unit/answers/contracts",
+    "old74 and3 original papers exact; new content not expert approved"
+  ],
+  "newCourseSHA256": "ac2f7f87db48b2f7df23d0e88d3db4291e4a45fe3e9e4263decedffde41b2c04",
+  "expertApprovals": 0,
+  "browserVerified": false
+}
