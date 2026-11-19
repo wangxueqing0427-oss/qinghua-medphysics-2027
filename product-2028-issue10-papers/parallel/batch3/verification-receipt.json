@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-19",
+  "passed": true,
+  "testedSHA": "fc182f57c3849ba46fa04b60265c88b53ee64cdc",
+  "browserRows": [
+    {
+      "browser": "chromium",
+      "course": "en-nonfinite-functions-foundation",
+      "file": "browser-evidence/browser-chromium-1.json",
+      "sha256": "50ecd5ca7716b052ef65be2322312e53a5d602368df07dbadf5c4b25216ecd06",
+      "checks": 7
+    },
+    {
+      "browser": "chromium",
+      "course": "pol-capital-accumulation-reproduction-foundation",
+      "file": "browser-evidence/browser-chromium-2.json",
+      "sha256": "0a9b813df29cb339c865db53f96c14a1d7f760a4c97ddd130559b2d88875ea3a",
+      "checks": 7
+    },
+    {
+      "browser": "chromium",
+      "course": "353-rank-methods-design-foundation",
+      "file": "browser-evidence/browser-chromium-3.json",
+      "sha256": "2e893520350fa085487376e2568ab048cd86bd8b5706414dca913e352ab82c2a",
+      "checks": 7
+    },
+    {
+      "browser": "webkit",
+      "course": "en-nonfinite-functions-foundation",
+      "file": "browser-evidence/browser-webkit-1.json",
+      "sha256": "1bd103140f4f8b5267d94184fee1c2e9f20d2afa093719926731c3fe4c8dc725",
+      "checks": 7
+    },
+    {
+      "browser": "webkit",
+      "course": "pol-capital-accumulation-reproduction-foundation",
+      "file": "browser-evidence/browser-webkit-2.json",
+      "sha256": "8f4248845f90aa01db05ef20b5daeaa706bcabff28e5f179bdc237f5a8bd84b5",
+      "checks": 7
+    },
+    {
+      "browser": "webkit",
+      "course": "353-rank-methods-design-foundation",
+      "file": "browser-evidence/browser-webkit-3.json",
+      "sha256": "71e051b3a5f5e3eebc1b05d0aedea7ec38f1393093a6bdecf082565b64766990",
+      "checks": 7
+    }
+  ],
+  "upgrade": {
+    "fromCourses": 84,
+    "toCourses": 87,
+    "oldSHA": "672bc8bde06e3183bb18b5aaab7e4f687491c4ad",
+    "legacyLabelWarning": "Historical helper strings mention75/77; actual old SHA, manifest count and OLD_COURSES=84 were asserted; current count87."
+  },
+  "coreEnduranceHashesUnchanged": [
+    "mock-engine.js",
+    "mock-ui.js",
+    "profile-repository.js",
+    "learning-controller.js"
+  ],
+  "enduranceEvidence": "../endurance180-receipt.json",
+  "enduranceRerun": false,
+  "courses": 87,
+  "questions": 992,
+  "originalPaperQuestions": 125,
+  "pendingSources": 4,
+  "expertApprovals": 0,
+  "physicalIPhone": false,
+  "onlineStatus": "Separate pinned HTTPS result must pass before sharing candidate as verified"
+}

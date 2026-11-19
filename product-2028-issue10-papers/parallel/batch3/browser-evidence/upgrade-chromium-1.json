@@ -1,0 +1,12 @@
+{
+  "browser": "chromium",
+  "physicalIPhone": false,
+  "passed": true,
+  "oldSHA": "672bc8bde06e3183bb18b5aaab7e4f687491c4ad",
+  "checks": [
+    "pinned75 assets loaded and actual paper answer saved",
+    "same-origin actual SW75-to77 update with same database and identical answers/events",
+    "old77 unchanged content contract and raw long draft resume; corrected teaching rendered without rewriting history",
+    "real TCP outage reload uses new77 cache and preserves old75 paper answers"
+  ]
+}
