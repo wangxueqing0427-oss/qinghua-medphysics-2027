@@ -1,0 +1,12 @@
+{
+  "testedSHA": "fc182f57c3849ba46fa04b60265c88b53ee64cdc",
+  "run": 44518202358,
+  "url": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44518202358",
+  "conclusion": "success",
+  "job": 135539648119,
+  "scope": "Three new12-question courses in Chromium/mobileWebKit;84-to87 actual SW upgrade, old answers and long draft preservation, fresh navigation with actual TCP outage, backup clone and profile isolation",
+  "acceleratedReviewFixture": true,
+  "new180MinuteRun": false,
+  "physicalIPhone": false,
+  "expertApprovals": 0
+}
