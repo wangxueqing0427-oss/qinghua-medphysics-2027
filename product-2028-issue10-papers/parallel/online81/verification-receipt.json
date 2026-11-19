@@ -1,0 +1,20 @@
+{
+  "recordedAt": "2026-11-19",
+  "deploymentSHA": "f74289e5723b9c8192423c568220396139abbf37",
+  "functionalTestSHA": "4a74e114ddff046d05fe002e33f9f3ac78027c01",
+  "onlineVerifierSHA": "5e5ce11301291773b31b0386f0f1c25bd46319aa",
+  "onlineCI": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44061135080",
+  "onlineCIConclusion": "success",
+  "url": "https://b6796e0b.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "b6796e0b-7572-4c99-a200-4a3ba5258b9e",
+  "evidence": "online-result.json",
+  "assetCount": 17,
+  "courseCount": 81,
+  "courseQuestions": 920,
+  "paperQuestions": 125,
+  "browserChecks": ["Chromium", "mobile WebKit", "synthetic answer save and tab-close restore", "Service Worker control and 17 cached assets"],
+  "rollback": "https://9d82d56a.qh2028-core47-preview.pages.dev/",
+  "expertApprovals": 0,
+  "physicalIPhoneVerified": false,
+  "limitations": ["Original provisional papers are not confirmed official full mock exams", "Four source questions remain pending", "Online smoke does not replace real iPhone acceptance"]
+}

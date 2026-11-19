@@ -1,0 +1,259 @@
+{
+  "date": "2026-11-19",
+  "sourceEvidence": [
+    {
+      "sourceId": "CAPITAL-I-4",
+      "title": "资本论第一卷第四章：货币转化为资本",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库中文原始理论转录",
+      "accessed": "2026-11-19",
+      "actualRead": "第3节劳动力的买和卖正文74–94，劳动力定义75、社会条件76–80、价值与再生产81–89、消费过程94",
+      "limits": "只作原始理论基础概念；非官方考试范围或现代工资制度实证。"
+    },
+    {
+      "sourceId": "CAPITAL-I-7",
+      "title": "资本论第一卷第七章：剩余价值率",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库中文原始理论转录",
+      "accessed": "2026-11-19",
+      "actualRead": "正文11–25；c/v/m及实际耗用13、新价值14、剩余价值率19、必要与剩余劳动20–22、分母对照24–25",
+      "limits": "原创数字依同一期间、劳动条件及按价值交换等假设；不移用原文厂史数值。"
+    },
+    {
+      "sourceId": "CAPITAL-I-17",
+      "title": "资本论第一卷第十七章：劳动力的价值或价格转化为工资",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库中文原始理论转录",
+      "accessed": "2026-11-19",
+      "actualRead": "正文12–19，劳动力与劳动区别及工资形式",
+      "limits": "针对资本主义雇佣劳动理论，不把现实工资额直接等于模型参数。"
+    }
+  ],
+  "rows": [
+    {
+      "id": "pol-labour-power-surplus-foundation-b1",
+      "questionSHA256": "59577537363b4797aed26d0b3d5e5f1663f7cc9c45696e3cfcd36ac90152ec5b",
+      "stem": "在本课理论中，“劳动力”首先指什么？",
+      "type": "single",
+      "answerText": "人的劳动能力",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-4:74–80",
+        "CAPITAL-I-17:12"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-b2",
+      "questionSHA256": "202a03b3dc1497ac9757dc847ed7f42f8b0995070b15502a77dd2b099bf5a797",
+      "stem": "在给定模型中c=40、v=10、m=15，新创造的价值是多少个价值单位？",
+      "type": "single",
+      "answerText": "25",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:12–14",
+        "CAPITAL-I-17:15–19"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-b3",
+      "questionSHA256": "407e798c1750d8cffbbedb06256705929cf64875f1a5440e84496fac43946308",
+      "stem": "本课把一个工作日划分为必要劳动和剩余劳动，是依据什么？",
+      "type": "single",
+      "answerText": "再生产劳动力价值等价物与形成剩余价值的关系",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:20–22"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-b4",
+      "questionSHA256": "217ebc66639250ffac6f44193ac7977fa7d92bc3bc3a6dced5eeeabd6bf3515f",
+      "stem": "同一期间v>0，m′应以什么作分母？",
+      "type": "single",
+      "answerText": "v",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:19,22–25"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a1",
+      "questionSHA256": "0e21b7feffbc6d0ff51da9c9bd7833576791d5ac6679b925110d7d69a60a2480",
+      "stem": "有人说“工人出售的是永久的人身，因此劳动力就是已经完成的劳动”。用本课概念指出两处混淆，并保留社会条件。",
+      "type": "subjective",
+      "answerText": "劳动力是能力，劳动是能力的实际运用；本课雇佣劳动分析中让渡的是一定期间劳动力的使用，不是永久出售人身。劳动力作为商品还须劳动者能支配自身劳动能力且缺少独立生产条件等历史社会条件。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-4:74–80",
+        "CAPITAL-I-17:12"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a2",
+      "questionSHA256": "86250b83c44abc0a4667a915c0a02f41cf836a2b69525f08c228278761c94461",
+      "stem": "同一期间模型中c=45、v=18、新价值=42，按价值交换且劳动力价值全额支付。求m和产品价值，并评价“已付18就证明全部新价值已付给劳动者”。",
+      "type": "subjective",
+      "answerText": "m=42−18=24，产品价值=45+42=87个价值单位。18在模型中支付劳动力价值，不等于42的全部新价值；等价购买劳动力与存在剩余价值并不矛盾。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:12–14",
+        "CAPITAL-I-17:15–19"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a3",
+      "questionSHA256": "5283b9e1eabf016381315d793cddef0927a9cf25057ba1b2a4670b9d551e8898",
+      "stem": "假设正常条件下每小时新价值相同：工作日9小时，每小时创造4个价值单位，劳动力日价值12。求必要、剩余劳动时间，并说明不是按产品用途分组。",
+      "type": "subjective",
+      "answerText": "必要劳动=12÷4=3小时，剩余劳动=9−3=6小时；是同一工作日再生产劳动力价值等价物与形成剩余价值的分割，不意味着按商品用途分两种劳动。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:20–22"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a4",
+      "questionSHA256": "31776dae7ce5fed2d15379cbb13245e355cc4f956df52f755938991a8c342d7a",
+      "stem": "同一期间给定v=24、m=36个价值单位且v>0。剩余价值率为百分之多少？请以%为单位输入数值。",
+      "type": "number",
+      "answerText": 150,
+      "unit": "%",
+      "sourceAnchors": [
+        "CAPITAL-I-7:19,22–25"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d1",
+      "questionSHA256": "45049f74deee035f10ffae1057cd91ef551fd1703b091f791e2e9b8b05c9b3cb",
+      "stem": "隔日：工人尚未开始操作，但具备相应体力和技能。能力与实际劳动的关系，哪项准确？",
+      "type": "single",
+      "answerText": "存在劳动力不等于已经发生实际劳动",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-4:74–80",
+        "CAPITAL-I-17:12"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d2",
+      "questionSHA256": "cf775e588786a34a8335850cc96cc23bbbe9d005f75f14ab528903636f34c881",
+      "stem": "隔日新模型：同一期间c=70，v=16，新价值=40。求m、产品总价值；仅知按天发16，是否能说当天新价值只有16？",
+      "type": "subjective",
+      "answerText": "m=40−16=24，产品价值=70+40=110个价值单位。不能；本模型中16是劳动力价值的支付，全部新价值是40，二者不能混同。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:12–14",
+        "CAPITAL-I-17:15–19"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d3",
+      "questionSHA256": "3d885341b0eec03ec522d1fba26b0762978a522b76b7f91e8d768720c721fd47",
+      "stem": "隔日：8小时工作日，每小时新价值3单位，劳动力日价值6单位。在相同正常劳动条件下求必要和剩余劳动时间，并区别于决定一件商品价值量的社会必要劳动时间。",
+      "type": "subjective",
+      "answerText": "必要劳动=6÷3=2小时，剩余劳动=8−2=6小时。这里划分工作日中再生产劳动力价值与形成剩余价值的部分；社会必要劳动时间讨论生产某商品的社会正常必要条件，不能把两个概念仅因有“必要”二字等同。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:20–22"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d4",
+      "questionSHA256": "6af488812c5683fa26ec3a5f027384ea707f965e6879e4171fb315fa163ca99b",
+      "stem": "隔日：同期间c=90、v=30、m=45。某人以45÷120×100%=37.5%回答剩余价值率。改正并说明分母和现实外推边界。",
+      "type": "subjective",
+      "answerText": "剩余价值率为45÷30×100%=150%；120=c+v，是另一个比较基数，不能作为本题m′分母。模型要求相同期间、价值单位及既定生产条件，不能只用现实营业收入和工资表推出现实m′。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-7:19,22–25"
+      ],
+      "review": "internal authored theory and arithmetic check",
+      "fullQuestionVerified": false,
+      "expertApproved": false
+    }
+  ],
+  "calculations": [
+    {
+      "where": "example1",
+      "newValue": 40,
+      "necessary": 3,
+      "surplusTime": 5,
+      "m": 25,
+      "total": 90,
+      "rate": 166.66666666666669
+    },
+    {
+      "where": "example2",
+      "m": 30,
+      "total": 110,
+      "rate": 150
+    },
+    {
+      "where": "b2",
+      "newValue": 25
+    },
+    {
+      "where": "a2",
+      "m": 24,
+      "total": 87
+    },
+    {
+      "where": "a3",
+      "necessary": 3,
+      "surplus": 6
+    },
+    {
+      "where": "a4",
+      "rate": 150
+    },
+    {
+      "where": "d2",
+      "m": 24,
+      "total": 110
+    },
+    {
+      "where": "d3",
+      "necessary": 2,
+      "surplus": 6
+    },
+    {
+      "where": "d4",
+      "rate": 150,
+      "wrongDefinition": 37.5
+    }
+  ],
+  "professionalApprovals": 0
+}

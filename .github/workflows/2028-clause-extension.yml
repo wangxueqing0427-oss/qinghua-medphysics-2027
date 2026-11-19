@@ -24,15 +24,15 @@ jobs:
       - working-directory: product-2028-ci
         run: npm install --ignore-scripts --no-audit --no-fund
       - run: node product-2028-issue10-papers/extension/verify.cjs
-      - run: node product-2028-issue10-papers/parallel/integration-test.cjs
+      - run: node product-2028-issue10-papers/parallel/batch2/integration-test.cjs
       - run: node product-2028-issue10-papers/parallel/reference-erratum-test.cjs
       - run: |
-          for subject in en-reading-garden-writing 353-independent-means-welch-deepening; do
+          for subject in en-translation-clause-scope-foundation pol-labour-power-surplus-foundation 353-direct-age-standardisation-foundation; do
             TARGET_UNIT=$subject BROWSER=chromium node product-2028-issue10-papers/extension/browser.cjs
             TARGET_UNIT=$subject BROWSER=webkit node product-2028-issue10-papers/extension/browser.cjs
           done
-      - run: OLD_SNAPSHOT=816e4b7ef441a13877b92920b83342d281f50df7 OLD_COURSES=78 CHECK_ERRATUM=1 BROWSER=chromium node product-2028-issue10-papers/extension/upgrade-browser.cjs
-      - run: OLD_SNAPSHOT=816e4b7ef441a13877b92920b83342d281f50df7 OLD_COURSES=78 CHECK_ERRATUM=1 BROWSER=webkit node product-2028-issue10-papers/extension/upgrade-browser.cjs
+      - run: OLD_SNAPSHOT=4a74e114ddff046d05fe002e33f9f3ac78027c01 OLD_COURSES=81 CHECK_ERRATUM=1 BROWSER=chromium node product-2028-issue10-papers/extension/upgrade-browser.cjs
+      - run: OLD_SNAPSHOT=4a74e114ddff046d05fe002e33f9f3ac78027c01 OLD_COURSES=81 CHECK_ERRATUM=1 BROWSER=webkit node product-2028-issue10-papers/extension/upgrade-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

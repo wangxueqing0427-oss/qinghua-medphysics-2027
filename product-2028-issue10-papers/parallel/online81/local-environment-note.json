@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-19",
+  "firstAttempt": "node seal.cjs without preserve-symlinks flags",
+  "failure": "EPERM lstat C:\\Users\\王学庆 before script execution",
+  "correction": "Use existing --preserve-symlinks --preserve-symlinks-main invocation; no assertions changed",
+  "retry": "passed",
+  "subsequentChange": "Freeze tested-manifest.json for historical81 integrity; do not read future build manifest"
+}

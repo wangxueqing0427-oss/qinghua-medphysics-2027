@@ -26717,6 +26717,1053 @@
           "difficulty": "delayed-transfer"
         }
       ]
+    },
+    {
+      "id": "en-translation-clause-scope-foundation",
+      "version": "0.1",
+      "subject": "en",
+      "title": "长句翻译起步：主干、否定范围与从句关系",
+      "writtenAt": "2026-11-19",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-foundation-exam-spec-pending",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "全部例句、译文与题目为原创日常教学材料；来源仅核对语法子主张，不冒充真题或官方译文。",
+      "mapping": [
+        "en-plan-7"
+      ],
+      "prerequisites": [
+        "en-main-subordinate-clauses",
+        "en-pronoun-reference",
+        "en-reading-evidence-foundation",
+        "en-passive-simple-foundation"
+      ],
+      "sources": [
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/clause-structure-verb-patterns",
+        "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses",
+        "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/conjunctions-or-so-because-although",
+        "https://downloads.bbc.co.uk/learningenglish/features/qanda/bbc_qanda_structures_with_negatives.pdf"
+      ],
+      "sourceEvidence": [
+        {
+          "id": "BC-CLAUSE",
+          "publisher": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/clause-structure-verb-patterns",
+          "actualRead": "2026-11-17中断前本代理实际读取正文17–116，主语/动词/宾语及不同动词模式；评论未作为规则依据。",
+          "supports": "主干及并非所有动词都有宾语",
+          "limits": "非中文翻译评分规范；本课自然中文为原创内部教学判断。"
+        },
+        {
+          "id": "BC-RELATIVE",
+          "publisher": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses",
+          "actualRead": "2026-11-17本代理读取正文7–40及52–74，关系从句提供限定/补充信息并与人/物对应。",
+          "supports": "关系从句修饰与who指人",
+          "limits": "本课只用明确who限定人例句，不覆盖省略/非限定全部规则。"
+        },
+        {
+          "id": "BC-CONJ",
+          "publisher": "British Council LearnEnglish Teens",
+          "url": "https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/conjunctions-or-so-because-although",
+          "actualRead": "2026-11-17本代理读取正文46–86，because原因、although对照/出乎预期及两种分句次序。",
+          "supports": "原因和让步关系须保留",
+          "limits": "不用正文60的简化文风建议推导连词永不能句首。"
+        },
+        {
+          "id": "BBC-SCOPE",
+          "publisher": "BBC Learning English",
+          "url": "https://downloads.bbc.co.uk/learningenglish/features/qanda/bbc_qanda_structures_with_negatives.pdf",
+          "actualRead": "2026-11-17本代理读取三页文本22–37、68–102；none为zero，all...not上下文缺失时有歧义，not all较清楚。版权页标2024，原发布日期未核。",
+          "supports": "none/not all区别及all...not歧义边界",
+          "limits": "不把日常some暗示全部升级为形式逻辑结论；本课not all不推出具体数量或比例。"
+        }
+      ],
+      "explanation": "翻译是把原句的意思用另一种语言清楚表达。本课只练英语译成中文，不要求把每个英文词按原顺序排成中文。先做四步：找主干，划出修饰或从句，保留否定与连接关系，最后读一遍中文并回查英文。主干先问“谁/什么—做什么/是什么—涉及谁/什么”。主语是句子谈的主体，谓语说明动作或状态，宾语是动作涉及的对象；不是每个句子都有宾语。The guide smiled.是“向导笑了”，不能为了凑主谓宾硬加“游客”。guide是向导，map是地图，route是路线，sign是标志，clear是清楚的。本课不是2028官方题型、字数或评分标准。\n\n先把修饰与主句分开。The guide who knows the area checked the map. 主句先看The guide checked the map（向导核对了地图）；who knows the area说明是哪位向导，area是地区。合起来可译“熟悉这一地区的向导核对了地图”。who在这里接guide，不是说地图认识地区。可以先在草稿写[The guide (who knows the area)] [checked] [the map]，再把中文连起来。括号只是分析工具，不是建议在正式译文保留英文括号。主干暂时略去修饰有助理解，但最终译文不能漏掉“熟悉这一地区”。过去动作可用“核对了”，不必每见英文过去式都另加“曾经”。\n\n否定范围是“不”究竟否定什么。The guide did not check the map.是“向导没有核对地图”，did not在本句否定check这一动作；不能译为“向导核对了错误的地图”。Not all the signs are clear.可译“并不是所有标志都清楚/标志不全清楚”，不能直接改成“所有标志都不清楚”；None of the signs are clear.则是“这些标志没有一个是清楚的”。本课只要求保留不全与全不的区别，不凭not all编出具体有几个清楚。若另有上下文说明Some signs are clear，则必须把这个补充也保留。All the signs are not clear.脱离语境可能让人不清楚是全不还是不全；遇到这种句子应查上下文或标明歧义，不机械套“all+not永远部分否定”。\n\n连词说明分句关系。Because the road was closed, the guide chose another route.是“因为道路封闭，向导选择了另一条路线”；because给原因，不能译成“虽然”。Although the route was longer, the group arrived before dark.是“虽然路线更长，但这一行人在天黑前到达了”。although给让步：承认路线长，同时说到达的情况，不表示路线长导致到达。longer是更长，before dark是天黑前，group在本课指一行人。中文可写“尽管……仍……”或“虽然……但……”，顺序可自然调整；关系和事件不能倒置，不能从到达推造“所有人都安全且零风险”。\n\n完整分步例句：Although the guide who knew the area checked the map, not all the signs were clear. ①圈出Although及逗号，分成让步分句和主句。②让步分句内部，guide是主体，checked the map是动作，who knew the area修饰guide。③主句not all限定signs的范围：并非全部清楚，不是所有都不清楚。④先译各块，再组织：“虽然熟悉这一地区的向导核对了地图，但并不是所有标志都清楚。”也接受“尽管那位了解当地情况的向导查看了地图，标志仍不全清楚。”核对/查看在本情境可接受；若上下文特别强调精确校验，则需保留更准确动词。本例不需虚构路标数量，也没有说向导未看地图。例句和题目均为原创虚构日常教学，不是真题或网络范句改写。\n\n译后回查五项：主体与动作有无颠倒；从句修饰谁是否清楚；否定范围是否保留；原因/让步/时间关系是否一致；有无漏译或增添事实。The visitor read the note because it explained the route.中it接note，可译“游客读了这份说明，因为其中解释了路线”，不用生硬写“它”也能保留指代。visitor是游客，note在这里是书面说明。中文可拆成两个句子，只要逻辑联系清楚，不变成两个无关事实。主观翻译的参考不是唯一逐字答案：同义词、语序和自然省略可接受，但不能把否定、对象或关系改掉。系统保存原文，仅展示要点供核对，不用关键词命中给出可靠翻译分。隔日换句练习，检验方法迁移，不能只背本课译文。",
+      "definition": "英译中先辨认句子结构和意义关系，再用自然中文表达并核对增漏与范围。",
+      "conditions": "从零翻译入门，非全部长难句/官方评分器；2028题型、长度及规则暂未确定。",
+      "example": "完整分步例句：Although the guide who knew the area checked the map, not all the signs were clear. ①圈出Although及逗号，分成让步分句和主句。②让步分句内部，guide是主体，checked the map是动作，who knew the area修饰guide。③主句not all限定signs的范围：并非全部清楚，不是所有都不清楚。④先译各块，再组织：“虽然熟悉这一地区的向导核对了地图，但并不是所有标志都清楚。”也接受“尽管那位了解当地情况的向导查看了地图，标志仍不全清楚。”核对/查看在本情境可接受；若上下文特别强调精确校验，则需保留更准确动词。本例不需虚构路标数量，也没有说向导未看地图。例句和题目均为原创虚构日常教学，不是真题或网络范句改写。",
+      "misconceptions": [
+        "看到名词就当主语而不查从句",
+        "主干分析后最终漏译修饰",
+        "not all误作none",
+        "because与although互换",
+        "逐词硬排或凭常识增添结果"
+      ],
+      "recall": [
+        "闭卷说明怎样找主干并处理修饰。",
+        "闭卷区分not all、none和动作否定。",
+        "闭卷说明because与although的关系，并说明代词回查。",
+        "闭卷列四步翻译法及两项译后核对。"
+      ],
+      "rubric": [
+        "主体与动作准确",
+        "修饰及指代准确",
+        "否定范围和关系完整",
+        "中文自然且无无据增漏"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "换为工作人员与时钟的新句，先独立译再对要点，不按关键词给写作分。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "英语及翻译教师独立审核为0",
+          "自然中文及语义接受边界为内部判断待复核",
+          "不构成完整考研翻译路径"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 1
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 2
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 3
+        },
+        {
+          "id": "s5",
+          "explanationParagraph": 4
+        },
+        {
+          "id": "s6",
+          "explanationParagraph": 5
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "en-translation-clause-scope-foundation-g1",
+          "description": "识别主干和修饰对象",
+          "successCriteria": "能写出主句并把关系从句译给正确主体",
+          "teachingSectionIds": [
+            "s1",
+            "s2"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "en-translation-clause-scope-foundation-b1",
+            "en-translation-clause-scope-foundation-b4",
+            "en-translation-clause-scope-foundation-a1",
+            "en-translation-clause-scope-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-translation-clause-scope-foundation-g2",
+          "description": "保留否定范围",
+          "successCriteria": "能区分动作否定、不全及全不而不编数量",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "en-translation-clause-scope-foundation-b2",
+            "en-translation-clause-scope-foundation-b4",
+            "en-translation-clause-scope-foundation-a2",
+            "en-translation-clause-scope-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-translation-clause-scope-foundation-g3",
+          "description": "保留分句关系和指代",
+          "successCriteria": "能译出原因或让步并还原代词",
+          "teachingSectionIds": [
+            "s4",
+            "s6"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "en-translation-clause-scope-foundation-b3",
+            "en-translation-clause-scope-foundation-b4",
+            "en-translation-clause-scope-foundation-a3",
+            "en-translation-clause-scope-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "en-translation-clause-scope-foundation-g4",
+          "description": "组织完整译文并回查",
+          "successCriteria": "能独立译含修饰、让步和范围限定的句子",
+          "teachingSectionIds": [
+            "s5",
+            "s6"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "en-translation-clause-scope-foundation-b4",
+            "en-translation-clause-scope-foundation-a4",
+            "en-translation-clause-scope-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "type": "single",
+          "stem": "The guide who knows the area checked the map. 暂时分离修饰后，主句是哪项？",
+          "options": [
+            "The guide checked the map.",
+            "The map knows the area.",
+            "The area checked the guide."
+          ],
+          "answer": 0,
+          "explanation": "who knows the area修饰guide；主句主体guide、动作checked、对象map。B/C都换了主体或施受关系。",
+          "id": "en-translation-clause-scope-foundation-b1",
+          "difficulty": "foundation"
+        },
+        {
+          "type": "single",
+          "stem": "Not all the signs are clear. 哪种译法最保留否定范围？",
+          "options": [
+            "所有标志都不清楚。",
+            "并不是所有标志都清楚。",
+            "所有标志都清楚。"
+          ],
+          "answer": 1,
+          "explanation": "not all否定“全部清楚”，不等于none的全不，也不等于全都清楚；不得擅自编出具体数量。",
+          "id": "en-translation-clause-scope-foundation-b2",
+          "difficulty": "foundation"
+        },
+        {
+          "type": "single",
+          "stem": "Although the route was longer, the group arrived before dark. 哪种关系正确？",
+          "options": [
+            "路线长必然造成到达。",
+            "因为路线更长，所以没到达。",
+            "承认路线更长，同时说明天黑前到达。"
+          ],
+          "answer": 2,
+          "explanation": "although表示让步；A凭空加入因果必然性，B换成原因且否定了原文到达事实。",
+          "id": "en-translation-clause-scope-foundation-b3",
+          "difficulty": "foundation"
+        },
+        {
+          "type": "subjective",
+          "stem": "闭卷：列出本课翻译四步与译后至少两项检查。",
+          "answer": "找主干—分修饰/从句—保留否定与关系—组织中文并回查；检查对象、否定范围、从句指向、关系或增漏事实。",
+          "rubric": [
+            "四步能用于实际操作",
+            "至少两项具体回查内容"
+          ],
+          "explanation": "接受同义中文，不要求英文术语；只写“翻译准确”而不给具体操作不足。",
+          "id": "en-translation-clause-scope-foundation-b4",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "type": "subjective",
+          "stem": "翻译并指出who修饰谁：The visitor who carried a blue bag read the note. 词汇：carried携带，bag包，visitor游客，note书面说明。",
+          "answer": "带着蓝色包的游客读了这份说明。who carried a blue bag修饰visitor。",
+          "rubric": [
+            "游客读说明的主干完整",
+            "保留蓝色包的修饰",
+            "who接visitor"
+          ],
+          "explanation": "接受“带着一个蓝包的游客阅读了这张说明”等自然中文；不能译为包读说明，不能遗漏蓝色或擅增性别。",
+          "id": "en-translation-clause-scope-foundation-a1",
+          "difficulty": "application"
+        },
+        {
+          "type": "subjective",
+          "stem": "分别翻译并说明区别：Not all the seats were free. / None of the seats were free. 本题free明确指未被占用的，seats座位。",
+          "answer": "并不是所有座位都空着。/没有一个座位空着。前句否定全部空着，后句全不空着。",
+          "rubric": [
+            "保留不全与全不的区别",
+            "free按题设译空着而非免费"
+          ],
+          "explanation": "接受“座位不全是空的/所有座位都被占用”等等价表达；不凭第一句写出空座数量，且不把free改为收费信息。",
+          "id": "en-translation-clause-scope-foundation-a2",
+          "difficulty": "application"
+        },
+        {
+          "type": "subjective",
+          "stem": "翻译：Because the path was wet, the walkers chose a longer route. 词汇：path小路，wet湿的，walkers步行者，chose选择了，longer更长。",
+          "answer": "因为小路是湿的，步行者选择了较长的路线。",
+          "rubric": [
+            "因果方向正确",
+            "选择路线的主体是步行者",
+            "保留更长这一比较"
+          ],
+          "explanation": "接受“由于小路是湿的，行人选择了更长的路线”；本题wet只明确湿，不能据此断言摔倒、封路或安全结果。",
+          "id": "en-translation-clause-scope-foundation-a3",
+          "difficulty": "application"
+        },
+        {
+          "type": "subjective",
+          "stem": "完整翻译并自行指出一处容易漏的结构：Although the visitor who carried a map arrived early, not all the doors were open. 词汇：arrived到达，early早，doors门，open开着。",
+          "answer": "虽然带着地图的游客很早就到了，但并不是所有门都开着。易漏who carried a map或not all的范围。",
+          "rubric": [
+            "游客早到主干及地图修饰",
+            "让步关系",
+            "不全开而非全没开",
+            "指出实际结构风险"
+          ],
+          "explanation": "接受“尽管那位携带地图的来访者早早到达，门仍未全部打开”；不补具体日期、门数或早到的原因，不按参考逐字判分。",
+          "id": "en-translation-clause-scope-foundation-a4",
+          "difficulty": "application"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "type": "subjective",
+          "stem": "隔日：先写主干，再完整翻译。The worker who repaired the clock left a note. 词汇：worker工作人员，repaired修理了，clock钟，left留下。",
+          "answer": "主干The worker left a note；修钟的工作人员留下了一张字条。",
+          "rubric": [
+            "主干主体动作对象正确",
+            "who修饰worker",
+            "完整保留修钟信息"
+          ],
+          "explanation": "接受“那位修理时钟的工人留了张便条”；不能让clock成为留下者，不强制字条/便条某一用词。",
+          "id": "en-translation-clause-scope-foundation-d1",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "type": "single",
+          "stem": "隔日：原句The worker did not move the clock. 词汇move移动。哪项忠实？",
+          "options": [
+            "工作人员没有移动那只钟。",
+            "钟没有移动工作人员。",
+            "工作人员移动了一只坏钟。"
+          ],
+          "answer": 0,
+          "explanation": "did not否定工作人员移动钟这一动作。B颠倒主客体，C既漏否定又添加坏钟事实。",
+          "id": "en-translation-clause-scope-foundation-d2",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日：翻译并说明it指谁。The worker kept the note because it explained the problem. 词汇：kept保留，explained解释了，problem问题。",
+          "answer": "工作人员保留了这张字条，因为字条说明了问题。it指note。",
+          "rubric": [
+            "主体保留字条",
+            "原因关系正确",
+            "it还原为note"
+          ],
+          "explanation": "接受“工作人员把便条留着，因为里面解释了问题”；中文不出现“它”也可，只要指代一致；不能把字条理解为工作人员。",
+          "id": "en-translation-clause-scope-foundation-d3",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "type": "subjective",
+          "stem": "隔日独立翻译：Although the worker who checked the clocks stayed late, not all the clocks were repaired. 词汇：checked检查，stayed late待到很晚，repaired修好（此处被动）。",
+          "answer": "虽然检查时钟的工作人员待到很晚，但并非所有时钟都修好了。",
+          "rubric": [
+            "工作人员及检查时钟修饰准确",
+            "待到很晚而非来得晚",
+            "让步而非原因",
+            "not all保留未全部修好"
+          ],
+          "explanation": "接受“尽管那位检查钟表的工人留到了很晚，时钟仍没有全部修复”；不得写全没修好或全修好。拆两句可接受，需用“不过/仍”等保留联系。",
+          "id": "en-translation-clause-scope-foundation-d4",
+          "difficulty": "delayed-transfer"
+        }
+      ]
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation",
+      "version": "0.1-parallel-pol-surplus-1",
+      "subject": "pol",
+      "title": "劳动力与剩余价值起步：能力、工作日与比率分母",
+      "writtenAt": "2026-11-19",
+      "applicableYear": 2028,
+      "scopeStatus": "teaching-foundation-exam-spec-pending",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创教学解释、数值模型与题目；原始理论概念核对，不冒充真题、官方科目或2028考纲。",
+      "mapping": [
+        "pol-plan-1"
+      ],
+      "prerequisites": [
+        "pol-commodity-value-foundation",
+        "pol-money-price-value-foundation"
+      ],
+      "prerequisiteExplanation": "先理解劳动价值与货币表现，再分析劳动力商品、价值增殖；不是重复商品与价格基础课。",
+      "sources": [
+        "https://www.marxists.org/chinese/marx/capital/04.htm",
+        "https://www.marxists.org/chinese/marx/capital/07.htm",
+        "https://www.marxists.org/chinese/marx/capital/17.htm"
+      ],
+      "sourceEvidence": [
+        {
+          "sourceId": "CAPITAL-I-4",
+          "title": "资本论第一卷第四章：货币转化为资本",
+          "author": "卡尔·马克思",
+          "publisher": "中文马克思主义文库中文原始理论转录",
+          "accessed": "2026-11-19",
+          "actualRead": "第3节劳动力的买和卖正文74–94，劳动力定义75、社会条件76–80、价值与再生产81–89、消费过程94",
+          "limits": "只作原始理论基础概念；非官方考试范围或现代工资制度实证。"
+        },
+        {
+          "sourceId": "CAPITAL-I-7",
+          "title": "资本论第一卷第七章：剩余价值率",
+          "author": "卡尔·马克思",
+          "publisher": "中文马克思主义文库中文原始理论转录",
+          "accessed": "2026-11-19",
+          "actualRead": "正文11–25；c/v/m及实际耗用13、新价值14、剩余价值率19、必要与剩余劳动20–22、分母对照24–25",
+          "limits": "原创数字依同一期间、劳动条件及按价值交换等假设；不移用原文厂史数值。"
+        },
+        {
+          "sourceId": "CAPITAL-I-17",
+          "title": "资本论第一卷第十七章：劳动力的价值或价格转化为工资",
+          "author": "卡尔·马克思",
+          "publisher": "中文马克思主义文库中文原始理论转录",
+          "accessed": "2026-11-19",
+          "actualRead": "正文12–19，劳动力与劳动区别及工资形式",
+          "limits": "针对资本主义雇佣劳动理论，不把现实工资额直接等于模型参数。"
+        }
+      ],
+      "explanation": "前两课已经区分商品价值与价格。本课进入一个特定的理论对象：马克思对资本主义雇佣劳动和价值增殖的分析。先分清“有能力做”和“正在做”：劳动力是活的人所具有的体力、智力等劳动能力的总和；劳动是这种能力在生产中的实际运用。会织布的能力不等于已经织出的布，也不等于已经发生的织布活动。在这一分析中，劳动者出卖一定时间的劳动力使用，不是永久出售自己的人身，更不是把尚未发生的劳动当成已完成商品出售。劳动力成为商品有历史和社会条件：劳动者能支配自己的劳动能力，同时缺少独立实现生产的必要条件、不得不出卖劳动力。不能把所有时代的一切劳动都叫作劳动力买卖。\n\n劳动力的价值和使用劳动力所创造的新价值，是两个问题。前者涉及维持和再生产劳动能力所需的生活资料等社会条件，包含历史和道德因素，不能简化成个人当天吃饭的支出；本课只在题设中给定其货币表现，不估算现实工资。劳动力的使用是劳动，劳动在一定条件下能够创造超过劳动力自身价值的新价值。在这里，“劳动力价值已得到等价支付”和“所创造的新价值全归劳动者”并不是同一句话。工资在该理论中是劳动力价值或价格的转化形式，看起来像全部劳动的报酬；不能因按天计酬就推断当日全部新价值都已经付给劳动者，也不能反过来把现实某人的工资直接当作本课模型的v。\n\n先把模型条件列全：考虑资本主义生产关系中的一个生产期间，商品与劳动力按价值交换；劳动在社会正常条件、相同复杂程度和强度下进行，单位时间创造的新价值恒定；原料和工具耗用价值按题设转移，产品价值按模型可实现，暂不讨论税费、利息、价格偏离和实际会计利润。不变资本c在本课计算中指该期间实际消耗并转移到产品的生产资料价值，不把一台机器全部购价都计入一天产品。可变资本v是用于购买该期间劳动力的价值，模型中与已支付的劳动力价值相等；剩余价值m是新价值超过v的部分。于是产品价值=c+v+m；新创造的价值=v+m。把c称为不变，是说它的价值在该过程只转移而不形成新增价值，并不表示机器永不磨损或物价永不变化。\n\n工作日中的必要劳动时间，是在上述条件下再生产劳动力价值的等价物所需时间；超过这部分、创造剩余价值的劳动时间是剩余劳动时间。二者区分的是同一工作日的价值形成部分，不是说前半段一定做生活用品、后半段才做另一批商品，也不是“必要”之外的劳动没有社会用途。不要把这里的必要劳动时间与上一课决定某种商品价值量的社会必要劳动时间混为一谈。前者就本课工作日分割而言，后者就生产某种商品的社会条件而言。\n\n分步例题一：纯虚构模型设一个8小时工作日，劳动每小时创造5个价值单位的新价值，劳动力日价值v=15，生产资料当日耗用并转移c=50；其余条件满足前述假设。①新价值=8×5=40。②必要劳动时间=15÷5=3小时，剩余劳动时间=8−3=5小时。③剩余价值m=40−15=25，也等于5×5。④产品总价值=50+15+25=90。⑤15是本模型支付的劳动力日价值，不是全部40的新价值；50是旧价值转移，不应再称新增劳动创造。单位中的价值单位是教学货币表现，不是现实人民币；8小时也是模型数字，不是劳动法规或工作安排建议。\n\n剩余价值率记作m′，撇号只是符号名称，不是微积分求导。其定义是m与v之比：m′=(m÷v)×100%，这里v必须大于0，m与v须取同一期间、同一价值单位。上述模型为25÷15×100%=166又2/3%。在单位时间新价值相同的假设下，也可用剩余劳动时间÷必要劳动时间×100%=5÷3×100%核对。分母不能换成产品总价值，也不能换成c+v；后一个比率讨论的是不同的比较关系。166又2/3%不是说劳动者一天工作超过全天时长，也不是产品利润占售价的166又2/3%。时间占全天的比率与剩余/必要比率分母不同。\n\n分步例题二：换一个完整期间，已知c=60、v=20、新价值=50个价值单位。先排除c：m=50−20=30；再计算m′=30÷20×100%=150%；产品价值=60+50=110。如果误算30÷(60+20)=37.5%，数学除法本身没错，但回答了另一种比率，不能写成剩余价值率。分析材料按“条件—新旧价值—工作日分割—指定比率”顺序写。只给现实营业收入和员工工资，缺少价格、耗用、生产关系和价值形成条件，不能直接套模型定量；本课不作现实企业利润或法律评价。",
+      "definition": "劳动力是人的劳动能力，劳动是其运用；给定模型中新价值=v+m，剩余价值率m′=m/v（以百分数表达时乘100%）。",
+      "conditions": "先把模型条件列全：考虑资本主义生产关系中的一个生产期间，商品与劳动力按价值交换；劳动在社会正常条件、相同复杂程度和强度下进行，单位时间创造的新价值恒定；原料和工具耗用价值按题设转移，产品价值按模型可实现，暂不讨论税费、利息、价格偏离和实际会计利润。不变资本c在本课计算中指该期间实际消耗并转移到产品的生产资料价值，不把一台机器全部购价都计入一天产品。可变资本v是用于购买该期间劳动力的价值，模型中与已支付的劳动力价值相等；剩余价值m是新价值超过v的部分。于是产品价值=c+v+m；新创造的价值=v+m。把c称为不变，是说它的价值在该过程只转移而不形成新增价值，并不表示机器永不磨损或物价永不变化。",
+      "example": "分步例题一：纯虚构模型设一个8小时工作日，劳动每小时创造5个价值单位的新价值，劳动力日价值v=15，生产资料当日耗用并转移c=50；其余条件满足前述假设。①新价值=8×5=40。②必要劳动时间=15÷5=3小时，剩余劳动时间=8−3=5小时。③剩余价值m=40−15=25，也等于5×5。④产品总价值=50+15+25=90。⑤15是本模型支付的劳动力日价值，不是全部40的新价值；50是旧价值转移，不应再称新增劳动创造。单位中的价值单位是教学货币表现，不是现实人民币；8小时也是模型数字，不是劳动法规或工作安排建议。\n\n分步例题二：换一个完整期间，已知c=60、v=20、新价值=50个价值单位。先排除c：m=50−20=30；再计算m′=30÷20×100%=150%；产品价值=60+50=110。如果误算30÷(60+20)=37.5%，数学除法本身没错，但回答了另一种比率，不能写成剩余价值率。分析材料按“条件—新旧价值—工作日分割—指定比率”顺序写。只给现实营业收入和员工工资，缺少价格、耗用、生产关系和价值形成条件，不能直接套模型定量；本课不作现实企业利润或法律评价。",
+      "misconceptions": [
+        "把劳动能力与已发生劳动当成同一对象",
+        "把工资视为全部新价值的必然等额报酬",
+        "把整台机器购价当一天耗用价值",
+        "把产品总价值当新价值",
+        "用c+v替换剩余价值率分母v",
+        "把剩余劳动解释为无用途或在另一空间进行"
+      ],
+      "recall": [
+        "闭卷区分能力与活动，并说明劳动力成为商品有社会条件。",
+        "闭卷画c、v、m的产品价值与新价值分解，说明工资形式不能证明全部新价值已支付。",
+        "闭卷说明必要与剩余劳动的划分及其同社会必要劳动时间的区别。",
+        "闭卷写剩余价值率分母与单位、期间条件，换数重算。"
+      ],
+      "rubric": [
+        "概念及历史条件",
+        "价值构成与工资边界",
+        "工作日分割",
+        "正确分母和模型条件"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "隔日闭卷换期间和数值，先写条件再算，主观仅参考核对。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "独立专业审核0，待理论教师核对",
+          "模型假设不等于现实工资、政策或法律判断",
+          "未接入共享构建、未浏览器或真实iPhone验收"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 0,
+          "workedExample": "区分织布能力和实际织布。"
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 1,
+          "workedExample": "给定v并不等于全部新价值。"
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 2,
+          "workedExample": "分步例题一：纯虚构模型设一个8小时工作日，劳动每小时创造5个价值单位的新价值，劳动力日价值v=15，生产资料当日耗用并转移c=50；其余条件满足前述假设。①新价值=8×5=40。②必要劳动时间=15÷5=3小时，剩余劳动时间=8−3=5小时。③剩余价值m=40−15=25，也等于5×5。④产品总价值=50+15+25=90。⑤15是本模型支付的劳动力日价值，不是全部40的新价值；50是旧价值转移，不应再称新增劳动创造。单位中的价值单位是教学货币表现，不是现实人民币；8小时也是模型数字，不是劳动法规或工作安排建议。"
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 3,
+          "workedExample": "分步例题二：换一个完整期间，已知c=60、v=20、新价值=50个价值单位。先排除c：m=50−20=30；再计算m′=30÷20×100%=150%；产品价值=60+50=110。如果误算30÷(60+20)=37.5%，数学除法本身没错，但回答了另一种比率，不能写成剩余价值率。分析材料按“条件—新旧价值—工作日分割—指定比率”顺序写。只给现实营业收入和员工工资，缺少价格、耗用、生产关系和价值形成条件，不能直接套模型定量；本课不作现实企业利润或法律评价。"
+        },
+        {
+          "id": "s5",
+          "explanationParagraph": 5,
+          "workedExample": "分步例题二：换一个完整期间，已知c=60、v=20、新价值=50个价值单位。先排除c：m=50−20=30；再计算m′=30÷20×100%=150%；产品价值=60+50=110。如果误算30÷(60+20)=37.5%，数学除法本身没错，但回答了另一种比率，不能写成剩余价值率。分析材料按“条件—新旧价值—工作日分割—指定比率”顺序写。只给现实营业收入和员工工资，缺少价格、耗用、生产关系和价值形成条件，不能直接套模型定量；本课不作现实企业利润或法律评价。"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "pol-labour-power-surplus-foundation-b1",
+          "type": "single",
+          "stem": "在本课理论中，“劳动力”首先指什么？",
+          "answer": 1,
+          "explanation": "劳动能力是人的体力智力总和；实际运用能力才是劳动。永久出售人身也不同于一定期间劳动力使用。",
+          "difficulty": "foundation",
+          "options": [
+            "已经完成的一件产品",
+            "人的劳动能力",
+            "永久出售的人身"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-b2",
+          "type": "single",
+          "stem": "在给定模型中c=40、v=10、m=15，新创造的价值是多少个价值单位？",
+          "answer": 0,
+          "explanation": "新价值=v+m=10+15=25；40为旧价值转移，65才是产品价值。",
+          "difficulty": "foundation",
+          "options": [
+            "25",
+            "65",
+            "40"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-b3",
+          "type": "single",
+          "stem": "本课把一个工作日划分为必要劳动和剩余劳动，是依据什么？",
+          "answer": 2,
+          "explanation": "是再生产劳动力价值等价物与形成剩余价值的分割，不是用途或所在空间划分。",
+          "difficulty": "foundation",
+          "options": [
+            "前半天一定做食品、后半天一定做衣服",
+            "只有必要劳动才有用途",
+            "再生产劳动力价值等价物与形成剩余价值的关系"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-b4",
+          "type": "single",
+          "stem": "同一期间v>0，m′应以什么作分母？",
+          "answer": 1,
+          "explanation": "剩余价值率按定义用m/v。c+v和产品总价值均非该比率分母。",
+          "difficulty": "foundation",
+          "options": [
+            "c+v",
+            "v",
+            "c+v+m"
+          ]
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "pol-labour-power-surplus-foundation-a1",
+          "type": "subjective",
+          "stem": "有人说“工人出售的是永久的人身，因此劳动力就是已经完成的劳动”。用本课概念指出两处混淆，并保留社会条件。",
+          "answer": "劳动力是能力，劳动是能力的实际运用；本课雇佣劳动分析中让渡的是一定期间劳动力的使用，不是永久出售人身。劳动力作为商品还须劳动者能支配自身劳动能力且缺少独立生产条件等历史社会条件。",
+          "explanation": "接受能力/活动及一定期间/永久人身的通俗区分。只说“都不对”无解释不足；不要求复述历史例证，不将所有劳动一概说成商品买卖。",
+          "difficulty": "application",
+          "rubric": [
+            "区分能力与活动",
+            "区分一定期间使用与永久人身",
+            "说明历史社会条件"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-a2",
+          "type": "subjective",
+          "stem": "同一期间模型中c=45、v=18、新价值=42，按价值交换且劳动力价值全额支付。求m和产品价值，并评价“已付18就证明全部新价值已付给劳动者”。",
+          "answer": "m=42−18=24，产品价值=45+42=87个价值单位。18在模型中支付劳动力价值，不等于42的全部新价值；等价购买劳动力与存在剩余价值并不矛盾。",
+          "explanation": "接受清楚列式或等价表述；须分别给出24和87，且区分劳动力价值与新价值。把45重复算入新价值或把现实工资直接套入，不能接受。",
+          "difficulty": "application",
+          "rubric": [
+            "m为24",
+            "产品价值87且新旧价值区分",
+            "解释18不等于全部42"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-a3",
+          "type": "subjective",
+          "stem": "假设正常条件下每小时新价值相同：工作日9小时，每小时创造4个价值单位，劳动力日价值12。求必要、剩余劳动时间，并说明不是按产品用途分组。",
+          "answer": "必要劳动=12÷4=3小时，剩余劳动=9−3=6小时；是同一工作日再生产劳动力价值等价物与形成剩余价值的分割，不意味着按商品用途分两种劳动。",
+          "explanation": "接受3小时和6小时的完整单位表达。只写时长而称后6小时无社会用途不足；题设不是现实工作时间规定。",
+          "difficulty": "application",
+          "rubric": [
+            "必要3小时",
+            "剩余6小时",
+            "同一劳动的价值分割及条件"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-a4",
+          "type": "number",
+          "stem": "同一期间给定v=24、m=36个价值单位且v>0。剩余价值率为百分之多少？请以%为单位输入数值。",
+          "answer": 150,
+          "explanation": "m′=36÷24×100%=150%；答案填150、单位%。分母不能替换为总预付资本。",
+          "difficulty": "application",
+          "unit": "%",
+          "tolerance": 0
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "pol-labour-power-surplus-foundation-d1",
+          "type": "single",
+          "stem": "隔日：工人尚未开始操作，但具备相应体力和技能。能力与实际劳动的关系，哪项准确？",
+          "answer": 2,
+          "explanation": "能力已经存在不等于劳动已经发生；本题不凭技能本身认定全部商品化社会条件。",
+          "difficulty": "delayed-transfer",
+          "options": [
+            "未开始操作说明不存在劳动能力",
+            "具备技能等于产品已生产完",
+            "存在劳动力不等于已经发生实际劳动"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-d2",
+          "type": "subjective",
+          "stem": "隔日新模型：同一期间c=70，v=16，新价值=40。求m、产品总价值；仅知按天发16，是否能说当天新价值只有16？",
+          "answer": "m=40−16=24，产品价值=70+40=110个价值单位。不能；本模型中16是劳动力价值的支付，全部新价值是40，二者不能混同。",
+          "explanation": "接受24、110与区分解释；必须按同期间条件，不把70算作新创造价值。仅看现实按天计酬形式也不能估计实际新价值。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "m=24",
+            "产品价值110",
+            "工资形式不能证明新价值等额"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-d3",
+          "type": "subjective",
+          "stem": "隔日：8小时工作日，每小时新价值3单位，劳动力日价值6单位。在相同正常劳动条件下求必要和剩余劳动时间，并区别于决定一件商品价值量的社会必要劳动时间。",
+          "answer": "必要劳动=6÷3=2小时，剩余劳动=8−2=6小时。这里划分工作日中再生产劳动力价值与形成剩余价值的部分；社会必要劳动时间讨论生产某商品的社会正常必要条件，不能把两个概念仅因有“必要”二字等同。",
+          "explanation": "接受2、6小时与对象区分。无需背定义全文，但不得说“社会必要时间就是工人拿到工资的钟点”。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "必要2小时",
+            "剩余6小时",
+            "区分工作日分割与商品社会必要工时"
+          ]
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：同期间c=90、v=30、m=45。某人以45÷120×100%=37.5%回答剩余价值率。改正并说明分母和现实外推边界。",
+          "answer": "剩余价值率为45÷30×100%=150%；120=c+v，是另一个比较基数，不能作为本题m′分母。模型要求相同期间、价值单位及既定生产条件，不能只用现实营业收入和工资表推出现实m′。",
+          "explanation": "接受150%及比率基数解释；只说37.5算错不够，因为原除法正确而定义用错。不得把150%说成利润占售价的比例。",
+          "difficulty": "delayed-transfer",
+          "rubric": [
+            "正确150%",
+            "指出v与c+v不同",
+            "说明期间单位和现实证据边界"
+          ]
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "pol-labour-power-surplus-foundation-g1",
+          "description": "区分劳动力与劳动及社会条件",
+          "successCriteria": "能以能力与活动解释，拒绝永久人身买卖",
+          "teachingSectionIds": [
+            "s1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "pol-labour-power-surplus-foundation-b1",
+            "pol-labour-power-surplus-foundation-a1",
+            "pol-labour-power-surplus-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-g2",
+          "description": "分解产品价值与新价值并解释工资形式",
+          "successCriteria": "能算出m和产品价值，说明v不等于全部新价值",
+          "teachingSectionIds": [
+            "s2",
+            "s3"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "pol-labour-power-surplus-foundation-b2",
+            "pol-labour-power-surplus-foundation-a2",
+            "pol-labour-power-surplus-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-g3",
+          "description": "按条件划分必要与剩余劳动",
+          "successCriteria": "能算两段时长并区分商品社会必要劳动时间",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "pol-labour-power-surplus-foundation-b3",
+            "pol-labour-power-surplus-foundation-a3",
+            "pol-labour-power-surplus-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "pol-labour-power-surplus-foundation-g4",
+          "description": "计算剩余价值率并核对分母",
+          "successCriteria": "能用同期间m/v算百分率并拒绝c+v替换",
+          "teachingSectionIds": [
+            "s5"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "pol-labour-power-surplus-foundation-b4",
+            "pol-labour-power-surplus-foundation-a4",
+            "pol-labour-power-surplus-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ]
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation",
+      "version": "0.1",
+      "subject": "353",
+      "title": "粗率与直接标准化：共同权重、年龄结构和比较边界",
+      "writtenAt": "2026-11-19",
+      "applicableYear": 2028,
+      "scopeStatus": "provisional-2027-outline-partial",
+      "reviewStatus": "draft-internal-check",
+      "distribution": "held-pending-review",
+      "authorship": "原创虚构年龄别死亡/人年教学资料与题目，非真题、真实地区结论或医学建议。",
+      "mapping": [
+        "STAT02"
+      ],
+      "mappingNote": "教学补充：直接法与混杂/分层比较的联系；节点映射暂定，不等于2028官方范围确认。",
+      "prerequisites": [
+        "353-ratio-rate-prevalence",
+        "353-person-time",
+        "353-cohort-risk-smr-followup"
+      ],
+      "prerequisiteExplanation": "先区分比例与人时率，能加总实际人年；先修间接SMR帮助识别直接法不是O/E。",
+      "sources": [
+        "https://fingertips.phe.org.uk/static-reports/public-health-technical-guidance/Standardisation/DSRs.html",
+        "https://wonder.cdc.gov/wonder/help/ucd.html"
+      ],
+      "sourceEvidence": [
+        {
+          "publisher": "UK Department of Health & Social Care, Public Health Technical Guidance",
+          "title": "Directly standardised rates (DSRs)",
+          "accessed": "2026-11-19",
+          "pageUpdated": "August 2025",
+          "actualRead": "HTML59–78：共同标准结构下的汇总定义、ΣwiOi/ni除Σwi、分母人口或人口乘在险期（人年）、标准人口人数或比例权重。",
+          "limits": "采用直接法公式与人时分母支持；不把该站小计数发布门槛当本地通用法定规则；只做虚构手算，不作稀疏真实资料发布或置信区间验收。"
+        },
+        {
+          "publisher": "US CDC WONDER / NCHS",
+          "title": "Underlying Cause of Death 1999–2020, help",
+          "accessed": "2026-11-19",
+          "actualRead": "HTML118–135：粗率、年龄结构、直接加权与比较指数；1193–1202：计算及共同标准选择/所选年龄范围。",
+          "limits": "只核对稳定方法定义；美国默认标准、显示舍入、隐私抑制和历史人口年份不移作中国规则。课堂用精确层率并注明标准，不模拟WONDER输出精度。"
+        }
+      ],
+      "explanation": "比较前先约定事件和分母。本课所有主要例题都是原创虚构资料：同一日历年、相同死亡定义，按死亡年龄归入两层（0–64岁、65岁及以上）；分母是该层实际累计观察的人年，不是期初人数。一个人观察半年贡献0.5人年；跨年龄界限时，观察时间按实际所在层拆分，死亡归入发生时年龄层。表中已给汇总完成的人年。每层死亡率ri=di/Ti，di为该层死亡数，Ti为该层人年，报告时乘1000，单位为每1000人年。它不是一年死亡概率，不能换成百分比风险。例题已假定年龄已知、分类一致、完整登记；真实资料仍须核查漏报与时间。\n\n粗率把全体死亡除以全体人年，不先消除年龄组成差异。若两层分别di、Ti，粗率R粗=Σdi/ΣTi；也等于Σ[(Ti/ΣTi)×ri]。这说明粗率自带本地区的人年组成权重。若老年层率较高，一个老年观察时间占比较多的地区，可能仅因结构而有较高粗率。粗率仍有用途：它对应这份真实观察中的事件频率，可与实际死亡数一起描述本地负担；不能因要比较就删除粗率。层别率同时展示，有助于看年龄内部差异，不让一个总数掩盖细节。\n\n【第一层逐步例：先算本地率】甲地0–64岁8死亡/8000人年、65岁以上20/2000；乙地相同年龄层1/2000、64/8000。①各层率乘1000：甲1、10，乙0.5、8，单位均为每1000人年；甲在两个年龄层的观察率都高。②粗率甲=(8+20)/(8000+2000)×1000=2.8，乙=(1+64)/(2000+8000)×1000=6.5。③甲的低年龄层人年占80%，乙只占20%，乙高年龄层人年多。④因此“乙粗率高，所以乙每个年龄层都更差”被给定数据反驳。不能把这份描述直接升级为任何服务、政策或暴露的因果效果。\n\n直接标准化换的是比较权重，不是篡改原始死亡。选一套共同标准年龄结构，设低层与高层标准量分别S1、S2，归一化权重wi=Si/ΣSi，权重非负且和为1。直接标准化率R标=Σwi×ri。ri若已经用每1000人年显示，直接加权后的结果仍为每1000人年，不能再乘1000；若用原始di/Ti则最后乘1000。对甲乙必须用相同年龄界限、共同非零标准支持的年龄范围、共同标准权重、死亡定义与单位。只给总死亡与总人年不能还原所有年龄别率；某层分母为0时不能把0/0硬当零率。小层资料不稳，仍需不确定性评价，算出点值不等于可稳定排行。\n\n【第二层逐步例：共同结构比较】规定共同标准人年构成为低层5000、高层5000，w=(0.5,0.5)。①保留甲1、10和乙0.5、8的年龄别率；②甲R标=0.5×1+0.5×10=5.5，乙R标=0.5×0.5+0.5×8=4.25，单位每1000人年；③用假想事件数复核：在这10000标准人年上，甲的层率对应5与50、合计55个假想事件；乙对应2.5与40、合计42.5。各自除10000再乘1000，仍得5.5与4.25。2.5不是实际死了半个人，而是率应用于假想观察时间后的计算期望量。④共同结构下甲点率较高，和粗率甲2.8低于乙6.5的顺序相反；本例不能据粗率排列年龄内率。\n\n标准化结果依赖参考结构，报告时必须给标准。若共同权重改为(0.8,0.2)，同一数据甲变0.8×1+0.2×10=2.8，乙变0.8×0.5+0.2×8=2.0。原始资料没有改变，比较问题的参考组成改变了。这两套值不能一地用前套、一地用后套再比较。甲在本例两个年龄层都高，任何共同非负权重都不会把甲标准点率变得低于乙；若两地年龄别率交叉，则改变共同权重甚至可能改变顺序。例：甲层率2、12，乙3、9；权重(0.75,0.25)时两者4.5相同，改(0.25,0.75)时甲9.5、乙7.5。相等只针对那套权重，不证明各年龄率相等。\n\n解释时将观察和假想分开。标准化率回答“若两地具有这套共同年龄结构，各自年龄别率形成何种汇总”，不是当地真实观察频率，不是个人死亡概率，也不保证把所有混杂清除。层分得很宽仍可残留年龄内部差异，其他因素、资料质量与随机波动也未自动解决。直接法用各地自己的年龄别率和共同标准权重；先修SMR课是把参照层率施于研究人群求预期，再算观察/预期的无量纲比。两者不能交换公式或单位。本课不重教SMR，不提供直接标化置信区间或因果调整的完整课程。\n\n可复用的答题顺序是：定义事件、时间、年龄层与分母；列各层死亡及人年；先算层别率和粗率；检查共同标准与权重；用加权平均并以假想事件数复核；最后并列报告粗率、标准化率、标准及局限。人口统计常用同年年中人口近似平均暴露人口，或多年人口乘时间近似人年，必须交代观察期间与近似；本课的精确人年例不能改标签就变成精确的人口风险。缺层、漏报、未知年龄或口径不齐，应先留待补资料，不编造一层率，也不把标准化当作修复所有资料问题的工具。",
+      "definition": "粗率=总事件/总人时；直接标准化将各地年龄别率按共同标准结构的归一化权重加权。",
+      "conditions": "同事件、期间、年龄层、范围、分母类型、单位与共同标准。各有权重的层须有可计算层率；本课为虚构已汇总人年描述，不推显著性、真实风险或因果。",
+      "example": "【第一层逐步例：先算本地率】甲地0–64岁8死亡/8000人年、65岁以上20/2000；乙地相同年龄层1/2000、64/8000。①各层率乘1000：甲1、10，乙0.5、8，单位均为每1000人年；甲在两个年龄层的观察率都高。②粗率甲=(8+20)/(8000+2000)×1000=2.8，乙=(1+64)/(2000+8000)×1000=6.5。③甲的低年龄层人年占80%，乙只占20%，乙高年龄层人年多。④因此“乙粗率高，所以乙每个年龄层都更差”被给定数据反驳。不能把这份描述直接升级为任何服务、政策或暴露的因果效果。\n\n【第二层逐步例：共同结构比较】规定共同标准人年构成为低层5000、高层5000，w=(0.5,0.5)。①保留甲1、10和乙0.5、8的年龄别率；②甲R标=0.5×1+0.5×10=5.5，乙R标=0.5×0.5+0.5×8=4.25，单位每1000人年；③用假想事件数复核：在这10000标准人年上，甲的层率对应5与50、合计55个假想事件；乙对应2.5与40、合计42.5。各自除10000再乘1000，仍得5.5与4.25。2.5不是实际死了半个人，而是率应用于假想观察时间后的计算期望量。④共同结构下甲点率较高，和粗率甲2.8低于乙6.5的顺序相反；本例不能据粗率排列年龄内率。",
+      "misconceptions": [
+        "用各地自己的结构作权重还称共同标准比较",
+        "粗率高就代表各年龄层都高",
+        "直接标化率当成本地真实频率或概率",
+        "把人时率写百分比，或对已放大的率再乘1000",
+        "把直接率与无量纲SMR混为一谈"
+      ],
+      "recall": [
+        "闭卷写年龄别率和粗率，说明人年及结构权重。",
+        "闭卷从共同标准量生成权重，解释为何两地用同一套。",
+        "闭卷分步算甲乙标准率，再用假想事件数复核。",
+        "闭卷解释参考结构依赖、非观察/非因果及直接与SMR边界。"
+      ],
+      "rubric": [
+        "粗率与层率的分母及单位",
+        "共同标准权重",
+        "加权与假想事件数复核",
+        "比较条件和推断边界"
+      ],
+      "review": {
+        "intervalDays": [
+          1,
+          3,
+          7,
+          14,
+          30
+        ],
+        "delayedPrompt": "改用新年龄别率、标准结构与人年，重算并写有限解释；主观仅参考核对。"
+      },
+      "reviewRecord": {
+        "expertApproved": false,
+        "publicRelease": false,
+        "limitations": [
+          "独立专业审定0；待统计/流行病学教师核对全部内容",
+          "2027信息用于2028范围仅暂定参考",
+          "未教完整直接率区间、稀疏数据方法及因果标准化"
+        ]
+      },
+      "teachingSections": [
+        {
+          "id": "s1",
+          "explanationParagraph": 1
+        },
+        {
+          "id": "s2",
+          "explanationParagraph": 3
+        },
+        {
+          "id": "s3",
+          "explanationParagraph": 4
+        },
+        {
+          "id": "s4",
+          "explanationParagraph": 6
+        }
+      ],
+      "learningObjectives": [
+        {
+          "id": "353-direct-age-standardisation-foundation-g1",
+          "description": "区分层别率和粗率并解释结构影响",
+          "successCriteria": "能算总事件/总人时并用年龄别率解释粗率排序",
+          "teachingSectionIds": [
+            "s1"
+          ],
+          "recallIndexes": [
+            0
+          ],
+          "questionIds": [
+            "353-direct-age-standardisation-foundation-b1",
+            "353-direct-age-standardisation-foundation-a1",
+            "353-direct-age-standardisation-foundation-d1"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-g2",
+          "description": "设定共同标准并计算归一化权重",
+          "successCriteria": "能从标准量求和为1的共同权重并辨别错误比较",
+          "teachingSectionIds": [
+            "s2"
+          ],
+          "recallIndexes": [
+            1
+          ],
+          "questionIds": [
+            "353-direct-age-standardisation-foundation-b2",
+            "353-direct-age-standardisation-foundation-a2",
+            "353-direct-age-standardisation-foundation-d2"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-g3",
+          "description": "用两条路径计算直接标准率",
+          "successCriteria": "能由加权率及假想事件数得到一致数值与单位",
+          "teachingSectionIds": [
+            "s3"
+          ],
+          "recallIndexes": [
+            2
+          ],
+          "questionIds": [
+            "353-direct-age-standardisation-foundation-b3",
+            "353-direct-age-standardisation-foundation-a3",
+            "353-direct-age-standardisation-foundation-d3"
+          ],
+          "evaluation": "objective-and-reference-review"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-g4",
+          "description": "说明参考人口依赖与比较推断边界",
+          "successCriteria": "能纠正真实风险/因果/SMR混淆并列明参考结构",
+          "teachingSectionIds": [
+            "s4"
+          ],
+          "recallIndexes": [
+            3
+          ],
+          "questionIds": [
+            "353-direct-age-standardisation-foundation-b4",
+            "353-direct-age-standardisation-foundation-a4",
+            "353-direct-age-standardisation-foundation-d4"
+          ],
+          "evaluation": "objective-and-reference-review"
+        }
+      ],
+      "basicQuestions": [
+        {
+          "id": "353-direct-age-standardisation-foundation-b1",
+          "type": "single",
+          "stem": "同年某层10例死亡、5000观察人年，10/5000×1000所得数值2应怎样解释？",
+          "options": [
+            "每1000人年2例的观察死亡率",
+            "每个人一年死亡概率2%",
+            "无需时间即可称患病比例"
+          ],
+          "answer": 0,
+          "explanation": "人时作分母给率，不是固定期风险或患病比例；报告须保留同年事件定义。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-b2",
+          "type": "single",
+          "stem": "直接标准化比较甲乙，应采用什么权重？",
+          "options": [
+            "甲用甲结构，乙用乙结构且称已统一",
+            "让事件更多的一层权重必为1",
+            "双方同年龄层的共同标准结构，归一化后和为1"
+          ],
+          "answer": 2,
+          "explanation": "共同参考结构使比较不再各带本地年龄组成；不是把原始事件按多少选权重。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-b3",
+          "type": "single",
+          "stem": "共同标准低/高层各5000人年，某地年龄别率为1、10/1000人年，其直接标准率为？",
+          "options": [
+            "11/1000人年",
+            "5.5/1000人年",
+            "5500/1000人年"
+          ],
+          "answer": 1,
+          "explanation": "w各0.5，0.5×1+0.5×10=5.5；层率已按每1000显示，不再放大。",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-b4",
+          "type": "single",
+          "stem": "哪个说法符合直接年龄标准化边界？",
+          "options": [
+            "它是共同结构下的比较指数，不等于本地真实观察率",
+            "完成标准化就证明干预有因果效果",
+            "标准化必定消除所有混杂"
+          ],
+          "answer": 0,
+          "explanation": "共同年龄权重只回答特定结构问题，未自动解决所有变量、登记误差或因果识别。",
+          "difficulty": "foundation"
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "id": "353-direct-age-standardisation-foundation-a1",
+          "type": "subjective",
+          "stem": "甲低/高层死亡与人年为8/8000、20/2000；乙为1/2000、64/8000。写两地粗率，并解释为何乙粗率高不表示乙各层都高。",
+          "answer": "甲粗率2.8、乙6.5/1000人年；甲层率1、10，乙0.5、8/1000人年，甲各层反而都高；乙高年龄层人年占80%而甲20%，结构权重不同。不能据此归因任何政策。",
+          "rubric": [
+            "正确两地粗率和单位",
+            "正确层率并说明顺序",
+            "解释两地年龄人年组成不同",
+            "不推政策因果"
+          ],
+          "explanation": "先算层率或先算粗率均可；只说“有混杂”而不联系给定结构不足。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-a2",
+          "type": "number",
+          "stem": "甲两层率为1和10/1000人年；共同标准低层6000、高层4000人年。求直接标准率数值。",
+          "answer": 4.6,
+          "unit": "每1000人年",
+          "tolerance": 1e-8,
+          "explanation": "权重0.6、0.4；0.6×1+0.4×10=4.6/1000人年。与例中5.5不同是参考结构改变。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-a3",
+          "type": "number",
+          "stem": "乙年龄别率0.5、8/1000人年，共同标准低/高层各5000人年。先求假想总事件数再求标准率，最终仅输入标准率数值。",
+          "answer": 4.25,
+          "unit": "每1000人年",
+          "tolerance": 1e-8,
+          "explanation": "假想事件2.5+40=42.5，除10000标准人年再乘1000=4.25/1000人年。42.5不是实际观察死者人数。",
+          "difficulty": "application"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-a4",
+          "type": "subjective",
+          "stem": "甲用(0.5,0.5)标准得5.5，乙用(0.8,0.2)得2.0，均为/1000人年。有人据此说甲年龄调整后比乙高3.5且已经证明甲服务导致死亡更多。指出比较和归因问题。",
+          "answer": "两地用了不同标准结构，不能把5.5−2.0称同标准差异；应统一权重、年龄层、时间、事件和分母后重算。即便同标准甲率高，也只是点值比较，不证明服务因果；还需不确定性、其他差异与资料质量评价。",
+          "rubric": [
+            "指出共同标准不一致",
+            "说明统一口径后重算",
+            "区分点值与不确定性",
+            "不从标准化推出服务因果"
+          ],
+          "explanation": "无需计算未给全的重算表；不得通过随意挑标准追求期望顺序。",
+          "difficulty": "application"
+        }
+      ],
+      "delayedQuestions": [
+        {
+          "id": "353-direct-age-standardisation-foundation-d1",
+          "type": "single",
+          "stem": "隔日：甲某年100死亡/50000人年，乙200/100000人年，均粗率2/1000人年。仅凭此可否得到两地直接标化率？",
+          "options": [
+            "可，粗率相同必定层率相同",
+            "不可，仍缺年龄别事件/人年及共同标准",
+            "可，把两个粗率平均就是直接法"
+          ],
+          "answer": 1,
+          "explanation": "粗率不能唯一还原分层率，先补年龄资料与标准；不能把总量相同当各层相同。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-d2",
+          "type": "number",
+          "stem": "隔日新资料：年龄层定义/事件一致，某地两层为6死亡/3000人年、30/3000人年。共同标准两层量为3000和1000人年。求直接标准率数值。",
+          "answer": 4,
+          "unit": "每1000人年",
+          "tolerance": 1e-8,
+          "explanation": "层率2、10/1000人年；w=0.75、0.25，标率1.5+2.5=4/1000人年。注意本地人年一半一半不等于标准权重。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-d3",
+          "type": "number",
+          "stem": "隔日交叉层率：甲两层2、12，乙3、9，均/1000人年。共同标准权重(0.25,0.75)。求甲的标准率数值。",
+          "answer": 9.5,
+          "unit": "每1000人年",
+          "tolerance": 1e-8,
+          "explanation": "甲0.25×2+0.75×12=9.5；乙7.5。换为(0.75,0.25)时两者均4.5，表明比较依赖标准。",
+          "difficulty": "delayed-transfer"
+        },
+        {
+          "id": "353-direct-age-standardisation-foundation-d4",
+          "type": "subjective",
+          "stem": "隔日：报告只写“直接标准率4.25%，是当地真实死亡风险，和SMR4.25完全一样，故已控制全部混杂”。请至少纠正三类问题，并列出应补报什么。",
+          "answer": "若原数据为人年率，应写每1000人年4.25，不是4.25%；直接率是指定共同标准结构下汇总，不等于本地真实频率或个人风险；SMR是O/E无量纲，与直接标化率不同；年龄标准化不保证消除所有混杂。应补事件、期间、年龄范围、标准权重、分母单位、粗率/层率及不确定性和资料限制。",
+          "rubric": [
+            "纠正人年率与百分比",
+            "说明假想结构及实际风险边界",
+            "区分直接率与无量纲SMR",
+            "不声称全部混杂清除并列报告条件"
+          ],
+          "explanation": "三类实质纠正为基本边界，完整四项更充分；不用背固定措辞，不自动给专业分。",
+          "difficulty": "delayed-transfer"
+        }
+      ]
     }
   ],
   "examPapers": [

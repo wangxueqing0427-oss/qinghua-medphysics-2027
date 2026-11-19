@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-19",
+  "reviewType": "AI内部交叉复核，非独立专业审定",
+  "scope": "只读复核12题算式、题干条件与主观接受/拒绝边界；未重复执行已过课程测试",
+  "reviewer": "health_sprint AI agent",
+  "course": "pol-labour-power-surplus-foundation",
+  "version": "0.1-parallel-pol-surplus-1",
+  "courseSHA256": "65261e8aa7cf48388570b8aee964fd469ee80c0d18d3c0cc57bf11778509e133",
+  "p0": 0,
+  "p1": 0,
+  "conclusion": "未发现P0/P1算式、分母或主观接受边界缺陷",
+  "arithmetic": [
+    {
+      "label": "讲解例一",
+      "newValue": 40,
+      "necessaryHours": 3,
+      "surplusHours": 5,
+      "m": 25,
+      "total": 90,
+      "mRatePercent": 166.66666666666669
+    },
+    {
+      "label": "讲解例二",
+      "m": 30,
+      "total": 110,
+      "mRatePercent": 150,
+      "wrongDenominatorPercent": 37.5
+    },
+    {
+      "label": "a2",
+      "m": 24,
+      "total": 87
+    },
+    {
+      "label": "a3",
+      "necessaryHours": 3,
+      "surplusHours": 6
+    },
+    {
+      "label": "a4",
+      "mRatePercent": 150
+    },
+    {
+      "label": "d2",
+      "m": 24,
+      "total": 110
+    },
+    {
+      "label": "d3",
+      "necessaryHours": 2,
+      "surplusHours": 6
+    },
+    {
+      "label": "d4",
+      "wrongDenominatorPercent": 37.5,
+      "mRatePercent": 150
+    }
+  ],
+  "focusFindings": [
+    {
+      "topic": "c实际耗用",
+      "finding": "正文明确c为同期间实际耗用并转移价值，明确机器购价不等于当日耗用。题组中的c沿用已给模型，不将全额机器购价强代。此处是本课计算口径，不能推广为所有预付固定资本概念只含耗用。"
+    },
+    {
+      "topic": "v/m分母",
+      "finding": "m=新价值−v；剩余价值率为m/v且v>0。c+v只作为错误基数演示，不把37.5%的正确除法说成算术错，也未无条件命名为真实利润率。"
+    },
+    {
+      "topic": "工资与新价值",
+      "finding": "正文模型要求按价值交换并给定v；工资为劳动力价值/价格的转化形式，支付v不等于支付全部v+m。题干/解析保留现实工资表不足以估实际m′的边界。"
+    },
+    {
+      "topic": "主观接受边界",
+      "finding": "a1/a2/a3/d2/d3/d4均列实质要点与可接受等价表达，拒绝关键概念错位；不按固定句式或关键词自动专业评分。"
+    }
+  ],
+  "rows": [
+    {
+      "id": "pol-labour-power-surplus-foundation-b1",
+      "questionSHA256": "59577537363b4797aed26d0b3d5e5f1663f7cc9c45696e3cfcd36ac90152ec5b",
+      "type": "single",
+      "answer": 1,
+      "answerText": "人的劳动能力",
+      "review": "正确选项为人的劳动能力；排除完成产品和永久人身，未把社会条件简化为仅有技能。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-b2",
+      "questionSHA256": "202a03b3dc1497ac9757dc847ed7f42f8b0995070b15502a77dd2b099bf5a797",
+      "type": "single",
+      "answer": 0,
+      "answerText": "25",
+      "review": "新价值10+15=25；产品价值40+25=65；c作为旧价值不重复算入新增。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-b3",
+      "questionSHA256": "407e798c1750d8cffbbedb06256705929cf64875f1a5440e84496fac43946308",
+      "type": "single",
+      "answer": 2,
+      "answerText": "再生产劳动力价值等价物与形成剩余价值的关系",
+      "review": "工作日按再生产劳动力价值等价物与剩余价值分割；用途/地点干扰项均不能成立。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-b4",
+      "questionSHA256": "217ebc66639250ffac6f44193ac7977fa7d92bc3bc3a6dced5eeeabd6bf3515f",
+      "type": "single",
+      "answer": 1,
+      "answerText": "v",
+      "review": "同期间v>0，m′分母是v；不是c+v或产品总价值。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a1",
+      "questionSHA256": "0e21b7feffbc6d0ff51da9c9bd7833576791d5ac6679b925110d7d69a60a2480",
+      "type": "subjective",
+      "answer": "劳动力是能力，劳动是能力的实际运用；本课雇佣劳动分析中让渡的是一定期间劳动力的使用，不是永久出售人身。劳动力作为商品还须劳动者能支配自身劳动能力且缺少独立生产条件等历史社会条件。",
+      "answerText": "劳动力是能力，劳动是能力的实际运用；本课雇佣劳动分析中让渡的是一定期间劳动力的使用，不是永久出售人身。劳动力作为商品还须劳动者能支配自身劳动能力且缺少独立生产条件等历史社会条件。",
+      "review": "三个要点分别检查能力/活动、期间使用/永久人身、社会条件；接受通俗等价解释，不能仅说错误或把一切劳动都商品化。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a2",
+      "questionSHA256": "86250b83c44abc0a4667a915c0a02f41cf836a2b69525f08c228278761c94461",
+      "type": "subjective",
+      "answer": "m=42−18=24，产品价值=45+42=87个价值单位。18在模型中支付劳动力价值，不等于42的全部新价值；等价购买劳动力与存在剩余价值并不矛盾。",
+      "answerText": "m=42−18=24，产品价值=45+42=87个价值单位。18在模型中支付劳动力价值，不等于42的全部新价值；等价购买劳动力与存在剩余价值并不矛盾。",
+      "review": "m=42−18=24；总价值45+42=87。接受列式/等价文字；18是既定模型劳动力价值支付而不是全部42新增；拒绝c重复新增和现实工资直接套参。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a3",
+      "questionSHA256": "5283b9e1eabf016381315d793cddef0927a9cf25057ba1b2a4670b9d551e8898",
+      "type": "subjective",
+      "answer": "必要劳动=12÷4=3小时，剩余劳动=9−3=6小时；是同一工作日再生产劳动力价值等价物与形成剩余价值的分割，不意味着按商品用途分两种劳动。",
+      "answerText": "必要劳动=12÷4=3小时，剩余劳动=9−3=6小时；是同一工作日再生产劳动力价值等价物与形成剩余价值的分割，不意味着按商品用途分两种劳动。",
+      "review": "新增36；必要12/4=3小时，剩余9−3=6小时，二者相加9；接受单位完整的等价表述，拒绝后段无社会用途；题设恒定单位时间新价值足够。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-a4",
+      "questionSHA256": "31776dae7ce5fed2d15379cbb13245e355cc4f956df52f755938991a8c342d7a",
+      "type": "number",
+      "answer": 150,
+      "answerText": 150,
+      "review": "36/24×100=150%，精确整数且数值框单位%一致；非产品利润占比。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d1",
+      "questionSHA256": "45049f74deee035f10ffae1057cd91ef551fd1703b091f791e2e9b8b05c9b3cb",
+      "type": "single",
+      "answer": 2,
+      "answerText": "存在劳动力不等于已经发生实际劳动",
+      "review": "尚未劳动而具有能力，并不证明商品化的所有社会条件；正确选项避免能力与成果混同。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d2",
+      "questionSHA256": "cf775e588786a34a8335850cc96cc23bbbe9d005f75f14ab528903636f34c881",
+      "type": "subjective",
+      "answer": "m=40−16=24，产品价值=70+40=110个价值单位。不能；本模型中16是劳动力价值的支付，全部新价值是40，二者不能混同。",
+      "answerText": "m=40−16=24，产品价值=70+40=110个价值单位。不能；本模型中16是劳动力价值的支付，全部新价值是40，二者不能混同。",
+      "review": "m=40−16=24；总价值70+40=110；支付16不能把新增40降为16；接受数值及解释，拒绝将c算作新价值。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d3",
+      "questionSHA256": "3d885341b0eec03ec522d1fba26b0762978a522b76b7f91e8d768720c721fd47",
+      "type": "subjective",
+      "answer": "必要劳动=6÷3=2小时，剩余劳动=8−2=6小时。这里划分工作日中再生产劳动力价值与形成剩余价值的部分；社会必要劳动时间讨论生产某商品的社会正常必要条件，不能把两个概念仅因有“必要”二字等同。",
+      "answerText": "必要劳动=6÷3=2小时，剩余劳动=8−2=6小时。这里划分工作日中再生产劳动力价值与形成剩余价值的部分；社会必要劳动时间讨论生产某商品的社会正常必要条件，不能把两个概念仅因有“必要”二字等同。",
+      "review": "新增24；必要6/3=2小时，剩余8−2=6小时；区别工作日价值分割与某商品的社会必要生产时间；参考边界无需逐字背定义。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-labour-power-surplus-foundation-d4",
+      "questionSHA256": "6af488812c5683fa26ec3a5f027384ea707f965e6879e4171fb315fa163ca99b",
+      "type": "subjective",
+      "answer": "剩余价值率为45÷30×100%=150%；120=c+v，是另一个比较基数，不能作为本题m′分母。模型要求相同期间、价值单位及既定生产条件，不能只用现实营业收入和工资表推出现实m′。",
+      "answerText": "剩余价值率为45÷30×100%=150%；120=c+v，是另一个比较基数，不能作为本题m′分母。模型要求相同期间、价值单位及既定生产条件，不能只用现实营业收入和工资表推出现实m′。",
+      "review": "45/(90+30)×100=37.5数学正确但不是指定m′；45/30×100=150%。接受分母解释和期间/单位/现实数据不足边界；不将150%表为利润占售价。",
+      "internalResult": "未发现所审范围内重大缺陷",
+      "expertApproved": false
+    }
+  ],
+  "limitations": [
+    "未独立重开理论来源，不将父代理/作者实际读取变为本代理已读",
+    "未做独立政治经济学教师审定、现实企业估算或考试范围确认",
+    "未复跑测试、未修改课程或共享文件",
+    "教学充分性与学习效果不由本交叉复核证明"
+  ],
+  "expertApprovals": 0
+}

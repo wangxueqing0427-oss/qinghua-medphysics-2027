@@ -1,0 +1,435 @@
+{
+  "date": "2026-11-19",
+  "baselineHEAD": "5e5ce11",
+  "upgradeSnapshot": "4a74e114ddff046d05fe002e33f9f3ac78027c01",
+  "manifest": {
+    "edition": "qh2028-issue10-clause-v1",
+    "db": "qh2028_issue10_clause_v1_local",
+    "journal": "qh2028_issue10_clause_v1_pending:",
+    "cache": "qh2028-issue10-clause-v5",
+    "courses": 81,
+    "questions": 920,
+    "files": [
+      {
+        "path": "app.css",
+        "sha256": "ffcf9e71426fe60cb7f70b084d1d1051593ed76953505e0be6752e89aec156cd",
+        "bytes": 22788
+      },
+      {
+        "path": "course-engine.js",
+        "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5",
+        "bytes": 5686
+      },
+      {
+        "path": "icon.svg",
+        "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517",
+        "bytes": 253
+      },
+      {
+        "path": "index.html",
+        "sha256": "02e77eb38637eaf7de3551531722378357f8daabc8c16183afc9ebcf9d0ad729",
+        "bytes": 1548
+      },
+      {
+        "path": "learning-controller.js",
+        "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f",
+        "bytes": 16360
+      },
+      {
+        "path": "manifest.json",
+        "sha256": "d7aef0d0e7c7f1741240200a828de7dea7bfa43bb354dd4dec1d67e1e17729f7",
+        "bytes": 313
+      },
+      {
+        "path": "migration-bridge.js",
+        "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3",
+        "bytes": 343
+      },
+      {
+        "path": "mobile-reading.js",
+        "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be",
+        "bytes": 7132
+      },
+      {
+        "path": "mobile-ux.js",
+        "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6",
+        "bytes": 6279
+      },
+      {
+        "path": "mock-engine.js",
+        "sha256": "c21392ce846bdf15595d0ee29974c475fc6c5a37b5736f82307f92b4c1273970",
+        "bytes": 11901
+      },
+      {
+        "path": "mock-ui.js",
+        "sha256": "70d27c579572743da1388792c0d80a6d375c5de9fc9c4468855817c12b63f6eb",
+        "bytes": 27663
+      },
+      {
+        "path": "pilot-ui.js",
+        "sha256": "0db7009e00605d6d1b3d51121a2101591d2f2e3607694e3fff0d31c04f8467bb",
+        "bytes": 21450
+      },
+      {
+        "path": "profile-repository.js",
+        "sha256": "60b49dd8321c78570e85d204114c5c20e5b028b944b24659c460a13594bf25e5",
+        "bytes": 7084
+      },
+      {
+        "path": "reading-passage.js",
+        "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a",
+        "bytes": 6752
+      },
+      {
+        "path": "representative-courses.json",
+        "sha256": "b2a98b6091f40e39ed4e7f2e7cf8855b7201ef66f5fa1278382a211a897b8923",
+        "bytes": 1713495
+      },
+      {
+        "path": "sva-prerequisite.js",
+        "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9",
+        "bytes": 3806
+      },
+      {
+        "path": "sw.js",
+        "sha256": "70426a1e7a7c956ec326a1aac384c6d217848092e0959c8f94b0a3e0c5fdacc6",
+        "bytes": 1490
+      }
+    ],
+    "parentEdition": "qh2028-issue10-papers-v1",
+    "originalPreserved": true,
+    "migration": false,
+    "professionalApprovals": 0,
+    "previewDeployment": false
+  },
+  "units": [
+    {
+      "id": "en-foundation-svo",
+      "sha256": "405abc01073b5d2fc614a433c9e89765fde2a99860428442728a01b2c7a26500"
+    },
+    {
+      "id": "353-incidence-risk",
+      "sha256": "79d4f4247114e939dbebc0e833db977bb0258b5eed85d47fff43b0e44300e74c"
+    },
+    {
+      "id": "pol-practice-verification",
+      "sha256": "b2c5a9a1e2d9d67c4893c49fa49711eb84fdc5acbc4523464eabfa72e9aecc63"
+    },
+    {
+      "id": "en-present-negative",
+      "sha256": "7b0645d71ab10da74a3a324ae8014c8503c6d63d84b591675721eae8649f740e"
+    },
+    {
+      "id": "pol-common-particular",
+      "sha256": "e4edf230cb749a51361f3b5e954f54ee87ca11e431017a4a11c94148adad7ac4"
+    },
+    {
+      "id": "353-person-time",
+      "sha256": "c401fd30ab6ec3e4eaea19e84f2a148ed2e9503d2f9ca88b4cdd9c7c616790bd"
+    },
+    {
+      "id": "en-linking-and-verb-phrase",
+      "sha256": "8725b87c5ccececb54b46c81b7d6c20b4450dbe0c53d077119c2b1422c2202eb"
+    },
+    {
+      "id": "353-variable-types",
+      "sha256": "6b0a1003fe20bfeb66ae00a68c0b30702eb52b8c086d1945144e97f72442b30f"
+    },
+    {
+      "id": "en-subject-verb-agreement",
+      "sha256": "8f487d88a15c9b1c5eb45ab0ad92bd58469f4403441a5a6c53529530da2a7522"
+    },
+    {
+      "id": "pol-knowledge-practice-development",
+      "sha256": "aa5fd858ff627ff3a79e7667a45ddb1eee2ffd9c6d8ef36aebe1d4b93b80ca39"
+    },
+    {
+      "id": "en-past-simple-foundation",
+      "sha256": "3be59304127c8e4124023a642f75869659e7e659bf6807b9af53ce297304ceba"
+    },
+    {
+      "id": "pol-connections-foundation",
+      "sha256": "7ce307a992bc2c2f71fc0e441e54ec0594af0598f42a4e6c60fd480f676eb5b4"
+    },
+    {
+      "id": "353-frequency-denominator",
+      "sha256": "4152fd696ad1bf5844780ad3061547b2cb2612519e485ef341523c04bd30e76f"
+    },
+    {
+      "id": "353-quantity-measurement",
+      "sha256": "74c98ac7fadf7ba01ad4578a9111c2cba297670142f46db28f92fd71038d21bf"
+    },
+    {
+      "id": "353-uncertainty-foundation",
+      "sha256": "45b5e38f9c512d7c21242c7415bd83218c6797c841bd7bdf976415d893d6b51d"
+    },
+    {
+      "id": "353-energy-power",
+      "sha256": "38569c6ec49bc92028eea53cac6b2ed232d941038e90896e94c22e2e208c5c7f"
+    },
+    {
+      "id": "353-waves-interactions",
+      "sha256": "3e6764788bd3fd4063ba779e0f6aaf8b8c6b7db19eedeb0b35d4c8a16ffec707"
+    },
+    {
+      "id": "en-present-questions",
+      "sha256": "407ed07de30aa804201c12033db9173ef51cb28406f0b1c7cdb0f708330e195b"
+    },
+    {
+      "id": "pol-quantity-quality",
+      "sha256": "944cf22fcbd600cf9d4c6afad0e835d700d4daf6540b22e21a6f83fffa0c46cb"
+    },
+    {
+      "id": "353-public-health-prevention",
+      "sha256": "0806a0e634ed6ff1afa8b40de3824e87e784ac401eb8fbc48a53a3897b530d4c"
+    },
+    {
+      "id": "en-nouns-countability",
+      "sha256": "83ab8a8d12591e50a4db70ad21a68e5c33d1b1cd8b6d3d0b1ca9d4e20e3edcfb"
+    },
+    {
+      "id": "en-pronoun-reference",
+      "sha256": "0a476919176592ecb67c255be3022a7ed09908a29c14464fa27184b9693fbf26"
+    },
+    {
+      "id": "en-articles-foundation",
+      "sha256": "0936a830cbacdfdddb145b92e4b546ca5bb25861e533f6c45549be4649a04bc2"
+    },
+    {
+      "id": "pol-matter-consciousness",
+      "sha256": "e9aca8d55f09b5a49040676dae1ee7bf44f771b4d45b5b2a3cc3623a5a2d88cd"
+    },
+    {
+      "id": "pol-contradiction-unity",
+      "sha256": "e4c9833877632ebfcbc0284dda8ed3b4f8424ca02664175f2a8c4d24ae631f67"
+    },
+    {
+      "id": "pol-primary-contradictions",
+      "sha256": "5a6697afa9999f48a9c267cd3cab73d1f80023aced6b0c81248f307d3cb03778"
+    },
+    {
+      "id": "353-mean-median",
+      "sha256": "c07c00dd3ecea681384dc9c7e058db273cedb61febab5f52a38ff3dfdd7ad6f0"
+    },
+    {
+      "id": "353-dispersion-foundation",
+      "sha256": "bf9f4c065dbe82bfe09a420c2e69790aeb0bcc2eb8cc0f42441ccb2d8cf9c872"
+    },
+    {
+      "id": "353-study-design-foundation",
+      "sha256": "5f6ac230b95977b9b514a39384846a36738b288b735a4199df9c11a94cac810e"
+    },
+    {
+      "id": "en-present-continuous-foundation",
+      "sha256": "3d9bf780a2645bf6b536b1bf2faf3ae1c01f7405ce2e13dcb2503950b6b262c0"
+    },
+    {
+      "id": "en-passive-simple-foundation",
+      "sha256": "78015dc59bf56f0169de299228bdb7338453f054dfcc0db572cd1afc7b72dbee"
+    },
+    {
+      "id": "en-defining-relative-foundation",
+      "sha256": "c156a13874cd62cf9d96a8b1ecc54f2d7b79ea5a5fbf44635836a9583d0d960d"
+    },
+    {
+      "id": "pol-social-being-consciousness",
+      "sha256": "b185b063e5a4e732460fb7d06a149259089ce83afa514acf6f0433afd83a8839"
+    },
+    {
+      "id": "pol-epistemology-case-analysis",
+      "sha256": "4815109ebb8a56c23441b1c74a5777bf417dadc16b262e8e1b50c7a42568ef9e"
+    },
+    {
+      "id": "pol-productive-forces-relations",
+      "sha256": "9c1ef76cc3e999aa04610ab2e6cb3e05acd3f52ab27d24818b0246c505cc2eb2"
+    },
+    {
+      "id": "353-probability-binomial-foundation",
+      "sha256": "4c783cc25dc30302cdae105db4458055e8a055be6df77c56c2200e7f60c0068d"
+    },
+    {
+      "id": "353-random-sampling-foundation",
+      "sha256": "b4aecee60f65129246c8a108dccb330ce77e5b779dbb36180e2686d1f817c8af"
+    },
+    {
+      "id": "353-bias-control-foundation",
+      "sha256": "fb255225ecb24f3740f77ab897b30ccfe882a0a1ed00095214d1bb7791390bb4"
+    },
+    {
+      "id": "en-vocabulary-retrieval-foundation",
+      "sha256": "bcfef867a698c03170e989d49b9df488a835b6c7b9f8e2bb152e624e2d939c56"
+    },
+    {
+      "id": "en-reading-evidence-foundation",
+      "sha256": "3c6f3523ccdc4a35f54b4627128459b00adab0c2dfc298a506b098bd14bdd787"
+    },
+    {
+      "id": "en-present-perfect-foundation",
+      "sha256": "d80aa1c28ecdf3d8f4d9b424bcf3dc28d4906f10b47839eb676a7826dc61cf73"
+    },
+    {
+      "id": "pol-base-superstructure-foundation",
+      "sha256": "8e6873571961d9d03586ece70b82cada5a34c56f443e1cc5e27a37dd53605765"
+    },
+    {
+      "id": "pol-people-individual-history",
+      "sha256": "4c4c2acba85a370cd96fe325eee3a5a9b5a3851bb111ec4ffa72f0c6c46827cb"
+    },
+    {
+      "id": "pol-modern-history-entry",
+      "sha256": "72754dcea4162024e1ece6e2cde9c848bb24407bf31a9030a563209de4ccd73a"
+    },
+    {
+      "id": "353-ratio-rate-prevalence",
+      "sha256": "0cd147fecbb133bc49e7fc4b1ac68ecbaf50164c2b30551104b716f2f8d5f6d3"
+    },
+    {
+      "id": "353-normal-distribution-foundation",
+      "sha256": "10a74d007a3287612248a8a5ed89a89a1b6f356ad22b407ca290fbb783e65838"
+    },
+    {
+      "id": "353-sampling-distribution-se",
+      "sha256": "a7efc30fda279bc25a96eb38b8c14250f18cbf06311d57e87058c10bb28d9a01"
+    },
+    {
+      "id": "353-screening-test-foundation",
+      "sha256": "e99f07ad05bcfc22201395cef2cbed1312ea2ad8d9568cf1db5c0e9680290335"
+    },
+    {
+      "id": "353-radiation-protection-foundation",
+      "sha256": "32b19f64b7df276928858097a33c47a5e6466da50ca806955453becc938f12ae"
+    },
+    {
+      "id": "353-nuclear-imaging-foundation",
+      "sha256": "b5ecee19dd75adbc77cefd3c9872568c5fcb7d184afcd108124ca7cd338ff0cf"
+    },
+    {
+      "id": "353-radiotherapy-physics-foundation",
+      "sha256": "a86583ff8b139e9d8318e215b30a6f97e6cc7390968d3022b27d533118606d00"
+    },
+    {
+      "id": "353-inference-ci-hypothesis-foundation",
+      "sha256": "f8d5b39c80a6ccfd489fe790a0485fd5ab32eb68a77599baf3228da9d4b3d26e"
+    },
+    {
+      "id": "353-t-tests-paired-independent-foundation",
+      "sha256": "884ea5f0957e59c75c4c246ec63d6ef9c93b376377037efa07e3b88e67d3e3d1"
+    },
+    {
+      "id": "353-outbreak-investigation-foundation",
+      "sha256": "b6c56868e4d635cb441ea04524a3c1ce3f819cf6ed3a4e4cfabe99e3d42016ee"
+    },
+    {
+      "id": "353-anova-chi-regression-foundation",
+      "sha256": "81215bf0717108af1da046d874948699f1db8f0545e9a49c01576f19c1733c7c"
+    },
+    {
+      "id": "353-evidence-systematic-review-meta-foundation",
+      "sha256": "72d05051d48e2a439a58cacc3a57fc82be69c3504017439ecd5d2715fea1472e"
+    },
+    {
+      "id": "353-health-system-financing-policy-foundation",
+      "sha256": "a6eb79a2a858f1610d3c42fedf1e874cd139f35567e644563782944b51e187e6"
+    },
+    {
+      "id": "353-public-health-emergency-ihr-foundation",
+      "sha256": "ad709c3c16049d1a7e3a8d48bd138a5eef101fa43530b65931d0d790f073e3af"
+    },
+    {
+      "id": "353-cross-disciplinary-evidence-writing",
+      "sha256": "6660ac58b3870132e36f36fb02c7274a14bef7fa53be0ddd3e55336ddd14b21d"
+    },
+    {
+      "id": "353-global-health-burden-priorities",
+      "sha256": "9a09b65f4757f481b09ae4658974d14e57e03740d3caa74f11f42378d9491144"
+    },
+    {
+      "id": "353-medical-ai-validation",
+      "sha256": "b1ed70ff4e63c1b5e0846dbe640ff4920f979c9709b5cab89674682fbbd11139"
+    },
+    {
+      "id": "353-space-air-ventilation",
+      "sha256": "577c4cbec48a05e38a26a2f62c8dd9ed4f689454537cd367eff7b5b37c0091bc"
+    },
+    {
+      "id": "353-surveillance-evaluation",
+      "sha256": "93b11b34e02640fddf569ceaa915ba0ad0d4f12c406765ad62a1446a0e2702e2"
+    },
+    {
+      "id": "353-health-indicators-ethics",
+      "sha256": "f0fd716bffab082d03111045850767c0bbc065491e8466fca983e93b01b4c9e1"
+    },
+    {
+      "id": "353-health-promotion-behaviour",
+      "sha256": "efb3a65eee7189462aea53a07680b650081a701da619c63286dccc18a91436b6"
+    },
+    {
+      "id": "en-reading-library-evidence",
+      "sha256": "52ed1baa9df505967bce0f2c2114340ad1ce4e2a34dfd65d6093d6ea7c998b70"
+    },
+    {
+      "id": "en-reading-garden-writing",
+      "sha256": "0c728c6b76887ee23c51a5475ed183b62710372a939d47bc6596b4d2e3539ca1"
+    },
+    {
+      "id": "pol-truth-value-material-bridge",
+      "sha256": "cdad4d2c9401840702dd967e073604bb8eacef0a9d9f1314a0ab90e6d4c10e3e"
+    },
+    {
+      "id": "353-case-control-or-matched",
+      "sha256": "30f697c61d5ed4422d20a132d5470b8c95350cd786c6c695994218f6646a24aa"
+    },
+    {
+      "id": "353-cohort-risk-smr-followup",
+      "sha256": "18e0567d7263fbc260d0a14a324afb5da8adf95765bb68fa611bc01d99bd6590"
+    },
+    {
+      "id": "353-trial-design-effects",
+      "sha256": "dbc5a41b9270a76010db4d3df4832170721b5fc64c4a7978607eafa1791f1f94"
+    },
+    {
+      "id": "en-cloze-cohesion",
+      "sha256": "92aae28475f774478951a4e6299e30a45dd23936eae9749f99b9364c4c948eb2"
+    },
+    {
+      "id": "en-paragraph-heading-matching",
+      "sha256": "fe61dcd812159251a715c2e74e768618078b7834b87824298b0d30dc370a73a6"
+    },
+    {
+      "id": "pol-rule-of-law-foundation",
+      "sha256": "82947c48a907738bf7394dd8182f2f00fe94d05de5a207ab7979ccced59d4270"
+    },
+    {
+      "id": "en-main-subordinate-clauses",
+      "sha256": "9fb3b4c2c64301121035a4cae23191f25855609b807b0c1d92933052e15303d0"
+    },
+    {
+      "id": "pol-commodity-value-foundation",
+      "sha256": "efe39b6d5aaba7c3b4e72885d99d13dedd385e82a0db2210886d0da0638c4d54"
+    },
+    {
+      "id": "353-survival-censoring-foundation",
+      "sha256": "efa031ea04c1c15434e372c44df733244a2aefbc972aa9f7bb3bf56698c80c34"
+    },
+    {
+      "id": "en-request-email-foundation",
+      "sha256": "2e598c9b52e0a14ff21004936d47cc69f54df95af90e8308b60db25a143f3462"
+    },
+    {
+      "id": "en-opinion-reason-example-foundation",
+      "sha256": "aff0d28a506db055cde3789e9d5496d67770597ce468364353fe809fb6c3303e"
+    },
+    {
+      "id": "pol-money-price-value-foundation",
+      "sha256": "a9f3962c406684b46e92b996d205eb477cfff3ab43178d12a704bdd98e02a8bb"
+    },
+    {
+      "id": "353-independent-means-welch-deepening",
+      "sha256": "db2227a733f3ad05c3f0ace060eb9b9c004a8183ded2245216a7391df93632eb"
+    }
+  ],
+  "papersSHA256": "d7b9cef9ecb7c6ec6a114a6e80b16bb4380646e0d4b83632201cea0c83ee0e94",
+  "teachingErrataSHA256": "37b5ed597746cf618d553302f4ca5ed35db56686f80071df9cbbeb3e9fec8585",
+  "assessmentErrataSHA256": "10dd7d37238f1738d750037419232260de88e5442573bf2aa7833b37e2bb520f",
+  "expertApprovals": 0
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-19",
+  "passed": true,
+  "scope": "Existing81 downloaded online evidence integrity only; not rerunning browser or endurance",
+  "onlineResultSHA256": "a7546db26df2f922072f92eec0cb08c32a9f8905ba56f2a6c83f098636241b6c",
+  "deploymentSHA": "f74289e5723b9c8192423c568220396139abbf37",
+  "assets": 17,
+  "queueRemaining": 4,
+  "expertApprovals": 0,
+  "physicalIPhone": false
+}

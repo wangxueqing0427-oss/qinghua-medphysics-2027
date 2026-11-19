@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-19",
+  "kind": "cross-agent-internal-AI-semantic-review",
+  "reviewedFile": "product-2028-issue10-papers/parallel/en/translation/en-translation-clause-scope-foundation.json",
+  "courseId": "en-translation-clause-scope-foundation",
+  "version": "0.1",
+  "courseSHA256": "4f7744ca2f36e65eb9cc4f6a94b8848b6646e96d5d8bd38aa404482e76297e1e",
+  "scope": "只读12题题干/实际答案/主观接受边界，重点否定、关系从句、增漏事实；未重复课程测试，未重新核外部来源。",
+  "p0": 0,
+  "p1": 0,
+  "p2": 3,
+  "conclusion": "未见P0/P1；否定与从句主线正确。3处标准或接受示例有轻微擅增信息，建议改词后再锁定候选。",
+  "rows": [
+    {
+      "id": "en-translation-clause-scope-foundation-b1",
+      "questionSHA256": "03d326dabe7408640177ae654a58b27cb92ba452fd2076e8b1d9e92df81a14b2",
+      "finding": "主句The guide checked the map正确；who关系从句修饰guide，两个错误选项确有主客错换。",
+      "answerIndex": 0,
+      "actualAnswer": "The guide checked the map."
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-b2",
+      "questionSHA256": "31505af6b8428452a370656f98323d02520e539354e4f55c4f32d7dbb3ba9072",
+      "finding": "B保持not all范围；没有由not all推出清楚的具体数目或至少若干清楚。教学也保留all...not歧义边界。",
+      "answerIndex": 1,
+      "actualAnswer": "并不是所有标志都清楚。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-b3",
+      "questionSHA256": "7e407bf5e184e4cae5ab18fea79a577763080f90ee068d294d8b370816478eef",
+      "finding": "C保持让步与到达事实；A增加必然因果，B改变关系及极性，干扰项可排。",
+      "answerIndex": 2,
+      "actualAnswer": "承认路线更长，同时说明天黑前到达。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-b4",
+      "questionSHA256": "07e960a231ba6caa79df284e18b1d40002cbccc929c7747541b3e37df2107d23",
+      "finding": "属于方法回忆题，非实际翻译题；四步和两项回查标准可理解，不能仅此证明实际翻译能力。",
+      "answerIndex": null,
+      "actualAnswer": "找主干—分修饰/从句—保留否定与关系—组织中文并回查；检查对象、否定范围、从句指向、关系或增漏事实。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-a1",
+      "questionSHA256": "dd0714d56b11f8537d7314ebbc07527061b8f6e75b9d1ce22b06bd71b4ffcfa5",
+      "finding": "who修饰visitor、游客读note的主干和蓝色修饰均正确；标准译文“背着”比carried指定了携带方式，接受示例“带着”更忠实，建议收窄标准措辞。",
+      "answerIndex": null,
+      "actualAnswer": "背着蓝色包的游客读了这份说明。who carried a blue bag修饰visitor。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-a2",
+      "questionSHA256": "a5c2d9e47f7e9b5fa92d51f22aa5b6bd868e2d12a9a767f555036c734162422d",
+      "finding": "参考“不全空着/没有一个空着”及free题定义正确；解释接受“所有座位都有人”把被占用进一步限定为有人，可能忽略行李等占用，应改成“都被占用了”。",
+      "answerIndex": null,
+      "actualAnswer": "并不是所有座位都空着。/没有一个座位空着。前句否定全部空着，后句全不空着。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-a3",
+      "questionSHA256": "9d7db37829b26bad601fbdf32fad4aac6bcbfddbf5f5b1f047858087029a4c29",
+      "finding": "because因果方向、walkers主体、longer比较均保持；接受示例“改走”比chose额外暗示曾有既定路线，建议统一成“选择了”。未编摔倒封路。",
+      "answerIndex": null,
+      "actualAnswer": "因为小路是湿的，步行者选择了较长的路线。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-a4",
+      "questionSHA256": "e3bac02ee00f6fd70b6d8f0aea3842b43ba640fc22f281d51ff6a86951dd77fa",
+      "finding": "who修饰visitor，although让步和not all范围均正确；未增加门数或早到原因。参考“很早”稍强化early但不改变主要命题，可简为“早到”。",
+      "answerIndex": null,
+      "actualAnswer": "虽然带着地图的游客很早就到了，但并不是所有门都开着。易漏who carried a map或not all的范围。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-d1",
+      "questionSHA256": "532ad01acf033942768ac288361a64d4738d706030a42583f9d69e8448f9a995",
+      "finding": "worker left a note主干正确；修钟从句放回worker，字条/便条同义接受合理。",
+      "answerIndex": null,
+      "actualAnswer": "主干The worker left a note；修钟的工作人员留下了一张字条。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-d2",
+      "questionSHA256": "b69292200c19c1cd7869e6a1454905cdf63859aea6e37c26bb937f69757e233f",
+      "finding": "A正确保留did not动作否定和主客关系；B主客倒置，C漏否定并加坏钟。",
+      "answerIndex": 0,
+      "actualAnswer": "工作人员没有移动那只钟。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-d3",
+      "questionSHA256": "10673757e31a99443a3cd0ab258fd5905cc852c03df2498f84aa1b25e7c12a48",
+      "finding": "it回指note正确；中文用“字条/里面”自然保留指代，because因果方向未倒置。",
+      "answerIndex": null,
+      "actualAnswer": "工作人员保留了这张字条，因为字条说明了问题。it指note。"
+    },
+    {
+      "id": "en-translation-clause-scope-foundation-d4",
+      "questionSHA256": "229bcae5323fef6773714eed9425e5867c157a703d07fed1515a6e6d18d88084",
+      "finding": "checked clocks修饰worker，stayed late译待到很晚而非来得晚，were repaired被动与not all范围均正确；拒绝全没修好和全修好，拆句仍需关系标记。",
+      "answerIndex": null,
+      "actualAnswer": "虽然检查时钟的工作人员待到很晚，但并非所有时钟都修好了。"
+    }
+  ],
+  "suggestions": [
+    {
+      "priority": "P2",
+      "question": "a1",
+      "location": "answer",
+      "finding": "carried不限定背负方式；“背着”给出原文没有明确的携带方式。",
+      "minimalChange": "标准译文改为“带着蓝色包的游客读了这份说明”，保留现有接受示例。"
+    },
+    {
+      "priority": "P2",
+      "question": "a2",
+      "location": "explanation",
+      "finding": "none free且free明确定义为未被占用，只能推出都被占用，不能严格推出每座都有人。",
+      "minimalChange": "将接受示例“所有座位都有人”改为“所有座位都被占用了”。"
+    },
+    {
+      "priority": "P2",
+      "question": "a3",
+      "location": "explanation",
+      "finding": "“改走”暗示原有路线的改变；原句仅明确选择了较长路线。",
+      "minimalChange": "接受示例用“行人选择了更长的路线”。"
+    }
+  ],
+  "modifiedTarget": false,
+  "testsRerun": false,
+  "independentProfessionalApproved": false,
+  "professionalApprovals": 0
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": 56,
+  "course": "pol-labour-power-surplus-foundation",
+  "courseSHA256": "65261e8aa7cf48388570b8aee964fd469ee80c0d18d3c0cc57bf11778509e133",
+  "baselineFile": "product-2028-issue10-papers/extension/.build/representative-courses.json",
+  "baselineSHA256": "b2a98b6091f40e39ed4e7f2e7cf8855b7201ef66f5fa1278382a211a897b8923",
+  "baselineCourses": 81,
+  "baselineQuestions": 920,
+  "incrementCourses": 1,
+  "incrementQuestions": 12,
+  "politicsAfterIntegration": {
+    "courses": 19,
+    "questions": 216
+  },
+  "totalIfOnlyThisIntegrated": {
+    "courses": 82,
+    "questions": 932
+  },
+  "professionalApprovals": 0,
+  "browserTest": false,
+  "realIPhoneAcceptance": false,
+  "deployed": false,
+  "semanticDeduplication": "not claimed; exact stem comparison against920 performed",
+  "workflowLimitation": "Isolated candidate lacks audit-2028/skill-workflow.cjs; root workflow writes shared reports/assembles other data. Targeted existing runtime/objective validators only."
+}

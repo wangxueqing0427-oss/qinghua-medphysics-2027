@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-19",
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "existing engine accepts actual prerequisites without duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "four objective links cover teaching recall and all question phases",
+      "passed": true
+    },
+    {
+      "name": "12 unique original items with detailed explanations and subjective boundaries",
+      "passed": true
+    },
+    {
+      "name": "all single options and numeric units graded; subjective reference-only",
+      "passed": true
+    },
+    {
+      "name": "independent raw count/person-time arithmetic and reversal",
+      "passed": true
+    },
+    {
+      "name": "weighted average and fractional hypothetical counts match",
+      "passed": true
+    },
+    {
+      "name": "new delayed values and reference-weight dependence independently recomputed",
+      "passed": true
+    },
+    {
+      "name": "weight scaling invariance; zero denominator not quietly assigned zero",
+      "passed": true
+    },
+    {
+      "name": "raw recall and subjective serialization keep original answer",
+      "passed": true
+    },
+    {
+      "name": "protected pack unchanged; draft has no expert or release approval",
+      "passed": true
+    }
+  ],
+  "courseHash": "774f9afa7a402fae723e4a18adf91d67cb5d7593267aeb559d81d92d9101daaa",
+  "protectedPackHash": "b2a98b6091f40e39ed4e7f2e7cf8855b7201ef66f5fa1278382a211a897b8923",
+  "questions": 12,
+  "objectives": 4,
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false,
+  "scope": "isolated content, independently computed person-time rates and existing engine simulations; no UI, offline, deployment or real device verification"
+}

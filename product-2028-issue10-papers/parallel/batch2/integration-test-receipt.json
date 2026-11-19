@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-19",
+  "baselineHEAD": "5e5ce11",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "84 units956 questions; all81 original contracts and papers/errata exact",
+      "passed": true
+    },
+    {
+      "name": "three expected units; engine and new objectives",
+      "passed": true
+    },
+    {
+      "name": "new prerequisite order and no exact question/stem collisions",
+      "passed": true
+    },
+    {
+      "name": "36 new items choices/numbers graded; subjective unscored and raw responses preserved",
+      "passed": true
+    },
+    {
+      "name": "long raw text/whitespace preserved; subjective review is pending rather than wrong",
+      "passed": true
+    },
+    {
+      "name": "new number units/tolerance and independent calculations; no unstated coarse rounding",
+      "passed": true
+    },
+    {
+      "name": "stable storage/edition; v6 cache; all asset hashes",
+      "passed": true
+    }
+  ],
+  "courses": 84,
+  "courseQuestions": 956,
+  "paperQuestions": 125,
+  "expertApprovals": 0,
+  "realIPhoneVerified": false,
+  "browserVerified": false
+}

@@ -1,0 +1,326 @@
+{
+  "id": "353-direct-age-standardisation-foundation",
+  "version": "0.1",
+  "subject": "353",
+  "title": "粗率与直接标准化：共同权重、年龄结构和比较边界",
+  "writtenAt": "2026-11-19",
+  "applicableYear": 2028,
+  "scopeStatus": "provisional-2027-outline-partial",
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "authorship": "原创虚构年龄别死亡/人年教学资料与题目，非真题、真实地区结论或医学建议。",
+  "mapping": [
+    "STAT02"
+  ],
+  "mappingNote": "教学补充：直接法与混杂/分层比较的联系；节点映射暂定，不等于2028官方范围确认。",
+  "prerequisites": [
+    "353-ratio-rate-prevalence",
+    "353-person-time",
+    "353-cohort-risk-smr-followup"
+  ],
+  "prerequisiteExplanation": "先区分比例与人时率，能加总实际人年；先修间接SMR帮助识别直接法不是O/E。",
+  "sources": [
+    "https://fingertips.phe.org.uk/static-reports/public-health-technical-guidance/Standardisation/DSRs.html",
+    "https://wonder.cdc.gov/wonder/help/ucd.html"
+  ],
+  "sourceEvidence": [
+    {
+      "publisher": "UK Department of Health & Social Care, Public Health Technical Guidance",
+      "title": "Directly standardised rates (DSRs)",
+      "accessed": "2026-11-19",
+      "pageUpdated": "August 2025",
+      "actualRead": "HTML59–78：共同标准结构下的汇总定义、ΣwiOi/ni除Σwi、分母人口或人口乘在险期（人年）、标准人口人数或比例权重。",
+      "limits": "采用直接法公式与人时分母支持；不把该站小计数发布门槛当本地通用法定规则；只做虚构手算，不作稀疏真实资料发布或置信区间验收。"
+    },
+    {
+      "publisher": "US CDC WONDER / NCHS",
+      "title": "Underlying Cause of Death 1999–2020, help",
+      "accessed": "2026-11-19",
+      "actualRead": "HTML118–135：粗率、年龄结构、直接加权与比较指数；1193–1202：计算及共同标准选择/所选年龄范围。",
+      "limits": "只核对稳定方法定义；美国默认标准、显示舍入、隐私抑制和历史人口年份不移作中国规则。课堂用精确层率并注明标准，不模拟WONDER输出精度。"
+    }
+  ],
+  "explanation": "比较前先约定事件和分母。本课所有主要例题都是原创虚构资料：同一日历年、相同死亡定义，按死亡年龄归入两层（0–64岁、65岁及以上）；分母是该层实际累计观察的人年，不是期初人数。一个人观察半年贡献0.5人年；跨年龄界限时，观察时间按实际所在层拆分，死亡归入发生时年龄层。表中已给汇总完成的人年。每层死亡率ri=di/Ti，di为该层死亡数，Ti为该层人年，报告时乘1000，单位为每1000人年。它不是一年死亡概率，不能换成百分比风险。例题已假定年龄已知、分类一致、完整登记；真实资料仍须核查漏报与时间。\n\n粗率把全体死亡除以全体人年，不先消除年龄组成差异。若两层分别di、Ti，粗率R粗=Σdi/ΣTi；也等于Σ[(Ti/ΣTi)×ri]。这说明粗率自带本地区的人年组成权重。若老年层率较高，一个老年观察时间占比较多的地区，可能仅因结构而有较高粗率。粗率仍有用途：它对应这份真实观察中的事件频率，可与实际死亡数一起描述本地负担；不能因要比较就删除粗率。层别率同时展示，有助于看年龄内部差异，不让一个总数掩盖细节。\n\n【第一层逐步例：先算本地率】甲地0–64岁8死亡/8000人年、65岁以上20/2000；乙地相同年龄层1/2000、64/8000。①各层率乘1000：甲1、10，乙0.5、8，单位均为每1000人年；甲在两个年龄层的观察率都高。②粗率甲=(8+20)/(8000+2000)×1000=2.8，乙=(1+64)/(2000+8000)×1000=6.5。③甲的低年龄层人年占80%，乙只占20%，乙高年龄层人年多。④因此“乙粗率高，所以乙每个年龄层都更差”被给定数据反驳。不能把这份描述直接升级为任何服务、政策或暴露的因果效果。\n\n直接标准化换的是比较权重，不是篡改原始死亡。选一套共同标准年龄结构，设低层与高层标准量分别S1、S2，归一化权重wi=Si/ΣSi，权重非负且和为1。直接标准化率R标=Σwi×ri。ri若已经用每1000人年显示，直接加权后的结果仍为每1000人年，不能再乘1000；若用原始di/Ti则最后乘1000。对甲乙必须用相同年龄界限、共同非零标准支持的年龄范围、共同标准权重、死亡定义与单位。只给总死亡与总人年不能还原所有年龄别率；某层分母为0时不能把0/0硬当零率。小层资料不稳，仍需不确定性评价，算出点值不等于可稳定排行。\n\n【第二层逐步例：共同结构比较】规定共同标准人年构成为低层5000、高层5000，w=(0.5,0.5)。①保留甲1、10和乙0.5、8的年龄别率；②甲R标=0.5×1+0.5×10=5.5，乙R标=0.5×0.5+0.5×8=4.25，单位每1000人年；③用假想事件数复核：在这10000标准人年上，甲的层率对应5与50、合计55个假想事件；乙对应2.5与40、合计42.5。各自除10000再乘1000，仍得5.5与4.25。2.5不是实际死了半个人，而是率应用于假想观察时间后的计算期望量。④共同结构下甲点率较高，和粗率甲2.8低于乙6.5的顺序相反；本例不能据粗率排列年龄内率。\n\n标准化结果依赖参考结构，报告时必须给标准。若共同权重改为(0.8,0.2)，同一数据甲变0.8×1+0.2×10=2.8，乙变0.8×0.5+0.2×8=2.0。原始资料没有改变，比较问题的参考组成改变了。这两套值不能一地用前套、一地用后套再比较。甲在本例两个年龄层都高，任何共同非负权重都不会把甲标准点率变得低于乙；若两地年龄别率交叉，则改变共同权重甚至可能改变顺序。例：甲层率2、12，乙3、9；权重(0.75,0.25)时两者4.5相同，改(0.25,0.75)时甲9.5、乙7.5。相等只针对那套权重，不证明各年龄率相等。\n\n解释时将观察和假想分开。标准化率回答“若两地具有这套共同年龄结构，各自年龄别率形成何种汇总”，不是当地真实观察频率，不是个人死亡概率，也不保证把所有混杂清除。层分得很宽仍可残留年龄内部差异，其他因素、资料质量与随机波动也未自动解决。直接法用各地自己的年龄别率和共同标准权重；先修SMR课是把参照层率施于研究人群求预期，再算观察/预期的无量纲比。两者不能交换公式或单位。本课不重教SMR，不提供直接标化置信区间或因果调整的完整课程。\n\n可复用的答题顺序是：定义事件、时间、年龄层与分母；列各层死亡及人年；先算层别率和粗率；检查共同标准与权重；用加权平均并以假想事件数复核；最后并列报告粗率、标准化率、标准及局限。人口统计常用同年年中人口近似平均暴露人口，或多年人口乘时间近似人年，必须交代观察期间与近似；本课的精确人年例不能改标签就变成精确的人口风险。缺层、漏报、未知年龄或口径不齐，应先留待补资料，不编造一层率，也不把标准化当作修复所有资料问题的工具。",
+  "definition": "粗率=总事件/总人时；直接标准化将各地年龄别率按共同标准结构的归一化权重加权。",
+  "conditions": "同事件、期间、年龄层、范围、分母类型、单位与共同标准。各有权重的层须有可计算层率；本课为虚构已汇总人年描述，不推显著性、真实风险或因果。",
+  "example": "【第一层逐步例：先算本地率】甲地0–64岁8死亡/8000人年、65岁以上20/2000；乙地相同年龄层1/2000、64/8000。①各层率乘1000：甲1、10，乙0.5、8，单位均为每1000人年；甲在两个年龄层的观察率都高。②粗率甲=(8+20)/(8000+2000)×1000=2.8，乙=(1+64)/(2000+8000)×1000=6.5。③甲的低年龄层人年占80%，乙只占20%，乙高年龄层人年多。④因此“乙粗率高，所以乙每个年龄层都更差”被给定数据反驳。不能把这份描述直接升级为任何服务、政策或暴露的因果效果。\n\n【第二层逐步例：共同结构比较】规定共同标准人年构成为低层5000、高层5000，w=(0.5,0.5)。①保留甲1、10和乙0.5、8的年龄别率；②甲R标=0.5×1+0.5×10=5.5，乙R标=0.5×0.5+0.5×8=4.25，单位每1000人年；③用假想事件数复核：在这10000标准人年上，甲的层率对应5与50、合计55个假想事件；乙对应2.5与40、合计42.5。各自除10000再乘1000，仍得5.5与4.25。2.5不是实际死了半个人，而是率应用于假想观察时间后的计算期望量。④共同结构下甲点率较高，和粗率甲2.8低于乙6.5的顺序相反；本例不能据粗率排列年龄内率。",
+  "misconceptions": [
+    "用各地自己的结构作权重还称共同标准比较",
+    "粗率高就代表各年龄层都高",
+    "直接标化率当成本地真实频率或概率",
+    "把人时率写百分比，或对已放大的率再乘1000",
+    "把直接率与无量纲SMR混为一谈"
+  ],
+  "recall": [
+    "闭卷写年龄别率和粗率，说明人年及结构权重。",
+    "闭卷从共同标准量生成权重，解释为何两地用同一套。",
+    "闭卷分步算甲乙标准率，再用假想事件数复核。",
+    "闭卷解释参考结构依赖、非观察/非因果及直接与SMR边界。"
+  ],
+  "rubric": [
+    "粗率与层率的分母及单位",
+    "共同标准权重",
+    "加权与假想事件数复核",
+    "比较条件和推断边界"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "改用新年龄别率、标准结构与人年，重算并写有限解释；主观仅参考核对。"
+  },
+  "reviewRecord": {
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "独立专业审定0；待统计/流行病学教师核对全部内容",
+      "2027信息用于2028范围仅暂定参考",
+      "未教完整直接率区间、稀疏数据方法及因果标准化"
+    ]
+  },
+  "teachingSections": [
+    {
+      "id": "s1",
+      "explanationParagraph": 1
+    },
+    {
+      "id": "s2",
+      "explanationParagraph": 3
+    },
+    {
+      "id": "s3",
+      "explanationParagraph": 4
+    },
+    {
+      "id": "s4",
+      "explanationParagraph": 6
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "353-direct-age-standardisation-foundation-g1",
+      "description": "区分层别率和粗率并解释结构影响",
+      "successCriteria": "能算总事件/总人时并用年龄别率解释粗率排序",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "353-direct-age-standardisation-foundation-b1",
+        "353-direct-age-standardisation-foundation-a1",
+        "353-direct-age-standardisation-foundation-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-g2",
+      "description": "设定共同标准并计算归一化权重",
+      "successCriteria": "能从标准量求和为1的共同权重并辨别错误比较",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "353-direct-age-standardisation-foundation-b2",
+        "353-direct-age-standardisation-foundation-a2",
+        "353-direct-age-standardisation-foundation-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-g3",
+      "description": "用两条路径计算直接标准率",
+      "successCriteria": "能由加权率及假想事件数得到一致数值与单位",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "353-direct-age-standardisation-foundation-b3",
+        "353-direct-age-standardisation-foundation-a3",
+        "353-direct-age-standardisation-foundation-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-g4",
+      "description": "说明参考人口依赖与比较推断边界",
+      "successCriteria": "能纠正真实风险/因果/SMR混淆并列明参考结构",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "353-direct-age-standardisation-foundation-b4",
+        "353-direct-age-standardisation-foundation-a4",
+        "353-direct-age-standardisation-foundation-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "basicQuestions": [
+    {
+      "id": "353-direct-age-standardisation-foundation-b1",
+      "type": "single",
+      "stem": "同年某层10例死亡、5000观察人年，10/5000×1000所得数值2应怎样解释？",
+      "options": [
+        "每1000人年2例的观察死亡率",
+        "每个人一年死亡概率2%",
+        "无需时间即可称患病比例"
+      ],
+      "answer": 0,
+      "explanation": "人时作分母给率，不是固定期风险或患病比例；报告须保留同年事件定义。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-b2",
+      "type": "single",
+      "stem": "直接标准化比较甲乙，应采用什么权重？",
+      "options": [
+        "甲用甲结构，乙用乙结构且称已统一",
+        "让事件更多的一层权重必为1",
+        "双方同年龄层的共同标准结构，归一化后和为1"
+      ],
+      "answer": 2,
+      "explanation": "共同参考结构使比较不再各带本地年龄组成；不是把原始事件按多少选权重。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-b3",
+      "type": "single",
+      "stem": "共同标准低/高层各5000人年，某地年龄别率为1、10/1000人年，其直接标准率为？",
+      "options": [
+        "11/1000人年",
+        "5.5/1000人年",
+        "5500/1000人年"
+      ],
+      "answer": 1,
+      "explanation": "w各0.5，0.5×1+0.5×10=5.5；层率已按每1000显示，不再放大。",
+      "difficulty": "foundation"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-b4",
+      "type": "single",
+      "stem": "哪个说法符合直接年龄标准化边界？",
+      "options": [
+        "它是共同结构下的比较指数，不等于本地真实观察率",
+        "完成标准化就证明干预有因果效果",
+        "标准化必定消除所有混杂"
+      ],
+      "answer": 0,
+      "explanation": "共同年龄权重只回答特定结构问题，未自动解决所有变量、登记误差或因果识别。",
+      "difficulty": "foundation"
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "353-direct-age-standardisation-foundation-a1",
+      "type": "subjective",
+      "stem": "甲低/高层死亡与人年为8/8000、20/2000；乙为1/2000、64/8000。写两地粗率，并解释为何乙粗率高不表示乙各层都高。",
+      "answer": "甲粗率2.8、乙6.5/1000人年；甲层率1、10，乙0.5、8/1000人年，甲各层反而都高；乙高年龄层人年占80%而甲20%，结构权重不同。不能据此归因任何政策。",
+      "rubric": [
+        "正确两地粗率和单位",
+        "正确层率并说明顺序",
+        "解释两地年龄人年组成不同",
+        "不推政策因果"
+      ],
+      "explanation": "先算层率或先算粗率均可；只说“有混杂”而不联系给定结构不足。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-a2",
+      "type": "number",
+      "stem": "甲两层率为1和10/1000人年；共同标准低层6000、高层4000人年。求直接标准率数值。",
+      "answer": 4.6,
+      "unit": "每1000人年",
+      "tolerance": 1e-8,
+      "explanation": "权重0.6、0.4；0.6×1+0.4×10=4.6/1000人年。与例中5.5不同是参考结构改变。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-a3",
+      "type": "number",
+      "stem": "乙年龄别率0.5、8/1000人年，共同标准低/高层各5000人年。先求假想总事件数再求标准率，最终仅输入标准率数值。",
+      "answer": 4.25,
+      "unit": "每1000人年",
+      "tolerance": 1e-8,
+      "explanation": "假想事件2.5+40=42.5，除10000标准人年再乘1000=4.25/1000人年。42.5不是实际观察死者人数。",
+      "difficulty": "application"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-a4",
+      "type": "subjective",
+      "stem": "甲用(0.5,0.5)标准得5.5，乙用(0.8,0.2)得2.0，均为/1000人年。有人据此说甲年龄调整后比乙高3.5且已经证明甲服务导致死亡更多。指出比较和归因问题。",
+      "answer": "两地用了不同标准结构，不能把5.5−2.0称同标准差异；应统一权重、年龄层、时间、事件和分母后重算。即便同标准甲率高，也只是点值比较，不证明服务因果；还需不确定性、其他差异与资料质量评价。",
+      "rubric": [
+        "指出共同标准不一致",
+        "说明统一口径后重算",
+        "区分点值与不确定性",
+        "不从标准化推出服务因果"
+      ],
+      "explanation": "无需计算未给全的重算表；不得通过随意挑标准追求期望顺序。",
+      "difficulty": "application"
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "353-direct-age-standardisation-foundation-d1",
+      "type": "single",
+      "stem": "隔日：甲某年100死亡/50000人年，乙200/100000人年，均粗率2/1000人年。仅凭此可否得到两地直接标化率？",
+      "options": [
+        "可，粗率相同必定层率相同",
+        "不可，仍缺年龄别事件/人年及共同标准",
+        "可，把两个粗率平均就是直接法"
+      ],
+      "answer": 1,
+      "explanation": "粗率不能唯一还原分层率，先补年龄资料与标准；不能把总量相同当各层相同。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-d2",
+      "type": "number",
+      "stem": "隔日新资料：年龄层定义/事件一致，某地两层为6死亡/3000人年、30/3000人年。共同标准两层量为3000和1000人年。求直接标准率数值。",
+      "answer": 4,
+      "unit": "每1000人年",
+      "tolerance": 1e-8,
+      "explanation": "层率2、10/1000人年；w=0.75、0.25，标率1.5+2.5=4/1000人年。注意本地人年一半一半不等于标准权重。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-d3",
+      "type": "number",
+      "stem": "隔日交叉层率：甲两层2、12，乙3、9，均/1000人年。共同标准权重(0.25,0.75)。求甲的标准率数值。",
+      "answer": 9.5,
+      "unit": "每1000人年",
+      "tolerance": 1e-8,
+      "explanation": "甲0.25×2+0.75×12=9.5；乙7.5。换为(0.75,0.25)时两者均4.5，表明比较依赖标准。",
+      "difficulty": "delayed-transfer"
+    },
+    {
+      "id": "353-direct-age-standardisation-foundation-d4",
+      "type": "subjective",
+      "stem": "隔日：报告只写“直接标准率4.25%，是当地真实死亡风险，和SMR4.25完全一样，故已控制全部混杂”。请至少纠正三类问题，并列出应补报什么。",
+      "answer": "若原数据为人年率，应写每1000人年4.25，不是4.25%；直接率是指定共同标准结构下汇总，不等于本地真实频率或个人风险；SMR是O/E无量纲，与直接标化率不同；年龄标准化不保证消除所有混杂。应补事件、期间、年龄范围、标准权重、分母单位、粗率/层率及不确定性和资料限制。",
+      "rubric": [
+        "纠正人年率与百分比",
+        "说明假想结构及实际风险边界",
+        "区分直接率与无量纲SMR",
+        "不声称全部混杂清除并列报告条件"
+      ],
+      "explanation": "三类实质纠正为基本边界，完整四项更充分；不用背固定措辞，不自动给专业分。",
+      "difficulty": "delayed-transfer"
+    }
+  ]
+}
