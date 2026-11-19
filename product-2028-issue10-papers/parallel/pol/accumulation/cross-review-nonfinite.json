@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-19",
+  "kind": "cross-agent-internal-AI-grammar-semantic-review",
+  "reviewedFile": "product-2028-issue10-papers/parallel/en/nonfinite/en-nonfinite-functions-foundation.json",
+  "courseId": "en-nonfinite-functions-foundation",
+  "version": "0.1",
+  "courseSHA256": "6455a11690b9fd1c4935f046b300663f59a0a44246bd1c28292d20e6ea83552e",
+  "scope": "只读全部12题、参考答案与接受边界并对照完整教学正文；未重跑测试、未重新核外部来源、未改课程。",
+  "p0": 0,
+  "p1": 0,
+  "p2": 1,
+  "conclusion": "未见P0/P1；完整谓语/非限定形式参与结构、to与-ing功能、主动被动及分词主体边界保持。1处轻微增义建议修订。",
+  "rows": [
+    {
+      "id": "en-nonfinite-functions-foundation-b1",
+      "questionSHA256": "b70e3481d66119a6e82581b0e494aa90d71c9eb11033db1693e6fc2cc6b773b5",
+      "type": "single",
+      "actualAnswer": "Mina is checking the bag.",
+      "finding": "限定普通独立书面陈述而排除标题语境，is checking完整谓语与checking单独不足的边界正确，不绝对否定短语用途。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-b2",
+      "questionSHA256": "b9eea07632cd7e4b00a4b53c81b4f794f62f6190d376cd0f68b6e7f1a7de4025",
+      "type": "single",
+      "actualAnswer": "wants是主句谓语，to check说明想做什么。",
+      "finding": "want+to原形及wants的人称时态作用正确；to check作想做的内容，不把本句to泛化为目的。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-b3",
+      "questionSHA256": "f73d2e1af0158b2254af086b72dcdd28b81985193d7b2d1fbbb66a04ea1b1a1f",
+      "type": "single",
+      "actualAnswer": "Checking the bag是活动主语，takes是谓语。",
+      "finding": "Checking the bag整体活动主语、takes谓语正确；未按-ing外形一律认进行时。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-b4",
+      "questionSHA256": "2f4618e2a85f42de585963a2c7b9f92e5c1fc51653f7fa6e34f456cbf37351b7",
+      "type": "subjective",
+      "actualAnswer": "检查完整谓语、形式、功能、对象/主体；如Mina is checking the bag中is checking为完整谓语，checking单独不足。",
+      "finding": "允许非限定形式参与进行/被动/完成谓语，避免非谓语绝不属于谓语结构的绝对化；参考不自动逐字评分。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a1",
+      "questionSHA256": "fa54585e482f18c71e8f208b2bf10def45176e5d7e939cacb0484a107a675ef3",
+      "type": "subjective",
+      "actualAnswer": "Mina wants to open the bag to find her key. 主句谓语wants。",
+      "finding": "wants to open...to find结构及目的未保证结果的边界正确。但题给钥匙未明确属于米娜，标准及接受示例her key轻微增添所有关系，宜改the key或明确题干是她的钥匙。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a2",
+      "questionSHA256": "147112b36549b3ed0a5216cfe382394aa830b5e23428fdd36bf37ecc74131405",
+      "type": "subjective",
+      "actualAnswer": "Mina enjoys reading the note. enjoy接另一个动词时本课用-ing，reading the note是活动内容。",
+      "finding": "enjoy后reading而非to read正确；保留enjoy语义而不以want回避题意，明确非所有动词通用。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a3",
+      "questionSHA256": "71337995f6d8f7a063bb3adc263413badfcfe471f93e3ebf06d420d117f4fed1",
+      "type": "subjective",
+      "actualAnswer": "主句The child wants to enter the room；拿着票的孩子想进入房间。holding a ticket修饰child，to enter说明想做什么。",
+      "finding": "holding主动修饰child，主句保留wants to enter；译文想进入不擅增已进入或已获准，接受边界合理。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a4",
+      "questionSHA256": "41eb1c257b2aad67a73515827c50da8a41eeab6c33b381336e80602d9c09d6e5",
+      "type": "single",
+      "actualAnswer": "written说明便条被写，is是主句谓语；不能只因分词名称断为过去时。",
+      "finding": "written by Mina为note的被动修饰，is为主句现在状态；不由过去分词名称推出主句必须过去。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d1",
+      "questionSHA256": "c090f18a32ed1f755e98601415c546010c377ede963575f445ac0bb44524ad42",
+      "type": "single",
+      "actualAnswer": "wants是主句谓语，to test说明想做的事。",
+      "finding": "want+to test、wants为限定主句动词正确；排除to tests与裸不定式独立陈述。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d2",
+      "questionSHA256": "fee9963cd6546e322feb55a10b4d8410f928c6c3069b2df2a066dd6ced6c3e53",
+      "type": "subjective",
+      "actualAnswer": "Testing the lamp takes time. The worker enjoys testing the lamp. 谓语takes、enjoys。",
+      "finding": "Testing...活动主语与enjoys testing活动内容区别正确，takes/enjoys一致；无成功或安全事实擅增。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d3",
+      "questionSHA256": "e367a8f6fdbbb57bfb4973fb073eb309d548c2ab19b3e8242917ead1bd30b782",
+      "type": "subjective",
+      "actualAnswer": "主句The worker opened the door；carrying a box修饰worker；带着箱子的工作人员打开了门。",
+      "finding": "carrying主动修饰worker，opened door主干正确；标准带着箱子中性，搬着/拿着在普通携带情境相容，未限定颜色或改动作主体。"
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d4",
+      "questionSHA256": "8aa97acbffd15e7345bd7f2a529d26551ae74b35a8f163f6fc25fe9841e63f8b",
+      "type": "subjective",
+      "actualAnswer": "Holding a ticket按本课句首结构会接主句the door，门不能按题意拿票。The worker was holding a ticket. The door was open.",
+      "finding": "本题holding悬垂修饰的主体问题及拆成两完整句正确；held/was holding均与题定情境相容，未增加因果，排除固定表达/独立主格等复杂例外的绝对化。"
+    }
+  ],
+  "suggestions": [
+    {
+      "priority": "P2",
+      "questionId": "en-nonfinite-functions-foundation-a1",
+      "location": "answer and explanation accepted example",
+      "finding": "原题仅称钥匙，没有明确所有者；her key增加其属于米娜的关系。",
+      "minimalChange": "改为to find the key及相应接受示例，或明确题干为她的钥匙。无需改变目的/想要结构。"
+    }
+  ],
+  "coverageObservation": {
+    "concept": "to不定式与介词to",
+    "finding": "正文已用go to the room提示介词to，但12题未直接测试其与to+动词原形的对比。当前目标2承诺want内容与目的，不应把现有题通过当介词to辨析已测掌握。",
+    "blocking": false,
+    "changeRequiredForCurrentScope": false
+  },
+  "testsRerun": false,
+  "targetModified": false,
+  "networkCalls": 0,
+  "independentProfessionalApproved": false,
+  "professionalApprovals": 0
+}

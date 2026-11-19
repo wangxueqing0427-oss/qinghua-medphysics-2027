@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-19",
+  "reviewType": "AI内部只读交叉复核，非独立专业审定",
+  "scope": "只核12题算式、条件一致及主观接受/拒绝边界；未重跑既有测试",
+  "course": "pol-capital-accumulation-reproduction-foundation",
+  "version": "0.1-parallel-pol-accumulation-1",
+  "courseSHA256": "677381b9a185d01f6e97a1c4210f0ae57476cf66ba744dfa65b348065d83cfd7",
+  "p0": 0,
+  "p1": 0,
+  "conclusion": "未发现所审范围P0/P1；一期流动资本与原有先补偿条件足以支持题内算式",
+  "arithmetic": [
+    {
+      "label": "主例",
+      "A": 20,
+      "K": 20,
+      "dc": 15,
+      "dv": 5,
+      "newC": 75,
+      "newV": 25,
+      "total": 100,
+      "workersBefore": 4,
+      "workersAfter": 5,
+      "growthPercent": 25
+    },
+    {
+      "label": "b3",
+      "dc": 18,
+      "dv": 6
+    },
+    {
+      "label": "a1",
+      "original": 50,
+      "wrongSubtract": 38,
+      "correctNext": 50
+    },
+    {
+      "label": "a2",
+      "A": 20,
+      "K": 30
+    },
+    {
+      "label": "a3",
+      "A": 24,
+      "dc": 18,
+      "dv": 6,
+      "newC": 90,
+      "newV": 30,
+      "total": 120
+    },
+    {
+      "label": "a4",
+      "shareBefore": 25,
+      "shareAfter": 20,
+      "vAbsoluteIncrease": 5
+    },
+    {
+      "label": "d2",
+      "A": 15,
+      "K": 45
+    },
+    {
+      "label": "d3",
+      "dc": 32,
+      "dv": 8,
+      "newC": 112,
+      "newV": 28,
+      "total": 140
+    },
+    {
+      "label": "d4",
+      "ratioBefore": 2,
+      "ratioAfter": 3
+    }
+  ],
+  "focusFindings": [
+    {
+      "topic": "c耗用与预付资本",
+      "finding": "正文显式限一期全部耗用的流动资本，排除跨期固定资本，才能c+v同时作该期预付/补偿比较；没有把多年机器全购价无条件当一期转移。"
+    },
+    {
+      "topic": "a与m′分母",
+      "finding": "a以m为分母，A=a×m、K=(1−a)m；与先修m/v不同，数值题没有混用。"
+    },
+    {
+      "topic": "扩大量与资源条件",
+      "finding": "计划资本化和实际扩大分开，a2明确未购到资源就不能凭账面保证；a3/d3则显式全部模型条件成立。"
+    },
+    {
+      "topic": "构成及劳动需求",
+      "finding": "区分价值比、技术构成决定的有机构成；v份额下降不等于v绝对降，更不直接断言人数。单位劳动力价值/时间等需另定。"
+    }
+  ],
+  "rows": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b1",
+      "questionSHA256": "6ce90cfb6d175013f47e31339f08b3b9783f20f1461520dccc9394e81ee8ac9b",
+      "type": "single",
+      "answer": 1,
+      "answerText": "再生产需要补偿原有生产条件",
+      "review": "只补原有耗用不能证明追加积累，也不足断言m全消费；正确选项只说明补偿必要。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b2",
+      "questionSHA256": "a902a9e6bb9a54c08804fa669fbde8c4cdf5242ebabfa934f15866a856208d63",
+      "type": "single",
+      "answer": 2,
+      "answerText": "把剩余价值再作为资本使用",
+      "review": "正确选项界定剩余价值再作资本，不把所有闲置货币自动视为扩大再生产。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b3",
+      "questionSHA256": "1d7528b1f75aa2d411ca29f6b3c91dabb528b3bebe133729f5bae538d8bd13ad",
+      "type": "single",
+      "answer": 0,
+      "answerText": "Δc=18、Δv=6",
+      "review": "24按3:1为18和6；份额加总24，非12/12或24/24。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b4",
+      "questionSHA256": "a65f6d75613cb0b3ec3fd368167638aa366f8da0ca7eda798ac9c3282ffcdfd1",
+      "type": "single",
+      "answer": 1,
+      "answerText": "不能仅凭该变化认定有机构成提高",
+      "review": "仅价格改变与技术/实物不变，不足推出有机构成提高或人数归零；参考接受边界未夸大。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a1",
+      "questionSHA256": "601dd6c03c90024baa22187d6006e2c98a6efacfb77b7e24cf43962aa2ac9f82",
+      "type": "subjective",
+      "answer": "不能；12是剩余价值消费，不是从已补偿的原资本50中扣除。下期仍以c=40、v=10在原规模重复，为简单再生产。",
+      "answerText": "不能；12是剩余价值消费，不是从已补偿的原资本50中扣除。下期仍以c=40、v=10在原规模重复，为简单再生产。",
+      "review": "原40+10=50已补偿，m12消费不从50扣；保持条件则下期50并属简单再生产。参考拒绝38与无再生产正确。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a2",
+      "questionSHA256": "647eee2ff14005c16087370459298fe236d2070e454a96f67c36216342f96d49",
+      "type": "subjective",
+      "answer": "积累计划额A=50×40%=20，个人消费额K=30。不能保证；还须实现产品价值、取得追加生产资料和适合劳动力等条件。",
+      "answerText": "积累计划额A=50×40%=20，个人消费额K=30。不能保证；还须实现产品价值、取得追加生产资料和适合劳动力等条件。",
+      "review": "A=50×0.4=20，K=30；拟分配额不等资源已到位。接受20/30并要求实际条件，不把a当m/v或回报率。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a3",
+      "questionSHA256": "254947130efb5ce421bd5bdf8db820634bba1682e65fa15ca7d56302c643f808",
+      "type": "subjective",
+      "answer": "A=24；Δc=18、Δv=6；下期c=90、v=30，总额120个价值单位。原资本96与追加24分开计算。",
+      "answerText": "A=24；Δc=18、Δv=6；下期c=90、v=30，总额120个价值单位。原资本96与追加24分开计算。",
+      "review": "A=48×0.5=24，3:1为18/6，下期72+18=90与24+6=30，总120。接受清楚列式；拒绝全部48追加或重复补偿。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a4",
+      "questionSHA256": "80b7a888f383c616e413234bf6a51f2dc9df6ebcd97081d76528f70542af8ff5",
+      "type": "subjective",
+      "answer": "v份额由20/80=25%降至25/125=20%，但绝对额20增到25，未下降。人数还取决于同期间单位劳动力价值、工作时间强度等；题设不足以无条件断定。",
+      "answerText": "v份额由20/80=25%降至25/125=20%，但绝对额20增到25，未下降。人数还取决于同期间单位劳动力价值、工作时间强度等；题设不足以无条件断定。",
+      "review": "v份额20/80=25%，25/125=20%；绝对20→25增25%。接受指出份额和绝对不等；单位劳动力价值不变时需求人数可增加，但题设不支持现实就业结论。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d1",
+      "questionSHA256": "c6221a00aa07e95092793b5fe1584898534e50b154f7803dce45f11138d65379",
+      "type": "subjective",
+      "answer": "个人旅行属个人消费，转为追加生产资料与劳动力投入的剩余价值属资本化/积累。原有生产条件仍须先补偿，追加投入不能代替这一步。",
+      "answerText": "个人旅行属个人消费，转为追加生产资料与劳动力投入的剩余价值属资本化/积累。原有生产条件仍须先补偿，追加投入不能代替这一步。",
+      "review": "个人消费、剩余价值资本化与原有补偿三者分开；接受三栏说明，不要求道德评价，边界合理。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d2",
+      "questionSHA256": "f45bd8ac87386b4406007769fc6d0a368288019345e7f6d2662928ec03d798cd",
+      "type": "number",
+      "answer": 15,
+      "answerText": 15,
+      "review": "60×0.25=15价值单位，消费45；精确整数零容差适合该题，非25%对应15%的误读。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d3",
+      "questionSHA256": "c4c8ab31d742d33fb33f4ea02a9c144c251cbccd68172e9b3e7faa853badcb93",
+      "type": "subjective",
+      "answer": "追加A=40，Δc=32、Δv=8；下期c=112、v=28，总额140。40是新增资本，140是原100加新增40，不可混同。",
+      "answerText": "追加A=40，Δc=32、Δv=8；下期c=112、v=28，总额140。40是新增资本，140是原100加新增40，不可混同。",
+      "review": "40全资本化按4:1为32/8，下期112/28，总140；新增40与原100分开，不把总量当新增或m。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d4",
+      "questionSHA256": "0a3b31d7f5438d1cb0333fcf6e73ba0911f52ca54c70068846444bc781e2ef15",
+      "type": "subjective",
+      "answer": "价值比例从40:20=2:1变为60:20=3:1。仅价格改变未给技术构成变化，不能认定有机构成必提高；也不能由这两个比率推出人数必下降，仍需劳动力价值及劳动条件等信息。",
+      "answerText": "价值比例从40:20=2:1变为60:20=3:1。仅价格改变未给技术构成变化，不能认定有机构成必提高；也不能由这两个比率推出人数必下降，仍需劳动力价值及劳动条件等信息。",
+      "review": "40/20=2，60/20=3；只识别价值比变化，技术构成未变不能据价格变化推出有机构成必提高，更不能推出人数必降。",
+      "internalResult": "未发现重大计算或接受边界缺陷",
+      "expertApproved": false
+    }
+  ],
+  "limitations": [
+    "本代理未独立重开资本论网页，不把作者原文读取当本代理已读",
+    "非政治经济学教师审定；教学充分性、现实资本/工资就业实证和考试范围另待审核",
+    "未改课程、共享构建或运行旧测试"
+  ],
+  "expertApprovals": 0
+}

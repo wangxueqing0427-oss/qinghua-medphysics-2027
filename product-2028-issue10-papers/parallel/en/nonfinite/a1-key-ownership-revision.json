@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-19",
+  "originalCourse": {
+    "id": "en-nonfinite-functions-foundation",
+    "version": "0.1",
+    "subject": "en",
+    "title": "非谓语起步：完整谓语、to与-ing功能和分词修饰",
+    "writtenAt": "2026-11-19",
+    "applicableYear": 2028,
+    "scopeStatus": "teaching-foundation-exam-spec-pending",
+    "reviewStatus": "draft-internal-check",
+    "distribution": "held-pending-review",
+    "authorship": "全部人物、例句、题目及中文说明为原创虚构日常教学；不复制来源练习或冒充真题。",
+    "mapping": [
+      "en-plan-2",
+      "en-plan-3"
+    ],
+    "prerequisites": [
+      "en-main-subordinate-clauses",
+      "en-present-continuous-foundation",
+      "en-passive-simple-foundation"
+    ],
+    "sources": [
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/infinitives",
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/ing-forms",
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/verbs-followed-ing-or-infinitive?page=1",
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses"
+    ],
+    "sourceEvidence": [
+      {
+        "id": "BC-INFINITIVE",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/infinitives",
+        "actualRead": "2026-11-19正文7–75：want等接to不定式；to表目的；未以评论概括通用规则。",
+        "supports": "want搭配及本课明确目的用法",
+        "limits": "不声称所有to都是目的，或所有动词都采用此模式。"
+      },
+      {
+        "id": "BC-ING",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/ing-forms",
+        "actualRead": "2026-11-19正文8–94：-ing作名词功能、主语、enjoy后内容及名词后修饰；评论140–178仅看作术语差异背景，不扩为考点。",
+        "supports": "-ing多功能及主动名词修饰",
+        "limits": "不以单一词尾推导功能；传统动名词术语仅作学习入口。"
+      },
+      {
+        "id": "BC-VERB-PATTERN",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/verbs-followed-ing-or-infinitive?page=1",
+        "actualRead": "2026-11-19正文22–42：enjoy后-ing，want后to，模式取决于前动词；like/love可两种。",
+        "supports": "enjoy/want对比和非通用规则边界",
+        "limits": "本课不教stop/remember等意义差异，不能延伸到全部动词。"
+      },
+      {
+        "id": "BC-PARTICIPLE",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+        "actualRead": "2026-11-19正文24–45：分词不独立确定时态，基础共享主体结构，主动-ing与通常被动过去分词；复杂后半内容未设入门目标。",
+        "supports": "独立时态边界及本课明确同主体例句",
+        "limits": "C1材料仅核对边界；不把同主体简化成覆盖独立主格、固定短语和所有分词用法。"
+      }
+    ],
+    "explanation": "先别急着背非谓语术语。Mina checks the bag.（米娜检查包）有主语Mina和表示动作的checks。Mina is checking the bag.（米娜正在检查包）完整谓语是is checking，is承担本句现在时和主语配合，checking与它组成进行结构。单独Mina checking the bag.在本课要求的独立正式书面陈述中缺少完整谓语；可补is，不能只因checking看起来有动作就当完整句。照片标题、笔记或对话省略可以用短语，本课不据此宣称所有片语都错误。有限动词形式可与主语、时态配合；非限定动词形式本身不靠这种变化作独立陈述谓语。这个入门判断说的是结构，不是“凡有动作意思就是谓语”。bag是包，check是检查，Mina为虚构人名。\n\n先学to加动词原形的不定式。Mina wants to check the bag. 意为米娜想检查包；主句主体Mina，谓语wants，to check the bag说明想做什么，不是另一个独立陈述。人称变化放在wants，不写to checks。to不定式可以有不同工作：Mina opens the bag to find her key.在本例是“米娜打开包，为了找到钥匙”，to find her key给目的；key是钥匙。本课按明确的寻找目的理解，不将一切句尾to都译成目的。want接另一个动词时用to形式，是要记的搭配；不能推广成所有动词都加to，to也不总是不定式标志，例如go to the room中的to接地点。其他无to原形、不定式完成式及复杂省略本课暂不处理。\n\n再学-ing形式作活动名称的功能，传统教学常称动名词。Checking the bag takes time. 意为“检查包要花时间”，Checking the bag整体作为主语，谓语是takes；time这里是时间。Mina enjoys checking the bag before a trip. 意为“米娜喜欢在出行前检查包”，enjoys是主句谓语，checking the bag是喜欢的活动内容。enjoy后接动词-ing，而不是enjoy to check；这个搭配不适用于所有动词。对比Mina wants to check和Mina enjoys checking：先看第一个动词需要什么模式。-ing外形也可以用于正在进行等结构，所以不能见-ing就一概叫活动主语或正在做。我们用功能解释，术语不是比句意更重要的答案。trip是出行。\n\n分词是动词的另一类用法入口，本课只看基本修饰。The child holding a ticket waits here. 意为“拿着票的孩子在这里等候”；child是孩子，holding是拿着，ticket是票，waits是等候。主句The child waits here，holding a ticket修饰child，说明孩子正在拿票；它不是独立增加一个谓语，也不是说票拿孩子。The note written by Mina is short.意为“米娜写的便条很短”；written是write的过去分词，written by Mina修饰note，便条是被写的对象，主句谓语是is。过去分词这个名称不保证主句在过去，和现有被动/完成课一样要看完整结构；本句is仍是现在的状态描述。这里-ing修饰为主动、written修饰为被动，但不能扩大成所有-ing/所有过去分词永远只有一种含义；复杂形容词化和例外另学。\n\n分步例句：The child holding a ticket wants to enter the room.（拿着票的孩子想进入房间。）①找主句谓语wants；②找主体The child，holding a ticket属于说明这个孩子的修饰；③wants后to enter the room说明想做什么，不改成to enters；④整句只说想进入，不保证已经进入；⑤回查动作方向：孩子拿票、孩子想进去，房间不是拿票者。enter是进入。再对比Holding a ticket, the child waited.本课这种没有另写主语的句首分词结构按孩子拿票理解，因为动作主体与主句child一致；不要写Holding a ticket, the room was quiet.却想表达孩子拿票，主句主体room不能完成该动作。可清楚改为The child was holding a ticket. The room was quiet.，不必强行压缩。独立主格、固定表达等不在本课范围，这条练习规则不能宣称涵盖一切英语分词结构。\n\n闭卷检查四个问题：整句有没有完整谓语；非限定形式是什么；它在本句做什么；修饰对象/动作主体是谁。看到The note was written by Mina，完整被动谓语是was written，不是让你把written从谓语中全部删掉；“非限定形式不能独立承担陈述谓语”不等于“不能参与完整谓语”。同样is checking是完整进行谓语；Checking the bag takes time中的Checking则是活动主语。先保留结构与意思，再用自然中文解释，不按某一个中文词判对错。主观题有参考与接受边界，系统只保存原答供核对，不用命中术语自动给可靠语法或翻译分。隔日换到灯、门和工作人员，检验同一方法而非背例句。本课是入门桥接，不是完整非谓语体系或2028官方题型规则。",
+    "definition": "非限定动词形式在句中可作活动内容、修饰或目的等，也可参与完整谓语；不能单独取代本课独立陈述所需的限定谓语。",
+    "conditions": "只教to原形、-ing活动/修饰及给定过去分词基本功能；不覆盖复杂完成非谓语、独立主格、所有动词模式或2028官方细则。",
+    "example": "分步例句：The child holding a ticket wants to enter the room.（拿着票的孩子想进入房间。）①找主句谓语wants；②找主体The child，holding a ticket属于说明这个孩子的修饰；③wants后to enter the room说明想做什么，不改成to enters；④整句只说想进入，不保证已经进入；⑤回查动作方向：孩子拿票、孩子想进去，房间不是拿票者。enter是进入。再对比Holding a ticket, the child waited.本课这种没有另写主语的句首分词结构按孩子拿票理解，因为动作主体与主句child一致；不要写Holding a ticket, the room was quiet.却想表达孩子拿票，主句主体room不能完成该动作。可清楚改为The child was holding a ticket. The room was quiet.，不必强行压缩。独立主格、固定表达等不在本课范围，这条练习规则不能宣称涵盖一切英语分词结构。",
+    "misconceptions": [
+      "有动作意思就当完整谓语",
+      "见to就认为一律目的",
+      "所有动词后都选同一种形式",
+      "见-ing一律进行时或一律动名词",
+      "见过去分词一律过去时",
+      "句首修饰实际主体与题意不合"
+    ],
+    "recall": [
+      "闭卷用四问检查完整谓语与功能。",
+      "闭卷对比want to及目的to的两项工作。",
+      "闭卷说出-ing作活动主语和enjoy后内容的例子。",
+      "闭卷还原分词修饰对象并检查句首主体。"
+    ],
+    "rubric": [
+      "完整主干",
+      "形式及功能",
+      "修饰和主体",
+      "范围与自然表达"
+    ],
+    "review": {
+      "intervalDays": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "delayedPrompt": "用灯、门和工作人员的新句迁移四问，保留原答参考核对，不自动专业评分。"
+    },
+    "reviewRecord": {
+      "expertApproved": false,
+      "publicRelease": false,
+      "limitations": [
+        "待英语教师独立审核术语、梯度与语义边界",
+        "不是全部非谓语或长难句路径"
+      ]
+    },
+    "teachingSections": [
+      {
+        "id": "s1",
+        "explanationParagraph": 0
+      },
+      {
+        "id": "s2",
+        "explanationParagraph": 1
+      },
+      {
+        "id": "s3",
+        "explanationParagraph": 2
+      },
+      {
+        "id": "s4",
+        "explanationParagraph": 3
+      },
+      {
+        "id": "s5",
+        "explanationParagraph": 4
+      },
+      {
+        "id": "s6",
+        "explanationParagraph": 5
+      }
+    ],
+    "learningObjectives": [
+      {
+        "id": "en-nonfinite-functions-foundation-g1",
+        "description": "辨认完整谓语",
+        "successCriteria": "在给定书面陈述中找出限定成分及完整谓语",
+        "teachingSectionIds": [
+          "s1",
+          "s6"
+        ],
+        "recallIndexes": [
+          0
+        ],
+        "questionIds": [
+          "en-nonfinite-functions-foundation-b1",
+          "en-nonfinite-functions-foundation-b4",
+          "en-nonfinite-functions-foundation-a1",
+          "en-nonfinite-functions-foundation-d1"
+        ],
+        "evaluation": "objective-and-reference-review"
+      },
+      {
+        "id": "en-nonfinite-functions-foundation-g2",
+        "description": "辨认to不定式功能",
+        "successCriteria": "用want+to原形并区分内容和目的",
+        "teachingSectionIds": [
+          "s2",
+          "s5"
+        ],
+        "recallIndexes": [
+          1
+        ],
+        "questionIds": [
+          "en-nonfinite-functions-foundation-b2",
+          "en-nonfinite-functions-foundation-a1",
+          "en-nonfinite-functions-foundation-d1"
+        ],
+        "evaluation": "objective-and-reference-review"
+      },
+      {
+        "id": "en-nonfinite-functions-foundation-g3",
+        "description": "辨认-ing活动功能",
+        "successCriteria": "将-ing活动作主语或enjoy后内容并指出谓语",
+        "teachingSectionIds": [
+          "s3",
+          "s6"
+        ],
+        "recallIndexes": [
+          2
+        ],
+        "questionIds": [
+          "en-nonfinite-functions-foundation-b3",
+          "en-nonfinite-functions-foundation-a2",
+          "en-nonfinite-functions-foundation-d2"
+        ],
+        "evaluation": "objective-and-reference-review"
+      },
+      {
+        "id": "en-nonfinite-functions-foundation-g4",
+        "description": "辨认分词修饰及主体",
+        "successCriteria": "恢复主句与修饰对象，修正本课句首主体错配",
+        "teachingSectionIds": [
+          "s4",
+          "s5",
+          "s6"
+        ],
+        "recallIndexes": [
+          3
+        ],
+        "questionIds": [
+          "en-nonfinite-functions-foundation-b4",
+          "en-nonfinite-functions-foundation-a3",
+          "en-nonfinite-functions-foundation-a4",
+          "en-nonfinite-functions-foundation-d3",
+          "en-nonfinite-functions-foundation-d4"
+        ],
+        "evaluation": "objective-and-reference-review"
+      }
+    ],
+    "basicQuestions": [
+      {
+        "type": "single",
+        "stem": "题设要求独立、完整的普通书面陈述，不是标题。哪句有完整谓语？",
+        "options": [
+          "Mina checking the bag.",
+          "Mina is checking the bag.",
+          "Mina to check the bag."
+        ],
+        "answer": 1,
+        "explanation": "B的is checking组成完整进行谓语；A缺is等限定成分，C只有to check不能独立作本题陈述谓语。片语作标题是别的语境。",
+        "id": "en-nonfinite-functions-foundation-b1",
+        "difficulty": "foundation"
+      },
+      {
+        "type": "single",
+        "stem": "Mina wants to check the bag. 哪项分析正确？",
+        "options": [
+          "wants是主句谓语，to check说明想做什么。",
+          "to checks应随Mina加s。",
+          "只有check才是主句谓语，wants可删。"
+        ],
+        "answer": 0,
+        "explanation": "wants承担主句人称和时态配合；to后用原形，C删除wants会破坏原句结构及想要的意思。",
+        "id": "en-nonfinite-functions-foundation-b2",
+        "difficulty": "foundation"
+      },
+      {
+        "type": "single",
+        "stem": "Checking the bag takes time. 哪项正确？",
+        "options": [
+          "takes是活动主语，Checking是唯一谓语。",
+          "所有-ing都只能表示正在做。",
+          "Checking the bag是活动主语，takes是谓语。"
+        ],
+        "answer": 2,
+        "explanation": "整项检查活动作主语，takes说明花费时间；不能只按-ing外形认进行时，也不能颠倒主干。",
+        "id": "en-nonfinite-functions-foundation-b3",
+        "difficulty": "foundation"
+      },
+      {
+        "type": "subjective",
+        "stem": "闭卷：说明本课四问，并举一个非限定形式参与完整谓语而不是独立谓语的例子。",
+        "answer": "检查完整谓语、形式、功能、对象/主体；如Mina is checking the bag中is checking为完整谓语，checking单独不足。",
+        "rubric": [
+          "四问至少含结构、功能、主体检查",
+          "给完整例子并说明辅助成分作用"
+        ],
+        "explanation": "接受已教was written或have written等完整结构及同义中文；不要求照背术语，但不能说非谓语永远不属于谓语结构。",
+        "id": "en-nonfinite-functions-foundation-b4",
+        "difficulty": "foundation"
+      }
+    ],
+    "applicationQuestions": [
+      {
+        "type": "subjective",
+        "stem": "将给定意思合为一句：米娜想打开包寻找钥匙。必须用wants及to形式，并指出主句谓语。词汇open打开，find找到，key钥匙。",
+        "answer": "Mina wants to open the bag to find her key. 主句谓语wants。",
+        "rubric": [
+          "wants to open主干正确",
+          "to find表达题给寻找目的",
+          "指出wants"
+        ],
+        "explanation": "接受Mina wants to open the bag in order to find her key等明确表达；不接受to opens，不把寻找目的改成已经找到。",
+        "id": "en-nonfinite-functions-foundation-a1",
+        "difficulty": "application"
+      },
+      {
+        "type": "subjective",
+        "stem": "改正并解释：Mina enjoys to read the note. 保留enjoy表示喜欢这一活动。",
+        "answer": "Mina enjoys reading the note. enjoy接另一个动词时本课用-ing，reading the note是活动内容。",
+        "rubric": [
+          "改为enjoys reading",
+          "保留主体与读说明的活动",
+          "说明模式依赖enjoy而非所有动词通用"
+        ],
+        "explanation": "接受中文解释“喜欢做的事”；不要求说宾语这一术语，不把改成wants当本题修正，因为改变给定enjoy意思。",
+        "id": "en-nonfinite-functions-foundation-a2",
+        "difficulty": "application"
+      },
+      {
+        "type": "subjective",
+        "stem": "先抽主句，再译全句：The child holding a ticket wants to enter the room.",
+        "answer": "主句The child wants to enter the room；拿着票的孩子想进入房间。holding a ticket修饰child，to enter说明想做什么。",
+        "rubric": [
+          "主句不丢wants to enter",
+          "holding修饰孩子",
+          "译文保留想进入而非已进入"
+        ],
+        "explanation": "接受带着一张票的孩子想进屋等自然表达；不能把ticket作拿票者或加已获准进入。",
+        "id": "en-nonfinite-functions-foundation-a3",
+        "difficulty": "application"
+      },
+      {
+        "type": "single",
+        "stem": "The note written by Mina is short. 哪项符合本句？",
+        "options": [
+          "written说明便条被写，is是主句谓语；不能只因分词名称断为过去时。",
+          "written是过去分词，所以is必须改was。",
+          "note主动写Mina。"
+        ],
+        "answer": 0,
+        "explanation": "written by Mina修饰便条且有被写方向；主句现在状态is short，不强制过去，也不把便条当写作者。",
+        "id": "en-nonfinite-functions-foundation-a4",
+        "difficulty": "application"
+      }
+    ],
+    "delayedQuestions": [
+      {
+        "type": "single",
+        "stem": "隔日新句：The worker wants to test the lamp. 词汇test测试，lamp灯。哪项是正确结构？",
+        "options": [
+          "to tests随worker变化。",
+          "wants是主句谓语，to test说明想做的事。",
+          "to test可以替代wants独立构成普通陈述。"
+        ],
+        "answer": 1,
+        "explanation": "want这一搭配后to接原形；主句限定形式wants不能被裸to test替代。",
+        "id": "en-nonfinite-functions-foundation-d1",
+        "difficulty": "delayed-transfer"
+      },
+      {
+        "type": "subjective",
+        "stem": "隔日：用给定词表达“测试这盏灯要花时间”，再表达“工作人员喜欢测试这盏灯”。用test、take time、enjoy，分别找谓语。",
+        "answer": "Testing the lamp takes time. The worker enjoys testing the lamp. 谓语takes、enjoys。",
+        "rubric": [
+          "活动作主语时Testing the lamp整体保留",
+          "enjoys后testing",
+          "指出takes及enjoys"
+        ],
+        "explanation": "接受主语一致的同义小改写；本题要求给定模式，不用全改want回避-ing。lamp明确为灯，无需声称测试安全或成功。",
+        "id": "en-nonfinite-functions-foundation-d2",
+        "difficulty": "delayed-transfer"
+      },
+      {
+        "type": "subjective",
+        "stem": "隔日：The worker carrying a box opened the door. 请指出主句、carrying修饰对象，并自然译出。词汇carrying携带，box箱子，opened打开了，door门。",
+        "answer": "主句The worker opened the door；carrying a box修饰worker；带着箱子的工作人员打开了门。",
+        "rubric": [
+          "主句opened及对象door准确",
+          "carrying修饰工作人员",
+          "译文保留带箱子信息"
+        ],
+        "explanation": "接受搬着/拿着箱子等与携带相容表达；不要求箱子具体颜色，不误译为箱子开门或门拿箱子。",
+        "id": "en-nonfinite-functions-foundation-d3",
+        "difficulty": "delayed-transfer"
+      },
+      {
+        "type": "subjective",
+        "stem": "隔日改错：原意是工作人员拿着票，门开着。有人写Holding a ticket, the door was open. 指出主体问题，并改成两个清楚完整的英文句子。",
+        "answer": "Holding a ticket按本课句首结构会接主句the door，门不能按题意拿票。The worker was holding a ticket. The door was open.",
+        "rubric": [
+          "指出holding需要与题意中工作人员相连",
+          "工作人员拿票句含完整谓语",
+          "门开着句含完整谓语且无额外因果"
+        ],
+        "explanation": "接受The worker held a ticket. The door was open.等自然改写；不接受用题意不符的门拿票，也不推定所有句首分词及固定表达都一律受本课简化规则限制。",
+        "id": "en-nonfinite-functions-foundation-d4",
+        "difficulty": "delayed-transfer"
+      }
+    ]
+  },
+  "originalFileSHA256": "6455a11690b9fd1c4935f046b300663f59a0a44246bd1c28292d20e6ea83552e",
+  "revision": "a1 reference and acceptance her key→the key; prompt does not establish key owner",
+  "scopeBoundary": "介词to对比只在讲解，12题没有独立检验该对比，不报告其已测。",
+  "expertApprovals": 0
+}

@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-19",
+  "course": "en-nonfinite-functions-foundation",
+  "sha256": "6971137785ca7a4ccad618b371ed85e6c61d63dd639d3d9fbd34d2645097dd97",
+  "existingEnglishUnits": 23,
+  "oldCourseCheck": {
+    "unitIds": [
+      "en-foundation-svo",
+      "en-present-negative",
+      "en-linking-and-verb-phrase",
+      "en-subject-verb-agreement",
+      "en-past-simple-foundation",
+      "en-present-questions",
+      "en-nouns-countability",
+      "en-pronoun-reference",
+      "en-articles-foundation",
+      "en-present-continuous-foundation",
+      "en-passive-simple-foundation",
+      "en-defining-relative-foundation",
+      "en-vocabulary-retrieval-foundation",
+      "en-reading-evidence-foundation",
+      "en-present-perfect-foundation",
+      "en-reading-library-evidence",
+      "en-reading-garden-writing",
+      "en-cloze-cohesion",
+      "en-paragraph-heading-matching",
+      "en-main-subordinate-clauses",
+      "en-request-email-foundation",
+      "en-opinion-reason-example-foundation",
+      "en-translation-clause-scope-foundation"
+    ],
+    "noStandaloneNonfiniteUnit": true,
+    "completeBodiesActuallyRead": [
+      "en-passive-simple-foundation",
+      "en-present-perfect-foundation",
+      "en-main-subordinate-clauses",
+      "en-request-email-foundation"
+    ],
+    "existingOverlap": [
+      {
+        "id": "en-passive-simple-foundation",
+        "scope": "只教be+过去分词的完整被动谓语，不独立教活动或修饰。"
+      },
+      {
+        "id": "en-present-perfect-foundation",
+        "scope": "have/has+分词完整完成谓语，不是分词功能全课。"
+      },
+      {
+        "id": "en-main-subordinate-clauses",
+        "scope": "说明非谓语省略另学；本次补桥接而非重复because/although。"
+      },
+      {
+        "id": "en-request-email-foundation",
+        "scope": "to ask只作为目的常用句，明确不教不定式全部分类。"
+      }
+    ],
+    "newGap": "完整谓语与非限定形式关系、to内容/目的、-ing活动功能、分词修饰/主体检查尚无独立教学评估链。"
+  },
+  "sourceEvidence": [
+    {
+      "id": "BC-INFINITIVE",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/infinitives",
+      "actualRead": "2026-11-19正文7–75：want等接to不定式；to表目的；未以评论概括通用规则。",
+      "supports": "want搭配及本课明确目的用法",
+      "limits": "不声称所有to都是目的，或所有动词都采用此模式。"
+    },
+    {
+      "id": "BC-ING",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/ing-forms",
+      "actualRead": "2026-11-19正文8–94：-ing作名词功能、主语、enjoy后内容及名词后修饰；评论140–178仅看作术语差异背景，不扩为考点。",
+      "supports": "-ing多功能及主动名词修饰",
+      "limits": "不以单一词尾推导功能；传统动名词术语仅作学习入口。"
+    },
+    {
+      "id": "BC-VERB-PATTERN",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/verbs-followed-ing-or-infinitive?page=1",
+      "actualRead": "2026-11-19正文22–42：enjoy后-ing，want后to，模式取决于前动词；like/love可两种。",
+      "supports": "enjoy/want对比和非通用规则边界",
+      "limits": "本课不教stop/remember等意义差异，不能延伸到全部动词。"
+    },
+    {
+      "id": "BC-PARTICIPLE",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+      "actualRead": "2026-11-19正文24–45：分词不独立确定时态，基础共享主体结构，主动-ing与通常被动过去分词；复杂后半内容未设入门目标。",
+      "supports": "独立时态边界及本课明确同主体例句",
+      "limits": "C1材料仅核对边界；不把同主体简化成覆盖独立主格、固定短语和所有分词用法。"
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/verbs-followed-ing-or-infinitive-1",
+      "result": "not accessible"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/verbs-followed-ing-or-infinitive-2",
+      "result": "not accessible"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/verbs-followed-ing-or-infinitive",
+      "result": "400 Timeout; readable original body obtained at ?page=1"
+    }
+  ],
+  "answerSelfReview": [
+    {
+      "id": "en-nonfinite-functions-foundation-b1",
+      "conclusion": "B完整is checking；两残句限定普通书面陈述，不误判标题。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-b2",
+      "conclusion": "A wants+to原形，不能加s或删wants。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-b3",
+      "conclusion": "C活动作主语、takes谓语，排除词尾机械判断。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-b4",
+      "conclusion": "四问闭卷及分词可参与完整谓语边界。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a1",
+      "conclusion": "want补足及目的to，不能把想要写成已发生。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a2",
+      "conclusion": "enjoys reading固定模式，不替换意思。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a3",
+      "conclusion": "修饰孩子+想进入，不证明进入成功。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-a4",
+      "conclusion": "A is主句谓语，written被写方向，不凭名称断过去。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d1",
+      "conclusion": "B wants+to test新情境迁移。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d2",
+      "conclusion": "活动主语与enjoy后内容两例，不要求术语唯一。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d3",
+      "conclusion": "工人携带箱子，opened主句，不能箱子开门。",
+      "expertApproved": false
+    },
+    {
+      "id": "en-nonfinite-functions-foundation-d4",
+      "conclusion": "题意中拿票主体与door错配；改两个完整句而非强套压缩。",
+      "expertApproved": false
+    }
+  ],
+  "coverage": {
+    "mapping": [
+      "en-plan-2",
+      "en-plan-3"
+    ],
+    "status": "concept-specific-teaching-support-only",
+    "notCovered": [
+      "全部动词搭配及意义变化",
+      "独立主格/固定分词表达",
+      "非谓语完成/被动复杂组合",
+      "正式2028题型分值"
+    ],
+    "fullCoverageVerified": false
+  },
+  "testReceipt": "test-receipt.json",
+  "independentExpertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false,
+  "sharedFilesModified": false,
+  "revision": {
+    "snapshot": "a1-key-ownership-revision.json",
+    "change": "a1 her key→the key in reference and accepted alternative",
+    "independentlyTestedPrepositionalToContrast": false,
+    "limitation": "介词to对比仅讲解，无独立题；不可声称12题已测该项。"
+  }
+}

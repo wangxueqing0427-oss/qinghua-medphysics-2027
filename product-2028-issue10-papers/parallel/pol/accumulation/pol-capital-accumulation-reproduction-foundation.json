@@ -1,0 +1,348 @@
+{
+  "id": "pol-capital-accumulation-reproduction-foundation",
+  "version": "0.1-parallel-pol-accumulation-1",
+  "subject": "pol",
+  "title": "资本积累与再生产：剩余价值怎样变成追加资本",
+  "writtenAt": "2026-11-19",
+  "applicableYear": 2028,
+  "scopeStatus": "teaching-foundation-exam-spec-pending",
+  "reviewStatus": "draft-internal-check",
+  "distribution": "held-pending-review",
+  "authorship": "原创简化教学模型、情境和12题；原始理论用于子主张核对，不冒官方考纲、真题或现实政策评价。",
+  "mapping": [
+    "pol-plan-1"
+  ],
+  "prerequisites": [
+    "pol-labour-power-surplus-foundation"
+  ],
+  "prerequisiteExplanation": "需先辨认c/v/m、新旧价值与剩余价值率；本课讨论剩余价值后续用途，不重复其产生过程。",
+  "sources": [
+    "https://www.marxists.org/chinese/marx/capital/21.htm",
+    "https://www.marxists.org/chinese/marx/capital/22.htm",
+    "https://www.marxists.org/chinese/marx/capital/23.htm"
+  ],
+  "sourceEvidence": [
+    {
+      "id": "CAPITAL-I-21",
+      "title": "资本论第一卷第二十一章：简单再生产",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文转录",
+      "accessed": "2026-11-19",
+      "actualRead": "网页正文6–15，正常流通及按价值出售假设7–10、再生产12–13、简单再生产15",
+      "limits": "不采用其后历史例证；不是2028官方范围。"
+    },
+    {
+      "id": "CAPITAL-I-22",
+      "title": "资本论第一卷第二十二章：剩余价值转化为资本",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文转录",
+      "accessed": "2026-11-19",
+      "actualRead": "网页正文7–16；资本积累定义7、追加c/v 9、产品实现与取得资源10–14、原有资本继续再生产16",
+      "limits": "原创数字依同期间流动资本假设；不推断实际企业投资效果。"
+    },
+    {
+      "id": "CAPITAL-I-23",
+      "title": "资本论第一卷第二十三章：资本主义积累的一般规律",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文转录",
+      "accessed": "2026-11-19",
+      "actualRead": "网页正文7–10；价值/技术/有机构成8、构成及其他条件不变时的劳动需求10",
+      "limits": "只取开头定义和条件关系，不声称本课覆盖一般规律全章、工资或就业实证。"
+    }
+  ],
+  "explanation": "上一课只看一个生产期间，分清产品旧价值c、新价值v+m和剩余价值m。这一课接着问：生产结束以后，怎样继续生产？再生产是生产过程的不断重复和更新，不是把同一件产品重新做一遍。生产资料已经耗用，就要补充；一定期间的劳动力使用结束，继续生产还要取得新的劳动能力使用。即使产出规模没有变，生产条件也必须得到补偿。本课讨论马克思对资本主义再生产的基础分析，不把一切社会的扩大生产都不加区别地叫资本主义积累。\n\n简单再生产是在原来规模上的重复。资本积累则是把剩余价值作为资本再使用，即剩余价值资本化，并由此进行规模扩大的资本主义再生产。先分“补回原有条件”和“追加条件”：原料用掉60单位再补60，是维持原有生产的补偿；从剩余价值另拿15去追加原料等生产资料，才是模型中的追加资本的一部分。资本家的个人消费与生产性投入不能混同。若给定期间剩余价值全用于个人消费、原有生产条件得到补偿且其他条件不变，模型表现为简单再生产；若一部分剩余价值转化为追加资本并实际发挥生产作用，就形成积累。本课不把存下货币而尚未投入生产直接说成已完成扩大再生产。\n\n为看清两个去向，设同一期间剩余价值为m，资本化比例a介于0和1之间。积累部分A=a×m，个人消费部分K=(1−a)×m，二者同用价值单位，A+K=m。a是剩余价值中用于积累的份额，分母是m；上一课剩余价值率m′的分母则是v。两种比率不能互换。给出a只能求资本化的价值额，尚不能保证实际扩大生产：还需要卖出产品实现价值、取得可使用的追加生产资料及适合的劳动力等条件。买不到必要设备、缺少劳动力或产品未实现时，不能靠账面金额保证下一期产出增加。\n\n本课采用刻意简化的一期流动资本模型：c只含本期全部耗用、下期需补齐的生产资料，v为该期购买劳动力的价值；无跨期固定资本、借贷、税费和价格偏离，产品按价值售出，原有c+v先完整补偿，追加资源能够取得，技术、强度等按题设保持。这样c+v既是该期预付资本，也是本模型待补偿的资本，才能直接做下期比较。现实有多年使用的机器时，机器全部购价与一期转移价值不同，不能套这个等同。追加资本A分为追加不变资本Δc和追加可变资本Δv，Δ表示增加额；A=Δc+Δv。下期资本C新=(c+Δc)+(v+Δv)。Δc、Δv的比例须由题设或具体生产条件提供，不能随便平均分。\n\n分步例题一：以上假设成立，原c=60、v=20，本期m=40个价值单位，其中一半资本化，追加资本按Δc:Δv=3:1投入。①积累部分A=40×1/2=20，个人消费K=40−20=20。②把20分成4份，每份5，追加Δc=15、Δv=5。③原有资本已补偿，下期c新=60+15=75，v新=20+5=25，总资本从80到100。④简单再生产对照：若m全用于个人消费且其他条件不变，下期仍补回60和20，不是把原资本80也消费掉。⑤本模型给出的是条件性价值量与资源配置，不直接保证现实销售额或利润同比增长。\n\n资本构成还要分三个层次。价值构成是资本分成c和v的价值比例，如60:20=3:1；技术构成看实际使用的生产资料量与推动它所需劳动量的比例，比较时必须用可比实物口径；有机构成是由技术构成决定并反映其变化的价值构成。不能只看到c/v变大就认定有机构成提高。例如技术和实物用量完全不变，仅原料价格上涨，使同口径c从60升到90而v仍20，价值比例从3变为4.5；没有技术变化证据，不能据此判定有机构成提高。也不能把机器台数除以人数不加条件当成任何行业通用的技术构成数值。\n\n分步例题二接例题一：若原有与追加资本保持同一构成3:1、每位工人同一期间的劳动力价值固定为5单位，且工作时间、强度等不变，则v原=20对应4位工人，v新=25对应5位，资本与该模型劳动力需求均增长25%。这说明“资本总额增长”不等于“c/v必定提高”。反过来，v占总资本的比例降低也不直接证明v绝对额降低：如同口径资本从c=60、v=20变成c=100、v=25，v份额从25%降到20%，v却从20增加到25。只有另外保持单位劳动力价值等条件，才可进一步讨论人数。答题先说期间与口径，再分原有补偿和剩余价值去向，最后写构成变化及不能推出的结论。",
+  "definition": "资本积累是剩余价值资本化；在给定再生产条件下，追加资本分成Δc和Δv。资本价值构成与有机构成必须区分。",
+  "conditions": "本课采用刻意简化的一期流动资本模型：c只含本期全部耗用、下期需补齐的生产资料，v为该期购买劳动力的价值；无跨期固定资本、借贷、税费和价格偏离，产品按价值售出，原有c+v先完整补偿，追加资源能够取得，技术、强度等按题设保持。这样c+v既是该期预付资本，也是本模型待补偿的资本，才能直接做下期比较。现实有多年使用的机器时，机器全部购价与一期转移价值不同，不能套这个等同。追加资本A分为追加不变资本Δc和追加可变资本Δv，Δ表示增加额；A=Δc+Δv。下期资本C新=(c+Δc)+(v+Δv)。Δc、Δv的比例须由题设或具体生产条件提供，不能随便平均分。",
+  "example": "分步例题一：以上假设成立，原c=60、v=20，本期m=40个价值单位，其中一半资本化，追加资本按Δc:Δv=3:1投入。①积累部分A=40×1/2=20，个人消费K=40−20=20。②把20分成4份，每份5，追加Δc=15、Δv=5。③原有资本已补偿，下期c新=60+15=75，v新=20+5=25，总资本从80到100。④简单再生产对照：若m全用于个人消费且其他条件不变，下期仍补回60和20，不是把原资本80也消费掉。⑤本模型给出的是条件性价值量与资源配置，不直接保证现实销售额或利润同比增长。\n\n分步例题二接例题一：若原有与追加资本保持同一构成3:1、每位工人同一期间的劳动力价值固定为5单位，且工作时间、强度等不变，则v原=20对应4位工人，v新=25对应5位，资本与该模型劳动力需求均增长25%。这说明“资本总额增长”不等于“c/v必定提高”。反过来，v占总资本的比例降低也不直接证明v绝对额降低：如同口径资本从c=60、v=20变成c=100、v=25，v份额从25%降到20%，v却从20增加到25。只有另外保持单位劳动力价值等条件，才可进一步讨论人数。答题先说期间与口径，再分原有补偿和剩余价值去向，最后写构成变化及不能推出的结论。",
+  "misconceptions": [
+    "把补回耗用生产资料当成全部新增积累",
+    "把个人消费或未投入的存款直接当已完成扩大再生产",
+    "混淆积累比例a与剩余价值率m′",
+    "没有跨期资本条件就把一期耗用c当全部预付资本",
+    "把任意c/v上涨都当技术决定的有机构成上升",
+    "把v相对份额下降当v或就业人数必然绝对减少"
+  ],
+  "recall": [
+    "闭卷区分原有补偿、简单再生产和资本积累。",
+    "闭卷写m分为积累与消费，并说明金额不保证实际扩大生产。",
+    "闭卷在明确一期模型条件下分配Δc与Δv，求下期资本。",
+    "闭卷区分价值/技术/有机构成，并用相对与绝对变化说明人数推断边界。"
+  ],
+  "rubric": [
+    "再生产概念与原有补偿",
+    "剩余价值去向及实际条件",
+    "追加资本分配和同口径计算",
+    "构成与劳动需求推论边界"
+  ],
+  "review": {
+    "intervalDays": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "delayedPrompt": "隔日换模型数字与资本用途，先写补偿和假设，再独立计算；主观只供参考核对。"
+  },
+  "reviewRecord": {
+    "expertApproved": false,
+    "publicRelease": false,
+    "limitations": [
+      "独立专业审核0，待理论教师核对",
+      "只覆盖个别资本积累起步，社会总资本两部类实现与积累一般规律全章未覆盖",
+      "2028范围暂定，现实工资就业政策不在本课推断范围",
+      "未部署或真实iPhone验收"
+    ]
+  },
+  "teachingSections": [
+    {
+      "id": "s1",
+      "explanationParagraph": 1,
+      "workedExample": "补回60单位原料与从剩余价值追加15单位不同。"
+    },
+    {
+      "id": "s2",
+      "explanationParagraph": 2,
+      "workedExample": "m=40，一半资本化时A=20、K=20；还需资源及实现条件。"
+    },
+    {
+      "id": "s3",
+      "explanationParagraph": 3,
+      "workedExample": "分步例题一：以上假设成立，原c=60、v=20，本期m=40个价值单位，其中一半资本化，追加资本按Δc:Δv=3:1投入。①积累部分A=40×1/2=20，个人消费K=40−20=20。②把20分成4份，每份5，追加Δc=15、Δv=5。③原有资本已补偿，下期c新=60+15=75，v新=20+5=25，总资本从80到100。④简单再生产对照：若m全用于个人消费且其他条件不变，下期仍补回60和20，不是把原资本80也消费掉。⑤本模型给出的是条件性价值量与资源配置，不直接保证现实销售额或利润同比增长。"
+    },
+    {
+      "id": "s4",
+      "explanationParagraph": 5,
+      "workedExample": "分步例题二接例题一：若原有与追加资本保持同一构成3:1、每位工人同一期间的劳动力价值固定为5单位，且工作时间、强度等不变，则v原=20对应4位工人，v新=25对应5位，资本与该模型劳动力需求均增长25%。这说明“资本总额增长”不等于“c/v必定提高”。反过来，v占总资本的比例降低也不直接证明v绝对额降低：如同口径资本从c=60、v=20变成c=100、v=25，v份额从25%降到20%，v却从20增加到25。只有另外保持单位劳动力价值等条件，才可进一步讨论人数。答题先说期间与口径，再分原有补偿和剩余价值去向，最后写构成变化及不能推出的结论。"
+    }
+  ],
+  "basicQuestions": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b1",
+      "type": "single",
+      "stem": "在原有规模上继续生产时，补回已经耗用的原料，首先说明什么？",
+      "answer": 1,
+      "explanation": "原有条件需补偿才能继续生产；仅补回原料不证明剩余价值资本化或扩大规模。",
+      "difficulty": "foundation",
+      "options": [
+        "必然已经新增同额资本积累",
+        "再生产需要补偿原有生产条件",
+        "全部剩余价值已用于个人消费"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b2",
+      "type": "single",
+      "stem": "本课“资本积累”最准确的含义是什么？",
+      "answer": 2,
+      "explanation": "资本积累特指剩余价值转化为资本；个人消费和仅存放尚未投入的货币不能直接当已完成扩大再生产。",
+      "difficulty": "foundation",
+      "options": [
+        "把全部营业收入当个人消费",
+        "任何未花掉的货币都已扩大生产",
+        "把剩余价值再作为资本使用"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b3",
+      "type": "single",
+      "stem": "一期模型中追加资本A=24，题定Δc:Δv=3:1，应怎样分配？",
+      "answer": 0,
+      "explanation": "总份数4，每份6，所以Δc=18、Δv=6，合计24；不能凭感觉对半。",
+      "difficulty": "foundation",
+      "options": [
+        "Δc=18、Δv=6",
+        "Δc=12、Δv=12",
+        "Δc=24、Δv=24"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b4",
+      "type": "single",
+      "stem": "同口径c/v变大，但技术和实物用量未变、仅生产资料价格提高。能直接认定什么？",
+      "answer": 1,
+      "explanation": "只能识别价值比例变化；有机构成还要求由技术构成决定并反映其变化，不能单靠价格比断言。",
+      "difficulty": "foundation",
+      "options": [
+        "有机构成一定提高",
+        "不能仅凭该变化认定有机构成提高",
+        "工人人数一定降为零"
+      ]
+    }
+  ],
+  "applicationQuestions": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a1",
+      "type": "subjective",
+      "stem": "一期流动资本模型：原c=40、v=10均已补偿，本期m=12全部用于个人消费，技术和其他条件不变。能否说“消费12意味着下期资本只剩38”？说明再生产类型。",
+      "answer": "不能；12是剩余价值消费，不是从已补偿的原资本50中扣除。下期仍以c=40、v=10在原规模重复，为简单再生产。",
+      "explanation": "接受先区分50原有补偿与12剩余价值，再说明不扩大。若扣12得38或认为没有再生产，不能接受；不要求资本周转知识。",
+      "difficulty": "application",
+      "rubric": [
+        "原资本50已补偿",
+        "12消费与原资本分开",
+        "原规模简单再生产"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a2",
+      "type": "subjective",
+      "stem": "本期m=50，拟将40%资本化。求积累与个人消费额；若必要追加生产资料尚未买到，能否只凭这两数保证下期实际扩大生产？",
+      "answer": "积累计划额A=50×40%=20，个人消费额K=30。不能保证；还须实现产品价值、取得追加生产资料和适合劳动力等条件。",
+      "explanation": "接受20与30价值单位；须明确是题设拟资本化额，资源未到不能认定实际扩大已完成。不能把40%解释成m/v或现实投资回报。",
+      "difficulty": "application",
+      "rubric": [
+        "A=20",
+        "K=30且A+K=m",
+        "资源与实现条件界限"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a3",
+      "type": "subjective",
+      "stem": "满足本课全部一期模型条件：原c=72、v=24已补偿，m=48，其中一半资本化，追加Δc:Δv=3:1。求追加两部分和下期资本总额。",
+      "answer": "A=24；Δc=18、Δv=6；下期c=90、v=30，总额120个价值单位。原资本96与追加24分开计算。",
+      "explanation": "接受18、6、120和清楚列式；不得将全部m=48追加或重复扣补偿。若有固定资本跨期应另列条件，本题按明确模型。",
+      "difficulty": "application",
+      "rubric": [
+        "A=24",
+        "Δc18与Δv6",
+        "下期90+30=120及口径"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a4",
+      "type": "subjective",
+      "stem": "两期资本c/v从60/20变成100/25。有人说“v份额下降，所以v绝对额与工人人数都必下降”。核对份额和绝对额，并写人数判断条件。",
+      "answer": "v份额由20/80=25%降至25/125=20%，但绝对额20增到25，未下降。人数还取决于同期间单位劳动力价值、工作时间强度等；题设不足以无条件断定。",
+      "explanation": "接受明确25%、20%及绝对额上升。若进一步假定每人同期间劳动力价值不变，可说模型需求人数增加；不能由份额直接断言失业或现实工资。",
+      "difficulty": "application",
+      "rubric": [
+        "份额25%到20%",
+        "v绝对额20到25",
+        "人数推断需额外条件"
+      ]
+    }
+  ],
+  "delayedQuestions": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d1",
+      "type": "subjective",
+      "stem": "隔日：某一期剩余价值一部分用于个人旅行，另一部分已转为可用的追加原料和劳动力投入。分别说明两去向，不把原有耗用补偿漏掉。",
+      "answer": "个人旅行属个人消费，转为追加生产资料与劳动力投入的剩余价值属资本化/积累。原有生产条件仍须先补偿，追加投入不能代替这一步。",
+      "explanation": "接受以原有补偿—个人消费—追加资本三栏解释；只说“花钱都叫消费”或“买任何东西都积累”不足。不要求评价旅行道德。",
+      "difficulty": "delayed-transfer",
+      "rubric": [
+        "个人消费",
+        "剩余价值转追加资本",
+        "原有补偿仍需满足"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d2",
+      "type": "number",
+      "stem": "隔日：同一期间m=60，资本化比例a=25%，只求拟用于积累的价值额A。应填多少价值单位？",
+      "answer": 15,
+      "explanation": "A=60×25%=15；个人消费为45。题问计划分配额，不能仅据15断言实际生产条件齐备。",
+      "difficulty": "delayed-transfer",
+      "unit": "价值单位",
+      "tolerance": 0
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d3",
+      "type": "subjective",
+      "stem": "隔日一期模型：原c=80、v=20已补偿，m=40全部资本化，追加Δc:Δv=4:1。求下期c、v和总额，说明哪一数才是新增资本而非总资本。",
+      "answer": "追加A=40，Δc=32、Δv=8；下期c=112、v=28，总额140。40是新增资本，140是原100加新增40，不可混同。",
+      "explanation": "接受112、28、140与追加/总量区分；不可把140当本期剩余价值。全部资本化只是在题设资源等条件成立时计算。",
+      "difficulty": "delayed-transfer",
+      "rubric": [
+        "追加32与8",
+        "下期112与28总140",
+        "新增40和总量区分"
+      ]
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d4",
+      "type": "subjective",
+      "stem": "隔日：技术和生产资料实物用量保持不变，投入价格变化使c从40到60，v仍为20。写两个价值比例，并评价“有机构成必提高，故人数必下降”。",
+      "answer": "价值比例从40:20=2:1变为60:20=3:1。仅价格改变未给技术构成变化，不能认定有机构成必提高；也不能由这两个比率推出人数必下降，仍需劳动力价值及劳动条件等信息。",
+      "explanation": "接受2到3的比率和两层推断限制。只承认价值构成改变，不要求否认价格变化事实；不能以机器价值上涨替代技术变化。",
+      "difficulty": "delayed-transfer",
+      "rubric": [
+        "价值比2到3",
+        "技术与价值构成区别",
+        "拒绝无条件人数结论"
+      ]
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g1",
+      "description": "区分补偿与再生产类型",
+      "successCriteria": "能说明原有条件补回不自动等于积累",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b1",
+        "pol-capital-accumulation-reproduction-foundation-a1",
+        "pol-capital-accumulation-reproduction-foundation-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g2",
+      "description": "计算剩余价值的两去向并保留条件",
+      "successCriteria": "能求A/K并解释金额不保证实际扩大",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b2",
+        "pol-capital-accumulation-reproduction-foundation-a2",
+        "pol-capital-accumulation-reproduction-foundation-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g3",
+      "description": "按一期模型配置追加资本",
+      "successCriteria": "能按指定比例求Δc/Δv与下期资本",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b3",
+        "pol-capital-accumulation-reproduction-foundation-a3",
+        "pol-capital-accumulation-reproduction-foundation-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g4",
+      "description": "辨别构成与劳动需求推断",
+      "successCriteria": "能区分价格引起的价值比变化和有机构成，辨相对绝对",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b4",
+        "pol-capital-accumulation-reproduction-foundation-a4",
+        "pol-capital-accumulation-reproduction-foundation-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ]
+}

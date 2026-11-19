@@ -1,4 +1,4 @@
-const CACHE="qh2028-issue10-clause-v6";
+const CACHE="qh2028-issue10-clause-v7";
 const ASSETS=['./','./index.html','./app.css','./icon.svg','./manifest.json','./course-engine.js','./profile-repository.js','./sva-prerequisite.js','./learning-controller.js','./mobile-ux.js','./mobile-reading.js','./reading-passage.js','./mock-engine.js','./mock-ui.js','./migration-bridge.js','./pilot-ui.js','./representative-courses.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));

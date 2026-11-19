@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-19",
+  "course": "pol-capital-accumulation-reproduction-foundation",
+  "courseSHA256": "677381b9a185d01f6e97a1c4210f0ae57476cf66ba744dfa65b348065d83cfd7",
+  "sourceEvidence": [
+    {
+      "id": "CAPITAL-I-21",
+      "title": "资本论第一卷第二十一章：简单再生产",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文转录",
+      "accessed": "2026-11-19",
+      "actualRead": "网页正文6–15，正常流通及按价值出售假设7–10、再生产12–13、简单再生产15",
+      "limits": "不采用其后历史例证；不是2028官方范围。"
+    },
+    {
+      "id": "CAPITAL-I-22",
+      "title": "资本论第一卷第二十二章：剩余价值转化为资本",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文转录",
+      "accessed": "2026-11-19",
+      "actualRead": "网页正文7–16；资本积累定义7、追加c/v 9、产品实现与取得资源10–14、原有资本继续再生产16",
+      "limits": "原创数字依同期间流动资本假设；不推断实际企业投资效果。"
+    },
+    {
+      "id": "CAPITAL-I-23",
+      "title": "资本论第一卷第二十三章：资本主义积累的一般规律",
+      "author": "卡尔·马克思",
+      "publisher": "中文马克思主义文库原始理论中文转录",
+      "accessed": "2026-11-19",
+      "actualRead": "网页正文7–10；价值/技术/有机构成8、构成及其他条件不变时的劳动需求10",
+      "limits": "只取开头定义和条件关系，不声称本课覆盖一般规律全章、工资或就业实证。"
+    }
+  ],
+  "learningObjectives": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g1",
+      "description": "区分补偿与再生产类型",
+      "successCriteria": "能说明原有条件补回不自动等于积累",
+      "teachingSectionIds": [
+        "s1"
+      ],
+      "recallIndexes": [
+        0
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b1",
+        "pol-capital-accumulation-reproduction-foundation-a1",
+        "pol-capital-accumulation-reproduction-foundation-d1"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g2",
+      "description": "计算剩余价值的两去向并保留条件",
+      "successCriteria": "能求A/K并解释金额不保证实际扩大",
+      "teachingSectionIds": [
+        "s2"
+      ],
+      "recallIndexes": [
+        1
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b2",
+        "pol-capital-accumulation-reproduction-foundation-a2",
+        "pol-capital-accumulation-reproduction-foundation-d2"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g3",
+      "description": "按一期模型配置追加资本",
+      "successCriteria": "能按指定比例求Δc/Δv与下期资本",
+      "teachingSectionIds": [
+        "s3"
+      ],
+      "recallIndexes": [
+        2
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b3",
+        "pol-capital-accumulation-reproduction-foundation-a3",
+        "pol-capital-accumulation-reproduction-foundation-d3"
+      ],
+      "evaluation": "objective-and-reference-review"
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-g4",
+      "description": "辨别构成与劳动需求推断",
+      "successCriteria": "能区分价格引起的价值比变化和有机构成，辨相对绝对",
+      "teachingSectionIds": [
+        "s4"
+      ],
+      "recallIndexes": [
+        3
+      ],
+      "questionIds": [
+        "pol-capital-accumulation-reproduction-foundation-b4",
+        "pol-capital-accumulation-reproduction-foundation-a4",
+        "pol-capital-accumulation-reproduction-foundation-d4"
+      ],
+      "evaluation": "objective-and-reference-review"
+    }
+  ],
+  "rows": [
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b1",
+      "type": "single",
+      "questionSHA256": "6ce90cfb6d175013f47e31339f08b3b9783f20f1461520dccc9394e81ee8ac9b",
+      "answerText": "再生产需要补偿原有生产条件",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-21:12–15",
+        "CAPITAL-I-22:7,12–14"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b2",
+      "type": "single",
+      "questionSHA256": "a902a9e6bb9a54c08804fa669fbde8c4cdf5242ebabfa934f15866a856208d63",
+      "answerText": "把剩余价值再作为资本使用",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-22:7–14"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b3",
+      "type": "single",
+      "questionSHA256": "1d7528b1f75aa2d411ca29f6b3c91dabb528b3bebe133729f5bae538d8bd13ad",
+      "answerText": "Δc=18、Δv=6",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-22:8–10,16"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-b4",
+      "type": "single",
+      "questionSHA256": "a65f6d75613cb0b3ec3fd368167638aa366f8da0ca7eda798ac9c3282ffcdfd1",
+      "answerText": "不能仅凭该变化认定有机构成提高",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-23:8–10"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a1",
+      "type": "subjective",
+      "questionSHA256": "601dd6c03c90024baa22187d6006e2c98a6efacfb77b7e24cf43962aa2ac9f82",
+      "answerText": "不能；12是剩余价值消费，不是从已补偿的原资本50中扣除。下期仍以c=40、v=10在原规模重复，为简单再生产。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-21:12–15",
+        "CAPITAL-I-22:7,12–14"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a2",
+      "type": "subjective",
+      "questionSHA256": "647eee2ff14005c16087370459298fe236d2070e454a96f67c36216342f96d49",
+      "answerText": "积累计划额A=50×40%=20，个人消费额K=30。不能保证；还须实现产品价值、取得追加生产资料和适合劳动力等条件。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-22:7–14"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a3",
+      "type": "subjective",
+      "questionSHA256": "254947130efb5ce421bd5bdf8db820634bba1682e65fa15ca7d56302c643f808",
+      "answerText": "A=24；Δc=18、Δv=6；下期c=90、v=30，总额120个价值单位。原资本96与追加24分开计算。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-22:8–10,16"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-a4",
+      "type": "subjective",
+      "questionSHA256": "80b7a888f383c616e413234bf6a51f2dc9df6ebcd97081d76528f70542af8ff5",
+      "answerText": "v份额由20/80=25%降至25/125=20%，但绝对额20增到25，未下降。人数还取决于同期间单位劳动力价值、工作时间强度等；题设不足以无条件断定。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-23:8–10"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d1",
+      "type": "subjective",
+      "questionSHA256": "c6221a00aa07e95092793b5fe1584898534e50b154f7803dce45f11138d65379",
+      "answerText": "个人旅行属个人消费，转为追加生产资料与劳动力投入的剩余价值属资本化/积累。原有生产条件仍须先补偿，追加投入不能代替这一步。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-21:12–15",
+        "CAPITAL-I-22:7,12–14"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d2",
+      "type": "number",
+      "questionSHA256": "f45bd8ac87386b4406007769fc6d0a368288019345e7f6d2662928ec03d798cd",
+      "answerText": 15,
+      "unit": "价值单位",
+      "sourceAnchors": [
+        "CAPITAL-I-22:7–14"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d3",
+      "type": "subjective",
+      "questionSHA256": "c4c8ab31d742d33fb33f4ea02a9c144c251cbccd68172e9b3e7faa853badcb93",
+      "answerText": "追加A=40，Δc=32、Δv=8；下期c=112、v=28，总额140。40是新增资本，140是原100加新增40，不可混同。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-22:8–10,16"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    },
+    {
+      "id": "pol-capital-accumulation-reproduction-foundation-d4",
+      "type": "subjective",
+      "questionSHA256": "0a3b31d7f5438d1cb0333fcf6e73ba0911f52ca54c70068846444bc781e2ef15",
+      "answerText": "价值比例从40:20=2:1变为60:20=3:1。仅价格改变未给技术构成变化，不能认定有机构成必提高；也不能由这两个比率推出人数必下降，仍需劳动力价值及劳动条件等信息。",
+      "unit": null,
+      "sourceAnchors": [
+        "CAPITAL-I-23:8–10"
+      ],
+      "inferenceBoundary": "Theory source supports specific concept; fictional arithmetic and scenario are internal AI reasoning, not source empirical evidence or expert decision.",
+      "expertApproved": false,
+      "fullQuestionVerified": false
+    }
+  ],
+  "independentArithmetic": [
+    {
+      "where": "example1",
+      "A": 20,
+      "K": 20,
+      "dc": 15,
+      "dv": 5,
+      "cNext": 75,
+      "vNext": 25,
+      "total": 100
+    },
+    {
+      "where": "example2",
+      "workersBefore": 4,
+      "workersAfter": 5,
+      "capitalGrowth": 0.25,
+      "labourDemandGrowth": 0.25
+    },
+    {
+      "where": "valueRatioPriceOnly",
+      "before": 3,
+      "after": 4.5
+    },
+    {
+      "where": "b3",
+      "dc": 18,
+      "dv": 6
+    },
+    {
+      "where": "a1",
+      "capital": 50,
+      "wrongSubtract": 38
+    },
+    {
+      "where": "a2",
+      "A": 20,
+      "K": 30
+    },
+    {
+      "where": "a3",
+      "A": 24,
+      "dc": 18,
+      "dv": 6,
+      "cNext": 90,
+      "vNext": 30,
+      "total": 120
+    },
+    {
+      "where": "a4",
+      "oldShare": 0.25,
+      "newShare": 0.2,
+      "oldV": 20,
+      "newV": 25
+    },
+    {
+      "where": "d2",
+      "A": 15
+    },
+    {
+      "where": "d3",
+      "A": 40,
+      "dc": 32,
+      "dv": 8,
+      "cNext": 112,
+      "vNext": 28,
+      "total": 140
+    },
+    {
+      "where": "d4",
+      "before": 2,
+      "after": 3
+    }
+  ],
+  "professionalApprovals": 0
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-19",
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "no existing equivalent rank course; prerequisites validate",
+      "passed": true
+    },
+    {
+      "name": "four targets with actual teaching recall and three-phase links",
+      "passed": true
+    },
+    {
+      "name": "12 original unique items with rubric and explanations",
+      "passed": true
+    },
+    {
+      "name": "every option and numeric answer unit grades; subjective remains pending",
+      "passed": true
+    },
+    {
+      "name": "all average-rank examples independently sorted and summed",
+      "passed": true
+    },
+    {
+      "name": "all U examples cross-checked by ranks and pair comparisons",
+      "passed": true
+    },
+    {
+      "name": "paired signed ranks and sum identity independently computed",
+      "passed": true
+    },
+    {
+      "name": "monotone values preserve rank U; unequal scales not treated as units",
+      "passed": true
+    },
+    {
+      "name": "closed recall and subjective retain raw event text",
+      "passed": true
+    },
+    {
+      "name": "pack hash unchanged and no professional release claim",
+      "passed": true
+    }
+  ],
+  "courseHash": "eb79e181b0a607e2e2cb0680869e8aeaf6072380c39ad6636f1e702fdc79d5d3",
+  "protectedPackHash": "f130a450f69db412c0ced7c7845da4dbb816c480701ad2341d7a331508ccece8",
+  "questions": 12,
+  "objectives": 4,
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false,
+  "scope": "targeted isolated content and existing engine simulations; independently generated ranks, pair counts, signed-rank sums, not full significance testing or browser persistence"
+}

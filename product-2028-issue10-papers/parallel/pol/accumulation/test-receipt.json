@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": 55,
+  "course": "pol-capital-accumulation-reproduction-foundation",
+  "courseSHA256": "677381b9a185d01f6e97a1c4210f0ae57476cf66ba744dfa65b348065d83cfd7",
+  "baselineFile": "product-2028-issue10-papers/extension/.build/representative-courses.json",
+  "baselineSHA256": "f130a450f69db412c0ced7c7845da4dbb816c480701ad2341d7a331508ccece8",
+  "baselineCourses": 84,
+  "baselineQuestions": 956,
+  "increment": {
+    "courses": 1,
+    "questions": 12
+  },
+  "ifOnlyThisIntegrated": {
+    "courses": 85,
+    "questions": 968,
+    "politicsCourses": 20,
+    "politicsQuestions": 228
+  },
+  "existingValidators": [
+    "extension/.build/course-engine.js",
+    "product-2028-draft/content/objective-quality.cjs"
+  ],
+  "professionalApprovals": 0,
+  "browserTest": false,
+  "realIPhoneAcceptance": false,
+  "deployed": false,
+  "semanticDeduplication": "Exact-stem comparison against956 only; semantic full-bank deduplication not claimed.",
+  "workflowLimitation": "No isolated audit-2028 entry; root full workflow writes shared reports, outside per-subdirectory authorization. Targeted existing E/O validators only."
+}

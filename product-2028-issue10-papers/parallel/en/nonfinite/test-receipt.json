@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-19",
+  "baselineHEAD": "parent84-read-only",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "23 English courses lack a standalone nonfinite bridge",
+      "passed": true
+    },
+    {
+      "name": "existing prerequisites and full pack validate without cycles",
+      "passed": true
+    },
+    {
+      "name": "four measurable objectives teaching recall and all phases",
+      "passed": true
+    },
+    {
+      "name": "12 unique original questions across four per phase without exact old stems",
+      "passed": true
+    },
+    {
+      "name": "all choice branches and subjective references stay unscored",
+      "passed": true
+    },
+    {
+      "name": "raw explanation including whitespace survives recall answer serialization",
+      "passed": true
+    },
+    {
+      "name": "draft source and uncertainty boundaries remain explicit",
+      "passed": true
+    }
+  ],
+  "course": {
+    "id": "en-nonfinite-functions-foundation",
+    "sha256": "6971137785ca7a4ccad618b371ed85e6c61d63dd639d3d9fbd34d2645097dd97",
+    "questions": 12,
+    "objectives": 4
+  },
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "realIPhoneVerified": false,
+  "limitations": "仅定向内容结构、分支判分和原文存储验证；共享工作流会越出限定写目录，由根代理集成执行。不是独立专家、浏览器或真实iPhone验收。"
+}

@@ -24,15 +24,15 @@ jobs:
       - working-directory: product-2028-ci
         run: npm install --ignore-scripts --no-audit --no-fund
       - run: node product-2028-issue10-papers/extension/verify.cjs
-      - run: node product-2028-issue10-papers/parallel/batch2/integration-test.cjs
+      - run: node product-2028-issue10-papers/parallel/batch3/integration-test.cjs
       - run: node product-2028-issue10-papers/parallel/reference-erratum-test.cjs
       - run: |
-          for subject in en-translation-clause-scope-foundation pol-labour-power-surplus-foundation 353-direct-age-standardisation-foundation; do
+          for subject in en-nonfinite-functions-foundation pol-capital-accumulation-reproduction-foundation 353-rank-methods-design-foundation; do
             TARGET_UNIT=$subject BROWSER=chromium node product-2028-issue10-papers/extension/browser.cjs
             TARGET_UNIT=$subject BROWSER=webkit node product-2028-issue10-papers/extension/browser.cjs
           done
-      - run: OLD_SNAPSHOT=4a74e114ddff046d05fe002e33f9f3ac78027c01 OLD_COURSES=81 CHECK_ERRATUM=1 BROWSER=chromium node product-2028-issue10-papers/extension/upgrade-browser.cjs
-      - run: OLD_SNAPSHOT=4a74e114ddff046d05fe002e33f9f3ac78027c01 OLD_COURSES=81 CHECK_ERRATUM=1 BROWSER=webkit node product-2028-issue10-papers/extension/upgrade-browser.cjs
+      - run: OLD_SNAPSHOT=672bc8bde06e3183bb18b5aaab7e4f687491c4ad OLD_COURSES=84 CHECK_ERRATUM=1 BROWSER=chromium node product-2028-issue10-papers/extension/upgrade-browser.cjs
+      - run: OLD_SNAPSHOT=672bc8bde06e3183bb18b5aaab7e4f687491c4ad OLD_COURSES=84 CHECK_ERRATUM=1 BROWSER=webkit node product-2028-issue10-papers/extension/upgrade-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

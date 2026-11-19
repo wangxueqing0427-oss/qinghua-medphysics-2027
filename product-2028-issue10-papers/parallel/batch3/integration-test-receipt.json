@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-19",
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "87/992 and all84 contracts/125 paper items/both errata exact",
+      "passed": true
+    },
+    {
+      "name": "existing engine, objective alignment and prerequisites",
+      "passed": true
+    },
+    {
+      "name": "unique IDs and no new exact duplicate stems",
+      "passed": true
+    },
+    {
+      "name": "all new answer branches and unit boundaries",
+      "passed": true
+    },
+    {
+      "name": "long answers remain raw; subjective evidence remains pending",
+      "passed": true
+    },
+    {
+      "name": "stable DB identity; cachev7 and17 exact assets; unchanged endurance core",
+      "passed": true
+    }
+  ],
+  "courses": 87,
+  "questions": 992,
+  "expertApprovals": 0,
+  "browserVerified": false,
+  "physicalIPhone": false
+}
