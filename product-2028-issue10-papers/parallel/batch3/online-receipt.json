@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-19",
+  "passed": true,
+  "url": "https://51825f07.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "51825f07-73cf-4c6a-866f-ff02f7a69b44",
+  "deploymentSHA": "50de15204c3b84dd12e97f5c77fd016771d03090",
+  "functionalSHA": "fc182f57c3849ba46fa04b60265c88b53ee64cdc",
+  "functionalCI": 44518202358,
+  "onlineVerifierSHA": "8e6535f07da242d18a5745c4eb56d4db2858dc5c",
+  "onlineCI": 44518774884,
+  "onlineCIURL": "https://github.com/wangxueqing0427-oss/qinghua-medphysics-2027/actions/runs/44518774884",
+  "resultSHA256": "250e3ace1b25dcdf8bc1dd2f9e51c55ddcf4f31c9f93a031b1cf4866bca11a25",
+  "assets": 17,
+  "courses": 87,
+  "questions": 992,
+  "rollback": "https://6c99ea57.qh2028-core47-preview.pages.dev/",
+  "expertApprovals": 0,
+  "physicalIPhone": false
+}
