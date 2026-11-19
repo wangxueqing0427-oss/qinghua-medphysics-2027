@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "date": "2026-11-19",
+  "inputSHA256": "520e2e6e702be1378c531c824c3e958cac5cb3627b17390c7ebe5767fa494a82",
+  "acceptedLinks": 43,
+  "resolvedCourses": 14,
+  "remainingUnlinked": 11,
+  "partialLinkedNodes": 64,
+  "nodeCount": 149,
+  "fullVerifiedCoverage": null,
+  "expertApprovals": 0,
+  "courseDataModified": false,
+  "browserRetestNeeded": false
+}

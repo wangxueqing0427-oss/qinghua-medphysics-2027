@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-19",
+  "kind": "AI-internal-concept-mapping-review",
+  "coverageFile": "product-2028-issue10-papers/extension/coverage-84.json",
+  "coverageSHA256": "520e2e6e702be1378c531c824c3e958cac5cb3627b17390c7ebe5767fa494a82",
+  "packFile": "product-2028-issue10-papers/extension/.build/representative-courses.json",
+  "packSHA256": "f130a450f69db412c0ced7c7845da4dbb816c480701ad2341d7a331508ccece8",
+  "nodeCount": 149,
+  "actualRows": 149,
+  "politicalNodeCount": 8,
+  "politicalUnlinkedCount": 1,
+  "scope": "仅政治unlinkedCourses；已读唯一未关联课程完整正文、目标及12题，不网络复核，不改矩阵或课程。",
+  "politicalNodes": [
+    {
+      "id": "pol-plan-1",
+      "name": "基本理论",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-2",
+      "name": "理论体系",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-3",
+      "name": "中国近现代史",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-4",
+      "name": "思想道德与法治",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-5",
+      "name": "年度时政",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-6",
+      "name": "选择训练",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-7",
+      "name": "主观表达",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    },
+    {
+      "id": "pol-plan-8",
+      "name": "核验真题与模拟",
+      "source": "user_requirements",
+      "scopeStatus": "teaching_plan_exam_spec_pending"
+    }
+  ],
+  "rows": [
+    {
+      "courseId": "pol-truth-value-material-bridge",
+      "title": "真理与价值：从事实核对到公共服务材料论证",
+      "version": "0.1-issue9-2",
+      "courseSHA256": "cdad4d2c9401840702dd967e073604bb8eacef0a9d9f1314a0ab90e6d4c10e3e",
+      "originalMapping": [
+        "pol-truth-value-practice"
+      ],
+      "originalMappingNodeExists": false,
+      "originalMappingGap": "pol-truth-value-practice不是149节点之一；不能把内部别名当已确认节点。",
+      "recommendations": [
+        {
+          "nodeId": "pol-plan-1",
+          "nodeName": "基本理论",
+          "relation": "precisely-described-partial-concept-support",
+          "supportedConcepts": [
+            "真理的客观符合与价值的主体需要关系",
+            "客观事实核查与合理需要统一于实践",
+            "不能把多数意见或满意度当真理标准"
+          ],
+          "bodyEvidence": [
+            {
+              "location": "definition",
+              "exactText": "真理关注认识是否符合客观实际及规律；价值关注客体对主体需要的意义。"
+            },
+            {
+              "location": "explanation第一段",
+              "exactText": "真理的客观性不等于每份统计都是真理；价值有主体维度也不等于真理因人而异。"
+            },
+            {
+              "location": "explanation材料A完整论证",
+              "exactText": "真理尺度要求核查覆盖口径及实际效果，价值尺度要求关注不同群众的合理办事需要。"
+            }
+          ],
+          "questionEvidence": [
+            "pol-truth-value-material-bridge-b1",
+            "pol-truth-value-material-bridge-a1",
+            "pol-truth-value-material-bridge-d2"
+          ],
+          "limits": "149节点仅有基本理论这一粗规划节点，没有真理与价值细节点；本建议须保留上述子概念标签，不能写成基本理论整章覆盖。哲学其余体系、政治经济学和科学社会主义均非此课完整支持。",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "pol-plan-7",
+          "nodeName": "主观表达",
+          "relation": "precisely-described-partial-subskill-support",
+          "supportedConcepts": [
+            "有限观点—题给事实/信息缺口—适用理论—条件性结论与行动的材料论证",
+            "针对具体受影响群体的论据连接，非只背口号"
+          ],
+          "bodyEvidence": [
+            {
+              "location": "explanation闭卷答题段",
+              "exactText": "先作有限观点，再引用题给事实和未给信息，再用适用理论说明关系，最后给条件性结论与行动。"
+            },
+            {
+              "location": "learningObjectives-g4.successCriteria",
+              "exactText": "能连接观点、事实、理论、建议而非只抄口号"
+            },
+            {
+              "location": "applicationQuestions-a4.rubric",
+              "exactText": "表达成段，接受合理不同方案"
+            }
+          ],
+          "questionEvidence": [
+            "pol-truth-value-material-bridge-a4",
+            "pol-truth-value-material-bridge-d4"
+          ],
+          "limits": "只支持真理价值公共服务虚构材料中的论证起步；并非全科分析题、官方评分、题型或时长训练。参考与自评不证明实际写作掌握或可靠专业分数。",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        }
+      ],
+      "notMapped": [
+        {
+          "nodeId": "pol-plan-2",
+          "reason": "只用稳定哲学概念，未完整教授对应理论体系，不能由章级标题挂靠。"
+        },
+        {
+          "nodeId": "pol-plan-3",
+          "reason": "无中国近现代史具体历史知识与时序教学。"
+        },
+        {
+          "nodeId": "pol-plan-4",
+          "reason": "虽涉及可及性、公平等价值评价，但无思想道德与法治课程的专门概念与制度教学；情境相近不等于节点覆盖。"
+        },
+        {
+          "nodeId": "pol-plan-5",
+          "reason": "2014理论来源及原创虚构情境不是年度时政。"
+        },
+        {
+          "nodeId": "pol-plan-6",
+          "reason": "有单选与多选题，但题型存在不能单独证明专项选择训练方法教学，保留未映射。"
+        },
+        {
+          "nodeId": "pol-plan-8",
+          "reason": "明确非真题、非真实投票或法律评价，不支持核验真题与模拟节点。"
+        }
+      ],
+      "mappingStatus": "recommend-for-root-review-only",
+      "reviewStatus": "internal-AI-not-expert",
+      "sourcesReopened": false
+    }
+  ],
+  "sharedFilesModified": false,
+  "networkCalls": 0,
+  "professionalApprovals": 0,
+  "fullVerifiedCoverage": null,
+  "final2028RequirementsVerified": false
+}

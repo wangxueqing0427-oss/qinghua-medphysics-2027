@@ -1,0 +1,1070 @@
+{
+  "date": "2026-11-19",
+  "reviewType": "AI内部只读课程—既有节点交叉复核，非专家/官方范围确认",
+  "inputCoverage": "extension/coverage-84.json",
+  "inputCoverageSHA256": "520e2e6e702be1378c531c824c3e958cac5cb3627b17390c7ebe5767fa494a82",
+  "inputPack": "extension/.build/representative-courses.json",
+  "inputPackSHA256": "f130a450f69db412c0ced7c7845da4dbb816c480701ad2341d7a331508ccece8",
+  "nodeCount": 149,
+  "scope": "既有149节点结构读取与353 unlinkedCourses精确子概念建议，不重新核验网络考纲",
+  "reviewedCourses": 11,
+  "proposedPartialLinks": 31,
+  "rows": [
+    {
+      "courseId": "353-screening-test-foundation",
+      "version": "0.1-q0fix1",
+      "courseSHA256": "e99f07ad05bcfc22201395cef2cbed1312ea2ad8d9568cf1db5c0e9680290335",
+      "originalMapping": [
+        "EPI08"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-14-1",
+          "nodeName": "基本概念",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "筛检目的、目标人群/参考标准、阳性不等确诊与四格状态。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "筛检（screening）面向尚未被确定有目标疾病、通常没有相关症状的目标人群，目的是识别需要进一步评价的可能风险，而不是直接作出诊断。筛检阳性可能是真阳性，也可能是假阳性；筛检阴性可能是真阴性，也可能是假阴性。必须预先规定目标人群、参考标准、判阳性阈值和时间范围。教学四格表以参考标准划分实际状态：真阳性TP=实际有病且检测阳性；假阴性FN=实际有病而检测阴性；假阳性FP=实际无病但检测阳性；真阴性TN=实际无病且检测阴性。本课数字都是自编练习，不用于任何真实患者判定。"
+          },
+          "objectiveEvidence": {
+            "id": "353-screening-test-foundation-g1",
+            "description": "区分筛检、参考标准及四格状态",
+            "successCriteria": "正确解释阳性不等于确诊，识别FN和筛检流程条件",
+            "questionIds": [
+              "353-screening-test-foundation-b1",
+              "353-screening-test-foundation-a1",
+              "353-screening-test-foundation-d1"
+            ]
+          },
+          "remainingGap": "未完成全部筛检策略与实施方法。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-14-2",
+          "nodeName": "真实性",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "真实性的敏感度与特异度定义、分母及教学计算。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 2,
+            "exactText": "先按实际状态（分母）看敏感度与特异度：敏感度Se=TP/(TP+FN)，表示在本题参考标准认定有病者中筛检呈阳性的比例；特异度Sp=TN/(TN+FP)，表示在实际无病者中筛检呈阴性的比例。不能把分母写成全部测试阳性者或全部受试者。题设完整参考标准的假想A组：实际有病100人，其中TP=90、FN=10；实际无病900人，其中FP=45、TN=855。敏感度90/100=0.90，特异度855/900=0.95。这个样本是教学例子，不代表真实筛检技术性能。"
+          },
+          "objectiveEvidence": {
+            "id": "353-screening-test-foundation-g2",
+            "description": "按参考状态计算Se和Sp",
+            "successCriteria": "正确选择有病/无病分母并完成0至1小数计算",
+            "questionIds": [
+              "353-screening-test-foundation-b2",
+              "353-screening-test-foundation-a2",
+              "353-screening-test-foundation-d2"
+            ]
+          },
+          "remainingGap": "未教ROC、似然比、阈值完整评价，不包含可靠性重复一致性。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-14-4",
+          "nodeName": "收益",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "完整筛检路径、假阳/假阴影响以及筛出数不自动证明死亡获益。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 4,
+            "exactText": "筛检的价值必须看完整路径与净效益：目标人群能否被覆盖，阳性者能否获得合适的进一步诊断、治疗或随访，以及假阳性引发的额外检查、焦虑和假阴性造成的误导等。提早发现或增加筛出数量本身，并不自动证明降低死亡或改善健康结局；需要质量可靠的比较证据。筛检效果也会受阈值、疾病频率、参考标准以及实施质量影响。本课只练四格表的入门计算、解释和风险边界；尚未覆盖联合试验、ROC、似然比、筛检策略经济学和全部诊断试验评价。主观题提供参考核对点，不自动给分。"
+          },
+          "objectiveEvidence": {
+            "id": "353-screening-test-foundation-g4",
+            "description": "评价筛检路径的证据与不利影响",
+            "successCriteria": "说明假阳性/假阴性、后续诊断及净效益不能凭发现数证明",
+            "questionIds": [
+              "353-screening-test-foundation-b4",
+              "353-screening-test-foundation-a4",
+              "353-screening-test-foundation-d4"
+            ]
+          },
+          "remainingGap": "仅净效益与结局证据入门，未有卫生经济/实证收益完整章。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-inference-ci-hypothesis-foundation",
+      "version": "0.1",
+      "courseSHA256": "f8d5b39c80a6ccfd489fe790a0485fd5ab32eb68a77599baf3228da9d4b3d26e",
+      "originalMapping": [
+        "STAT02"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-19-4",
+          "nodeName": "点估计",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "样本均数与未知总体参数的区别，样本信息用于参数推断。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "统计推断使用样本信息研究总体未知参数，前提是明确研究设计、抽样方式、随机变异及推断条件。样本均数x̄描述这次样本，总体均数μ是未知的总体参数；样本标准差s与总体标准差σ不是同一回事。样本量n增大时，在独立同分布等合适条件下，均数标准误随1/√n缩小，而不是随1/n缩小。选用统计方法前必须考虑数据独立性、分布、偏倚及缺失；偏倚不是单纯增加n就能消除。"
+          },
+          "objectiveEvidence": {
+            "id": "353-inference-ci-hypothesis-foundation-g1",
+            "description": "区分总体参数、样本统计量与标准误",
+            "successCriteria": "知道总体μ未知且随机抽样误差与偏倚不同",
+            "questionIds": [
+              "353-inference-ci-hypothesis-foundation-b1",
+              "353-inference-ci-hypothesis-foundation-a1",
+              "353-inference-ci-hypothesis-foundation-d4"
+            ]
+          },
+          "remainingGap": "只支撑点估计对象的基础辨别，未教估计量性质或一般点估计方法。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-19-5",
+          "nodeName": "区间含义",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "已知总体σ的95%均值z区间、计算与重复抽样涵盖含义。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 2,
+            "exactText": "置信区间入门只讲一个明确限定的模型：随机独立样本来自均值未知、标准差σ已知的正态总体（或适用相应近似），双侧95%总体均数z区间为x̄±1.96×σ/√n。虚构测量情境中，x̄=20分钟、σ=4分钟、n=16，标准误SE=4/√16=1分钟，误差半宽1.96分钟，区间[18.04,21.96]分钟。若总体σ未知而用样本s估计，尤其小样本正态模型下通常需要t区间，不能把任何已知σ的z公式无条件套用。95%置信水平指在满足模型条件的反复抽样建区间程序中，长期约95%区间涵盖固定总体参数，而不是已经算出的这一个固定区间有95%后验概率包含μ。"
+          },
+          "objectiveEvidence": {
+            "id": "353-inference-ci-hypothesis-foundation-g2",
+            "description": "构建总体σ已知正态均值的双侧95%z置信区间",
+            "successCriteria": "正确计算半宽及上下限并解释其条件",
+            "questionIds": [
+              "353-inference-ci-hypothesis-foundation-b2",
+              "353-inference-ci-hypothesis-foundation-a2",
+              "353-inference-ci-hypothesis-foundation-d3"
+            ]
+          },
+          "remainingGap": "仅限定均值z模型，非所有参数/设计的区间。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-19-6",
+          "nodeName": "检验与决策",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "H0/H1、预设α、p值、两类错误、未拒绝不等真及效应/因果边界。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 3,
+            "exactText": "假设检验先写零假设H0与备择假设H1，并预先设定显著性水平α。在固定模型、H0成立前提下，p值是观察到当前或沿备择方向更极端统计量的概率，不是“H0成立的概率”，更不等于结论正确率。预先设α=0.05时，如按适当模型得到p=0.03，可拒绝H0，但统计显著不等于效应很大、临床有意义或因果关系已证实；如p=0.20则称“未能拒绝H0”，不能据此证明H0为真。第一类错误是H0真的时候却拒绝它，α控制其相应概率；第二类错误是H0假的时候未能拒绝它，其概率记β，在特定备择和模型下功效为1-β。"
+          },
+          "objectiveEvidence": {
+            "id": "353-inference-ci-hypothesis-foundation-g3",
+            "description": "解释p值、H0、H1和第一类错误",
+            "successCriteria": "按事先确定的α作决定，拒绝把p当H0概率",
+            "questionIds": [
+              "353-inference-ci-hypothesis-foundation-b3",
+              "353-inference-ci-hypothesis-foundation-a4",
+              "353-inference-ci-hypothesis-foundation-d1"
+            ]
+          },
+          "remainingGap": "不含所有检验模型及完整功效/样本量。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-t-tests-paired-independent-foundation",
+      "version": "0.1-q0fix1",
+      "courseSHA256": "884ea5f0957e59c75c4c246ec63d6ef9c93b376377037efa07e3b88e67d3e3d1",
+      "originalMapping": [
+        "STAT02"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-20-1",
+          "nodeName": "参数方法选择",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "依据设计区分单样本、配对、独立；后文给t公式及等方差/Welch的条件区分。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "统计检验的第一步不是代公式，而是辨别数据结构。一个总体均数与固定值比较，可以考虑单样本检验；两组互不对应的对象比较，是独立两样本；同一对象干预前后或一一匹配两次测量，则是配对样本，应先形成每对差值。随机抽样、观测独立性、分布、离群值及测量条件影响检验适用性。题目即使给出相同的两个均数，独立与配对设计也可能给出不同标准误和结果。"
+          },
+          "objectiveEvidence": {
+            "id": "353-t-tests-paired-independent-foundation-g1",
+            "description": "区分独立样本与配对样本结构",
+            "successCriteria": "能按研究设计判定配对差值或无关样本",
+            "questionIds": [
+              "353-t-tests-paired-independent-foundation-b1",
+              "353-t-tests-paired-independent-foundation-a1",
+              "353-t-tests-paired-independent-foundation-d4"
+            ]
+          },
+          "remainingGap": "仅t家族入门，不等于全部参数方法选择；非参数/多组/完整诊断另缺。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-outbreak-investigation-foundation",
+      "version": "0.1-q0fix1",
+      "courseSHA256": "b6c56868e4d635cb441ea04524a3c1ce3f819cf6ed3a4e4cfabe99e3d42016ee",
+      "originalMapping": [
+        "EPI09"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-15-4",
+          "nodeName": "暴发调查",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "核对暴发信号/预期基线、病例定义、逐例清单、罹患比例和后续分析调查。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "疾病暴发调查是流行病学将信息用于公共卫生应对的典型情境。“暴发”通常指在指定人群、地点和时间内观察到的病例数高于通常预期，不能仅因同一地点出现几名患者就不经比较宣布暴发。最初需核实报告信号、初步核对诊断信息和历史基线，并注意检测量增加、报告制度改变和重复计数等可能造成的假性增加。实际调查、采样、信息通报及防控行动必须由承担职责的公共卫生机构和有资质人员按照适用规范处理。本课只训练科研推理，不提供任何现场处置指令。"
+          },
+          "objectiveEvidence": {
+            "id": "353-outbreak-investigation-foundation-g1",
+            "description": "识别暴发信号、病例定义与预期基线",
+            "successCriteria": "区分真实增加、报告改变和诊断依据",
+            "questionIds": [
+              "353-outbreak-investigation-foundation-b1",
+              "353-outbreak-investigation-foundation-a4",
+              "353-outbreak-investigation-foundation-d1"
+            ]
+          },
+          "remainingGap": "教学推理，不含现场组织、现行报告规则或特定病原处置。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-8-5",
+          "nodeName": "人时地分析",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "按时间、地点、人群整理病例，解释流行曲线用途及非因果边界。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 2,
+            "exactText": "病例定义通常依据临床或实验室特征，结合时间、地点及人群范围划定观察对象，使计数口径尽量一致。病例定义可有疑似、可能、确诊等不同层级，研究中的病例分类不等于单凭软件生成临床诊断。调查常用逐例资料清单（line list）整理发病日期、地点、人群及可能暴露信息，用相同定义开展病例搜索。应避免收集不必要的可识别个人资料并保护隐私。描述性流行病学按时间、地点、人群（三间分布）整理结果；流行曲线通常把发病时间列为横轴、对应新增病例数列为纵轴，可能提示传播或共同暴露线索，但曲线形状不能单独证明病原体、传播途径或因果关系。"
+          },
+          "objectiveEvidence": {
+            "id": "353-outbreak-investigation-foundation-g2",
+            "description": "使用逐例资料和三间分布描述流行过程",
+            "successCriteria": "识别病例定义与曲线的用途和因果边界",
+            "questionIds": [
+              "353-outbreak-investigation-foundation-b2",
+              "353-outbreak-investigation-foundation-a1",
+              "353-outbreak-investigation-foundation-d4"
+            ]
+          },
+          "remainingGap": "仅暴发情境的三间描述，非完整人时地分析方法。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-anova-chi-regression-foundation",
+      "version": "0.1",
+      "courseSHA256": "81215bf0717108af1da046d874948699f1db8f0545e9a49c01576f19c1733c7c",
+      "originalMapping": [
+        "STAT03"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-20-2",
+          "nodeName": "多组比较",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "三组以上独立连续结局的单因素ANOVA、F与自由度及总体假设。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "先按结局变量类型和研究设计选择模型：连续型数值结局、三组及以上互相独立的人群、希望比较总体均数且满足独立性、组内残差近似正态和方差齐性等条件，可学习单因素组间方差分析（one-way ANOVA）。它检验的零假设是所有组总体均数相等，备择是假设至少有一组均数不同，并不自动指出是哪两组差异；如果总体均数不全相同，事后比较还需要考虑多重检验。F=MS_between/MS_within，均方MS是相应平方和SS除以自由度df，组间df=k−1，组内df=N−k。纯虚构实验有三组，每组6人，总N=18，组间MS=12、组内MS=3，F=4；df_between=2、df_within=15。F值不等于p值，更不意味着某组干预有实际临床获益。配对重复测量不能不加判断地按组间独立ANOVA处理。"
+          },
+          "objectiveEvidence": {
+            "id": "353-anova-chi-regression-foundation-g1",
+            "description": "辨别三组独立连续结局的单因素方差分析",
+            "successCriteria": "解释总体F假设及F=组间/组内均方，明白事后比较边界",
+            "questionIds": [
+              "353-anova-chi-regression-foundation-b1",
+              "353-anova-chi-regression-foundation-a2",
+              "353-anova-chi-regression-foundation-d1"
+            ]
+          },
+          "remainingGap": "未完成事后比较、多重性或完整多组方案；不能升为不同设计ANOVA全覆盖。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-20-4",
+          "nodeName": "分类检验",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "列联表、独立性假设、期望频数及Pearson卡方条件。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 2,
+            "exactText": "当两个变量都是分类变量，例如某虚构问卷中是否参加健康教育（是/否）与答题是否正确（正确/错误），常用列联表总结计数，可按抽样与期望频数条件考虑Pearson卡方独立性检验。零假设是两个分类变量相互独立；某格在独立性假设下的期望人数E=(该格所在行的总人数×该格所在列的总人数)/总人数。在虚构N=100的2×2表里，一行合计40人、一列合计30人，则交叉格E=40×30/100=12人。卡方统计量为各格(O−E)^2/E求和，并需考虑独立观测与期望频数等适用条件；期望频数过小不能机械套用常规卡方近似，某些2×2表场景可考虑Fisher精确检验。这里的‘期望’是模型下计算值，不是实际观察到的病例数。"
+          },
+          "objectiveEvidence": {
+            "id": "353-anova-chi-regression-foundation-g2",
+            "description": "识别分类变量的列联表和卡方独立性检验",
+            "successCriteria": "计算独立性下期望频数，认识适用条件",
+            "questionIds": [
+              "353-anova-chi-regression-foundation-b2",
+              "353-anova-chi-regression-foundation-a3",
+              "353-anova-chi-regression-foundation-d4"
+            ]
+          },
+          "remainingGap": "只教一个期望格与统计量构造，未完整算各类分类检验。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-20-5",
+          "nodeName": "线性回归",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "线性预测、斜率、残差、R²与条件解释。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 3,
+            "exactText": "当结局为连续变量且希望研究与一或多个预测变量的线性关系时，可用线性回归入门模型ŷ=b0+b1×x；b0为截距，b1表示x增加1单位时预测的平均结局变化量。完全虚构的健康行为评分预测模型为ŷ=5+2x，当x=3时预测评分为11分；真实观测值与预测值之差叫残差。多元线性回归中，一个系数的解释通常以模型其他预测变量保持不变为条件；要关注线性关系、残差结构、离群点与可能的混杂。R²描述模型对样本结局变异的解释程度，不代表结果一定可用于个人预测，更不能由回归关联直接证明因果。"
+          },
+          "objectiveEvidence": {
+            "id": "353-anova-chi-regression-foundation-g3",
+            "description": "理解简单/多元线性回归预测和残差",
+            "successCriteria": "解释斜率及线性预测，避免把关联当因果",
+            "questionIds": [
+              "353-anova-chi-regression-foundation-b3",
+              "353-anova-chi-regression-foundation-a4",
+              "353-anova-chi-regression-foundation-d2"
+            ]
+          },
+          "remainingGap": "未教参数拟合推导、诊断与全部推断。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-20-6",
+          "nodeName": "Logistic回归",
+          "nodeSubject": "stats",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "Logistic形式与exp(β)为OR而非RR的解释。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 4,
+            "exactText": "当结局为二分类（如某虚构结局出现/未出现）时，可以学习Logistic回归：log[p/(1−p)]=β0+β1x；β1每增加1单位的指数exp(β1)在模型条件下对应优势比OR，而非风险比RR。比如虚构模型β1=ln(2)，那么OR=exp(ln2)=2；不能直接解释为‘患病概率增加两倍’。多变量Logistic回归同样需谨慎解释调整后关联、样本与模型条件、事件发生率及混杂因素。总结选模顺序：明确研究设计、结局类型、解释变量、独立性、模型假设和估计目标，再讨论F、卡方、线性或Logistic；p值显著不保证结果在现实医疗中重要，也不能自动给出病因或治疗建议。本课只覆盖识别模型和基础计算，不涵盖完整诊断、模型检验、缺失数据、多重比较与临床研究方案。"
+          },
+          "objectiveEvidence": {
+            "id": "353-anova-chi-regression-foundation-g4",
+            "description": "解释Logistic回归的OR与RR差别",
+            "successCriteria": "知道exp(β)为优势比而非患病风险倍数",
+            "questionIds": [
+              "353-anova-chi-regression-foundation-b4",
+              "353-anova-chi-regression-foundation-a1",
+              "353-anova-chi-regression-foundation-d3"
+            ]
+          },
+          "remainingGap": "未教似然估计、诊断、校准或完整建模。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-evidence-systematic-review-meta-foundation",
+      "version": "0.1-q0fix1",
+      "courseSHA256": "72d05051d48e2a439a58cacc3a57fc82be69c3504017439ecd5d2715fea1472e",
+      "originalMapping": [
+        "EPI11"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-17-1",
+          "nodeName": "循证概念",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "证据、专业判断与受影响人群价值/资源结合，PICO问题。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "循证医学强调把适当研究证据与专业判断、受影响人群的价值和现实资源条件相结合，不能把某一篇论文的p值当成全部决策。系统评价是围绕预先明确的问题，按可复核的纳入排除标准系统检索、筛选、评价、综合相关研究的方法；它不等于‘随意看过多篇文章写一篇综述’。干预研究问题常用PICO定义：P（Population）人群，I（Intervention）干预，C（Comparator）对照，O（Outcome）结局。虚构问题为‘在指定成年人群中，健康教育相对通常宣教是否改变半年内某健康知识测验分数’；这里P、I、C、O各有对应信息，测验分数是否代表长期健康收益仍需要另外论证。"
+          },
+          "objectiveEvidence": {
+            "id": "353-evidence-systematic-review-meta-foundation-g1",
+            "description": "理解循证医学和PICO系统评价问题",
+            "successCriteria": "能区分人群干预比较结局并评估是否可合并",
+            "questionIds": [
+              "353-evidence-systematic-review-meta-foundation-b1",
+              "353-evidence-systematic-review-meta-foundation-a1",
+              "353-evidence-systematic-review-meta-foundation-d1"
+            ]
+          },
+          "remainingGap": "非完整循证决策能力或实际临床建议。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-17-2",
+          "nodeName": "系统评价",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "预先方案、系统检索筛选提取、偏倚评价及透明报告与质量之别。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 2,
+            "exactText": "系统评价通常需要事先确定研究问题、研究设计及纳入排除条件，形成并尽可能登记方案，系统检索不同来源，记录筛选原因，按可解释的方法提取数据、评价偏倚风险，并依证据特点做叙述性或统计学综合。Meta分析是适当条件下将多个研究结果进行统计合成的技术，可作为系统评价的一部分，但系统评价不一定必须做Meta分析，Meta分析也不能自动修复原始研究的偏倚。PRISMA是帮助透明报告系统评价的规范，不是研究本身的质量认证；偏倚风险与证据确定性也不是同一个概念。若不同研究的人群、干预、结局定义或设计差异很大，直接合并一个数字可能误导。"
+          },
+          "objectiveEvidence": {
+            "id": "353-evidence-systematic-review-meta-foundation-g2",
+            "description": "描述系统评价完整流程及PRISMA、偏倚风险、证据确定性区别",
+            "successCriteria": "能回答方案、检索、筛选、偏倚评估的用途",
+            "questionIds": [
+              "353-evidence-systematic-review-meta-foundation-b2",
+              "353-evidence-systematic-review-meta-foundation-a4",
+              "353-evidence-systematic-review-meta-foundation-d4"
+            ]
+          },
+          "remainingGap": "只介绍流程，未完成实际系统检索/双人筛选/证据评定。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-17-3",
+          "nodeName": "Meta基本思路",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "同尺度独立研究的逆方差加权合并；后段森林图、Q/I²和异质性限制。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 3,
+            "exactText": "在明确可比的相同效应尺度、独立研究及所用统计模型合理等教学前提下，固定效应逆方差加权可以用每项研究估计值θᵢ和标准误SEᵢ构造wᵢ=1/SEᵢ²，并求合并估计θ̄=Σ(wᵢθᵢ)/Σwᵢ。本课给出完全虚构的两项研究：甲研究θ₁=1、SE₁=0.5，则w₁=4；乙研究θ₂=3、SE₂=1，则w₂=1；相同无量纲效应尺度下，合并值=(4×1+1×3)/(4+1)=1.4。较小标准误的研究在此模型中权重更高，但权重不能被理解为‘研究本身一定正确’或‘样本量直接决定权重’；方法选择还要核对研究质量、效应尺度、临床和方法学可比性。这里没有实际病人、设备干预或治疗结论。"
+          },
+          "objectiveEvidence": {
+            "id": "353-evidence-systematic-review-meta-foundation-g3",
+            "description": "从标准误计算固定效应逆方差权重与合并效应",
+            "successCriteria": "掌握w=1/SE²和加权均数的条件",
+            "questionIds": [
+              "353-evidence-systematic-review-meta-foundation-b3",
+              "353-evidence-systematic-review-meta-foundation-a2",
+              "353-evidence-systematic-review-meta-foundation-d2"
+            ]
+          },
+          "remainingGap": "两研究虚构固定效应练习，不含完整随机效应、敏感性或发表偏倚实作。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-surveillance-evaluation",
+      "version": "0.1-issue8-b",
+      "courseSHA256": "93b11b34e02640fddf569ceaa915ba0ad0d4f12c406765ad62a1446a0e2702e2",
+      "originalMapping": [
+        "EPI10"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-16-1",
+          "nodeName": "目的",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "从发现报告去重分析到反馈行动的持续监测链、被动主动哨点区分。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "先画一条信息链：某诊所发现符合定义的病例→按约定报告→去重核实→按人群、地点、时间分析→向行动者反馈→处置并再评价。单次调查可估某时点情况，但持续监测还须有重复资料和行动反馈。被动监测依靠常规报告；主动监测由工作人员主动联系来源；哨点监测可在选定地点持续观察，不自动代表所有地区。综合征信号可更快但未必病因明确，实验室结果也需核对采样与覆盖。"
+          },
+          "objectiveEvidence": {
+            "id": "353-surveillance-evaluation-g1",
+            "description": "描述监测资料链与信号",
+            "successCriteria": "能区分监测、调查与预警，并解释报告数变化的替代原因",
+            "questionIds": [
+              "353-surveillance-evaluation-b1",
+              "353-surveillance-evaluation-a1",
+              "353-surveillance-evaluation-d1"
+            ]
+          },
+          "remainingGap": "不构成中国现行具体系统/法定时限覆盖。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-16-2",
+          "nodeName": "系统评价",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "按真实病例/报告分别算敏感度与PVP，另有及时性、代表性、稳定性等属性取舍。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 3,
+            "exactText": "评价先问目的，再选分母。竹溪在明确的同一地区、同一周、同一定义下，独立且题设完整的调查找到100名真实病例，其中监测捕获80名；系统同时报告100名，经核实80真病例、20非病例。病例报告层敏感度=80/100=80%；阳性预测值=80/100=80%，数值相同但一个分母是真病例、另一个是系统报告。若系统仅报告50名其中40真病例，PVP仍80%，捕获100名真实病例的敏感度却40%。不能以一项替代另一项。"
+          },
+          "objectiveEvidence": {
+            "id": "353-surveillance-evaluation-g2",
+            "description": "分别评价捕获、误报和及时性",
+            "successCriteria": "能按给定真实病例、报告病例和时间定义复算指标",
+            "questionIds": [
+              "353-surveillance-evaluation-b2",
+              "353-surveillance-evaluation-a2",
+              "353-surveillance-evaluation-d2"
+            ]
+          },
+          "remainingGap": "此节点是监测系统评价，不是循证系统综述；未实际评估完整系统。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-case-control-or-matched",
+      "version": "0.1-issue9-3",
+      "courseSHA256": "30f697c61d5ed4422d20a132d5470b8c95350cd786c6c695994218f6646a24aa",
+      "originalMapping": [
+        "EPI05"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-11-1",
+          "nodeName": "设计与类型",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "按结局选病例对照、来源对照与非必配对的设计结构。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "先复习设计差别：队列从暴露组起步观察结局，传统累计病例对照按是否患病选人，再比较既往暴露。这里的对照应反映产生病例的来源人群的相关暴露情况，而不是随便找最健康的人。选择与回忆/测量差异可能扭曲关联，混杂仍需设计和分析处理。病例对照不等于必须一对一配对，配对也不自动消除全部混杂。"
+          },
+          "objectiveEvidence": {
+            "id": "353-case-control-or-matched-g1",
+            "description": "识别设计与odds",
+            "successCriteria": "能解释病例对照不能直接算来源风险",
+            "questionIds": [
+              "353-case-control-or-matched-b1",
+              "353-case-control-or-matched-b4",
+              "353-case-control-or-matched-a3",
+              "353-case-control-or-matched-d2"
+            ]
+          },
+          "remainingGap": "不含所有病例对照类型及实施方案。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-11-3",
+          "nodeName": "OR及区间",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "无配对OR=ad/bc的行列定义及计算解释。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 4,
+            "exactText": "把行定为暴露/未暴露，列定为病例/对照，a=40、b=20、c=20、d=40。病例暴露优势=a/c=2，对照暴露优势=b/d=0.5，所以OR=2/0.5=ad/(bc)=4。它说明该抽样与偏倚条件下暴露优势的关联，不说明4倍的人一定患病。病例列60人由研究抽样决定，不能用40/(40+20)冒充来源人群的暴露组发病风险。"
+          },
+          "objectiveEvidence": {
+            "id": "353-case-control-or-matched-g2",
+            "description": "计算无配对OR",
+            "successCriteria": "能写行列并独立算ad/bc",
+            "questionIds": [
+              "353-case-control-or-matched-b2",
+              "353-case-control-or-matched-a1",
+              "353-case-control-or-matched-d1"
+            ]
+          },
+          "remainingGap": "只覆盖OR子概念，95%置信区间明确未教；节点名OR及区间不能因此标完整。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-11-4",
+          "nodeName": "配对资料",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "保持一对一匹配表，使用不一致对f/g，区别边际粗OR。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 6,
+            "exactText": "【另一独立原创虚构配对资料】40对一病例一对照：两人均暴露18对、仅病例暴露12对、仅对照暴露4对、两人均未暴露6对。每对为预先匹配的独立配对，分析须保留配对信息；该资料不是上一无配对表的同一批人。"
+          },
+          "objectiveEvidence": {
+            "id": "353-case-control-or-matched-g3",
+            "description": "保留配对关系",
+            "successCriteria": "能用不一致对算OR而非套粗表",
+            "questionIds": [
+              "353-case-control-or-matched-b3",
+              "353-case-control-or-matched-a2",
+              "353-case-control-or-matched-a4",
+              "353-case-control-or-matched-d3"
+            ]
+          },
+          "remainingGap": "不含多对照、变匹配集、条件Logistic或区间。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-11-5",
+          "nodeName": "偏倚和局限",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "OR非无条件RR，偏倚混杂与随机误差不能因点值大而排除。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 5,
+            "exactText": "OR=1为本指标无关联的点值；大于1/小于1的方向还要说明哪一组暴露、哪一结局。传统累计设计在来源人群结局较少见等适当条件下OR可近似RR，绝不无条件写OR=RR。不同病例对照抽样方案有各自解释，本课不泛化到所有风险集抽样。未计算可信区间时不能声称统计显著，OR很大也不能排除偏倚、混杂和随机误差。"
+          },
+          "objectiveEvidence": {
+            "id": "353-case-control-or-matched-g4",
+            "description": "解释关联与局限",
+            "successCriteria": "能给材料论证及合理下一步，不伪造显著性",
+            "questionIds": [
+              "353-case-control-or-matched-b4",
+              "353-case-control-or-matched-a4",
+              "353-case-control-or-matched-d4"
+            ]
+          },
+          "remainingGap": "未完整覆盖偏倚方向定量或研究评价。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-cohort-risk-smr-followup",
+      "version": "0.1-issue9-3",
+      "courseSHA256": "18e0567d7263fbc260d0a14a324afb5da8adf95765bb68fa611bc01d99bd6590",
+      "originalMapping": [
+        "EPI06"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-12-1",
+          "nodeName": "设计与随访",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "队列按暴露/起点观察结局，定义时间分母；后文失访为未知结局。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "从已学风险和人时继续。队列按暴露状态或相应人群起点收集结局，可前瞻也可利用既有记录；研究起点、纳入标准、暴露与结局定义要对齐。本课先假定无病且有风险、同一观察期、完整随访。风险=新病例/期初有风险人数，发病密度=新病例/人时，不能把两者分母互换。研究者不随机分配暴露时，组间既有差别可能混杂。"
+          },
+          "objectiveEvidence": {
+            "id": "353-cohort-risk-smr-followup-g1",
+            "description": "区别队列风险与关联",
+            "successCriteria": "能说明分母/时间和非随机暴露",
+            "questionIds": [
+              "353-cohort-risk-smr-followup-b1",
+              "353-cohort-risk-smr-followup-b4",
+              "353-cohort-risk-smr-followup-a1",
+              "353-cohort-risk-smr-followup-d1"
+            ]
+          },
+          "remainingGap": "未完成实际队列设计或全套随访分析。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-12-3",
+          "nodeName": "累计发病与标化",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "同年参照层率施于研究人口求E与SMR，并限定尺度和分母；另有完整期风险。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 6,
+            "exactText": "【独立原创标化例】同一年研究人群按两年龄层为2000与1000人；参照人群同层年死亡率为2/1000与8/1000；研究人群该年实死18人。年龄层一致，率的时间及死因定义一致，仅作间接标化描述。"
+          },
+          "objectiveEvidence": {
+            "id": "353-cohort-risk-smr-followup-g3",
+            "description": "计算并限制SMR",
+            "successCriteria": "能按层求预期死数并解释无量纲比",
+            "questionIds": [
+              "353-cohort-risk-smr-followup-b3",
+              "353-cohort-risk-smr-followup-a2",
+              "353-cohort-risk-smr-followup-a4",
+              "353-cohort-risk-smr-followup-d2",
+              "353-cohort-risk-smr-followup-d4"
+            ]
+          },
+          "remainingGap": "只间接SMR与简单累计风险，不含直接法、置信区间或完整标化体系。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-12-4",
+          "nodeName": "RR与归因指标",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "RR、RD及ARP的计算、时间口径、因果归因条件。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 2,
+            "exactText": "RR用暴露风险/未暴露风险，回答相对几倍；风险差RD=暴露风险−未暴露风险，回答绝对多多少。以百分数报告时差用“百分点”，不是相对增加百分比。归因危险度AR常用于解释这种差，但因果归因需要额外条件，不能把观察差自动全算成暴露造成。"
+          },
+          "objectiveEvidence": {
+            "id": "353-cohort-risk-smr-followup-g2",
+            "description": "计算RR与绝对差",
+            "successCriteria": "能独立算两风险、RR及百分点",
+            "questionIds": [
+              "353-cohort-risk-smr-followup-b2",
+              "353-cohort-risk-smr-followup-b4",
+              "353-cohort-risk-smr-followup-a1",
+              "353-cohort-risk-smr-followup-d1"
+            ]
+          },
+          "remainingGap": "PARP明确未教，不等于RR与归因指标全覆盖。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-12-6",
+          "nodeName": "偏倚与局限",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "不填未知为阴性，记录退出时间/原因并关注暴露结局相关缺失。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 8,
+            "exactText": "失访是未知结局，不是没发病。若有退出者，完整风险公式的假定被破坏；应记录组别、原因、时间和已知结局，按合适方法分析并做缺失敏感性评价。失访多或少不能单凭比例断言偏倚方向；与暴露/结局相关的缺失尤其需重视。"
+          },
+          "objectiveEvidence": {
+            "id": "353-cohort-risk-smr-followup-g4",
+            "description": "处理失访与推论",
+            "successCriteria": "能写未知结局处理及关联局限",
+            "questionIds": [
+              "353-cohort-risk-smr-followup-b4",
+              "353-cohort-risk-smr-followup-a3",
+              "353-cohort-risk-smr-followup-a4",
+              "353-cohort-risk-smr-followup-d3",
+              "353-cohort-risk-smr-followup-d4"
+            ]
+          },
+          "remainingGap": "未给全套失访模型或敏感性方法。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-trial-design-effects",
+      "version": "0.1-issue9-3",
+      "courseSHA256": "dbc5a41b9270a76010db4d3df4832170721b5fc64c4a7978607eafa1791f1f94",
+      "originalMapping": [
+        "EPI07"
+      ],
+      "unlinkedReason": "Existing internal code/semantic crosswalk not yet individually confirmed; do not treat as official-node coverage.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-13-1",
+          "nodeName": "试验原则",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "随机分配与抽样、分配隐藏和盲法的功能及有限样本条件。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "在已学研究设计基础上，这一课把设计和效果连接。随机抽样决定“谁进入样本”，随机分配决定“入组者接受哪一方案”，两者不能互替。试验应先说明对象、干预、对照、主要结局和观察期，在有伦理依据与知情同意的条件下实施。不能为教学比较而人为安排有害暴露。随机分配能在概率意义上平衡已知与未知预后因素，不保证某次样本每项特征绝对相同，也不自动修复随访丢失或测量偏差。"
+          },
+          "objectiveEvidence": {
+            "id": "353-trial-design-effects-g1",
+            "description": "区分随机/隐藏/盲法",
+            "successCriteria": "能说明三个环节而非随机保证绝对相同",
+            "questionIds": [
+              "353-trial-design-effects-b1",
+              "353-trial-design-effects-a4",
+              "353-trial-design-effects-d2"
+            ]
+          },
+          "remainingGap": "不含样本量、非劣效与完整试验方案。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-13-2",
+          "nodeName": "绝对与相对效应",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "RR、ARR、RRR及RD方向、百分点和相对百分比。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 4,
+            "exactText": "先排表：方案组60新发、940未发；常规组100新发、900未发。方案风险6%，对照风险10%，RR=0.06/0.10=0.6；绝对风险降低ARR=0.10−0.06=0.04=4个百分点；相对风险降低RRR=1−0.6=40%。注意观察方向：若称RD为方案−对照则是−4个百分点，而ARR以对照−方案表示获益。本课数值框明确问哪一方向，不能把40%说成每100人少40例。"
+          },
+          "objectiveEvidence": {
+            "id": "353-trial-design-effects-g2",
+            "description": "计算效应及方向",
+            "successCriteria": "能算RR及ARR/RRR并说明人群时间",
+            "questionIds": [
+              "353-trial-design-effects-b2",
+              "353-trial-design-effects-b4",
+              "353-trial-design-effects-a1",
+              "353-trial-design-effects-a2",
+              "353-trial-design-effects-d1"
+            ]
+          },
+          "remainingGap": "虚构完整随访点估计，不含区间及普遍推广结论。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-13-4",
+          "nodeName": "偏倚控制",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "按原随机组分析、退出与失访区别、不将未知补零。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 6,
+            "exactText": "完整性决定分析可信度。意向性分析通常按原随机分组比较，是避免任意重新分组的重要原则；退出干预不等于退出随访，应在合适伦理和程序下尽可能获知结局。依从性不佳、交叉用方案、同时接受不同护理及失访都需报告。意向性原则不是把全部未知结局补0，也不保证任何缺失处理都无偏；完整的估计目标和缺失数据方法还要专门方案。"
+          },
+          "objectiveEvidence": {
+            "id": "353-trial-design-effects-g3",
+            "description": "评价缺失及分析原则",
+            "successCriteria": "能区别原分组分析与任意填补结局",
+            "questionIds": [
+              "353-trial-design-effects-b3",
+              "353-trial-design-effects-a3",
+              "353-trial-design-effects-d2",
+              "353-trial-design-effects-d4"
+            ]
+          },
+          "remainingGap": "意向性原则不是完整缺失处理；不替代估计目标及专业方案。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    },
+    {
+      "courseId": "353-direct-age-standardisation-foundation",
+      "version": "0.1",
+      "courseSHA256": "31dbf9ef21a799ea7600b8d211f2af420357c54badb95a4a4f79a307b9974535",
+      "originalMapping": [
+        "STAT02"
+      ],
+      "unlinkedReason": "Internal teaching code not exact official-node mapping; direct age standardisation boundary awaits specific crosswalk.",
+      "proposedPartialLinks": [
+        {
+          "nodeId": "s27-12-3",
+          "nodeName": "累计发病与标化",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "直接法以共同标准结构权重汇总本地年龄别率；后文有两条计算路径。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 4,
+            "exactText": "直接标准化换的是比较权重，不是篡改原始死亡。选一套共同标准年龄结构，设低层与高层标准量分别S1、S2，归一化权重wi=Si/ΣSi，权重非负且和为1。直接标准化率R标=Σwi×ri。ri若已经用每1000人年显示，直接加权后的结果仍为每1000人年，不能再乘1000；若用原始di/Ti则最后乘1000。对甲乙必须用相同年龄界限、共同非零标准支持的年龄范围、共同标准权重、死亡定义与单位。只给总死亡与总人年不能还原所有年龄别率；某层分母为0时不能把0/0硬当零率。小层资料不稳，仍需不确定性评价，算出点值不等于可稳定排行。"
+          },
+          "objectiveEvidence": {
+            "id": "353-direct-age-standardisation-foundation-g2",
+            "description": "设定共同标准并计算归一化权重",
+            "successCriteria": "能从标准量求和为1的共同权重并辨别错误比较",
+            "questionIds": [
+              "353-direct-age-standardisation-foundation-b2",
+              "353-direct-age-standardisation-foundation-a2",
+              "353-direct-age-standardisation-foundation-d2"
+            ]
+          },
+          "remainingGap": "只关联节点内标化子概念，不因节点标题还含累计发病而认定整节点完成。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        },
+        {
+          "nodeId": "s27-8-3",
+          "nodeName": "死亡测量",
+          "nodeSubject": "epi",
+          "linkType": "精确概念的部分教学关联建议",
+          "supportedSubconcept": "限定死亡/人年层率、粗率与标准化率的定义和区别。",
+          "bodyEvidence": {
+            "paragraphOrdinal": 1,
+            "exactText": "比较前先约定事件和分母。本课所有主要例题都是原创虚构资料：同一日历年、相同死亡定义，按死亡年龄归入两层（0–64岁、65岁及以上）；分母是该层实际累计观察的人年，不是期初人数。一个人观察半年贡献0.5人年；跨年龄界限时，观察时间按实际所在层拆分，死亡归入发生时年龄层。表中已给汇总完成的人年。每层死亡率ri=di/Ti，di为该层死亡数，Ti为该层人年，报告时乘1000，单位为每1000人年。它不是一年死亡概率，不能换成百分比风险。例题已假定年龄已知、分类一致、完整登记；真实资料仍须核查漏报与时间。"
+          },
+          "objectiveEvidence": {
+            "id": "353-direct-age-standardisation-foundation-g1",
+            "description": "区分层别率和粗率并解释结构影响",
+            "successCriteria": "能算总事件/总人时并用年龄别率解释粗率排序",
+            "questionIds": [
+              "353-direct-age-standardisation-foundation-b1",
+              "353-direct-age-standardisation-foundation-a1",
+              "353-direct-age-standardisation-foundation-d1"
+            ]
+          },
+          "remainingGap": "只有死亡率的这些子概念，不含全部死亡指标或生命表。",
+          "status": "AI-internal-partial-link-proposal",
+          "fullNodeCovered": false,
+          "independentlyExpertApproved": false
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "courseId": "353-radiation-protection-foundation",
+      "originalMapping": [
+        "MP02"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮不强行处理医学物理、影像AI与环境复杂匹配，需相应领域精确正文复核。"
+    },
+    {
+      "courseId": "353-nuclear-imaging-foundation",
+      "originalMapping": [
+        "MP03"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮不强行处理医学物理、影像AI与环境复杂匹配，需相应领域精确正文复核。"
+    },
+    {
+      "courseId": "353-radiotherapy-physics-foundation",
+      "originalMapping": [
+        "MP04"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮不强行处理医学物理、影像AI与环境复杂匹配，需相应领域精确正文复核。"
+    },
+    {
+      "courseId": "353-health-system-financing-policy-foundation",
+      "originalMapping": [
+        "PH03"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮聚焦直接明晰的统计/流行病课程；未逐概念核对其全部正文目标及节点，不因相邻健康/伦理标题自动映射。"
+    },
+    {
+      "courseId": "353-public-health-emergency-ihr-foundation",
+      "originalMapping": [
+        "PH04"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮聚焦直接明晰的统计/流行病课程；未逐概念核对其全部正文目标及节点，不因相邻健康/伦理标题自动映射。"
+    },
+    {
+      "courseId": "353-cross-disciplinary-evidence-writing",
+      "originalMapping": [
+        "CROSS01"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮聚焦直接明晰的统计/流行病课程；未逐概念核对其全部正文目标及节点，不因相邻健康/伦理标题自动映射。"
+    },
+    {
+      "courseId": "353-global-health-burden-priorities",
+      "originalMapping": [
+        "PH05"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮聚焦直接明晰的统计/流行病课程；未逐概念核对其全部正文目标及节点，不因相邻健康/伦理标题自动映射。"
+    },
+    {
+      "courseId": "353-medical-ai-validation",
+      "originalMapping": [
+        "MP05"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮不强行处理医学物理、影像AI与环境复杂匹配，需相应领域精确正文复核。"
+    },
+    {
+      "courseId": "353-space-air-ventilation",
+      "originalMapping": [
+        "MP06"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮不强行处理医学物理、影像AI与环境复杂匹配，需相应领域精确正文复核。"
+    },
+    {
+      "courseId": "353-health-indicators-ethics",
+      "originalMapping": [
+        "PH01"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮聚焦直接明晰的统计/流行病课程；未逐概念核对其全部正文目标及节点，不因相邻健康/伦理标题自动映射。"
+    },
+    {
+      "courseId": "353-health-promotion-behaviour",
+      "originalMapping": [
+        "PH06"
+      ],
+      "proposedNodeIds": [],
+      "decision": "保留未映射",
+      "reason": "本轮聚焦直接明晰的统计/流行病课程；未逐概念核对其全部正文目标及节点，不因相邻健康/伦理标题自动映射。"
+    }
+  ],
+  "explicitNonLinks": [
+    {
+      "courseId": "353-screening-test-foundation",
+      "nodeId": "s27-14-3",
+      "reason": "未教授重复测量一致性/可靠性；Se、Sp真实性不能替代。"
+    },
+    {
+      "courseId": "353-screening-test-foundation",
+      "nodeId": "s27-14-5",
+      "reason": "联合试验在正文明确未覆盖。"
+    },
+    {
+      "courseId": "353-anova-chi-regression-foundation",
+      "nodeId": "s27-20-3",
+      "reason": "只讲独立单因素ANOVA并警示重复测量不能混用，不算已教不同设计ANOVA。"
+    },
+    {
+      "courseId": "353-anova-chi-regression-foundation",
+      "nodeId": "s27-20-7",
+      "reason": "仅解释其他变量固定的系数条件，不足作完整多重回归精确教学关联；保留缺口。"
+    },
+    {
+      "courseId": "353-trial-design-effects",
+      "nodeId": "s27-13-3",
+      "reason": "正文明确生存分析未教，不能因同属试验章节连带覆盖。"
+    },
+    {
+      "courseId": "353-surveillance-evaluation",
+      "nodeId": "s27-17-2",
+      "reason": "监测系统的评价不等于循证医学的系统评价，避免同名误配。"
+    },
+    {
+      "courseId": "353-cohort-risk-smr-followup",
+      "nodeId": "s27-12-2",
+      "reason": "样本量明确尚缺。"
+    },
+    {
+      "courseId": "353-cohort-risk-smr-followup",
+      "nodeId": "s27-12-5",
+      "reason": "剂量反应明确尚缺。"
+    }
+  ],
+  "newMappingApplied": false,
+  "sharedFilesChanged": false,
+  "newCourses": 0,
+  "expertApprovals": 0,
+  "fullVerifiedCoverage": null,
+  "limitation": "只建议补部分教学关系；原mapping不改，节点数/支持数不自行升级，不代表章级完成、学习掌握、独立审定或2028最终范围。"
+}

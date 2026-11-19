@@ -1,0 +1,108 @@
+{
+  "testedSHA": "7a452cf343e2c33cd450ef3498ab3dfae35bf813",
+  "files": [
+    {
+      "path": "app.css",
+      "sha256": "ffcf9e71426fe60cb7f70b084d1d1051593ed76953505e0be6752e89aec156cd"
+    },
+    {
+      "path": "course-engine.js",
+      "sha256": "c329c3464c15ea79ed22a7be43eeefc7db40c2a188a6d77ead55caebe49d7ad5"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "863433d161aee8830b0bb934485f4435e84a1ad7b3cb043b2b606f1530931517"
+    },
+    {
+      "path": "index.html",
+      "sha256": "5dc5b996421c2b97899851921f4b4375d3bb6ba536dd9938531982249da0314a"
+    },
+    {
+      "path": "learning-controller.js",
+      "sha256": "16443dd87f162adc4be9a28cf74de89106c21aa2a720599f59520564927a914f"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "d7aef0d0e7c7f1741240200a828de7dea7bfa43bb354dd4dec1d67e1e17729f7"
+    },
+    {
+      "path": "migration-bridge.js",
+      "sha256": "9258b75b9a35d2892ca9f3b865ad0f3f4e7814de4eec08cfae1a74e53573cbe3"
+    },
+    {
+      "path": "mobile-reading.js",
+      "sha256": "0368acf88f7f6bec48588c3396b059917634a0cef7583505e80867c056f976be"
+    },
+    {
+      "path": "mobile-ux.js",
+      "sha256": "9fb0d351cfacd17ca4bff6ae995abba1c2acd401ae1b1e75bcaecc50e2b0ceb6"
+    },
+    {
+      "path": "mock-engine.js",
+      "sha256": "c21392ce846bdf15595d0ee29974c475fc6c5a37b5736f82307f92b4c1273970"
+    },
+    {
+      "path": "mock-ui.js",
+      "sha256": "70d27c579572743da1388792c0d80a6d375c5de9fc9c4468855817c12b63f6eb"
+    },
+    {
+      "path": "pilot-ui.js",
+      "sha256": "7473feeb5725a4f68408b8682aa04a4ad4bc305750ff7195f4cabf6623d8d22b"
+    },
+    {
+      "path": "profile-repository.js",
+      "sha256": "60b49dd8321c78570e85d204114c5c20e5b028b944b24659c460a13594bf25e5"
+    },
+    {
+      "path": "reading-passage.js",
+      "sha256": "b34e992f2fe9cada81ca94a85e8f965f7a9c21c1988e9bfc1e3b518f0e68251a"
+    },
+    {
+      "path": "representative-courses.json",
+      "sha256": "f130a450f69db412c0ced7c7845da4dbb816c480701ad2341d7a331508ccece8"
+    },
+    {
+      "path": "sva-prerequisite.js",
+      "sha256": "34e7c4f1d10f291b65f1e3a47ac45760073ab7643306c910d42f2b44701c51e9"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "213347c035bb8b5ab36e99072651f006dc27ea67ba7005cc49305d71c19f4e60"
+    }
+  ],
+  "browsers": [
+    {
+      "name": "chromium",
+      "passed": true,
+      "checks": [
+        "actual52question paper and original passage",
+        "answer save/tab-close restore",
+        "SWcontrol/cache17/newDB"
+      ],
+      "state": {
+        "db": "qh2028_issue10_clause_v1_local",
+        "scope": "https://6c99ea57.qh2028-core47-preview.pages.dev/",
+        "assets": 17
+      }
+    },
+    {
+      "name": "webkit",
+      "passed": true,
+      "checks": [
+        "actual52question paper and original passage",
+        "answer save/tab-close restore",
+        "SWcontrol/cache17/newDB"
+      ],
+      "state": {
+        "db": "qh2028_issue10_clause_v1_local",
+        "scope": "https://6c99ea57.qh2028-core47-preview.pages.dev/",
+        "assets": 17
+      }
+    }
+  ],
+  "physicalIPhone": false,
+  "realLearningData": false,
+  "url": "https://6c99ea57.qh2028-core47-preview.pages.dev/",
+  "deploymentId": "6c99ea57-0a85-4b53-8da4-24da08122ebf",
+  "passed": true
+}

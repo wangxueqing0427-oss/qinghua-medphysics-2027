@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-19",
+  "firstPush": "Git refused isolated checkout ownership before contacting remote",
+  "correction": "Repeat once with per-command safe.directory for the verified checkout; no global Git configuration, no force push",
+  "retry": "successful; isolated branch only",
+  "contentFailure": "Three P2 translation additions narrowed after independent AI cross-check; original full draft retained in cross-review-revision-snapshot.json",
+  "functionalCIFailures": 0,
+  "onlineCIFailures": 0,
+  "notExpertApproval": true
+}

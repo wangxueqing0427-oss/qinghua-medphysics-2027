@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-19",
+  "sourceCoverageFile": "product-2028-issue10-papers/extension/coverage-84.json",
+  "coverageSHA256": "520e2e6e702be1378c531c824c3e958cac5cb3627b17390c7ebe5767fa494a82",
+  "nodeCount": 149,
+  "englishNodeIds": [
+    "en-plan-1",
+    "en-plan-2",
+    "en-plan-3",
+    "en-plan-4",
+    "en-plan-5",
+    "en-plan-6",
+    "en-plan-7",
+    "en-plan-8",
+    "en-plan-9",
+    "en-plan-10"
+  ],
+  "englishUnlinkedCount": 2,
+  "rows": [
+    {
+      "courseId": "en-reading-library-evidence",
+      "version": "0.1-issue9-1-q0fix1",
+      "courseSHA256": "52ed1baa9df505967bce0f2c2114340ad1ce4e2a34dfd65d6093d6ea7c998b70",
+      "originalMapping": [
+        "en-integrated-reading-writing"
+      ],
+      "readScope": "本轮实际读取完整explanation（含原创全文与逐句中文提示）、definition、conditions、example、recall、12题任务/答案/主观rubric；完整A/B/L/G文本亦在上一只读阅读核对中读取。",
+      "suggestedPartialLinks": [
+        {
+          "nodeId": "en-plan-1",
+          "nodeName": "词音和词汇",
+          "concept": "词汇语境理解及主动生成",
+          "bodyEvidence": "explanation词汇段明确distinct people/repeat visits、barrier在L9的语境义；遮住释义自行造句。",
+          "questionEvidence": {
+            "questionId": "en-reading-library-evidence-b2",
+            "transferQuestionId": "en-reading-library-evidence-d2",
+            "independentDelayedEvidence": true
+          },
+          "gap": "仅少量语境词与造句，不覆盖系统词表、音标或发音验收。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-3",
+          "nodeName": "复杂句分析",
+          "concept": "嵌套修饰与主句分解",
+          "bodyEvidence": "explanation首段实际拆L3：A survey suggested that…为主句内容，which补充survey，people who…限定调查纳入的人；L2区分although让步与原因。",
+          "questionEvidence": {
+            "questionId": "en-reading-library-evidence-b1",
+            "transferQuestionId": "en-reading-library-evidence-a1",
+            "independentDelayedEvidence": true
+          },
+          "gap": "仅特定that内容从句、which/who关系从句与让步例句，非复杂句全路径。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-4",
+          "nodeName": "阅读",
+          "concept": "阅读定位、指代、篇章主旨与推断边界",
+          "bodyEvidence": "explanation三段结构L1—L4/L5—L8/L9—L12；示范L7—L8区分新用户与重复访问，L9限定未解决障碍。",
+          "questionEvidence": {
+            "questionId": "en-reading-library-evidence-b3",
+            "transferQuestionId": "en-reading-library-evidence-d3",
+            "independentDelayedEvidence": true
+          },
+          "gap": "单一原创篇章，非多主题/各体裁完整阅读训练；未证明难度等效真题。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-7",
+          "nodeName": "翻译",
+          "concept": "英译中保留不确定程度与两种可能",
+          "bodyEvidence": "explanation末教学段给L8完整中文译文，明示difficult不是impossible并保留whether两种可能，允许语序调整。",
+          "questionEvidence": {
+            "questionId": "en-reading-library-evidence-b4",
+            "transferQuestionId": "en-reading-library-evidence-b4",
+            "independentDelayedEvidence": false
+          },
+          "gap": "一条核心句的短译和逐句理解提示，只支持局部应用，不是独立系统翻译教学或全节点覆盖。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-8",
+          "nodeName": "小作文",
+          "concept": "建议信的任务回应与有条件建议",
+          "bodyEvidence": "explanation提供给Library Manager的完整原创建议信，要求一项观察、一项局限、可执行下一步，并列四项自评。",
+          "questionEvidence": {
+            "questionId": "en-reading-library-evidence-a4",
+            "transferQuestionId": "en-reading-library-evidence-a4",
+            "independentDelayedEvidence": false
+          },
+          "gap": "只支持日常建议信训练；不覆盖邀请/投诉/通知等类型，不确立2028格式字数分值。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        }
+      ],
+      "doNotMap": [
+        {
+          "nodeId": "en-plan-2",
+          "reason": "虽用基础句法但本课重点是整合应用，没有独立基础句法系统教学/评估链；不为扩大关联额外重复归类。"
+        },
+        {
+          "nodeId": "en-plan-5",
+          "reason": "没有完形题及选空教学。"
+        },
+        {
+          "nodeId": "en-plan-6",
+          "reason": "篇章理解不自动等于新题型专项训练；无匹配/排序等对应完整教学。"
+        },
+        {
+          "nodeId": "en-plan-10",
+          "reason": "所有文本题目原创；没有核验真题及官方等效模拟证据。"
+        },
+        {
+          "nodeId": "en-plan-9",
+          "reason": "建议信不是因此就覆盖大作文论述；不强行跨题类归类。"
+        }
+      ]
+    },
+    {
+      "courseId": "en-reading-garden-writing",
+      "version": "0.1-issue9-1-q0fix1",
+      "courseSHA256": "0c728c6b76887ee23c51a5475ed183b62710372a939d47bc6596b4d2e3539ca1",
+      "originalMapping": [
+        "en-integrated-reading-writing"
+      ],
+      "readScope": "本轮实际读取完整explanation（含原创全文与逐句中文提示）、definition、conditions、example、recall、12题任务/答案/主观rubric；完整A/B/L/G文本亦在上一只读阅读核对中读取。",
+      "suggestedPartialLinks": [
+        {
+          "nodeId": "en-plan-1",
+          "nodeName": "词音和词汇",
+          "concept": "词汇语境比较与主动造句",
+          "bodyEvidence": "explanation构词与语境段解释unused/revised/maintenance，区分G5 productive的产量义和G6 valuable的广义价值，解释fairly与shared搭配。",
+          "questionEvidence": {
+            "questionId": "en-reading-garden-writing-b2",
+            "transferQuestionId": "en-reading-garden-writing-d2",
+            "independentDelayedEvidence": true
+          },
+          "gap": "少量指定词和搭配；不是系统词表、全构词或语音教学。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-3",
+          "nodeName": "复杂句分析",
+          "concept": "内容主干、定语从句与让步/可能性",
+          "bodyEvidence": "explanation首段拆G6：Another replied…及a garden might be valuable，which more neighbours could use修饰garden，even if引出让步条件。",
+          "questionEvidence": {
+            "questionId": "en-reading-garden-writing-b1",
+            "transferQuestionId": "en-reading-garden-writing-a1",
+            "independentDelayedEvidence": true
+          },
+          "gap": "限本课that/which/让步组合，未覆盖倒装、省略、复杂非谓语等系统路径。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-4",
+          "nodeName": "阅读",
+          "concept": "段落关系、比较、指代与有限推断",
+          "bodyEvidence": "explanation将G1—G4目标/G5—G8价值与资料/G9—G12障碍成本结论分组；G7—G8未测健康，G9缺席不可单因解释，G12不普遍外推。",
+          "questionEvidence": {
+            "questionId": "en-reading-garden-writing-b3",
+            "transferQuestionId": "en-reading-garden-writing-a3",
+            "independentDelayedEvidence": true
+          },
+          "gap": "一个原创主题篇章，不能据此推算题库覆盖率或真实考场阅读能力。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-7",
+          "nodeName": "翻译",
+          "concept": "英译中保留对照、否定与联系",
+          "bodyEvidence": "explanation给G11译文，指出not a choice between不是否认证据，while在此对照而非必为同时动作。",
+          "questionEvidence": {
+            "questionId": "en-reading-garden-writing-b4",
+            "transferQuestionId": "en-reading-garden-writing-b4",
+            "independentDelayedEvidence": false
+          },
+          "gap": "一条核心句局部翻译应用，不取代新增翻译基础课，也不是全翻译节点覆盖。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        },
+        {
+          "nodeId": "en-plan-9",
+          "nodeName": "大作文",
+          "concept": "短议论的材料取舍、证据限制与有条件建议",
+          "bodyEvidence": "explanation末段给完整原创花园评价短文，要求准确取舍、引用观察及限制、下一步、连贯表达，允许支持或替代立场。",
+          "questionEvidence": {
+            "questionId": "en-reading-garden-writing-a4",
+            "transferQuestionId": "en-reading-garden-writing-a4",
+            "independentDelayedEvidence": false
+          },
+          "gap": "仅短议论材料应用；未覆盖全部大作文题材、审题方式、多轮修订或官方评分。原d4须显示勘误，本映射不依靠其旧错配参考。",
+          "status": "AI-internal-concept-specific-partial-link-proposal",
+          "fullCoverageVerified": false,
+          "expertApproved": false
+        }
+      ],
+      "doNotMap": [
+        {
+          "nodeId": "en-plan-2",
+          "reason": "虽用基础句法但本课重点是整合应用，没有独立基础句法系统教学/评估链；不为扩大关联额外重复归类。"
+        },
+        {
+          "nodeId": "en-plan-5",
+          "reason": "没有完形题及选空教学。"
+        },
+        {
+          "nodeId": "en-plan-6",
+          "reason": "篇章理解不自动等于新题型专项训练；无匹配/排序等对应完整教学。"
+        },
+        {
+          "nodeId": "en-plan-10",
+          "reason": "所有文本题目原创；没有核验真题及官方等效模拟证据。"
+        },
+        {
+          "nodeId": "en-plan-8",
+          "reason": "短议论不是小作文应用文类型训练；不强行跨题类归类。"
+        }
+      ]
+    }
+  ],
+  "proposalSummary": "2个英语旧内部占位mapping可提出10项概念明确的部分关联；每节点均为教学规划范围，不能当成更细的官方考纲条款。单句翻译及单篇写作尤其保留覆盖缺口。",
+  "scopeStatus": "2028-exam-spec-pending; existing local matrix read only; no repeated online syllabus check",
+  "independentExpertApprovals": 0,
+  "sharedMatrixModified": false,
+  "coursesModified": false,
+  "newCoursesCreated": false
+}
