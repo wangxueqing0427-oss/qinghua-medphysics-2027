@@ -1,0 +1,17 @@
+{
+  "browser": "webkit",
+  "attempt": 2,
+  "physicalIPhone": false,
+  "acceleratedPrerequisiteFixture": true,
+  "realNetworkOutage": true,
+  "checks": [
+    "new lesson teaching, actual closed recall, eight answers and reference-only feedback",
+    "four new delayed questions via actual UI; accelerated scheduling fixture, not wall-clock endurance",
+    "wrong and pending-answer page displays reference feedback without changing saved events",
+    "new tab reopening preserves exact synthetic profile",
+    "new namespace backup restored into separate profile with exact recall and answer payloads",
+    "existing original English52-item paper opens and saves in new namespace",
+    "TCP server stopped, fresh offline navigation and identical profile restore"
+  ],
+  "passed": true
+}
